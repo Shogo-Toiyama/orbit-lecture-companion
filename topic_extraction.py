@@ -1,5 +1,4 @@
-import os
-import json
+import os, json, time
 from dotenv import load_dotenv
 import google.generativeai as genai
 
@@ -8,6 +7,8 @@ gemini_api_key = os.getenv("GEMINI_API_KEY")
 genai.configure(api_key=gemini_api_key)
 
 # sentencesからrole分類
+print("### Role Classification ###")
+start_time_role_classification = time.time()
 
 model_json = genai.GenerativeModel(
     "gemini-2.5-flash",
@@ -27,16 +28,16 @@ ALLOWED = {"sid", "text", "start", "end", "speaker"}
 
 projected = [{k: s.get(k) for k in ALLOWED} for s in sentences]
 
+json_data_as_text_sentences = json.dumps(projected, ensure_ascii=False, indent=2)
+
+print("Waiting for response from Gemini API...")
 response_role_classification = model_json.generate_content([
-    {"role": "user", "parts": [
-        {"text": instr_role_classification},
-        {"inline_data": {
-            "mime_type": "application/json",
-            "data": json.dumps(projected).encode("utf-8")
-        }},
-    ]}
+    instr_role_classification,
+    json_data_as_text_sentences,
+    "Using the JSON data provided above, follow the instructions and return the result in JSON format."
 ])
 
+print("saving response...")
 out_role_classification = json.loads(response_role_classification.text)
 
 with open("role_selections_raw.json", "w", encoding="utf-8") as f:
@@ -78,8 +79,14 @@ if missing:
 if extra:
     print(f"[WARN] labels contain {len(extra)} extra sid(s). e.g., {extra[:5]}")
 
+end_time_role_classification = time.time()
+elapsed_time_role_classification = end_time_role_classification - start_time_role_classification
+print(f"⏰Classified roles: {elapsed_time_role_classification:.2f} seconds.") 
+
 
 # roleと文章のレビュー
+print("\n### Role and Sentence Review ###")
+start_time_role_and_sentence_review = time.time()
 
 with open("prompts/role_and_sentence_review.txt", "r", encoding="utf-8") as f:
     instr_role_and_sentence_review = f.read()
@@ -87,17 +94,16 @@ with open("prompts/role_and_sentence_review.txt", "r", encoding="utf-8") as f:
 with open("sentences_with_roles.json", "r", encoding="utf-8") as f:
     sentences_with_role = json.load(f)
 
+json_data_as_text_sentences_with_role = json.dumps(sentences_with_role, ensure_ascii=False, indent=2)
+
+print("Waiting for response from Gemini API...")
 response_role_and_sentence_review = model_json.generate_content([
-    {"role": "user", "parts": [
-        {"text": instr_role_and_sentence_review},
-        {"inline_data": {
-            "mime_type": "application/json",
-            "data": json.dumps(sentences_with_role).encode("utf-8")
-        }},
-    ]}
+    instr_role_and_sentence_review,
+    json_data_as_text_sentences_with_role,
+    "Using the JSON data provided above, follow the instructions and return the result in JSON format.",
 ])
 
-
+print("saving response...")
 out_role_and_sentence_review = json.loads(response_role_and_sentence_review.text)
 
 with open("reviewed_roles_and_sentences_raw.json", "w", encoding="utf-8") as f:
@@ -155,7 +161,14 @@ if missing:
 if extra:
     print(f"[WARN] review has {len(extra)} extra sid(s). e.g., {list(extra)[:5]}")
 
+end_time_role_and_sentence_review = time.time()
+elapsed_time_role_and_sentence_review = end_time_role_and_sentence_review - start_time_role_and_sentence_review
+print(f"⏰Reviewed roles and sentences: {elapsed_time_role_and_sentence_review:.2f} seconds.")
+
+
 # トピックを選出
+print("\n### Topic Extraction ###")
+start_time_topic_extraction = time.time()
 
 model_text = genai.GenerativeModel(
     "gemini-2.5-flash",
@@ -171,15 +184,21 @@ with open("prompts/topic_extraction.txt", "r", encoding="utf-8") as f:
 with open("sentences_final.json", "r", encoding="utf-8") as f:
     sentences_final = json.load(f)
 
+json_data_as_text_sentences_final = json.dumps(sentences_final, ensure_ascii=False, indent=2)
+
+print("Waiting for response from Gemini API...")
 response_extract_topic = model_text.generate_content([
-    {"role": "user", "parts": [
-        {"text": instr_topic_extraction},
-        {"inline_data": {
-            "mime_type": "application/json",
-            "data": json.dumps(sentences_final).encode("utf-8")
-        }},
-    ]}
+    instr_topic_extraction,
+    json_data_as_text_sentences_final,
+    "Using the JSON data provided above, follow the instructions and return the result in plain text.",
 ])
 
+print("saving response...")
 with open("topics.txt", "w", encoding="utf-8") as f:
     f.write(response_extract_topic.text)
+
+end_time_topic_extraction = time.time()
+elapsed_time_topic_extraction = end_time_topic_extraction - start_time_topic_extraction
+print(f"⏰Extracted topic: {elapsed_time_topic_extraction:.2f} seconds.")
+
+print("\n✅All tasks completed.")

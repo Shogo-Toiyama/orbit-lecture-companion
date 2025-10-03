@@ -1,0 +1,826 @@
+{
+  "labels": [
+    {
+      "sid": "s000001",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Introductory statement to lecture topic."
+    },
+    {
+      "sid": "s000002",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Introducing the core lecture topic."
+    },
+    {
+      "sid": "s000003",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Posing a rhetorical question for discussion."
+    },
+    {
+      "sid": "s000004",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Explaining a core concern about ASI development."
+    },
+    {
+      "sid": "s000005",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Clarifying a key concept: 'friendly'."
+    },
+    {
+      "sid": "s000006",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Providing background on a key figure and concept."
+    },
+    {
+      "sid": "s000007",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Defining the term 'friendly AI'."
+    },
+    {
+      "sid": "s000008",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Professor's perspective on anthropomorphizing AI."
+    },
+    {
+      "sid": "s000009",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Providing a clarifying example for 'friendly'."
+    },
+    {
+      "sid": "s000010",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Detailed explanation of 'friendly' AI meaning."
+    },
+    {
+      "sid": "s000011",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Referring to previous lecture content for context."
+    },
+    {
+      "sid": "s000012",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Continuing the context from previous lecture."
+    },
+    {
+      "sid": "s000013",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Posing a rhetorical question about author's argument."
+    },
+    {
+      "sid": "s000014",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Explaining author's critique of value uploading."
+    },
+    {
+      "sid": "s000015",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Stating a conclusion about uploading values to ASI."
+    },
+    {
+      "sid": "s000016",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Setting up a problem based on previous conclusion."
+    },
+    {
+      "sid": "s000017",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Posing a problem question for the lecture."
+    },
+    {
+      "sid": "s000018",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Elaborating on the problem of uploading values."
+    },
+    {
+      "sid": "s000019",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Summarizing exhausted possibilities for value uploading."
+    },
+    {
+      "sid": "s000020",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Posing a question about finding an alternative."
+    },
+    {
+      "sid": "s000021",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explaining the author's stance on ASI development."
+    },
+    {
+      "sid": "s000022",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Discussing potential implications of stopping development."
+    },
+    {
+      "sid": "s000023",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Stating a reason for potential cessation."
+    },
+    {
+      "sid": "s000024",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Stating a conclusion about intervention."
+    },
+    {
+      "sid": "s000025",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Contrasting with the author's actual approach."
+    },
+    {
+      "sid": "s000026",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Posing the central question for the lecture."
+    },
+    {
+      "sid": "s000027",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Leading into the alternative solution."
+    },
+    {
+      "sid": "s000028",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Introducing the concept of an indirect approach."
+    },
+    {
+      "sid": "s000029",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Introducing the main topic: indirect normativity."
+    },
+    {
+      "sid": "s000030",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Repeating the key term for emphasis."
+    },
+    {
+      "sid": "s000031",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Attributing the idea to Yudkowski."
+    },
+    {
+      "sid": "s000032",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Introducing a component of the main idea."
+    },
+    {
+      "sid": "s000033",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Stating the full term: extrapolated volition."
+    },
+    {
+      "sid": "s000034",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor misstates term, likely prompting correction."
+    },
+    {
+      "sid": "s000035",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor's reaction to implied correction."
+    },
+    {
+      "sid": "s000036",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor asking for clarification of error."
+    },
+    {
+      "sid": "s000037",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Likely student correction of the term."
+    },
+    {
+      "sid": "s000038",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor acknowledging the correction."
+    },
+    {
+      "sid": "s000039",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Correct term stated by professor."
+    },
+    {
+      "sid": "s000040",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor confirming the correct term."
+    },
+    {
+      "sid": "s000041",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor thanking for the correction."
+    },
+    {
+      "sid": "s000042",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor repeating the correct term."
+    },
+    {
+      "sid": "s000043",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor completing the corrected term."
+    },
+    {
+      "sid": "s000044",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor introducing acronym and repeating term."
+    },
+    {
+      "sid": "s000045",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor repeating the term for clarity."
+    },
+    {
+      "sid": "s000046",
+      "role": "qa",
+      "role_score": 0.98,
+      "role_reason": "Professor explicitly asking for questions."
+    },
+    {
+      "sid": "s000047",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Transitioning back to explaining the concept."
+    },
+    {
+      "sid": "s000048",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Filler word during lecture transition."
+    },
+    {
+      "sid": "s000049",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explaining the author's rationale for the approach."
+    },
+    {
+      "sid": "s000050",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explaining the author's rationale for the approach."
+    },
+    {
+      "sid": "s000051",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Explaining the method to find CEV."
+    },
+    {
+      "sid": "s000052",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Explaining the objective of CEV and value alignment."
+    },
+    {
+      "sid": "s000053",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Elaborating on the objective and impossibility of direct uploading."
+    },
+    {
+      "sid": "s000054",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Explaining a reason for difficulty in value uploading."
+    },
+    {
+      "sid": "s000055",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Explaining a second reason for difficulty in value uploading."
+    },
+    {
+      "sid": "s000056",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Explaining the approach to derive human values."
+    },
+    {
+      "sid": "s000057",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Explaining the approach and its advantages."
+    },
+    {
+      "sid": "s000058",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Summarizing the goal of informing the computer."
+    },
+    {
+      "sid": "s000059",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Rhetorical question posed by the professor."
+    },
+    {
+      "sid": "s000060",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Answering the rhetorical question, defining 'extrapolated'."
+    },
+    {
+      "sid": "s000061",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Detailed explanation of the extrapolation process."
+    },
+    {
+      "sid": "s000062",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Introducing an analogy from a previous article."
+    },
+    {
+      "sid": "s000063",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Continuing the analogy to illustrate the concept."
+    },
+    {
+      "sid": "s000064",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explaining a key principle of the approach."
+    },
+    {
+      "sid": "s000065",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Naming the 'heuristic principle'."
+    },
+    {
+      "sid": "s000066",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Defining the 'heuristic principle'."
+    },
+    {
+      "sid": "s000067",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Detailed explanation of the heuristic principle."
+    },
+    {
+      "sid": "s000068",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Summarizing the concept of a baseline."
+    },
+    {
+      "sid": "s000069",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Discussing a difficulty with the baseline."
+    },
+    {
+      "sid": "s000070",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Acknowledging the difficulty."
+    },
+    {
+      "sid": "s000071",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Referring to problems discussed in the reading."
+    },
+    {
+      "sid": "s000072",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Summarizing the problem and the indirect solution."
+    },
+    {
+      "sid": "s000073",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Stating the feasibility of the indirect approach."
+    },
+    {
+      "sid": "s000074",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Introducing a key statement/poem by Yudkowski."
+    },
+    {
+      "sid": "s000075",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explaining the analysis of the statement."
+    },
+    {
+      "sid": "s000076",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Explaining the core meaning of the statement."
+    },
+    {
+      "sid": "s000077",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Elaborating on conditions for understanding true desires."
+    },
+    {
+      "sid": "s000078",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Clarifying convergent vs. divergent thinking about values."
+    },
+    {
+      "sid": "s000079",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Providing examples of divergent value sets."
+    },
+    {
+      "sid": "s000080",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Shifting focus to a broader definition of human values."
+    },
+    {
+      "sid": "s000081",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Completing the thought on human values."
+    },
+    {
+      "sid": "s000082",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Explaining extrapolation and coherence in CEV."
+    },
+    {
+      "sid": "s000083",
+      "role": "qa",
+      "role_score": 0.98,
+      "role_reason": "Professor explicitly asking for questions."
+    },
+    {
+      "sid": "s000084",
+      "role": "qa",
+      "role_score": 0.98,
+      "role_reason": "Student indicating they have a question."
+    },
+    {
+      "sid": "s000085",
+      "role": "qa",
+      "role_score": 0.98,
+      "role_reason": "Student posing a question about tractability."
+    },
+    {
+      "sid": "s000086",
+      "role": "qa",
+      "role_score": 0.95,
+      "role_reason": "Student clarifying their input as a comment."
+    },
+    {
+      "sid": "s000087",
+      "role": "qa",
+      "role_score": 0.98,
+      "role_reason": "Professor's direct answer to the student's question."
+    },
+    {
+      "sid": "s000088",
+      "role": "qa",
+      "role_score": 0.98,
+      "role_reason": "Professor elaborating on the difficulty of rule following."
+    },
+    {
+      "sid": "s000089",
+      "role": "qa",
+      "role_score": 0.95,
+      "role_reason": "Professor referencing a philosopher to support argument."
+    },
+    {
+      "sid": "s000090",
+      "role": "qa",
+      "role_score": 0.98,
+      "role_reason": "Professor stating conclusion about rule following."
+    },
+    {
+      "sid": "s000091",
+      "role": "qa",
+      "role_score": 0.98,
+      "role_reason": "Professor arguing rule following is not human behavior."
+    },
+    {
+      "sid": "s000092",
+      "role": "qa",
+      "role_score": 0.98,
+      "role_reason": "Professor providing example of human behavior vs rules."
+    },
+    {
+      "sid": "s000093",
+      "role": "qa",
+      "role_score": 0.98,
+      "role_reason": "Professor concluding rule following is not viable."
+    },
+    {
+      "sid": "s000094",
+      "role": "qa",
+      "role_score": 0.98,
+      "role_reason": "Professor explaining volition idea is not rule-based."
+    },
+    {
+      "sid": "s000095",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor pausing during explanation."
+    },
+    {
+      "sid": "s000096",
+      "role": "qa",
+      "role_score": 0.98,
+      "role_reason": "Professor explaining the computer's role in invention."
+    },
+    {
+      "sid": "s000097",
+      "role": "qa",
+      "role_score": 0.98,
+      "role_reason": "Professor contrasting rule following with CEV."
+    },
+    {
+      "sid": "s000098",
+      "role": "qa",
+      "role_score": 0.98,
+      "role_reason": "Professor explaining CEV's open-ended, abstract nature."
+    },
+    {
+      "sid": "s000099",
+      "role": "qa",
+      "role_score": 0.98,
+      "role_reason": "Professor explaining how ASI makes concrete decisions."
+    },
+    {
+      "sid": "s000100",
+      "role": "qa",
+      "role_score": 0.98,
+      "role_reason": "Professor summarizing CEV as open-ended."
+    },
+    {
+      "sid": "s000101",
+      "role": "qa",
+      "role_score": 0.98,
+      "role_reason": "Professor contrasting rule following's misinterpretation."
+    },
+    {
+      "sid": "s000102",
+      "role": "qa",
+      "role_score": 0.98,
+      "role_reason": "Professor emphasizing ease of misinterpretation for rules."
+    },
+    {
+      "sid": "s000103",
+      "role": "qa",
+      "role_score": 0.98,
+      "role_reason": "Professor providing an example of rule misinterpretation."
+    },
+    {
+      "sid": "s000104",
+      "role": "qa",
+      "role_score": 0.98,
+      "role_reason": "Continuing the example of rule misinterpretation."
+    },
+    {
+      "sid": "s000105",
+      "role": "qa",
+      "role_score": 0.98,
+      "role_reason": "Continuing the example of rule misinterpretation."
+    },
+    {
+      "sid": "s000106",
+      "role": "qa",
+      "role_score": 0.98,
+      "role_reason": "Professor concluding the problem with rules."
+    },
+    {
+      "sid": "s000107",
+      "role": "qa",
+      "role_score": 0.98,
+      "role_reason": "Professor contrasting with the 'poem' approach."
+    },
+    {
+      "sid": "s000108",
+      "role": "qa",
+      "role_score": 0.98,
+      "role_reason": "Continuing the contrast with the 'poem' approach."
+    },
+    {
+      "sid": "s000109",
+      "role": "qa",
+      "role_score": 0.98,
+      "role_reason": "Continuing the contrast with the 'poem' approach."
+    },
+    {
+      "sid": "s000110",
+      "role": "qa",
+      "role_score": 0.95,
+      "role_reason": "Speaker B interjecting with a related point."
+    },
+    {
+      "sid": "s000111",
+      "role": "qa",
+      "role_score": 0.95,
+      "role_reason": "Speaker B providing a related quote."
+    },
+    {
+      "sid": "s000112",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor acknowledging Speaker B's point."
+    },
+    {
+      "sid": "s000113",
+      "role": "qa",
+      "role_score": 0.95,
+      "role_reason": "Professor elaborating on Generative AI's capability."
+    },
+    {
+      "sid": "s000114",
+      "role": "qa",
+      "role_score": 0.95,
+      "role_reason": "Professor agreeing with the previous statement."
+    },
+    {
+      "sid": "s000115",
+      "role": "qa",
+      "role_score": 0.95,
+      "role_reason": "Speaker B continuing their thought."
+    },
+    {
+      "sid": "s000116",
+      "role": "qa",
+      "role_score": 0.95,
+      "role_reason": "Professor completing Speaker B's thought."
+    },
+    {
+      "sid": "s000117",
+      "role": "qa",
+      "role_score": 0.95,
+      "role_reason": "Professor summarizing the point about rule following."
+    },
+    {
+      "sid": "s000118",
+      "role": "qa",
+      "role_score": 0.95,
+      "role_reason": "Professor agreeing with the summary."
+    },
+    {
+      "sid": "s000119",
+      "role": "qa",
+      "role_score": 0.95,
+      "role_reason": "Professor elaborating on human behavior and rules."
+    },
+    {
+      "sid": "s000120",
+      "role": "qa",
+      "role_score": 0.95,
+      "role_reason": "Professor explaining the meaning behind rules."
+    },
+    {
+      "sid": "s000121",
+      "role": "qa",
+      "role_score": 0.95,
+      "role_reason": "Speaker B introducing an article for discussion."
+    },
+    {
+      "sid": "s000122",
+      "role": "qa",
+      "role_score": 0.95,
+      "role_reason": "Speaker B providing context about the author."
+    },
+    {
+      "sid": "s000123",
+      "role": "qa",
+      "role_score": 0.95,
+      "role_reason": "Speaker B introducing the article title and author."
+    },
+    {
+      "sid": "s000124",
+      "role": "qa",
+      "role_score": 0.98,
+      "role_reason": "Speaker B explaining the core lesson of the article."
+    },
+    {
+      "sid": "s000125",
+      "role": "qa",
+      "role_score": 0.98,
+      "role_reason": "Speaker B reiterating that putting rules into systems fails."
+    },
+    {
+      "sid": "s000126",
+      "role": "qa",
+      "role_score": 0.98,
+      "role_reason": "Speaker B explaining what works in AI development."
+    },
+    {
+      "sid": "s000127",
+      "role": "qa",
+      "role_score": 0.98,
+      "role_reason": "Speaker B providing examples of successful AI systems."
+    },
+    {
+      "sid": "s000128",
+      "role": "qa",
+      "role_score": 0.98,
+      "role_reason": "Speaker B concluding on reliance on computational growth."
+    },
+    {
+      "sid": "s000129",
+      "role": "qa",
+      "role_score": 0.98,
+      "role_reason": "Speaker B contrasting historical and modern AI approaches."
+    },
+    {
+      "sid": "s000130",
+      "role": "qa",
+      "role_score": 0.98,
+      "role_reason": "Speaker B summarizing the effective approach in AI."
+    },
+    {
+      "sid": "s000131",
+      "role": "qa",
+      "role_score": 0.98,
+      "role_reason": "Speaker B continuing the summary of AI learning systems."
+    },
+    {
+      "sid": "s000132",
+      "role": "qa",
+      "role_score": 0.98,
+      "role_reason": "Professor interjecting, agreeing with the point about rules."
+    },
+    {
+      "sid": "s000133",
+      "role": "qa",
+      "role_score": 0.98,
+      "role_reason": "Speaker B continuing to criticize alternative approaches."
+    },
+    {
+      "sid": "s000134",
+      "role": "qa",
+      "role_score": 0.98,
+      "role_reason": "Speaker B reiterating that human knowledge input fails."
+    },
+    {
+      "sid": "s000135",
+      "role": "qa",
+      "role_score": 0.95,
+      "role_reason": "Speaker B introducing another classic example: vision."
+    },
+    {
+      "sid": "s000136",
+      "role": "qa",
+      "role_score": 0.95,
+      "role_reason": "Speaker B explaining old vision approaches."
+    },
+    {
+      "sid": "s000137",
+      "role": "qa",
+      "role_score": 0.95,
+      "role_reason": "Speaker B continuing the example of old vision approaches."
+    }
+  ]
+}
