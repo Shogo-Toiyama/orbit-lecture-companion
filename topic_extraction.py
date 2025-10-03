@@ -9,7 +9,7 @@ genai.configure(api_key=gemini_api_key)
 
 # sentencesからrole分類
 
-model = genai.GenerativeModel(
+model_json = genai.GenerativeModel(
     "gemini-2.5-flash",
     generation_config={
         "temperature": 0.2,
@@ -27,7 +27,7 @@ ALLOWED = {"sid", "text", "start", "end", "speaker"}
 
 projected = [{k: s.get(k) for k in ALLOWED} for s in sentences]
 
-response = model.generate_content([
+response_role_classification = model_json.generate_content([
     {"role": "user", "parts": [
         {"text": instr_role_classification},
         {"inline_data": {
@@ -37,7 +37,7 @@ response = model.generate_content([
     ]}
 ])
 
-out_role_classification = json.loads(response.text)
+out_role_classification = json.loads(response_role_classification.text)
 
 with open("role_selections_raw.json", "w", encoding="utf-8") as f:
     json.dump(out_role_classification, f, ensure_ascii=False, indent=2)
@@ -87,7 +87,7 @@ with open("prompts/role_and_sentence_review.txt", "r", encoding="utf-8") as f:
 with open("sentences_with_roles.json", "r", encoding="utf-8") as f:
     sentences_with_role = json.load(f)
 
-response = model.generate_content([
+response_role_and_sentence_review = model_json.generate_content([
     {"role": "user", "parts": [
         {"text": instr_role_and_sentence_review},
         {"inline_data": {
@@ -98,7 +98,7 @@ response = model.generate_content([
 ])
 
 
-out_role_and_sentence_review = json.loads(response.text)
+out_role_and_sentence_review = json.loads(response_role_and_sentence_review.text)
 
 with open("reviewed_roles_and_sentences_raw.json", "w", encoding="utf-8") as f:
     json.dump(out_role_and_sentence_review, f, ensure_ascii=False, indent=2)
@@ -156,3 +156,30 @@ if extra:
     print(f"[WARN] review has {len(extra)} extra sid(s). e.g., {list(extra)[:5]}")
 
 # トピックを選出
+
+model_text = genai.GenerativeModel(
+    "gemini-2.5-flash",
+    generation_config={
+        "temperature": 0.2,
+        "response_mime_type": "text/plain",
+    },
+)
+
+with open("prompts/topic_extraction.txt", "r", encoding="utf-8") as f:
+    instr_topic_extraction = f.read()
+
+with open("sentences_final.json", "r", encoding="utf-8") as f:
+    sentences_final = json.load(f)
+
+response_extract_topic = model_text.generate_content([
+    {"role": "user", "parts": [
+        {"text": instr_topic_extraction},
+        {"inline_data": {
+            "mime_type": "application/json",
+            "data": json.dumps(sentences_final).encode("utf-8")
+        }},
+    ]}
+])
+
+with open("topics.txt", "w", encoding="utf-8") as f:
+    f.write(response_extract_topic.text)
