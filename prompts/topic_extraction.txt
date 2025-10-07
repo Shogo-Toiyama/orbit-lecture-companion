@@ -43,6 +43,8 @@ Return a single numbered list with each topic on its own line, no extra commenta
 
 CONSTRAINTS
 - Output only the numbered list as plain text. No JSON, no explanations, no timestamps.
+- List each topic on a new line.
+- The final line should not have a newline at the end (no trailing newline).
 - Do not repeat topics or include near-duplicates.
 - Keep each topic name short and student-friendly.
 

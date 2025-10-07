@@ -201,4 +201,4 @@ end_time_topic_extraction = time.time()
 elapsed_time_topic_extraction = end_time_topic_extraction - start_time_topic_extraction
 print(f"⏰Extracted topic: {elapsed_time_topic_extraction:.2f} seconds.")
 
-print("\n✅All tasks completed.")
+print("\n✅All tasks of TOPIC EXTRACTION completed.")

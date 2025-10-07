@@ -1,0 +1,209 @@
+{
+  "idx": 5,
+  "title": "CEV vs. Rule-Based AI Approaches",
+  "count": 25,
+  "sids": [
+    "s000085",
+    "s000087",
+    "s000088",
+    "s000090",
+    "s000091",
+    "s000093",
+    "s000094",
+    "s000096",
+    "s000097",
+    "s000098",
+    "s000099",
+    "s000101",
+    "s000105",
+    "s000106",
+    "s000107",
+    "s000111",
+    "s000113",
+    "s000116",
+    "s000119",
+    "s000120",
+    "s000124",
+    "s000125",
+    "s000126",
+    "s000132",
+    "s000134"
+  ],
+  "evidences": [
+    {
+      "sid": "s000085",
+      "text": "I don't see how implementing this poem is any more tractable than implementing rules.",
+      "start": 715180,
+      "end": 720140,
+      "role": "qa"
+    },
+    {
+      "sid": "s000087",
+      "text": "Well, it's more tractable in the sense that rules are open to interpretation.",
+      "start": 724380,
+      "end": 731340,
+      "role": "qa"
+    },
+    {
+      "sid": "s000088",
+      "text": "There are just too many different ways of interpreting rules and rule following is virtually impossible.",
+      "start": 732780,
+      "end": 739870,
+      "role": "qa"
+    },
+    {
+      "sid": "s000090",
+      "text": "Rule following just makes no sense.",
+      "start": 743070,
+      "end": 745230,
+      "role": "qa"
+    },
+    {
+      "sid": "s000091",
+      "text": "It's not what human beings do either.",
+      "start": 745230,
+      "end": 747070,
+      "role": "qa"
+    },
+    {
+      "sid": "s000093",
+      "text": "So rule following is really out of the question.",
+      "start": 752270,
+      "end": 756350,
+      "role": "qa"
+    },
+    {
+      "sid": "s000094",
+      "text": "This, the volition idea is not about rule following, if there is a rule at all.",
+      "start": 756830,
+      "end": 765390,
+      "role": "qa"
+    },
+    {
+      "sid": "s000096",
+      "text": "It is one that the computer itself would invent.",
+      "start": 765710,
+      "end": 768670,
+      "role": "qa"
+    },
+    {
+      "sid": "s000097",
+      "text": "So rule following is not open ended, but it's easy to misinterpret.",
+      "start": 769390,
+      "end": 776430,
+      "role": "qa"
+    },
+    {
+      "sid": "s000098",
+      "text": "Whereas the CEV is open ended, it is open to interpretation because it is an abstraction and on the basis of that abstraction, in other words, it's the thought that counts, the thought behind it.",
+      "start": 776830,
+      "end": 793550,
+      "role": "qa"
+    },
+    {
+      "sid": "s000099",
+      "text": "The ASI is able to specifically make decisions in a concrete way.",
+      "start": 793630,
+      "end": 801380,
+      "role": "qa"
+    },
+    {
+      "sid": "s000101",
+      "text": "Rule following is not open ended, but open to misinterpretation.",
+      "start": 804420,
+      "end": 807620,
+      "role": "qa"
+    },
+    {
+      "sid": "s000105",
+      "text": "And I come back and say, well, you didn't do what I meant.",
+      "start": 822950,
+      "end": 825670,
+      "role": "qa"
+    },
+    {
+      "sid": "s000106",
+      "text": "That's the problem with a rule.",
+      "start": 826310,
+      "end": 827990,
+      "role": "qa"
+    },
+    {
+      "sid": "s000107",
+      "text": "But then we refer to the poem and say, do what I would want you to do if I had all the time in the world to think.",
+      "start": 828550,
+      "end": 834550,
+      "role": "qa"
+    },
+    {
+      "sid": "s000111",
+      "text": "Has a quote that's something along the lines of like, do as I mean, not as I say.",
+      "start": 843790,
+      "end": 848550,
+      "role": "qa"
+    },
+    {
+      "sid": "s000113",
+      "text": "And that's actually probably one of the better things that Generative AI is doing right now is being able to take for each of us.",
+      "start": 849380,
+      "end": 855500,
+      "role": "qa"
+    },
+    {
+      "sid": "s000116",
+      "text": "And get to what the real question was there.",
+      "start": 858020,
+      "end": 860660,
+      "role": "qa"
+    },
+    {
+      "sid": "s000119",
+      "text": "When we go through society, we don't really follow each rule.",
+      "start": 865940,
+      "end": 868460,
+      "role": "qa"
+    },
+    {
+      "sid": "s000120",
+      "text": "We do what the meaning behind the rule is, and hopefully that's what our systems will do.",
+      "start": 868460,
+      "end": 872820,
+      "role": "qa"
+    },
+    {
+      "sid": "s000124",
+      "text": "So he said, in the last 70 years, the only thing we have discovered by going through AI research is that putting human knowledge into systems does not work.",
+      "start": 893690,
+      "end": 905450,
+      "role": "qa"
+    },
+    {
+      "sid": "s000125",
+      "text": "So putting rules into systems does not work.",
+      "start": 905770,
+      "end": 908490,
+      "role": "qa"
+    },
+    {
+      "sid": "s000126",
+      "text": "What works is building general search systems, learning systems which are then given data and they go learn for themselves.",
+      "start": 908890,
+      "end": 918010,
+      "role": "qa"
+    },
+    {
+      "sid": "s000132",
+      "text": "To do stuff, and we can't put rules into them.",
+      "start": 951430,
+      "end": 954710,
+      "role": "qa"
+    },
+    {
+      "sid": "s000134",
+      "text": "Putting human knowledge into these systems does not work.",
+      "start": 959970,
+      "end": 963410,
+      "role": "qa"
+    }
+  ]
+}

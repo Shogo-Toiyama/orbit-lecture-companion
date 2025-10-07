@@ -25,9 +25,6 @@ SELECTION RULES
 - Maintain order and integrity:
   • Preserve the **original chronological order** of SIDs inside each topic list.  
   • Do not invent or modify SIDs. Do not include duplicates within a topic.
-- Size guideline per topic:
-  • Aim ~15–80 sentences per topic (adjust to content density).  
-  • Hard cap 120 per topic. If more are needed, keep the most essential and context sentences only.
 
 DECISION HEURISTICS
 - Boundaries: transitions like “Now…”, “Next…”, “In contrast…”, definition → example, setup → method, problem → solution.
@@ -39,14 +36,15 @@ OUTPUT (JSON ONLY; NO extra text)
 Return exactly this shape:
 {
   "topics": [
-    { "title": "<Topic A>", "sids": ["s_000123", "s_000124", "..."] },
-    { "title": "<Topic B>", "sids": ["s_000310", "s_000311", "..."] },
+    { "idx": 1, "title": "<Topic A>", "sids": ["s_000123", "s_000124", "..."] },
+    { "idx": 2, "title": "<Topic B>", "sids": ["s_000310", "s_000311", "..."] },
     ...
   ]
 }
 
 CONSTRAINTS
-- The "title" must match one of the provided topics (string match after trimming numbering).
+- The "idx" is the index of a topic. It must start from 1 and up to the last of the topic list.
+- The "title" must match the topic of the index in "idx" section (string match after trimming numbering).
 - Each "sids" array must contain only SIDs present in the input, in chronological order, with no duplicates inside that array.
 - It is OK for the same SID to appear under multiple topics when justified.
 - Do not include any fields other than "title" and "sids".
