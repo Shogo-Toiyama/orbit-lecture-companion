@@ -1,5 +1,10 @@
 import os, json, time, re
 from pathlib import Path
+
+from dotenv import load_dotenv
+from google import genai
+from google.genai import types
+import os
  
 def sanitize_filename(name):
     name = name.strip()
@@ -9,29 +14,30 @@ def sanitize_filename(name):
         name = name[:100].rstrip()
     return name
 
-def generate_topic_details(model_json, model_text, lecture_dir: Path):
+def generate_topic_details(client, gen_model, config_json, config_text, lecture_dir: Path):
     # topicsごとのsidを生成
     print("\n### Topic Evidence Selection ###")
 
     start_time_topic_evidence_selection = time.time()
-    with open("prompts/topic_evidence_selection.txt", "r", encoding="utf-8") as f:
-        instr_topic_evidence_selection = f.read()
+    instr_topic_evidence_selection = Path("prompts/topic_evidence_selection.txt").read_text(encoding="utf-8")
 
     with open(lecture_dir / "topics.txt", "r", encoding="utf-8") as f:
         topics = f.read()
 
-    with open(lecture_dir / "sentences_final.json", "r", encoding="utf-8") as f:
-        sentences_final = json.load(f)
-
-    json_data_as_text_sentences_final = json.dumps(sentences_final, ensure_ascii=False, indent=2)
+    sentences_final = Path(lecture_dir / "sentences_final.json").read_text(encoding="utf-8")
 
     print("Waiting for response from Gemini API...")
-    response_topic_evidence_selection = model_json.generate_content([
+    contents = [
         instr_topic_evidence_selection,
         topics,
-        json_data_as_text_sentences_final,
+        sentences_final,
         "Using the text and JSON data provided above, follow the instructions and return the result in JSON format."
-    ])
+    ]
+    response_topic_evidence_selection = client.models.generate_content(
+        model = gen_model,
+        contents = contents,
+        config = config_json
+    )
 
     print("saving response...")
     out_topic_evidence_selection = json.loads(response_topic_evidence_selection.text)
@@ -122,12 +128,17 @@ def generate_topic_details(model_json, model_text, lecture_dir: Path):
         })
 
         print(f"Waiting for response from Gemini API for topic {idx}...")
-        response_topic_detail = model_text.generate_content([
+        contents = [
             instr_topic_details_generation,
             f"Topic: {title}",
             json.dumps(evidence_rows, ensure_ascii=False, indent=2),
             "Using the text and JSON data provided above, follow the instructions and return the result in plain text.",
-        ])
+        ]
+        response_topic_detail = client.models.generate_content(
+            model = gen_model,
+            contents = contents,
+            config = config_text
+        )
 
         print("saving response...")
         with open(DETAIL_DRAFT_DIR / f"{base} - details.txt", "w", encoding="utf-8") as f:
@@ -176,12 +187,17 @@ def generate_topic_details(model_json, model_text, lecture_dir: Path):
         json_data_as_text_evidence = json.dumps(evidence_data, ensure_ascii=False, indent=2)
 
         print("Waiting for response from Gemini API...")
-        response_faithfulness_check = model_text.generate_content([
+        contents = [
             instr_faithfulness_check,
             detail_text,
             json_data_as_text_evidence,
             "Using the text(draft markdown) and JSON(evidence) data provided above, follow the instructions and return the result in plain text.",
-        ])
+        ]
+        response_faithfulness_check = client.models.generate_content(
+            model = gen_model,
+            contents = contents,
+            config = config_text
+        )
 
         print("saving response...")
         with open(DETAIL_EDITED_DIR / detail_path.name, "w", encoding="utf-8") as f:
@@ -195,3 +211,41 @@ def generate_topic_details(model_json, model_text, lecture_dir: Path):
     print(f"⏰Checked and edited topic details: {elapsed_time_faithfulness_check:.2f} seconds.")
 
     print("\n✅All tasks of TOPIC DETAIL GENERATION completed.")
+
+
+# ------ for test -------
+def config_json(thinking: int = 0, google_search: bool = False):
+    kwargs = dict(
+        temperature=0.2,
+        response_mime_type="application/json",
+    )
+    if thinking > 0:
+        kwargs["thinking_config"] = types.ThinkingConfig(thinking_budget=thinking)
+    if google_search:
+        kwargs["tools"] = [types.Tool(google_search=types.GoogleSearch())]
+    return types.GenerateContentConfig(**kwargs)
+
+def config_text(thinking: int = 0, google_search: int = 0):
+    kwargs = dict(
+        temperature=0.2,
+        response_mime_type="text/plain",
+    )
+    if thinking > 0:
+        kwargs["thinking_config"] = types.ThinkingConfig(thinking_budget=thinking)
+    if google_search:
+        kwargs["tools"] = [types.Tool(google_search=types.GoogleSearch())]
+    return types.GenerateContentConfig(**kwargs)
+
+def main():
+    load_dotenv()
+    client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
+
+    GEN_MODEL = "gemini-2.5-flash"
+
+    ROOT = Path(__file__).resolve().parent
+    LECTURE_DIR = ROOT / "lectures/2025-10-07-21-27-43-0700"
+
+    generate_topic_details(client, GEN_MODEL, config_json(), config_text(), LECTURE_DIR)
+
+if __name__ == "__main__":
+    main()

@@ -1,0 +1,42 @@
+# Graph Basics & Representation
+
+This lecture introduces the fundamental concept of graphs, which are tools for analytical thinking. It defines what a graph is, detailing its core components—vertices and edges—and explains various ways to represent a graph, including formal notation and visual diagrams.
+
+## What is a Graph?
+
+A **graph** is a fundamental structure used in analytical thinking. It consists of two primary components: a set of **vertices** and a set of **edges**. The terms *vertex* (plural: *vertices*) and *edge* (plural: *edges*) will be consistently used throughout the class.
+
+## Components of a Graph: Vertices and Edges
+
+*   **Vertices**: These are the individual points in a graph, typically represented visually by small circles. The specific names given to vertices (e.g., 1, 2, 3 or A, B, C) are not inherently important.
+*   **Edges**: Each **edge** is a pair of vertices, explicitly linking two vertices and indicating a relationship or connection between them.
+
+For example, a simple graph might have three vertices and two edges. If the vertices are named 1, 2, and 3, the edges could be between vertex 1 and vertex 2, and between vertex 2 and vertex 3.
+
+## Formal Notation of a Graph
+
+A graph is commonly denoted by the letter **G**. Formally, a graph G is defined by its set of vertices and its set of edges.
+
+*   **Set of Vertices (V)**: This is a collection of all the individual vertices in the graph. For instance, in a graph with vertices 1, 2, and 3, the set V would be {1, 2, 3}.
+*   **Set of Edges (E)**: This is a collection of all the connections in the graph. Since each edge connects a pair of vertices, the edge set lists these pairs. For example, if vertex 1 is connected to vertex 2, and vertex 2 is connected to vertex 3, the edge set E would be {(1, 2), (2, 3)}.
+
+So, a graph can be represented as G = (V, E), where V is the set of vertices and E is the set of edges.
+
+## Methods for Representing a Graph
+
+There are several ways to represent or describe a graph, and all of them should provide complete information about the graph's structure:
+
+1.  **Drawing**: A visual representation where vertices are drawn as circles and edges as lines connecting them. This is often the easiest and most common way to communicate a graph, especially in this class, as a picture is generally clearer than a textual description.
+2.  **Verbal Description**: Describing the graph in words, such as stating the number of vertices and edges, and listing which vertices are connected. For example, "a graph with three vertices (1, 2, 3) and edges connecting (1, 2) and (2, 3)."
+3.  **Equation/Formal Notation**: Writing out the graph using its formal definition, G = (V, E), by explicitly listing the set of vertices and the set of edges.
+
+The lecture emphasizes that while all methods convey the same information, visual drawings will be the primary method used for communication in the class due to their clarity.
+
+## Summary of Graph Concepts
+
+*   A **graph** is a structure composed of **vertices** (points) and **edges** (connections).
+*   **Vertices** are individual points, often represented by circles, and can be named (e.g., 1, 2, 3).
+*   **Edges** are connections between pairs of vertices, indicating a relationship.
+*   A graph is formally denoted as **G = (V, E)**, where V is the set of vertices and E is the set of edges.
+*   Graphs can be represented through **drawings**, **verbal descriptions**, or **formal notation**, all providing complete information.
+*   Visual drawings are the preferred method for communicating graphs in this class due to their ease of understanding.

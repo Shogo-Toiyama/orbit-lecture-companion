@@ -1,0 +1,1409 @@
+{
+  "idx": 6,
+  "title": "Algorithm Time Complexity Analysis",
+  "count": 175,
+  "sids": [
+    "s000001",
+    "s000008",
+    "s000027",
+    "s000028",
+    "s000030",
+    "s000031",
+    "s000032",
+    "s000033",
+    "s000034",
+    "s000035",
+    "s000036",
+    "s000046",
+    "s000047",
+    "s000055",
+    "s000056",
+    "s000057",
+    "s000058",
+    "s000059",
+    "s000060",
+    "s000061",
+    "s000215",
+    "s000216",
+    "s000217",
+    "s000218",
+    "s000219",
+    "s000220",
+    "s000221",
+    "s000223",
+    "s000224",
+    "s000225",
+    "s000316",
+    "s000317",
+    "s000318",
+    "s000358",
+    "s000409",
+    "s000410",
+    "s000411",
+    "s000491",
+    "s000493",
+    "s000494",
+    "s000501",
+    "s000538",
+    "s000611",
+    "s000612",
+    "s000631",
+    "s000632",
+    "s000633",
+    "s000634",
+    "s000635",
+    "s000636",
+    "s000637",
+    "s000638",
+    "s000639",
+    "s000647",
+    "s000648",
+    "s000649",
+    "s000650",
+    "s000651",
+    "s000652",
+    "s000653",
+    "s000654",
+    "s000655",
+    "s000656",
+    "s000657",
+    "s000658",
+    "s000659",
+    "s000660",
+    "s000661",
+    "s000662",
+    "s000666",
+    "s000667",
+    "s000668",
+    "s000669",
+    "s000670",
+    "s000671",
+    "s000672",
+    "s000673",
+    "s000674",
+    "s000675",
+    "s000676",
+    "s000677",
+    "s000678",
+    "s000679",
+    "s000680",
+    "s000681",
+    "s000682",
+    "s000683",
+    "s000684",
+    "s000685",
+    "s000686",
+    "s000687",
+    "s000688",
+    "s000689",
+    "s000690",
+    "s000691",
+    "s000692",
+    "s000693",
+    "s000694",
+    "s000695",
+    "s000696",
+    "s000697",
+    "s000698",
+    "s000699",
+    "s000700",
+    "s000701",
+    "s000702",
+    "s000703",
+    "s000704",
+    "s000705",
+    "s000706",
+    "s000707",
+    "s000708",
+    "s000709",
+    "s000710",
+    "s000711",
+    "s000712",
+    "s000713",
+    "s000714",
+    "s000715",
+    "s000716",
+    "s000717",
+    "s000719",
+    "s000720",
+    "s000721",
+    "s000722",
+    "s000723",
+    "s000724",
+    "s000725",
+    "s000726",
+    "s000727",
+    "s000728",
+    "s000729",
+    "s000732",
+    "s000733",
+    "s000735",
+    "s000736",
+    "s000737",
+    "s000739",
+    "s000740",
+    "s000741",
+    "s000742",
+    "s000743",
+    "s000745",
+    "s000746",
+    "s000747",
+    "s000748",
+    "s000749",
+    "s000750",
+    "s000751",
+    "s000752",
+    "s000753",
+    "s000754",
+    "s000755",
+    "s000756",
+    "s000757",
+    "s000758",
+    "s000759",
+    "s000760",
+    "s000761",
+    "s000762",
+    "s000763",
+    "s000764",
+    "s000766",
+    "s000767",
+    "s000768",
+    "s000769",
+    "s000770",
+    "s000771",
+    "s000772",
+    "s000773",
+    "s000774",
+    "s000782",
+    "s000785",
+    "s000786",
+    "s000787"
+  ],
+  "evidences": [
+    {
+      "sid": "s000001",
+      "text": "N cubed algorithm or N squared or N?",
+      "start": 1840,
+      "end": 4720,
+      "role": "qa"
+    },
+    {
+      "sid": "s000008",
+      "text": "Time complexity.",
+      "start": 21680,
+      "end": 22880,
+      "role": "qa"
+    },
+    {
+      "sid": "s000027",
+      "text": "What is its time complexity?",
+      "start": 90110,
+      "end": 91830,
+      "role": "announcement"
+    },
+    {
+      "sid": "s000028",
+      "text": "You can't just say order in a square.",
+      "start": 91830,
+      "end": 93870,
+      "role": "announcement"
+    },
+    {
+      "sid": "s000030",
+      "text": "For example, as I did, there are N square equation.",
+      "start": 95630,
+      "end": 98670,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000031",
+      "text": "Each of them take constant times.",
+      "start": 99070,
+      "end": 101030,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000032",
+      "text": "Therefore in time of orders were asked.",
+      "start": 101030,
+      "end": 103400,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000033",
+      "text": "Yeah, why is that?",
+      "start": 112680,
+      "end": 113800,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000034",
+      "text": "Why is n faster than n?",
+      "start": 113800,
+      "end": 115880,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000035",
+      "text": "S?",
+      "start": 115880,
+      "end": 116200,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000036",
+      "text": "Some justification and.",
+      "start": 117640,
+      "end": 123640,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000046",
+      "text": "I would ask what is the run?",
+      "start": 157640,
+      "end": 159760,
+      "role": "announcement"
+    },
+    {
+      "sid": "s000047",
+      "text": "What is the run time of the matching algorithm within the class answer order I don't want to remain the maximum is definitely 20.35 is less.",
+      "start": 159760,
+      "end": 180040,
+      "role": "announcement"
+    },
+    {
+      "sid": "s000055",
+      "text": "And those are all fine as long as you're efficient, always Easy to do a 2 to the N algorithm or an infinite raj word depth but you are looking for better runtime in most cases.",
+      "start": 222320,
+      "end": 235410,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000056",
+      "text": "Also we haven't yet studied memory optimization.",
+      "start": 236290,
+      "end": 240450,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000057",
+      "text": "We'll do some of that.",
+      "start": 240690,
+      "end": 242130,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000058",
+      "text": "So when we get there that becomes another thing you guys need to improve.",
+      "start": 242450,
+      "end": 245970,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000059",
+      "text": "But usually time complexity is more important.",
+      "start": 247490,
+      "end": 251570,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000060",
+      "text": "Usually that's the one that needs a more detailed treatment.",
+      "start": 252210,
+      "end": 255490,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000061",
+      "text": "Memory usually is more about space.",
+      "start": 255490,
+      "end": 257570,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000215",
+      "text": "If you have n vertices, how many ordering are there here or there?",
+      "start": 1325450,
+      "end": 1331290,
+      "role": "qa"
+    },
+    {
+      "sid": "s000216",
+      "text": "N factorial.",
+      "start": 1332730,
+      "end": 1333690,
+      "role": "qa"
+    },
+    {
+      "sid": "s000217",
+      "text": "N factorial.",
+      "start": 1333690,
+      "end": 1334730,
+      "role": "qa"
+    },
+    {
+      "sid": "s000218",
+      "text": "First one, you have n possibility.",
+      "start": 1334810,
+      "end": 1337450,
+      "role": "qa"
+    },
+    {
+      "sid": "s000219",
+      "text": "Second one, you have n minus 1 possibility, n minus 2 possibility.",
+      "start": 1338330,
+      "end": 1343320,
+      "role": "qa"
+    },
+    {
+      "sid": "s000220",
+      "text": "So it's n times n minus 1 times n minus 2, etc.",
+      "start": 1343800,
+      "end": 1347880,
+      "role": "qa"
+    },
+    {
+      "sid": "s000221",
+      "text": "That is the very definition of N factorial.",
+      "start": 1348040,
+      "end": 1351000,
+      "role": "qa"
+    },
+    {
+      "sid": "s000223",
+      "text": "We'll be using facts like that, or last time we talked about n choose 2.",
+      "start": 1357960,
+      "end": 1364040,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000224",
+      "text": "Picking two things out of n things N choose to.",
+      "start": 1364120,
+      "end": 1367610,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000225",
+      "text": "That's about N squared.",
+      "start": 1367610,
+      "end": 1369450,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000316",
+      "text": "If you want to output every possible solution, that's going to be an exponential time algorithm, which we don't want.",
+      "start": 1923920,
+      "end": 1931120,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000317",
+      "text": "So an algorithm with exponential not run time time is not good.",
+      "start": 1932080,
+      "end": 1937500,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000318",
+      "text": "That's normally for most problems you just have one solution.",
+      "start": 1937500,
+      "end": 1941740,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000358",
+      "text": "So I need to give you an algorithm, I need to give you a proof, I need to do a time complexity analysis.",
+      "start": 2127370,
+      "end": 2134050,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000409",
+      "text": "So if in my proof I assume there is one source in terms of algorithm complexity or a constant number of sources, that's incorrect.",
+      "start": 2466820,
+      "end": 2476800,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000410",
+      "text": "There could be a function of n sources.",
+      "start": 2477040,
+      "end": 2479440,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000411",
+      "text": "I cannot make that assumption in my time complexity analysis.",
+      "start": 2481680,
+      "end": 2485920,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000491",
+      "text": "No, when you remove one source, meaning you output one source, you have to see are there any sources left.",
+      "start": 2882080,
+      "end": 2889920,
+      "role": "qa"
+    },
+    {
+      "sid": "s000493",
+      "text": "The reason I do it this way is for efficiency reason, time complexity reason.",
+      "start": 2897050,
+      "end": 2902250,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000494",
+      "text": "So correctness either way is fine.",
+      "start": 2902890,
+      "end": 2905290,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000501",
+      "text": "But in order to look at the time complexity analysis, we need to go back and start talking about how am I representing a graph.",
+      "start": 2935010,
+      "end": 2945620,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000538",
+      "text": "Okay, so when you are analyzing your algorithm, you want to say I'm using a linked Lister representation or I'm using a matrix representation.",
+      "start": 3164730,
+      "end": 3177460,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000611",
+      "text": "I don't want to wait till it becomes a source to add it to the source list because it's going to take a lot of time.",
+      "start": 3681060,
+      "end": 3689440,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000612",
+      "text": "It won't be good for time complexity.",
+      "start": 3690150,
+      "end": 3692310,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000631",
+      "text": "Okay, now we need to analyze the time complexity initialization.",
+      "start": 3846880,
+      "end": 3852400,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000632",
+      "text": "For every edge, we change one in degree.",
+      "start": 3852880,
+      "end": 3857760,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000633",
+      "text": "For example, for this, H cy, I change the in degree of this, I change the odd degree of that.",
+      "start": 3859920,
+      "end": 3866960,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000634",
+      "text": "So constant operation, two operations.",
+      "start": 3867120,
+      "end": 3869690,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000635",
+      "text": "For every edge, how many edges are there?",
+      "start": 3871450,
+      "end": 3874330,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000636",
+      "text": "We normally denote the number of edges by E. So for initialization, meaning find sources I spend over here, each.",
+      "start": 3874810,
+      "end": 3893850,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000637",
+      "text": "And I'm going to highlight that because this is one piece of my algorithm.",
+      "start": 3894880,
+      "end": 3899280,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000638",
+      "text": "There are other pieces that I need to analyze.",
+      "start": 3899280,
+      "end": 3902000,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000639",
+      "text": "Again, I need to add up all the numbers to look at the time complexity of the algorithm.",
+      "start": 3902160,
+      "end": 3907760,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000647",
+      "text": "So this is before we get why there is a source.",
+      "start": 3929530,
+      "end": 3932570,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000648",
+      "text": "That's the time complexity here.",
+      "start": 3933050,
+      "end": 3934970,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000649",
+      "text": "What about inside that loop, why there is a source?",
+      "start": 3936650,
+      "end": 3940490,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000650",
+      "text": "How long does that take to rent?",
+      "start": 3941690,
+      "end": 3944330,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000651",
+      "text": "Okay, so for every vertex, when I delete a source source or when I find the source, that's the main loop, how many in degrees do I need to change?",
+      "start": 3954100,
+      "end": 3984990,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000652",
+      "text": "That's what the algorithm does, right?",
+      "start": 3985870,
+      "end": 3987749,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000653",
+      "text": "It outputs.",
+      "start": 3987749,
+      "end": 3988670,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000654",
+      "text": "It deletes a source, a current source, and goes through all of these and decrements their index.",
+      "start": 3988670,
+      "end": 3996590,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000655",
+      "text": "Correct.",
+      "start": 3996990,
+      "end": 3997630,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000656",
+      "text": "One by one, how many vertices are here at most?",
+      "start": 3998320,
+      "end": 4004800,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000657",
+      "text": "N minus one.",
+      "start": 4006960,
+      "end": 4008160,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000658",
+      "text": "Right.",
+      "start": 4008640,
+      "end": 4009040,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000659",
+      "text": "Which is odd.",
+      "start": 4009760,
+      "end": 4010640,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000660",
+      "text": "So this is n minus one operations decrementing in degrees, n minus one such operation.",
+      "start": 4010960,
+      "end": 4027290,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000661",
+      "text": "For any vertex S, how many vertices are there in the entire algorithm?",
+      "start": 4027450,
+      "end": 4035530,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000662",
+      "text": "N of N. Therefore, updating all the in degrees takes n times n minus 1, which is order of n squared, to change all the in degrees in the entire algorithm, right?",
+      "start": 4035850,
+      "end": 4056580,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000666",
+      "text": "So, observation.",
+      "start": 4080450,
+      "end": 4081570,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000667",
+      "text": "This is correct because I have order N and what I said is correct at most.",
+      "start": 4081970,
+      "end": 4088850,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000668",
+      "text": "Remember I said at most you change n minus 1.",
+      "start": 4089010,
+      "end": 4092770,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000669",
+      "text": "Right?",
+      "start": 4093810,
+      "end": 4094210,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000670",
+      "text": "Correct.",
+      "start": 4094450,
+      "end": 4095010,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000671",
+      "text": "So if you say that, I cannot say this is incorrect.",
+      "start": 4095010,
+      "end": 4099010,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000672",
+      "text": "It is correct.",
+      "start": 4099170,
+      "end": 4100130,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000673",
+      "text": "But maybe what you observed and what you were saying about in degrees, you said it's not N minus 1, it's a degree of this.",
+      "start": 4100580,
+      "end": 4108260,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000674",
+      "text": "You are both correct.",
+      "start": 4108500,
+      "end": 4109780,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000675",
+      "text": "So maybe I'm being pessimistic, which doesn't Mean incorrect, means ineffective.",
+      "start": 4110020,
+      "end": 4115940,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000676",
+      "text": "So this is the first time we're gonna see this is a powerful technique.",
+      "start": 4117620,
+      "end": 4121860,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000677",
+      "text": "I'm not gonna change any algorithm, I'm gonna change it my accounting method, to do something better than N square.",
+      "start": 4122180,
+      "end": 4130310,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000678",
+      "text": "Let me explain.",
+      "start": 4131510,
+      "end": 4132550,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000679",
+      "text": "You want to see how much you spend in a month, you want to come up with a budget.",
+      "start": 4132790,
+      "end": 4137430,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000680",
+      "text": "You say, okay, on Saturday I go out, I do this and that hundred bucks, right?",
+      "start": 4138470,
+      "end": 4144390,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000681",
+      "text": "Therefore the budget I need every month is 30 of that I need 3,000amonth to spend.",
+      "start": 4145270,
+      "end": 4154400,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000682",
+      "text": "Is that correct or not?",
+      "start": 4155120,
+      "end": 4156880,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000683",
+      "text": "Yes, assuming Saturday is the most expensive.",
+      "start": 4156880,
+      "end": 4159440,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000684",
+      "text": "So 3000 budget is correct.",
+      "start": 4160240,
+      "end": 4163760,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000685",
+      "text": "But that's an overestimation because Tuesday you probably don't spend hundred bucks, maybe you spend 10 bucks, Wednesday, maybe you spend 12 bucks every Wednesday.",
+      "start": 4164080,
+      "end": 4174720,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000686",
+      "text": "So one is to do worst case analysis like that, which is going to give you an upper bound, which is going to be an overestimate of your budget.",
+      "start": 4175760,
+      "end": 4186970,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000687",
+      "text": "This is a time budget, same as hundred bucks as a money budget.",
+      "start": 4187050,
+      "end": 4192450,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000688",
+      "text": "This is a time budget, same idea, same analysis.",
+      "start": 4192450,
+      "end": 4196090,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000689",
+      "text": "So instead of taking hundred dollar, multiplying it by 30, I'm going to do something more average, which is what both of you are hinting at.",
+      "start": 4197290,
+      "end": 4209070,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000690",
+      "text": "So let's see how that works.",
+      "start": 4209950,
+      "end": 4211630,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000691",
+      "text": "So here, when I say n minus one, it means I'm charging from time complexity point of view.",
+      "start": 4212590,
+      "end": 4219470,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000692",
+      "text": "Time complexity is a resource.",
+      "start": 4219950,
+      "end": 4222030,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000693",
+      "text": "I'm charging one unit of time.",
+      "start": 4222990,
+      "end": 4225070,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000694",
+      "text": "So for every in degree increment, I'm charging one unit of time here, one unit here, et cetera.",
+      "start": 4225710,
+      "end": 4236790,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000695",
+      "text": "Okay, instead of charging it to the vertex, to this, to that, to that, that's what gave me N times N minus 1, I'm going to take this one unit and charge it to the edge. It's just different accounting method, same algorithm, same everything.",
+      "start": 4238230,
+      "end": 4261480,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000696",
+      "text": "I'm not going to touch the code.",
+      "start": 4261480,
+      "end": 4263880,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000697",
+      "text": "Even if I had a code, I'm just going to do a different accounting.",
+      "start": 4263880,
+      "end": 4268880,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000698",
+      "text": "So instead of saying I'm going to charge you for that in degree decrement, I'm going to say I'm going to charge you age the in degree decrement.",
+      "start": 4269600,
+      "end": 4278960,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000699",
+      "text": "You see the difference?",
+      "start": 4279280,
+      "end": 4280400,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000700",
+      "text": "Different bucket, different, different counting.",
+      "start": 4280960,
+      "end": 4283850,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000701",
+      "text": "So how many times am I going to see this edge in the entire algorithm?",
+      "start": 4285770,
+      "end": 4291770,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000702",
+      "text": "Only once.",
+      "start": 4291930,
+      "end": 4292810,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000703",
+      "text": "Then I just delete that.",
+      "start": 4293530,
+      "end": 4295530,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000704",
+      "text": "That's the only time I'm going to see this edge and charge something to it, a runtime to it.",
+      "start": 4297770,
+      "end": 4304250,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000705",
+      "text": "So every edge is going to be looked at once.",
+      "start": 4304570,
+      "end": 4307290,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000706",
+      "text": "How many edges are there?",
+      "start": 4307940,
+      "end": 4309460,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000707",
+      "text": "E of N. Therefore all the in degrees correct, it's order of n square.",
+      "start": 4309460,
+      "end": 4314740,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000708",
+      "text": "But better than that, it's going to be Order E. So the example you gave, which had N minus 1 edges, this is order of N minus 1.",
+      "start": 4314740,
+      "end": 4325140,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000709",
+      "text": "And what you have in terms of degree, it's going to be degree.",
+      "start": 4325860,
+      "end": 4329300,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000710",
+      "text": "If it's 10, it's going to be 10.",
+      "start": 4329300,
+      "end": 4331460,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000711",
+      "text": "This is a very, very, very important concept.",
+      "start": 4333550,
+      "end": 4336990,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000712",
+      "text": "It's subtle.",
+      "start": 4336990,
+      "end": 4338110,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000713",
+      "text": "Same algorithm, same analysis, same data structure, Just different accounting method, which has nothing to do with your code, with your algorithm, Just different way of counting like a hundred bucks per night.",
+      "start": 4339870,
+      "end": 4354030,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000714",
+      "text": "I'm going to do further analysis and realize 100 bucks is only for the weekends, the rest is 10 bucks.",
+      "start": 4356510,
+      "end": 4364050,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000715",
+      "text": "So I do a more fine grain analysis, I come up with a better estimate.",
+      "start": 4365730,
+      "end": 4370690,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000716",
+      "text": "Same thing is going on here.",
+      "start": 4371010,
+      "end": 4372610,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000717",
+      "text": "Please make sure you are comfortable with this.",
+      "start": 4375090,
+      "end": 4377410,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000719",
+      "text": "Of course, it's an important topic of accounting method and we will be using the same idea at least four times in this course for other algorithms.",
+      "start": 4378050,
+      "end": 4389450,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000720",
+      "text": "And it's okay that I did this first because I wanted to get partial credit.",
+      "start": 4391210,
+      "end": 4395610,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000721",
+      "text": "So I quickly did this.",
+      "start": 4395930,
+      "end": 4397770,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000722",
+      "text": "This is a much easier analysis.",
+      "start": 4397770,
+      "end": 4400010,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000723",
+      "text": "But then I realized, as both of you realized, wait, this is kind of pessimistic.",
+      "start": 4400170,
+      "end": 4405530,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000724",
+      "text": "Let me do something.",
+      "start": 4405690,
+      "end": 4406810,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000725",
+      "text": "So I have another order in here for the entirety of the loop, not one loop.",
+      "start": 4411700,
+      "end": 4417700,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000726",
+      "text": "So another way of thinking about it is first I try to see what is the runtime of one iteration of the loop.",
+      "start": 4417940,
+      "end": 4426500,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000727",
+      "text": "That's what gave me N squared. The new way I'm saying what is the runtime for all the loops in the entire algorithm.",
+      "start": 4427220,
+      "end": 4435620,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000728",
+      "text": "I changed my accounting method for the entirety of the algorithm that took me from N squared to E. Now, sometimes E could be as bad as N squared, but normally it's much, much better.",
+      "start": 4435620,
+      "end": 4452589,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000729",
+      "text": "But E is always preferred over N squared.",
+      "start": 4453550,
+      "end": 4457230,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000732",
+      "text": "Mainly because E could never be worse than N squared.",
+      "start": 4462680,
+      "end": 4465960,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000733",
+      "text": "But many times like a tree structure, as we said earlier, is only n minus 1h.",
+      "start": 4466120,
+      "end": 4471720,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000735",
+      "text": "So when I'm done with all these and I have drawn a box around these at the end, I say T of N comma E N vertices, E edges is order of E. Some people prefer to say it's order of e plus n because when I output the sources, that's n units of time.",
+      "start": 4476920,
+      "end": 4504039,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000736",
+      "text": "But it's not necessary to say E plus N. Why?",
+      "start": 4504680,
+      "end": 4508120,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000737",
+      "text": "Because N is always less than E in a connected graph.",
+      "start": 4508360,
+      "end": 4512360,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000739",
+      "text": "If I remove that, it's like 2E in the worst case.",
+      "start": 4515490,
+      "end": 4518850,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000740",
+      "text": "But some say because it's N comma E, it looks nicer to involve both E and E. What should you do?",
+      "start": 4519650,
+      "end": 4528610,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000741",
+      "text": "Whatever you like.",
+      "start": 4528610,
+      "end": 4529530,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000742",
+      "text": "They Are both absolutely correct for a connected graph.",
+      "start": 4529530,
+      "end": 4532450,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000743",
+      "text": "If the graph is not connected, E and N are totally disjoint.",
+      "start": 4532610,
+      "end": 4537090,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000745",
+      "text": "So for the N squared example, you said go through the first one and then delete it.",
+      "start": 4538050,
+      "end": 4542780,
+      "role": "qa"
+    },
+    {
+      "sid": "s000746",
+      "text": "Go through every single.",
+      "start": 4542780,
+      "end": 4543820,
+      "role": "qa"
+    },
+    {
+      "sid": "s000747",
+      "text": "So that's N outputs.",
+      "start": 4544140,
+      "end": 4545980,
+      "role": "qa"
+    },
+    {
+      "sid": "s000748",
+      "text": "How's it N output?",
+      "start": 4545980,
+      "end": 4546780,
+      "role": "qa"
+    },
+    {
+      "sid": "s000749",
+      "text": "Right.",
+      "start": 4547020,
+      "end": 4547420,
+      "role": "qa"
+    },
+    {
+      "sid": "s000750",
+      "text": "So in the entirety of algorithm, there are N sources.",
+      "start": 4547660,
+      "end": 4551500,
+      "role": "qa"
+    },
+    {
+      "sid": "s000751",
+      "text": "That's where the n comes from.",
+      "start": 4552140,
+      "end": 4553980,
+      "role": "qa"
+    },
+    {
+      "sid": "s000752",
+      "text": "And for each source, I need to change the n degree of maybe n minus one other vertices, that's where n minus one are.",
+      "start": 4554380,
+      "end": 4564240,
+      "role": "qa"
+    },
+    {
+      "sid": "s000753",
+      "text": "So why is it times?",
+      "start": 4564550,
+      "end": 4565350,
+      "role": "qa"
+    },
+    {
+      "sid": "s000754",
+      "text": "Oh, because N iteration of the loop, each loop takes n minus 1 times.",
+      "start": 4566070,
+      "end": 4570790,
+      "role": "qa"
+    },
+    {
+      "sid": "s000755",
+      "text": "So you are repeating something N times inside of it is N minus 1, so you have to multiply.",
+      "start": 4571510,
+      "end": 4578070,
+      "role": "qa"
+    },
+    {
+      "sid": "s000756",
+      "text": "And I call this a pessimistic analysis, not algorithm.",
+      "start": 4580390,
+      "end": 4584150,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000757",
+      "text": "These are the same algorithm.",
+      "start": 4584150,
+      "end": 4585830,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000758",
+      "text": "It's the same data structure, same everything.",
+      "start": 4586230,
+      "end": 4588710,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000759",
+      "text": "This is a pessimistic accounting time complexity analysis.",
+      "start": 4589110,
+      "end": 4594800,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000760",
+      "text": "This is a more realistic time complexity analysis.",
+      "start": 4594880,
+      "end": 4598240,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000761",
+      "text": "The difference between these two is purely an accounting method, nothing else.",
+      "start": 4598960,
+      "end": 4604800,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000762",
+      "text": "Same code event.",
+      "start": 4607280,
+      "end": 4608400,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000763",
+      "text": "When you code this, one way to look at it gives you this.",
+      "start": 4608480,
+      "end": 4613480,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000764",
+      "text": "Another way to look at it is that without changing a word of your code.",
+      "start": 4613480,
+      "end": 4618670,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000766",
+      "text": "So if every edge is going to get looked at only once before getting deleted, so it can get deleted only once, so the time is actually, why would we add n?",
+      "start": 4620350,
+      "end": 4630590,
+      "role": "qa"
+    },
+    {
+      "sid": "s000767",
+      "text": "We don't.",
+      "start": 4632590,
+      "end": 4633390,
+      "role": "qa"
+    },
+    {
+      "sid": "s000768",
+      "text": "But we could say, by the way, in the entirety of the algorithm, I output N numbers too, so that an additional N it just looks better.",
+      "start": 4633710,
+      "end": 4644120,
+      "role": "qa"
+    },
+    {
+      "sid": "s000769",
+      "text": "Because the algorithm is a function of E and N, both edges and vertices.",
+      "start": 4644680,
+      "end": 4649640,
+      "role": "qa"
+    },
+    {
+      "sid": "s000770",
+      "text": "So some people, some literature, some books say write it like that.",
+      "start": 4650200,
+      "end": 4655320,
+      "role": "qa"
+    },
+    {
+      "sid": "s000771",
+      "text": "So later on, when we deal with graphs that are not connected, we still use the same number.",
+      "start": 4655720,
+      "end": 4661880,
+      "role": "qa"
+    },
+    {
+      "sid": "s000772",
+      "text": "That's all.",
+      "start": 4662040,
+      "end": 4662760,
+      "role": "qa"
+    },
+    {
+      "sid": "s000773",
+      "text": "So if you say order E or if you say order e plus, they are both absolutely precise and correct in a connected graph.",
+      "start": 4663240,
+      "end": 4673540,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000774",
+      "text": "Later on, when we have a graph with multiple components, that's a different story.",
+      "start": 4674340,
+      "end": 4679140,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000782",
+      "text": "That takes an additional N unit of time.",
+      "start": 4714270,
+      "end": 4716830,
+      "role": "qa"
+    },
+    {
+      "sid": "s000785",
+      "text": "That's why when the in-degree becomes zero, I add it to the source list right there and then so I don't have to spend extra time later looking for it.",
+      "start": 4721400,
+      "end": 4733640,
+      "role": "qa"
+    },
+    {
+      "sid": "s000786",
+      "text": "If I do that, then the algorithm becomes N squared and I'm not going to worry about where I'm going to store everything for every part of the algorithm.",
+      "start": 4733719,
+      "end": 4746130,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000787",
+      "text": "But here it did matter, so I need to focus and emphasize and highlight it.",
+      "start": 4746130,
+      "end": 4751210,
+      "role": "lecture"
+    }
+  ]
+}

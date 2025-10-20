@@ -1,0 +1,53 @@
+# Problem-Solving Methodology
+
+This lecture emphasizes that the true value in learning algorithms lies in understanding the problem-solving *methodology* rather than just memorizing specific algorithms. It outlines a strategic approach involving rigorous justification, a top-down perspective, and the use of examples to develop and prove solutions for a wide range of problems.
+
+## The Essence of Problem-Solving Methodology
+
+The core takeaway from the lectures is the **methodology** used to attack problems. This approach is valuable because it can be applied to many different problems, enabling students to solve new challenges. The goal is to learn *how* to approach a problem, rather than simply memorizing existing solutions like topological sort, which are already available in code.
+
+## Importance of Methodology Over Specific Algorithms
+
+The lecture stresses that understanding the problem-solving methodology is more important than knowing specific algorithms, such as topological sort. While specific algorithms are important to learn, the real value for students lies in being able to find connections between new problems and existing ones, or to develop entirely new solutions based on the techniques learned. This ability to adapt and innovate is particularly valuable given current and future changes in the field.
+
+## Core Principles of the Methodology
+
+The problem-solving methodology involves a strategic "game plan" for tackling challenges. It often employs a **top-down approach**, where one starts with a high-level idea or a feeling that a certain fact is true. Proofs and justifications are then developed as needed, or when their truth is critical for proceeding. The process moves from high-level concepts down to data structures and then to different ways of implementation.
+
+## The Role of Proof and Justification
+
+A critical component of the methodology is the requirement to **prove everything** or provide **some justification**. If a specific algorithm, like a matching algorithm, is directly asked to be proven, then a full proof is necessary. However, if a previously proven algorithm is used as a component within a larger solution (e.g., for a midterm or final), it is sufficient to state "as proven in class" or "as proved in the book." Even when an algorithm feels correct, some justification or proof is still required.
+
+## Strategic Approach: Top-Down and Fact Labeling
+
+The lecture advocates for a **top-down approach** to problem-solving. This involves starting with a hypothesis or a "feeling this fact is true" and only spending time proving it immediately if there's a significant chance it might be false and would block further progress. To manage proofs, important statements can be labeled as "Fact 1" (or similar). This prevents forgetting to prove them later and allows for multiple uses of the fact in an algorithm or proof without repeatedly writing out the full justification.
+
+## Leveraging Examples for Understanding and Proof
+
+When proving concepts or developing algorithms, it is highly recommended to use the **smallest example possible**. This simplifies the analysis and writing process. By drawing a graph with a few vertices and trying an algorithm on it, much of the algorithm and its proof can become clear. This hands-on approach helps in gaining a better understanding of the algorithm and can reveal the methodology for both the algorithm and its proof.
+
+## Applying the Methodology to New Problems
+
+The methodology helps in solving problems never seen before by finding a "hook" to existing knowledge. For instance, if asked to design an algorithm to find a cycle in a directed graph, one might recall discussions about topological sort and directed acyclic graphs (DAGs). This connection can serve as a starting point, allowing for variations to the known algorithm to solve the new problem, often with just "one additional test" and its proof. Knowing one problem's solution can directly or indirectly help with many others, even if the problem or solution is different, the underlying idea or structure might be similar.
+
+## Developing Your Problem-Solving Skills
+
+To enhance problem-solving skills, students are encouraged to actively engage with the material. This includes:
+*   **Reviewing solutions:** Reading provided homework solutions to understand different approaches and identify any errors in one's own thinking.
+*   **Discussing alternatives:** Using designated times (e.g., Friday sessions) to discuss different methodologies for homework problems, especially if one's solution differs or if there might be a better approach.
+*   **Consistent practice:** After each lecture, trying different angles, questions, and variations of problems covered in class.
+*   **Rigorous self-assessment:** Thoroughly examining missed homework problems to understand why they were missed or to ensure one's solution is rigorous.
+*   **Active discovery:** Recreating notes and completing any "missing links" or details not fully described in the lecture, as this active discovery process aids understanding.
+
+## Summary
+
+*   The primary goal of the course is to teach a **problem-solving methodology**, not just specific algorithms.
+*   This methodology involves a **top-down approach**, starting with high-level ideas and proving facts as needed.
+*   **Rigorous proof and justification** are essential, either by direct proof or by citing previously established results.
+*   Using **small examples** is a powerful technique for developing and understanding algorithms and their proofs.
+*   The methodology helps in solving **new problems** by connecting them to known concepts and adapting existing solutions.
+*   Active engagement, including reviewing solutions and completing missing details, is crucial for **developing strong problem-solving skills**.
+
+## Supplement: Explanation of Technical Terms
+
+*   **Directed Acyclic Graph (DAG):** A type of graph where all edges are directed (point in one direction) and there are no cycles (you cannot start at a vertex and follow a sequence of directed edges to return to that same vertex). The lecture mentions "every DAG has at least one source" and "gag, async graph cycles," implying its relevance to the discussion of cycles.

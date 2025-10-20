@@ -1,0 +1,593 @@
+{
+  "idx": 2,
+  "title": "Graph Types & Terminology",
+  "count": 73,
+  "sids": [
+    "s000081",
+    "s000102",
+    "s000103",
+    "s000104",
+    "s000105",
+    "s000106",
+    "s000107",
+    "s000108",
+    "s000109",
+    "s000110",
+    "s000111",
+    "s000112",
+    "s000113",
+    "s000114",
+    "s000115",
+    "s000117",
+    "s000118",
+    "s000119",
+    "s000120",
+    "s000122",
+    "s000123",
+    "s000124",
+    "s000125",
+    "s000126",
+    "s000145",
+    "s000146",
+    "s000147",
+    "s000148",
+    "s000153",
+    "s000154",
+    "s000157",
+    "s000158",
+    "s000161",
+    "s000162",
+    "s000163",
+    "s000164",
+    "s000165",
+    "s000170",
+    "s000171",
+    "s000174",
+    "s000175",
+    "s000176",
+    "s000177",
+    "s000178",
+    "s000179",
+    "s000184",
+    "s000185",
+    "s000186",
+    "s000187",
+    "s000188",
+    "s000189",
+    "s000190",
+    "s000191",
+    "s000192",
+    "s000264",
+    "s000265",
+    "s000266",
+    "s000267",
+    "s000271",
+    "s000362",
+    "s000364",
+    "s000365",
+    "s000366",
+    "s000367",
+    "s000368",
+    "s000371",
+    "s000372",
+    "s000373",
+    "s000374",
+    "s000376",
+    "s000377",
+    "s000378",
+    "s000379"
+  ],
+  "evidences": [
+    {
+      "sid": "s000081",
+      "text": "Sometimes the vertices are called nodes and sometimes the edges are are called links.",
+      "start": 458730,
+      "end": 466100,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000102",
+      "text": "A graph can be undirected, which means the edges have no direction.",
+      "start": 595790,
+      "end": 613470,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000103",
+      "text": "One to two is the same as two two.",
+      "start": 613870,
+      "end": 616270,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000104",
+      "text": "It's like a one way street or a three two way street.",
+      "start": 616830,
+      "end": 619930,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000105",
+      "text": "So undirected means two way.",
+      "start": 620490,
+      "end": 622410,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000106",
+      "text": "They are both reachable from each other.",
+      "start": 622810,
+      "end": 625210,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000107",
+      "text": "Or obviously it can be a directed graph.",
+      "start": 627210,
+      "end": 630330,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000108",
+      "text": "In a directed graph, if I want to show it pictorially, I will put a direction on the edge, an arrow.",
+      "start": 635770,
+      "end": 643050,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000109",
+      "text": "So this says there is a connection from 1 to 2.",
+      "start": 643450,
+      "end": 648120,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000110",
+      "text": "There is not a connection from 2 to 1 in a directed graph.",
+      "start": 649080,
+      "end": 654080,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000111",
+      "text": "And it has a different meaning.",
+      "start": 654080,
+      "end": 656120,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000112",
+      "text": "Same thing when I draw, when I write this one comma two in a directed graph means from one to two not.",
+      "start": 657400,
+      "end": 667480,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000113",
+      "text": "And there could be another a from two to one.",
+      "start": 668120,
+      "end": 672350,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000114",
+      "text": "If there is in the list, I have to also write 2 to 1.",
+      "start": 672670,
+      "end": 676590,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000115",
+      "text": "Otherwise one assumes 2 to 1 doesn't exist.",
+      "start": 677230,
+      "end": 680670,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000117",
+      "text": "How do you represent if there's an unregarded directive realized by the value?",
+      "start": 681870,
+      "end": 686270,
+      "role": "qa"
+    },
+    {
+      "sid": "s000118",
+      "text": "Like in your example with 1 to 2, does that mean 1 to 2 is the direction, exactly from the first to the second?",
+      "start": 686750,
+      "end": 694510,
+      "role": "qa"
+    },
+    {
+      "sid": "s000119",
+      "text": "If you want both of them, which is possible, you better write it twice.",
+      "start": 694990,
+      "end": 698790,
+      "role": "qa"
+    },
+    {
+      "sid": "s000120",
+      "text": "A graph may be weighted, which means you have weight on the APIs.",
+      "start": 705110,
+      "end": 714710,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000122",
+      "text": "So if I had a weight six and a weight three, so if I have a weight on every edge, which might be the importance of that edge, which could be the traffic on that edge, which could be the criticality of that edge, whatever that weight represents, we will call that a weighted graph.",
+      "start": 721830,
+      "end": 742710,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000123",
+      "text": "And usually when we say weighted graph, we mean weight on the edges, not on the vertices.",
+      "start": 743670,
+      "end": 750160,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000124",
+      "text": "You could have weight on the vertices in some cases, but typically not so weighted or unweighted.",
+      "start": 750640,
+      "end": 758720,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000125",
+      "text": "There are other types of graph.",
+      "start": 770480,
+      "end": 772440,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000126",
+      "text": "I'm not going to bore you with giving you a tons of definition as we need them, we will define them over the next few weeks.",
+      "start": 772440,
+      "end": 779690,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000145",
+      "text": "So in a graph, when you have vertex A going to B, B going to C, C going to D, et cetera, A, B, C is called a path.",
+      "start": 891840,
+      "end": 906010,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000146",
+      "text": "So if I give you a graph and I say show me a path in there, you gotta start from a vertex via an edge, go to the next vertex via another edge, go to another vertex, so on and so forth.",
+      "start": 912570,
+      "end": 925850,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000147",
+      "text": "There are some paths that are short, there are some paths that are very long.",
+      "start": 926650,
+      "end": 931300,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000148",
+      "text": "Path is exactly what it means.",
+      "start": 932500,
+      "end": 934580,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000153",
+      "text": "Typically when we say a path, we mean a simple path.",
+      "start": 956350,
+      "end": 960750,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000154",
+      "text": "A path that vertices are not repeated.",
+      "start": 961070,
+      "end": 964110,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000157",
+      "text": "That's also a path where a vertex is repeated.",
+      "start": 976510,
+      "end": 980590,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000158",
+      "text": "We call that a non-simple path if the vertices are repeated.",
+      "start": 981520,
+      "end": 986400,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000161",
+      "text": "That's a simple path.",
+      "start": 991120,
+      "end": 992640,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000162",
+      "text": "So when I want to talk about a path, I'm going to be explicit.",
+      "start": 995840,
+      "end": 1000160,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000163",
+      "text": "Is it a simple path or not?",
+      "start": 1000240,
+      "end": 1002240,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000164",
+      "text": "If I don't say anything, you assume it's a simple path.",
+      "start": 1002480,
+      "end": 1006180,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000165",
+      "text": "A cycle is a path with first and last vertex being the same exactly as the name suggests.",
+      "start": 1019690,
+      "end": 1031860,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000170",
+      "text": "Some graphs may not have any cycle at all.",
+      "start": 1054249,
+      "end": 1057449,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000171",
+      "text": "We call them acyclic graphs.",
+      "start": 1059120,
+      "end": 1062480,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000174",
+      "text": "So a graph with no cycle is called acyclic.",
+      "start": 1070880,
+      "end": 1074240,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000175",
+      "text": "Do you know any other name for a graph with no cycle?",
+      "start": 1075440,
+      "end": 1079200,
+      "role": "qa"
+    },
+    {
+      "sid": "s000176",
+      "text": "Based on previous courses?",
+      "start": 1079520,
+      "end": 1081360,
+      "role": "qa"
+    },
+    {
+      "sid": "s000177",
+      "text": "A tree is a graph with no sign.",
+      "start": 1084170,
+      "end": 1086650,
+      "role": "qa"
+    },
+    {
+      "sid": "s000178",
+      "text": "So you could say acyclic or you could say a tree.",
+      "start": 1088970,
+      "end": 1092890,
+      "role": "qa"
+    },
+    {
+      "sid": "s000179",
+      "text": "In case of an undirected graph.",
+      "start": 1092970,
+      "end": 1095210,
+      "role": "qa"
+    },
+    {
+      "sid": "s000184",
+      "text": "We'll also talk about how many edges a graph could have.",
+      "start": 1122020,
+      "end": 1126500,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000185",
+      "text": "How dense can it be?",
+      "start": 1126500,
+      "end": 1128100,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000186",
+      "text": "Lots of edges or not so many agents.",
+      "start": 1128340,
+      "end": 1130820,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000187",
+      "text": "So as suggested, when there are not a mean, as long as the graph is connected, everybody's connected to everybody.",
+      "start": 1130820,
+      "end": 1138250,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000188",
+      "text": "The least dense graph is a tree structure.",
+      "start": 1138490,
+      "end": 1141530,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000189",
+      "text": "Anything below that.",
+      "start": 1142010,
+      "end": 1143250,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000190",
+      "text": "If you take a tree, any kind of tree, binary tree, any tree, remove an edge, it's not a connected graph anymore.",
+      "start": 1143250,
+      "end": 1150810,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000191",
+      "text": "And the other extreme, you have graphs with lots of edges.",
+      "start": 1152250,
+      "end": 1155610,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000192",
+      "text": "We will study that.",
+      "start": 1155690,
+      "end": 1156970,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000264",
+      "text": "Unless I say otherwise, with connected graphs.",
+      "start": 1648450,
+      "end": 1652510,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000265",
+      "text": "So this graph shown here is connected.",
+      "start": 1657310,
+      "end": 1659950,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000266",
+      "text": "This graph is not connected.",
+      "start": 1662670,
+      "end": 1664910,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000267",
+      "text": "And this graph is not connected.",
+      "start": 1666429,
+      "end": 1668910,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000271",
+      "text": "By definition, if I don't say otherwise, it means it's a connected graph.",
+      "start": 1689640,
+      "end": 1694840,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000362",
+      "text": "A directed graph without cycle is called directed acyclic graph or Dolce and Gabbana.",
+      "start": 2156820,
+      "end": 2171590,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000364",
+      "text": "Oh, so a DAG, directed.",
+      "start": 2174270,
+      "end": 2177270,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000365",
+      "text": "You know what that means?",
+      "start": 2177270,
+      "end": 2178350,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000366",
+      "text": "Acyclic?",
+      "start": 2178430,
+      "end": 2179310,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000367",
+      "text": "A something usually means not have that.",
+      "start": 2179550,
+      "end": 2182430,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000368",
+      "text": "So it's not cycle and it's a graph.",
+      "start": 2182670,
+      "end": 2185070,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000371",
+      "text": "In a directed graph, I look at one vertex.",
+      "start": 2208940,
+      "end": 2212460,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000372",
+      "text": "There are some edges going through it and some edges coming out of the.",
+      "start": 2213180,
+      "end": 2218330,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000373",
+      "text": "In general, for an arbitrary vertex, what goes into it is called the in degree.",
+      "start": 2218720,
+      "end": 2226640,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000374",
+      "text": "The in-degree of this vertex A is 2, and the number of edges going out of it is called its out-degree of A is 3.",
+      "start": 2230640,
+      "end": 2248970,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000376",
+      "text": "And if in degree is zero, we call this a series.",
+      "start": 2261210,
+      "end": 2267450,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000377",
+      "text": "If the odd degree is zero, we call this a sig.",
+      "start": 2270340,
+      "end": 2275060,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000378",
+      "text": "For topological source, we don't deal with sigs, but I want to give you the definition because you may need it in the future.",
+      "start": 2277300,
+      "end": 2284340,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000379",
+      "text": "We will deal with sources.",
+      "start": 2286260,
+      "end": 2287860,
+      "role": "lecture"
+    }
+  ]
+}

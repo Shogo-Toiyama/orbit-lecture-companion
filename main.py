@@ -2,14 +2,42 @@ import os, time, sys
 from pathlib import Path
 from datetime import datetime
 from dotenv import load_dotenv
-import google.generativeai as genai
+from google import genai
+import google.genai as types
 
 from lecture_audio_to_text import lecture_audio_to_text
-from topic_extraction import topic_extraction
+from topic_extraction_for_long_audio import topic_extraction_for_long_audio
 from generate_topic_details import generate_topic_details
 from generate_fun_facts import generate_fun_facts
 
 AUDIO_EXTS = {".mp3", ".m4a", ".wav", ".flac", ".aac", ".ogg", ".wma", ".aiff"}
+
+load_dotenv()
+client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
+
+GEN_MODEL = "gemini-2.5-flash"
+
+def config_json(thinking: int = 0, google_search: bool = False):
+    kwargs = dict(
+        temperature=0.2,
+        response_mime_type="application/json",
+    )
+    if thinking > 0:
+        kwargs["thinking_config"] = types.ThinkingConfig(thinking_budget=thinking)
+    if google_search > 0:
+        kwargs["tools"] = [types.Tool(google_search=types.GoogleSearch())]
+    return types.GenerateContentConfig(**kwargs)
+
+def config_text(thinking: int = 0, google_search: int = 0):
+    kwargs = dict(
+        temperature=0.2,
+        response_mime_type="text/plain",
+    )
+    if thinking > 0:
+        kwargs["thinking_config"] = types.ThinkingConfig(thinking_budget=thinking)
+    if google_search > 0:
+        kwargs["tools"] = [types.Tool(google_search=types.GoogleSearch())]
+    return types.GenerateContentConfig(**kwargs)
 
 def make_lecture_dir():
     ROOT = Path(__file__).resolve().parent
@@ -53,7 +81,7 @@ def stable_files(dirpath: Path, settle_seconds=3.0):
             stable.append((p, meta2[0], meta2[1]))
     return stable
 
-def wait_for_uploads(audio_dir: Path, min_files=1, poll_interval=1.0, settle_seconds=3.0, timeout: float | None=None):
+def wait_for_uploads(audio_dir: Path, min_files=1, poll_interval=1.0, settle_seconds=3.0, timeout=None):
     print(f"\n📂 Upload destination: {audio_dir.resolve()}")
     print("⬆️  Please copy your audio file(s) into this folder.")
     print("   (We'll wait here; press Ctrl+C to abort.)")
@@ -90,42 +118,22 @@ def wait_for_uploads(audio_dir: Path, min_files=1, poll_interval=1.0, settle_sec
 
 
 def main():
-    load_dotenv()
-    gemini_api_key = os.getenv("GEMINI_API_KEY")
-    genai.configure(api_key=gemini_api_key)
-
-    gemini_model_json = genai.GenerativeModel(
-        "gemini-2.5-flash",
-        generation_config={
-            "temperature": 0.2,
-            "response_mime_type": "application/json",
-        },
-    )
-
-    gemini_model_text = genai.GenerativeModel(
-        "gemini-2.5-flash",
-        generation_config={
-            "temperature": 0.2,
-            "response_mime_type": "text/plain",
-        },
-    )
-    
     LECTURE_DIR = make_lecture_dir()
 
     AUDIO_DIR = LECTURE_DIR / "audio"
     AUDIO_DIR.mkdir()
 
-    audio_files = wait_for_uploads(AUDIO_DIR, min_files=1, poll_interval=1.0, settle_seconds=3.0, timeout=None)
+    audio_files = wait_for_uploads(AUDIO_DIR)
 
     start_time_total = time.time()
 
     lecture_audio_to_text(audio_files[0], LECTURE_DIR)
 
-    topic_extraction(gemini_model_json, gemini_model_text, LECTURE_DIR)
+    topic_extraction_for_long_audio(client, GEN_MODEL, config_json(), config_text(), LECTURE_DIR)
 
-    generate_topic_details(gemini_model_json, gemini_model_text, LECTURE_DIR)
+    generate_topic_details(client, GEN_MODEL, config_json(), config_text(), LECTURE_DIR)
 
-    generate_fun_facts(gemini_model_text, LECTURE_DIR)
+    generate_fun_facts(client, GEN_MODEL, config_text(), LECTURE_DIR)
 
     end_time_total = time.time()
     elapsed_time_total = end_time_total - start_time_total

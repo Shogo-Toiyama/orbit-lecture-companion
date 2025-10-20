@@ -1,0 +1,1297 @@
+{
+  "idx": 4,
+  "title": "Topological Sort Algorithm",
+  "count": 161,
+  "sids": [
+    "s000193",
+    "s000194",
+    "s000347",
+    "s000349",
+    "s000357",
+    "s000358",
+    "s000378",
+    "s000379",
+    "s000380",
+    "s000381",
+    "s000382",
+    "s000383",
+    "s000400",
+    "s000401",
+    "s000402",
+    "s000412",
+    "s000413",
+    "s000414",
+    "s000415",
+    "s000421",
+    "s000422",
+    "s000423",
+    "s000424",
+    "s000425",
+    "s000426",
+    "s000427",
+    "s000428",
+    "s000429",
+    "s000430",
+    "s000431",
+    "s000432",
+    "s000434",
+    "s000435",
+    "s000436",
+    "s000437",
+    "s000438",
+    "s000439",
+    "s000440",
+    "s000441",
+    "s000442",
+    "s000443",
+    "s000444",
+    "s000445",
+    "s000446",
+    "s000447",
+    "s000448",
+    "s000449",
+    "s000450",
+    "s000451",
+    "s000456",
+    "s000457",
+    "s000458",
+    "s000459",
+    "s000460",
+    "s000463",
+    "s000464",
+    "s000465",
+    "s000466",
+    "s000467",
+    "s000468",
+    "s000469",
+    "s000470",
+    "s000471",
+    "s000473",
+    "s000474",
+    "s000475",
+    "s000476",
+    "s000477",
+    "s000478",
+    "s000479",
+    "s000480",
+    "s000481",
+    "s000483",
+    "s000484",
+    "s000485",
+    "s000486",
+    "s000487",
+    "s000491",
+    "s000492",
+    "s000493",
+    "s000494",
+    "s000554",
+    "s000559",
+    "s000560",
+    "s000561",
+    "s000562",
+    "s000566",
+    "s000567",
+    "s000568",
+    "s000569",
+    "s000570",
+    "s000571",
+    "s000572",
+    "s000573",
+    "s000575",
+    "s000576",
+    "s000577",
+    "s000578",
+    "s000579",
+    "s000580",
+    "s000581",
+    "s000582",
+    "s000586",
+    "s000587",
+    "s000588",
+    "s000589",
+    "s000590",
+    "s000591",
+    "s000592",
+    "s000593",
+    "s000594",
+    "s000595",
+    "s000596",
+    "s000597",
+    "s000598",
+    "s000599",
+    "s000600",
+    "s000601",
+    "s000602",
+    "s000603",
+    "s000604",
+    "s000606",
+    "s000607",
+    "s000608",
+    "s000609",
+    "s000610",
+    "s000611",
+    "s000612",
+    "s000613",
+    "s000614",
+    "s000615",
+    "s000616",
+    "s000617",
+    "s000618",
+    "s000619",
+    "s000621",
+    "s000622",
+    "s000623",
+    "s000624",
+    "s000626",
+    "s000644",
+    "s000775",
+    "s000776",
+    "s000777",
+    "s000778",
+    "s000779",
+    "s000780",
+    "s000781",
+    "s000782",
+    "s000783",
+    "s000784",
+    "s000785",
+    "s000813",
+    "s000814",
+    "s000815",
+    "s000816",
+    "s000817",
+    "s000818",
+    "s000819",
+    "s000820",
+    "s000821"
+  ],
+  "evidences": [
+    {
+      "sid": "s000193",
+      "text": "Okay, next I want to talk about first, and start with an algorithm on graphs.",
+      "start": 1158250,
+      "end": 1167620,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000194",
+      "text": "And I'm going to talk about directed graphs.",
+      "start": 1178500,
+      "end": 1181700,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000347",
+      "text": "If I say no, then a counter example will be I'll show you a graph like this or like that, which doesn't have any cycle, but doesn't have a topological source.",
+      "start": 2070670,
+      "end": 2083630,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000349",
+      "text": "If the answer is yes, I need to present an algorithm that for any, any graph that doesn't have a cycle, it will produce a topological cycle.",
+      "start": 2085790,
+      "end": 2096320,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000357",
+      "text": "Okay, so I claim as long as you don't have a cycle, you will always have a topological sort.",
+      "start": 2120170,
+      "end": 2126410,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000358",
+      "text": "So I need to give you an algorithm, I need to give you a proof, I need to do a time complexity analysis.",
+      "start": 2127370,
+      "end": 2134050,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000378",
+      "text": "For topological source, we don't deal with sigs, but I want to give you the definition because you may need it in the future.",
+      "start": 2277300,
+      "end": 2284340,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000379",
+      "text": "We will deal with sources.",
+      "start": 2286260,
+      "end": 2287860,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000380",
+      "text": "Okay, the first thing I want to do is given a graph that I'm to produce a topological sort for, I will identify all the sources.",
+      "start": 2292180,
+      "end": 2308990,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000381",
+      "text": "There might be one source or two sources or many, many sources.",
+      "start": 2310350,
+      "end": 2315950,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000382",
+      "text": "We will identify A gag must have at least one source.",
+      "start": 2317070,
+      "end": 2338280,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000383",
+      "text": "I will give you the proof for it.",
+      "start": 2338360,
+      "end": 2340200,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000400",
+      "text": "Okay, so there is always a source.",
+      "start": 2439850,
+      "end": 2443770,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000401",
+      "text": "And of course we know there could be multiple sources.",
+      "start": 2443770,
+      "end": 2446730,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000402",
+      "text": "How many sources can can I have in a graph?",
+      "start": 2447610,
+      "end": 2450420,
+      "role": "qa"
+    },
+    {
+      "sid": "s000412",
+      "text": "Okay, so I have a list of sources.",
+      "start": 2487120,
+      "end": 2490960,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000413",
+      "text": "How do we get that?",
+      "start": 2496160,
+      "end": 2497440,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000414",
+      "text": "Once we discuss the data structure for total topological sort, then we will know how to obtain the sources.",
+      "start": 2498080,
+      "end": 2506880,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000415",
+      "text": "So I go through the graph and I write the sources.",
+      "start": 2507840,
+      "end": 2510880,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000421",
+      "text": "Sometimes initially there could be 18 for I'll write all of them down in a linked list or in some kind of a data structure.",
+      "start": 2523040,
+      "end": 2532330,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000422",
+      "text": "Okay, so step one of the algorithm, identify all sources.",
+      "start": 2535290,
+      "end": 2542890,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000423",
+      "text": "Step two, get one of the sources and remove it from the List of, of sources and output that.",
+      "start": 2545210,
+      "end": 2555160,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000424",
+      "text": "So this is my output.",
+      "start": 2555800,
+      "end": 2557480,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000425",
+      "text": "The first thing I output is A.",
+      "start": 2558920,
+      "end": 2561240,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000426",
+      "text": "And this doesn't exist anymore.",
+      "start": 2563160,
+      "end": 2565560,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000427",
+      "text": "By any data structure methodology that I like, it doesn't exist.",
+      "start": 2567320,
+      "end": 2571640,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000428",
+      "text": "Advancing a pointer, remembering a counter, whatever, in the new graph.",
+      "start": 2572440,
+      "end": 2578840,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000429",
+      "text": "So.",
+      "start": 2578920,
+      "end": 2579140,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000430",
+      "text": "So when I remove A, I also remove it from a graph.",
+      "start": 2579290,
+      "end": 2583610,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000431",
+      "text": "So when A is removed, by definition, the edges connecting to A don't have any meaning.",
+      "start": 2585290,
+      "end": 2592090,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000432",
+      "text": "So I remove them.",
+      "start": 2592570,
+      "end": 2593850,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000434",
+      "text": "Because if it's not a DAG, it does not have a topological sort.",
+      "start": 2606420,
+      "end": 2611140,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000435",
+      "text": "You will stop if it is a DAG because of Fact 1, it must have a source.",
+      "start": 2611140,
+      "end": 2616900,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000436",
+      "text": "When I remove a source and the edges, I haven't created any edges.",
+      "start": 2617780,
+      "end": 2623060,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000437",
+      "text": "The new graph is also a dag.",
+      "start": 2623620,
+      "end": 2626660,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000438",
+      "text": "I didn't have any cycle before.",
+      "start": 2627460,
+      "end": 2629460,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000439",
+      "text": "By removing a stuff, obviously I don't create a cycle.",
+      "start": 2629780,
+      "end": 2633380,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000440",
+      "text": "I remove any cycle, if anything.",
+      "start": 2633940,
+      "end": 2636340,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000441",
+      "text": "So removal does not create a cycle.",
+      "start": 2637940,
+      "end": 2640660,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000442",
+      "text": "Therefore, the new graph here is also a dag.",
+      "start": 2641060,
+      "end": 2645780,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000443",
+      "text": "Yes.",
+      "start": 2648900,
+      "end": 2649380,
+      "role": "qa"
+    },
+    {
+      "sid": "s000444",
+      "text": "Is that like the claim you just made?",
+      "start": 2649460,
+      "end": 2651300,
+      "role": "qa"
+    },
+    {
+      "sid": "s000445",
+      "text": "Is that.",
+      "start": 2651300,
+      "end": 2651780,
+      "role": "qa"
+    },
+    {
+      "sid": "s000446",
+      "text": "Is that enough?",
+      "start": 2652260,
+      "end": 2652940,
+      "role": "qa"
+    },
+    {
+      "sid": "s000447",
+      "text": "Sufficient to say, removing a node from a DAG still basically that correct?",
+      "start": 2652940,
+      "end": 2658070,
+      "role": "qa"
+    },
+    {
+      "sid": "s000448",
+      "text": "Exactly.",
+      "start": 2658070,
+      "end": 2658750,
+      "role": "qa"
+    },
+    {
+      "sid": "s000449",
+      "text": "Now I find all the sources again, pictorially.",
+      "start": 2660430,
+      "end": 2665230,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000450",
+      "text": "B and C going to be the sources.",
+      "start": 2665390,
+      "end": 2667710,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000451",
+      "text": "I'm going to put them in the sources list in any manner I like their order.",
+      "start": 2668110,
+      "end": 2673110,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000456",
+      "text": "I put B and C. Now I repeat the same algorithm that I before, which was remove a source from the list, remove that vertex from the graph and all the edges out of it.",
+      "start": 2682440,
+      "end": 2695960,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000457",
+      "text": "So here are the teri I do B, I remove that.",
+      "start": 2696440,
+      "end": 2701480,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000458",
+      "text": "I remove B, I remove all the edges coming out of it.",
+      "start": 2701560,
+      "end": 2705240,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000459",
+      "text": "Is there a brand new source now?",
+      "start": 2705720,
+      "end": 2708290,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000460",
+      "text": "Which is what?",
+      "start": 2710210,
+      "end": 2711170,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000463",
+      "text": "So there are no sources while removing B, because D and E both are connected to A.",
+      "start": 2714930,
+      "end": 2723010,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000464",
+      "text": "Or I should say A is connected to both B and B.",
+      "start": 2723490,
+      "end": 2726850,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000465",
+      "text": "So now I don't need to put any other sources.",
+      "start": 2727170,
+      "end": 2730450,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000466",
+      "text": "I have not created any sources.",
+      "start": 2730450,
+      "end": 2733010,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000467",
+      "text": "I don't add anything to the source list.",
+      "start": 2734540,
+      "end": 2737020,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000468",
+      "text": "I go to the source list and if there is something there, I remove it.",
+      "start": 2738780,
+      "end": 2743100,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000469",
+      "text": "And obviously the edge is connected to it.",
+      "start": 2745020,
+      "end": 2747820,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000470",
+      "text": "Now I ask, are there any sources D and E?",
+      "start": 2748780,
+      "end": 2753260,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000471",
+      "text": "In any manner I like, I put D and E here, I remove one of them.",
+      "start": 2753820,
+      "end": 2760220,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000473",
+      "text": "Next phase, I remove E. Anytime I remove something, I output that.",
+      "start": 2763750,
+      "end": 2770390,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000474",
+      "text": "So I forgot to do it at every step.",
+      "start": 2770390,
+      "end": 2772670,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000475",
+      "text": "But it would have been A, B, C, E, G. Every time I remove a source, I output that.",
+      "start": 2772670,
+      "end": 2780630,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000476",
+      "text": "That's our topological source.",
+      "start": 2780870,
+      "end": 2783350,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000477",
+      "text": "Because everything, every time that I output something, that's a source for the remaining of the vertices.",
+      "start": 2785030,
+      "end": 2794130,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000478",
+      "text": "Therefore there are no edges from remaining vertices that comes back, say to C. Therefore all these have no edges coming to C. Therefore them appearing at after C is the correct order.",
+      "start": 2796690,
+      "end": 2815820,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000479",
+      "text": "Therefore I will follow the topological sort rule that when I output something, whenever there is an edge like ac, C must come after A in the list.",
+      "start": 2818780,
+      "end": 2833900,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000480",
+      "text": "I follow that because anytime I output, that's the same source for everything else.",
+      "start": 2834380,
+      "end": 2840470,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000481",
+      "text": "Source means no edges coming first.",
+      "start": 2840950,
+      "end": 2843350,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000483",
+      "text": "So in algorithm, every time you eliminate the source and all edges, you check if there's any other source of.",
+      "start": 2844310,
+      "end": 2851110,
+      "role": "qa"
+    },
+    {
+      "sid": "s000484",
+      "text": "Absolutely.",
+      "start": 2851510,
+      "end": 2852310,
+      "role": "qa"
+    },
+    {
+      "sid": "s000485",
+      "text": "Because I may need not.",
+      "start": 2852550,
+      "end": 2854350,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000486",
+      "text": "I may.",
+      "start": 2854350,
+      "end": 2854829,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000487",
+      "text": "I will need that in future steps.",
+      "start": 2854829,
+      "end": 2857350,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000491",
+      "text": "No, when you remove one source, meaning you output one source, you have to see are there any sources left.",
+      "start": 2882080,
+      "end": 2889920,
+      "role": "qa"
+    },
+    {
+      "sid": "s000492",
+      "text": "And the only reason for that, I could wait for all the sources to be removed and do that.",
+      "start": 2891290,
+      "end": 2895930,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000493",
+      "text": "The reason I do it this way is for efficiency reason, time complexity reason.",
+      "start": 2897050,
+      "end": 2902250,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000494",
+      "text": "So correctness either way is fine.",
+      "start": 2902890,
+      "end": 2905290,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000554",
+      "text": "Okay, so how do I find sources in the graph?",
+      "start": 3277190,
+      "end": 3282390,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000559",
+      "text": "Okay, I go to every vertex in the linked list or matrix, let's say the linked list representation.",
+      "start": 3313920,
+      "end": 3329450,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000560",
+      "text": "I have X, Y, which means there is an edge from X to Y.",
+      "start": 3329450,
+      "end": 3336250,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000561",
+      "text": "There is an edge from X to Z.",
+      "start": 3336650,
+      "end": 3339210,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000562",
+      "text": "That's all this link list tells me.",
+      "start": 3339210,
+      "end": 3341450,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000566",
+      "text": "So I go to every link here, meaning every edge.",
+      "start": 3355060,
+      "end": 3359700,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000567",
+      "text": "And then I see a vertex, let's say X, I see how many vertices come after one.",
+      "start": 3360740,
+      "end": 3370340,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000568",
+      "text": "I set the odds degree equal to that many numbers and those are connected to Y and Z.",
+      "start": 3371060,
+      "end": 3386130,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000569",
+      "text": "So when I see X is going to Y, I take the in degree of Y and add one to it.",
+      "start": 3389490,
+      "end": 3399570,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000570",
+      "text": "Maybe there was something before cy that means in degree of Y is one.",
+      "start": 3400370,
+      "end": 3407630,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000571",
+      "text": "So far.",
+      "start": 3407710,
+      "end": 3408350,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000572",
+      "text": "After seeing this, after seeing that, I add one more to in degree of Y.",
+      "start": 3408430,
+      "end": 3414030,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000573",
+      "text": "So for every edge in the linked list, I add one to the in degree and one to the odd degree of some vertices.",
+      "start": 3414910,
+      "end": 3424670,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000575",
+      "text": "So by scanning this entire nucleus in any order you want, arbitrary order.",
+      "start": 3429950,
+      "end": 3436520,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000576",
+      "text": "For every edge that I see, dhcy, somebody's in degree is going to increase.",
+      "start": 3438360,
+      "end": 3445080,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000577",
+      "text": "That's Y.",
+      "start": 3445480,
+      "end": 3446200,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000578",
+      "text": "Somebody's odd degree is going to increase.",
+      "start": 3446680,
+      "end": 3448840,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000579",
+      "text": "That's C. That's all I have to do, local operation.",
+      "start": 3449000,
+      "end": 3453160,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000580",
+      "text": "If I want to know what is the integrity of a vertex X, I don't need to do a bunch of computations.",
+      "start": 3454520,
+      "end": 3460390,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000581",
+      "text": "Once I'm done with all these, I will know integrity of everybody.",
+      "start": 3460870,
+      "end": 3465270,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000582",
+      "text": "I know odd degree of everybody.",
+      "start": 3465510,
+      "end": 3467830,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000586",
+      "text": "Okay, then I go to the in-degree list and I say if in-degree of vertex I is 0, then add it to the source list at the end of the algorithm.",
+      "start": 3481270,
+      "end": 3506010,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000587",
+      "text": "Not the end of the algorithm, at the end of both, through the entire list.",
+      "start": 3506410,
+      "end": 3510270,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000588",
+      "text": "When I'm done, those with in degree zero, I'm going to put it aside, which we had it here in an array, in an linked list, in whatever you like, as long as you are separate from the graph itself.",
+      "start": 3510990,
+      "end": 3527870,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000589",
+      "text": "Okay, so I'm done with pro.",
+      "start": 3530350,
+      "end": 3534970,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000590",
+      "text": "Remember, when I was describing that all the pre processing needed was to know what the sources are and pick any one of those sources.",
+      "start": 3536240,
+      "end": 3547360,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000591",
+      "text": "So now that I'm done, now that I have the source list, now I enter the main body of the algorithm, the main loop of the algorithm.",
+      "start": 3548800,
+      "end": 3560480,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000592",
+      "text": "I get a source.",
+      "start": 3560730,
+      "end": 3562090,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000593",
+      "text": "I argue that source.",
+      "start": 3569610,
+      "end": 3571450,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000594",
+      "text": "So it goes like this.",
+      "start": 3572090,
+      "end": 3574170,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000595",
+      "text": "Get a source I R to join the I delete.",
+      "start": 3576890,
+      "end": 3587300,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000596",
+      "text": "You don't need to explicitly delete.",
+      "start": 3587300,
+      "end": 3589860,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000597",
+      "text": "I change in degrees, add vertices and in degrees to the source list.",
+      "start": 3591860,
+      "end": 3621470,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000598",
+      "text": "That's the main loop of the algorithm.",
+      "start": 3624430,
+      "end": 3626830,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000599",
+      "text": "So you repeat this N times N being the number of vertices.",
+      "start": 3628270,
+      "end": 3633070,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000600",
+      "text": "Every time you get a source, you output that.",
+      "start": 3633790,
+      "end": 3636510,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000601",
+      "text": "What you are preparing everything for other vertices.",
+      "start": 3637320,
+      "end": 3641560,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000602",
+      "text": "So remember, that's exactly what we did here.",
+      "start": 3642440,
+      "end": 3645000,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000603",
+      "text": "I take I, I output that, then say J and K, they have certain in degree.",
+      "start": 3645000,
+      "end": 3655240,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000604",
+      "text": "I decrement their in degree by 1.",
+      "start": 3656280,
+      "end": 3659560,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000606",
+      "text": "Because of I, I doesn't exist anymore, so to speak.",
+      "start": 3661080,
+      "end": 3664740,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000607",
+      "text": "So I'm updating the in degree, assuming I doesn't exist.",
+      "start": 3666980,
+      "end": 3672980,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000608",
+      "text": "Why?",
+      "start": 3673060,
+      "end": 3673460,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000609",
+      "text": "Because once the n degree of this becomes zero, I want to add it to the source list.",
+      "start": 3673780,
+      "end": 3678900,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000610",
+      "text": "That's my main goal.",
+      "start": 3679220,
+      "end": 3680660,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000611",
+      "text": "I don't want to wait till it becomes a source to add it to the source list because it's going to take a lot of time.",
+      "start": 3681060,
+      "end": 3689440,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000612",
+      "text": "It won't be good for time complexity.",
+      "start": 3690150,
+      "end": 3692310,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000613",
+      "text": "Okay, and you keep doing that while there exists a source.",
+      "start": 3696390,
+      "end": 3701110,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000614",
+      "text": "While there is a source.",
+      "start": 3704550,
+      "end": 3706070,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000615",
+      "text": "So n times.",
+      "start": 3707430,
+      "end": 3708790,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000616",
+      "text": "So I do this thing n times and I'm done.",
+      "start": 3709910,
+      "end": 3713830,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000617",
+      "text": "That's the algorithm.",
+      "start": 3713830,
+      "end": 3714970,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000618",
+      "text": "So first I prepare the algorithm initialization, which is find all the in degrees and odd degrees and as a result find all the sources.",
+      "start": 3716160,
+      "end": 3726080,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000619",
+      "text": "That's before you get into this loop, before you start the main step of your algorithm.",
+      "start": 3726400,
+      "end": 3732560,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000621",
+      "text": "I haven't really done any proof that except in here.",
+      "start": 3736400,
+      "end": 3741610,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000622",
+      "text": "That's the main proof I've had so far for the main body is whenever I output a source, let's say C, there are C is the source of the rest of the graph.",
+      "start": 3741930,
+      "end": 3756410,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000623",
+      "text": "Therefore, any vertices that are output after C will not have an edge component because C is the source.",
+      "start": 3759850,
+      "end": 3768980,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000624",
+      "text": "Pictorially, it looks like at C everything else is here.",
+      "start": 3769380,
+      "end": 3774100,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000626",
+      "text": "That's the main proof that anything I add food is correct because anything that comes after it, these guys will not have an edge coming to C because C is peak.",
+      "start": 3786420,
+      "end": 3801870,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000644",
+      "text": "It's PI kind of is described here.",
+      "start": 3918880,
+      "end": 3923130,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000775",
+      "text": "When you remove the first, how would you find the next source?",
+      "start": 4679220,
+      "end": 4679940,
+      "role": "qa"
+    },
+    {
+      "sid": "s000776",
+      "text": "When you're the first, how would you find the next source?",
+      "start": 4680100,
+      "end": 4686900,
+      "role": "qa"
+    },
+    {
+      "sid": "s000777",
+      "text": "So the sources where.",
+      "start": 4688260,
+      "end": 4689780,
+      "role": "qa"
+    },
+    {
+      "sid": "s000778",
+      "text": "That's why we had to go initially and put sources in a separate structure, like an array.",
+      "start": 4690020,
+      "end": 4695950,
+      "role": "qa"
+    },
+    {
+      "sid": "s000779",
+      "text": "So when I delete it, I have a pointer, I advance the pointer or the link list or wherever you store it.",
+      "start": 4696190,
+      "end": 4702990,
+      "role": "qa"
+    },
+    {
+      "sid": "s000780",
+      "text": "So if the sources are in the original graph, every time I have to go through every node and say, is your in degree zero?",
+      "start": 4703230,
+      "end": 4712830,
+      "role": "qa"
+    },
+    {
+      "sid": "s000781",
+      "text": "Is your in degree zero?",
+      "start": 4712830,
+      "end": 4714110,
+      "role": "qa"
+    },
+    {
+      "sid": "s000782",
+      "text": "That takes an additional N unit of time.",
+      "start": 4714270,
+      "end": 4716830,
+      "role": "qa"
+    },
+    {
+      "sid": "s000783",
+      "text": "How do I keep track of them?",
+      "start": 4716990,
+      "end": 4719280,
+      "role": "qa"
+    },
+    {
+      "sid": "s000784",
+      "text": "That's why I did that whole thing.",
+      "start": 4719280,
+      "end": 4721000,
+      "role": "qa"
+    },
+    {
+      "sid": "s000785",
+      "text": "That's why when the in-degree becomes zero, I add it to the source list right there and then so I don't have to spend extra time later looking for it.",
+      "start": 4721400,
+      "end": 4733640,
+      "role": "qa"
+    },
+    {
+      "sid": "s000813",
+      "text": "So cycle finding is this algorithm with one additional test.",
+      "start": 4933520,
+      "end": 4938480,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000814",
+      "text": "You need to prove that.",
+      "start": 4938560,
+      "end": 4939760,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000815",
+      "text": "If I ask you that question, this is statement that if the Algorithm ends early.",
+      "start": 4940080,
+      "end": 4945360,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000816",
+      "text": "There must be a cycle.",
+      "start": 4945440,
+      "end": 4946920,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000817",
+      "text": "You prove that and the rest of it is the same.",
+      "start": 4946920,
+      "end": 4949960,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000818",
+      "text": "Remember topological source.",
+      "start": 4949960,
+      "end": 4951680,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000819",
+      "text": "The rest of my algorithm is the same, except I add here that if you output the number of sources I output total is less than n. There must be a cycle.",
+      "start": 4951680,
+      "end": 4966600,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000820",
+      "text": "You add or stop the algorithm.",
+      "start": 4966600,
+      "end": 4970920,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000821",
+      "text": "So with that additional state and proving which you kind of almost proved it here today, you do the additional proof that solves that problem without any extra work.",
+      "start": 4971640,
+      "end": 4984690,
+      "role": "lecture"
+    }
+  ]
+}

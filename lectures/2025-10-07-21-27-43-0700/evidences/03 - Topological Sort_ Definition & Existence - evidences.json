@@ -1,0 +1,961 @@
+{
+  "idx": 3,
+  "title": "Topological Sort: Definition & Existence",
+  "count": 119,
+  "sids": [
+    "s000198",
+    "s000199",
+    "s000201",
+    "s000202",
+    "s000203",
+    "s000204",
+    "s000205",
+    "s000206",
+    "s000207",
+    "s000208",
+    "s000209",
+    "s000210",
+    "s000211",
+    "s000213",
+    "s000214",
+    "s000229",
+    "s000230",
+    "s000231",
+    "s000232",
+    "s000233",
+    "s000234",
+    "s000235",
+    "s000237",
+    "s000238",
+    "s000239",
+    "s000240",
+    "s000241",
+    "s000242",
+    "s000244",
+    "s000245",
+    "s000246",
+    "s000253",
+    "s000254",
+    "s000255",
+    "s000256",
+    "s000257",
+    "s000258",
+    "s000259",
+    "s000260",
+    "s000261",
+    "s000273",
+    "s000274",
+    "s000275",
+    "s000276",
+    "s000277",
+    "s000278",
+    "s000279",
+    "s000280",
+    "s000283",
+    "s000284",
+    "s000285",
+    "s000287",
+    "s000288",
+    "s000289",
+    "s000290",
+    "s000291",
+    "s000292",
+    "s000293",
+    "s000294",
+    "s000295",
+    "s000296",
+    "s000299",
+    "s000300",
+    "s000301",
+    "s000302",
+    "s000307",
+    "s000308",
+    "s000309",
+    "s000310",
+    "s000311",
+    "s000312",
+    "s000313",
+    "s000314",
+    "s000316",
+    "s000317",
+    "s000318",
+    "s000320",
+    "s000326",
+    "s000327",
+    "s000328",
+    "s000329",
+    "s000330",
+    "s000331",
+    "s000332",
+    "s000333",
+    "s000334",
+    "s000338",
+    "s000339",
+    "s000340",
+    "s000341",
+    "s000342",
+    "s000343",
+    "s000344",
+    "s000347",
+    "s000348",
+    "s000349",
+    "s000350",
+    "s000351",
+    "s000352",
+    "s000353",
+    "s000354",
+    "s000355",
+    "s000356",
+    "s000357",
+    "s000358",
+    "s000360",
+    "s000369",
+    "s000382",
+    "s000383",
+    "s000397",
+    "s000398",
+    "s000399",
+    "s000434",
+    "s000435",
+    "s000447",
+    "s000809",
+    "s000810",
+    "s000811",
+    "s000812"
+  ],
+  "evidences": [
+    {
+      "sid": "s000198",
+      "text": "You all have done some kind of sorting.",
+      "start": 1204030,
+      "end": 1207310,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000199",
+      "text": "If I give you a bunch of numbers 3, 1, 2 and sort them with your favorite algorithm, you can sort them into 1, 2, 3.",
+      "start": 1208990,
+      "end": 1222010,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000201",
+      "text": "But you're all familiar with it.",
+      "start": 1238340,
+      "end": 1240260,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000202",
+      "text": "Probably in every programming course you have done some kind of sorting without knowing how good or bad your sorting technique is.",
+      "start": 1240740,
+      "end": 1248820,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000203",
+      "text": "But that's what sorting is.",
+      "start": 1250100,
+      "end": 1251780,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000204",
+      "text": "There is a problem on directed graphs that's called topological sorting.",
+      "start": 1253940,
+      "end": 1266750,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000205",
+      "text": "It means the following.",
+      "start": 1271470,
+      "end": 1273070,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000206",
+      "text": "Output or order the vertices of a graph.",
+      "start": 1275150,
+      "end": 1278750,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000207",
+      "text": "Because in sorting you order the numbers or the input that's given to you, and the ordering is this number got to be larger than or equal to that number.",
+      "start": 1279390,
+      "end": 1291440,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000208",
+      "text": "The one after it got to be larger than or equal to the one before it.",
+      "start": 1291760,
+      "end": 1296720,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000209",
+      "text": "That's the rule of sorting, normal sorting.",
+      "start": 1296720,
+      "end": 1300240,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000210",
+      "text": "So here there is a rule.",
+      "start": 1301600,
+      "end": 1303280,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000211",
+      "text": "You have to output the vertices.",
+      "start": 1303680,
+      "end": 1306880,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000213",
+      "text": "Write it as E and say N. That's an ordering of the vertices.",
+      "start": 1314010,
+      "end": 1321530,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000214",
+      "text": "And there are many other orderings.",
+      "start": 1322250,
+      "end": 1324170,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000229",
+      "text": "So topological sort is taking a graph that's directed, it's only defined on directed graphs, and order its vertices such that whenever there is an edge, let's say BD edge, then B has to come before D in the sorted list.",
+      "start": 1384330,
+      "end": 1414470,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000230",
+      "text": "So let's check B-D. Is B before D in the output in the sorted list?",
+      "start": 1416070,
+      "end": 1424280,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000231",
+      "text": "The answer is yes.",
+      "start": 1424280,
+      "end": 1425440,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000232",
+      "text": "If the ordering that I gave you satisfies every edge in this graph, directed graph, then we say we have a topological sort.",
+      "start": 1426000,
+      "end": 1429680,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000233",
+      "text": "If the ordering that I gave you satisfies every edge in this graph, directed graph, then we say we have a topological slope.",
+      "start": 1431120,
+      "end": 1442400,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000234",
+      "text": "So does it.",
+      "start": 1444330,
+      "end": 1445130,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000235",
+      "text": "Does this ordering satisfy every directive H, Y or Y not?",
+      "start": 1446090,
+      "end": 1451770,
+      "role": "qa"
+    },
+    {
+      "sid": "s000237",
+      "text": "So according to my definition of sorting a directed graph, A has to come before B.",
+      "start": 1456970,
+      "end": 1463450,
+      "role": "qa"
+    },
+    {
+      "sid": "s000238",
+      "text": "Similarly, A has to come before C. And both of them are false here.",
+      "start": 1463930,
+      "end": 1468970,
+      "role": "qa"
+    },
+    {
+      "sid": "s000239",
+      "text": "So this, this is not a topological sort of this graph.",
+      "start": 1469290,
+      "end": 1474030,
+      "role": "qa"
+    },
+    {
+      "sid": "s000240",
+      "text": "Whereas obviously if, say I move A here, then this is a topological sort.",
+      "start": 1474910,
+      "end": 1485390,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000241",
+      "text": "Is it a B, A, C, D. Yeah.",
+      "start": 1485390,
+      "end": 1489230,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000242",
+      "text": "So it satisfied what if I change composition of D and E, is it still a topological sort or not?",
+      "start": 1489230,
+      "end": 1501560,
+      "role": "qa"
+    },
+    {
+      "sid": "s000244",
+      "text": "So if I ask you, is topological sort unique?",
+      "start": 1502920,
+      "end": 1506280,
+      "role": "qa"
+    },
+    {
+      "sid": "s000245",
+      "text": "The answer is no.",
+      "start": 1506600,
+      "end": 1507720,
+      "role": "qa"
+    },
+    {
+      "sid": "s000246",
+      "text": "We just proved that.",
+      "start": 1508040,
+      "end": 1509400,
+      "role": "qa"
+    },
+    {
+      "sid": "s000253",
+      "text": "If I switch B and C here, then it is still a topological source because A comes before B, A comes before C, B and C have no relationship.",
+      "start": 1550850,
+      "end": 1563250,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000254",
+      "text": "So yes, this will be also a topological sort.",
+      "start": 1564370,
+      "end": 1568930,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000255",
+      "text": "So there are many topological sources of a given graph.",
+      "start": 1573260,
+      "end": 1576620,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000256",
+      "text": "And another side observation, you might have a path like this.",
+      "start": 1580220,
+      "end": 1588460,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000257",
+      "text": "And if I ask you in the topological zone, should this come after A?",
+      "start": 1593180,
+      "end": 1600230,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000258",
+      "text": "The answer is yes, Even though there is no directed edge between A and B.",
+      "start": 1600790,
+      "end": 1606470,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000259",
+      "text": "But the reason B should come after A is B must come after A, C must come after B, D must come after C, and therefore D must come after A.",
+      "start": 1608390,
+      "end": 1621750,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000260",
+      "text": "So as long as there is a directed between two vertices, the second one got to come after the first.",
+      "start": 1622150,
+      "end": 1630530,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000261",
+      "text": "So does not have to be necessarily a directed edge to require an order the path to do that.",
+      "start": 1631250,
+      "end": 1638450,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000273",
+      "text": "Given a graph like this, how do we come up with a topological sort?",
+      "start": 1697240,
+      "end": 1704690,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000274",
+      "text": "That's the problem we are trying to solve.",
+      "start": 1704770,
+      "end": 1706930,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000275",
+      "text": "And that's called the topological sort problem by itself is interesting.",
+      "start": 1709090,
+      "end": 1714490,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000276",
+      "text": "It has an interesting structure.",
+      "start": 1714490,
+      "end": 1716610,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000277",
+      "text": "Using the structure of the algorithm, we can solve many other problems.",
+      "start": 1717010,
+      "end": 1721170,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000278",
+      "text": "Also many problems that you're going to face in this class and beyond.",
+      "start": 1721170,
+      "end": 1726370,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000279",
+      "text": "As one of the steps uses topological sort.",
+      "start": 1726770,
+      "end": 1730460,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000280",
+      "text": "Many applications use topological sort.",
+      "start": 1731260,
+      "end": 1734860,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000283",
+      "text": "So before I proceed, everyone understand what the topological source problem is.",
+      "start": 1748620,
+      "end": 1754870,
+      "role": "qa"
+    },
+    {
+      "sid": "s000284",
+      "text": "If not, now is the time to understand it.",
+      "start": 1755910,
+      "end": 1758470,
+      "role": "qa"
+    },
+    {
+      "sid": "s000285",
+      "text": "Anything big we need to know.",
+      "start": 1758870,
+      "end": 1760470,
+      "role": "qa"
+    },
+    {
+      "sid": "s000287",
+      "text": "Why is it hard to find all solutions?",
+      "start": 1764150,
+      "end": 1766870,
+      "role": "qa"
+    },
+    {
+      "sid": "s000288",
+      "text": "Let me actually make it and repeat this structure for every pair.",
+      "start": 1783200,
+      "end": 1804000,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000289",
+      "text": "So these two are connected to these two.",
+      "start": 1804320,
+      "end": 1807450,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000290",
+      "text": "We have this structure and these two are connected.",
+      "start": 1807450,
+      "end": 1810690,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000291",
+      "text": "To the next level, we are the same thing.",
+      "start": 1810690,
+      "end": 1812650,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000292",
+      "text": "So the output.",
+      "start": 1813370,
+      "end": 1814570,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000293",
+      "text": "Let me call these A, B, C, etc.",
+      "start": 1814570,
+      "end": 1819210,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000294",
+      "text": "Let me call these A prime, B prime, C prime, etc.",
+      "start": 1819610,
+      "end": 1824250,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000295",
+      "text": "In the output, should A come first or B, it doesn't matter because they are not connected by direct.",
+      "start": 1824970,
+      "end": 1835940,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000296",
+      "text": "So I cannot put A and B.",
+      "start": 1836740,
+      "end": 1838900,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000299",
+      "text": "My question is should A come first or a prime?",
+      "start": 1843460,
+      "end": 1846900,
+      "role": "qa"
+    },
+    {
+      "sid": "s000300",
+      "text": "Doesn't matter because there is no path between them.",
+      "start": 1847940,
+      "end": 1851300,
+      "role": "qa"
+    },
+    {
+      "sid": "s000301",
+      "text": "So I could do either one of them in the first two positions.",
+      "start": 1852100,
+      "end": 1857240,
+      "role": "qa"
+    },
+    {
+      "sid": "s000302",
+      "text": "A or A prime.",
+      "start": 1857880,
+      "end": 1859560,
+      "role": "qa"
+    },
+    {
+      "sid": "s000307",
+      "text": "Okay, so there are N divided by two levels at each level.",
+      "start": 1880200,
+      "end": 1886190,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000308",
+      "text": "I could do either.",
+      "start": 1886190,
+      "end": 1887550,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000309",
+      "text": "Let's say when I comes before A prime, I code that as zero.",
+      "start": 1887950,
+      "end": 1892910,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000310",
+      "text": "When A prime comes before A, I code that as 1.",
+      "start": 1893470,
+      "end": 1897310,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000311",
+      "text": "So I have an n divided by 2 binary number 0 and 1.",
+      "start": 1897950,
+      "end": 1904990,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000312",
+      "text": "So how many possibilities of numbers are there?",
+      "start": 1905950,
+      "end": 1909430,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000313",
+      "text": "2 to the power n over 2.",
+      "start": 1909430,
+      "end": 1911360,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000314",
+      "text": "So this tells us a topological sort is not unique.",
+      "start": 1916320,
+      "end": 1920880,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000316",
+      "text": "If you want to output every possible solution, that's going to be an exponential time algorithm, which we don't want.",
+      "start": 1923920,
+      "end": 1931120,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000317",
+      "text": "So an algorithm with exponential not run time time is not good.",
+      "start": 1932080,
+      "end": 1937500,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000318",
+      "text": "That's normally for most problems you just have one solution.",
+      "start": 1937500,
+      "end": 1941740,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000320",
+      "text": "Is topological sort only for acyclic graphs defined.",
+      "start": 1943580,
+      "end": 1948140,
+      "role": "qa"
+    },
+    {
+      "sid": "s000326",
+      "text": "But you will see that for cyclic graph, it doesn't make sense in a state, so definition is there.",
+      "start": 1955980,
+      "end": 1962470,
+      "role": "qa"
+    },
+    {
+      "sid": "s000327",
+      "text": "But we don't have a topological sort, so you kind of jump ahead.",
+      "start": 1962470,
+      "end": 1966710,
+      "role": "qa"
+    },
+    {
+      "sid": "s000328",
+      "text": "So let me cover that.",
+      "start": 1966790,
+      "end": 1968070,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000329",
+      "text": "If any part of the graph looks like this, A, B, C, and we have hundreds or thousand other vertices, but there is just one cycle of any length here.",
+      "start": 1969110,
+      "end": 1984510,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000330",
+      "text": "It's a cycle of length three.",
+      "start": 1984510,
+      "end": 1987040,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000331",
+      "text": "So this is A gotta come before B.",
+      "start": 1987840,
+      "end": 1990640,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000332",
+      "text": "B gotta come before C. C gotta come before A.",
+      "start": 1990960,
+      "end": 1995040,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000333",
+      "text": "You have a contradiction.",
+      "start": 1995120,
+      "end": 1996800,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000334",
+      "text": "So if you have a cycle, for sure we will not have a topological slope.",
+      "start": 1997440,
+      "end": 2003440,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000338",
+      "text": "If I ask you to give me a topological sort, you see a cycle anywhere, you say one doesn't exist.",
+      "start": 2012090,
+      "end": 2018330,
+      "role": "announcement"
+    },
+    {
+      "sid": "s000339",
+      "text": "This is the reason and this is the proof.",
+      "start": 2018330,
+      "end": 2020730,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000340",
+      "text": "A gotta come before B, et cetera.",
+      "start": 2020970,
+      "end": 2023370,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000341",
+      "text": "And this is true of any length cycle.",
+      "start": 2023530,
+      "end": 2026650,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000342",
+      "text": "I did it for three because it's Easier to show and visualize.",
+      "start": 2027929,
+      "end": 2031770,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000343",
+      "text": "But if I would have given you a cycle of length N, the same argument would go first before second, second before third, N-1st before Nth, etc.",
+      "start": 2031930,
+      "end": 2045300,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000344",
+      "text": "Okay, now the converse, is that true? Meaning if a graph doesn't have any cycles and you are in the domain of a directed graph, then do we have topological sort?",
+      "start": 2050660,
+      "end": 2065990,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000347",
+      "text": "If I say no, then a counter example will be I'll show you a graph like this or like that, which doesn't have any cycle, but doesn't have a topological source.",
+      "start": 2070670,
+      "end": 2083630,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000348",
+      "text": "If the answer is no.",
+      "start": 2083790,
+      "end": 2085230,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000349",
+      "text": "If the answer is yes, I need to present an algorithm that for any, any graph that doesn't have a cycle, it will produce a topological cycle.",
+      "start": 2085790,
+      "end": 2096320,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000350",
+      "text": "Right now we don't know which is true.",
+      "start": 2096720,
+      "end": 2098880,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000351",
+      "text": "If I give you a problem like this at the first glance, you don't know which one is true.",
+      "start": 2099280,
+      "end": 2103840,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000352",
+      "text": "So you gotta try both possibilities.",
+      "start": 2103840,
+      "end": 2105760,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000353",
+      "text": "Sometimes doing the negative is easier.",
+      "start": 2107600,
+      "end": 2110000,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000354",
+      "text": "Just like you did.",
+      "start": 2110000,
+      "end": 2111120,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000355",
+      "text": "Cycle doesn't have the topological sort.",
+      "start": 2112080,
+      "end": 2114840,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000356",
+      "text": "That's my example in of a story.",
+      "start": 2114840,
+      "end": 2116570,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000357",
+      "text": "Okay, so I claim as long as you don't have a cycle, you will always have a topological sort.",
+      "start": 2120170,
+      "end": 2126410,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000358",
+      "text": "So I need to give you an algorithm, I need to give you a proof, I need to do a time complexity analysis.",
+      "start": 2127370,
+      "end": 2134050,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000360",
+      "text": "Here you have a graph, no cycle, and you want to show it will always produce a topological sort.",
+      "start": 2144180,
+      "end": 2155140,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000369",
+      "text": "I claim every DAG will have a topological sort.",
+      "start": 2185870,
+      "end": 2190190,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000382",
+      "text": "We will identify A gag must have at least one source.",
+      "start": 2317070,
+      "end": 2338280,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000383",
+      "text": "I will give you the proof for it.",
+      "start": 2338360,
+      "end": 2340200,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000397",
+      "text": "So side note here, every DAG has at least one source, and I call it Fact 1.",
+      "start": 2397910,
+      "end": 2413110,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000398",
+      "text": "And the reason I want to write it down is because A, I don't want to forget to prove it later and maybe two out my algorithm and proof, I want to use fact one multiple times.",
+      "start": 2415030,
+      "end": 2428170,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000399",
+      "text": "So instead of every time writing about it, I write it once, and from now on I'm going to call it Fact 1.",
+      "start": 2428810,
+      "end": 2434090,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000434",
+      "text": "Because if it's not a DAG, it does not have a topological sort.",
+      "start": 2606420,
+      "end": 2611140,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000435",
+      "text": "You will stop if it is a DAG because of Fact 1, it must have a source.",
+      "start": 2611140,
+      "end": 2616900,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000447",
+      "text": "Sufficient to say, removing a node from a DAG still basically that correct?",
+      "start": 2652940,
+      "end": 2658070,
+      "role": "qa"
+    },
+    {
+      "sid": "s000809",
+      "text": "Basically I give you the answer for that problem.",
+      "start": 4911590,
+      "end": 4914390,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000810",
+      "text": "If you don't have any more sources somewhere in the middle of the algorithm.",
+      "start": 4915030,
+      "end": 4921830,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000811",
+      "text": "So you've done, you had emergencies after n over 2, there are no more sources.",
+      "start": 4924160,
+      "end": 4929360,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000812",
+      "text": "It means there must be a cycle.",
+      "start": 4929760,
+      "end": 4931840,
+      "role": "lecture"
+    }
+  ]
+}

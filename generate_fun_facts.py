@@ -1,7 +1,7 @@
 import time
 from pathlib import Path
 
-def generate_fun_facts(model_text, lecture_dir: Path):
+def generate_fun_facts(client, gen_model, config_text, lecture_dir: Path):
     # topicsごとのfun factを生成
     print("\n### Fun Fact Generation ###")
 
@@ -24,11 +24,16 @@ def generate_fun_facts(model_text, lecture_dir: Path):
             topic_details_markdown = f.read()
 
         print("Waiting for response from Gemini API...")
-        response_fun_facts = model_text.generate_content([
+        contents = [
             instr_fun_facts_generation,
             topic_details_markdown,
             "Using the text provided above, follow the instructions and return the result in markdown text."
-        ])
+        ]
+        response_fun_facts = client.models.generate_content(
+            model = gen_model,
+            contents = contents,
+            config = config_text,
+        )
 
         print("saving response...")
 
