@@ -1,0 +1,25 @@
+# Graph Basics & Representation
+
+Graphs are structures used in analytical thinking, consisting of *vertices* and *edges*. They can be represented visually as a picture or formally using an equation, with each method providing complete information about the graph's structure. Understanding graphs also involves considering their *density*, which relates to how many edges they possess.
+
+## Definition of a Graph
+A *graph* has a set of *vertices* and a set of *edges*. Graphs are used in analytical thinking.
+
+## Core Components: Vertices and Edges
+A graph has a set of **vertices**, which are usually represented by a little circle. It also has **edges**, which connect these vertices. Each *edge* is a pair of vertices. For instance, this graph here has three vertices and two edges.
+
+## Formal Representation of a Graph
+A graph is usually denoted by **G**. This notation is equal to a set of vertices, **V**, and a set of edges, **E**. For example, if the vertices are labeled 1, 2, and 3, the set V would be {1, 2, 3}.
+
+## Methods of Graph Representation
+Graphs can be represented in several ways, including visually as a picture or formally using an equation to represent the graph. Any of these representations should provide complete information about what the graph is. A picture is often preferred for communication because it is much easier to convey than a paragraph of text or a description of this type.
+
+## Understanding Graph Density
+The lecture will also discuss how many edges a graph could have. Graphs can vary significantly in their *density*. At one extreme, graphs can have lots of edges.
+
+## Summary
+*   A **graph** is a structure used in analytical thinking.
+*   Graphs are made up of **vertices** (represented as circles) and **edges** (pairs of vertices).
+*   A graph **G** can be formally represented by its set of vertices **V** and its set of edges **E**.
+*   Graphs can be communicated visually as a picture or through formal equations, both providing complete information.
+*   The number of edges a graph could have determines its **density**, and at one extreme, graphs can have lots of edges.

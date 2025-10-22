@@ -1,0 +1,11 @@
+## Project Planning's Hidden Algorithm
+
+Ever wondered how project management software or even your daily to-do list manages to keep things in order? The **Topological Sort Algorithm** is the unsung hero behind the scenes, directly addressing the challenge of *ordering the vertices of a directed acyclic graph* when those vertices represent tasks with dependencies. Imagine you're building a house: you can't put on the roof before the walls are up, and you can't paint the walls before they're built.
+
+Each task in a project can be considered a **vertex**, and an arrow (a directed edge) from task A to task B means task A must be completed before task B can begin. Tasks with no prerequisites are your initial "*sources*," just like the algorithm identifies vertices with an *in-degree* of 0. As you complete a task (effectively "removing" a source and its outgoing edges), you decrement the *in-degrees* of its dependent tasks, revealing new sources that are now ready to be tackled, ensuring a logical and feasible project workflow.
+
+## Compilers and Build Systems Love DAGs
+
+When you compile a large software project, how does the compiler know which files to process first? It's often leveraging the principles of **Topological Sort** to manage dependencies within a *Directed Acyclic Graph (DAG)*. Each source code file or module can be a **vertex**, and if file A includes or depends on file B, there's a directed edge from B to A, indicating B must be compiled before A.
+
+Build systems like Make, Gradle, or Maven construct these dependency graphs and then perform a topological sort to determine a valid compilation order. Files with no dependencies (their *in-degree* is 0) are the initial "*sources*" and are compiled first. If the build system ever detects a cycle (e.g., file A depends on B, and B depends on A), it will halt with an error, powerfully demonstrating why the graph *must be a Directed Acyclic Graph (DAG)* for a topological sort to exist and for a project to be successfully built.

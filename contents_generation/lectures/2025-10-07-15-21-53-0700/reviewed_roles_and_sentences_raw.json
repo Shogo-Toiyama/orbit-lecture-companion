@@ -1,0 +1,1100 @@
+{
+  "labels": [
+    {
+      "sid": "s000001",
+      "new_role": "lecture",
+      "segment_start": true,
+      "new_score": 0.9,
+      "new_reason": "First sentence, topic introduction.",
+      "modified": null
+    },
+    {
+      "sid": "s000002",
+      "new_role": "lecture",
+      "segment_start": false,
+      "new_score": 1.0,
+      "new_reason": "Continues lecture on ASI.",
+      "modified": null
+    },
+    {
+      "sid": "s000003",
+      "new_role": "lecture",
+      "segment_start": false,
+      "new_score": 1.0,
+      "new_reason": "Rhetorical question within lecture.",
+      "modified": null
+    },
+    {
+      "sid": "s000004",
+      "new_role": "lecture",
+      "segment_start": false,
+      "new_score": 1.0,
+      "new_reason": "Explaining core concern of ASI safety.",
+      "modified": null
+    },
+    {
+      "sid": "s000005",
+      "new_role": "lecture",
+      "segment_start": false,
+      "new_score": 1.0,
+      "new_reason": "Clarifying a term in lecture.",
+      "modified": null
+    },
+    {
+      "sid": "s000006",
+      "new_role": "lecture",
+      "segment_start": false,
+      "new_score": 1.0,
+      "new_reason": "Introducing key figure and their contribution.",
+      "modified": null
+    },
+    {
+      "sid": "s000007",
+      "new_role": "lecture",
+      "segment_start": false,
+      "new_score": 1.0,
+      "new_reason": "Providing specific detail about a term.",
+      "modified": null
+    },
+    {
+      "sid": "s000008",
+      "new_role": "lecture",
+      "segment_start": false,
+      "new_score": 0.9,
+      "new_reason": "Professor's perspective on topic.",
+      "modified": "Now, I told you at the very beginning I didn't really care about this kind of anthropomorphizing about the ASI."
+    },
+    {
+      "sid": "s000009",
+      "new_role": "lecture",
+      "segment_start": false,
+      "new_score": 1.0,
+      "new_reason": "Explaining a concept by negation.",
+      "modified": null
+    },
+    {
+      "sid": "s000010",
+      "new_role": "lecture",
+      "segment_start": false,
+      "new_score": 1.0,
+      "new_reason": "Defining 'friendly' in context.",
+      "modified": null
+    },
+    {
+      "sid": "s000011",
+      "new_role": "lecture",
+      "segment_start": false,
+      "new_score": 1.0,
+      "new_reason": "Referencing previous lecture content.",
+      "modified": null
+    },
+    {
+      "sid": "s000012",
+      "new_role": "lecture",
+      "segment_start": false,
+      "new_score": 1.0,
+      "new_reason": "Continues thought from previous week.",
+      "modified": null
+    },
+    {
+      "sid": "s000013",
+      "new_role": "lecture",
+      "segment_start": false,
+      "new_score": 1.0,
+      "new_reason": "Rhetorical question, transitioning topic.",
+      "modified": null
+    },
+    {
+      "sid": "s000014",
+      "new_role": "lecture",
+      "segment_start": false,
+      "new_score": 1.0,
+      "new_reason": "Explaining Bostrom's analysis.",
+      "modified": null
+    },
+    {
+      "sid": "s000015",
+      "new_role": "lecture",
+      "segment_start": false,
+      "new_score": 0.9,
+      "new_reason": "Stating conclusion from reading.",
+      "modified": "And the conclusion he comes to is that we still don't and probably never will have a safe way of uploading values, specific values, into the seed computer that's becoming an ASI, that this is something that we won't be able to do."
+    },
+    {
+      "sid": "s000016",
+      "new_role": "lecture",
+      "segment_start": false,
+      "new_score": 1.0,
+      "new_reason": "Continuing logical flow of lecture.",
+      "modified": null
+    },
+    {
+      "sid": "s000017",
+      "new_role": "lecture",
+      "segment_start": false,
+      "new_score": 1.0,
+      "new_reason": "Rhetorical question in lecture.",
+      "modified": null
+    },
+    {
+      "sid": "s000018",
+      "new_role": "lecture",
+      "segment_start": false,
+      "new_score": 0.9,
+      "new_reason": "Rhetorical question in lecture.",
+      "modified": null
+    },
+    {
+      "sid": "s000019",
+      "new_role": "lecture",
+      "segment_start": false,
+      "new_score": 1.0,
+      "new_reason": "Listing methods discussed.",
+      "modified": null
+    },
+    {
+      "sid": "s000020",
+      "new_role": "lecture",
+      "segment_start": false,
+      "new_score": 1.0,
+      "new_reason": "Rhetorical question, setting up next topic.",
+      "modified": null
+    },
+    {
+      "sid": "s000021",
+      "new_role": "lecture",
+      "segment_start": false,
+      "new_score": 0.9,
+      "new_reason": "Explaining author's stance on ASI.",
+      "modified": "In other words, he's not giving up and saying, wow, we just really have no way of assuring the friendliness of the ASI and we just have to take our chances."
+    },
+    {
+      "sid": "s000022",
+      "new_role": "lecture",
+      "segment_start": false,
+      "new_score": 1.0,
+      "new_reason": "Discussing potential implications.",
+      "modified": null
+    },
+    {
+      "sid": "s000023",
+      "new_role": "lecture",
+      "segment_start": false,
+      "new_score": 1.0,
+      "new_reason": "Stating a conclusion.",
+      "modified": null
+    },
+    {
+      "sid": "s000024",
+      "new_role": "lecture",
+      "segment_start": false,
+      "new_score": 1.0,
+      "new_reason": "Stating a conclusion.",
+      "modified": null
+    },
+    {
+      "sid": "s000025",
+      "new_role": "lecture",
+      "segment_start": false,
+      "new_score": 1.0,
+      "new_reason": "Contrasting with previous point.",
+      "modified": null
+    },
+    {
+      "sid": "s000026",
+      "new_role": "lecture",
+      "segment_start": false,
+      "new_score": 1.0,
+      "new_reason": "Posing central question for lecture.",
+      "modified": null
+    },
+    {
+      "sid": "s000027",
+      "new_role": "lecture",
+      "segment_start": false,
+      "new_score": 1.0,
+      "new_reason": "Setting up the solution.",
+      "modified": null
+    },
+    {
+      "sid": "s000028",
+      "new_role": "lecture",
+      "segment_start": false,
+      "new_score": 1.0,
+      "new_reason": "Explaining need for indirect approach.",
+      "modified": null
+    },
+    {
+      "sid": "s000029",
+      "new_role": "lecture",
+      "segment_start": false,
+      "new_score": 0.9,
+      "new_reason": "Stating main topic of reading.",
+      "modified": null
+    },
+    {
+      "sid": "s000030",
+      "new_role": "lecture",
+      "segment_start": false,
+      "new_score": 0.9,
+      "new_reason": "Emphasizing key term.",
+      "modified": null
+    },
+    {
+      "sid": "s000031",
+      "new_role": "lecture",
+      "segment_start": false,
+      "new_score": 0.9,
+      "new_reason": "Attributing the idea.",
+      "modified": null
+    },
+    {
+      "sid": "s000032",
+      "new_role": "lecture",
+      "segment_start": false,
+      "new_score": 1.0,
+      "new_reason": "Introducing new concept.",
+      "modified": null
+    },
+    {
+      "sid": "s000033",
+      "new_role": "lecture",
+      "segment_start": false,
+      "new_score": 1.0,
+      "new_reason": "Stating the full term.",
+      "modified": null
+    },
+    {
+      "sid": "s000034",
+      "new_role": "lecture",
+      "segment_start": false,
+      "new_score": 0.9,
+      "new_reason": "Stumbling on a term.",
+      "modified": null
+    },
+    {
+      "sid": "s000035",
+      "new_role": "qa",
+      "segment_start": true,
+      "new_score": 1.0,
+      "new_reason": "Acknowledging correction/question.",
+      "modified": null
+    },
+    {
+      "sid": "s000036",
+      "new_role": "qa",
+      "segment_start": false,
+      "new_score": 1.0,
+      "new_reason": "Direct question in QA.",
+      "modified": null
+    },
+    {
+      "sid": "s000037",
+      "new_role": "qa",
+      "segment_start": false,
+      "new_score": 1.0,
+      "new_reason": "Part of clarification exchange.",
+      "modified": null
+    },
+    {
+      "sid": "s000038",
+      "new_role": "qa",
+      "segment_start": false,
+      "new_score": 1.0,
+      "new_reason": "Acknowledgment in QA.",
+      "modified": null
+    },
+    {
+      "sid": "s000039",
+      "new_role": "qa",
+      "segment_start": false,
+      "new_score": 0.9,
+      "new_reason": "Part of clarification exchange.",
+      "modified": null
+    },
+    {
+      "sid": "s000040",
+      "new_role": "qa",
+      "segment_start": false,
+      "new_score": 1.0,
+      "new_reason": "Professor's answer/clarification.",
+      "modified": null
+    },
+    {
+      "sid": "s000041",
+      "new_role": "qa",
+      "segment_start": false,
+      "new_score": 0.9,
+      "new_reason": "Acknowledging correction in QA.",
+      "modified": null
+    },
+    {
+      "sid": "s000042",
+      "new_role": "qa",
+      "segment_start": false,
+      "new_score": 1.0,
+      "new_reason": "Repeating correct term.",
+      "modified": null
+    },
+    {
+      "sid": "s000043",
+      "new_role": "qa",
+      "segment_start": false,
+      "new_score": 1.0,
+      "new_reason": "Completing the term.",
+      "modified": null
+    },
+    {
+      "sid": "s000044",
+      "new_role": "qa",
+      "segment_start": false,
+      "new_score": 1.0,
+      "new_reason": "Spelling acronym, repeating term.",
+      "modified": null
+    },
+    {
+      "sid": "s000045",
+      "new_role": "qa",
+      "segment_start": false,
+      "new_score": 1.0,
+      "new_reason": "Repeating for emphasis.",
+      "modified": null
+    },
+    {
+      "sid": "s000046",
+      "new_role": "qa",
+      "segment_start": false,
+      "new_score": 1.0,
+      "new_reason": "Explicitly soliciting questions.",
+      "modified": null
+    },
+    {
+      "sid": "s000047",
+      "new_role": "lecture",
+      "segment_start": true,
+      "new_score": 1.0,
+      "new_reason": "Transition back to lecture; long pause.",
+      "modified": "All right, so what we need to understand then is what he means by this Coherent Extrapolated Volition."
+    },
+    {
+      "sid": "s000048",
+      "new_role": "lecture",
+      "segment_start": false,
+      "new_score": 0.9,
+      "new_reason": "Transition word in lecture.",
+      "modified": null
+    },
+    {
+      "sid": "s000049",
+      "new_role": "lecture",
+      "segment_start": false,
+      "new_score": 0.9,
+      "new_reason": "Discussing rationale in lecture.",
+      "modified": null
+    },
+    {
+      "sid": "s000050",
+      "new_role": "lecture",
+      "segment_start": false,
+      "new_score": 1.0,
+      "new_reason": "Explaining advantage of new approach.",
+      "modified": null
+    },
+    {
+      "sid": "s000051",
+      "new_role": "lecture",
+      "segment_start": false,
+      "new_score": 1.0,
+      "new_reason": "Explaining the method.",
+      "modified": null
+    },
+    {
+      "sid": "s000052",
+      "new_role": "lecture",
+      "segment_start": false,
+      "new_score": 0.9,
+      "new_reason": "Stating the objective of the method.",
+      "modified": "And the object here again is to not let the ASI go its own way, but to keep human beings in the loop, as we saw, with respect to value alignment."
+    },
+    {
+      "sid": "s000053",
+      "new_role": "lecture",
+      "segment_start": false,
+      "new_score": 1.0,
+      "new_reason": "Elaborating on the objective.",
+      "modified": null
+    },
+    {
+      "sid": "s000054",
+      "new_role": "lecture",
+      "segment_start": false,
+      "new_score": 1.0,
+      "new_reason": "Explaining the difficulty.",
+      "modified": null
+    },
+    {
+      "sid": "s000055",
+      "new_role": "lecture",
+      "segment_start": false,
+      "new_score": 0.9,
+      "new_reason": "Explaining a second difficulty.",
+      "modified": null
+    },
+    {
+      "sid": "s000056",
+      "new_role": "lecture",
+      "segment_start": false,
+      "new_score": 1.0,
+      "new_reason": "Proposing the solution.",
+      "modified": null
+    },
+    {
+      "sid": "s000057",
+      "new_role": "lecture",
+      "segment_start": false,
+      "new_score": 1.0,
+      "new_reason": "Explaining approach and advantages.",
+      "modified": null
+    },
+    {
+      "sid": "s000058",
+      "new_role": "lecture",
+      "segment_start": false,
+      "new_score": 1.0,
+      "new_reason": "Summarizing the goal.",
+      "modified": null
+    },
+    {
+      "sid": "s000059",
+      "new_role": "lecture",
+      "segment_start": false,
+      "new_score": 1.0,
+      "new_reason": "Rhetorical question, leading to next point.",
+      "modified": null
+    },
+    {
+      "sid": "s000060",
+      "new_role": "lecture",
+      "segment_start": false,
+      "new_score": 1.0,
+      "new_reason": "Answering rhetorical question.",
+      "modified": null
+    },
+    {
+      "sid": "s000061",
+      "new_role": "lecture",
+      "segment_start": false,
+      "new_score": 1.0,
+      "new_reason": "Explaining 'extrapolated' in detail.",
+      "modified": null
+    },
+    {
+      "sid": "s000062",
+      "new_role": "lecture",
+      "segment_start": false,
+      "new_score": 1.0,
+      "new_reason": "Referencing an article.",
+      "modified": null
+    },
+    {
+      "sid": "s000063",
+      "new_role": "lecture",
+      "segment_start": false,
+      "new_score": 1.0,
+      "new_reason": "Giving example from article.",
+      "modified": null
+    },
+    {
+      "sid": "s000064",
+      "new_role": "lecture",
+      "segment_start": false,
+      "new_score": 0.9,
+      "new_reason": "Explaining concept of deference.",
+      "modified": null
+    },
+    {
+      "sid": "s000065",
+      "new_role": "lecture",
+      "segment_start": false,
+      "new_score": 1.0,
+      "new_reason": "Naming the principle.",
+      "modified": null
+    },
+    {
+      "sid": "s000066",
+      "new_role": "lecture",
+      "segment_start": false,
+      "new_score": 0.9,
+      "new_reason": "Defining the principle.",
+      "modified": null
+    },
+    {
+      "sid": "s000067",
+      "new_role": "lecture",
+      "segment_start": false,
+      "new_score": 1.0,
+      "new_reason": "Elaborating on the principle.",
+      "modified": null
+    },
+    {
+      "sid": "s000068",
+      "new_role": "lecture",
+      "segment_start": false,
+      "new_score": 1.0,
+      "new_reason": "Summarizing a component.",
+      "modified": null
+    },
+    {
+      "sid": "s000069",
+      "new_role": "lecture",
+      "segment_start": false,
+      "new_score": 1.0,
+      "new_reason": "Discussing a challenge.",
+      "modified": null
+    },
+    {
+      "sid": "s000070",
+      "new_role": "lecture",
+      "segment_start": false,
+      "new_score": 1.0,
+      "new_reason": "Emphasizing the challenge.",
+      "modified": null
+    },
+    {
+      "sid": "s000071",
+      "new_role": "lecture",
+      "segment_start": false,
+      "new_score": 1.0,
+      "new_reason": "Acknowledging limitations.",
+      "modified": null
+    },
+    {
+      "sid": "s000072",
+      "new_role": "lecture",
+      "segment_start": false,
+      "new_score": 1.0,
+      "new_reason": "Summarizing motivation for indirect approach.",
+      "modified": null
+    },
+    {
+      "sid": "s000073",
+      "new_role": "lecture",
+      "segment_start": false,
+      "new_score": 1.0,
+      "new_reason": "Stating the feasibility.",
+      "modified": null
+    },
+    {
+      "sid": "s000074",
+      "new_role": "lecture",
+      "segment_start": false,
+      "new_score": 0.9,
+      "new_reason": "Introducing a specific quote.",
+      "modified": null
+    },
+    {
+      "sid": "s000075",
+      "new_role": "lecture",
+      "segment_start": false,
+      "new_score": 0.9,
+      "new_reason": "Explaining analysis of the quote.",
+      "modified": null
+    },
+    {
+      "sid": "s000076",
+      "new_role": "lecture",
+      "segment_start": false,
+      "new_score": 0.9,
+      "new_reason": "Summarizing essence of the quote.",
+      "modified": null
+    },
+    {
+      "sid": "s000077",
+      "new_role": "lecture",
+      "segment_start": false,
+      "new_score": 1.0,
+      "new_reason": "Elaborating on conditions.",
+      "modified": null
+    },
+    {
+      "sid": "s000078",
+      "new_role": "lecture",
+      "segment_start": false,
+      "new_score": 1.0,
+      "new_reason": "Contrasting thinking styles.",
+      "modified": null
+    },
+    {
+      "sid": "s000079",
+      "new_role": "lecture",
+      "segment_start": false,
+      "new_score": 1.0,
+      "new_reason": "Giving examples.",
+      "modified": null
+    },
+    {
+      "sid": "s000080",
+      "new_role": "lecture",
+      "segment_start": false,
+      "new_score": 1.0,
+      "new_reason": "Shifting to core question.",
+      "modified": null
+    },
+    {
+      "sid": "s000081",
+      "new_role": "lecture",
+      "segment_start": false,
+      "new_score": 0.9,
+      "new_reason": "Completing the question.",
+      "modified": null
+    },
+    {
+      "sid": "s000082",
+      "new_role": "lecture",
+      "segment_start": false,
+      "new_score": 1.0,
+      "new_reason": "Explaining key terms.",
+      "modified": null
+    },
+    {
+      "sid": "s000083",
+      "new_role": "qa",
+      "segment_start": true,
+      "new_score": 1.0,
+      "new_reason": "Explicitly soliciting questions.",
+      "modified": null
+    },
+    {
+      "sid": "s000084",
+      "new_role": "qa",
+      "segment_start": false,
+      "new_score": 1.0,
+      "new_reason": "Acknowledging a question.",
+      "modified": null
+    },
+    {
+      "sid": "s000085",
+      "new_role": "qa",
+      "segment_start": false,
+      "new_score": 1.0,
+      "new_reason": "Student question.",
+      "modified": null
+    },
+    {
+      "sid": "s000086",
+      "new_role": "qa",
+      "segment_start": false,
+      "new_score": 0.9,
+      "new_reason": "Student clarifying input.",
+      "modified": null
+    },
+    {
+      "sid": "s000087",
+      "new_role": "qa",
+      "segment_start": false,
+      "new_score": 1.0,
+      "new_reason": "Professor's answer.",
+      "modified": null
+    },
+    {
+      "sid": "s000088",
+      "new_role": "qa",
+      "segment_start": false,
+      "new_score": 1.0,
+      "new_reason": "Professor's explanation.",
+      "modified": null
+    },
+    {
+      "sid": "s000089",
+      "new_role": "qa",
+      "segment_start": false,
+      "new_score": 0.9,
+      "new_reason": "Professor's explanation, referencing philosopher.",
+      "modified": null
+    },
+    {
+      "sid": "s000090",
+      "new_role": "qa",
+      "segment_start": false,
+      "new_score": 1.0,
+      "new_reason": "Professor's explanation.",
+      "modified": null
+    },
+    {
+      "sid": "s000091",
+      "new_role": "qa",
+      "segment_start": false,
+      "new_score": 1.0,
+      "new_reason": "Professor's explanation.",
+      "modified": null
+    },
+    {
+      "sid": "s000092",
+      "new_role": "qa",
+      "segment_start": false,
+      "new_score": 1.0,
+      "new_reason": "Professor's explanation.",
+      "modified": null
+    },
+    {
+      "sid": "s000093",
+      "new_role": "qa",
+      "segment_start": false,
+      "new_score": 1.0,
+      "new_reason": "Professor's conclusion.",
+      "modified": null
+    },
+    {
+      "sid": "s000094",
+      "new_role": "qa",
+      "segment_start": false,
+      "new_score": 0.9,
+      "new_reason": "Professor's explanation, contrasting ideas.",
+      "modified": null
+    },
+    {
+      "sid": "s000095",
+      "new_role": "qa",
+      "segment_start": false,
+      "new_score": 0.9,
+      "new_reason": "Professor's explanation, incomplete thought.",
+      "modified": null
+    },
+    {
+      "sid": "s000096",
+      "new_role": "qa",
+      "segment_start": false,
+      "new_score": 1.0,
+      "new_reason": "Professor's explanation.",
+      "modified": null
+    },
+    {
+      "sid": "s000097",
+      "new_role": "qa",
+      "segment_start": false,
+      "new_score": 1.0,
+      "new_reason": "Professor's explanation.",
+      "modified": null
+    },
+    {
+      "sid": "s000098",
+      "new_role": "qa",
+      "segment_start": false,
+      "new_score": 1.0,
+      "new_reason": "Professor's explanation, contrasting CEV.",
+      "modified": null
+    },
+    {
+      "sid": "s000099",
+      "new_role": "qa",
+      "segment_start": false,
+      "new_score": 0.9,
+      "new_reason": "Professor's explanation.",
+      "modified": "The ASI is able to specifically make decisions in a concrete way."
+    },
+    {
+      "sid": "s000100",
+      "new_role": "qa",
+      "segment_start": false,
+      "new_score": 1.0,
+      "new_reason": "Summarizing a point.",
+      "modified": null
+    },
+    {
+      "sid": "s000101",
+      "new_role": "qa",
+      "segment_start": false,
+      "new_score": 1.0,
+      "new_reason": "Contrasting concepts.",
+      "modified": null
+    },
+    {
+      "sid": "s000102",
+      "new_role": "qa",
+      "segment_start": false,
+      "new_score": 0.9,
+      "new_reason": "Emphasizing a point.",
+      "modified": null
+    },
+    {
+      "sid": "s000103",
+      "new_role": "qa",
+      "segment_start": false,
+      "new_score": 0.9,
+      "new_reason": "Illustrative example.",
+      "modified": null
+    },
+    {
+      "sid": "s000104",
+      "new_role": "qa",
+      "segment_start": false,
+      "new_score": 1.0,
+      "new_reason": "Continuing the example.",
+      "modified": null
+    },
+    {
+      "sid": "s000105",
+      "new_role": "qa",
+      "segment_start": false,
+      "new_score": 0.9,
+      "new_reason": "Continuing the example.",
+      "modified": null
+    },
+    {
+      "sid": "s000106",
+      "new_role": "qa",
+      "segment_start": false,
+      "new_score": 1.0,
+      "new_reason": "Summarizing the problem.",
+      "modified": null
+    },
+    {
+      "sid": "s000107",
+      "new_role": "qa",
+      "segment_start": false,
+      "new_score": 0.9,
+      "new_reason": "Contrasting with CEV approach.",
+      "modified": "But then we look at the poem and say, do what I would want you to do if I had all the time in the world to think."
+    },
+    {
+      "sid": "s000108",
+      "new_role": "qa",
+      "segment_start": false,
+      "new_score": 1.0,
+      "new_reason": "Continuing the example.",
+      "modified": null
+    },
+    {
+      "sid": "s000109",
+      "new_role": "qa",
+      "segment_start": false,
+      "new_score": 0.9,
+      "new_reason": "Continuing example, highlighting problem.",
+      "modified": null
+    },
+    {
+      "sid": "s000110",
+      "new_role": "qa",
+      "segment_start": false,
+      "new_score": 1.0,
+      "new_reason": "Student B's turn, continuing QA.",
+      "modified": null
+    },
+    {
+      "sid": "s000111",
+      "new_role": "qa",
+      "segment_start": false,
+      "new_score": 1.0,
+      "new_reason": "Professor responding to student's point.",
+      "modified": null
+    },
+    {
+      "sid": "s000112",
+      "new_role": "qa",
+      "segment_start": false,
+      "new_score": 0.9,
+      "new_reason": "Transition word in QA.",
+      "modified": null
+    },
+    {
+      "sid": "s000113",
+      "new_role": "qa",
+      "segment_start": false,
+      "new_score": 1.0,
+      "new_reason": "Professor elaborating on the point.",
+      "modified": null
+    },
+    {
+      "sid": "s000114",
+      "new_role": "qa",
+      "segment_start": false,
+      "new_score": 1.0,
+      "new_reason": "Acknowledgment/agreement.",
+      "modified": null
+    },
+    {
+      "sid": "s000115",
+      "new_role": "qa",
+      "segment_start": false,
+      "new_score": 0.9,
+      "new_reason": "Student B continuing thought.",
+      "modified": null
+    },
+    {
+      "sid": "s000116",
+      "new_role": "qa",
+      "segment_start": false,
+      "new_score": 1.0,
+      "new_reason": "Professor completing student's thought.",
+      "modified": null
+    },
+    {
+      "sid": "s000117",
+      "new_role": "qa",
+      "segment_start": false,
+      "new_score": 0.9,
+      "new_reason": "Professor summarizing.",
+      "modified": null
+    },
+    {
+      "sid": "s000118",
+      "new_role": "qa",
+      "segment_start": false,
+      "new_score": 0.9,
+      "new_reason": "Acknowledgment.",
+      "modified": null
+    },
+    {
+      "sid": "s000119",
+      "new_role": "qa",
+      "segment_start": false,
+      "new_score": 1.0,
+      "new_reason": "Professor's explanation.",
+      "modified": null
+    },
+    {
+      "sid": "s000120",
+      "new_role": "qa",
+      "segment_start": false,
+      "new_score": 1.0,
+      "new_reason": "Professor's explanation.",
+      "modified": null
+    },
+    {
+      "sid": "s000121",
+      "new_role": "qa",
+      "segment_start": false,
+      "new_score": 1.0,
+      "new_reason": "Student B contributing to discussion.",
+      "modified": null
+    },
+    {
+      "sid": "s000122",
+      "new_role": "qa",
+      "segment_start": false,
+      "new_score": 1.0,
+      "new_reason": "Student B providing context.",
+      "modified": null
+    },
+    {
+      "sid": "s000123",
+      "new_role": "qa",
+      "segment_start": false,
+      "new_score": 1.0,
+      "new_reason": "Student B introducing an article.",
+      "modified": null
+    },
+    {
+      "sid": "s000124",
+      "new_role": "qa",
+      "segment_start": false,
+      "new_score": 1.0,
+      "new_reason": "Student B explaining article's point.",
+      "modified": null
+    },
+    {
+      "sid": "s000125",
+      "new_role": "qa",
+      "segment_start": false,
+      "new_score": 1.0,
+      "new_reason": "Student B summarizing.",
+      "modified": null
+    },
+    {
+      "sid": "s000126",
+      "new_role": "qa",
+      "segment_start": false,
+      "new_score": 1.0,
+      "new_reason": "Student B explaining what works.",
+      "modified": null
+    },
+    {
+      "sid": "s000127",
+      "new_role": "qa",
+      "segment_start": false,
+      "new_score": 1.0,
+      "new_reason": "Student B giving examples.",
+      "modified": null
+    },
+    {
+      "sid": "s000128",
+      "new_role": "qa",
+      "segment_start": false,
+      "new_score": 1.0,
+      "new_reason": "Student B concluding.",
+      "modified": null
+    },
+    {
+      "sid": "s000129",
+      "new_role": "qa",
+      "segment_start": false,
+      "new_score": 1.0,
+      "new_reason": "Student B contrasting AI history.",
+      "modified": null
+    },
+    {
+      "sid": "s000130",
+      "new_role": "qa",
+      "segment_start": false,
+      "new_score": 1.0,
+      "new_reason": "Student B summarizing.",
+      "modified": null
+    },
+    {
+      "sid": "s000131",
+      "new_role": "qa",
+      "segment_start": false,
+      "new_score": 1.0,
+      "new_reason": "Student B concluding.",
+      "modified": null
+    },
+    {
+      "sid": "s000132",
+      "new_role": "qa",
+      "segment_start": false,
+      "new_score": 1.0,
+      "new_reason": "Professor completing student's thought.",
+      "modified": null
+    },
+    {
+      "sid": "s000133",
+      "new_role": "qa",
+      "segment_start": false,
+      "new_score": 1.0,
+      "new_reason": "Student B continuing their point.",
+      "modified": null
+    },
+    {
+      "sid": "s000134",
+      "new_role": "qa",
+      "segment_start": false,
+      "new_score": 1.0,
+      "new_reason": "Student B reiterating main point.",
+      "modified": null
+    },
+    {
+      "sid": "s000135",
+      "new_role": "qa",
+      "segment_start": false,
+      "new_score": 1.0,
+      "new_reason": "Student B giving another example.",
+      "modified": null
+    },
+    {
+      "sid": "s000136",
+      "new_role": "qa",
+      "segment_start": false,
+      "new_score": 1.0,
+      "new_reason": "Student B explaining historical approach.",
+      "modified": null
+    },
+    {
+      "sid": "s000137",
+      "new_role": "qa",
+      "segment_start": false,
+      "new_score": 1.0,
+      "new_reason": "Student B, incomplete thought in QA.",
+      "modified": null
+    }
+  ]
+}

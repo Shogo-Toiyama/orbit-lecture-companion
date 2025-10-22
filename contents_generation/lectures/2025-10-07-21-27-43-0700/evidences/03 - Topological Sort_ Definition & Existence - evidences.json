@@ -1,0 +1,265 @@
+{
+  "idx": 3,
+  "title": "Topological Sort: Definition & Existence",
+  "count": 32,
+  "sids": [
+    "s000198",
+    "s000204",
+    "s000205",
+    "s000206",
+    "s000207",
+    "s000209",
+    "s000210",
+    "s000211",
+    "s000229",
+    "s000233",
+    "s000244",
+    "s000245",
+    "s000253",
+    "s000255",
+    "s000260",
+    "s000270",
+    "s000273",
+    "s000274",
+    "s000283",
+    "s000314",
+    "s000328",
+    "s000331",
+    "s000332",
+    "s000333",
+    "s000334",
+    "s000339",
+    "s000344",
+    "s000357",
+    "s000369",
+    "s000382",
+    "s000397",
+    "s000400"
+  ],
+  "evidences": [
+    {
+      "sid": "s000198",
+      "text": "You all have done some kind of sorting.",
+      "start": 1204030,
+      "end": 1207310,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000204",
+      "text": "There is a problem on directed graphs that's called topological sorting.",
+      "start": 1253940,
+      "end": 1266750,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000205",
+      "text": "It means the following.",
+      "start": 1271470,
+      "end": 1273070,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000206",
+      "text": "Output or order the vertices of a graph.",
+      "start": 1275150,
+      "end": 1278750,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000207",
+      "text": "Because in sorting you order the numbers or the input that's given to you, and the ordering is this number got to be larger than or equal to that number.",
+      "start": 1279390,
+      "end": 1291440,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000209",
+      "text": "That's the rule of sorting, normal sorting.",
+      "start": 1296720,
+      "end": 1300240,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000210",
+      "text": "So here there is a rule.",
+      "start": 1301600,
+      "end": 1303280,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000211",
+      "text": "You have to output the vertices.",
+      "start": 1303680,
+      "end": 1306880,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000229",
+      "text": "So topological sort is taking a graph that's directed, it's only defined on directed graphs, and order its vertices such that whenever there is an edge, let's say BD edge, then B has to come before D in the sorted list.",
+      "start": 1384330,
+      "end": 1414470,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000233",
+      "text": "If the ordering that I gave you satisfies every edge in this graph, directed graph, then we say we have a topological slope.",
+      "start": 1431120,
+      "end": 1442400,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000244",
+      "text": "So if I ask you, is topological sort unique?",
+      "start": 1502920,
+      "end": 1506280,
+      "role": "qa"
+    },
+    {
+      "sid": "s000245",
+      "text": "The answer is no.",
+      "start": 1506600,
+      "end": 1507720,
+      "role": "qa"
+    },
+    {
+      "sid": "s000253",
+      "text": "If I switch B and C here, then it is still a topological source because A comes before B, A comes before C, B and C have no relationship.",
+      "start": 1550850,
+      "end": 1563250,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000255",
+      "text": "So there are many topological sources of a given graph.",
+      "start": 1573260,
+      "end": 1576620,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000260",
+      "text": "So as long as there is a directed between two vertices, the second one got to come after the first.",
+      "start": 1622150,
+      "end": 1630530,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000270",
+      "text": "So the problem we are interested in is given a directed graph.",
+      "start": 1681880,
+      "end": 1688120,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000273",
+      "text": "Given a graph like this, how do we come up with a topological sort?",
+      "start": 1697240,
+      "end": 1704690,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000274",
+      "text": "That's the problem we are trying to solve.",
+      "start": 1704770,
+      "end": 1706930,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000283",
+      "text": "So before I proceed, everyone understand what the topological source problem is.",
+      "start": 1748620,
+      "end": 1754870,
+      "role": "qa"
+    },
+    {
+      "sid": "s000314",
+      "text": "So this tells us a topological sort is not unique.",
+      "start": 1916320,
+      "end": 1920880,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000328",
+      "text": "So let me cover that.",
+      "start": 1966790,
+      "end": 1968070,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000331",
+      "text": "So this is A gotta come before B.",
+      "start": 1987840,
+      "end": 1990640,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000332",
+      "text": "B gotta come before C. C gotta come before A.",
+      "start": 1990960,
+      "end": 1995040,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000333",
+      "text": "You have a contradiction.",
+      "start": 1995120,
+      "end": 1996800,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000334",
+      "text": "So if you have a cycle, for sure we will not have a topological slope.",
+      "start": 1997440,
+      "end": 2003440,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000339",
+      "text": "This is the reason and this is the proof.",
+      "start": 2018330,
+      "end": 2020730,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000344",
+      "text": "Okay, now the converse, is that true? Meaning if a graph doesn't have any cycles and you are in the domain of a directed graph, then do we have topological sort?",
+      "start": 2050660,
+      "end": 2065990,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000357",
+      "text": "Okay, so I claim as long as you don't have a cycle, you will always have a topological sort.",
+      "start": 2120170,
+      "end": 2126410,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000369",
+      "text": "I claim every DAG will have a topological sort.",
+      "start": 2185870,
+      "end": 2190190,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000382",
+      "text": "We will identify A gag must have at least one source.",
+      "start": 2317070,
+      "end": 2338280,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000397",
+      "text": "So side note here, every DAG has at least one source, and I call it Fact 1.",
+      "start": 2397910,
+      "end": 2413110,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000400",
+      "text": "Okay, so there is always a source.",
+      "start": 2439850,
+      "end": 2443770,
+      "role": "lecture"
+    }
+  ]
+}

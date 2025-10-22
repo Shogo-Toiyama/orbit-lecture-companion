@@ -1,0 +1,129 @@
+{
+  "idx": 7,
+  "title": "Graph Algorithm Applications",
+  "count": 15,
+  "sids": [
+    "s000073",
+    "s000074",
+    "s000128",
+    "s000129",
+    "s000130",
+    "s000135",
+    "s000137",
+    "s000138",
+    "s000139",
+    "s000140",
+    "s000275",
+    "s000277",
+    "s000278",
+    "s000279",
+    "s000280"
+  ],
+  "evidences": [
+    {
+      "sid": "s000073",
+      "text": "It's not just computing technologies, Google, Microsoft that are interested in algorithm, your knowledge of algorithm design, other things too.",
+      "start": 390110,
+      "end": 400310,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000074",
+      "text": "If you go to Wall street, if you go to law school, analytics become a big these days especially is an important part of that.",
+      "start": 400470,
+      "end": 409670,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000128",
+      "text": "The reason is graph algorithms by themselves have interesting structure that understanding them will help us solve other problems, many problems.",
+      "start": 785450,
+      "end": 797770,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000129",
+      "text": "You can model them as a graph.",
+      "start": 797930,
+      "end": 800090,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000130",
+      "text": "And since we gonna know the algorithm on the graphs, you just say apply that algorithm.",
+      "start": 800980,
+      "end": 806180,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000135",
+      "text": "So usually you use existing algorithm on a graph to solve, let's say 70% of your problem.",
+      "start": 827420,
+      "end": 833820,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000137",
+      "text": "And in terms of application, there are so many real problems that can be modeled as graphs.",
+      "start": 836620,
+      "end": 843500,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000138",
+      "text": "Airline paths or transportation paths, link in a computer network, electron transfer in a circuit in an integrated circuit.",
+      "start": 843740,
+      "end": 856930,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000139",
+      "text": "So many, many applications of compiler design.",
+      "start": 856930,
+      "end": 860690,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000140",
+      "text": "When a variable is alive in a compiler, they model it as a graph and they solve the graph problem.",
+      "start": 861330,
+      "end": 868610,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000275",
+      "text": "And that's called the topological sort problem by itself is interesting.",
+      "start": 1709090,
+      "end": 1714490,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000277",
+      "text": "Using the structure of the algorithm, we can solve many other problems.",
+      "start": 1717010,
+      "end": 1721170,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000278",
+      "text": "Also many problems that you're going to face in this class and beyond.",
+      "start": 1721170,
+      "end": 1726370,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000279",
+      "text": "As one of the steps uses topological sort.",
+      "start": 1726770,
+      "end": 1730460,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000280",
+      "text": "Many applications use topological sort.",
+      "start": 1731260,
+      "end": 1734860,
+      "role": "lecture"
+    }
+  ]
+}

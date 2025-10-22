@@ -1,0 +1,53 @@
+# Problem-Solving Methodology
+
+This lecture emphasizes that the true value in learning algorithms lies not in memorizing specific solutions, but in mastering a robust problem-solving *methodology*. This approach provides a systematic "game plan" for attacking new problems, focusing on understanding underlying concepts and adapting known techniques.
+
+## What is Problem-Solving Methodology?
+Problem-solving methodology refers to a systematic "game plan" or a specific "way of attacking a problem." It is presented as a valuable concept and a core takeaway from the lectures, enabling students to tackle "many other problems" beyond the specific examples discussed in class. The methodology itself, rather than individual algorithms, is highlighted as what truly "matters."
+
+## Why This Methodology Matters
+The primary significance of this methodology is that it equips students to solve *brand new problems*. The lecture explicitly states that the value is not in knowing specific algorithms, as such information can be easily found in books. Instead, a student's value comes from their ability to connect a new problem to existing ones or to devise novel solutions based on the techniques learned. Understanding one problem's solution can help with many others, either directly or by providing a similar underlying idea or structure. Learning basic algorithms is crucial as a foundation for applying this broader methodology.
+
+## Key Principles of Problem Solving
+*   **Proof and Correctness:** A fundamental principle is to "prove everything" and ensure the *correctness* of solutions. When demonstrating a proof by example, it is advised to use the "smallest example possible" to simplify analysis and writing.
+*   **Efficiency:** While multiple solutions or "10 different algorithms" can exist for any given problem, the methodology prioritizes finding solutions with "better runtime" and efficiency, rather than settling for less optimal approaches.
+*   **Multiple Solutions:** It is acknowledged that there is rarely only "one solution" to an algorithmic problem, and exploring different approaches is encouraged.
+*   **Discovery and Understanding:** The lecture encourages students to actively "discover" solutions themselves, rather than being given all the answers. This process of discovery is considered essential for "truly learn[ing]."
+
+## The Approach to Attacking a Problem
+The lecturer's goal is to demonstrate a high-level approach to problem-solving, which then progressively delves into lower-level details. This involves:
+1.  **High-Level Conception:** Starting with a broad understanding of the problem.
+2.  **Proving as Needed:** Incorporating proofs for correctness "only as needed or when they are needed."
+3.  **Data Structure Consideration:** Integrating appropriate data structures.
+4.  **Analysis and Refinement:** Finally, considering aspects like accounting or different ways of handling the solution.
+
+When encountering a new problem, students should "scan stuff that you have done in the class" to "find a hook" or a connection to existing knowledge. This often involves modeling the problem (e.g., "as a graph") and then applying or adapting algorithms learned in class.
+
+## Example: Finding Cycles in a Directed Graph
+A practical application of this methodology is demonstrated with a midterm problem: designing an algorithm to find a cycle in a directed graph. The approach involves:
+1.  **Connecting to Known Concepts:** Recognizing that this problem relates to *topological sort*, which is typically applied to directed acyclic graphs (DAGs).
+2.  **Adapting an Existing Algorithm:** Using the topological sort algorithm as a base.
+3.  **Adding a Specific Test:** Introducing an additional test: if the topological sort algorithm ends early (e.g., the total number of output sources is less than 'n', where 'n' is the number of vertices), it implies that a cycle must exist in the graph.
+4.  **Proving the Test:** Students are required to "prove that" this specific statement (if the algorithm ends early, there must be a cycle) is correct.
+
+This example illustrates how a known algorithm can be adapted with a minor variation and a crucial proof to solve a related, but distinct, problem.
+
+## Learning and Application for Students
+Students are encouraged to actively engage with the problem-solving methodology through several practices:
+*   **Reviewing Solutions:** Carefully read provided homework solutions to identify any errors in their thinking or to understand alternative methodologies.
+*   **Consistent Engagement:** Ensure comfort with covered material every week, as concepts build upon each other and future lectures will become more challenging without a solid foundation.
+*   **Active Questioning:** After each lecture, explore different angles, questions, and variations of the problems covered in class to deepen understanding and prepare for exams.
+*   **Rigorous Homework Analysis:** Thoroughly analyze homework problems to understand why solutions might have been missed or how they could be made more rigorous.
+*   **Midterm Preparation:** Expect midterm questions to require modeling problems (e.g., as a graph) and applying or combining algorithms learned in class.
+
+## Summary
+*   The core value of the course is learning a *problem-solving methodology*, not just memorizing specific algorithms.
+*   This methodology involves a systematic approach to attacking problems, finding connections to existing solutions, and developing new ones.
+*   Key principles include proving correctness, striving for efficiency, recognizing multiple possible solutions, and fostering self-discovery.
+*   The approach moves from high-level problem understanding to detailed implementation, including data structures and analysis.
+*   An example is adapting topological sort to find cycles in a graph, requiring an additional test and its proof.
+*   Students are encouraged to actively review, question, and rigorously analyze problems to master this methodology.
+
+## Supplement
+*   **Graph:** A data structure composed of a set of vertices (nodes) and a set of edges that connect pairs of these vertices. Edges can be directed (indicating a one-way relationship) or undirected.
+*   **Topological Sort:** A linear ordering of vertices in a directed acyclic graph (DAG) such that for every directed edge from vertex 'u' to vertex 'v', 'u' appears before 'v' in the ordering. If a graph contains a cycle, a topological sort cannot be performed.

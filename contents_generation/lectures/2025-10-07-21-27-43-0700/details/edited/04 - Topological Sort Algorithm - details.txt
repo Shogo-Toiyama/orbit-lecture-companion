@@ -1,0 +1,43 @@
+# Topological Sort Algorithm
+
+The Topological Sort Algorithm is a method for ordering the vertices of a directed acyclic graph (DAG). It works by iteratively identifying and outputting "sources" – vertices with no incoming edges – and then removing them and their outgoing edges from the graph, repeating the process until all vertices are ordered. The resulting sequence represents a valid topological sort.
+
+## Definition of Topological Sort
+A topological sort is produced by repeatedly identifying and outputting a *source* vertex from a graph. Every time a source is removed and outputted, it becomes part of the topological sequence. The core idea is that each outputted vertex is a source for the remaining vertices in the graph at that particular step.
+
+## Prerequisites for the Algorithm
+The algorithm operates on a graph that must be a **Directed Acyclic Graph (DAG)**. When a vertex and its edges are removed, the resulting graph also remains a DAG.
+
+## Algorithm Steps for Topological Sort
+
+The algorithm consists of an initialization phase followed by a main loop.
+
+### Initialization: Finding Initial Sources
+1.  **Calculate Degrees:** For every edge (X to Y) in the graph, increment the *in-degree* of vertex Y by one and the *out-degree* of vertex X by one. This involves iterating through all edges in the graph.
+2.  **Identify Initial Sources:** After calculating all in-degrees, examine each vertex. If a vertex's *in-degree* is 0, it is identified as a **source** and added to a dedicated *source list*.
+
+### Main Loop: Iterative Source Removal
+Once the initial source list is populated, the algorithm enters its main loop, which repeats *N* times, where *N* is the number of vertices in the graph.
+
+1.  **Get and Output a Source:** Take one vertex from the *source list*, remove it from the list, and output it. This outputted vertex becomes the next element in the topological sort sequence.
+2.  **Remove Vertex and Edges:** Remove the chosen source vertex from the graph. By definition, all edges connecting to this removed vertex no longer have meaning. Specifically, all its outgoing edges are effectively removed.
+3.  **Update In-Degrees and Identify New Sources:** For every vertex *V* that was a direct successor of the just-removed source (i.e., there was an edge from the removed source to *V*), decrement *V*'s *in-degree* by 1. If, after decrementing, *V*'s *in-degree* becomes 0, then *V* has become a new source. Add *V* to the *source list*.
+
+## Identifying and Maintaining Sources Efficiently
+The process of identifying new sources is crucial for the algorithm's efficiency. Instead of re-scanning the entire graph for sources after each removal, new sources are added to the *source list* immediately when their in-degree drops to zero. This prevents the algorithm from becoming less efficient (e.g., N-squared complexity) by avoiding repeated searches for sources.
+
+## Example Output Sequence
+An example of a topological sort output sequence mentioned in the lecture is: A, B, C, E, G.
+
+## Summary
+*   The Topological Sort Algorithm orders vertices in a **Directed Acyclic Graph (DAG)**.
+*   It works by iteratively finding and outputting **sources** (vertices with an *in-degree* of 0).
+*   The algorithm starts by calculating all *in-degrees* and identifying initial sources.
+*   In a main loop, a source is removed, outputted, and its outgoing edges are processed to update the *in-degrees* of its neighbors.
+*   New sources are added to a *source list* as soon as their *in-degree* becomes zero, ensuring efficiency.
+
+## Supplement: Explanation of Key Terms
+*   **Directed Acyclic Graph (DAG):** A graph where all edges have a direction (e.g., from A to B, but not necessarily B to A) and contain no cycles (meaning you cannot start at a vertex and follow a path of directed edges back to the same vertex). This property is essential for a topological sort to exist.
+*   **Source:** In a directed graph, a source is a vertex that has an *in-degree* of zero, meaning there are no incoming edges pointing to it.
+*   **In-degree:** The *in-degree* of a vertex is the number of incoming edges pointing to it.
+*   **Out-degree:** The *out-degree* of a vertex is the number of outgoing edges originating from it.

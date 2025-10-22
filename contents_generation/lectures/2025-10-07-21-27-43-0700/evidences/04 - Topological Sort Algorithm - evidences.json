@@ -1,0 +1,305 @@
+{
+  "idx": 4,
+  "title": "Topological Sort Algorithm",
+  "count": 37,
+  "sids": [
+    "s000379",
+    "s000380",
+    "s000414",
+    "s000422",
+    "s000423",
+    "s000430",
+    "s000431",
+    "s000437",
+    "s000442",
+    "s000449",
+    "s000456",
+    "s000475",
+    "s000476",
+    "s000477",
+    "s000483",
+    "s000485",
+    "s000491",
+    "s000492",
+    "s000554",
+    "s000566",
+    "s000569",
+    "s000573",
+    "s000586",
+    "s000591",
+    "s000595",
+    "s000597",
+    "s000598",
+    "s000599",
+    "s000600",
+    "s000604",
+    "s000609",
+    "s000617",
+    "s000618",
+    "s000621",
+    "s000622",
+    "s000785",
+    "s000786"
+  ],
+  "evidences": [
+    {
+      "sid": "s000379",
+      "text": "We will deal with sources.",
+      "start": 2286260,
+      "end": 2287860,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000380",
+      "text": "Okay, the first thing I want to do is given a graph that I'm to produce a topological sort for, I will identify all the sources.",
+      "start": 2292180,
+      "end": 2308990,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000414",
+      "text": "Once we discuss the data structure for total topological sort, then we will know how to obtain the sources.",
+      "start": 2498080,
+      "end": 2506880,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000422",
+      "text": "Okay, so step one of the algorithm, identify all sources.",
+      "start": 2535290,
+      "end": 2542890,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000423",
+      "text": "Step two, get one of the sources and remove it from the List of, of sources and output that.",
+      "start": 2545210,
+      "end": 2555160,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000430",
+      "text": "So when I remove A, I also remove it from a graph.",
+      "start": 2579290,
+      "end": 2583610,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000431",
+      "text": "So when A is removed, by definition, the edges connecting to A don't have any meaning.",
+      "start": 2585290,
+      "end": 2592090,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000437",
+      "text": "The new graph is also a dag.",
+      "start": 2623620,
+      "end": 2626660,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000442",
+      "text": "Therefore, the new graph here is also a dag.",
+      "start": 2641060,
+      "end": 2645780,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000449",
+      "text": "Now I find all the sources again, pictorially.",
+      "start": 2660430,
+      "end": 2665230,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000456",
+      "text": "I put B and C. Now I repeat the same algorithm that I before, which was remove a source from the list, remove that vertex from the graph and all the edges out of it.",
+      "start": 2682440,
+      "end": 2695960,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000475",
+      "text": "But it would have been A, B, C, E, G. Every time I remove a source, I output that.",
+      "start": 2772670,
+      "end": 2780630,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000476",
+      "text": "That's our topological source.",
+      "start": 2780870,
+      "end": 2783350,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000477",
+      "text": "Because everything, every time that I output something, that's a source for the remaining of the vertices.",
+      "start": 2785030,
+      "end": 2794130,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000483",
+      "text": "So in algorithm, every time you eliminate the source and all edges, you check if there's any other source of.",
+      "start": 2844310,
+      "end": 2851110,
+      "role": "qa"
+    },
+    {
+      "sid": "s000485",
+      "text": "Because I may need not.",
+      "start": 2852550,
+      "end": 2854350,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000491",
+      "text": "No, when you remove one source, meaning you output one source, you have to see are there any sources left.",
+      "start": 2882080,
+      "end": 2889920,
+      "role": "qa"
+    },
+    {
+      "sid": "s000492",
+      "text": "And the only reason for that, I could wait for all the sources to be removed and do that.",
+      "start": 2891290,
+      "end": 2895930,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000554",
+      "text": "Okay, so how do I find sources in the graph?",
+      "start": 3277190,
+      "end": 3282390,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000566",
+      "text": "So I go to every link here, meaning every edge.",
+      "start": 3355060,
+      "end": 3359700,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000569",
+      "text": "So when I see X is going to Y, I take the in degree of Y and add one to it.",
+      "start": 3389490,
+      "end": 3399570,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000573",
+      "text": "So for every edge in the linked list, I add one to the in degree and one to the odd degree of some vertices.",
+      "start": 3414910,
+      "end": 3424670,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000586",
+      "text": "Okay, then I go to the in-degree list and I say if in-degree of vertex I is 0, then add it to the source list at the end of the algorithm.",
+      "start": 3481270,
+      "end": 3506010,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000591",
+      "text": "So now that I'm done, now that I have the source list, now I enter the main body of the algorithm, the main loop of the algorithm.",
+      "start": 3548800,
+      "end": 3560480,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000595",
+      "text": "Get a source I R to join the I delete.",
+      "start": 3576890,
+      "end": 3587300,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000597",
+      "text": "I change in degrees, add vertices and in degrees to the source list.",
+      "start": 3591860,
+      "end": 3621470,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000598",
+      "text": "That's the main loop of the algorithm.",
+      "start": 3624430,
+      "end": 3626830,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000599",
+      "text": "So you repeat this N times N being the number of vertices.",
+      "start": 3628270,
+      "end": 3633070,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000600",
+      "text": "Every time you get a source, you output that.",
+      "start": 3633790,
+      "end": 3636510,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000604",
+      "text": "I decrement their in degree by 1.",
+      "start": 3656280,
+      "end": 3659560,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000609",
+      "text": "Because once the n degree of this becomes zero, I want to add it to the source list.",
+      "start": 3673780,
+      "end": 3678900,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000617",
+      "text": "That's the algorithm.",
+      "start": 3713830,
+      "end": 3714970,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000618",
+      "text": "So first I prepare the algorithm initialization, which is find all the in degrees and odd degrees and as a result find all the sources.",
+      "start": 3716160,
+      "end": 3726080,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000621",
+      "text": "I haven't really done any proof that except in here.",
+      "start": 3736400,
+      "end": 3741610,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000622",
+      "text": "That's the main proof I've had so far for the main body is whenever I output a source, let's say C, there are C is the source of the rest of the graph.",
+      "start": 3741930,
+      "end": 3756410,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000785",
+      "text": "That's why when the in-degree becomes zero, I add it to the source list right there and then so I don't have to spend extra time later looking for it.",
+      "start": 4721400,
+      "end": 4733640,
+      "role": "qa"
+    },
+    {
+      "sid": "s000786",
+      "text": "If I do that, then the algorithm becomes N squared and I'm not going to worry about where I'm going to store everything for every part of the algorithm.",
+      "start": 4733719,
+      "end": 4746130,
+      "role": "lecture"
+    }
+  ]
+}

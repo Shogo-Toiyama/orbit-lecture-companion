@@ -1,0 +1,401 @@
+{
+  "idx": 6,
+  "title": "Algorithm Time Complexity Analysis",
+  "count": 49,
+  "sids": [
+    "s000001",
+    "s000008",
+    "s000030",
+    "s000031",
+    "s000032",
+    "s000059",
+    "s000060",
+    "s000223",
+    "s000225",
+    "s000316",
+    "s000317",
+    "s000358",
+    "s000409",
+    "s000411",
+    "s000493",
+    "s000501",
+    "s000631",
+    "s000632",
+    "s000634",
+    "s000636",
+    "s000639",
+    "s000648",
+    "s000649",
+    "s000650",
+    "s000651",
+    "s000662",
+    "s000666",
+    "s000675",
+    "s000676",
+    "s000677",
+    "s000691",
+    "s000695",
+    "s000701",
+    "s000702",
+    "s000705",
+    "s000707",
+    "s000708",
+    "s000711",
+    "s000713",
+    "s000719",
+    "s000728",
+    "s000729",
+    "s000735",
+    "s000737",
+    "s000756",
+    "s000759",
+    "s000760",
+    "s000761",
+    "s000773"
+  ],
+  "evidences": [
+    {
+      "sid": "s000001",
+      "text": "N cubed algorithm or N squared or N?",
+      "start": 1840,
+      "end": 4720,
+      "role": "qa"
+    },
+    {
+      "sid": "s000008",
+      "text": "Time complexity.",
+      "start": 21680,
+      "end": 22880,
+      "role": "qa"
+    },
+    {
+      "sid": "s000030",
+      "text": "For example, as I did, there are N square equation.",
+      "start": 95630,
+      "end": 98670,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000031",
+      "text": "Each of them take constant times.",
+      "start": 99070,
+      "end": 101030,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000032",
+      "text": "Therefore in time of orders were asked.",
+      "start": 101030,
+      "end": 103400,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000059",
+      "text": "But usually time complexity is more important.",
+      "start": 247490,
+      "end": 251570,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000060",
+      "text": "Usually that's the one that needs a more detailed treatment.",
+      "start": 252210,
+      "end": 255490,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000223",
+      "text": "We'll be using facts like that, or last time we talked about n choose 2.",
+      "start": 1357960,
+      "end": 1364040,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000225",
+      "text": "That's about N squared.",
+      "start": 1367610,
+      "end": 1369450,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000316",
+      "text": "If you want to output every possible solution, that's going to be an exponential time algorithm, which we don't want.",
+      "start": 1923920,
+      "end": 1931120,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000317",
+      "text": "So an algorithm with exponential not run time time is not good.",
+      "start": 1932080,
+      "end": 1937500,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000358",
+      "text": "So I need to give you an algorithm, I need to give you a proof, I need to do a time complexity analysis.",
+      "start": 2127370,
+      "end": 2134050,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000409",
+      "text": "So if in my proof I assume there is one source in terms of algorithm complexity or a constant number of sources, that's incorrect.",
+      "start": 2466820,
+      "end": 2476800,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000411",
+      "text": "I cannot make that assumption in my time complexity analysis.",
+      "start": 2481680,
+      "end": 2485920,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000493",
+      "text": "The reason I do it this way is for efficiency reason, time complexity reason.",
+      "start": 2897050,
+      "end": 2902250,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000501",
+      "text": "But in order to look at the time complexity analysis, we need to go back and start talking about how am I representing a graph.",
+      "start": 2935010,
+      "end": 2945620,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000631",
+      "text": "Okay, now we need to analyze the time complexity initialization.",
+      "start": 3846880,
+      "end": 3852400,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000632",
+      "text": "For every edge, we change one in degree.",
+      "start": 3852880,
+      "end": 3857760,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000634",
+      "text": "So constant operation, two operations.",
+      "start": 3867120,
+      "end": 3869690,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000636",
+      "text": "We normally denote the number of edges by E. So for initialization, meaning find sources I spend over here, each.",
+      "start": 3874810,
+      "end": 3893850,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000639",
+      "text": "Again, I need to add up all the numbers to look at the time complexity of the algorithm.",
+      "start": 3902160,
+      "end": 3907760,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000648",
+      "text": "That's the time complexity here.",
+      "start": 3933050,
+      "end": 3934970,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000649",
+      "text": "What about inside that loop, why there is a source?",
+      "start": 3936650,
+      "end": 3940490,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000650",
+      "text": "How long does that take to rent?",
+      "start": 3941690,
+      "end": 3944330,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000651",
+      "text": "Okay, so for every vertex, when I delete a source source or when I find the source, that's the main loop, how many in degrees do I need to change?",
+      "start": 3954100,
+      "end": 3984990,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000662",
+      "text": "N of N. Therefore, updating all the in degrees takes n times n minus 1, which is order of n squared, to change all the in degrees in the entire algorithm, right?",
+      "start": 4035850,
+      "end": 4056580,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000666",
+      "text": "So, observation.",
+      "start": 4080450,
+      "end": 4081570,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000675",
+      "text": "So maybe I'm being pessimistic, which doesn't Mean incorrect, means ineffective.",
+      "start": 4110020,
+      "end": 4115940,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000676",
+      "text": "So this is the first time we're gonna see this is a powerful technique.",
+      "start": 4117620,
+      "end": 4121860,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000677",
+      "text": "I'm not gonna change any algorithm, I'm gonna change it my accounting method, to do something better than N square.",
+      "start": 4122180,
+      "end": 4130310,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000691",
+      "text": "So here, when I say n minus one, it means I'm charging from time complexity point of view.",
+      "start": 4212590,
+      "end": 4219470,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000695",
+      "text": "Okay, instead of charging it to the vertex, to this, to that, to that, that's what gave me N times N minus 1, I'm going to take this one unit and charge it to the edge. It's just different accounting method, same algorithm, same everything.",
+      "start": 4238230,
+      "end": 4261480,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000701",
+      "text": "So how many times am I going to see this edge in the entire algorithm?",
+      "start": 4285770,
+      "end": 4291770,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000702",
+      "text": "Only once.",
+      "start": 4291930,
+      "end": 4292810,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000705",
+      "text": "So every edge is going to be looked at once.",
+      "start": 4304570,
+      "end": 4307290,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000707",
+      "text": "E of N. Therefore all the in degrees correct, it's order of n square.",
+      "start": 4309460,
+      "end": 4314740,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000708",
+      "text": "But better than that, it's going to be Order E. So the example you gave, which had N minus 1 edges, this is order of N minus 1.",
+      "start": 4314740,
+      "end": 4325140,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000711",
+      "text": "This is a very, very, very important concept.",
+      "start": 4333550,
+      "end": 4336990,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000713",
+      "text": "Same algorithm, same analysis, same data structure, Just different accounting method, which has nothing to do with your code, with your algorithm, Just different way of counting like a hundred bucks per night.",
+      "start": 4339870,
+      "end": 4354030,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000719",
+      "text": "Of course, it's an important topic of accounting method and we will be using the same idea at least four times in this course for other algorithms.",
+      "start": 4378050,
+      "end": 4389450,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000728",
+      "text": "I changed my accounting method for the entirety of the algorithm that took me from N squared to E. Now, sometimes E could be as bad as N squared, but normally it's much, much better.",
+      "start": 4435620,
+      "end": 4452589,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000729",
+      "text": "But E is always preferred over N squared.",
+      "start": 4453550,
+      "end": 4457230,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000735",
+      "text": "So when I'm done with all these and I have drawn a box around these at the end, I say T of N comma E N vertices, E edges is order of E. Some people prefer to say it's order of e plus n because when I output the sources, that's n units of time.",
+      "start": 4476920,
+      "end": 4504039,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000737",
+      "text": "Because N is always less than E in a connected graph.",
+      "start": 4508360,
+      "end": 4512360,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000756",
+      "text": "And I call this a pessimistic analysis, not algorithm.",
+      "start": 4580390,
+      "end": 4584150,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000759",
+      "text": "This is a pessimistic accounting time complexity analysis.",
+      "start": 4589110,
+      "end": 4594800,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000760",
+      "text": "This is a more realistic time complexity analysis.",
+      "start": 4594880,
+      "end": 4598240,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000761",
+      "text": "The difference between these two is purely an accounting method, nothing else.",
+      "start": 4598960,
+      "end": 4604800,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000773",
+      "text": "So if you say order E or if you say order e plus, they are both absolutely precise and correct in a connected graph.",
+      "start": 4663240,
+      "end": 4673540,
+      "role": "lecture"
+    }
+  ]
+}

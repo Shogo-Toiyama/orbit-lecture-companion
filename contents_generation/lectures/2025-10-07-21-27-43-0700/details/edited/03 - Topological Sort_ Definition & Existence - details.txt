@@ -1,0 +1,34 @@
+# Topological Sort: Definition & Existence
+
+Topological sort is a method for ordering the vertices of a *directed graph* based on their dependencies. This ordering ensures that for every directed edge from vertex A to vertex B, A appears before B in the sorted list. A key aspect of topological sorting is understanding when such an ordering is possible and that it is generally not unique.
+
+## What is Topological Sort?
+
+Topological sort is a specific type of ordering problem applied to **directed graphs**. Unlike normal sorting, which orders numbers based on magnitude (e.g., larger than or equal to), topological sort orders graph *vertices* according to a precedence rule. The fundamental rule is: if there is a directed edge from vertex B to vertex D, then **B must come before D** in the resulting sorted list of vertices. An ordering is considered a topological sort if it satisfies this rule for *every* edge in the given directed graph.
+
+## Key Property: Not Unique
+
+A topological sort for a given graph is **not unique**. This means that a single directed graph can have multiple valid topological sorts. For instance, if vertices B and C have no direct relationship (no directed edge between them), their relative order can be swapped in the sorted list without violating any precedence rules, as long as other dependencies (like A coming before B, and A coming before C) are maintained.
+
+## When Does a Topological Sort Exist?
+
+The existence of a topological sort depends critically on the structure of the directed graph.
+
+*   **Cycles Prevent Topological Sort:** If a directed graph contains a **cycle**, a topological sort cannot exist. For example, if there's a cycle A → B → C → A, it implies A must come before B, B before C, and C before A. This creates a contradiction, making a valid ordering impossible.
+*   **Absence of Cycles Guarantees Existence:** Conversely, if a directed graph *does not* have any cycles, then a topological sort **will always exist**. Such a graph is known as a Directed Acyclic Graph (DAG). Every DAG is guaranteed to have at least one "source" vertex.
+
+## The Problem to Solve
+
+The primary problem in this context is, given a directed graph, how to effectively **find or compute a topological sort**. This involves developing an algorithm or method to produce one of the possible valid orderings of vertices.
+
+## Summary
+
+*   **Topological sort** orders vertices of a *directed graph* based on dependencies.
+*   The rule is: if an edge exists from A to B, then **A must appear before B** in the sorted list.
+*   A topological sort is **not unique**; a graph can have multiple valid orderings.
+*   A topological sort **cannot exist** if the graph contains a **cycle**.
+*   A topological sort **always exists** if the graph is a **Directed Acyclic Graph (DAG)**, meaning it has no cycles.
+
+## Supplement: Understanding Directed Acyclic Graphs (DAGs)
+
+A **Directed Acyclic Graph (DAG)** is a type of graph that is both *directed* (meaning all edges have a specific direction, e.g., from A to B) and *acyclic* (meaning it contains no cycles, where a cycle is a path of edges that starts and ends at the same vertex). The lecture explicitly states that if a graph "doesn't have any cycles and you are in the domain of a directed graph," then it is a DAG, and a topological sort will always exist for it.

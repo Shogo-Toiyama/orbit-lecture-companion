@@ -1,0 +1,53 @@
+# Algorithm Time Complexity Analysis
+
+Algorithm time complexity analysis is a crucial method for evaluating the efficiency of algorithms, focusing on how their runtime scales with the size of the input. It helps distinguish between efficient algorithms, often expressed in terms of N, N-squared, or E (number of edges), and inefficient ones, such as those with exponential time. A key insight is that while the algorithm itself remains constant, refining the *accounting method* used in analysis can significantly improve the perceived complexity.
+
+## Understanding Algorithm Time Complexity
+
+**Time complexity** is a fundamental concept in algorithm analysis, representing how the runtime of an algorithm changes as the input size grows. It is often expressed in terms of orders like N, N-squared, or N-cubed. The goal of this analysis is to determine the efficiency of an algorithm by adding up the numbers representing the operations performed.
+
+## Importance of Analyzing Time Complexity
+
+Analyzing time complexity is usually considered **more important** than other factors and requires a more detailed treatment. It is essential for efficiency reasons, as it helps identify algorithms that are practical for real-world use. For instance, an algorithm with *exponential time* is generally considered **not good** and is undesirable, especially if it aims to output every possible solution.
+
+## Common Algorithm Complexity Orders
+
+The lecture discusses various orders of time complexity:
+*   **N, N-squared, N-cubed:** These are common classifications for algorithms. For example, an N-squared equation where each operation takes constant time results in an overall time complexity of *order N-squared*.
+*   **N choose 2:** This is also approximately *N-squared*.
+*   **Exponential time:** This is a highly inefficient complexity, which is generally avoided.
+*   **Order E (number of edges):** This is often preferred over N-squared, especially in graph algorithms. While E can sometimes be as large as N-squared, it is typically much better. Some analyses might express it as *order E plus N* (for N vertices and E edges), particularly when considering the time to output sources, which takes N units of time. Both *order E* and *order E plus N* are considered precise and correct in a connected graph, where N is always less than E.
+
+## Steps in Time Complexity Analysis
+
+To perform a time complexity analysis, one must:
+1.  **Give an algorithm and a proof.**
+2.  **Analyze initialization:** For example, in graph algorithms, this might involve operations for every edge, such as changing "in degrees," which are constant operations. The number of edges is typically denoted by *E*.
+3.  **Analyze loops:** Determine how long operations inside loops take. For instance, when deleting or finding a source in a main loop, one must count how many "in degrees" need to be changed.
+4.  **Avoid incorrect assumptions:** Assumptions, such as a constant number of sources, cannot be made in time complexity analysis if they are not universally true for the problem.
+5.  **Consider data representation:** The way a graph is represented, for example, is crucial for analyzing its time complexity.
+
+## The Role of Accounting Methods in Analysis
+
+A powerful technique in time complexity analysis involves changing the **accounting method** rather than the algorithm itself. This means using a different way of counting operations to achieve a better complexity estimate. The algorithm, data structure, and code remain the same; only the method of charging for operations changes. This concept is very important and will be used multiple times in the course for other algorithms.
+
+## Refining Complexity: From N-squared to E
+
+Initially, an analysis might yield a "pessimistic" result, such as *N times N minus 1*, leading to an *order N-squared* complexity for updating "in degrees." This is considered a pessimistic accounting time complexity analysis.
+
+By changing the accounting method, instead of charging operations to a vertex, they can be charged to an **edge**. If each edge is looked at only once in the entire algorithm, then the total time for processing all "in degrees" can be refined from *order N-squared* to *order E*. This revised approach provides a more realistic time complexity analysis, as *E* is generally much better than *N-squared*, even though *E* can sometimes be as bad as *N-squared*.
+
+## Summary of Key Takeaways
+
+*   **Time complexity** measures how an algorithm's runtime scales with input size.
+*   It is crucial for **efficiency reasons** and identifying practical algorithms.
+*   Common complexities include N, N-squared, N-cubed, and E, with **exponential time** being undesirable.
+*   Analysis involves breaking down operations, especially in **initialization and loops**, and avoiding incorrect assumptions.
+*   A powerful technique is to change the **accounting method** to refine complexity without altering the algorithm.
+*   By charging operations to **edges** instead of vertices, an *N-squared* analysis can often be improved to a more realistic *order E* or *order E plus N*.
+
+## Supplement: Clarifying Key Terms
+
+*   **N:** In the context of algorithm analysis, *N* typically represents the **number of vertices** in a graph.
+*   **E:** *E* explicitly denotes the **number of edges** in a graph.
+*   **Connected graph:** In a connected graph, the number of vertices (N) is always less than the number of edges (E).

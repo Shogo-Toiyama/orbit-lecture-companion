@@ -1,0 +1,1462 @@
+{
+  "labels": [
+    {
+      "sid": "s000489",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Summarizing AI's promising applications."
+    },
+    {
+      "sid": "s000490",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Posing a question to introduce new topic."
+    },
+    {
+      "sid": "s000491",
+      "role": "lecture",
+      "role_score": 0.85,
+      "role_reason": "Checking audience familiarity with a concept."
+    },
+    {
+      "sid": "s000492",
+      "role": "chitchat",
+      "role_score": 0.8,
+      "role_reason": "Short filler, seeking affirmation."
+    },
+    {
+      "sid": "s000493",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Introducing the concept of AlphaGo."
+    },
+    {
+      "sid": "s000494",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Providing context for AlphaGo's significance."
+    },
+    {
+      "sid": "s000495",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explaining the game of Go's challenge for AI."
+    },
+    {
+      "sid": "s000496",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Describing the AlphaGo learning process and rules."
+    },
+    {
+      "sid": "s000497",
+      "role": "chitchat",
+      "role_score": 0.8,
+      "role_reason": "Short filler, seeking affirmation."
+    },
+    {
+      "sid": "s000498",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explaining deep learning framework details."
+    },
+    {
+      "sid": "s000499",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Continuing explanation of AlphaGo's self-play learning."
+    },
+    {
+      "sid": "s000500",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Posing a complex question about ethical AI learning."
+    },
+    {
+      "sid": "s000501",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Summarizing the core ethical problem."
+    },
+    {
+      "sid": "s000502",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Describing the AI learning engine."
+    },
+    {
+      "sid": "s000503",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Rhetorical question about AI learning sources."
+    },
+    {
+      "sid": "s000504",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Checking audience familiarity with LLMs."
+    },
+    {
+      "sid": "s000505",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explaining the concept behind LLMs."
+    },
+    {
+      "sid": "s000506",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Technical explanation of transformer architecture."
+    },
+    {
+      "sid": "s000507",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Incomplete sentence, likely a transition to content."
+    },
+    {
+      "sid": "s000508",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Introducing an example and source for ChatGPT."
+    },
+    {
+      "sid": "s000509",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Presenting a finding about ChatGPT's intelligence."
+    },
+    {
+      "sid": "s000510",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Posing a question about future AI intelligence."
+    },
+    {
+      "sid": "s000511",
+      "role": "lecture",
+      "role_score": 0.85,
+      "role_reason": "Incomplete sentence, likely a concept or slide title."
+    },
+    {
+      "sid": "s000512",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor asks direct question to audience."
+    },
+    {
+      "sid": "s000513",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor asks follow-up question."
+    },
+    {
+      "sid": "s000514",
+      "role": "qa",
+      "role_score": 0.95,
+      "role_reason": "Professor acknowledges student's answer."
+    },
+    {
+      "sid": "s000515",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Student answers professor's question."
+    },
+    {
+      "sid": "s000516",
+      "role": "qa",
+      "role_score": 0.95,
+      "role_reason": "Professor's short, rhetorical response to student."
+    },
+    {
+      "sid": "s000517",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor directly disagrees with student's point."
+    },
+    {
+      "sid": "s000518",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor challenges student's definition of smart."
+    },
+    {
+      "sid": "s000519",
+      "role": "qa",
+      "role_score": 0.95,
+      "role_reason": "Professor's emphatic statement in Q&A."
+    },
+    {
+      "sid": "s000520",
+      "role": "qa",
+      "role_score": 0.95,
+      "role_reason": "Professor elaborates on their point in Q&A."
+    },
+    {
+      "sid": "s000521",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Student asks question referencing a paper."
+    },
+    {
+      "sid": "s000522",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Student elaborates on their question/point."
+    },
+    {
+      "sid": "s000523",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor answers student's point directly."
+    },
+    {
+      "sid": "s000524",
+      "role": "qa",
+      "role_score": 0.95,
+      "role_reason": "Professor asks follow-up question in discussion."
+    },
+    {
+      "sid": "s000525",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Introducing an example to illustrate a concept."
+    },
+    {
+      "sid": "s000526",
+      "role": "chitchat",
+      "role_score": 0.8,
+      "role_reason": "Short filler, seeking affirmation."
+    },
+    {
+      "sid": "s000527",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Describing the game 'Breakout' as an example."
+    },
+    {
+      "sid": "s000528",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explaining AI's performance in the example game."
+    },
+    {
+      "sid": "s000529",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Highlighting AI's brittleness with the example."
+    },
+    {
+      "sid": "s000530",
+      "role": "chitchat",
+      "role_score": 0.8,
+      "role_reason": "Short filler, seeking affirmation."
+    },
+    {
+      "sid": "s000531",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explaining the implication of AI's context dependency."
+    },
+    {
+      "sid": "s000532",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Contrasting human learning with AI learning."
+    },
+    {
+      "sid": "s000533",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Student asks for clarification/agreement."
+    },
+    {
+      "sid": "s000534",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor directly answers student's question."
+    },
+    {
+      "sid": "s000535",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Summarizing AI capabilities and associations."
+    },
+    {
+      "sid": "s000536",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Contrasting knowledge with deeper intelligence."
+    },
+    {
+      "sid": "s000537",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Transitioning to AI achievements as landmarks."
+    },
+    {
+      "sid": "s000538",
+      "role": "chitchat",
+      "role_score": 0.85,
+      "role_reason": "Professor expresses personal opinion."
+    },
+    {
+      "sid": "s000539",
+      "role": "chitchat",
+      "role_score": 0.85,
+      "role_reason": "Professor emphasizes personal opinion."
+    },
+    {
+      "sid": "s000540",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Introducing an example of AI handling ambiguity."
+    },
+    {
+      "sid": "s000541",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explaining the challenge of semantic understanding."
+    },
+    {
+      "sid": "s000542",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explaining AI's capability beyond pure syntax."
+    },
+    {
+      "sid": "s000543",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Providing a specific example for ambiguous statement."
+    },
+    {
+      "sid": "s000544",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Further explanation of AI's reasoning on context."
+    },
+    {
+      "sid": "s000545",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Labeling the concept of semantic meaning."
+    },
+    {
+      "sid": "s000546",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Providing an example of GPT3's code generation."
+    },
+    {
+      "sid": "s000547",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explaining AI's conceptual understanding."
+    },
+    {
+      "sid": "s000548",
+      "role": "chitchat",
+      "role_score": 0.85,
+      "role_reason": "Professor expresses personal opinion."
+    },
+    {
+      "sid": "s000549",
+      "role": "chitchat",
+      "role_score": 0.85,
+      "role_reason": "Professor expresses personal opinion."
+    },
+    {
+      "sid": "s000550",
+      "role": "chitchat",
+      "role_score": 0.85,
+      "role_reason": "Professor expresses personal opinion with nuance."
+    },
+    {
+      "sid": "s000551",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Incomplete sentence, introducing an example."
+    },
+    {
+      "sid": "s000552",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Presenting an AI task/output example."
+    },
+    {
+      "sid": "s000553",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explaining the nature of the AI's output."
+    },
+    {
+      "sid": "s000554",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Evaluating the AI's output."
+    },
+    {
+      "sid": "s000555",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Further evaluation of the AI's output."
+    },
+    {
+      "sid": "s000556",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Directing students to review material, transitioning."
+    },
+    {
+      "sid": "s000557",
+      "role": "chitchat",
+      "role_score": 0.9,
+      "role_reason": "Professor comments on presentation logistics."
+    },
+    {
+      "sid": "s000558",
+      "role": "chitchat",
+      "role_score": 0.9,
+      "role_reason": "Professor comments on presentation slides and updates."
+    },
+    {
+      "sid": "s000559",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Discussing AI's performance on exams."
+    },
+    {
+      "sid": "s000560",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Discussing AI's limitations on specific topics."
+    },
+    {
+      "sid": "s000561",
+      "role": "chitchat",
+      "role_score": 0.95,
+      "role_reason": "Professor pausing to adjust something."
+    },
+    {
+      "sid": "s000562",
+      "role": "chitchat",
+      "role_score": 0.95,
+      "role_reason": "Professor pausing to adjust something."
+    },
+    {
+      "sid": "s000563",
+      "role": "chitchat",
+      "role_score": 0.95,
+      "role_reason": "Professor pausing to adjust something."
+    },
+    {
+      "sid": "s000564",
+      "role": "chitchat",
+      "role_score": 0.8,
+      "role_reason": "Student's short interjection."
+    },
+    {
+      "sid": "s000565",
+      "role": "chitchat",
+      "role_score": 0.8,
+      "role_reason": "Student's short interjection."
+    },
+    {
+      "sid": "s000566",
+      "role": "chitchat",
+      "role_score": 0.95,
+      "role_reason": "Professor decides against an action."
+    },
+    {
+      "sid": "s000567",
+      "role": "chitchat",
+      "role_score": 0.95,
+      "role_reason": "Professor comments on presentation material."
+    },
+    {
+      "sid": "s000568",
+      "role": "chitchat",
+      "role_score": 0.95,
+      "role_reason": "Professor decides on presentation action."
+    },
+    {
+      "sid": "s000569",
+      "role": "chitchat",
+      "role_score": 0.8,
+      "role_reason": "Filler word, transition."
+    },
+    {
+      "sid": "s000570",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Recapping a previous point and transitioning."
+    },
+    {
+      "sid": "s000571",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Discussing AI's performance on standardized tests."
+    },
+    {
+      "sid": "s000572",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Discussing AI limitations and promising example."
+    },
+    {
+      "sid": "s000573",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Introducing a new topic: humor."
+    },
+    {
+      "sid": "s000574",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Introducing an example of AI humor attempt."
+    },
+    {
+      "sid": "s000575",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor asks question to audience."
+    },
+    {
+      "sid": "s000576",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Student answers professor's question."
+    },
+    {
+      "sid": "s000577",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor clarifies the question."
+    },
+    {
+      "sid": "s000578",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Providing context for the humor example."
+    },
+    {
+      "sid": "s000579",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Providing an example of 'Onion style' humor."
+    },
+    {
+      "sid": "s000580",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor asks question to audience."
+    },
+    {
+      "sid": "s000581",
+      "role": "chitchat",
+      "role_score": 0.9,
+      "role_reason": "Professor indicates revealing the answer."
+    },
+    {
+      "sid": "s000582",
+      "role": "chitchat",
+      "role_score": 0.9,
+      "role_reason": "Professor comments on their own thought process."
+    },
+    {
+      "sid": "s000583",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Professor reveals answer and comments on AI performance."
+    },
+    {
+      "sid": "s000584",
+      "role": "chitchat",
+      "role_score": 0.8,
+      "role_reason": "Filler word."
+    },
+    {
+      "sid": "s000585",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Posing a deeper question about AI's understanding."
+    },
+    {
+      "sid": "s000586",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Continuing the deeper question about AI's intent."
+    },
+    {
+      "sid": "s000587",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explaining potential mechanism of AI humor generation."
+    },
+    {
+      "sid": "s000588",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Summarizing the challenge of AI humor."
+    },
+    {
+      "sid": "s000589",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Posing a question about AI's future role."
+    },
+    {
+      "sid": "s000590",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Acknowledging AI's growth and data learning."
+    },
+    {
+      "sid": "s000591",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Posing a question about guardrails and potential problems."
+    },
+    {
+      "sid": "s000592",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Introducing the 'hungry judges problem' concept."
+    },
+    {
+      "sid": "s000593",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explaining the 'hungry judges problem' with an example."
+    },
+    {
+      "sid": "s000594",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Detailing a factor in the 'hungry judges problem'."
+    },
+    {
+      "sid": "s000595",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Detailing a factor in the 'hungry judges problem'."
+    },
+    {
+      "sid": "s000596",
+      "role": "chitchat",
+      "role_score": 0.95,
+      "role_reason": "Professor's personal comment."
+    },
+    {
+      "sid": "s000597",
+      "role": "chitchat",
+      "role_score": 0.95,
+      "role_reason": "Professor's personal comment."
+    },
+    {
+      "sid": "s000598",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Contrasting AI with humans in the problem context."
+    },
+    {
+      "sid": "s000599",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Posing a question about implications of flawed data."
+    },
+    {
+      "sid": "s000600",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explaining the purpose of AI guardrails."
+    },
+    {
+      "sid": "s000601",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Introducing a study on AI guardrails."
+    },
+    {
+      "sid": "s000602",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explaining a finding from the guardrail study."
+    },
+    {
+      "sid": "s000603",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Providing an example of a guardrail loophole."
+    },
+    {
+      "sid": "s000604",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Providing another example of a guardrail loophole."
+    },
+    {
+      "sid": "s000605",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Providing another example of a guardrail loophole."
+    },
+    {
+      "sid": "s000606",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Continuing the example of guardrail loopholes."
+    },
+    {
+      "sid": "s000607",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Summarizing the condition for the guardrail loophole."
+    },
+    {
+      "sid": "s000608",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Stating the necessity of AI guardrails."
+    },
+    {
+      "sid": "s000609",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor asks question to audience."
+    },
+    {
+      "sid": "s000610",
+      "role": "chitchat",
+      "role_score": 0.9,
+      "role_reason": "Professor answers their own question (personal anecdote)."
+    },
+    {
+      "sid": "s000611",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Introducing a personal experiment/example."
+    },
+    {
+      "sid": "s000612",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Clarifying the goal of the AI experiment."
+    },
+    {
+      "sid": "s000613",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Setting the context for the AI experiment."
+    },
+    {
+      "sid": "s000614",
+      "role": "chitchat",
+      "role_score": 0.8,
+      "role_reason": "Student's short interjection."
+    },
+    {
+      "sid": "s000615",
+      "role": "chitchat",
+      "role_score": 0.9,
+      "role_reason": "Professor's lighthearted comment."
+    },
+    {
+      "sid": "s000616",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Example of an allowed AI image generation."
+    },
+    {
+      "sid": "s000617",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Comment on the AI's response."
+    },
+    {
+      "sid": "s000618",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Another example of an allowed AI image generation."
+    },
+    {
+      "sid": "s000619",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Comment on the AI's response."
+    },
+    {
+      "sid": "s000620",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Another example of an AI image generation prompt."
+    },
+    {
+      "sid": "s000621",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor asks question to audience."
+    },
+    {
+      "sid": "s000622",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor clarifies the question."
+    },
+    {
+      "sid": "s000623",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor clarifies the question about guardrails."
+    },
+    {
+      "sid": "s000624",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor answers the question directly."
+    },
+    {
+      "sid": "s000625",
+      "role": "chitchat",
+      "role_score": 0.9,
+      "role_reason": "Professor comments on the AI-generated image."
+    },
+    {
+      "sid": "s000626",
+      "role": "chitchat",
+      "role_score": 0.9,
+      "role_reason": "Professor comments on the AI-generated image."
+    },
+    {
+      "sid": "s000627",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Another example of an AI image generation prompt."
+    },
+    {
+      "sid": "s000628",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor asks question to audience."
+    },
+    {
+      "sid": "s000629",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Student answers professor's question."
+    },
+    {
+      "sid": "s000630",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor affirms student's answer."
+    },
+    {
+      "sid": "s000631",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Professor confirms AI's action in the example."
+    },
+    {
+      "sid": "s000632",
+      "role": "chitchat",
+      "role_score": 0.9,
+      "role_reason": "Professor makes a joke about the image."
+    },
+    {
+      "sid": "s000633",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Professor summarizes experiment status."
+    },
+    {
+      "sid": "s000634",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Rhetorical question, setting up next step."
+    },
+    {
+      "sid": "s000635",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Another example of an AI image generation prompt."
+    },
+    {
+      "sid": "s000636",
+      "role": "chitchat",
+      "role_score": 0.9,
+      "role_reason": "Professor comments on the AI-generated image."
+    },
+    {
+      "sid": "s000637",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Professor provides detail about the image style."
+    },
+    {
+      "sid": "s000638",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Directing audience attention to a detail."
+    },
+    {
+      "sid": "s000639",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Professor comments on the AI's accuracy."
+    },
+    {
+      "sid": "s000640",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Professor notes a specific detail in the image."
+    },
+    {
+      "sid": "s000641",
+      "role": "chitchat",
+      "role_score": 0.9,
+      "role_reason": "Professor jokes about their age/appearance."
+    },
+    {
+      "sid": "s000642",
+      "role": "chitchat",
+      "role_score": 0.9,
+      "role_reason": "Professor makes a joke."
+    },
+    {
+      "sid": "s000643",
+      "role": "chitchat",
+      "role_score": 0.8,
+      "role_reason": "Short filler word."
+    },
+    {
+      "sid": "s000644",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Summarizing AI's action in the example."
+    },
+    {
+      "sid": "s000645",
+      "role": "chitchat",
+      "role_score": 0.8,
+      "role_reason": "Filler word, transition."
+    },
+    {
+      "sid": "s000646",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Professor states intention for next step."
+    },
+    {
+      "sid": "s000647",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "The new prompt given to the AI."
+    },
+    {
+      "sid": "s000648",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Professor comments on the AI's refusal."
+    },
+    {
+      "sid": "s000649",
+      "role": "chitchat",
+      "role_score": 0.8,
+      "role_reason": "Filler word, transition."
+    },
+    {
+      "sid": "s000650",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Professor states the implication of the refusal."
+    },
+    {
+      "sid": "s000651",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Posing a question about the specific guardrail."
+    },
+    {
+      "sid": "s000652",
+      "role": "chitchat",
+      "role_score": 0.8,
+      "role_reason": "Short filler word."
+    },
+    {
+      "sid": "s000653",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explaining what the AI could have done."
+    },
+    {
+      "sid": "s000654",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Emphasizing the AI's choice in refusal."
+    },
+    {
+      "sid": "s000655",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explaining the AI's reason for refusal."
+    },
+    {
+      "sid": "s000656",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Summarizing the AI's response."
+    },
+    {
+      "sid": "s000657",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Another prompt for the AI."
+    },
+    {
+      "sid": "s000658",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor asks question to audience."
+    },
+    {
+      "sid": "s000659",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor answers their own question."
+    },
+    {
+      "sid": "s000660",
+      "role": "chitchat",
+      "role_score": 0.8,
+      "role_reason": "Short filler word."
+    },
+    {
+      "sid": "s000661",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explaining the nature of the guardrails."
+    },
+    {
+      "sid": "s000662",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Clarifying the guardrail's action."
+    },
+    {
+      "sid": "s000663",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Implying a deeper mechanism for guardrails."
+    },
+    {
+      "sid": "s000664",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Transitioning to a follow-up experiment."
+    },
+    {
+      "sid": "s000665",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Providing context for the experiment's timing."
+    },
+    {
+      "sid": "s000666",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Describing the follow-up experiment."
+    },
+    {
+      "sid": "s000667",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Describing the AI's literal interpretation."
+    },
+    {
+      "sid": "s000668",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Clarifying the prompt to the AI."
+    },
+    {
+      "sid": "s000669",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explaining the AI's refusal based on policy."
+    },
+    {
+      "sid": "s000670",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Posing a question about the reason for refusal."
+    },
+    {
+      "sid": "s000671",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explaining the AI's reasoning (copyright)."
+    },
+    {
+      "sid": "s000672",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Further explanation of AI's reasoning (misleading images)."
+    },
+    {
+      "sid": "s000673",
+      "role": "chitchat",
+      "role_score": 0.8,
+      "role_reason": "Student's short interjection."
+    },
+    {
+      "sid": "s000674",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Professor explains investigative process."
+    },
+    {
+      "sid": "s000675",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Clarifying the goal of the investigation."
+    },
+    {
+      "sid": "s000676",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explaining AI's internal policy on gender modification."
+    },
+    {
+      "sid": "s000677",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Referencing a previous successful AI action."
+    },
+    {
+      "sid": "s000678",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Professor expresses confusion about AI inconsistency."
+    },
+    {
+      "sid": "s000679",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Professor's opinion on the AI's action."
+    },
+    {
+      "sid": "s000680",
+      "role": "chitchat",
+      "role_score": 0.9,
+      "role_reason": "Professor's self-reflection on the image."
+    },
+    {
+      "sid": "s000681",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explaining a condition for AI's policy."
+    },
+    {
+      "sid": "s000682",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Professor expresses confusion about AI decision."
+    },
+    {
+      "sid": "s000683",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explaining AI's policy on race modification."
+    },
+    {
+      "sid": "s000684",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Introducing a new category for AI policy."
+    },
+    {
+      "sid": "s000685",
+      "role": "chitchat",
+      "role_score": 0.8,
+      "role_reason": "Short affirmation."
+    },
+    {
+      "sid": "s000686",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Confirming AI's policy on species modification."
+    },
+    {
+      "sid": "s000687",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explaining AI's behavior in finding workarounds."
+    },
+    {
+      "sid": "s000688",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Summarizing the demonstration of guardrails."
+    },
+    {
+      "sid": "s000689",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Professor clarifies purpose of the demonstration."
+    },
+    {
+      "sid": "s000690",
+      "role": "chitchat",
+      "role_score": 0.95,
+      "role_reason": "Professor manages lecture time and transitions."
+    },
+    {
+      "sid": "s000691",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Introducing a new concept: intellectual debt."
+    },
+    {
+      "sid": "s000692",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Citing a source for the concept."
+    },
+    {
+      "sid": "s000693",
+      "role": "chitchat",
+      "role_score": 0.9,
+      "role_reason": "Professor comments on the cited paper."
+    },
+    {
+      "sid": "s000694",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Introducing the concept of intellectual debt."
+    },
+    {
+      "sid": "s000695",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explaining the concept of intellectual debt."
+    },
+    {
+      "sid": "s000696",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Defining intellectual debt and its accrual."
+    },
+    {
+      "sid": "s000697",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explaining implications of intellectual debt and guardrails."
+    },
+    {
+      "sid": "s000698",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Further implications: people circumventing guardrails."
+    },
+    {
+      "sid": "s000699",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Introducing a personal example."
+    },
+    {
+      "sid": "s000700",
+      "role": "chitchat",
+      "role_score": 0.8,
+      "role_reason": "Student's short interjection, possibly reading slide."
+    },
+    {
+      "sid": "s000701",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Introducing an image example."
+    },
+    {
+      "sid": "s000702",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Setting up the image recognition example."
+    },
+    {
+      "sid": "s000703",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explaining the adversarial example with noise."
+    },
+    {
+      "sid": "s000704",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Posing a rhetorical question about the implication."
+    },
+    {
+      "sid": "s000705",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Elaborating on the problem of adversarial examples."
+    },
+    {
+      "sid": "s000706",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Posing a question about scaling AI."
+    },
+    {
+      "sid": "s000707",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Contrasting simple models with complex AI."
+    },
+    {
+      "sid": "s000708",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Posing a critical question about AI safety."
+    },
+    {
+      "sid": "s000709",
+      "role": "chitchat",
+      "role_score": 0.9,
+      "role_reason": "Professor checks audience understanding informally."
+    },
+    {
+      "sid": "s000710",
+      "role": "chitchat",
+      "role_score": 0.95,
+      "role_reason": "Professor transitions to the next activity."
+    },
+    {
+      "sid": "s000711",
+      "role": "announcement",
+      "role_score": 1.0,
+      "role_reason": "Introducing a course activity (debate) and participants."
+    },
+    {
+      "sid": "s000712",
+      "role": "chitchat",
+      "role_score": 0.9,
+      "role_reason": "Professor's filler word."
+    },
+    {
+      "sid": "s000713",
+      "role": "chitchat",
+      "role_score": 0.9,
+      "role_reason": "Professor asks for name pronunciation."
+    },
+    {
+      "sid": "s000714",
+      "role": "chitchat",
+      "role_score": 0.9,
+      "role_reason": "Professor confirms name pronunciation."
+    },
+    {
+      "sid": "s000715",
+      "role": "chitchat",
+      "role_score": 0.9,
+      "role_reason": "Professor confirms name pronunciation."
+    },
+    {
+      "sid": "s000716",
+      "role": "announcement",
+      "role_score": 1.0,
+      "role_reason": "Listing a participant for the debate."
+    },
+    {
+      "sid": "s000717",
+      "role": "announcement",
+      "role_score": 1.0,
+      "role_reason": "Listing a participant for the debate."
+    },
+    {
+      "sid": "s000718",
+      "role": "announcement",
+      "role_score": 1.0,
+      "role_reason": "Setting up instructions for a course activity."
+    },
+    {
+      "sid": "s000719",
+      "role": "chitchat",
+      "role_score": 0.9,
+      "role_reason": "Professor comments on presentation logistics."
+    },
+    {
+      "sid": "s000720",
+      "role": "chitchat",
+      "role_score": 0.9,
+      "role_reason": "Professor comments on planning logistics."
+    },
+    {
+      "sid": "s000721",
+      "role": "announcement",
+      "role_score": 1.0,
+      "role_reason": "Explaining roles and listing participants for debate."
+    },
+    {
+      "sid": "s000722",
+      "role": "chitchat",
+      "role_score": 0.9,
+      "role_reason": "Professor confirms name."
+    },
+    {
+      "sid": "s000723",
+      "role": "chitchat",
+      "role_score": 0.9,
+      "role_reason": "Professor acknowledges."
+    },
+    {
+      "sid": "s000724",
+      "role": "announcement",
+      "role_score": 1.0,
+      "role_reason": "Listing a participant for the debate."
+    },
+    {
+      "sid": "s000725",
+      "role": "chitchat",
+      "role_score": 0.8,
+      "role_reason": "Filler word."
+    },
+    {
+      "sid": "s000726",
+      "role": "announcement",
+      "role_score": 1.0,
+      "role_reason": "Listing a participant for the debate."
+    },
+    {
+      "sid": "s000727",
+      "role": "chitchat",
+      "role_score": 0.9,
+      "role_reason": "Professor acknowledges."
+    },
+    {
+      "sid": "s000728",
+      "role": "announcement",
+      "role_score": 1.0,
+      "role_reason": "Listing a participant for the debate."
+    },
+    {
+      "sid": "s000729",
+      "role": "chitchat",
+      "role_score": 0.9,
+      "role_reason": "Student's personal interjection."
+    },
+    {
+      "sid": "s000730",
+      "role": "chitchat",
+      "role_score": 0.9,
+      "role_reason": "Student's personal logistical comment."
+    },
+    {
+      "sid": "s000731",
+      "role": "chitchat",
+      "role_score": 0.8,
+      "role_reason": "Student's short interjection."
+    }
+  ]
+}

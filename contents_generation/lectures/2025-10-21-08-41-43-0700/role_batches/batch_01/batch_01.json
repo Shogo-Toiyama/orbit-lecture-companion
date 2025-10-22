@@ -1,0 +1,1787 @@
+[
+  {
+    "context_before_main_text": [],
+    "main_text": [
+      {
+        "sid": "s000001",
+        "text": "Well, because this is a control component for a car, I felt like it was still in the right warehouse.",
+        "start": 320,
+        "end": 6320,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000002",
+        "text": "So this is a scandal Volkswagen had in the US they were claiming they had low emissions, and the low emissions that they had were basically a device that was a defeat device that when it was placed into a testing mode, the car would reduce its emissions just with in that mode.",
+        "start": 6720,
+        "end": 26360,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000003",
+        "text": "Clearly, this is not something that was accidental.",
+        "start": 27240,
+        "end": 29240,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000004",
+        "text": "This is something that was done intentionally.",
+        "start": 29240,
+        "end": 32120,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000005",
+        "text": "So there was an event to have something that was a design that I would characterize as misleading.",
+        "start": 32280,
+        "end": 38120,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000006",
+        "text": "Now, your personal feelings about the environment may.",
+        "start": 38440,
+        "end": 41240,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000007",
+        "text": "But at the very least, I think we can all agree this was a misleading design.",
+        "start": 43480,
+        "end": 47560,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000008",
+        "text": "Then a large number of vehicles were affected.",
+        "start": 48920,
+        "end": 51960,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000009",
+        "text": "The fallout for vw, we're just looking at it from a cost standpoint, was that they had to pay criminal fines and civil penalties.",
+        "start": 52870,
+        "end": 60390,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000010",
+        "text": "Executives were charged with executives, but the engineer, James there, had to serve 40 months in prison and then have some supervised release and a $200,000 fine.",
+        "start": 61030,
+        "end": 73030,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000011",
+        "text": "So at least in this case, it was an example of someone who was held accountable for misleading design that they actually architect.",
+        "start": 73510,
+        "end": 80560,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000012",
+        "text": "So I love my case studies because I love the interaction.",
+        "start": 81840,
+        "end": 87040,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000013",
+        "text": "So let's say that you were hired by a company.",
+        "start": 87440,
+        "end": 91080,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000014",
+        "text": "I think this is for a graphics card.",
+        "start": 91080,
+        "end": 92560,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000015",
+        "text": "Yes.",
+        "start": 92560,
+        "end": 92960,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000016",
+        "text": "And look, you're trying to compete with some of the best best, and you just can't.",
+        "start": 93599,
+        "end": 98720,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000017",
+        "text": "Whatever the graphics mark of the day that you're shooting for, whether it's a free gaming mark or, or AI mark or whatever, your hardware can't compete with its competitor in terms of performance.",
+        "start": 98800,
+        "end": 108120,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000018",
+        "text": "So you make some modifications that allow your card to outperform the competition, ends up using more power than original originally advertised.",
+        "start": 108520,
+        "end": 117400,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000019",
+        "text": "And so that power has other ramifications for your chip and so forth.",
+        "start": 118760,
+        "end": 122120,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000020",
+        "text": "But you bring that modification up to your project lead and she says, hey, it's okay.",
+        "start": 122600,
+        "end": 127480,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000021",
+        "text": "But we'll put a flag in your code that it'll activate when you're running a benchmark and it'll bring in that extra power just for that case.",
+        "start": 127880,
+        "end": 136680,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000022",
+        "text": "But otherwise we'll stay in the lower power mode, lower performance mode.",
+        "start": 136680,
+        "end": 140200,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000023",
+        "text": "So basically doing the same thing that VW did for exhaust in this case, you're trying to show when somebody benchmarks your GPU that it's going to come.",
+        "start": 140920,
+        "end": 152400,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000024",
+        "text": "Off as.",
+        "start": 152400,
+        "end": 153080,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000025",
+        "text": "Being competitive with Nvidia, whoever you're trying to target.",
+        "start": 155010,
+        "end": 158290,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000026",
+        "text": "So how many would put in that flag?",
+        "start": 160610,
+        "end": 163450,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000027",
+        "text": "The boss told you so I'll do it.",
+        "start": 163450,
+        "end": 166130,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000028",
+        "text": "Your salary is at stake.",
+        "start": 170930,
+        "end": 172290,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000029",
+        "text": "Food in the.",
+        "start": 172850,
+        "end": 173530,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000030",
+        "text": "In the mouths of your children.",
+        "start": 173530,
+        "end": 174610,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000031",
+        "text": "Yes.",
+        "start": 174610,
+        "end": 175050,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000032",
+        "text": "Are we assuming that the competitors are doing this too, I mean it could be a race to the bottom.",
+        "start": 175050,
+        "end": 180370,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000033",
+        "text": "Maybe the competitors are, maybe they're not.",
+        "start": 180840,
+        "end": 182520,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000034",
+        "text": "You don't know.",
+        "start": 182520,
+        "end": 183080,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000035",
+        "text": "Does that affect.",
+        "start": 186760,
+        "end": 187640,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000036",
+        "text": "If it's good for them, it's good enough for you.",
+        "start": 188280,
+        "end": 190120,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000037",
+        "text": "Is that, how is that condition?",
+        "start": 190600,
+        "end": 197160,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000038",
+        "text": "It's not a fair test to begin.",
+        "start": 197560,
+        "end": 198880,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000039",
+        "text": "With.",
+        "start": 198880,
+        "end": 199160,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000040",
+        "text": "But the consumer doesn't know that.",
+        "start": 201160,
+        "end": 203000,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000041",
+        "text": "So that even if that were the cube, so no one would do it.",
+        "start": 203640,
+        "end": 209650,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000042",
+        "text": "No one's going to follow their boss's orders.",
+        "start": 210370,
+        "end": 212450,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000043",
+        "text": "Okay, so how many.",
+        "start": 216530,
+        "end": 217610,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000044",
+        "text": "Let's just see, this is obviously this is a binary question, so I could just assume everyone's out there, but there's a lot of people who don't want.",
+        "start": 217610,
+        "end": 223490,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000045",
+        "text": "So how many would say no way, not ethical.",
+        "start": 224210,
+        "end": 227330,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000046",
+        "text": "I took a class in this, I'm not pulling.",
+        "start": 227650,
+        "end": 229730,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000047",
+        "text": "Okay.",
+        "start": 230770,
+        "end": 231410,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000048",
+        "text": "A lot of people not choosing not to say something.",
+        "start": 231900,
+        "end": 233580,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000049",
+        "text": "So for those who said it's not ethical.",
+        "start": 233820,
+        "end": 235300,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000050",
+        "text": "Why, why not?",
+        "start": 235300,
+        "end": 236780,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000051",
+        "text": "I mean maybe everyone else is doing it.",
+        "start": 236780,
+        "end": 238860,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000052",
+        "text": "Your boss said this is just the way this company operates, why not?",
+        "start": 238860,
+        "end": 242860,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000053",
+        "text": "Yeah, I don't know if I would.",
+        "start": 242860,
+        "end": 245420,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000054",
+        "text": "Care that much about the ethical part, but I mean if that other guy.",
+        "start": 245500,
+        "end": 248940,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000055",
+        "text": "Was put in prison for.",
+        "start": 248940,
+        "end": 250140,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000056",
+        "text": "I don't know if I'd, I'd rather probably lose my job than in jail.",
+        "start": 251340,
+        "end": 255100,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000057",
+        "text": "A similar discussion with a faculty member who said our students aren't punished enough for cheating.",
+        "start": 257170,
+        "end": 262370,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000058",
+        "text": "That's why they do it.",
+        "start": 262370,
+        "end": 263450,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000059",
+        "text": "We need partial punishment, so the punishment matters.",
+        "start": 263450,
+        "end": 266690,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000060",
+        "text": "There is something like that.",
+        "start": 266850,
+        "end": 268210,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000061",
+        "text": "Naranos another example of a company that is what we call.",
+        "start": 271010,
+        "end": 274410,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000062",
+        "text": "I think, I think you can agree this was a misleading design.",
+        "start": 274410,
+        "end": 276850,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000063",
+        "text": "They had supposedly this in house test in their Edison machines that could use a drop of blood and do all these different tests with great accuracy.",
+        "start": 277250,
+        "end": 285100,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000064",
+        "text": "And it turned out that they were not using their in house machine for many of the tests.",
+        "start": 285340,
+        "end": 288740,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000065",
+        "text": "They were outsourcing and even when they weren't, they were getting results that were extremely inaccurate.",
+        "start": 288740,
+        "end": 292940,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000066",
+        "text": "Misleading, intentionally so.",
+        "start": 293740,
+        "end": 296540,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000067",
+        "text": "And yes, they did take advice of that.",
+        "start": 297500,
+        "end": 299340,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000068",
+        "text": "Here's one that's a little more subtle.",
+        "start": 300940,
+        "end": 302540,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000069",
+        "text": "All right, Apple.",
+        "start": 302540,
+        "end": 304540,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000070",
+        "text": "How many have heard of, I guess they call it battery gate, but I mean you may have all heard planned obsolescence and that kind of thing.",
+        "start": 304860,
+        "end": 310390,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000071",
+        "text": "How many have heard of that?",
+        "start": 310470,
+        "end": 311590,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000072",
+        "text": "Okay, so some great.",
+        "start": 311990,
+        "end": 313270,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000073",
+        "text": "The basic idea is if you've got an Apple phone, look as the battery ages, can't hold as much charge.",
+        "start": 313750,
+        "end": 321030,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000074",
+        "text": "And the question as an engineer is what do you do as a device agent?",
+        "start": 321430,
+        "end": 325910,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000075",
+        "text": "We've got all these issues of e waste and concerns about recycling, but also the cost of the consumer.",
+        "start": 325910,
+        "end": 332630,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000076",
+        "text": "I mean it's, you don't want to have to Keep purchasing ways to bring the phone.",
+        "start": 332630,
+        "end": 336440,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000077",
+        "text": "It would be nice if devices lasted a little longer.",
+        "start": 336440,
+        "end": 338880,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000078",
+        "text": "So there are iOS updates that Apple releases as part of its efforts to deal with older batteries.",
+        "start": 339760,
+        "end": 346960,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000079",
+        "text": "So let's just be clear.",
+        "start": 347120,
+        "end": 348160,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000080",
+        "text": "Batteries aging is a problem.",
+        "start": 348800,
+        "end": 350480,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000081",
+        "text": "It is not one that they necessarily have a solution to.",
+        "start": 350800,
+        "end": 353600,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000082",
+        "text": "So they could go multiple ways here, but they have to provide some kind of means of dealing with.",
+        "start": 354160,
+        "end": 359140,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000083",
+        "text": "So let's say that, you know, your battery is aging.",
+        "start": 360570,
+        "end": 365690,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000084",
+        "text": "No one's getting the same amount of charge.",
+        "start": 366010,
+        "end": 367850,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000085",
+        "text": "So Apple might release an iOS update for devices that have own batteries and have them throttle their performance.",
+        "start": 368170,
+        "end": 374650,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000086",
+        "text": "So improving power management during peak workloads to avoid unexpected shutdowns in the iPhone.",
+        "start": 375209,
+        "end": 380410,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000087",
+        "text": "Ostensibly, what that means is I'll make your iPhone perform better, less powerful, so that your phone doesn't shut down due to a low battery.",
+        "start": 380890,
+        "end": 389230,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000088",
+        "text": "I will make it.",
+        "start": 389230,
+        "end": 390110,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000089",
+        "text": "I will hamstring it in some way to try to preserve your battery life.",
+        "start": 390350,
+        "end": 394670,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000090",
+        "text": "So if they don't make that clear or if it's buried in the end user agreement that you don't read, is that misleading?",
+        "start": 395790,
+        "end": 402150,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000091",
+        "text": "If you have a device that they are intentionally throttling down in order to allow it to avoid shutting down completely and that being a worst scenario that they are deciding.",
+        "start": 402150,
+        "end": 413880,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000092",
+        "text": "Okay, yeah, yeah, I agree.",
+        "start": 423720,
+        "end": 426639,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000093",
+        "text": "I think that, well, the intention was.",
+        "start": 426639,
+        "end": 429680,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000094",
+        "text": "To make sure, like the battery.",
+        "start": 429680,
+        "end": 431720,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000095",
+        "text": "Right.",
+        "start": 434600,
+        "end": 435000,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000096",
+        "text": "They made an engine.",
+        "start": 435000,
+        "end": 435850,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000097",
+        "text": "You pay for the device.",
+        "start": 436320,
+        "end": 437480,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000098",
+        "text": "You.",
+        "start": 437480,
+        "end": 437800,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000099",
+        "text": "You.",
+        "start": 437800,
+        "end": 438160,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000100",
+        "text": "It's going to go on at some point.",
+        "start": 438480,
+        "end": 440240,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000101",
+        "text": "Okay, Yep.",
+        "start": 441600,
+        "end": 444400,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000102",
+        "text": "I think this is a classic example.",
+        "start": 444400,
+        "end": 446280,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000103",
+        "text": "Of Apple creating a problem and selling the solution.",
+        "start": 446280,
+        "end": 449280,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000104",
+        "text": "And selling the solution.",
+        "start": 450160,
+        "end": 451160,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000105",
+        "text": "Is that what you said?",
+        "start": 451160,
+        "end": 451680,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000106",
+        "text": "Yes.",
+        "start": 451680,
+        "end": 452160,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000107",
+        "text": "I mean, they.",
+        "start": 452240,
+        "end": 453000,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000108",
+        "text": "Did they create the problem, though, to be fair, I mean, what, what your colleague said was this was a battery's age.",
+        "start": 453000,
+        "end": 459680,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000109",
+        "text": "That is a problem.",
+        "start": 459680,
+        "end": 460640,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000110",
+        "text": "They didn't create.",
+        "start": 460640,
+        "end": 461380,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000111",
+        "text": "Create the problem of batteries aging, but.",
+        "start": 461450,
+        "end": 463570,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000112",
+        "text": "I would say they did create the.",
+        "start": 463570,
+        "end": 465250,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000113",
+        "text": "Problem of slowing down the phones to.",
+        "start": 465250,
+        "end": 467930,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000114",
+        "text": "I guess they claim it's to preserve the battery, but I personally believe that.",
+        "start": 470090,
+        "end": 475050,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000115",
+        "text": "They slow down the phones enough to where it becomes noticeable.",
+        "start": 475370,
+        "end": 478810,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000116",
+        "text": "People hate the phones.",
+        "start": 478810,
+        "end": 479810,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000117",
+        "text": "People want to buy a new phone, right?",
+        "start": 479810,
+        "end": 482010,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000118",
+        "text": "I mean, okay, so the other side of it could be, hey, look, it's in Apple's best interest that you think your phone sucks and it's time to buy a new one.",
+        "start": 482010,
+        "end": 489460,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000119",
+        "text": "And so maybe are they throttling it too far?",
+        "start": 489540,
+        "end": 491860,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000120",
+        "text": "Right.",
+        "start": 492660,
+        "end": 493020,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000121",
+        "text": "That's the other side.",
+        "start": 493020,
+        "end": 493860,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000122",
+        "text": "Anyone else have a comment on that?",
+        "start": 494740,
+        "end": 496100,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000123",
+        "text": "Yeah.",
+        "start": 496180,
+        "end": 496740,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000124",
+        "text": "I think it's also worth looking at.",
+        "start": 496740,
+        "end": 498460,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000125",
+        "text": "How other companies are.",
+        "start": 498460,
+        "end": 499860,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000126",
+        "text": "How did.",
+        "start": 502819,
+        "end": 503219,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000127",
+        "text": "What.",
+        "start": 503219,
+        "end": 503500,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000128",
+        "text": "What design decisions they make Is there.",
+        "start": 503500,
+        "end": 505460,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000129",
+        "text": "Do you think that there is a better design decision?",
+        "start": 505700,
+        "end": 508420,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000130",
+        "text": "I mean, if the battery is just getting old, would you prefer that you have to charge your device every two hours or.",
+        "start": 508420,
+        "end": 513869,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000131",
+        "text": "Let me throttle.",
+        "start": 513869,
+        "end": 514669,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000132",
+        "text": "I mean, what is the better, you know, having a battery replaceable, that might be nice.",
+        "start": 514669,
+        "end": 519429,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000133",
+        "text": "Apple just soldering it in.",
+        "start": 519509,
+        "end": 522309,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000134",
+        "text": "It seems odd.",
+        "start": 522309,
+        "end": 523069,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000135",
+        "text": "Yeah, yeah.",
+        "start": 523069,
+        "end": 523629,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000136",
+        "text": "I feel like the decision should be given to the customer.",
+        "start": 523629,
+        "end": 526189,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000137",
+        "text": "They should be the one deciding whether they want better battery, more performance or more performance.",
+        "start": 526189,
+        "end": 531269,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000138",
+        "text": "More battery.",
+        "start": 531269,
+        "end": 532149,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000139",
+        "text": "Yeah.",
+        "start": 532149,
+        "end": 532509,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000140",
+        "text": "Making a little more transparent makes sense.",
+        "start": 532509,
+        "end": 534269,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000141",
+        "text": "I turn on low power mode when I see mine getting hosed.",
+        "start": 534269,
+        "end": 537149,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000142",
+        "text": "Exactly.",
+        "start": 537149,
+        "end": 537749,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000143",
+        "text": "Why not let me do it myself?",
+        "start": 538480,
+        "end": 539760,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000144",
+        "text": "I think some people like that agency that had it on their own.",
+        "start": 540720,
+        "end": 543440,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000145",
+        "text": "I think Apple likes to do a lot of things for us, which is, I mean, I'm stuck with it because I have to use it.",
+        "start": 543920,
+        "end": 549000,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000146",
+        "text": "I'd be a pariah.",
+        "start": 549000,
+        "end": 549840,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000147",
+        "text": "But I'm not a big fan.",
+        "start": 549840,
+        "end": 551400,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000148",
+        "text": "Okay, so generally speaking, planned obsolescence, right?",
+        "start": 551400,
+        "end": 556320,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000149",
+        "text": "Is this, this idea of, is it intentionally designing products that would not last?",
+        "start": 556480,
+        "end": 562160,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000150",
+        "text": "Like picking a smartphone that that doesn't have replaceable batteries, trying to make sure that it can't be swapped out, doesn't have a part that can easily be replaced?",
+        "start": 562400,
+        "end": 571090,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000151",
+        "text": "What about software getting old and no longer having updates or video game systems no longer backwards compatible?",
+        "start": 571250,
+        "end": 577330,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000152",
+        "text": "Is that malicious or are there actual reasons to think for a game console, is there a reason why I can't play?",
+        "start": 577490,
+        "end": 584770,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000153",
+        "text": "You know, this, this backwards compatibility shouldn't exist.",
+        "start": 585250,
+        "end": 587890,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000154",
+        "text": "Yeah, I mean, I guess you could.",
+        "start": 588290,
+        "end": 589780,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000155",
+        "text": "Look at like the user base, right?",
+        "start": 589780,
+        "end": 591420,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000156",
+        "text": "Like, so if you're a company, your goal is to make money, right?",
+        "start": 591420,
+        "end": 594500,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000157",
+        "text": "So let's say you're like a PlayStation.",
+        "start": 594500,
+        "end": 596780,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000158",
+        "text": "5 and you're gonna have kiss one that compatibility, how many people are actually going to use that, that feature compared to the amount of money you're spending.",
+        "start": 596780,
+        "end": 604220,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000159",
+        "text": "On the R and D or H?",
+        "start": 604220,
+        "end": 605580,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000160",
+        "text": "Right.",
+        "start": 606380,
+        "end": 606780,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000161",
+        "text": "There's sort of a trade off here of you know what, I want to support bigger and better things.",
+        "start": 607020,
+        "end": 612220,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000162",
+        "text": "I want to make use of more extensive graphics, better features.",
+        "start": 612220,
+        "end": 614700,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000163",
+        "text": "I want to be able to sell something that's exciting.",
+        "start": 614700,
+        "end": 616930,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000164",
+        "text": "And having to stay back with an older console that just doesn't have the power, it's tough.",
+        "start": 617170,
+        "end": 622450,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000165",
+        "text": "Y and how many people really are going to use that product?",
+        "start": 622690,
+        "end": 626050,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000166",
+        "text": "Yeah, I think it's kind of based on intent.",
+        "start": 626850,
+        "end": 629890,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000167",
+        "text": "Like if they're doing their best to make the best product like service and it just, he's not like, it's not the amount of man hours, like make it operate accountable, then it's like, okay, they're doing the best.",
+        "start": 630290,
+        "end": 643710,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000168",
+        "text": "But if it's like, you know, like light bulb companies making shorter spanning labels so they can buy more light bulbs.",
+        "start": 643790,
+        "end": 649310,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000169",
+        "text": "You could be doing, you could be the sole purpose is just to sell more Lighthouse, not to make a better product.",
+        "start": 652910,
+        "end": 658830,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000170",
+        "text": "Right.",
+        "start": 659070,
+        "end": 659430,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000171",
+        "text": "And you just.",
+        "start": 659430,
+        "end": 660030,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000172",
+        "text": "Okay, so fair enough.",
+        "start": 660030,
+        "end": 661190,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000173",
+        "text": "And if you see a company like Microsoft and they say, yeah, this older version of Windows, we're not going to protect it as well.",
+        "start": 661190,
+        "end": 666910,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000174",
+        "text": "We can't hatch it on every single thing.",
+        "start": 668340,
+        "end": 669820,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000175",
+        "text": "There's a no grown ability to be taking chances.",
+        "start": 669820,
+        "end": 672020,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000176",
+        "text": "It does feel a little bit like a cop out.",
+        "start": 672260,
+        "end": 674820,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000177",
+        "text": "But it also could be that that technology has been exceeded.",
+        "start": 674820,
+        "end": 678500,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000178",
+        "text": "Well, I think it's kind of up to them how they want to do it.",
+        "start": 682020,
+        "end": 684580,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000179",
+        "text": "And like a lot of like the, like, you know, Spotify, all these new things, streaming services.",
+        "start": 684820,
+        "end": 689220,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000180",
+        "text": "Buddy, if it's a woman.",
+        "start": 692750,
+        "end": 693550,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000181",
+        "text": "So if they want to make it so that it goes bad and 10 years that thing, it's on this to buy.",
+        "start": 694830,
+        "end": 699310,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000182",
+        "text": "Right?",
+        "start": 699950,
+        "end": 700310,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000183",
+        "text": "So capitalism can decide, right?",
+        "start": 700310,
+        "end": 702190,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000184",
+        "text": "We could say, hey look, if we don't like this, pay by pay as your go model all days of pay one time.",
+        "start": 702190,
+        "end": 708110,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000185",
+        "text": "I think a big issue with that.",
+        "start": 712430,
+        "end": 714030,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000186",
+        "text": "Idea though is like sometimes you don't.",
+        "start": 714030,
+        "end": 715870,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000187",
+        "text": "Have really the choice to buy it or not.",
+        "start": 715870,
+        "end": 717790,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000188",
+        "text": "Like for example, example, everyone needs a smartphone.",
+        "start": 717790,
+        "end": 719880,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000189",
+        "text": "So say if everyone is doing this Planox in absence, you either don't want one app or thing, you kind of just are stuck because you kind of need a cell phone for work or for communication.",
+        "start": 720120,
+        "end": 731240,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000190",
+        "text": "Because it's the modern day nowadays every, everyone has a cell phone.",
+        "start": 731480,
+        "end": 734760,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000191",
+        "text": "So you're kind of forced to have a cell phone.",
+        "start": 734760,
+        "end": 736320,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000192",
+        "text": "So it's not really, you can't really.",
+        "start": 736320,
+        "end": 739320,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000193",
+        "text": "Say you have choice.",
+        "start": 739320,
+        "end": 740920,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000194",
+        "text": "But what about the fact that this is a moving target?",
+        "start": 743480,
+        "end": 747870,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000195",
+        "text": "Technology keeps getting better and better.",
+        "start": 748110,
+        "end": 749950,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000196",
+        "text": "We just had a faculty retreat on Friday and the dean came and said, you know, we want to buy a computer cluster that's going to satisfy computer science for a while in terms of research.",
+        "start": 750910,
+        "end": 761630,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000197",
+        "text": "And you know, she was like, I'm trying to fundraise.",
+        "start": 762190,
+        "end": 765070,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000198",
+        "text": "She gave someone out $50 million.",
+        "start": 765070,
+        "end": 766910,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000199",
+        "text": "But I want to set it up as a fund so that it pays 2 million a year and would let you buy GPUs for 2 million a year and just keep perpetuating over and over the idea that we have to do that in order to keep getting resources because we know the GPUs are going to have a certain shelf life and then be gone.",
+        "start": 767950,
+        "end": 784560,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000200",
+        "text": "It's kind of crazy, right?",
+        "start": 784960,
+        "end": 786320,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000201",
+        "text": "But that's how this technology is driving.",
+        "start": 786560,
+        "end": 788560,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000202",
+        "text": "We know that things are progressing at this rapid pace.",
+        "start": 788560,
+        "end": 791520,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000203",
+        "text": "So is that just inevitable?",
+        "start": 791520,
+        "end": 792640,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000204",
+        "text": "We just have to keep separating.",
+        "start": 793200,
+        "end": 796300,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000205",
+        "text": "I don't think it's unreasonable that, you know, devices will become obsolete after a while.",
+        "start": 799650,
+        "end": 803730,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000206",
+        "text": "It's kind of just how it works.",
+        "start": 803730,
+        "end": 804810,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000207",
+        "text": "You know, no one's using the original iPhone anymore.",
+        "start": 804810,
+        "end": 807010,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000208",
+        "text": "But I think part of it's on marketing as well.",
+        "start": 807010,
+        "end": 809570,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000209",
+        "text": "Like, I think a really good example right now is Windows 10, which, if I remember correctly was advertised when it came out as being like the last version of Windows.",
+        "start": 809570,
+        "end": 820170,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000210",
+        "text": "Like, this is the version of support this, right?",
+        "start": 820170,
+        "end": 823200,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000211",
+        "text": "And lo and behold, Windows 10, I'm pretty sure is end of life tomorrow.",
+        "start": 823680,
+        "end": 828560,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000212",
+        "text": "So I think that's a problem.",
+        "start": 831040,
+        "end": 831960,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000213",
+        "text": "I think that is malicious.",
+        "start": 831960,
+        "end": 833760,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000214",
+        "text": "So if they provided a free upgrade, does that make it okay?",
+        "start": 839360,
+        "end": 842960,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000215",
+        "text": "Do you think they were malicious or do you think that they really were short sighted?",
+        "start": 843600,
+        "end": 847000,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000216",
+        "text": "On, say, hey, this is.",
+        "start": 847000,
+        "end": 848330,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000217",
+        "text": "I attended a talk.",
+        "start": 848730,
+        "end": 849850,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000218",
+        "text": "Oh my God.",
+        "start": 850170,
+        "end": 850810,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000219",
+        "text": "It's probably most of the car, but I attended a talk in 2001 and Intel, intel was saying, we are going to aggressively push frequency.",
+        "start": 850810,
+        "end": 861450,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000220",
+        "text": "This is a paper at a conference.",
+        "start": 861450,
+        "end": 863370,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000221",
+        "text": "We're going to push frequency.",
+        "start": 864170,
+        "end": 865610,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000222",
+        "text": "We think that the optimal level is somewhere around 8 or 9 gigahertz.",
+        "start": 865690,
+        "end": 870570,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000223",
+        "text": "That's probably what we're going to have on our processor frequency.",
+        "start": 870570,
+        "end": 872890,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000224",
+        "text": "And I wrote this.",
+        "start": 872890,
+        "end": 873730,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000225",
+        "text": "Professor Stanford stood up and said, you're wrong, Pete's gonna kill it.",
+        "start": 873730,
+        "end": 877010,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000226",
+        "text": "And there was this big argument.",
+        "start": 877010,
+        "end": 878410,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000227",
+        "text": "He's right.",
+        "start": 878490,
+        "end": 879210,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000228",
+        "text": "They sure of it.",
+        "start": 879770,
+        "end": 880970,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000229",
+        "text": "They were sure that was the sweet spot, like, you know, 7 or 8 gigahertz or something like that.",
+        "start": 880970,
+        "end": 884650,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000230",
+        "text": "And yeah, Pete killed it.",
+        "start": 884730,
+        "end": 886250,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000231",
+        "text": "So I think there are some cases where you speculate, you hope and you're wrong.",
+        "start": 886330,
+        "end": 890450,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000232",
+        "text": "And so was that malicious?",
+        "start": 890450,
+        "end": 891610,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000233",
+        "text": "I don't know.",
+        "start": 891610,
+        "end": 892050,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000234",
+        "text": "But should they settle for it?",
+        "start": 892050,
+        "end": 893170,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000235",
+        "text": "That's a different question, right?",
+        "start": 893170,
+        "end": 894250,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000236",
+        "text": "I can't say it was.",
+        "start": 894890,
+        "end": 895850,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000237",
+        "text": "So let's move on to something that I think, I mean, maybe, maybe you'll surprise me.",
+        "start": 902740,
+        "end": 906660,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000238",
+        "text": "I think we can agree that ransomware is able to just maybe, maybe not.",
+        "start": 906820,
+        "end": 911220,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000239",
+        "text": "Because some people, some people really do embrace the fact that all technology, that's fine.",
+        "start": 911220,
+        "end": 917100,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000240",
+        "text": "We talked about, maybe there's a positive way that we can do ransomware.",
+        "start": 917100,
+        "end": 920180,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000241",
+        "text": "But the idea of ransomware where you get this kit and you're able to attack someone's machine, I mean, I, I worry about autonomous vehicles, you know, that time when ransomware is going to take over one of them and say, I'm hitting the brick wall unless you give me, you know, a certain amount of Bitcoin, whatever.",
+        "start": 920180,
+        "end": 937150,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000242",
+        "text": "I mean, this idea that it holds your data off and then you have to pay to get access to it because everyone's, you know, seeing this screen of death is.",
+        "start": 937470,
+        "end": 947790,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000243",
+        "text": "It strikes fears at the heart of it, people everywhere.",
+        "start": 947790,
+        "end": 950750,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000244",
+        "text": "Does anyone think that this is not or I mean again that you could argue this is not malicious because it's just how you use it.",
+        "start": 952680,
+        "end": 960920,
+        "speaker": "A"
+      }
+    ],
+    "context_after_main_text": [
+      {
+        "sid": "s000245",
+        "text": "It's just technology.",
+        "start": 961000,
+        "end": 961720,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000246",
+        "text": "I think it's an argument that can be there, but I would say it's wrong.",
+        "start": 967400,
+        "end": 971240,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000247",
+        "text": "Ransomware, not so fun facts cost a considerable amount of money shutting down people out of their devices.",
+        "start": 972280,
+        "end": 977710,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000248",
+        "text": "It's packaged and sold like radio buffers.",
+        "start": 979150,
+        "end": 981270,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000249",
+        "text": "You don't have to open a hacker to get to use these types of things anymore.",
+        "start": 981270,
+        "end": 984910,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000250",
+        "text": "Crazy how they had DIY kits from ransomware.",
+        "start": 984990,
+        "end": 987470,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000251",
+        "text": "There was this not picture attack and we'll talk about what that turned into as a form of cyber attack later on.",
+        "start": 988830,
+        "end": 996110,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000252",
+        "text": "But that one cost 310 million damages to certain companies.",
+        "start": 996430,
+        "end": 1001150,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000253",
+        "text": "FedEx this whole idea of designing software for malicious intent, to me at least you know, seems different than something that is simply misleading or should be done.",
+        "start": 1002360,
+        "end": 1016280,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000254",
+        "text": "So the idea in general, yes, I did make that generation.",
+        "start": 1017320,
+        "end": 1021240,
+        "speaker": "A"
+      }
+    ]
+  }
+]

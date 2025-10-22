@@ -1,0 +1,2200 @@
+{
+  "labels": [
+    {
+      "sid": "s000001",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Introduces a case study example for the lecture."
+    },
+    {
+      "sid": "s000002",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explains the Volkswagen scandal as a core example."
+    },
+    {
+      "sid": "s000003",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor's analysis of the case study."
+    },
+    {
+      "sid": "s000004",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor's analysis of the case study."
+    },
+    {
+      "sid": "s000005",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Characterizes the design as misleading, linking to lecture theme."
+    },
+    {
+      "sid": "s000006",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Addresses audience within lecture context."
+    },
+    {
+      "sid": "s000007",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Summarizes the point about misleading design."
+    },
+    {
+      "sid": "s000008",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Describes consequences of the case study."
+    },
+    {
+      "sid": "s000009",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explains financial consequences of the scandal."
+    },
+    {
+      "sid": "s000010",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Details individual accountability and penalties."
+    },
+    {
+      "sid": "s000011",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Summarizes the example's relevance to accountability."
+    },
+    {
+      "sid": "s000012",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Professor discusses teaching method, setting up next case."
+    },
+    {
+      "sid": "s000013",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Introduces a hypothetical case study scenario."
+    },
+    {
+      "sid": "s000014",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Clarifies the subject of the hypothetical scenario."
+    },
+    {
+      "sid": "s000015",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Student's direct answer to professor's clarification."
+    },
+    {
+      "sid": "s000016",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Continues setting up the hypothetical scenario."
+    },
+    {
+      "sid": "s000017",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Elaborates on the competitive challenge in the scenario."
+    },
+    {
+      "sid": "s000018",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Describes the deceptive modification in the scenario."
+    },
+    {
+      "sid": "s000019",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Explains consequences within the hypothetical scenario."
+    },
+    {
+      "sid": "s000020",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Continues describing the scenario's development."
+    },
+    {
+      "sid": "s000021",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Details the deceptive solution proposed in the scenario."
+    },
+    {
+      "sid": "s000022",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Continues detailing the deceptive solution."
+    },
+    {
+      "sid": "s000023",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Connects current hypothetical to previous VW example."
+    },
+    {
+      "sid": "s000024",
+      "role": "qa",
+      "role_score": 0.95,
+      "role_reason": "Student's incomplete interjection during professor's explanation."
+    },
+    {
+      "sid": "s000025",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor completes thought, continuing the case explanation."
+    },
+    {
+      "sid": "s000026",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor asks a question to prompt audience discussion."
+    },
+    {
+      "sid": "s000027",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Professor provides a hypothetical student response/rationale."
+    },
+    {
+      "sid": "s000028",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Professor provides a hypothetical reason for action."
+    },
+    {
+      "sid": "s000029",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Professor provides a hypothetical reason for action."
+    },
+    {
+      "sid": "s000030",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Professor provides a hypothetical reason for action."
+    },
+    {
+      "sid": "s000031",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Professor acknowledges, continuing the discussion prompt."
+    },
+    {
+      "sid": "s000032",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor asks a rhetorical question to guide discussion."
+    },
+    {
+      "sid": "s000033",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor answers own rhetorical question, guiding discussion."
+    },
+    {
+      "sid": "s000034",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor continues guiding the discussion."
+    },
+    {
+      "sid": "s000035",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor asks a question to prompt audience thought."
+    },
+    {
+      "sid": "s000036",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Professor provides a hypothetical rationale for action."
+    },
+    {
+      "sid": "s000037",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor asks for audience input on the ethical dilemma."
+    },
+    {
+      "sid": "s000038",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor makes a statement within the discussion."
+    },
+    {
+      "sid": "s000039",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Student completes professor's sentence, direct interaction."
+    },
+    {
+      "sid": "s000040",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor continues the discussion point."
+    },
+    {
+      "sid": "s000041",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor continues the discussion point."
+    },
+    {
+      "sid": "s000042",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor makes a statement, likely rhetorical, in discussion."
+    },
+    {
+      "sid": "s000043",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor attempts to poll the audience."
+    },
+    {
+      "sid": "s000044",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor explains the polling process and audience behavior."
+    },
+    {
+      "sid": "s000045",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor asks for a show of hands for an ethical stance."
+    },
+    {
+      "sid": "s000046",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Professor provides a hypothetical student response."
+    },
+    {
+      "sid": "s000047",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Professor acknowledges audience response."
+    },
+    {
+      "sid": "s000048",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Professor observes audience behavior during polling."
+    },
+    {
+      "sid": "s000049",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor addresses a specific group for further discussion."
+    },
+    {
+      "sid": "s000050",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor asks for reasoning to deepen discussion."
+    },
+    {
+      "sid": "s000051",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor provides a counter-argument for discussion."
+    },
+    {
+      "sid": "s000052",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor provides another counter-argument for discussion."
+    },
+    {
+      "sid": "s000053",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Professor starts to respond, leading into student interaction."
+    },
+    {
+      "sid": "s000054",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Student begins to answer the professor's question."
+    },
+    {
+      "sid": "s000055",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor interjects, directly engaging with student's point."
+    },
+    {
+      "sid": "s000056",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Professor provides a hypothetical student thought, guiding discussion."
+    },
+    {
+      "sid": "s000057",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor introduces an anecdote related to the discussion."
+    },
+    {
+      "sid": "s000058",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Continues the anecdote, explaining a viewpoint."
+    },
+    {
+      "sid": "s000059",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Continues the anecdote, explaining a viewpoint."
+    },
+    {
+      "sid": "s000060",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Concludes the anecdote, linking to the discussion."
+    },
+    {
+      "sid": "s000061",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Introduces a new company example for the lecture."
+    },
+    {
+      "sid": "s000062",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Connects the new example to the lecture's theme."
+    },
+    {
+      "sid": "s000063",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explains the Theranos case details."
+    },
+    {
+      "sid": "s000064",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explains the deception in the Theranos case."
+    },
+    {
+      "sid": "s000065",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Continues explaining the deception in the Theranos case."
+    },
+    {
+      "sid": "s000066",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Summarizes the nature of the deception."
+    },
+    {
+      "sid": "s000067",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Concludes the Theranos example."
+    },
+    {
+      "sid": "s000068",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Introduces a new, more subtle example."
+    },
+    {
+      "sid": "s000069",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Names the company for the new case study."
+    },
+    {
+      "sid": "s000070",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Asks a question to gauge audience knowledge, introduces terms."
+    },
+    {
+      "sid": "s000071",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Repeats question for audience poll."
+    },
+    {
+      "sid": "s000072",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Acknowledges audience response to the poll."
+    },
+    {
+      "sid": "s000073",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explains the premise of the Apple battery case."
+    },
+    {
+      "sid": "s000074",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Frames the ethical dilemma for engineers."
+    },
+    {
+      "sid": "s000075",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Explains broader issues related to the case."
+    },
+    {
+      "sid": "s000076",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Continues explaining consumer cost implications."
+    },
+    {
+      "sid": "s000077",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Expresses a general sentiment about device longevity."
+    },
+    {
+      "sid": "s000078",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explains Apple's actions regarding older batteries."
+    },
+    {
+      "sid": "s000079",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Emphasizes a point for clarity."
+    },
+    {
+      "sid": "s000080",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "States a factual problem related to the case."
+    },
+    {
+      "sid": "s000081",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Clarifies the nature of the battery aging problem."
+    },
+    {
+      "sid": "s000082",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Discusses potential approaches to the problem."
+    },
+    {
+      "sid": "s000083",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Sets up the scenario for discussion."
+    },
+    {
+      "sid": "s000084",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Describes the effect of battery aging."
+    },
+    {
+      "sid": "s000085",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explains Apple's specific action: throttling performance."
+    },
+    {
+      "sid": "s000086",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explains the stated purpose of performance throttling."
+    },
+    {
+      "sid": "s000087",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Rephrases the meaning of throttling for clarity."
+    },
+    {
+      "sid": "s000088",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Continues explanation of throttling's effect."
+    },
+    {
+      "sid": "s000089",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explains the impact of throttling on phone performance."
+    },
+    {
+      "sid": "s000090",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Professor asks a direct question to initiate discussion."
+    },
+    {
+      "sid": "s000091",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Elaborates on the scenario for ethical discussion."
+    },
+    {
+      "sid": "s000092",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor acknowledges a student's response."
+    },
+    {
+      "sid": "s000093",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Student begins to answer the professor's question."
+    },
+    {
+      "sid": "s000094",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor interjects, clarifying student's point."
+    },
+    {
+      "sid": "s000095",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Student acknowledges professor's clarification."
+    },
+    {
+      "sid": "s000096",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor makes a statement related to the discussion."
+    },
+    {
+      "sid": "s000097",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor makes a statement related to the discussion."
+    },
+    {
+      "sid": "s000098",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Professor continues a statement related to the discussion."
+    },
+    {
+      "sid": "s000099",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Professor continues a statement related to the discussion."
+    },
+    {
+      "sid": "s000100",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor makes a statement related to the discussion."
+    },
+    {
+      "sid": "s000101",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor acknowledges a student's response."
+    },
+    {
+      "sid": "s000102",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor introduces a student's comment for discussion."
+    },
+    {
+      "sid": "s000103",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Student provides a strong opinion on Apple's actions."
+    },
+    {
+      "sid": "s000104",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor repeats part of student's statement for clarity."
+    },
+    {
+      "sid": "s000105",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor asks for clarification from the student."
+    },
+    {
+      "sid": "s000106",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor confirms student's statement."
+    },
+    {
+      "sid": "s000107",
+      "role": "qa",
+      "role_score": 0.95,
+      "role_reason": "Professor starts to respond to the student's point."
+    },
+    {
+      "sid": "s000108",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor challenges student's premise, initiating direct exchange."
+    },
+    {
+      "sid": "s000109",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor continues to challenge student's premise."
+    },
+    {
+      "sid": "s000110",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Student interjects, directly responding to professor."
+    },
+    {
+      "sid": "s000111",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor completes student's thought, continuing direct exchange."
+    },
+    {
+      "sid": "s000112",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Student interjects again, continuing direct exchange."
+    },
+    {
+      "sid": "s000113",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor interjects, continuing direct exchange."
+    },
+    {
+      "sid": "s000114",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Student provides their personal opinion and belief."
+    },
+    {
+      "sid": "s000115",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor elaborates on student's point, guiding discussion."
+    },
+    {
+      "sid": "s000116",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor continues elaborating on the point."
+    },
+    {
+      "sid": "s000117",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor continues elaborating on the point."
+    },
+    {
+      "sid": "s000118",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor presents an alternative perspective for discussion."
+    },
+    {
+      "sid": "s000119",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor asks a rhetorical question to guide discussion."
+    },
+    {
+      "sid": "s000120",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Professor acknowledges, continuing the discussion flow."
+    },
+    {
+      "sid": "s000121",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor summarizes a point in the discussion."
+    },
+    {
+      "sid": "s000122",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor asks for more audience input."
+    },
+    {
+      "sid": "s000123",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Professor acknowledges a student's readiness to speak."
+    },
+    {
+      "sid": "s000124",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Student begins to provide an opinion."
+    },
+    {
+      "sid": "s000125",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor interjects, directly engaging with student's point."
+    },
+    {
+      "sid": "s000126",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor interjects, directly engaging with student's point."
+    },
+    {
+      "sid": "s000127",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor interjects, directly engaging with student's point."
+    },
+    {
+      "sid": "s000128",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor interjects, directly engaging with student's point."
+    },
+    {
+      "sid": "s000129",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor asks a direct question to the student."
+    },
+    {
+      "sid": "s000130",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor presents a dilemma to guide discussion."
+    },
+    {
+      "sid": "s000131",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor continues presenting the dilemma."
+    },
+    {
+      "sid": "s000132",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor suggests a potential solution within the discussion."
+    },
+    {
+      "sid": "s000133",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor points out a specific design choice by Apple."
+    },
+    {
+      "sid": "s000134",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor comments on Apple's design choice."
+    },
+    {
+      "sid": "s000135",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Professor acknowledges, continuing the discussion flow."
+    },
+    {
+      "sid": "s000136",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Student provides an opinion on decision-making."
+    },
+    {
+      "sid": "s000137",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Student continues their opinion on customer choice."
+    },
+    {
+      "sid": "s000138",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Student clarifies their previous statement."
+    },
+    {
+      "sid": "s000139",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Professor acknowledges student's point."
+    },
+    {
+      "sid": "s000140",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor agrees with student's point, guiding discussion."
+    },
+    {
+      "sid": "s000141",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor provides a personal example related to the discussion."
+    },
+    {
+      "sid": "s000142",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Professor agrees with the previous statement."
+    },
+    {
+      "sid": "s000143",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor asks a rhetorical question, reinforcing a point."
+    },
+    {
+      "sid": "s000144",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor generalizes about user agency."
+    },
+    {
+      "sid": "s000145",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor expresses personal opinion about Apple's approach."
+    },
+    {
+      "sid": "s000146",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor continues expressing personal opinion."
+    },
+    {
+      "sid": "s000147",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor concludes personal opinion."
+    },
+    {
+      "sid": "s000148",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Professor transitions to defining 'planned obsolescence'."
+    },
+    {
+      "sid": "s000149",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Defines planned obsolescence as intentional design."
+    },
+    {
+      "sid": "s000150",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Provides examples of planned obsolescence in hardware."
+    },
+    {
+      "sid": "s000151",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Extends the concept to software and gaming systems."
+    },
+    {
+      "sid": "s000152",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Asks a question to initiate discussion on intent."
+    },
+    {
+      "sid": "s000153",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Continues the question about backwards compatibility."
+    },
+    {
+      "sid": "s000154",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Professor acknowledges a student's readiness to speak."
+    },
+    {
+      "sid": "s000155",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Student begins to provide an answer/perspective."
+    },
+    {
+      "sid": "s000156",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Student continues their answer, stating a company's goal."
+    },
+    {
+      "sid": "s000157",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Student continues their answer, providing an example."
+    },
+    {
+      "sid": "s000158",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor interjects, completing student's thought and asking a question."
+    },
+    {
+      "sid": "s000159",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Student completes professor's question, direct interaction."
+    },
+    {
+      "sid": "s000160",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor acknowledges the student's point."
+    },
+    {
+      "sid": "s000161",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor explains a trade-off in product development."
+    },
+    {
+      "sid": "s000162",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor continues explaining product development goals."
+    },
+    {
+      "sid": "s000163",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor continues explaining product development goals."
+    },
+    {
+      "sid": "s000164",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor explains the difficulty of maintaining older compatibility."
+    },
+    {
+      "sid": "s000165",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor asks a rhetorical question to guide discussion."
+    },
+    {
+      "sid": "s000166",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Student provides an opinion on the basis of intent."
+    },
+    {
+      "sid": "s000167",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Student elaborates on their opinion regarding product intent."
+    },
+    {
+      "sid": "s000168",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Student provides a counter-example of malicious intent."
+    },
+    {
+      "sid": "s000169",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Student concludes their counter-example, emphasizing intent."
+    },
+    {
+      "sid": "s000170",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor acknowledges the student's point."
+    },
+    {
+      "sid": "s000171",
+      "role": "qa",
+      "role_score": 0.95,
+      "role_reason": "Professor starts to speak, continuing the interaction."
+    },
+    {
+      "sid": "s000172",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor acknowledges and summarizes student's point."
+    },
+    {
+      "sid": "s000173",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor provides another example for discussion."
+    },
+    {
+      "sid": "s000174",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor continues the example, explaining limitations."
+    },
+    {
+      "sid": "s000175",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor continues the example, explaining limitations."
+    },
+    {
+      "sid": "s000176",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor expresses an opinion on the example."
+    },
+    {
+      "sid": "s000177",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor provides a counter-point for the example."
+    },
+    {
+      "sid": "s000178",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor acknowledges a student's point."
+    },
+    {
+      "sid": "s000179",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Student begins to provide an example."
+    },
+    {
+      "sid": "s000180",
+      "role": "qa",
+      "role_score": 0.95,
+      "role_reason": "Professor interjects during student's turn."
+    },
+    {
+      "sid": "s000181",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Student continues their point about product longevity."
+    },
+    {
+      "sid": "s000182",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor asks a rhetorical question, guiding discussion."
+    },
+    {
+      "sid": "s000183",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor asks a rhetorical question about market forces."
+    },
+    {
+      "sid": "s000184",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor explains market choice in the discussion."
+    },
+    {
+      "sid": "s000185",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor acknowledges a student's point."
+    },
+    {
+      "sid": "s000186",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Student begins to elaborate on the issue."
+    },
+    {
+      "sid": "s000187",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor completes student's thought, guiding discussion."
+    },
+    {
+      "sid": "s000188",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor provides an example to support the point."
+    },
+    {
+      "sid": "s000189",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor elaborates on the lack of consumer choice."
+    },
+    {
+      "sid": "s000190",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor explains the societal context of smartphone use."
+    },
+    {
+      "sid": "s000191",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor concludes the point about being forced to have a phone."
+    },
+    {
+      "sid": "s000192",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Professor continues the point about lack of choice."
+    },
+    {
+      "sid": "s000193",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Student completes professor's thought, direct interaction."
+    },
+    {
+      "sid": "s000194",
+      "role": "lecture",
+      "role": 0.98,
+      "role_reason": "Professor asks a new question to shift discussion."
+    },
+    {
+      "sid": "s000195",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor explains the premise of rapid technological advancement."
+    },
+    {
+      "sid": "s000196",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor provides an anecdote about technology investment."
+    },
+    {
+      "sid": "s000197",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor continues the anecdote about fundraising."
+    },
+    {
+      "sid": "s000198",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor continues the anecdote about funding."
+    },
+    {
+      "sid": "s000199",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Professor explains the strategy and rationale for continuous upgrades."
+    },
+    {
+      "sid": "s000200",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor comments on the situation, guiding discussion."
+    },
+    {
+      "sid": "s000201",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor connects the anecdote to technological progress."
+    },
+    {
+      "sid": "s000202",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor generalizes about the rapid pace of technology."
+    },
+    {
+      "sid": "s000203",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor asks a rhetorical question about inevitability."
+    },
+    {
+      "sid": "s000204",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor continues the rhetorical question about upgrades."
+    },
+    {
+      "sid": "s000205",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Student provides an opinion on device obsolescence."
+    },
+    {
+      "sid": "s000206",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Student continues their opinion on how technology works."
+    },
+    {
+      "sid": "s000207",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Student provides an example of device obsolescence."
+    },
+    {
+      "sid": "s000208",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Student introduces marketing as another factor."
+    },
+    {
+      "sid": "s000209",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Student provides an example of misleading marketing (Windows 10)."
+    },
+    {
+      "sid": "s000210",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Student continues their example of misleading marketing."
+    },
+    {
+      "sid": "s000211",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Student concludes their example, highlighting the contradiction."
+    },
+    {
+      "sid": "s000212",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Student states their opinion on the issue."
+    },
+    {
+      "sid": "s000213",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Student states their opinion on the malicious intent."
+    },
+    {
+      "sid": "s000214",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor asks a clarifying question in response to student."
+    },
+    {
+      "sid": "s000215",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor asks for clarification on intent (malicious vs. shortsighted)."
+    },
+    {
+      "sid": "s000216",
+      "role": "qa",
+      "role_score": 0.95,
+      "role_reason": "Professor continues the question for clarification."
+    },
+    {
+      "sid": "s000217",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor introduces an anecdote to illustrate a point."
+    },
+    {
+      "sid": "s000218",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Professor expresses a reaction within the anecdote."
+    },
+    {
+      "sid": "s000219",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor continues the anecdote about Intel's prediction."
+    },
+    {
+      "sid": "s000220",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor provides context for the anecdote."
+    },
+    {
+      "sid": "s000221",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor quotes Intel's aggressive strategy."
+    },
+    {
+      "sid": "s000222",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor quotes Intel's optimal frequency prediction."
+    },
+    {
+      "sid": "s000223",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor quotes Intel's processor frequency expectation."
+    },
+    {
+      "sid": "s000224",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor continues the anecdote's narrative."
+    },
+    {
+      "sid": "s000225",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor describes a counter-argument in the anecdote."
+    },
+    {
+      "sid": "s000226",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor describes the ensuing argument."
+    },
+    {
+      "sid": "s000227",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor states the outcome of the argument."
+    },
+    {
+      "sid": "s000228",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor comments on Intel's certainty."
+    },
+    {
+      "sid": "s000229",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor explains Intel's confidence in their prediction."
+    },
+    {
+      "sid": "s000230",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor reiterates the outcome of the prediction."
+    },
+    {
+      "sid": "s000231",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Professor draws a conclusion from the anecdote about speculation."
+    },
+    {
+      "sid": "s000232",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Professor asks a rhetorical question, linking to lecture theme."
+    },
+    {
+      "sid": "s000233",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Professor answers their own rhetorical question."
+    },
+    {
+      "sid": "s000234",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Professor asks another rhetorical question, clarifying nuance."
+    },
+    {
+      "sid": "s000235",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Professor clarifies the nuance of the ethical question."
+    },
+    {
+      "sid": "s000236",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor concludes their point on malicious intent."
+    },
+    {
+      "sid": "s000237",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor transitions to a new topic, anticipating audience reaction."
+    },
+    {
+      "sid": "s000238",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor introduces ransomware, anticipating discussion."
+    },
+    {
+      "sid": "s000239",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor explains potential differing views on technology."
+    },
+    {
+      "sid": "s000240",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor refers to a previous discussion point."
+    },
+    {
+      "sid": "s000241",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Professor explains ransomware and provides a vivid example."
+    },
+    {
+      "sid": "s000242",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Professor continues explaining the concept of ransomware."
+    },
+    {
+      "sid": "s000243",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Professor describes the emotional impact of ransomware."
+    },
+    {
+      "sid": "s000244",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Professor asks for audience input, setting up discussion."
+    },
+    {
+      "sid": "s000245",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor provides a potential counter-argument for discussion."
+    },
+    {
+      "sid": "s000246",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Professor states their opinion on the counter-argument."
+    },
+    {
+      "sid": "s000247",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Professor provides facts about the cost of ransomware."
+    },
+    {
+      "sid": "s000248",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Professor explains how ransomware is distributed."
+    },
+    {
+      "sid": "s000249",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Professor explains the accessibility of ransomware kits."
+    },
+    {
+      "sid": "s000250",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor comments on the existence of DIY ransomware kits."
+    },
+    {
+      "sid": "s000251",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Professor mentions a specific cyber attack and future lecture content."
+    },
+    {
+      "sid": "s000252",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Professor provides statistics on damages from a cyber attack."
+    },
+    {
+      "sid": "s000253",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Professor summarizes malicious intent and differentiates it from misleading design."
+    },
+    {
+      "sid": "s000254",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor summarizes and clarifies a general idea."
+    },
+    {
+      "sid": "s000255",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Professor defines ethical products as having no deception."
+    },
+    {
+      "sid": "s000256",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Professor connects to previous examples and outlines future lecture topics."
+    },
+    {
+      "sid": "s000257",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Professor continues outlining future lecture topics, focusing on environmental impact."
+    },
+    {
+      "sid": "s000258",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor introduces a new case study for discussion."
+    },
+    {
+      "sid": "s000259",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor sets up the scenario for the new case study."
+    },
+    {
+      "sid": "s000260",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor continues setting up the scenario, introducing a quiz."
+    },
+    {
+      "sid": "s000261",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor explains the function of the quiz."
+    },
+    {
+      "sid": "s000262",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor explains the intended outcome of the quiz."
+    },
+    {
+      "sid": "s000263",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Professor reveals the ethical dilemma of the quiz design."
+    },
+    {
+      "sid": "s000264",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor quotes the company's misleading stance."
+    },
+    {
+      "sid": "s000265",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor comments on the company's misleading claim."
+    },
+    {
+      "sid": "s000266",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor emphasizes the company's action in the scenario."
+    },
+    {
+      "sid": "s000267",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor continues explaining the company's strategy."
+    },
+    {
+      "sid": "s000268",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor clarifies the product's role for the company."
+    },
+    {
+      "sid": "s000269",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor explains the company's motivation."
+    },
+    {
+      "sid": "s000270",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor introduces potential conflict of interest."
+    },
+    {
+      "sid": "s000271",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor highlights the target audience and intent of the quiz."
+    },
+    {
+      "sid": "s000272",
+      "role": "chitchat",
+      "role_score": 0.95,
+      "role_reason": "Professor makes a lighthearted, off-topic comment."
+    },
+    {
+      "sid": "s000273",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor provides an anecdote to illustrate impressionability."
+    },
+    {
+      "sid": "s000274",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor comments on the anecdote's relevance."
+    },
+    {
+      "sid": "s000275",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Professor continues commenting on the anecdote."
+    },
+    {
+      "sid": "s000276",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor connects the anecdote to the case study's target audience."
+    },
+    {
+      "sid": "s000277",
+      "role": "chitchat",
+      "role_score": 0.95,
+      "role_reason": "Professor makes another lighthearted, off-topic comment."
+    },
+    {
+      "sid": "s000278",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Professor asks a direct ethical question to the audience."
+    },
+    {
+      "sid": "s000279",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor asks for audience input on the dilemma."
+    },
+    {
+      "sid": "s000280",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor asks a direct question about action."
+    },
+    {
+      "sid": "s000281",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor provides a common justification for action."
+    },
+    {
+      "sid": "s000282",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor repeats the question about action."
+    },
+    {
+      "sid": "s000283",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Professor acknowledges a student's response."
+    },
+    {
+      "sid": "s000284",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor comments on the company's intent."
+    },
+    {
+      "sid": "s000285",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Professor acknowledges, continuing the discussion flow."
+    },
+    {
+      "sid": "s000286",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Professor starts to elaborate on the website's function."
+    },
+    {
+      "sid": "s000287",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Student interjects, completing professor's thought."
+    },
+    {
+      "sid": "s000288",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor clarifies the quiz's guiding function."
+    },
+    {
+      "sid": "s000289",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Professor acknowledges, continuing the discussion flow."
+    },
+    {
+      "sid": "s000290",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor connects to a common idiom (snake oil)."
+    },
+    {
+      "sid": "s000291",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor considers the nuance of the product's efficacy."
+    },
+    {
+      "sid": "s000292",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Professor acknowledges, continuing the discussion flow."
+    },
+    {
+      "sid": "s000293",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor introduces an anecdote for illustration."
+    },
+    {
+      "sid": "s000294",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor continues the anecdote about a multi-purpose product."
+    },
+    {
+      "sid": "s000295",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor continues the anecdote with a humorous example."
+    },
+    {
+      "sid": "s000296",
+      "role": "chitchat",
+      "role_score": 1.0,
+      "role_reason": "Student's humorous interjection, off-topic banter."
+    },
+    {
+      "sid": "s000297",
+      "role": "chitchat",
+      "role_score": 1.0,
+      "role_reason": "Professor acknowledges the humorous interjection."
+    },
+    {
+      "sid": "s000298",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Student asks a clarifying question about the quiz's function."
+    },
+    {
+      "sid": "s000299",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor begins to answer the student's question."
+    },
+    {
+      "sid": "s000300",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor continues to answer the student's question."
+    },
+    {
+      "sid": "s000301",
+      "role": "qa",
+      "role_score": 0.98,
+      "role_reason": "Professor makes a sarcastic comment within the answer."
+    },
+    {
+      "sid": "s000302",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor completes the answer to the student's question."
+    },
+    {
+      "sid": "s000303",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor acknowledges, confirming the answer."
+    },
+    {
+      "sid": "s000304",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor acknowledges, confirming the answer."
+    },
+    {
+      "sid": "s000305",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Professor starts to speak, clarifying the context."
+    },
+    {
+      "sid": "s000306",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor clarifies the nature of the website."
+    },
+    {
+      "sid": "s000307",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor emphasizes the promotional nature of the website."
+    },
+    {
+      "sid": "s000308",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor states a general principle (buyer beware)."
+    },
+    {
+      "sid": "s000309",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor asks a question to prompt ethical consideration."
+    },
+    {
+      "sid": "s000310",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor continues the question about ethical acceptability."
+    },
+    {
+      "sid": "s000311",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Professor interjects, clarifying the nature of the discussion."
+    },
+    {
+      "sid": "s000312",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor clarifies that there's no single right/wrong answer."
+    },
+    {
+      "sid": "s000313",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor asks for audience opinions."
+    },
+    {
+      "sid": "s000314",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor asks for a poll on ethical action."
+    },
+    {
+      "sid": "s000315",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor clarifies the reason for not doing it."
+    },
+    {
+      "sid": "s000316",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Professor acknowledges audience response."
+    },
+    {
+      "sid": "s000317",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor asks for reasoning to deepen discussion."
+    },
+    {
+      "sid": "s000318",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Student begins to explain their ethical stance."
+    },
+    {
+      "sid": "s000319",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor interjects, directly engaging with student's point."
+    },
+    {
+      "sid": "s000320",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Student completes their thought on ethicality."
+    },
+    {
+      "sid": "s000321",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor agrees with the student's assessment."
+    },
+    {
+      "sid": "s000322",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Student continues their reasoning against the action."
+    },
+    {
+      "sid": "s000323",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Student continues their reasoning, stating a key issue."
+    },
+    {
+      "sid": "s000324",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Student suggests an action to address the problem."
+    },
+    {
+      "sid": "s000325",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor acknowledges the student's point."
+    },
+    {
+      "sid": "s000326",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor comments on the unusual nature of the scenario."
+    },
+    {
+      "sid": "s000327",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor continues commenting on the scenario."
+    },
+    {
+      "sid": "s000328",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor continues commenting on the scenario."
+    },
+    {
+      "sid": "s000329",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor acknowledges, confirming the point."
+    },
+    {
+      "sid": "s000330",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Student begins to state their ethical stance."
+    },
+    {
+      "sid": "s000331",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor interjects with a hypothetical student answer, direct interaction."
+    },
+    {
+      "sid": "s000332",
+      "role": "qa",
+      "role_score": 0.95,
+      "role_reason": "Professor starts to speak, continuing the interaction."
+    },
+    {
+      "sid": "s000333",
+      "role": "qa",
+      "role_score": 0.95,
+      "role_reason": "Professor continues their thought, leading into student interjection."
+    },
+    {
+      "sid": "s000334",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Student interjects, directly engaging with professor's point."
+    },
+    {
+      "sid": "s000335",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Student asks a clarifying question about the product."
+    },
+    {
+      "sid": "s000336",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor repeats the student's question for emphasis."
+    },
+    {
+      "sid": "s000337",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Student acknowledges the professor's repetition."
+    },
+    {
+      "sid": "s000338",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor provides a hypothetical example of the product."
+    },
+    {
+      "sid": "s000339",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor elaborates on the hypothetical drug's status."
+    },
+    {
+      "sid": "s000340",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor introduces an anecdote about a friend's work."
+    },
+    {
+      "sid": "s000341",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor continues the anecdote about the friend's work."
+    },
+    {
+      "sid": "s000342",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Professor interjects, continuing the anecdote."
+    },
+    {
+      "sid": "s000343",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Student interjects with a condition for ethicality."
+    },
+    {
+      "sid": "s000344",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Student continues their condition for ethicality."
+    },
+    {
+      "sid": "s000345",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor acknowledges the student's point."
+    },
+    {
+      "sid": "s000346",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Student provides a detailed ethical argument based on expectations."
+    },
+    {
+      "sid": "s000347",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor acknowledges the student's point."
+    },
+    {
+      "sid": "s000348",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Student elaborates on the conflict of expectations."
+    },
+    {
+      "sid": "s000349",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Student concludes their argument on unethical pushing."
+    },
+    {
+      "sid": "s000350",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor agrees with the student's assessment of distance."
+    },
+    {
+      "sid": "s000351",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor agrees with the student's assessment of misleading nature."
+    },
+    {
+      "sid": "s000352",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor acknowledges, continuing the discussion flow."
+    },
+    {
+      "sid": "s000353",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Student asks a question about the quiz's purpose."
+    },
+    {
+      "sid": "s000354",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor interjects, directly engaging with student's question."
+    },
+    {
+      "sid": "s000355",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Student continues their question/point about the quiz's purpose."
+    },
+    {
+      "sid": "s000356",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Student continues their question/point."
+    },
+    {
+      "sid": "s000357",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Student continues their question/point."
+    },
+    {
+      "sid": "s000358",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor acknowledges the student's point."
+    },
+    {
+      "sid": "s000359",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor asks a new question, guiding the ethical discussion."
+    },
+    {
+      "sid": "s000360",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor sets a condition for the ethical discussion."
+    },
+    {
+      "sid": "s000361",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor clarifies a previous comment about the product."
+    },
+    {
+      "sid": "s000362",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor continues setting the condition for the product's use."
+    },
+    {
+      "sid": "s000363",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor clarifies the scope of the product's use."
+    },
+    {
+      "sid": "s000364",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Professor continues clarifying the scope of the product's use."
+    },
+    {
+      "sid": "s000365",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Professor explains how the quiz should be ethically designed."
+    },
+    {
+      "sid": "s000366",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Professor concludes the suggestion for ethical design."
+    }
+  ]
+}

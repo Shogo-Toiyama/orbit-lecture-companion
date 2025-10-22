@@ -1,0 +1,30 @@
+# CEV vs. Rule-Based AI
+
+This lecture explores the fundamental differences between designing AI systems based on explicit rules and those guided by the concept of Coherent Extrapolated Volition (CEV). It argues that rule-based approaches are inherently problematic due to interpretation issues, advocating instead for systems that understand underlying intent and learn autonomously.
+
+## Limitations of Rule-Based AI
+
+The lecture highlights significant challenges with implementing AI systems based on explicit rules. Rules are considered **open to interpretation**, leading to too many different ways of understanding them. This makes **rule following virtually impossible** and, in the lecturer's view, makes no sense, as it is not how human beings operate. A core problem with rules is that they can lead to situations where a system follows a rule precisely, but a human user might still say, "you didn't do what I meant." This indicates that simply putting human knowledge, or rules, into systems has been found not to work effectively in AI research over the last 70 years.
+
+## The Concept of Coherent Extrapolated Volition (CEV)
+
+In contrast to rule-based systems, the lecture introduces the "volition idea," which is distinct from rule following. If any "rule" exists within this framework, it is one that the **computer itself would invent**. The **Coherent Extrapolated Volition (CEV)** is described as **open-ended** and **open to interpretation** because it functions as an abstraction. The crucial aspect of CEV is that "it's the thought that counts," referring to the underlying intent or meaning.
+
+## CEV's Approach to Intent and Decision-Making
+
+The CEV framework aims for AI to "do what I would want you to do if I had all the time in the world to think." This aligns with the principle of "do as I mean, not as I say." Based on the abstraction provided by CEV, an Artificial Superintelligence (ASI) would be able to make specific, concrete decisions. This approach seeks to enable systems to understand the meaning behind a request, rather than just the literal interpretation of a rule.
+
+## Insights from AI Research on System Design
+
+Decades of AI research have shown that directly inputting human knowledge, including rules, into systems is ineffective. Instead, what has proven successful is building **general search systems** and **learning systems**. These systems are designed to be given data and then **learn for themselves**, rather than being explicitly programmed with rules. Modern Generative AI is cited as an example of technology that is becoming adept at discerning the "real question" or the underlying meaning behind user input, moving closer to the "do as I mean" principle.
+
+## Summary of Key Differences
+
+*   **Rule-Based AI:** Relies on explicit rules, which are prone to misinterpretation, not open-ended, and have been shown to be an ineffective way to build intelligent systems.
+*   **CEV-Based AI:** Focuses on understanding underlying intent and abstraction ("the thought that counts"), is open-ended, allows the AI to invent its own "rules," and aims to fulfill what a user *would want* if they had unlimited time to think.
+*   **Effectiveness:** Putting human knowledge (rules) into systems does not work; building learning systems that derive meaning and learn autonomously does.
+
+## Supplement: Understanding Key AI Terms
+
+*   **Artificial Superintelligence (ASI):** In the context of CEV, an ASI is an advanced AI system capable of making specific, concrete decisions based on the CEV abstraction.
+*   **Generative AI:** The lecture notes that Generative AI is becoming adept at discerning the "real question" or underlying meaning behind user input, aligning with the "do as I mean" principle.

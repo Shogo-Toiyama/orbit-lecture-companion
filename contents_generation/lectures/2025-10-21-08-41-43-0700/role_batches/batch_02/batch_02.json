@@ -1,0 +1,1858 @@
+[
+  {
+    "context_before_main_text": [
+      {
+        "sid": "s000235",
+        "text": "That's a different question, right?",
+        "start": 893170,
+        "end": 894250,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000236",
+        "text": "I can't say it was.",
+        "start": 894890,
+        "end": 895850,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000237",
+        "text": "So let's move on to something that I think, I mean, maybe, maybe you'll surprise me.",
+        "start": 902740,
+        "end": 906660,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000238",
+        "text": "I think we can agree that ransomware is able to just maybe, maybe not.",
+        "start": 906820,
+        "end": 911220,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000239",
+        "text": "Because some people, some people really do embrace the fact that all technology, that's fine.",
+        "start": 911220,
+        "end": 917100,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000240",
+        "text": "We talked about, maybe there's a positive way that we can do ransomware.",
+        "start": 917100,
+        "end": 920180,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000241",
+        "text": "But the idea of ransomware where you get this kit and you're able to attack someone's machine, I mean, I, I worry about autonomous vehicles, you know, that time when ransomware is going to take over one of them and say, I'm hitting the brick wall unless you give me, you know, a certain amount of Bitcoin, whatever.",
+        "start": 920180,
+        "end": 937150,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000242",
+        "text": "I mean, this idea that it holds your data off and then you have to pay to get access to it because everyone's, you know, seeing this screen of death is.",
+        "start": 937470,
+        "end": 947790,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000243",
+        "text": "It strikes fears at the heart of it, people everywhere.",
+        "start": 947790,
+        "end": 950750,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000244",
+        "text": "Does anyone think that this is not or I mean again that you could argue this is not malicious because it's just how you use it.",
+        "start": 952680,
+        "end": 960920,
+        "speaker": "A"
+      }
+    ],
+    "main_text": [
+      {
+        "sid": "s000245",
+        "text": "It's just technology.",
+        "start": 961000,
+        "end": 961720,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000246",
+        "text": "I think it's an argument that can be there, but I would say it's wrong.",
+        "start": 967400,
+        "end": 971240,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000247",
+        "text": "Ransomware, not so fun facts cost a considerable amount of money shutting down people out of their devices.",
+        "start": 972280,
+        "end": 977710,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000248",
+        "text": "It's packaged and sold like radio buffers.",
+        "start": 979150,
+        "end": 981270,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000249",
+        "text": "You don't have to open a hacker to get to use these types of things anymore.",
+        "start": 981270,
+        "end": 984910,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000250",
+        "text": "Crazy how they had DIY kits from ransomware.",
+        "start": 984990,
+        "end": 987470,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000251",
+        "text": "There was this not picture attack and we'll talk about what that turned into as a form of cyber attack later on.",
+        "start": 988830,
+        "end": 996110,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000252",
+        "text": "But that one cost 310 million damages to certain companies.",
+        "start": 996430,
+        "end": 1001150,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000253",
+        "text": "FedEx this whole idea of designing software for malicious intent, to me at least you know, seems different than something that is simply misleading or should be done.",
+        "start": 1002360,
+        "end": 1016280,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000254",
+        "text": "So the idea in general, yes, I did make that generation.",
+        "start": 1017320,
+        "end": 1021240,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000255",
+        "text": "The idea of ethical products is no deception of the customer or consumer.",
+        "start": 1022040,
+        "end": 1027880,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000256",
+        "text": "And so with that case, if we're talking about something like battery paid or other things maybe giving more insight and then other things that we will talk about as we progress is treatment of employees or minimal negative impact on the environment.",
+        "start": 1027960,
+        "end": 1042819,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000257",
+        "text": "And I guess when we get to data centers it's really this question on environmental impact when you look at what the projection.",
+        "start": 1042819,
+        "end": 1049459,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000258",
+        "text": "All right, so let's do a case study again to make sure we're all on the same page.",
+        "start": 1051059,
+        "end": 1056670,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000259",
+        "text": "You're building a website for a pharmaceutical company that provides general information about the conditions their drugs treat.",
+        "start": 1056750,
+        "end": 1063950,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000260",
+        "text": "One of the drugs that this pharmaceutical company is trying to sell is going to be used as part of a quiz.",
+        "start": 1063950,
+        "end": 1070910,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000261",
+        "text": "Teenagers take the quiz, assess their symptoms and medications that may be associated with treating those symptoms.",
+        "start": 1071070,
+        "end": 1076830,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000262",
+        "text": "And they're supposed to be able to see which pharmaceuticals on the website would be appropriate for what they need.",
+        "start": 1077390,
+        "end": 1082680,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000263",
+        "text": "When you ask a company what the answers quiz should lead to, they say everything should lead to a particular drug that are promoting all.",
+        "start": 1083480,
+        "end": 1091080,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000264",
+        "text": "It's going to be good for everything.",
+        "start": 1091080,
+        "end": 1092240,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000265",
+        "text": "The latest snake oil.",
+        "start": 1092240,
+        "end": 1093320,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000266",
+        "text": "Look, the pharmaceutical company does this.",
+        "start": 1095640,
+        "end": 1097480,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000267",
+        "text": "They are building up this particular.",
+        "start": 1097480,
+        "end": 1099960,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000268",
+        "text": "This is their product.",
+        "start": 1101640,
+        "end": 1102520,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000269",
+        "text": "They believe in the product.",
+        "start": 1105980,
+        "end": 1106940,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000270",
+        "text": "Maybe there are clinical trials that show one way and it reverses another.",
+        "start": 1108940,
+        "end": 1111860,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000271",
+        "text": "But that's they want this place to be able to influence teenagers.",
+        "start": 1111860,
+        "end": 1115420,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000272",
+        "text": "No offense to teenagers.",
+        "start": 1116220,
+        "end": 1117580,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000273",
+        "text": "I was sitting in line at a standing in line at Mendocino one time and I heard this teenager behind me say I really want to lose weight but I can't afford subway.",
+        "start": 1119020,
+        "end": 1129780,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000274",
+        "text": "They were really bought into the subway way.",
+        "start": 1129780,
+        "end": 1131310,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000275",
+        "text": "Tortures.",
+        "start": 1131310,
+        "end": 1131910,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000276",
+        "text": "And so, you know, this is an impressionable age.",
+        "start": 1132230,
+        "end": 1134670,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000277",
+        "text": "No offense.",
+        "start": 1134670,
+        "end": 1135350,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000278",
+        "text": "So for this group, you know, is it right to be able to kind of slam things, skew things in a way that makes them wonder by the problem?",
+        "start": 1136710,
+        "end": 1146750,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000279",
+        "text": "So what do you all know?",
+        "start": 1146750,
+        "end": 1149030,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000280",
+        "text": "Did you do it?",
+        "start": 1149270,
+        "end": 1149870,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000281",
+        "text": "The boss told you to do it.",
+        "start": 1149870,
+        "end": 1150750,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000282",
+        "text": "Would you do.",
+        "start": 1150750,
+        "end": 1151270,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000283",
+        "text": "Yeah, Yeah.",
+        "start": 1151910,
+        "end": 1156310,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000284",
+        "text": "I mean, that's what the company's hoping.",
+        "start": 1156310,
+        "end": 1158320,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000285",
+        "text": "Yeah.",
+        "start": 1160240,
+        "end": 1160720,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000286",
+        "text": "So if the website leads them to.",
+        "start": 1162720,
+        "end": 1164240,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000287",
+        "text": "The product.",
+        "start": 1164240,
+        "end": 1164640,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000288",
+        "text": "The questionnaire kind of guides them to the particular product that this company sells or whatever that issue is.",
+        "start": 1173680,
+        "end": 1179040,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000289",
+        "text": "Right.",
+        "start": 1179040,
+        "end": 1179360,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000290",
+        "text": "It's the old snake oil ad where nus.",
+        "start": 1179760,
+        "end": 1182240,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000291",
+        "text": "I mean, maybe it actually works for something, but it's.",
+        "start": 1182410,
+        "end": 1184570,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000292",
+        "text": "Oh, yeah.",
+        "start": 1184650,
+        "end": 1185450,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000293",
+        "text": "You know, if you ever saw my Big Factory Wedding, this is another movie that I.",
+        "start": 1185850,
+        "end": 1189370,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000294",
+        "text": "But it was, you know, Windex was good for everything.",
+        "start": 1190410,
+        "end": 1192250,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000295",
+        "text": "Oh, you have a joint pain.",
+        "start": 1192410,
+        "end": 1193490,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000296",
+        "text": "Windex?",
+        "start": 1193490,
+        "end": 1194010,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000297",
+        "text": "Yeah.",
+        "start": 1195210,
+        "end": 1195770,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000298",
+        "text": "Does the quiz inform them of, like, what their problem is and then they're able to then make a decision and then it suggests their product has one solution or does it just give them the solution without telling them the problem?",
+        "start": 1196250,
+        "end": 1207330,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000299",
+        "text": "Let's say that it diagnoses their.",
+        "start": 1207330,
+        "end": 1209820,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000300",
+        "text": "Their problem because that's.",
+        "start": 1209900,
+        "end": 1211340,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000301",
+        "text": "We love getting medical advice from our devices.",
+        "start": 1211340,
+        "end": 1214220,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000302",
+        "text": "And it tells them this is a solution.",
+        "start": 1214380,
+        "end": 1216140,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000303",
+        "text": "Yep.",
+        "start": 1217820,
+        "end": 1218380,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000304",
+        "text": "Yeah.",
+        "start": 1221020,
+        "end": 1221380,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000305",
+        "text": "I mean, it's a.",
+        "start": 1221380,
+        "end": 1222060,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000306",
+        "text": "It's a promotional website.",
+        "start": 1222060,
+        "end": 1223180,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000307",
+        "text": "It's not a neutral website at all.",
+        "start": 1223340,
+        "end": 1226540,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000308",
+        "text": "So buyer beware.",
+        "start": 1226700,
+        "end": 1227900,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000309",
+        "text": "So that's okay.",
+        "start": 1227980,
+        "end": 1228740,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000310",
+        "text": "Does that make it okay for you as a.",
+        "start": 1228740,
+        "end": 1231100,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000311",
+        "text": "Again, no.",
+        "start": 1231260,
+        "end": 1231940,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000312",
+        "text": "Right or wrong here.",
+        "start": 1231940,
+        "end": 1232620,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000313",
+        "text": "Just curious what you all think.",
+        "start": 1232620,
+        "end": 1233760,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000314",
+        "text": "So who would not do it?",
+        "start": 1235510,
+        "end": 1236710,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000315",
+        "text": "Not ethical.",
+        "start": 1236710,
+        "end": 1237510,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000316",
+        "text": "Okay.",
+        "start": 1237670,
+        "end": 1238110,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000317",
+        "text": "Why not?",
+        "start": 1238110,
+        "end": 1238550,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000318",
+        "text": "I feel like if I knew it the way that you presented this commission.",
+        "start": 1239430,
+        "end": 1242070,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000319",
+        "text": "To me, I feel like that's very.",
+        "start": 1242070,
+        "end": 1242950,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000320",
+        "text": "Obviously not, like, ethical.",
+        "start": 1242950,
+        "end": 1244630,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000321",
+        "text": "It's very misleading.",
+        "start": 1244710,
+        "end": 1245870,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000322",
+        "text": "There is no reason.",
+        "start": 1245870,
+        "end": 1247110,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000323",
+        "text": "Answers don't matter.",
+        "start": 1248950,
+        "end": 1249830,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000324",
+        "text": "I feel like I'd at least bring it up to someone about, like, this is a problem.",
+        "start": 1250470,
+        "end": 1254150,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000325",
+        "text": "Right.",
+        "start": 1254390,
+        "end": 1254750,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000326",
+        "text": "It does seem weird.",
+        "start": 1254750,
+        "end": 1255630,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000327",
+        "text": "That all interests.",
+        "start": 1255630,
+        "end": 1256310,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000328",
+        "text": "We all rose into.",
+        "start": 1256310,
+        "end": 1257110,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000329",
+        "text": "Yes.",
+        "start": 1257270,
+        "end": 1257750,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000330",
+        "text": "I think that it's unethical, difficult, but.",
+        "start": 1257910,
+        "end": 1259960,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000331",
+        "text": "I would probably still do it because I'm getting paid money.",
+        "start": 1259960,
+        "end": 1264240,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000332",
+        "text": "I mean, look, I would say what.",
+        "start": 1264480,
+        "end": 1272000,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000333",
+        "text": "I mean, first of all, I would think I would be inclined to think.",
+        "start": 1273040,
+        "end": 1276280,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000334",
+        "text": "That this would not be.",
+        "start": 1276280,
+        "end": 1278000,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000335",
+        "text": "But how good is the product?",
+        "start": 1279280,
+        "end": 1282160,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000336",
+        "text": "How good is the product?",
+        "start": 1282800,
+        "end": 1283760,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000337",
+        "text": "Yeah.",
+        "start": 1283920,
+        "end": 1284400,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000338",
+        "text": "I don't have something to compare it to, but let's say that it's Ivermectin.",
+        "start": 1286330,
+        "end": 1291290,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000339",
+        "text": "Let's say that it's, you know, it's a new emerging drug that seems to have promise in a particular area but hasn't been fully done.",
+        "start": 1293610,
+        "end": 1302490,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000340",
+        "text": "I have a friend, she's a professor here at UCLA and she's working on bolus.",
+        "start": 1305290,
+        "end": 1310010,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000341",
+        "text": "Well is this that she's already died.",
+        "start": 1310410,
+        "end": 1311770,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000342",
+        "text": "I'll be your.",
+        "start": 1313770,
+        "end": 1314490,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000343",
+        "text": "Okay if it has been vetted.",
+        "start": 1321770,
+        "end": 1324210,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000344",
+        "text": "And like is like multi purpose.",
+        "start": 1324210,
+        "end": 1326730,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000345",
+        "text": "Yeah.",
+        "start": 1332730,
+        "end": 1333290,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000346",
+        "text": "I feel like this is like not ethical because it's a different expectation between what I or like the company is using, which is a promotional purpose versus what the team might be using it as an additional purpose.",
+        "start": 1333770,
+        "end": 1345740,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000347",
+        "text": "So.",
+        "start": 1345740,
+        "end": 1346020,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000348",
+        "text": "So there's like a conflict between like what the teens expect our knockoff of MD to do versus what we expected to do as which is to sell stuff.",
+        "start": 1346020,
+        "end": 1353700,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000349",
+        "text": "So that sort of like difference kind of makes it unethical to sort of push.",
+        "start": 1353700,
+        "end": 1358500,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000350",
+        "text": "There does seem to be some distance there.",
+        "start": 1358660,
+        "end": 1360340,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000351",
+        "text": "It does seem to be invest a little misleading.",
+        "start": 1360660,
+        "end": 1363310,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000352",
+        "text": "Yeah.",
+        "start": 1364510,
+        "end": 1364910,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000353",
+        "text": "Why would they make a quiz.",
+        "start": 1364910,
+        "end": 1366030,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000354",
+        "text": "Wouldn'T be there for like.",
+        "start": 1367950,
+        "end": 1369150,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000355",
+        "text": "So like they wanted to like be for like informational but it wouldn't be there if it's not for a product.",
+        "start": 1369310,
+        "end": 1374590,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000356",
+        "text": "So like okay, like to give it.",
+        "start": 1374670,
+        "end": 1376950,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000357",
+        "text": "They can give.",
+        "start": 1376950,
+        "end": 1377550,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000358",
+        "text": "That's fair.",
+        "start": 1378270,
+        "end": 1378830,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000359",
+        "text": "But could they make the quiz at least?",
+        "start": 1378830,
+        "end": 1380670,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000360",
+        "text": "Let's say that their product genuinely has some use.",
+        "start": 1380670,
+        "end": 1383150,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000361",
+        "text": "So snake oil is maybe too far.",
+        "start": 1383150,
+        "end": 1384990,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000362",
+        "text": "The product genuinely has some use, but it's not.",
+        "start": 1385310,
+        "end": 1387330,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000363",
+        "text": "Not for everything.",
+        "start": 1387480,
+        "end": 1388200,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000364",
+        "text": "It's not.",
+        "start": 1388280,
+        "end": 1388800,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000365",
+        "text": "Oh no matter what your symptoms are, you should try our product because it makes you feel it should be more, you know, let's just narrow it to the specific focus that you have.",
+        "start": 1388800,
+        "end": 1397560,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000366",
+        "text": "So that still would be good for the company.",
+        "start": 1398040,
+        "end": 1399800,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000367",
+        "text": "But it wouldn't go to the, you know, they.",
+        "start": 1400040,
+        "end": 1402040,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000368",
+        "text": "If there's competing brands.",
+        "start": 1402280,
+        "end": 1404280,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000369",
+        "text": "Yeah, it's their website.",
+        "start": 1404280,
+        "end": 1405520,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000370",
+        "text": "They should promote their brand.",
+        "start": 1405520,
+        "end": 1406680,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000371",
+        "text": "But do you think it's right and make it seem like it's good for everything like their answers.",
+        "start": 1406760,
+        "end": 1414160,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000372",
+        "text": "So the, the premise was that no matter what your answers are all roads kind of leash in a particular drum.",
+        "start": 1417040,
+        "end": 1422560,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000373",
+        "text": "So I mean it's not just sort of okay, so let's do one more thing.",
+        "start": 1427600,
+        "end": 1433240,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000374",
+        "text": "And then I want to jump to.",
+        "start": 1433240,
+        "end": 1434160,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000375",
+        "text": "So contract versus employment.",
+        "start": 1434720,
+        "end": 1437520,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000376",
+        "text": "We are in the midst of this emergence of independent employees.",
+        "start": 1437520,
+        "end": 1441530,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000377",
+        "text": "And so you know, for the gig economy, when you've got the employer, it's kind of nice that as an employer you don't have to handle providing health benefits or deal with withholding your income tax.",
+        "start": 1442090,
+        "end": 1460890,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000378",
+        "text": "You don't have to necessarily pay for unemployment afterwards.",
+        "start": 1461450,
+        "end": 1463950,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000379",
+        "text": "If you have surges in demand for what you need for the company and you don't have to pay the minimum wage or overtime, then the difference is for the contractors actually getting paid for the kind of economy is they have to handle all those taxes Themselves they have the benefit of working for multiple companies simultaneously, but they don't really have that permanence that comes from more job security.",
+        "start": 1464180,
+        "end": 1487380,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000380",
+        "text": "So if you've got kind of these on demand workers, Uber and Lyft are one example.",
+        "start": 1488340,
+        "end": 1494670,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000381",
+        "text": "But even my niece Beyonce is a contractor for coding.",
+        "start": 1494670,
+        "end": 1502190,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000382",
+        "text": "And so he works for different companies and there's kind of a hired run for that kind of thing.",
+        "start": 1502190,
+        "end": 1506430,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000383",
+        "text": "He's avoiding maybe that permanence and he can kind of float around and be more flexible, but at the same time he loses a lot of vessel.",
+        "start": 1508190,
+        "end": 1515790,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000384",
+        "text": "And so, so, you know, the safety aspects, especially for sort of shared ride, have been real problematic and expectation of worker is real problematic.",
+        "start": 1516590,
+        "end": 1524550,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000385",
+        "text": "So what do people think about, you know, the ethics of this kind of gig economy of companies kind of saying, well, you know, you're not really an employee of ours, so you know, we can kind of take advantage more.",
+        "start": 1524870,
+        "end": 1537230,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000386",
+        "text": "Or is it just increased flexibility for workers that give them more agency in their own employees?",
+        "start": 1537230,
+        "end": 1542490,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000387",
+        "text": "Anyone have a preference?",
+        "start": 1554800,
+        "end": 1555680,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000388",
+        "text": "Like you're ready to graduate, ready to be done with this place, obviously planning on making massive donations after you get your first job back to ucla.",
+        "start": 1555840,
+        "end": 1566160,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000389",
+        "text": "But would you prefer working on your own kind of contracting out out, or would you prefer the security of working for a company and kind of being more beholden, more traditional or just lower case?",
+        "start": 1566400,
+        "end": 1579850,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000390",
+        "text": "Like personally I prefer to like look at a company.",
+        "start": 1581930,
+        "end": 1583970,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000391",
+        "text": "It's like, you know, like depending on your situation you might prefer like the flexibility of like kind of like.",
+        "start": 1583970,
+        "end": 1590330,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000392",
+        "text": "And I don't think there's like anything inherently like wrong with like contract thing.",
+        "start": 1591130,
+        "end": 1596420,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000393",
+        "text": "Just like more regulation would probably like address like more of the issues that are like present.",
+        "start": 1596420,
+        "end": 1602980,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000394",
+        "text": "More regulation might help avoid the exploitation, provide some regularity that would at least be federally mandated so that the corporations just don't have a race to that.",
+        "start": 1603300,
+        "end": 1613580,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000395",
+        "text": "Exactly.",
+        "start": 1613580,
+        "end": 1614060,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000396",
+        "text": "Yeah, yeah.",
+        "start": 1614060,
+        "end": 1615060,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000397",
+        "text": "I don't know if we have the right, you know, current state to have that kind of regulation beyond I think we're cutting more regulation than we're not.",
+        "start": 1615860,
+        "end": 1624110,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000398",
+        "text": "But it seems like that might be something that's necessary.",
+        "start": 1624110,
+        "end": 1626910,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000399",
+        "text": "Anyone else?",
+        "start": 1627950,
+        "end": 1628670,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000400",
+        "text": "Let's do.",
+        "start": 1632030,
+        "end": 1632750,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000401",
+        "text": "So one of the big things that this class should be covering is AI and big data.",
+        "start": 1643070,
+        "end": 1649640,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000402",
+        "text": "So I want to start off data.",
+        "start": 1650440,
+        "end": 1657800,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000403",
+        "text": "We are drowning in data.",
+        "start": 1658920,
+        "end": 1660520,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000404",
+        "text": "This chart on the right kind of shows how much data is created every day of the day.",
+        "start": 1660520,
+        "end": 1665880,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000405",
+        "text": "Yes, a lot of it is tab videos and not very good.",
+        "start": 1665880,
+        "end": 1668720,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000406",
+        "text": "But there's a lot of content that's being created that is being thrown out that may actually harbor something useful, something production.",
+        "start": 1668720,
+        "end": 1676050,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000407",
+        "text": "And this so called big data has five Bs to it, the volume.",
+        "start": 1676610,
+        "end": 1681490,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000408",
+        "text": "So the actual amounts of data we're dealing with is incredible.",
+        "start": 1681490,
+        "end": 1684290,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000409",
+        "text": "The velocity, meaning how fast it appears and becomes irrelevant, may also become incredible.",
+        "start": 1684530,
+        "end": 1689970,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000410",
+        "text": "The veracity is problematic because we don't know if this data is real or not real, how we can trust it, how we can extract something meaningful out of it.",
+        "start": 1690050,
+        "end": 1697970,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000411",
+        "text": "The value, meaning the relevance to our particular question.",
+        "start": 1698860,
+        "end": 1701420,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000412",
+        "text": "So veracity is more about is the data reliable at all, whereas this value is there.",
+        "start": 1701580,
+        "end": 1707260,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000413",
+        "text": "Value to what I want to study and then variety, multimodal data, dealing with data that's both, maybe textual or video or auditory, or even just sensor based.",
+        "start": 1707260,
+        "end": 1717260,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000414",
+        "text": "All of that trying to use together something reasonable is a huge challenge.",
+        "start": 1717900,
+        "end": 1722460,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000415",
+        "text": "We have pitfalls in this sort of data, especially when it comes to veracity and value, because we come with our own biases built in.",
+        "start": 1724750,
+        "end": 1733150,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000416",
+        "text": "If we process value, process data, how do we look at it in a value neutral way?",
+        "start": 1733710,
+        "end": 1739350,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000417",
+        "text": "We talked about neutrality of technology.",
+        "start": 1739350,
+        "end": 1740910,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000418",
+        "text": "Can we get neutrality of data right?",
+        "start": 1741310,
+        "end": 1743830,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000419",
+        "text": "There's a spectrum from gullibility, where I want to believe it and I'm overconfident, but I'm easily fooled and I have low standards for my evidence versus living in denial where I've got impossible standards of evidence and I'm easily fooled because I'm so confident that's not what's true.",
+        "start": 1743830,
+        "end": 1763240,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000420",
+        "text": "So skepticism, this sort of healthy Goldilocks zone, this is almost a virtue ethics argument somewhere between denial and gullibility is the right thing.",
+        "start": 1763640,
+        "end": 1771720,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000421",
+        "text": "And a lot of times it's, especially in this polarized society we live in.",
+        "start": 1773960,
+        "end": 1778050,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000422",
+        "text": "This confirmation bias is the problem where we've got sort of the facts and evidence that are really out there and then our beliefs may not overlap, all of that.",
+        "start": 1778290,
+        "end": 1787090,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000423",
+        "text": "And so we choose to only believe certain types of evidence.",
+        "start": 1787170,
+        "end": 1789890,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000424",
+        "text": "So the problem that many people have tried to study is can we just have neutral data doesn't have the bias, it doesn't have the attachment, have the analysis baked in.",
+        "start": 1792690,
+        "end": 1801980,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000425",
+        "text": "The talking heads aren't giving me their perspective.",
+        "start": 1801980,
+        "end": 1805860,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000426",
+        "text": "It's just freaking data.",
+        "start": 1805860,
+        "end": 1807140,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000427",
+        "text": "It's ones and zeros.",
+        "start": 1807140,
+        "end": 1808180,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000428",
+        "text": "Can we get that?",
+        "start": 1808180,
+        "end": 1809020,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000429",
+        "text": "And part of the problem is when they try to canonize this and try to make it a hierarchy, they could say, you know, data, the things that we collect, the things that we observe, which we can still argue about, it's really not, but that's a different type of philosophy.",
+        "start": 1809580,
+        "end": 1822380,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000430",
+        "text": "The data that we have is sort of one level and usually you put context around that data with analysis and that becomes information and with meaning, that can become knowledge and with insight that can become Wisdom and there's this kind of looping of itself.",
+        "start": 1823580,
+        "end": 1836790,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000431",
+        "text": "What do people think about this?",
+        "start": 1838550,
+        "end": 1839990,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000432",
+        "text": "If you could you build a model like this where based on data alone it's neutral and then you color it to be able to get actual knowledge that's distilled out with all the BS it out and it's not just someone's angle.",
+        "start": 1839990,
+        "end": 1854300,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000433",
+        "text": "Do you think that we can make data like this?",
+        "start": 1854780,
+        "end": 1856700,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000434",
+        "text": "Why not?",
+        "start": 1857820,
+        "end": 1858460,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000435",
+        "text": "Pretty simple.",
+        "start": 1860140,
+        "end": 1861020,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000436",
+        "text": "Yeah, I don't think we can because.",
+        "start": 1863980,
+        "end": 1866460,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000437",
+        "text": "A lot of times like data like.",
+        "start": 1867260,
+        "end": 1868660,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000438",
+        "text": "This doesn't sell in media because it's not entertaining.",
+        "start": 1868660,
+        "end": 1874860,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000439",
+        "text": "Yeah.",
+        "start": 1875100,
+        "end": 1875580,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000440",
+        "text": "Unless you escalate and say that somebody totally annihilated someone else or I totally proved them wrong.",
+        "start": 1875900,
+        "end": 1884930,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000441",
+        "text": "There's a complete groundbreaking study, it doesn't sell.",
+        "start": 1884930,
+        "end": 1887370,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000442",
+        "text": "You're right.",
+        "start": 1887370,
+        "end": 1888010,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000443",
+        "text": "So the media and the way things are presented have escalated to a point where that would be difficult, but okay, selling it may be problematic and maybe informing people.",
+        "start": 1888490,
+        "end": 1899450,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000444",
+        "text": "So thinking of the news, I agree with you, there's a problem with the news.",
+        "start": 1899450,
+        "end": 1901970,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000445",
+        "text": "Okay, but just, just data for yourself, trying to extract data out.",
+        "start": 1901970,
+        "end": 1906580,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000446",
+        "text": "Is this a meaningful model that we could use?",
+        "start": 1906820,
+        "end": 1909220,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000447",
+        "text": "Yeah, I don't think it can really.",
+        "start": 1911460,
+        "end": 1913500,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000448",
+        "text": "Be neutral because of the scope of, I think of what the scope needs to be for the data or what I believe the data to be.",
+        "start": 1913500,
+        "end": 1920620,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000449",
+        "text": "Neutral.",
+        "start": 1920620,
+        "end": 1921060,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000450",
+        "text": "Yeah, I guess like even just like when collecting the data, like if you're ever just taking a subset of a population that's going to have bias in there.",
+        "start": 1921220,
+        "end": 1928620,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000451",
+        "text": "So, so I mean you have to literally survey everyone in the world and that's just not feasible.",
+        "start": 1928620,
+        "end": 1934270,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000452",
+        "text": "And you're like, you know, adding context and adding meaning.",
+        "start": 1934510,
+        "end": 1937390,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000453",
+        "text": "Right.",
+        "start": 1937390,
+        "end": 1937630,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000454",
+        "text": "Like who's adding the meaning is everyone on the planet's gonna weigh in and tell them what, tell you what they think means.",
+        "start": 1937630,
+        "end": 1943630,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000455",
+        "text": "And then maybe it's a complete, you know, bias free, you know, knowledge gain from the data, but that's just not the solution.",
+        "start": 1943630,
+        "end": 1953470,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000456",
+        "text": "Yeah, I think, I think you're spot on in terms of reducing the volume of things we have to deal with.",
+        "start": 1953710,
+        "end": 1959930,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000457",
+        "text": "If we're filtering, then maybe we're doing something important.",
+        "start": 1960890,
+        "end": 1963850,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000458",
+        "text": "Now how did we subsample, how are we sure that was statistically significant?",
+        "start": 1963850,
+        "end": 1967290,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000459",
+        "text": "I think another question here is that the flow itself is not just unidirectional moving up.",
+        "start": 1967770,
+        "end": 1972410,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000460",
+        "text": "If we filter information and we're trying to separate good from bad in some way, and then what when we try and design our next experiment to collect data or the types of devices that collect data, that's being informed by things higher up.",
+        "start": 1973210,
+        "end": 1987860,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000461",
+        "text": "And so how we select what to count, how we select what to measure how we select how to design these things creates a huge thing of bias that is kind of inherent to this data.",
+        "start": 1988260,
+        "end": 1998500,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000462",
+        "text": "Makes me, makes me me nervous.",
+        "start": 2004900,
+        "end": 2006350,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000463",
+        "text": "All right, so let me skip this one because I don't have to do that.",
+        "start": 2006350,
+        "end": 2009150,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000464",
+        "text": "But knowledge is social project.",
+        "start": 2009150,
+        "end": 2012030,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000465",
+        "text": "Right back in time with da Vinci, right?",
+        "start": 2012030,
+        "end": 2014750,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000466",
+        "text": "When I was a kid, they used to be able to believe that people could master multiple fields, right?",
+        "start": 2014750,
+        "end": 2022990,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000467",
+        "text": "The so called Renaissance master multiple fields.",
+        "start": 2022990,
+        "end": 2026950,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000468",
+        "text": "But now it's so hard to master even one field.",
+        "start": 2026950,
+        "end": 2029550,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000469",
+        "text": "There was a study in 2010 on echocardiography that said if you wanted to read every existing paper on this subject, catch up, become an expert, it would take around 10 years and at that point you would have another 10 years worth of material you still have to read.",
+        "start": 2029630,
+        "end": 2043720,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000470",
+        "text": "It's really challenging to be able to go through and find all that data.",
+        "start": 2044760,
+        "end": 2048280,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000471",
+        "text": "So if we've got tweets or I guess they're not anymore, but blogs and web pages and posts and comments, all of this stuff out there, people being generated, all this data that we can't maybe decide what's neutral and we're trying to get help.",
+        "start": 2048840,
+        "end": 2062960,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000472",
+        "text": "This is where AI can come in, right?",
+        "start": 2063680,
+        "end": 2065600,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000473",
+        "text": "AI it's our solution to all these problems.",
+        "start": 2065840,
+        "end": 2068720,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000474",
+        "text": "But dealing with what's reputable.",
+        "start": 2070480,
+        "end": 2072800,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000475",
+        "text": "Predatory conferences or information weaponization or knob mentality or decentralization and organization, all of this stuff is where AI can come in.",
+        "start": 2073040,
+        "end": 2082080,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000476",
+        "text": "I give a talk to even older than my generation and their usual response is AI will solve it.",
+        "start": 2083460,
+        "end": 2090060,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000477",
+        "text": "AI will be able to figure it out because it's neutral.",
+        "start": 2090060,
+        "end": 2092540,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000478",
+        "text": "That's the whole point.",
+        "start": 2092540,
+        "end": 2093540,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000479",
+        "text": "It's a machine doesn't have emotions.",
+        "start": 2093860,
+        "end": 2096260,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000480",
+        "text": "So making AI ethical if it's fast, right?",
+        "start": 2098100,
+        "end": 2104500,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000481",
+        "text": "If we have something that can make good decisions, autonomous vehicles, we would have more correct decisions in a moral sense.",
+        "start": 2104500,
+        "end": 2112280,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000482",
+        "text": "That whole issue with do I go left or right and avoid the logs.",
+        "start": 2112280,
+        "end": 2115640,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000483",
+        "text": "AI consultant scale dealing with ethical dreaming things coming at us and being able to figure out what's good and bad.",
+        "start": 2115640,
+        "end": 2123080,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000484",
+        "text": "AI can do it.",
+        "start": 2123320,
+        "end": 2124280,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000485",
+        "text": "Complex optimizations.",
+        "start": 2124280,
+        "end": 2125640,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000486",
+        "text": "People worry about organ donation.",
+        "start": 2126360,
+        "end": 2127920,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000487",
+        "text": "How do I figure out who's next in line to get the organ donation without being bright?",
+        "start": 2127920,
+        "end": 2131560,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000488",
+        "text": "AI can do new drug trials for transparency, lack of bias, interruption.",
+        "start": 2131880,
+        "end": 2136290,
+        "speaker": "A"
+      }
+    ],
+    "context_after_main_text": [
+      {
+        "sid": "s000489",
+        "text": "All these things are promising for AI.",
+        "start": 2136690,
+        "end": 2139410,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000490",
+        "text": "But how would we make AI learn?",
+        "start": 2141730,
+        "end": 2144610,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000491",
+        "text": "Is everybody familiar with AlphaGo?",
+        "start": 2145410,
+        "end": 2147170,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000492",
+        "text": "Right?",
+        "start": 2149250,
+        "end": 2149650,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000493",
+        "text": "So AlphaGo, the idea was hey I want to.",
+        "start": 2149650,
+        "end": 2153170,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000494",
+        "text": "We already we got our butts kicked by on chest by computers all the time.",
+        "start": 2153250,
+        "end": 2157170,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000495",
+        "text": "Now they were taking on the game of go, which is bit a little more intuitive than logical.",
+        "start": 2157810,
+        "end": 2161740,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000496",
+        "text": "And so they taught a machine basic rules, how you can place something on the board, what the goal is and then they had it play itself and it learned.",
+        "start": 2162300,
+        "end": 2172100,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000497",
+        "text": "Right.",
+        "start": 2172100,
+        "end": 2172340,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000498",
+        "text": "With this deep learning framework, they didn't give it heuristics like develop here, try to expand on the board.",
+        "start": 2172340,
+        "end": 2177660,
+        "speaker": "A"
+      }
+    ]
+  }
+]

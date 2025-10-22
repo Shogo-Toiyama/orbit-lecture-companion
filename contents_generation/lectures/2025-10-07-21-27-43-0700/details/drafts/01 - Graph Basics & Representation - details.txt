@@ -1,0 +1,25 @@
+# Graph Basics & Representation
+
+Graphs are foundational structures in analytical thinking, consisting of *vertices* (nodes) and *edges* (connections). They can be represented visually or formally using sets, with each method providing complete information about the graph's structure. Understanding graphs also involves considering their *density*, which relates to the number of edges they possess.
+
+## Definition of a Graph
+A *graph* is a fundamental structure composed of two main elements: *vertices* and *edges*. These structures are important for analytical thinking.
+
+## Core Components: Vertices and Edges
+A graph has a set of **vertices**, which are typically represented visually as small circles. It also has **edges**, which connect these vertices. Each *edge* specifically represents a pair of vertices, indicating a connection between them. For instance, a simple graph might have three vertices and two edges.
+
+## Formal Representation of a Graph
+A graph is usually denoted by **G**. This notation is equal to a set of vertices, **V**, and a set of edges, **E**. For example, if the vertices are labeled 1, 2, and 3, the set V would be {1, 2, 3}. The set of edges would then describe the connections between these vertices.
+
+## Methods of Graph Representation
+Graphs can be represented in several ways, including visually as a picture or formally using an equation that lists the sets of vertices and edges. Any of these representations should provide complete information about the graph. While an equation or description can represent a graph, a picture is often preferred for communication because it is much easier to convey than a paragraph of text.
+
+## Understanding Graph Density
+The number of edges a graph can have is a key characteristic. Graphs can vary significantly in their *density*, which refers to how many edges are present relative to the number of vertices. Some graphs have very few edges, while others, at the other extreme, can have lots of edges, making them very dense.
+
+## Summary
+*   A **graph** is a structure used in analytical thinking.
+*   Graphs are made up of **vertices** (represented as circles) and **edges** (connections between pairs of vertices).
+*   A graph **G** can be formally represented by its set of vertices **V** and set of edges **E**.
+*   Graphs can be communicated visually or through formal equations, both providing complete information.
+*   The number of edges in a graph determines its **density**, which can range from sparse (few edges) to dense (many edges).

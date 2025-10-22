@@ -1,0 +1,55 @@
+# Graph Types & Terminology
+
+This lecture introduces fundamental concepts and classifications within graph theory, explaining the basic components of graphs, different types of edges and their properties, and specific graph structures like paths, cycles, trees, and connected graphs. It also covers how to characterize vertices in directed graphs using in-degree and out-degree.
+
+## Basic Graph Terminology
+
+A graph is fundamentally composed of two main elements: **vertices** and **edges**. The lecture notes that vertices are sometimes referred to as *nodes*, and edges can also be called *links*.
+
+## Types of Edges: Undirected and Directed Graphs
+
+Graphs can be categorized based on whether their edges have a direction:
+*   An **undirected graph** has edges with no specific direction, meaning the connection is two-way.
+*   A **directed graph** features edges that have a specific direction, typically shown pictorially with an arrow on the edge. In a directed graph, a connection from vertex 1 to vertex 2 does not automatically imply a connection from 2 to 1.
+
+## Weighted Graphs
+
+A graph can be **weighted**, which means that each edge has an associated *weight*. This weight is usually applied to the edges, not the vertices. The weight can represent various attributes, such as the *importance*, *traffic*, or *criticality* of that particular edge.
+
+## Understanding Paths and Cycles
+
+A **path** in a graph is a sequence of vertices connected by edges, such as A → B → C → D. When the term "path" is used without further qualification, it typically refers to a **simple path**, where vertices are not repeated. If vertices are repeated within a path, it is called a **non-simple path**.
+
+A **cycle** is a specific type of path where the first and last vertices are the same.
+
+## Acyclic Graphs and Trees
+
+Graphs that do not contain any cycles are known as **acyclic graphs**. A **tree** is a type of graph that is acyclic. Specifically, a tree is described as the least dense graph structure where all vertices are connected to each other.
+
+## Graph Connectivity
+
+A graph is considered **connected** if every vertex is connected to every other vertex. The lecture often assumes graphs are connected unless stated otherwise. A graph where not all vertices are connected to each other is considered *not connected*.
+
+## Directed Acyclic Graphs (DAGs)
+
+A special type of graph is a **directed acyclic graph**, often abbreviated as a **DAG**. As its name suggests, a DAG is a directed graph that contains no cycles.
+
+## Vertex Degrees: In-degree and Out-degree
+
+In a directed graph, the connections to and from a specific vertex are quantified by its degrees:
+*   The **in-degree** of a vertex is the number of edges that go *into* it.
+*   The **out-degree** of a vertex is the number of edges that go *out of* it.
+*   If a vertex has an in-degree of zero, it is referred to as a **series**.
+*   If a vertex has an out-degree of zero, it is referred to as a **sig**.
+
+## Summary
+
+*   Graphs consist of **vertices** (nodes) and **edges** (links).
+*   Edges can be **undirected** (two-way) or **directed** (one-way, shown with arrows).
+*   **Weighted graphs** have numerical values on their edges, representing importance or other attributes.
+*   A **path** connects a sequence of vertices; a **simple path** does not repeat vertices.
+*   A **cycle** is a path where the start and end vertices are the same.
+*   **Acyclic graphs** have no cycles; a **tree** is a connected acyclic graph.
+*   A **connected graph** ensures all vertices are reachable from each other.
+*   A **Directed Acyclic Graph (DAG)** is a directed graph without any cycles.
+*   In directed graphs, **in-degree** counts incoming edges, and **out-degree** counts outgoing edges; a vertex with zero in-degree is a "series," and one with zero out-degree is a "sig."

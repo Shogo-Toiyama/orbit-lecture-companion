@@ -1,0 +1,481 @@
+{
+  "idx": 8,
+  "title": "Problem-Solving Methodology",
+  "count": 59,
+  "sids": [
+    "s000006",
+    "s000007",
+    "s000009",
+    "s000011",
+    "s000012",
+    "s000013",
+    "s000048",
+    "s000049",
+    "s000050",
+    "s000053",
+    "s000054",
+    "s000055",
+    "s000065",
+    "s000070",
+    "s000132",
+    "s000133",
+    "s000134",
+    "s000142",
+    "s000247",
+    "s000248",
+    "s000249",
+    "s000250",
+    "s000251",
+    "s000359",
+    "s000789",
+    "s000791",
+    "s000792",
+    "s000793",
+    "s000795",
+    "s000796",
+    "s000797",
+    "s000798",
+    "s000801",
+    "s000803",
+    "s000804",
+    "s000805",
+    "s000807",
+    "s000808",
+    "s000809",
+    "s000810",
+    "s000812",
+    "s000813",
+    "s000814",
+    "s000815",
+    "s000816",
+    "s000817",
+    "s000819",
+    "s000822",
+    "s000823",
+    "s000824",
+    "s000825",
+    "s000826",
+    "s000827",
+    "s000831",
+    "s000832",
+    "s000833",
+    "s000845",
+    "s000846",
+    "s000847"
+  ],
+  "evidences": [
+    {
+      "sid": "s000006",
+      "text": "Yes, definitely.",
+      "start": 16320,
+      "end": 20000,
+      "role": "qa"
+    },
+    {
+      "sid": "s000007",
+      "text": "Prove everything.",
+      "start": 20160,
+      "end": 20960,
+      "role": "qa"
+    },
+    {
+      "sid": "s000009",
+      "text": "Prove it.",
+      "start": 22880,
+      "end": 23600,
+      "role": "qa"
+    },
+    {
+      "sid": "s000011",
+      "text": "Oh, I'm good at these proofs, correctness, etc.",
+      "start": 24080,
+      "end": 27230,
+      "role": "qa"
+    },
+    {
+      "sid": "s000012",
+      "text": "Again, kind of take the example I did say for matching.",
+      "start": 27470,
+      "end": 30830,
+      "role": "qa"
+    },
+    {
+      "sid": "s000013",
+      "text": "That should be a good guideline.",
+      "start": 30990,
+      "end": 32670,
+      "role": "qa"
+    },
+    {
+      "sid": "s000048",
+      "text": "So we provide a solution to the homework.",
+      "start": 180360,
+      "end": 187570,
+      "role": "announcement"
+    },
+    {
+      "sid": "s000049",
+      "text": "So please read it to see what if anything went wrong with the way you are thinking about it.",
+      "start": 187970,
+      "end": 195290,
+      "role": "announcement"
+    },
+    {
+      "sid": "s000050",
+      "text": "And then on Friday if there is a solution to a homework problem that's different from yours or different methodologies, Friday is the time to answer that.",
+      "start": 195290,
+      "end": 208280,
+      "role": "announcement"
+    },
+    {
+      "sid": "s000053",
+      "text": "And as you know, in algorithm it's not like one solution.",
+      "start": 213080,
+      "end": 216520,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000054",
+      "text": "There could be 10 different solutions, 10 different algorithms to any problem.",
+      "start": 217080,
+      "end": 222320,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000055",
+      "text": "And those are all fine as long as you're efficient, always Easy to do a 2 to the N algorithm or an infinite raj word depth but you are looking for better runtime in most cases.",
+      "start": 222320,
+      "end": 235410,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000065",
+      "text": "There will be somebody to help and answer your question and make sure anything that I already covered you are really comfortable with it every week because things will pile up and things will get harder in the sense that if you don't understand today's lecture, the next few lectures are going to be very difficult and the next few homework sense make sure that as I suggested after every lecture, same day, try to make that try to ask your different angles, different questions, different variations of the problem that we cover in class that will really help you understand and it will become manually if I ask the related questions in the exams and in general it helps your understanding.",
+      "start": 271579,
+      "end": 330560,
+      "role": "announcement"
+    },
+    {
+      "sid": "s000070",
+      "text": "And homework problems, anything you miss, make sure to really get into that to see why is it that you miss or your solution may be more than perfect or so kind of very rigorous.",
+      "start": 346710,
+      "end": 363920,
+      "role": "announcement"
+    },
+    {
+      "sid": "s000132",
+      "text": "So typical question.",
+      "start": 812900,
+      "end": 814260,
+      "role": "announcement"
+    },
+    {
+      "sid": "s000133",
+      "text": "In the midterm you will model your problem as a graph.",
+      "start": 814260,
+      "end": 819140,
+      "role": "announcement"
+    },
+    {
+      "sid": "s000134",
+      "text": "Then you say run algorithm X on it that we put in class, then run algorithm Y, which is mine.",
+      "start": 819460,
+      "end": 826630,
+      "role": "announcement"
+    },
+    {
+      "sid": "s000142",
+      "text": "But most important is to learn these basic algorithms in this class.",
+      "start": 871570,
+      "end": 876290,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000247",
+      "text": "And if I ever ask you, is topological sort unique?",
+      "start": 1511080,
+      "end": 1515240,
+      "role": "announcement"
+    },
+    {
+      "sid": "s000248",
+      "text": "You don't want to draw a bigger graph.",
+      "start": 1515320,
+      "end": 1517640,
+      "role": "announcement"
+    },
+    {
+      "sid": "s000249",
+      "text": "You just do a very small, the smallest graph you can think of.",
+      "start": 1517960,
+      "end": 1521670,
+      "role": "announcement"
+    },
+    {
+      "sid": "s000250",
+      "text": "Whenever you have to prove by example, do the smallest example possible.",
+      "start": 1522300,
+      "end": 1527180,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000251",
+      "text": "Because then analyzing writing about it becomes simpler.",
+      "start": 1527740,
+      "end": 1531580,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000359",
+      "text": "The whole thing, as I've been saying at the beginning of this lecture, is the game plan.",
+      "start": 2134050,
+      "end": 2144020,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000789",
+      "text": "What I want you to learn from today's lecture is not topological because who cares?",
+      "start": 4764810,
+      "end": 4770420,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000791",
+      "text": "It's the methodology that matters.",
+      "start": 4781460,
+      "end": 4783540,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000792",
+      "text": "Because this methodology, this concept, this way of attacking a problem, you can do it with many other problems.",
+      "start": 4783620,
+      "end": 4790180,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000793",
+      "text": "That's what's valuable.",
+      "start": 4790180,
+      "end": 4791380,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000795",
+      "text": "That's my goal in all the lectures, to see how I attack a problem, kind of high level, coming lower, proving things only as needed or when they are needed, then getting into data structure, then kind of at the end, all the way at the end, I say, oh yeah, by the way, there are two ways of doing your accounting.",
+      "start": 4796030,
+      "end": 4816030,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000796",
+      "text": "That comes after your data structure, after your algorithm, after it, there's different way of humping.",
+      "start": 4816190,
+      "end": 4823560,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000797",
+      "text": "So that's really the takeaway from today or any other lecture.",
+      "start": 4827000,
+      "end": 4831400,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000798",
+      "text": "So maybe I think one mid term problem was design an algorithm that finds a cycle in a graph, in a directed graph.",
+      "start": 4847090,
+      "end": 4857970,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000801",
+      "text": "So when you see something like that, you kind of scan stuff that you have done in the class.",
+      "start": 4863170,
+      "end": 4869410,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000803",
+      "text": "So maybe you realize, oh yeah, I remember that day in October we talked about topological sort that had to do something with cycles because we keep talking about gag, async graph cycles and all that.",
+      "start": 4873900,
+      "end": 4890260,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000804",
+      "text": "So maybe that's a good starting point to solve the cycle problem in a graph.",
+      "start": 4890260,
+      "end": 4895020,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000805",
+      "text": "So you kind of, kind of try to find a hook to a problem you've never seen before.",
+      "start": 4895980,
+      "end": 4900550,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000807",
+      "text": "And that's how you actually solve that problem.",
+      "start": 4901910,
+      "end": 4904230,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000808",
+      "text": "You go through topological sort as I did, you add a few variations to it.",
+      "start": 4904630,
+      "end": 4910550,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000809",
+      "text": "Basically I give you the answer for that problem.",
+      "start": 4911590,
+      "end": 4914390,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000810",
+      "text": "If you don't have any more sources somewhere in the middle of the algorithm.",
+      "start": 4915030,
+      "end": 4921830,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000812",
+      "text": "It means there must be a cycle.",
+      "start": 4929760,
+      "end": 4931840,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000813",
+      "text": "So cycle finding is this algorithm with one additional test.",
+      "start": 4933520,
+      "end": 4938480,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000814",
+      "text": "You need to prove that.",
+      "start": 4938560,
+      "end": 4939760,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000815",
+      "text": "If I ask you that question, this is statement that if the Algorithm ends early.",
+      "start": 4940080,
+      "end": 4945360,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000816",
+      "text": "There must be a cycle.",
+      "start": 4945440,
+      "end": 4946920,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000817",
+      "text": "You prove that and the rest of it is the same.",
+      "start": 4946920,
+      "end": 4949960,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000819",
+      "text": "The rest of my algorithm is the same, except I add here that if you output the number of sources I output total is less than n. There must be a cycle.",
+      "start": 4951680,
+      "end": 4966600,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000822",
+      "text": "So knowing this problem will help you in many other problems.",
+      "start": 4985890,
+      "end": 4990210,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000823",
+      "text": "Some of them directly because the answer to cycle is just topological, some of them indirectly in that destro structure of another problem might be exactly.",
+      "start": 4990370,
+      "end": 5002540,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000824",
+      "text": "The problem might be different, solution might be different, but the idea and the structure might be exactly that.",
+      "start": 5003100,
+      "end": 5009420,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000825",
+      "text": "So these are the takeaway from the lectures.",
+      "start": 5009740,
+      "end": 5012300,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000826",
+      "text": "Not topological sort by itself, because who cares?",
+      "start": 5013180,
+      "end": 5016380,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000827",
+      "text": "Not any topic that we study in this class, because who cares if Google wants to know the answer to topological sources, they open a book.",
+      "start": 5016620,
+      "end": 5026310,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000831",
+      "text": "So that's not where your value is.",
+      "start": 5033910,
+      "end": 5036070,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000832",
+      "text": "Your value is a brand new problem that you find a connection to some existing problem or you come up with a brand new solution based on the methodologies and techniques you have learned in this class.",
+      "start": 5036790,
+      "end": 5051860,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000833",
+      "text": "That's what's going to be valuable.",
+      "start": 5052180,
+      "end": 5053860,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000845",
+      "text": "I don't describe everything because I want you to describe it.",
+      "start": 5116950,
+      "end": 5120430,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000846",
+      "text": "It is a network, but it's better if you discover it.",
+      "start": 5120430,
+      "end": 5123750,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000847",
+      "text": "And that means you truly learn.",
+      "start": 5124630,
+      "end": 5126550,
+      "role": "lecture"
+    }
+  ]
+}

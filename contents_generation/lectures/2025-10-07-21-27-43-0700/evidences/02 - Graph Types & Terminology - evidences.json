@@ -1,0 +1,241 @@
+{
+  "idx": 2,
+  "title": "Graph Types & Terminology",
+  "count": 29,
+  "sids": [
+    "s000081",
+    "s000102",
+    "s000105",
+    "s000107",
+    "s000108",
+    "s000110",
+    "s000120",
+    "s000122",
+    "s000123",
+    "s000145",
+    "s000153",
+    "s000154",
+    "s000158",
+    "s000164",
+    "s000165",
+    "s000170",
+    "s000171",
+    "s000174",
+    "s000177",
+    "s000187",
+    "s000188",
+    "s000264",
+    "s000266",
+    "s000362",
+    "s000364",
+    "s000373",
+    "s000374",
+    "s000376",
+    "s000377"
+  ],
+  "evidences": [
+    {
+      "sid": "s000081",
+      "text": "Sometimes the vertices are called nodes and sometimes the edges are are called links.",
+      "start": 458730,
+      "end": 466100,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000102",
+      "text": "A graph can be undirected, which means the edges have no direction.",
+      "start": 595790,
+      "end": 613470,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000105",
+      "text": "So undirected means two way.",
+      "start": 620490,
+      "end": 622410,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000107",
+      "text": "Or obviously it can be a directed graph.",
+      "start": 627210,
+      "end": 630330,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000108",
+      "text": "In a directed graph, if I want to show it pictorially, I will put a direction on the edge, an arrow.",
+      "start": 635770,
+      "end": 643050,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000110",
+      "text": "There is not a connection from 2 to 1 in a directed graph.",
+      "start": 649080,
+      "end": 654080,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000120",
+      "text": "A graph may be weighted, which means you have weight on the APIs.",
+      "start": 705110,
+      "end": 714710,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000122",
+      "text": "So if I had a weight six and a weight three, so if I have a weight on every edge, which might be the importance of that edge, which could be the traffic on that edge, which could be the criticality of that edge, whatever that weight represents, we will call that a weighted graph.",
+      "start": 721830,
+      "end": 742710,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000123",
+      "text": "And usually when we say weighted graph, we mean weight on the edges, not on the vertices.",
+      "start": 743670,
+      "end": 750160,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000145",
+      "text": "So in a graph, when you have vertex A going to B, B going to C, C going to D, et cetera, A, B, C is called a path.",
+      "start": 891840,
+      "end": 906010,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000153",
+      "text": "Typically when we say a path, we mean a simple path.",
+      "start": 956350,
+      "end": 960750,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000154",
+      "text": "A path that vertices are not repeated.",
+      "start": 961070,
+      "end": 964110,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000158",
+      "text": "We call that a non-simple path if the vertices are repeated.",
+      "start": 981520,
+      "end": 986400,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000164",
+      "text": "If I don't say anything, you assume it's a simple path.",
+      "start": 1002480,
+      "end": 1006180,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000165",
+      "text": "A cycle is a path with first and last vertex being the same exactly as the name suggests.",
+      "start": 1019690,
+      "end": 1031860,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000170",
+      "text": "Some graphs may not have any cycle at all.",
+      "start": 1054249,
+      "end": 1057449,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000171",
+      "text": "We call them acyclic graphs.",
+      "start": 1059120,
+      "end": 1062480,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000174",
+      "text": "So a graph with no cycle is called acyclic.",
+      "start": 1070880,
+      "end": 1074240,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000177",
+      "text": "A tree is a graph with no sign.",
+      "start": 1084170,
+      "end": 1086650,
+      "role": "qa"
+    },
+    {
+      "sid": "s000187",
+      "text": "So as suggested, when there are not a mean, as long as the graph is connected, everybody's connected to everybody.",
+      "start": 1130820,
+      "end": 1138250,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000188",
+      "text": "The least dense graph is a tree structure.",
+      "start": 1138490,
+      "end": 1141530,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000264",
+      "text": "Unless I say otherwise, with connected graphs.",
+      "start": 1648450,
+      "end": 1652510,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000266",
+      "text": "This graph is not connected.",
+      "start": 1662670,
+      "end": 1664910,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000362",
+      "text": "A directed graph without cycle is called directed acyclic graph or Dolce and Gabbana.",
+      "start": 2156820,
+      "end": 2171590,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000364",
+      "text": "Oh, so a DAG, directed.",
+      "start": 2174270,
+      "end": 2177270,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000373",
+      "text": "In general, for an arbitrary vertex, what goes into it is called the in degree.",
+      "start": 2218720,
+      "end": 2226640,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000374",
+      "text": "The in-degree of this vertex A is 2, and the number of edges going out of it is called its out-degree of A is 3.",
+      "start": 2230640,
+      "end": 2248970,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000376",
+      "text": "And if in degree is zero, we call this a series.",
+      "start": 2261210,
+      "end": 2267450,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000377",
+      "text": "If the odd degree is zero, we call this a sig.",
+      "start": 2270340,
+      "end": 2275060,
+      "role": "lecture"
+    }
+  ]
+}

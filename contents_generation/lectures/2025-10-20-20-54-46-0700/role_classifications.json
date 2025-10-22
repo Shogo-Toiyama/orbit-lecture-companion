@@ -1,0 +1,3464 @@
+{
+  "labels": [
+    {
+      "sid": "s000001",
+      "role": "announcement",
+      "role_score": 0.9,
+      "role_reason": "Relaying student concern about Canvas being down, course operations."
+    },
+    {
+      "sid": "s000002",
+      "role": "announcement",
+      "role_score": 0.9,
+      "role_reason": "Explaining student concerns about access affecting assignments."
+    },
+    {
+      "sid": "s000003",
+      "role": "announcement",
+      "role_score": 0.8,
+      "role_reason": "Professor's response to Canvas issue, related to course logistics."
+    },
+    {
+      "sid": "s000004",
+      "role": "announcement",
+      "role_score": 0.9,
+      "role_reason": "Discussing publishing slides, a course resource."
+    },
+    {
+      "sid": "s000005",
+      "role": "announcement",
+      "role_score": 0.8,
+      "role_reason": "Continuing discussion about course resource availability."
+    },
+    {
+      "sid": "s000006",
+      "role": "announcement",
+      "role_score": 0.7,
+      "role_reason": "Incomplete sentence, but context is course resource discussion."
+    },
+    {
+      "sid": "s000007",
+      "role": "announcement",
+      "role_score": 0.7,
+      "role_reason": "Incomplete sentence, but context is course resource discussion."
+    },
+    {
+      "sid": "s000008",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor asks for input from the class."
+    },
+    {
+      "sid": "s000009",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor acknowledges student input."
+    },
+    {
+      "sid": "s000010",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor responds to student's comment about a class."
+    },
+    {
+      "sid": "s000011",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor asks clarifying question about postponing something."
+    },
+    {
+      "sid": "s000012",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor asks clarifying question about Canvas issue."
+    },
+    {
+      "sid": "s000013",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor asks about readiness for a test, related to class confusion."
+    },
+    {
+      "sid": "s000014",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student answers professor's question about test postponement reason."
+    },
+    {
+      "sid": "s000015",
+      "role": "qa",
+      "role_score": 0.8,
+      "role_reason": "Professor responds to student point, generalizing about faculty surveys."
+    },
+    {
+      "sid": "s000016",
+      "role": "qa",
+      "role_score": 0.8,
+      "role_reason": "Mention of 'Midterm 1' in context of student concerns."
+    },
+    {
+      "sid": "s000017",
+      "role": "qa",
+      "role_score": 0.8,
+      "role_reason": "Professor gives anecdote about midterm difficulty."
+    },
+    {
+      "sid": "s000018",
+      "role": "qa",
+      "role_score": 0.8,
+      "role_reason": "Continuing anecdote about midterm and student complaints."
+    },
+    {
+      "sid": "s000019",
+      "role": "qa",
+      "role_score": 0.8,
+      "role_reason": "Professor transitions to policy after discussing student concerns."
+    },
+    {
+      "sid": "s000020",
+      "role": "announcement",
+      "role_score": 0.9,
+      "role_reason": "Professor explains school policy regarding changing syllabus dates."
+    },
+    {
+      "sid": "s000021",
+      "role": "announcement",
+      "role_score": 0.8,
+      "role_reason": "Professor's opinion on school policy related to course dates."
+    },
+    {
+      "sid": "s000022",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student begins to make a point about service reliability."
+    },
+    {
+      "sid": "s000023",
+      "role": "qa",
+      "role_score": 0.8,
+      "role_reason": "Professor interjects, clarifying student's point about resources."
+    },
+    {
+      "sid": "s000024",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor affirms student's point."
+    },
+    {
+      "sid": "s000025",
+      "role": 0.9,
+      "role_reason": "Student continues point about service reliability."
+    },
+    {
+      "sid": "s000026",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor affirms student's point."
+    },
+    {
+      "sid": "s000027",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student gives example from another class about resources."
+    },
+    {
+      "sid": "s000028",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor affirms student's point."
+    },
+    {
+      "sid": "s000029",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student continues point about Canvas as a secondary source."
+    },
+    {
+      "sid": "s000030",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor affirms student's point."
+    },
+    {
+      "sid": "s000031",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student summarizes idea about resource accessibility."
+    },
+    {
+      "sid": "s000032",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor affirms student's point."
+    },
+    {
+      "sid": "s000033",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor expresses agreement with student's point."
+    },
+    {
+      "sid": "s000034",
+      "role": "qa",
+      "role_score": 0.8,
+      "role_reason": "Professor elaborates on agreement about resource availability."
+    },
+    {
+      "sid": "s000035",
+      "role": "qa",
+      "role_score": 0.8,
+      "role_reason": "Professor continues thought about resource expectations."
+    },
+    {
+      "sid": "s000036",
+      "role": "qa",
+      "role_score": 0.8,
+      "role_reason": "Professor explains what shouldn't be the case regarding resources."
+    },
+    {
+      "sid": "s000037",
+      "role": "qa",
+      "role_score": 0.8,
+      "role_reason": "Professor provides reasoning for resource availability expectation."
+    },
+    {
+      "sid": "s000038",
+      "role": "qa",
+      "role_score": 0.8,
+      "role_reason": "Professor offers a solution/condition for resource access."
+    },
+    {
+      "sid": "s000039",
+      "role": "qa",
+      "role_score": 0.7,
+      "role_reason": "Incomplete thought during discussion about resources."
+    },
+    {
+      "sid": "s000040",
+      "role": "qa",
+      "role_score": 0.8,
+      "role_reason": "Professor refers to specific class and its unique situation."
+    },
+    {
+      "sid": "s000041",
+      "role": "qa",
+      "role_score": 0.8,
+      "role_reason": "Professor speculates on other mitigating circumstances."
+    },
+    {
+      "sid": "s000042",
+      "role": "qa",
+      "role_score": 0.8,
+      "role_reason": "Professor concludes on the specific situation regarding resources."
+    },
+    {
+      "sid": "s000043",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor affirms student's point."
+    },
+    {
+      "sid": "s000044",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student asks or states about a solution."
+    },
+    {
+      "sid": "s000045",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor affirms student's point."
+    },
+    {
+      "sid": "s000046",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student completes thought about an effective solution."
+    },
+    {
+      "sid": "s000047",
+      "role": "qa",
+      "role_score": 0.8,
+      "role_reason": "Professor responds to student's solution and transitions."
+    },
+    {
+      "sid": "s000048",
+      "role": "qa",
+      "role_score": 0.8,
+      "role_reason": "Professor transitions out of the discussion."
+    },
+    {
+      "sid": "s000049",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Professor introduces the main lecture topic: environmental cost of AI."
+    },
+    {
+      "sid": "s000050",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Beginning explanation of why AI development is accelerating."
+    },
+    {
+      "sid": "s000051",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Referencing a previous paper for lecture context."
+    },
+    {
+      "sid": "s000052",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining a projection for generative AI development."
+    },
+    {
+      "sid": "s000053",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Continuing explanation of AI's increasing power."
+    },
+    {
+      "sid": "s000054",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Listing a factor for AI development: physical compute scaling."
+    },
+    {
+      "sid": "s000055",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining the need for more powerful hardware."
+    },
+    {
+      "sid": "s000056",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Mentioning future discussion on energy efficiency."
+    },
+    {
+      "sid": "s000057",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Listing another factor: algorithmic properties."
+    },
+    {
+      "sid": "s000058",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining how to make learning more robust."
+    },
+    {
+      "sid": "s000059",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Introducing and explaining the concept of 'unhobbling' in LLMs."
+    },
+    {
+      "sid": "s000060",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining the benefits of AI learning user interests."
+    },
+    {
+      "sid": "s000061",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Elaborating on AI's ability to learn user context for efficiency."
+    },
+    {
+      "sid": "s000062",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Providing ChatGPT as an example of context learning."
+    },
+    {
+      "sid": "s000063",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining how ChatGPT refines understanding based on past interactions."
+    },
+    {
+      "sid": "s000064",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Summarizing the point about AI context learning."
+    },
+    {
+      "sid": "s000065",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Professor expresses personal opinion within lecture context."
+    },
+    {
+      "sid": "s000066",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Summarizing the three areas of required improvement for AI."
+    },
+    {
+      "sid": "s000067",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Introducing related research at UCLA."
+    },
+    {
+      "sid": "s000068",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Posing a rhetorical question to introduce a sub-topic."
+    },
+    {
+      "sid": "s000069",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Introducing a researcher and a question about climate modeling with AI."
+    },
+    {
+      "sid": "s000070",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Providing examples of unprecedented weather events."
+    },
+    {
+      "sid": "s000071",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Continuing the rhetorical question about AI and unprecedented events."
+    },
+    {
+      "sid": "s000072",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Referring to a researcher's answer without detailing it."
+    },
+    {
+      "sid": "s000073",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Incomplete thought, part of lecture flow."
+    },
+    {
+      "sid": "s000074",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining AI's potential in solving climate crisis."
+    },
+    {
+      "sid": "s000075",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Listing applications of AI in environmental problem-solving."
+    },
+    {
+      "sid": "s000076",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Summarizing the positive potential of AI."
+    },
+    {
+      "sid": "s000077",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Pivoting to the environmental footprint of AI."
+    },
+    {
+      "sid": "s000078",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Sharing an anecdote about a researcher and environmental impact."
+    },
+    {
+      "sid": "s000079",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Continuing anecdote, highlighting AI's environmental impact."
+    },
+    {
+      "sid": "s000080",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining different types of second-order environmental effects."
+    },
+    {
+      "sid": "s000081",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Emphasizing the broad and impactful nature of AI's costs."
+    },
+    {
+      "sid": "s000082",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Professor states lecture focus: AI's cost factors for discussion."
+    },
+    {
+      "sid": "s000083",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Listing the first factor: material cost of equipment."
+    },
+    {
+      "sid": "s000084",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Elaborating on material cost, introducing exploitation."
+    },
+    {
+      "sid": "s000085",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Posing rhetorical question about resource use in developing countries."
+    },
+    {
+      "sid": "s000086",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Continuing rhetorical question about benefits for developing countries."
+    },
+    {
+      "sid": "s000087",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Listing factors: electronic waste, water use, and exploitation."
+    },
+    {
+      "sid": "s000088",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining water usage for cooling and chip creation."
+    },
+    {
+      "sid": "s000089",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Posing rhetorical question about land use for building."
+    },
+    {
+      "sid": "s000090",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Elaborating on land use and local resource depletion."
+    },
+    {
+      "sid": "s000091",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Giving an example of water resource use."
+    },
+    {
+      "sid": "s000092",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Posing rhetorical question about local benefits from resource use."
+    },
+    {
+      "sid": "s000093",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining impact of heated water on ecosystems."
+    },
+    {
+      "sid": "s000094",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Listing energy use as a factor."
+    },
+    {
+      "sid": "s000095",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining energy use impacts: climate and energy justice."
+    },
+    {
+      "sid": "s000096",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Posing rhetorical question about energy justice and population benefit."
+    },
+    {
+      "sid": "s000097",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Posing a philosophical question about AI's utilitarian benefit."
+    },
+    {
+      "sid": "s000098",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Listing land use as a factor and its displacement impact."
+    },
+    {
+      "sid": "s000099",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining limited local job creation from AI facilities."
+    },
+    {
+      "sid": "s000100",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Posing rhetorical question about land use incentives and future generations."
+    },
+    {
+      "sid": "s000101",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Listing transparency as a required factor for companies."
+    },
+    {
+      "sid": "s000102",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor asks class if the high-level overview makes sense."
+    },
+    {
+      "sid": "s000103",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor explains different extreme opinions on AI's inevitability."
+    },
+    {
+      "sid": "s000104",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Continuing explanation of extreme opinion: anything hindering AI is a problem."
+    },
+    {
+      "sid": "s000105",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Continuing explanation of extreme opinion: reducing benefits."
+    },
+    {
+      "sid": "s000106",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining another perspective: science will solve all problems."
+    },
+    {
+      "sid": "s000107",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Giving a Futurama example for solving carbon emissions."
+    },
+    {
+      "sid": "s000108",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Continuing Futurama example, discussing potential solutions."
+    },
+    {
+      "sid": "s000109",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Summarizing the importance of considering problems and trade-offs."
+    },
+    {
+      "sid": "s000110",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Introducing the issue of massive reliance on raw materials."
+    },
+    {
+      "sid": "s000111",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Referring back to previous discussion on material concerns."
+    },
+    {
+      "sid": "s000112",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining increasing complexity of devices."
+    },
+    {
+      "sid": "s000113",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Providing historical data on elements used in phones."
+    },
+    {
+      "sid": "s000114",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Giving a simple example of early phone components."
+    },
+    {
+      "sid": "s000115",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Providing data on the increasing number of elements over time."
+    },
+    {
+      "sid": "s000116",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Providing a statistic on raw materials needed for a laptop."
+    },
+    {
+      "sid": "s000117",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining how extraction of specific minerals becomes a limiting factor."
+    },
+    {
+      "sid": "s000118",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Introducing a study on material criticality and geopolitical risk."
+    },
+    {
+      "sid": "s000119",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Introducing copper as an element and referencing a chart."
+    },
+    {
+      "sid": "s000120",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining the chart showing top copper producers."
+    },
+    {
+      "sid": "s000121",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Elaborating on copper production and mining locations."
+    },
+    {
+      "sid": "s000122",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Providing data on copper's recycling rate."
+    },
+    {
+      "sid": "s000123",
+      "role": 0.9,
+      "role_reason": "Explaining the need for innovation in copper recycling and e-waste reduction."
+    },
+    {
+      "sid": "s000124",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Discussing projected shortfall in copper supply."
+    },
+    {
+      "sid": "s000125",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Highlighting climate risk exposure as a major problem."
+    },
+    {
+      "sid": "s000126",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Providing statistic on mines in high water stress areas."
+    },
+    {
+      "sid": "s000127",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining the impact on clean and drinking water."
+    },
+    {
+      "sid": "s000128",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Introducing cobalt as another problematic mineral."
+    },
+    {
+      "sid": "s000129",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Providing location of cobalt mining (DRC)."
+    },
+    {
+      "sid": "s000130",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Discussing China's role in cobalt refining."
+    },
+    {
+      "sid": "s000131",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining geopolitical risk of concentrated mining in one country."
+    },
+    {
+      "sid": "s000132",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining impact on supply chain if connection is disrupted."
+    },
+    {
+      "sid": "s000133",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Introducing the topic of labor exploitation in cobalt refinement."
+    },
+    {
+      "sid": "s000134",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Introducing the Dodd-Frank Act regarding raw material sourcing."
+    },
+    {
+      "sid": "s000135",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Listing materials covered by the Dodd-Frank Act."
+    },
+    {
+      "sid": "s000136",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Providing examples of companies unable to verify supply chains."
+    },
+    {
+      "sid": "s000137",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Continuing explanation of conflict-free supply chains."
+    },
+    {
+      "sid": "s000138",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Highlighting that cobalt was not included in the act."
+    },
+    {
+      "sid": "s000139",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Providing statistic from Amnesty International on child labor in cobalt mining."
+    },
+    {
+      "sid": "s000140",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining Apple's pledge to treat cobalt as a conflict mineral."
+    },
+    {
+      "sid": "s000141",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Posing an ethical question about resource extraction from developing countries."
+    },
+    {
+      "sid": "s000142",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Elaborating on the ethical dilemma: exploitation vs. opportunity."
+    },
+    {
+      "sid": "s000143",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Introducing rare earth elements as another topic for consideration."
+    },
+    {
+      "sid": "s000144",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining the low recycling rate of rare earth elements."
+    },
+    {
+      "sid": "s000145",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Providing statistic on rare earth element recycling rate."
+    },
+    {
+      "sid": "s000146",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Discussing China's dominance in rare earth element findings."
+    },
+    {
+      "sid": "s000147",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Clarifying that rare earth elements are found globally."
+    },
+    {
+      "sid": "s000148",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Connecting rare earth elements to news and their material problem."
+    },
+    {
+      "sid": "s000149",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining that rare earth elements can contain radioactive elements."
+    },
+    {
+      "sid": "s000150",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining the dilemma of extracting valuable resources with contamination risk."
+    },
+    {
+      "sid": "s000151",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Posing an ethical question about healthy living vs. exploitation during extraction."
+    },
+    {
+      "sid": "s000152",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Summarizing the ethical question regarding extraction."
+    },
+    {
+      "sid": "s000153",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Clarifying the context of the ethical question."
+    },
+    {
+      "sid": "s000154",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor asks for thoughts, initiating a discussion."
+    },
+    {
+      "sid": "s000155",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor clarifies the topic for discussion: material side."
+    },
+    {
+      "sid": "s000156",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor asks a direct question about exploitation and child labor."
+    },
+    {
+      "sid": "s000157",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor continues the question about environmental disaster or alternative view."
+    },
+    {
+      "sid": "s000158",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor presents an opposing viewpoint for discussion."
+    },
+    {
+      "sid": "s000159",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor continues the opposing viewpoint about economic help."
+    },
+    {
+      "sid": "s000160",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor concludes the opposing viewpoint."
+    },
+    {
+      "sid": "s000161",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor reiterates the call for opinions."
+    },
+    {
+      "sid": "s000162",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor asks for ethical concerns about the topic."
+    },
+    {
+      "sid": "s000163",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor completes the question about ethical concerns."
+    },
+    {
+      "sid": "s000164",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor asks a specific question about Apple's child labor pledge."
+    },
+    {
+      "sid": "s000165",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor comments on Apple's policy within the discussion."
+    },
+    {
+      "sid": "s000166",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor continues the question about factors influencing consumer choice."
+    },
+    {
+      "sid": "s000167",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor asks for opinions on the 'right thing' to do."
+    },
+    {
+      "sid": "s000168",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor asks about company self-regulation and cross-cultural exploitation."
+    },
+    {
+      "sid": "s000169",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor explains the difficulty of making changes."
+    },
+    {
+      "sid": "s000170",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor asks for ways to affect change."
+    },
+    {
+      "sid": "s000171",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor responds to implied student answer about legislation."
+    },
+    {
+      "sid": "s000172",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student provides an answer about imposing rules on companies."
+    },
+    {
+      "sid": "s000173",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor elaborates on legislation, referencing Dodd Frank."
+    },
+    {
+      "sid": "s000174",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor affirms the point about legislation."
+    },
+    {
+      "sid": "s000175",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor asks about corporate social responsibility and balancing extraction."
+    },
+    {
+      "sid": "s000176",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor asks a follow-up question about balancing extraction."
+    },
+    {
+      "sid": "s000177",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor continues the question about balancing extraction."
+    },
+    {
+      "sid": "s000178",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor affirms student's point."
+    },
+    {
+      "sid": "s000179",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student gives opinion about companies using middlemen."
+    },
+    {
+      "sid": "s000180",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor affirms student's point."
+    },
+    {
+      "sid": "s000181",
+      "role": "qa",
+      "role_score": 0.8,
+      "role_reason": "Professor continues, potentially clarifying student's point."
+    },
+    {
+      "sid": "s000182",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student continues point about middleman exploitation."
+    },
+    {
+      "sid": "s000183",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor rephrases student's point about middleman."
+    },
+    {
+      "sid": "s000184",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor asks a question about corporate responsibility."
+    },
+    {
+      "sid": "s000185",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor clarifies they are not singling out a company."
+    },
+    {
+      "sid": "s000186",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor continues question about corporate responsibility."
+    },
+    {
+      "sid": "s000187",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor completes hypothetical statement."
+    },
+    {
+      "sid": "s000188",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor continues question about corporate responsibility for actions."
+    },
+    {
+      "sid": "s000189",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor connects to computer science concept of abstraction."
+    },
+    {
+      "sid": "s000190",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor states importance of abstraction."
+    },
+    {
+      "sid": "s000191",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor gives example of abstraction in programming."
+    },
+    {
+      "sid": "s000192",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor continues example of abstraction."
+    },
+    {
+      "sid": "s000193",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor makes a strong ethical point using abstraction metaphor."
+    },
+    {
+      "sid": "s000194",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor asks for agreement on the ethical point."
+    },
+    {
+      "sid": "s000195",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor states conclusion about needing to know what's happening."
+    },
+    {
+      "sid": "s000196",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor explicitly states opinion on abstraction as a solution."
+    },
+    {
+      "sid": "s000197",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Professor transitions to the next topic."
+    },
+    {
+      "sid": "s000198",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Introducing e-waste as the next topic related to material cost."
+    },
+    {
+      "sid": "s000199",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Providing statistic on e-waste export to Asia."
+    },
+    {
+      "sid": "s000200",
+      "role": "chitchat",
+      "role_score": 0.8,
+      "role_reason": "Professor shares a personal anecdote about travel."
+    },
+    {
+      "sid": "s000201",
+      "role": "chitchat",
+      "role_score": 0.8,
+      "role_reason": "Professor makes a personal comment about a country."
+    },
+    {
+      "sid": "s000202",
+      "role": "chitchat",
+      "role_score": 0.8,
+      "role_reason": "Professor continues personal anecdote about seeing e-waste."
+    },
+    {
+      "sid": "s000203",
+      "role": "chitchat",
+      "role_score": 0.8,
+      "role_reason": "Professor continues personal anecdote about seeing e-waste collection."
+    },
+    {
+      "sid": "s000204",
+      "role": "chitchat",
+      "role_score": 0.8,
+      "role_reason": "Professor continues personal anecdote, noting lack of origin knowledge."
+    },
+    {
+      "sid": "s000205",
+      "role": "chitchat",
+      "role_score": 0.8,
+      "role_reason": "Professor continues personal anecdote, not investigating further."
+    },
+    {
+      "sid": "s000206",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Connecting personal anecdote to the lecture topic of e-waste impact."
+    },
+    {
+      "sid": "s000207",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining environmental impact of e-waste (toxic elements)."
+    },
+    {
+      "sid": "s000208",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining issues with improper e-waste recycling."
+    },
+    {
+      "sid": "s000209",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Framing e-waste as an industry."
+    },
+    {
+      "sid": "s000210",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Posing an ethical question about e-waste as economic boost vs. exploitation."
+    },
+    {
+      "sid": "s000211",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor asks for class opinion on shipping e-waste."
+    },
+    {
+      "sid": "s000212",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Providing context about disparity between developed and developing nations."
+    },
+    {
+      "sid": "s000213",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Continuing ethical question about e-waste impact on developing countries."
+    },
+    {
+      "sid": "s000214",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Completing the question about e-waste impact on economic development."
+    },
+    {
+      "sid": "s000215",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Referencing a map to illustrate e-waste flow between nations."
+    },
+    {
+      "sid": "s000216",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Asking a question about the impact of disparity on equality."
+    },
+    {
+      "sid": "s000217",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor asks for class opinion."
+    },
+    {
+      "sid": "s000218",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student asks a clarifying question about country's decision to receive waste."
+    },
+    {
+      "sid": "s000219",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor responds with a complex ethical scenario about worker exploitation."
+    },
+    {
+      "sid": "s000220",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor continues the ethical question about using exploited labor."
+    },
+    {
+      "sid": "s000221",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor refers back to the 'middleman' concept in the context of government."
+    },
+    {
+      "sid": "s000222",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor affirms the point about government as middleman."
+    },
+    {
+      "sid": "s000223",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor gives a hypothetical scenario about a country accepting waste."
+    },
+    {
+      "sid": "s000224",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor continues the hypothetical about exploitation."
+    },
+    {
+      "sid": "s000225",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor asks about corporate responsibility in the hypothetical scenario."
+    },
+    {
+      "sid": "s000226",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor presents an alternative view on corporate responsibility."
+    },
+    {
+      "sid": "s000227",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor asks for class opinion."
+    },
+    {
+      "sid": "s000228",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student gives opinion on corporate responsibility due to size/wealth."
+    },
+    {
+      "sid": "s000229",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor agrees with student's point about affordability."
+    },
+    {
+      "sid": "s000230",
+      "role": "chitchat",
+      "role_score": 0.8,
+      "role_reason": "Professor shares a personal anecdote about laptop cost."
+    },
+    {
+      "sid": "s000231",
+      "role": "chitchat",
+      "role_score": 0.8,
+      "role_reason": "Professor asks for comments and makes a lighthearted personal remark."
+    },
+    {
+      "sid": "s000232",
+      "role": "chitchat",
+      "role_score": 0.8,
+      "role_reason": "Professor continues lighthearted comment about Apple product."
+    },
+    {
+      "sid": "s000233",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor introduces a participation check activity."
+    },
+    {
+      "sid": "s000234",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor asks the question for the participation check."
+    },
+    {
+      "sid": "s000235",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor presents option A for the participation check."
+    },
+    {
+      "sid": "s000236",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor presents reasoning for option A and introduces option B."
+    },
+    {
+      "sid": "s000237",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor presents reasoning for option B (job creation)."
+    },
+    {
+      "sid": "s000238",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor presents reasoning for option B (country's choice)."
+    },
+    {
+      "sid": "s000239",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor presents reasoning for option B (not our business)."
+    },
+    {
+      "sid": "s000240",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor presents option C (cannot decide)."
+    },
+    {
+      "sid": "s000241",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor asks for a show of hands for options A and B."
+    },
+    {
+      "sid": "s000242",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor asks for a show of hands for option C."
+    },
+    {
+      "sid": "s000243",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor asks a follow-up question to those who chose A."
+    },
+    {
+      "sid": "s000244",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor provides a personal anecdote as an analogy."
+    },
+    {
+      "sid": "s000245",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor continues the anecdote, expressing a dismissive attitude."
+    },
+    {
+      "sid": "s000246",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor connects anecdote to the question of over-regulation."
+    },
+    {
+      "sid": "s000247",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor reiterates the question 'Why is it not good?'"
+    },
+    {
+      "sid": "s000248",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student provides an answer, using the term 'neocolonization'."
+    },
+    {
+      "sid": "s000249",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor responds to the student's point."
+    },
+    {
+      "sid": "s000250",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student interjects a point about global responsibility."
+    },
+    {
+      "sid": "s000251",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student continues point about global responsibility."
+    },
+    {
+      "sid": "s000252",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor affirms student's point."
+    },
+    {
+      "sid": "s000253",
+      "role": "chitchat",
+      "role_score": 0.8,
+      "role_reason": "Professor makes a joke about moving to Mars."
+    },
+    {
+      "sid": "s000254",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor asks for the opposing viewpoint from group B."
+    },
+    {
+      "sid": "s000255",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor challenges group B with the 'neocolonialism' concept."
+    },
+    {
+      "sid": "s000256",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student begins to answer the challenge."
+    },
+    {
+      "sid": "s000257",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor completes or rephrases student's point about choice."
+    },
+    {
+      "sid": "s000258",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor agrees with the 'country's choice' argument."
+    },
+    {
+      "sid": "s000259",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student continues their point about making choices knowingly."
+    },
+    {
+      "sid": "s000260",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor completes student's thought, listing potential negative consequences."
+    },
+    {
+      "sid": "s000261",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor distinguishes the situation from traditional colonialism."
+    },
+    {
+      "sid": "s000262",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor reiterates the 'choice' argument."
+    },
+    {
+      "sid": "s000263",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor affirms student's point."
+    },
+    {
+      "sid": "s000264",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor acknowledges a student question."
+    },
+    {
+      "sid": "s000265",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student asks a clarifying question about guaranteed pollution."
+    },
+    {
+      "sid": "s000266",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor directly answers student's question about pollution."
+    },
+    {
+      "sid": "s000267",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor explains how pollution can be managed with proper measures."
+    },
+    {
+      "sid": "s000268",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor affirms the point about managing pollution."
+    },
+    {
+      "sid": "s000269",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor gives a local example of a disaster."
+    },
+    {
+      "sid": "s000270",
+      "role": "chitchat",
+      "role_score": 0.8,
+      "role_reason": "Professor shares a personal detail related to the disaster example."
+    },
+    {
+      "sid": "s000271",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor discusses remediation efforts and public opinion."
+    },
+    {
+      "sid": "s000272",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor asks rhetorical questions about sufficient remediation and cross-pollution."
+    },
+    {
+      "sid": "s000273",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor continues the disaster example with public concern."
+    },
+    {
+      "sid": "s000274",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor summarizes the discussion and mentions regulations."
+    },
+    {
+      "sid": "s000275",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor asks a question about countries' choices and regulations."
+    },
+    {
+      "sid": "s000276",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor suggests a nuanced approach to assessing exploitation."
+    },
+    {
+      "sid": "s000277",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor clarifies student's point about inherent badness."
+    },
+    {
+      "sid": "s000278",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor agrees that it depends on how waste is handled."
+    },
+    {
+      "sid": "s000279",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor affirms the point about handling."
+    },
+    {
+      "sid": "s000280",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor explains conditions under which waste handling could be good."
+    },
+    {
+      "sid": "s000281",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor affirms the point."
+    },
+    {
+      "sid": "s000282",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student gives an opinion, referencing China and a date."
+    },
+    {
+      "sid": "s000283",
+      "role": "qa",
+      "role_score": 0.8,
+      "role_reason": "Professor interjects, possibly for clarification."
+    },
+    {
+      "sid": "s000284",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student clarifies their previous statement."
+    },
+    {
+      "sid": "s000285",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student continues their point about public desire."
+    },
+    {
+      "sid": "s000286",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor interprets student's point about government not listening."
+    },
+    {
+      "sid": "s000287",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor continues interpretation of government stance."
+    },
+    {
+      "sid": "s000288",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student corrects professor's interpretation."
+    },
+    {
+      "sid": "s000289",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student clarifies about a new law from the Chinese government."
+    },
+    {
+      "sid": "s000290",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Part of ongoing explanation about government policy."
+    },
+    {
+      "sid": "s000291",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Providing dates as part of an explanation."
+    },
+    {
+      "sid": "s000292",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explaining government policy on environmental health."
+    },
+    {
+      "sid": "s000293",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explaining government policy changes for environmental protection."
+    },
+    {
+      "sid": "s000294",
+      "role": "chitchat",
+      "role_score": 0.9,
+      "role_reason": "Short affirmation."
+    },
+    {
+      "sid": "s000295",
+      "role": "chitchat",
+      "role_score": 0.9,
+      "role_reason": "Short affirmation and transition."
+    },
+    {
+      "sid": "s000296",
+      "role": "chitchat",
+      "role_score": 0.9,
+      "role_reason": "Short affirmation."
+    },
+    {
+      "sid": "s000297",
+      "role": "chitchat",
+      "role_score": 0.9,
+      "role_reason": "Transition phrase."
+    },
+    {
+      "sid": "s000298",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Introducing the concept of a circular economy."
+    },
+    {
+      "sid": "s000299",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Defining and explaining circular economy principles."
+    },
+    {
+      "sid": "s000300",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Providing an example for circular economy."
+    },
+    {
+      "sid": "s000301",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Listing examples and procedures for circularity."
+    },
+    {
+      "sid": "s000302",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explaining the significance of the circular economy."
+    },
+    {
+      "sid": "s000303",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "General statement about continuing efforts."
+    },
+    {
+      "sid": "s000304",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Providing reasoning for the importance of recycling."
+    },
+    {
+      "sid": "s000305",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Introducing a new topic: water use."
+    },
+    {
+      "sid": "s000306",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explaining a fact about water usage."
+    },
+    {
+      "sid": "s000307",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Detailing water use in semiconductor construction."
+    },
+    {
+      "sid": "s000308",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Introducing projections for AI water consumption."
+    },
+    {
+      "sid": "s000309",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Providing statistics on AI water use in the UK."
+    },
+    {
+      "sid": "s000310",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Providing statistics on AI water use in Denmark."
+    },
+    {
+      "sid": "s000311",
+      "role": "chitchat",
+      "role_score": 0.9,
+      "role_reason": "Lighthearted comment about the statistics."
+    },
+    {
+      "sid": "s000312",
+      "role": "chitchat",
+      "role_score": 0.9,
+      "role_reason": "Clarification of a previous statement."
+    },
+    {
+      "sid": "s000313",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Posing a rhetorical question to guide the lecture."
+    },
+    {
+      "sid": "s000314",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Posing a rhetorical question to address a misconception."
+    },
+    {
+      "sid": "s000315",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explaining the problem with salt water for semiconductors."
+    },
+    {
+      "sid": "s000316",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Stating the need for fresh water and its scarcity."
+    },
+    {
+      "sid": "s000317",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Continuing explanation of fresh water availability with a joke."
+    },
+    {
+      "sid": "s000318",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Posing an ethical dilemma about water allocation."
+    },
+    {
+      "sid": "s000319",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Reinforcing the ethical question about water scarcity."
+    },
+    {
+      "sid": "s000320",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Providing statistics to support the ethical dilemma."
+    },
+    {
+      "sid": "s000321",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Giving examples of water shortage solutions in different regions."
+    },
+    {
+      "sid": "s000322",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Posing a question to invite class discussion."
+    },
+    {
+      "sid": "s000323",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Framing an ethical argument for class discussion."
+    },
+    {
+      "sid": "s000324",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Presenting one side of an ethical argument."
+    },
+    {
+      "sid": "s000325",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Presenting the utilitarian side of an ethical argument."
+    },
+    {
+      "sid": "s000326",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Direct question to students, inviting answers."
+    },
+    {
+      "sid": "s000327",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Follow-up question to students, inviting answers."
+    },
+    {
+      "sid": "s000328",
+      "role": "chitchat",
+      "role_score": 0.8,
+      "role_reason": "Filler phrase."
+    },
+    {
+      "sid": "s000329",
+      "role": "chitchat",
+      "role_score": 0.8,
+      "role_reason": "Incomplete thought."
+    },
+    {
+      "sid": "s000330",
+      "role": "chitchat",
+      "role_score": 0.8,
+      "role_reason": "Incomplete thought."
+    },
+    {
+      "sid": "s000331",
+      "role": "chitchat",
+      "role_score": 0.9,
+      "role_reason": "Self-deprecating joke."
+    },
+    {
+      "sid": "s000332",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Returning to the ethical question."
+    },
+    {
+      "sid": "s000333",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Direct question to students about company responsibility."
+    },
+    {
+      "sid": "s000334",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Posing a hypothetical company's perspective."
+    },
+    {
+      "sid": "s000335",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Posing a hypothetical company's perspective."
+    },
+    {
+      "sid": "s000336",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Posing a hypothetical company's perspective."
+    },
+    {
+      "sid": "s000337",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Posing a hypothetical company's perspective."
+    },
+    {
+      "sid": "s000338",
+      "role": "chitchat",
+      "role_score": 0.9,
+      "role_reason": "Lighthearted comment to students."
+    },
+    {
+      "sid": "s000339",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Direct question to students, inviting answers."
+    },
+    {
+      "sid": "s000340",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Student's direct answer to the professor's question."
+    },
+    {
+      "sid": "s000341",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Student's direct answer to the professor's question."
+    },
+    {
+      "sid": "s000342",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Student's direct answer to the professor's question."
+    },
+    {
+      "sid": "s000343",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Student's direct answer to the professor's question."
+    },
+    {
+      "sid": "s000344",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Student's direct answer to the professor's question."
+    },
+    {
+      "sid": "s000345",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor's acknowledgment of student's answer."
+    },
+    {
+      "sid": "s000346",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Student's continued response to the discussion."
+    },
+    {
+      "sid": "s000347",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor's follow-up question to the student."
+    },
+    {
+      "sid": "s000348",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor's follow-up question to the student."
+    },
+    {
+      "sid": "s000349",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor posing a hypothetical company's argument."
+    },
+    {
+      "sid": "s000350",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor posing a hypothetical company's argument."
+    },
+    {
+      "sid": "s000351",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor posing a hypothetical company's argument."
+    },
+    {
+      "sid": "s000352",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor posing a hypothetical company's argument."
+    },
+    {
+      "sid": "s000353",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor's direct question to the student."
+    },
+    {
+      "sid": "s000354",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Student's direct answer to the professor's question."
+    },
+    {
+      "sid": "s000355",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Student's continued answer, drawing an analogy."
+    },
+    {
+      "sid": "s000356",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Student's continued answer, drawing an analogy."
+    },
+    {
+      "sid": "s000357",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Student's continued answer, drawing an analogy."
+    },
+    {
+      "sid": "s000358",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor's acknowledgment during QA."
+    },
+    {
+      "sid": "s000359",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Student's continued answer, drawing an analogy."
+    },
+    {
+      "sid": "s000360",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor's acknowledgment during QA."
+    },
+    {
+      "sid": "s000361",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Student's continued answer, posing a philosophical question."
+    },
+    {
+      "sid": "s000362",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Student's continued answer, providing reasoning."
+    },
+    {
+      "sid": "s000363",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor's acknowledgment during QA."
+    },
+    {
+      "sid": "s000364",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Student's summary of their point."
+    },
+    {
+      "sid": "s000365",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor's acknowledgment during QA."
+    },
+    {
+      "sid": "s000366",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Professor elaborates on student's point, connecting to ethics."
+    },
+    {
+      "sid": "s000367",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Naming a philosopher relevant to the ethical discussion."
+    },
+    {
+      "sid": "s000368",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explaining a philosophical argument about charity."
+    },
+    {
+      "sid": "s000369",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Continuing to explain a philosophical argument."
+    },
+    {
+      "sid": "s000370",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Continuing to explain a philosophical argument."
+    },
+    {
+      "sid": "s000371",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Continuing to explain a philosophical argument."
+    },
+    {
+      "sid": "s000372",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Introducing a counter-argument to the previous point."
+    },
+    {
+      "sid": "s000373",
+      "role": "chitchat",
+      "role_score": 0.8,
+      "role_reason": "Filler word."
+    },
+    {
+      "sid": "s000374",
+      "role": "chitchat",
+      "role_score": 0.9,
+      "role_reason": "Professor's personal comment."
+    },
+    {
+      "sid": "s000375",
+      "role": "chitchat",
+      "role_score": 1.0,
+      "role_reason": "Joke related to personal comment."
+    },
+    {
+      "sid": "s000376",
+      "role": "chitchat",
+      "role_score": 0.9,
+      "role_reason": "Professor's personal comment."
+    },
+    {
+      "sid": "s000377",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explaining a counter-argument regarding intellectual pursuits."
+    },
+    {
+      "sid": "s000378",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Providing an example for the counter-argument."
+    },
+    {
+      "sid": "s000379",
+      "role": "chitchat",
+      "role_score": 0.8,
+      "role_reason": "Filler word."
+    },
+    {
+      "sid": "s000380",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Summarizing the ethical dilemma."
+    },
+    {
+      "sid": "s000381",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explaining the purpose of the class discussion."
+    },
+    {
+      "sid": "s000382",
+      "role": "chitchat",
+      "role_score": 0.8,
+      "role_reason": "Filler word."
+    },
+    {
+      "sid": "s000383",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Student starting to make a point."
+    },
+    {
+      "sid": "s000384",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor interjecting during student's response."
+    },
+    {
+      "sid": "s000385",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Student continuing their point about economic incentive."
+    },
+    {
+      "sid": "s000386",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor's acknowledgment during QA."
+    },
+    {
+      "sid": "s000387",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Elaborating on student's point, posing a hypothetical ethical scenario."
+    },
+    {
+      "sid": "s000388",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Continuing the hypothetical scenario and ethical question."
+    },
+    {
+      "sid": "s000389",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Posing a direct question to students, inviting discussion."
+    },
+    {
+      "sid": "s000390",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Providing a concrete example and question for discussion."
+    },
+    {
+      "sid": "s000391",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Follow-up question about corporate ethics."
+    },
+    {
+      "sid": "s000392",
+      "role": "chitchat",
+      "role_score": 0.9,
+      "role_reason": "Disclaimer/aside."
+    },
+    {
+      "sid": "s000393",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explaining the concept of 'race to the bottom'."
+    },
+    {
+      "sid": "s000394",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Introducing a new sub-topic: data center energy consumption."
+    },
+    {
+      "sid": "s000395",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Providing a statistic on energy use for cooling."
+    },
+    {
+      "sid": "s000396",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Sharing an anecdote about GPU energy constraints at school."
+    },
+    {
+      "sid": "s000397",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Continuing the anecdote about GPU energy costs."
+    },
+    {
+      "sid": "s000398",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Providing statistics on data center energy consumption growth."
+    },
+    {
+      "sid": "s000399",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Giving an example of LLM training emissions."
+    },
+    {
+      "sid": "s000400",
+      "role": "chitchat",
+      "role_score": 0.9,
+      "role_reason": "Self-correction."
+    },
+    {
+      "sid": "s000401",
+      "role": "chitchat",
+      "role_score": 0.9,
+      "role_reason": "Self-correction."
+    },
+    {
+      "sid": "s000402",
+      "role": "chitchat",
+      "role_score": 0.9,
+      "role_reason": "Self-correction."
+    },
+    {
+      "sid": "s000403",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Introducing an example of AI tool usage."
+    },
+    {
+      "sid": "s000404",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Providing context for an estimate."
+    },
+    {
+      "sid": "s000405",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Comparing energy use between AI and traditional search."
+    },
+    {
+      "sid": "s000406",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Drawing a conclusion about search engine choice."
+    },
+    {
+      "sid": "s000407",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Posing a rhetorical question about quality."
+    },
+    {
+      "sid": "s000408",
+      "role": "chitchat",
+      "role_score": 0.9,
+      "role_reason": "Short acknowledgment."
+    },
+    {
+      "sid": "s000409",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Emphasizing the massive energy difference."
+    },
+    {
+      "sid": "s000410",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Listing examples of high energy consumption in computing."
+    },
+    {
+      "sid": "s000411",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Emphasizing the scale of energy consumption."
+    },
+    {
+      "sid": "s000412",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Connecting energy use to broader implications."
+    },
+    {
+      "sid": "s000413",
+      "role": "chitchat",
+      "role_score": 0.9,
+      "role_reason": "Transition phrase."
+    },
+    {
+      "sid": "s000414",
+      "role": "chitchat",
+      "role_score": 1.0,
+      "role_reason": "Meta-commentary on lecture pacing."
+    },
+    {
+      "sid": "s000415",
+      "role": "chitchat",
+      "role_score": 0.9,
+      "role_reason": "Transition phrase."
+    },
+    {
+      "sid": "s000416",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Introducing a new topic: Bitcoin."
+    },
+    {
+      "sid": "s000417",
+      "role": "chitchat",
+      "role_score": 0.9,
+      "role_reason": "Exclamatory interjection."
+    },
+    {
+      "sid": "s000418",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explaining a graph about Bitcoin energy."
+    },
+    {
+      "sid": "s000419",
+      "role": "chitchat",
+      "role_score": 1.0,
+      "role_reason": "Self-correction about a visual aid."
+    },
+    {
+      "sid": "s000420",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Clarifying units on a graph."
+    },
+    {
+      "sid": "s000421",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Direct question to students about Bitcoin energy spike."
+    },
+    {
+      "sid": "s000422",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Follow-up question to students about Bitcoin energy consumption."
+    },
+    {
+      "sid": "s000423",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor inviting student answer."
+    },
+    {
+      "sid": "s000424",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Student's direct answer to the question."
+    },
+    {
+      "sid": "s000425",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor repeating/confirming student's answer."
+    },
+    {
+      "sid": "s000426",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor confirming understanding of student's answer."
+    },
+    {
+      "sid": "s000427",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor starting to elaborate on the topic."
+    },
+    {
+      "sid": "s000428",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Professor clarifying the student's economic point."
+    },
+    {
+      "sid": "s000429",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor redirecting to the technical reason."
+    },
+    {
+      "sid": "s000430",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor rephrasing question for a technical answer."
+    },
+    {
+      "sid": "s000431",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor inviting student answer."
+    },
+    {
+      "sid": "s000432",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Student asking a clarifying question."
+    },
+    {
+      "sid": "s000433",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor starting to answer student's question."
+    },
+    {
+      "sid": "s000434",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Student starting to answer the question."
+    },
+    {
+      "sid": "s000435",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Student completing their answer about Bitcoin mining difficulty."
+    },
+    {
+      "sid": "s000436",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Student continuing their explanation."
+    },
+    {
+      "sid": "s000437",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor's acknowledgment during QA."
+    },
+    {
+      "sid": "s000438",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Professor elaborating on the technical reason for Bitcoin cost."
+    },
+    {
+      "sid": "s000439",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explaining the increasing computational requirements for Bitcoin mining."
+    },
+    {
+      "sid": "s000440",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Professor affirming the explanation."
+    },
+    {
+      "sid": "s000441",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor asking another student for their input."
+    },
+    {
+      "sid": "s000442",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Student's direct answer about encryption."
+    },
+    {
+      "sid": "s000443",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor elaborating on student's answer."
+    },
+    {
+      "sid": "s000444",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Student completing their thought about encryption."
+    },
+    {
+      "sid": "s000445",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor summarizing the point."
+    },
+    {
+      "sid": "s000446",
+      "role": "chitchat",
+      "role_score": 0.9,
+      "role_reason": "Transition phrase."
+    },
+    {
+      "sid": "s000447",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Introducing a new sub-topic: US energy consumption."
+    },
+    {
+      "sid": "s000448",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explaining a graph on energy sources over time."
+    },
+    {
+      "sid": "s000449",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Clarifying the date range of the data."
+    },
+    {
+      "sid": "s000450",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Interpreting trends in energy sources from a graph."
+    },
+    {
+      "sid": "s000451",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explaining trends in crude oil use due to data centers."
+    },
+    {
+      "sid": "s000452",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Continuing to interpret energy source trends."
+    },
+    {
+      "sid": "s000453",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Summarizing the growth of renewable energy."
+    },
+    {
+      "sid": "s000454",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Providing details on renewable energy sources and challenges."
+    },
+    {
+      "sid": "s000455",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Drawing a conclusion about scaling energy needs for AI."
+    },
+    {
+      "sid": "s000456",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Referring to additional statistics."
+    },
+    {
+      "sid": "s000457",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Instruction to students to review material."
+    },
+    {
+      "sid": "s000458",
+      "role": "chitchat",
+      "role_score": 0.8,
+      "role_reason": "Incomplete thought."
+    },
+    {
+      "sid": "s000459",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Describing the nature of the data being presented."
+    },
+    {
+      "sid": "s000460",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explaining the source and topic of the next projection."
+    },
+    {
+      "sid": "s000461",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Defining an acronym and introducing an estimate."
+    },
+    {
+      "sid": "s000462",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explaining a hypothetical scenario and projection for AI scaling."
+    },
+    {
+      "sid": "s000463",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Providing a specific projection for US electricity consumption by AI."
+    },
+    {
+      "sid": "s000464",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explaining the implications of massive AI scaling."
+    },
+    {
+      "sid": "s000465",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Providing reasoning about who can build such infrastructure."
+    },
+    {
+      "sid": "s000466",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Continuing reasoning about corporate involvement."
+    },
+    {
+      "sid": "s000467",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Expressing a concern about corporate control of electricity."
+    },
+    {
+      "sid": "s000468",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Inviting student input on the topic."
+    },
+    {
+      "sid": "s000469",
+      "role": "chitchat",
+      "role_score": 0.9,
+      "role_reason": "Reiterating the nature of the data."
+    },
+    {
+      "sid": "s000470",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Stating an opinion on the cost."
+    },
+    {
+      "sid": "s000471",
+      "role": "chitchat",
+      "role_score": 0.8,
+      "role_reason": "Incomplete thought."
+    },
+    {
+      "sid": "s000472",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Stating a conclusion about unsustainable trends."
+    },
+    {
+      "sid": "s000473",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Providing a historical analogy about processor power curves."
+    },
+    {
+      "sid": "s000474",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Clarifying the outcome of the analogy."
+    },
+    {
+      "sid": "s000475",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Drawing a conclusion about the need for innovation."
+    },
+    {
+      "sid": "s000476",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Introducing a new topic: supercomputers."
+    },
+    {
+      "sid": "s000477",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Identifying a specific supercomputer."
+    },
+    {
+      "sid": "s000478",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Providing specifications for a supercomputer."
+    },
+    {
+      "sid": "s000479",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explaining the significance of the compute power."
+    },
+    {
+      "sid": "s000480",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explaining limitations of the supercomputer's use."
+    },
+    {
+      "sid": "s000481",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Further explaining the capabilities and limitations."
+    },
+    {
+      "sid": "s000482",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Stating the high cost of the supercomputer."
+    },
+    {
+      "sid": "s000483",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Providing a cost conversion for power."
+    },
+    {
+      "sid": "s000484",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Drawing a conclusion about the value of computation."
+    },
+    {
+      "sid": "s000485",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Introducing another supercomputer example."
+    },
+    {
+      "sid": "s000486",
+      "role": "chitchat",
+      "role_score": 1.0,
+      "role_reason": "Lighthearted observation about the supercomputer's design."
+    },
+    {
+      "sid": "s000487",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Comparing performance of the second supercomputer."
+    },
+    {
+      "sid": "s000488",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Providing specifications and comparison of power use."
+    },
+    {
+      "sid": "s000489",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Highlighting the energy efficiency of the second supercomputer."
+    },
+    {
+      "sid": "s000490",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Assessing the progress in energy efficiency."
+    },
+    {
+      "sid": "s000491",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explaining the benefit of a 'green list' for supercomputers."
+    },
+    {
+      "sid": "s000492",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Introducing a new, relatable topic for comparison."
+    },
+    {
+      "sid": "s000493",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Revealing the topic: the human brain."
+    },
+    {
+      "sid": "s000494",
+      "role": "chitchat",
+      "role_score": 0.8,
+      "role_reason": "Incomplete thought."
+    },
+    {
+      "sid": "s000495",
+      "role": "chitchat",
+      "role_score": 0.9,
+      "role_reason": "Self-correction."
+    },
+    {
+      "sid": "s000496",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Providing a fact about the brain's power dissipation."
+    },
+    {
+      "sid": "s000497",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Acknowledging computer superiority in some tasks."
+    },
+    {
+      "sid": "s000498",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Highlighting the brain's energy efficiency advantage."
+    },
+    {
+      "sid": "s000499",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Emphasizing the brain's performance."
+    },
+    {
+      "sid": "s000500",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Providing examples of brain functions."
+    },
+    {
+      "sid": "s000501",
+      "role": "chitchat",
+      "role_score": 0.8,
+      "role_reason": "Filler word."
+    },
+    {
+      "sid": "s000502",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explaining the implication for neuromorphic hardware research."
+    },
+    {
+      "sid": "s000503",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Expressing personal support for neuromorphic hardware."
+    },
+    {
+      "sid": "s000504",
+      "role": "chitchat",
+      "role_score": 1.0,
+      "role_reason": "Starting a personal anecdote."
+    },
+    {
+      "sid": "s000505",
+      "role": "chitchat",
+      "role_score": 1.0,
+      "role_reason": "Continuing a personal anecdote."
+    },
+    {
+      "sid": "s000506",
+      "role": "chitchat",
+      "role_score": 1.0,
+      "role_reason": "Continuing a personal anecdote."
+    },
+    {
+      "sid": "s000507",
+      "role": "chitchat",
+      "role_score": 1.0,
+      "role_reason": "Continuing a personal anecdote."
+    },
+    {
+      "sid": "s000508",
+      "role": "chitchat",
+      "role_score": 1.0,
+      "role_reason": "Continuing anecdote, relating to brain research."
+    },
+    {
+      "sid": "s000509",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Providing a technical detail about perceptrons."
+    },
+    {
+      "sid": "s000510",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explaining a personal research area: storage efficiency."
+    },
+    {
+      "sid": "s000511",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Posing a research question about storage efficiency."
+    },
+    {
+      "sid": "s000512",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explaining the challenge of integrating compute and storage."
+    },
+    {
+      "sid": "s000513",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Summarizing hardware limitations."
+    },
+    {
+      "sid": "s000514",
+      "role": "chitchat",
+      "role_score": 1.0,
+      "role_reason": "Sarcastic comment about being a party guest."
+    },
+    {
+      "sid": "s000515",
+      "role": "chitchat",
+      "role_score": 1.0,
+      "role_reason": "Continuing a humorous anecdote about a party."
+    },
+    {
+      "sid": "s000516",
+      "role": "chitchat",
+      "role_score": 1.0,
+      "role_reason": "Concluding a humorous anecdote."
+    },
+    {
+      "sid": "s000517",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Returning to the main point about brain energy efficiency."
+    },
+    {
+      "sid": "s000518",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Introducing a new section: UN suggestions for action."
+    },
+    {
+      "sid": "s000519",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Inviting student feedback on the UN suggestions."
+    },
+    {
+      "sid": "s000520",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Presenting the first UN suggestion for AI environmental impact."
+    },
+    {
+      "sid": "s000521",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explaining the problem addressed by the suggestion: lack of transparency."
+    },
+    {
+      "sid": "s000522",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Elaborating on the lack of transparency in environmental costs."
+    },
+    {
+      "sid": "s000523",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Continuing the thought about environmental costs."
+    },
+    {
+      "sid": "s000524",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Presenting the second UN suggestion: disclosure regulations."
+    },
+    {
+      "sid": "s000525",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Providing context and challenges for environmental regulations."
+    },
+    {
+      "sid": "s000526",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Expressing a strong opinion on addressing environmental consequences."
+    },
+    {
+      "sid": "s000527",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Presenting the third UN suggestion: tech company efficiency."
+    },
+    {
+      "sid": "s000528",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Connecting back to a previous point about recycling."
+    },
+    {
+      "sid": "s000529",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Adding a nuance about ethical implementation of efficiency."
+    },
+    {
+      "sid": "s000530",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Presenting additional UN suggestions: green data centers and policy integration."
+    },
+    {
+      "sid": "s000531",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Direct question to students, inviting feedback."
+    },
+    {
+      "sid": "s000532",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Follow-up question about the effectiveness of suggestions."
+    },
+    {
+      "sid": "s000533",
+      "role": "chitchat",
+      "role_score": 1.0,
+      "role_reason": "Acknowledging complexity and deferring to another class."
+    },
+    {
+      "sid": "s000534",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Rephrasing the focus to policy possibilities."
+    },
+    {
+      "sid": "s000535",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Posing a question to students, inviting debate on policies."
+    },
+    {
+      "sid": "s000536",
+      "role": "chitchat",
+      "role_score": 1.0,
+      "role_reason": "Joke related to AI and personal preferences."
+    },
+    {
+      "sid": "s000537",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Direct question to students, inviting feedback."
+    },
+    {
+      "sid": "s000538",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Student's response, critiquing a suggestion."
+    },
+    {
+      "sid": "s000539",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Student's continued critique of a suggestion."
+    },
+    {
+      "sid": "s000540",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Student's continued critique of a suggestion."
+    },
+    {
+      "sid": "s000541",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor clarifying student's critique."
+    },
+    {
+      "sid": "s000542",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor sarcastically rephrasing a suggestion."
+    },
+    {
+      "sid": "s000543",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Professor explaining how a policy could be implemented."
+    },
+    {
+      "sid": "s000544",
+      "role": "chitchat",
+      "role_score": 0.8,
+      "role_reason": "Filler word."
+    },
+    {
+      "sid": "s000545",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Student's response about the nature of the actions."
+    },
+    {
+      "sid": "s000546",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor's acknowledgment during QA."
+    },
+    {
+      "sid": "s000547",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Student clarifying their point about reporting."
+    },
+    {
+      "sid": "s000548",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor's acknowledgment during QA."
+    },
+    {
+      "sid": "s000549",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor summarizing student's critique of self-reporting."
+    },
+    {
+      "sid": "s000550",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor's acknowledgment during QA."
+    },
+    {
+      "sid": "s000551",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Student summarizing their point about transparency."
+    },
+    {
+      "sid": "s000552",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor's acknowledgment during QA."
+    },
+    {
+      "sid": "s000553",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Professor explaining the rationale behind the suggestions."
+    },
+    {
+      "sid": "s000554",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Continuing to explain the rationale for exposing problems."
+    },
+    {
+      "sid": "s000555",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Expressing skepticism about the effectiveness of exposure."
+    },
+    {
+      "sid": "s000556",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Providing reasoning for skepticism about exposure."
+    },
+    {
+      "sid": "s000557",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Connecting to an ethical framework (utilitarianism)."
+    },
+    {
+      "sid": "s000558",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Student's response, agreeing it's a good first step."
+    },
+    {
+      "sid": "s000559",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor's acknowledgment during QA."
+    },
+    {
+      "sid": "s000560",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Student explaining reasoning for awareness."
+    },
+    {
+      "sid": "s000561",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor's acknowledgment during QA."
+    },
+    {
+      "sid": "s000562",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Student explaining potential positive outcomes of awareness."
+    },
+    {
+      "sid": "s000563",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Professor summarizing the discussion point."
+    },
+    {
+      "sid": "s000564",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Giving a practical, lighthearted suggestion to students."
+    },
+    {
+      "sid": "s000565",
+      "role": "chitchat",
+      "role_score": 0.9,
+      "role_reason": "Transition phrase."
+    },
+    {
+      "sid": "s000566",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Incomplete thought, likely referring to a slide."
+    },
+    {
+      "sid": "s000567",
+      "role": "chitchat",
+      "role_score": 0.9,
+      "role_reason": "Transition phrase."
+    },
+    {
+      "sid": "s000568",
+      "role": "announcement",
+      "role_score": 1.0,
+      "role_reason": "Announcing a new activity: a debate."
+    },
+    {
+      "sid": "s000569",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor asking for the debate topic."
+    },
+    {
+      "sid": "s000570",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Student answering the debate topic question."
+    },
+    {
+      "sid": "s000571",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Student repeating/confirming the debate topic."
+    },
+    {
+      "sid": "s000572",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor repeating/confirming the debate topic."
+    },
+    {
+      "sid": "s000573",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor asking for clarification on the debate topic."
+    },
+    {
+      "sid": "s000574",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor clarifying the specific debate scenario."
+    },
+    {
+      "sid": "s000575",
+      "role": "chitchat",
+      "role_score": 0.9,
+      "role_reason": "Short acknowledgment and transition."
+    },
+    {
+      "sid": "s000576",
+      "role": "announcement",
+      "role_score": 1.0,
+      "role_reason": "Instruction for starting the debate."
+    },
+    {
+      "sid": "s000577",
+      "role": "chitchat",
+      "role_score": 0.9,
+      "role_reason": "Apology."
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+# Graph Data Structures
+
+This lecture explores how graphs are stored in computer memory, focusing on two primary methods: **linked list representation** and **matrix representation**. The choice between these structures is crucial for algorithm analysis, impacting memory usage and the speed of operations like searching for edges, depending on the graph's characteristics.
+
+## Understanding Graph Representation
+
+The lecture discusses how to *represent* or *store* a graph using data structures. While many ways exist, there are two standard methods commonly used. The choice of representation is important when analyzing algorithms that operate on graphs.
+
+## Two Standard Graph Representations
+
+There are two well-known and standard data structures for representing a graph:
+
+1.  **Linked List Representation:**
+    *   In this method, every *vertex* in the graph is associated with its own **linked list**.
+    *   This representation is generally more *compact* in terms of memory usage. For example, if a graph represented by a 10x10 matrix would have 100 entries but only three *edges*, the linked list representation would only store information for those three edges, making it more efficient. The number of links stored is equal to the number of edges.
+    *   However, determining if an *edge* exists between two vertices using this representation could take *linear time*.
+
+2.  **Matrix Representation:**
+    *   This method represents a graph using a **matrix**.
+    *   The *rows* and *columns* of the matrix correspond to the *vertices* of the graph (e.g., A, B, C, D for rows and A, B, C, D, E for columns).
+    *   Each *entry* in the matrix is typically 0 or 1, indicating the presence or absence of an edge.
+    *   This representation is generally *less compact* than a linked list, especially for graphs with few edges, which can lead to inefficient use of memory.
+    *   However, searching for an edge in a matrix representation is very fast, allowing the answer to be known in *constant time*.
+
+## Choosing the Right Graph Representation
+
+The decision to use a linked list or matrix representation depends on the characteristics of the graph and the algorithm's requirements:
+
+*   **Memory Efficiency:** The **linked list representation** is more *compact* and uses memory more efficiently, especially for graphs that do *not have many edges* (sparse graphs).
+*   **Search Speed:** The **matrix representation** allows for very *fast searching* to determine if an edge exists between two vertices. The linked list representation, conversely, can take linear time for the same search.
+*   **Graph Density:**
+    *   If a graph is known to have **a lot of edges** (dense graphs), the **matrix representation** may be preferred.
+    *   If a graph is known to **not have many edges** (sparse graphs), the **linked list representation** may be preferred.
+
+When analyzing an algorithm, it is important to specify which representation is being used, as it impacts performance. For instance, certain algorithmic choices might lead to an N-squared complexity if not carefully considered in conjunction with the data structure.
+
+## Summary
+
+*   Graphs can be stored using different **data structures**, with **linked list** and **matrix** representations being two standard approaches.
+*   The **linked list representation** is memory-efficient for graphs with *few edges* but can be slower for checking edge existence.
+*   The **matrix representation** is less memory-efficient for sparse graphs but offers *very fast* edge existence checks.
+*   The choice of representation impacts algorithm performance and should be considered based on the graph's **density** (number of edges).
+*   Specifying the chosen representation is crucial when **analyzing algorithms** that operate on graphs.
+
+## Supplement: Key Terms
+
+*   A **graph** is a mathematical structure used to model pairwise relations between objects. It consists of *vertices* (also called nodes) and *edges* (also called links or lines) that connect pairs of vertices.
+*   A **data structure** is a particular way of organizing and storing data in a computer so that it can be accessed and modified efficiently.
+*   A **vertex** (plural: vertices) is a fundamental unit of a graph, often depicted as a point or node.
+*   An **edge** is a connection between two vertices in a graph.
+*   A **linked list** is a linear collection of data elements, called nodes, where each node points to the next.
+*   A **matrix** is a rectangular array of numbers, symbols, or expressions, arranged in rows and columns.

@@ -1,0 +1,377 @@
+{
+  "idx": 5,
+  "title": "AI's Energy Consumption and Efficiency",
+  "count": 46,
+  "sids": [
+    "s000054",
+    "s000055",
+    "s000056",
+    "s000094",
+    "s000095",
+    "s000394",
+    "s000395",
+    "s000396",
+    "s000397",
+    "s000398",
+    "s000399",
+    "s000403",
+    "s000405",
+    "s000406",
+    "s000409",
+    "s000410",
+    "s000416",
+    "s000418",
+    "s000420",
+    "s000438",
+    "s000439",
+    "s000447",
+    "s000451",
+    "s000455",
+    "s000462",
+    "s000463",
+    "s000472",
+    "s000473",
+    "s000475",
+    "s000476",
+    "s000478",
+    "s000487",
+    "s000488",
+    "s000489",
+    "s000490",
+    "s000491",
+    "s000493",
+    "s000496",
+    "s000498",
+    "s000502",
+    "s000503",
+    "s000509",
+    "s000510",
+    "s000511",
+    "s000512",
+    "s000517"
+  ],
+  "evidences": [
+    {
+      "sid": "s000054",
+      "text": "One thing is physical compute scaling.",
+      "start": 213870,
+      "end": 216270,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000055",
+      "text": "There's a need for the hardware, particularly data centers, to become more powerful.",
+      "start": 216510,
+      "end": 222430,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000056",
+      "text": "But also as we'll talk about more energy efficient.",
+      "start": 222430,
+      "end": 224670,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000094",
+      "text": "Energy climate, sorry, the energy use.",
+      "start": 429700,
+      "end": 431940,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000095",
+      "text": "So not only climate impact and CO2 emissions, but also energy justice.",
+      "start": 432340,
+      "end": 438230,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000394",
+      "text": "So in terms of energy consumption by a data center and water usage, there's a tremendous amount that's used for cooling.",
+      "start": 2007780,
+      "end": 2014340,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000395",
+      "text": "Like 50% of the energy just goes towards cooling and taking care of these things.",
+      "start": 2014340,
+      "end": 2019860,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000396",
+      "text": "We were just talking with the dean about how do we get, get more GPUs into the school of engineering, and we can't even get them into our building because of the problems with the energy system.",
+      "start": 2019860,
+      "end": 2029270,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000397",
+      "text": "And the school is like, well, if you want more GPUs, you're going to have to start paying for your own electricity.",
+      "start": 2030470,
+      "end": 2034630,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000398",
+      "text": "Energy use: massive amounts in terms of the requirements for data centers, consumption has been doubling every four years.",
+      "start": 2036950,
+      "end": 2044790,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000399",
+      "text": "The amount of emissions for training a single LLM was around 300,000 kilograms of carbon, which is like traveling 125 round trip flights from here to Beijing.",
+      "start": 2047030,
+      "end": 2057640,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000403",
+      "text": "If you were to use something like chat GPT.",
+      "start": 2064040,
+      "end": 2066240,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000405",
+      "text": "They found that the amount of energy versus just Google search is about a 10x difference.",
+      "start": 2068200,
+      "end": 2073580,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000406",
+      "text": "So it does matter which search you use.",
+      "start": 2075010,
+      "end": 2077410,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000409",
+      "text": "But the amount of energy is a massive difference in terms of the amount your computer uses overall.",
+      "start": 2079890,
+      "end": 2089090,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000410",
+      "text": "In terms of the amount of gpu, all the physics engines, all the amount of processing for active gaming.",
+      "start": 2090130,
+      "end": 2096770,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000416",
+      "text": "You know what, let's talk about Bitcoin.",
+      "start": 2111740,
+      "end": 2113260,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000418",
+      "text": "This is the amount attributed to Bitcoin overall in terms of energy.",
+      "start": 2115580,
+      "end": 2119580,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000420",
+      "text": "But this is energy consumption in joules.",
+      "start": 2122100,
+      "end": 2123900,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000438",
+      "text": "The accumulated cost becomes harder and harder to mine out.",
+      "start": 2169950,
+      "end": 2172070,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000439",
+      "text": "That next one requires larger and larger data centers to find that particular Bitcoin, solve those particular problems.",
+      "start": 2172070,
+      "end": 2177720,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000447",
+      "text": "In terms of U.S. energy consumption.",
+      "start": 2198280,
+      "end": 2200760,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000451",
+      "text": "This Crude oil has unfortunately kind of jumped up in recent times because of some of the need for data center use.",
+      "start": 2226080,
+      "end": 2234610,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000455",
+      "text": "So somehow if we're going to be able to scale up the energy needs that we're quadrupling in terms of AI, we need to find better resources that we can actually make use of.",
+      "start": 2260180,
+      "end": 2270020,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000462",
+      "text": "So if we started with GPT4, and this is already old, if we started with GPT4 and we increased by an order of magnitude magnitude in terms of performance, his projection was if we could go up by one order of magnitude every two years, what would we need in terms of server hardware cost and power?",
+      "start": 2298230,
+      "end": 2314400,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000463",
+      "text": "And he was at the point where he was estimating that by 2030 we would need around 20% of the US electricity production to do something that massive.",
+      "start": 2315040,
+      "end": 2324480,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000472",
+      "text": "But this trend can't continue.",
+      "start": 2356640,
+      "end": 2358080,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000473",
+      "text": "Back when we were looking at processor design, there was a speculation as if we continued the power curve, we would reach the point of a nuclear reactor in terms of power dissipated on a chip.",
+      "start": 2360720,
+      "end": 2370240,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000475",
+      "text": "But the idea of looking at the curve and how things are scaling just shows that some innovation is required.",
+      "start": 2371600,
+      "end": 2376640,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000476",
+      "text": "So when we look at supercomputer, these are two different supercomputers.",
+      "start": 2377920,
+      "end": 2383290,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000478",
+      "text": "It has 1.7 exaflops and uses 4 megawatts of power.",
+      "start": 2385850,
+      "end": 2390730,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000487",
+      "text": "Of course, this thing is much less, orders of magnitude less in terms of its performance.",
+      "start": 2424950,
+      "end": 2431750,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000488",
+      "text": "It's in petaflops instead of exaflops, but it only uses 67 kilowatts.",
+      "start": 2431750,
+      "end": 2436320,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000489",
+      "text": "And so when you look at the gigaflops per watt, it is much more energy efficient.",
+      "start": 2436480,
+      "end": 2441200,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000490",
+      "text": "Not nearly what we want yet, but it's getting there.",
+      "start": 2441200,
+      "end": 2444800,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000491",
+      "text": "And so having a green list of supercomputers is a huge benefit for us in trying to be able to improve the energy efficiency.",
+      "start": 2444880,
+      "end": 2453920,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000493",
+      "text": "That is a brain.",
+      "start": 2459130,
+      "end": 2459930,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000496",
+      "text": "It has 20 watts of power dissipation, right?",
+      "start": 2467450,
+      "end": 2471770,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000498",
+      "text": "But in terms of energy efficiency, we completely dominate facial recognition.",
+      "start": 2477050,
+      "end": 2484330,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000502",
+      "text": "All of that in terms of what our brain can do for the amount of power that it's given, is why we really have to focus on micing neuromorphic heart rate.",
+      "start": 2492160,
+      "end": 2501960,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000503",
+      "text": "I'm really a big fan and proponent of that.",
+      "start": 2501960,
+      "end": 2504080,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000509",
+      "text": "We've got perceptrons down to figure out association.",
+      "start": 2523990,
+      "end": 2527270,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000510",
+      "text": "But in terms of actual storage, this is an area I research myself, is doing storage for microprocessor design high.",
+      "start": 2527750,
+      "end": 2535850,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000511",
+      "text": "How can we get the same efficiency of storage as what we have with compute?",
+      "start": 2535920,
+      "end": 2539600,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000512",
+      "text": "Because compute and storage are kind of together in the brain and we don't do that well in our hardware.",
+      "start": 2539600,
+      "end": 2544080,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000517",
+      "text": "So the brain is the key thing that we are all kind of targeting in terms of energy efficiency and what we can do.",
+      "start": 2565010,
+      "end": 2573370,
+      "role": "lecture"
+    }
+  ]
+}

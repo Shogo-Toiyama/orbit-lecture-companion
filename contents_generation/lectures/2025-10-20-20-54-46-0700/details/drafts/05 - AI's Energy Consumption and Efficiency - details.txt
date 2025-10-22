@@ -1,0 +1,31 @@
+# AI's Energy Consumption and Efficiency
+
+AI's rapid growth demands increasingly powerful hardware, leading to massive energy consumption with significant environmental and societal impacts. Addressing this challenge requires a critical focus on improving energy efficiency in data centers and AI systems, drawing inspiration from highly efficient biological systems like the human brain.
+
+## The Growing Energy Demands of AI
+The scaling of physical compute, particularly in data centers, necessitates hardware that is not only more powerful but also significantly *more energy efficient*. Energy consumption by data centers is massive, with requirements doubling every four years. This escalating demand has even led to an increase in crude oil use for U.S. energy consumption.
+
+## Environmental and Societal Impacts
+The extensive energy use by AI systems has substantial environmental consequences, including a significant *climate impact* and increased *CO2 emissions*. Beyond environmental concerns, it also raises issues of *energy justice*. For instance, training a single Large Language Model (LLM) can generate around 300,000 kilograms of carbon, which is comparable to 125 round-trip flights from here to Beijing.
+
+## Specifics of Data Center Consumption
+A considerable portion of energy in data centers, approximately *50%*, is dedicated to cooling the hardware and managing water usage. The sheer energy requirements can pose practical limitations; for example, a school faced challenges in installing more GPUs due to existing energy system problems and the associated electricity costs, with the school suggesting departments pay for their own electricity.
+
+## Energy Use in AI Applications
+The choice of AI application can dramatically affect energy consumption. Using a tool like ChatGPT, for instance, requires about *10 times more energy* than a standard Google search. This highlights that the specific AI service utilized makes a substantial difference in overall energy footprint. The amount of energy is a massive difference in terms of the amount your computer uses overall.
+
+## Unsustainable Growth and Future Projections
+The current trend of increasing energy consumption for AI is unsustainable. Projections suggest that if AI performance, like that of GPT-4, were to increase by an order of magnitude every two years, by 2030 it could demand approximately *20% of the entire U.S. electricity production*. This trajectory indicates that significant innovation is urgently required to prevent reaching critical limits, similar to past concerns about processor power curves potentially requiring nuclear reactor-level power dissipation on a single chip. AI energy needs are quadrupling, requiring better resources.
+
+## Progress in Energy Efficiency: Supercomputers
+Efforts are underway to improve energy efficiency in high-performance computing. When comparing supercomputers, some achieve high performance (e.g., 1.7 exaflops) but use substantial power (4 megawatts). However, other designs, while perhaps lower in raw performance (e.g., petaflops), demonstrate *much greater energy efficiency* when measured in gigaflops per watt, using significantly less power (e.g., 67 kilowatts). Initiatives like a "green list of supercomputers" are beneficial for driving these improvements.
+
+## Inspiration from Biological Systems: The Brain
+The human brain serves as a crucial inspiration for future energy-efficient AI. A brain, for example, operates with only about *20 watts of power dissipation* while demonstrating superior energy efficiency in complex tasks like facial recognition. The goal is to develop *neuromorphic hardware* that mimics the brain's ability to integrate compute and storage efficiently, an area where current hardware lags. The brain's remarkable efficiency is a key target for advancing AI's energy performance.
+
+## Summary
+*   AI's increasing computational demands lead to massive and rapidly growing energy consumption, primarily in data centers.
+*   This energy use contributes significantly to *CO2 emissions*, *climate impact*, and raises concerns about *energy justice*.
+*   A large portion of data center energy, around 50%, is consumed by cooling systems.
+*   Current trends are unsustainable, with projections indicating AI could demand a substantial percentage of national electricity production in the near future.
+*   Innovation in hardware design, including *neuromorphic hardware* inspired by the human brain's exceptional energy efficiency, is critical for sustainable AI scaling.

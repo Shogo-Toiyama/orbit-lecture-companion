@@ -1,0 +1,209 @@
+{
+  "idx": 5,
+  "title": "Graph Data Structures",
+  "count": 25,
+  "sids": [
+    "s000180",
+    "s000181",
+    "s000182",
+    "s000495",
+    "s000496",
+    "s000502",
+    "s000503",
+    "s000504",
+    "s000506",
+    "s000524",
+    "s000528",
+    "s000529",
+    "s000530",
+    "s000538",
+    "s000539",
+    "s000541",
+    "s000542",
+    "s000545",
+    "s000548",
+    "s000549",
+    "s000551",
+    "s000552",
+    "s000555",
+    "s000778",
+    "s000786"
+  ],
+  "evidences": [
+    {
+      "sid": "s000180",
+      "text": "I'm going to talk about how to represent a graph.",
+      "start": 1109140,
+      "end": 1113860,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000181",
+      "text": "What is a data structure?",
+      "start": 1114180,
+      "end": 1115740,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000182",
+      "text": "And there are two well-known data structures for representing a graph.",
+      "start": 1115740,
+      "end": 1119860,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000495",
+      "text": "Okay, now what we need to do is to understand or agree.",
+      "start": 2908650,
+      "end": 2916170,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000496",
+      "text": "How a graph is stored.",
+      "start": 2916370,
+      "end": 2918290,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000502",
+      "text": "There are two ways.",
+      "start": 2946980,
+      "end": 2948420,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000503",
+      "text": "There are many ways, but there are two standard ways to represent a graph.",
+      "start": 2948420,
+      "end": 2953140,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000504",
+      "text": "One is a linkless representation.",
+      "start": 2957220,
+      "end": 2960260,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000506",
+      "text": "So every vertex is going to have a linked list of its own.",
+      "start": 2968830,
+      "end": 2973550,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000524",
+      "text": "This is the linked list representation, right?",
+      "start": 3069100,
+      "end": 3074790,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000528",
+      "text": "Another way to represent a graph defined by a matrix.",
+      "start": 3088470,
+      "end": 3092310,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000529",
+      "text": "You have A, B, C, D tangent rows of the matrix A, B, C, D, E is going to be columns of the matrix.",
+      "start": 3092710,
+      "end": 3104040,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000530",
+      "text": "Each entry is going to be 0 or 1.",
+      "start": 3104600,
+      "end": 3108280,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000538",
+      "text": "Okay, so when you are analyzing your algorithm, you want to say I'm using a linked Lister representation or I'm using a matrix representation.",
+      "start": 3164730,
+      "end": 3177460,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000539",
+      "text": "Generally a linked list representation is a lot more compact because suppose you have 10 by 10 matrix hundred entries and you have only three edges.",
+      "start": 3180020,
+      "end": 3196100,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000541",
+      "text": "That's a lot of inefficient use of memory.",
+      "start": 3201790,
+      "end": 3205390,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000542",
+      "text": "Whereas here the number of nick you put is equal to the number of edges, so about three of them.",
+      "start": 3206030,
+      "end": 3211950,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000545",
+      "text": "I go to that entry and in constant time I know the answer.",
+      "start": 3222470,
+      "end": 3227120,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000548",
+      "text": "So it could take linear time to know if an edge exists.",
+      "start": 3238880,
+      "end": 3242880,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000549",
+      "text": "So more compact, slow searching for an edge, less compact, very fast search.",
+      "start": 3243680,
+      "end": 3252140,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000551",
+      "text": "If your graph is known to have a lot of edges, you may want to use this structure.",
+      "start": 3258300,
+      "end": 3264700,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000552",
+      "text": "If your graph is known not to have many edges, you may want to use this structure.",
+      "start": 3265100,
+      "end": 3270620,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000555",
+      "text": "So Again, these two are referred to as matrix representation or linked list representation of a graph.",
+      "start": 3287670,
+      "end": 3294790,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000778",
+      "text": "That's why we had to go initially and put sources in a separate structure, like an array.",
+      "start": 4690020,
+      "end": 4695950,
+      "role": "qa"
+    },
+    {
+      "sid": "s000786",
+      "text": "If I do that, then the algorithm becomes N squared and I'm not going to worry about where I'm going to store everything for every part of the algorithm.",
+      "start": 4733719,
+      "end": 4746130,
+      "role": "lecture"
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "idx": 1,
+  "title": "Graph Basics & Representation",
+  "count": 14,
+  "sids": [
+    "s000077",
+    "s000078",
+    "s000079",
+    "s000080",
+    "s000084",
+    "s000085",
+    "s000087",
+    "s000088",
+    "s000095",
+    "s000096",
+    "s000100",
+    "s000184",
+    "s000185",
+    "s000191"
+  ],
+  "evidences": [
+    {
+      "sid": "s000077",
+      "text": "It's our analytical thinking. So today I'm going to talk about what is known as graphs.",
+      "start": 416960,
+      "end": 429920,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000078",
+      "text": "A graph has a set of vertices usually represented by a little circle.",
+      "start": 430960,
+      "end": 441530,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000079",
+      "text": "And it has what is known as edges.",
+      "start": 442650,
+      "end": 447450,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000080",
+      "text": "So this graph here has three vertices and two edges.",
+      "start": 452170,
+      "end": 457130,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000084",
+      "text": "So a graph like this is denoted usually by G as graphic graph.",
+      "start": 482980,
+      "end": 490590,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000085",
+      "text": "And we say that's equal to a set of vertices.",
+      "start": 491470,
+      "end": 494830,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000087",
+      "text": "So the set V in this example is 1, 2, 3 and it has the same set of edges.",
+      "start": 504590,
+      "end": 517410,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000088",
+      "text": "Each edge is a pair of vertices.",
+      "start": 518610,
+      "end": 521570,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000095",
+      "text": "Or I can write this equation to represent the graph.",
+      "start": 559820,
+      "end": 564140,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000096",
+      "text": "Any of these representations should give you complete information about what the graph is.",
+      "start": 564380,
+      "end": 570100,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000100",
+      "text": "I usually just do this because it's much easier to communicate a picture than a paragraph in English or a description of this type typically.",
+      "start": 577060,
+      "end": 589060,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000184",
+      "text": "We'll also talk about how many edges a graph could have.",
+      "start": 1122020,
+      "end": 1126500,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000185",
+      "text": "How dense can it be?",
+      "start": 1126500,
+      "end": 1128100,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000191",
+      "text": "And the other extreme, you have graphs with lots of edges.",
+      "start": 1152250,
+      "end": 1155610,
+      "role": "lecture"
+    }
+  ]
+}
