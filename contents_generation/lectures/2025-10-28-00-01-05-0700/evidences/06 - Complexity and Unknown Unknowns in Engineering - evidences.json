@@ -1,0 +1,361 @@
+{
+  "idx": 6,
+  "title": "Complexity and Unknown Unknowns in Engineering",
+  "count": 44,
+  "sids": [
+    "s000505",
+    "s000506",
+    "s000507",
+    "s000508",
+    "s000509",
+    "s000510",
+    "s000511",
+    "s000512",
+    "s000513",
+    "s000514",
+    "s000516",
+    "s000517",
+    "s000518",
+    "s000520",
+    "s000521",
+    "s000522",
+    "s000523",
+    "s000524",
+    "s000525",
+    "s000528",
+    "s000529",
+    "s000530",
+    "s000531",
+    "s000532",
+    "s000533",
+    "s000534",
+    "s000536",
+    "s000537",
+    "s000538",
+    "s000539",
+    "s000540",
+    "s000542",
+    "s000543",
+    "s000544",
+    "s000857",
+    "s000858",
+    "s000927",
+    "s000929",
+    "s000930",
+    "s000940",
+    "s000941",
+    "s000942",
+    "s000943",
+    "s000944"
+  ],
+  "evidences": [
+    {
+      "sid": "s000505",
+      "text": "We talked before about the difference between the time something is developed and the amount of control you have over it.",
+      "start": 2118970,
+      "end": 2124650,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000506",
+      "text": "This is the amount of certainty that you have over something and the amount of agreement, the amount of comparison complexity that goes into a design can lead to you having tremendous amounts of agreement on how to design it and tremendous amounts of certainty on whether it works.",
+      "start": 2124650,
+      "end": 2138360,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000507",
+      "text": "But as things get further and further apart, whether it's a lot of decision making that goes into the company that creates less agreement, or it's difficult decisions that have to be done, trying to figure out how something works that you haven't fully tested that gets into more and more or less and less certainty can lead to complete chaos.",
+      "start": 2138680,
+      "end": 2158700,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000508",
+      "text": "Okay, so let's move on to one of the big things in terms of these designs is just overall complexity of the system.",
+      "start": 2163020,
+      "end": 2176340,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000509",
+      "text": "Not in the case something like the Orbital system where it was just a mismatch of measurements.",
+      "start": 2176340,
+      "end": 2181280,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000510",
+      "text": "But as systems get more and more complex and it gets more and more difficult to understand, this is the problem we're running into with AI.",
+      "start": 2181750,
+      "end": 2189030,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000511",
+      "text": "The problem is that it's not just complex software, it's a complex mathematical model that we have really no good way of debugging like we did software.",
+      "start": 2189270,
+      "end": 2197830,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000512",
+      "text": "And so these kinds of things, because of the difficulty dealing with it, I would argue would become an ethical.",
+      "start": 2198070,
+      "end": 2205030,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000513",
+      "text": "We don't fully understand and we put it out there to market.",
+      "start": 2207190,
+      "end": 2209430,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000514",
+      "text": "Is that an ethical problem?",
+      "start": 2209670,
+      "end": 2211030,
+      "role": "qa"
+    },
+    {
+      "sid": "s000516",
+      "text": "At that point it might rise to the level of an ethical issue.",
+      "start": 2215750,
+      "end": 2218630,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000517",
+      "text": "Not doing the unit testing questionable, but not even understanding the product enough to be able to propose unit tests or have something that's reasonable or have a reasonable model.",
+      "start": 2219110,
+      "end": 2227870,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000518",
+      "text": "I think rises that level of ethical concern.",
+      "start": 2227870,
+      "end": 2231030,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000520",
+      "text": "Has anyone heard of the philosophy of Software design by John Osterhau?",
+      "start": 2236400,
+      "end": 2240160,
+      "role": "qa"
+    },
+    {
+      "sid": "s000521",
+      "text": "So John Oesterhow tried to create a canonization of complexity, and basically the idea was he felt there were known knowns.",
+      "start": 2241440,
+      "end": 2254080,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000522",
+      "text": "That means we know the requirements, we know the facts, and we know how to solve it.",
+      "start": 2254320,
+      "end": 2259450,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000523",
+      "text": "This is not a risk because it's a known quantity and we know how to fix it.",
+      "start": 2259850,
+      "end": 2264130,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000524",
+      "text": "Maybe it's going to take time to implement it or engineer it, but it is not a particular risk.",
+      "start": 2264130,
+      "end": 2268650,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000525",
+      "text": "And you would manage that as part of a regular project management.",
+      "start": 2268810,
+      "end": 2271850,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000528",
+      "text": "So then you have known unknowns.",
+      "start": 2280410,
+      "end": 2282810,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000529",
+      "text": "These are classical risks that no are present.",
+      "start": 2283050,
+      "end": 2285450,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000530",
+      "text": "And you know, you kind of say, well, I think I understand how this risk works.",
+      "start": 2286240,
+      "end": 2291200,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000531",
+      "text": "Maybe we don't know how to solve it, but I understand Enough, how to manage it, how to keep an eye on it, how to be able to deal with something if it goes wrong.",
+      "start": 2291200,
+      "end": 2298880,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000532",
+      "text": "Hacker attack.",
+      "start": 2300160,
+      "end": 2300960,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000533",
+      "text": "Things where you're looking at, you know, I know there's a risk beyond the firewall of a particular part of my system, and I'll keep an eye on unknown knowledge.",
+      "start": 2301520,
+      "end": 2312410,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000534",
+      "text": "This is something where you don't know there's a problem, but you would know how to solve it if you knew.",
+      "start": 2312890,
+      "end": 2316570,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000536",
+      "text": "And then the worst, in Osterhaupt's opinion, is an unknown unknown.",
+      "start": 2320490,
+      "end": 2324090,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000537",
+      "text": "You don't know anything about it, you don't know that it's there and you don't know how to solve it.",
+      "start": 2324570,
+      "end": 2328810,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000538",
+      "text": "The problem is when we have more and more of the unknown unknowns, not fully understanding and modeling a system, not fully understanding we're doing with it or how to solve it.",
+      "start": 2329610,
+      "end": 2338280,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000539",
+      "text": "But I think we get more into ethical considerations as to why we're releasing the product.",
+      "start": 2338280,
+      "end": 2342320,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000540",
+      "text": "So complexity comes when we have things that have multiple dependencies, can't understand it, and modify it in isolation on its own, and when something is obscure, when important information is not clear and obvious.",
+      "start": 2348960,
+      "end": 2362400,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000542",
+      "text": "Software engineering classes will be a good way to kind of sharpen this.",
+      "start": 2371930,
+      "end": 2374570,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000543",
+      "text": "But the basic idea is incremental complexity is one way of trying to deal with it and try and keep your.",
+      "start": 2374570,
+      "end": 2384090,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000544",
+      "text": "If you're focused on just getting something working and just keep pushing and pushing and pushing, it might be worse than strategic programming where you're trying instead to focus on the design that's good, that's going to be able to last a longer time and avoid unnecessary complexity.",
+      "start": 2385370,
+      "end": 2403060,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000857",
+      "text": "Because you're dealing with technology where one small bug can matriculate and doing that kind of tactical programming where you're jumping in, fixing something and moving on to the next problem.",
+      "start": 3602400,
+      "end": 3616880,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000858",
+      "text": "As you're creating things quickly can lead to more complex, which leads to more bugs.",
+      "start": 3617280,
+      "end": 3621310,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000927",
+      "text": "I think the problem we have with machine learning AI is we want to move fast but without a means of understanding the decisions that are being made and understanding like how do we read a neural network and actually understand what those weights mean.",
+      "start": 3977510,
+      "end": 3993320,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000929",
+      "text": "No, I mean doing that in software engineering would be crazy.",
+      "start": 3994880,
+      "end": 3999040,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000930",
+      "text": "But it's commonplace now.",
+      "start": 3999200,
+      "end": 4000880,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000940",
+      "text": "But before we put branch prediction in, we did tests on it, on profiles to understand how traditional branches work.",
+      "start": 4023970,
+      "end": 4030120,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000941",
+      "text": "We also went through and we tried to make sure that we had a recovery path so we could flush the pipeline, restart the correctly that we don't miss.",
+      "start": 4030910,
+      "end": 4038190,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000942",
+      "text": "And yet there are problems like the meltdown inspector problem, right where we do branch prediction and we end up releasing data that we didn't mean to do on a non speculative path that's actually secure data that you can get now through side channel attacks or other media.",
+      "start": 4039390,
+      "end": 4053790,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000943",
+      "text": "So that would be an unknown.",
+      "start": 4054510,
+      "end": 4056040,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000944",
+      "text": "But I feel like they did a reasonable job at solidifying the architecture without those kinds of unforeseen consequences.",
+      "start": 4056990,
+      "end": 4062830,
+      "role": "lecture"
+    }
+  ]
+}

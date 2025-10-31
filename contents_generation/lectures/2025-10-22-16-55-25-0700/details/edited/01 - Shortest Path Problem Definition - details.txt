@@ -1,0 +1,37 @@
+# Shortest Path Problem Definition
+
+The shortest path problem in a weighted graph seeks to find a path between two points where the sum of the weights of the edges along that path is minimized. This is distinct from finding a path with the fewest edges.
+
+## Defining the Shortest Path in Weighted Graphs
+
+A **shortest path** is defined not by the number of edges or links, but by the **sum of the weights** of the edges that constitute the path. This concept applies to **weighted graphs**, where edges have associated numerical values. The problem is to find the path with the minimum total weight.
+
+## Motivation for Finding Shortest Paths
+
+The **weights** on edges can represent various real-world costs, such as the cost of a link. Therefore, the problem often translates to finding the **minimum cost** from a given starting point to other points within the graph. This is particularly relevant when seeking the shortest path from a **single source** to all other vertices.
+
+## How Path Weight is Determined
+
+The **weight of a path** on a graph is calculated by summing the weights of all the edges that make up that path. This is the fundamental metric used to determine which path is considered "shortest" in a weighted graph.
+
+## Limitations of Unweighted Path Algorithms
+
+Algorithms like **breadth-first search (BFS)** are not suitable for finding the shortest path in weighted graphs. This is because BFS and related searches only consider the **number of edges**, not their weights. Therefore, a different approach is needed when edge weights are involved.
+
+## Scope of the Problem Discussed
+
+The focus is on the **minimum weight path** or **minimum distance path** within a **weighted graph**. While weights can generally be on vertices or edges, the current discussion specifically considers the case where **only the edges are weighted**. The primary problem being addressed is finding the shortest path from a source vertex 'S' to all other vertices in the graph.
+
+## Summary
+
+*   The **shortest path** in a weighted graph is determined by the **sum of edge weights**, not the number of edges.
+*   This problem is motivated by finding the **minimum cost** or distance between points.
+*   Standard algorithms like **breadth-first search** are insufficient for weighted graphs.
+*   The lecture focuses on finding the **minimum weight path** where **edges are weighted**.
+*   The goal is to find the shortest path from a **single source** to all other vertices.
+
+## Supplement
+
+*   **Weighted Graph:** A graph where each edge has an associated numerical value, often referred to as a "weight." These weights can represent various metrics like distance, cost, or time.
+*   **Vertices:** The nodes or points in a graph.
+*   **Edges:** The connections or links between vertices in a graph.

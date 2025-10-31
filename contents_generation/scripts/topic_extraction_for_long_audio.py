@@ -174,7 +174,7 @@ def merge_role_classifications(lecture_dir: Path, strict_continuity: bool = True
     )
     return out_path
 
-def topic_extraction_for_long_audio(client, gen_model, config_json, config_text, lecture_dir: Path, max_batch_size: int = 300, ctx: int = 10):
+def role_classification(client, gen_model, config_json, lecture_dir: Path, max_batch_size: int = 300, ctx: int = 10):
     # sentencesからrole分類
     print("\n### Role Classification ###")
     start_time_role_classification = time.time()
@@ -247,90 +247,66 @@ def topic_extraction_for_long_audio(client, gen_model, config_json, config_text,
     elapsed_time_role_classification = end_time_role_classification - start_time_role_classification
     print(f"⏰Classified roles: {elapsed_time_role_classification:.2f} seconds.") 
 
-
-    # roleと文章のレビュー
+def role_and_sentence_review(client, gen_model, config_json, lecture_dir: Path):
+# roleと文章のレビュー
     print("\n### Role and Sentence Review ###")
     start_time_role_and_sentence_review = time.time()
 
     instr_role_and_sentence_review = Path(PROMPTS_DIR / "role_and_sentence_review.txt").read_text(encoding="utf-8")
 
-    sentences_with_role = Path(lecture_dir / "sentences_with_roles.json").read_text(encoding="utf-8")
+    with open(lecture_dir / "sentences_with_roles.json", "r", encoding="utf-8") as f:
+        sentences_with_role = json.load(f)
+    
+    sentences_with_role_as_text = json.dumps(sentences_with_role, ensure_ascii=False, indent=2)
 
     print("Waiting for response from Gemini API...")
     contents = [
         instr_role_and_sentence_review,
-        sentences_with_role,
+        sentences_with_role_as_text,
         "Using the JSON data provided above, follow the instructions and return the result in JSON format.",
     ]
-    response_role_and_sentence_review = client.models.generate_content(
-        model = gen_model,
-        contents = contents,
-        config = config_json,
-    )
+    # response_role_and_sentence_review = client.models.generate_content(
+    #     model = gen_model,
+    #     contents = contents,
+    #     config = config_json,
+    # )
 
-    print("saving response...")
-    raw_text = response_role_and_sentence_review.text
-    clean_text = _strip_code_fence(raw_text).strip()
-    out_role_and_sentence_review = json.loads(clean_text)
+    # print("saving response...")
+    # raw_text = response_role_and_sentence_review.text
+    # clean_text = _strip_code_fence(raw_text).strip()
+    # out_role_and_sentence_review = json.loads(clean_text)
+
+    out_role_and_sentence_review = {"changes": [], "fixes": []}
 
     with open(lecture_dir / "reviewed_roles_and_sentences_raw.json", "w", encoding="utf-8") as f:
         json.dump(out_role_and_sentence_review, f, ensure_ascii=False, indent=2)
 
     sentences = sentences_with_role
 
-    segments = out_role_and_sentence_review.get("segments", [])
     changes  = out_role_and_sentence_review.get("changes", [])
     fixes    = out_role_and_sentence_review.get("fixes", [])
 
-    sid_to_idx = {s["sid"]: i for i, s in enumerate(sentences)}
-
-    role_by_sid = {}
-    segment_start_sids = set()
-    prev_end = -1
-    
-    for seg in segments:
-        role = seg.get("role")
-        start_sid = seg.get("start_sid")
-        end_sid   = seg.get("end_sid")
-        if not (role and start_sid and end_sid):
-            raise ValueError(f"Segment missing fields: {seg}")
-        if start_sid not in sid_to_idx or end_sid not in sid_to_idx:
-            raise ValueError(f"Segment sid not found in sentences: {seg}")
-
-        start = sid_to_idx[start_sid]
-        end   = sid_to_idx[end_sid]
-        if start > end:
-            raise ValueError(f"start_sid after end_sid: {seg}")
-        if start <= prev_end:
-            raise ValueError(f"Overlapping or unordered segment: {seg}")
-
-        # セグメント先頭フラグ
-        segment_start_sids.add(start_sid)
-        for i in range(start, end + 1):  # inclusive
-            role_by_sid[sentences[i]["sid"]] = role
-
-        prev_end = end
-
-    change_map = {c["sid"]: c.get("new_role") for c in changes if "sid" in c}
+    change_map = {c["sid"]: c.get("new_role") for c in changes if "sid" in c and c.get("new_role")}
     fix_map    = {f["sid"]: f.get("modified") for f in fixes if "sid" in f and f.get("modified")}
 
     # 3) sentences に反映して最終出力を作る
     final_rows = []
     changed_roles = 0
     changed_texts = 0
-    missing_in_segments = []  # セグメントに含まれなかった sid があれば確認用
 
     for s in sentences:
         sid = s.get("sid")
 
-        # ロール（segmentsが最終判断）
-        role_final = role_by_sid.get(sid, s.get("role"))
-        if role_final != s.get("role"):
+        # 役割は基本オリジナル。changesにあるsidのみ上書き
+        role_original = s.get("role")
+        role_final = change_map.get(sid, role_original)
+        if role_final != role_original:
             changed_roles += 1
 
         # テキスト修正（あるものだけ）
-        text_final = fix_map.get(sid, s.get("text"))
-        if text_final != s.get("text"):
+        text_original = s.get("text")
+        text_final = fix_map.get(sid, text_original)
+        if text_final != text_original:
             changed_texts += 1
 
         final_rows.append({
@@ -341,7 +317,6 @@ def topic_extraction_for_long_audio(client, gen_model, config_json, config_text,
             "speaker": s.get("speaker"),
             "confidence": s.get("confidence"),
             "role": role_final,
-            "segment_start": sid in segment_start_sids,
         })    
 
     with open(lecture_dir / "sentences_final.json", "w", encoding="utf-8") as f:
@@ -349,19 +324,12 @@ def topic_extraction_for_long_audio(client, gen_model, config_json, config_text,
 
     print(f"Saved {len(final_rows)} rows -> sentences_final.json")
     print(f"Role changes: {changed_roles}, Text modified: {changed_texts}")
-    if missing_in_segments:
-        print(f"[WARN] review missing for {len(missing_in_segments)} sid(s). e.g., {missing_in_segments[:5]}")
-    if change_map:
-        # segments と changes の矛盾チェック（任意）
-        diffs = [sid for sid, newr in change_map.items() if newr and role_by_sid.get(sid) and newr != role_by_sid[sid]]
-        if diffs:
-            print(f"[WARN] {len(diffs)} sid(s) differ between 'changes' and 'segments' (segments considered final). e.g., {diffs[:5]}")
-
+    
     end_time_role_and_sentence_review = time.time()
     elapsed_time_role_and_sentence_review = end_time_role_and_sentence_review - start_time_role_and_sentence_review
     print(f"⏰Reviewed roles and sentences: {elapsed_time_role_and_sentence_review:.2f} seconds.")
 
-
+def topic_extraction(client, gen_model, config_text, lecture_dir: Path):
     # トピックを選出
     print("\n### Topic Extraction ###")
     start_time_topic_extraction = time.time()
@@ -393,6 +361,15 @@ def topic_extraction_for_long_audio(client, gen_model, config_json, config_text,
     end_time_topic_extraction = time.time()
     elapsed_time_topic_extraction = end_time_topic_extraction - start_time_topic_extraction
     print(f"⏰Extracted topic: {elapsed_time_topic_extraction:.2f} seconds.")
+
+
+def topic_extraction_for_long_audio(client, gen_model, config_json, config_text, lecture_dir: Path, max_batch_size: int = 300, ctx: int = 10):
+
+    role_classification(client, gen_model, config_json, lecture_dir, max_batch_size, ctx)
+
+    role_and_sentence_review(client, gen_model, config_json, lecture_dir)
+
+    topic_extraction(client, gen_model, config_text, lecture_dir)
 
     print("\n✅All tasks of TOPIC EXTRACTION completed.")
 
@@ -427,7 +404,7 @@ def main():
     GEN_MODEL = "gemini-2.5-flash"
 
     ROOT = Path(__file__).resolve().parent
-    LECTURE_DIR = ROOT / "lectures/2025-10-07-21-27-43-0700"
+    LECTURE_DIR = ROOT / "../lectures/2025-10-27-22-46-03-0700"
 
     topic_extraction_for_long_audio(client, GEN_MODEL, config_json(), config_text(), LECTURE_DIR)
 

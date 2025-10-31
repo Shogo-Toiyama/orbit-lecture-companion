@@ -1,0 +1,69 @@
+# Algorithm Runtime Analysis
+
+Algorithm runtime analysis involves understanding how the execution time of an algorithm scales with the size of the input. This lecture explores different approaches to analyzing algorithm runtime, focusing on how to measure and optimize it, particularly in the context of graph algorithms.
+
+## Understanding Runtime Measurement
+
+The lecture begins by addressing the question of "what's the runtime?" (s000507, s000508). It emphasizes that runtime analysis is best discussed *after* an algorithm's correctness has been established and proven (s000664, s000665, s000666). This is because changes to the algorithm's steps would necessitate re-evaluating the runtime (s000667).
+
+## Initial Algorithm and Vertex-Centric Analysis
+
+A straightforward implementation of an algorithm is presented, involving initialization, a loop to find a minimum, and updating values (s000621, s000622, s000623).
+
+*   **Initial Approach:** The simplest implementation uses a linear array to store temporary values, and finding the mean takes linear time (s000605, s000663).
+*   **Vertex-Centric Analysis:** In this approach, each step is analyzed individually. For instance, updating `n` values takes linear time (s000618). If every vertex has an edge to all other nodes, updates can lead to `N^2` operations (s000641, s000642). If each vertex has only one edge, it might be `N` operations (s000643, s000644).
+*   **Overall Runtime (Vertex-Centric):** When each step takes linear time and there are `N` steps, the total algorithm runtime is `O(N^2)` (s000650, s000652, s000653). This is described as a straightforward but potentially overkill implementation, especially for graphs with few edges (s000655, s000656).
+
+## Edge-Centric Analysis and Amortization
+
+A more refined approach focuses on the edges rather than vertices, recognizing that graphs often have fewer edges than the maximum possible (`N^2`) (s000641, s000683, s000684).
+
+*   **Focus on Edges:** Instead of charging operations to vertices, the analysis charges them to edges (s000733, s000734). This is a different way of accounting for the algorithm's operations (s000735).
+*   **Edge Updates:** Each edge is considered only once for updating purposes (s000717, s000718, s000719, s000720, s000721). The total update cost across all edges sums up to `O(E)` for the entire algorithm (s000722).
+*   **Overall Runtime (Edge-Centric):** The total runtime becomes `O(E)` plus other components (s000725). This approach is described as an "edge-centric approach" (s000947).
+
+## The Bottleneck: Finding the Minimum
+
+The core challenge in optimizing the algorithm is efficiently finding the minimum value (s000744, s000746, s000749). The initial `O(N^2)` runtime was largely due to this bottleneck (s000746).
+
+## The Heap Data Structure
+
+To address the bottleneck of finding the minimum, a more advanced data structure called a **heap** is introduced (s000755).
+
+*   **Heap Properties:** A heap is a binary tree where the minimum value is always at the root (s000756, s000759, s000760, s000761). The minimum of any subtree is at the root of that subtree (s000768, s000774).
+*   **Heap Operations:**
+    *   Finding the minimum takes **constant time** (`O(1)`) (s000776, s000777, s000790).
+    *   Deleting the minimum and restructuring the heap (heapify) takes **logarithmic time** (`O(log N)`) (s000781, s000786, s000787, s000791).
+    *   Inserting a new value into the heap also takes **logarithmic time** (`O(log N)`) (s000799, s000801).
+
+## Improved Algorithm Runtime with Heap
+
+Using a heap significantly improves the algorithm's runtime.
+
+*   **Initialization:** Putting initial values into a heap structure takes `O(N)` time (s000797).
+*   **Updates and Insertions:** For each edge, an update occurs, and the new value is inserted into the heap. This process takes `O(log N)` time per edge (s000804, s000805).
+*   **Overall Runtime (Heap-based):** The total runtime for the algorithm using a heap becomes `O(E log N)` or `O(E log E)` (s000807, s000812, s000844). This is generally better than `O(N^2)` (s000812, s000844).
+
+## Comparing Vertex-Centric and Edge-Centric Approaches
+
+The lecture highlights two main approaches to algorithm analysis:
+
+1.  **Vertex-Centric Approach:** Analyzes one step at a time, often leading to a more pessimistic runtime estimate (s000861, s000863). This approach was used in the initial `O(N^2)` analysis.
+2.  **Edge-Centric Approach:** Analyzes the algorithm's operations across all edges, often leading to a more efficient runtime estimate (s000860, s000868, s000870). This approach, when combined with a heap, yields `O(E log E)` or `O(E log N)`.
+
+## Choosing the Right Algorithm
+
+The choice between the `O(N^2)` (vertex-centric, array-based) and `O(E log E)` (edge-centric, heap-based) algorithms depends on the graph's density:
+
+*   **Dense Graphs (E close to N^2):** If `E > N^2 / log N`, the `O(N^2)` algorithm is generally preferred (s000886, s000887, s000902, s000914).
+*   **Sparse Graphs (E closer to N):** If `E < N^2 / log N`, the `O(E log E)` algorithm is better (s000889, s000890, s000900, s000915).
+
+The boundary condition is when `E` is approximately `N^2 / log N` (s000898, s000914). The decision hinges on the number of edges (`E`) relative to the number of vertices (`N`) (s000907, s000908, s000914, s000915).
+
+## Key Takeaways
+
+*   **Runtime Analysis Timing:** Analyze runtime *after* confirming algorithm correctness.
+*   **Vertex vs. Edge Centric:** Understand the difference between analyzing steps per vertex versus operations per edge.
+*   **Heap Data Structure:** A heap allows for efficient `O(1)` minimum finding and `O(log N)` updates/insertions.
+*   **Algorithm Choice:** The optimal algorithm depends on graph density (`E` vs. `N`).
+*   **Asymptotic Analysis:** Runtime analysis is most relevant for large input sizes (`N` and `E`).

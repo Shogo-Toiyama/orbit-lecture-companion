@@ -1,0 +1,45 @@
+# Weighted Shortest Path Problem
+
+The Weighted Shortest Path Problem involves finding a path between two points in a graph where the "length" of the path is determined by the sum of weights on its edges, rather than just the number of edges. This problem specifically focuses on finding the path with the minimum total weight, often from a starting point to all other points in the graph.
+
+## Definition of Weighted Shortest Path
+
+The **shortest path** in a weighted graph is defined not by the number of edges or links, but by the *sum of the weights* on those edges. This means that when calculating the "distance" or "cost" of a path, you add up the individual weights assigned to each edge along that path. The problem seeks to find the path with the *minimum total weight* or *minimum distance* on such a graph.
+
+## Problem Statement
+
+The core problem is to find the **minimum weight path** or **minimum distance path** on a weighted graph. Specifically, the lecture focuses on finding the shortest path, which is the minimum weight path, from a designated *source vertex* (S) to *all other vertices* in the graph. The question is how to solve this problem effectively.
+
+## Distinction from Unweighted Shortest Path
+
+For graphs that are *not weighted*, algorithms like Breadth-First Search (BFS) can determine the distance to a source by counting the number of links or edges, where the layer number of a vertex in a BFS tree represents its distance. However, BFS and related searches are *not suitable* for weighted graphs because they only consider the number of edges. If a graph has weights, BFS would incorrectly calculate the distance by simply counting links, rather than summing the actual weights.
+
+## Nature of Edge Weights
+
+In the context of this problem, the **weights are placed on the edges** of the graph. These weights can represent various real-world concepts, such as the *cost* of a lake. For the current discussion, only the edges are considered to have weights.
+
+## Example of Path Weight Calculation
+
+Consider a graph with a source (S) and other vertices (A, B, C) connected by weighted edges.
+*   The total weight from S to B might be 1.
+*   The total weight from S to C might be 2.
+*   The total weight from S to A would be the sum of weights along the path, for instance, if the path is S → C → A, and the edge S-C has weight 1 and C-A has weight 2, then the total weight from S to A would be 1 + 2 = 3. This illustrates that the path's weight is the sum of its edge weights.
+
+## Important Constraint: Positive Edge Weights
+
+A significant constraint for solving the weighted shortest path problem, especially with certain algorithms, is that **all weights on the edges are assumed to be positive numbers**. There are *technical difficulties* when weights are negative, and the tools discussed in the lecture are not equipped to handle such cases. If negative edges are present, the basic premise of some algorithms, like greedy approaches, will fade. Therefore, for the current scope, it is assumed that there are no negative edges in the graph.
+
+## Summary
+
+*   The **Weighted Shortest Path Problem** seeks the path with the *minimum total sum of edge weights* between points in a graph.
+*   This differs from unweighted shortest path problems, where distance is simply the *number of edges*, and algorithms like Breadth-First Search are insufficient.
+*   The problem typically involves finding the minimum weight path from a *source vertex to all other vertices*.
+*   Weights are located *on the edges* and can represent costs or other metrics.
+*   A crucial assumption for the methods discussed is that *all edge weights are positive*, as negative weights introduce significant technical challenges.
+
+## Supplement: Key Graph Terminology
+
+*   **Graph**: A collection of *vertices* (nodes) and *edges* (links) connecting pairs of vertices.
+*   **Vertex (plural: vertices)**: A fundamental unit of a graph, often represented as a point or node.
+*   **Edge**: A connection between two vertices in a graph. In a *weighted graph*, each edge has an associated numerical value called a *weight*.
+*   **Breadth-First Search (BFS)**: An algorithm for traversing or searching tree or graph data structures. It explores all of the neighbor nodes at the present depth before moving on to the nodes at the next depth level. It is typically used to find the shortest path in *unweighted* graphs.

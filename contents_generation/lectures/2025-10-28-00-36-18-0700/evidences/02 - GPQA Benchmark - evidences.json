@@ -1,0 +1,105 @@
+{
+  "idx": 2,
+  "title": "GPQA Benchmark",
+  "count": 12,
+  "sids": [
+    "s000008",
+    "s000012",
+    "s000013",
+    "s000019",
+    "s000020",
+    "s000022",
+    "s000023",
+    "s000026",
+    "s000028",
+    "s000029",
+    "s000031",
+    "s000036"
+  ],
+  "evidences": [
+    {
+      "sid": "s000008",
+      "text": "So they decided to make a new test suite called gbqa.",
+      "start": 46810,
+      "end": 50130,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000012",
+      "text": "So in this case they try to take three biology, physics and chemistry.",
+      "start": 56000,
+      "end": 61040,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000013",
+      "text": "And they decided to make a set of questions that really are for experts in the field.",
+      "start": 61920,
+      "end": 66400,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000019",
+      "text": "On the upper right, the expert accuracy are people who are in the field, know their business, really are able to do it.",
+      "start": 77290,
+      "end": 85210,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000020",
+      "text": "And non experts are people who are still skilled in some field, highly resourced, motivated, they have access to Internet resources, they can spend 30 minutes on average answering particular questions.",
+      "start": 85210,
+      "end": 96290,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000022",
+      "text": "This is picking someone who could learn this area or know this area area well enough to answer the question, but is not an expert.",
+      "start": 99690,
+      "end": 106330,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000023",
+      "text": "And you can see the delta between the experts, particularly for chemistry, delta is pretty big.",
+      "start": 106890,
+      "end": 112890,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000026",
+      "text": "This one is from quantum mechanics.",
+      "start": 117450,
+      "end": 118969,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000028",
+      "text": "And so pretty sophisticated, something that a layperson would have have difficulty with.",
+      "start": 125210,
+      "end": 129300,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000029",
+      "text": "And so this is the graduate level Google proof Q and A benchmark that they tried to provide.",
+      "start": 132260,
+      "end": 138580,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000031",
+      "text": "I mean look, the experts, even an expert in the field got only a 72.",
+      "start": 142620,
+      "end": 147460,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000036",
+      "text": "88.4% on the GPQA, completely blowing away even experts in the particular field.",
+      "start": 171150,
+      "end": 177070,
+      "role": "lecture"
+    }
+  ]
+}

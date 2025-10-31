@@ -1,0 +1,31 @@
+# Greedy Approach Failure
+
+This lecture topic explores the limitations of the greedy approach, particularly in the context of graph problems, and highlights why certain greedy strategies fail. It emphasizes the importance of understanding the input size and the impact of edge weights on algorithm complexity.
+
+## When Greedy Strategies Might Not Work
+
+The lecture notes that while some approaches like Breadth-First Search (BFS) might seem promising, they can fail to provide the desired solution. A key consideration arises when dealing with weighted graphs. If a problem can be transformed into an unweighted one by replacing a single edge of weight 10 with 10 edges of weight 1, it might seem like a solution is achievable. However, this transformation can significantly increase the problem size, making the algorithm dependent not just on the number of vertices and edges, but also on the magnitude of the weights. The lecture states that this dependency means that an algorithm might not be truly polynomial in the input size, which is a crucial factor in algorithm design. The lecture emphasizes that "polynomial" or "quadratic" or "linear" always means in the input size, even when not explicitly mentioned.
+
+## The Nature of Greedy Choices
+
+The greedy paradigm involves making a locally optimal choice with the expectation that it will lead to a globally optimal solution. For instance, in interval scheduling, selecting the interval that ends first is a greedy choice. The lecture questions whether a similar immediate, unchangeable decision can be made in other problems, such as finding shortest paths. The difficulty arises when there are many possible paths to a destination, making it hard to confidently determine the shortest path without considering multiple options.
+
+## Challenges with Edge Weights
+
+A significant limitation for the greedy approach, particularly in shortest path problems, is the presence of negative edge weights. The lecture explicitly states that current tools are insufficient to handle negative edges, and this is a primary reason why the greedy approach fails in such scenarios. The assumption for the greedy approach to work is that all edge weights are positive integers. The proof of correctness for a greedy step relies on the fact that adding positive weights will only increase the path length, thus validating the initial greedy choice. When negative edges are involved, this fundamental premise breaks down, leading to the failure of the greedy strategy.
+
+## The Failure of a Specific Greedy Proof
+
+The lecture illustrates the failure of a greedy approach with a specific example. Initially, it seems plausible to select the closest neighbor (vertex B) to the starting point (S) and finalize its shortest distance. This works because B is the closest, and any alternative path to B would have to go through another vertex (Y), and the distance from S to Y is guaranteed to be greater than the distance from S to B (since B was chosen as the minimum). The lecture notes that this proof relies on the assumption of positive edge weights. However, when attempting to apply the same logic to the next closest neighbor (vertex A), the proof technique fails. This is because there might be an alternative path to A that is shorter than the direct edge, potentially involving a path that goes back through B or other vertices. The lecture demonstrates that fixing the distance to A as 10 is incorrect because a shorter path might exist. This highlights that the greedy choice of picking the "next closest" vertex is not always optimal and can lead to incorrect results.
+
+## The Importance of Methodology Over Specific Solutions
+
+The lecture emphasizes that the process of developing algorithms, rather than just arriving at a correct solution for a specific problem, is paramount. It encourages an iterative approach to problem-solving, where trying different strategies, even those that fail, is valuable for learning and evolving thinking. The exploration of greedy approaches, their successes, and their failures, provides insights into how to develop new algorithms for problems that have not been solved before. The methodology of problem-solving, including hypothesis testing and learning from failed attempts, is presented as the most important takeaway.
+
+## Summary
+
+*   The greedy approach can fail, especially in problems involving weighted graphs, if the algorithm's complexity depends on the magnitude of weights rather than just the input size.
+*   Negative edge weights are a critical factor that breaks the validity of many greedy algorithms, particularly for shortest path problems.
+*   A greedy choice, such as selecting the closest neighbor, can be proven correct only under specific conditions, like the absence of negative edges and the ability to guarantee that alternative paths are longer.
+*   The lecture highlights that the process of trying different strategies, learning from failures, and iteratively developing solutions is more important than finding a single correct answer.
+*   Understanding *why* a greedy approach fails is crucial for developing more robust and effective algorithms.

@@ -1,0 +1,1426 @@
+{
+  "labels": [
+    {
+      "sid": "s000712",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Continues explanation of the Equifax breach scenario."
+    },
+    {
+      "sid": "s000713",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Discusses the company's responsibility and potential negligence."
+    },
+    {
+      "sid": "s000714",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor poses a question to the class about defending Equifax."
+    },
+    {
+      "sid": "s000715",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Describes Equifax's response and its own vulnerability."
+    },
+    {
+      "sid": "s000716",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Continues the narrative about Equifax's response."
+    },
+    {
+      "sid": "s000717",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor asks a rhetorical question about company actions."
+    },
+    {
+      "sid": "s000718",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Provides context about the company's size."
+    },
+    {
+      "sid": "s000719",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Discusses the company's broader economic role."
+    },
+    {
+      "sid": "s000720",
+      "role": "chitchat",
+      "role_score": 0.9,
+      "role_reason": "Short, affirmative interjection."
+    },
+    {
+      "sid": "s000721",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Summarizes the core issue of company failure."
+    },
+    {
+      "sid": "s000722",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor poses a provocative question to the class."
+    },
+    {
+      "sid": "s000723",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student provides a direct, short answer to the professor's question."
+    },
+    {
+      "sid": "s000724",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor acknowledges the student's answer."
+    },
+    {
+      "sid": "s000725",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Professor offers another possible interpretation of the company's actions."
+    },
+    {
+      "sid": "s000726",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Continues the discussion on the company's actions."
+    },
+    {
+      "sid": "s000727",
+      "role": "chitchat",
+      "role_score": 0.9,
+      "role_reason": "Short, affirmative interjection."
+    },
+    {
+      "sid": "s000728",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor invites further class participation."
+    },
+    {
+      "sid": "s000729",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student offers a counterpoint regarding legacy software challenges."
+    },
+    {
+      "sid": "s000730",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student elaborates on the difficulty of legacy software."
+    },
+    {
+      "sid": "s000731",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student discusses cost, time, and the vulnerability timeline."
+    },
+    {
+      "sid": "s000732",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student suggests a lack of time for the company to fix the issue."
+    },
+    {
+      "sid": "s000733",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student adds another factor to consider regarding the timeline."
+    },
+    {
+      "sid": "s000734",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Professor acknowledges the student's point about difficulty."
+    },
+    {
+      "sid": "s000735",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Professor rephrases the scenario, assuming good intent."
+    },
+    {
+      "sid": "s000736",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Continues the hypothetical scenario about the company's knowledge."
+    },
+    {
+      "sid": "s000737",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Describes the difficulty of the required changes."
+    },
+    {
+      "sid": "s000738",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Emphasizes the scale of the challenge."
+    },
+    {
+      "sid": "s000739",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Professor suggests giving the company the benefit of the doubt."
+    },
+    {
+      "sid": "s000740",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor poses a question about the company's decision-making."
+    },
+    {
+      "sid": "s000741",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student expresses doubt about passively allowing the hack."
+    },
+    {
+      "sid": "s000742",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student suggests there might not be a perfect answer."
+    },
+    {
+      "sid": "s000743",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student elaborates on the difficulty of fixing the issue."
+    },
+    {
+      "sid": "s000744",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student continues the thought about the timeline."
+    },
+    {
+      "sid": "s000745",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student introduces the concept of public perception."
+    },
+    {
+      "sid": "s000746",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student explains how communication impacts public judgment."
+    },
+    {
+      "sid": "s000747",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Professor contrasts the two scenarios."
+    },
+    {
+      "sid": "s000748",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Professor reiterates the benefit of the doubt."
+    },
+    {
+      "sid": "s000749",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Professor points out another failure: lack of notification."
+    },
+    {
+      "sid": "s000750",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor asks a question about disclosure."
+    },
+    {
+      "sid": "s000751",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor directly answers the question about ethical disclosure."
+    },
+    {
+      "sid": "s000752",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Professor draws a parallel to a previous example."
+    },
+    {
+      "sid": "s000753",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Contrasts the previous example with the current one."
+    },
+    {
+      "sid": "s000754",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Highlights the high risk in the Equifax case."
+    },
+    {
+      "sid": "s000755",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Emphasizes the reality of the vulnerability and threat."
+    },
+    {
+      "sid": "s000756",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor asks a direct question to the class."
+    },
+    {
+      "sid": "s000757",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student agrees on disclosure and expresses uncertainty about feasibility."
+    },
+    {
+      "sid": "s000758",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student elaborates on the scale of user data."
+    },
+    {
+      "sid": "s000759",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student describes the difficulty of individual data removal."
+    },
+    {
+      "sid": "s000760",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student expresses uncertainty about the process."
+    },
+    {
+      "sid": "s000761",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student reiterates the challenge of individual user management."
+    },
+    {
+      "sid": "s000762",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student states the lack of an automatic solution."
+    },
+    {
+      "sid": "s000763",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student suggests a possible automated solution."
+    },
+    {
+      "sid": "s000764",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student speculates on the feasibility of the solution in 2017."
+    },
+    {
+      "sid": "s000765",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student describes the proposed automated solution."
+    },
+    {
+      "sid": "s000766",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Professor contrasts Microsoft's approach with Equifax's."
+    },
+    {
+      "sid": "s000767",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Highlights the core responsibility of Equifax."
+    },
+    {
+      "sid": "s000768",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "States Equifax's failure to meet its responsibility."
+    },
+    {
+      "sid": "s000769",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Points out the lack of notification as a problem."
+    },
+    {
+      "sid": "s000770",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Professor emphasizes the severity of the issue."
+    },
+    {
+      "sid": "s000771",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student agrees with the professor's assessment on disclosure."
+    },
+    {
+      "sid": "s000772",
+      "role": "chitchat",
+      "role_score": 0.9,
+      "role_reason": "Short, affirmative interjection."
+    },
+    {
+      "sid": "s000773",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor transitions to a new topic: general software development issues."
+    },
+    {
+      "sid": "s000774",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Lists a common problem in software development: poor coding."
+    },
+    {
+      "sid": "s000775",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Lists another issue: unreasonable timeframes."
+    },
+    {
+      "sid": "s000776",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Lists a third issue: high volume and underqualified programmers."
+    },
+    {
+      "sid": "s000777",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Discusses the inevitability of mistakes in complex systems."
+    },
+    {
+      "sid": "s000778",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Lists another common issue: budget over user experience."
+    },
+    {
+      "sid": "s000779",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Describes issues with complex management structures."
+    },
+    {
+      "sid": "s000780",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor introduces a new case study."
+    },
+    {
+      "sid": "s000781",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Sets up the scenario for the case study."
+    },
+    {
+      "sid": "s000782",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Describes the unexpected role change in the case study."
+    },
+    {
+      "sid": "s000783",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explains the new responsibilities in the case study."
+    },
+    {
+      "sid": "s000784",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Details the challenges faced by the individual in the case study."
+    },
+    {
+      "sid": "s000785",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Highlights the lack of support in the case study."
+    },
+    {
+      "sid": "s000786",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Describes the pressure and uncertainty in the case study."
+    },
+    {
+      "sid": "s000787",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor questions the severity of the case study's context."
+    },
+    {
+      "sid": "s000788",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor downplays the risk in the case study."
+    },
+    {
+      "sid": "s000789",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Provides a mundane example of drone delivery."
+    },
+    {
+      "sid": "s000790",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor poses a rhetorical question about the significance."
+    },
+    {
+      "sid": "s000791",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor asks the class for their approach to the case study."
+    },
+    {
+      "sid": "s000792",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student asks for clarification on the delivery contents."
+    },
+    {
+      "sid": "s000793",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student provides a direct negative answer."
+    },
+    {
+      "sid": "s000794",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student confirms the negative answer."
+    },
+    {
+      "sid": "s000795",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Professor makes a dark humor comment related to organs."
+    },
+    {
+      "sid": "s000796",
+      "role": "chitchat",
+      "role_score": 0.9,
+      "role_reason": "Short, affirmative interjection."
+    },
+    {
+      "sid": "s000797",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student begins to offer an opinion on the case study."
+    },
+    {
+      "sid": "s000798",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student prompts for the continuation of the thought."
+    },
+    {
+      "sid": "s000799",
+      "role": "chitchat",
+      "role_score": 0.9,
+      "role_reason": "Short interjection."
+    },
+    {
+      "sid": "s000800",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student continues their thought about the obvious issue."
+    },
+    {
+      "sid": "s000801",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student elaborates on the risk of an inexperienced person on the team."
+    },
+    {
+      "sid": "s000802",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student connects the risk to the company's core function."
+    },
+    {
+      "sid": "s000803",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Professor agrees with the student's point."
+    },
+    {
+      "sid": "s000804",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Professor discusses marketing and branding aspects."
+    },
+    {
+      "sid": "s000805",
+      "role": "chitchat",
+      "role_score": 0.9,
+      "role_reason": "Short, affirmative interjection."
+    },
+    {
+      "sid": "s000806",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Professor identifies a key aspect of the company."
+    },
+    {
+      "sid": "s000807",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Professor comments on the significance of the key aspect."
+    },
+    {
+      "sid": "s000808",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Student identifies the core product."
+    },
+    {
+      "sid": "s000809",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Professor agrees with the identification of the core product."
+    },
+    {
+      "sid": "s000810",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Discusses the critical functions of the core product."
+    },
+    {
+      "sid": "s000811",
+      "role": "chitchat",
+      "role_score": 0.9,
+      "role_reason": "Short, affirmative interjection."
+    },
+    {
+      "sid": "s000812",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Professor makes a humorous, hypothetical negative outcome."
+    },
+    {
+      "sid": "s000813",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Professor continues the humorous scenario."
+    },
+    {
+      "sid": "s000814",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Professor adds to the humorous scenario."
+    },
+    {
+      "sid": "s000815",
+      "role": "chitchat",
+      "role_score": 0.9,
+      "role_reason": "Short concluding remark."
+    },
+    {
+      "sid": "s000816",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor asks a question to gauge student attitudes."
+    },
+    {
+      "sid": "s000817",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor describes one possible student attitude."
+    },
+    {
+      "sid": "s000818",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor provides an example of the 'can-do' attitude."
+    },
+    {
+      "sid": "s000819",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor describes the contrasting attitude."
+    },
+    {
+      "sid": "s000820",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor uses an emphatic term for the 'can-do' attitude."
+    },
+    {
+      "sid": "s000821",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor rephrases the question about the 'can-do' attitude."
+    },
+    {
+      "sid": "s000822",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor rephrases the question about the cautious attitude."
+    },
+    {
+      "sid": "s000823",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Professor discusses student selection criteria."
+    },
+    {
+      "sid": "s000824",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Introduces a common tech industry mantra."
+    },
+    {
+      "sid": "s000825",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explains the implication of the mantra."
+    },
+    {
+      "sid": "s000826",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Contrasts the mantra with a different approach."
+    },
+    {
+      "sid": "s000827",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor questions the sufficiency of the alternative approach."
+    },
+    {
+      "sid": "s000828",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor questions the negative framing of disruption."
+    },
+    {
+      "sid": "s000829",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Repeats the disruptive mantra."
+    },
+    {
+      "sid": "s000830",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor interprets the mantra negatively."
+    },
+    {
+      "sid": "s000831",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor asks why the negative interpretation is bad."
+    },
+    {
+      "sid": "s000832",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor explains the negative consequence of the mantra."
+    },
+    {
+      "sid": "s000833",
+      "role": "chitchat",
+      "role_score": 0.9,
+      "role_reason": "Short agreement."
+    },
+    {
+      "sid": "s000834",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor advises against the negative outcome."
+    },
+    {
+      "sid": "s000835",
+      "role": "announcement",
+      "role_score": 0.9,
+      "role_reason": "Professor signals the end of the lecture segment."
+    },
+    {
+      "sid": "s000836",
+      "role": "announcement",
+      "role_score": 0.9,
+      "role_reason": "Professor announces a participation check."
+    },
+    {
+      "sid": "s000837",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor presents two options for the participation check."
+    },
+    {
+      "sid": "s000838",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor describes the first option (disruptive approach)."
+    },
+    {
+      "sid": "s000839",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor contrasts the first option with the second."
+    },
+    {
+      "sid": "s000840",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student clarifies the speed aspect of the second option."
+    },
+    {
+      "sid": "s000841",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor elaborates on the benefits of stable infrastructure."
+    },
+    {
+      "sid": "s000842",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor presents the third option: cautious development."
+    },
+    {
+      "sid": "s000843",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor asks for the class's preference."
+    },
+    {
+      "sid": "s000844",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor asks for votes on option A."
+    },
+    {
+      "sid": "s000845",
+      "role": "chitchat",
+      "role_score": 0.9,
+      "role_reason": "Short interjection."
+    },
+    {
+      "sid": "s000846",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor comments on the lack of votes for option A."
+    },
+    {
+      "sid": "s000847",
+      "role": "chitchat",
+      "role_score": 0.9,
+      "role_reason": "Short interjection."
+    },
+    {
+      "sid": "s000848",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor asks for votes on option B."
+    },
+    {
+      "sid": "s000849",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor interprets the votes for option B."
+    },
+    {
+      "sid": "s000850",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor continues interpreting the votes."
+    },
+    {
+      "sid": "s000851",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor relates option B to philosophical concepts."
+    },
+    {
+      "sid": "s000852",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor asks for votes on option C."
+    },
+    {
+      "sid": "s000853",
+      "role": "chitchat",
+      "role_score": 0.9,
+      "role_reason": "Short interjection."
+    },
+    {
+      "sid": "s000854",
+      "role": "chitchat",
+      "role_score": 0.9,
+      "role_reason": "Short interjection."
+    },
+    {
+      "sid": "s000855",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor asks for votes on option D."
+    },
+    {
+      "sid": "s000856",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor asks for justification for option B."
+    },
+    {
+      "sid": "s000857",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Student explains why stable infrastructure mitigates risks."
+    },
+    {
+      "sid": "s000858",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Student explains how rapid changes can lead to bugs."
+    },
+    {
+      "sid": "s000859",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor asks why the risk isn't a concern for option B voters."
+    },
+    {
+      "sid": "s000860",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student explains the role of backups in stable infrastructure."
+    },
+    {
+      "sid": "s000861",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student elaborates on the process of development and potential errors."
+    },
+    {
+      "sid": "s000862",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student explains the benefit of reverting to backups."
+    },
+    {
+      "sid": "s000863",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Professor acknowledges and praises the student's reasoning."
+    },
+    {
+      "sid": "s000864",
+      "role": "chitchat",
+      "role_score": 0.9,
+      "role_reason": "Short agreement."
+    },
+    {
+      "sid": "s000865",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor introduces a personal anecdote about chip design."
+    },
+    {
+      "sid": "s000866",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Provides context for the anecdote."
+    },
+    {
+      "sid": "s000867",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Describes the subject of the paper."
+    },
+    {
+      "sid": "s000868",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explains the consequence of publishing the paper."
+    },
+    {
+      "sid": "s000869",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explains the core idea of the paper using an analogy."
+    },
+    {
+      "sid": "s000870",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explains what changes occur in chip design."
+    },
+    {
+      "sid": "s000871",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Details the specific improvements in chip design."
+    },
+    {
+      "sid": "s000872",
+      "role": "chitchat",
+      "role_score": 0.9,
+      "role_reason": "Short interjection."
+    },
+    {
+      "sid": "s000873",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explains the effect of shrinking transistors."
+    },
+    {
+      "sid": "s000874",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Describes the common practice in chip size."
+    },
+    {
+      "sid": "s000875",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explains how resources are increased within the same chip size."
+    },
+    {
+      "sid": "s000876",
+      "role": "chitchat",
+      "role_score": 0.9,
+      "role_reason": "Short interjection."
+    },
+    {
+      "sid": "s000877",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Provides examples of increased resources."
+    },
+    {
+      "sid": "s000878",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explains the core concept of using a known working chip."
+    },
+    {
+      "sid": "s000879",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Describes the roles of the two cores (aggressive vs. checker)."
+    },
+    {
+      "sid": "s000880",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor asks a question about the mechanism."
+    },
+    {
+      "sid": "s000881",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor poses a specific challenge to the mechanism."
+    },
+    {
+      "sid": "s000882",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor asks for student input on the challenge."
+    },
+    {
+      "sid": "s000883",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Professor elaborates on the performance assumption."
+    },
+    {
+      "sid": "s000884",
+      "role": "chitchat",
+      "role_score": 0.9,
+      "role_reason": "Short interjection."
+    },
+    {
+      "sid": "s000885",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor reiterates the core question about the checker core."
+    },
+    {
+      "sid": "s000886",
+      "role": "chitchat",
+      "role_score": 0.9,
+      "role_reason": "Short interjection."
+    },
+    {
+      "sid": "s000887",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student suggests a method for the checker core."
+    },
+    {
+      "sid": "s000888",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student explains how the checker core confirms results."
+    },
+    {
+      "sid": "s000889",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Professor explains the benefit of this approach."
+    },
+    {
+      "sid": "s000890",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor poses a challenging analogy to the class."
+    },
+    {
+      "sid": "s000891",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor asks about the possibility of the analogy."
+    },
+    {
+      "sid": "s000892",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor reframes the challenge."
+    },
+    {
+      "sid": "s000893",
+      "role": "chitchat",
+      "role_score": 0.9,
+      "role_reason": "Short interjection."
+    },
+    {
+      "sid": "s000894",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor explains the concept of out-of-order execution."
+    },
+    {
+      "sid": "s000895",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explains how out-of-order execution works with instructions."
+    },
+    {
+      "sid": "s000896",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Reiterates the concept of out-of-order execution."
+    },
+    {
+      "sid": "s000897",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explains speculation and prediction in processors."
+    },
+    {
+      "sid": "s000898",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Describes the aggressive actions of the faster core."
+    },
+    {
+      "sid": "s000899",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explains the benefit of pre-fetched data."
+    },
+    {
+      "sid": "s000900",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "States the consequence of pre-fetched data."
+    },
+    {
+      "sid": "s000901",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Highlights the advantage gained."
+    },
+    {
+      "sid": "s000902",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explains the checker core's simplified task."
+    },
+    {
+      "sid": "s000903",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Provides a simple example of checking calculations."
+    },
+    {
+      "sid": "s000904",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Provides an example of a failed check."
+    },
+    {
+      "sid": "s000905",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Summarizes the division of labor between cores."
+    },
+    {
+      "sid": "s000906",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explains the checker core's role in simple calculations."
+    },
+    {
+      "sid": "s000907",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor states the outcome of this strategy."
+    },
+    {
+      "sid": "s000908",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor asks a rhetorical question to refocus."
+    },
+    {
+      "sid": "s000909",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Connects the chip design example to the earlier discussion."
+    },
+    {
+      "sid": "s000910",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explains Intel's approach to managing untested features."
+    },
+    {
+      "sid": "s000911",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Introduces the concept of 'chicken bits'."
+    },
+    {
+      "sid": "s000912",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explains what 'chicken bits' are and their function."
+    },
+    {
+      "sid": "s000913",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explains the term 'chickening out' in this context."
+    },
+    {
+      "sid": "s000914",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student offers a counterpoint to the 'stable infrastructure' idea."
+    },
+    {
+      "sid": "s000915",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student explains limitations of existing infrastructure."
+    },
+    {
+      "sid": "s000916",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student uses a broad example to illustrate the point."
+    },
+    {
+      "sid": "s000917",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student emphasizes the rapid pace of tech advancement."
+    },
+    {
+      "sid": "s000918",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student provides a specific example: machine learning."
+    },
+    {
+      "sid": "s000919",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student continues the example."
+    },
+    {
+      "sid": "s000920",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student argues that progress requires radical changes."
+    },
+    {
+      "sid": "s000921",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student states the need for radical changes for progress."
+    },
+    {
+      "sid": "s000922",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student argues against the purely disruptive approach."
+    },
+    {
+      "sid": "s000923",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student explains why the disruptive approach is not ideal."
+    },
+    {
+      "sid": "s000924",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student argues against being too rigid."
+    },
+    {
+      "sid": "s000925",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Professor interprets the student's point as finding a balance."
+    },
+    {
+      "sid": "s000926",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Professor emphasizes the need for balance."
+    },
+    {
+      "sid": "s000927",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor explains the challenge in AI development."
+    },
+    {
+      "sid": "s000928",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor asks a question about applying the concept to software."
+    },
+    {
+      "sid": "s000929",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor states that the concept is not feasible in software."
+    },
+    {
+      "sid": "s000930",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Contrasts the infeasibility with current reality."
+    },
+    {
+      "sid": "s000931",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student proposes an analogy to CPU architecture."
+    },
+    {
+      "sid": "s000932",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student continues the CPU architecture analogy."
+    },
+    {
+      "sid": "s000933",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student clarifies the type of architecture."
+    },
+    {
+      "sid": "s000934",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student explains the concept of stable infrastructure in CPU terms."
+    },
+    {
+      "sid": "s000935",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student simplifies the basic operation."
+    },
+    {
+      "sid": "s000936",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student gives an example of a feature not initially included."
+    },
+    {
+      "sid": "s000937",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student explains the later addition and improvement."
+    },
+    {
+      "sid": "s000938",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student notes the difference from the original approach."
+    },
+    {
+      "sid": "s000939",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Professor acknowledges the difference."
+    },
+    {
+      "sid": "s000940",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor explains the testing done before adding branch prediction."
+    },
+    {
+      "sid": "s000941",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Describes the development of a recovery path."
+    },
+    {
+      "sid": "s000942",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Introduces a known issue with branch prediction (Meltdown/Spectre)."
+    },
+    {
+      "sid": "s000943",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor labels the issue as an 'unknown'."
+    },
+    {
+      "sid": "s000944",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor concludes that the architecture was reasonably solidified."
+    },
+    {
+      "sid": "s000945",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Professor acknowledges the example's relevance."
+    },
+    {
+      "sid": "s000946",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor asks for any further comments."
+    },
+    {
+      "sid": "s000947",
+      "role": "chitchat",
+      "role_score": 0.9,
+      "role_reason": "Short, affirmative interjection."
+    },
+    {
+      "sid": "s000948",
+      "role": "announcement",
+      "role_score": 0.9,
+      "role_reason": "Professor signals the end of the lecture and the next meeting."
+    }
+  ]
+}

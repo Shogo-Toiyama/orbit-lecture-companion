@@ -1,0 +1,7730 @@
+[
+  {
+    "sid": "s000001",
+    "text": "And if you recall, once we do breadth first search, remember the layer number of a vertex, that's actually the distance to the source.",
+    "start": 2080,
+    "end": 12240,
+    "speaker": "A",
+    "confidence": 0.9243164
+  },
+  {
+    "sid": "s000002",
+    "text": "Now if a graph is weighted, let's say as such, this is your source or your starting point.",
+    "start": 14080,
+    "end": 33530,
+    "speaker": "A",
+    "confidence": 0.9790039
+  },
+  {
+    "sid": "s000003",
+    "text": "Then if we would have done breadth first search and or breadth first search tree, then we would figure that the distance from S To h is 1, 8 or 1 link.",
+    "start": 34730,
+    "end": 49530,
+    "speaker": "A",
+    "confidence": 0.9790039
+  },
+  {
+    "sid": "s000004",
+    "text": "So we would say this is 1, this is 1, this is 1A, 2.",
+    "start": 52260,
+    "end": 56660,
+    "speaker": "A",
+    "confidence": 0.89160156
+  },
+  {
+    "sid": "s000005",
+    "text": "So to see the distance would be 2, 2 edges, 2 lengths, as if.",
+    "start": 56660,
+    "end": 63140,
+    "speaker": "A",
+    "confidence": 0.9199219
+  },
+  {
+    "sid": "s000006",
+    "text": "And that works when the graph is not weighted.",
+    "start": 63380,
+    "end": 66180,
+    "speaker": "A",
+    "confidence": 0.9897461
+  },
+  {
+    "sid": "s000007",
+    "text": "Now if you modify the definition of a shortest path, which means not the number of edges, not the number of links, for the sum of the weight of on those edges, that's what we call shortest path.",
+    "start": 66580,
+    "end": 81050,
+    "speaker": "A",
+    "confidence": 0.98876953
+  },
+  {
+    "sid": "s000008",
+    "text": "In a weighted graph of this nature.",
+    "start": 81450,
+    "end": 84850,
+    "speaker": "A",
+    "confidence": 0.95947266
+  },
+  {
+    "sid": "s000009",
+    "text": "This is an example of so in that the shortest path, the total weight from S to B is 1, from S to C is 2, and from S to A is not 10 is 1 to the 3, some of these numbers.",
+    "start": 84850,
+    "end": 104660,
+    "speaker": "A",
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000010",
+    "text": "Okay, so join.",
+    "start": 111460,
+    "end": 113220,
+    "speaker": "A",
+    "confidence": 0.9547526
+  },
+  {
+    "sid": "s000011",
+    "text": "So that's how we define weight of a path on a H. And the question is, how can we solve that?",
+    "start": 113940,
+    "end": 122740,
+    "speaker": "A",
+    "confidence": 0.9814453
+  },
+  {
+    "sid": "s000012",
+    "text": "Obviously breadth first search and breadth first related searches is not going to work because that only deals with the number of edges.",
+    "start": 123140,
+    "end": 133140,
+    "speaker": "A",
+    "confidence": 0.9998372
+  },
+  {
+    "sid": "s000013",
+    "text": "So anything to do with leveling, etc.",
+    "start": 134660,
+    "end": 137860,
+    "speaker": "A",
+    "confidence": 0.67529297
+  },
+  {
+    "sid": "s000014",
+    "text": "It just won't work.",
+    "start": 137860,
+    "end": 138980,
+    "speaker": "A",
+    "confidence": 0.8017578
+  },
+  {
+    "sid": "s000015",
+    "text": "And the weights could be the cost of a lake.",
+    "start": 139780,
+    "end": 143540,
+    "speaker": "A",
+    "confidence": 0.9628906
+  },
+  {
+    "sid": "s000016",
+    "text": "For example, if you can take trains or cars or planes, that could be it.",
+    "start": 145060,
+    "end": 150460,
+    "speaker": "A",
+    "confidence": 0.99658203
+  },
+  {
+    "sid": "s000017",
+    "text": "And you may be asking for the minimum cost at from a given point to another point or instead of all other points.",
+    "start": 150460,
+    "end": 159230,
+    "speaker": "A",
+    "confidence": 0.9458008
+  },
+  {
+    "sid": "s000018",
+    "text": "Usually that was true also for unweighted case.",
+    "start": 160510,
+    "end": 164590,
+    "speaker": "A",
+    "confidence": 0.96606445
+  },
+  {
+    "sid": "s000019",
+    "text": "When I want to find single source, single destination, shortest path.",
+    "start": 165150,
+    "end": 171550,
+    "speaker": "A",
+    "confidence": 0.9350586
+  },
+  {
+    "sid": "s000020",
+    "text": "So one source, one destination for free I get the solution to single source, multiple destination.",
+    "start": 171870,
+    "end": 181150,
+    "speaker": "A",
+    "confidence": 0.95703125
+  },
+  {
+    "sid": "s000021",
+    "text": "So all other destination I get the distances for free.",
+    "start": 182190,
+    "end": 185950,
+    "speaker": "A",
+    "confidence": 0.93115234
+  },
+  {
+    "sid": "s000022",
+    "text": "That is, the two algorithms are pretty much the same.",
+    "start": 186110,
+    "end": 189070,
+    "speaker": "A",
+    "confidence": 0.74316406
+  },
+  {
+    "sid": "s000023",
+    "text": "That was true for unweighted, and here it might be true.",
+    "start": 190030,
+    "end": 194910,
+    "speaker": "A",
+    "confidence": 0.99072266
+  },
+  {
+    "sid": "s000024",
+    "text": "We shall see.",
+    "start": 194910,
+    "end": 195870,
+    "speaker": "A",
+    "confidence": 0.97314453
+  },
+  {
+    "sid": "s000025",
+    "text": "So the problem that we are looking at is the minimum weight path or minimum distance path on a weighted graph.",
+    "start": 197790,
+    "end": 206510,
+    "speaker": "A",
+    "confidence": 0.9692383
+  },
+  {
+    "sid": "s000026",
+    "text": "And weights in general can be on vertices or edges.",
+    "start": 206830,
+    "end": 211120,
+    "speaker": "A",
+    "confidence": 0.9453125
+  },
+  {
+    "sid": "s000027",
+    "text": "Now we are considering the case where the weight is going to be on the edges.",
+    "start": 211520,
+    "end": 216640,
+    "speaker": "A",
+    "confidence": 0.9951172
+  },
+  {
+    "sid": "s000028",
+    "text": "So for now, for today, only the edges are weighted.",
+    "start": 217440,
+    "end": 222160,
+    "speaker": "A",
+    "confidence": 0.8198242
+  },
+  {
+    "sid": "s000029",
+    "text": "So the problem is find the shortest path, the minimum weight path from S to all other vertices.",
+    "start": 225600,
+    "end": 235190,
+    "speaker": "A",
+    "confidence": 0.9760742
+  },
+  {
+    "sid": "s000030",
+    "text": "And the solution for this example is shown.",
+    "start": 236630,
+    "end": 239830,
+    "speaker": "A",
+    "confidence": 0.9746094
+  },
+  {
+    "sid": "s000031",
+    "text": "1, 2 and 3 is the problem statement here.",
+    "start": 240150,
+    "end": 246710,
+    "speaker": "A",
+    "confidence": 0.95728
+  },
+  {
+    "sid": "s000032",
+    "text": "That's the first thing you want to ask whenever you see a problem.",
+    "start": 247430,
+    "end": 251430,
+    "speaker": "A",
+    "confidence": 0.99609375
+  },
+  {
+    "sid": "s000033",
+    "text": "Are we hundred percent comfortable?",
+    "start": 252390,
+    "end": 254430,
+    "speaker": "A",
+    "confidence": 0.99365234
+  },
+  {
+    "sid": "s000034",
+    "text": "We understand the problem?",
+    "start": 254430,
+    "end": 256070,
+    "speaker": "A",
+    "confidence": 0.7211914
+  },
+  {
+    "sid": "s000035",
+    "text": "Are there ambiguities These are the kind of thing you want to ask yourself when you see a problem for the first time.",
+    "start": 256630,
+    "end": 264960,
+    "speaker": "A",
+    "confidence": 0.7836914
+  },
+  {
+    "sid": "s000036",
+    "text": "Because one little wrong assumption, that will change a problem entirely.",
+    "start": 266240,
+    "end": 272960,
+    "speaker": "A",
+    "confidence": 0.9941406
+  },
+  {
+    "sid": "s000037",
+    "text": "And because of that, with very high probability, whatever solution you come up with is incorrect because it's for a different problem.",
+    "start": 273440,
+    "end": 282880,
+    "speaker": "A",
+    "confidence": 0.98046875
+  },
+  {
+    "sid": "s000038",
+    "text": "So I will say, say that every time because it matters.",
+    "start": 283600,
+    "end": 287850,
+    "speaker": "A",
+    "confidence": 0.90283203
+  },
+  {
+    "sid": "s000039",
+    "text": "Understanding the problem is important.",
+    "start": 288250,
+    "end": 290330,
+    "speaker": "A",
+    "confidence": 0.9963379
+  },
+  {
+    "sid": "s000040",
+    "text": "Do a few examples on the side, see if it makes sense.",
+    "start": 291050,
+    "end": 295130,
+    "speaker": "A",
+    "confidence": 0.99609375
+  },
+  {
+    "sid": "s000041",
+    "text": "If there are, try to come up with exceptions or things that makes this problem difficult.",
+    "start": 296570,
+    "end": 303450,
+    "speaker": "A",
+    "confidence": 0.75341797
+  },
+  {
+    "sid": "s000042",
+    "text": "Is it that the weights are not equal to unit weight the same way?",
+    "start": 303930,
+    "end": 309050,
+    "speaker": "A",
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000043",
+    "text": "Or is it something, something else?",
+    "start": 309450,
+    "end": 311140,
+    "speaker": "A",
+    "confidence": 0.9916992
+  },
+  {
+    "sid": "s000044",
+    "text": "Okay, so always go through these few minutes of exercise with yourself of do I understand the problem?",
+    "start": 314100,
+    "end": 322420,
+    "speaker": "A",
+    "confidence": 0.8650716
+  },
+  {
+    "sid": "s000045",
+    "text": "Do a few examples.",
+    "start": 324340,
+    "end": 325700,
+    "speaker": "A",
+    "confidence": 0.9897461
+  },
+  {
+    "sid": "s000046",
+    "text": "When you do examples and you try to get deeper into the problem, that will probably give you hints on how to solve the problem or some initial hint.",
+    "start": 325700,
+    "end": 336490,
+    "speaker": "A",
+    "confidence": 0.9951172
+  },
+  {
+    "sid": "s000047",
+    "text": "So those are all good things.",
+    "start": 336720,
+    "end": 338000,
+    "speaker": "A",
+    "confidence": 0.9321289
+  },
+  {
+    "sid": "s000048",
+    "text": "So it's not time wasted.",
+    "start": 338160,
+    "end": 339840,
+    "speaker": "A",
+    "confidence": 0.9628906
+  },
+  {
+    "sid": "s000049",
+    "text": "Especially when you have limited time, like in exams and interviews, we immediately want to give a solution that's not a good idea.",
+    "start": 340080,
+    "end": 350720,
+    "speaker": "A",
+    "confidence": 0.9975586
+  },
+  {
+    "sid": "s000050",
+    "text": "Just sit back, think about the problem, do a few examples.",
+    "start": 351200,
+    "end": 355280,
+    "speaker": "A",
+    "confidence": 0.63916016
+  },
+  {
+    "sid": "s000051",
+    "text": "Only when you feel super comfortable with the problem.",
+    "start": 355760,
+    "end": 358560,
+    "speaker": "A",
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000052",
+    "text": "That's the time to even begin thinking about an algorithm solution.",
+    "start": 358880,
+    "end": 363920,
+    "speaker": "A",
+    "confidence": 0.9947917
+  },
+  {
+    "sid": "s000053",
+    "text": "Okay, so even for homework, try to practice solving them in this manner.",
+    "start": 366880,
+    "end": 372320,
+    "speaker": "A",
+    "confidence": 0.93880206
+  },
+  {
+    "sid": "s000054",
+    "text": "Don't think that I have only 10 minutes for a problem.",
+    "start": 374000,
+    "end": 376960,
+    "speaker": "A",
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000055",
+    "text": "Time is going to be off.",
+    "start": 377520,
+    "end": 378880,
+    "speaker": "A",
+    "confidence": 0.9975586
+  },
+  {
+    "sid": "s000056",
+    "text": "The most important thing is to solve it correctly, not to solve it.",
+    "start": 379520,
+    "end": 383760,
+    "speaker": "A",
+    "confidence": 0.99365234
+  },
+  {
+    "sid": "s000057",
+    "text": "Especially as you have already noticed with algorithms, one assumption could change a problem entirely.",
+    "start": 385360,
+    "end": 393300,
+    "speaker": "A",
+    "confidence": 0.953125
+  },
+  {
+    "sid": "s000058",
+    "text": "All the way from making a problem that is super simple to a problem that's impossible to solve and vice versa.",
+    "start": 393540,
+    "end": 402260,
+    "speaker": "A",
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000059",
+    "text": "But the extra time is worth it.",
+    "start": 403220,
+    "end": 405060,
+    "speaker": "A",
+    "confidence": 0.6147461
+  },
+  {
+    "sid": "s000060",
+    "text": "Okay, so having this problem, I know bread first search doesn't work.",
+    "start": 405860,
+    "end": 410500,
+    "speaker": "A",
+    "confidence": 0.77229816
+  },
+  {
+    "sid": "s000061",
+    "text": "I may try that.",
+    "start": 410900,
+    "end": 412100,
+    "speaker": "A",
+    "confidence": 0.9926758
+  },
+  {
+    "sid": "s000062",
+    "text": "I may try grid first search, modification of preference search.",
+    "start": 412420,
+    "end": 417270,
+    "speaker": "A",
+    "confidence": 0.98876953
+  },
+  {
+    "sid": "s000063",
+    "text": "Those are good approaches, but as I try them, I'll see that they are failing if they are not giving the solution that I care.",
+    "start": 417350,
+    "end": 425430,
+    "speaker": "A",
+    "confidence": 0.99658203
+  },
+  {
+    "sid": "s000064",
+    "text": "What if I take a weight 10 and translate that into 10 edges of weight 1?",
+    "start": 428150,
+    "end": 439910,
+    "speaker": "A",
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000065",
+    "text": "Now we have an unweighted problem.",
+    "start": 440960,
+    "end": 442880,
+    "speaker": "A",
+    "confidence": 0.9873047
+  },
+  {
+    "sid": "s000066",
+    "text": "Would that work?",
+    "start": 443440,
+    "end": 444640,
+    "speaker": "A",
+    "confidence": 0.9863281
+  },
+  {
+    "sid": "s000067",
+    "text": "I know how to solve the unweighted version.",
+    "start": 448400,
+    "end": 450960,
+    "speaker": "A",
+    "confidence": 0.9946289
+  },
+  {
+    "sid": "s000068",
+    "text": "Would that give us a solution to the problem?",
+    "start": 453280,
+    "end": 455680,
+    "speaker": "A",
+    "confidence": 0.97509766
+  },
+  {
+    "sid": "s000069",
+    "text": "The answer is yes and no.",
+    "start": 457200,
+    "end": 459120,
+    "speaker": "A",
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000070",
+    "text": "It will solve the problem.",
+    "start": 460320,
+    "end": 461840,
+    "speaker": "A",
+    "confidence": 0.98583984
+  },
+  {
+    "sid": "s000071",
+    "text": "But if you have a weight 10 or 100, you are increasing the problem size by a multiple of hundred or a million or N, etc.",
+    "start": 462400,
+    "end": 472670,
+    "speaker": "A",
+    "confidence": 0.83496094
+  },
+  {
+    "sid": "s000072",
+    "text": "Therefore, whatever algorithm you come up with won't be just a function of vertices and edges.",
+    "start": 472910,
+    "end": 480350,
+    "speaker": "A",
+    "confidence": 0.9970703
+  },
+  {
+    "sid": "s000073",
+    "text": "It will be a function of vertices, edges and weights.",
+    "start": 480590,
+    "end": 484429,
+    "speaker": "A",
+    "confidence": 0.9946289
+  },
+  {
+    "sid": "s000074",
+    "text": "So whenever we say come up with A polynomial time algorithm, it should be polynomial in the input side, the size of this input.",
+    "start": 486270,
+    "end": 497960,
+    "speaker": "A",
+    "confidence": 0.9902344
+  },
+  {
+    "sid": "s000075",
+    "text": "So when you write a program, the input you take are the vertices and edges and weight on the edges.",
+    "start": 498440,
+    "end": 505480,
+    "speaker": "A",
+    "confidence": 0.97558594
+  },
+  {
+    "sid": "s000076",
+    "text": "So the size of the input is about E plus n. So when I say come up with a polynomial time algorithm, come up with an efficient algorithm, it should be understood that efficient in terms of E and N, not some other parameter, an infinite parameter in the universe.",
+    "start": 506200,
+    "end": 529170,
+    "speaker": "A",
+    "confidence": 0.9824219
+  },
+  {
+    "sid": "s000077",
+    "text": "Not polynomial in that.",
+    "start": 529410,
+    "end": 531010,
+    "speaker": "A",
+    "confidence": 0.98876953
+  },
+  {
+    "sid": "s000078",
+    "text": "Not polynomial in a much larger graph.",
+    "start": 531250,
+    "end": 533890,
+    "speaker": "A",
+    "confidence": 0.99072266
+  },
+  {
+    "sid": "s000079",
+    "text": "Polynomial in this.",
+    "start": 534370,
+    "end": 535890,
+    "speaker": "A",
+    "confidence": 0.9813477
+  },
+  {
+    "sid": "s000080",
+    "text": "That's a key point.",
+    "start": 536130,
+    "end": 537730,
+    "speaker": "A",
+    "confidence": 0.9973958
+  },
+  {
+    "sid": "s000081",
+    "text": "We'll come across this multiple times.",
+    "start": 539970,
+    "end": 542530,
+    "speaker": "A",
+    "confidence": 0.79248047
+  },
+  {
+    "sid": "s000082",
+    "text": "Problems that look polynomial time, they are not because there are polynomial in something else, not in the input class.",
+    "start": 543090,
+    "end": 550890,
+    "speaker": "A",
+    "confidence": 0.99658203
+  },
+  {
+    "sid": "s000083",
+    "text": "So in this class, whenever you hear polynomial or quadratic or linear, it always means linear, quadratic, polynomial in the input size.",
+    "start": 551290,
+    "end": 563290,
+    "speaker": "A",
+    "confidence": 0.98583984
+  },
+  {
+    "sid": "s000084",
+    "text": "That should be understood even when it's not explicitly mentioned.",
+    "start": 563850,
+    "end": 568490,
+    "speaker": "A",
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000085",
+    "text": "Okay, so maybe taking an edge of size 100 and translating that into 100 unit weight edges works, but that won't be polynomial anymore and therefore we are not interested in it.",
+    "start": 570970,
+    "end": 588020,
+    "speaker": "A",
+    "confidence": 0.9527995
+  },
+  {
+    "sid": "s000086",
+    "text": "Okay, so how would I go about solving this problem?",
+    "start": 590420,
+    "end": 593460,
+    "speaker": "A",
+    "confidence": 0.8826497
+  },
+  {
+    "sid": "s000087",
+    "text": "I can see it resembles a problem I solved seen before, transfer, search, etc.",
+    "start": 594580,
+    "end": 600740,
+    "speaker": "A",
+    "confidence": 0.9975586
+  },
+  {
+    "sid": "s000088",
+    "text": "And you should try that and you should play with those ideas, but they won't work.",
+    "start": 600820,
+    "end": 605220,
+    "speaker": "A",
+    "confidence": 0.97265625
+  },
+  {
+    "sid": "s000089",
+    "text": "The other thing I have available to me are algorithmic paradigms.",
+    "start": 606260,
+    "end": 610580,
+    "speaker": "A",
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000090",
+    "text": "So far we basically have three.",
+    "start": 610980,
+    "end": 612900,
+    "speaker": "A",
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000091",
+    "text": "Okay, so in a few weeks or by the end of this course, we have six of these items out available to us.",
+    "start": 616500,
+    "end": 624030,
+    "speaker": "A",
+    "confidence": 0.8955078
+  },
+  {
+    "sid": "s000092",
+    "text": "So one of the things I can try is all these algorithmic paradigms for today.",
+    "start": 625870,
+    "end": 630270,
+    "speaker": "A",
+    "confidence": 0.9145508
+  },
+  {
+    "sid": "s000093",
+    "text": "Greedy.",
+    "start": 630350,
+    "end": 631030,
+    "speaker": "A",
+    "confidence": 0.9938151
+  },
+  {
+    "sid": "s000094",
+    "text": "So for a moment I say, let me use the greedy paradigm to solve this problem.",
+    "start": 631030,
+    "end": 636590,
+    "speaker": "A",
+    "confidence": 0.9667969
+  },
+  {
+    "sid": "s000095",
+    "text": "If it works, great.",
+    "start": 636990,
+    "end": 638270,
+    "speaker": "A",
+    "confidence": 0.9902344
+  },
+  {
+    "sid": "s000096",
+    "text": "If not, I move on to something else.",
+    "start": 638270,
+    "end": 640750,
+    "speaker": "A",
+    "confidence": 0.9916992
+  },
+  {
+    "sid": "s000097",
+    "text": "What does greedy say?",
+    "start": 642670,
+    "end": 644430,
+    "speaker": "A",
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000098",
+    "text": "Greedy says that take this, that's your starting point.",
+    "start": 645070,
+    "end": 650300,
+    "speaker": "A",
+    "confidence": 0.94938153
+  },
+  {
+    "sid": "s000099",
+    "text": "And we understand the distance from S to itself is zero.",
+    "start": 650780,
+    "end": 655500,
+    "speaker": "A",
+    "confidence": 0.9736328
+  },
+  {
+    "sid": "s000100",
+    "text": "By definition, we are already there.",
+    "start": 655580,
+    "end": 659100,
+    "speaker": "A",
+    "confidence": 0.9975586
+  },
+  {
+    "sid": "s000101",
+    "text": "There is no edges to traverse from S to get to S. So question is, is there going to be another vertex in this graph that I can confidently say it's distance to S and never change that?",
+    "start": 659580,
+    "end": 678000,
+    "speaker": "A",
+    "confidence": 1.0
+  },
+  {
+    "sid": "s000102",
+    "text": "That's what it really does.",
+    "start": 678480,
+    "end": 680000,
+    "speaker": "A",
+    "confidence": 0.99609375
+  },
+  {
+    "sid": "s000103",
+    "text": "Of all the intervals scheduling that we did last time, you take the one that ends first without having looked at all the other intervals, you say that's what's going to be in the output of the non overlapping interval problem.",
+    "start": 680640,
+    "end": 696480,
+    "speaker": "A",
+    "confidence": 0.9926758
+  },
+  {
+    "sid": "s000104",
+    "text": "I'll never change my mind about that.",
+    "start": 696480,
+    "end": 699280,
+    "speaker": "A",
+    "confidence": 0.9135742
+  },
+  {
+    "sid": "s000105",
+    "text": "Can we do something similar here?",
+    "start": 700810,
+    "end": 702890,
+    "speaker": "A",
+    "confidence": 0.9526367
+  },
+  {
+    "sid": "s000106",
+    "text": "If it was possible to do something similar there, then that vertex probably won't be a vertex way far from S, because there are so many paths between S and Say X.",
+    "start": 703370,
+    "end": 720970,
+    "speaker": "A",
+    "confidence": 0.9824219
+  },
+  {
+    "sid": "s000107",
+    "text": "Assuming X is connected to all this, that immediately, right away, trying to figure out the distance of X seems difficult.",
+    "start": 721450,
+    "end": 734340,
+    "speaker": "A",
+    "confidence": 0.93880206
+  },
+  {
+    "sid": "s000108",
+    "text": "So X may not be a good choice for the immediate greedy decision that I'm trying to make.",
+    "start": 734820,
+    "end": 742420,
+    "speaker": "A",
+    "confidence": 0.97216797
+  },
+  {
+    "sid": "s000109",
+    "text": "Because for now, in my head I want to try green.",
+    "start": 742500,
+    "end": 745540,
+    "speaker": "A",
+    "confidence": 0.99609375
+  },
+  {
+    "sid": "s000110",
+    "text": "That's the first thing I want to try.",
+    "start": 746500,
+    "end": 748180,
+    "speaker": "A",
+    "confidence": 0.9430339
+  },
+  {
+    "sid": "s000111",
+    "text": "If it doesn't work, I'll do something else.",
+    "start": 748180,
+    "end": 750420,
+    "speaker": "A",
+    "confidence": 0.9916992
+  },
+  {
+    "sid": "s000112",
+    "text": "Okay.",
+    "start": 752430,
+    "end": 752910,
+    "speaker": "A",
+    "confidence": 0.81640625
+  },
+  {
+    "sid": "s000113",
+    "text": "There are also technical difficulties when the weights are negative.",
+    "start": 754190,
+    "end": 760750,
+    "speaker": "A",
+    "confidence": 0.9970703
+  },
+  {
+    "sid": "s000114",
+    "text": "We will see why.",
+    "start": 763070,
+    "end": 764350,
+    "speaker": "A",
+    "confidence": 0.98876953
+  },
+  {
+    "sid": "s000115",
+    "text": "So for now, I assume all the weights on the edges are positive numbers.",
+    "start": 765230,
+    "end": 770510,
+    "speaker": "A",
+    "confidence": 0.9921875
+  },
+  {
+    "sid": "s000116",
+    "text": "And let's say integers 1, 2, 3, 8, 7, 12, etc.",
+    "start": 771310,
+    "end": 776110,
+    "speaker": "A",
+    "confidence": 0.9628906
+  },
+  {
+    "sid": "s000117",
+    "text": "In about four weeks you will have algorithms that can deal with negative edges.",
+    "start": 777560,
+    "end": 783640,
+    "speaker": "A",
+    "confidence": 0.96240234
+  },
+  {
+    "sid": "s000118",
+    "text": "Today we can't.",
+    "start": 784680,
+    "end": 785640,
+    "speaker": "A",
+    "confidence": 1.0
+  },
+  {
+    "sid": "s000119",
+    "text": "We don't have the tools to tackle that problem.",
+    "start": 785640,
+    "end": 788440,
+    "speaker": "A",
+    "confidence": 0.90478516
+  },
+  {
+    "sid": "s000120",
+    "text": "Okay, so something far.",
+    "start": 791080,
+    "end": 793640,
+    "speaker": "A",
+    "confidence": 0.75960284
+  },
+  {
+    "sid": "s000121",
+    "text": "Because there are just so many paths to X, I can't tell for sure what the distance.",
+    "start": 796120,
+    "end": 802750,
+    "speaker": "A",
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000122",
+    "text": "If I'm going from LA and I want to find the shortest path to the city, probably going somewhere to New York.",
+    "start": 805060,
+    "end": 812140,
+    "speaker": "A",
+    "confidence": 0.9897461
+  },
+  {
+    "sid": "s000123",
+    "text": "That's tough because there are so many ways to get there.",
+    "start": 812140,
+    "end": 815380,
+    "speaker": "A",
+    "confidence": 0.99625653
+  },
+  {
+    "sid": "s000124",
+    "text": "Planes, trains, so many roads I could take, I could bike part of it.",
+    "start": 815780,
+    "end": 821460,
+    "speaker": "A",
+    "confidence": 0.9626465
+  },
+  {
+    "sid": "s000125",
+    "text": "So, so many options.",
+    "start": 821540,
+    "end": 823060,
+    "speaker": "A",
+    "confidence": 0.90625
+  },
+  {
+    "sid": "s000126",
+    "text": "So that seemed to be a tough problem, what going from outside of la, say, to San Diego.",
+    "start": 824020,
+    "end": 832030,
+    "speaker": "A",
+    "confidence": 0.98339844
+  },
+  {
+    "sid": "s000127",
+    "text": "Choices are limited, so it's a more controlled problem.",
+    "start": 832510,
+    "end": 836350,
+    "speaker": "A",
+    "confidence": 0.99527997
+  },
+  {
+    "sid": "s000128",
+    "text": "So maybe I can immediately discuss the best way to go from San Diego.",
+    "start": 837150,
+    "end": 843150,
+    "speaker": "A",
+    "confidence": 0.99121094
+  },
+  {
+    "sid": "s000129",
+    "text": "That's kind of the idea.",
+    "start": 843550,
+    "end": 845070,
+    "speaker": "A",
+    "confidence": 0.9632161
+  },
+  {
+    "sid": "s000130",
+    "text": "Okay, so based on this concept, then maybe I initially look at neighbors of S. For example, I take the neighbor that's closest to S, B, and I say, how do I get from S to B is through this edge.",
+    "start": 846510,
+    "end": 876580,
+    "speaker": "A",
+    "confidence": 0.8902995
+  },
+  {
+    "sid": "s000131",
+    "text": "Therefore, I write the distance from S to to be as one.",
+    "start": 877540,
+    "end": 882440,
+    "speaker": "A",
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000132",
+    "text": "Whenever I put a number in bracket.",
+    "start": 883160,
+    "end": 885440,
+    "speaker": "A",
+    "confidence": 0.99438477
+  },
+  {
+    "sid": "s000133",
+    "text": "That means that's the final shortest path, not some intermediate number, not a number that I'm going to change later.",
+    "start": 885440,
+    "end": 895400,
+    "speaker": "A",
+    "confidence": 0.9975586
+  },
+  {
+    "sid": "s000134",
+    "text": "It's the final shortest path.",
+    "start": 895880,
+    "end": 898200,
+    "speaker": "A",
+    "confidence": 0.9923503
+  },
+  {
+    "sid": "s000135",
+    "text": "So I claim, if you take all neighbors of S, take the one that's closest to, in this example, B.",
+    "start": 898920,
+    "end": 908110,
+    "speaker": "A",
+    "confidence": 0.9736328
+  },
+  {
+    "sid": "s000136",
+    "text": "First of all, what are neighbors of S A and B?",
+    "start": 909630,
+    "end": 913070,
+    "speaker": "A",
+    "confidence": 0.9121094
+  },
+  {
+    "sid": "s000137",
+    "text": "Which one is closest to S?",
+    "start": 913390,
+    "end": 915230,
+    "speaker": "A",
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000138",
+    "text": "B?",
+    "start": 915790,
+    "end": 916190,
+    "speaker": "A",
+    "confidence": 0.9160156
+  },
+  {
+    "sid": "s000139",
+    "text": "Because this is 10, this is one.",
+    "start": 918030,
+    "end": 921070,
+    "speaker": "A",
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000140",
+    "text": "I'm going to say in a greedy fashion, in a greedy paradigm methodology, the distance from S to B.",
+    "start": 922030,
+    "end": 930230,
+    "speaker": "A",
+    "confidence": 0.9781901
+  },
+  {
+    "sid": "s000141",
+    "text": "When I say distance, I mean the shortest distance.",
+    "start": 930230,
+    "end": 933080,
+    "speaker": "A",
+    "confidence": 0.9003906
+  },
+  {
+    "sid": "s000142",
+    "text": "The shortest path is one.",
+    "start": 933080,
+    "end": 935160,
+    "speaker": "A",
+    "confidence": 0.8730469
+  },
+  {
+    "sid": "s000143",
+    "text": "I claim that.",
+    "start": 935640,
+    "end": 936840,
+    "speaker": "A",
+    "confidence": 0.99658203
+  },
+  {
+    "sid": "s000144",
+    "text": "How do I prove it?",
+    "start": 937720,
+    "end": 939160,
+    "speaker": "A",
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000145",
+    "text": "The way I prove it is the following.",
+    "start": 939880,
+    "end": 941800,
+    "speaker": "A",
+    "confidence": 0.99121094
+  },
+  {
+    "sid": "s000146",
+    "text": "This is S, this is B.",
+    "start": 943720,
+    "end": 946360,
+    "speaker": "A",
+    "confidence": 0.9946289
+  },
+  {
+    "sid": "s000147",
+    "text": "And I'm saying this is the shortest path by contradiction.",
+    "start": 946840,
+    "end": 952600,
+    "speaker": "A",
+    "confidence": 0.99609375
+  },
+  {
+    "sid": "s000148",
+    "text": "If there was a shorter path from S to B, it would go through some other vertex and it comes back to B.",
+    "start": 953160,
+    "end": 963970,
+    "speaker": "A",
+    "confidence": 0.9868164
+  },
+  {
+    "sid": "s000149",
+    "text": "And remember, the length of the path is irrelevant.",
+    "start": 965810,
+    "end": 969290,
+    "speaker": "A",
+    "confidence": 0.99072266
+  },
+  {
+    "sid": "s000150",
+    "text": "It's the weight that matters, the sum of the weights.",
+    "start": 969290,
+    "end": 972770,
+    "speaker": "A",
+    "confidence": 0.99121094
+  },
+  {
+    "sid": "s000151",
+    "text": "So by contradiction, if there was a path like that, let's look at the very first edge on this path.",
+    "start": 973570,
+    "end": 981890,
+    "speaker": "A",
+    "confidence": 0.9790039
+  },
+  {
+    "sid": "s000152",
+    "text": "Why?",
+    "start": 982370,
+    "end": 982770,
+    "speaker": "A",
+    "confidence": 0.9941406
+  },
+  {
+    "sid": "s000153",
+    "text": "In this example, Y is A.",
+    "start": 983300,
+    "end": 985460,
+    "speaker": "A",
+    "confidence": 0.9033203
+  },
+  {
+    "sid": "s000154",
+    "text": "Okay?",
+    "start": 987700,
+    "end": 988340,
+    "speaker": "A",
+    "confidence": 0.8232422
+  },
+  {
+    "sid": "s000155",
+    "text": "So S has to go through Y and then some other edges.",
+    "start": 988820,
+    "end": 993140,
+    "speaker": "A",
+    "confidence": 0.98876953
+  },
+  {
+    "sid": "s000156",
+    "text": "The distance from S to Y is greater than the distance from S to B Y, because I pick B to be such a vertex, I pick the shortest one, the shortest edge, the minimum edge.",
+    "start": 996420,
+    "end": 1018010,
+    "speaker": "A",
+    "confidence": 0.9926758
+  },
+  {
+    "sid": "s000157",
+    "text": "Therefore, because that's the case, then whatever I add from Y to B, So this is plus DY to B.",
+    "start": 1019050,
+    "end": 1030490,
+    "speaker": "A",
+    "confidence": 0.8647461
+  },
+  {
+    "sid": "s000158",
+    "text": "That's gotta be greater than D of S to B.",
+    "start": 1030570,
+    "end": 1034350,
+    "speaker": "A",
+    "confidence": 0.8984375
+  },
+  {
+    "sid": "s000159",
+    "text": "So this number is greater than this number.",
+    "start": 1037139,
+    "end": 1040739,
+    "speaker": "A",
+    "confidence": 0.93603516
+  },
+  {
+    "sid": "s000160",
+    "text": "Adding some extra stuff, basic algebra, is going to make that number bigger only because this part is a positive number.",
+    "start": 1042739,
+    "end": 1054579,
+    "speaker": "A",
+    "confidence": 0.9909668
+  },
+  {
+    "sid": "s000161",
+    "text": "Because I assumed there are no negative edges in this case graph.",
+    "start": 1056179,
+    "end": 1061070,
+    "speaker": "A",
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000162",
+    "text": "And in fact, when I have negative edges, this whole basic premise is going to fade.",
+    "start": 1062030,
+    "end": 1067550,
+    "speaker": "A",
+    "confidence": 0.9916992
+  },
+  {
+    "sid": "s000163",
+    "text": "And that's why greedy doesn't work with negative edges.",
+    "start": 1069950,
+    "end": 1073150,
+    "speaker": "A",
+    "confidence": 0.9873047
+  },
+  {
+    "sid": "s000164",
+    "text": "That's why we assume, to begin with, there are negative edges.",
+    "start": 1073390,
+    "end": 1077150,
+    "speaker": "A",
+    "confidence": 0.9978841
+  },
+  {
+    "sid": "s000165",
+    "text": "No negative edges.",
+    "start": 1077230,
+    "end": 1078590,
+    "speaker": "A",
+    "confidence": 0.97265625
+  },
+  {
+    "sid": "s000166",
+    "text": "Okay, so based on this proof, I write in A flow what I just said here.",
+    "start": 1080110,
+    "end": 1088510,
+    "speaker": "A",
+    "confidence": 0.87076825
+  },
+  {
+    "sid": "s000167",
+    "text": "It means this should be the final weight from S to B.",
+    "start": 1088910,
+    "end": 1094110,
+    "speaker": "A",
+    "confidence": 0.98779297
+  },
+  {
+    "sid": "s000168",
+    "text": "So wonderful we can find at least one vertex whose distance to S is the minimum distance.",
+    "start": 1095790,
+    "end": 1105310,
+    "speaker": "A",
+    "confidence": 0.99365234
+  },
+  {
+    "sid": "s000169",
+    "text": "So the first step of reading we were able to solve in the famous problem when A ask B, that one first step happens.",
+    "start": 1106270,
+    "end": 1116470,
+    "speaker": "A",
+    "confidence": 0.984375
+  },
+  {
+    "sid": "s000170",
+    "text": "Based on the answer, we eliminate one of them in interval scheduling.",
+    "start": 1116710,
+    "end": 1121550,
+    "speaker": "A",
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000171",
+    "text": "The first interval that ends, I put it in the optimal solution and then I kind of carry this idea to the rest of the problem.",
+    "start": 1121550,
+    "end": 1130310,
+    "speaker": "A",
+    "confidence": 0.9863281
+  },
+  {
+    "sid": "s000172",
+    "text": "So I have reduced the problem size here.",
+    "start": 1130630,
+    "end": 1134390,
+    "speaker": "A",
+    "confidence": 0.9902344
+  },
+  {
+    "sid": "s000173",
+    "text": "The same thing I have reduced the problem size with, say, well, well, S is easy.",
+    "start": 1134390,
+    "end": 1140320,
+    "speaker": "A",
+    "confidence": 0.9970703
+  },
+  {
+    "sid": "s000174",
+    "text": "So I have n minus one other vertices.",
+    "start": 1140960,
+    "end": 1144560,
+    "speaker": "A",
+    "confidence": 0.9458008
+  },
+  {
+    "sid": "s000175",
+    "text": "This is fixed.",
+    "start": 1145200,
+    "end": 1146360,
+    "speaker": "A",
+    "confidence": 0.9970703
+  },
+  {
+    "sid": "s000176",
+    "text": "Now I only have n minus 2.",
+    "start": 1146360,
+    "end": 1148560,
+    "speaker": "A",
+    "confidence": 0.9589844
+  },
+  {
+    "sid": "s000177",
+    "text": "So.",
+    "start": 1152000,
+    "end": 1152400,
+    "speaker": "A",
+    "confidence": 0.77685547
+  },
+  {
+    "sid": "s000178",
+    "text": "But b is kind of special.",
+    "start": 1153120,
+    "end": 1155200,
+    "speaker": "A",
+    "confidence": 0.91259766
+  },
+  {
+    "sid": "s000179",
+    "text": "It's the closest thing to S. There are no other vertices that are closest to S. So then I have to go to second closest.",
+    "start": 1157200,
+    "end": 1168410,
+    "speaker": "A",
+    "confidence": 0.9715169
+  },
+  {
+    "sid": "s000180",
+    "text": "So what would that be?",
+    "start": 1170730,
+    "end": 1172490,
+    "speaker": "A",
+    "confidence": 0.99121094
+  },
+  {
+    "sid": "s000181",
+    "text": "Next one is going to be A, the next neighbor that's after one closest.",
+    "start": 1172650,
+    "end": 1179050,
+    "speaker": "A",
+    "confidence": 0.99316406
+  },
+  {
+    "sid": "s000182",
+    "text": "So I go to A and I say, okay, the distance is 10 and that's finalized.",
+    "start": 1179370,
+    "end": 1184930,
+    "speaker": "A",
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000183",
+    "text": "That's the minimum distance from S to A.",
+    "start": 1184930,
+    "end": 1187290,
+    "speaker": "A",
+    "confidence": 0.9744466
+  },
+  {
+    "sid": "s000184",
+    "text": "Trying to scale up the first thing that I came up with.",
+    "start": 1188010,
+    "end": 1195140,
+    "speaker": "A",
+    "confidence": 0.8652344
+  },
+  {
+    "sid": "s000185",
+    "text": "Now if you try that proof from S to A, you gotta prove that if there was an alternate path from S to A, that would be less than that.",
+    "start": 1195780,
+    "end": 1210020,
+    "speaker": "A",
+    "confidence": 0.98535156
+  },
+  {
+    "sid": "s000186",
+    "text": "But we can't say that.",
+    "start": 1210820,
+    "end": 1212740,
+    "speaker": "A",
+    "confidence": 0.8222656
+  },
+  {
+    "sid": "s000187",
+    "text": "The only reason we could say that before is because S2Y for sure is greater than S to B.",
+    "start": 1213300,
+    "end": 1220400,
+    "speaker": "A",
+    "confidence": 0.99609375
+  },
+  {
+    "sid": "s000188",
+    "text": "That was the very definition of B.",
+    "start": 1220720,
+    "end": 1223440,
+    "speaker": "A",
+    "confidence": 0.97509766
+  },
+  {
+    "sid": "s000189",
+    "text": "But now we don't have that anymore because this distance in general could be less than that.",
+    "start": 1223760,
+    "end": 1230240,
+    "speaker": "A",
+    "confidence": 0.9926758
+  },
+  {
+    "sid": "s000190",
+    "text": "Therefore it could be a path going back to A which is less than 10.",
+    "start": 1230480,
+    "end": 1235520,
+    "speaker": "A",
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000191",
+    "text": "In fact, in this example that's exactly the case.",
+    "start": 1235600,
+    "end": 1238320,
+    "speaker": "A",
+    "confidence": 0.9951172
+  },
+  {
+    "sid": "s000192",
+    "text": "So fixing a distance from S to A to 10 is not going to work.",
+    "start": 1239200,
+    "end": 1244430,
+    "speaker": "A",
+    "confidence": 0.9848633
+  },
+  {
+    "sid": "s000193",
+    "text": "Prove we can't prove it.",
+    "start": 1246430,
+    "end": 1248270,
+    "speaker": "A",
+    "confidence": 0.90527344
+  },
+  {
+    "sid": "s000194",
+    "text": "Our basic proof technique is going to fail and we have in fact a counterexample.",
+    "start": 1249470,
+    "end": 1255270,
+    "speaker": "A",
+    "confidence": 0.9536133
+  },
+  {
+    "sid": "s000195",
+    "text": "Y fades so what should I do?",
+    "start": 1255270,
+    "end": 1262030,
+    "speaker": "A",
+    "confidence": 0.6948242
+  },
+  {
+    "sid": "s000196",
+    "text": "Should I go to a vertex that's closest to B?",
+    "start": 1262350,
+    "end": 1265870,
+    "speaker": "A",
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000197",
+    "text": "A vertex that's closest to B?",
+    "start": 1266190,
+    "end": 1267810,
+    "speaker": "A",
+    "confidence": 0.93847656
+  },
+  {
+    "sid": "s000198",
+    "text": "Something else is not clear.",
+    "start": 1268120,
+    "end": 1270200,
+    "speaker": "A",
+    "confidence": 0.95751953
+  },
+  {
+    "sid": "s000199",
+    "text": "So this whole idea of faith, the greedy idea, unless we can come up with a clever way of picking a next vertex.",
+    "start": 1271000,
+    "end": 1281560,
+    "speaker": "A",
+    "confidence": 0.9609375
+  },
+  {
+    "sid": "s000200",
+    "text": "In this example, if I knew how to pick the next vertex, I would pick C as my next vertex and fix that as one plus one.",
+    "start": 1281880,
+    "end": 1293320,
+    "speaker": "A",
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000201",
+    "text": "So C will be a good choice.",
+    "start": 1295170,
+    "end": 1297010,
+    "speaker": "A",
+    "confidence": 0.9814453
+  },
+  {
+    "sid": "s000202",
+    "text": "A is not a good choice.",
+    "start": 1297570,
+    "end": 1299330,
+    "speaker": "A",
+    "confidence": 0.99658203
+  },
+  {
+    "sid": "s000203",
+    "text": "So you see, I'm trying, I don't know how to solve this problem, so I'm going to try greedy.",
+    "start": 1300290,
+    "end": 1306530,
+    "speaker": "A",
+    "confidence": 0.87597656
+  },
+  {
+    "sid": "s000204",
+    "text": "I'm going to go from B.",
+    "start": 1306610,
+    "end": 1308290,
+    "speaker": "A",
+    "confidence": 0.8351237
+  },
+  {
+    "sid": "s000205",
+    "text": "That's easy.",
+    "start": 1308290,
+    "end": 1309250,
+    "speaker": "A",
+    "confidence": 0.98909503
+  },
+  {
+    "sid": "s000206",
+    "text": "Then I'm going to go to A.",
+    "start": 1309409,
+    "end": 1310810,
+    "speaker": "A",
+    "confidence": 0.97998047
+  },
+  {
+    "sid": "s000207",
+    "text": "That phase, then I come up with hypothesis of what else to consider.",
+    "start": 1310810,
+    "end": 1315330,
+    "speaker": "A",
+    "confidence": 0.9868164
+  },
+  {
+    "sid": "s000208",
+    "text": "And these ideas and these examples hopefully will give rise to a brand new algorithm.",
+    "start": 1318850,
+    "end": 1325530,
+    "speaker": "A",
+    "confidence": 0.96435547
+  },
+  {
+    "sid": "s000209",
+    "text": "Again, solving this problem is not important.",
+    "start": 1328010,
+    "end": 1330410,
+    "speaker": "A",
+    "confidence": 0.99560547
+  },
+  {
+    "sid": "s000210",
+    "text": "Solving any problem in this course is not important.",
+    "start": 1330650,
+    "end": 1333290,
+    "speaker": "A",
+    "confidence": 0.9133301
+  },
+  {
+    "sid": "s000211",
+    "text": "What is important is the methodology.",
+    "start": 1333930,
+    "end": 1336090,
+    "speaker": "A",
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000212",
+    "text": "That's why we try to come up with an algorithm together from scratch, in terms of what may work, what may not work and how to evolve our thinking.",
+    "start": 1336650,
+    "end": 1346650,
+    "speaker": "A",
+    "confidence": 0.9947917
+  },
+  {
+    "sid": "s000213",
+    "text": "That's really why what matters, Problem solving things.",
+    "start": 1346810,
+    "end": 1349950,
+    "speaker": "A",
+    "confidence": 0.99153644
+  },
+  {
+    "sid": "s000214",
+    "text": "Because a problem that you see in the future, let's say your job is a problem that no one ever solved before.",
+    "start": 1352430,
+    "end": 1360510,
+    "speaker": "A",
+    "confidence": 0.99121094
+  },
+  {
+    "sid": "s000215",
+    "text": "Because if they did, why do they need you?",
+    "start": 1361470,
+    "end": 1363630,
+    "speaker": "A",
+    "confidence": 0.9970703
+  },
+  {
+    "sid": "s000216",
+    "text": "They need you to solve a problem that was never solved.",
+    "start": 1365230,
+    "end": 1368350,
+    "speaker": "A",
+    "confidence": 0.9707031
+  },
+  {
+    "sid": "s000217",
+    "text": "Yeah, so we did greedy algorithm and let me rephrase, we did the greedy algorithm and that allowed us to choose B.",
+    "start": 1369870,
+    "end": 1381000,
+    "speaker": "B",
+    "confidence": 0.92073566
+  },
+  {
+    "sid": "s000218",
+    "text": "What if we continue the algorithm but this time we start from B as if it's the new S and then we do the same exact step and that will give us C. We do the same thing.",
+    "start": 1382280,
+    "end": 1396480,
+    "speaker": "B",
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000219",
+    "text": "Now C is the new square and we start like going.",
+    "start": 1396480,
+    "end": 1400050,
+    "speaker": "B",
+    "confidence": 0.9868164
+  },
+  {
+    "sid": "s000220",
+    "text": "So essentially it's some sort of a dfs, but with the greedy algorithm.",
+    "start": 1400050,
+    "end": 1405250,
+    "speaker": "B",
+    "confidence": 0.98779297
+  },
+  {
+    "sid": "s000221",
+    "text": "So that's.",
+    "start": 1405970,
+    "end": 1406690,
+    "speaker": "A",
+    "confidence": 0.73095703
+  },
+  {
+    "sid": "s000222",
+    "text": "So because we got stuck here, we need to have other techniques.",
+    "start": 1406770,
+    "end": 1410690,
+    "speaker": "A",
+    "confidence": 0.95166016
+  },
+  {
+    "sid": "s000223",
+    "text": "So your technique is S perfect, everything works, improved.",
+    "start": 1411250,
+    "end": 1415730,
+    "speaker": "A",
+    "confidence": 0.99609375
+  },
+  {
+    "sid": "s000224",
+    "text": "Now let's start from B.",
+    "start": 1415970,
+    "end": 1417650,
+    "speaker": "A",
+    "confidence": 0.9873047
+  },
+  {
+    "sid": "s000225",
+    "text": "Would that work in this example?",
+    "start": 1418130,
+    "end": 1420130,
+    "speaker": "A",
+    "confidence": 0.9951172
+  },
+  {
+    "sid": "s000226",
+    "text": "Absolutely.",
+    "start": 1420450,
+    "end": 1421410,
+    "speaker": "A",
+    "confidence": 0.9916992
+  },
+  {
+    "sid": "s000227",
+    "text": "Okay, so let's change the example now with your algorithm work.",
+    "start": 1421970,
+    "end": 1431100,
+    "speaker": "A",
+    "confidence": 0.8733724
+  },
+  {
+    "sid": "s000228",
+    "text": "So it's a good, good way to proceed and it worked for the previous examples, but it won't work here.",
+    "start": 1433260,
+    "end": 1440300,
+    "speaker": "A",
+    "confidence": 0.92871094
+  },
+  {
+    "sid": "s000229",
+    "text": "We need something else.",
+    "start": 1441180,
+    "end": 1442700,
+    "speaker": "A",
+    "confidence": 0.9902344
+  },
+  {
+    "sid": "s000230",
+    "text": "What if instead of doing the greedy step by step that we select the minimum edge from S, can we go through that?",
+    "start": 1443500,
+    "end": 1459980,
+    "speaker": "B",
+    "confidence": 0.9975586
+  },
+  {
+    "sid": "s000231",
+    "text": "So, so, yeah, so, so these are good.",
+    "start": 1462940,
+    "end": 1465420,
+    "speaker": "A",
+    "confidence": 0.8354492
+  },
+  {
+    "sid": "s000232",
+    "text": "When you are seeing a problem for the first time, we have to go through this process of trying different things.",
+    "start": 1465580,
+    "end": 1472700,
+    "speaker": "A",
+    "confidence": 0.9790039
+  },
+  {
+    "sid": "s000233",
+    "text": "You almost like most likely first shot, you can't solve the problem.",
+    "start": 1472940,
+    "end": 1477980,
+    "speaker": "A",
+    "confidence": 0.99072266
+  },
+  {
+    "sid": "s000234",
+    "text": "It's gotta be an iterative approach.",
+    "start": 1478700,
+    "end": 1480700,
+    "speaker": "A",
+    "confidence": 0.98307294
+  },
+  {
+    "sid": "s000235",
+    "text": "That's why it takes time, especially when you come to these created algorithms.",
+    "start": 1480860,
+    "end": 1486340,
+    "speaker": "A",
+    "confidence": 0.9972331
+  },
+  {
+    "sid": "s000236",
+    "text": "Right?",
+    "start": 1486340,
+    "end": 1486700,
+    "speaker": "A",
+    "confidence": 0.80322266
+  },
+  {
+    "sid": "s000237",
+    "text": "So don't be afraid of trying different things.",
+    "start": 1486940,
+    "end": 1489900,
+    "speaker": "A",
+    "confidence": 0.9921875
+  },
+  {
+    "sid": "s000238",
+    "text": "Many of them gonna fail and that's good.",
+    "start": 1490860,
+    "end": 1493340,
+    "speaker": "A",
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000239",
+    "text": "From that we're gonna learn.",
+    "start": 1494380,
+    "end": 1495820,
+    "speaker": "A",
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000240",
+    "text": "We just did a few hypothesis.",
+    "start": 1495820,
+    "end": 1498180,
+    "speaker": "A",
+    "confidence": 0.9765625
+  },
+  {
+    "sid": "s000241",
+    "text": "They both failed.",
+    "start": 1498180,
+    "end": 1499380,
+    "speaker": "A",
+    "confidence": 0.9951172
+  },
+  {
+    "sid": "s000242",
+    "text": "But based on that, you came up with another algorithm.",
+    "start": 1499380,
+    "end": 1501960,
+    "speaker": "A",
+    "confidence": 0.9970703
+  },
+  {
+    "sid": "s000243",
+    "text": "So based on that, let me suggest the following.",
+    "start": 1503070,
+    "end": 1505710,
+    "speaker": "A",
+    "confidence": 0.9819336
+  },
+  {
+    "sid": "s000244",
+    "text": "Let me get rid of that.",
+    "start": 1506510,
+    "end": 1507950,
+    "speaker": "A",
+    "confidence": 0.98779297
+  },
+  {
+    "sid": "s000245",
+    "text": "Let me get rid of that.",
+    "start": 1507950,
+    "end": 1509310,
+    "speaker": "A",
+    "confidence": 0.9819336
+  },
+  {
+    "sid": "s000246",
+    "text": "So there are numbers that are finalized.",
+    "start": 1510190,
+    "end": 1513310,
+    "speaker": "A",
+    "confidence": 0.9873047
+  },
+  {
+    "sid": "s000247",
+    "text": "I put them in brackets.",
+    "start": 1513390,
+    "end": 1514990,
+    "speaker": "A",
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000248",
+    "text": "Okay?",
+    "start": 1516430,
+    "end": 1517070,
+    "speaker": "A",
+    "confidence": 0.80403644
+  },
+  {
+    "sid": "s000249",
+    "text": "But there are also numbers that are temporary.",
+    "start": 1517550,
+    "end": 1520590,
+    "speaker": "A",
+    "confidence": 0.98583984
+  },
+  {
+    "sid": "s000250",
+    "text": "For example, I've seen a.",
+    "start": 1521310,
+    "end": 1523710,
+    "speaker": "A",
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000251",
+    "text": "This was 10.",
+    "start": 1524750,
+    "end": 1525790,
+    "speaker": "A",
+    "confidence": 0.9902344
+  },
+  {
+    "sid": "s000252",
+    "text": "This is one original.",
+    "start": 1526670,
+    "end": 1528680,
+    "speaker": "A",
+    "confidence": 0.984375
+  },
+  {
+    "sid": "s000253",
+    "text": "I say for now, I know a path of distance 10 from A to S. I'm not going to finalize that because it won't work.",
+    "start": 1529640,
+    "end": 1541240,
+    "speaker": "A",
+    "confidence": 0.98583984
+  },
+  {
+    "sid": "s000254",
+    "text": "I also know a path of length 1, 2 from C to S. Right.",
+    "start": 1542520,
+    "end": 1553160,
+    "speaker": "A",
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000255",
+    "text": "So I think that's what you are hinting at.",
+    "start": 1553770,
+    "end": 1556410,
+    "speaker": "A",
+    "confidence": 0.87890625
+  },
+  {
+    "sid": "s000256",
+    "text": "Find all these temporary distances to S. Among them, pick the minimum one.",
+    "start": 1556730,
+    "end": 1564730,
+    "speaker": "A",
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000257",
+    "text": "So what are the parentheses numbers?",
+    "start": 1565290,
+    "end": 1568410,
+    "speaker": "A",
+    "confidence": 0.9770508
+  },
+  {
+    "sid": "s000258",
+    "text": "They are actual paths from a vertex all the way back to S. So we're going to have this thing.",
+    "start": 1568570,
+    "end": 1577050,
+    "speaker": "A",
+    "confidence": 0.9770508
+  },
+  {
+    "sid": "s000259",
+    "text": "We're going to have this zero.",
+    "start": 1578490,
+    "end": 1581500,
+    "speaker": "A",
+    "confidence": 0.7607422
+  },
+  {
+    "sid": "s000260",
+    "text": "We're going to have numbers that are finalized.",
+    "start": 1583260,
+    "end": 1586300,
+    "speaker": "A",
+    "confidence": 0.8339844
+  },
+  {
+    "sid": "s000261",
+    "text": "We denote them by brackets.",
+    "start": 1589820,
+    "end": 1591900,
+    "speaker": "A",
+    "confidence": 0.9838867
+  },
+  {
+    "sid": "s000262",
+    "text": "We have numbers that are temporary.",
+    "start": 1593900,
+    "end": 1596460,
+    "speaker": "A",
+    "confidence": 0.87060547
+  },
+  {
+    "sid": "s000263",
+    "text": "What do number in parentheses indicate?",
+    "start": 1599260,
+    "end": 1603340,
+    "speaker": "A",
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000264",
+    "text": "They are the A short his path from that vertex X to S. For this one, it's going to be Y to S. It doesn't mean it's the shortest path.",
+    "start": 1603740,
+    "end": 1621880,
+    "speaker": "A",
+    "confidence": 0.8613281
+  },
+  {
+    "sid": "s000265",
+    "text": "10 is not the shortest path.",
+    "start": 1622200,
+    "end": 1624440,
+    "speaker": "A",
+    "confidence": 0.59229
+  },
+  {
+    "sid": "s000266",
+    "text": "It's a path that is available to me right now.",
+    "start": 1624520,
+    "end": 1627560,
+    "speaker": "A",
+    "confidence": 0.88704425
+  },
+  {
+    "sid": "s000267",
+    "text": "There might be shorter path later.",
+    "start": 1628040,
+    "end": 1630440,
+    "speaker": "A",
+    "confidence": 0.9902344
+  },
+  {
+    "sid": "s000268",
+    "text": "And this example shows there is a shorted path.",
+    "start": 1630840,
+    "end": 1634680,
+    "speaker": "A",
+    "confidence": 0.97802734
+  },
+  {
+    "sid": "s000269",
+    "text": "But I do have a path of length 10.",
+    "start": 1634760,
+    "end": 1637080,
+    "speaker": "A",
+    "confidence": 0.99658203
+  },
+  {
+    "sid": "s000270",
+    "text": "Of all these short paths here, I'm going to pick a minimum one.",
+    "start": 1638200,
+    "end": 1644120,
+    "speaker": "A",
+    "confidence": 0.9892578
+  },
+  {
+    "sid": "s000271",
+    "text": "It could be this parenthesis.",
+    "start": 1645880,
+    "end": 1647520,
+    "speaker": "A",
+    "confidence": 0.89160156
+  },
+  {
+    "sid": "s000272",
+    "text": "This could be this.",
+    "start": 1647520,
+    "end": 1648560,
+    "speaker": "A",
+    "confidence": 0.46044922
+  },
+  {
+    "sid": "s000273",
+    "text": "That parenthesis is one of them.",
+    "start": 1648560,
+    "end": 1650280,
+    "speaker": "A",
+    "confidence": 0.5883789
+  },
+  {
+    "sid": "s000274",
+    "text": "I pick the minimum one.",
+    "start": 1651000,
+    "end": 1652760,
+    "speaker": "A",
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000275",
+    "text": "Let's say this is the minimum.",
+    "start": 1653080,
+    "end": 1655080,
+    "speaker": "A",
+    "confidence": 0.99658203
+  },
+  {
+    "sid": "s000276",
+    "text": "And I say this, this path is the minimum path of everyone with parentheses.",
+    "start": 1656840,
+    "end": 1665560,
+    "speaker": "A",
+    "confidence": 0.9926758
+  },
+  {
+    "sid": "s000277",
+    "text": "Why?",
+    "start": 1667000,
+    "end": 1667400,
+    "speaker": "A",
+    "confidence": 0.74121094
+  },
+  {
+    "sid": "s000278",
+    "text": "The proof is exactly that if there was a shorter path to Y, then it had to go with something here, for example, through X and then back to Y.",
+    "start": 1667640,
+    "end": 1687130,
+    "speaker": "A",
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000279",
+    "text": "But the path from S to X is already larger than the path from S to Y.",
+    "start": 1687930,
+    "end": 1695290,
+    "speaker": "A",
+    "confidence": 0.97216797
+  },
+  {
+    "sid": "s000280",
+    "text": "Why?",
+    "start": 1695610,
+    "end": 1696010,
+    "speaker": "A",
+    "confidence": 0.9946289
+  },
+  {
+    "sid": "s000281",
+    "text": "Because I picked it that way.",
+    "start": 1696010,
+    "end": 1697850,
+    "speaker": "A",
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000282",
+    "text": "Of all possibilities, I picked the minimum Y.",
+    "start": 1698170,
+    "end": 1701290,
+    "speaker": "A",
+    "confidence": 0.9926758
+  },
+  {
+    "sid": "s000283",
+    "text": "Therefore, any other path that later on by contradiction takes me to Y is going to be larger than higher rate than the one that I picked here.",
+    "start": 1703050,
+    "end": 1716990,
+    "speaker": "A",
+    "confidence": 0.99316406
+  },
+  {
+    "sid": "s000284",
+    "text": "So based on all the thinking, all the examples, being patient, the few algorithms you came up with, or few ideas that you came up with that failed, all of that leads to this idea?",
+    "start": 1718590,
+    "end": 1733550,
+    "speaker": "A",
+    "confidence": 0.98583984
+  },
+  {
+    "sid": "s000285",
+    "text": "Yes.",
+    "start": 1733630,
+    "end": 1734110,
+    "speaker": "A",
+    "confidence": 0.8671875
+  },
+  {
+    "sid": "s000286",
+    "text": "How do you know that the 1:1.",
+    "start": 1734750,
+    "end": 1736000,
+    "speaker": "B",
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000287",
+    "text": "Next to the D is finalized?",
+    "start": 1736000,
+    "end": 1737400,
+    "speaker": "A",
+    "confidence": 0.40600586
+  },
+  {
+    "sid": "s000288",
+    "text": "Oh, I don't know.",
+    "start": 1739720,
+    "end": 1741320,
+    "speaker": "A",
+    "confidence": 0.7458496
+  },
+  {
+    "sid": "s000289",
+    "text": "So B has been reached and finalized.",
+    "start": 1741880,
+    "end": 1747560,
+    "speaker": "A",
+    "confidence": 0.96240234
+  },
+  {
+    "sid": "s000290",
+    "text": "S has been reached and finalized.",
+    "start": 1748200,
+    "end": 1750600,
+    "speaker": "A",
+    "confidence": 0.99316406
+  },
+  {
+    "sid": "s000291",
+    "text": "Okay, so now my choices are this or that.",
+    "start": 1750600,
+    "end": 1755160,
+    "speaker": "A",
+    "confidence": 0.94840497
+  },
+  {
+    "sid": "s000292",
+    "text": "The only way that I can go from C to S is either through two or some other way, right?",
+    "start": 1757240,
+    "end": 1766610,
+    "speaker": "A",
+    "confidence": 0.9970703
+  },
+  {
+    "sid": "s000293",
+    "text": "So if there was some other way.",
+    "start": 1767890,
+    "end": 1770290,
+    "speaker": "A",
+    "confidence": 0.9941406
+  },
+  {
+    "sid": "s000294",
+    "text": "Let me use a different color.",
+    "start": 1770450,
+    "end": 1772290,
+    "speaker": "A",
+    "confidence": 0.7788086
+  },
+  {
+    "sid": "s000295",
+    "text": "If there was some other way, and that green would have been by contradiction, less than 2.",
+    "start": 1774050,
+    "end": 1781090,
+    "speaker": "A",
+    "confidence": 0.9941406
+  },
+  {
+    "sid": "s000296",
+    "text": "I do have a contradiction, because from here to S is of already greater than 2, then I add some extra stuff to it, it's going to be even more than two.",
+    "start": 1782450,
+    "end": 1793980,
+    "speaker": "A",
+    "confidence": 0.96728516
+  },
+  {
+    "sid": "s000297",
+    "text": "So of all the paths that are reachable to S currently, I pick the minimum one.",
+    "start": 1794700,
+    "end": 1800860,
+    "speaker": "A",
+    "confidence": 0.97021484
+  },
+  {
+    "sid": "s000298",
+    "text": "That's why I put the word mini here.",
+    "start": 1801100,
+    "end": 1803740,
+    "speaker": "A",
+    "confidence": 0.9951172
+  },
+  {
+    "sid": "s000299",
+    "text": "Therefore, any other path that takes me to C is going to be larger than 2.",
+    "start": 1805100,
+    "end": 1811100,
+    "speaker": "A",
+    "confidence": 0.9243164
+  },
+  {
+    "sid": "s000300",
+    "text": "Therefore, finalizing C, saying this is the final path is correct.",
+    "start": 1811740,
+    "end": 1818300,
+    "speaker": "A",
+    "confidence": 0.8105469
+  },
+  {
+    "sid": "s000301",
+    "text": "The proof is basically this.",
+    "start": 1818700,
+    "end": 1821020,
+    "speaker": "A",
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000302",
+    "text": "Does it make sense?",
+    "start": 1822140,
+    "end": 1823260,
+    "speaker": "A",
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000303",
+    "text": "So how did I find this C idea is by trying a few other things, noticing that they all fail, and trying to reason why it failed.",
+    "start": 1826220,
+    "end": 1839310,
+    "speaker": "A",
+    "confidence": 0.9316406
+  },
+  {
+    "sid": "s000304",
+    "text": "And maybe as a next extension, I come up with this idea of all possibilities of paths that are not finalized, pick the minimum one.",
+    "start": 1841220,
+    "end": 1851220,
+    "speaker": "A",
+    "confidence": 0.9482422
+  },
+  {
+    "sid": "s000305",
+    "text": "Yes, please.",
+    "start": 1851300,
+    "end": 1852020,
+    "speaker": "A",
+    "confidence": 0.84106445
+  },
+  {
+    "sid": "s000306",
+    "text": "Instead of checking for what are the distances or finalized or not, why do we not just remove the edges that we're going?",
+    "start": 1852660,
+    "end": 1858500,
+    "speaker": "C",
+    "confidence": 0.96191406
+  },
+  {
+    "sid": "s000307",
+    "text": "So let's say if we're going from S to C, we can keep count of, okay, we cross the one, we cross the one, count is two, and then we can remove those edges.",
+    "start": 1859060,
+    "end": 1868350,
+    "speaker": "C",
+    "confidence": 0.9790039
+  },
+  {
+    "sid": "s000308",
+    "text": "So there only remains the passes that we haven't taken until we see the vertex that we look.",
+    "start": 1868750,
+    "end": 1875950,
+    "speaker": "C",
+    "confidence": 0.9902344
+  },
+  {
+    "sid": "s000309",
+    "text": "So you mean remove that?",
+    "start": 1875950,
+    "end": 1877310,
+    "speaker": "A",
+    "confidence": 0.9941406
+  },
+  {
+    "sid": "s000310",
+    "text": "Well, we keep count of it, which is 10, and then we removed it because we have already gotten to A.",
+    "start": 1878030,
+    "end": 1884270,
+    "speaker": "C",
+    "confidence": 0.9902344
+  },
+  {
+    "sid": "s000311",
+    "text": "But there exists other passes that we haven't already seen.",
+    "start": 1884430,
+    "end": 1887910,
+    "speaker": "C",
+    "confidence": 0.99658203
+  },
+  {
+    "sid": "s000312",
+    "text": "So we start taking those until certain vertex is found.",
+    "start": 1887910,
+    "end": 1891800,
+    "speaker": "C",
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000313",
+    "text": "So what is it that we remove?",
+    "start": 1891800,
+    "end": 1893480,
+    "speaker": "A",
+    "confidence": 0.99560547
+  },
+  {
+    "sid": "s000314",
+    "text": "I the edges that we visit.",
+    "start": 1893640,
+    "end": 1895880,
+    "speaker": "C",
+    "confidence": 0.5600586
+  },
+  {
+    "sid": "s000315",
+    "text": "Why Would we remove them?",
+    "start": 1897240,
+    "end": 1899040,
+    "speaker": "A",
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000316",
+    "text": "They got.",
+    "start": 1899040,
+    "end": 1899720,
+    "speaker": "A",
+    "confidence": 0.7626953
+  },
+  {
+    "sid": "s000317",
+    "text": "You mean this is like this is finalized?",
+    "start": 1899800,
+    "end": 1902840,
+    "speaker": "A",
+    "confidence": 0.9970703
+  },
+  {
+    "sid": "s000318",
+    "text": "I don't deal with this anymore.",
+    "start": 1902840,
+    "end": 1904600,
+    "speaker": "A",
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000319",
+    "text": "Well, I keep count of it and I just remove it because I've taken that path already towards my vertex that I'm looking for.",
+    "start": 1904760,
+    "end": 1912040,
+    "speaker": "C",
+    "confidence": 0.99658203
+  },
+  {
+    "sid": "s000320",
+    "text": "So.",
+    "start": 1912200,
+    "end": 1912560,
+    "speaker": "A",
+    "confidence": 0.6508789
+  },
+  {
+    "sid": "s000321",
+    "text": "So by putting this as one, it means you don't need to.",
+    "start": 1912560,
+    "end": 1915720,
+    "speaker": "A",
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000322",
+    "text": "You don't need to physically remove it.",
+    "start": 1917410,
+    "end": 1919410,
+    "speaker": "A",
+    "confidence": 0.9790039
+  },
+  {
+    "sid": "s000323",
+    "text": "Maybe that's what you're saying, but you're saying, because I have one, I know something about this path already.",
+    "start": 1919410,
+    "end": 1925890,
+    "speaker": "A",
+    "confidence": 0.9963379
+  },
+  {
+    "sid": "s000324",
+    "text": "That's fine.",
+    "start": 1925890,
+    "end": 1926650,
+    "speaker": "A",
+    "confidence": 0.9978841
+  },
+  {
+    "sid": "s000325",
+    "text": "That's implementation detail.",
+    "start": 1926650,
+    "end": 1928290,
+    "speaker": "A",
+    "confidence": 0.9788411
+  },
+  {
+    "sid": "s000326",
+    "text": "We are after a higher level idea, an algorithm.",
+    "start": 1929730,
+    "end": 1934930,
+    "speaker": "A",
+    "confidence": 0.56640625
+  },
+  {
+    "sid": "s000327",
+    "text": "Then when we get to the bottom, how do we implement it?",
+    "start": 1935410,
+    "end": 1938930,
+    "speaker": "A",
+    "confidence": 0.98779297
+  },
+  {
+    "sid": "s000328",
+    "text": "Remove edges, add edges, keep track of these temporary numbers, whatever those come kind of at the end.",
+    "start": 1939010,
+    "end": 1946380,
+    "speaker": "A",
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000329",
+    "text": "Before that, we have a higher level idea always that we need to be comfortable.",
+    "start": 1946780,
+    "end": 1951980,
+    "speaker": "A",
+    "confidence": 1.0
+  },
+  {
+    "sid": "s000330",
+    "text": "Yes, please.",
+    "start": 1953020,
+    "end": 1953740,
+    "speaker": "A",
+    "confidence": 0.9951172
+  },
+  {
+    "sid": "s000331",
+    "text": "I'm sorry, can you explain what the.",
+    "start": 1953900,
+    "end": 1956420,
+    "speaker": "C",
+    "confidence": 0.88216144
+  },
+  {
+    "sid": "s000332",
+    "text": "Subset that we're choosing is?",
+    "start": 1956420,
+    "end": 1959180,
+    "speaker": "A",
+    "confidence": 0.98779297
+  },
+  {
+    "sid": "s000333",
+    "text": "Yes.",
+    "start": 1959180,
+    "end": 1959660,
+    "speaker": "A",
+    "confidence": 0.9445801
+  },
+  {
+    "sid": "s000334",
+    "text": "First off, let's do an example here.",
+    "start": 1963020,
+    "end": 1966220,
+    "speaker": "A",
+    "confidence": 0.9970703
+  },
+  {
+    "sid": "s000335",
+    "text": "The subset is A.",
+    "start": 1966700,
+    "end": 1968070,
+    "speaker": "A",
+    "confidence": 0.9897461
+  },
+  {
+    "sid": "s000336",
+    "text": "A is reachable to S. Now there might be many vertices here that are not reachable to S. Their distances are not finalized yet.",
+    "start": 1968220,
+    "end": 1979260,
+    "speaker": "A",
+    "confidence": 0.9238281
+  },
+  {
+    "sid": "s000337",
+    "text": "Okay, so A is reachable to S. C is reachable to SV of B.",
+    "start": 1979740,
+    "end": 1986220,
+    "speaker": "A",
+    "confidence": 0.89371747
+  },
+  {
+    "sid": "s000338",
+    "text": "So these two, and there might be many other vertices here.",
+    "start": 1986780,
+    "end": 1990780,
+    "speaker": "A",
+    "confidence": 0.9921875
+  },
+  {
+    "sid": "s000339",
+    "text": "That's so so far are not reachable to us.",
+    "start": 1993260,
+    "end": 1995850,
+    "speaker": "A",
+    "confidence": 0.8601888
+  },
+  {
+    "sid": "s000340",
+    "text": "They are not adjacent to something that's finalized.",
+    "start": 1996250,
+    "end": 1999210,
+    "speaker": "A",
+    "confidence": 0.9614258
+  },
+  {
+    "sid": "s000341",
+    "text": "This is finalized.",
+    "start": 1999530,
+    "end": 2000810,
+    "speaker": "A",
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000342",
+    "text": "This is finalized.",
+    "start": 2000810,
+    "end": 2001850,
+    "speaker": "A",
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000343",
+    "text": "So all the neighbors of finalized one, that's the subset.",
+    "start": 2002250,
+    "end": 2006090,
+    "speaker": "A",
+    "confidence": 0.96972656
+  },
+  {
+    "sid": "s000344",
+    "text": "And the proof is based on that of all these, you pick the minimum one.",
+    "start": 2006650,
+    "end": 2011690,
+    "speaker": "A",
+    "confidence": 0.59228516
+  },
+  {
+    "sid": "s000345",
+    "text": "So we have three types of weights.",
+    "start": 2014330,
+    "end": 2018970,
+    "speaker": "A",
+    "confidence": 0.9814453
+  },
+  {
+    "sid": "s000346",
+    "text": "One, one is S to itself.",
+    "start": 2019130,
+    "end": 2020700,
+    "speaker": "A",
+    "confidence": 0.44628906
+  },
+  {
+    "sid": "s000347",
+    "text": "That's trivial.",
+    "start": 2020700,
+    "end": 2021620,
+    "speaker": "A",
+    "confidence": 0.9820964
+  },
+  {
+    "sid": "s000348",
+    "text": "That's why I put S way up there in a category by itself.",
+    "start": 2021940,
+    "end": 2025540,
+    "speaker": "A",
+    "confidence": 0.9967448
+  },
+  {
+    "sid": "s000349",
+    "text": "Then there are the brackets that are vertices whose weight have been finalized, meaning that's the shortest time.",
+    "start": 2026260,
+    "end": 2034340,
+    "speaker": "A",
+    "confidence": 0.9970703
+  },
+  {
+    "sid": "s000350",
+    "text": "I put somebody here only when I'm sure its distance is finalized.",
+    "start": 2034420,
+    "end": 2040180,
+    "speaker": "A",
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000351",
+    "text": "I never have to touch that again.",
+    "start": 2040180,
+    "end": 2041940,
+    "speaker": "A",
+    "confidence": 0.72753906
+  },
+  {
+    "sid": "s000352",
+    "text": "So I put D in the bracket parts.",
+    "start": 2042660,
+    "end": 2045720,
+    "speaker": "A",
+    "confidence": 0.9921875
+  },
+  {
+    "sid": "s000353",
+    "text": "Then I see A and C. They come into temporary parts.",
+    "start": 2046120,
+    "end": 2050680,
+    "speaker": "A",
+    "confidence": 0.8774414
+  },
+  {
+    "sid": "s000354",
+    "text": "Yeah.",
+    "start": 2052520,
+    "end": 2053080,
+    "speaker": "A",
+    "confidence": 0.9868164
+  },
+  {
+    "sid": "s000355",
+    "text": "Both paths to A represented every path.",
+    "start": 2053880,
+    "end": 2059160,
+    "speaker": "A",
+    "confidence": 0.88964844
+  },
+  {
+    "sid": "s000356",
+    "text": "Yes, every path that is.",
+    "start": 2059160,
+    "end": 2060760,
+    "speaker": "A",
+    "confidence": 0.98535156
+  },
+  {
+    "sid": "s000357",
+    "text": "So I'll show you the data structure for keeping track of both of these paths.",
+    "start": 2061160,
+    "end": 2066200,
+    "speaker": "A",
+    "confidence": 0.9819336
+  },
+  {
+    "sid": "s000358",
+    "text": "But for now, yes, we need to have them all.",
+    "start": 2066200,
+    "end": 2068680,
+    "speaker": "A",
+    "confidence": 0.9970703
+  },
+  {
+    "sid": "s000359",
+    "text": "That has a weird 10 and then also going all the way around that.",
+    "start": 2070930,
+    "end": 2074690,
+    "speaker": "A",
+    "confidence": 0.87939453
+  },
+  {
+    "sid": "s000360",
+    "text": "Because both of those are in there.",
+    "start": 2074690,
+    "end": 2076050,
+    "speaker": "C",
+    "confidence": 0.56103516
+  },
+  {
+    "sid": "s000361",
+    "text": "No, so that's the whole point.",
+    "start": 2076850,
+    "end": 2079330,
+    "speaker": "A",
+    "confidence": 0.8666992
+  },
+  {
+    "sid": "s000362",
+    "text": "The path that goes all the way, let's say this way and back to C. I haven't seen these.",
+    "start": 2079570,
+    "end": 2085970,
+    "speaker": "A",
+    "confidence": 0.99121094
+  },
+  {
+    "sid": "s000363",
+    "text": "So these are temporary paths for numbers.",
+    "start": 2086370,
+    "end": 2089090,
+    "speaker": "A",
+    "confidence": 0.99658203
+  },
+  {
+    "sid": "s000364",
+    "text": "So I know the temporary distance from C to S this way is 2.",
+    "start": 2089090,
+    "end": 2093730,
+    "speaker": "A",
+    "confidence": 0.9902344
+  },
+  {
+    "sid": "s000365",
+    "text": "That freight is 11.",
+    "start": 2094850,
+    "end": 2096210,
+    "speaker": "A",
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000366",
+    "text": "That's.",
+    "start": 2096299,
+    "end": 2096699,
+    "speaker": "A",
+    "confidence": 0.65096027
+  },
+  {
+    "sid": "s000367",
+    "text": "I mean, like to A, you could go to B, C. Sorry, say that again.",
+    "start": 2097579,
+    "end": 2106179,
+    "speaker": "A",
+    "confidence": 0.96533203
+  },
+  {
+    "sid": "s000368",
+    "text": "I mean, is like the path from S to A, which it has a weight of 10.",
+    "start": 2106179,
+    "end": 2109659,
+    "speaker": "B",
+    "confidence": 0.9975586
+  },
+  {
+    "sid": "s000369",
+    "text": "And I'm also going all the way around.",
+    "start": 2109659,
+    "end": 2111419,
+    "speaker": "B",
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000370",
+    "text": "So using B, C, and then back A are those on both of those paths?",
+    "start": 2111419,
+    "end": 2115579,
+    "speaker": "A",
+    "confidence": 0.9873047
+  },
+  {
+    "sid": "s000371",
+    "text": "No, I only.",
+    "start": 2116459,
+    "end": 2117739,
+    "speaker": "A",
+    "confidence": 0.9946289
+  },
+  {
+    "sid": "s000372",
+    "text": "So far, I only know the path from C to S and from A to S. And so I have two vertices whose distance to S I know so far.",
+    "start": 2118139,
+    "end": 2129830,
+    "speaker": "A",
+    "confidence": 1.0
+  },
+  {
+    "sid": "s000373",
+    "text": "I pick the minimum one, C. And I can prove, as I did here, that this distance CBS is going to be the minimum path.",
+    "start": 2130230,
+    "end": 2141830,
+    "speaker": "A",
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000374",
+    "text": "Therefore, this becomes from temporary 2 to permanent 2.",
+    "start": 2141910,
+    "end": 2146310,
+    "speaker": "A",
+    "confidence": 0.9992676
+  },
+  {
+    "sid": "s000375",
+    "text": "Then later I need to do something with A. I haven't talked about that.",
+    "start": 2147440,
+    "end": 2151360,
+    "speaker": "A",
+    "confidence": 0.98876953
+  },
+  {
+    "sid": "s000376",
+    "text": "A is going to remain in the temporary one.",
+    "start": 2151520,
+    "end": 2154880,
+    "speaker": "A",
+    "confidence": 0.9975586
+  },
+  {
+    "sid": "s000377",
+    "text": "So these are permanent, These are temporary.",
+    "start": 2155520,
+    "end": 2159520,
+    "speaker": "A",
+    "confidence": 0.97216797
+  },
+  {
+    "sid": "s000378",
+    "text": "So one of these guys, Y is going to move from here to permanent, and everyone else is going to remain as temporary.",
+    "start": 2160880,
+    "end": 2171040,
+    "speaker": "A",
+    "confidence": 0.984375
+  },
+  {
+    "sid": "s000379",
+    "text": "There are also vertices that I haven't even visited.",
+    "start": 2173130,
+    "end": 2176570,
+    "speaker": "A",
+    "confidence": 0.9609375
+  },
+  {
+    "sid": "s000380",
+    "text": "Where do they go?",
+    "start": 2176570,
+    "end": 2177610,
+    "speaker": "A",
+    "confidence": 0.9970703
+  },
+  {
+    "sid": "s000381",
+    "text": "If that's an implementation detail, people say, let's assign a weight of infinity to that temporary weight of infinity.",
+    "start": 2178890,
+    "end": 2188330,
+    "speaker": "A",
+    "confidence": 0.7480469
+  },
+  {
+    "sid": "s000382",
+    "text": "So put all of these in this category, just leave their weight as infinity.",
+    "start": 2188490,
+    "end": 2194930,
+    "speaker": "A",
+    "confidence": 0.9951172
+  },
+  {
+    "sid": "s000383",
+    "text": "That's one way, implementation way.",
+    "start": 2194930,
+    "end": 2198170,
+    "speaker": "A",
+    "confidence": 0.9977214
+  },
+  {
+    "sid": "s000384",
+    "text": "Another way is for these that I haven't even seen, create yet another category called unreachables.",
+    "start": 2198170,
+    "end": 2205410,
+    "speaker": "A",
+    "confidence": 0.88134766
+  },
+  {
+    "sid": "s000385",
+    "text": "Same thing.",
+    "start": 2206690,
+    "end": 2207330,
+    "speaker": "A",
+    "confidence": 0.9951172
+  },
+  {
+    "sid": "s000386",
+    "text": "So personal implementation preference, please.",
+    "start": 2207650,
+    "end": 2214290,
+    "speaker": "A",
+    "confidence": 0.96191406
+  },
+  {
+    "sid": "s000387",
+    "text": "Probably a little bit difficulty, I guess.",
+    "start": 2214610,
+    "end": 2216650,
+    "speaker": "A",
+    "confidence": 0.73795575
+  },
+  {
+    "sid": "s000388",
+    "text": "Understanding how like two, you can put.",
+    "start": 2216650,
+    "end": 2218370,
+    "speaker": "C",
+    "confidence": 0.9875488
+  },
+  {
+    "sid": "s000389",
+    "text": "Brackets around it when you don't know all the paths to get to it.",
+    "start": 2218370,
+    "end": 2221330,
+    "speaker": "A",
+    "confidence": 0.99593097
+  },
+  {
+    "sid": "s000390",
+    "text": "That's the whole proof there.",
+    "start": 2221650,
+    "end": 2223410,
+    "speaker": "A",
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000391",
+    "text": "Okay, so any other path that comes to C gotta go through a yes or no.",
+    "start": 2223970,
+    "end": 2231500,
+    "speaker": "A",
+    "confidence": 0.92496747
+  },
+  {
+    "sid": "s000392",
+    "text": "Okay, so this 10 is already greater than 2.",
+    "start": 2231980,
+    "end": 2236620,
+    "speaker": "A",
+    "confidence": 0.84521484
+  },
+  {
+    "sid": "s000393",
+    "text": "So any other path.",
+    "start": 2237100,
+    "end": 2238620,
+    "speaker": "A",
+    "confidence": 0.9140625
+  },
+  {
+    "sid": "s000394",
+    "text": "There are billions of paths going to C. They have to go through 10.",
+    "start": 2238700,
+    "end": 2243340,
+    "speaker": "A",
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000395",
+    "text": "All the weights are positive.",
+    "start": 2244140,
+    "end": 2245660,
+    "speaker": "A",
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000396",
+    "text": "10 plus a positive number is going to be larger than 2 because 2 is larger than 10.",
+    "start": 2246140,
+    "end": 2253190,
+    "speaker": "A",
+    "confidence": 0.99854
+  },
+  {
+    "sid": "s000397",
+    "text": "Why is 2 larger than 10?",
+    "start": 2253430,
+    "end": 2255790,
+    "speaker": "A",
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000398",
+    "text": "Because I picked it that way.",
+    "start": 2255790,
+    "end": 2257430,
+    "speaker": "A",
+    "confidence": 0.9975586
+  },
+  {
+    "sid": "s000399",
+    "text": "That's why I wrote minimum.",
+    "start": 2257590,
+    "end": 2259190,
+    "speaker": "A",
+    "confidence": 0.9973958
+  },
+  {
+    "sid": "s000400",
+    "text": "That's T. Make sense?",
+    "start": 2259190,
+    "end": 2261670,
+    "speaker": "A",
+    "confidence": 0.9941406
+  },
+  {
+    "sid": "s000401",
+    "text": "And what you just asked, that's the T part of the proof.",
+    "start": 2263830,
+    "end": 2268150,
+    "speaker": "A",
+    "confidence": 0.95996094
+  },
+  {
+    "sid": "s000402",
+    "text": "The rest of it are miscellaneous.",
+    "start": 2268150,
+    "end": 2270030,
+    "speaker": "A",
+    "confidence": 0.9970703
+  },
+  {
+    "sid": "s000403",
+    "text": "That's the main operation.",
+    "start": 2270030,
+    "end": 2271510,
+    "speaker": "A",
+    "confidence": 0.9946289
+  },
+  {
+    "sid": "s000404",
+    "text": "First we did it for just the very first one.",
+    "start": 2272310,
+    "end": 2275350,
+    "speaker": "A",
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000405",
+    "text": "But in general, it's not really the same idea and the same proof.",
+    "start": 2275510,
+    "end": 2279210,
+    "speaker": "A",
+    "confidence": 0.99658203
+  },
+  {
+    "sid": "s000406",
+    "text": "So the rest of it is, how do I implement it?",
+    "start": 2280410,
+    "end": 2283370,
+    "speaker": "A",
+    "confidence": 0.95751953
+  },
+  {
+    "sid": "s000407",
+    "text": "How do I.",
+    "start": 2283530,
+    "end": 2284410,
+    "speaker": "A",
+    "confidence": 0.6357422
+  },
+  {
+    "sid": "s000408",
+    "text": "What kind of data structure?",
+    "start": 2284570,
+    "end": 2286130,
+    "speaker": "A",
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000409",
+    "text": "What you just asked?",
+    "start": 2286130,
+    "end": 2287170,
+    "speaker": "A",
+    "confidence": 0.9921875
+  },
+  {
+    "sid": "s000410",
+    "text": "That's the key part of the proof.",
+    "start": 2287170,
+    "end": 2288970,
+    "speaker": "A",
+    "confidence": 0.9814453
+  },
+  {
+    "sid": "s000411",
+    "text": "Once you observe that the rest is trivial and most algorithms are kind of like that, there is a central team, we discover that the rest becomes easier.",
+    "start": 2289210,
+    "end": 2299770,
+    "speaker": "A",
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000412",
+    "text": "So if you want to write node to yourself.",
+    "start": 2300890,
+    "end": 2304490,
+    "speaker": "A",
+    "confidence": 0.9584961
+  },
+  {
+    "sid": "s000413",
+    "text": "How do I prove that?",
+    "start": 2304570,
+    "end": 2305930,
+    "speaker": "A",
+    "confidence": 0.99560547
+  },
+  {
+    "sid": "s000414",
+    "text": "Write to yourself.",
+    "start": 2308090,
+    "end": 2309450,
+    "speaker": "A",
+    "confidence": 0.9655762
+  },
+  {
+    "sid": "s000415",
+    "text": "The key point is min is gonna be the actual shortest path from Y to X.",
+    "start": 2309450,
+    "end": 2316970,
+    "speaker": "A",
+    "confidence": 0.9604492
+  },
+  {
+    "sid": "s000416",
+    "text": "That's the key hypothesis.",
+    "start": 2317050,
+    "end": 2321450,
+    "speaker": "A",
+    "confidence": 0.9973958
+  },
+  {
+    "sid": "s000417",
+    "text": "Once you prove that, the rest is easy.",
+    "start": 2321770,
+    "end": 2324010,
+    "speaker": "A",
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000418",
+    "text": "Please.",
+    "start": 2324970,
+    "end": 2325370,
+    "speaker": "A",
+    "confidence": 0.8852539
+  },
+  {
+    "sid": "s000419",
+    "text": "Does this also work for directive reactions?",
+    "start": 2325770,
+    "end": 2328170,
+    "speaker": "A",
+    "confidence": 0.97998047
+  },
+  {
+    "sid": "s000420",
+    "text": "Yes, most things that I say works for directed graph, unless I say otherwise.",
+    "start": 2328740,
+    "end": 2336820,
+    "speaker": "A",
+    "confidence": 0.9724121
+  },
+  {
+    "sid": "s000421",
+    "text": "Okay, so the way it goes is like this.",
+    "start": 2341300,
+    "end": 2345540,
+    "speaker": "A",
+    "confidence": 0.84521484
+  },
+  {
+    "sid": "s000422",
+    "text": "The way the algorithm proceeds.",
+    "start": 2345700,
+    "end": 2347620,
+    "speaker": "A",
+    "confidence": 0.9873047
+  },
+  {
+    "sid": "s000423",
+    "text": "Based on the example, based on what we did here, based on this proof, the algorithm preceding in the following MANNER, I have S0.",
+    "start": 2347620,
+    "end": 2364150,
+    "speaker": "A",
+    "confidence": 1.0
+  },
+  {
+    "sid": "s000424",
+    "text": "That's how I initialize my algorithm.",
+    "start": 2365350,
+    "end": 2368150,
+    "speaker": "A",
+    "confidence": 0.98860675
+  },
+  {
+    "sid": "s000425",
+    "text": "Then I have a set of vertices that are permanent.",
+    "start": 2368630,
+    "end": 2371990,
+    "speaker": "A",
+    "confidence": 0.9785156
+  },
+  {
+    "sid": "s000426",
+    "text": "And I have a set of vertices that are temporary.",
+    "start": 2374390,
+    "end": 2377430,
+    "speaker": "A",
+    "confidence": 0.9926758
+  },
+  {
+    "sid": "s000427",
+    "text": "Initially, there is nothing impermanent on the S. And everyone else is in temporary.",
+    "start": 2381120,
+    "end": 2389600,
+    "speaker": "A",
+    "confidence": 0.93652344
+  },
+  {
+    "sid": "s000428",
+    "text": "With some that says with all of them actually initially saying infinite weight because no one has been reached.",
+    "start": 2390640,
+    "end": 2399440,
+    "speaker": "A",
+    "confidence": 0.9423828
+  },
+  {
+    "sid": "s000429",
+    "text": "At the beginning of the algorithm, before I do anything, first step, set this to 00.",
+    "start": 2399760,
+    "end": 2406670,
+    "speaker": "A",
+    "confidence": 0.9951172
+  },
+  {
+    "sid": "s000430",
+    "text": "Nothing else has happened.",
+    "start": 2407150,
+    "end": 2408670,
+    "speaker": "A",
+    "confidence": 0.79589844
+  },
+  {
+    "sid": "s000431",
+    "text": "Then you look at all neighbors of S, meaning of all these, you will update their value, which was originally for all of them, infinity.",
+    "start": 2409630,
+    "end": 2421870,
+    "speaker": "A",
+    "confidence": 0.99560547
+  },
+  {
+    "sid": "s000432",
+    "text": "Some of them, if they are directly connected to S, you go from infinity to one, you go from infinity to 10, and the other remain at infinity.",
+    "start": 2422830,
+    "end": 2437720,
+    "speaker": "A",
+    "confidence": 0.99609375
+  },
+  {
+    "sid": "s000433",
+    "text": "Okay, so in that example, C and all these X, Y, Z remain at infinity.",
+    "start": 2439160,
+    "end": 2445880,
+    "speaker": "A",
+    "confidence": 0.88134766
+  },
+  {
+    "sid": "s000434",
+    "text": "That after, right after I set S to zero, that's what's going to happen.",
+    "start": 2446360,
+    "end": 2451000,
+    "speaker": "A",
+    "confidence": 0.4790039
+  },
+  {
+    "sid": "s000435",
+    "text": "Step one of the algorithm, or step two of the algorithm.",
+    "start": 2451480,
+    "end": 2455640,
+    "speaker": "A",
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000436",
+    "text": "I update this line.",
+    "start": 2456600,
+    "end": 2458040,
+    "speaker": "A",
+    "confidence": 0.5991211
+  },
+  {
+    "sid": "s000437",
+    "text": "I take the minimum of these values happen to be one, I move one up here, so that becomes permanent.",
+    "start": 2460400,
+    "end": 2473200,
+    "speaker": "A",
+    "confidence": 0.9897461
+  },
+  {
+    "sid": "s000438",
+    "text": "And the way I picked one is the minimum of 1 10, infinity, infinity, infinity.",
+    "start": 2474960,
+    "end": 2482240,
+    "speaker": "A",
+    "confidence": 0.9848633
+  },
+  {
+    "sid": "s000439",
+    "text": "And based on what you asked, the proof, that must be the minimum ever.",
+    "start": 2485770,
+    "end": 2491930,
+    "speaker": "A",
+    "confidence": 0.9375
+  },
+  {
+    "sid": "s000440",
+    "text": "There is going to be a billion other paths that's going to go through here.",
+    "start": 2492330,
+    "end": 2496810,
+    "speaker": "A",
+    "confidence": 0.9970703
+  },
+  {
+    "sid": "s000441",
+    "text": "Because this is the minimum.",
+    "start": 2497130,
+    "end": 2498890,
+    "speaker": "A",
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000442",
+    "text": "All those billion other paths must go through other vertices.",
+    "start": 2499130,
+    "end": 2502730,
+    "speaker": "A",
+    "confidence": 0.9926758
+  },
+  {
+    "sid": "s000443",
+    "text": "They are already larger than mean, so anything extra is going to be larger.",
+    "start": 2502970,
+    "end": 2508090,
+    "speaker": "A",
+    "confidence": 0.8208008
+  },
+  {
+    "sid": "s000444",
+    "text": "Okay, so so far it's the initialization step.",
+    "start": 2510660,
+    "end": 2514500,
+    "speaker": "A",
+    "confidence": 0.94433594
+  },
+  {
+    "sid": "s000445",
+    "text": "Then for this, it will have edges going to some vertices.",
+    "start": 2516260,
+    "end": 2523140,
+    "speaker": "A",
+    "confidence": 0.9916992
+  },
+  {
+    "sid": "s000446",
+    "text": "I will update their value.",
+    "start": 2526180,
+    "end": 2528180,
+    "speaker": "A",
+    "confidence": 0.9711914
+  },
+  {
+    "sid": "s000447",
+    "text": "So if this value was 10, why was it 10?",
+    "start": 2530020,
+    "end": 2535100,
+    "speaker": "A",
+    "confidence": 0.99121094
+  },
+  {
+    "sid": "s000448",
+    "text": "Because it had a direct path to S. Now, because this became permanent, this value 10 may change.",
+    "start": 2535100,
+    "end": 2544080,
+    "speaker": "A",
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000449",
+    "text": "For example, if there was here an X of weight three, because I moved V up here, that 10 and three the minimum of, sorry, four, three plus one.",
+    "start": 2544160,
+    "end": 2561360,
+    "speaker": "A",
+    "confidence": 0.99316406
+  },
+  {
+    "sid": "s000450",
+    "text": "The minimum of those values becomes the new parenthesis value.",
+    "start": 2561840,
+    "end": 2565820,
+    "speaker": "A",
+    "confidence": 0.96435547
+  },
+  {
+    "sid": "s000451",
+    "text": "Because I just found a better way for A to go through S. That's that way.",
+    "start": 2566940,
+    "end": 2574060,
+    "speaker": "A",
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000452",
+    "text": "So I will reflect that, please.",
+    "start": 2574380,
+    "end": 2577900,
+    "speaker": "A",
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000453",
+    "text": "So you just don't look at the cost field.",
+    "start": 2577980,
+    "end": 2580140,
+    "speaker": "A",
+    "confidence": 0.95947266
+  },
+  {
+    "sid": "s000454",
+    "text": "You look at the total cost.",
+    "start": 2580860,
+    "end": 2582460,
+    "speaker": "A",
+    "confidence": 0.5258789
+  },
+  {
+    "sid": "s000455",
+    "text": "Right?",
+    "start": 2584860,
+    "end": 2585260,
+    "speaker": "A",
+    "confidence": 0.99560547
+  },
+  {
+    "sid": "s000456",
+    "text": "I look at.",
+    "start": 2585340,
+    "end": 2586140,
+    "speaker": "A",
+    "confidence": 0.9458008
+  },
+  {
+    "sid": "s000457",
+    "text": "Because what matters in this problem is how close are you to S?",
+    "start": 2586300,
+    "end": 2589980,
+    "speaker": "A",
+    "confidence": 0.9970703
+  },
+  {
+    "sid": "s000458",
+    "text": "How close you are to S is this value plus the new H1 plus 3.",
+    "start": 2590950,
+    "end": 2596230,
+    "speaker": "A",
+    "confidence": 0.9790039
+  },
+  {
+    "sid": "s000459",
+    "text": "And I already have a value 10.",
+    "start": 2596550,
+    "end": 2598710,
+    "speaker": "A",
+    "confidence": 0.95166016
+  },
+  {
+    "sid": "s000460",
+    "text": "So I can take the minimum.",
+    "start": 2598950,
+    "end": 2600590,
+    "speaker": "A",
+    "confidence": 0.9916992
+  },
+  {
+    "sid": "s000461",
+    "text": "And there might be other parts.",
+    "start": 2600590,
+    "end": 2602230,
+    "speaker": "A",
+    "confidence": 0.9848633
+  },
+  {
+    "sid": "s000462",
+    "text": "I take the minimum of all these, I update this with the minimum value and kind of.",
+    "start": 2602230,
+    "end": 2608710,
+    "speaker": "A",
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000463",
+    "text": "Why is it 3 plus 1?",
+    "start": 2608710,
+    "end": 2610310,
+    "speaker": "A",
+    "confidence": 0.9941406
+  },
+  {
+    "sid": "s000464",
+    "text": "Because the distance now from A to S is 3 plus 1.",
+    "start": 2610390,
+    "end": 2614150,
+    "speaker": "A",
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000465",
+    "text": "That's why I write 4, not 3.",
+    "start": 2614310,
+    "end": 2616910,
+    "speaker": "A",
+    "confidence": 0.9930013
+  },
+  {
+    "sid": "s000466",
+    "text": "Make sense?",
+    "start": 2619390,
+    "end": 2620110,
+    "speaker": "A",
+    "confidence": 0.6357422
+  },
+  {
+    "sid": "s000467",
+    "text": "That's it.",
+    "start": 2621710,
+    "end": 2622470,
+    "speaker": "A",
+    "confidence": 0.8364258
+  },
+  {
+    "sid": "s000468",
+    "text": "I told you.",
+    "start": 2622470,
+    "end": 2623230,
+    "speaker": "A",
+    "confidence": 0.9975586
+  },
+  {
+    "sid": "s000469",
+    "text": "Not the last step of the implementation, but we know how it goes now.",
+    "start": 2624110,
+    "end": 2628110,
+    "speaker": "A",
+    "confidence": 0.9941406
+  },
+  {
+    "sid": "s000470",
+    "text": "So I just move one of these up there and I updated the values, keep going of whatever else is left, Pick the minimum, move it up, update the values, keep doing that till everybody ends up in.",
+    "start": 2628350,
+    "end": 2643070,
+    "speaker": "A",
+    "confidence": 0.95703125
+  },
+  {
+    "sid": "s000471",
+    "text": "You're done.",
+    "start": 2643870,
+    "end": 2644430,
+    "speaker": "A",
+    "confidence": 0.8219401
+  },
+  {
+    "sid": "s000472",
+    "text": "Each step was based on that fact.",
+    "start": 2645630,
+    "end": 2648670,
+    "speaker": "A",
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000473",
+    "text": "That minimum will give you the shortest path.",
+    "start": 2648670,
+    "end": 2651710,
+    "speaker": "A",
+    "confidence": 0.9926758
+  },
+  {
+    "sid": "s000474",
+    "text": "Each step, therefore, is optimal.",
+    "start": 2652190,
+    "end": 2654430,
+    "speaker": "A",
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000475",
+    "text": "Therefore the entire algorithm is optimal.",
+    "start": 2654510,
+    "end": 2657070,
+    "speaker": "A",
+    "confidence": 0.8474121
+  },
+  {
+    "sid": "s000476",
+    "text": "So it's a greedy paradigm.",
+    "start": 2657230,
+    "end": 2659150,
+    "speaker": "A",
+    "confidence": 0.9863281
+  },
+  {
+    "sid": "s000477",
+    "text": "What mattered was how to carefully pick the next vertex.",
+    "start": 2661070,
+    "end": 2665390,
+    "speaker": "A",
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000478",
+    "text": "We tried three different ways of picking the next version vertex, and they all failed.",
+    "start": 2666110,
+    "end": 2671380,
+    "speaker": "A",
+    "confidence": 0.99365234
+  },
+  {
+    "sid": "s000479",
+    "text": "But because they failed, they gave us new ideas.",
+    "start": 2672020,
+    "end": 2675300,
+    "speaker": "A",
+    "confidence": 0.94189453
+  },
+  {
+    "sid": "s000480",
+    "text": "And those new ideas, one of them turned out to be actually optimal.",
+    "start": 2675940,
+    "end": 2679940,
+    "speaker": "A",
+    "confidence": 0.9794922
+  },
+  {
+    "sid": "s000481",
+    "text": "So it's creepy.",
+    "start": 2680180,
+    "end": 2681300,
+    "speaker": "A",
+    "confidence": 0.78125
+  },
+  {
+    "sid": "s000482",
+    "text": "There are billions of vertices that I haven't seen yet.",
+    "start": 2681780,
+    "end": 2685380,
+    "speaker": "A",
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000483",
+    "text": "Nevertheless, I insist that B or after that, C are the minimum.",
+    "start": 2686260,
+    "end": 2692180,
+    "speaker": "A",
+    "confidence": 0.87976074
+  },
+  {
+    "sid": "s000484",
+    "text": "And I want to finalize their paths, even though I haven't.",
+    "start": 2692500,
+    "end": 2697580,
+    "speaker": "A",
+    "confidence": 0.98046875
+  },
+  {
+    "sid": "s000485",
+    "text": "As you said, there are a billion other paths that takes me to C. But based on this observation, the distance from S to C is finalized at each step.",
+    "start": 2698300,
+    "end": 2710860,
+    "speaker": "A",
+    "confidence": 0.9970703
+  },
+  {
+    "sid": "s000486",
+    "text": "And that's the proof.",
+    "start": 2712780,
+    "end": 2713980,
+    "speaker": "A",
+    "confidence": 0.9790039
+  },
+  {
+    "sid": "s000487",
+    "text": "So I keep applying the proof.",
+    "start": 2714060,
+    "end": 2715900,
+    "speaker": "A",
+    "confidence": 0.9741211
+  },
+  {
+    "sid": "s000488",
+    "text": "One more vertex proof, one more step till I'm done with all the vertices.",
+    "start": 2716220,
+    "end": 2721800,
+    "speaker": "A",
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000489",
+    "text": "Again, I don't care if you know this algorithm or not.",
+    "start": 2725720,
+    "end": 2728800,
+    "speaker": "A",
+    "confidence": 0.9814453
+  },
+  {
+    "sid": "s000490",
+    "text": "Actually, I can, but that's not the point.",
+    "start": 2728800,
+    "end": 2731320,
+    "speaker": "A",
+    "confidence": 0.9941406
+  },
+  {
+    "sid": "s000491",
+    "text": "The point is everything that happened before this last step, the thinking process, the failing of some ideas.",
+    "start": 2731480,
+    "end": 2738440,
+    "speaker": "A",
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000492",
+    "text": "I wasn't afraid.",
+    "start": 2738440,
+    "end": 2739400,
+    "speaker": "A",
+    "confidence": 0.9975586
+  },
+  {
+    "sid": "s000493",
+    "text": "You gave me a few ideas that actually helped me come up with this.",
+    "start": 2739560,
+    "end": 2743480,
+    "speaker": "A",
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000494",
+    "text": "So don't be afraid of coming up with these new ideas.",
+    "start": 2743720,
+    "end": 2746510,
+    "speaker": "A",
+    "confidence": 0.97753906
+  },
+  {
+    "sid": "s000495",
+    "text": "Ideas.",
+    "start": 2746740,
+    "end": 2747140,
+    "speaker": "A",
+    "confidence": 0.8557129
+  },
+  {
+    "sid": "s000496",
+    "text": "Even though you know it's going to fade, or maybe it's going to fade, but you're going to learn from it because you're going to answer, why did it fade?",
+    "start": 2747620,
+    "end": 2756420,
+    "speaker": "A",
+    "confidence": 0.9951172
+  },
+  {
+    "sid": "s000497",
+    "text": "Then?",
+    "start": 2758340,
+    "end": 2758700,
+    "speaker": "A",
+    "confidence": 0.9277344
+  },
+  {
+    "sid": "s000498",
+    "text": "Hopefully, that suggests new ways of solving a problem.",
+    "start": 2758700,
+    "end": 2761940,
+    "speaker": "A",
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000499",
+    "text": "So that thinking process is really what matters in this course.",
+    "start": 2763220,
+    "end": 2767220,
+    "speaker": "A",
+    "confidence": 0.8652344
+  },
+  {
+    "sid": "s000500",
+    "text": "This algorithm is called Dijkstra.",
+    "start": 2769300,
+    "end": 2771780,
+    "speaker": "A",
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000501",
+    "text": "Dijkstra is Shortest Path Algorithm.",
+    "start": 2774310,
+    "end": 2776510,
+    "speaker": "A",
+    "confidence": 0.9886882
+  },
+  {
+    "sid": "s000502",
+    "text": "A professor at UT Austin named Dijkstra came up with this algorithm in the 70s.",
+    "start": 2776510,
+    "end": 2782070,
+    "speaker": "A",
+    "confidence": 0.99072266
+  },
+  {
+    "sid": "s000503",
+    "text": "So as of today, we call it Dijkstra.",
+    "start": 2782470,
+    "end": 2784870,
+    "speaker": "A",
+    "confidence": 0.95166016
+  },
+  {
+    "sid": "s000504",
+    "text": "And it's a very efficient algorithm, implementation wise.",
+    "start": 2785510,
+    "end": 2790070,
+    "speaker": "A",
+    "confidence": 0.8964844
+  },
+  {
+    "sid": "s000505",
+    "text": "So many tools right now.",
+    "start": 2790230,
+    "end": 2792310,
+    "speaker": "A",
+    "confidence": 0.9326172
+  },
+  {
+    "sid": "s000506",
+    "text": "Many software out there use this algorithm in the past, since seven minutes has been the best.",
+    "start": 2792630,
+    "end": 2799360,
+    "speaker": "A",
+    "confidence": 0.98779297
+  },
+  {
+    "sid": "s000507",
+    "text": "Please, what's the runtime?",
+    "start": 2800720,
+    "end": 2802240,
+    "speaker": "A",
+    "confidence": 0.95458984
+  },
+  {
+    "sid": "s000508",
+    "text": "We'll get to that.",
+    "start": 2803200,
+    "end": 2804240,
+    "speaker": "A",
+    "confidence": 0.89404297
+  },
+  {
+    "sid": "s000509",
+    "text": "So I get confused personally very quickly.",
+    "start": 2804320,
+    "end": 2808240,
+    "speaker": "A",
+    "confidence": 0.9140625
+  },
+  {
+    "sid": "s000510",
+    "text": "So I don't want to confuse things.",
+    "start": 2808560,
+    "end": 2810240,
+    "speaker": "A",
+    "confidence": 0.7949219
+  },
+  {
+    "sid": "s000511",
+    "text": "First I play with the problem, do a few examples.",
+    "start": 2810400,
+    "end": 2814079,
+    "speaker": "A",
+    "confidence": 0.9916992
+  },
+  {
+    "sid": "s000512",
+    "text": "I do an algorithm, it fails, then I improve the algorithm.",
+    "start": 2814240,
+    "end": 2819040,
+    "speaker": "A",
+    "confidence": 0.99121094
+  },
+  {
+    "sid": "s000513",
+    "text": "Now I have confidence that my algorithm is going to work.",
+    "start": 2819040,
+    "end": 2822320,
+    "speaker": "A",
+    "confidence": 0.98535156
+  },
+  {
+    "sid": "s000514",
+    "text": "Now I'm going to improve, invest the time to get into details on it.",
+    "start": 2822480,
+    "end": 2826240,
+    "speaker": "A",
+    "confidence": 0.9589844
+  },
+  {
+    "sid": "s000515",
+    "text": "Very last, usually the very last step.",
+    "start": 2827040,
+    "end": 2829440,
+    "speaker": "A",
+    "confidence": 0.9277344
+  },
+  {
+    "sid": "s000516",
+    "text": "And when you do the last step, that's maybe a good time to talk about data structures.",
+    "start": 2829600,
+    "end": 2836080,
+    "speaker": "A",
+    "confidence": 0.5620117
+  },
+  {
+    "sid": "s000517",
+    "text": "Please, could you explain then how we can finalize C without finalizing A?",
+    "start": 2836880,
+    "end": 2841680,
+    "speaker": "A",
+    "confidence": 0.8540039
+  },
+  {
+    "sid": "s000518",
+    "text": "Right, so the reason is this.",
+    "start": 2842640,
+    "end": 2845200,
+    "speaker": "A",
+    "confidence": 0.9946289
+  },
+  {
+    "sid": "s000519",
+    "text": "The reason is this.",
+    "start": 2845680,
+    "end": 2847040,
+    "speaker": "A",
+    "confidence": 0.9970703
+  },
+  {
+    "sid": "s000520",
+    "text": "If C of A, these two numbers, this and that, these are the only vertices that are reachable from S so far.",
+    "start": 2847680,
+    "end": 2859210,
+    "speaker": "A",
+    "confidence": 0.91845703
+  },
+  {
+    "sid": "s000521",
+    "text": "Like this one is not yet.",
+    "start": 2859370,
+    "end": 2861210,
+    "speaker": "A",
+    "confidence": 0.90966797
+  },
+  {
+    "sid": "s000522",
+    "text": "Of all these numbers, I pick the minimum.",
+    "start": 2861850,
+    "end": 2864650,
+    "speaker": "A",
+    "confidence": 0.99365234
+  },
+  {
+    "sid": "s000523",
+    "text": "This mean is the same as this mean.",
+    "start": 2866170,
+    "end": 2869290,
+    "speaker": "A",
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000524",
+    "text": "That's the key to optimality, to proving optimality of the Android.",
+    "start": 2869770,
+    "end": 2874810,
+    "speaker": "A",
+    "confidence": 0.9970703
+  },
+  {
+    "sid": "s000525",
+    "text": "Okay, so by contradiction, if there was some other path that would go to C, not this one, then maybe I should wait for that.",
+    "start": 2875060,
+    "end": 2886500,
+    "speaker": "A",
+    "confidence": 0.9404297
+  },
+  {
+    "sid": "s000526",
+    "text": "But if there was some other path, it will go through this.",
+    "start": 2886740,
+    "end": 2890020,
+    "speaker": "A",
+    "confidence": 0.9707031
+  },
+  {
+    "sid": "s000527",
+    "text": "This is already 10 is larger than 2 and we don't have any negative edges.",
+    "start": 2891220,
+    "end": 2897380,
+    "speaker": "A",
+    "confidence": 0.82666016
+  },
+  {
+    "sid": "s000528",
+    "text": "Therefore 10 has a positive number is going to be larger than 2 because 10 is larger than 2.",
+    "start": 2897860,
+    "end": 2905440,
+    "speaker": "A",
+    "confidence": 0.7644043
+  },
+  {
+    "sid": "s000529",
+    "text": "That's the key step of the proof.",
+    "start": 2905520,
+    "end": 2908160,
+    "speaker": "A",
+    "confidence": 0.9967448
+  },
+  {
+    "sid": "s000530",
+    "text": "And before back here, I have the base case of that proof.",
+    "start": 2908960,
+    "end": 2913840,
+    "speaker": "A",
+    "confidence": 0.96435547
+  },
+  {
+    "sid": "s000531",
+    "text": "So this is the part that you want to be super comfortable with because that's the crux of the proof.",
+    "start": 2915520,
+    "end": 2922640,
+    "speaker": "A",
+    "confidence": 0.8808594
+  },
+  {
+    "sid": "s000532",
+    "text": "The rest is the stitching things to be together.",
+    "start": 2924160,
+    "end": 2926490,
+    "speaker": "A",
+    "confidence": 0.9892578
+  },
+  {
+    "sid": "s000533",
+    "text": "Please.",
+    "start": 2929530,
+    "end": 2929930,
+    "speaker": "A",
+    "confidence": 0.9604492
+  },
+  {
+    "sid": "s000534",
+    "text": "So if you had like another edge that.",
+    "start": 2931290,
+    "end": 2933850,
+    "speaker": "C",
+    "confidence": 0.9946289
+  },
+  {
+    "sid": "s000535",
+    "text": "Would that.",
+    "start": 2937770,
+    "end": 2938490,
+    "speaker": "A",
+    "confidence": 0.625
+  },
+  {
+    "sid": "s000536",
+    "text": "Sorry, I don't follow.",
+    "start": 2942890,
+    "end": 2944010,
+    "speaker": "A",
+    "confidence": 0.84244794
+  },
+  {
+    "sid": "s000537",
+    "text": "Do you want to come and drive?",
+    "start": 2944010,
+    "end": 2945290,
+    "speaker": "A",
+    "confidence": 0.9941406
+  },
+  {
+    "sid": "s000538",
+    "text": "You have two color choices.",
+    "start": 2947850,
+    "end": 2949610,
+    "speaker": "A",
+    "confidence": 0.9970703
+  },
+  {
+    "sid": "s000539",
+    "text": "It.",
+    "start": 2977540,
+    "end": 2977780,
+    "speaker": "A",
+    "confidence": 0.8183594
+  },
+  {
+    "sid": "s000540",
+    "text": "There's an F here.",
+    "start": 3002990,
+    "end": 3003710,
+    "speaker": "A",
+    "confidence": 0.6958008
+  },
+  {
+    "sid": "s000541",
+    "text": "That's of one.",
+    "start": 3003710,
+    "end": 3005590,
+    "speaker": "C",
+    "confidence": 0.9820964
+  },
+  {
+    "sid": "s000542",
+    "text": "Yeah.",
+    "start": 3005590,
+    "end": 3006070,
+    "speaker": "A",
+    "confidence": 0.8769531
+  },
+  {
+    "sid": "s000543",
+    "text": "Would this two, like be temporary?",
+    "start": 3006070,
+    "end": 3008830,
+    "speaker": "C",
+    "confidence": 0.96484375
+  },
+  {
+    "sid": "s000544",
+    "text": "Because you have a nice.",
+    "start": 3008830,
+    "end": 3010030,
+    "speaker": "C",
+    "confidence": 0.9892578
+  },
+  {
+    "sid": "s000545",
+    "text": "No.",
+    "start": 3010910,
+    "end": 3011270,
+    "speaker": "A",
+    "confidence": 0.89697266
+  },
+  {
+    "sid": "s000546",
+    "text": "Okay, thank you.",
+    "start": 3011270,
+    "end": 3012230,
+    "speaker": "A",
+    "confidence": 0.97835284
+  },
+  {
+    "sid": "s000547",
+    "text": "I got it.",
+    "start": 3012230,
+    "end": 3012990,
+    "speaker": "A",
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000548",
+    "text": "So let's take this example, S. So this timing.",
+    "start": 3014510,
+    "end": 3020110,
+    "speaker": "A",
+    "confidence": 0.9975586
+  },
+  {
+    "sid": "s000549",
+    "text": "Okay, this is too complex for me.",
+    "start": 3022670,
+    "end": 3026990,
+    "speaker": "A",
+    "confidence": 0.8819987
+  },
+  {
+    "sid": "s000550",
+    "text": "Too many things are happening.",
+    "start": 3026990,
+    "end": 3028430,
+    "speaker": "A",
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000551",
+    "text": "It confuses me a lot.",
+    "start": 3028840,
+    "end": 3030360,
+    "speaker": "A",
+    "confidence": 0.9760742
+  },
+  {
+    "sid": "s000552",
+    "text": "So I go back to the basic.",
+    "start": 3030440,
+    "end": 3032240,
+    "speaker": "A",
+    "confidence": 0.99658203
+  },
+  {
+    "sid": "s000553",
+    "text": "To the algorithm.",
+    "start": 3032240,
+    "end": 3033160,
+    "speaker": "A",
+    "confidence": 0.9199219
+  },
+  {
+    "sid": "s000554",
+    "text": "The algorithm says, one, set this to be temporary one, right?",
+    "start": 3033160,
+    "end": 3038120,
+    "speaker": "A",
+    "confidence": 0.97021484
+  },
+  {
+    "sid": "s000555",
+    "text": "Because S is permanent.",
+    "start": 3038680,
+    "end": 3041640,
+    "speaker": "A",
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000556",
+    "text": "This is a neighbor of S. Anything that's a neighbor of S, I can put a parenthesis on it.",
+    "start": 3041880,
+    "end": 3047800,
+    "speaker": "A",
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000557",
+    "text": "The rest are infinity.",
+    "start": 3047880,
+    "end": 3049320,
+    "speaker": "A",
+    "confidence": 0.94091797
+  },
+  {
+    "sid": "s000558",
+    "text": "This is 10 what is this right now?",
+    "start": 3049720,
+    "end": 3055730,
+    "speaker": "A",
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000559",
+    "text": "Infinite.",
+    "start": 3057970,
+    "end": 3058610,
+    "speaker": "A",
+    "confidence": 0.84733075
+  },
+  {
+    "sid": "s000560",
+    "text": "I haven't reached that.",
+    "start": 3058610,
+    "end": 3059810,
+    "speaker": "A",
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000561",
+    "text": "What is this?",
+    "start": 3059970,
+    "end": 3060770,
+    "speaker": "A",
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000562",
+    "text": "No, there is this a.",
+    "start": 3063810,
+    "end": 3065090,
+    "speaker": "A",
+    "confidence": 0.99121094
+  },
+  {
+    "sid": "s000563",
+    "text": "You draw it right?",
+    "start": 3065090,
+    "end": 3067290,
+    "speaker": "A",
+    "confidence": 0.9941406
+  },
+  {
+    "sid": "s000564",
+    "text": "So this is one, right?",
+    "start": 3067290,
+    "end": 3070850,
+    "speaker": "A",
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000565",
+    "text": "All neighbors of permanent is going to be.",
+    "start": 3071490,
+    "end": 3075410,
+    "speaker": "A",
+    "confidence": 0.9970703
+  },
+  {
+    "sid": "s000566",
+    "text": "The infinite is going to be replaced.",
+    "start": 3075970,
+    "end": 3078050,
+    "speaker": "A",
+    "confidence": 0.9873047
+  },
+  {
+    "sid": "s000567",
+    "text": "So 1 and 1, right?",
+    "start": 3078050,
+    "end": 3079980,
+    "speaker": "A",
+    "confidence": 0.99560547
+  },
+  {
+    "sid": "s000568",
+    "text": "So right now, after the first step, after S becomes neighbors of S is going to be 10, one and one.",
+    "start": 3080220,
+    "end": 3087180,
+    "speaker": "A",
+    "confidence": 0.9975586
+  },
+  {
+    "sid": "s000569",
+    "text": "Which one is the minimum?",
+    "start": 3087340,
+    "end": 3088700,
+    "speaker": "A",
+    "confidence": 0.9951172
+  },
+  {
+    "sid": "s000570",
+    "text": "Which one doesn't matter.",
+    "start": 3092540,
+    "end": 3095260,
+    "speaker": "A",
+    "confidence": 0.9819336
+  },
+  {
+    "sid": "s000571",
+    "text": "So you pick whatever you like.",
+    "start": 3095900,
+    "end": 3097340,
+    "speaker": "A",
+    "confidence": 0.9941406
+  },
+  {
+    "sid": "s000572",
+    "text": "You want this, move it up there.",
+    "start": 3097340,
+    "end": 3099500,
+    "speaker": "A",
+    "confidence": 0.9716797
+  },
+  {
+    "sid": "s000573",
+    "text": "You want this, move it up there.",
+    "start": 3100060,
+    "end": 3101940,
+    "speaker": "A",
+    "confidence": 0.96484375
+  },
+  {
+    "sid": "s000574",
+    "text": "I don't care.",
+    "start": 3101940,
+    "end": 3102580,
+    "speaker": "A",
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000575",
+    "text": "Then update the candles so I one step at a time.",
+    "start": 3102580,
+    "end": 3106620,
+    "speaker": "A",
+    "confidence": 0.99072266
+  },
+  {
+    "sid": "s000576",
+    "text": "I understand.",
+    "start": 3106620,
+    "end": 3107180,
+    "speaker": "A",
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000577",
+    "text": "I applied that algorithm.",
+    "start": 3107420,
+    "end": 3109260,
+    "speaker": "A",
+    "confidence": 0.9975586
+  },
+  {
+    "sid": "s000578",
+    "text": "It moves one of them, then I update the values, move the next one one step at a time.",
+    "start": 3109340,
+    "end": 3114620,
+    "speaker": "A",
+    "confidence": 0.9628906
+  },
+  {
+    "sid": "s000579",
+    "text": "Don't think of all billions of pattern that you see.",
+    "start": 3114860,
+    "end": 3119180,
+    "speaker": "A",
+    "confidence": 0.9970703
+  },
+  {
+    "sid": "s000580",
+    "text": "All I care about is the minimum value is going to be up.",
+    "start": 3119660,
+    "end": 3123140,
+    "speaker": "A",
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000581",
+    "text": "That's it.",
+    "start": 3123140,
+    "end": 3123620,
+    "speaker": "A",
+    "confidence": 0.98095703
+  },
+  {
+    "sid": "s000582",
+    "text": "That's all I care about.",
+    "start": 3123620,
+    "end": 3124700,
+    "speaker": "A",
+    "confidence": 0.99690753
+  },
+  {
+    "sid": "s000583",
+    "text": "Make sense?",
+    "start": 3125420,
+    "end": 3130720,
+    "speaker": "A",
+    "confidence": 0.58935547
+  },
+  {
+    "sid": "s000584",
+    "text": "Okay, how would I implement that?",
+    "start": 3133670,
+    "end": 3135590,
+    "speaker": "A",
+    "confidence": 0.94352216
+  },
+  {
+    "sid": "s000585",
+    "text": "Oh, there are so many things happening.",
+    "start": 3136390,
+    "end": 3139550,
+    "speaker": "A",
+    "confidence": 0.6972656
+  },
+  {
+    "sid": "s000586",
+    "text": "These values keep changing all the time.",
+    "start": 3139550,
+    "end": 3142310,
+    "speaker": "A",
+    "confidence": 0.9975586
+  },
+  {
+    "sid": "s000587",
+    "text": "What if I keep changing and changing?",
+    "start": 3143830,
+    "end": 3148630,
+    "speaker": "A",
+    "confidence": 0.9892578
+  },
+  {
+    "sid": "s000588",
+    "text": "So this becomes an N cube algorithm, N4 algorithm, et cetera.",
+    "start": 3148630,
+    "end": 3153030,
+    "speaker": "A",
+    "confidence": 0.9946289
+  },
+  {
+    "sid": "s000589",
+    "text": "Okay, so let's do some analysis of the time S. These are permanent, these are temporary, right?",
+    "start": 3154070,
+    "end": 3181660,
+    "speaker": "A",
+    "confidence": 0.8986003
+  },
+  {
+    "sid": "s000590",
+    "text": "In a generic step, there are n steps.",
+    "start": 3184910,
+    "end": 3189710,
+    "speaker": "A",
+    "confidence": 0.94970703
+  },
+  {
+    "sid": "s000591",
+    "text": "At each step, a temporary value becomes permanent.",
+    "start": 3190190,
+    "end": 3194270,
+    "speaker": "A",
+    "confidence": 0.98535156
+  },
+  {
+    "sid": "s000592",
+    "text": "The minimum of these becomes permanent, right?",
+    "start": 3194830,
+    "end": 3197790,
+    "speaker": "A",
+    "confidence": 0.9873047
+  },
+  {
+    "sid": "s000593",
+    "text": "So I have n of these steps, counting that.",
+    "start": 3198430,
+    "end": 3202270,
+    "speaker": "A",
+    "confidence": 0.9628906
+  },
+  {
+    "sid": "s000594",
+    "text": "Otherwise I have n minus one step, as you know, doesn't matter.",
+    "start": 3202350,
+    "end": 3207830,
+    "speaker": "A",
+    "confidence": 0.99934894
+  },
+  {
+    "sid": "s000595",
+    "text": "N, N minus one.",
+    "start": 3207830,
+    "end": 3208900,
+    "speaker": "A",
+    "confidence": 0.9472656
+  },
+  {
+    "sid": "s000596",
+    "text": "Same order at the end of the day.",
+    "start": 3209210,
+    "end": 3210970,
+    "speaker": "A",
+    "confidence": 0.9663086
+  },
+  {
+    "sid": "s000597",
+    "text": "Okay, so this is a generic step.",
+    "start": 3214570,
+    "end": 3217050,
+    "speaker": "A",
+    "confidence": 0.87679034
+  },
+  {
+    "sid": "s000598",
+    "text": "If there are n values in this generic step, first thing I have to find a mean value of n numbers.",
+    "start": 3221850,
+    "end": 3229370,
+    "speaker": "A",
+    "confidence": 0.99658203
+  },
+  {
+    "sid": "s000599",
+    "text": "Find the mean value.",
+    "start": 3234900,
+    "end": 3235860,
+    "speaker": "A",
+    "confidence": 0.98828125
+  },
+  {
+    "sid": "s000600",
+    "text": "So first there is that initialization for X.",
+    "start": 3237300,
+    "end": 3240740,
+    "speaker": "A",
+    "confidence": 0.91796875
+  },
+  {
+    "sid": "s000601",
+    "text": "That's order one mean of n values.",
+    "start": 3241140,
+    "end": 3246100,
+    "speaker": "A",
+    "confidence": 0.9863281
+  },
+  {
+    "sid": "s000602",
+    "text": "How much time does it take?",
+    "start": 3246100,
+    "end": 3247780,
+    "speaker": "A",
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000603",
+    "text": "We did that last time.",
+    "start": 3250020,
+    "end": 3251500,
+    "speaker": "A",
+    "confidence": 0.9814453
+  },
+  {
+    "sid": "s000604",
+    "text": "We know the exact number.",
+    "start": 3251500,
+    "end": 3252820,
+    "speaker": "A",
+    "confidence": 0.9008789
+  },
+  {
+    "sid": "s000605",
+    "text": "But since for the most part you are happy with order, taking the mean of n values takes linear time.",
+    "start": 3252900,
+    "end": 3262440,
+    "speaker": "A",
+    "confidence": 0.9785156
+  },
+  {
+    "sid": "s000606",
+    "text": "You compare the first two.",
+    "start": 3263080,
+    "end": 3264760,
+    "speaker": "A",
+    "confidence": 0.87890625
+  },
+  {
+    "sid": "s000607",
+    "text": "You remember a temporary minimum.",
+    "start": 3264920,
+    "end": 3267000,
+    "speaker": "A",
+    "confidence": 0.98095703
+  },
+  {
+    "sid": "s000608",
+    "text": "Keep moving a pointer.",
+    "start": 3267160,
+    "end": 3268960,
+    "speaker": "A",
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000609",
+    "text": "If it's less than the minimum, replace the minimum in order and time, you know, the minimum.",
+    "start": 3268960,
+    "end": 3274280,
+    "speaker": "A",
+    "confidence": 0.9741211
+  },
+  {
+    "sid": "s000610",
+    "text": "So this main thing here takes linear time.",
+    "start": 3274520,
+    "end": 3279240,
+    "speaker": "A",
+    "confidence": 0.99609375
+  },
+  {
+    "sid": "s000611",
+    "text": "So this just moves up there.",
+    "start": 3280520,
+    "end": 3282680,
+    "speaker": "A",
+    "confidence": 0.97558594
+  },
+  {
+    "sid": "s000612",
+    "text": "When a vertex becomes a brand new neighbor of S, you may need to go and update these values that are neighbors of.",
+    "start": 3283560,
+    "end": 3294050,
+    "speaker": "A",
+    "confidence": 0.9819336
+  },
+  {
+    "sid": "s000613",
+    "text": "Let me call that a.",
+    "start": 3294050,
+    "end": 3295330,
+    "speaker": "A",
+    "confidence": 0.96728516
+  },
+  {
+    "sid": "s000614",
+    "text": "Some of them maybe were infinity, some of them were 1012 because of that, in fact, the example we had before, this becomes maybe 5, this becomes 2, etc.",
+    "start": 3296610,
+    "end": 3310450,
+    "speaker": "A",
+    "confidence": 1.0
+  },
+  {
+    "sid": "s000615",
+    "text": "You update these values.",
+    "start": 3310450,
+    "end": 3312210,
+    "speaker": "A",
+    "confidence": 0.9946289
+  },
+  {
+    "sid": "s000616",
+    "text": "So you update.",
+    "start": 3312530,
+    "end": 3313390,
+    "speaker": "A",
+    "confidence": 0.98291016
+  },
+  {
+    "sid": "s000617",
+    "text": "How much time does it take?",
+    "start": 3317060,
+    "end": 3318740,
+    "speaker": "A",
+    "confidence": 0.9951172
+  },
+  {
+    "sid": "s000618",
+    "text": "There are n vertices here, so updating n values before the run time.",
+    "start": 3318980,
+    "end": 3328900,
+    "speaker": "A",
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000619",
+    "text": "Okay, that's it.",
+    "start": 3334580,
+    "end": 3336140,
+    "speaker": "A",
+    "confidence": 0.95166016
+  },
+  {
+    "sid": "s000620",
+    "text": "That's the algorithm.",
+    "start": 3336140,
+    "end": 3337180,
+    "speaker": "A",
+    "confidence": 0.99641925
+  },
+  {
+    "sid": "s000621",
+    "text": "So initialization is once the loop is find the minimum update.",
+    "start": 3337180,
+    "end": 3343320,
+    "speaker": "A",
+    "confidence": 0.97216797
+  },
+  {
+    "sid": "s000622",
+    "text": "Find the minimum update.",
+    "start": 3343320,
+    "end": 3344680,
+    "speaker": "A",
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000623",
+    "text": "That's the algorithm, nothing else.",
+    "start": 3344680,
+    "end": 3346480,
+    "speaker": "A",
+    "confidence": 0.91764325
+  },
+  {
+    "sid": "s000624",
+    "text": "And yeah, say that again.",
+    "start": 3349200,
+    "end": 3353120,
+    "speaker": "A",
+    "confidence": 0.67333984
+  },
+  {
+    "sid": "s000625",
+    "text": "Right.",
+    "start": 3356640,
+    "end": 3357040,
+    "speaker": "A",
+    "confidence": 0.9926758
+  },
+  {
+    "sid": "s000626",
+    "text": "So remember, this is one, this is one.",
+    "start": 3357280,
+    "end": 3362880,
+    "speaker": "A",
+    "confidence": 0.99560547
+  },
+  {
+    "sid": "s000627",
+    "text": "Okay, Now I make one.",
+    "start": 3362880,
+    "end": 3365240,
+    "speaker": "A",
+    "confidence": 0.914388
+  },
+  {
+    "sid": "s000628",
+    "text": "To be permanent, I have two choices.",
+    "start": 3365240,
+    "end": 3368920,
+    "speaker": "A",
+    "confidence": 0.6308594
+  },
+  {
+    "sid": "s000629",
+    "text": "I decided to fit this.",
+    "start": 3369080,
+    "end": 3370640,
+    "speaker": "A",
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000630",
+    "text": "I make this permanent, move it up.",
+    "start": 3370640,
+    "end": 3372760,
+    "speaker": "A",
+    "confidence": 0.92871094
+  },
+  {
+    "sid": "s000631",
+    "text": "Then this value here is going to be the.",
+    "start": 3373560,
+    "end": 3376680,
+    "speaker": "A",
+    "confidence": 0.98828125
+  },
+  {
+    "sid": "s000632",
+    "text": "Let's say this is 1 2.",
+    "start": 3376840,
+    "end": 3378440,
+    "speaker": "A",
+    "confidence": 0.99072266
+  },
+  {
+    "sid": "s000633",
+    "text": "This value is going to be the minimum of 10 and the minimum of 1 plus 1 2.",
+    "start": 3379000,
+    "end": 3384840,
+    "speaker": "A",
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000634",
+    "text": "So 2 is less than 10.",
+    "start": 3385960,
+    "end": 3387720,
+    "speaker": "A",
+    "confidence": 0.98339844
+  },
+  {
+    "sid": "s000635",
+    "text": "So this needs to be updated to 2.",
+    "start": 3387960,
+    "end": 3390440,
+    "speaker": "A",
+    "confidence": 0.98779297
+  },
+  {
+    "sid": "s000636",
+    "text": "That's the updating value.",
+    "start": 3390440,
+    "end": 3391880,
+    "speaker": "A",
+    "confidence": 0.984375
+  },
+  {
+    "sid": "s000637",
+    "text": "As I make more vertices permanent, the distance of some vertices may go from infinity to non infinity, from 10 to 2, from whatever to whatever.",
+    "start": 3393850,
+    "end": 3405450,
+    "speaker": "A",
+    "confidence": 0.98828125
+  },
+  {
+    "sid": "s000638",
+    "text": "That's the updating point.",
+    "start": 3405610,
+    "end": 3407050,
+    "speaker": "A",
+    "confidence": 0.9975586
+  },
+  {
+    "sid": "s000639",
+    "text": "Okay?",
+    "start": 3410890,
+    "end": 3411410,
+    "speaker": "A",
+    "confidence": 0.92789716
+  },
+  {
+    "sid": "s000640",
+    "text": "Yeah.",
+    "start": 3411410,
+    "end": 3411850,
+    "speaker": "A",
+    "confidence": 0.8282878
+  },
+  {
+    "sid": "s000641",
+    "text": "So the first case we're updating every node had a edge to all other nodes.",
+    "start": 3411930,
+    "end": 3421020,
+    "speaker": "A",
+    "confidence": 0.7524414
+  },
+  {
+    "sid": "s000642",
+    "text": "Then you're updating the N squared.",
+    "start": 3421020,
+    "end": 3424420,
+    "speaker": "A",
+    "confidence": 0.49487305
+  },
+  {
+    "sid": "s000643",
+    "text": "You're updating N because every.",
+    "start": 3424740,
+    "end": 3428180,
+    "speaker": "A",
+    "confidence": 0.8725586
+  },
+  {
+    "sid": "s000644",
+    "text": "For every vertex here that is gonna have only one edge to another vertex.",
+    "start": 3428340,
+    "end": 3434420,
+    "speaker": "A",
+    "confidence": 0.9951172
+  },
+  {
+    "sid": "s000645",
+    "text": "So N. But this is pair loop.",
+    "start": 3435220,
+    "end": 3437780,
+    "speaker": "A",
+    "confidence": 0.93115234
+  },
+  {
+    "sid": "s000646",
+    "text": "Maybe you are same for the entire.",
+    "start": 3437940,
+    "end": 3439620,
+    "speaker": "A",
+    "confidence": 0.9992676
+  },
+  {
+    "sid": "s000647",
+    "text": "Yeah.",
+    "start": 3439860,
+    "end": 3440340,
+    "speaker": "A",
+    "confidence": 0.94108075
+  },
+  {
+    "sid": "s000648",
+    "text": "So this is F square.",
+    "start": 3440420,
+    "end": 3442260,
+    "speaker": "A",
+    "confidence": 0.9970703
+  },
+  {
+    "sid": "s000649",
+    "text": "Okay, so now I add.",
+    "start": 3445870,
+    "end": 3447630,
+    "speaker": "A",
+    "confidence": 0.8733724
+  },
+  {
+    "sid": "s000650",
+    "text": "Each step takes linear time.",
+    "start": 3447710,
+    "end": 3449710,
+    "speaker": "A",
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000651",
+    "text": "How many steps are there every time I move one of these up there?",
+    "start": 3449950,
+    "end": 3455150,
+    "speaker": "A",
+    "confidence": 1.0
+  },
+  {
+    "sid": "s000652",
+    "text": "So number of steps is going to be order N to be exact.",
+    "start": 3455470,
+    "end": 3460190,
+    "speaker": "A",
+    "confidence": 0.99658203
+  },
+  {
+    "sid": "s000653",
+    "text": "So total algorithm is order of N squared.",
+    "start": 3460270,
+    "end": 3464270,
+    "speaker": "A",
+    "confidence": 0.9814453
+  },
+  {
+    "sid": "s000654",
+    "text": "This, I'm going to give you another implementation.",
+    "start": 3467150,
+    "end": 3470150,
+    "speaker": "A",
+    "confidence": 0.6171875
+  },
+  {
+    "sid": "s000655",
+    "text": "This is least straightforward implementation, the easiest, but maybe not the best because say the algorithm didn't have the graph didn't have many edges, was a tree structure, it had linear number of edges.",
+    "start": 3470150,
+    "end": 3484700,
+    "speaker": "A",
+    "confidence": 0.9609375
+  },
+  {
+    "sid": "s000656",
+    "text": "Maybe this is an overkill.",
+    "start": 3485180,
+    "end": 3487099,
+    "speaker": "A",
+    "confidence": 0.9992676
+  },
+  {
+    "sid": "s000657",
+    "text": "Maybe so.",
+    "start": 3488460,
+    "end": 3490940,
+    "speaker": "A",
+    "confidence": 0.9458008
+  },
+  {
+    "sid": "s000658",
+    "text": "So far so good.",
+    "start": 3490940,
+    "end": 3492020,
+    "speaker": "A",
+    "confidence": 0.9975586
+  },
+  {
+    "sid": "s000659",
+    "text": "We have an algorithm.",
+    "start": 3492020,
+    "end": 3493380,
+    "speaker": "A",
+    "confidence": 0.8564453
+  },
+  {
+    "sid": "s000660",
+    "text": "It works.",
+    "start": 3493380,
+    "end": 3494140,
+    "speaker": "A",
+    "confidence": 0.9272461
+  },
+  {
+    "sid": "s000661",
+    "text": "It's polynomial time, it's fixed.",
+    "start": 3494140,
+    "end": 3496240,
+    "speaker": "A",
+    "confidence": 0.83968097
+  },
+  {
+    "sid": "s000662",
+    "text": "Very straightforward to implement.",
+    "start": 3496390,
+    "end": 3498150,
+    "speaker": "A",
+    "confidence": 0.55126953
+  },
+  {
+    "sid": "s000663",
+    "text": "All you need to have is an array here with all the temporary values that every time you go through it and find a mean.",
+    "start": 3498470,
+    "end": 3505990,
+    "speaker": "A",
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000664",
+    "text": "Okay, so after all the observation, after all the algorithms, now I can talk about runtime only then.",
+    "start": 3513350,
+    "end": 3521750,
+    "speaker": "A",
+    "confidence": 0.90218097
+  },
+  {
+    "sid": "s000665",
+    "text": "It was perhaps premature to talk about these things earlier on because I wasn't even sure if the algorithm is working.",
+    "start": 3523030,
+    "end": 3531430,
+    "speaker": "A",
+    "confidence": 0.9746094
+  },
+  {
+    "sid": "s000666",
+    "text": "I did not have a proof.",
+    "start": 3531990,
+    "end": 3533390,
+    "speaker": "A",
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000667",
+    "text": "Those should come at a higher level because if you decide to change any step of the algorithm, then all of these has to be changed.",
+    "start": 3533390,
+    "end": 3542510,
+    "speaker": "A",
+    "confidence": 0.9951172
+  },
+  {
+    "sid": "s000668",
+    "text": "I don't want to do that.",
+    "start": 3542510,
+    "end": 3543590,
+    "speaker": "A",
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000669",
+    "text": "I want to do one step at a time.",
+    "start": 3543590,
+    "end": 3545670,
+    "speaker": "A",
+    "confidence": 0.9975586
+  },
+  {
+    "sid": "s000670",
+    "text": "Not as I'm confident everything works, the algorithm works.",
+    "start": 3547760,
+    "end": 3551120,
+    "speaker": "A",
+    "confidence": 0.47607422
+  },
+  {
+    "sid": "s000671",
+    "text": "Moving up works.",
+    "start": 3551200,
+    "end": 3552520,
+    "speaker": "A",
+    "confidence": 0.9987793
+  },
+  {
+    "sid": "s000672",
+    "text": "Now I get to implement it.",
+    "start": 3552520,
+    "end": 3554400,
+    "speaker": "A",
+    "confidence": 0.9707031
+  },
+  {
+    "sid": "s000673",
+    "text": "Yeah.",
+    "start": 3554800,
+    "end": 3555280,
+    "speaker": "A",
+    "confidence": 0.976237
+  },
+  {
+    "sid": "s000674",
+    "text": "Is there any way to account for that thing instead of Doing N. Yes.",
+    "start": 3555600,
+    "end": 3561440,
+    "speaker": "A",
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000675",
+    "text": "To improve.",
+    "start": 3562720,
+    "end": 3563280,
+    "speaker": "C",
+    "confidence": 0.75097656
+  },
+  {
+    "sid": "s000676",
+    "text": "Yes.",
+    "start": 3563840,
+    "end": 3564320,
+    "speaker": "A",
+    "confidence": 0.98828125
+  },
+  {
+    "sid": "s000677",
+    "text": "Your question is how?",
+    "start": 3566400,
+    "end": 3567600,
+    "speaker": "A",
+    "confidence": 0.9609375
+  },
+  {
+    "sid": "s000678",
+    "text": "Yeah.",
+    "start": 3568000,
+    "end": 3568440,
+    "speaker": "A",
+    "confidence": 0.8404948
+  },
+  {
+    "sid": "s000679",
+    "text": "Right.",
+    "start": 3568440,
+    "end": 3568800,
+    "speaker": "A",
+    "confidence": 0.92041016
+  },
+  {
+    "sid": "s000680",
+    "text": "So again, I want to do simplest things, right?",
+    "start": 3569520,
+    "end": 3572240,
+    "speaker": "A",
+    "confidence": 0.9873047
+  },
+  {
+    "sid": "s000681",
+    "text": "That's my approach.",
+    "start": 3572320,
+    "end": 3573200,
+    "speaker": "A",
+    "confidence": 0.9996745
+  },
+  {
+    "sid": "s000682",
+    "text": "So I get some partial credit for this.",
+    "start": 3573620,
+    "end": 3575860,
+    "speaker": "A",
+    "confidence": 0.9511719
+  },
+  {
+    "sid": "s000683",
+    "text": "But what if I would have said, come up with the most efficient algorithm as a function of edge?",
+    "start": 3576340,
+    "end": 3582340,
+    "speaker": "A",
+    "confidence": 0.7949219
+  },
+  {
+    "sid": "s000684",
+    "text": "Maybe you observe that even though I have like five edges, I'm counting N updates.",
+    "start": 3582580,
+    "end": 3590060,
+    "speaker": "A",
+    "confidence": 0.9987793
+  },
+  {
+    "sid": "s000685",
+    "text": "That's not going to happen.",
+    "start": 3590060,
+    "end": 3591140,
+    "speaker": "A",
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000686",
+    "text": "If I don't have many edges.",
+    "start": 3591460,
+    "end": 3593060,
+    "speaker": "A",
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000687",
+    "text": "Chances of this being connected to many edges is very small.",
+    "start": 3593540,
+    "end": 3597700,
+    "speaker": "A",
+    "confidence": 0.98828125
+  },
+  {
+    "sid": "s000688",
+    "text": "It's not going to be nice.",
+    "start": 3598100,
+    "end": 3599980,
+    "speaker": "A",
+    "confidence": 0.9944661
+  },
+  {
+    "sid": "s000689",
+    "text": "Is going to be maybe five constant number.",
+    "start": 3600130,
+    "end": 3602530,
+    "speaker": "A",
+    "confidence": 0.8496094
+  },
+  {
+    "sid": "s000690",
+    "text": "So why am I doing an overkill?",
+    "start": 3602930,
+    "end": 3605490,
+    "speaker": "A",
+    "confidence": 0.98876953
+  },
+  {
+    "sid": "s000691",
+    "text": "Why am I so pessimistic?",
+    "start": 3605490,
+    "end": 3608050,
+    "speaker": "A",
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000692",
+    "text": "I guess that's what you were asking.",
+    "start": 3608530,
+    "end": 3610370,
+    "speaker": "A",
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000693",
+    "text": "So now I have something done.",
+    "start": 3610370,
+    "end": 3613570,
+    "speaker": "A",
+    "confidence": 0.83496094
+  },
+  {
+    "sid": "s000694",
+    "text": "Now let's focus on edges.",
+    "start": 3613810,
+    "end": 3615730,
+    "speaker": "A",
+    "confidence": 0.99365234
+  },
+  {
+    "sid": "s000695",
+    "text": "So generally when you do an algorithm, you can do a vertex centric approach.",
+    "start": 3616690,
+    "end": 3622770,
+    "speaker": "A",
+    "confidence": 0.9819336
+  },
+  {
+    "sid": "s000696",
+    "text": "This is vertex centric.",
+    "start": 3623170,
+    "end": 3624850,
+    "speaker": "A",
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000697",
+    "text": "All the analysis focused on vertices.",
+    "start": 3625090,
+    "end": 3627740,
+    "speaker": "A",
+    "confidence": 0.9897461
+  },
+  {
+    "sid": "s000698",
+    "text": "All the counting was done on the vertices.",
+    "start": 3628540,
+    "end": 3631900,
+    "speaker": "A",
+    "confidence": 0.95947266
+  },
+  {
+    "sid": "s000699",
+    "text": "Now we want to go to an edge centric approach.",
+    "start": 3632540,
+    "end": 3635580,
+    "speaker": "A",
+    "confidence": 0.9897461
+  },
+  {
+    "sid": "s000700",
+    "text": "Why?",
+    "start": 3636060,
+    "end": 3636460,
+    "speaker": "A",
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000701",
+    "text": "Because I know statistically, graphs do not have that many edges.",
+    "start": 3636700,
+    "end": 3640780,
+    "speaker": "A",
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000702",
+    "text": "Even graph.",
+    "start": 3641580,
+    "end": 3642460,
+    "speaker": "A",
+    "confidence": 0.80371094
+  },
+  {
+    "sid": "s000703",
+    "text": "What is the maximum number of edges in a graph?",
+    "start": 3642700,
+    "end": 3645340,
+    "speaker": "A",
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000704",
+    "text": "N squared.",
+    "start": 3646460,
+    "end": 3647340,
+    "speaker": "A",
+    "confidence": 0.8564453
+  },
+  {
+    "sid": "s000705",
+    "text": "So in the worst case, this is pretty good.",
+    "start": 3647420,
+    "end": 3649580,
+    "speaker": "A",
+    "confidence": 0.9868164
+  },
+  {
+    "sid": "s000706",
+    "text": "But in real life, any connection graph is not.",
+    "start": 3650140,
+    "end": 3653980,
+    "speaker": "A",
+    "confidence": 0.9921875
+  },
+  {
+    "sid": "s000707",
+    "text": "If you look at all the cities under connection, airline connection, it's not that every city is going to be connected to every other city with an airline path.",
+    "start": 3654930,
+    "end": 3664450,
+    "speaker": "A",
+    "confidence": 0.9819336
+  },
+  {
+    "sid": "s000708",
+    "text": "No, it's going to be much, much less.",
+    "start": 3664530,
+    "end": 3666690,
+    "speaker": "A",
+    "confidence": 0.99560547
+  },
+  {
+    "sid": "s000709",
+    "text": "It's usually linear number of edges.",
+    "start": 3666690,
+    "end": 3669490,
+    "speaker": "A",
+    "confidence": 0.98795575
+  },
+  {
+    "sid": "s000710",
+    "text": "Okay, so instead of saying update takes.",
+    "start": 3671810,
+    "end": 3679810,
+    "speaker": "A",
+    "confidence": 0.7713216
+  },
+  {
+    "sid": "s000711",
+    "text": "So that's all correct.",
+    "start": 3680070,
+    "end": 3681430,
+    "speaker": "A",
+    "confidence": 0.98095703
+  },
+  {
+    "sid": "s000712",
+    "text": "Actually, let me leave the green one here.",
+    "start": 3682230,
+    "end": 3684710,
+    "speaker": "A",
+    "confidence": 0.99316406
+  },
+  {
+    "sid": "s000713",
+    "text": "Now, instead of saying it takes N unit of time to update that, I'm going to say 1 edge, 2 edge, 3 edges.",
+    "start": 3686070,
+    "end": 3695110,
+    "speaker": "A",
+    "confidence": 0.95947266
+  },
+  {
+    "sid": "s000714",
+    "text": "So it's going to be order E1 edges, the number of edges connected to this.",
+    "start": 3695270,
+    "end": 3701670,
+    "speaker": "A",
+    "confidence": 0.99072266
+  },
+  {
+    "sid": "s000715",
+    "text": "Next time when I move one of them up, it's got to be all of E2, the edges connected to this, like these guys.",
+    "start": 3703110,
+    "end": 3711530,
+    "speaker": "A",
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000716",
+    "text": "And O3 and O4.",
+    "start": 3712650,
+    "end": 3714570,
+    "speaker": "A",
+    "confidence": 0.9448242
+  },
+  {
+    "sid": "s000717",
+    "text": "How many times do I look at this edge for updating?",
+    "start": 3715850,
+    "end": 3720730,
+    "speaker": "A",
+    "confidence": 1.0
+  },
+  {
+    "sid": "s000718",
+    "text": "Only once.",
+    "start": 3722010,
+    "end": 3722970,
+    "speaker": "A",
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000719",
+    "text": "Only when this was just moved up and this is connected to that.",
+    "start": 3723290,
+    "end": 3729290,
+    "speaker": "A",
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000720",
+    "text": "I count this edge in E1.",
+    "start": 3729370,
+    "end": 3731930,
+    "speaker": "A",
+    "confidence": 0.9970703
+  },
+  {
+    "sid": "s000721",
+    "text": "I never put this edge in any other E sub I.",
+    "start": 3732420,
+    "end": 3735860,
+    "speaker": "A",
+    "confidence": 0.9448242
+  },
+  {
+    "sid": "s000722",
+    "text": "So summation of all the edges is going to be order E. So this update is going to be order E for the entire algorithm, not just for one loop for the entire.",
+    "start": 3736740,
+    "end": 3753780,
+    "speaker": "A",
+    "confidence": 0.953125
+  },
+  {
+    "sid": "s000723",
+    "text": "Because one loop is E1, then it's E2.",
+    "start": 3753780,
+    "end": 3757620,
+    "speaker": "A",
+    "confidence": 0.9951172
+  },
+  {
+    "sid": "s000724",
+    "text": "Then is E3.",
+    "start": 3757620,
+    "end": 3758670,
+    "speaker": "A",
+    "confidence": 0.875
+  },
+  {
+    "sid": "s000725",
+    "text": "Sum of EIs is going to be E. So in the entirety of algorithm, it's order E. So now the runtime is order E plus.",
+    "start": 3758750,
+    "end": 3770910,
+    "speaker": "A",
+    "confidence": 0.9802246
+  },
+  {
+    "sid": "s000726",
+    "text": "Forget about order one.",
+    "start": 3771470,
+    "end": 3772990,
+    "speaker": "A",
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000727",
+    "text": "That's too small.",
+    "start": 3772990,
+    "end": 3773949,
+    "speaker": "A",
+    "confidence": 0.898763
+  },
+  {
+    "sid": "s000728",
+    "text": "I can write it or always say one is less than E. I'm not going to even bother with that finding.",
+    "start": 3774030,
+    "end": 3781670,
+    "speaker": "A",
+    "confidence": 0.9868164
+  },
+  {
+    "sid": "s000729",
+    "text": "The minimum is going to be.",
+    "start": 3781670,
+    "end": 3783370,
+    "speaker": "A",
+    "confidence": 0.9682617
+  },
+  {
+    "sid": "s000730",
+    "text": "It's going to be N times N plus N squared.",
+    "start": 3784240,
+    "end": 3788480,
+    "speaker": "A",
+    "confidence": 0.9007161
+  },
+  {
+    "sid": "s000731",
+    "text": "Okay, so the new clever algorithm now is order E is the same algorithm.",
+    "start": 3790800,
+    "end": 3797760,
+    "speaker": "A",
+    "confidence": 0.93652344
+  },
+  {
+    "sid": "s000732",
+    "text": "It's just accounting is different.",
+    "start": 3797920,
+    "end": 3799920,
+    "speaker": "A",
+    "confidence": 0.93929034
+  },
+  {
+    "sid": "s000733",
+    "text": "As you said it perfectly, instead of charging to the vertices, I charge them to the edges.",
+    "start": 3800400,
+    "end": 3806720,
+    "speaker": "A",
+    "confidence": 0.99560547
+  },
+  {
+    "sid": "s000734",
+    "text": "Same algorithms, different accounting.",
+    "start": 3807120,
+    "end": 3809120,
+    "speaker": "A",
+    "confidence": 0.9584961
+  },
+  {
+    "sid": "s000735",
+    "text": "We talked about different accounting methods for the same algorithm.",
+    "start": 3809560,
+    "end": 3813320,
+    "speaker": "A",
+    "confidence": 0.95654297
+  },
+  {
+    "sid": "s000736",
+    "text": "You spend hundred bucks Saturday night.",
+    "start": 3813400,
+    "end": 3815720,
+    "speaker": "A",
+    "confidence": 0.99316406
+  },
+  {
+    "sid": "s000737",
+    "text": "Your expenses for the week is not 7 times 100.",
+    "start": 3815880,
+    "end": 3819480,
+    "speaker": "A",
+    "confidence": 0.9926758
+  },
+  {
+    "sid": "s000738",
+    "text": "You amortize that.",
+    "start": 3819800,
+    "end": 3821240,
+    "speaker": "A",
+    "confidence": 0.95947266
+  },
+  {
+    "sid": "s000739",
+    "text": "Okay, so now I have a much better algorithm.",
+    "start": 3822200,
+    "end": 3825440,
+    "speaker": "A",
+    "confidence": 0.7701823
+  },
+  {
+    "sid": "s000740",
+    "text": "E plus N squared, yes or no?",
+    "start": 3825440,
+    "end": 3828360,
+    "speaker": "A",
+    "confidence": 0.98535156
+  },
+  {
+    "sid": "s000741",
+    "text": "No.",
+    "start": 3830040,
+    "end": 3830440,
+    "speaker": "A",
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000742",
+    "text": "This is bad.",
+    "start": 3830600,
+    "end": 3831480,
+    "speaker": "A",
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000743",
+    "text": "This is actually kind of worse than that.",
+    "start": 3831800,
+    "end": 3833960,
+    "speaker": "A",
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000744",
+    "text": "So what is the bottleneck is this guy.",
+    "start": 3834280,
+    "end": 3836990,
+    "speaker": "A",
+    "confidence": 0.9458008
+  },
+  {
+    "sid": "s000745",
+    "text": "Such a simple process is giving me a headache here.",
+    "start": 3838030,
+    "end": 3842030,
+    "speaker": "A",
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000746",
+    "text": "It's costing me any square time.",
+    "start": 3842750,
+    "end": 3844910,
+    "speaker": "A",
+    "confidence": 0.94156903
+  },
+  {
+    "sid": "s000747",
+    "text": "So instead of me trying to optimize all aspects of this implementation, this, this, this, et cetera, I will focus on that.",
+    "start": 3845390,
+    "end": 3856510,
+    "speaker": "A",
+    "confidence": 0.98876953
+  },
+  {
+    "sid": "s000748",
+    "text": "I'm saying I can do better than that with finding a bunch of minimums, right?",
+    "start": 3859390,
+    "end": 3865730,
+    "speaker": "A",
+    "confidence": 0.9630534
+  },
+  {
+    "sid": "s000749",
+    "text": "So instead of targeting every aspect of the algorithm, I target the mean finding.",
+    "start": 3867330,
+    "end": 3875010,
+    "speaker": "A",
+    "confidence": 0.59228516
+  },
+  {
+    "sid": "s000750",
+    "text": "Okay, so we went from this huge problem.",
+    "start": 3876850,
+    "end": 3886050,
+    "speaker": "A",
+    "confidence": 0.81689453
+  },
+  {
+    "sid": "s000751",
+    "text": "Now all I'm left with is if I can do this more efficiently, then instead of N square here, it's going to be something better.",
+    "start": 3886210,
+    "end": 3894780,
+    "speaker": "A",
+    "confidence": 0.9658203
+  },
+  {
+    "sid": "s000752",
+    "text": "Okay, let's do that.",
+    "start": 3897660,
+    "end": 3898860,
+    "speaker": "A",
+    "confidence": 0.90445966
+  },
+  {
+    "sid": "s000753",
+    "text": "This is something we're going to cover in a couple of weeks.",
+    "start": 3903580,
+    "end": 3906460,
+    "speaker": "A",
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000754",
+    "text": "I just want to talk about it.",
+    "start": 3906540,
+    "end": 3908060,
+    "speaker": "A",
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000755",
+    "text": "You probably have, maybe have seen it in your programming courses, called the heap theta structure.",
+    "start": 3908060,
+    "end": 3915030,
+    "speaker": "A",
+    "confidence": 0.9472656
+  },
+  {
+    "sid": "s000756",
+    "text": "Heap theta structure is a binary tree where the minimum is at the root.",
+    "start": 3917350,
+    "end": 3925990,
+    "speaker": "A",
+    "confidence": 0.892334
+  },
+  {
+    "sid": "s000757",
+    "text": "So I have N numbers, J numbers.",
+    "start": 3928309,
+    "end": 3931190,
+    "speaker": "A",
+    "confidence": 0.9272461
+  },
+  {
+    "sid": "s000758",
+    "text": "They are in a binary tree, not a balanced binary tree, a binary tree.",
+    "start": 3938160,
+    "end": 3942320,
+    "speaker": "A",
+    "confidence": 0.9589844
+  },
+  {
+    "sid": "s000759",
+    "text": "And each node of this binary tree represents one of these values.",
+    "start": 3942800,
+    "end": 3946720,
+    "speaker": "A",
+    "confidence": 0.9863281
+  },
+  {
+    "sid": "s000760",
+    "text": "The requirement or characteristic of a heap is the minimum value is at the roots.",
+    "start": 3947360,
+    "end": 3953000,
+    "speaker": "A",
+    "confidence": 0.9902344
+  },
+  {
+    "sid": "s000761",
+    "text": "That's it.",
+    "start": 3953000,
+    "end": 3953600,
+    "speaker": "A",
+    "confidence": 0.99104816
+  },
+  {
+    "sid": "s000762",
+    "text": "It's not organized in any other way.",
+    "start": 3954640,
+    "end": 3957360,
+    "speaker": "A",
+    "confidence": 0.9534505
+  },
+  {
+    "sid": "s000763",
+    "text": "So, for example, I could have one here, I could have two here, I could have four here, I could have seven here.",
+    "start": 3957600,
+    "end": 3971130,
+    "speaker": "A",
+    "confidence": 0.95166016
+  },
+  {
+    "sid": "s000764",
+    "text": "I could have 18 here.",
+    "start": 3971770,
+    "end": 3973530,
+    "speaker": "A",
+    "confidence": 0.9970703
+  },
+  {
+    "sid": "s000765",
+    "text": "This is a heap structure because.",
+    "start": 3973930,
+    "end": 3977930,
+    "speaker": "A",
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000766",
+    "text": "And there is no relation between 18 and any of these numbers.",
+    "start": 3978250,
+    "end": 3982530,
+    "speaker": "A",
+    "confidence": 0.84765625
+  },
+  {
+    "sid": "s000767",
+    "text": "This could be 27 or 7.",
+    "start": 3982530,
+    "end": 3985530,
+    "speaker": "A",
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000768",
+    "text": "It still has a deep property which says the minimum of every sub tree should be at the root of that sub tree.",
+    "start": 3986170,
+    "end": 3996820,
+    "speaker": "A",
+    "confidence": 0.58740234
+  },
+  {
+    "sid": "s000769",
+    "text": "So this sub tree, the whole thing, that's the minimum value of all these three numbers.",
+    "start": 3997780,
+    "end": 4004260,
+    "speaker": "A",
+    "confidence": 0.9770508
+  },
+  {
+    "sid": "s000770",
+    "text": "What's the minimum?",
+    "start": 4004260,
+    "end": 4005140,
+    "speaker": "A",
+    "confidence": 0.9916992
+  },
+  {
+    "sid": "s000771",
+    "text": "I just look here of these.",
+    "start": 4005140,
+    "end": 4008500,
+    "speaker": "A",
+    "confidence": 0.99658203
+  },
+  {
+    "sid": "s000772",
+    "text": "I look here.",
+    "start": 4008740,
+    "end": 4009620,
+    "speaker": "A",
+    "confidence": 0.9868164
+  },
+  {
+    "sid": "s000773",
+    "text": "So it's a huge binary tree.",
+    "start": 4009620,
+    "end": 4011540,
+    "speaker": "A",
+    "confidence": 0.9873047
+  },
+  {
+    "sid": "s000774",
+    "text": "The Minimum of any subtree is at the root.",
+    "start": 4011620,
+    "end": 4014500,
+    "speaker": "A",
+    "confidence": 0.9951172
+  },
+  {
+    "sid": "s000775",
+    "text": "Such a data structure is called a heap data structure.",
+    "start": 4015070,
+    "end": 4018510,
+    "speaker": "A",
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000776",
+    "text": "How long does it take to find the mean?",
+    "start": 4020590,
+    "end": 4022990,
+    "speaker": "A",
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000777",
+    "text": "Constant time?",
+    "start": 4023150,
+    "end": 4024110,
+    "speaker": "A",
+    "confidence": 0.99780273
+  },
+  {
+    "sid": "s000778",
+    "text": "Finding the mean order one time, how do I find the next mean?",
+    "start": 4028430,
+    "end": 4033550,
+    "speaker": "A",
+    "confidence": 0.9851074
+  },
+  {
+    "sid": "s000779",
+    "text": "It's going to be one of these two.",
+    "start": 4034750,
+    "end": 4036830,
+    "speaker": "A",
+    "confidence": 0.991862
+  },
+  {
+    "sid": "s000780",
+    "text": "So deleting one from.",
+    "start": 4038030,
+    "end": 4040260,
+    "speaker": "A",
+    "confidence": 0.9941406
+  },
+  {
+    "sid": "s000781",
+    "text": "Once I find the mean, I delete it and I make this into a heap again in order log n time.",
+    "start": 4040490,
+    "end": 4048490,
+    "speaker": "A",
+    "confidence": 0.98583984
+  },
+  {
+    "sid": "s000782",
+    "text": "I'm going to cover these.",
+    "start": 4048490,
+    "end": 4049650,
+    "speaker": "A",
+    "confidence": 0.98258466
+  },
+  {
+    "sid": "s000783",
+    "text": "I just want you to know these values.",
+    "start": 4049650,
+    "end": 4054850,
+    "speaker": "A",
+    "confidence": 0.9838867
+  },
+  {
+    "sid": "s000784",
+    "text": "Basically what happens is you take the minimum of these two, move it to the root, keep doing that.",
+    "start": 4054850,
+    "end": 4060490,
+    "speaker": "A",
+    "confidence": 0.9992676
+  },
+  {
+    "sid": "s000785",
+    "text": "So the height of the tree is log n time log 10.",
+    "start": 4060810,
+    "end": 4064570,
+    "speaker": "A",
+    "confidence": 0.98779297
+  },
+  {
+    "sid": "s000786",
+    "text": "Therefore making this into a heap again, the literature calls it heapify.",
+    "start": 4064890,
+    "end": 4070500,
+    "speaker": "A",
+    "confidence": 0.7648926
+  },
+  {
+    "sid": "s000787",
+    "text": "The tree again takes log n time.",
+    "start": 4071380,
+    "end": 4073700,
+    "speaker": "A",
+    "confidence": 0.9536133
+  },
+  {
+    "sid": "s000788",
+    "text": "So for now you can use this.",
+    "start": 4075140,
+    "end": 4077300,
+    "speaker": "A",
+    "confidence": 0.98535156
+  },
+  {
+    "sid": "s000789",
+    "text": "There is such a data structure called a heap, a mean heap usually they call it, or a heap.",
+    "start": 4077300,
+    "end": 4083300,
+    "speaker": "A",
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000790",
+    "text": "You can find a minimum in constant time.",
+    "start": 4083540,
+    "end": 4086180,
+    "speaker": "A",
+    "confidence": 0.9555664
+  },
+  {
+    "sid": "s000791",
+    "text": "You can make it into a heap again in log n time.",
+    "start": 4086420,
+    "end": 4089540,
+    "speaker": "A",
+    "confidence": 0.99658203
+  },
+  {
+    "sid": "s000792",
+    "text": "Just like so I said for now, assume you can sort in n log n time.",
+    "start": 4091060,
+    "end": 4095260,
+    "speaker": "A",
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000793",
+    "text": "Same thing here.",
+    "start": 4095500,
+    "end": 4096380,
+    "speaker": "A",
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000794",
+    "text": "I will then soon discuss how to do this in log n time.",
+    "start": 4099740,
+    "end": 4103860,
+    "speaker": "A",
+    "confidence": 0.984375
+  },
+  {
+    "sid": "s000795",
+    "text": "Of course, this is easy.",
+    "start": 4103860,
+    "end": 4105260,
+    "speaker": "A",
+    "confidence": 0.9741211
+  },
+  {
+    "sid": "s000796",
+    "text": "Okay, so with that in mind, what are we going to do?",
+    "start": 4106540,
+    "end": 4110620,
+    "speaker": "A",
+    "confidence": 0.88378906
+  },
+  {
+    "sid": "s000797",
+    "text": "I take all these values and I put them in a heap structure so I can find the mean in constant time.",
+    "start": 4112140,
+    "end": 4125780,
+    "speaker": "A",
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000798",
+    "text": "Every time I move something up there like a, I take these edges, I update these, the update we already talked about takes order E1 plus E2, et cetera.",
+    "start": 4128740,
+    "end": 4141380,
+    "speaker": "A",
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000799",
+    "text": "If any of these values of nodes changes, that new value I'm going to insert in the heap.",
+    "start": 4141780,
+    "end": 4149269,
+    "speaker": "A",
+    "confidence": 0.99316406
+  },
+  {
+    "sid": "s000800",
+    "text": "So I extract, I make it into a heap again, that's log n time.",
+    "start": 4150629,
+    "end": 4156549,
+    "speaker": "A",
+    "confidence": 0.98583984
+  },
+  {
+    "sid": "s000801",
+    "text": "And I'm going to insert in the heap a new value that takes another order log n time.",
+    "start": 4157029,
+    "end": 4164389,
+    "speaker": "A",
+    "confidence": 0.9916992
+  },
+  {
+    "sid": "s000802",
+    "text": "Same idea.",
+    "start": 4165109,
+    "end": 4166069,
+    "speaker": "A",
+    "confidence": 0.9921875
+  },
+  {
+    "sid": "s000803",
+    "text": "Simplifying and inserting is the same process as I shall describe.",
+    "start": 4166069,
+    "end": 4172360,
+    "speaker": "A",
+    "confidence": 0.7782593
+  },
+  {
+    "sid": "s000804",
+    "text": "Okay, so for every edge here, I do an update and I insert into a heap.",
+    "start": 4175080,
+    "end": 4183480,
+    "speaker": "A",
+    "confidence": 0.8619792
+  },
+  {
+    "sid": "s000805",
+    "text": "So the number of insertion in the heap is going to be E1 times log N. Log n and log e are the same because if E worst case n is square log of n squared is 2 log n. Otherwise they are the same.",
+    "start": 4184120,
+    "end": 4200350,
+    "speaker": "A",
+    "confidence": 0.9946289
+  },
+  {
+    "sid": "s000806",
+    "text": "So you see, some people prefer to write log e, some people prefer to write log n. They are the same thing orderwise.",
+    "start": 4200750,
+    "end": 4208510,
+    "speaker": "A",
+    "confidence": 0.98583984
+  },
+  {
+    "sid": "s000807",
+    "text": "Okay, so it's gonna be E1 log n E2 log n E3 log n. So all the doing minimum at insertion and all that is to going going to be order of E log e or E log n for the entire algorithm.",
+    "start": 4211070,
+    "end": 4228960,
+    "speaker": "A",
+    "confidence": 0.9322917
+  },
+  {
+    "sid": "s000808",
+    "text": "Because for each edge you do one of Those things extract minimum heapify, insert a new value.",
+    "start": 4229520,
+    "end": 4237280,
+    "speaker": "A",
+    "confidence": 0.9970703
+  },
+  {
+    "sid": "s000809",
+    "text": "So that's a more advanced.",
+    "start": 4239280,
+    "end": 4241440,
+    "speaker": "A",
+    "confidence": 0.9970703
+  },
+  {
+    "sid": "s000810",
+    "text": "A more advanced data structure.",
+    "start": 4241680,
+    "end": 4244920,
+    "speaker": "A",
+    "confidence": 0.42651367
+  },
+  {
+    "sid": "s000811",
+    "text": "Given that the heap is slightly more advanced than and an array that is here.",
+    "start": 4244920,
+    "end": 4249620,
+    "speaker": "A",
+    "confidence": 0.98583984
+  },
+  {
+    "sid": "s000812",
+    "text": "So the runtime now becomes order of E log e. Now, E log E is better in general than N squared.",
+    "start": 4249940,
+    "end": 4262020,
+    "speaker": "A",
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000813",
+    "text": "Yeah.",
+    "start": 4262500,
+    "end": 4263060,
+    "speaker": "A",
+    "confidence": 0.85807294
+  },
+  {
+    "sid": "s000814",
+    "text": "Why is update not as it does?",
+    "start": 4263300,
+    "end": 4274350,
+    "speaker": "A",
+    "confidence": 0.7973633
+  },
+  {
+    "sid": "s000815",
+    "text": "So updating the value.",
+    "start": 4274350,
+    "end": 4276750,
+    "speaker": "A",
+    "confidence": 0.60253906
+  },
+  {
+    "sid": "s000816",
+    "text": "Oh, so because this tree has n vertices, finding a minimum, I go to the root min is there.",
+    "start": 4277550,
+    "end": 4286830,
+    "speaker": "A",
+    "confidence": 0.6948242
+  },
+  {
+    "sid": "s000817",
+    "text": "Now you gotta start moving things up.",
+    "start": 4287550,
+    "end": 4290030,
+    "speaker": "A",
+    "confidence": 0.99365234
+  },
+  {
+    "sid": "s000818",
+    "text": "For example, you gotta compare 2 and 18, move 2 up, because that's not a new mean.",
+    "start": 4290510,
+    "end": 4298110,
+    "speaker": "A",
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000819",
+    "text": "What's going to go in here is going to to be the minimum of these two.",
+    "start": 4298270,
+    "end": 4302040,
+    "speaker": "A",
+    "confidence": 0.9983724
+  },
+  {
+    "sid": "s000820",
+    "text": "So one of these go off.",
+    "start": 4302120,
+    "end": 4303640,
+    "speaker": "A",
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000821",
+    "text": "So in the world's case, you have to go all the way down the tree.",
+    "start": 4303640,
+    "end": 4307160,
+    "speaker": "A",
+    "confidence": 0.99560547
+  },
+  {
+    "sid": "s000822",
+    "text": "The depth of the tree is log N. Therefore, updating the heat takes log n times.",
+    "start": 4307400,
+    "end": 4313400,
+    "speaker": "A",
+    "confidence": 0.9511719
+  },
+  {
+    "sid": "s000823",
+    "text": "I meant updating the value like the.",
+    "start": 4313800,
+    "end": 4317000,
+    "speaker": "A",
+    "confidence": 0.95654297
+  },
+  {
+    "sid": "s000824",
+    "text": "Distances from the start.",
+    "start": 4317000,
+    "end": 4319080,
+    "speaker": "C",
+    "confidence": 0.9953613
+  },
+  {
+    "sid": "s000825",
+    "text": "You see, like in the initial algorithm.",
+    "start": 4320200,
+    "end": 4322440,
+    "speaker": "C",
+    "confidence": 0.8300781
+  },
+  {
+    "sid": "s000826",
+    "text": "We initialize.",
+    "start": 4322440,
+    "end": 4323240,
+    "speaker": "A",
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000827",
+    "text": "Yes.",
+    "start": 4325650,
+    "end": 4325970,
+    "speaker": "A",
+    "confidence": 0.98095703
+  },
+  {
+    "sid": "s000828",
+    "text": "Oh.",
+    "start": 4330530,
+    "end": 4331010,
+    "speaker": "A",
+    "confidence": 0.75805664
+  },
+  {
+    "sid": "s000829",
+    "text": "So every update of the value that by itself is just E1, E2, E3, linear time.",
+    "start": 4331250,
+    "end": 4338530,
+    "speaker": "A",
+    "confidence": 0.9946289
+  },
+  {
+    "sid": "s000830",
+    "text": "But you've got to put these values somewhere so that later on you can find their minimum.",
+    "start": 4339250,
+    "end": 4345130,
+    "speaker": "A",
+    "confidence": 0.9975586
+  },
+  {
+    "sid": "s000831",
+    "text": "That's what costs more time.",
+    "start": 4345130,
+    "end": 4346770,
+    "speaker": "A",
+    "confidence": 0.99869794
+  },
+  {
+    "sid": "s000832",
+    "text": "First time, no, you have the minimum 10 step from now.",
+    "start": 4347810,
+    "end": 4352580,
+    "speaker": "A",
+    "confidence": 0.9873047
+  },
+  {
+    "sid": "s000833",
+    "text": "You still need to find the mean just like that, very quickly.",
+    "start": 4352580,
+    "end": 4356820,
+    "speaker": "A",
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000834",
+    "text": "That so preparing a heap, that's what, time constant?",
+    "start": 4357060,
+    "end": 4361860,
+    "speaker": "A",
+    "confidence": 0.77441406
+  },
+  {
+    "sid": "s000835",
+    "text": "Otherwise, yeah, it would be straightforward.",
+    "start": 4365300,
+    "end": 4367700,
+    "speaker": "A",
+    "confidence": 0.9998372
+  },
+  {
+    "sid": "s000836",
+    "text": "So, two ideas.",
+    "start": 4369380,
+    "end": 4370580,
+    "speaker": "A",
+    "confidence": 0.98876953
+  },
+  {
+    "sid": "s000837",
+    "text": "Linear array.",
+    "start": 4371220,
+    "end": 4372420,
+    "speaker": "A",
+    "confidence": 0.99975586
+  },
+  {
+    "sid": "s000838",
+    "text": "Find the mean in linear time, update in linear time, everything linear and all the green values.",
+    "start": 4373620,
+    "end": 4382750,
+    "speaker": "A",
+    "confidence": 0.99365234
+  },
+  {
+    "sid": "s000839",
+    "text": "That's for each step.",
+    "start": 4383230,
+    "end": 4384510,
+    "speaker": "A",
+    "confidence": 0.9135742
+  },
+  {
+    "sid": "s000840",
+    "text": "There are N steps on N squared.",
+    "start": 4384590,
+    "end": 4386670,
+    "speaker": "A",
+    "confidence": 0.9975586
+  },
+  {
+    "sid": "s000841",
+    "text": "Here we do the same thing, but we do the accounting for the entirety of the algorithm.",
+    "start": 4387230,
+    "end": 4393150,
+    "speaker": "A",
+    "confidence": 0.99365234
+  },
+  {
+    "sid": "s000842",
+    "text": "Because each step is E1, E2, E3, etc.",
+    "start": 4393230,
+    "end": 4396990,
+    "speaker": "A",
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000843",
+    "text": "And each of those E's, I gotta multiply it by log n because that's the operation on heap.",
+    "start": 4397630,
+    "end": 4404260,
+    "speaker": "A",
+    "confidence": 0.9902344
+  },
+  {
+    "sid": "s000844",
+    "text": "So this log N or log E same thing is because of the heap.",
+    "start": 4405620,
+    "end": 4411700,
+    "speaker": "A",
+    "confidence": 0.97998047
+  },
+  {
+    "sid": "s000845",
+    "text": "If I had a data structure that I could find the mean magically in constant time and I could delete and insert in constant time, then we would not have the log e here.",
+    "start": 4418339,
+    "end": 4430700,
+    "speaker": "A",
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000846",
+    "text": "But you don't have such a data structure.",
+    "start": 4430700,
+    "end": 4432980,
+    "speaker": "A",
+    "confidence": 0.9926758
+  },
+  {
+    "sid": "s000847",
+    "text": "Yeah.",
+    "start": 4434820,
+    "end": 4435300,
+    "speaker": "A",
+    "confidence": 0.94873047
+  },
+  {
+    "sid": "s000848",
+    "text": "What happened to the old N for the initial?",
+    "start": 4435940,
+    "end": 4438980,
+    "speaker": "C",
+    "confidence": 0.8798828
+  },
+  {
+    "sid": "s000849",
+    "text": "Like each step part?",
+    "start": 4438980,
+    "end": 4440500,
+    "speaker": "C",
+    "confidence": 0.67333984
+  },
+  {
+    "sid": "s000850",
+    "text": "This one?",
+    "start": 4441220,
+    "end": 4441940,
+    "speaker": "A",
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000851",
+    "text": "No, the each step part.",
+    "start": 4442020,
+    "end": 4443780,
+    "speaker": "C",
+    "confidence": 0.94140625
+  },
+  {
+    "sid": "s000852",
+    "text": "So there are so two things.",
+    "start": 4444580,
+    "end": 4446420,
+    "speaker": "A",
+    "confidence": 0.9902344
+  },
+  {
+    "sid": "s000853",
+    "text": "When I did this linear thing, I say each step takes this times that.",
+    "start": 4446420,
+    "end": 4451460,
+    "speaker": "A",
+    "confidence": 0.9897461
+  },
+  {
+    "sid": "s000854",
+    "text": "So n times N. That's N small.",
+    "start": 4451460,
+    "end": 4453960,
+    "speaker": "A",
+    "confidence": 0.99658203
+  },
+  {
+    "sid": "s000855",
+    "text": "The next analysis, I didn't do each step anymore.",
+    "start": 4454750,
+    "end": 4459630,
+    "speaker": "A",
+    "confidence": 0.96435547
+  },
+  {
+    "sid": "s000856",
+    "text": "I said one step may be E1, one step is E2 step two, step three E3 sum of the E's is going to be this E. Total number of edges in the graph.",
+    "start": 4459870,
+    "end": 4472510,
+    "speaker": "A",
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000857",
+    "text": "So I don't have N anymore.",
+    "start": 4473150,
+    "end": 4475670,
+    "speaker": "A",
+    "confidence": 0.9770508
+  },
+  {
+    "sid": "s000858",
+    "text": "I have E1, E2, E3.",
+    "start": 4475670,
+    "end": 4477390,
+    "speaker": "A",
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000859",
+    "text": "They all add up to E.",
+    "start": 4477390,
+    "end": 4479470,
+    "speaker": "A",
+    "confidence": 0.99560547
+  },
+  {
+    "sid": "s000860",
+    "text": "So.",
+    "start": 4481270,
+    "end": 4481510,
+    "speaker": "C",
+    "confidence": 0.79248047
+  },
+  {
+    "sid": "s000861",
+    "text": "Different way of accounting.",
+    "start": 4481510,
+    "end": 4483350,
+    "speaker": "A",
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000862",
+    "text": "The E approach looks at the entirety of the algorithm and do the analysis.",
+    "start": 4485190,
+    "end": 4489750,
+    "speaker": "A",
+    "confidence": 0.99365234
+  },
+  {
+    "sid": "s000863",
+    "text": "The vertex approach does one step at a time.",
+    "start": 4489990,
+    "end": 4493270,
+    "speaker": "A",
+    "confidence": 0.98046875
+  },
+  {
+    "sid": "s000864",
+    "text": "Therefore you have that.",
+    "start": 4493350,
+    "end": 4494790,
+    "speaker": "A",
+    "confidence": 0.9916992
+  },
+  {
+    "sid": "s000865",
+    "text": "Please make sure you are comfortable with these two approaches.",
+    "start": 4497670,
+    "end": 4501030,
+    "speaker": "A",
+    "confidence": 0.9975586
+  },
+  {
+    "sid": "s000866",
+    "text": "We'll do a few other algorithms for totally unrelated problem starting on Thursday.",
+    "start": 4501270,
+    "end": 4506880,
+    "speaker": "A",
+    "confidence": 0.9243164
+  },
+  {
+    "sid": "s000867",
+    "text": "They use the same idea over and over.",
+    "start": 4507360,
+    "end": 4509920,
+    "speaker": "A",
+    "confidence": 0.99658203
+  },
+  {
+    "sid": "s000868",
+    "text": "So the vertex centric approach, the eccentric approach, they are different.",
+    "start": 4510720,
+    "end": 4516080,
+    "speaker": "A",
+    "confidence": 0.97802734
+  },
+  {
+    "sid": "s000869",
+    "text": "So make sure you are comfortable with them.",
+    "start": 4518160,
+    "end": 4520160,
+    "speaker": "A",
+    "confidence": 0.96484375
+  },
+  {
+    "sid": "s000870",
+    "text": "And the eccentric does use the structure.",
+    "start": 4522000,
+    "end": 4525200,
+    "speaker": "A",
+    "confidence": 0.9526367
+  },
+  {
+    "sid": "s000871",
+    "text": "So today we have two algorithms.",
+    "start": 4526480,
+    "end": 4528720,
+    "speaker": "A",
+    "confidence": 0.98876953
+  },
+  {
+    "sid": "s000872",
+    "text": "One is this, one is that.",
+    "start": 4529440,
+    "end": 4531860,
+    "speaker": "A",
+    "confidence": 0.99365234
+  },
+  {
+    "sid": "s000873",
+    "text": "Which one should I use?",
+    "start": 4533140,
+    "end": 4534500,
+    "speaker": "A",
+    "confidence": 0.99658203
+  },
+  {
+    "sid": "s000874",
+    "text": "If I ask you in the exam, remember that node centric approach that we did for dice drop and the H1?",
+    "start": 4537220,
+    "end": 4545780,
+    "speaker": "A",
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000875",
+    "text": "Which one should I use?",
+    "start": 4546340,
+    "end": 4547620,
+    "speaker": "A",
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000876",
+    "text": "If I have a choice, what would you answer?",
+    "start": 4548340,
+    "end": 4550620,
+    "speaker": "A",
+    "confidence": 0.8989258
+  },
+  {
+    "sid": "s000877",
+    "text": "The heat.",
+    "start": 4550620,
+    "end": 4551300,
+    "speaker": "A",
+    "confidence": 0.8964844
+  },
+  {
+    "sid": "s000878",
+    "text": "The heat one.",
+    "start": 4552340,
+    "end": 4553260,
+    "speaker": "A",
+    "confidence": 0.9550781
+  },
+  {
+    "sid": "s000879",
+    "text": "Why?",
+    "start": 4553260,
+    "end": 4553620,
+    "speaker": "A",
+    "confidence": 0.99316406
+  },
+  {
+    "sid": "s000880",
+    "text": "Because it's faster.",
+    "start": 4553860,
+    "end": 4554820,
+    "speaker": "B",
+    "confidence": 0.9975586
+  },
+  {
+    "sid": "s000881",
+    "text": "Why?",
+    "start": 4555620,
+    "end": 4556020,
+    "speaker": "A",
+    "confidence": 0.96533203
+  },
+  {
+    "sid": "s000882",
+    "text": "What if E is equal to N squared, we have N squared, log N versus N squared.",
+    "start": 4558040,
+    "end": 4564440,
+    "speaker": "A",
+    "confidence": 0.9941406
+  },
+  {
+    "sid": "s000883",
+    "text": "Which one should I use?",
+    "start": 4566840,
+    "end": 4568120,
+    "speaker": "A",
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000884",
+    "text": "Yeah, if E is equal to N squared, then wouldn't we just choose the other option?",
+    "start": 4572680,
+    "end": 4580440,
+    "speaker": "A",
+    "confidence": 0.98876953
+  },
+  {
+    "sid": "s000885",
+    "text": "Yeah.",
+    "start": 4580600,
+    "end": 4581080,
+    "speaker": "A",
+    "confidence": 0.9773763
+  },
+  {
+    "sid": "s000886",
+    "text": "So if it's a dense graph, I want to use this.",
+    "start": 4581080,
+    "end": 4585090,
+    "speaker": "A",
+    "confidence": 0.9873047
+  },
+  {
+    "sid": "s000887",
+    "text": "This, because that's N squared.",
+    "start": 4585240,
+    "end": 4587320,
+    "speaker": "A",
+    "confidence": 0.62158203
+  },
+  {
+    "sid": "s000888",
+    "text": "This is N squared, log N if it's a sparse graph.",
+    "start": 4587320,
+    "end": 4591960,
+    "speaker": "A",
+    "confidence": 0.9902344
+  },
+  {
+    "sid": "s000889",
+    "text": "If E is equal to N, this is N log N, this is N squared.",
+    "start": 4592280,
+    "end": 4596560,
+    "speaker": "A",
+    "confidence": 0.9638672
+  },
+  {
+    "sid": "s000890",
+    "text": "So this is better.",
+    "start": 4596560,
+    "end": 4597480,
+    "speaker": "A",
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000891",
+    "text": "So now you have given me two answer.",
+    "start": 4599160,
+    "end": 4601279,
+    "speaker": "A",
+    "confidence": 0.94677734
+  },
+  {
+    "sid": "s000892",
+    "text": "When E is N, when A is N squared.",
+    "start": 4601279,
+    "end": 4603800,
+    "speaker": "A",
+    "confidence": 0.96435547
+  },
+  {
+    "sid": "s000893",
+    "text": "What about everything else?",
+    "start": 4603800,
+    "end": 4605080,
+    "speaker": "A",
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000894",
+    "text": "What is the answer?",
+    "start": 4606600,
+    "end": 4607720,
+    "speaker": "A",
+    "confidence": 0.98828125
+  },
+  {
+    "sid": "s000895",
+    "text": "When would I use which?",
+    "start": 4607720,
+    "end": 4609160,
+    "speaker": "A",
+    "confidence": 0.9975586
+  },
+  {
+    "sid": "s000896",
+    "text": "You can set the equation.",
+    "start": 4613170,
+    "end": 4614530,
+    "speaker": "A",
+    "confidence": 0.9746094
+  },
+  {
+    "sid": "s000897",
+    "text": "When is it that this number is greater than that, you do the algebra.",
+    "start": 4614610,
+    "end": 4620330,
+    "speaker": "A",
+    "confidence": 0.75439453
+  },
+  {
+    "sid": "s000898",
+    "text": "But when E is greater than N squared divided by log n, that's the boundary.",
+    "start": 4620330,
+    "end": 4627970,
+    "speaker": "A",
+    "confidence": 0.9008789
+  },
+  {
+    "sid": "s000899",
+    "text": "If it's more than that, you want to use this algorithm.",
+    "start": 4628450,
+    "end": 4631410,
+    "speaker": "A",
+    "confidence": 0.9897461
+  },
+  {
+    "sid": "s000900",
+    "text": "If it's less than that, you want to use this algorithm.",
+    "start": 4631730,
+    "end": 4634210,
+    "speaker": "A",
+    "confidence": 0.9692383
+  },
+  {
+    "sid": "s000901",
+    "text": "Sorry, the other way.",
+    "start": 4634210,
+    "end": 4635130,
+    "speaker": "A",
+    "confidence": 0.99609375
+  },
+  {
+    "sid": "s000902",
+    "text": "If it's more than that, you want to use this.",
+    "start": 4635130,
+    "end": 4637020,
+    "speaker": "A",
+    "confidence": 0.9946289
+  },
+  {
+    "sid": "s000903",
+    "text": "This N squared is another example of more.",
+    "start": 4637170,
+    "end": 4639810,
+    "speaker": "A",
+    "confidence": 0.5449219
+  },
+  {
+    "sid": "s000904",
+    "text": "If it's less, you want to use this.",
+    "start": 4639970,
+    "end": 4641810,
+    "speaker": "A",
+    "confidence": 0.9926758
+  },
+  {
+    "sid": "s000905",
+    "text": "So your answer in the exam or in your interview is going to be.",
+    "start": 4642130,
+    "end": 4646330,
+    "speaker": "A",
+    "confidence": 0.99121094
+  },
+  {
+    "sid": "s000906",
+    "text": "It depends.",
+    "start": 4646330,
+    "end": 4647330,
+    "speaker": "A",
+    "confidence": 0.98095703
+  },
+  {
+    "sid": "s000907",
+    "text": "Tell me how many edges you have.",
+    "start": 4647730,
+    "end": 4650370,
+    "speaker": "A",
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000908",
+    "text": "That's what you should ask.",
+    "start": 4650690,
+    "end": 4651850,
+    "speaker": "A",
+    "confidence": 0.90738934
+  },
+  {
+    "sid": "s000909",
+    "text": "If somebody's interviewing you.",
+    "start": 4651850,
+    "end": 4653490,
+    "speaker": "A",
+    "confidence": 0.9746094
+  },
+  {
+    "sid": "s000910",
+    "text": "And if they say, I don't know, tell them I'm not going to answer.",
+    "start": 4654850,
+    "end": 4657890,
+    "speaker": "A",
+    "confidence": 0.9501953
+  },
+  {
+    "sid": "s000911",
+    "text": "If they say, what?",
+    "start": 4659570,
+    "end": 4660530,
+    "speaker": "A",
+    "confidence": 0.9379883
+  },
+  {
+    "sid": "s000912",
+    "text": "What are you thinking?",
+    "start": 4660530,
+    "end": 4661410,
+    "speaker": "A",
+    "confidence": 1.0
+  },
+  {
+    "sid": "s000913",
+    "text": "You say, okay.",
+    "start": 4661410,
+    "end": 4662170,
+    "speaker": "A",
+    "confidence": 0.94140625
+  },
+  {
+    "sid": "s000914",
+    "text": "When the graph is dense, dense is defined as E greater than N squared divided by log n. That's the definition of a Dense graph in this example, then if this is the case, use that.",
+    "start": 4662170,
+    "end": 4682250,
+    "speaker": "A",
+    "confidence": 0.96435547
+  },
+  {
+    "sid": "s000915",
+    "text": "If this is not the case, use this.",
+    "start": 4683610,
+    "end": 4685690,
+    "speaker": "A",
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000916",
+    "text": "If it's exactly that, then I don't care, do whatever you want.",
+    "start": 4686170,
+    "end": 4689310,
+    "speaker": "A",
+    "confidence": 0.96972656
+  },
+  {
+    "sid": "s000917",
+    "text": "And the assumption always is e, n, etc.",
+    "start": 4696260,
+    "end": 4699354,
+    "speaker": "A",
+    "confidence": 0.9511719
+  },
+  {
+    "sid": "s000918",
+    "text": "Are large values.",
+    "start": 4699446,
+    "end": 4700980,
+    "speaker": "A",
+    "confidence": 0.70859
+  },
+  {
+    "sid": "s000919",
+    "text": "When e is 10 and n is 5, then none of these analysis makes sense because we are not interested in that.",
+    "start": 4701380,
+    "end": 4708980,
+    "speaker": "A",
+    "confidence": 0.99560547
+  },
+  {
+    "sid": "s000920",
+    "text": "Because there might be such an overhead in the structure of the heap, for example, that one may take take over the other.",
+    "start": 4709140,
+    "end": 4715770,
+    "speaker": "A",
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000921",
+    "text": "So our argument is asymptotic analysis.",
+    "start": 4715930,
+    "end": 4719450,
+    "speaker": "A",
+    "confidence": 0.9746094
+  },
+  {
+    "sid": "s000922",
+    "text": "Large values of EMA and when you get higher, they don't tell you solve this of variation of GPT.",
+    "start": 4719450,
+    "end": 4728810,
+    "speaker": "A",
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000923",
+    "text": "Assuming we have only five input or hundred inputs, it's trillions of inputs.",
+    "start": 4728970,
+    "end": 4734410,
+    "speaker": "A",
+    "confidence": 0.85465497
+  },
+  {
+    "sid": "s000924",
+    "text": "Therefore this asymptotic stuff actually matters.",
+    "start": 4735050,
+    "end": 4738650,
+    "speaker": "A",
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000925",
+    "text": "So please, please practice this.",
+    "start": 4742660,
+    "end": 4746820,
+    "speaker": "A",
+    "confidence": 0.9038086
+  },
+  {
+    "sid": "s000926",
+    "text": "Make sure you are super comfortable.",
+    "start": 4746820,
+    "end": 4748500,
+    "speaker": "A",
+    "confidence": 0.99365234
+  },
+  {
+    "sid": "s000927",
+    "text": "There is so much stuff that happened today.",
+    "start": 4748820,
+    "end": 4751220,
+    "speaker": "A",
+    "confidence": 0.9975586
+  },
+  {
+    "sid": "s000928",
+    "text": "Number one problem solving technique.",
+    "start": 4752260,
+    "end": 4757060,
+    "speaker": "A",
+    "confidence": 0.88916016
+  },
+  {
+    "sid": "s000929",
+    "text": "That's number one lesson.",
+    "start": 4757220,
+    "end": 4758740,
+    "speaker": "A",
+    "confidence": 0.8382161
+  },
+  {
+    "sid": "s000930",
+    "text": "The rest kind of are secondary.",
+    "start": 4758740,
+    "end": 4761060,
+    "speaker": "A",
+    "confidence": 0.99658203
+  },
+  {
+    "sid": "s000931",
+    "text": "Remember how we went about examples coming up with hypothesis based on the examples?",
+    "start": 4761620,
+    "end": 4768620,
+    "speaker": "A",
+    "confidence": 0.99975586
+  },
+  {
+    "sid": "s000932",
+    "text": "The hypothesis failed.",
+    "start": 4768780,
+    "end": 4770380,
+    "speaker": "A",
+    "confidence": 0.9902344
+  },
+  {
+    "sid": "s000933",
+    "text": "We had to modify them back and forth.",
+    "start": 4770380,
+    "end": 4773180,
+    "speaker": "A",
+    "confidence": 0.60839844
+  },
+  {
+    "sid": "s000934",
+    "text": "Finally we were happy with our hypothesis.",
+    "start": 4773500,
+    "end": 4775940,
+    "speaker": "A",
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000935",
+    "text": "Then we proved it that any other path is going to be larger than mean.",
+    "start": 4775940,
+    "end": 4781260,
+    "speaker": "A",
+    "confidence": 0.99658203
+  },
+  {
+    "sid": "s000936",
+    "text": "Therefore that's the right thing.",
+    "start": 4781500,
+    "end": 4783260,
+    "speaker": "A",
+    "confidence": 0.9812012
+  },
+  {
+    "sid": "s000937",
+    "text": "So all these steps, once we were happy with the algorithm, we did a few examples on the algorithm that actually worked.",
+    "start": 4783260,
+    "end": 4791180,
+    "speaker": "A",
+    "confidence": 0.94433594
+  },
+  {
+    "sid": "s000938",
+    "text": "And you came up with this example, which is great.",
+    "start": 4791500,
+    "end": 4794660,
+    "speaker": "A",
+    "confidence": 0.9560547
+  },
+  {
+    "sid": "s000939",
+    "text": "It's kind of confusing, but we convinced ourselves even for these confusing things, same idea works.",
+    "start": 4795060,
+    "end": 4801700,
+    "speaker": "A",
+    "confidence": 0.9923503
+  },
+  {
+    "sid": "s000940",
+    "text": "Now we are very confident with our algorithm.",
+    "start": 4801780,
+    "end": 4805140,
+    "speaker": "A",
+    "confidence": 0.98291016
+  },
+  {
+    "sid": "s000941",
+    "text": "Now we go to implementation.",
+    "start": 4805140,
+    "end": 4806740,
+    "speaker": "A",
+    "confidence": 0.95654297
+  },
+  {
+    "sid": "s000942",
+    "text": "First I do a very straightforward implementation, taking a minimum in an array and updating an array.",
+    "start": 4807300,
+    "end": 4814580,
+    "speaker": "A",
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000943",
+    "text": "Kind of maybe not efficient, but it forms a and it gives us a decent algorithm.",
+    "start": 4814820,
+    "end": 4819580,
+    "speaker": "A",
+    "confidence": 0.9765625
+  },
+  {
+    "sid": "s000944",
+    "text": "Then you observe that we are overestimating.",
+    "start": 4820220,
+    "end": 4823900,
+    "speaker": "A",
+    "confidence": 0.9819336
+  },
+  {
+    "sid": "s000945",
+    "text": "Let's focus on edges, not vertices.",
+    "start": 4824060,
+    "end": 4826700,
+    "speaker": "A",
+    "confidence": 0.99560547
+  },
+  {
+    "sid": "s000946",
+    "text": "Let's not be so pessimistic.",
+    "start": 4827340,
+    "end": 4829340,
+    "speaker": "A",
+    "confidence": 0.8876953
+  },
+  {
+    "sid": "s000947",
+    "text": "That gave us the idea of an edge centric approach.",
+    "start": 4829580,
+    "end": 4833500,
+    "speaker": "A",
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000948",
+    "text": "For that we investigated that we still have a bottleneck of mean.",
+    "start": 4834140,
+    "end": 4839580,
+    "speaker": "A",
+    "confidence": 0.9902344
+  },
+  {
+    "sid": "s000949",
+    "text": "Then I go to books and Internet and whatever and I say wait, is there a good way to efficiently find mean?",
+    "start": 4840140,
+    "end": 4847170,
+    "speaker": "A",
+    "confidence": 0.98779297
+  },
+  {
+    "sid": "s000950",
+    "text": "Somebody tells me, book tells me, the Internet tells me yes, there is something called heap that's especially designed for finding minimums.",
+    "start": 4847810,
+    "end": 4857010,
+    "speaker": "A",
+    "confidence": 0.9752197
+  },
+  {
+    "sid": "s000951",
+    "text": "I get happy, I come back, work with that.",
+    "start": 4859010,
+    "end": 4861570,
+    "speaker": "A",
+    "confidence": 0.9975586
+  },
+  {
+    "sid": "s000952",
+    "text": "And that eventually gives rise to this.",
+    "start": 4861890,
+    "end": 4864370,
+    "speaker": "A",
+    "confidence": 0.99560547
+  },
+  {
+    "sid": "s000953",
+    "text": "So many things happen, but one step at a time.",
+    "start": 4864690,
+    "end": 4868850,
+    "speaker": "A",
+    "confidence": 0.96875
+  },
+  {
+    "sid": "s000954",
+    "text": "If you so so close book close Note.",
+    "start": 4868850,
+    "end": 4871330,
+    "speaker": "A",
+    "confidence": 0.828125
+  },
+  {
+    "sid": "s000955",
+    "text": "If you can recreate today's lecture, you have a full understanding of not only shorts and spars, but a lot of things to come, including variation of this.",
+    "start": 4871330,
+    "end": 4881250,
+    "speaker": "A",
+    "confidence": 0.97753906
+  },
+  {
+    "sid": "s000956",
+    "text": "That I may ask you in the exams.",
+    "start": 4881250,
+    "end": 4883410,
+    "speaker": "A",
+    "confidence": 0.9794922
+  },
+  {
+    "sid": "s000957",
+    "text": "So please do that.",
+    "start": 4884370,
+    "end": 4885570,
+    "speaker": "A",
+    "confidence": 0.8691406
+  },
+  {
+    "sid": "s000958",
+    "text": "When I lecture, it's kind of.",
+    "start": 4886370,
+    "end": 4888890,
+    "speaker": "A",
+    "confidence": 0.9169922
+  },
+  {
+    "sid": "s000959",
+    "text": "You say, yeah, yeah, yeah.",
+    "start": 4888890,
+    "end": 4890130,
+    "speaker": "A",
+    "confidence": 0.9765625
+  },
+  {
+    "sid": "s000960",
+    "text": "It kind of makes sense.",
+    "start": 4890130,
+    "end": 4891330,
+    "speaker": "A",
+    "confidence": 0.94384766
+  },
+  {
+    "sid": "s000961",
+    "text": "But when you know, you really understand the physician.",
+    "start": 4891570,
+    "end": 4895110,
+    "speaker": "A",
+    "confidence": 0.97998047
+  },
+  {
+    "sid": "s000962",
+    "text": "If you try to lecture.",
+    "start": 4895180,
+    "end": 4896700,
+    "speaker": "A",
+    "confidence": 0.8354492
+  },
+  {
+    "sid": "s000963",
+    "text": "I recreate all of this yourself.",
+    "start": 4896860,
+    "end": 4899180,
+    "speaker": "A",
+    "confidence": 0.9975586
+  },
+  {
+    "sid": "s000964",
+    "text": "So please do that before Thursday.",
+    "start": 4899180,
+    "end": 4901340,
+    "speaker": "A",
+    "confidence": 0.515625
+  },
+  {
+    "sid": "s000965",
+    "text": "Homework due tomorrow.",
+    "start": 4907260,
+    "end": 4908620,
+    "speaker": "A",
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000966",
+    "text": "YouTube.",
+    "start": 4910780,
+    "end": 4911499,
+    "speaker": "A",
+    "confidence": 0.77563477
+  }
+]

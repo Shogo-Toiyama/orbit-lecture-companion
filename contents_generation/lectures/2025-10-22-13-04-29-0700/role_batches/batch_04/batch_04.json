@@ -1,0 +1,1773 @@
+[
+  {
+    "context_before_main_text": [
+      {
+        "sid": "s000720",
+        "text": "Next time when I move one of them up, it's got to be all of E2, the edges connected to this, like these guys.",
+        "start": 3703110,
+        "end": 3711530,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000721",
+        "text": "And O3 and O4.",
+        "start": 3712650,
+        "end": 3714570,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000722",
+        "text": "How many times do I look at this edge for updating?",
+        "start": 3715850,
+        "end": 3720730,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000723",
+        "text": "Only once.",
+        "start": 3722010,
+        "end": 3722970,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000724",
+        "text": "Only when this was just moved up and this is connected to that.",
+        "start": 3723290,
+        "end": 3729290,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000725",
+        "text": "I count this edge in E1.",
+        "start": 3729370,
+        "end": 3731930,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000726",
+        "text": "I never put this edge in any other E sub I.",
+        "start": 3732420,
+        "end": 3735860,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000727",
+        "text": "So summation of all the edges is going to be order E. So this update is going to be order E for the entire algorithm, not just for one loop for the entire.",
+        "start": 3736740,
+        "end": 3753780,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000728",
+        "text": "Because one loop is E1, then it's E2.",
+        "start": 3753780,
+        "end": 3757620,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000729",
+        "text": "Then is E3.",
+        "start": 3757620,
+        "end": 3758670,
+        "speaker": "A"
+      }
+    ],
+    "main_text": [
+      {
+        "sid": "s000730",
+        "text": "Sum of EIs is going to be E. So in the entirety of algorithm, it's order E. So now the runtime is order E Plus, forget about order one, that's too small.",
+        "start": 3758750,
+        "end": 3773949,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000731",
+        "text": "I can write it or always say one is less than E. I'm not going to even bother with that finding.",
+        "start": 3774030,
+        "end": 3781670,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000732",
+        "text": "The minimum is going to be.",
+        "start": 3781670,
+        "end": 3783370,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000733",
+        "text": "It's going to be N times N plus N squared.",
+        "start": 3784240,
+        "end": 3788480,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000734",
+        "text": "Okay, so the new clever algorithm now is order E is the same algorithm.",
+        "start": 3790800,
+        "end": 3797760,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000735",
+        "text": "It's just accounting is different.",
+        "start": 3797920,
+        "end": 3799920,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000736",
+        "text": "As you said it perfectly, instead of charging to the vertices, I charge them to the edges.",
+        "start": 3800400,
+        "end": 3806720,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000737",
+        "text": "Same algorithms, different accounting.",
+        "start": 3807120,
+        "end": 3809120,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000738",
+        "text": "We talked about different accounting methods for the same algorithm.",
+        "start": 3809560,
+        "end": 3813320,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000739",
+        "text": "You spend hundred bucks Saturday night.",
+        "start": 3813400,
+        "end": 3815720,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000740",
+        "text": "Your expenses for the week is not 7 times 100.",
+        "start": 3815880,
+        "end": 3819480,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000741",
+        "text": "You amortize that.",
+        "start": 3819800,
+        "end": 3821240,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000742",
+        "text": "Okay, so now I have a much better algorithm.",
+        "start": 3822200,
+        "end": 3825440,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000743",
+        "text": "E plus N squared, yes or no?",
+        "start": 3825440,
+        "end": 3828360,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000744",
+        "text": "No.",
+        "start": 3830040,
+        "end": 3830440,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000745",
+        "text": "This is bad.",
+        "start": 3830600,
+        "end": 3831480,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000746",
+        "text": "This is actually kind of worse than that.",
+        "start": 3831800,
+        "end": 3833960,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000747",
+        "text": "So what is the bottleneck is this guy?",
+        "start": 3834280,
+        "end": 3836990,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000748",
+        "text": "Such a simple process is giving me a headache here.",
+        "start": 3838030,
+        "end": 3842030,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000749",
+        "text": "It's costing me any square time.",
+        "start": 3842750,
+        "end": 3844910,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000750",
+        "text": "So instead of me trying to optimize all aspects of this implementation, this, this, this, et cetera, I will focus on that.",
+        "start": 3845390,
+        "end": 3856510,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000751",
+        "text": "I'm saying I can do better than that with finding a bunch of minimums, right?",
+        "start": 3859390,
+        "end": 3865730,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000752",
+        "text": "So instead of targeting every aspect of the algorithm, I target the mean finding.",
+        "start": 3867330,
+        "end": 3875010,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000753",
+        "text": "Okay, so we went from this huge problem.",
+        "start": 3876850,
+        "end": 3886050,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000754",
+        "text": "Now all I'm left with is if I can do this more efficiently, then instead of N square here, it's going to be something better.",
+        "start": 3886210,
+        "end": 3894780,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000755",
+        "text": "Okay, let's do that.",
+        "start": 3897660,
+        "end": 3898860,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000756",
+        "text": "This is something we're going to cover in a couple of weeks.",
+        "start": 3903580,
+        "end": 3906460,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000757",
+        "text": "I just want to talk about it.",
+        "start": 3906540,
+        "end": 3908060,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000758",
+        "text": "You probably have maybe have seen it in your programming courses, called the heap theta structure.",
+        "start": 3908060,
+        "end": 3915030,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000759",
+        "text": "Heap theta structure is a binary tree where the minimum is at the root.",
+        "start": 3917350,
+        "end": 3925990,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000760",
+        "text": "So I have N numbers, J numbers.",
+        "start": 3928309,
+        "end": 3931190,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000761",
+        "text": "They are in a binary tree, not a balanced binary tree, a binary tree.",
+        "start": 3938160,
+        "end": 3942320,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000762",
+        "text": "And each node of this binary tree represents one of these values.",
+        "start": 3942800,
+        "end": 3946720,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000763",
+        "text": "The requirement or characteristic of a heap is the minimum value is at the roots.",
+        "start": 3947360,
+        "end": 3953000,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000764",
+        "text": "That's it.",
+        "start": 3953000,
+        "end": 3953600,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000765",
+        "text": "It's not organized in any other way.",
+        "start": 3954640,
+        "end": 3957360,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000766",
+        "text": "So, for example, I could have one here, I could have two here, I could have four here, I could have seven here, I could have 18 here.",
+        "start": 3957600,
+        "end": 3973530,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000767",
+        "text": "This is a heap structure because.",
+        "start": 3973930,
+        "end": 3977930,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000768",
+        "text": "And there is no relation between 18 and any of these numbers.",
+        "start": 3978250,
+        "end": 3982530,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000769",
+        "text": "This could be 27 or 7.",
+        "start": 3982530,
+        "end": 3985530,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000770",
+        "text": "It still has a deep property which says the minimum of every sub tree should be at the root of that sub tree.",
+        "start": 3986170,
+        "end": 3996820,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000771",
+        "text": "So this sub tree, the whole thing, that's the minimum value of all these three numbers.",
+        "start": 3997780,
+        "end": 4004260,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000772",
+        "text": "What's the minimum?",
+        "start": 4004260,
+        "end": 4005140,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000773",
+        "text": "I just look here, of these.",
+        "start": 4005140,
+        "end": 4008500,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000774",
+        "text": "I look here.",
+        "start": 4008740,
+        "end": 4009620,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000775",
+        "text": "So it's a huge binary tree.",
+        "start": 4009620,
+        "end": 4011540,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000776",
+        "text": "The minimum of any subtree is at the root.",
+        "start": 4011620,
+        "end": 4014500,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000777",
+        "text": "Such a data structure is called a heap data structure.",
+        "start": 4015070,
+        "end": 4018510,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000778",
+        "text": "How long does it take to find the mean?",
+        "start": 4020590,
+        "end": 4022990,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000779",
+        "text": "Constant time?",
+        "start": 4023150,
+        "end": 4024110,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000780",
+        "text": "Finding the mean order one time.",
+        "start": 4028430,
+        "end": 4030590,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000781",
+        "text": "How do I find the next mean?",
+        "start": 4031550,
+        "end": 4033550,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000782",
+        "text": "It's going to be one of these two.",
+        "start": 4034750,
+        "end": 4036830,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000783",
+        "text": "So deleting one from.",
+        "start": 4038030,
+        "end": 4040260,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000784",
+        "text": "Once I find the mean, I delete it and I make this into a heap again in order log n time.",
+        "start": 4040490,
+        "end": 4048490,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000785",
+        "text": "I'm going to cover these.",
+        "start": 4048490,
+        "end": 4049650,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000786",
+        "text": "I just want you to know these values.",
+        "start": 4049650,
+        "end": 4054850,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000787",
+        "text": "Basically what happens is you take the minimum of these two, move it to the root, keep doing that.",
+        "start": 4054850,
+        "end": 4060490,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000788",
+        "text": "So the height of the tree is log n time log 10.",
+        "start": 4060810,
+        "end": 4064570,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000789",
+        "text": "Therefore making this into a heap again, the literature calls it heapify.",
+        "start": 4064890,
+        "end": 4070500,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000790",
+        "text": "The tree again takes log n time.",
+        "start": 4071380,
+        "end": 4073700,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000791",
+        "text": "So for now you can use this.",
+        "start": 4075140,
+        "end": 4077300,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000792",
+        "text": "There is such a data structure called a heap, a mean heap usually they call it, or a heap.",
+        "start": 4077300,
+        "end": 4083300,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000793",
+        "text": "You can find a minimum in constant time.",
+        "start": 4083540,
+        "end": 4086180,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000794",
+        "text": "You can make it into a heap again in log n time.",
+        "start": 4086420,
+        "end": 4089540,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000795",
+        "text": "Just like so I said for now, assume you can sort in n log n time.",
+        "start": 4091060,
+        "end": 4095260,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000796",
+        "text": "Same thing here.",
+        "start": 4095500,
+        "end": 4096380,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000797",
+        "text": "I will then soon discuss how to do this in log n time.",
+        "start": 4099740,
+        "end": 4103860,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000798",
+        "text": "Of course, this is easy.",
+        "start": 4103860,
+        "end": 4105260,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000799",
+        "text": "Okay, so with that in mind, what are we going to do?",
+        "start": 4106540,
+        "end": 4110620,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000800",
+        "text": "I take all these values and I put them in a heap structure so I can find the mean in constant time.",
+        "start": 4112140,
+        "end": 4125780,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000801",
+        "text": "Every time I move something up there like a, I take these edges, I update these, the update we already talked about takes order E1 plus E2, et cetera.",
+        "start": 4128740,
+        "end": 4141380,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000802",
+        "text": "If any of these values of nodes changes, that new value I'm going to insert in the heap.",
+        "start": 4141780,
+        "end": 4149269,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000803",
+        "text": "So I extract, I make it into a heap again, that's log n time.",
+        "start": 4150629,
+        "end": 4156549,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000804",
+        "text": "And I'm going to insert in the heap a new value that takes another order log n time.",
+        "start": 4157029,
+        "end": 4164389,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000805",
+        "text": "Same idea.",
+        "start": 4165109,
+        "end": 4166069,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000806",
+        "text": "Simplifying and inserting is the same process as I shall describe.",
+        "start": 4166069,
+        "end": 4172360,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000807",
+        "text": "Okay, so for every edge here I do an update and I insert into a heap.",
+        "start": 4175080,
+        "end": 4183480,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000808",
+        "text": "So the number of insertion in the heap is going to be E1 times log N. Log n and log e are the same because if E worst case n is square log of n squared is 2 log n. Otherwise they are the same.",
+        "start": 4184120,
+        "end": 4200350,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000809",
+        "text": "So you see, some people prefer to write log e, some people prefer to write log n. They are the same thing orderwise.",
+        "start": 4200750,
+        "end": 4208510,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000810",
+        "text": "Okay, so it's gonna be E1 log n E2 log n E3 log n. So all the doing minimum at insertion and all that is to going going to be order of e log e or e log n for the entire algorithm.",
+        "start": 4211070,
+        "end": 4228960,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000811",
+        "text": "Because for each edge you do one of those Things extract minimum heapify insert a new value.",
+        "start": 4229520,
+        "end": 4237280,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000812",
+        "text": "So that's a more advanced.",
+        "start": 4239280,
+        "end": 4241440,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000813",
+        "text": "A more advanced data structure.",
+        "start": 4241680,
+        "end": 4244920,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000814",
+        "text": "Given that the heap is slightly more advanced than and an array that is here.",
+        "start": 4244920,
+        "end": 4249620,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000815",
+        "text": "So the runtime now becomes order of E log e. Now, E log E is better in general than N squared.",
+        "start": 4249940,
+        "end": 4262020,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000816",
+        "text": "Yeah.",
+        "start": 4262500,
+        "end": 4263060,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000817",
+        "text": "Why is update not as it does so updating the value.",
+        "start": 4263300,
+        "end": 4276750,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000818",
+        "text": "Oh, so because this tree has n vertices, finding a minimum, I go to the root min is there.",
+        "start": 4277550,
+        "end": 4286830,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000819",
+        "text": "Now you gotta start moving things up.",
+        "start": 4287550,
+        "end": 4290030,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000820",
+        "text": "For example, you gotta compare 2 and 18, move 2 up, because that's not a new mean.",
+        "start": 4290510,
+        "end": 4298110,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000821",
+        "text": "What's going to go in here is going to to be the minimum of these two.",
+        "start": 4298270,
+        "end": 4302040,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000822",
+        "text": "So one of these go off.",
+        "start": 4302120,
+        "end": 4303640,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000823",
+        "text": "So in the world's case, you have to go all the way down the tree.",
+        "start": 4303640,
+        "end": 4307160,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000824",
+        "text": "The depth of the tree is log N. Therefore, updating the heat takes log n times.",
+        "start": 4307400,
+        "end": 4313400,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000825",
+        "text": "I meant updating the value like the.",
+        "start": 4313800,
+        "end": 4317000,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000826",
+        "text": "Distances from the start.",
+        "start": 4317000,
+        "end": 4319080,
+        "speaker": "C"
+      },
+      {
+        "sid": "s000827",
+        "text": "You see, like in the initial algorithm.",
+        "start": 4320200,
+        "end": 4322440,
+        "speaker": "C"
+      },
+      {
+        "sid": "s000828",
+        "text": "We initialize.",
+        "start": 4322440,
+        "end": 4323240,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000829",
+        "text": "Yes.",
+        "start": 4325650,
+        "end": 4325970,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000830",
+        "text": "Oh.",
+        "start": 4330530,
+        "end": 4331010,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000831",
+        "text": "So every update of the value that by itself is just E1, E2, E3, linear time.",
+        "start": 4331250,
+        "end": 4338530,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000832",
+        "text": "But you've got to put these values somewhere so that later on you can find their minimum.",
+        "start": 4339250,
+        "end": 4345130,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000833",
+        "text": "That's what costs more time.",
+        "start": 4345130,
+        "end": 4346770,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000834",
+        "text": "First time.",
+        "start": 4347810,
+        "end": 4348570,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000835",
+        "text": "No, you have the minimum.",
+        "start": 4348570,
+        "end": 4350130,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000836",
+        "text": "10 step from now.",
+        "start": 4351380,
+        "end": 4352580,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000837",
+        "text": "You still need to find the mean just like that, very quickly.",
+        "start": 4352580,
+        "end": 4356820,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000838",
+        "text": "That so preparing a heap, that's what time constant.",
+        "start": 4357060,
+        "end": 4361860,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000839",
+        "text": "Otherwise, yeah, it would be straightforward.",
+        "start": 4365300,
+        "end": 4367700,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000840",
+        "text": "So two ideas.",
+        "start": 4369380,
+        "end": 4370580,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000841",
+        "text": "Linear array.",
+        "start": 4371220,
+        "end": 4372420,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000842",
+        "text": "Find the mean in linear time, update in linear time, everything linear and all the green values.",
+        "start": 4373620,
+        "end": 4382750,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000843",
+        "text": "That's for each step.",
+        "start": 4383230,
+        "end": 4384510,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000844",
+        "text": "There are N steps on N squared.",
+        "start": 4384590,
+        "end": 4386670,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000845",
+        "text": "Here we do the same thing, but we do the accounting for the entirety of the algorithm.",
+        "start": 4387230,
+        "end": 4393150,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000846",
+        "text": "Because each step is E1, E2, E3, etc.",
+        "start": 4393230,
+        "end": 4396990,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000847",
+        "text": "And each of those E's, I gotta multiply it by log n because that's the operation on heap.",
+        "start": 4397630,
+        "end": 4404260,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000848",
+        "text": "So this log N or log E same thing is because of the heap.",
+        "start": 4405620,
+        "end": 4411700,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000849",
+        "text": "If I had a data structure that I could find the mean magically in constant time and I could delete and insert in constant time, then we would not have the log e here.",
+        "start": 4418339,
+        "end": 4430700,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000850",
+        "text": "But you don't have such a data structure.",
+        "start": 4430700,
+        "end": 4432980,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000851",
+        "text": "Yeah.",
+        "start": 4434820,
+        "end": 4435300,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000852",
+        "text": "What happened to the old N for the initial?",
+        "start": 4435940,
+        "end": 4438980,
+        "speaker": "C"
+      },
+      {
+        "sid": "s000853",
+        "text": "Like each step part?",
+        "start": 4438980,
+        "end": 4440500,
+        "speaker": "C"
+      },
+      {
+        "sid": "s000854",
+        "text": "This one?",
+        "start": 4441220,
+        "end": 4441940,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000855",
+        "text": "No, the each step part.",
+        "start": 4442020,
+        "end": 4443780,
+        "speaker": "C"
+      },
+      {
+        "sid": "s000856",
+        "text": "So there are so two things.",
+        "start": 4444580,
+        "end": 4446420,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000857",
+        "text": "When I did this linear thing, I say each step takes this times that.",
+        "start": 4446420,
+        "end": 4451460,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000858",
+        "text": "So n times N. That's N small.",
+        "start": 4451460,
+        "end": 4453960,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000859",
+        "text": "The next analysis, I didn't do each step anymore.",
+        "start": 4454750,
+        "end": 4459630,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000860",
+        "text": "I said one step may be E1, one step is E2 step two, step three E3, sum of the E's is going to be this E. Total number of edges in the graph.",
+        "start": 4459870,
+        "end": 4472510,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000861",
+        "text": "So I don't have N anymore.",
+        "start": 4473150,
+        "end": 4475670,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000862",
+        "text": "I have E1, E2, E3.",
+        "start": 4475670,
+        "end": 4477390,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000863",
+        "text": "They all add up to E.",
+        "start": 4477390,
+        "end": 4479470,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000864",
+        "text": "So.",
+        "start": 4481270,
+        "end": 4481510,
+        "speaker": "C"
+      },
+      {
+        "sid": "s000865",
+        "text": "Different way of accounting.",
+        "start": 4481510,
+        "end": 4483350,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000866",
+        "text": "The E approach looks at the entirety of the algorithm and do the analysis.",
+        "start": 4485190,
+        "end": 4489750,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000867",
+        "text": "The vertex approach does one step at a time.",
+        "start": 4489990,
+        "end": 4493270,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000868",
+        "text": "Therefore you have that.",
+        "start": 4493350,
+        "end": 4494790,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000869",
+        "text": "Please make sure you are comfortable with these two approaches.",
+        "start": 4497670,
+        "end": 4501030,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000870",
+        "text": "We'll do a few other algorithms for totally unrelated problem starting on Thursday.",
+        "start": 4501270,
+        "end": 4506880,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000871",
+        "text": "They use the same idea over and over.",
+        "start": 4507360,
+        "end": 4509920,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000872",
+        "text": "So the vertex centric approach, the eccentric approach, they are different.",
+        "start": 4510720,
+        "end": 4516080,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000873",
+        "text": "So make sure you are comfortable with them.",
+        "start": 4518160,
+        "end": 4520160,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000874",
+        "text": "And the eccentric does use the structure.",
+        "start": 4522000,
+        "end": 4525200,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000875",
+        "text": "So today we have two algorithms.",
+        "start": 4526480,
+        "end": 4528720,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000876",
+        "text": "One is this, one is that.",
+        "start": 4529440,
+        "end": 4531860,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000877",
+        "text": "Which one should I use?",
+        "start": 4533140,
+        "end": 4534500,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000878",
+        "text": "If I ask you in the exam, remember that node centric approach that we did for dice drop?",
+        "start": 4537220,
+        "end": 4544420,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000879",
+        "text": "And the H1?",
+        "start": 4544580,
+        "end": 4545780,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000880",
+        "text": "Which one should I use?",
+        "start": 4546340,
+        "end": 4547620,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000881",
+        "text": "If I have a choice, what would you answer?",
+        "start": 4548340,
+        "end": 4550620,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000882",
+        "text": "The heat.",
+        "start": 4550620,
+        "end": 4551300,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000883",
+        "text": "The heat one.",
+        "start": 4552340,
+        "end": 4553260,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000884",
+        "text": "Why?",
+        "start": 4553260,
+        "end": 4553620,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000885",
+        "text": "Because it's faster.",
+        "start": 4553860,
+        "end": 4554820,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000886",
+        "text": "Why?",
+        "start": 4555620,
+        "end": 4556020,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000887",
+        "text": "What?",
+        "start": 4558040,
+        "end": 4558160,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000888",
+        "text": "If E is equal to N squared, we have N squared, log N versus N squared.",
+        "start": 4558160,
+        "end": 4564440,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000889",
+        "text": "Which one should I use?",
+        "start": 4566840,
+        "end": 4568120,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000890",
+        "text": "Yeah, if E is equal to N squared, then wouldn't we just choose the other option?",
+        "start": 4572680,
+        "end": 4580440,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000891",
+        "text": "Yeah.",
+        "start": 4580600,
+        "end": 4581080,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000892",
+        "text": "So if it's a dense graph, I want to use this.",
+        "start": 4581080,
+        "end": 4585090,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000893",
+        "text": "This, because that's N squared.",
+        "start": 4585240,
+        "end": 4587320,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000894",
+        "text": "This is N squared, log N if it's a sparse graph.",
+        "start": 4587320,
+        "end": 4591960,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000895",
+        "text": "If E is equal to N, this is N log N, this is N squared.",
+        "start": 4592280,
+        "end": 4596560,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000896",
+        "text": "So this is better.",
+        "start": 4596560,
+        "end": 4597480,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000897",
+        "text": "So now you have given me two answer.",
+        "start": 4599160,
+        "end": 4601320,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000898",
+        "text": "When E is N, when A is N squared.",
+        "start": 4601320,
+        "end": 4603800,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000899",
+        "text": "What about everything else?",
+        "start": 4603800,
+        "end": 4605080,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000900",
+        "text": "What is the answer?",
+        "start": 4606600,
+        "end": 4607720,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000901",
+        "text": "When would I use which?",
+        "start": 4607720,
+        "end": 4609160,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000902",
+        "text": "You can set the equation.",
+        "start": 4613170,
+        "end": 4614530,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000903",
+        "text": "When is it that this number is greater than that, you do the algebra.",
+        "start": 4614610,
+        "end": 4620330,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000904",
+        "text": "But when E is greater than N squared divided by log n, that's the boundary.",
+        "start": 4620330,
+        "end": 4627970,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000905",
+        "text": "If it's more than that, you want to use this algorithm.",
+        "start": 4628450,
+        "end": 4631410,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000906",
+        "text": "If it's less than that, you want to use this algorithm.",
+        "start": 4631730,
+        "end": 4634210,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000907",
+        "text": "Sorry, the other way.",
+        "start": 4634210,
+        "end": 4635130,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000908",
+        "text": "If it's more than that, you want to use this.",
+        "start": 4635130,
+        "end": 4637020,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000909",
+        "text": "This N squared is another example of more.",
+        "start": 4637170,
+        "end": 4639810,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000910",
+        "text": "If it's less, you want to use this.",
+        "start": 4639970,
+        "end": 4641810,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000911",
+        "text": "So your answer in the exam or in your interview is going to be.",
+        "start": 4642130,
+        "end": 4646330,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000912",
+        "text": "It depends.",
+        "start": 4646330,
+        "end": 4647330,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000913",
+        "text": "Tell me how many edges you have.",
+        "start": 4647730,
+        "end": 4650370,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000914",
+        "text": "That's what you should ask if somebody's interviewing you.",
+        "start": 4650690,
+        "end": 4653490,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000915",
+        "text": "And if they say, I don't know, tell them I'm not going to answer.",
+        "start": 4654850,
+        "end": 4657890,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000916",
+        "text": "If they say, what?",
+        "start": 4659570,
+        "end": 4660530,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000917",
+        "text": "What are you thinking?",
+        "start": 4660530,
+        "end": 4661410,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000918",
+        "text": "You say, okay.",
+        "start": 4661410,
+        "end": 4662170,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000919",
+        "text": "When the graph is dense, dense is defined as E greater than N squared divided by log n. That's the definition of a dense Graph in this example, then if this is the case, use that.",
+        "start": 4662170,
+        "end": 4682250,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000920",
+        "text": "If this is not the case, use this.",
+        "start": 4683610,
+        "end": 4685690,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000921",
+        "text": "If it's exactly that, then I don't care, do whatever you want.",
+        "start": 4686170,
+        "end": 4689310,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000922",
+        "text": "And the assumption always is e, n, etc.",
+        "start": 4696260,
+        "end": 4699354,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000923",
+        "text": "Are large values.",
+        "start": 4699446,
+        "end": 4700980,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000924",
+        "text": "When e is 10 and n is 5, then none of these analysis makes sense because we are not interested in that.",
+        "start": 4701380,
+        "end": 4708980,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000925",
+        "text": "Because there might be such an overhead in the structure of the heap, for example that one may take take over the other.",
+        "start": 4709140,
+        "end": 4715770,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000926",
+        "text": "So our argument is asymptotic analysis.",
+        "start": 4715930,
+        "end": 4719450,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000927",
+        "text": "Large values of EMA and when you get higher, they don't tell you solve this of variation of GPT.",
+        "start": 4719450,
+        "end": 4728810,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000928",
+        "text": "Assuming we have only five input or hundred inputs, it's trillions of inputs.",
+        "start": 4728970,
+        "end": 4734410,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000929",
+        "text": "Therefore this asymptotic stuff actually matters.",
+        "start": 4735050,
+        "end": 4738650,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000930",
+        "text": "So please, please practice this.",
+        "start": 4742660,
+        "end": 4746820,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000931",
+        "text": "Make sure you are super comfortable.",
+        "start": 4746820,
+        "end": 4748500,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000932",
+        "text": "There is so much stuff that happened today.",
+        "start": 4748820,
+        "end": 4751220,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000933",
+        "text": "Number one problem solving technique.",
+        "start": 4752260,
+        "end": 4757060,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000934",
+        "text": "That's number one lesson.",
+        "start": 4757220,
+        "end": 4758740,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000935",
+        "text": "The rest kind of are secondary.",
+        "start": 4758740,
+        "end": 4761060,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000936",
+        "text": "Remember how we went about examples coming up with hypothesis based on the examples?",
+        "start": 4761620,
+        "end": 4768620,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000937",
+        "text": "The hypothesis failed.",
+        "start": 4768780,
+        "end": 4770380,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000938",
+        "text": "We had to modify them back and forth.",
+        "start": 4770380,
+        "end": 4773180,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000939",
+        "text": "Finally we were happy with our hypothesis.",
+        "start": 4773500,
+        "end": 4775940,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000940",
+        "text": "Then we proved it that any other path is going to be larger than mean.",
+        "start": 4775940,
+        "end": 4781260,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000941",
+        "text": "Therefore that's the right thing.",
+        "start": 4781500,
+        "end": 4783260,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000942",
+        "text": "So all these steps, once we were happy with the algorithm, we did a few examples on the algorithm that actually worked.",
+        "start": 4783260,
+        "end": 4791180,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000943",
+        "text": "And you came up with this example, which is great.",
+        "start": 4791500,
+        "end": 4794660,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000944",
+        "text": "It's kind of confusing, but we convinced ourselves even for these confusing things, same idea works.",
+        "start": 4795060,
+        "end": 4801700,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000945",
+        "text": "Now we are very confident with our algorithm.",
+        "start": 4801780,
+        "end": 4805140,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000946",
+        "text": "Now we go to implementation.",
+        "start": 4805140,
+        "end": 4806740,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000947",
+        "text": "First I do a very straightforward implementation taking a minimum in an array and updating an array.",
+        "start": 4807300,
+        "end": 4814580,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000948",
+        "text": "Kind of maybe not efficient, but it forms a and it gives us a decent algorithm.",
+        "start": 4814820,
+        "end": 4819580,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000949",
+        "text": "Then you observe that we are overestimating.",
+        "start": 4820220,
+        "end": 4823900,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000950",
+        "text": "Let's focus on edges, not vertices.",
+        "start": 4824060,
+        "end": 4826700,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000951",
+        "text": "Let's not be so pessimistic.",
+        "start": 4827340,
+        "end": 4829340,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000952",
+        "text": "That gave us the idea of an edge centric approach.",
+        "start": 4829580,
+        "end": 4833500,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000953",
+        "text": "For that we investigated that we still have a bottleneck of mean.",
+        "start": 4834140,
+        "end": 4839580,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000954",
+        "text": "Then I go to books and Internet and whatever and I say wait, is there a good way to efficiently find mean?",
+        "start": 4840140,
+        "end": 4847170,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000955",
+        "text": "Somebody tells me, book tells me, the Internet tells me, yes, there is something called heap that's especially designed for finding minimums.",
+        "start": 4847810,
+        "end": 4857010,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000956",
+        "text": "I get happy, I come back, work with that.",
+        "start": 4859010,
+        "end": 4861570,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000957",
+        "text": "And that eventually gives rise to this.",
+        "start": 4861890,
+        "end": 4864370,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000958",
+        "text": "So many things happen, but one step at a time.",
+        "start": 4864690,
+        "end": 4868850,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000959",
+        "text": "If you so so close book close note.",
+        "start": 4868850,
+        "end": 4871330,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000960",
+        "text": "If you can recreate today's lecture, you have a full understanding of not only shorts and spars, but a lot of things to come, including variation of this.",
+        "start": 4871330,
+        "end": 4881250,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000961",
+        "text": "That I may ask you in the exams so please do that.",
+        "start": 4881250,
+        "end": 4885570,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000962",
+        "text": "When I lecture, it's kind of.",
+        "start": 4886370,
+        "end": 4888890,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000963",
+        "text": "You say, yeah, yeah, yeah.",
+        "start": 4888890,
+        "end": 4890130,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000964",
+        "text": "It kind of makes sense.",
+        "start": 4890130,
+        "end": 4891330,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000965",
+        "text": "But when you know, you really understand the physician.",
+        "start": 4891570,
+        "end": 4895110,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000966",
+        "text": "If you try to lecture.",
+        "start": 4895180,
+        "end": 4896700,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000967",
+        "text": "I recreate all of this yourself.",
+        "start": 4896860,
+        "end": 4899220,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000968",
+        "text": "So please do that before Thursday.",
+        "start": 4899220,
+        "end": 4901340,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000969",
+        "text": "Homework due tomorrow.",
+        "start": 4907260,
+        "end": 4908580,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000970",
+        "text": "See you guys on Thursday.",
+        "start": 4908580,
+        "end": 4909740,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000971",
+        "text": "YouTube.",
+        "start": 4910780,
+        "end": 4911499,
+        "speaker": "A"
+      }
+    ],
+    "context_after_main_text": []
+  }
+]

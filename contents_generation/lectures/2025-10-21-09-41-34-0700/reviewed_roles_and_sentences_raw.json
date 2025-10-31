@@ -1,0 +1,52 @@
+{
+  "segments": [
+    {
+      "role": "lecture",
+      "start_sid": "s000001",
+      "end_sid": "s000045"
+    },
+    {
+      "role": "qa",
+      "start_sid": "s000046",
+      "end_sid": "s000046"
+    },
+    {
+      "role": "lecture",
+      "start_sid": "s000047",
+      "end_sid": "s000082"
+    },
+    {
+      "role": "qa",
+      "start_sid": "s000083",
+      "end_sid": "s000139"
+    }
+  ],
+  "changes": [
+    {
+      "sid": "s000046",
+      "new_role": "qa"
+    },
+    {
+      "sid": "s000083",
+      "new_role": "qa"
+    }
+  ],
+  "fixes": [
+    {
+      "sid": "s000008",
+      "modified": "Now, I told you at the very beginning I didn't really care about this kind of anthropomorphizing about the ASI."
+    },
+    {
+      "sid": "s000015",
+      "modified": "And the conclusion is that he comes to, is that we still don't and probably never will have a safe way of uploading values, specific values, into the seed computer that's becoming an ASI, that this is something that we won't be able to do."
+    },
+    {
+      "sid": "s000021",
+      "modified": "In other words, he's not giving up and saying, wow, we just really have no way of assuring the friendliness of the ASI and we just have to take our chances."
+    },
+    {
+      "sid": "s000107",
+      "modified": "But then we refer to the poem and say, do what I would want you to do if I had all the time in the world to think."
+    }
+  ]
+}

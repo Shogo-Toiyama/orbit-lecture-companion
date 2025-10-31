@@ -1,0 +1,1426 @@
+{
+  "labels": [
+    {
+      "sid": "s000001",
+      "role": "chitchat",
+      "role_score": 0.8,
+      "role_reason": "Filler sentence, likely conversational start."
+    },
+    {
+      "sid": "s000002",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Discussing an article and philosophical analogies."
+    },
+    {
+      "sid": "s000003",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Connecting philosophical concepts to characters."
+    },
+    {
+      "sid": "s000004",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining a character's moral philosophy (Captain America)."
+    },
+    {
+      "sid": "s000005",
+      "role": "chitchat",
+      "role_score": 0.7,
+      "role_reason": "Short affirmative response, conversational filler."
+    },
+    {
+      "sid": "s000006",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Asking a question to elicit a philosophical concept (utilitarian)."
+    },
+    {
+      "sid": "s000007",
+      "role": "chitchat",
+      "role_score": 0.7,
+      "role_reason": "Short affirmative response, conversational filler."
+    },
+    {
+      "sid": "s000008",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Transitioning to a new example or question."
+    },
+    {
+      "sid": "s000009",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Asking a question to connect a character to a philosophy."
+    },
+    {
+      "sid": "s000010",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Identifying a character in relation to a philosophical concept."
+    },
+    {
+      "sid": "s000011",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Discussing character, philosophy, and posing a question."
+    },
+    {
+      "sid": "s000012",
+      "role": "chitchat",
+      "role_score": 0.7,
+      "role_reason": "Student response indicating uncertainty."
+    },
+    {
+      "sid": "s000013",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Student suggesting a character for a philosophical category."
+    },
+    {
+      "sid": "s000014",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Professor acknowledging and evaluating a student's suggestion."
+    },
+    {
+      "sid": "s000015",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Professor evaluating a student's suggestion."
+    },
+    {
+      "sid": "s000016",
+      "role": "chitchat",
+      "role_score": 0.7,
+      "role_reason": "Short affirmative response, conversational filler."
+    },
+    {
+      "sid": "s000017",
+      "role": "chitchat",
+      "role_score": 0.8,
+      "role_reason": "Conversational closing of a sub-topic."
+    },
+    {
+      "sid": "s000018",
+      "role": "qa",
+      "role_score": 0.8,
+      "role_reason": "Professor asking if there are questions after a section."
+    },
+    {
+      "sid": "s000019",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Introducing a new topic on decision-making frameworks."
+    },
+    {
+      "sid": "s000020",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Posing a fundamental question about decision-making."
+    },
+    {
+      "sid": "s000021",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Elaborating on the nature of choices and decisions."
+    },
+    {
+      "sid": "s000022",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Providing an example of everyday decision-making, contrasting with formal ethics."
+    },
+    {
+      "sid": "s000023",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Mentioning a specific philosophical approach (calculus/utilitarianism)."
+    },
+    {
+      "sid": "s000024",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Explaining the concept of evaluating good and bad outcomes."
+    },
+    {
+      "sid": "s000025",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Stating that choices are made in various ways."
+    },
+    {
+      "sid": "s000026",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Indicating the source of the following material."
+    },
+    {
+      "sid": "s000027",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Explaining modifications made to the source material."
+    },
+    {
+      "sid": "s000028",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Describing the origin and focus of the upcoming slides."
+    },
+    {
+      "sid": "s000029",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Stating the goal of understanding personal decision-making."
+    },
+    {
+      "sid": "s000030",
+      "role": "lecture",
+      "role_reason": "Introducing a decision-making approach based on intuition.",
+      "role_score": 0.9
+    },
+    {
+      "sid": "s000031",
+      "role": "lecture",
+      "role_reason": "Describing the 'gut feeling' aspect of intuitive decision-making.",
+      "role_score": 0.9
+    },
+    {
+      "sid": "s000032",
+      "role": "lecture",
+      "role_reason": "Introducing a quote related to the intuitive approach.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000033",
+      "role": "lecture",
+      "role_reason": "Quoting Oppenheimer on pursuing technically interesting ideas.",
+      "role_score": 0.9
+    },
+    {
+      "sid": "s000034",
+      "role": "chitchat",
+      "role_score": 0.7,
+      "role_reason": "Exclamation of surprise or interest."
+    },
+    {
+      "sid": "s000035",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Commenting on the implications of the quote."
+    },
+    {
+      "sid": "s000036",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Mentioning another quote for comparison."
+    },
+    {
+      "sid": "s000037",
+      "role": "lecture",
+      "role_reason": "Continuing the discussion on intuitive decision-making with examples.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000038",
+      "role": "lecture",
+      "role_reason": "Introducing the concept of listening to one's conscience.",
+      "role_score": 0.9
+    },
+    {
+      "sid": "s000039",
+      "role": "lecture",
+      "role_reason": "Comparing the 'conscience' approach to previous ones.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000040",
+      "role": "lecture",
+      "role_reason": "Prompting further thought on the comparison.",
+      "role_score": 0.7
+    },
+    {
+      "sid": "s000041",
+      "role": "lecture",
+      "role_reason": "Distinguishing Oppenheimer's motivation from conscience.",
+      "role_score": 0.9
+    },
+    {
+      "sid": "s000042",
+      "role": "lecture",
+      "role_reason": "Explaining Oppenheimer's motivation as scientific inspiration.",
+      "role_score": 0.9
+    },
+    {
+      "sid": "s000043",
+      "role": "lecture",
+      "role_reason": "Introducing Gandhi's perspective on conscience.",
+      "role_score": 0.9
+    },
+    {
+      "sid": "s000044",
+      "role": "lecture",
+      "role_reason": "Asking a clarifying question about moral decisions.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000045",
+      "role": "lecture",
+      "role_reason": "Introducing another quote related to decision-making.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000046",
+      "role": "lecture",
+      "role_reason": "Quoting Mbappe on avoiding mistakes through inaction.",
+      "role_score": 0.9
+    },
+    {
+      "sid": "s000047",
+      "role": "chitchat",
+      "role_score": 0.7,
+      "role_reason": "Short affirmative response, conversational."
+    },
+    {
+      "sid": "s000048",
+      "role": "lecture",
+      "role_reason": "Countering the idea of inaction as a solution.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000049",
+      "role": "lecture",
+      "role_reason": "Emphasizing the need for action.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000050",
+      "role": "lecture",
+      "role_reason": "Defining inaction as a form of choice.",
+      "role_score": 0.9
+    },
+    {
+      "sid": "s000051",
+      "role": "lecture",
+      "role_reason": "Discussing the value of trying despite difficulty.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000052",
+      "role": "lecture",
+      "role_reason": "Explaining how action avoids complacency.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000053",
+      "role": "lecture",
+      "role_reason": "Introducing another figure and decision-making approach.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000054",
+      "role": "lecture",
+      "role_reason": "Identifying the approach as appealing to authority.",
+      "role_score": 0.9
+    },
+    {
+      "sid": "s000055",
+      "role": "lecture",
+      "role_reason": "Explaining the reliance on others for decision-making.",
+      "role_score": 0.9
+    },
+    {
+      "sid": "s000056",
+      "role": "lecture",
+      "role_reason": "Quoting Indra Nooyi on leadership.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000057",
+      "role": "lecture",
+      "role_reason": "Continuing the quote about leadership.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000058",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Asking for student input on decision-making methods."
+    },
+    {
+      "sid": "s000059",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Prompting students to share other decision-making approaches."
+    },
+    {
+      "sid": "s000060",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Asking about the easiest decision-making method."
+    },
+    {
+      "sid": "s000061",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Describing the 'easiest' method as requiring least energy/thought."
+    },
+    {
+      "sid": "s000062",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Asking how the presented methods relate to prior concepts."
+    },
+    {
+      "sid": "s000063",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Listing specific philosophical frameworks for comparison."
+    },
+    {
+      "sid": "s000064",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Transitioning to a question about the reality of these frameworks."
+    },
+    {
+      "sid": "s000065",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Questioning if presented methods are practical or idealistic."
+    },
+    {
+      "sid": "s000066",
+      "role": "chitchat",
+      "role_score": 0.7,
+      "role_reason": "Affirmative response, conversational."
+    },
+    {
+      "sid": "s000067",
+      "role": "lecture",
+      "role_reason": "Connecting a method to deontology and noting a potential difference.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000068",
+      "role": "lecture",
+      "role_reason": "Describing a decision not made in the moment.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000069",
+      "role": "lecture",
+      "role_reason": "Contrasting with relativistic decision-making.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000070",
+      "role": "lecture",
+      "role_reason": "Suggesting conscience might be more immediate.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000071",
+      "role": "lecture",
+      "role_reason": "Explaining the 'in the moment' aspect of conscience.",
+      "role_score": 0.9
+    },
+    {
+      "sid": "s000072",
+      "role": "lecture",
+      "role_reason": "Providing a hypothetical scenario to illustrate conscience.",
+      "role_score": 0.9
+    },
+    {
+      "sid": "s000073",
+      "role": "lecture",
+      "role_reason": "Referencing Kant in relation to making choices.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000074",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Asking a question about the relationship between concepts."
+    },
+    {
+      "sid": "s000075",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Questioning if different decision-making approaches are separate or integrated."
+    },
+    {
+      "sid": "s000076",
+      "role": "lecture",
+      "role_reason": "Connecting intuition/conscience to algorithmic bias.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000077",
+      "role": "lecture",
+      "role_reason": "Discussing applying frameworks versus situational ethics.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000078",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Stating a key takeaway about decision-making complexity."
+    },
+    {
+      "sid": "s000079",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Suggesting flexibility in decision-making approaches."
+    },
+    {
+      "sid": "s000080",
+      "role": "lecture",
+      "role_reason": "Emphasizing the need for multiple frameworks to find balance.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000081",
+      "role": "qa",
+      "role_score": 0.8,
+      "role_reason": "Professor asking for further questions or points."
+    },
+    {
+      "sid": "s000082",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Introducing emotions as a decision-making factor."
+    },
+    {
+      "sid": "s000083",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Discussing the influence of emotions on decisions."
+    },
+    {
+      "sid": "s000084",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Connecting emotions to conscience and other influences."
+    },
+    {
+      "sid": "s000085",
+      "role": "chitchat",
+      "role_score": 0.7,
+      "role_reason": "Short affirmative response, conversational."
+    },
+    {
+      "sid": "s000086",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Asking for clarification on the difference between concepts."
+    },
+    {
+      "sid": "s000087",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Asking to differentiate 'feels right', conscience, and emotions."
+    },
+    {
+      "sid": "s000088",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Acknowledging the connection between emotions and 'feels right'."
+    },
+    {
+      "sid": "s000089",
+      "role": "chitchat",
+      "role_score": 0.7,
+      "role_reason": "Short affirmative response, conversational."
+    },
+    {
+      "sid": "s000090",
+      "role": "lecture",
+      "role_reason": "Explaining how emotional states lead to decisions based on 'feels right'.",
+      "role_score": 0.9
+    },
+    {
+      "sid": "s000091",
+      "role": "lecture",
+      "role_reason": "Distinguishing Oppenheimer's 'feels right' from emotional reactions.",
+      "role_score": 0.9
+    },
+    {
+      "sid": "s000092",
+      "role": "lecture",
+      "role_reason": "Further explaining Oppenheimer's motivation as intellectual curiosity.",
+      "role_score": 0.9
+    },
+    {
+      "sid": "s000093",
+      "role": "lecture",
+      "role_reason": "Contrasting Oppenheimer's motivation with visceral emotional responses.",
+      "role_score": 0.9
+    },
+    {
+      "sid": "s000094",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Stating the perceived difference between the two motivations."
+    },
+    {
+      "sid": "s000095",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Introducing the topic of implicit bias."
+    },
+    {
+      "sid": "s000096",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Mentioning that bias will be discussed further in relation to AI."
+    },
+    {
+      "sid": "s000097",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Asking about the existence of biases influencing decisions."
+    },
+    {
+      "sid": "s000098",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining how biases can inform decision-making."
+    },
+    {
+      "sid": "s000099",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Giving an example of how dislike can influence decisions."
+    },
+    {
+      "sid": "s0000100",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Reiterating the question about implicit biases."
+    },
+    {
+      "sid": "s0000101",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Sharing personal experience with implicit bias training."
+    },
+    {
+      "sid": "s0000102",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Describing pushback against the concept of implicit bias."
+    },
+    {
+      "sid": "s0000103",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Questioning how biases can be hidden if known."
+    },
+    {
+      "sid": "s0000104",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Distinguishing between internal feelings and external presentation of bias."
+    },
+    {
+      "sid": "s0000105",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Asking for student opinions on the existence of implicit biases."
+    },
+    {
+      "sid": "s0000106",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Asking if students understand the definition of implicit biases."
+    },
+    {
+      "sid": "s0000107",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Introducing an experiment to demonstrate implicit bias."
+    },
+    {
+      "sid": "s0000108",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Describing the setup of the implicit association test (IAT)."
+    },
+    {
+      "sid": "s0000109",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining the first part of the IAT: categorizing individuals by race."
+    },
+    {
+      "sid": "s000110",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Describing the input method for the categorization task."
+    },
+    {
+      "sid": "s000111",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Explaining one variation of the race categorization task."
+    },
+    {
+      "sid": "s000112",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Explaining the other variation of the race categorization task."
+    },
+    {
+      "sid": "s000113",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Clarifying that the side for categorization switched."
+    },
+    {
+      "sid": "s000114",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Introducing the second part of the IAT and its purpose."
+    },
+    {
+      "sid": "s000115",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Describing the task of categorizing words by association."
+    },
+    {
+      "sid": "s000116",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Explaining the categorization of words as 'good' or 'bad'."
+    },
+    {
+      "sid": "s000117",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Giving examples of words categorized as 'good' or 'bad'."
+    },
+    {
+      "sid": "s000118",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Summarizing the bucketization task in the IAT."
+    },
+    {
+      "sid": "s000119",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Explaining the variation tested: pairing race with 'good'/'bad'."
+    },
+    {
+      "sid": "s000120",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Clarifying what 'good' means in the context of the test."
+    },
+    {
+      "sid": "s000121",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Explaining how the pairings were structured."
+    },
+    {
+      "sid": "s000122",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Describing the core task of the IAT variations."
+    },
+    {
+      "sid": "s000123",
+      "role": "qa",
+      "role_score": 0.8,
+      "role_reason": "Professor asking for confirmation of understanding."
+    },
+    {
+      "sid": "s000124",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Explaining that the time gap in the test is significant."
+    },
+    {
+      "sid": "s000125",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Presenting the findings of the IAT regarding racial bias."
+    },
+    {
+      "sid": "s000126",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Stating that the finding is an indication of implicit bias."
+    },
+    {
+      "sid": "s000127",
+      "role": "qa",
+      "role_score": 0.8,
+      "role_reason": "Professor asking for confirmation of understanding."
+    },
+    {
+      "sid": "s000128",
+      "role": "qa",
+      "role_score": 0.8,
+      "role_reason": "Professor inviting questions about the IAT experiment."
+    },
+    {
+      "sid": "s000129",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Connecting implicit bias to AI and algorithms."
+    },
+    {
+      "sid": "s000130",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Introducing unique challenges in computing ethics."
+    },
+    {
+      "sid": "s000131",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Listing three unique aspects of computing challenges."
+    },
+    {
+      "sid": "s000132",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Identifying reproducibility as the first challenge."
+    },
+    {
+      "sid": "s000133",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Explaining the challenge of data volume and replication."
+    },
+    {
+      "sid": "s000134",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Highlighting the ability to preserve data for meaningful use."
+    },
+    {
+      "sid": "s000135",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Identifying information flow as the second challenge."
+    },
+    {
+      "sid": "s000136",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Describing challenges in communication and identity in computing."
+    },
+    {
+      "sid": "s000137",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Introducing the trolley problem as a relevant ethical scenario."
+    },
+    {
+      "sid": "s000138",
+      "role": "qa",
+      "role_score": 0.8,
+      "role_reason": "Professor asking students if they know the trolley problem."
+    },
+    {
+      "sid": "s000139",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining the basic premise of the trolley problem."
+    },
+    {
+      "sid": "s000140",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Describing the consequence of inaction in the trolley problem."
+    },
+    {
+      "sid": "s000141",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining the choice presented in the trolley problem."
+    },
+    {
+      "sid": "s000142",
+      "role": "chitchat",
+      "role_score": 0.7,
+      "role_reason": "Commentary on the analogy used."
+    },
+    {
+      "sid": "s000143",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Framing the core decision in the trolley problem."
+    },
+    {
+      "sid": "s000144",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Clarifying the action involved in the scenario."
+    },
+    {
+      "sid": "s000145",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Describing the action of pulling the switch."
+    },
+    {
+      "sid": "s000146",
+      "role": "chitchat",
+      "role_score": 0.7,
+      "role_reason": "Short affirmative response, conversational."
+    },
+    {
+      "sid": "s000147",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Setting a condition for the scenario (no external intervention)."
+    },
+    {
+      "sid": "s000148",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Asking how many would intervene, linking to utilitarianism."
+    },
+    {
+      "sid": "s000149",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Transitioning to explain the reasoning behind a choice."
+    },
+    {
+      "sid": "s000150",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Prompting for the reasoning."
+    },
+    {
+      "sid": "s000151",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Identifying the utilitarian argument for pulling the switch."
+    },
+    {
+      "sid": "s000152",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Considering alternative motivations (deontology, vengeance)."
+    },
+    {
+      "sid": "s000153",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Concluding that pulling the switch is a utilitarian choice."
+    },
+    {
+      "sid": "s000154",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Asking how many would refuse to act, linking to deontology."
+    },
+    {
+      "sid": "s000155",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Stating the inevitability of death regardless of action."
+    },
+    {
+      "sid": "s000156",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Expressing a stance of non-responsibility."
+    },
+    {
+      "sid": "s000157",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Suggesting blame shifting."
+    },
+    {
+      "sid": "s000158",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Asking for the reasoning behind not acting."
+    },
+    {
+      "sid": "s000159",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Suggesting a reason beyond pure logic."
+    },
+    {
+      "sid": "s000160",
+      "role": "chitchat",
+      "role_score": 0.7,
+      "role_reason": "Short affirmative response, conversational."
+    },
+    {
+      "sid": "s000161",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Stating a deontological reason: not wanting to kill."
+    },
+    {
+      "sid": "s000162",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Expressing that the choice is not theirs to make."
+    },
+    {
+      "sid": "s000163",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Contrasting inaction with actively making a choice."
+    },
+    {
+      "sid": "s000164",
+      "role": "chitchat",
+      "role_score": 0.7,
+      "role_reason": "Short affirmative response, conversational."
+    },
+    {
+      "sid": "s000165",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Referencing a previous concept (Mbappe) in relation to inaction."
+    },
+    {
+      "sid": "s000166",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Explaining Mbappe's view on inaction."
+    },
+    {
+      "sid": "s000167",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Acknowledging the different approaches to the problem."
+    },
+    {
+      "sid": "s000168",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Observing that some students did not raise their hand."
+    },
+    {
+      "sid": "s000169",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Asking if there are other solutions to the trolley problem."
+    },
+    {
+      "sid": "s000170",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Asking for creative solutions to the trolley problem."
+    },
+    {
+      "sid": "s000171",
+      "role": "chitchat",
+      "role_score": 0.7,
+      "role_reason": "Affirmative response, conversational."
+    },
+    {
+      "sid": "s000172",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Suggesting 'panic' as a non-solution."
+    },
+    {
+      "sid": "s000173",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Suggesting another non-solution (screaming)."
+    },
+    {
+      "sid": "s000174",
+      "role": "chitchat",
+      "role_score": 0.7,
+      "role_reason": "Affirmative response, conversational."
+    },
+    {
+      "sid": "s000175",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Asking for solutions other than panic."
+    },
+    {
+      "sid": "s000176",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Student response: decision depends on context/people involved."
+    },
+    {
+      "sid": "s000177",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Student elaborating on situational factors influencing choice."
+    },
+    {
+      "sid": "s000178",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Student explaining how relationships influence decisions."
+    },
+    {
+      "sid": "s000179",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Student expressing uncertainty about a 'good' answer."
+    },
+    {
+      "sid": "s000180",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Professor commenting on the complexity introduced by student input."
+    },
+    {
+      "sid": "s000181",
+      "role": "chitchat",
+      "role_score": 0.7,
+      "role_reason": "Short affirmative response, conversational."
+    },
+    {
+      "sid": "s000182",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Introducing a variant of the trolley problem (pushing someone)."
+    },
+    {
+      "sid": "s000183",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Describing the active, direct killing aspect of the variant."
+    },
+    {
+      "sid": "s000184",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Commenting on the increased personal nature of the variant."
+    },
+    {
+      "sid": "s000185",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Introducing another factor: knowing the people involved."
+    },
+    {
+      "sid": "s000186",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Introducing the concept of valuing lives differently (societal contribution)."
+    },
+    {
+      "sid": "s000187",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Giving a specific example of valuing lives differently (Einstein)."
+    },
+    {
+      "sid": "s000188",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Continuing the example."
+    },
+    {
+      "sid": "s000189",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Stating that this is another variant of the trolley problem."
+    },
+    {
+      "sid": "s000190",
+      "role": "chitchat",
+      "role_score": 0.7,
+      "role_reason": "Short affirmative response, conversational."
+    },
+    {
+      "sid": "s000191",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Introducing a quote about the trolley problem."
+    },
+    {
+      "sid": "s000192",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Identifying the source of the quote."
+    },
+    {
+      "sid": "s000193",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Quoting Desi Lydic on the nature of the trolley problem."
+    },
+    {
+      "sid": "s000194",
+      "role": "chitchat",
+      "role_score": 0.7,
+      "role_reason": "Short affirmative response, conversational."
+    },
+    {
+      "sid": "s000195",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Transitioning to a modern application of the trolley problem."
+    },
+    {
+      "sid": "s000196",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Introducing autonomous vehicles as the modern context."
+    },
+    {
+      "sid": "s000197",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Stating that autonomous vehicles are the modern trolley problem."
+    },
+    {
+      "sid": "s000198",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Reiterating the topic of autonomous vehicles."
+    },
+    {
+      "sid": "s000199",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Listing potential benefits of autonomous vehicles."
+    },
+    {
+      "sid": "s000200",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Acknowledging uncertainty about the impact on jobs."
+    },
+    {
+      "sid": "s000201",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Mentioning economic growth as a potential benefit."
+    },
+    {
+      "sid": "s000202",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Indicating that other issues with AVs will be discussed."
+    },
+    {
+      "sid": "s000203",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Describing a potential negative aspect."
+    },
+    {
+      "sid": "s000204",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Comparing moral differences between human and autonomous drivers."
+    },
+    {
+      "sid": "s000205",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Describing human driver decisions as typically not premeditated."
+    },
+    {
+      "sid": "s000206",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Reinforcing that human accidents are usually not premeditated."
+    },
+    {
+      "sid": "s000207",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Contrasting AV decision-making as programmed or learned."
+    },
+    {
+      "sid": "s000208",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Explaining that AVs learn from scenarios."
+    },
+    {
+      "sid": "s000209",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Questioning the legal and moral accountability of AVs."
+    },
+    {
+      "sid": "s000210",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Asking if programmed choices in AVs are morally different."
+    },
+    {
+      "sid": "s000211",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Introducing the MIT Moral Machine project."
+    },
+    {
+      "sid": "s000212",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Speculating on the project's current availability."
+    },
+    {
+      "sid": "s000213",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Describing the Moral Machine's scenario-based questions."
+    },
+    {
+      "sid": "s000214",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Presenting a specific scenario from the Moral Machine."
+    },
+    {
+      "sid": "s000215",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Comparing the scenario to the trolley problem."
+    },
+    {
+      "sid": "s000216",
+      "role": "chitchat",
+      "role_score": 0.7,
+      "role_reason": "Short affirmative response, conversational."
+    },
+    {
+      "sid": "s000217",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Asking what the car should do in the scenario."
+    },
+    {
+      "sid": "s000218",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Highlighting the difference: programming AVs vs. human reaction."
+    },
+    {
+      "sid": "s000219",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Transitioning to contrast with human driver reactions."
+    },
+    {
+      "sid": "s000220",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Describing a human driver's potential reaction to brake failure."
+    },
+    {
+      "sid": "s000221",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Asking what a human driver would do in that situation."
+    },
+    {
+      "sid": "s000222",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Contrasting accountability for AV programming vs. human reaction."
+    },
+    {
+      "sid": "s000223",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Mentioning the variety of scenarios presented by MIT."
+    },
+    {
+      "sid": "s000224",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Clarifying ownership of the scenarios."
+    },
+    {
+      "sid": "s000225",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Clarifying ownership of the scenarios."
+    },
+    {
+      "sid": "s000226",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Clarifying ownership of the scenarios."
+    },
+    {
+      "sid": "s000227",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Presenting a specific, ethically complex scenario from MIT."
+    },
+    {
+      "sid": "s000228",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Asking how the car should decide based on passenger value."
+    },
+    {
+      "sid": "s000229",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Mentioning the variety of scenarios and decision factors."
+    },
+    {
+      "sid": "s000230",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Asking about the weighing of different lives."
+    },
+    {
+      "sid": "s000231",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Transitioning to a personal scenario for discussion."
+    },
+    {
+      "sid": "s000232",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Introducing a hypothetical scenario."
+    },
+    {
+      "sid": "s000233",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Setting up the scenario: designing an AV."
+    },
+    {
+      "sid": "s000234",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Describing the specific scenario: logs falling from a truck."
+    },
+    {
+      "sid": "s000235",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Explaining the danger posed by the logs."
+    },
+    {
+      "sid": "s000236",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Presenting the choice: plow into logs or swerve."
+    },
+    {
+      "sid": "s000237",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Stating that braking is not an option."
+    }
+  ]
+}

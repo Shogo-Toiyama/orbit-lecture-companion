@@ -1,0 +1,193 @@
+{
+  "idx": 1,
+  "title": "Weighted Shortest Path Problem",
+  "count": 23,
+  "sids": [
+    "s000001",
+    "s000002",
+    "s000003",
+    "s000006",
+    "s000007",
+    "s000008",
+    "s000009",
+    "s000011",
+    "s000012",
+    "s000015",
+    "s000017",
+    "s000025",
+    "s000027",
+    "s000028",
+    "s000029",
+    "s000113",
+    "s000115",
+    "s000118",
+    "s000119",
+    "s000161",
+    "s000162",
+    "s000163",
+    "s000164"
+  ],
+  "evidences": [
+    {
+      "sid": "s000001",
+      "text": "And if you recall, once we do breadth first search, remember the layer number of a vertex, that's actually the distance to the source.",
+      "start": 2080,
+      "end": 12240,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000002",
+      "text": "Now if a graph is weighted, let's say as such, this is your source or your starting point.",
+      "start": 14080,
+      "end": 33530,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000003",
+      "text": "Then if we would have done breadth first search and or breadth first search tree, then we would figure that the distance from S To h is 1, 8 or 1 link.",
+      "start": 34730,
+      "end": 49530,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000006",
+      "text": "And that works when the graph is not weighted.",
+      "start": 63380,
+      "end": 66180,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000007",
+      "text": "Now if you modify the definition of a shortest path, which means not the number of edges, not the number of links, for the sum of the weight of on those edges, that's what we call shortest path.",
+      "start": 66580,
+      "end": 81050,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000008",
+      "text": "In a weighted graph of this nature.",
+      "start": 81450,
+      "end": 84850,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000009",
+      "text": "This is an example of so in that the shortest path, the total weight from S to B is 1, from S to C is 2, and from S to A is not 10 is 1 to the 3, some of these numbers.",
+      "start": 84850,
+      "end": 104660,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000011",
+      "text": "So that's how we define weight of a path on a H. And the question is, how can we solve that?",
+      "start": 113940,
+      "end": 122740,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000012",
+      "text": "Obviously breadth first search and breadth first related searches is not going to work because that only deals with the number of edges.",
+      "start": 123140,
+      "end": 133140,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000015",
+      "text": "And the weights could be the cost of a lake.",
+      "start": 139780,
+      "end": 143540,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000017",
+      "text": "And you may be asking for the minimum cost at from a given point to another point or instead of all other points.",
+      "start": 150460,
+      "end": 159230,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000025",
+      "text": "So the problem that we are looking at is the minimum weight path or minimum distance path on a weighted graph.",
+      "start": 197790,
+      "end": 206510,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000027",
+      "text": "Now we are considering the case where the weight is going to be on the edges.",
+      "start": 211520,
+      "end": 216640,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000028",
+      "text": "So for now, for today, only the edges are weighted.",
+      "start": 217440,
+      "end": 222160,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000029",
+      "text": "So the problem is find the shortest path, the minimum weight path from S to all other vertices.",
+      "start": 225600,
+      "end": 235190,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000113",
+      "text": "There are also technical difficulties when the weights are negative.",
+      "start": 754190,
+      "end": 760750,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000115",
+      "text": "So for now, I assume all the weights on the edges are positive numbers.",
+      "start": 765230,
+      "end": 770510,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000118",
+      "text": "Today we can't.",
+      "start": 784680,
+      "end": 785640,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000119",
+      "text": "We don't have the tools to tackle that problem.",
+      "start": 785640,
+      "end": 788440,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000161",
+      "text": "Because I assumed there are no negative edges in this case graph.",
+      "start": 1056179,
+      "end": 1061070,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000162",
+      "text": "And in fact, when I have negative edges, this whole basic premise is going to fade.",
+      "start": 1062030,
+      "end": 1067550,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000163",
+      "text": "And that's why greedy doesn't work with negative edges.",
+      "start": 1069950,
+      "end": 1073150,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000164",
+      "text": "That's why we assume, to begin with, there are negative edges.",
+      "start": 1073390,
+      "end": 1077150,
+      "role": "lecture"
+    }
+  ]
+}

@@ -1,0 +1,953 @@
+{
+  "idx": 5,
+  "title": "Algorithmic Problem-Solving Process",
+  "count": 118,
+  "sids": [
+    "s000032",
+    "s000033",
+    "s000034",
+    "s000035",
+    "s000036",
+    "s000037",
+    "s000038",
+    "s000039",
+    "s000040",
+    "s000041",
+    "s000044",
+    "s000045",
+    "s000046",
+    "s000047",
+    "s000048",
+    "s000049",
+    "s000050",
+    "s000051",
+    "s000052",
+    "s000053",
+    "s000056",
+    "s000057",
+    "s000058",
+    "s000059",
+    "s000060",
+    "s000061",
+    "s000062",
+    "s000063",
+    "s000086",
+    "s000087",
+    "s000088",
+    "s000089",
+    "s000092",
+    "s000094",
+    "s000095",
+    "s000096",
+    "s000109",
+    "s000110",
+    "s000111",
+    "s000203",
+    "s000207",
+    "s000208",
+    "s000209",
+    "s000210",
+    "s000211",
+    "s000212",
+    "s000213",
+    "s000214",
+    "s000215",
+    "s000216",
+    "s000232",
+    "s000233",
+    "s000234",
+    "s000235",
+    "s000237",
+    "s000238",
+    "s000239",
+    "s000240",
+    "s000241",
+    "s000242",
+    "s000303",
+    "s000477",
+    "s000478",
+    "s000479",
+    "s000488",
+    "s000489",
+    "s000490",
+    "s000491",
+    "s000492",
+    "s000493",
+    "s000494",
+    "s000496",
+    "s000507",
+    "s000509",
+    "s000510",
+    "s000511",
+    "s000512",
+    "s000513",
+    "s000668",
+    "s000669",
+    "s000670",
+    "s000671",
+    "s000672",
+    "s000673",
+    "s000674",
+    "s000675",
+    "s000676",
+    "s000677",
+    "s000933",
+    "s000934",
+    "s000935",
+    "s000936",
+    "s000937",
+    "s000938",
+    "s000939",
+    "s000940",
+    "s000941",
+    "s000942",
+    "s000943",
+    "s000945",
+    "s000946",
+    "s000947",
+    "s000948",
+    "s000949",
+    "s000950",
+    "s000951",
+    "s000952",
+    "s000953",
+    "s000954",
+    "s000955",
+    "s000956",
+    "s000957",
+    "s000958",
+    "s000959",
+    "s000960",
+    "s000965",
+    "s000966",
+    "s000967"
+  ],
+  "evidences": [
+    {
+      "sid": "s000032",
+      "text": "That's the first thing you want to ask whenever you see a problem.",
+      "start": 247430,
+      "end": 251430,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000033",
+      "text": "Are we hundred percent comfortable?",
+      "start": 252390,
+      "end": 254430,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000034",
+      "text": "We understand the problem?",
+      "start": 254430,
+      "end": 256070,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000035",
+      "text": "Are there ambiguities? These are the kind of thing you want to ask yourself when you see a problem for the first time.",
+      "start": 256630,
+      "end": 264960,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000036",
+      "text": "Because one little wrong assumption, that will change a problem entirely.",
+      "start": 266240,
+      "end": 272960,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000037",
+      "text": "And because of that, with very high probability, whatever solution you come up with is incorrect because it's for a different problem.",
+      "start": 273440,
+      "end": 282880,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000038",
+      "text": "So I will say, say that every time because it matters.",
+      "start": 283600,
+      "end": 287850,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000039",
+      "text": "Understanding the problem is important.",
+      "start": 288250,
+      "end": 290330,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000040",
+      "text": "Do a few examples on the side, see if it makes sense.",
+      "start": 291050,
+      "end": 295130,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000041",
+      "text": "If there are, try to come up with exceptions or things that make this problem difficult.",
+      "start": 296570,
+      "end": 303450,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000044",
+      "text": "Okay, so always go through these few minutes of exercise with yourself of 'Do I understand the problem?'",
+      "start": 314100,
+      "end": 322420,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000045",
+      "text": "Do a few examples.",
+      "start": 324340,
+      "end": 325700,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000046",
+      "text": "When you do examples and you try to get deeper into the problem, that will probably give you hints on how to solve the problem or some initial hint.",
+      "start": 325700,
+      "end": 336490,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000047",
+      "text": "So those are all good things.",
+      "start": 336720,
+      "end": 338000,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000048",
+      "text": "So it's not time wasted.",
+      "start": 338160,
+      "end": 339840,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000049",
+      "text": "Especially when you have limited time, like in exams and interviews, we immediately want to give a solution that's not a good idea.",
+      "start": 340080,
+      "end": 350720,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000050",
+      "text": "Just sit back, think about the problem, do a few examples.",
+      "start": 351200,
+      "end": 355280,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000051",
+      "text": "Only when you feel super comfortable with the problem.",
+      "start": 355760,
+      "end": 358560,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000052",
+      "text": "That's the time to even begin thinking about an algorithm solution.",
+      "start": 358880,
+      "end": 363920,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000053",
+      "text": "Okay, so even for homework, try to practice solving them in this manner.",
+      "start": 366880,
+      "end": 372320,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000056",
+      "text": "The most important thing is to solve it correctly, not to solve it.",
+      "start": 379520,
+      "end": 383760,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000057",
+      "text": "Especially as you have already noticed with algorithms, one assumption could change a problem entirely.",
+      "start": 385360,
+      "end": 393300,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000058",
+      "text": "All the way from making a problem that is super simple to a problem that's impossible to solve and vice versa.",
+      "start": 393540,
+      "end": 402260,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000059",
+      "text": "But the extra time is worth it.",
+      "start": 403220,
+      "end": 405060,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000060",
+      "text": "Okay, so having this problem, I know breadth first search doesn't work.",
+      "start": 405860,
+      "end": 410500,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000061",
+      "text": "I may try that.",
+      "start": 410900,
+      "end": 412100,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000062",
+      "text": "I may try grid first search, modification of preference search.",
+      "start": 412420,
+      "end": 417270,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000063",
+      "text": "Those are good approaches, but as I try them, I'll see that they are failing if they are not giving the solution that I care.",
+      "start": 417350,
+      "end": 425430,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000086",
+      "text": "Okay, so how would I go about solving this problem?",
+      "start": 590420,
+      "end": 593460,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000087",
+      "text": "I can see it resembles a problem I solved seen before, transfer, search, etc.",
+      "start": 594580,
+      "end": 600740,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000088",
+      "text": "And you should try that and you should play with those ideas, but they won't work.",
+      "start": 600820,
+      "end": 605220,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000089",
+      "text": "The other thing I have available to me are algorithmic paradigms.",
+      "start": 606260,
+      "end": 610580,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000092",
+      "text": "So one of the things I can try is all these algorithmic paradigms for today.",
+      "start": 625870,
+      "end": 630270,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000094",
+      "text": "So for a moment I say, let me use the greedy paradigm to solve this problem.",
+      "start": 631030,
+      "end": 636590,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000095",
+      "text": "If it works, great.",
+      "start": 636990,
+      "end": 638270,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000096",
+      "text": "If not, I move on to something else.",
+      "start": 638270,
+      "end": 640750,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000109",
+      "text": "Because for now, in my head I want to try green.",
+      "start": 742500,
+      "end": 745540,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000110",
+      "text": "That's the first thing I want to try.",
+      "start": 746500,
+      "end": 748180,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000111",
+      "text": "If it doesn't work, I'll do something else.",
+      "start": 748180,
+      "end": 750420,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000203",
+      "text": "So you see, I'm trying, I don't know how to solve this problem, so I'm going to try greedy.",
+      "start": 1300290,
+      "end": 1306530,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000207",
+      "text": "That phase, then I come up with hypothesis of what else to consider.",
+      "start": 1310810,
+      "end": 1315330,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000208",
+      "text": "And these ideas and these examples hopefully will give rise to a brand new algorithm.",
+      "start": 1318850,
+      "end": 1325530,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000209",
+      "text": "Again, solving this problem is not important.",
+      "start": 1328010,
+      "end": 1330410,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000210",
+      "text": "Solving any problem in this course is not important.",
+      "start": 1330650,
+      "end": 1333290,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000211",
+      "text": "What is important is the methodology.",
+      "start": 1333930,
+      "end": 1336090,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000212",
+      "text": "That's why we try to come up with an algorithm together from scratch, in terms of what may work, what may not work and how to evolve our thinking.",
+      "start": 1336650,
+      "end": 1346650,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000213",
+      "text": "That's really why what matters, Problem solving things.",
+      "start": 1346810,
+      "end": 1349950,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000214",
+      "text": "Because a problem that you see in the future, let's say your job is a problem that no one ever solved before.",
+      "start": 1352430,
+      "end": 1360510,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000215",
+      "text": "Because if they did, why do they need you?",
+      "start": 1361470,
+      "end": 1363630,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000216",
+      "text": "They need you to solve a problem that was never solved.",
+      "start": 1365230,
+      "end": 1368350,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000232",
+      "text": "When you are seeing a problem for the first time, we have to go through this process of trying different things.",
+      "start": 1465580,
+      "end": 1472700,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000233",
+      "text": "You almost like most likely first shot, you can't solve the problem.",
+      "start": 1472940,
+      "end": 1477980,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000234",
+      "text": "It's gotta be an iterative approach.",
+      "start": 1478700,
+      "end": 1480700,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000235",
+      "text": "That's why it takes time, especially when you come to these created algorithms.",
+      "start": 1480860,
+      "end": 1486340,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000237",
+      "text": "So don't be afraid of trying different things.",
+      "start": 1486940,
+      "end": 1489900,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000238",
+      "text": "Many of them gonna fail and that's good.",
+      "start": 1490860,
+      "end": 1493340,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000239",
+      "text": "From that we're gonna learn.",
+      "start": 1494380,
+      "end": 1495820,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000240",
+      "text": "We just did a few hypothesis.",
+      "start": 1495820,
+      "end": 1498180,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000241",
+      "text": "They both failed.",
+      "start": 1498180,
+      "end": 1499380,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000242",
+      "text": "But based on that, you came up with another algorithm.",
+      "start": 1499380,
+      "end": 1501960,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000303",
+      "text": "So how did I find this C idea is by trying a few other things, noticing that they all fail, and trying to reason why it failed.",
+      "start": 1826220,
+      "end": 1839310,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000477",
+      "text": "We tried three different ways of picking the next version vertex and they all failed.",
+      "start": 2666110,
+      "end": 2671380,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000478",
+      "text": "But because they failed, they gave us new ideas.",
+      "start": 2672020,
+      "end": 2675300,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000479",
+      "text": "And those new ideas, one of them turned out to be actually optimal.",
+      "start": 2675940,
+      "end": 2679940,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000488",
+      "text": "Again, I don't care if you know this algorithm or not.",
+      "start": 2725720,
+      "end": 2728800,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000489",
+      "text": "Actually, I can, but that's not the point.",
+      "start": 2728800,
+      "end": 2731320,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000490",
+      "text": "The point is everything that happened before this last step, the thinking process, the failing of some ideas.",
+      "start": 2731480,
+      "end": 2738440,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000491",
+      "text": "I wasn't afraid.",
+      "start": 2738440,
+      "end": 2739400,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000492",
+      "text": "You gave me a few ideas that actually helped me come up with this.",
+      "start": 2739560,
+      "end": 2743480,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000493",
+      "text": "So don't be afraid of coming up with these new ideas.",
+      "start": 2743720,
+      "end": 2746510,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000494",
+      "text": "Ideas even though you know it's going to fail, or maybe it's going to fail, but you're going to learn from it because you're going to answer, why did it fail?",
+      "start": 2746740,
+      "end": 2756420,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000496",
+      "text": "Hopefully, that suggests new ways of solving a problem.",
+      "start": 2758700,
+      "end": 2761940,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000507",
+      "text": "So I get confused personally very quickly.",
+      "start": 2804320,
+      "end": 2808240,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000509",
+      "text": "First I play with the problem, do a few examples.",
+      "start": 2810400,
+      "end": 2814079,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000510",
+      "text": "I do an algorithm, it fails, then I improve the algorithm.",
+      "start": 2814240,
+      "end": 2819040,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000511",
+      "text": "Now I have confidence that my algorithm is going to work.",
+      "start": 2819040,
+      "end": 2822320,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000512",
+      "text": "Now I'm going to improve, invest the time to get into details on it.",
+      "start": 2822480,
+      "end": 2826240,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000513",
+      "text": "Very last, usually the very last step.",
+      "start": 2827040,
+      "end": 2829440,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000668",
+      "text": "Okay, so after all the observation, after all the algorithms, now I can talk about runtime only then.",
+      "start": 3513350,
+      "end": 3521750,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000669",
+      "text": "It was perhaps premature to talk about these things earlier on because I wasn't even sure if the algorithm is working.",
+      "start": 3523030,
+      "end": 3531430,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000670",
+      "text": "I did not have a proof.",
+      "start": 3531990,
+      "end": 3533390,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000671",
+      "text": "Those should come at a higher level because if you decide to change any step of the algorithm, then all of these has to be changed.",
+      "start": 3533390,
+      "end": 3542510,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000672",
+      "text": "I don't want to do that.",
+      "start": 3542510,
+      "end": 3543590,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000673",
+      "text": "I want to do one step at a time.",
+      "start": 3543590,
+      "end": 3545670,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000674",
+      "text": "Now I'm confident everything works.",
+      "start": 3547760,
+      "end": 3549960,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000675",
+      "text": "The algorithm works.",
+      "start": 3549960,
+      "end": 3551120,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000676",
+      "text": "Moving up works.",
+      "start": 3551200,
+      "end": 3552520,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000677",
+      "text": "Now I get to implement it.",
+      "start": 3552520,
+      "end": 3554400,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000933",
+      "text": "Number one: problem-solving technique.",
+      "start": 4752260,
+      "end": 4757060,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000934",
+      "text": "That's number one lesson.",
+      "start": 4757220,
+      "end": 4758740,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000935",
+      "text": "The rest kind of are secondary.",
+      "start": 4758740,
+      "end": 4761060,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000936",
+      "text": "Remember how we went about examples coming up with hypothesis based on the examples?",
+      "start": 4761620,
+      "end": 4768620,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000937",
+      "text": "The hypothesis failed.",
+      "start": 4768780,
+      "end": 4770380,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000938",
+      "text": "We had to modify them back and forth.",
+      "start": 4770380,
+      "end": 4773180,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000939",
+      "text": "Finally we were happy with our hypothesis.",
+      "start": 4773500,
+      "end": 4775940,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000940",
+      "text": "Then we proved it that any other path is going to be larger than mean.",
+      "start": 4775940,
+      "end": 4781260,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000941",
+      "text": "Therefore that's the right thing.",
+      "start": 4781500,
+      "end": 4783260,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000942",
+      "text": "So all these steps, once we were happy with the algorithm, we did a few examples on the algorithm that actually worked.",
+      "start": 4783260,
+      "end": 4791180,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000943",
+      "text": "And you came up with this example, which is great.",
+      "start": 4791500,
+      "end": 4794660,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000945",
+      "text": "Now we are very confident with our algorithm.",
+      "start": 4801780,
+      "end": 4805140,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000946",
+      "text": "Now we go to implementation.",
+      "start": 4805140,
+      "end": 4806740,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000947",
+      "text": "First I do a very straightforward implementation taking a minimum in an array and updating an array.",
+      "start": 4807300,
+      "end": 4814580,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000948",
+      "text": "Kind of maybe not efficient, but it forms a and it gives us a decent algorithm.",
+      "start": 4814820,
+      "end": 4819580,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000949",
+      "text": "Then you observe that we are overestimating.",
+      "start": 4820220,
+      "end": 4823900,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000950",
+      "text": "Let's focus on edges, not vertices.",
+      "start": 4824060,
+      "end": 4826700,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000951",
+      "text": "Let's not be so pessimistic.",
+      "start": 4827340,
+      "end": 4829340,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000952",
+      "text": "That gave us the idea of an edge centric approach.",
+      "start": 4829580,
+      "end": 4833500,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000953",
+      "text": "For that we investigated that we still have a bottleneck of mean.",
+      "start": 4834140,
+      "end": 4839580,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000954",
+      "text": "Then I go to books and Internet and whatever and I say wait, is there a good way to efficiently find mean?",
+      "start": 4840140,
+      "end": 4847170,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000955",
+      "text": "Somebody tells me, book tells me, the Internet tells me, yes, there is something called heap that's especially designed for finding minimums.",
+      "start": 4847810,
+      "end": 4857010,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000956",
+      "text": "I get happy, I come back, work with that.",
+      "start": 4859010,
+      "end": 4861570,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000957",
+      "text": "And that eventually gives rise to this.",
+      "start": 4861890,
+      "end": 4864370,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000958",
+      "text": "So many things happen, but one step at a time.",
+      "start": 4864690,
+      "end": 4868850,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000959",
+      "text": "If you, so, close book, close notes.",
+      "start": 4868850,
+      "end": 4871330,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000960",
+      "text": "If you can recreate today's lecture, you have a full understanding of not only shorts and spars, but a lot of things to come, including variation of this.",
+      "start": 4871330,
+      "end": 4881250,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000965",
+      "text": "But when you know, you really understand the physician.",
+      "start": 4891570,
+      "end": 4895110,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000966",
+      "text": "If you try to lecture.",
+      "start": 4895180,
+      "end": 4896700,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000967",
+      "text": "I recreate all of this yourself.",
+      "start": 4896860,
+      "end": 4899220,
+      "role": "lecture"
+    }
+  ]
+}

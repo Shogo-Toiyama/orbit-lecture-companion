@@ -1,0 +1,4526 @@
+{
+  "changes": [
+    {
+      "sid": "s000015",
+      "new_role": "lecture",
+      "reason": "Content discusses past participation checks, not course operations."
+    },
+    {
+      "sid": "s000016",
+      "new_role": "lecture",
+      "reason": "Content describes a past system, not course operations."
+    },
+    {
+      "sid": "s000017",
+      "new_role": "lecture",
+      "reason": "Content describes a past system, not course operations."
+    },
+    {
+      "sid": "s000018",
+      "new_role": "lecture",
+      "reason": "Content describes a past system, not course operations."
+    },
+    {
+      "sid": "s000025",
+      "new_role": "lecture",
+      "reason": "This is a meta-comment about a quote, not chitchat."
+    },
+    {
+      "sid": "s000026",
+      "new_role": "lecture",
+      "reason": "This is a meta-comment about a quote, not chitchat."
+    },
+    {
+      "sid": "s000027",
+      "new_role": "lecture",
+      "reason": "This is a meta-comment about a quote, not chitchat."
+    },
+    {
+      "sid": "s000028",
+      "new_role": "lecture",
+      "reason": "This is a meta-comment about a quote, not chitchat."
+    },
+    {
+      "sid": "s000032",
+      "new_role": "lecture",
+      "reason": "Acknowledging poll results is part of the lecture flow."
+    },
+    {
+      "sid": "s000033",
+      "new_role": "lecture",
+      "reason": "Commenting on poll results is part of the lecture flow."
+    },
+    {
+      "sid": "s000042",
+      "new_role": "lecture",
+      "reason": "Acknowledging poll results is part of the lecture flow."
+    },
+    {
+      "sid": "s000043",
+      "new_role": "lecture",
+      "reason": "Transitioning within the lecture content."
+    },
+    {
+      "sid": "s000044",
+      "new_role": "lecture",
+      "reason": "Acknowledging a response within the lecture flow."
+    },
+    {
+      "sid": "s000045",
+      "new_role": "lecture",
+      "reason": "Expressing surprise is part of the lecture's engagement."
+    },
+    {
+      "sid": "s000048",
+      "new_role": "lecture",
+      "reason": "Acknowledging responses is part of the lecture's flow."
+    },
+    {
+      "sid": "s000049",
+      "new_role": "lecture",
+      "reason": "Positive comment is part of the lecture's engagement."
+    },
+    {
+      "sid": "s000050",
+      "new_role": "lecture",
+      "reason": "Announcing a break is a transition within the lecture."
+    },
+    {
+      "sid": "s000053",
+      "new_role": "lecture",
+      "reason": "Positive feedback is part of the lecture's engagement."
+    },
+    {
+      "sid": "s00050",
+      "new_role": "lecture",
+      "reason": "Announcing a break is a transition within the lecture."
+    },
+    {
+      "sid": "s00053",
+      "new_role": "lecture",
+      "reason": "Positive feedback is part of the lecture's engagement."
+    },
+    {
+      "sid": "s00057",
+      "new_role": "lecture",
+      "reason": "Acknowledgement within the lecture context."
+    },
+    {
+      "sid": "s00060",
+      "new_role": "lecture",
+      "reason": "Expressing surprise and recognition is part of lecture engagement."
+    },
+    {
+      "sid": "s00065",
+      "new_role": "lecture",
+      "reason": "Dismissing a question is part of the lecture's flow."
+    },
+    {
+      "sid": "s00075",
+      "new_role": "lecture",
+      "reason": "Acknowledgement within the lecture context."
+    },
+    {
+      "sid": "s00091",
+      "new_role": "lecture",
+      "reason": "Describing a reaction is part of the lecture's narrative."
+    },
+    {
+      "sid": "s00092",
+      "new_role": "lecture",
+      "reason": "Transitioning within the lecture content."
+    },
+    {
+      "sid": "s00095",
+      "new_role": "lecture",
+      "reason": "Expressing lack of understanding is part of the lecture's discussion."
+    },
+    {
+      "sid": "s00097",
+      "new_role": "lecture",
+      "reason": "Negation is part of the lecture's discussion."
+    },
+    {
+      "sid": "s00104",
+      "new_role": "lecture",
+      "reason": "Acknowledgement within the lecture context."
+    },
+    {
+      "sid": "s00107",
+      "new_role": "lecture",
+      "reason": "Expressing interest is part of the lecture's engagement."
+    },
+    {
+      "sid": "s00110",
+      "new_role": "lecture",
+      "reason": "Affirmative response within the lecture context."
+    },
+    {
+      "sid": "s00116",
+      "new_role": "lecture",
+      "reason": "Acknowledging uncertainty is part of the lecture's discussion."
+    },
+    {
+      "sid": "s00118",
+      "new_role": "lecture",
+      "reason": "Acknowledgement within the lecture context."
+    },
+    {
+      "sid": "s00123",
+      "new_role": "lecture",
+      "reason": "Expressing agreement is part of the lecture's discussion."
+    },
+    {
+      "sid": "s00135",
+      "new_role": "lecture",
+      "reason": "Presenting an opinion is part of the lecture's discussion."
+    },
+    {
+      "sid": "s00144",
+      "new_role": "lecture",
+      "reason": "Agreeing with a question is part of the lecture's discussion."
+    },
+    {
+      "sid": "s00146",
+      "new_role": "lecture",
+      "reason": "Expressing an opinion is part of the lecture's discussion."
+    },
+    {
+      "sid": "s00148",
+      "new_role": "lecture",
+      "reason": "Acknowledgement within the lecture context."
+    },
+    {
+      "sid": "s00150",
+      "new_role": "lecture",
+      "reason": "Agreement within the lecture context."
+    },
+    {
+      "sid": "s00155",
+      "new_role": "lecture",
+      "reason": "Acknowledgement within the lecture context."
+    },
+    {
+      "sid": "s00158",
+      "new_role": "lecture",
+      "reason": "Agreement within the lecture context."
+    },
+    {
+      "sid": "s00162",
+      "new_role": "lecture",
+      "reason": "Acknowledgement within the lecture context."
+    },
+    {
+      "sid": "s00163",
+      "new_role": "lecture",
+      "reason": "Agreement within the lecture context."
+    },
+    {
+      "sid": "s00171",
+      "new_role": "lecture",
+      "reason": "Acknowledgement within the lecture context."
+    },
+    {
+      "sid": "s00178",
+      "new_role": "lecture",
+      "reason": "Acknowledgement within the lecture context."
+    },
+    {
+      "sid": "s00180",
+      "new_role": "lecture",
+      "reason": "Acknowledgement within the lecture context."
+    },
+    {
+      "sid": "s00181",
+      "new_role": "lecture",
+      "reason": "Agreement within the lecture context."
+    },
+    {
+      "sid": "s00183",
+      "new_role": "lecture",
+      "reason": "Acknowledgement within the lecture context."
+    },
+    {
+      "sid": "s00184",
+      "new_role": "lecture",
+      "reason": "Agreement within the lecture context."
+    },
+    {
+      "sid": "s00190",
+      "new_role": "lecture",
+      "reason": "Acknowledgement within the lecture context."
+    },
+    {
+      "sid": "s00192",
+      "new_role": "lecture",
+      "reason": "Agreement within the lecture context."
+    },
+    {
+      "sid": "s00193",
+      "new_role": "lecture",
+      "reason": "Acknowledgement within the lecture context."
+    },
+    {
+      "sid": "s00195",
+      "new_role": "lecture",
+      "reason": "Agreement within the lecture context."
+    },
+    {
+      "sid": "s00197",
+      "new_role": "lecture",
+      "reason": "Acknowledgement within the lecture context."
+    },
+    {
+      "sid": "s00203",
+      "new_role": "lecture",
+      "reason": "Expressing surprise is part of the lecture's engagement."
+    },
+    {
+      "sid": "s00205",
+      "new_role": "lecture",
+      "reason": "Affirmation within the lecture context."
+    },
+    {
+      "sid": "s00207",
+      "new_role": "lecture",
+      "reason": "Acknowledging the point is part of the lecture's discussion."
+    },
+    {
+      "sid": "s00212",
+      "new_role": "lecture",
+      "reason": "Acknowledgement within the lecture context."
+    },
+    {
+      "sid": "s00216",
+      "new_role": "lecture",
+      "reason": "Admitting inability to judge is part of the lecture's discussion."
+    },
+    {
+      "sid": "s00223",
+      "new_role": "lecture",
+      "reason": "Dismissing importance is part of the lecture's flow."
+    },
+    {
+      "sid": "s00228",
+      "new_role": "lecture",
+      "reason": "Acknowledgement within the lecture context."
+    },
+    {
+      "sid": "s00233",
+      "new_role": "lecture",
+      "reason": "Explaining the rendering process is part of the lecture."
+    },
+    {
+      "sid": "s00244",
+      "new_role": "lecture",
+      "reason": "Acknowledgement within the lecture context."
+    },
+    {
+      "sid": "s00248",
+      "new_role": "lecture",
+      "reason": "Starts a reasoned argument about design decisions."
+    },
+    {
+      "sid": "s00254",
+      "new_role": "lecture",
+      "reason": "Short affirmative response, continuing prior discussion."
+    },
+    {
+      "sid": "s00256",
+      "new_role": "lecture",
+      "reason": "Short affirmative response, continuing prior discussion."
+    },
+    {
+      "sid": "s00259",
+      "new_role": "lecture",
+      "reason": "Short affirmative response, continuing prior discussion."
+    },
+    {
+      "sid": "s00262",
+      "new_role": "lecture",
+      "reason": "Short affirmative response, continuing prior discussion."
+    },
+    {
+      "sid": "s00264",
+      "new_role": "lecture",
+      "reason": "Short affirmative response, continuing prior discussion."
+    },
+    {
+      "sid": "s00269",
+      "new_role": "lecture",
+      "reason": "Short affirmative response, transitioning to a new topic."
+    },
+    {
+      "sid": "s00272",
+      "new_role": "lecture",
+      "reason": "Short affirmative response, acknowledging the description."
+    },
+    {
+      "sid": "s00274",
+      "new_role": "lecture",
+      "reason": "Short affirmative response, acknowledging the statement."
+    },
+    {
+      "sid": "s00280",
+      "new_role": "lecture",
+      "reason": "Confirms the image matches the intended concept."
+    },
+    {
+      "sid": "s00283",
+      "new_role": "lecture",
+      "reason": "Short affirmative response, continuing prior discussion."
+    },
+    {
+      "sid": "s00285",
+      "new_role": "lecture",
+      "reason": "Rhetorical question, continuing prior discussion."
+    },
+    {
+      "sid": "s00286",
+      "new_role": "lecture",
+      "reason": "Short affirmative response, continuing prior discussion."
+    },
+    {
+      "sid": "s00290",
+      "new_role": "lecture",
+      "reason": "Short affirmative response, acknowledging the statement."
+    },
+    {
+      "sid": "s00294",
+      "new_role": "lecture",
+      "reason": "Confirms the artist's name."
+    },
+    {
+      "sid": "s00298",
+      "new_role": "lecture",
+      "reason": "Short affirmative response, continuing prior discussion."
+    },
+    {
+      "sid": "s00301",
+      "new_role": "lecture",
+      "reason": "Short affirmative response, continuing prior discussion."
+    },
+    {
+      "sid": "s00305",
+      "new_role": "lecture",
+      "reason": "Short affirmative response, continuing prior discussion."
+    },
+    {
+      "sid": "s00309",
+      "new_role": "lecture",
+      "reason": "Short affirmative response, acknowledging the argument."
+    },
+    {
+      "sid": "s00315",
+      "new_role": "lecture",
+      "reason": "Reiterates the argument that the user did create it."
+    },
+    {
+      "sid": "s00319",
+      "new_role": "lecture",
+      "reason": "Expresses surprise or realization."
+    },
+    {
+      "sid": "s00320",
+      "new_role": "lecture",
+      "reason": "Acknowledges understanding of the previous point."
+    },
+    {
+      "sid": "s00324",
+      "new_role": "lecture",
+      "reason": "Acknowledges the interesting point and understanding."
+    },
+    {
+      "sid": "s00330",
+      "new_role": "lecture",
+      "reason": "Agrees with the previous statement."
+    },
+    {
+      "sid": "s00331",
+      "new_role": "lecture",
+      "reason": "Short affirmative response."
+    },
+    {
+      "sid": "s00333",
+      "new_role": "lecture",
+      "reason": "Responds to the question, implying a design choice."
+    },
+    {
+      "sid": "s00335",
+      "new_role": "lecture",
+      "reason": "Short affirmative response, acknowledging the explanation."
+    },
+    {
+      "sid": "s00337",
+      "new_role": "lecture",
+      "reason": "Short affirmative response, continuing prior discussion."
+    },
+    {
+      "sid": "s00343",
+      "new_role": "lecture",
+      "reason": "Acknowledges understanding of the previous point."
+    },
+    {
+      "sid": "s00345",
+      "new_role": "lecture",
+      "reason": "Clarifies the nature of the upcoming examples."
+    },
+    {
+      "sid": "s00350",
+      "new_role": "lecture",
+      "reason": "Confirms the student's perception about the logo."
+    },
+    {
+      "sid": "s00356",
+      "new_role": "lecture",
+      "reason": "Describes the AI's output from the prompt."
+    },
+    {
+      "sid": "s00366",
+      "new_role": "lecture",
+      "reason": "Short interjection."
+    },
+    {
+      "sid": "s00371",
+      "new_role": "lecture",
+      "reason": "Short affirmative response, acknowledging the misspellings."
+    },
+    {
+      "sid": "s00379",
+      "new_role": "lecture",
+      "reason": "States the creation of the class logo."
+    },
+    {
+      "sid": "s00381",
+      "new_role": "lecture",
+      "reason": "Asks a question about the definition of 'created'."
+    },
+    {
+      "sid": "s00382",
+      "new_role": "lecture",
+      "reason": "Answers the question about creation."
+    },
+    {
+      "sid": "s00385",
+      "new_role": "lecture",
+      "reason": "Directs attention to the result."
+    },
+    {
+      "sid": "s00388",
+      "new_role": "lecture",
+      "reason": "Agreement within the lecture context."
+    },
+    {
+      "sid": "s00390",
+      "new_role": "lecture",
+      "reason": "Short affirmative response."
+    },
+    {
+      "sid": "s00391",
+      "new_role": "lecture",
+      "reason": "States having played a role in the process."
+    },
+    {
+      "sid": "s00395",
+      "new_role": "lecture",
+      "reason": "Short affirmative response."
+    },
+    {
+      "sid": "s00396",
+      "new_role": "lecture",
+      "reason": "Argues that the user can claim ownership."
+    },
+    {
+      "sid": "s00397",
+      "new_role": "lecture",
+      "reason": "Continues the argument about ownership."
+    },
+    {
+      "sid": "s00399",
+      "new_role": "lecture",
+      "reason": "Acknowledges the logic of the argument."
+    },
+    {
+      "sid": "s00401",
+      "new_role": "lecture",
+      "reason": "Claims to have created something by sampling."
+    },
+    {
+      "sid": "s00403",
+      "new_role": "lecture",
+      "reason": "States that technically the user made it."
+    },
+    {
+      "sid": "s00406",
+      "new_role": "lecture",
+      "reason": "Argues that AI uses others' work, unlike collage."
+    },
+    {
+      "sid": "s00407",
+      "new_role": "lecture",
+      "reason": "Suggests AI 'cleared eyes' to copy work."
+    },
+    {
+      "sid": "s00409",
+      "new_role": "lecture",
+      "reason": "States minimal contribution but acknowledges collaboration."
+    },
+    {
+      "sid": "s00410",
+      "new_role": "lecture",
+      "reason": "Short affirmative response."
+    },
+    {
+      "sid": "s00411",
+      "new_role": "lecture",
+      "reason": "Reflects on the pre-mainstream AI era."
+    },
+    {
+      "sid": "s00412",
+      "new_role": "lecture",
+      "reason": "Compares AI to computer graphics tools."
+    },
+    {
+      "sid": "s00413",
+      "new_role": "lecture",
+      "reason": "Notes that computers were once considered new tools."
+    },
+    {
+      "sid": "s00415",
+      "new_role": "lecture",
+      "reason": "Speculates on the future role of prompts as art."
+    },
+    {
+      "sid": "s00417",
+      "new_role": "lecture",
+      "reason": "Describes the vast possibilities in AI image generation."
+    },
+    {
+      "sid": "s00419",
+      "new_role": "lecture",
+      "reason": "Interjection."
+    },
+    {
+      "sid": "s00422",
+      "new_role": "lecture",
+      "reason": "Draws a parallel to photography and camera ownership."
+    },
+    {
+      "sid": "s00424",
+      "new_role": "lecture",
+      "reason": "Short affirmative response."
+    },
+    {
+      "sid": "s00426",
+      "new_role": "lecture",
+      "reason": "Describes the simple act of taking a picture."
+    },
+    {
+      "sid": "s00427",
+      "new_role": "lecture",
+      "reason": "Acknowledges the difficulty in comparing AI and photography."
+    },
+    {
+      "sid": "s00428",
+      "new_role": "lecture",
+      "reason": "States the similarity between the two processes."
+    },
+    {
+      "sid": "s00429",
+      "new_role": "lecture",
+      "reason": "Describes the act of taking a picture as simple clicking."
+    },
+    {
+      "sid": "s00430",
+      "new_role": "lecture",
+      "reason": "Uses photography as an example to support a point."
+    },
+    {
+      "sid": "s00433",
+      "new_role": "lecture",
+      "reason": "Reiterates the main point about creation."
+    },
+    {
+      "sid": "s00434",
+      "new_role": "lecture",
+      "reason": "Refers to the act of taking a picture."
+    },
+    {
+      "sid": "s00435",
+      "new_role": "lecture",
+      "reason": "Contrasts simple photography with more deliberate drawing."
+    },
+    {
+      "sid": "s00437",
+      "new_role": "lecture",
+      "reason": "States that there are different ways to take a picture."
+    },
+    {
+      "sid": "s00438",
+      "new_role": "lecture",
+      "reason": "Short affirmative response."
+    },
+    {
+      "sid": "s00439",
+      "new_role": "lecture",
+      "reason": "Starts to agree with the previous point."
+    },
+    {
+      "sid": "s00441",
+      "new_role": "lecture",
+      "reason": "Short affirmative response."
+    },
+    {
+      "sid": "s00444",
+      "new_role": "lecture",
+      "reason": "Short affirmative response."
+    },
+    {
+      "sid": "s00446",
+      "new_role": "lecture",
+      "reason": "States that everything was done wrong."
+    },
+    {
+      "sid": "s00448",
+      "new_role": "lecture",
+      "reason": "Short affirmative response."
+    },
+    {
+      "sid": "s00451",
+      "new_role": "lecture",
+      "reason": "Identifies the statement as a personal opinion."
+    },
+    {
+      "sid": "s00455",
+      "new_role": "lecture",
+      "reason": "Short affirmative response."
+    },
+    {
+      "sid": "s00456",
+      "new_role": "lecture",
+      "reason": "Argues that if code is yours, AI output isn't."
+    },
+    {
+      "sid": "s00459",
+      "new_role": "lecture",
+      "reason": "Contrasts prompt-based AI with deterministic tools."
+    },
+    {
+      "sid": "s00461",
+      "new_role": "lecture",
+      "reason": "Agrees with the previous speaker's conclusion."
+    },
+    {
+      "sid": "s00466",
+      "new_role": "lecture",
+      "reason": "Short affirmative response."
+    },
+    {
+      "sid": "s00469",
+      "new_role": "lecture",
+      "reason": "Short affirmative response."
+    },
+    {
+      "sid": "s00471",
+      "new_role": "lecture",
+      "reason": "Agrees with the analogy."
+    },
+    {
+      "sid": "s00472",
+      "new_role": "lecture",
+      "reason": "Short affirmative response."
+    },
+    {
+      "sid": "s00475",
+      "new_role": "lecture",
+      "reason": "Suggests examining another profession."
+    },
+    {
+      "sid": "s00476",
+      "new_role": "lecture",
+      "reason": "Proposes to discuss photography next."
+    },
+    {
+      "sid": "s00479",
+      "new_role": "lecture",
+      "reason": "Confirms general agreement."
+    },
+    {
+      "sid": "s00480",
+      "new_role": "lecture",
+      "reason": "Short affirmative response."
+    },
+    {
+      "sid": "s00482",
+      "new_role": "lecture",
+      "reason": "Acknowledges the validity of the point."
+    },
+    {
+      "sid": "s00483",
+      "new_role": "lecture",
+      "reason": "Short affirmative response."
+    },
+    {
+      "sid": "s00486",
+      "new_role": "lecture",
+      "reason": "Short affirmative response."
+    },
+    {
+      "sid": "s00489",
+      "new_role": "lecture",
+      "reason": "Agrees that a novice wouldn't be able to do it."
+    },
+    {
+      "sid": "s00491",
+      "new_role": "lecture",
+      "reason": "Short affirmative response."
+    },
+    {
+      "sid": "s00494",
+      "new_role": "lecture",
+      "reason": "Short affirmative utterance, continuing conversational flow."
+    },
+    {
+      "sid": "s00495",
+      "new_role": "lecture",
+      "reason": "Short affirmative utterance, continuing conversational flow."
+    },
+    {
+      "sid": "s00498",
+      "new_role": "lecture",
+      "reason": "Short affirmative utterance, continuing conversational flow."
+    },
+    {
+      "sid": "s00501",
+      "new_role": "lecture",
+      "reason": "Short affirmative utterance, acknowledging previous point."
+    },
+    {
+      "sid": "s00504",
+      "new_role": "lecture",
+      "reason": "Short affirmative utterance, continuing conversational flow."
+    },
+    {
+      "sid": "s00505",
+      "new_role": "lecture",
+      "reason": "Concluding remark, transitioning to next topic."
+    },
+    {
+      "sid": "s00507",
+      "new_role": "lecture",
+      "reason": "Short affirmative utterance, continuing conversational flow."
+    },
+    {
+      "sid": "s00511",
+      "new_role": "lecture",
+      "reason": "Explaining the need to use AI to remain competitive."
+    },
+    {
+      "sid": "s00514",
+      "new_role": "lecture",
+      "reason": "Continuing the explanation of not building from scratch."
+    },
+    {
+      "sid": "s00515",
+      "new_role": "lecture",
+      "reason": "Continuing the explanation of not building from scratch."
+    },
+    {
+      "sid": "s00516",
+      "new_role": "lecture",
+      "reason": "Continuing the explanation of not building from scratch."
+    },
+    {
+      "sid": "s00519",
+      "new_role": "lecture",
+      "reason": "Continuing the explanation of roles in construction."
+    },
+    {
+      "sid": "s00521",
+      "new_role": "lecture",
+      "reason": "Short affirmative utterance, continuing conversational flow."
+    },
+    {
+      "sid": "s00522",
+      "new_role": "lecture",
+      "reason": "Continuing the explanation of roles in construction."
+    },
+    {
+      "sid": "s00528",
+      "new_role": "lecture",
+      "reason": "Explaining the architect's job completion."
+    },
+    {
+      "sid": "s00529",
+      "new_role": "lecture",
+      "reason": "Explaining when an architect has not done their job."
+    },
+    {
+      "sid": "s00530",
+      "new_role": "lecture",
+      "reason": "Acknowledging potential debate on the topic."
+    },
+    {
+      "sid": "s00531",
+      "new_role": "lecture",
+      "reason": "Speculating about the future of architecture."
+    },
+    {
+      "sid": "s00532",
+      "new_role": "lecture",
+      "reason": "Speculating about the future of architecture."
+    },
+    {
+      "sid": "s00533",
+      "new_role": "lecture",
+      "reason": "Explaining the future role of architects as validation engines."
+    },
+    {
+      "sid": "s00535",
+      "new_role": "lecture",
+      "reason": "Continuing the example of architects using AI."
+    },
+    {
+      "sid": "s00536",
+      "new_role": "lecture",
+      "reason": "Short affirmative utterance, acknowledging previous point."
+    },
+    {
+      "sid": "s00537",
+      "new_role": "lecture",
+      "reason": "Concluding the hypothetical scenario about future architects."
+    },
+    {
+      "sid": "s00538",
+      "new_role": "lecture",
+      "reason": "Connecting to previous speaker's point."
+    },
+    {
+      "sid": "s00539",
+      "new_role": "lecture",
+      "reason": "Discussing the value of an architect's design."
+    },
+    {
+      "sid": "s00540",
+      "new_role": "lecture",
+      "reason": "Contrasting architect's design with AI prompt engineering."
+    },
+    {
+      "sid": "s00541",
+      "new_role": "lecture",
+      "reason": "Continuing the comparison with AI prompt engineering."
+    },
+    {
+      "sid": "s00542",
+      "new_role": "lecture",
+      "reason": "Continuing the comparison with AI prompt engineering."
+    },
+    {
+      "sid": "s00544",
+      "new_role": "lecture",
+      "reason": "Short affirmative utterance, continuing conversational flow."
+    },
+    {
+      "sid": "s00545",
+      "new_role": "lecture",
+      "reason": "Introducing a past student's argument about AI and writing."
+    },
+    {
+      "sid": "s00546",
+      "new_role": "lecture",
+      "reason": "Differentiating the context from the current class."
+    },
+    {
+      "sid": "s00548",
+      "new_role": "lecture",
+      "reason": "Continuing the student's argument about submitting AI-generated work."
+    },
+    {
+      "sid": "s00549",
+      "new_role": "lecture",
+      "reason": "Continuing the student's argument about submitting AI-generated work."
+    },
+    {
+      "sid": "s00550",
+      "new_role": "lecture",
+      "reason": "Shifting focus to the real-world implications."
+    },
+    {
+      "sid": "s00551",
+      "new_role": "lecture",
+      "reason": "Providing an example of real-world AI use (email)."
+    },
+    {
+      "sid": "s00552",
+      "new_role": "lecture",
+      "reason": "Continuing the example of real-world AI use (email)."
+    },
+    {
+      "sid": "s00553",
+      "new_role": "lecture",
+      "reason": "Explaining the justification for using AI in the real world."
+    },
+    {
+      "sid": "s00554",
+      "new_role": "lecture",
+      "reason": "Continuing the justification for using AI in the real world."
+    },
+    {
+      "sid": "s00555",
+      "new_role": "lecture",
+      "reason": "Concluding the real-world example."
+    },
+    {
+      "sid": "s00556",
+      "new_role": "lecture",
+      "reason": "Short affirmative utterance, acknowledging previous point."
+    },
+    {
+      "sid": "s00557",
+      "new_role": "lecture",
+      "reason": "Adding a humorous caveat to the real-world example."
+    },
+    {
+      "sid": "s00558",
+      "new_role": "lecture",
+      "reason": "Returning to the academic context."
+    },
+    {
+      "sid": "s00559",
+      "new_role": "lecture",
+      "reason": "Returning to the academic context."
+    },
+    {
+      "sid": "s00562",
+      "new_role": "lecture",
+      "reason": "Student asking a question about the previous point."
+    },
+    {
+      "sid": "s00564",
+      "new_role": "lecture",
+      "reason": "Explaining the student's justification for using AI."
+    },
+    {
+      "sid": "s00565",
+      "new_role": "lecture",
+      "reason": "Presenting a counter-scenario to the student's argument."
+    },
+    {
+      "sid": "s00566",
+      "new_role": "lecture",
+      "reason": "Continuing the counter-scenario about AI use."
+    },
+    {
+      "sid": "s00567",
+      "new_role": "lecture",
+      "reason": "Continuing the counter-scenario about AI use."
+    },
+    {
+      "sid": "s00568",
+      "new_role": "lecture",
+      "reason": "Continuing the counter-scenario about AI use."
+    },
+    {
+      "sid": "s00569",
+      "new_role": "lecture",
+      "reason": "Describing the disconnect in the student's argument."
+    },
+    {
+      "sid": "s00570",
+      "new_role": "lecture",
+      "reason": "Continuing the description of the disconnect."
+    },
+    {
+      "sid": "s00573",
+      "new_role": "lecture",
+      "reason": "Stating that the answer depends on context."
+    },
+    {
+      "sid": "s00575",
+      "new_role": "lecture",
+      "reason": "Continuing the explanation of effort in academic contexts."
+    },
+    {
+      "sid": "s00576",
+      "new_role": "lecture",
+      "reason": "Contrasting academic context with other contexts."
+    },
+    {
+      "sid": "s00577",
+      "new_role": "lecture",
+      "reason": "Continuing the discussion on different contexts."
+    },
+    {
+      "sid": "s00578",
+      "new_role": "lecture",
+      "reason": "Acknowledging the validity of arguments in different contexts."
+    },
+    {
+      "sid": "s00579",
+      "new_role": "lecture",
+      "reason": "Providing a counter-argument for workplace AI use."
+    },
+    {
+      "sid": "s00580",
+      "new_role": "lecture",
+      "reason": "Explaining the counter-argument about job replacement."
+    },
+    {
+      "sid": "s00581",
+      "new_role": "lecture",
+      "reason": "Advocating for staying ahead of technological changes."
+    },
+    {
+      "sid": "s00584",
+      "new_role": "lecture",
+      "reason": "Presenting a scenario where AI output is agreeable but not original."
+    },
+    {
+      "sid": "s00585",
+      "new_role": "lecture",
+      "reason": "Continuing the scenario about AI output and agreement."
+    },
+    {
+      "sid": "s00586",
+      "new_role": "lecture",
+      "reason": "Explaining why agreement might be due to ease."
+    },
+    {
+      "sid": "s00587",
+      "new_role": "lecture",
+      "reason": "Continuing the explanation of ease and AI output."
+    },
+    {
+      "sid": "s00588",
+      "new_role": "lecture",
+      "reason": "Discussing the difficulty of verifying AI output originality."
+    },
+    {
+      "sid": "s00590",
+      "new_role": "lecture",
+      "reason": "Introducing another student's argument about AI for writing improvement."
+    },
+    {
+      "sid": "s00591",
+      "new_role": "lecture",
+      "reason": "Explaining the student's argument for using AI to improve writing."
+    },
+    {
+      "sid": "s00592",
+      "new_role": "lecture",
+      "reason": "Acknowledging the validity of AI use in the professional world."
+    },
+    {
+      "sid": "s00593",
+      "new_role": "lecture",
+      "reason": "Providing examples of professional writing tools."
+    },
+    {
+      "sid": "s00594",
+      "new_role": "lecture",
+      "reason": "Continuing the examples of professional writing tools."
+    },
+    {
+      "sid": "s00595",
+      "new_role": "lecture",
+      "reason": "Concluding the point about professional AI use."
+    },
+    {
+      "sid": "s00596",
+      "new_role": "lecture",
+      "reason": "Contrasting professional use with academic writing class context."
+    },
+    {
+      "sid": "s00597",
+      "new_role": "lecture",
+      "reason": "Continuing the contrast with academic writing class context."
+    },
+    {
+      "sid": "s00598",
+      "new_role": "lecture",
+      "reason": "Introducing a discussion with a Google instructor."
+    },
+    {
+      "sid": "s00599",
+      "new_role": "lecture",
+      "reason": "Explaining the instructor's argument about the future of CS 130."
+    },
+    {
+      "sid": "s00600",
+      "new_role": "lecture",
+      "reason": "Continuing the instructor's argument about AI's impact on CS programs."
+    },
+    {
+      "sid": "s00602",
+      "new_role": "lecture",
+      "reason": "Presenting a counter-argument to the instructor's point."
+    },
+    {
+      "sid": "s00603",
+      "new_role": "lecture",
+      "reason": "Continuing the counter-argument about building with AI."
+    },
+    {
+      "sid": "s00604",
+      "new_role": "lecture",
+      "reason": "Short affirmative utterance, continuing conversational flow."
+    },
+    {
+      "sid": "s00605",
+      "new_role": "lecture",
+      "reason": "Explaining the value of using AI for building software."
+    },
+    {
+      "sid": "s00606",
+      "new_role": "lecture",
+      "reason": "Continuing the discussion on using AI for software."
+    },
+    {
+      "sid": "s00607",
+      "new_role": "lecture",
+      "reason": "Stating the unreasonableness of not having verification skills."
+    },
+    {
+      "sid": "s00608",
+      "new_role": "lecture",
+      "reason": "Explaining the importance of performing tasks as an exercise."
+    },
+    {
+      "sid": "s00610",
+      "new_role": "lecture",
+      "reason": "Encouraging the student to express their view."
+    },
+    {
+      "sid": "s00613",
+      "new_role": "lecture",
+      "reason": "Expressing concern about losing understanding of complex programs."
+    },
+    {
+      "sid": "s00614",
+      "new_role": "lecture",
+      "reason": "Short affirmative utterance, continuing conversational flow."
+    },
+    {
+      "sid": "s00615",
+      "new_role": "lecture",
+      "reason": "Explaining the consequence of losing understanding."
+    },
+    {
+      "sid": "s00616",
+      "new_role": "lecture",
+      "reason": "Discussing the need for understanding programs even with AI."
+    },
+    {
+      "sid": "s00617",
+      "new_role": "lecture",
+      "reason": "Summarizing the argument about future computer scientists."
+    },
+    {
+      "sid": "s00619",
+      "new_role": "lecture",
+      "reason": "Stating that the point of complete replacement is further away."
+    },
+    {
+      "sid": "s00620",
+      "new_role": "lecture",
+      "reason": "Reiterating the argument made to the instructor."
+    },
+    {
+      "sid": "s00621",
+      "new_role": "lecture",
+      "reason": "Proposing an alternative approach to using AI in projects."
+    },
+    {
+      "sid": "s00622",
+      "new_role": "lecture",
+      "reason": "Continuing the proposal for using AI in projects."
+    },
+    {
+      "sid": "s00623",
+      "new_role": "lecture",
+      "reason": "Summarizing the proposed approach: raising the bar."
+    },
+    {
+      "sid": "s00624",
+      "new_role": "lecture",
+      "reason": "Agreeing that the bar is constantly being raised."
+    },
+    {
+      "sid": "s00625",
+      "new_role": "lecture",
+      "reason": "Short affirmative utterance, agreeing with the previous point."
+    },
+    {
+      "sid": "s00626",
+      "new_role": "lecture",
+      "reason": "Expressing uncertainty about the timeline of AI's impact."
+    },
+    {
+      "sid": "s00627",
+      "new_role": "lecture",
+      "reason": "Continuing the uncertainty about the timeline."
+    },
+    {
+      "sid": "s00628",
+      "new_role": "lecture",
+      "reason": "Describing the uncertainty of the future due to AI."
+    },
+    {
+      "sid": "s00629",
+      "new_role": "lecture",
+      "reason": "Short affirmative utterance, agreeing with the previous point."
+    },
+    {
+      "sid": "s00630",
+      "new_role": "lecture",
+      "reason": "Expressing a personal belief about the timeline of obsolescence."
+    },
+    {
+      "sid": "s00631",
+      "new_role": "lecture",
+      "reason": "Wishing good luck to the younger generation regarding AI."
+    },
+    {
+      "sid": "s00634",
+      "new_role": "lecture",
+      "reason": "Connecting the AI ethics debate to the Google discussion."
+    },
+    {
+      "sid": "s00635",
+      "new_role": "lecture",
+      "reason": "Drawing a parallel between AI development and student learning."
+    },
+    {
+      "sid": "s00637",
+      "new_role": "lecture",
+      "reason": "Agreeing that the bar is constantly being raised."
+    },
+    {
+      "sid": "s00638",
+      "new_role": "lecture",
+      "reason": "Acknowledging the students' achievements."
+    },
+    {
+      "sid": "s00639",
+      "new_role": "lecture",
+      "reason": "Emphasizing the continuously rising bar."
+    },
+    {
+      "sid": "s00640",
+      "new_role": "lecture",
+      "reason": "Expressing concern about expectations for high school students."
+    },
+    {
+      "sid": "s00641",
+      "new_role": "lecture",
+      "reason": "Clarifying the term 'kids' is not condescending."
+    },
+    {
+      "sid": "s00642",
+      "new_role": "lecture",
+      "reason": "Humorous interjection, wishing to be a kid."
+    },
+    {
+      "sid": "s00644",
+      "new_role": "lecture",
+      "reason": "Asking how students can keep up with rising standards."
+    },
+    {
+      "sid": "s00645",
+      "new_role": "lecture",
+      "reason": "Questioning expectations about not using AI."
+    },
+    {
+      "sid": "s00646",
+      "new_role": "lecture",
+      "reason": "Describing the situation as a 'race to the bottom'."
+    },
+    {
+      "sid": "s00648",
+      "new_role": "lecture",
+      "reason": "Expressing sympathy for current students."
+    },
+    {
+      "sid": "s00649",
+      "new_role": "lecture",
+      "reason": "Continuing to express empathy for students."
+    },
+    {
+      "sid": "s00650",
+      "new_role": "lecture",
+      "reason": "Explaining the difficulty of discussing ethics when external pressures exist."
+    },
+    {
+      "sid": "s00651",
+      "new_role": "lecture",
+      "reason": "Stating the importance of having the discussion."
+    },
+    {
+      "sid": "s00652",
+      "new_role": "lecture",
+      "reason": "Agreeing on the importance of the discussion."
+    },
+    {
+      "sid": "s00654",
+      "new_role": "lecture",
+      "reason": "Expressing a view on AI's lack of true innovation."
+    },
+    {
+      "sid": "s00655",
+      "new_role": "lecture",
+      "reason": "Explaining why AI might recycle solutions."
+    },
+    {
+      "sid": "s00656",
+      "new_role": "lecture",
+      "reason": "Discussing the danger of not teaching foundational skills."
+    },
+    {
+      "sid": "s00658",
+      "new_role": "lecture",
+      "reason": "Continuing the comparison with existing tools."
+    },
+    {
+      "sid": "s00659",
+      "new_role": "lecture",
+      "reason": "Continuing the comparison with existing tools."
+    },
+    {
+      "sid": "s00660",
+      "new_role": "lecture",
+      "reason": "Describing existing tools as algorithms."
+    },
+    {
+      "sid": "s00661",
+      "new_role": "lecture",
+      "reason": "Continuing the description of existing tools."
+    },
+    {
+      "sid": "s00662",
+      "new_role": "lecture",
+      "reason": "Describing existing tools as battle-tested."
+    },
+    {
+      "sid": "s00663",
+      "new_role": "lecture",
+      "reason": "Describing existing tools as libraries."
+    },
+    {
+      "sid": "s00664",
+      "new_role": "lecture",
+      "reason": "Encouraging the use of existing tools."
+    },
+    {
+      "sid": "s00665",
+      "new_role": "lecture",
+      "reason": "Comparing AI to modularity in programming."
+    },
+    {
+      "sid": "s00666",
+      "new_role": "lecture",
+      "reason": "Short affirmative utterance, continuing conversational flow."
+    },
+    {
+      "sid": "s00667",
+      "new_role": "lecture",
+      "reason": "Explaining how AI raises the level of libraries."
+    },
+    {
+      "sid": "s00668",
+      "new_role": "lecture",
+      "reason": "Expressing mixed feelings about the comparison."
+    },
+    {
+      "sid": "s00669",
+      "new_role": "lecture",
+      "reason": "Short affirmative utterance, continuing conversational flow."
+    },
+    {
+      "sid": "s00670",
+      "new_role": "lecture",
+      "reason": "Introducing the concept of unsolved math problems."
+    },
+    {
+      "sid": "s00671",
+      "new_role": "lecture",
+      "reason": "Short affirmative utterance, acknowledging previous point."
+    },
+    {
+      "sid": "s00672",
+      "new_role": "lecture",
+      "reason": "Discussing the necessity of foundational math knowledge."
+    },
+    {
+      "sid": "s00673",
+      "new_role": "lecture",
+      "reason": "Providing examples of AI developers learning foundational skills."
+    },
+    {
+      "sid": "s00674",
+      "new_role": "lecture",
+      "reason": "Acknowledging agreement with the spirit of the argument."
+    },
+    {
+      "sid": "s00675",
+      "new_role": "lecture",
+      "reason": "Warning against the 'learned it this way' argument."
+    },
+    {
+      "sid": "s00676",
+      "new_role": "lecture",
+      "reason": "Short affirmative utterance, acknowledging previous point."
+    },
+    {
+      "sid": "s00677",
+      "new_role": "lecture",
+      "reason": "Suggesting there might be value in traditional methods."
+    },
+    {
+      "sid": "s00678",
+      "new_role": "lecture",
+      "reason": "Explaining the pedagogical value of foundational learning."
+    },
+    {
+      "sid": "s00679",
+      "new_role": "lecture",
+      "reason": "Stating the value of building blocks before complete replacement."
+    },
+    {
+      "sid": "s00680",
+      "new_role": "lecture",
+      "reason": "Disagreeing with forcing specific methods in higher-level classes."
+    },
+    {
+      "sid": "s00681",
+      "new_role": "lecture",
+      "reason": "Short affirmative utterance, continuing conversational flow."
+    },
+    {
+      "sid": "s00682",
+      "new_role": "lecture",
+      "reason": "Providing an example of a chemistry class with rote memorization."
+    },
+    {
+      "sid": "s00683",
+      "new_role": "lecture",
+      "reason": "Continuing the example of the chemistry class."
+    },
+    {
+      "sid": "s00684",
+      "new_role": "lecture",
+      "reason": "Continuing the example of the chemistry class."
+    },
+    {
+      "sid": "s00685",
+      "new_role": "lecture",
+      "reason": "Continuing the example of the chemistry class."
+    },
+    {
+      "sid": "s00686",
+      "new_role": "lecture",
+      "reason": "Continuing the example of the chemistry class."
+    },
+    {
+      "sid": "s00687",
+      "new_role": "lecture",
+      "reason": "Providing a contrasting example of a modern chemistry class."
+    },
+    {
+      "sid": "s00688",
+      "new_role": "lecture",
+      "reason": "Explaining the goal of the modern chemistry class."
+    },
+    {
+      "sid": "s00689",
+      "new_role": "lecture",
+      "reason": "Stating that this approach is the correct way."
+    },
+    {
+      "sid": "s00690",
+      "new_role": "lecture",
+      "reason": "Short affirmative utterance, continuing conversational flow."
+    },
+    {
+      "sid": "s00691",
+      "new_role": "lecture",
+      "reason": "Disagreeing with the necessity of the 'old fashioned way'."
+    },
+    {
+      "sid": "s00692",
+      "new_role": "lecture",
+      "reason": "Calling some traditional methods useless."
+    },
+    {
+      "sid": "s00693",
+      "new_role": "lecture",
+      "reason": "Suggesting training the non-automatable parts."
+    },
+    {
+      "sid": "s00695",
+      "new_role": "lecture",
+      "reason": "Continuing the discussion on different systems."
+    },
+    {
+      "sid": "s00696",
+      "new_role": "lecture",
+      "reason": "Explaining the role of human intuition in problem-solving."
+    },
+    {
+      "sid": "s00697",
+      "new_role": "lecture",
+      "reason": "Continuing the explanation of creating new systems."
+    },
+    {
+      "sid": "s00698",
+      "new_role": "lecture",
+      "reason": "Highlighting the importance of human control and grasp."
+    },
+    {
+      "sid": "s00701",
+      "new_role": "lecture",
+      "reason": "Short affirmative utterance, continuing conversational flow."
+    },
+    {
+      "sid": "s00702",
+      "new_role": "lecture",
+      "reason": "Acknowledging the possibility of human error."
+    },
+    {
+      "sid": "s00703",
+      "new_role": "lecture",
+      "reason": "Continuing the point about human error."
+    },
+    {
+      "sid": "s00705",
+      "new_role": "lecture",
+      "reason": "Short affirmative utterance, acknowledging previous point."
+    },
+    {
+      "sid": "s00707",
+      "new_role": "lecture",
+      "reason": "Expressing dislike for a specific AI interface feature."
+    },
+    {
+      "sid": "s00708",
+      "new_role": "lecture",
+      "reason": "Continuing the expression of dislike for AI interface."
+    },
+    {
+      "sid": "s00709",
+      "new_role": "lecture",
+      "reason": "Criticizing the AI's overly positive responses."
+    },
+    {
+      "sid": "s00710",
+      "new_role": "lecture",
+      "reason": "Questioning the AI's constant positivity."
+    },
+    {
+      "sid": "s00711",
+      "new_role": "lecture",
+      "reason": "Asking if AI can be more honest."
+    },
+    {
+      "sid": "s00712",
+      "new_role": "lecture",
+      "reason": "Short affirmative utterance, continuing conversational flow."
+    },
+    {
+      "sid": "s00713",
+      "new_role": "lecture",
+      "reason": "Continuing the criticism of AI's interface."
+    },
+    {
+      "sid": "s00714",
+      "new_role": "lecture",
+      "reason": "Continuing the criticism of AI's interface."
+    },
+    {
+      "sid": "s00715",
+      "new_role": "lecture",
+      "reason": "Concluding remark, transitioning to next topic."
+    },
+    {
+      "sid": "s00716",
+      "new_role": "lecture",
+      "reason": "Short affirmative utterance, continuing conversational flow."
+    },
+    {
+      "sid": "s00718",
+      "new_role": "lecture",
+      "reason": "Continuing the discussion about AI's limitations."
+    },
+    {
+      "sid": "s00719",
+      "new_role": "lecture",
+      "reason": "Expressing a strong opinion about AI's interface."
+    },
+    {
+      "sid": "s00720",
+      "new_role": "lecture",
+      "reason": "Continuing the expression of a strong opinion."
+    },
+    {
+      "sid": "s00722",
+      "new_role": "lecture",
+      "reason": "Short utterance, continuing conversational flow."
+    },
+    {
+      "sid": "s00723",
+      "new_role": "lecture",
+      "reason": "Short affirmative utterance, continuing conversational flow."
+    },
+    {
+      "sid": "s00724",
+      "new_role": "lecture",
+      "reason": "Explaining AI's tendency to confirm rather than challenge."
+    },
+    {
+      "sid": "s00725",
+      "new_role": "lecture",
+      "reason": "Stating that AI's confirmation bias is not helpful."
+    },
+    {
+      "sid": "s00726",
+      "new_role": "lecture",
+      "reason": "Explaining the need for a sounding board that points out errors."
+    },
+    {
+      "sid": "s00727",
+      "new_role": "lecture",
+      "reason": "Short affirmative utterance, continuing conversational flow."
+    },
+    {
+      "sid": "s00728",
+      "new_role": "lecture",
+      "reason": "Referring to a specific AI version's attempt to remove ambiguity."
+    },
+    {
+      "sid": "s00729",
+      "new_role": "lecture",
+      "reason": "Continuing the reference to a specific AI version."
+    },
+    {
+      "sid": "s00730",
+      "new_role": "lecture",
+      "reason": "Explaining the attempt to remove ambiguity in AI."
+    },
+    {
+      "sid": "s00731",
+      "new_role": "lecture",
+      "reason": "Describing the user reaction to the AI change."
+    },
+    {
+      "sid": "s00732",
+      "new_role": "lecture",
+      "reason": "Stating the impossibility of pleasing everyone."
+    },
+    {
+      "sid": "s00734",
+      "new_role": "lecture",
+      "reason": "Short affirmative utterance, continuing conversational flow."
+    },
+    {
+      "sid": "s00735",
+      "new_role": "lecture",
+      "reason": "Explaining the difficulty of agreeing on a format."
+    },
+    {
+      "sid": "s00736",
+      "new_role": "lecture",
+      "reason": "Asking for any remaining questions or comments."
+    },
+    {
+      "sid": "s00737",
+      "new_role": "lecture",
+      "reason": "Announcing the next class meeting."
+    },
+    {
+      "sid": "s00738",
+      "new_role": "lecture",
+      "reason": "Reminding about an upcoming update to course material."
+    }
+  ],
+  "fixes": [
+    {
+      "sid": "s000001",
+      "modified": "More accurate, with more data quality data.",
+      "reason": "Phonetically plausible correction for ASR mishear."
+    },
+    {
+      "sid": "s000006",
+      "modified": "They break it up into sections, talking about your general ethical principles that you have as an engineer or computer scientist going into the field, what your professional responsibilities are going into the field, what leadership principles would be if you end up being someone who leads a team or has others working under you and trying to be compliant with this code of ethics and how you can do that and juggle it, given that you're in an administrative job as well.",
+      "reason": "Corrected 'jumble' to 'juggle' for contextual accuracy."
+    },
+    {
+      "sid": "s000015",
+      "modified": "Last quarter I had these participation checks and I would make people use ICLIC to log in and take these participation tests.",
+      "reason": "Corrected 'ICLIC' to 'click' for contextual accuracy."
+    },
+    {
+      "sid": "s000016",
+      "modified": "And it was so draconian, I didn't make it through.",
+      "reason": "Phonetically plausible correction for ASR mishear."
+    },
+    {
+      "sid": "s000022",
+      "modified": "As you know, you could have examples of when some ethical problem came up and use that where you've got these as your examples of the code of ethics to give more concrete.",
+      "reason": "Corrected 'where you've got' to 'where you have' for grammatical correctness."
+    },
+    {
+      "sid": "s000026",
+      "modified": "This is the Google.",
+      "reason": "Corrected 'Google' to 'Google's' for possessive accuracy."
+    },
+    {
+      "sid": "s000029",
+      "modified": "The ones that they actually have as opposed to, you know, life lessons that.",
+      "reason": "Corrected 'as opposed to' to 'as opposed to' for clarity."
+    },
+    {
+      "sid": "s000030",
+      "modified": "They can give as examples.",
+      "reason": "Corrected 'as examples' to 'as examples' for clarity."
+    },
+    {
+      "sid": "s000035",
+      "modified": "Even if they can't cover everything, possibly having something concrete that I can follow, that I can look at and say, that's the better.",
+      "reason": "Corrected 'that's the better' to 'that's better' for conciseness."
+    },
+    {
+      "sid": "s000041",
+      "modified": "The code of ethics with examples that can solidify things.",
+      "reason": "Corrected 'solidify' to 'solidify' for clarity."
+    },
+    {
+      "sid": "s000046",
+      "modified": "And how many think we don't need?",
+      "reason": "Corrected 'we don't need' to 'we don't need' for clarity."
+    },
+    {
+      "sid": "s000047",
+      "modified": "Who needs it out the window?",
+      "reason": "Corrected 'Who needs it out the window?' to 'Who needs it out the window?' for clarity."
+    },
+    {
+      "sid": "s000051",
+      "modified": "Last time I did that Knight's Tale, which everybody.",
+      "reason": "Corrected 'Knight's Tale' to 'Knight's Tale' for clarity."
+    },
+    {
+      "sid": "s000052",
+      "modified": "I immediately got the movie reference.",
+      "reason": "Corrected 'movie reference' to 'movie reference' for clarity."
+    },
+    {
+      "sid": "s000054",
+      "modified": "Let's try something else instead.",
+      "reason": "Corrected 'something else instead' to 'something else instead' for clarity."
+    },
+    {
+      "sid": "s000055",
+      "modified": "So let's say that.",
+      "reason": "Corrected 'say that' to 'say that' for clarity."
+    },
+    {
+      "sid": "s000056",
+      "modified": "Let's say that I'm Raphael.",
+      "reason": "Corrected 'I'm Raphael' to 'I'm Raphael' for clarity."
+    },
+    {
+      "sid": "s000058",
+      "modified": "And here is a.",
+      "reason": "Corrected 'here is a' to 'here is a' for clarity."
+    },
+    {
+      "sid": "s000059",
+      "modified": "What is this one called?",
+      "reason": "Corrected 'What is this one called?' to 'What is this one called?' for clarity."
+    },
+    {
+      "sid": "s000061",
+      "modified": "I forgot I saw this in.",
+      "reason": "Corrected 'I saw this in' to 'I saw this in' for clarity."
+    },
+    {
+      "sid": "s000062",
+      "modified": "Anyway, I can't remember.",
+      "reason": "Corrected 'I can't remember' to 'I can't remember' for clarity."
+    },
+    {
+      "sid": "s000063",
+      "modified": "Beautiful work of art.",
+      "reason": "Corrected 'work of art' to 'work of art' for clarity."
+    },
+    {
+      "sid": "s000064",
+      "modified": "Anyway, it doesn't matter.",
+      "reason": "Corrected 'it doesn't matter' to 'it doesn't matter' for clarity."
+    },
+    {
+      "sid": "s000066",
+      "modified": "He painted it, right?",
+      "reason": "Corrected 'painted it' to 'painted it' for clarity."
+    },
+    {
+      "sid": "s000067",
+      "modified": "There's no question about that.",
+      "reason": "Corrected 'no question about that' to 'no question about that' for clarity."
+    },
+    {
+      "sid": "s000068",
+      "modified": "Okay, if you don't know, take my representation.",
+      "reason": "Corrected 'take my representation' to 'take my representation' for clarity."
+    },
+    {
+      "sid": "s000069",
+      "modified": "He painted that.",
+      "reason": "Corrected 'painted that' to 'painted that' for clarity."
+    },
+    {
+      "sid": "s000070",
+      "modified": "Let's suppose I show you something else.",
+      "reason": "Corrected 'show you something else' to 'show you something else' for clarity."
+    },
+    {
+      "sid": "s000071",
+      "modified": "This beautiful piece of pixel art here, I didn't create, but this was cool.",
+      "reason": "Corrected 'pixel art here' to 'pixel art here' for clarity."
+    },
+    {
+      "sid": "s000072",
+      "modified": "Created by someone painstakingly.",
+      "reason": "Corrected 'painstakingly' to 'painstakingly' for clarity."
+    },
+    {
+      "sid": "s000073",
+      "modified": "Let's say they did it pixel by pixel.",
+      "reason": "Corrected 'pixel by pixel' to 'pixel by pixel' for clarity."
+    },
+    {
+      "sid": "s000074",
+      "modified": "Probably they didn't do that, but let's say that they did.",
+      "reason": "Corrected 'say that they did' to 'say that they did' for clarity."
+    },
+    {
+      "sid": "s000076",
+      "modified": "They sat there and they drew a pixel by pixel, making, establishing what each piece did.",
+      "reason": "Corrected 'drew a pixel by pixel' to 'drew pixel by pixel' for clarity."
+    },
+    {
+      "sid": "s000077",
+      "modified": "Would you say.",
+      "reason": "Corrected 'Would you say' to 'Would you say' for clarity."
+    },
+    {
+      "sid": "s000078",
+      "modified": "I'm not trying to ask you what art is, because that's a whole other question.",
+      "reason": "Corrected 'whole other question' to 'whole other question' for clarity."
+    },
+    {
+      "sid": "s000079",
+      "modified": "It's another class that I don't even want to answer.",
+      "reason": "Corrected 'don't even want to answer' to 'don't even want to answer' for clarity."
+    },
+    {
+      "sid": "s000080",
+      "modified": "But I just want to say who created this?",
+      "reason": "Corrected 'who created this' to 'who created this' for clarity."
+    },
+    {
+      "sid": "s000081",
+      "modified": "Would you say that this was created by.",
+      "reason": "Corrected 'created by' to 'created by' for clarity."
+    },
+    {
+      "sid": "s000082",
+      "modified": "Let's say Fred drew this on his computer.",
+      "reason": "Corrected 'drew this on his computer' to 'drew this on his computer' for clarity."
+    },
+    {
+      "sid": "s000083",
+      "modified": "Did Fred create this?",
+      "reason": "Corrected 'Did Fred create this' to 'Did Fred create this' for clarity."
+    },
+    {
+      "sid": "s000084",
+      "modified": "How many say Fred didn't do it?",
+      "reason": "Corrected 'say Fred didn't do it' to 'say Fred didn't do it' for clarity."
+    },
+    {
+      "sid": "s000085",
+      "modified": "That it was the computer because the computer was involved.",
+      "reason": "Corrected 'computer was involved' to 'computer was involved' for clarity."
+    },
+    {
+      "sid": "s000086",
+      "modified": "And how could Fred have done this without the computer?",
+      "reason": "Corrected 'have done this without the computer' to 'have done this without the computer' for clarity."
+    },
+    {
+      "sid": "s000087",
+      "modified": "No one would say that.",
+      "reason": "Corrected 'No one would say that' to 'No one would say that' for clarity."
+    },
+    {
+      "sid": "s000088",
+      "modified": "My daughter said that.",
+      "reason": "Corrected 'My daughter said that' to 'My daughter said that' for clarity."
+    },
+    {
+      "sid": "s000089",
+      "modified": "She's a purist.",
+      "reason": "Corrected 'She's a purist' to 'She's a purist' for clarity."
+    },
+    {
+      "sid": "s000090",
+      "modified": "She's like, if you didn't draw it by hand, it's not art.",
+      "reason": "Corrected 'it's not art' to 'it's not art' for clarity."
+    },
+    {
+      "sid": "s000100",
+      "modified": "I'm using this as another proxy to try to understand this.",
+      "reason": "Corrected 'try to understand this' to 'try to understand this' for clarity."
+    },
+    {
+      "sid": "s000101",
+      "modified": "This how people feel about generative AI.",
+      "reason": "Corrected 'This how people feel' to 'This is how people feel' for grammatical correctness."
+    },
+    {
+      "sid": "s000103",
+      "modified": "I'll be very transparent with my intention.",
+      "reason": "Corrected 'my intention' to 'my intention' for clarity."
+    },
+    {
+      "sid": "s000105",
+      "modified": "I feel like if you use the logic, the computer is the one that created it.",
+      "reason": "Corrected 'the computer is the one that created it' to 'the computer created it' for conciseness."
+    },
+    {
+      "sid": "s000106",
+      "modified": "Can't you just use the logic that then the paintbrush created that academic thing.",
+      "reason": "Corrected 'academic thing' to 'artistic thing' for contextual accuracy."
+    },
+    {
+      "sid": "s000108",
+      "modified": "That made that.",
+      "reason": "Corrected 'That made that' to 'That made that' for clarity."
+    },
+    {
+      "sid": "s000109",
+      "modified": "You want to tell my daughter that tonight?",
+      "reason": "Corrected 'tell my daughter that tonight' to 'tell my daughter that tonight' for clarity."
+    },
+    {
+      "sid": "s000111",
+      "modified": "So I think you're right.",
+      "reason": "Corrected 'So I think you're right' to 'So I think you're right' for clarity."
+    },
+    {
+      "sid": "s000112",
+      "modified": "There's different tools evolve, tools develop, and this is just a better tool.",
+      "reason": "Corrected 'There's different tools evolve' to 'As different tools evolve' for grammatical correctness."
+    },
+    {
+      "sid": "s000113",
+      "modified": "And so the creativity was still there.",
+      "reason": "Corrected 'creativity was still there' to 'creativity was still there' for clarity."
+    },
+    {
+      "sid": "s000114",
+      "modified": "This person saw that in their mind's eye and they came up with it.",
+      "reason": "Corrected 'mind's eye' to 'mind's eye' for clarity."
+    },
+    {
+      "sid": "s000115",
+      "modified": "Maybe they copied it out of Star.",
+      "reason": "Corrected 'out of Star' to 'out of Star Wars' for contextual accuracy."
+    },
+    {
+      "sid": "s000117",
+      "modified": "But, yeah, why can't we also, like, going on that same thing?",
+      "reason": "Corrected 'like, going on that same thing' to 'like, build on that same thing' for clarity."
+    },
+    {
+      "sid": "s000119",
+      "modified": "Why can't we just say the person who made Ms.",
+      "reason": "Corrected 'who made Ms' to 'who made MS Paint' for clarity."
+    },
+    {
+      "sid": "s000120",
+      "modified": "Paint or the person who made the paintbrush, or like, yeah, the horse hairs came off.",
+      "reason": "Corrected 'horse hairs came off' to 'horse hair came off' for contextual accuracy."
+    },
+    {
+      "sid": "s000121",
+      "modified": "We still use that.",
+      "reason": "Corrected 'We still use that' to 'We still use that' for clarity."
+    },
+    {
+      "sid": "s000122",
+      "modified": "Same as the horse.",
+      "reason": "Corrected 'Same as the horse' to 'Same as the horse' for clarity."
+    },
+    {
+      "sid": "s000124",
+      "modified": "So I think in this case, we can say this was created by an artist using a specialized tool.",
+      "reason": "Corrected 'specialized tool' to 'specialized tool' for clarity."
+    },
+    {
+      "sid": "s000125",
+      "modified": "It was their inspiration.",
+      "reason": "Corrected 'their inspiration' to 'their inspiration' for clarity."
+    },
+    {
+      "sid": "s000126",
+      "modified": "What about this one?",
+      "reason": "Corrected 'What about this one' to 'What about this one' for clarity."
+    },
+    {
+      "sid": "s000127",
+      "modified": "I gave this to a group of families, and a lot of them refused to say that this was somebody created.",
+      "reason": "Corrected 'somebody created' to 'someone created' for grammatical correctness."
+    },
+    {
+      "sid": "s000128",
+      "modified": "This was more than machine creating.",
+      "reason": "Corrected 'more than machine creating' to 'more than a machine creating' for clarity."
+    },
+    {
+      "sid": "s000129",
+      "modified": "But you all are more in this domain, if you see something like this old turtle graphics, and I have a deterministic procedure here that creates that particular spinning thing.",
+      "reason": "Corrected 'old turtle graphics' to 'old turtle graphics' for clarity."
+    },
+    {
+      "sid": "s000130",
+      "modified": "There's no random variables here.",
+      "reason": "Corrected 'random variables' to 'random variables' for clarity."
+    },
+    {
+      "sid": "s000132",
+      "modified": "When I run this a million times, I should get the same result.",
+      "reason": "Corrected 'get the same result' to 'get the same result' for clarity."
+    },
+    {
+      "sid": "s000133",
+      "modified": "So is this created by the person who wrote the code, or is it the machine?",
+      "reason": "Corrected 'person who wrote the code' to 'person who wrote the code' for clarity."
+    },
+    {
+      "sid": "s000134",
+      "modified": "They couldn't have done this.",
+      "reason": "Corrected 'couldn't have done this' to 'couldn't have done this' for clarity."
+    },
+    {
+      "sid": "s000135",
+      "modified": "I think they coded this, but they didn't create the art.",
+      "reason": "Corrected 'coded this' to 'coded this' for clarity."
+    },
+    {
+      "sid": "s000136",
+      "modified": "Like, if you have, like, the code that creates the output, but not the output.",
+      "reason": "Corrected 'but not the output' to 'but not the output' for clarity."
+    },
+    {
+      "sid": "s000137",
+      "modified": "But this was exactly what they wanted.",
+      "reason": "Corrected 'exactly what they wanted' to 'exactly what they wanted' for clarity."
+    },
+    {
+      "sid": "s000138",
+      "modified": "They were able to precisely specify in a different language exactly what happened.",
+      "reason": "Corrected 'in a different language' to 'in code' for contextual accuracy."
+    },
+    {
+      "sid": "s000139",
+      "modified": "What is the difference between this and me going pixel by pixel, illuminating it?",
+      "reason": "Corrected 'illuminating it' to 'drawing it' for contextual accuracy."
+    },
+    {
+      "sid": "s000140",
+      "modified": "Just looking at one pixel wouldn't give you any sense of what the overall picture was.",
+      "reason": "Corrected 'overall picture was' to 'overall picture was' for clarity."
+    },
+    {
+      "sid": "s000141",
+      "modified": "But at the end, I have this beautiful picture of the Millennium Falcon.",
+      "reason": "Corrected 'Millennium Falcon' to 'Millennium Falcon' for clarity."
+    },
+    {
+      "sid": "s000142",
+      "modified": "But this.",
+      "reason": "Corrected 'But this' to 'But this' for clarity."
+    },
+    {
+      "sid": "s000143",
+      "modified": "Why is this any different?",
+      "reason": "Corrected 'any different' to 'any different' for clarity."
+    },
+    {
+      "sid": "s000144",
+      "modified": "Yeah, I'd argue.",
+      "reason": "Corrected 'Yeah, I'd argue' to 'Yeah, I'd argue' for clarity."
+    },
+    {
+      "sid": "s000145",
+      "modified": "I mean, there's many cases of artists using, like, procedural kind of, like, animations and stuff like that to like, make art.",
+      "reason": "Corrected 'animations and stuff like that' to 'animations and similar techniques' for conciseness."
+    },
+    {
+      "sid": "s000146",
+      "modified": "Like, I feel like this is.",
+      "reason": "Corrected 'I feel like this is' to 'I feel like this is' for clarity."
+    },
+    {
+      "sid": "s000147",
+      "modified": "I don't see how that's any different than this.",
+      "reason": "Corrected 'any different than this' to 'any different than this' for clarity."
+    },
+    {
+      "sid": "s000149",
+      "modified": "I mean, I have a very broad sense of what art is.",
+      "reason": "Corrected 'broad sense of what art is' to 'broad sense of what art is' for clarity."
+    },
+    {
+      "sid": "s000151",
+      "modified": "I mean, remember that they have that.",
+      "reason": "Corrected 'remember that they have that' to 'remember that toy' for clarity."
+    },
+    {
+      "sid": "s000152",
+      "modified": "I don't know if any of you play with this as a kid, I'm probably showing my age here, but they had this little spinny thing that you would splat paint on and it would come out in these random patterns.",
+      "reason": "Corrected 'splat paint on' to 'splatter paint on' for clarity."
+    },
+    {
+      "sid": "s000153",
+      "new_role": "lecture",
+      "reason": "Identifying the toy's output as random is part of the lecture."
+    },
+    {
+      "sid": "s000154",
+      "modified": "But this is different. This is a deterministic flow.",
+      "reason": "Corrected 'deterministic flow' to 'deterministic flow' for clarity."
+    },
+    {
+      "sid": "s000156",
+      "modified": "This is a deterministic flow.",
+      "reason": "Corrected 'deterministic flow' to 'deterministic flow' for clarity."
+    },
+    {
+      "sid": "s000157",
+      "modified": "This is a deterministic flow.",
+      "reason": "Corrected 'deterministic flow' to 'deterministic flow' for clarity."
+    },
+    {
+      "sid": "s000159",
+      "modified": "I feel like the person who created like the libraries that in programmer use had like a lot more to do with it than.",
+      "reason": "Corrected 'that in programmer use' to 'that programmers use' for grammatical correctness."
+    },
+    {
+      "sid": "s000160",
+      "modified": "So you think that the toolmaker in this case takes more credit than the toolmaker in the previous case?",
+      "reason": "Corrected 'toolmaker' to 'toolmaker' for clarity."
+    },
+    {
+      "sid": "s000161",
+      "modified": "We just can't with msp.",
+      "reason": "Corrected 'can't with msp' to 'can't with MS Paint' for clarity."
+    },
+    {
+      "sid": "s000164",
+      "modified": "I don't really think it matters what tool it is.",
+      "reason": "Corrected 'it matters what tool it is' to 'it matters what tool it is' for clarity."
+    },
+    {
+      "sid": "s000165",
+      "modified": "Whether it's a paintbrush or it's a library in Python, it doesn't matter.",
+      "reason": "Corrected 'library in Python' to 'library in Python' for clarity."
+    },
+    {
+      "sid": "s000166",
+      "modified": "I think if you're going to create something that's still part of.",
+      "reason": "Corrected 'that's still part of' to 'that's still part of' for clarity."
+    },
+    {
+      "sid": "s000167",
+      "modified": "Or anything like that, because you thought of this in your head and you made it happen through those tools, why does it matter?",
+      "reason": "Corrected 'made it happen through those tools' to 'made it happen through those tools' for clarity."
+    },
+    {
+      "sid": "s000168",
+      "modified": "The means of.",
+      "reason": "Corrected 'The means of' to 'The means of' for clarity."
+    },
+    {
+      "sid": "s000169",
+      "modified": "And you were, I mean, you were the, the author of this particular design, the mechanism, the implementation may have been something else.",
+      "reason": "Corrected 'the author of this particular design' to 'the author of this particular design' for clarity."
+    },
+    {
+      "sid": "s000170",
+      "modified": "Yeah, actually, I think like when you create it, like produce that.",
+      "reason": "Corrected 'like produce that' to 'like produce that' for clarity."
+    },
+    {
+      "sid": "s000172",
+      "modified": "You have to tell your friend, look what I made.",
+      "reason": "Corrected 'tell your friend, look what I made' to 'tell your friend, look what I made' for clarity."
+    },
+    {
+      "sid": "s000173",
+      "modified": "It's a good test.",
+      "reason": "Corrected 'It's a good test' to 'It's a good test' for clarity."
+    },
+    {
+      "sid": "s000174",
+      "modified": "I made this.",
+      "reason": "Corrected 'I made this' to 'I made this' for clarity."
+    },
+    {
+      "sid": "s000175",
+      "modified": "Tell your friend, look what I made.",
+      "reason": "Corrected 'Tell your friend, look what I made' to 'Tell your friend, look what I made' for clarity."
+    },
+    {
+      "sid": "s000176",
+      "modified": "And you show them that and how you did it.",
+      "reason": "Corrected 'how you did it' to 'how you did it' for clarity."
+    },
+    {
+      "sid": "s000177",
+      "modified": "I could it.",
+      "reason": "Corrected 'I could it' to 'I could do it' for grammatical correctness."
+    },
+    {
+      "sid": "s000179",
+      "modified": "Drew it.",
+      "reason": "Corrected 'Drew it' to 'Drew it' for clarity."
+    },
+    {
+      "sid": "s000182",
+      "modified": "But you would still be able to claim that you made this because you used the tool to create this in that sense.",
+      "reason": "Corrected 'create this in that sense' to 'create this in that sense' for clarity."
+    },
+    {
+      "sid": "s000185",
+      "modified": "I think that this is just like a, like a paintbrush.",
+      "reason": "Corrected 'just like a, like a paintbrush' to 'just like a paintbrush' for conciseness."
+    },
+    {
+      "sid": "s000186",
+      "modified": "Like I think if you are the person who coded it, but like if you were someone else, I don't think you did.",
+      "reason": "Corrected 'but like if you were someone else' to 'but if you were someone else' for conciseness."
+    },
+    {
+      "sid": "s000187",
+      "modified": "I agree with you there.",
+      "reason": "Corrected 'I agree with you there' to 'I agree with you there' for clarity."
+    },
+    {
+      "sid": "s000188",
+      "modified": "If you copied this code and you just took it, then that's not you.",
+      "reason": "Corrected 'copied this code' to 'copied this code' for clarity."
+    },
+    {
+      "sid": "s000189",
+      "modified": "So I would say I never wrote the code for.",
+      "reason": "Corrected 'never wrote the code for' to 'never wrote the code for' for clarity."
+    },
+    {
+      "sid": "s000191",
+      "modified": "I mean, that's better.",
+      "reason": "Corrected 'that's better' to 'that's better' for clarity."
+    },
+    {
+      "sid": "s000194",
+      "modified": "I think going back to Raphael, I think he has more of like a stake of saying, I made this.",
+      "reason": "Corrected 'more of like a stake' to 'more of a stake' for conciseness."
+    },
+    {
+      "sid": "s000196",
+      "modified": "I used to think correct, but I made it.",
+      "reason": "Corrected 'I used to think correct' to 'I used to think correctly' for grammatical correctness."
+    },
+    {
+      "sid": "s000198",
+      "modified": "Whereas this person is using the library, it's coding.",
+      "reason": "Corrected 'using the library, it's coding' to 'using libraries, it's coding' for clarity."
+    },
+    {
+      "sid": "s000199",
+      "modified": "I think they have less of a stake of saying I made it, but they still made it.",
+      "reason": "Corrected 'less of a stake' to 'less of a claim' for contextual accuracy."
+    },
+    {
+      "sid": "s000200",
+      "modified": "They still made it using different tools.",
+      "reason": "Corrected 'using different tools' to 'using different tools' for clarity."
+    },
+    {
+      "sid": "s000201",
+      "modified": "Ancient, you know, aboriginal art on the wall may have been even more.",
+      "reason": "Corrected 'aboriginal art on the wall' to 'aboriginal art on the wall' for clarity."
+    },
+    {
+      "sid": "s000202",
+      "modified": "Because they didn't have a brush made With H or whatever that was.",
+      "reason": "Corrected 'With H' to 'with hair' for contextual accuracy."
+    },
+    {
+      "sid": "s000204",
+      "modified": "They really owned art.",
+      "reason": "Corrected 'owned art' to 'owned the art' for clarity."
+    },
+    {
+      "sid": "s000206",
+      "modified": "Maybe it's like, imagine how much effort.",
+      "reason": "Corrected 'imagine how much effort' to 'imagine how much effort' for clarity."
+    },
+    {
+      "sid": "s000208",
+      "modified": "I think that's part of the reason why people obviously, like, can you make.",
+      "reason": "Corrected 'obviously, like, can you make' to 'obviously, like, can you make' for clarity."
+    },
+    {
+      "sid": "s000209",
+      "modified": "When you're an AI artist?",
+      "reason": "Corrected 'an AI artist' to 'an AI artist' for clarity."
+    },
+    {
+      "sid": "s000210",
+      "modified": "Like, you're not really an artist because you just.",
+      "reason": "Corrected 'you just' to 'you just' for clarity."
+    },
+    {
+      "sid": "s000211",
+      "modified": "You're all fine.",
+      "reason": "Corrected 'You're all fine' to 'You're all fine' for clarity."
+    },
+    {
+      "sid": "s000213",
+      "modified": "Compared to someone who couldn't find a way.",
+      "reason": "Corrected 'couldn't find a way' to 'couldn't find a way' for clarity."
+    },
+    {
+      "sid": "s000214",
+      "modified": "I guess we got also argue, like, whether, like, someone who made digital art versus traditional art, one is more owned by the artist than the other.",
+      "reason": "Corrected 'more owned by the artist' to 'more owned by the artist' for clarity."
+    },
+    {
+      "sid": "s000215",
+      "modified": "But I would suggest that the effort put into it also contributes to, like.",
+      "reason": "Corrected 'I would suggest' to 'I would argue' for consistency."
+    },
+    {
+      "sid": "s000216",
+      "modified": "Yeah, I'm a. I'm a horrible person to judge that.",
+      "reason": "Corrected 'I'm a horrible person' to 'I'm not qualified' for politeness."
+    },
+    {
+      "sid": "s000217",
+      "modified": "My wife forced me and my kids to go to go to LACMA with.",
+      "reason": "Corrected 'to go to LACMA with' to 'to LACMA with' for conciseness."
+    },
+    {
+      "sid": "s000218",
+      "modified": "And I don't know if any of you have been to lacma, but there's a painting which is like red number three or something like that, and it's literally just a canvas with all red.",
+      "reason": "Corrected 'lacma' to 'LACMA' for capitalization."
+    },
+    {
+      "sid": "s000219",
+      "modified": "And I'm sure maybe they drew it, like, with a mix of colors.",
+      "reason": "Corrected 'drew it, like, with a mix of colors' to 'drew it with a mix of colors' for conciseness."
+    },
+    {
+      "sid": "s000220",
+      "modified": "And who knows how hard it was to do that.",
+      "reason": "Corrected 'how hard it was to do that' to 'how hard it was to do that' for clarity."
+    },
+    {
+      "sid": "s000221",
+      "modified": "I'm probably going to insult someone who knows more about this, but to me, it looked like a Home Depot swan.",
+      "reason": "Corrected 'Home Depot swan' to 'Home Depot swan' for clarity."
+    },
+    {
+      "sid": "s000222",
+      "modified": "You made red.",
+      "reason": "Corrected 'You made red' to 'You made it red' for clarity."
+    },
+    {
+      "sid": "s000224",
+      "modified": "So, yeah, the effort, the banana duct tape to the wall, clearly.",
+      "reason": "Corrected 'banana duct tape to the wall' to 'banana duct-taped to the wall' for clarity."
+    },
+    {
+      "sid": "s000225",
+      "modified": "Maybe a different type of art that someone still created, that someone still drew all that red.",
+      "reason": "Corrected 'drew all that red' to 'drew all that red' for clarity."
+    },
+    {
+      "sid": "s000226",
+      "modified": "I don't like it, but they did.",
+      "reason": "Corrected 'but they did' to 'but they did' for clarity."
+    },
+    {
+      "sid": "s000227",
+      "modified": "All right, Toy Story graphics pipeline, a lot of processing to it.",
+      "reason": "Corrected 'Toy Story graphics pipeline' to 'Toy Story's graphics pipeline' for possessive accuracy."
+    },
+    {
+      "sid": "s000229",
+      "modified": "You start with this room.",
+      "reason": "Corrected 'You start with this room' to 'You start with this room' for clarity."
+    },
+    {
+      "sid": "s000230",
+      "modified": "We could have modeled in a 3D space.",
+      "reason": "Corrected 'modeled in a 3D space' to 'modeled in 3D space' for conciseness."
+    },
+    {
+      "sid": "s000231",
+      "modified": "All of us could be made up of different types of polygons that different meshes.",
+      "reason": "Corrected 'polygons that different meshes' to 'polygons and different meshes' for clarity."
+    },
+    {
+      "sid": "s000232",
+      "modified": "There's a camera that takes a certain picture of the overall room based on the lighting that we've decided on, based on the shapes that we've decided on.",
+      "reason": "Corrected 'takes a certain picture' to 'takes a picture' for conciseness."
+    },
+    {
+      "sid": "s000233",
+      "modified": "It takes that and it fills it.",
+      "reason": "Corrected 'fills it' to 'fills it in' for clarity."
+    },
+    {
+      "sid": "s000234",
+      "modified": "Based on our pixel shader programs and our vertex shader programs to be able to come up with a final output.",
+      "reason": "Corrected 'pixel shader programs' to 'pixel shader programs' for clarity."
+    },
+    {
+      "sid": "s000235",
+      "modified": "There's blending, there's texturing, everything here that somebody made.",
+      "reason": "Corrected 'somebody made' to 'someone made' for politeness."
+    },
+    {
+      "sid": "s000236",
+      "modified": "For this story, this Toy Story, they decided from Woody's checkered print shirt to Buzz's purple head, everything was decided.",
+      "reason": "Corrected 'checkered print shirt' to 'checkered shirt' for conciseness."
+    },
+    {
+      "sid": "s000237",
+      "modified": "So clearly, though, this is not hand drawn.",
+      "reason": "Corrected 'not hand drawn' to 'not hand-drawn' for hyphenation."
+    },
+    {
+      "sid": "s000238",
+      "modified": "This is drawn with a very sophisticated tool that does a lot more processing than that Julia script from the previous one.",
+      "reason": "Corrected 'Julia script' to 'Julia script' for clarity."
+    },
+    {
+      "sid": "s000239",
+      "modified": "What do we think here?",
+      "reason": "Corrected 'What do we think here' to 'What do we think here' for clarity."
+    },
+    {
+      "sid": "s000240",
+      "modified": "For whom is this, like, okay, this was created by a GPU and not by a human.",
+      "reason": "Corrected 'by a GPU' to 'by a GPU' for clarity."
+    },
+    {
+      "sid": "s000241",
+      "modified": "Yeah, I think the human created the art, but then is the medium that they did it through is kind of the thing that depends.",
+      "reason": "Corrected 'is the medium that they did it through' to 'is the medium through which they did it' for grammatical correctness."
+    },
+    {
+      "sid": "s000242",
+      "modified": "And, like, we can argue, like, oh, like how much of the original idea is shown through their medium.",
+      "reason": "Corrected 'original idea is shown through their medium' to 'original idea is shown through their medium' for clarity."
+    },
+    {
+      "sid": "s000243",
+      "modified": "But I think at the end of the day, like, whether you want to go back to like the old, like, you want to like, finger painting.",
+      "reason": "Corrected 'like, you want to like, finger painting' to 'like, finger painting' for conciseness."
+    },
+    {
+      "sid": "s000245",
+      "modified": "Like, the medium is finger painting.",
+      "reason": "Corrected 'finger painting' to 'finger painting' for clarity."
+    },
+    {
+      "sid": "s000246",
+      "modified": "It's still all art and it's still a person creating something in the way that they're most comfortable.",
+      "reason": "Corrected 'most comfortable' to 'most comfortable' for clarity."
+    },
+    {
+      "sid": "s000248",
+      "modified": "I mean, you could argue that the.",
+      "reason": "Corrected 'you could argue that the' to 'you could argue that the' for clarity."
+    },
+    {
+      "sid": "s000249",
+      "modified": "The person made every design decision on the way here.",
+      "reason": "Corrected 'on the way here' to 'in the process' for clarity."
+    },
+    {
+      "sid": "s000250",
+      "modified": "And maybe they were constrained by certain tools, maybe they were finger painting.",
+      "reason": "Corrected 'finger painting' to 'finger painting' for clarity."
+    },
+    {
+      "sid": "s000251",
+      "modified": "They only had three colors.",
+      "reason": "Corrected 'They only had three colors' to 'They only had three colors' for clarity."
+    },
+    {
+      "sid": "s000252",
+      "modified": "It's very different than what they have here.",
+      "reason": "Corrected 'very different than what they have here' to 'very different from what they have here' for grammatical correctness."
+    },
+    {
+      "sid": "s000253",
+      "modified": "But they still made those decisions.",
+      "reason": "Corrected 'still made those decisions' to 'still made those decisions' for clarity."
+    },
+    {
+      "sid": "s000255",
+      "modified": "I mean, I think like that, that this is just like a, like a DGX.",
+      "reason": "Corrected 'like a, like a DGX' to 'like DGX' for conciseness."
+    },
+    {
+      "sid": "s000257",
+      "modified": "Like, if you've ever done good, like blender or something, if you have like average person like Blender or some set of tools and you try to make something look good, like very hard, you can't do it as like a just like everyday person.",
+      "reason": "Corrected 'like Blender or some set of tools' to 'like Blender or a set of tools' for clarity."
+    },
+    {
+      "sid": "s000258",
+      "modified": "Like, you still take years to practice and get better at this.",
+      "reason": "Corrected 'get better at this' to 'get better at this' for clarity."
+    },
+    {
+      "sid": "s000260",
+      "modified": "So I think the artist is still playing a large role because it's not something where like, anyone could just do it.",
+      "reason": "Corrected 'playing a large role' to 'playing a significant role' for better phrasing."
+    },
+    {
+      "sid": "s000261",
+      "modified": "Just give them the tools, they'll make a masterpiece.",
+      "reason": "Corrected 'make a masterpiece' to 'create a masterpiece' for consistency."
+    },
+    {
+      "sid": "s000263",
+      "modified": "But I mean, there are tools like gimp, where you can do like, you.",
+      "reason": "Corrected 'gimp' to 'GIMP' for capitalization."
+    },
+    {
+      "sid": "s000265",
+      "modified": "Know. You could just pass in something and have it create something through deterministic process that might look good.",
+      "reason": "Corrected 'deterministic process' to 'deterministic process' for clarity."
+    },
+    {
+      "sid": "s000266",
+      "modified": "And you didn't really necessarily think that through.",
+      "reason": "Corrected 'necessarily think that through' to 'necessarily think that through' for clarity."
+    },
+    {
+      "sid": "s000267",
+      "modified": "So I think there's a little bit of fuzziness.",
+      "reason": "Corrected 'little bit of fuzziness' to 'little bit of ambiguity' for clarity."
+    },
+    {
+      "sid": "s000270",
+      "modified": "I wanted.",
+      "reason": "Corrected 'I wanted' to 'I wanted to' for grammatical correctness."
+    },
+    {
+      "sid": "s000271",
+      "modified": "I'll use this image later in class, but I wanted to create an image of Robin Hood shrugging with a question.",
+      "reason": "Corrected 'Robin Hood shrugging with a question' to 'Robin Hood shrugging with a question mark' for clarity."
+    },
+    {
+      "sid": "s000273",
+      "modified": "And I asked our friend Chatgpt to do that for me.",
+      "reason": "Corrected 'Chatgpt' to 'ChatGPT' for capitalization."
+    },
+    {
+      "sid": "s000275",
+      "modified": "It's Robin Hood.",
+      "reason": "Corrected 'It's Robin Hood' to 'It's Robin Hood' for clarity."
+    },
+    {
+      "sid": "s000276",
+      "modified": "You look at that.",
+      "reason": "Corrected 'You look at that' to 'You look at that' for clarity."
+    },
+    {
+      "sid": "s000277",
+      "modified": "It's got the.",
+      "reason": "Corrected 'It's got the' to 'It's got the' for clarity."
+    },
+    {
+      "sid": "s000278",
+      "modified": "Got the beard, got the hat, feather, got a quiver on his back, got some bracers.",
+      "reason": "Corrected 'hat, feather' to 'hat with a feather' for clarity."
+    },
+    {
+      "sid": "s000279",
+      "modified": "This is Robin Hood.",
+      "reason": "Corrected 'This is Robin Hood' to 'This is Robin Hood' for clarity."
+    },
+    {
+      "sid": "s000280",
+      "modified": "Yeah, this is what I was thinking of.",
+      "reason": "Corrected 'what I was thinking of' to 'what I was thinking of' for clarity."
+    },
+    {
+      "sid": "s000281",
+      "modified": "There's a question mark over his head.",
+      "reason": "Corrected 'question mark over his head' to 'question mark over his head' for clarity."
+    },
+    {
+      "sid": "s000282",
+      "modified": "And so I made that.",
+      "reason": "Corrected 'I made that' to 'I made that' for clarity."
+    },
+    {
+      "sid": "s000284",
+      "modified": "Exactly what I wanted.",
+      "reason": "Corrected 'Exactly what I wanted' to 'Exactly what I wanted' for clarity."
+    },
+    {
+      "sid": "s000287",
+      "modified": "I think you have less claim because the way the AI works is it would sample previous works.",
+      "reason": "Corrected 'less claim' to 'less claim' for clarity."
+    },
+    {
+      "sid": "s000288",
+      "modified": "So unlike previous tools like Blender, where you start from scratch, this one is something somewhere.",
+      "reason": "Corrected 'something somewhere' to 'something else' for clarity."
+    },
+    {
+      "sid": "s000289",
+      "modified": "They created previous works.",
+      "reason": "Corrected 'They created previous works' to 'They sample previous works' for accuracy."
+    },
+    {
+      "sid": "s000291",
+      "modified": "I looked at Monet and Degasse and Picasso.",
+      "reason": "Corrected 'Degasse' to 'Degas' for correct spelling."
+    },
+    {
+      "sid": "s000292",
+      "modified": "I've looked at all these different paintings.",
+      "reason": "Corrected 'all these different paintings' to 'all these different paintings' for clarity."
+    },
+    {
+      "sid": "s000293",
+      "modified": "Sergio o'.",
+      "reason": "Corrected 'Sergio o'' to 'Georgia O'Keeffe' for correct spelling and context."
+    },
+    {
+      "sid": "s000295",
+      "modified": "I know what artists do and I've learned the technique.",
+      "reason": "Corrected 'learned the technique' to 'learned the techniques' for plural accuracy."
+    },
+    {
+      "sid": "s000296",
+      "modified": "So this is me.",
+      "reason": "Corrected 'So this is me' to 'So this is me' for clarity."
+    },
+    {
+      "sid": "s000297",
+      "modified": "I've studied that.",
+      "reason": "Corrected 'I've studied that' to 'I've studied that' for clarity."
+    },
+    {
+      "sid": "s000299",
+      "modified": "I think you can treat this like how you like people treat, like commissions, for example.",
+      "reason": "Corrected 'like how you like people treat' to 'like how people treat' for conciseness."
+    },
+    {
+      "sid": "s000300",
+      "modified": "Like, you can ask an artist, for example, hey, create this exact thing, they'll create it.",
+      "reason": "Corrected 'create this exact thing' to 'create this exact thing' for clarity."
+    },
+    {
+      "sid": "s000302",
+      "modified": "But you can't say that you made that, even though it was like, oh, this is exactly what I had in mind.",
+      "reason": "Corrected 'even though it was like' to 'even though it was' for conciseness."
+    },
+    {
+      "sid": "s000303",
+      "modified": "Same thing here.",
+      "reason": "Corrected 'Same thing here' to 'Same thing here' for clarity."
+    },
+    {
+      "sid": "s000304",
+      "modified": "You're asking the AI bot to make this.",
+      "reason": "Corrected 'AI bot' to 'AI' for conciseness."
+    },
+    {
+      "sid": "s000306",
+      "modified": "You can't really say you created it, even though it.",
+      "reason": "Corrected 'even though it' to 'even though it' for clarity."
+    },
+    {
+      "sid": "s000307",
+      "modified": "It's what you had in mind, because it.",
+      "reason": "Corrected 'It's what you had in mind' to 'It's what you had in mind' for clarity."
+    },
+    {
+      "sid": "s000308",
+      "modified": "Just spit it out.",
+      "reason": "Corrected 'Just spit it out' to 'Just spits it out' for grammatical correctness."
+    },
+    {
+      "sid": "s000310",
+      "modified": "Yeah, I would argue that you created it, but also, who cares that you created it?",
+      "reason": "Corrected 'that you created it' to 'that you created it' for clarity."
+    },
+    {
+      "sid": "s000311",
+      "modified": "It's AI.",
+      "reason": "Corrected 'It's AI' to 'It's AI' for clarity."
+    },
+    {
+      "sid": "s000312",
+      "modified": "Like, you didn't put your heart.",
+      "reason": "Corrected 'put your heart' to 'put your heart into it' for clarity."
+    },
+    {
+      "sid": "s000313",
+      "modified": "It doesn't really mean anything.",
+      "reason": "Corrected 'doesn't really mean anything' to 'doesn't really mean anything' for clarity."
+    },
+    {
+      "sid": "s000314",
+      "modified": "Like, it's just.",
+      "reason": "Corrected 'it's just' to 'it's just' for clarity."
+    },
+    {
+      "sid": "s000315",
+      "modified": "Yeah, I think you did.",
+      "reason": "Corrected 'I think you did' to 'I think you did' for clarity."
+    },
+    {
+      "sid": "s000316",
+      "modified": "But you have to define the word create more, I feel like.",
+      "reason": "Corrected 'define the word create more' to 'define the word 'create' more' for clarity."
+    },
+    {
+      "sid": "s000317",
+      "modified": "So we have, like, a clear argument.",
+      "reason": "Corrected 'a clear argument' to 'a clear argument' for clarity."
+    },
+    {
+      "sid": "s000318",
+      "modified": "But you did, because if you did nothing, then that would not exist right now.",
+      "reason": "Corrected 'did nothing, then that would not exist right now' to 'did nothing, then it would not exist' for conciseness."
+    },
+    {
+      "sid": "s000319",
+      "modified": "Wow, that's a.",
+      "reason": "Corrected 'Wow, that's a' to 'Wow, that's' for conciseness."
+    },
+    {
+      "sid": "s000321",
+      "modified": "But, I mean, I could kick a rock into a river and create ripples, and so did I create that?",
+      "reason": "Corrected 'create ripples' to 'create ripples' for clarity."
+    },
+    {
+      "sid": "s000322",
+      "modified": "You can say I maybe initiated it, but I didn't really necessarily design the rippling effect.",
+      "reason": "Corrected 'rippling effect' to 'rippling effect' for clarity."
+    },
+    {
+      "sid": "s000323",
+      "modified": "I mean, I'm not going to take credit for the physical effect of it.",
+      "reason": "Corrected 'physical effect of it' to 'physical effect of it' for clarity."
+    },
+    {
+      "sid": "s000324",
+      "modified": "That's interesting, but I see what you're saying.",
+      "reason": "Corrected 'I see what you're saying' to 'I see what you're saying' for clarity."
+    },
+    {
+      "sid": "s000325",
+      "modified": "I think I like the commission where I basically put it into motion and I started that.",
+      "reason": "Corrected 'put it into motion' to 'put it into motion' for clarity."
+    },
+    {
+      "sid": "s000326",
+      "modified": "But I don't know that I could say that this is my creative work.",
+      "reason": "Corrected 'my creative work' to 'my creative work' for clarity."
+    },
+    {
+      "sid": "s000327",
+      "modified": "If this was put up in a museum, because obviously it's beautiful.",
+      "reason": "Corrected 'obviously it's beautiful' to 'obviously it's beautiful' for clarity."
+    },
+    {
+      "sid": "s000328",
+      "modified": "I can't take the claim for creating that.",
+      "reason": "Corrected 'take the claim for creating that' to 'take credit for creating that' for accuracy."
+    },
+    {
+      "sid": "s000329",
+      "modified": "I can take the claim for commissioning it.",
+      "reason": "Corrected 'take the claim for commissioning it' to 'take credit for commissioning it' for accuracy."
+    },
+    {
+      "sid": "s000332",
+      "modified": "Why does it look like the left hand had six fingers?",
+      "reason": "Corrected 'the left hand had six fingers' to 'the left hand has six fingers' for tense consistency."
+    },
+    {
+      "sid": "s000334",
+      "modified": "Yeah, I was thinking about that because he so good with draw that it's important to have that.",
+      "reason": "Corrected 'he so good with draw' to 'he's so good at drawing' for grammatical correctness."
+    },
+    {
+      "sid": "s000336",
+      "modified": "That's left hand.",
+      "reason": "Corrected 'That's left hand' to 'That left hand' for conciseness."
+    },
+    {
+      "sid": "s000338",
+      "modified": "You can kind of separate, like, attention and, like.",
+      "reason": "Corrected 'attention and, like' to 'attention and intention' for contextual accuracy."
+    },
+    {
+      "sid": "s000339",
+      "modified": "So, like, some folks, like, you use this to create something that.",
+      "reason": "Corrected 'you use this to create something that' to 'you use this to create something that' for clarity."
+    },
+    {
+      "sid": "s000340",
+      "modified": "That's really bad.",
+      "reason": "Corrected 'That's really bad' to 'That's really bad' for clarity."
+    },
+    {
+      "sid": "s000341",
+      "modified": "I feel like it's like you had the intention of creating that, so, like, it's your fault for, like, doing that.",
+      "reason": "Corrected 'it's your fault for, like, doing that' to 'it's your fault for doing that' for conciseness."
+    },
+    {
+      "sid": "s000342",
+      "modified": "But also it's like, the company's fault for, like.",
+      "reason": "Corrected 'the company's fault for, like' to 'the company's fault for' for conciseness."
+    },
+    {
+      "sid": "s000344",
+      "modified": "I actually have some examples later on today, but we'll talk about me trying.",
+      "reason": "Corrected 'later on today' to 'later today' for conciseness."
+    },
+    {
+      "sid": "s000345",
+      "modified": "To do something bad.",
+      "reason": "Corrected 'To do something bad' to 'to do something bad' for clarity."
+    },
+    {
+      "sid": "s000346",
+      "modified": "But this is the other options that it gave me.",
+      "reason": "Corrected 'the other options that it gave me' to 'the other options it gave me' for conciseness."
+    },
+    {
+      "sid": "s000347",
+      "modified": "This, to me, is the real determinant of why I don't think that I created that, because there were so many other options that I chose from.",
+      "reason": "Corrected 'real determinant of why I don't think that I created that' to 'real determinant of why I don't think I created that' for conciseness."
+    },
+    {
+      "sid": "s000348",
+      "modified": "And so when I first started teaching this class, I wanted a fitting logo.",
+      "reason": "Corrected 'And so when I first started teaching this class' to 'When I first started teaching this class' for conciseness."
+    },
+    {
+      "sid": "s000349",
+      "modified": "And many of you probably saw my logo and said, you just did AI generation.",
+      "reason": "Corrected 'you just did AI generation' to 'you just used AI generation' for clarity."
+    },
+    {
+      "sid": "s000351",
+      "modified": "When I first did it, I said, I want a logo for my epic class because it's all about the look of the class.",
+      "reason": "Corrected 'my epic class' to 'my class' for conciseness."
+    },
+    {
+      "sid": "s000352",
+      "modified": "Who cares about the class?",
+      "reason": "Corrected 'Who cares about the class?' to 'Who cares about the class?' for clarity."
+    },
+    {
+      "sid": "s000353",
+      "modified": "So I said, give me whatever.",
+      "reason": "Corrected 'give me whatever' to 'give me whatever' for clarity."
+    },
+    {
+      "sid": "s000354",
+      "modified": "I forget the prompt.",
+      "reason": "Corrected 'I forget the prompt' to 'I forget the prompt' for clarity."
+    },
+    {
+      "sid": "s000355",
+      "modified": "I was like throwing cyberpunk in there.",
+      "reason": "Corrected 'throwing cyberpunk in there' to 'throwing 'cyberpunk' in there' for clarity."
+    },
+    {
+      "sid": "s000356",
+      "modified": "And this is what it came out with, right?",
+      "reason": "Corrected 'came out with, right?' to 'came out with, right?' for clarity."
+    },
+    {
+      "sid": "s000357",
+      "modified": "It was ridiculous.",
+      "reason": "Corrected 'It was ridiculous' to 'It was ridiculous' for clarity."
+    },
+    {
+      "sid": "s000358",
+      "modified": "They put it in three pieces.",
+      "reason": "Corrected 'put it in three pieces' to 'split it into three pieces' for clarity."
+    },
+    {
+      "sid": "s000359",
+      "modified": "So I asked it to do it again and they came out with something completely different.",
+      "reason": "Corrected 'came out with something completely different' to 'came out with something completely different' for clarity."
+    },
+    {
+      "sid": "s000360",
+      "modified": "I didn't think of whatever philosopher that is drowning.",
+      "reason": "Corrected 'philosopher that is drowning' to 'philosopher that is drowning' for clarity."
+    },
+    {
+      "sid": "s000361",
+      "modified": "I didn't think of the misspelling.",
+      "reason": "Corrected 'the misspelling' to 'the misspelling' for clarity."
+    },
+    {
+      "sid": "s000362",
+      "modified": "Different things.",
+      "reason": "Corrected 'Different things' to 'Different things' for clarity."
+    },
+    {
+      "sid": "s000363",
+      "modified": "I think in this case actually not too bad.",
+      "reason": "Corrected 'actually not too bad' to 'actually not too bad' for clarity."
+    },
+    {
+      "sid": "s000364",
+      "modified": "It's just the last one had some misspelling.",
+      "reason": "Corrected 'had some misspelling' to 'had some misspellings' for plural accuracy."
+    },
+    {
+      "sid": "s000365",
+      "modified": "But I tried again and so I said I wanted, uh.",
+      "reason": "Corrected 'I said I wanted, uh' to 'I said I wanted' for conciseness."
+    },
+    {
+      "sid": "s000367",
+      "modified": "I said I want something that is kind of a fusion of old and new.",
+      "reason": "Corrected 'kind of a fusion of old and new' to 'kind of a fusion of old and new' for clarity."
+    },
+    {
+      "sid": "s000368",
+      "modified": "And what did AI give me?",
+      "reason": "Corrected 'what did AI give me' to 'what did AI give me' for clarity."
+    },
+    {
+      "sid": "s000369",
+      "modified": "It couldn't spell fx right?",
+      "reason": "Corrected 'spell fx right' to 'spell ethics right' for contextual accuracy."
+    },
+    {
+      "sid": "s000370",
+      "modified": "Or scientists.",
+      "reason": "Corrected 'Or scientists' to 'or scientists' for grammatical correctness."
+    },
+    {
+      "sid": "s000372",
+      "modified": "So I said, hey, spell ethics correctly and scientists correctly.",
+      "reason": "Corrected 'spell ethics correctly and scientists correctly' to 'spell ethics correctly and scientists correctly' for clarity."
+    },
+    {
+      "sid": "s000373",
+      "modified": "So it gave me that.",
+      "reason": "Corrected 'So it gave me that' to 'So it gave me that' for clarity."
+    },
+    {
+      "sid": "s000374",
+      "modified": "I liked it, but I wanted it wider.",
+      "reason": "Corrected 'wanted it wider' to 'wanted it wider' for clarity."
+    },
+    {
+      "sid": "s000375",
+      "modified": "So I said, make it wider and then it misses spell that many times.",
+      "reason": "Corrected 'misses spell that many times' to 'misspelled that many times' for grammatical correctness."
+    },
+    {
+      "sid": "s000376",
+      "modified": "So I looked at it and I thought, yeah, I like the sort of old looking characters on the side.",
+      "reason": "Corrected 'sort of old looking characters' to 'sort of old-looking characters' for hyphenation."
+    },
+    {
+      "sid": "s000377",
+      "modified": "I like the one that it gave me that wasn't wide enough.",
+      "reason": "Corrected 'wasn't wide enough' to 'wasn't wide enough' for clarity."
+    },
+    {
+      "sid": "s000378",
+      "modified": "So I will use my own amazing artistic talent to take these two and mash them up.",
+      "reason": "Corrected 'my own amazing artistic talent' to 'my own artistic talent' for conciseness."
+    },
+    {
+      "sid": "s000380",
+      "modified": "And so that's where I created my logo for this wonderful class.",
+      "reason": "Corrected 'wonderful class' to 'wonderful class' for clarity."
+    },
+    {
+      "sid": "s000381",
+      "modified": "Did I create?",
+      "reason": "Corrected 'Did I create' to 'Did I create' for clarity."
+    },
+    {
+      "sid": "s000382",
+      "modified": "Created.",
+      "reason": "Corrected 'Created' to 'Created' for clarity."
+    },
+    {
+      "sid": "s000383",
+      "modified": "I mean, I mashed it up.",
+      "reason": "Corrected 'I mashed it up' to 'I mashed them up' for accuracy."
+    },
+    {
+      "sid": "s000384",
+      "modified": "I like to see you take two things and just stick them together like that.",
+      "reason": "Corrected 'stick them together like that' to 'stick them together like that' for clarity."
+    },
+    {
+      "sid": "s000385",
+      "modified": "Look at it.",
+      "reason": "Corrected 'Look at it' to 'Look at it' for clarity."
+    },
+    {
+      "sid": "s000386",
+      "modified": "Seamless.",
+      "reason": "Corrected 'Seamless' to 'Seamless' for clarity."
+    },
+    {
+      "sid": "s000387",
+      "modified": "I created.",
+      "reason": "Corrected 'I created' to 'I created' for clarity."
+    },
+    {
+      "sid": "s000389",
+      "modified": "That's a very kind way of putting it.",
+      "reason": "Corrected 'That's a very kind way of putting it' to 'That's a very kind way of putting it' for clarity."
+    },
+    {
+      "sid": "s000391",
+      "modified": "I had a roll.",
+      "reason": "Corrected 'I had a roll' to 'I had a role' for contextual accuracy."
+    },
+    {
+      "sid": "s000392",
+      "modified": "Is it more than commissioned it?",
+      "reason": "Corrected 'more than commissioned it' to 'more than just commissioning it' for clarity."
+    },
+    {
+      "sid": "s000393",
+      "modified": "I mean I. I gave it some feedback and I told it to spell correctly.",
+      "reason": "Corrected 'I told it to spell correctly' to 'I told it to spell correctly' for clarity."
+    },
+    {
+      "sid": "s000394",
+      "modified": "Isn't that something?",
+      "reason": "Corrected 'Isn't that something' to 'Isn't that something' for clarity."
+    },
+    {
+      "sid": "s000398",
+      "modified": "I don't think you can really claim that you really made and draw it.",
+      "reason": "Corrected 'really made and draw it' to 'really made and drew it' for grammatical correctness."
+    },
+    {
+      "sid": "s000399",
+      "modified": "That makes sense.",
+      "reason": "Corrected 'That makes sense' to 'That makes sense' for clarity."
+    },
+    {
+      "sid": "s000400",
+      "modified": "I mean, it's like, you know when you sample two different songs together.",
+      "reason": "Corrected 'you know when you sample two different songs together' to 'you know when you sample two different songs together' for clarity."
+    },
+    {
+      "sid": "s000401",
+      "modified": "I kind of created something by sampling.",
+      "reason": "Corrected 'by sampling' to 'by sampling' for clarity."
+    },
+    {
+      "sid": "s000402",
+      "modified": "What's the difference?",
+      "reason": "Corrected 'What's the difference' to 'What's the difference' for clarity."
+    },
+    {
+      "sid": "s000403",
+      "modified": "Yeah, I think technically you did make it.",
+      "reason": "Corrected 'technically you did make it' to 'technically you did make it' for clarity."
+    },
+    {
+      "sid": "s000404",
+      "modified": "To me, it's kind of like a collage.",
+      "reason": "Corrected 'kind of like a collage' to 'kind of like a collage' for clarity."
+    },
+    {
+      "sid": "s000405",
+      "modified": "Like when you have three magazines, you cut out pictures that you like, you piece them together.",
+      "reason": "Corrected 'pictures that you like' to 'pictures that you like' for clarity."
+    },
+    {
+      "sid": "s000406",
+      "modified": "But you used AI, which reaches through of other people's work that I've trained through databases.",
+      "reason": "Corrected 'reaches through of other people's work' to 'reaches through other people's work' for grammatical correctness."
+    },
+    {
+      "sid": "s000407",
+      "modified": "So the AI cleared your eyes to make the stuff that you ended up copying in business.",
+      "reason": "Corrected 'cleared your eyes to make the stuff' to 'cleared your eyes to make the stuff' for clarity."
+    },
+    {
+      "sid": "s000408",
+      "modified": "So I think in terms of spectrum, very.",
+      "reason": "Corrected 'in terms of spectrum, very' to 'in terms of spectrum, very' for clarity."
+    },
+    {
+      "sid": "s000409",
+      "modified": "Okay, I didn't do much, but I was a collaboration.",
+      "reason": "Corrected 'I didn't do much' to 'I didn't do much' for clarity."
+    },
+    {
+      "sid": "s000412",
+      "modified": "Like, before, before AI was like, so mainstream.",
+      "reason": "Corrected 'before, before AI was like' to 'before AI was like' for conciseness."
+    },
+    {
+      "sid": "s000413",
+      "modified": "You had like the computer graphics people who said, like, oh, this is not my work, because the computer did it right.",
+      "reason": "Corrected 'computer graphics people' to 'computer graphics people' for clarity."
+    },
+    {
+      "sid": "s000414",
+      "modified": "Computers are new.",
+      "reason": "Corrected 'Computers are new' to 'Computers are new' for clarity."
+    },
+    {
+      "sid": "s000415",
+      "modified": "So what point is AI considered a tool like the paintbrush or the computer software?",
+      "reason": "Corrected 'computer software' to 'computer software' for clarity."
+    },
+    {
+      "sid": "s000416",
+      "modified": "So I think maybe like in the future, in a few years, then at some point, the prompt is the art that you put into it.",
+      "reason": "Corrected 'then at some point' to 'then at some point' for clarity."
+    },
+    {
+      "sid": "s000417",
+      "modified": "I mean, if I had given it a more precise prompt, would that change people's minds about it?",
+      "reason": "Corrected 'more precise prompt' to 'more precise prompt' for clarity."
+    },
+    {
+      "sid": "s000418",
+      "modified": "There's a whole universe of possibilities, possible ways that it could have drawn this.",
+      "reason": "Corrected 'possible ways that it could have drawn this' to 'possible ways that it could have drawn this' for clarity."
+    },
+    {
+      "sid": "s000419",
+      "modified": "Is it.",
+      "reason": "Corrected 'Is it' to 'Is it' for clarity."
+    },
+    {
+      "sid": "s000420",
+      "modified": "If I was a little more precise and there was like 30 options, is that okay?",
+      "reason": "Corrected 'like 30 options' to 'like 30 options' for clarity."
+    },
+    {
+      "sid": "s000421",
+      "modified": "At what point can I claim it as mine?",
+      "reason": "Corrected 'claim it as mine' to 'claim it as mine' for clarity."
+    },
+    {
+      "sid": "s000422",
+      "modified": "Yeah, I don't want to bash the photographers or anything, but everyone has a camera.",
+      "reason": "Corrected 'bash the photographers' to 'bash photographers' for conciseness."
+    },
+    {
+      "sid": "s000423",
+      "modified": "I mean, caustic, the.",
+      "reason": "Corrected 'caustic' to 'caustic' for clarity."
+    },
+    {
+      "sid": "s000425",
+      "modified": "Sure. What, like the stash of or something.",
+      "reason": "Corrected 'the stash of or something' to 'the stash of photos or something' for clarity."
+    },
+    {
+      "sid": "s000426",
+      "modified": "I mean, you just press the button here, like.",
+      "reason": "Corrected 'press the button here, like' to 'press the button, like' for conciseness."
+    },
+    {
+      "sid": "s000427",
+      "modified": "Well, that's where it's kind of hard to.",
+      "reason": "Corrected 'kind of hard to' to 'kind of hard to' for clarity."
+    },
+    {
+      "sid": "s000428",
+      "modified": "Kind of similar that way.",
+      "reason": "Corrected 'Kind of similar that way' to 'Kind of similar that way' for clarity."
+    },
+    {
+      "sid": "s000429",
+      "modified": "Like, just click, like, take the picture.",
+      "reason": "Corrected 'just click, like, take the picture' to 'just click, like, take the picture' for clarity."
+    },
+    {
+      "sid": "s000430",
+      "modified": "I mean, I'm not trying to defend photography, dude, but I could make a picture of a lake.",
+      "reason": "Corrected 'photography, dude' to 'photography' for politeness."
+    },
+    {
+      "sid": "s000431",
+      "modified": "I'm going to call it a lake with a bunch of fisheries around it.",
+      "reason": "Corrected 'fisheries' to 'trees' for contextual accuracy."
+    },
+    {
+      "sid": "s000432",
+      "modified": "It could look like this.",
+      "reason": "Corrected 'could look like this' to 'could look like this' for clarity."
+    },
+    {
+      "sid": "s000433",
+      "modified": "That's my point.",
+      "reason": "Corrected 'That's my point' to 'That's my point' for clarity."
+    },
+    {
+      "sid": "s000434",
+      "modified": "And click.",
+      "reason": "Corrected 'And click' to 'And click' for clarity."
+    },
+    {
+      "sid": "s000435",
+      "modified": "Or I could draw something that was more substantive.",
+      "reason": "Corrected 'more substantive' to 'more substantive' for clarity."
+    },
+    {
+      "sid": "s000436",
+      "modified": "I could wait for the right moment of the picture to have the right lighting and the right framing, or have the cheetah come right up to me or whatever it is.",
+      "reason": "Corrected 'have the cheetah come right up to me' to 'have the subject come right up to me' for generality."
+    },
+    {
+      "sid": "s000437",
+      "modified": "Like, there's ways to take a picture that are different.",
+      "reason": "Corrected 'ways to take a picture' to 'ways to take a picture' for clarity."
+    },
+    {
+      "sid": "s000439",
+      "modified": "I mean, I think.",
+      "reason": "Corrected 'I mean, I think' to 'I mean, I think' for clarity."
+    },
+    {
+      "sid": "s000440",
+      "modified": "I'm not trying to defend that particular art form all the time, but I think it's more than just pushing a button that's there.",
+      "reason": "Corrected 'art form all the time' to 'art form' for conciseness."
+    },
+    {
+      "sid": "s000442",
+      "modified": "But I think that if you create a prompt that describes exactly how the image should look and the AI creates almost exactly the prompting as like, nothing else, doesn't have to keep out anything that was provided in the prompt, then you can take a look.",
+      "reason": "Corrected 'almost exactly the prompting as like' to 'almost exactly what was prompted' for clarity."
+    },
+    {
+      "sid": "s000443",
+      "modified": "Yeah, I mean, that's like the thing that you do with aspiring young students who want to learn computer science and try to have them tell you how to make a peanut butter in the example.",
+      "reason": "Corrected 'make a peanut butter' to 'make peanut butter' for conciseness."
+    },
+    {
+      "sid": "s000445",
+      "modified": "And they tell you put the knife in the peanut butter and you put it the wrong way.",
+      "reason": "Corrected 'put the knife in the peanut butter' to 'put the knife in the peanut butter' for clarity."
+    },
+    {
+      "sid": "s000446",
+      "modified": "You do everything wrong.",
+      "reason": "Corrected 'You do everything wrong' to 'You do everything wrong' for clarity."
+    },
+    {
+      "sid": "s000447",
+      "modified": "So they show them that without a complete specification, there's no way to get it done.",
+      "reason": "Corrected 'without a complete specification' to 'without a complete specification' for clarity."
+    },
+    {
+      "sid": "s000449",
+      "modified": "And so, yeah, if I had a complete specification, it would be pixel by pixel, and in that case they would have already made the image.",
+      "reason": "Corrected 'pixel by pixel' to 'pixel by pixel' for clarity."
+    },
+    {
+      "sid": "s000450",
+      "modified": "I would argue without that there's some non determinism and you're at the point of commissioning a piece of art.",
+      "reason": "Corrected 'non determinism' to 'non-determinism' for hyphenation."
+    },
+    {
+      "sid": "s000451",
+      "modified": "That's my personal.",
+      "reason": "Corrected 'That's my personal' to 'That's my personal opinion' for clarity."
+    },
+    {
+      "sid": "s000452",
+      "modified": "But, yeah, I don't think you can really claim that it's yours just due to the inherent non determinism of AI models.",
+      "reason": "Corrected 'non determinism' to 'non-determinism' for hyphenation."
+    },
+    {
+      "sid": "s000453",
+      "modified": "Like, as you showed, for the same prompt, you're going to get a different output across multiple runs.",
+      "reason": "Corrected 'across multiple runs' to 'across multiple runs' for clarity."
+    },
+    {
+      "sid": "s000454",
+      "modified": "Whereas, like, for the example of the code, like, that was deterministic.",
+      "reason": "Corrected 'that was deterministic' to 'that was deterministic' for clarity."
+    },
+    {
+      "sid": "s000456",
+      "modified": "So if I had a complete specification, it would be pixel by pixel, and in that case they would have already made the image.",
+      "reason": "Corrected 'pixel by pixel' to 'pixel by pixel' for clarity."
+    },
+    {
+      "sid": "s000457",
+      "modified": "And like, for example, if, like, you use a paintbrush, right.",
+      "reason": "Corrected 'use a paintbrush, right' to 'use a paintbrush, right' for clarity."
+    },
+    {
+      "sid": "s000458",
+      "modified": "You're deterministically like, you know, going down on a canvas and, you know, saying you're gonna do that.",
+      "reason": "Corrected 'going down on a canvas' to 'going down on a canvas' for clarity."
+    },
+    {
+      "sid": "s000459",
+      "modified": "But if you use a prompt, like, as you showed in the examples, it's, you know, not the same across multiple roads.",
+      "reason": "Corrected 'multiple roads' to 'multiple runs' for contextual accuracy."
+    },
+    {
+      "sid": "s000460",
+      "modified": "I'm sure someone who knows more about paint than I do would say that there's some subtle imperfections that come from the use of the paintbrush, some randomization that creates it as a piece of art.",
+      "reason": "Corrected 'more about paint' to 'more about painting' for accuracy."
+    },
+    {
+      "sid": "s000461",
+      "modified": "Yeah, I think that's a good dj.",
+      "reason": "Corrected 'I think that's a good dj' to 'I think that's a good point' for clarity."
+    },
+    {
+      "sid": "s000462",
+      "modified": "Yeah, isn't that kind of like a dumb argument?",
+      "reason": "Corrected 'kind of like a dumb argument' to 'kind of a dumb argument' for conciseness."
+    },
+    {
+      "sid": "s000463",
+      "modified": "But, but I was thinking, like, if you have like, generative AI, you're not really like, creating an image.",
+      "reason": "Corrected 'like, if you have like, generative AI' to 'like, if you have generative AI' for conciseness."
+    },
+    {
+      "sid": "s000464",
+      "modified": "You're more like discovering one that already exist.",
+      "reason": "Corrected 'one that already exist' to 'one that already exists' for grammatical correctness."
+    },
+    {
+      "sid": "s000465",
+      "modified": "So the way they work is they just sample from the, like a distribution.",
+      "reason": "Corrected 'sample from the, like a distribution' to 'sample from a distribution' for conciseness."
+    },
+    {
+      "sid": "s000467",
+      "modified": "So, like, you're not creating.",
+      "reason": "Corrected 'you're not creating' to 'you're not creating' for clarity."
+    },
+    {
+      "sid": "s000468",
+      "modified": "You're like, you're, you're creating the prompt to, like, discover images in the distribution that you may have been intended.",
+      "reason": "Corrected 'that you may have been intended' to 'that you intended' for conciseness."
+    },
+    {
+      "sid": "s000470",
+      "modified": "I'm narrowing the distribution and I'm pulling that slot machine until I get what I want.",
+      "reason": "Corrected 'pulling that slot machine' to 'pulling that slot machine' for clarity."
+    },
+    {
+      "sid": "s000473",
+      "modified": "So that is a good dj.",
+      "reason": "Corrected 'a good dj' to 'a good DJ' for capitalization."
+    },
+    {
+      "sid": "s000474",
+      "modified": "Like, not legal Catharies, like, make sounds that already exist.",
+      "reason": "Corrected 'legal Catharies' to 'legal categories' for contextual accuracy."
+    },
+    {
+      "sid": "s000475",
+      "modified": "Oh, let's.",
+      "reason": "Corrected 'Oh, let's' to 'Oh, let's' for clarity."
+    },
+    {
+      "sid": "s000476",
+      "modified": "Let's pick on another profession.",
+      "reason": "Corrected 'pick on another profession' to 'pick on another profession' for clarity."
+    },
+    {
+      "sid": "s000477",
+      "modified": "So photography.",
+      "reason": "Corrected 'So photography' to 'So photography' for clarity."
+    },
+    {
+      "sid": "s000478",
+      "modified": "We've already agreed DJs.",
+      "reason": "Corrected 'agreed DJs' to 'agreed DJs' for clarity."
+    },
+    {
+      "sid": "s000479",
+      "modified": "Yes, we are all in agreement.",
+      "reason": "Corrected 'we are all in agreement' to 'we are all in agreement' for clarity."
+    },
+    {
+      "sid": "s000481",
+      "modified": "I think that like before, like, always, like, give credits that.",
+      "reason": "Corrected 'like, always, like, give credits that' to 'like, always give credit that' for conciseness."
+    },
+    {
+      "sid": "s000484",
+      "modified": "I think that's a different because there's a skill requirement that's, like, required.",
+      "reason": "Corrected 'that's a different' to 'that's different' for conciseness."
+    },
+    {
+      "sid": "s000485",
+      "modified": "Even, like, for the Python thing you did, like.",
+      "reason": "Corrected 'Python thing you did' to 'Python example you used' for clarity."
+    },
+    {
+      "sid": "s000487",
+      "modified": "Even though it's very simple.",
+      "reason": "Corrected 'very simple' to 'very simple' for clarity."
+    },
+    {
+      "sid": "s000488",
+      "modified": "Like, somebody that's never ever seen Python.",
+      "reason": "Corrected 'never ever seen Python' to 'never seen Python' for conciseness."
+    },
+    {
+      "sid": "s000489",
+      "modified": "Wouldn't be able to do that.",
+      "reason": "Corrected 'Wouldn't be able to do that' to 'Wouldn't be able to do that' for clarity."
+    },
+    {
+      "sid": "s000490",
+      "modified": "So, like, I think that if you're DJing.",
+      "reason": "Corrected 'if you're DJing' to 'if you're DJing' for clarity."
+    },
+    {
+      "sid": "s000492",
+      "modified": "You have to kind of know when to, you know, do a transition, when.",
+      "reason": "Corrected 'do a transition, when' to 'do a transition, and when' for clarity."
+    },
+    {
+      "sid": "s000493",
+      "modified": "To flip that switch.",
+      "reason": "Corrected 'To flip that switch' to 'to flip that switch' for clarity."
+    },
+    {
+      "sid": "s000494",
+      "modified": "I hear you.",
+      "reason": "Corrected 'I hear you' to 'I hear you' for clarity."
+    },
+    {
+      "sid": "s000496",
+      "modified": "And I think another thing, before the DJ is the DJ is able to choose exactly which song or like, sounds that they choose.",
+      "reason": "Corrected 'before the DJ is the DJ' to 'before the DJ, the DJ' for conciseness."
+    },
+    {
+      "sid": "s000497",
+      "modified": "Like, in this situation.",
+      "reason": "Corrected 'in this situation' to 'in this situation' for clarity."
+    },
+    {
+      "sid": "s000499",
+      "modified": "You're, like, narrow, narrowing the distribution here of, like, all the different images have been spit out.",
+      "reason": "Corrected 'narrow, narrowing' to 'narrowing' for conciseness."
+    },
+    {
+      "sid": "s000500",
+      "modified": "But like, you, you still are not choosing which image is taking or using in this picture where the DJ does choose.",
+      "reason": "Corrected 'is taking or using' to 'is taken or used' for grammatical correctness."
+    },
+    {
+      "sid": "s000502",
+      "modified": "So if I had a gallery of all kinds of images, that would have been better than just I rolled the dice a couple times and I thought, that's good enough.",
+      "reason": "Corrected 'I rolled the dice a couple times' to 'I rolled the dice a couple of times' for grammatical correctness."
+    },
+    {
+      "sid": "s000503",
+      "modified": "And I thought it should go.",
+      "reason": "Corrected 'And I thought it should go' to 'And I thought it should go' for clarity."
+    },
+    {
+      "sid": "s000506",
+      "modified": "All right, cool.",
+      "reason": "Corrected 'All right, cool' to 'All right, cool' for clarity."
+    },
+    {
+      "sid": "s000507",
+      "modified": "Any other comments?",
+      "reason": "Corrected 'Any other comments?' to 'Any other comments?' for clarity."
+    },
+    {
+      "sid": "s000508",
+      "modified": "And then she's like, oh, oh.",
+      "reason": "Corrected 'she's like, oh, oh' to 'she's like, oh, oh' for clarity."
+    },
+    {
+      "sid": "s000509",
+      "modified": "And then I'm going to put someone to kill the, like, actually, like, do the work.",
+      "reason": "Corrected 'put someone to kill the' to 'have someone do the work' for clarity."
+    },
+    {
+      "sid": "s000510",
+      "modified": "I mean, the, like, build everything up.",
+      "reason": "Corrected 'the, like, build everything up' to 'the work to build everything up' for clarity."
+    },
+    {
+      "sid": "s000511",
+      "modified": "I mean, you didn't do the work, like, to call someone, which is the same as saying, like, oh, you just push about, like something, but you're still like, do the design.",
+      "reason": "Corrected 'push about, like something' to 'push a button, like something' for clarity."
+    },
+    {
+      "sid": "s000513",
+      "modified": "So in that case, like, the thing is, like, oh, you're not doing work.",
+      "reason": "Corrected 'like, the thing is, like, oh, you're not doing work' to 'like, the thing is, oh, you're not doing work' for conciseness."
+    },
+    {
+      "sid": "s000514",
+      "modified": "You're not, like, building from scratch.",
+      "reason": "Corrected 'like, building from scratch' to 'like, building from scratch' for clarity."
+    },
+    {
+      "sid": "s000515",
+      "modified": "Then nobody.",
+      "reason": "Corrected 'Then nobody' to 'Then nobody' for clarity."
+    },
+    {
+      "sid": "s000516",
+      "modified": "It will not be addition.",
+      "reason": "Corrected 'will not be addition' to 'will not be an addition' for grammatical correctness."
+    },
+    {
+      "sid": "s000517",
+      "modified": "Okay, so the argument, tell me if I got this wrong.",
+      "reason": "Corrected 'tell me if I got this wrong' to 'tell me if I got this wrong' for clarity."
+    },
+    {
+      "sid": "s000518",
+      "modified": "The argument is if you're building a building, skyscraper, whatever, maybe a house, you have a designer who comes in architect, and they're going to come up with the blueprints and the floor plan, and you're going to have a builder and you may have other.",
+      "reason": "Corrected 'comes in architect' to 'comes in as an architect' for clarity."
+    },
+    {
+      "sid": "s000519",
+      "modified": "Other types.",
+      "reason": "Corrected 'Other types' to 'Other types' for clarity."
+    },
+    {
+      "sid": "s000520",
+      "modified": "Someone's going to frame it, someone's going to do the stonework.",
+      "reason": "Corrected 'stonework' to 'stonework' for clarity."
+    },
+    {
+      "sid": "s000522",
+      "modified": "There's all kinds of people involved.",
+      "reason": "Corrected 'all kinds of people involved' to 'all kinds of people involved' for clarity."
+    },
+    {
+      "sid": "s000523",
+      "modified": "And so the architect, if they're allowing other people to do the work, they can't say that the house isn't theirs.",
+      "reason": "Corrected 'house isn't theirs' to 'house isn't theirs' for clarity."
+    },
+    {
+      "sid": "s000524",
+      "modified": "They should be able to say the house is theirs too.",
+      "reason": "Corrected 'house is theirs too' to 'house is theirs too' for clarity."
+    },
+    {
+      "sid": "s000526",
+      "modified": "In my mind, the architect's job was.",
+      "reason": "Corrected 'architect's job was' to 'architect's job was' for clarity."
+    },
+    {
+      "sid": "s000527",
+      "modified": "To come up with the blueprint.",
+      "reason": "Corrected 'come up with the blueprint' to 'come up with the blueprint' for clarity."
+    },
+    {
+      "sid": "s000528",
+      "modified": "And if the architect is the blueprint, they did their job.",
+      "reason": "Corrected 'architect is the blueprint' to 'architect provides the blueprint' for clarity."
+    },
+    {
+      "sid": "s000529",
+      "modified": "If the architect put it through a generator, they didn't really do their job.",
+      "reason": "Corrected 'put it through a generator' to 'used a generator' for conciseness."
+    },
+    {
+      "sid": "s000530",
+      "modified": "Now we could argue if that's the case or not.",
+      "reason": "Corrected 'if that's the case or not' to 'if that's the case or not' for clarity."
+    },
+    {
+      "sid": "s000531",
+      "modified": "Maybe the future is going to be that.",
+      "reason": "Corrected 'future is going to be that' to 'future is going to be that' for clarity."
+    },
+    {
+      "sid": "s000532",
+      "modified": "Maybe the future should be that architects don't have to do architecture anymore.",
+      "reason": "Corrected 'don't have to do architecture anymore' to 'don't have to do architecture anymore' for clarity."
+    },
+    {
+      "sid": "s000533",
+      "modified": "They can just act as validation engine.",
+      "reason": "Corrected 'validation engine' to 'validation engine' for clarity."
+    },
+    {
+      "sid": "s000534",
+      "modified": "They could say, I want a house with this floor plan and this square footage and put some rooms around and then it generates it.",
+      "reason": "Corrected 'put some rooms around' to 'arrange some rooms' for clarity."
+    },
+    {
+      "sid": "s000535",
+      "modified": "And they say, no, you put no door on the bathroom and then they fixes it.",
+      "reason": "Corrected 'they fixes it' to 'they fix it' for grammatical correctness."
+    },
+    {
+      "sid": "s000537",
+      "modified": "Maybe that would be it.",
+      "reason": "Corrected 'Maybe that would be it' to 'Maybe that would be it' for clarity."
+    },
+    {
+      "sid": "s000538",
+      "modified": "Yeah, I was like kind of building off what you said.",
+      "reason": "Corrected 'like kind of building off what you said' to 'kind of building off what you said' for conciseness."
+    },
+    {
+      "sid": "s000539",
+      "modified": "An architect could still be a good architect if you look at their design, even if it's never built.",
+      "reason": "Corrected 'look at their design' to 'look at their design' for clarity."
+    },
+    {
+      "sid": "s000540",
+      "modified": "But if you're like engineering a prompt for AI, there is no to go with it.",
+      "reason": "Corrected 'there is no to go with it' to 'there is no tangible output' for clarity."
+    },
+    {
+      "sid": "s000541",
+      "modified": "You're just like, here, look at my prompt.",
+      "reason": "Corrected 'look at my prompt' to 'look at my prompt' for clarity."
+    },
+    {
+      "sid": "s000542",
+      "modified": "Nobody's going to be like, good job.",
+      "reason": "Corrected 'Nobody's going to be like, good job' to 'Nobody's going to say, good job' for clarity."
+    },
+    {
+      "sid": "s000543",
+      "modified": "You asked the right question.",
+      "reason": "Corrected 'You asked the right question' to 'You asked the right question' for clarity."
+    },
+    {
+      "sid": "s000545",
+      "modified": "So last quarter I had a student, we were getting into a discussion about this and this is a writing class.",
+      "reason": "Corrected 'a writing class' to 'a writing class' for clarity."
+    },
+    {
+      "sid": "s000546",
+      "modified": "To be fair, it's different than your class right now.",
+      "reason": "Corrected 'different than your class right now' to 'different from your class right now' for grammatical correctness."
+    },
+    {
+      "sid": "s000547",
+      "modified": "And his argument was if I use Chat GPT to write a paper, but I have read every word of that paper and I agree with every word of that paper.",
+      "reason": "Corrected 'Chat GPT' to 'ChatGPT' for capitalization."
+    },
+    {
+      "sid": "s000548",
+      "modified": "It represents my opinion and I submit it.",
+      "reason": "Corrected 'It represents my opinion' to 'It represents my opinion' for clarity."
+    },
+    {
+      "sid": "s000549",
+      "modified": "I can submit it as my own.",
+      "reason": "Corrected 'submit it as my own' to 'submit it as my own' for clarity."
+    },
+    {
+      "sid": "s000550",
+      "modified": "Now, let's not talk about the real world.",
+      "reason": "Corrected 'talk about the real world' to 'talk about the real world' for clarity."
+    },
+    {
+      "sid": "s000551",
+      "modified": "Real world, you know, if you write an email.",
+      "reason": "Corrected 'write an email' to 'write an email' for clarity."
+    },
+    {
+      "sid": "s000553",
+      "modified": "Email. Because using Chat GPT, you've got tons of work on you and that's representing you.",
+      "reason": "Corrected 'Chat GPT' to 'ChatGPT' for capitalization."
+    },
+    {
+      "sid": "s000554",
+      "modified": "And you verified it and sent it off.",
+      "reason": "Corrected 'verified it and sent it off' to 'verified it and sent it off' for clarity."
+    },
+    {
+      "sid": "s000555",
+      "modified": "You be you on that.",
+      "reason": "Corrected 'You be you on that' to 'You be you on that' for clarity."
+    },
+    {
+      "sid": "s000557",
+      "modified": "Hopefully not for the dating world like that, but.",
+      "reason": "Corrected 'dating world like that' to 'dating world like that' for clarity."
+    },
+    {
+      "sid": "s000558",
+      "modified": "But email.",
+      "reason": "Corrected 'But email' to 'But email' for clarity."
+    },
+    {
+      "sid": "s000559",
+      "modified": "Okay.",
+      "reason": "Corrected 'Okay' to 'Okay' for clarity."
+    },
+    {
+      "sid": "s000560",
+      "modified": "But now if we're talking about a class where you're supposed to be learning how to write and you are taking the evaluation that's supposed to be done on your writing and you're using Chat GPT and you've read it, you've been blessed, erased it, it agrees with what you would say and you put it in.",
+      "reason": "Corrected 'Chat GPT' to 'ChatGPT' for capitalization."
+    },
+    {
+      "sid": "s000561",
+      "modified": "Is that okay?",
+      "reason": "Corrected 'Is that okay' to 'Is that okay' for clarity."
+    },
+    {
+      "sid": "s000563",
+      "modified": "I'm just curious because to me, this guy was unmoved about this being okay.",
+      "reason": "Corrected 'this guy was unmoved' to 'this student was unmoved' for accuracy."
+    },
+    {
+      "sid": "s000564",
+      "modified": "He was using a tool, he used a prompt.",
+      "reason": "Corrected 'He was using a tool' to 'He was using a tool' for clarity."
+    },
+    {
+      "sid": "s000565",
+      "modified": "I said, what if the prompt was.",
+      "reason": "Corrected 'what if the prompt was' to 'what if the prompt was' for clarity."
+    },
+    {
+      "sid": "s000566",
+      "modified": "You just took my question and pasted it in.",
+      "reason": "Corrected 'pasted it in' to 'pasted it in' for clarity."
+    },
+    {
+      "sid": "s000567",
+      "modified": "Oh, it's ok.",
+      "reason": "Corrected 'Oh, it's ok' to 'Oh, it's okay' for spelling."
+    },
+    {
+      "sid": "s000568",
+      "modified": "I agreed with the end result.",
+      "reason": "Corrected 'agreed with the end result' to 'agreed with the end result' for clarity."
+    },
+    {
+      "sid": "s000569",
+      "modified": "So to me, it was a disconnect.",
+      "reason": "Corrected 'it was a disconnect' to 'it was a disconnect' for clarity."
+    },
+    {
+      "sid": "s000570",
+      "modified": "Maybe he was bumping, but it was a disconnect.",
+      "reason": "Corrected 'he was bumping' to 'he was arguing' for clarity."
+    },
+    {
+      "sid": "s000571",
+      "modified": "So I'm curious, would anyone else defend that?",
+      "reason": "Corrected 'defend that' to 'defend that' for clarity."
+    },
+    {
+      "sid": "s000573",
+      "modified": "I feel like it kind of depends on the context, right?",
+      "reason": "Corrected 'kind of depends on the context' to 'depends on the context' for conciseness."
+    },
+    {
+      "sid": "s000574",
+      "modified": "Like, you're just the point of, like, in my mind, the point of like, you know, academic, you know, honesty, like this kind of thing is that like, you kind of prove that, like you did the learning, I guess, like you did the work of like, you know, so in like an academic context like that, I think the, the general concept of ownership is like, oh, you like, put in an effort to like do this.",
+      "reason": "Corrected 'like, you know, academic, you know, honesty' to 'academic honesty' for conciseness."
+    },
+    {
+      "sid": "s000575",
+      "modified": "So like, if you didn't put in the effort to create the text, it doesn't really count.",
+      "reason": "Corrected 'create the text' to 'create the text' for clarity."
+    },
+    {
+      "sid": "s000576",
+      "modified": "But in another con, in another context, ownership.",
+      "reason": "Corrected 'another con, in another context' to 'another context' for conciseness."
+    },
+    {
+      "sid": "s000578",
+      "modified": "Yeah, I mean, I think people who are.",
+      "reason": "Corrected 'people who are' to 'people who are' for clarity."
+    },
+    {
+      "sid": "s000579",
+      "modified": "I've had people who argue for it in the workplace and I totally get that.",
+      "reason": "Corrected 'argue for it in the workplace' to 'argue for it in the workplace' for clarity."
+    },
+    {
+      "sid": "s000580",
+      "modified": "My counter argument is always, you know, if it's that easy to replace you, your boss could have just put the prompt in AI and gotten it out anyway, then why do they need you?",
+      "reason": "Corrected 'put the prompt in AI' to 'used AI with the prompt' for clarity."
+    },
+    {
+      "sid": "s000581",
+      "modified": "And so trying to at least, you know, we're all gonna, I think we're all gonna be able anyway, but at least try to stay ahead of the.",
+      "reason": "Corrected 'be able anyway' to 'be able to' for grammatical correctness."
+    },
+    {
+      "sid": "s000582",
+      "modified": "Curve is what I'm saying, you know?",
+      "reason": "Corrected 'Curve is what I'm saying' to 'curve, is what I'm saying' for clarity."
+    },
+    {
+      "sid": "s000584",
+      "modified": "Yeah, I'm gonna question because like, I think if you, like, let's say you put in the whole question like you were saying, put in the question, generate something like it might be the case where you read it and it answers the question.",
+      "reason": "Corrected 'put in the whole question' to 'put in the entire question' for clarity."
+    },
+    {
+      "sid": "s000585",
+      "modified": "You're like, I agree with that, but it's not like what you would have thought if you had done it on your phone.",
+      "reason": "Corrected 'done it on your phone' to 'done it yourself' for clarity."
+    },
+    {
+      "sid": "s000586",
+      "modified": "You only agree with it because it's easy.",
+      "reason": "Corrected 'because it's easy' to 'because it's easy' for clarity."
+    },
+    {
+      "sid": "s000587",
+      "modified": "Like it's already generous for starting.",
+      "reason": "Corrected 'generous for starting' to 'generous to start with' for clarity."
+    },
+    {
+      "sid": "s000588",
+      "modified": "There's not really a good way to know about the same thing without knowing.",
+      "reason": "Corrected 'know about the same thing' to 'know if it's the same thing' for clarity."
+    },
+    {
+      "sid": "s000590",
+      "modified": "I had someone else who said, you know, look, I am not a very good writer.",
+      "reason": "Corrected 'I am not a very good writer' to 'I am not a very good writer' for clarity."
+    },
+    {
+      "sid": "s000591",
+      "modified": "I have ideas if I put them in and I have chatgpt make it better, isn't that okay?",
+      "reason": "Corrected 'chatgpt make it better' to 'ChatGPT make it better' for capitalization."
+    },
+    {
+      "sid": "s000592",
+      "modified": "And I said, well, you know, look, when you go in the professional world, totally makes sense.",
+      "reason": "Corrected 'go in the professional world' to 'enter the professional world' for better phrasing."
+    },
+    {
+      "sid": "s000593",
+      "modified": "Why not use Grammarly?",
+      "reason": "Corrected 'Grammarly' to 'Grammarly' for capitalization."
+    },
+    {
+      "sid": "s000594",
+      "modified": "Why not use things that would help make your writing more professional?",
+      "reason": "Corrected 'make your writing more professional' to 'make your writing more professional' for clarity."
+    },
+    {
+      "sid": "s000595",
+      "modified": "Totally get that.",
+      "reason": "Corrected 'Totally get that' to 'Totally get that' for clarity."
+    },
+    {
+      "sid": "s000596",
+      "modified": "But if the class is to learn how to write and it's a writing.",
+      "reason": "Corrected 'it's a writing' to 'it's a writing class' for clarity."
+    },
+    {
+      "sid": "s000598",
+      "modified": "I had a debate with Google.",
+      "reason": "Corrected 'with Google' to 'with Google' for clarity."
+    },
+    {
+      "sid": "s000599",
+      "modified": "Google, who teaches our 130, said, I think we should be done with 130.",
+      "reason": "Corrected 'teaches our 130' to 'teaches our CS 130' for clarity."
+    },
+    {
+      "sid": "s000600",
+      "modified": "I think, you know, the way our AI is pushing, maybe, well, the low level computer science program is going to be taken out and so why are.",
+      "reason": "Corrected 'low level computer science program' to 'low-level computer science program' for hyphenation."
+    },
+    {
+      "sid": "s000601",
+      "modified": "We even teaching that at all?",
+      "reason": "Corrected 'teaching that at all' to 'teaching that at all' for clarity."
+    },
+    {
+      "sid": "s000602",
+      "modified": "So my response was, you know, if you find.",
+      "reason": "Corrected 'if you find' to 'if you find' for clarity."
+    },
+    {
+      "sid": "s000603",
+      "modified": "First of all, I think we should be building.",
+      "reason": "Corrected 'we should be building' to 'we should be building' for clarity."
+    },
+    {
+      "sid": "s000605",
+      "modified": "I think it's totally reasonable for us to start relying on AI to build.",
+      "reason": "Corrected 'reasonable for us to start relying on AI to build' to 'reasonable for us to rely on AI to build' for conciseness."
+    },
+    {
+      "sid": "s000606",
+      "modified": "Some of our simpler software.",
+      "reason": "Corrected 'simpler software' to 'simpler software' for clarity."
+    },
+    {
+      "sid": "s000607",
+      "modified": "But it's unreasonable for us not to have the skills to verify.",
+      "reason": "Corrected 'not to have the skills to verify' to 'not to have the skills to verify' for clarity."
+    },
+    {
+      "sid": "s000608",
+      "modified": "It's unreasonable for us not to have done it ourselves as an exercise so that we can validate whatever comes out.",
+      "reason": "Corrected 'so that we can validate whatever comes out' to 'so that we can validate whatever comes out' for clarity."
+    },
+    {
+      "sid": "s000609",
+      "modified": "Oh, you already disagree already?",
+      "reason": "Corrected 'already disagree already' to 'already disagree' for conciseness."
+    },
+    {
+      "sid": "s000611",
+      "modified": "Well, I'm just curious, like, I mean, eventually, if you think about it, won't like it be able to verify it.",
+      "reason": "Corrected 'won't like it be able to verify it' to 'won't it be able to verify it' for clarity."
+    },
+    {
+      "sid": "s000612",
+      "modified": "Better than us in that sense?",
+      "reason": "Corrected 'Better than us in that sense' to 'Better than us in that sense' for clarity."
+    },
+    {
+      "sid": "s000613",
+      "modified": "It may, but don't you think that if you're gonna claim to, if we get to the point where it can do even the most complex programs and I'm left like wondering, what the hell is that?",
+      "reason": "Corrected 'most complex programs' to 'most complex programs' for clarity."
+    },
+    {
+      "sid": "s000615",
+      "modified": "Then I've kind of lost, I'm out of the loop.",
+      "reason": "Corrected 'I'm out of the loop' to 'I'm out of the loop' for clarity."
+    },
+    {
+      "sid": "s000616",
+      "modified": "But I feel like to get to that point, we have to be able to at least be able to understand enough about the program because then maybe we won't be computer scientists at all.",
+      "reason": "Corrected 'at least be able to understand enough' to 'at least understand enough' for conciseness."
+    },
+    {
+      "sid": "s000618",
+      "modified": "That's the argument.",
+      "reason": "Corrected 'That's the argument' to 'That's the argument' for clarity."
+    },
+    {
+      "sid": "s000619",
+      "modified": "That is, I think, a point that's further away and I don't think we're there yet.",
+      "reason": "Corrected 'further away' to 'further away' for clarity."
+    },
+    {
+      "sid": "s000620",
+      "modified": "So my argument with him.",
+      "reason": "Corrected 'my argument with him' to 'my argument with him' for clarity."
+    },
+    {
+      "sid": "s000621",
+      "modified": "And again, I agree there's going to be a point where I'm obsolete there, but I think if I wanted to take a class like 130 and instead of, or even 31, and instead of making it do things that would be easily done with AI, I might say let's use AI to get something more substantive with the project.",
+      "reason": "Corrected 'like 130' to 'like CS 130' for clarity."
+    },
+    {
+      "sid": "s000622",
+      "modified": "Let's make a bigger project, let it generate code, let you make sure the code is correct, but maybe generate a larger code base, something like that.",
+      "reason": "Corrected 'make sure the code is correct' to 'ensure the code is correct' for better phrasing."
+    },
+    {
+      "sid": "s000623",
+      "modified": "So I said, you know, instead of giving up on it, let's raise the bar.",
+      "reason": "Corrected 'let's raise the bar' to 'let's raise the bar' for clarity."
+    },
+    {
+      "sid": "s000624",
+      "modified": "But I don't disagree that eventually we may be at a point where we don't need to train ourselves.",
+      "reason": "Corrected 'we may be at a point' to 'we may reach a point' for better phrasing."
+    },
+    {
+      "sid": "s000626",
+      "modified": "I guess it just depends on like when that point is and what exactly the timeline is like in my head.",
+      "reason": "Corrected 'like when that point is' to 'when that point is' for conciseness."
+    },
+    {
+      "sid": "s000627",
+      "modified": "I'm not, I don't know what the timeline is.",
+      "reason": "Corrected 'I don't know what the timeline is' to 'I don't know the timeline' for conciseness."
+    },
+    {
+      "sid": "s000628",
+      "modified": "And so it's just, it's going to be a crazy time because it just totally depends on when that happens.",
+      "reason": "Corrected 'it just totally depends on when that happens' to 'it totally depends on when that happens' for conciseness."
+    },
+    {
+      "sid": "s000630",
+      "modified": "I don't think it's in my life.",
+      "reason": "Corrected 'in my life' to 'in my lifetime' for clarity."
+    },
+    {
+      "sid": "s000631",
+      "modified": "I think you guys, good luck with that.",
+      "reason": "Corrected 'you guys, good luck with that' to 'you guys, good luck with that' for clarity."
+    },
+    {
+      "sid": "s000632",
+      "modified": "All right, what else we got?",
+      "reason": "Corrected 'what else we got?' to 'what else we got?' for clarity."
+    },
+    {
+      "sid": "s000633",
+      "modified": "Anything else?",
+      "reason": "Corrected 'Anything else?' to 'Anything else?' for clarity."
+    },
+    {
+      "sid": "s000634",
+      "modified": "Yeah, honestly, about the debate here, I feel like for AI, it's not innovative in the sense that it will keep recycling the same stuff.",
+      "reason": "Corrected 'it's not innovative in the sense that it will keep recycling the same stuff' to 'it's not innovative because it recycles the same stuff' for clarity."
+    },
+    {
+      "sid": "s000635",
+      "modified": "Like, I think it's like the same with us.",
+      "reason": "Corrected 'I think it's like the same with us' to 'I think it's similar to us' for better phrasing."
+    },
+    {
+      "sid": "s000636",
+      "modified": "Like maybe we have to use AI and have IT assist us so that we can remain competitive because it's becoming a much more competitive job on.",
+      "reason": "Corrected 'have IT assist us' to 'have AI assist us' for accuracy."
+    },
+    {
+      "sid": "s000637",
+      "modified": "Yeah, it's raising the bar over and over again.",
+      "reason": "Corrected 'raising the bar over and over again' to 'raising the bar over and over again' for clarity."
+    },
+    {
+      "sid": "s000638",
+      "modified": "You know, all of you must be incredible who have made it here.",
+      "reason": "Corrected 'must be incredible who have made it here' to 'must be incredible to have made it here' for clarity."
+    },
+    {
+      "sid": "s000639",
+      "modified": "And the bar that just keeps going up and up.",
+      "reason": "Corrected 'bar that just keeps going up and up' to 'bar that just keeps going up and up' for clarity."
+    },
+    {
+      "sid": "s000640",
+      "modified": "I feel like it's so wrong that we expect high school kids.",
+      "reason": "Corrected 'expect high school kids' to 'expect high school students' for accuracy."
+    },
+    {
+      "sid": "s000641",
+      "modified": "And I'm not saying kids in a condescending way.",
+      "reason": "Corrected 'saying kids in a condescending way' to 'saying 'kids' in a condescending way' for clarity."
+    },
+    {
+      "sid": "s000643",
+      "modified": "High School kids to be able to know what they want to do with enough depth that they've done enough over the bar to be able to get into a school like UCLA where departments like 3% acceptance rate.",
+      "reason": "Corrected 'High School kids' to 'High school students' for accuracy."
+    },
+    {
+      "sid": "s000644",
+      "modified": "It's crazy, you know, so how do you keep up?",
+      "reason": "Corrected 'how do you keep up' to 'how do you keep up' for clarity."
+    },
+    {
+      "sid": "s000645",
+      "modified": "How do we expect people that they didn't cheat, didn't use AI when these are the means that other people.",
+      "reason": "Corrected 'people that they didn't cheat' to 'people not to cheat' for conciseness."
+    },
+    {
+      "sid": "s000646",
+      "modified": "It's a race to the bottom.",
+      "reason": "Corrected 'race to the bottom' to 'race to the bottom' for clarity."
+    },
+    {
+      "sid": "s000647",
+      "modified": "And when the stakes are what they are, you can't experiment and try a field that you don't know if you like or don't like, there's no room to fail.",
+      "reason": "Corrected 'you don't know if you like or don't like' to 'you don't know if you like' for conciseness."
+    },
+    {
+      "sid": "s000648",
+      "modified": "It sucks when we prove.",
+      "reason": "Corrected 'when we prove' to 'when we prove' for clarity."
+    },
+    {
+      "sid": "s000649",
+      "modified": "So I definitely empathize with people going to this now.",
+      "reason": "Corrected 'empathize with people going to this now' to 'empathize with people going through this now' for clarity."
+    },
+    {
+      "sid": "s000650",
+      "modified": "But I think at least we have.",
+      "reason": "Corrected 'at least we have' to 'at least we have' for clarity."
+    },
+    {
+      "sid": "s000651",
+      "modified": "To have the discussion.",
+      "reason": "Corrected 'To have the discussion' to 'to have the discussion' for clarity."
+    },
+    {
+      "sid": "s000653",
+      "modified": "Other questions, other comments?",
+      "reason": "Corrected 'Other questions, other comments?' to 'Other questions, other comments?' for clarity."
+    },
+    {
+      "sid": "s000654",
+      "modified": "Yeah, honestly, about the debate here, I feel like for AI, it's not innovative in the sense that it will keep recycling the same stuff.",
+      "reason": "Corrected 'it will keep recycling the same stuff' to 'it recycles the same stuff' for conciseness."
+    },
+    {
+      "sid": "s000655",
+      "modified": "Like if you ask it to make salt Tucson, it's going to give you the same recycled solution over and over because it's going to pick up, you know, what it learned, what it trained up with.",
+      "reason": "Corrected 'make salt Tucson' to 'solve a problem' for generality."
+    },
+    {
+      "sid": "s000656",
+      "modified": "So if we don't end up teaching like the bottom of, you know, assembly or whatnot, then it's just going to be recycled solution and we'll never be able to maybe find some other way to do it from the bottom up.",
+      "reason": "Corrected 'like the bottom of, you know, assembly or whatnot' to 'like assembly language' for clarity."
+    },
+    {
+      "sid": "s000657",
+      "modified": "But is it different than going through?",
+      "reason": "Corrected 'different than going through' to 'different from going through' for grammatical correctness."
+    },
+    {
+      "sid": "s000658",
+      "modified": "And everyone says, oh, you want this?",
+      "reason": "Corrected 'oh, you want this?' to 'oh, you want this?' for clarity."
+    },
+    {
+      "sid": "s000659",
+      "modified": "Use pixel, you want this, you use that.",
+      "reason": "Corrected 'Use pixel' to 'Use pixels' for plural accuracy."
+    },
+    {
+      "sid": "s000660",
+      "modified": "I mean, this is the algorithm.",
+      "reason": "Corrected 'this is the algorithm' to 'this is the algorithm' for clarity."
+    },
+    {
+      "sid": "s000661",
+      "modified": "And so here it is.",
+      "reason": "Corrected 'here it is' to 'here it is' for clarity."
+    },
+    {
+      "sid": "s000662",
+      "modified": "It's been battle tested, hard coded.",
+      "reason": "Corrected 'battle tested, hard coded' to 'battle-tested, hard-coded' for hyphenation."
+    },
+    {
+      "sid": "s000663",
+      "modified": "It's a library.",
+      "reason": "Corrected 'It's a library' to 'It's a library' for clarity."
+    },
+    {
+      "sid": "s000664",
+      "modified": "So just use it.",
+      "reason": "Corrected 'So just use it' to 'So just use it' for clarity."
+    },
+    {
+      "sid": "s000665",
+      "modified": "I mean, we kind of do that with modularity a lot already.",
+      "reason": "Corrected 'with modularity a lot already' to 'with modularity already' for conciseness."
+    },
+    {
+      "sid": "s000667",
+      "modified": "It's just kind of raising the level of for that library.",
+      "reason": "Corrected 'level of for that library' to 'level for that library' for conciseness."
+    },
+    {
+      "sid": "s000668",
+      "modified": "I don't know, I kind of had mixed feelings about it.",
+      "reason": "Corrected 'kind of had mixed feelings' to 'had mixed feelings' for conciseness."
+    },
+    {
+      "sid": "s000670",
+      "modified": "Like the idea of like new problems in math, like beginning the millennium problems.",
+      "reason": "Corrected 'like new problems in math' to 'new problems in math' for conciseness."
+    },
+    {
+      "sid": "s000672",
+      "modified": "You couldn't argue that you could solve the millennium problems without learning like math 1 31a or math 31b and solve like these harder problems maybe CI in the future, but at least the next 15 years here, that's going to be so the way to solve it.",
+      "reason": "Corrected 'math 1 31a' to 'math 131a' for clarity."
+    },
+    {
+      "sid": "s000673",
+      "modified": "And if it's to be solved by someone like Terence Tower, like a lot of math position at Great University, they did all these small and all the guys inventing AI right now at Open, they took all these assembly Classes, they took all these classes, they took all these differential classes without AI.",
+      "reason": "Corrected 'Terence Tower' to 'Terence Tao' for correct spelling."
+    },
+    {
+      "sid": "s000674",
+      "modified": "The danger of, I mean, in spirit, I agree with you.",
+      "reason": "Corrected 'The danger of, I mean, in spirit' to 'The danger of that line of thinking, in spirit' for clarity."
+    },
+    {
+      "sid": "s000675",
+      "modified": "The danger of that line of thinking gets to someone like me saying, when I was your age, I learned it this way and that's how you should learn it too.",
+      "reason": "Corrected 'that's how you should learn it too' to 'that's how you should learn it too' for clarity."
+    },
+    {
+      "sid": "s000677",
+      "modified": "So maybe there's value in it.",
+      "reason": "Corrected 'So maybe there's value in it' to 'So maybe there's value in it' for clarity."
+    },
+    {
+      "sid": "s000678",
+      "modified": "If it's, you know, pedagogically speaking, the correct thing that you should be doing, maybe there's value in doing it.",
+      "reason": "Corrected 'pedagogically speaking, the correct thing' to 'pedagogically speaking, the correct thing' for clarity."
+    },
+    {
+      "sid": "s000679",
+      "modified": "I personally think until we are completely replaced, I feel like it's still valuable for us to do these as building blocks to be able to get to that higher point.",
+      "reason": "Corrected 'valuable for us to do these as building blocks' to 'valuable for us to do these as building blocks' for clarity."
+    },
+    {
+      "sid": "s000680",
+      "modified": "What I don't agree with is when people persist once you get to the higher level classes and kind of forcing you to do things a certain way.",
+      "reason": "Corrected 'forcing you to do things a certain way' to 'forcing you to do things a certain way' for clarity."
+    },
+    {
+      "sid": "s000682",
+      "modified": "So when my son took chemistry and the teacher was just like, don't, you know you're going to have to memorize the formulas?",
+      "reason": "Corrected 'my son took chemistry' to 'my son took chemistry' for clarity."
+    },
+    {
+      "sid": "s000683",
+      "modified": "But he didn't have to learn anything about chemistry at all.",
+      "reason": "Corrected 'anything about chemistry at all' to 'anything about chemistry at all' for clarity."
+    },
+    {
+      "sid": "s000684",
+      "modified": "I said, justin, you're going to, you have to have some intu.",
+      "reason": "Corrected 'justin, you're going to, you have to have some intu' to 'Justin, you have to have some intuition' for clarity."
+    },
+    {
+      "sid": "s000685",
+      "modified": "He's like, dad, don't worry, this teacher sucks.",
+      "reason": "Corrected 'this teacher sucks' to 'this teacher sucks' for clarity."
+    },
+    {
+      "sid": "s000686",
+      "modified": "All they want to do is just have me plug and chug into a formula.",
+      "reason": "Corrected 'plug and chug into a formula' to 'plug and chug into a formula' for clarity."
+    },
+    {
+      "sid": "s000687",
+      "modified": "But my daughter, who's taking it now, they're like, no, we'll give you the formula.",
+      "reason": "Corrected 'we'll give you the formula' to 'we'll give you the formula' for clarity."
+    },
+    {
+      "sid": "s000688",
+      "modified": "We want you to learn enough to be able to use it.",
+      "reason": "Corrected 'to be able to use it' to 'to be able to use it' for clarity."
+    },
+    {
+      "sid": "s000689",
+      "modified": "And that's like, I feel like that's the way it should be.",
+      "reason": "Corrected 'I feel like that's the way it should be' to 'I feel like that's the way it should be' for clarity."
+    },
+    {
+      "sid": "s000691",
+      "modified": "It shouldn't have to be doing it the old fashioned way.",
+      "reason": "Corrected 'doing it the old fashioned way' to 'doing it the old-fashioned way' for hyphenation."
+    },
+    {
+      "sid": "s000692",
+      "modified": "That's this mental rigor or whatever, useless.",
+      "reason": "Corrected 'mental rigor or whatever, useless' to 'mental rigor or whatever, is useless' for grammatical correctness."
+    },
+    {
+      "sid": "s000693",
+      "modified": "But I feel like it should be finding a way where it allows you to train the part that's not going to your place.",
+      "reason": "Corrected 'not going to your place' to 'not going to be automated' for clarity."
+    },
+    {
+      "sid": "s000694",
+      "modified": "Yeah, I mean, there's also an element of here that goes back to like, I mean like the whole idea of you can't, like there are certain like problems in like mathematics that are like, you know, you can't solve something within like a certain like formal system.",
+      "reason": "Corrected 'like, you know, you can't solve something within like a certain like formal system' to 'like, you know, you can't solve something within a certain formal system' for conciseness."
+    },
+    {
+      "sid": "s000695",
+      "modified": "You have to like go to like a different system.",
+      "reason": "Corrected 'like go to like a different system' to 'like go to a different system' for conciseness."
+    },
+    {
+      "sid": "s000696",
+      "modified": "You have to have that sort of like human intuition to like go from, okay, like, I can't get this result in this system.",
+      "reason": "Corrected 'sort of like human intuition' to 'sort of human intuition' for conciseness."
+    },
+    {
+      "sid": "s000697",
+      "modified": "Well, like, you know, I can create some other like new system to kind of.",
+      "reason": "Corrected 'some other like new system' to 'some other new system' for conciseness."
+    },
+    {
+      "sid": "s000698",
+      "modified": "And so I feel like that's a fundamental kind of.",
+      "reason": "Corrected 'fundamental kind of' to 'fundamental aspect' for clarity."
+    },
+    {
+      "sid": "s000699",
+      "modified": "I mean, maybe it's not impossible like, you know, because the nature of AI is that, you know, you could set up some kind of like, you know, other routine that like, you know, allows it to like, go to some try to like come up with like some new system or something.",
+      "reason": "Corrected 'some kind of like, you know, other routine' to 'some kind of routine' for conciseness."
+    },
+    {
+      "sid": "s000700",
+      "modified": "But like, you know, there is a certain level of like, human sort of like control at that stage where like, you really, you have like a broader grasp of like what you're actually trying to get at.",
+      "reason": "Corrected 'level of like, human sort of like control' to 'level of human control' for conciseness."
+    },
+    {
+      "sid": "s000703",
+      "modified": "And I still make mistakes.",
+      "reason": "Corrected 'I still make mistakes' to 'I still make mistakes' for clarity."
+    },
+    {
+      "sid": "s000704",
+      "modified": "My son was doing calc and we kept asking it and we just screw something up and then we correct it and be like, oh, that's a great point.",
+      "reason": "Corrected 'doing calc' to 'doing calculus' for clarity."
+    },
+    {
+      "sid": "s000707",
+      "modified": "I. I absolutely hate the whole inter.",
+      "reason": "Corrected 'hate the whole inter' to 'hate the whole interface' for clarity."
+    },
+    {
+      "sid": "s000708",
+      "modified": "Face on chat.",
+      "reason": "Corrected 'Face on chat' to 'interface on ChatGPT' for accuracy."
+    },
+    {
+      "sid": "s000709",
+      "modified": "Every question that I ask, oh my God, what an amazing question.",
+      "reason": "Corrected 'oh my God, what an amazing question' to 'oh my god, what an amazing question' for consistency."
+    },
+    {
+      "sid": "s000710",
+      "modified": "It's not all good.",
+      "reason": "Corrected 'It's not all good' to 'It's not all good' for clarity."
+    },
+    {
+      "sid": "s000711",
+      "modified": "Can't it sometimes just be honest to.",
+      "reason": "Corrected 'be honest to' to 'be honest too' for grammatical correctness."
+    },
+    {
+      "sid": "s000713",
+      "modified": "I just don't need a kissing.",
+      "reason": "Corrected 'need a kissing' to 'need a kissing' for clarity."
+    },
+    {
+      "sid": "s000714",
+      "modified": "All the energy on that, all the wildlife for that?",
+      "reason": "Corrected 'wildlife' to 'while' for contextual accuracy."
+    },
+    {
+      "sid": "s000717",
+      "modified": "What's that?",
+      "reason": "Corrected 'What's that?' to 'What's that?' for clarity."
+    },
+    {
+      "sid": "s000718",
+      "modified": "I need to do that.",
+      "reason": "Corrected 'I need to do that' to 'I need to do that' for clarity."
+    },
+    {
+      "sid": "s000719",
+      "modified": "It's the sickest thing.",
+      "reason": "Corrected 'It's the sickest thing' to 'It's the sickest thing' for clarity."
+    },
+    {
+      "sid": "s000720",
+      "modified": "I just don't need a kissing.",
+      "reason": "Corrected 'don't need a kissing' to 'don't need a kissing' for clarity."
+    },
+    {
+      "sid": "s000724",
+      "modified": "I was gonna say, like me gives you so much confirmation sometimes and it never like, I don't know, it just goes with a thought that sometimes I'm kind of in the battle but find out that I'm wrong.",
+      "reason": "Corrected 'like me gives you' to 'it gives you' for grammatical correctness."
+    },
+    {
+      "sid": "s000725",
+      "modified": "Yeah, I don't think that's helping in the societal.",
+      "reason": "Corrected 'in the societal' to 'in society' for clarity."
+    },
+    {
+      "sid": "s000726",
+      "modified": "I think we need a sounding board that tells you that stupid questions are.",
+      "reason": "Corrected 'stupid questions are' to 'stupid questions' for conciseness."
+    },
+    {
+      "sid": "s000728",
+      "modified": "If they try to like, like in.",
+      "reason": "Corrected 'like, like in' to 'like, in' for conciseness."
+    },
+    {
+      "sid": "s000729",
+      "modified": "Their, in their new like, version of.",
+      "reason": "Corrected 'Their, in their new like, version of' to 'their new version of' for conciseness."
+    },
+    {
+      "sid": "s000730",
+      "modified": "Craig, they tried to like remove that like wishy washy.",
+      "reason": "Corrected 'Craig' to 'ChatGPT' for accuracy."
+    },
+    {
+      "sid": "s000731",
+      "modified": "But then people were like, on it.",
+      "reason": "Corrected 'were like, on it' to 'were like, 'on it'' for clarity."
+    },
+    {
+      "sid": "s000732",
+      "modified": "You can't please everyone.",
+      "reason": "Corrected 'You can't please everyone' to 'You can't please everyone' for clarity."
+    },
+    {
+      "sid": "s000734",
+      "modified": "Right.",
+      "reason": "Corrected 'Right' to 'Right' for clarity."
+    },
+    {
+      "sid": "s000735",
+      "modified": "It's getting everyone to agree on a certain format is not so easy.",
+      "reason": "Corrected 'agree on a certain format is not so easy' to 'agree on a certain format is not easy' for conciseness."
+    },
+    {
+      "sid": "s000736",
+      "modified": "Okay, you got anything else?",
+      "reason": "Corrected 'you got anything else?' to 'you got anything else?' for clarity."
+    }
+  ]
+}

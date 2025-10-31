@@ -1,0 +1,55 @@
+# Algorithmic Problem-Solving Process
+
+The algorithmic problem-solving process is a systematic and iterative methodology for tackling computational challenges. It prioritizes a deep understanding of the problem, followed by an experimental approach of trying and refining solutions, with the ultimate goal of developing a correct and robust algorithm. This process emphasizes learning from failures and evolving one's thinking to solve novel problems.
+
+## The Critical First Step: Understanding the Problem
+
+The very first step when encountering any problem is to ensure a complete and comfortable understanding of it. It is crucial to ask oneself: "Are we hundred percent comfortable? We understand the problem? Are there ambiguities?" This initial exercise, even if it takes a few minutes, is not time wasted.
+
+## Why Thorough Problem Understanding is Essential
+
+A single wrong assumption can entirely change a problem, leading to a solution that is incorrect because it addresses a different problem. This can transform a simple problem into an impossible one, or vice versa. Therefore, understanding the problem is paramount to solving it correctly, rather than just solving it. Only when one feels *super comfortable* with the problem should they begin to think about an algorithmic solution.
+
+To deepen understanding, it is recommended to:
+*   Do a few examples on the side to see if the problem makes sense.
+*   Try to come up with exceptions or aspects that make the problem difficult.
+*   Playing with examples often provides initial hints on how to approach a solution.
+
+## The Iterative Process of Solution Development
+
+Solving a problem, especially a new one, is typically an *iterative approach*. It's unlikely to find the correct solution on the first attempt. The process involves:
+1.  **Trying initial ideas:** This might include attempting known algorithms (like breadth-first search or its modifications) or applying algorithmic paradigms (such as the greedy paradigm).
+2.  **Forming hypotheses:** Based on examples and initial attempts, one develops hypotheses about potential solutions.
+3.  **Testing and evaluating:** These hypotheses are tested, and if they fail, one moves on to something else.
+
+## Learning from Failed Attempts
+
+Many initial attempts and hypotheses are expected to fail, and this is considered a positive part of the process. Failures are valuable because they provide new ideas and insights. By reasoning about *why* an attempt failed, one can learn and evolve their thinking, which often suggests new ways of solving the problem and can lead to the development of a brand new, potentially optimal, algorithm. It is important not to be afraid of trying different things, even if they are likely to fail, as learning comes from these experiences.
+
+## The Importance of Methodology Over Specific Solutions
+
+The core lesson of this course is not about solving any specific problem or knowing a particular algorithm. Instead, it is the *methodology* of problem-solving that truly matters. This methodology involves:
+*   Coming up with algorithms from scratch.
+*   Understanding what works and what doesn't.
+*   Evolving one's thinking through an iterative process of trying, failing, and learning.
+
+This approach prepares individuals to solve problems that have never been solved before, which is often the expectation in professional roles. The thinking process, including the failure of some ideas, is the central point.
+
+## Refining and Implementing the Algorithm
+
+Once an algorithm has been developed, and there is high confidence in its correctness (often after proving it and testing with examples), then it is appropriate to invest time in the details of implementation and efficiency.
+*   **Confidence first:** Runtime analysis and other detailed considerations should only come *after* the algorithm is confirmed to work and a proof of its correctness is established.
+*   **Avoid premature optimization:** Discussing runtime or implementation details too early can be premature, as any change to the algorithm would necessitate re-evaluating these aspects.
+*   **Step-by-step refinement:** Implementation can begin with a straightforward, perhaps less efficient, approach. Subsequent observations (e.g., identifying bottlenecks like finding minimums) can lead to further refinements, such as adopting an edge-centric approach or utilizing specialized data structures like a heap for efficient minimum finding. This is a gradual, step-by-step process.
+
+## Achieving Mastery in Problem-Solving
+
+True understanding of this algorithmic problem-solving process is demonstrated by the ability to recreate the entire thought process, including the initial problem understanding, the iterative attempts, the failures, the learning from those failures, and the eventual refinement of the solution. This comprehensive understanding equips one to tackle not only variations of existing problems but also entirely new challenges.
+
+## Summary
+
+*   **Deep Problem Understanding is First:** Always start by ensuring a complete and unambiguous understanding of the problem, as a single wrong assumption can invalidate the entire solution.
+*   **Embrace Iteration and Failure:** Algorithmic problem-solving is an iterative process where trying different approaches, including those that fail, is crucial for learning and generating new ideas.
+*   **Methodology is Key:** The process of thinking, experimenting, and evolving solutions is more important than knowing specific algorithms, preparing you for novel challenges.
+*   **Refine After Confidence:** Only after gaining high confidence in an algorithm's correctness should you delve into implementation details, runtime analysis, and efficiency improvements.
+*   **Learn from "Why":** Understanding *why* an idea failed is a powerful catalyst for developing better, more optimal solutions.

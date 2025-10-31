@@ -135,8 +135,7 @@ def _check_one_faithfulness(
     print(f"  --> ⏰ Checked and edited details for {draft_path.name} in {elapsed:.2f} seconds.")
     return out_path
 
-
-def generate_topic_details(client, gen_model, config_json, config_text, lecture_dir: Path):
+def evidence_selection(client, gen_model, config_json, lecture_dir: Path):
     # topicsごとのsidを生成
     print("\n### Topic Evidence Selection ###")
 
@@ -173,8 +172,8 @@ def generate_topic_details(client, gen_model, config_json, config_text, lecture_
     elapsed_time_topic_evidence_selection = end_time_topic_evidence_selection - start_time_topic_evidence_selection
     print(f"⏰Selected topic evidence: {elapsed_time_topic_evidence_selection:.2f} seconds.")
 
-
-    # トピックごとに詳細を生成
+def generate_details_drafts(client, gen_model, config_text, lecture_dir: Path):
+# トピックごとに詳細を生成
     print("\n### Topic Details Generation ###")
 
     start_time_topic_details_generation = time.time()
@@ -230,10 +229,14 @@ def generate_topic_details(client, gen_model, config_json, config_text, lecture_
     elapsed_time_topic_details_generation = end_time_topic_details_generation - start_time_topic_details_generation
     print(f"⏰Generated topic details: {elapsed_time_topic_details_generation:.2f} seconds.")
 
-
+def faithfulness_check_and_minimal_edit(client, gen_model, config_text, lecture_dir: Path):
     # 生成された詳細の忠実性チェックと最小限の修正
     print("\n### Faithfulness Check and Minimal Edit###")
     start_time_faithfulness_check = time.time()
+    max_workers = 5
+    EVIDENCE_DIR = Path(lecture_dir / "evidences")
+    DETAIL_DRAFT_DIR = Path(lecture_dir / "details/drafts")
+    DETAIL_EDITED_DIR = Path(lecture_dir / "details/edited")
 
     instr_faithfulness_check = Path(PROMPTS_DIR / "faithfulness_check_and_minimal_edit.txt").read_text(encoding="utf-8")
 
@@ -277,6 +280,15 @@ def generate_topic_details(client, gen_model, config_json, config_text, lecture_
     elapsed_time_faithfulness_check = end_time_faithfulness_check - start_time_faithfulness_check
     print(f"⏰Checked and edited topic details: {elapsed_time_faithfulness_check:.2f} seconds.")
 
+
+def generate_topic_details(client, gen_model, config_json, config_text, lecture_dir: Path):
+    
+    evidence_selection(client, gen_model, config_json, lecture_dir)
+    
+    generate_details_drafts(client, gen_model, config_text, lecture_dir)
+    
+    faithfulness_check_and_minimal_edit(client, gen_model, config_text, lecture_dir)
+
     print("\n✅All tasks of TOPIC DETAIL GENERATION completed.")
 
 
@@ -310,7 +322,7 @@ def main():
     GEN_MODEL = "gemini-2.5-flash"
 
     ROOT = Path(__file__).resolve().parent
-    LECTURE_DIR = ROOT / "lectures/2025-10-07-21-27-43-0700"
+    LECTURE_DIR = ROOT / "../lectures/2025-10-28-00-36-18-0700"
 
     generate_topic_details(client, GEN_MODEL, config_json(), config_text(), LECTURE_DIR)
 

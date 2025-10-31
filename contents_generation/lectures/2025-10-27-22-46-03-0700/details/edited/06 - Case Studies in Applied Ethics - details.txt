@@ -1,0 +1,103 @@
+# Case Studies in Applied Ethics
+
+This lecture explores ethical dilemmas through various case studies, demonstrating how different ethical frameworks—deontological, utilitarian, and virtue ethics—can be applied to analyze complex situations. These frameworks are presented as tools for thinking about problems, not as sources of definitive solutions, emphasizing that individuals ultimately make their own decisions based on all relevant information.
+
+## Purpose of Ethical Case Studies
+
+The primary goal of discussing case studies is to provide practical examples of applying ethical principles and to solidify understanding of the three core ethical frameworks. These exercises help students develop their ability to analyze ethical problems, especially those relevant to computer science, by considering multiple perspectives.
+
+## Core Ethical Frameworks for Analysis
+
+The lecture utilizes three main ethical frameworks to evaluate the case studies:
+
+*   **Deontological Ethics (Kantian Ethics):** This framework judges actions based on adherence to rules or duties, regardless of the outcome. It often involves universal principles, such as a *categorical imperative* that dictates actions like "we shouldn't steal."
+*   **Utilitarianism:** This framework focuses on the consequences of actions, aiming to produce the greatest good or happiness for the greatest number of people. Proponents like *John Stuart Mill* might consider the overall impact on collective well-being.
+*   **Virtue Ethics:** This framework evaluates the moral character of the actor, focusing on whether actions demonstrate virtuous traits like courage, generosity, honesty, or responsibility, often seeking a "happy medium" between extremes.
+
+## Case Study: The Ethics of Robin Hood
+
+The lecture begins with a non-computer science example: Robin Hood, who redistributes wealth from the rich to the poor through illegal and potentially violent means.
+
+*   **Deontological Perspective:** From a Kantian viewpoint, Robin Hood's actions would likely be disapproved. Stealing and using violence are seen as breaking universal laws or categorical imperatives, meaning the *means* (illegal acts) do not justify the *end* (helping the needy).
+*   **Utilitarian Perspective:** A utilitarian analysis might judge Robin Hood positively. While the wealthy are unhappy, the many poor people receiving aid experience greater happiness. It's argued that the wealthy have plenty, and the happiness gained by those with nothing outweighs the pain of the wealthier individuals.
+*   **Virtue Ethics Perspective:** Robin Hood's character exhibits several virtues. He is *courageous* enough to act on his principles without being reckless, *merciful* to the poor while being tough on those who practice excess, and *generous* in giving stolen goods to the needy instead of keeping them.
+
+## Case Study: Ethics of Social Media Data Collection
+
+This case examines the ethical implications of social media apps collecting user data.
+
+*   **Context:** Data collection offers positives like informing users of better choices, tailoring ads, and tracking purchases. However, it also presents negatives such as invasion of privacy and potential for misuse.
+*   **Consent and Disclosure:** While consent forms exist, they are often lengthy and users click through them without reading, making true informed consent questionable.
+*   **Utilitarian Perspective:** Data collection could be seen as good if there are sufficient *guardrails* and if the data is anonymized and used to improve the app or user experience. The overall benefit to utility for many users could outweigh individual privacy concerns, depending on the specific use case.
+*   **Deontological Perspective:** This framework might argue that privacy is a *categorical imperative* that must be maintained, regardless of potential positive outcomes.
+*   **Virtue Ethics Perspective:** This approach would seek a middle ground, cultivating virtues like honesty, respect, and responsibility. It might suggest sharing some data with responsible companies but avoiding excessive collection or sharing with those who exploit users.
+*   **Intent vs. Outcome:** The discussion highlights whether a company's good intentions (e.g., improving the app) excuse negative outcomes (e.g., data theft). Some argue that incompetence leading to data breach is more forgivable than malicious intent.
+*   **Challenges:** The computing field often pushes new technology before it's fully tested, meaning there's often no past data to judge the likelihood of misuse.
+
+## Case Study: Anonymity, Sabotage, and Patient Safety
+
+This scenario involves a new employee at a pacemaker manufacturer whose president guarantees anonymity for feedback. An employee posts a message claiming to sabotage every tenth pacemaker. The president then demands the new employee de-anonymize the records to identify the saboteur.
+
+*   **The Dilemma:** The core conflict is between the guaranteed privacy of the employee and the potential harm to patients' lives from defective pacemakers.
+*   **Arguments for De-anonymization:** The saboteur is harming innocent customers, making their privacy less important than the sanctity of life. The potential for death or serious harm from faulty medical devices is a critical factor.
+*   **Arguments Against De-anonymization:** Breaking the promise of anonymity sets a *slippery slope* precedent, potentially discouraging future honest feedback and eroding trust. There's also the possibility the employee is lying about the sabotage, meaning privacy would be compromised for a false claim.
+*   **Situation Dependency:** The lecture concludes that the ethical decision is highly *situation dependent*. While harm to life generally outweighs privacy, the specific context (e.g., whether the sabotage is confirmed, the potential for future misuse of de-anonymization) is crucial. The fear of government misuse of data (like an Apple backdoor) is also rooted in potential future harm to life, not just privacy itself.
+
+## Case Study: Anonymity and Online Harassment in a Classroom Forum
+
+A professor, against his better judgment, allowed full anonymity on a class discussion forum. A racist message was posted, leading to a dilemma when the professor asked the platform company to de-anonymize the student.
+
+*   **The Incident:** A racist message was posted anonymously, which the professor deleted. A student then took a screenshot and posted it elsewhere, accusing the institution of hiding racism.
+*   **Professor's Actions and Intent:** The professor deleted the message because it was "ugly" and not something he wanted to keep out there. He wanted to identify the student to report them to the dean, as per his job duty regarding harassment, not for personal retaliation. He subsequently stopped allowing anonymous posting.
+*   **Company's Refusal:** The platform company refused to de-anonymize the student.
+*   **Ethical Discussion:**
+    *   **Original Intent of Anonymity:** Anonymity was intended to encourage questions and prevent embarrassment, not to enable racist behavior.
+    *   **Privacy as Privilege:** Some argue that anonymous privacy is a privilege that can be revoked when used for harmful actions like racism, especially since online anonymity differs from in-person discussions where identity is known.
+    *   **Life vs. Non-Life Threatening:** This case is distinct from the pacemaker scenario because no lives were at stake.
+    *   **Professor's New Policy:** The professor now allows students to post anonymously to their peers, but he can always see their identity as a safeguard.
+
+## Case Study: Disclosing a 'Zero Probability' Vulnerability in Medical Devices
+
+This case involves a wireless implantable medical device from a defunct manufacturer. Researchers found a vulnerability, but it is extremely difficult to exploit, with a "zero probability" of being breached in the wild. The device works well, but its software cannot be updated.
+
+*   **The Dilemma:** Should researchers disclose this vulnerability to the public?
+*   **Arguments for Disclosure:** Some argue for "telling the truth" and reporting any vulnerability found, regardless of perceived risk.
+*   **Arguments Against Disclosure:**
+    *   **Zero Probability:** The extremely low likelihood of exploitation is a key factor.
+    *   **No Practical Gain:** Disclosing it offers no new lessons for computer science or medical device improvement.
+    *   **Psychological Harm:** Public disclosure could cause psychological harm to patients who fear having an imperfect device, even if the risk is negligible. This fear might lead them to refuse a beneficial device.
+    *   **Increased Risk:** Publicizing the vulnerability, even if niche, could increase the chance of it being exploited.
+    *   **Informed Choice:** Not disclosing means patients cannot make an *informed choice* about their care, knowing all available information.
+
+## Case Study: Researching AI Bias with Stolen Data
+
+A company using an AI job matching system, potentially biased by race and gender, had all its data (past postings, applications, match outputs, ML model details) stolen and posted online. A research group studying AI bias obtained this stolen data. Victims want the data deleted.
+
+*   **The Dilemma:** Should the research group study this stolen data to expose bias, knowing it was illegally obtained and victims want it deleted?
+*   **Arguments for Studying:**
+    *   **Good Intentions:** The research group's intention is to understand and mitigate AI bias for future algorithms.
+    *   **Trustworthy Researchers:** If the researchers have a track record of honesty and careful data handling, applicants might feel safer that their data won't be publicly misused.
+    *   **Valuable Insights:** The data, coming from a real company with real systems, could provide a "good lesson learned" and an "interesting expose" on AI bias.
+*   **Arguments Against Studying:**
+    *   **Illegally Obtained Data:** Using stolen data, even for a good cause, could set a dangerous *precedent*, similar to how illegally obtained evidence is inadmissible in US law.
+    *   **Lack of Consent:** The job applicants did not consent to this research group using their data for a completely different purpose. They wanted their data for employers, not researchers.
+    *   **Privacy Concerns:** Applicants may have embarrassing information they wish to keep private.
+    *   **Alternative Data:** It's suggested that other, legally obtained and anonymized data might exist to study AI bias, making this "magical unicorn data" unnecessary.
+    *   **Scope of Research:** It's questioned why researchers would specifically target one company's stolen data rather than pursuing more ethical data acquisition methods.
+    *   **Retention Requirement:** If the researchers study the data, they would need to retain a copy even after publishing in case results are challenged, preventing immediate deletion as desired by victims.
+
+## Key Takeaways on Ethical Decision-Making
+
+*   Ethical frameworks (deontological, utilitarian, virtue ethics) are valuable tools for analyzing problems, but they are not "end solutions."
+*   Individuals must make their own decisions based on these frameworks and all relevant information.
+*   In complex ethical dilemmas, especially in computing, there are often multiple justifiable answers, and the "right" choice can be highly *situation dependent*.
+*   When evaluating ethical scenarios, it's important to consider potential harms (psychological, physical, privacy) against potential benefits (societal good, informed choice, learning).
+
+## Supplement: Explanation of Key Ethical Terms
+
+*   **Deontological Ethics:** An ethical theory that judges the morality of an action based on whether the action adheres to a rule or rules. It is sometimes described as "duty" or "rule-based" ethics, because rules are central to it.
+*   **Kantian Ethics:** A specific type of deontological ethics developed by Immanuel Kant, which emphasizes that moral actions are those performed out of duty and in accordance with universal moral laws.
+*   **Utilitarianism:** An ethical theory that prescribes actions that maximize overall happiness or well-being for the greatest number of people. It is a form of consequentialism, where the morality of an action is determined by its outcome.
+*   **John Stuart Mill:** A proponent of utilitarianism, as referenced in the lecture.
+*   **Virtue Ethics:** An ethical framework that focuses on the character of the moral agent rather than the actions themselves or their consequences. It asks what a virtuous person would do in a given situation, emphasizing the development of moral virtues.
+*   **Categorical Imperative:** A central concept in Kantian ethics, referring to an unconditional moral obligation that is binding in all circumstances and is not dependent on a person's inclination or purpose. It dictates that an action is morally right if it can be universalized without contradiction.

@@ -1,0 +1,1409 @@
+{
+  "idx": 2,
+  "title": "Greedy Approach Failure",
+  "count": 175,
+  "sids": [
+    "s000060",
+    "s000061",
+    "s000062",
+    "s000063",
+    "s000064",
+    "s000065",
+    "s000066",
+    "s000067",
+    "s000068",
+    "s000069",
+    "s000070",
+    "s000071",
+    "s000072",
+    "s000073",
+    "s000074",
+    "s000075",
+    "s000076",
+    "s000077",
+    "s000078",
+    "s000079",
+    "s000080",
+    "s000081",
+    "s000082",
+    "s000083",
+    "s000084",
+    "s000085",
+    "s000094",
+    "s000095",
+    "s000096",
+    "s000097",
+    "s000098",
+    "s000099",
+    "s000100",
+    "s000101",
+    "s000102",
+    "s000103",
+    "s000104",
+    "s000105",
+    "s000106",
+    "s000107",
+    "s000108",
+    "s000109",
+    "s000110",
+    "s000111",
+    "s000112",
+    "s000113",
+    "s000114",
+    "s000115",
+    "s000116",
+    "s000117",
+    "s000118",
+    "s000119",
+    "s000120",
+    "s000121",
+    "s000122",
+    "s000123",
+    "s000124",
+    "s000125",
+    "s000126",
+    "s000127",
+    "s000128",
+    "s000129",
+    "s000130",
+    "s000131",
+    "s000132",
+    "s000133",
+    "s000134",
+    "s000135",
+    "s000136",
+    "s000137",
+    "s000138",
+    "s000139",
+    "s000140",
+    "s000141",
+    "s000142",
+    "s000143",
+    "s000144",
+    "s000145",
+    "s000146",
+    "s000147",
+    "s000148",
+    "s000149",
+    "s000150",
+    "s000151",
+    "s000152",
+    "s000153",
+    "s000154",
+    "s000155",
+    "s000156",
+    "s000157",
+    "s000158",
+    "s000159",
+    "s000160",
+    "s000161",
+    "s000162",
+    "s000163",
+    "s000164",
+    "s000165",
+    "s000166",
+    "s000167",
+    "s000168",
+    "s000169",
+    "s000170",
+    "s000171",
+    "s000172",
+    "s000173",
+    "s000174",
+    "s000175",
+    "s000176",
+    "s000177",
+    "s000178",
+    "s000179",
+    "s000180",
+    "s000181",
+    "s000182",
+    "s000183",
+    "s000184",
+    "s000185",
+    "s000186",
+    "s000187",
+    "s000188",
+    "s000189",
+    "s000190",
+    "s000191",
+    "s000192",
+    "s000193",
+    "s000194",
+    "s000195",
+    "s000196",
+    "s000197",
+    "s000198",
+    "s000199",
+    "s000200",
+    "s000201",
+    "s000202",
+    "s000203",
+    "s000204",
+    "s000205",
+    "s000206",
+    "s000207",
+    "s000208",
+    "s000209",
+    "s000210",
+    "s000211",
+    "s000212",
+    "s000213",
+    "s000214",
+    "s000215",
+    "s000216",
+    "s000217",
+    "s000218",
+    "s000219",
+    "s000220",
+    "s000221",
+    "s000222",
+    "s000223",
+    "s000224",
+    "s000225",
+    "s000226",
+    "s000227",
+    "s000228",
+    "s000229",
+    "s000230",
+    "s000231",
+    "s000232",
+    "s000233",
+    "s000234",
+    "s000235",
+    "s000236",
+    "s000237",
+    "s000238",
+    "s000239",
+    "s000240",
+    "s000241",
+    "s000242"
+  ],
+  "evidences": [
+    {
+      "sid": "s000060",
+      "text": "Okay, so having this problem, I know bread first search doesn't work.",
+      "start": 405860,
+      "end": 410500,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000061",
+      "text": "I may try that.",
+      "start": 410900,
+      "end": 412100,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000062",
+      "text": "I may try grid first search, modification of preference search.",
+      "start": 412420,
+      "end": 417270,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000063",
+      "text": "Those are good approaches, but as I try them, I'll see that they are failing if they are not giving the solution that I care.",
+      "start": 417350,
+      "end": 425430,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000064",
+      "text": "What if I take a weight 10 and translate that into 10 edges of weight 1?",
+      "start": 428150,
+      "end": 439910,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000065",
+      "text": "Now we have an unweighted problem.",
+      "start": 440960,
+      "end": 442880,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000066",
+      "text": "Would that work?",
+      "start": 443440,
+      "end": 444640,
+      "role": "qa"
+    },
+    {
+      "sid": "s000067",
+      "text": "I know how to solve the unweighted version.",
+      "start": 448400,
+      "end": 450960,
+      "role": "qa"
+    },
+    {
+      "sid": "s000068",
+      "text": "Would that give us a solution to the problem?",
+      "start": 453280,
+      "end": 455680,
+      "role": "qa"
+    },
+    {
+      "sid": "s000069",
+      "text": "The answer is yes and no.",
+      "start": 457200,
+      "end": 459120,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000070",
+      "text": "It will solve the problem.",
+      "start": 460320,
+      "end": 461840,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000071",
+      "text": "But if you have a weight 10 or 100, you are increasing the problem size by a multiple of hundred or a million or N, etc.",
+      "start": 462400,
+      "end": 472670,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000072",
+      "text": "Therefore, whatever algorithm you come up with won't be just a function of vertices and edges.",
+      "start": 472910,
+      "end": 480350,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000073",
+      "text": "It will be a function of vertices, edges, and weights.",
+      "start": 480590,
+      "end": 484429,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000074",
+      "text": "So whenever we say come up with A polynomial time algorithm, it should be polynomial in the input side, the size of this input.",
+      "start": 486270,
+      "end": 497960,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000075",
+      "text": "So when you write a program, the input you take are the vertices and edges and weight on the edges.",
+      "start": 498440,
+      "end": 505480,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000076",
+      "text": "So when you write a program, the input you take are the vertices and edges and weight on the edges.",
+      "start": 506200,
+      "end": 529170,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000077",
+      "text": "Not polynomial in that.",
+      "start": 529410,
+      "end": 531010,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000078",
+      "text": "Not polynomial in a much larger graph.",
+      "start": 531250,
+      "end": 533890,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000079",
+      "text": "Polynomial in this.",
+      "start": 534370,
+      "end": 535890,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000080",
+      "text": "That's a key point.",
+      "start": 536130,
+      "end": 537730,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000081",
+      "text": "We'll come across this multiple times.",
+      "start": 539970,
+      "end": 542530,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000082",
+      "text": "Problems that look polynomial time, they are not because there are polynomial in something else, not in the input class.",
+      "start": 543090,
+      "end": 550890,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000083",
+      "text": "So in this class, whenever you hear polynomial or quadratic or linear, it always means linear, quadratic, polynomial in the input size.",
+      "start": 551290,
+      "end": 563290,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000084",
+      "text": "That should be understood even when it's not explicitly mentioned.",
+      "start": 563850,
+      "end": 568490,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000085",
+      "text": "Okay, so maybe taking an edge of size 100 and translating that into 100 unit weight edges works, but that won't be polynomial anymore, and therefore we are not interested in it.",
+      "start": 570970,
+      "end": 588020,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000094",
+      "text": "So for a moment I say, let me use the greedy paradigm to solve this problem.",
+      "start": 631030,
+      "end": 636590,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000095",
+      "text": "If it works, great.",
+      "start": 636990,
+      "end": 638270,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000096",
+      "text": "If not, I move on to something else.",
+      "start": 638270,
+      "end": 640750,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000097",
+      "text": "What does greedy say?",
+      "start": 642670,
+      "end": 644430,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000098",
+      "text": "Greedy says that take this, that's your starting point.",
+      "start": 645070,
+      "end": 650300,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000099",
+      "text": "And we understand the distance from S to itself is zero.",
+      "start": 650780,
+      "end": 655500,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000100",
+      "text": "By definition, we are already there.",
+      "start": 655580,
+      "end": 659100,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000101",
+      "text": "There are no edges to traverse from S to get to S. So the question is, is there going to be another vertex in this graph that I can confidently say its distance to S and never change that?",
+      "start": 659580,
+      "end": 678000,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000102",
+      "text": "That's what it really does.",
+      "start": 678480,
+      "end": 680000,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000103",
+      "text": "Of all the interval scheduling that we did last time, you take the one that ends first without having looked at all the other intervals, you say that's what's going to be in the output of the non-overlapping interval problem.",
+      "start": 680640,
+      "end": 696480,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000104",
+      "text": "I'll never change my mind about that.",
+      "start": 696480,
+      "end": 699280,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000105",
+      "text": "Can we do something similar here?",
+      "start": 700810,
+      "end": 702890,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000106",
+      "text": "If it was possible to do something similar there, then that vertex probably won't be a vertex way far from S, because there are so many paths between S and say X.",
+      "start": 703370,
+      "end": 720970,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000107",
+      "text": "Assuming X is connected to all of this, that immediately, right away, trying to figure out the distance of X seems difficult.",
+      "start": 721450,
+      "end": 734340,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000108",
+      "text": "So X may not be a good choice for the immediate greedy decision that I'm trying to make.",
+      "start": 734820,
+      "end": 742420,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000109",
+      "text": "Because for now, in my head, I want to try greedy.",
+      "start": 742500,
+      "end": 745540,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000110",
+      "text": "That's the first thing I want to try.",
+      "start": 746500,
+      "end": 748180,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000111",
+      "text": "If it doesn't work, I'll do something else.",
+      "start": 748180,
+      "end": 750420,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000112",
+      "text": "Okay.",
+      "start": 752430,
+      "end": 752910,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000113",
+      "text": "There are also technical difficulties when the weights are negative.",
+      "start": 754190,
+      "end": 760750,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000114",
+      "text": "We will see why.",
+      "start": 763070,
+      "end": 764350,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000115",
+      "text": "So for now, I assume all the weights on the edges are positive numbers.",
+      "start": 765230,
+      "end": 770510,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000116",
+      "text": "And let's say integers 1, 2, 3, 8, 7, 12, etc.",
+      "start": 771310,
+      "end": 776110,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000117",
+      "text": "In about four weeks, you will have algorithms that can deal with negative edges.",
+      "start": 777560,
+      "end": 783640,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000118",
+      "text": "Today we can't.",
+      "start": 784680,
+      "end": 785640,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000119",
+      "text": "We don't have the tools to tackle that problem.",
+      "start": 785640,
+      "end": 788440,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000120",
+      "text": "Okay, so something far.",
+      "start": 791080,
+      "end": 793640,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000121",
+      "text": "Because there are just so many paths to X, I can't tell for sure what the distance.",
+      "start": 796120,
+      "end": 802750,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000122",
+      "text": "If I'm going from LA and I want to find the shortest path to the city, probably going somewhere to New York.",
+      "start": 805060,
+      "end": 812140,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000123",
+      "text": "That's tough because there are so many ways to get there.",
+      "start": 812140,
+      "end": 815380,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000124",
+      "text": "Planes, trains, so many roads I could take, I could bike part of it.",
+      "start": 815780,
+      "end": 821460,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000125",
+      "text": "So, so many options.",
+      "start": 821540,
+      "end": 823060,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000126",
+      "text": "So, so many options. So that seemed to be a tough problem, what going from outside of LA, say, to San Diego.",
+      "start": 824020,
+      "end": 832030,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000127",
+      "text": "Choices are limited, so it's a more controlled problem.",
+      "start": 832510,
+      "end": 836350,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000128",
+      "text": "So maybe I can immediately discuss the best way to go from San Diego.",
+      "start": 837150,
+      "end": 843150,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000129",
+      "text": "That's kind of the idea.",
+      "start": 843550,
+      "end": 845070,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000130",
+      "text": "Okay, so based on this concept, then maybe I initially look at neighbors of S. For example, I take the neighbor that's closest to S, B, and I say, how do I get from S to B? It's through this edge.",
+      "start": 846510,
+      "end": 876580,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000131",
+      "text": "Therefore, I write the distance from S to B as 1.",
+      "start": 877540,
+      "end": 882440,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000132",
+      "text": "Whenever I put a number in bracket.",
+      "start": 883160,
+      "end": 885440,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000133",
+      "text": "It's the final shortest path, not some intermediate number, not a number that I'm going to change later.",
+      "start": 885440,
+      "end": 895400,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000134",
+      "text": "It's the final shortest path.",
+      "start": 895880,
+      "end": 898200,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000135",
+      "text": "So I claim, if you take all neighbors of S, take the one that's closest to, in this example, B.",
+      "start": 898920,
+      "end": 908110,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000136",
+      "text": "First of all, what are neighbors of S? A and B?",
+      "start": 909630,
+      "end": 913070,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000137",
+      "text": "Which one is closest to S?",
+      "start": 913390,
+      "end": 915230,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000138",
+      "text": "B?",
+      "start": 915790,
+      "end": 916190,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000139",
+      "text": "Because this is 10, this is 1.",
+      "start": 918030,
+      "end": 921070,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000140",
+      "text": "I'm going to say in a greedy fashion, in a greedy paradigm methodology, the distance from S to B.",
+      "start": 922030,
+      "end": 930230,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000141",
+      "text": "When I say distance, I mean the shortest distance.",
+      "start": 930230,
+      "end": 933080,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000142",
+      "text": "The shortest path is 1.",
+      "start": 933080,
+      "end": 935160,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000143",
+      "text": "I claim that.",
+      "start": 935640,
+      "end": 936840,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000144",
+      "text": "How do I prove it?",
+      "start": 937720,
+      "end": 939160,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000145",
+      "text": "The way I prove it is the following.",
+      "start": 939880,
+      "end": 941800,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000146",
+      "text": "This is S, this is B.",
+      "start": 943720,
+      "end": 946360,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000147",
+      "text": "And I'm saying this is the shortest path by contradiction.",
+      "start": 946840,
+      "end": 952600,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000148",
+      "text": "If there was a shorter path from S to B, it would go through some other vertex and it comes back to B.",
+      "start": 953160,
+      "end": 963970,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000149",
+      "text": "And remember, the length of the path is irrelevant.",
+      "start": 965810,
+      "end": 969290,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000150",
+      "text": "It's the weight that matters, the sum of the weights.",
+      "start": 969290,
+      "end": 972770,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000151",
+      "text": "So by contradiction, if there was a path like that, let's look at the very first edge on this path.",
+      "start": 973570,
+      "end": 981890,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000152",
+      "text": "Why?",
+      "start": 982370,
+      "end": 982770,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000153",
+      "text": "In this example, Y is A.",
+      "start": 983300,
+      "end": 985460,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000154",
+      "text": "Okay?",
+      "start": 987700,
+      "end": 988340,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000155",
+      "text": "So S has to go through Y and then some other edges.",
+      "start": 988820,
+      "end": 993140,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000156",
+      "text": "The distance from S to Y is greater than the distance from S to B, Y, because I picked B to be such a vertex, I picked the shortest one, the shortest edge, the minimum edge.",
+      "start": 996420,
+      "end": 1018010,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000157",
+      "text": "Therefore, because that's the case, then whatever I add from Y to B, so this is plus DY to B.",
+      "start": 1019050,
+      "end": 1030490,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000158",
+      "text": "That's gotta be greater than D of S to B.",
+      "start": 1030570,
+      "end": 1034350,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000159",
+      "text": "So this number is greater than this number.",
+      "start": 1037139,
+      "end": 1040739,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000160",
+      "text": "Adding some extra stuff, basic algebra, is going to make that number bigger only because this part is a positive number.",
+      "start": 1042739,
+      "end": 1054579,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000161",
+      "text": "Because I assumed there are no negative edges in this case graph.",
+      "start": 1056179,
+      "end": 1061070,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000162",
+      "text": "And in fact, when I have negative edges, this whole basic premise is going to fade.",
+      "start": 1062030,
+      "end": 1067550,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000163",
+      "text": "And that's why greedy doesn't work with negative edges.",
+      "start": 1069950,
+      "end": 1073150,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000164",
+      "text": "That's why we assume, to begin with, there are negative edges.",
+      "start": 1073390,
+      "end": 1077150,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000165",
+      "text": "No negative edges.",
+      "start": 1077230,
+      "end": 1078590,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000166",
+      "text": "Okay, so based on this proof, I write in a flow what I just said here.",
+      "start": 1080110,
+      "end": 1088510,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000167",
+      "text": "It means this should be the final weight from S to B.",
+      "start": 1088910,
+      "end": 1094110,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000168",
+      "text": "So wonderful, we can find at least one vertex whose distance to S is the minimum distance.",
+      "start": 1095790,
+      "end": 1105310,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000169",
+      "text": "So the first step of reading, we were able to solve in the famous problem when A asks B, that one first step happens.",
+      "start": 1106270,
+      "end": 1116470,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000170",
+      "text": "Based on the answer, we eliminate one of them in interval scheduling.",
+      "start": 1116710,
+      "end": 1121550,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000171",
+      "text": "The first interval that ends, I put it in the optimal solution and then I kind of carry this idea to the rest of the problem.",
+      "start": 1121550,
+      "end": 1130310,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000172",
+      "text": "So I have reduced the problem size here.",
+      "start": 1130630,
+      "end": 1134390,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000173",
+      "text": "The same thing I have reduced the problem size with, say, well, well, S is easy.",
+      "start": 1134390,
+      "end": 1140320,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000174",
+      "text": "So I have n minus one other vertices.",
+      "start": 1140960,
+      "end": 1144560,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000175",
+      "text": "This is fixed.",
+      "start": 1145200,
+      "end": 1146360,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000176",
+      "text": "Now I only have n minus 2.",
+      "start": 1146360,
+      "end": 1148560,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000177",
+      "text": "So.",
+      "start": 1152000,
+      "end": 1152400,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000178",
+      "text": "But B is kind of special.",
+      "start": 1153120,
+      "end": 1155200,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000179",
+      "text": "It's the closest thing to S. There are no other vertices that are closest to S. So then I have to go to the second closest.",
+      "start": 1157200,
+      "end": 1168410,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000180",
+      "text": "So what would that be?",
+      "start": 1170730,
+      "end": 1172490,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000181",
+      "text": "Next one is going to be A, the next neighbor that's after one closest.",
+      "start": 1172650,
+      "end": 1179050,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000182",
+      "text": "So I go to A and I say, okay, the distance is 10 and that's finalized.",
+      "start": 1179370,
+      "end": 1184930,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000183",
+      "text": "That's the minimum distance from S to A.",
+      "start": 1184930,
+      "end": 1187290,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000184",
+      "text": "Trying to scale up the first thing that I came up with.",
+      "start": 1188010,
+      "end": 1195140,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000185",
+      "text": "Now if you try that proof from S to A, you gotta prove that if there was an alternate path from S to A, that would be less than that.",
+      "start": 1195780,
+      "end": 1210020,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000186",
+      "text": "But we can't say that.",
+      "start": 1210820,
+      "end": 1212740,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000187",
+      "text": "The only reason we could say that before is because S to Y for sure is greater than S to B.",
+      "start": 1213300,
+      "end": 1220400,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000188",
+      "text": "That was the very definition of B.",
+      "start": 1220720,
+      "end": 1223440,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000189",
+      "text": "But now we don't have that anymore because this distance in general could be less than that.",
+      "start": 1223760,
+      "end": 1230240,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000190",
+      "text": "Therefore it could be a path going back to A which is less than 10.",
+      "start": 1230480,
+      "end": 1235520,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000191",
+      "text": "In fact, in this example, that's exactly the case.",
+      "start": 1235600,
+      "end": 1238320,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000192",
+      "text": "So fixing a distance from S to A to 10 is not going to work.",
+      "start": 1239200,
+      "end": 1244430,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000193",
+      "text": "Prove we can't prove it.",
+      "start": 1246430,
+      "end": 1248270,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000194",
+      "text": "Our basic proof technique is going to fail and we have in fact a counterexample.",
+      "start": 1249470,
+      "end": 1255270,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000195",
+      "text": "Y fades so what should I do?",
+      "start": 1255270,
+      "end": 1262030,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000196",
+      "text": "Should I go to a vertex that's closest to B?",
+      "start": 1262350,
+      "end": 1265870,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000197",
+      "text": "A vertex that's closest to B?",
+      "start": 1266190,
+      "end": 1267810,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000198",
+      "text": "Something else is not clear.",
+      "start": 1268120,
+      "end": 1270200,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000199",
+      "text": "So this whole idea of greedy, the greedy idea, unless we can come up with a clever way of picking a next vertex.",
+      "start": 1271000,
+      "end": 1281560,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000200",
+      "text": "In this example, if I knew how to pick the next vertex, I would pick C as my next vertex and fix that as 1 plus 1.",
+      "start": 1281880,
+      "end": 1293320,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000201",
+      "text": "So C will be a good choice.",
+      "start": 1295170,
+      "end": 1297010,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000202",
+      "text": "A is not a good choice.",
+      "start": 1297570,
+      "end": 1299330,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000203",
+      "text": "So you see, I'm trying, I don't know how to solve this problem, so I'm going to try greedy.",
+      "start": 1300290,
+      "end": 1306530,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000204",
+      "text": "I'm going to go from B.",
+      "start": 1306610,
+      "end": 1308290,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000205",
+      "text": "That's easy.",
+      "start": 1308290,
+      "end": 1309250,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000206",
+      "text": "Then I'm going to go to A.",
+      "start": 1309409,
+      "end": 1310810,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000207",
+      "text": "That phase, then I come up with hypothesis of what else to consider.",
+      "start": 1310810,
+      "end": 1315330,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000208",
+      "text": "And these ideas and these examples hopefully will give rise to a brand new algorithm.",
+      "start": 1318850,
+      "end": 1325530,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000209",
+      "text": "So solving this problem is not important.",
+      "start": 1328010,
+      "end": 1330410,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000210",
+      "text": "Solving any problem in this course is not important.",
+      "start": 1330650,
+      "end": 1333290,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000211",
+      "text": "What is important is the methodology.",
+      "start": 1333930,
+      "end": 1336090,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000212",
+      "text": "That's why we try to come up with an algorithm together from scratch, in terms of what may work, what may not work and how to evolve our thinking.",
+      "start": 1336650,
+      "end": 1346650,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000213",
+      "text": "That's really why what matters, problem-solving things.",
+      "start": 1346810,
+      "end": 1349950,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000214",
+      "text": "Because a problem that you see in the future, let's say your job is a problem that no one ever solved before.",
+      "start": 1352430,
+      "end": 1360510,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000215",
+      "text": "Because if they did, why do they need you?",
+      "start": 1361470,
+      "end": 1363630,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000216",
+      "text": "They need you to solve a problem that was never solved.",
+      "start": 1365230,
+      "end": 1368350,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000217",
+      "text": "Yeah, so we did greedy algorithm and let me rephrase, we did the greedy algorithm and that allowed us to choose B.",
+      "start": 1369870,
+      "end": 1381000,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000218",
+      "text": "What if we continue the algorithm but this time we start from B as if it's the new S and then we do the same exact step and that will give us C. We do the same thing.",
+      "start": 1382280,
+      "end": 1396480,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000219",
+      "text": "Now C is the new square and we start like going.",
+      "start": 1396480,
+      "end": 1400050,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000220",
+      "text": "So essentially it's some sort of a DFS, but with the greedy algorithm.",
+      "start": 1400050,
+      "end": 1405250,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000221",
+      "text": "So that's.",
+      "start": 1405970,
+      "end": 1406690,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000222",
+      "text": "So because we got stuck here, we need to have other techniques.",
+      "start": 1406770,
+      "end": 1410690,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000223",
+      "text": "So your technique is S perfect, everything works, improved.",
+      "start": 1411250,
+      "end": 1415730,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000224",
+      "text": "Now let's start from B.",
+      "start": 1415970,
+      "end": 1417650,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000225",
+      "text": "Would that work in this example?",
+      "start": 1418130,
+      "end": 1420130,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000226",
+      "text": "Absolutely.",
+      "start": 1420450,
+      "end": 1421410,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000227",
+      "text": "Okay, so let's change the example now with your algorithm work.",
+      "start": 1421970,
+      "end": 1431100,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000228",
+      "text": "So it's a good, good way to proceed and it worked for the previous examples, but it won't work here.",
+      "start": 1433260,
+      "end": 1440300,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000229",
+      "text": "We need something else.",
+      "start": 1441180,
+      "end": 1442700,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000230",
+      "text": "What if instead of doing the greedy step by step that we select the minimum edge from S, can we go through that?",
+      "start": 1443500,
+      "end": 1459980,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000231",
+      "text": "So, so, yeah, so, so these are good.",
+      "start": 1462940,
+      "end": 1465420,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000232",
+      "text": "When you are seeing a problem for the first time, we have to go through this process of trying different things.",
+      "start": 1465580,
+      "end": 1472700,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000233",
+      "text": "You almost like first shot, you can't solve the problem.",
+      "start": 1472940,
+      "end": 1477980,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000234",
+      "text": "It's gotta be an iterative approach.",
+      "start": 1478700,
+      "end": 1480700,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000235",
+      "text": "That's why it takes time, especially when you come to these created algorithms.",
+      "start": 1480860,
+      "end": 1486340,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000236",
+      "text": "Right?",
+      "start": 1486340,
+      "end": 1486700,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000237",
+      "text": "So don't be afraid of trying different things.",
+      "start": 1486940,
+      "end": 1489900,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000238",
+      "text": "Many of them gonna fail and that's good.",
+      "start": 1490860,
+      "end": 1493340,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000239",
+      "text": "From that we're gonna learn.",
+      "start": 1494380,
+      "end": 1495820,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000240",
+      "text": "We just did a few hypothesis.",
+      "start": 1495820,
+      "end": 1498180,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000241",
+      "text": "They both failed.",
+      "start": 1498180,
+      "end": 1499380,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000242",
+      "text": "But based on that, you came up with another algorithm.",
+      "start": 1499380,
+      "end": 1501960,
+      "role": "lecture"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+# Drone Delivery Startup Case Study
+
+This case study explores the challenges faced by an inexperienced developer hired by a drone delivery startup, highlighting the critical need for reliable systems in seemingly low-stakes applications. It delves into different development philosophies, particularly contrasting "move fast and break things" with "move fast with stable," and draws lessons from chip design strategies for ensuring both innovation and stability.
+
+## The Startup Scenario and Its Challenges
+
+The case study places a developer, initially hired for back-end web development, into a drone delivery startup that is shorthanded. Despite having *little to no experience* in embedded systems, the developer is expected to contribute to this critical area amidst *pressing deadlines* and *constantly shifting milestones*, with *very little mentorship or oversight*.
+
+While the drones are primarily delivering "Amazon boxes" and not "weapons grade" materials or "organs," the lecture emphasizes that a failure could still lead to serious consequences, such as "creating piles of organs" (referring to potential human harm) or "dropping your boss sculpture off the window." The core product is the *drone itself*, and the main goal is ensuring *safe deliveries* and *deliveries on time*. The scenario highlights the danger of an "inexperienced guy on the embedded systems team" when the code might not work, underscoring the high stakes involved even in seemingly benign applications.
+
+## Development Philosophies: "Move Fast and Break Things" vs. "Move Fast with Stable"
+
+The lecture introduces two contrasting development philosophies:
+
+*   **"Move fast and break things"**: This mantra suggests that "unless you are breaking stuff, you're not moving fast enough" and advocates for being disruptive to shake things up. However, this approach is deemed problematic because it can lead to "breaking their own things" by moving too fast. In technology, "one small bug can matriculate," and "tactical programming" (jumping in, fixing something, and moving on) can quickly lead to "more complex" systems and "more bugs."
+*   **"Move fast with stable"**: This alternative philosophy aims to "move fast" but "with stable infrastructure." The idea is that with a stable foundation, a company "can sustain whatever headaches come our way and be able to handle the pace of technological innovation." This approach suggests having "multiple backups" so that if an ambitious idea leads to an error, one can "revert to the backup" and maintain stability.
+
+The lecture also briefly mentions a third option, "move cautiously and build things," but the primary discussion revolves around the first two.
+
+## Strategies for Stable Innovation: Lessons from Chip Design
+
+To illustrate how to "move fast with stable," the lecture draws an analogy from *chip design*:
+
+*   **The "A+B" Core Strategy**: The idea involves taking a *known quantity*—a "chip from generation A that I know works and has been battle tested"—and integrating it into a new chip. Due to advancements like *die expansion* and *transistor shrinkage*, there's ample space for the proven A core plus a new, aggressive core B.
+    *   **Core B's Role**: Core B is designed to be "very aggressive," trying "all kinds of crazy optimization," performing tasks "out of order," "speculating," and "getting ahead" by pulling data from memory.
+    *   **Core A's Role**: Core A acts as a "checker core" or "validation engine." Although slower, it can keep up because B has already done the heavy lifting of reordering and fetching data. A doesn't "redo all the calculations" but simply "checked the answer." For example, if B calculates "4 plus 5 equals 9," A checks it as "great." If B calculates "3 plus 3 equals 12," A identifies it as a "problem." This allows for aggressive innovation with a built-in safety net.
+*   **Chicken Bits**: This mechanism, reportedly used by Intel, allows for "backup optimization." If a new feature or optimization doesn't work as expected, *chicken bits* (implemented via "e fuses or eProms") can be set to "turn off a particular feature," effectively "chickening out" of that functionality. This enables aggressive experimentation knowing that problematic features can be disabled.
+
+## Balancing Innovation and Stability
+
+The discussion acknowledges that in rapidly evolving fields like *machine learning* and *AI*, "radical changes" are often necessary for progress. However, the lecture points out a significant challenge: "we want to move fast but without a means of understanding the decisions that are being made" in neural networks.
+
+Even with careful design, new features carry risks. Before implementing innovations like *branch prediction* in CPUs, extensive "tests on profiles" are conducted to understand behavior, and "recovery paths" are established to "flush the pipeline" and restart correctly. Despite these precautions, unforeseen consequences can arise, such as the *Meltdown and Spectre problems*, where branch prediction led to the unintended release of "secure data" through side-channel attacks. This highlights the ongoing challenge of solidifying architecture against "unforeseen consequences" while still pushing technological boundaries.
+
+## Key Takeaways for the Case Study
+
+*   **High Stakes in Embedded Systems**: Even seemingly benign applications like drone delivery of packages carry significant risks if embedded systems fail.
+*   **Risk of Inexperience**: Placing an inexperienced developer in a critical embedded systems role without adequate mentorship can lead to severe problems.
+*   **"Move Fast with Stable" is Preferred**: For critical systems, a philosophy that balances rapid development with robust, stable infrastructure (e.g., backups, validation mechanisms) is crucial to prevent breaking core functionality.
+*   **Lessons from Hardware Design**: Strategies like using a proven core to validate an aggressive new core, or implementing "chicken bits" to disable faulty features, offer models for safe innovation.
+*   **Continuous Vigilance**: Even with careful testing and recovery paths, new technologies can introduce unforeseen security or functional issues, requiring ongoing attention to architectural solidity.
+
+## Supplement: Key Technical Terms
+
+*   **Embedded System**: A computer system with a dedicated function within a larger mechanical or electrical system, often with real-time computing constraints. In the case study, this refers to the drone's control systems.
+*   **Out-of-Order Processors**: A type of CPU that executes instructions in an order different from the original program order to improve performance, by identifying and executing independent instructions earlier.
+*   **Branch Prediction**: A technique used by modern processors to guess the outcome of a conditional jump (branch) instruction before it is actually computed, allowing the processor to pre-fetch and speculatively execute instructions along the predicted path.

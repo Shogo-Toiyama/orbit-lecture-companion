@@ -1,0 +1,1844 @@
+[
+  {
+    "context_before_main_text": [
+      {
+        "sid": "s000233",
+        "text": "You almost like most likely first shot, you can't solve the problem.",
+        "start": 1472940,
+        "end": 1477980,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000234",
+        "text": "It's gotta be an iterative approach.",
+        "start": 1478700,
+        "end": 1480700,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000235",
+        "text": "That's why it takes time, especially when you come to these created algorithms.",
+        "start": 1480860,
+        "end": 1486340,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000236",
+        "text": "Right?",
+        "start": 1486340,
+        "end": 1486700,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000237",
+        "text": "So don't be afraid of trying different things.",
+        "start": 1486940,
+        "end": 1489900,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000238",
+        "text": "Many of them gonna fail and that's good.",
+        "start": 1490860,
+        "end": 1493340,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000239",
+        "text": "From that we're gonna learn.",
+        "start": 1494380,
+        "end": 1495820,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000240",
+        "text": "We just did a few hypothesis.",
+        "start": 1495820,
+        "end": 1498180,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000241",
+        "text": "They both failed.",
+        "start": 1498180,
+        "end": 1499380,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000242",
+        "text": "But based on that, you came up with another algorithm.",
+        "start": 1499380,
+        "end": 1501960,
+        "speaker": "A"
+      }
+    ],
+    "main_text": [
+      {
+        "sid": "s000243",
+        "text": "So based on that, let me suggest the following.",
+        "start": 1503070,
+        "end": 1505710,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000244",
+        "text": "Let me get rid of that.",
+        "start": 1506510,
+        "end": 1507950,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000245",
+        "text": "Let me get rid of that.",
+        "start": 1507950,
+        "end": 1509310,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000246",
+        "text": "So there are numbers that are finalized.",
+        "start": 1510190,
+        "end": 1513310,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000247",
+        "text": "I put them in brackets.",
+        "start": 1513390,
+        "end": 1514990,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000248",
+        "text": "Okay?",
+        "start": 1516430,
+        "end": 1517070,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000249",
+        "text": "But there are also numbers that are temporary.",
+        "start": 1517550,
+        "end": 1520590,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000250",
+        "text": "For example, I've seen a.",
+        "start": 1521310,
+        "end": 1523710,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000251",
+        "text": "This was 10.",
+        "start": 1524750,
+        "end": 1525790,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000252",
+        "text": "This is one original.",
+        "start": 1526670,
+        "end": 1528680,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000253",
+        "text": "I say for now, I know a path of distance 10 from A to S. I'm not going to finalize that because it won't work.",
+        "start": 1529640,
+        "end": 1541240,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000254",
+        "text": "I also know a path of length 1, 2 from C to S. Right.",
+        "start": 1542520,
+        "end": 1553160,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000255",
+        "text": "So I think that's what you are hinting at.",
+        "start": 1553770,
+        "end": 1556410,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000256",
+        "text": "Find all these temporary distances to S. Among them, pick the minimum one.",
+        "start": 1556730,
+        "end": 1564730,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000257",
+        "text": "So what are the parentheses numbers?",
+        "start": 1565290,
+        "end": 1568410,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000258",
+        "text": "They are actual paths from a vertex all the way back to S. So we're going to have this thing.",
+        "start": 1568570,
+        "end": 1577050,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000259",
+        "text": "We're going to have this zero.",
+        "start": 1578490,
+        "end": 1581500,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000260",
+        "text": "We're going to have numbers that are finalized.",
+        "start": 1583260,
+        "end": 1586300,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000261",
+        "text": "We denote them by brackets.",
+        "start": 1589820,
+        "end": 1591900,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000262",
+        "text": "We have numbers that are temporary.",
+        "start": 1593900,
+        "end": 1596460,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000263",
+        "text": "What do number in parentheses indicate?",
+        "start": 1599260,
+        "end": 1603340,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000264",
+        "text": "They are the A short his path from that vertex X to S. For this one, it's going to be Y to S. It doesn't mean it's the shortest path.",
+        "start": 1603740,
+        "end": 1621880,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000265",
+        "text": "10 is not the shortest path.",
+        "start": 1622200,
+        "end": 1624440,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000266",
+        "text": "It's a path that is available to me right now.",
+        "start": 1624520,
+        "end": 1627560,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000267",
+        "text": "There might be shorter path later.",
+        "start": 1628040,
+        "end": 1630440,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000268",
+        "text": "And this example shows there is a shorted path.",
+        "start": 1630840,
+        "end": 1634680,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000269",
+        "text": "But I do have a path of length 10.",
+        "start": 1634760,
+        "end": 1637080,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000270",
+        "text": "Of all these short paths here, I'm going to pick a minimum one.",
+        "start": 1638200,
+        "end": 1644120,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000271",
+        "text": "It could be this parenthesis.",
+        "start": 1645880,
+        "end": 1647520,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000272",
+        "text": "This could be this.",
+        "start": 1647520,
+        "end": 1648560,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000273",
+        "text": "That parenthesis is one of them.",
+        "start": 1648560,
+        "end": 1650280,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000274",
+        "text": "I pick the minimum one.",
+        "start": 1651000,
+        "end": 1652760,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000275",
+        "text": "Let's say this is the minimum.",
+        "start": 1653080,
+        "end": 1655080,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000276",
+        "text": "And I say this, this path is the minimum path of everyone with parentheses.",
+        "start": 1656840,
+        "end": 1665560,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000277",
+        "text": "Why?",
+        "start": 1667000,
+        "end": 1667400,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000278",
+        "text": "The proof is exactly that if there was a shorter path to Y, then it had to go with something here, for example, through X and then back to Y.",
+        "start": 1667640,
+        "end": 1687130,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000279",
+        "text": "But the path from S to X is already larger than the path from S to Y.",
+        "start": 1687930,
+        "end": 1695290,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000280",
+        "text": "Why?",
+        "start": 1695610,
+        "end": 1696010,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000281",
+        "text": "Because I picked it that way.",
+        "start": 1696010,
+        "end": 1697850,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000282",
+        "text": "Of all possibilities, I picked the minimum Y.",
+        "start": 1698170,
+        "end": 1701290,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000283",
+        "text": "Therefore, any other path that later on by contradiction takes me to Y is going to be larger than higher rate than the one that I picked here.",
+        "start": 1703050,
+        "end": 1716990,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000284",
+        "text": "So based on all the thinking, all the examples, being patient, the few algorithms you came up with, or few ideas that you came up with that failed, all of that leads to this idea?",
+        "start": 1718590,
+        "end": 1733550,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000285",
+        "text": "Yes.",
+        "start": 1733630,
+        "end": 1734110,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000286",
+        "text": "How do you know that the 1:1.",
+        "start": 1734750,
+        "end": 1736000,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000287",
+        "text": "Next to the D is finalized?",
+        "start": 1736000,
+        "end": 1737400,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000288",
+        "text": "Oh, I don't know.",
+        "start": 1739720,
+        "end": 1741320,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000289",
+        "text": "So B has been reached and finalized.",
+        "start": 1741880,
+        "end": 1747560,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000290",
+        "text": "S has been reached and finalized.",
+        "start": 1748200,
+        "end": 1750600,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000291",
+        "text": "Okay, so now my choices are this or that.",
+        "start": 1750600,
+        "end": 1755160,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000292",
+        "text": "The only way that I can go from C to S is either through two or some other way, right?",
+        "start": 1757240,
+        "end": 1766610,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000293",
+        "text": "So if there was some other way.",
+        "start": 1767890,
+        "end": 1770290,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000294",
+        "text": "Let me use a different color.",
+        "start": 1770450,
+        "end": 1772290,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000295",
+        "text": "If there was some other way, and that green would have been by contradiction, less than 2.",
+        "start": 1774050,
+        "end": 1781090,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000296",
+        "text": "I do have a contradiction, because from here to S is of already greater than 2, then I add some extra stuff to it, it's going to be even more than two.",
+        "start": 1782450,
+        "end": 1793980,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000297",
+        "text": "So of all the paths that are reachable to S currently, I pick the minimum one.",
+        "start": 1794700,
+        "end": 1800860,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000298",
+        "text": "That's why I put the word mini here.",
+        "start": 1801100,
+        "end": 1803740,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000299",
+        "text": "Therefore, any other path that takes me to C is going to be larger than 2.",
+        "start": 1805100,
+        "end": 1811100,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000300",
+        "text": "Therefore, finalizing C, saying this is the final path is correct.",
+        "start": 1811740,
+        "end": 1818300,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000301",
+        "text": "The proof is basically this.",
+        "start": 1818700,
+        "end": 1821020,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000302",
+        "text": "Does it make sense?",
+        "start": 1822140,
+        "end": 1823260,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000303",
+        "text": "So how did I find this C idea is by trying a few other things, noticing that they all fail, and trying to reason why it failed.",
+        "start": 1826220,
+        "end": 1839310,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000304",
+        "text": "And maybe as a next extension, I come up with this idea of all possibilities of paths that are not finalized, pick the minimum one.",
+        "start": 1841220,
+        "end": 1851220,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000305",
+        "text": "Yes, please.",
+        "start": 1851300,
+        "end": 1852020,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000306",
+        "text": "Instead of checking for what are the distances or finalized or not, why do we not just remove the edges that we're going?",
+        "start": 1852660,
+        "end": 1858500,
+        "speaker": "C"
+      },
+      {
+        "sid": "s000307",
+        "text": "So let's say if we're going from S to C, we can keep count of, okay, we cross the one, we cross the one, count is two, and then we can remove those edges.",
+        "start": 1859060,
+        "end": 1868350,
+        "speaker": "C"
+      },
+      {
+        "sid": "s000308",
+        "text": "So there only remains the passes that we haven't taken until we see the vertex that we look.",
+        "start": 1868750,
+        "end": 1875950,
+        "speaker": "C"
+      },
+      {
+        "sid": "s000309",
+        "text": "So you mean remove that?",
+        "start": 1875950,
+        "end": 1877310,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000310",
+        "text": "Well, we keep count of it, which is 10, and then we removed it because we have already gotten to A.",
+        "start": 1878030,
+        "end": 1884270,
+        "speaker": "C"
+      },
+      {
+        "sid": "s000311",
+        "text": "But there exists other passes that we haven't already seen.",
+        "start": 1884430,
+        "end": 1887910,
+        "speaker": "C"
+      },
+      {
+        "sid": "s000312",
+        "text": "So we start taking those until certain vertex is found.",
+        "start": 1887910,
+        "end": 1891800,
+        "speaker": "C"
+      },
+      {
+        "sid": "s000313",
+        "text": "So what is it that we remove?",
+        "start": 1891800,
+        "end": 1893480,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000314",
+        "text": "I the edges that we visit.",
+        "start": 1893640,
+        "end": 1895880,
+        "speaker": "C"
+      },
+      {
+        "sid": "s000315",
+        "text": "Why Would we remove them?",
+        "start": 1897240,
+        "end": 1899040,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000316",
+        "text": "They got.",
+        "start": 1899040,
+        "end": 1899720,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000317",
+        "text": "You mean this is like this is finalized?",
+        "start": 1899800,
+        "end": 1902840,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000318",
+        "text": "I don't deal with this anymore.",
+        "start": 1902840,
+        "end": 1904600,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000319",
+        "text": "Well, I keep count of it and I just remove it because I've taken that path already towards my vertex that I'm looking for.",
+        "start": 1904760,
+        "end": 1912040,
+        "speaker": "C"
+      },
+      {
+        "sid": "s000320",
+        "text": "So.",
+        "start": 1912200,
+        "end": 1912560,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000321",
+        "text": "So by putting this as one, it means you don't need to.",
+        "start": 1912560,
+        "end": 1915720,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000322",
+        "text": "You don't need to physically remove it.",
+        "start": 1917410,
+        "end": 1919410,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000323",
+        "text": "Maybe that's what you're saying, but you're saying, because I have one, I know something about this path already.",
+        "start": 1919410,
+        "end": 1925890,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000324",
+        "text": "That's fine.",
+        "start": 1925890,
+        "end": 1926650,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000325",
+        "text": "That's implementation detail.",
+        "start": 1926650,
+        "end": 1928290,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000326",
+        "text": "We are after a higher level idea, an algorithm.",
+        "start": 1929730,
+        "end": 1934930,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000327",
+        "text": "Then when we get to the bottom, how do we implement it?",
+        "start": 1935410,
+        "end": 1938930,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000328",
+        "text": "Remove edges, add edges, keep track of these temporary numbers, whatever those come kind of at the end.",
+        "start": 1939010,
+        "end": 1946380,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000329",
+        "text": "Before that, we have a higher level idea always that we need to be comfortable.",
+        "start": 1946780,
+        "end": 1951980,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000330",
+        "text": "Yes, please.",
+        "start": 1953020,
+        "end": 1953740,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000331",
+        "text": "I'm sorry, can you explain what the.",
+        "start": 1953900,
+        "end": 1956420,
+        "speaker": "C"
+      },
+      {
+        "sid": "s000332",
+        "text": "Subset that we're choosing is?",
+        "start": 1956420,
+        "end": 1959180,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000333",
+        "text": "Yes.",
+        "start": 1959180,
+        "end": 1959660,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000334",
+        "text": "First off, let's do an example here.",
+        "start": 1963020,
+        "end": 1966220,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000335",
+        "text": "The subset is A.",
+        "start": 1966700,
+        "end": 1968070,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000336",
+        "text": "A is reachable to S. Now there might be many vertices here that are not reachable to S. Their distances are not finalized yet.",
+        "start": 1968220,
+        "end": 1979260,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000337",
+        "text": "Okay, so A is reachable to S. C is reachable to SV of B.",
+        "start": 1979740,
+        "end": 1986220,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000338",
+        "text": "So these two, and there might be many other vertices here.",
+        "start": 1986780,
+        "end": 1990780,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000339",
+        "text": "That's so so far are not reachable to us.",
+        "start": 1993260,
+        "end": 1995850,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000340",
+        "text": "They are not adjacent to something that's finalized.",
+        "start": 1996250,
+        "end": 1999210,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000341",
+        "text": "This is finalized.",
+        "start": 1999530,
+        "end": 2000810,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000342",
+        "text": "This is finalized.",
+        "start": 2000810,
+        "end": 2001850,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000343",
+        "text": "So all the neighbors of finalized one, that's the subset.",
+        "start": 2002250,
+        "end": 2006090,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000344",
+        "text": "And the proof is based on that of all these, you pick the minimum one.",
+        "start": 2006650,
+        "end": 2011690,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000345",
+        "text": "So we have three types of weights.",
+        "start": 2014330,
+        "end": 2018970,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000346",
+        "text": "One, one is S to itself.",
+        "start": 2019130,
+        "end": 2020700,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000347",
+        "text": "That's trivial.",
+        "start": 2020700,
+        "end": 2021620,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000348",
+        "text": "That's why I put S way up there in a category by itself.",
+        "start": 2021940,
+        "end": 2025540,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000349",
+        "text": "Then there are the brackets that are vertices whose weight have been finalized, meaning that's the shortest time.",
+        "start": 2026260,
+        "end": 2034340,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000350",
+        "text": "I put somebody here only when I'm sure its distance is finalized.",
+        "start": 2034420,
+        "end": 2040180,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000351",
+        "text": "I never have to touch that again.",
+        "start": 2040180,
+        "end": 2041940,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000352",
+        "text": "So I put D in the bracket parts.",
+        "start": 2042660,
+        "end": 2045720,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000353",
+        "text": "Then I see A and C. They come into temporary parts.",
+        "start": 2046120,
+        "end": 2050680,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000354",
+        "text": "Yeah.",
+        "start": 2052520,
+        "end": 2053080,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000355",
+        "text": "Both paths to A represented every path.",
+        "start": 2053880,
+        "end": 2059160,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000356",
+        "text": "Yes, every path that is.",
+        "start": 2059160,
+        "end": 2060760,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000357",
+        "text": "So I'll show you the data structure for keeping track of both of these paths.",
+        "start": 2061160,
+        "end": 2066200,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000358",
+        "text": "But for now, yes, we need to have them all.",
+        "start": 2066200,
+        "end": 2068680,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000359",
+        "text": "That has a weird 10 and then also going all the way around that.",
+        "start": 2070930,
+        "end": 2074690,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000360",
+        "text": "Because both of those are in there.",
+        "start": 2074690,
+        "end": 2076050,
+        "speaker": "C"
+      },
+      {
+        "sid": "s000361",
+        "text": "No, so that's the whole point.",
+        "start": 2076850,
+        "end": 2079330,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000362",
+        "text": "The path that goes all the way, let's say this way and back to C. I haven't seen these.",
+        "start": 2079570,
+        "end": 2085970,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000363",
+        "text": "So these are temporary paths for numbers.",
+        "start": 2086370,
+        "end": 2089090,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000364",
+        "text": "So I know the temporary distance from C to S this way is 2.",
+        "start": 2089090,
+        "end": 2093730,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000365",
+        "text": "That freight is 11.",
+        "start": 2094850,
+        "end": 2096210,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000366",
+        "text": "That's.",
+        "start": 2096299,
+        "end": 2096699,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000367",
+        "text": "I mean, like to A, you could go to B, C. Sorry, say that again.",
+        "start": 2097579,
+        "end": 2106179,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000368",
+        "text": "I mean, is like the path from S to A, which it has a weight of 10.",
+        "start": 2106179,
+        "end": 2109659,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000369",
+        "text": "And I'm also going all the way around.",
+        "start": 2109659,
+        "end": 2111419,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000370",
+        "text": "So using B, C, and then back A are those on both of those paths?",
+        "start": 2111419,
+        "end": 2115579,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000371",
+        "text": "No, I only.",
+        "start": 2116459,
+        "end": 2117739,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000372",
+        "text": "So far, I only know the path from C to S and from A to S. And so I have two vertices whose distance to S I know so far.",
+        "start": 2118139,
+        "end": 2129830,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000373",
+        "text": "I pick the minimum one, C. And I can prove, as I did here, that this distance CBS is going to be the minimum path.",
+        "start": 2130230,
+        "end": 2141830,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000374",
+        "text": "Therefore, this becomes from temporary 2 to permanent 2.",
+        "start": 2141910,
+        "end": 2146310,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000375",
+        "text": "Then later I need to do something with A. I haven't talked about that.",
+        "start": 2147440,
+        "end": 2151360,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000376",
+        "text": "A is going to remain in the temporary one.",
+        "start": 2151520,
+        "end": 2154880,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000377",
+        "text": "So these are permanent, These are temporary.",
+        "start": 2155520,
+        "end": 2159520,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000378",
+        "text": "So one of these guys, Y is going to move from here to permanent, and everyone else is going to remain as temporary.",
+        "start": 2160880,
+        "end": 2171040,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000379",
+        "text": "There are also vertices that I haven't even visited.",
+        "start": 2173130,
+        "end": 2176570,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000380",
+        "text": "Where do they go?",
+        "start": 2176570,
+        "end": 2177610,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000381",
+        "text": "If that's an implementation detail, people say, let's assign a weight of infinity to that temporary weight of infinity.",
+        "start": 2178890,
+        "end": 2188330,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000382",
+        "text": "So put all of these in this category, just leave their weight as infinity.",
+        "start": 2188490,
+        "end": 2194930,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000383",
+        "text": "That's one way, implementation way.",
+        "start": 2194930,
+        "end": 2198170,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000384",
+        "text": "Another way is for these that I haven't even seen, create yet another category called unreachables.",
+        "start": 2198170,
+        "end": 2205410,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000385",
+        "text": "Same thing.",
+        "start": 2206690,
+        "end": 2207330,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000386",
+        "text": "So personal implementation preference, please.",
+        "start": 2207650,
+        "end": 2214290,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000387",
+        "text": "Probably a little bit difficulty, I guess.",
+        "start": 2214610,
+        "end": 2216650,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000388",
+        "text": "Understanding how like two, you can put.",
+        "start": 2216650,
+        "end": 2218370,
+        "speaker": "C"
+      },
+      {
+        "sid": "s000389",
+        "text": "Brackets around it when you don't know all the paths to get to it.",
+        "start": 2218370,
+        "end": 2221330,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000390",
+        "text": "That's the whole proof there.",
+        "start": 2221650,
+        "end": 2223410,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000391",
+        "text": "Okay, so any other path that comes to C gotta go through a yes or no.",
+        "start": 2223970,
+        "end": 2231500,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000392",
+        "text": "Okay, so this 10 is already greater than 2.",
+        "start": 2231980,
+        "end": 2236620,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000393",
+        "text": "So any other path.",
+        "start": 2237100,
+        "end": 2238620,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000394",
+        "text": "There are billions of paths going to C. They have to go through 10.",
+        "start": 2238700,
+        "end": 2243340,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000395",
+        "text": "All the weights are positive.",
+        "start": 2244140,
+        "end": 2245660,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000396",
+        "text": "10 plus a positive number is going to be larger than 2 because 2 is larger than 10.",
+        "start": 2246140,
+        "end": 2253190,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000397",
+        "text": "Why is 2 larger than 10?",
+        "start": 2253430,
+        "end": 2255790,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000398",
+        "text": "Because I picked it that way.",
+        "start": 2255790,
+        "end": 2257430,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000399",
+        "text": "That's why I wrote minimum.",
+        "start": 2257590,
+        "end": 2259190,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000400",
+        "text": "That's T. Make sense?",
+        "start": 2259190,
+        "end": 2261670,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000401",
+        "text": "And what you just asked, that's the T part of the proof.",
+        "start": 2263830,
+        "end": 2268150,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000402",
+        "text": "The rest of it are miscellaneous.",
+        "start": 2268150,
+        "end": 2270030,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000403",
+        "text": "That's the main operation.",
+        "start": 2270030,
+        "end": 2271510,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000404",
+        "text": "First we did it for just the very first one.",
+        "start": 2272310,
+        "end": 2275350,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000405",
+        "text": "But in general, it's not really the same idea and the same proof.",
+        "start": 2275510,
+        "end": 2279210,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000406",
+        "text": "So the rest of it is, how do I implement it?",
+        "start": 2280410,
+        "end": 2283370,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000407",
+        "text": "How do I.",
+        "start": 2283530,
+        "end": 2284410,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000408",
+        "text": "What kind of data structure?",
+        "start": 2284570,
+        "end": 2286130,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000409",
+        "text": "What you just asked?",
+        "start": 2286130,
+        "end": 2287170,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000410",
+        "text": "That's the key part of the proof.",
+        "start": 2287170,
+        "end": 2288970,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000411",
+        "text": "Once you observe that the rest is trivial and most algorithms are kind of like that, there is a central team, we discover that the rest becomes easier.",
+        "start": 2289210,
+        "end": 2299770,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000412",
+        "text": "So if you want to write node to yourself.",
+        "start": 2300890,
+        "end": 2304490,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000413",
+        "text": "How do I prove that?",
+        "start": 2304570,
+        "end": 2305930,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000414",
+        "text": "Write to yourself.",
+        "start": 2308090,
+        "end": 2309450,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000415",
+        "text": "The key point is min is gonna be the actual shortest path from Y to X.",
+        "start": 2309450,
+        "end": 2316970,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000416",
+        "text": "That's the key hypothesis.",
+        "start": 2317050,
+        "end": 2321450,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000417",
+        "text": "Once you prove that, the rest is easy.",
+        "start": 2321770,
+        "end": 2324010,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000418",
+        "text": "Please.",
+        "start": 2324970,
+        "end": 2325370,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000419",
+        "text": "Does this also work for directive reactions?",
+        "start": 2325770,
+        "end": 2328170,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000420",
+        "text": "Yes, most things that I say works for directed graph, unless I say otherwise.",
+        "start": 2328740,
+        "end": 2336820,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000421",
+        "text": "Okay, so the way it goes is like this.",
+        "start": 2341300,
+        "end": 2345540,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000422",
+        "text": "The way the algorithm proceeds.",
+        "start": 2345700,
+        "end": 2347620,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000423",
+        "text": "Based on the example, based on what we did here, based on this proof, the algorithm preceding in the following MANNER, I have S0.",
+        "start": 2347620,
+        "end": 2364150,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000424",
+        "text": "That's how I initialize my algorithm.",
+        "start": 2365350,
+        "end": 2368150,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000425",
+        "text": "Then I have a set of vertices that are permanent.",
+        "start": 2368630,
+        "end": 2371990,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000426",
+        "text": "And I have a set of vertices that are temporary.",
+        "start": 2374390,
+        "end": 2377430,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000427",
+        "text": "Initially, there is nothing impermanent on the S. And everyone else is in temporary.",
+        "start": 2381120,
+        "end": 2389600,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000428",
+        "text": "With some that says with all of them actually initially saying infinite weight because no one has been reached.",
+        "start": 2390640,
+        "end": 2399440,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000429",
+        "text": "At the beginning of the algorithm, before I do anything, first step, set this to 00.",
+        "start": 2399760,
+        "end": 2406670,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000430",
+        "text": "Nothing else has happened.",
+        "start": 2407150,
+        "end": 2408670,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000431",
+        "text": "Then you look at all neighbors of S, meaning of all these, you will update their value, which was originally for all of them, infinity.",
+        "start": 2409630,
+        "end": 2421870,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000432",
+        "text": "Some of them, if they are directly connected to S, you go from infinity to one, you go from infinity to 10, and the other remain at infinity.",
+        "start": 2422830,
+        "end": 2437720,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000433",
+        "text": "Okay, so in that example, C and all these X, Y, Z remain at infinity.",
+        "start": 2439160,
+        "end": 2445880,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000434",
+        "text": "That after, right after I set S to zero, that's what's going to happen.",
+        "start": 2446360,
+        "end": 2451000,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000435",
+        "text": "Step one of the algorithm, or step two of the algorithm.",
+        "start": 2451480,
+        "end": 2455640,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000436",
+        "text": "I update this line.",
+        "start": 2456600,
+        "end": 2458040,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000437",
+        "text": "I take the minimum of these values happen to be one, I move one up here, so that becomes permanent.",
+        "start": 2460400,
+        "end": 2473200,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000438",
+        "text": "And the way I picked one is the minimum of 1 10, infinity, infinity, infinity.",
+        "start": 2474960,
+        "end": 2482240,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000439",
+        "text": "And based on what you asked, the proof, that must be the minimum ever.",
+        "start": 2485770,
+        "end": 2491930,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000440",
+        "text": "There is going to be a billion other paths that's going to go through here.",
+        "start": 2492330,
+        "end": 2496810,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000441",
+        "text": "Because this is the minimum.",
+        "start": 2497130,
+        "end": 2498890,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000442",
+        "text": "All those billion other paths must go through other vertices.",
+        "start": 2499130,
+        "end": 2502730,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000443",
+        "text": "They are already larger than mean, so anything extra is going to be larger.",
+        "start": 2502970,
+        "end": 2508090,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000444",
+        "text": "Okay, so so far it's the initialization step.",
+        "start": 2510660,
+        "end": 2514500,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000445",
+        "text": "Then for this, it will have edges going to some vertices.",
+        "start": 2516260,
+        "end": 2523140,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000446",
+        "text": "I will update their value.",
+        "start": 2526180,
+        "end": 2528180,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000447",
+        "text": "So if this value was 10, why was it 10?",
+        "start": 2530020,
+        "end": 2535100,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000448",
+        "text": "Because it had a direct path to S. Now, because this became permanent, this value 10 may change.",
+        "start": 2535100,
+        "end": 2544080,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000449",
+        "text": "For example, if there was here an X of weight three, because I moved V up here, that 10 and three the minimum of, sorry, four, three plus one.",
+        "start": 2544160,
+        "end": 2561360,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000450",
+        "text": "The minimum of those values becomes the new parenthesis value.",
+        "start": 2561840,
+        "end": 2565820,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000451",
+        "text": "Because I just found a better way for A to go through S. That's that way.",
+        "start": 2566940,
+        "end": 2574060,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000452",
+        "text": "So I will reflect that, please.",
+        "start": 2574380,
+        "end": 2577900,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000453",
+        "text": "So you just don't look at the cost field.",
+        "start": 2577980,
+        "end": 2580140,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000454",
+        "text": "You look at the total cost.",
+        "start": 2580860,
+        "end": 2582460,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000455",
+        "text": "Right?",
+        "start": 2584860,
+        "end": 2585260,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000456",
+        "text": "I look at.",
+        "start": 2585340,
+        "end": 2586140,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000457",
+        "text": "Because what matters in this problem is how close are you to S?",
+        "start": 2586300,
+        "end": 2589980,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000458",
+        "text": "How close you are to S is this value plus the new H1 plus 3.",
+        "start": 2590950,
+        "end": 2596230,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000459",
+        "text": "And I already have a value 10.",
+        "start": 2596550,
+        "end": 2598710,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000460",
+        "text": "So I can take the minimum.",
+        "start": 2598950,
+        "end": 2600590,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000461",
+        "text": "And there might be other parts.",
+        "start": 2600590,
+        "end": 2602230,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000462",
+        "text": "I take the minimum of all these, I update this with the minimum value and kind of.",
+        "start": 2602230,
+        "end": 2608710,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000463",
+        "text": "Why is it 3 plus 1?",
+        "start": 2608710,
+        "end": 2610310,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000464",
+        "text": "Because the distance now from A to S is 3 plus 1.",
+        "start": 2610390,
+        "end": 2614150,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000465",
+        "text": "That's why I write 4, not 3.",
+        "start": 2614310,
+        "end": 2616910,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000466",
+        "text": "Make sense?",
+        "start": 2619390,
+        "end": 2620110,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000467",
+        "text": "That's it.",
+        "start": 2621710,
+        "end": 2622470,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000468",
+        "text": "I told you.",
+        "start": 2622470,
+        "end": 2623230,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000469",
+        "text": "Not the last step of the implementation, but we know how it goes now.",
+        "start": 2624110,
+        "end": 2628110,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000470",
+        "text": "So I just move one of these up there and I updated the values, keep going of whatever else is left, Pick the minimum, move it up, update the values, keep doing that till everybody ends up in.",
+        "start": 2628350,
+        "end": 2643070,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000471",
+        "text": "You're done.",
+        "start": 2643870,
+        "end": 2644430,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000472",
+        "text": "Each step was based on that fact.",
+        "start": 2645630,
+        "end": 2648670,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000473",
+        "text": "That minimum will give you the shortest path.",
+        "start": 2648670,
+        "end": 2651710,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000474",
+        "text": "Each step, therefore, is optimal.",
+        "start": 2652190,
+        "end": 2654430,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000475",
+        "text": "Therefore the entire algorithm is optimal.",
+        "start": 2654510,
+        "end": 2657070,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000476",
+        "text": "So it's a greedy paradigm.",
+        "start": 2657230,
+        "end": 2659150,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000477",
+        "text": "What mattered was how to carefully pick the next vertex.",
+        "start": 2661070,
+        "end": 2665390,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000478",
+        "text": "We tried three different ways of picking the next version vertex, and they all failed.",
+        "start": 2666110,
+        "end": 2671380,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000479",
+        "text": "But because they failed, they gave us new ideas.",
+        "start": 2672020,
+        "end": 2675300,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000480",
+        "text": "And those new ideas, one of them turned out to be actually optimal.",
+        "start": 2675940,
+        "end": 2679940,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000481",
+        "text": "So it's creepy.",
+        "start": 2680180,
+        "end": 2681300,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000482",
+        "text": "There are billions of vertices that I haven't seen yet.",
+        "start": 2681780,
+        "end": 2685380,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000483",
+        "text": "Nevertheless, I insist that B or after that, C are the minimum.",
+        "start": 2686260,
+        "end": 2692180,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000484",
+        "text": "And I want to finalize their paths, even though I haven't.",
+        "start": 2692500,
+        "end": 2697580,
+        "speaker": "A"
+      }
+    ],
+    "context_after_main_text": [
+      {
+        "sid": "s000485",
+        "text": "As you said, there are a billion other paths that takes me to C. But based on this observation, the distance from S to C is finalized at each step.",
+        "start": 2698300,
+        "end": 2710860,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000486",
+        "text": "And that's the proof.",
+        "start": 2712780,
+        "end": 2713980,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000487",
+        "text": "So I keep applying the proof.",
+        "start": 2714060,
+        "end": 2715900,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000488",
+        "text": "One more vertex proof, one more step till I'm done with all the vertices.",
+        "start": 2716220,
+        "end": 2721800,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000489",
+        "text": "Again, I don't care if you know this algorithm or not.",
+        "start": 2725720,
+        "end": 2728800,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000490",
+        "text": "Actually, I can, but that's not the point.",
+        "start": 2728800,
+        "end": 2731320,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000491",
+        "text": "The point is everything that happened before this last step, the thinking process, the failing of some ideas.",
+        "start": 2731480,
+        "end": 2738440,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000492",
+        "text": "I wasn't afraid.",
+        "start": 2738440,
+        "end": 2739400,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000493",
+        "text": "You gave me a few ideas that actually helped me come up with this.",
+        "start": 2739560,
+        "end": 2743480,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000494",
+        "text": "So don't be afraid of coming up with these new ideas.",
+        "start": 2743720,
+        "end": 2746510,
+        "speaker": "A"
+      }
+    ]
+  }
+]

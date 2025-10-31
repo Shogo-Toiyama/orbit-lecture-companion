@@ -1,0 +1,1425 @@
+{
+  "labels": [
+    {
+      "sid": "s000475",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Describes a specific case of a radiation machine failure."
+    },
+    {
+      "sid": "s000476",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Continues explaining the radiation machine failure details."
+    },
+    {
+      "sid": "s000477",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Further details the cause and effect of the machine failure."
+    },
+    {
+      "sid": "s000478",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Categorizes the failure as a software engineering issue."
+    },
+    {
+      "sid": "s000479",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Identifies a specific software engineering practice that was missed."
+    },
+    {
+      "sid": "s000480",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Identifies another missed software engineering practice."
+    },
+    {
+      "sid": "s000481",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Contrasts past software development practices with current ones."
+    },
+    {
+      "sid": "s000482",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Discusses modern software development practices involving groups and AI."
+    },
+    {
+      "sid": "s000483",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Emphasizes the importance of code review and development practices."
+    },
+    {
+      "sid": "s000484",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Introduces another example: the Pentium floating point bug."
+    },
+    {
+      "sid": "s000485",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explains the limited impact of the Pentium bug on average users."
+    },
+    {
+      "sid": "s000486",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Discusses the publicity and issues surrounding the Pentium bug."
+    },
+    {
+      "sid": "s000487",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "States the cost associated with the Pentium bug."
+    },
+    {
+      "sid": "s000488",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Refers to the lack of further issues from the Pentium bug."
+    },
+    {
+      "sid": "s000489",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Characterizes these failures as costly but not ethical problems."
+    },
+    {
+      "sid": "s000490",
+      "role": "chitchat",
+      "role_score": 0.7,
+      "role_reason": "Short affirmative interjection, not core content."
+    },
+    {
+      "sid": "s000491",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Introduces the Mars Climate Orbiter failure example."
+    },
+    {
+      "sid": "s000492",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explains the measurement system used by the Orbiter's onboard system."
+    },
+    {
+      "sid": "s000493",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explains the measurement system used by the Orbiter's ground control."
+    },
+    {
+      "sid": "s000494",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Details the cause and cost of the Mars Orbiter failure."
+    },
+    {
+      "sid": "s000495",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Highlights the specific cause of the Mars Orbiter failure."
+    },
+    {
+      "sid": "s000496",
+      "role": "chitchat",
+      "role_score": 0.7,
+      "role_reason": "Short affirmative interjection, not core content."
+    },
+    {
+      "sid": "s000497",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Lists other examples of software failures."
+    },
+    {
+      "sid": "s000498",
+      "role": "chitchat",
+      "role_score": 0.7,
+      "role_reason": "Short affirmative interjection, not core content."
+    },
+    {
+      "sid": "s000499",
+      "role": "chitchat",
+      "role_score": 0.7,
+      "role_reason": "Short affirmative interjection, not core content."
+    },
+    {
+      "sid": "s000500",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Summarizes the need for testing and feedback in development."
+    },
+    {
+      "sid": "s000501",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "States that common software engineering practices could prevent issues."
+    },
+    {
+      "sid": "s000502",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Reiterates that these failures don't necessarily rise to ethical issues."
+    },
+    {
+      "sid": "s000503",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Introduces a new concept related to design certainty and agreement."
+    },
+    {
+      "sid": "s000504",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Transitioning to a new concept illustration."
+    },
+    {
+      "sid": "s000505",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explains the relationship between development time and control."
+    },
+    {
+      "sid": "s000506",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Discusses certainty, agreement, and complexity in design."
+    },
+    {
+      "sid": "s000507",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explains how complexity and uncertainty can lead to chaos."
+    },
+    {
+      "sid": "s000508",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Introduces system complexity as a key design factor."
+    },
+    {
+      "sid": "s000509",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Contrasts system complexity with simple measurement mismatches."
+    },
+    {
+      "sid": "s000510",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Links system complexity to current AI challenges."
+    },
+    {
+      "sid": "s000511",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explains the difficulty of debugging complex AI models."
+    },
+    {
+      "sid": "s000512",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Argues that difficulty in dealing with complexity can become ethical."
+    },
+    {
+      "sid": "s000513",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Describes releasing an incompletely understood product."
+    },
+    {
+      "sid": "s000514",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Poses a question about the ethical implications of releasing untested products."
+    },
+    {
+      "sid": "s000515",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Answers the question, suggesting it can be an ethical issue."
+    },
+    {
+      "sid": "s000516",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Clarifies when an issue might rise to the level of ethical concern."
+    },
+    {
+      "sid": "s000517",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Discusses the ethical concern of not understanding a product."
+    },
+    {
+      "sid": "s000518",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Concludes that lack of understanding rises to ethical concern."
+    },
+    {
+      "sid": "s000519",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Transitioning to a new concept: complexity and design."
+    },
+    {
+      "sid": "s000520",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Asks if students have heard of a specific philosophy of software design."
+    },
+    {
+      "sid": "s000521",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explains John Osterhau's concept of complexity canonization."
+    },
+    {
+      "sid": "s000522",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Defines 'known knowns' in the context of software development."
+    },
+    {
+      "sid": "s000523",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explains why 'known knowns' are not a risk."
+    },
+    {
+      "sid": "s000524",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Discusses managing 'known knowns' as part of regular project management."
+    },
+    {
+      "sid": "s000525",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explains how 'known knowns' are managed in projects."
+    },
+    {
+      "sid": "s000526",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Asks a question about companies releasing products too soon with knowns."
+    },
+    {
+      "sid": "s000527",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Labels releasing products too soon with knowns as a bad practice."
+    },
+    {
+      "sid": "s000528",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Introduces the concept of 'known unknowns'."
+    },
+    {
+      "sid": "s000529",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Defines 'known unknowns' as classical risks."
+    },
+    {
+      "sid": "s000530",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explains understanding and managing 'known unknowns'."
+    },
+    {
+      "sid": "s000531",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Describes managing 'known unknowns' and monitoring them."
+    },
+    {
+      "sid": "s000532",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Provides an example of a 'known unknown': hacker attack."
+    },
+    {
+      "sid": "s000533",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explains monitoring risks beyond the firewall."
+    },
+    {
+      "sid": "s000534",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Defines 'unknown knowledge' (likely meant 'unknown unknowns')."
+    },
+    {
+      "sid": "s000535",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Provides an alternative term for 'unknown unknowns'."
+    },
+    {
+      "sid": "s000536",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Introduces 'unknown unknown' as the worst category."
+    },
+    {
+      "sid": "s000537",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Defines 'unknown unknown' as not knowing about a problem."
+    },
+    {
+      "sid": "s000538",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explains the problem of increasing 'unknown unknowns' in systems."
+    },
+    {
+      "sid": "s000539",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Connects 'unknown unknowns' to ethical considerations in product release."
+    },
+    {
+      "sid": "s000540",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Defines complexity in terms of dependencies and obscurity."
+    },
+    {
+      "sid": "s000541",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Introduces strategies for managing complexity."
+    },
+    {
+      "sid": "s000542",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Suggests software engineering classes as a way to manage complexity."
+    },
+    {
+      "sid": "s000543",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explains incremental complexity as a management strategy."
+    },
+    {
+      "sid": "s000544",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Contrasts rushed development with strategic programming for complexity."
+    },
+    {
+      "sid": "s000545",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Mentions practices to avoid unnecessary complexity."
+    },
+    {
+      "sid": "s000546",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Asks for comments or questions, signaling a Q&A session."
+    },
+    {
+      "sid": "s000547",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "A student question, possibly rhetorical or seeking clarification."
+    },
+    {
+      "sid": "s000548",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Introduces the topic of liability in software failures."
+    },
+    {
+      "sid": "s000549",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Lists common sources of bugs in software."
+    },
+    {
+      "sid": "s000550",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Poses a question about responsibility for software bugs."
+    },
+    {
+      "sid": "s000551",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Refers back to a previous example (Therac) to discuss liability."
+    },
+    {
+      "sid": "s000552",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Reiterates that the Therac case was not an ethical dilemma."
+    },
+    {
+      "sid": "s000553",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Asks if the programmer should be responsible for the Therac failure."
+    },
+    {
+      "sid": "s000554",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Asks to compare liability in different failure scenarios."
+    },
+    {
+      "sid": "s000555",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student answers the question about programmer responsibility."
+    },
+    {
+      "sid": "s000556",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student continues explaining why blaming one person is difficult."
+    },
+    {
+      "sid": "s000557",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student elaborates on the difficulty of assigning blame in large projects."
+    },
+    {
+      "sid": "s000558",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student continues to explain the lack of clear negligence."
+    },
+    {
+      "sid": "s000559",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student explains the absence of intentional wrongdoing."
+    },
+    {
+      "sid": "s000560",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student contrasts unintentional failure with intentional decisions."
+    },
+    {
+      "sid": "s000561",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student provides a hypothetical scenario of intentional negligence."
+    },
+    {
+      "sid": "s000562",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student continues the hypothetical scenario of ignoring a known issue."
+    },
+    {
+      "sid": "s000563",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor poses a hypothetical question based on the Therac case."
+    },
+    {
+      "sid": "s000564",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor asks if good intentions and rushing to market negate liability."
+    },
+    {
+      "sid": "s000565",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student answers the professor's hypothetical question about liability."
+    },
+    {
+      "sid": "s000566",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student expresses uncertainty about the answer to the liability question."
+    },
+    {
+      "sid": "s000567",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student states there is no easy answer to the liability question."
+    },
+    {
+      "sid": "s000568",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student continues to discuss factors influencing liability."
+    },
+    {
+      "sid": "s000569",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student provides a scenario of high probability of harm."
+    },
+    {
+      "sid": "s000570",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student concludes that knowingly causing harm is unacceptable."
+    },
+    {
+      "sid": "s000571",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student discusses weighing risks and benefits in critical situations."
+    },
+    {
+      "sid": "s000572",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student begins to explore a counter-argument."
+    },
+    {
+      "sid": "s000573",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student continues to explore a counter-argument."
+    },
+    {
+      "sid": "s000574",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor engages with the student's counter-argument."
+    },
+    {
+      "sid": "s000575",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor presents a utilitarian argument for releasing the device."
+    },
+    {
+      "sid": "s000576",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor continues the utilitarian argument, citing test results."
+    },
+    {
+      "sid": "s000577",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor continues the utilitarian argument, citing lack of observed deaths."
+    },
+    {
+      "sid": "s000578",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor questions the completeness of testing."
+    },
+    {
+      "sid": "s000579",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor continues the utilitarian argument, citing perceived success."
+    },
+    {
+      "sid": "s000580",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor poses a rhetorical question about wanting people to die."
+    },
+    {
+      "sid": "s000581",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor concludes the utilitarian argument for releasing the product."
+    },
+    {
+      "sid": "s000582",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor states the conclusion of the utilitarian argument regarding liability."
+    },
+    {
+      "sid": "s000583",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student expresses difficulty with the professor's argument."
+    },
+    {
+      "sid": "s000584",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student reiterates the difficulty of the situation."
+    },
+    {
+      "sid": "s000585",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student states there is no clear answer."
+    },
+    {
+      "sid": "s000586",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor asks a clarifying question about the student's point."
+    },
+    {
+      "sid": "s000587",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor states their opinion on liability in the Therac case."
+    },
+    {
+      "sid": "s000588",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor reiterates their opinion on liability."
+    },
+    {
+      "sid": "s000589",
+      "role": "chitchat",
+      "role_score": 0.7,
+      "role_reason": "Short affirmative interjection."
+    },
+    {
+      "sid": "s000590",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor poses a hypothetical question about causality."
+    },
+    {
+      "sid": "s000591",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor continues the hypothetical, focusing on the act of releasing the product."
+    },
+    {
+      "sid": "s000592",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor seeks confirmation of their point."
+    },
+    {
+      "sid": "s000593",
+      "role": "chitchat",
+      "role_score": 0.7,
+      "role_reason": "Short affirmative interjection."
+    },
+    {
+      "sid": "s000594",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor argues for liability based on the product being the cause of death."
+    },
+    {
+      "sid": "s000595",
+      "role": "qa",
+      "role_reason": "Professor emphasizes that the product is the company's responsibility."
+    },
+    {
+      "sid": "s000596",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor poses a counter-argument based on saving lives."
+    },
+    {
+      "sid": "s000597",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor introduces a utilitarian argument for their actions."
+    },
+    {
+      "sid": "s000598",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor poses a hypothetical scenario to challenge the utilitarian argument."
+    },
+    {
+      "sid": "s000599",
+      "role": "chitchat",
+      "role_score": 0.7,
+      "role_reason": "Professor makes a lighthearted comment."
+    },
+    {
+      "sid": "s000600",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor clarifies the intent of their hypothetical question."
+    },
+    {
+      "sid": "s000601",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor distinguishes between intentional harm and unintentional outcomes."
+    },
+    {
+      "sid": "s000602",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor clarifies their lack of malicious intent."
+    },
+    {
+      "sid": "s000603",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor states their positive intention."
+    },
+    {
+      "sid": "s000604",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor suggests a difference in the scenarios."
+    },
+    {
+      "sid": "s000605",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student argues that the outcome still matters regardless of intent."
+    },
+    {
+      "sid": "s000606",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student emphasizes the importance of the outcome."
+    },
+    {
+      "sid": "s000607",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student argues that intentions are irrelevant when death occurs."
+    },
+    {
+      "sid": "s000608",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor begins to explore a new scenario."
+    },
+    {
+      "sid": "s000609",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor expresses doubt about the relevance of intentions."
+    },
+    {
+      "sid": "s000610",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor states the finality of death."
+    },
+    {
+      "sid": "s000611",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor emphasizes the victim's perspective."
+    },
+    {
+      "sid": "s000612",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor introduces the self-driving car dilemma."
+    },
+    {
+      "sid": "s000613",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor explains the argument for self-driving cars being safer."
+    },
+    {
+      "sid": "s000614",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor presents a hypothetical number of deaths in normal driving."
+    },
+    {
+      "sid": "s000615",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor clarifies the context of car accident statistics."
+    },
+    {
+      "sid": "s000616",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor presents the reduced number of deaths with self-driving cars."
+    },
+    {
+      "sid": "s000617",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor asks if this net gain should be acceptable."
+    },
+    {
+      "sid": "s000618",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor argues that even with fewer deaths, the car is safer."
+    },
+    {
+      "sid": "s000619",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor asks if this outcome should be acceptable."
+    },
+    {
+      "sid": "s000620",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor asks if they should not be liable."
+    },
+    {
+      "sid": "s000621",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student expresses a broad concern about the scenario."
+    },
+    {
+      "sid": "s000622",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student asks for clarification on how the two deaths occur."
+    },
+    {
+      "sid": "s000623",
+      "role": "chitchat",
+      "role_score": 0.7,
+      "role_reason": "Short affirmative interjection."
+    },
+    {
+      "sid": "s000624",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor explains the scenario where the algorithm chooses who dies."
+    },
+    {
+      "sid": "s000625",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor asks if they should be liable for the two deaths."
+    },
+    {
+      "sid": "s000626",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor clarifies the scenario as a choice between two outcomes."
+    },
+    {
+      "sid": "s000627",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor describes the situation as a design corner case."
+    },
+    {
+      "sid": "s000628",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor explains the outcome of the corner case."
+    },
+    {
+      "sid": "s000629",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor asks if they should be liable for intentionally killing two people."
+    },
+    {
+      "sid": "s000630",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor argues against liability, framing it as a car crash."
+    },
+    {
+      "sid": "s000631",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor continues the analogy to a car crash."
+    },
+    {
+      "sid": "s000632",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student introduces the factor of public sentiment."
+    },
+    {
+      "sid": "s000633",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student uses autonomous vehicles as an example for public sentiment."
+    },
+    {
+      "sid": "s000634",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student poses a hypothetical about a self-driving car killing someone."
+    },
+    {
+      "sid": "s000635",
+      "role": "chitchat",
+      "role_score": 0.7,
+      "role_reason": "Short affirmative interjection."
+    },
+    {
+      "sid": "s000636",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor agrees with the student's point about inevitability."
+    },
+    {
+      "sid": "s000637",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student explains how public perception might view autonomous vehicle accidents."
+    },
+    {
+      "sid": "s000638",
+      "role": "chitchat",
+      "role_score": 0.7,
+      "role_reason": "Short affirmative interjection."
+    },
+    {
+      "sid": "s000639",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student concludes that the situation is perceived negatively either way."
+    },
+    {
+      "sid": "s000640",
+      "role": "chitchat",
+      "role_score": 0.7,
+      "role_reason": "Short affirmative interjection."
+    },
+    {
+      "sid": "s000641",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor agrees that the situation is difficult."
+    },
+    {
+      "sid": "s000642",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor asks for clarification on a previous statement."
+    },
+    {
+      "sid": "s000643",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor asks for clarification on a previous statement."
+    },
+    {
+      "sid": "s000644",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor asks for clarification on a previous statement."
+    },
+    {
+      "sid": "s000645",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor contrasts the self-driving car scenario with other cases."
+    },
+    {
+      "sid": "s000646",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor uses an interjection to emphasize a point."
+    },
+    {
+      "sid": "s000647",
+      "role": "chitchat",
+      "role_score": 0.7,
+      "role_reason": "Short affirmative interjection."
+    },
+    {
+      "sid": "s000648",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor returns to the car crash analogy."
+    },
+    {
+      "sid": "s000649",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor explains the inevitability of death in the car crash scenario."
+    },
+    {
+      "sid": "s000650",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor contrasts the car crash with the radiation machine scenario."
+    },
+    {
+      "sid": "s000651",
+      "role": "chitchat",
+      "role_score": 0.7,
+      "role_reason": "Short affirmative interjection."
+    },
+    {
+      "sid": "s000652",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor highlights the negative outcome of the radiation machine."
+    },
+    {
+      "sid": "s000653",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor concludes that the radiation machine case is different."
+    },
+    {
+      "sid": "s000654",
+      "role": "chitchat",
+      "role_score": 0.7,
+      "role_reason": "Short affirmative interjection."
+    },
+    {
+      "sid": "s000655",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Introduces a new topic: genetics and DNA scanning."
+    },
+    {
+      "sid": "s000656",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Discusses ongoing work in genetics and its challenges."
+    },
+    {
+      "sid": "s000657",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Mentions a project related to DNA scanning."
+    },
+    {
+      "sid": "s000658",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Asks if the audience knows how DNA is scanned."
+    },
+    {
+      "sid": "s000659",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Introduces an analogy for DNA scanning."
+    },
+    {
+      "sid": "s000660",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Uses a CD as an analogy for data storage."
+    },
+    {
+      "sid": "s000661",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Asks if the audience is familiar with CDs."
+    },
+    {
+      "sid": "s000662",
+      "role": "chitchat",
+      "role_score": 0.7,
+      "role_reason": "Professor makes a lighthearted comment about their age."
+    },
+    {
+      "sid": "s000663",
+      "role": "chitchat",
+      "role_score": 0.7,
+      "role_reason": "Short affirmative interjection."
+    },
+    {
+      "sid": "s000664",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explains what a CD is in simple terms."
+    },
+    {
+      "sid": "s000665",
+      "role": "chitchat",
+      "role_score": 0.7,
+      "role_reason": "Short affirmative interjection."
+    },
+    {
+      "sid": "s000666",
+      "role": "chitchat",
+      "role_score": 0.7,
+      "role_reason": "Short affirmative interjection."
+    },
+    {
+      "sid": "s000667",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Relates CD data capacity to Arduino."
+    },
+    {
+      "sid": "s000668",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explains the analogy of imperfect copies and reconstruction."
+    },
+    {
+      "sid": "s000669",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Connects the analogy to DNA scanning."
+    },
+    {
+      "sid": "s000670",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explains the challenge of reconstructing DNA data."
+    },
+    {
+      "sid": "s000671",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "States the initial thought about DNA similarity."
+    },
+    {
+      "sid": "s000672",
+      "role": "chitchat",
+      "role_score": 0.7,
+      "role_reason": "Short affirmative interjection."
+    },
+    {
+      "sid": "s000673",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Reiterates the high similarity of most DNA."
+    },
+    {
+      "sid": "s000674",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Describes a hypothetical scenario for DNA analysis."
+    },
+    {
+      "sid": "s000675",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Continues describing the hypothetical individual's traits."
+    },
+    {
+      "sid": "s000676",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor begins to explain a potential application."
+    },
+    {
+      "sid": "s000677",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explains the idea of using unique traits as DNA landmarks."
+    },
+    {
+      "sid": "s000678",
+      "role": "chitchat",
+      "role_score": 0.7,
+      "role_reason": "Short affirmative interjection."
+    },
+    {
+      "sid": "s000679",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Compares DNA landmarks to puzzle pieces."
+    },
+    {
+      "sid": "s000680",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "States the current limitation in DNA analysis."
+    },
+    {
+      "sid": "s000681",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explains the reason for the limitation: insufficient scientific understanding."
+    },
+    {
+      "sid": "s000682",
+      "role": "chitchat",
+      "role_score": 0.7,
+      "role_reason": "Short interjection."
+    },
+    {
+      "sid": "s000683",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Summarizes the situation regarding DNA analysis."
+    },
+    {
+      "sid": "s000684",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Draws a parallel between the DNA problem and the Therac case."
+    },
+    {
+      "sid": "s000685",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Discusses the cutting edge of genetic therapy and its uncertainties."
+    },
+    {
+      "sid": "s000686",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explains that the engineering is based on inexact principles."
+    },
+    {
+      "sid": "s000687",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Draws a parallel to autonomous vehicles and societal integration."
+    },
+    {
+      "sid": "s000688",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Poses a question about liability for releasing unproven genetic therapies."
+    },
+    {
+      "sid": "s000689",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student suggests insulation from liability for such cases."
+    },
+    {
+      "sid": "s000690",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student draws an analogy to COVID-19 vaccine development."
+    },
+    {
+      "sid": "s000691",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student notes that early vaccines were not perfect."
+    },
+    {
+      "sid": "s000692",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student explains that companies progressed despite imperfections."
+    },
+    {
+      "sid": "s000693",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor suggests a strategy for selecting trial participants."
+    },
+    {
+      "sid": "s000694",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor frames the decision as choosing between two negative outcomes."
+    },
+    {
+      "sid": "s000695",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor describes the situation as challenging."
+    },
+    {
+      "sid": "s000696",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor states that the situation is not clear-cut."
+    },
+    {
+      "sid": "s000697",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor argues for providing insulation in such cases."
+    },
+    {
+      "sid": "s000698",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student agrees with the professor's point."
+    },
+    {
+      "sid": "s000699",
+      "role": "chitchat",
+      "role_score": 0.7,
+      "role_reason": "Short interjection."
+    },
+    {
+      "sid": "s000700",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Introduces a new example: the Equifax data breach."
+    },
+    {
+      "sid": "s000701",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Contrasts disruptive technology with life-critical applications."
+    },
+    {
+      "sid": "s000702",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Suggests a cautious approach for life-critical technologies."
+    },
+    {
+      "sid": "s000703",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Asks for further thoughts on the previous topic."
+    },
+    {
+      "sid": "s000704",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Introduces the Equifax data breach and its context."
+    },
+    {
+      "sid": "s000705",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "States the scale of the Equifax data breach."
+    },
+    {
+      "sid": "s000706",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Identifies the specific point of failure in the Equifax breach."
+    },
+    {
+      "sid": "s000707",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explains the vulnerability in the Apache Struts implementation."
+    },
+    {
+      "sid": "s000708",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "States the time lag between vulnerability disclosure and the breach."
+    },
+    {
+      "sid": "s000709",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explains the reason for the continued breach at Equifax."
+    },
+    {
+      "sid": "s000710",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Expresses uncertainty about why the update was not made."
+    },
+    {
+      "sid": "s000711",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Speculates on possible reasons for not updating the software."
+    }
+  ]
+}

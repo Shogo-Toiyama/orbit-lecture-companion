@@ -1,0 +1,1113 @@
+{
+  "idx": 4,
+  "title": "The Trolley Problem and Autonomous Vehicles",
+  "count": 138,
+  "sids": [
+    "s000137",
+    "s000139",
+    "s000140",
+    "s000141",
+    "s000143",
+    "s000145",
+    "s000147",
+    "s000148",
+    "s000151",
+    "s000153",
+    "s000154",
+    "s000159",
+    "s000161",
+    "s000163",
+    "s000170",
+    "s000175",
+    "s000176",
+    "s000178",
+    "s000180",
+    "s000182",
+    "s000183",
+    "s000184",
+    "s000185",
+    "s000186",
+    "s000189",
+    "s000195",
+    "s000196",
+    "s000197",
+    "s000198",
+    "s000199",
+    "s000202",
+    "s000204",
+    "s000207",
+    "s000208",
+    "s000209",
+    "s000210",
+    "s000211",
+    "s000213",
+    "s000214",
+    "s000215",
+    "s000217",
+    "s000218",
+    "s000223",
+    "s000227",
+    "s000228",
+    "s000229",
+    "s000230",
+    "s000232",
+    "s000233",
+    "s000234",
+    "s000235",
+    "s000236",
+    "s000238",
+    "s000239",
+    "s000240",
+    "s000242",
+    "s000244",
+    "s000245",
+    "s000248",
+    "s000250",
+    "s000252",
+    "s000253",
+    "s000254",
+    "s000256",
+    "s000260",
+    "s000262",
+    "s000266",
+    "s000267",
+    "s000270",
+    "s000273",
+    "s000274",
+    "s000277",
+    "s000278",
+    "s000279",
+    "s000281",
+    "s000286",
+    "s000287",
+    "s000299",
+    "s000301",
+    "s000306",
+    "s000307",
+    "s000312",
+    "s000317",
+    "s000318",
+    "s000319",
+    "s000320",
+    "s000321",
+    "s000322",
+    "s000323",
+    "s000325",
+    "s000326",
+    "s000333",
+    "s000334",
+    "s000343",
+    "s000344",
+    "s000347",
+    "s000348",
+    "s000351",
+    "s000352",
+    "s000358",
+    "s000359",
+    "s000360",
+    "s000361",
+    "s000363",
+    "s000364",
+    "s000365",
+    "s000368",
+    "s000369",
+    "s000379",
+    "s000382",
+    "s000384",
+    "s000386",
+    "s000387",
+    "s000390",
+    "s000404",
+    "s000405",
+    "s000406",
+    "s000412",
+    "s000414",
+    "s000415",
+    "s000418",
+    "s000419",
+    "s000612",
+    "s000613",
+    "s000616",
+    "s000617",
+    "s000618",
+    "s000619",
+    "s000620",
+    "s000624",
+    "s000625",
+    "s000629",
+    "s000630",
+    "s000632",
+    "s000637",
+    "s000639",
+    "s000648",
+    "s000649"
+  ],
+  "evidences": [
+    {
+      "sid": "s000137",
+      "text": "All right, I want to jump in on something you may have seen already, but I think, to me, at least, it's an interesting exercise for talking about a computing idea that has a really interesting ethical quandary and it's also based on something you would see in a real.",
+      "start": 716190,
+      "end": 733870,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000139",
+      "text": "So there's many different variants of the Charlie crop, but the basic idea is that there's a trolley going out of control.",
+      "start": 739390,
+      "end": 746130,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000140",
+      "text": "It's going to mow down five people who are just sitting there like they wanted to be hit.",
+      "start": 746690,
+      "end": 750130,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000141",
+      "text": "And then there's a track switch in front of you that you can push and switch to kill only one person instead.",
+      "start": 750530,
+      "end": 757010,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000143",
+      "text": "So your decision in this particular case is, do you stop the trolley or not?",
+      "start": 759810,
+      "end": 766050,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000145",
+      "text": "Do you squeeze the track or not to be able to change the direction the trolley is going.",
+      "start": 768690,
+      "end": 772680,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000147",
+      "text": "Pretend that you don't have some kind of strength, stuff trolley in another way.",
+      "start": 773800,
+      "end": 778040,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000148",
+      "text": "So just out of curiosity, how many would choose a. I'm going to pull the switch and I might kill one person, but I would say five.",
+      "start": 778840,
+      "end": 789480,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000151",
+      "text": "What kind of argument would you say that is very utilitarian.",
+      "start": 792720,
+      "end": 797650,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000153",
+      "text": "But assuming that you didn't know anyone here, that would be a very utilitarian solution to the problem.",
+      "start": 803490,
+      "end": 807810,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000154",
+      "text": "One life unfortunately expired and everyone who loves that person but you saved the pot, how many would refuse to touch the switch?",
+      "start": 808290,
+      "end": 815970,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000159",
+      "text": "I mean, you could say beyond the logical thinking.",
+      "start": 825420,
+      "end": 827580,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000161",
+      "text": "I don't want to kill someone.",
+      "start": 828300,
+      "end": 829580,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000163",
+      "text": "When I touch that switch, I'm making a choice.",
+      "start": 831100,
+      "end": 833660,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000170",
+      "text": "Do you have a creative Kobayashi Maru solution here to the, to the trolley problem?",
+      "start": 842900,
+      "end": 847910,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000175",
+      "text": "Any other solutions other than panic?",
+      "start": 856470,
+      "end": 858710,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000176",
+      "text": "Yes, I think, like, it would depend, like, like, depending on who the person, like, who the people are.",
+      "start": 859510,
+      "end": 864750,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000178",
+      "text": "Like, especially if, like, persons, like, they love them or something, like have some kind of relationship it might, like, influence their thinking.",
+      "start": 868590,
+      "end": 874600,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000180",
+      "text": "So that's how you make the trolley problem more interesting.",
+      "start": 876640,
+      "end": 879200,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000182",
+      "text": "And there's other variants as well, where you could push someone off of a bridge and the person is able to stop the trolley.",
+      "start": 879480,
+      "end": 888240,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000183",
+      "text": "And so you, instead of just throwing a switch, you know, you could get the variant where you actively are killing someone to make the trolley stop.",
+      "start": 888320,
+      "end": 895120,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000184",
+      "text": "It's a lot more personal.",
+      "start": 895520,
+      "end": 896560,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000185",
+      "text": "Or, you know, what if you knew the people?",
+      "start": 896880,
+      "end": 898490,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000186",
+      "text": "What if it was someone who was a quote, unquote, more productive member of society versus not it was one.",
+      "start": 898490,
+      "end": 903010,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000189",
+      "text": "That's another variant of the trolley problem.",
+      "start": 906730,
+      "end": 908810,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000195",
+      "text": "Anyway, let's modernize this problem.",
+      "start": 919130,
+      "end": 921770,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000196",
+      "text": "So autonomous vehicles.",
+      "start": 922650,
+      "end": 925540,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000197",
+      "text": "Okay, many of you may have seen this already, but this has been the kind of modern trolley problem.",
+      "start": 925780,
+      "end": 930580,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000198",
+      "text": "Autonomous vehicles.",
+      "start": 930820,
+      "end": 931940,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000199",
+      "text": "The idea being that we're doing all these beautiful things, making our roads safer, protecting the environment by having fewer cars, or making the cars more efficiently, better accessibility for those who need it.",
+      "start": 931940,
+      "end": 942500,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000202",
+      "text": "And there's all kinds of other issues that come with autonomous vehicles that we'll talk about.",
+      "start": 946620,
+      "end": 950860,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000204",
+      "text": "But let's just take a look for a second at the difference morally between a human driver and an autonomous vehicle.",
+      "start": 952780,
+      "end": 959820,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000207",
+      "text": "But an autonomous vehicle, if it was engineered ahead of time and if it was following standards where they have certain types of scenarios, they want to see how the car performs.",
+      "start": 973940,
+      "end": 982840,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000208",
+      "text": "They are programming in, or at least learning in some way through scenarios that are real.",
+      "start": 983240,
+      "end": 989400,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000209",
+      "text": "And so is there a difference in legality for what they are morally held by?",
+      "start": 989560,
+      "end": 996040,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000210",
+      "text": "If their code or learning patterns or test patterns include something that actually occurs and makes a choice that is questionable, everybody see the difference?",
+      "start": 996120,
+      "end": 1005010,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000211",
+      "text": "So MIT had this project called the Moral Machine, and they had this on their website.",
+      "start": 1007730,
+      "end": 1013410,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000213",
+      "text": "I don't know if it's still there or not, but it was basically a set of questions like the trolley problem, where they would show a scenario and say, here's a car, autonomous vehicle, it can't stop, I don't know why, it breaks her out.",
+      "start": 1013930,
+      "end": 1026370,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000214",
+      "text": "And it can either plow into five pedestrians or one and swerve out of the way.",
+      "start": 1027140,
+      "end": 1032500,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000215",
+      "text": "Kind of like the trolley problem.",
+      "start": 1033140,
+      "end": 1034580,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000217",
+      "text": "So what should it do?",
+      "start": 1035620,
+      "end": 1036620,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000218",
+      "text": "And the difference here is that you're dealing with a car where you're programming it ahead of time.",
+      "start": 1036620,
+      "end": 1042180,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000223",
+      "text": "So they camp with all different variants.",
+      "start": 1049380,
+      "end": 1051940,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000227",
+      "text": "They said, what if it was two elderly people, two young people and a cat versus five people who just robbed the bank and are carrying a bag of money?",
+      "start": 1055870,
+      "end": 1063710,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000228",
+      "text": "Which should the car pick does that influence?",
+      "start": 1065710,
+      "end": 1067630,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000229",
+      "text": "They had all kinds of scenarios and all kinds of ways for people to think about.",
+      "start": 1068430,
+      "end": 1073470,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000230",
+      "text": "How would they weigh one life or another?",
+      "start": 1073710,
+      "end": 1075630,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000232",
+      "text": "Here's my scenario.",
+      "start": 1084760,
+      "end": 1085880,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000233",
+      "text": "Let's suppose you are designing an autonomous vehicle and you have a scenario that you are testing.",
+      "start": 1086600,
+      "end": 1092520,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000234",
+      "text": "The scenario is the car is behind a big truck full of logs.",
+      "start": 1092840,
+      "end": 1098280,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000235",
+      "text": "The logs come off and are clearly going to damage the car, maybe kill everyone inside.",
+      "start": 1099160,
+      "end": 1103810,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000236",
+      "text": "If you plow into the logs and you have to go left or right.",
+      "start": 1103810,
+      "end": 1107330,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000238",
+      "text": "You've got a motorcyclist wearing a helmet to the right and an suv, lots of safety features, full of people to the left.",
+      "start": 1110930,
+      "end": 1117650,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000239",
+      "text": "Which way do you go?",
+      "start": 1118210,
+      "end": 1119330,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000240",
+      "text": "Do you crash into the SUV or you crash into the motorcycle?",
+      "start": 1119490,
+      "end": 1121970,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000242",
+      "text": "Kind of horrible thought, but I'm asking.",
+      "start": 1127810,
+      "end": 1130970,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000244",
+      "text": "The number of passengers in the car.",
+      "start": 1133450,
+      "end": 1135050,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000245",
+      "text": "Okay, let's say that the yellow car has four passengers and the SUV has five, and the motorcyclist is just a solo.",
+      "start": 1135130,
+      "end": 1144250,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000248",
+      "text": "You would plow over the motorcycle knowing that they will die?",
+      "start": 1147690,
+      "end": 1151130,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000250",
+      "text": "At least the passengers have a higher chance to survive.",
+      "start": 1152090,
+      "end": 1154110,
+      "role": "qa"
+    },
+    {
+      "sid": "s000252",
+      "text": "But these two cars are modern cars with good airbags.",
+      "start": 1155460,
+      "end": 1160020,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000253",
+      "text": "Maybe somebody's gonna get hurt, but they're not gonna die.",
+      "start": 1160180,
+      "end": 1162820,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000254",
+      "text": "What do you have against the motorcycle?",
+      "start": 1163380,
+      "end": 1165060,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000256",
+      "text": "They knew the risks when they got on that motorcycle.",
+      "start": 1170019,
+      "end": 1172260,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000260",
+      "text": "Is there an option to crash him into the wall?",
+      "start": 1174500,
+      "end": 1177340,
+      "role": "qa"
+    },
+    {
+      "sid": "s000262",
+      "text": "You can kill everyone in the yellow car and not affect everyone else.",
+      "start": 1177660,
+      "end": 1180510,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000266",
+      "text": "Some big logs.",
+      "start": 1185460,
+      "end": 1186580,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000267",
+      "text": "It looks like a pretty poorly made car.",
+      "start": 1188500,
+      "end": 1190220,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000270",
+      "text": "Probably gonna wrap around those logs like this.",
+      "start": 1190980,
+      "end": 1192740,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000273",
+      "text": "In that case, I Would probably go towards the SUV just because it's a modern car and it will be less likely for them to die than what.",
+      "start": 1197700,
+      "end": 1215430,
+      "role": "qa"
+    },
+    {
+      "sid": "s000274",
+      "text": "If it's a very fancy suv?",
+      "start": 1215430,
+      "end": 1217790,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000277",
+      "text": "It's some high priced lawyer who's more likely to sue you for your company now for manufacturing a car that crashed into his car.",
+      "start": 1221949,
+      "end": 1228910,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000278",
+      "text": "He's going to get your source code in nut.",
+      "start": 1228910,
+      "end": 1230590,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000279",
+      "text": "Whereas the motorcyclists take the mountain.",
+      "start": 1230750,
+      "end": 1232380,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000281",
+      "text": "I would rather not kill a person as possible.",
+      "start": 1236850,
+      "end": 1239250,
+      "role": "qa"
+    },
+    {
+      "sid": "s000286",
+      "text": "If the options are severely injuring people versus killing people.",
+      "start": 1248050,
+      "end": 1252850,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000287",
+      "text": "I would pick severely injuring people any.",
+      "start": 1252930,
+      "end": 1255450,
+      "role": "qa"
+    },
+    {
+      "sid": "s000299",
+      "text": "Taking a chance on your own life, I mean hitting those logs is going to be worse than hitting either option for you personally.",
+      "start": 1276700,
+      "end": 1282620,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000301",
+      "text": "So you would take the worst option for yourself.",
+      "start": 1283510,
+      "end": 1285270,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000306",
+      "text": "Or I would just like follow whatever like a driver would do.",
+      "start": 1294310,
+      "end": 1298710,
+      "role": "qa"
+    },
+    {
+      "sid": "s000307",
+      "text": "Yeah, so like a driver would radically be greedy and want you to protect their own life.",
+      "start": 1298710,
+      "end": 1303110,
+      "role": "qa"
+    },
+    {
+      "sid": "s000312",
+      "text": "So I think the right answer to this question is that if they were all autonomous, they would talk really quickly and move together and then no one would have touched.",
+      "start": 1312520,
+      "end": 1320640,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000317",
+      "text": "Now you've got two motorcycles to hit and this is not like a scene from the office where you're being hit.",
+      "start": 1328960,
+      "end": 1333440,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000318",
+      "text": "You have to choose.",
+      "start": 1334240,
+      "end": 1335130,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000319",
+      "text": "Choose left or right.",
+      "start": 1335280,
+      "end": 1336720,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000320",
+      "text": "On the left side you've got the macho person who doesn't wear the helmet and someone who's wearing more safety gear.",
+      "start": 1336880,
+      "end": 1345000,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000321",
+      "text": "Do you say, hey, this person chose not to wear a helmet.",
+      "start": 1345000,
+      "end": 1348280,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000322",
+      "text": "They don't care about their own safety.",
+      "start": 1348280,
+      "end": 1349520,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000323",
+      "text": "I'm taking them out.",
+      "start": 1349600,
+      "end": 1350640,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000325",
+      "text": "More likely the one on the right is going to survive.",
+      "start": 1352880,
+      "end": 1354840,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000326",
+      "text": "But the one on the left, maybe they're not safety conscious.",
+      "start": 1354840,
+      "end": 1357600,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000333",
+      "text": "But do you think that this is something that would come up in the engineering process?",
+      "start": 1381010,
+      "end": 1385930,
+      "role": "qa"
+    },
+    {
+      "sid": "s000334",
+      "text": "Don't you think that they're going to have these testing strategies?",
+      "start": 1386500,
+      "end": 1389140,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000343",
+      "text": "So this seems like a real problem that they would encounter, or do you disagree?",
+      "start": 1427470,
+      "end": 1430590,
+      "role": "qa"
+    },
+    {
+      "sid": "s000344",
+      "text": "Do you think this is artificial, that it should just be a complete roll of the dice?",
+      "start": 1430590,
+      "end": 1434270,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000347",
+      "text": "My question is, do you think things like this or the moral machine are important things to go through?",
+      "start": 1439080,
+      "end": 1444480,
+      "role": "qa"
+    },
+    {
+      "sid": "s000348",
+      "text": "Because we have design scenarios that we have to use when building things.",
+      "start": 1444480,
+      "end": 1449040,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000351",
+      "text": "So how can we do this without making these kinds of decisions?",
+      "start": 1453799,
+      "end": 1456840,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000352",
+      "text": "Would it have to be random?",
+      "start": 1457800,
+      "end": 1459040,
+      "role": "qa"
+    },
+    {
+      "sid": "s000358",
+      "text": "Then I think increased coordination is the solution for all of us.",
+      "start": 1478290,
+      "end": 1489030,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000359",
+      "text": "But I mean, it seems like it shouldn't just be a random choice, that we should have some scenarios and there should be a right or wrong answer.",
+      "start": 1489180,
+      "end": 1495420,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000360",
+      "text": "And if they don't coordinate in time or one of the other cars is a human driver, they would have to make that choice.",
+      "start": 1496060,
+      "end": 1501420,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000361",
+      "text": "What about if you are shopping for a car?",
+      "start": 1503340,
+      "end": 1506860,
+      "role": "qa"
+    },
+    {
+      "sid": "s000363",
+      "text": "Assuming that these are both autonomous for a second, and the sales pitch is that this, this car is going to optimize and keep you alive no matter what.",
+      "start": 1509220,
+      "end": 1517710,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000364",
+      "text": "It's plowing over the motorcyclist, it's going into pedestrians, it's doing whatever it has to do to keep you and your family safe, versus here's a car that's going to be better for society.",
+      "start": 1517870,
+      "end": 1527550,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000365",
+      "text": "It's going to overall try to come up with the utilitarian concept of saving the most amount of lives.",
+      "start": 1527550,
+      "end": 1532350,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000368",
+      "text": "So if you're buying an av, do you maximize life everywhere, keep yourself safe at all costs.",
+      "start": 1538350,
+      "end": 1546640,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000369",
+      "text": "Or just not pick an AV in the first place.",
+      "start": 1546640,
+      "end": 1549240,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000379",
+      "text": "Why do you think A is the right choice?",
+      "start": 1570770,
+      "end": 1572370,
+      "role": "qa"
+    },
+    {
+      "sid": "s000382",
+      "text": "If nobody picked cars that were like that, then this would be like the Maximum 5 car and those two will.",
+      "start": 1584050,
+      "end": 1590730,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000384",
+      "text": "It becomes a race to the bottom.",
+      "start": 1599340,
+      "end": 1600860,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000386",
+      "text": "But honestly, you're telling me you have a car.",
+      "start": 1601500,
+      "end": 1604820,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000387",
+      "text": "If you're going to go to a dealership and let's say you had a family or something and you've got, you know, all these different lives, not just your own, you're thinking about what if you had to buy a few minutes?",
+      "start": 1604820,
+      "end": 1615020,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000390",
+      "text": "But if you had to buy it for you and your family, you really would pick A over B knowing that this car might just kill you.",
+      "start": 1617110,
+      "end": 1624470,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000404",
+      "text": "Like the prisoners, but I feel like the economic system where like if everyone maximize their own utility overall it will actually be better.",
+      "start": 1673340,
+      "end": 1682980,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000405",
+      "text": "And then knowing the fact that you will have someone picked up, there's gonna be a decent amount of people picking B and I would rather not lose myself.",
+      "start": 1683140,
+      "end": 1692140,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000406",
+      "text": "And also it's not necessarily necessarily that everyone keep their their own life safer will cause destruction to others.",
+      "start": 1692140,
+      "end": 1699760,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000412",
+      "text": "Feels like ideally you have like regulation, so it probably might have a receipt.",
+      "start": 1714760,
+      "end": 1719000,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000414",
+      "text": "Her answer to the solution was why was that car going so close to the wall in the first place?",
+      "start": 1737170,
+      "end": 1741570,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000415",
+      "text": "That was the failure that gave you people.",
+      "start": 1741570,
+      "end": 1743410,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000418",
+      "text": "Just to make it clear that who we're letting the car plow into is not the only impact from autonomous vehicles.",
+      "start": 1755760,
+      "end": 1762640,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000419",
+      "text": "I feel like I can't say that without saying that there are all these other issues that come with that that are ethical that we can talk about.",
+      "start": 1762880,
+      "end": 1769120,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000612",
+      "text": "So what if it was something like self driving car argument.",
+      "start": 2631590,
+      "end": 2636070,
+      "role": "qa"
+    },
+    {
+      "sid": "s000613",
+      "text": "People make this argument all the time that it's going to be more, it's going to be safer because we humans suck at driving.",
+      "start": 2636070,
+      "end": 2641830,
+      "role": "qa"
+    },
+    {
+      "sid": "s000616",
+      "text": "But with self driving cars, then only two people will die.",
+      "start": 2648790,
+      "end": 2651950,
+      "role": "qa"
+    },
+    {
+      "sid": "s000617",
+      "text": "Isn't that a net gain?",
+      "start": 2652430,
+      "end": 2653870,
+      "role": "qa"
+    },
+    {
+      "sid": "s000618",
+      "text": "And even though two people died with my algorithm, I still made it safer.",
+      "start": 2653870,
+      "end": 2657710,
+      "role": "qa"
+    },
+    {
+      "sid": "s000619",
+      "text": "But shouldn't that be okay?",
+      "start": 2657710,
+      "end": 2658950,
+      "role": "qa"
+    },
+    {
+      "sid": "s000620",
+      "text": "And I shouldn't be liable?",
+      "start": 2658950,
+      "end": 2659950,
+      "role": "qa"
+    },
+    {
+      "sid": "s000624",
+      "text": "So if you could prove that it was my algorithm that chose between crashing into four versus two and it picked two, and that was the only two choices within reason, I still intentionally killed those two people.",
+      "start": 2666510,
+      "end": 2679000,
+      "role": "qa"
+    },
+    {
+      "sid": "s000625",
+      "text": "So should I be liable as a programmer for the two?",
+      "start": 2679720,
+      "end": 2684680,
+      "role": "qa"
+    },
+    {
+      "sid": "s000629",
+      "text": "Shouldn't I still be liable because I intentionally killed two people?",
+      "start": 2696290,
+      "end": 2699250,
+      "role": "qa"
+    },
+    {
+      "sid": "s000630",
+      "text": "No, because it's a car crash.",
+      "start": 2699730,
+      "end": 2707850,
+      "role": "qa"
+    },
+    {
+      "sid": "s000632",
+      "text": "I think like public sentiment matters like as well though.",
+      "start": 2724220,
+      "end": 2726580,
+      "role": "qa"
+    },
+    {
+      "sid": "s000637",
+      "text": "Because people would be like, oh well, if a real human was driving, they could have done better.",
+      "start": 2734620,
+      "end": 2738220,
+      "role": "qa"
+    },
+    {
+      "sid": "s000639",
+      "text": "I don't think there's like a great way because like either way it's going to be perceived bad.",
+      "start": 2739740,
+      "end": 2743420,
+      "role": "qa"
+    },
+    {
+      "sid": "s000648",
+      "text": "Yeah, well I guess because the car crash like it's, it's a car crash.",
+      "start": 2759980,
+      "end": 2763899,
+      "role": "qa"
+    },
+    {
+      "sid": "s000649",
+      "text": "So like either the two or the four are gonna die.",
+      "start": 2763899,
+      "end": 2767740,
+      "role": "qa"
+    }
+  ]
+}

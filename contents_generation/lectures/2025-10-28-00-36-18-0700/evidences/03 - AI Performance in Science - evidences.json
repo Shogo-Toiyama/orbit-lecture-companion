@@ -1,0 +1,81 @@
+{
+  "idx": 3,
+  "title": "AI Performance in Science",
+  "count": 9,
+  "sids": [
+    "s000012",
+    "s000013",
+    "s000023",
+    "s000034",
+    "s000035",
+    "s000036",
+    "s000196",
+    "s000589",
+    "s000590"
+  ],
+  "evidences": [
+    {
+      "sid": "s000012",
+      "text": "So in this case they try to take three biology, physics and chemistry.",
+      "start": 56000,
+      "end": 61040,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000013",
+      "text": "And they decided to make a set of questions that really are for experts in the field.",
+      "start": 61920,
+      "end": 66400,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000023",
+      "text": "And you can see the delta between the experts, particularly for chemistry, delta is pretty big.",
+      "start": 106890,
+      "end": 112890,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000034",
+      "text": "So this is from their website looking at recent sort of performance in Grok, which you know, has some, maybe some racist tendencies in some places.",
+      "start": 154830,
+      "end": 167270,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000035",
+      "text": "But in other cases does pretty well, at least in chemistry, biology and Physics.",
+      "start": 167270,
+      "end": 170590,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000036",
+      "text": "88.4% on the GPQA, completely blowing away even experts in the particular field.",
+      "start": 171150,
+      "end": 177070,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000196",
+      "text": "It shouldn't just be that, okay, it can solve chemistry stuff that I wouldn't have a chance at, so therefore it's better than me.",
+      "start": 666610,
+      "end": 672960,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000589",
+      "text": "And they say like when, like they get like they publish paper for physics and then they use like if the model uses like a paper that was wrong with ChatGPT, then that paper, that same paper, if it's wrong, then it's going to be feeded back to ChatGPT.",
+      "start": 2353170,
+      "end": 2369970,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000590",
+      "text": "So maybe all the information might be like wrong.",
+      "start": 2370210,
+      "end": 2372730,
+      "role": "lecture"
+    }
+  ]
+}

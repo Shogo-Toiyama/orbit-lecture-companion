@@ -1,0 +1,1457 @@
+{
+  "labels": [
+    {
+      "sid": "s000730",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Explaining algorithm runtime complexity and notation."
+    },
+    {
+      "sid": "s000731",
+      "role": "lecture",
+      "role_score": 0.97,
+      "role_reason": "Elaborating on algorithm runtime notation."
+    },
+    {
+      "sid": "s000732",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Continuing explanation of algorithm steps."
+    },
+    {
+      "sid": "s000733",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Providing specific complexity calculation."
+    },
+    {
+      "sid": "s000734",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Introducing a new perspective on algorithm analysis."
+    },
+    {
+      "sid": "s000735",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Explaining the nature of the 'new' algorithm."
+    },
+    {
+      "sid": "s000736",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Elaborating on different accounting methods for algorithms."
+    },
+    {
+      "sid": "s000737",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Summarizing the concept of different accounting."
+    },
+    {
+      "sid": "s000738",
+      "role": "lecture",
+      "role_score": 0.97,
+      "role_reason": "Referencing previous discussion on accounting methods."
+    },
+    {
+      "sid": "s000739",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Using a real-world analogy for accounting."
+    },
+    {
+      "sid": "s000740",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Continuing the real-world analogy."
+    },
+    {
+      "sid": "s000741",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Introducing 'amortize' in the analogy context."
+    },
+    {
+      "sid": "s000742",
+      "role": "lecture",
+      "role_score": 0.97,
+      "role_reason": "Stating a conclusion about algorithm improvement."
+    },
+    {
+      "sid": "s000743",
+      "role": "lecture",
+      "role_score": 0.96,
+      "role_reason": "Professor posing a rhetorical question to the class."
+    },
+    {
+      "sid": "s000744",
+      "role": "lecture",
+      "role_score": 0.96,
+      "role_reason": "Professor answering his own rhetorical question."
+    },
+    {
+      "sid": "s000745",
+      "role": "lecture",
+      "role_score": 0.96,
+      "role_reason": "Evaluating the algorithm's complexity."
+    },
+    {
+      "sid": "s000746",
+      "role": "lecture",
+      "role_score": 0.96,
+      "role_reason": "Further evaluation of algorithm complexity."
+    },
+    {
+      "sid": "s000747",
+      "role": "lecture",
+      "role_score": 0.97,
+      "role_reason": "Identifying a bottleneck in the algorithm."
+    },
+    {
+      "sid": "s000748",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Professor expressing sentiment about a technical problem."
+    },
+    {
+      "sid": "s000749",
+      "role": "lecture",
+      "role_score": 0.97,
+      "role_reason": "Explaining the cost of the bottleneck."
+    },
+    {
+      "sid": "s000750",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Describing a strategy for optimization."
+    },
+    {
+      "sid": "s000751",
+      "role": "lecture",
+      "role_score": 0.97,
+      "role_reason": "Suggesting an area for algorithm improvement."
+    },
+    {
+      "sid": "s000752",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Clarifying the focus of optimization."
+    },
+    {
+      "sid": "s000753",
+      "role": "lecture",
+      "role_score": 0.97,
+      "role_reason": "Summarizing the problem evolution."
+    },
+    {
+      "sid": "s000754",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Explaining the next step in optimization."
+    },
+    {
+      "sid": "s000755",
+      "role": "lecture",
+      "role_score": 0.97,
+      "role_reason": "Transitioning to the next topic/solution."
+    },
+    {
+      "sid": "s000756",
+      "role": "lecture",
+      "role_score": 0.97,
+      "role_reason": "Announcing future course content."
+    },
+    {
+      "sid": "s000757",
+      "role": "lecture",
+      "role_score": 0.96,
+      "role_reason": "Stating the immediate intent of the discussion."
+    },
+    {
+      "sid": "s000758",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Introducing a new data structure: heap."
+    },
+    {
+      "sid": "s000759",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "Defining the heap data structure."
+    },
+    {
+      "sid": "s000760",
+      "role": "lecture",
+      "role_score": 0.97,
+      "role_reason": "Setting up an example for the heap."
+    },
+    {
+      "sid": "s000761",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Describing the heap's tree structure."
+    },
+    {
+      "sid": "s000762",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Further description of heap nodes."
+    },
+    {
+      "sid": "s000763",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "Defining a key characteristic of a heap."
+    },
+    {
+      "sid": "s000764",
+      "role": "lecture",
+      "role_score": 0.97,
+      "role_reason": "Emphasizing the simplicity of the characteristic."
+    },
+    {
+      "sid": "s000765",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Clarifying heap organization."
+    },
+    {
+      "sid": "s000766",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Providing a concrete example of a heap."
+    },
+    {
+      "sid": "s000767",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Explaining why the example fits the heap structure."
+    },
+    {
+      "sid": "s000768",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Further explanation of heap properties."
+    },
+    {
+      "sid": "s000769",
+      "role": "lecture",
+      "role_score": 0.97,
+      "role_reason": "Providing alternative values for the example."
+    },
+    {
+      "sid": "s000770",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "Refining the definition of the heap property."
+    },
+    {
+      "sid": "s000771",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Applying the heap property to a subtree."
+    },
+    {
+      "sid": "s000772",
+      "role": "lecture",
+      "role_score": 0.96,
+      "role_reason": "Professor posing a question to the class."
+    },
+    {
+      "sid": "s000773",
+      "role": "lecture",
+      "role_score": 0.96,
+      "role_reason": "Professor answering his own question."
+    },
+    {
+      "sid": "s000774",
+      "role": "lecture",
+      "role_score": 0.96,
+      "role_reason": "Professor demonstrating the process."
+    },
+    {
+      "sid": "s000775",
+      "role": "lecture",
+      "role_score": 0.97,
+      "role_reason": "Describing the binary tree structure."
+    },
+    {
+      "sid": "s000776",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "Re-emphasizing the key heap property."
+    },
+    {
+      "sid": "s000777",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "Naming the data structure."
+    },
+    {
+      "sid": "s000778",
+      "role": "lecture",
+      "role_score": 0.96,
+      "role_reason": "Professor posing a question about heap operation complexity."
+    },
+    {
+      "sid": "s000779",
+      "role": "qa",
+      "role_score": 0.95,
+      "role_reason": "Professor repeating/prompting student answer to a question."
+    },
+    {
+      "sid": "s000780",
+      "role": "qa",
+      "role_score": 0.98,
+      "role_reason": "Professor's direct answer to the question."
+    },
+    {
+      "sid": "s000781",
+      "role": "lecture",
+      "role_score": 0.96,
+      "role_reason": "Professor asking a follow-up question to the class."
+    },
+    {
+      "sid": "s000782",
+      "role": "lecture",
+      "role_score": 0.96,
+      "role_reason": "Professor answering his own question."
+    },
+    {
+      "sid": "s000783",
+      "role": "lecture",
+      "role_score": 0.97,
+      "role_reason": "Starting to explain the deletion process in a heap."
+    },
+    {
+      "sid": "s000784",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Explaining heap deletion, re-heapify process and complexity."
+    },
+    {
+      "sid": "s000785",
+      "role": "lecture",
+      "role_score": 0.97,
+      "role_reason": "Announcing future coverage of the topic."
+    },
+    {
+      "sid": "s000786",
+      "role": "lecture",
+      "role_score": 0.97,
+      "role_reason": "Stating the current learning objective."
+    },
+    {
+      "sid": "s000787",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Explaining the heapify process."
+    },
+    {
+      "sid": "s000788",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Explaining the source of complexity."
+    },
+    {
+      "sid": "s000789",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "Introducing the term 'heapify' and its purpose."
+    },
+    {
+      "sid": "s000790",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Stating the complexity of heapify."
+    },
+    {
+      "sid": "s000791",
+      "role": "lecture",
+      "role_score": 0.97,
+      "role_reason": "Instructing students on how to use this information."
+    },
+    {
+      "sid": "s000792",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "Reinforcing heap concept and terminology."
+    },
+    {
+      "sid": "s000793",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "Stating a key property of heaps."
+    },
+    {
+      "sid": "s000794",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "Stating another key property of heaps."
+    },
+    {
+      "sid": "s000795",
+      "role": "lecture",
+      "role_score": 0.97,
+      "role_reason": "Drawing a parallel to previous assumptions."
+    },
+    {
+      "sid": "s000796",
+      "role": "lecture",
+      "role_score": 0.97,
+      "role_reason": "Continuing the parallel comparison."
+    },
+    {
+      "sid": "s000797",
+      "role": "lecture",
+      "role_score": 0.97,
+      "role_reason": "Announcing future coverage of the topic."
+    },
+    {
+      "sid": "s000798",
+      "role": "lecture",
+      "role_score": 0.96,
+      "role_reason": "Commenting on the ease of the concept."
+    },
+    {
+      "sid": "s000799",
+      "role": "lecture",
+      "role_score": 0.97,
+      "role_reason": "Transitioning to applying the heap."
+    },
+    {
+      "sid": "s000800",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Explaining the application of the heap structure."
+    },
+    {
+      "sid": "s000801",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Explaining the update process in the algorithm context."
+    },
+    {
+      "sid": "s000802",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Describing how changes are handled with the heap."
+    },
+    {
+      "sid": "s000803",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Explaining the cost of heap operations."
+    },
+    {
+      "sid": "s000804",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Further explaining heap operation costs."
+    },
+    {
+      "sid": "s000805",
+      "role": "lecture",
+      "role_score": 0.97,
+      "role_reason": "Summarizing the concept."
+    },
+    {
+      "sid": "s000806",
+      "role": "lecture",
+      "role_score": 0.97,
+      "role_reason": "Announcing future explanation of the process."
+    },
+    {
+      "sid": "s000807",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Summarizing the algorithm's process with heaps."
+    },
+    {
+      "sid": "s000808",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Explaining complexity and notation for heap operations."
+    },
+    {
+      "sid": "s000809",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Clarifying notation preference."
+    },
+    {
+      "sid": "s000810",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "Calculating total algorithm complexity with heaps."
+    },
+    {
+      "sid": "s000811",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Justifying the complexity calculation."
+    },
+    {
+      "sid": "s000812",
+      "role": "lecture",
+      "role_score": 0.97,
+      "role_reason": "Describing the heap as an advanced data structure."
+    },
+    {
+      "sid": "s000813",
+      "role": "lecture",
+      "role_score": 0.97,
+      "role_reason": "Repeating description of heap as advanced."
+    },
+    {
+      "sid": "s000814",
+      "role": "lecture",
+      "role_score": 0.97,
+      "role_reason": "Comparing heap to an array."
+    },
+    {
+      "sid": "s000815",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "Stating new runtime and comparing it to previous."
+    },
+    {
+      "sid": "s000816",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Professor acknowledging within technical explanation."
+    },
+    {
+      "sid": "s000817",
+      "role": "qa",
+      "role_score": 0.95,
+      "role_reason": "Professor repeating/rephrasing a student's question."
+    },
+    {
+      "sid": "s000818",
+      "role": "qa",
+      "role_score": 0.98,
+      "role_reason": "Professor answering the student's question."
+    },
+    {
+      "sid": "s000819",
+      "role": "qa",
+      "role_score": 0.97,
+      "role_reason": "Continuing the explanation of heap operations."
+    },
+    {
+      "sid": "s000820",
+      "role": "qa",
+      "role_score": 0.97,
+      "role_reason": "Providing an example for the explanation."
+    },
+    {
+      "sid": "s000821",
+      "role": "qa",
+      "role_score": 0.97,
+      "role_reason": "Further explanation of heap mechanics."
+    },
+    {
+      "sid": "s000822",
+      "role": "qa",
+      "role_score": 0.97,
+      "role_reason": "Continuing the explanation of heap operations."
+    },
+    {
+      "sid": "s000823",
+      "role": "qa",
+      "role_score": 0.97,
+      "role_reason": "Explaining worst-case scenario for heap operations."
+    },
+    {
+      "sid": "s000824",
+      "role": "qa",
+      "role_score": 0.98,
+      "role_reason": "Concluding the complexity of heap update."
+    },
+    {
+      "sid": "s000825",
+      "role": "qa",
+      "role_score": 0.98,
+      "role_reason": "Student clarifying their question."
+    },
+    {
+      "sid": "s000826",
+      "role": "qa",
+      "role_score": 0.98,
+      "role_reason": "Student continuing to clarify their question."
+    },
+    {
+      "sid": "s000827",
+      "role": "qa",
+      "role_score": 0.98,
+      "role_reason": "Student providing more context for their question."
+    },
+    {
+      "sid": "s000828",
+      "role": "qa",
+      "role_score": 0.97,
+      "role_reason": "Professor interjecting/acknowledging student clarification."
+    },
+    {
+      "sid": "s000829",
+      "role": "qa",
+      "role_score": 0.97,
+      "role_reason": "Professor confirming student's point."
+    },
+    {
+      "sid": "s000830",
+      "role": "qa",
+      "role_score": 0.97,
+      "role_reason": "Professor reacting to the clarification."
+    },
+    {
+      "sid": "s000831",
+      "role": "qa",
+      "role_score": 0.98,
+      "role_reason": "Professor answering the clarified question about value updates."
+    },
+    {
+      "sid": "s000832",
+      "role": "qa",
+      "role_score": 0.98,
+      "role_reason": "Professor explaining the additional cost of data structure."
+    },
+    {
+      "sid": "s000833",
+      "role": "qa",
+      "role_score": 0.98,
+      "role_reason": "Professor summarizing the cost."
+    },
+    {
+      "sid": "s000834",
+      "role": "qa",
+      "role_score": 0.97,
+      "role_reason": "Professor continuing the explanation."
+    },
+    {
+      "sid": "s000835",
+      "role": "qa",
+      "role_score": 0.97,
+      "role_reason": "Professor correcting a potential misunderstanding."
+    },
+    {
+      "sid": "s000836",
+      "role": "qa",
+      "role_score": 0.97,
+      "role_reason": "Professor providing temporal context."
+    },
+    {
+      "sid": "s000837",
+      "role": "qa",
+      "role_score": 0.98,
+      "role_reason": "Professor explaining the need for efficient minimum finding."
+    },
+    {
+      "sid": "s000838",
+      "role": "qa",
+      "role_score": 0.98,
+      "role_reason": "Professor explaining the cost of heap preparation."
+    },
+    {
+      "sid": "s000839",
+      "role": "qa",
+      "role_score": 0.97,
+      "role_reason": "Professor concluding the point about complexity."
+    },
+    {
+      "sid": "s000840",
+      "role": "lecture",
+      "role_score": 0.97,
+      "role_reason": "Professor summarizing the main ideas."
+    },
+    {
+      "sid": "s000841",
+      "role": "lecture",
+      "role_score": 0.97,
+      "role_reason": "Listing the first algorithm idea."
+    },
+    {
+      "sid": "s000842",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Describing the linear array approach and its operations."
+    },
+    {
+      "sid": "s000843",
+      "role": "lecture",
+      "role_score": 0.97,
+      "role_reason": "Clarifying the scope of the analysis."
+    },
+    {
+      "sid": "s000844",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Stating the total complexity for the linear array."
+    },
+    {
+      "sid": "s000845",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Introducing the second idea: amortized analysis."
+    },
+    {
+      "sid": "s000846",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Explaining components of amortized analysis."
+    },
+    {
+      "sid": "s000847",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Explaining the heap's contribution to complexity."
+    },
+    {
+      "sid": "s000848",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Reinforcing the source of the log factor."
+    },
+    {
+      "sid": "s000849",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Discussing hypothetical ideal data structure."
+    },
+    {
+      "sid": "s000850",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Stating the reality of data structures."
+    },
+    {
+      "sid": "s000851",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Professor acknowledging within technical explanation."
+    },
+    {
+      "sid": "s000852",
+      "role": "qa",
+      "role_score": 0.98,
+      "role_reason": "Student asking a question."
+    },
+    {
+      "sid": "s000853",
+      "role": "qa",
+      "role": "qa",
+      "role_score": 0.98,
+      "role_reason": "Student clarifying their question."
+    },
+    {
+      "sid": "s000854",
+      "role": "qa",
+      "role_score": 0.97,
+      "role_reason": "Professor asking for clarification."
+    },
+    {
+      "sid": "s000855",
+      "role": "qa",
+      "role_score": 0.98,
+      "role_reason": "Student clarifying their question."
+    },
+    {
+      "sid": "s000856",
+      "role": "qa",
+      "role_score": 0.97,
+      "role_reason": "Professor starting to answer the question."
+    },
+    {
+      "sid": "s000857",
+      "role": "qa",
+      "role_score": 0.98,
+      "role_reason": "Professor explaining the previous analysis."
+    },
+    {
+      "sid": "s000858",
+      "role": "qa",
+      "role_score": 0.98,
+      "role_reason": "Professor continuing the explanation of complexity."
+    },
+    {
+      "sid": "s000859",
+      "role": "qa",
+      "role_score": 0.98,
+      "role_reason": "Professor explaining the shift in analysis method."
+    },
+    {
+      "sid": "s000860",
+      "role": "qa",
+      "role_score": 0.98,
+      "role_reason": "Professor explaining the amortized analysis approach."
+    },
+    {
+      "sid": "s000861",
+      "role": "qa",
+      "role_score": 0.98,
+      "role_reason": "Professor concluding the point about 'N'."
+    },
+    {
+      "sid": "s000862",
+      "role": "qa",
+      "role_score": 0.98,
+      "role_reason": "Professor listing the components of the analysis."
+    },
+    {
+      "sid": "s000863",
+      "role": "qa",
+      "role_score": 0.98,
+      "role_reason": "Professor summarizing the components."
+    },
+    {
+      "sid": "s000864",
+      "role": "qa",
+      "role_score": 0.97,
+      "role_reason": "Student acknowledging or prompting."
+    },
+    {
+      "sid": "s000865",
+      "role": "qa",
+      "role_score": 0.98,
+      "role_reason": "Professor summarizing the accounting difference."
+    },
+    {
+      "sid": "s000866",
+      "role": "qa",
+      "role_score": 0.98,
+      "role_reason": "Professor explaining the 'E' approach."
+    },
+    {
+      "sid": "s000867",
+      "role": "qa",
+      "role_score": 0.98,
+      "role_reason": "Professor explaining the 'vertex' approach."
+    },
+    {
+      "sid": "s000868",
+      "role": "qa",
+      "role_score": 0.97,
+      "role_reason": "Professor concluding the comparison."
+    },
+    {
+      "sid": "s000869",
+      "role": "lecture",
+      "role_score": 0.97,
+      "role_reason": "Instructor giving advice on understanding concepts."
+    },
+    {
+      "sid": "s000870",
+      "role": "lecture",
+      "role_score": 0.97,
+      "role_reason": "Announcing future lecture content."
+    },
+    {
+      "sid": "s000871",
+      "role": "lecture",
+      "role_score": 0.97,
+      "role_reason": "Explaining the relevance of current concepts."
+    },
+    {
+      "sid": "s000872",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Summarizing the two algorithmic approaches."
+    },
+    {
+      "sid": "s000873",
+      "role": "lecture",
+      "role_score": 0.97,
+      "role_reason": "Instructor giving advice on comfort with concepts."
+    },
+    {
+      "sid": "s000874",
+      "role": "lecture",
+      "role_score": 0.97,
+      "role_reason": "Adding a detail about the eccentric approach."
+    },
+    {
+      "sid": "s000875",
+      "role": "lecture",
+      "role_score": 0.97,
+      "role_reason": "Summarizing the day's content."
+    },
+    {
+      "sid": "s000876",
+      "role": "lecture",
+      "role_score": 0.97,
+      "role_reason": "Referring to the two algorithms discussed."
+    },
+    {
+      "sid": "s000877",
+      "role": "qa",
+      "role_score": 0.96,
+      "role_reason": "Professor posing a question to the class."
+    },
+    {
+      "sid": "s000878",
+      "role": "qa",
+      "role_score": 0.96,
+      "role_reason": "Professor setting up an exam-like scenario."
+    },
+    {
+      "sid": "s000879",
+      "role": "qa",
+      "role_score": 0.96,
+      "role_reason": "Professor continuing the question."
+    },
+    {
+      "sid": "s000880",
+      "role": "qa",
+      "role_score": 0.96,
+      "role_reason": "Professor repeating the core question."
+    },
+    {
+      "sid": "s000881",
+      "role": "qa",
+      "role_score": 0.96,
+      "role_reason": "Professor prompting for an answer."
+    },
+    {
+      "sid": "s000882",
+      "role": "qa",
+      "role_score": 0.95,
+      "role_reason": "Professor repeating student's answer."
+    },
+    {
+      "sid": "s000883",
+      "role": "qa",
+      "role_score": 0.95,
+      "role_reason": "Professor repeating/confirming student's answer."
+    },
+    {
+      "sid": "s000884",
+      "role": "qa",
+      "role_score": 0.96,
+      "role_reason": "Professor asking for justification."
+    },
+    {
+      "sid": "s000885",
+      "role": "qa",
+      "role_score": 0.98,
+      "role_reason": "Student answering the question."
+    },
+    {
+      "sid": "s000886",
+      "role": "qa",
+      "role_score": 0.96,
+      "role_reason": "Professor pressing for more detail."
+    },
+    {
+      "sid": "s000887",
+      "role": "qa",
+      "role_score": 0.96,
+      "role_reason": "Professor reacting to the answer."
+    },
+    {
+      "sid": "s000888",
+      "role": "qa",
+      "role_score": 0.97,
+      "role_reason": "Professor setting up a scenario for comparison."
+    },
+    {
+      "sid": "s000889",
+      "role": "qa",
+      "role_score": 0.96,
+      "role_reason": "Professor repeating the question."
+    },
+    {
+      "sid": "s000890",
+      "role": "qa",
+      "role_score": 0.97,
+      "role_reason": "Professor asking a rhetorical question, guiding the answer."
+    },
+    {
+      "sid": "s000891",
+      "role": "qa",
+      "role_score": 0.96,
+      "role_reason": "Professor confirming the point."
+    },
+    {
+      "sid": "s000892",
+      "role": "qa",
+      "role_score": 0.97,
+      "role_reason": "Professor explaining choice based on graph density."
+    },
+    {
+      "sid": "s000893",
+      "role": "qa",
+      "role_score": 0.97,
+      "role_reason": "Professor justifying the choice."
+    },
+    {
+      "sid": "s000894",
+      "role": "qa",
+      "role_score": 0.97,
+      "role_reason": "Professor explaining the alternative choice."
+    },
+    {
+      "sid": "s000895",
+      "role": "qa",
+      "role_score": 0.97,
+      "role_reason": "Professor providing another scenario for comparison."
+    },
+    {
+      "sid": "s000896",
+      "role": "qa",
+      "role_score": 0.97,
+      "role_reason": "Professor concluding the comparison."
+    },
+    {
+      "sid": "s000897",
+      "role": "qa",
+      "role_score": 0.97,
+      "role_reason": "Professor summarizing the answers received."
+    },
+    {
+      "sid": "s000898",
+      "role": "qa",
+      "role_score": 0.97,
+      "role_reason": "Professor listing the conditions."
+    },
+    {
+      "sid": "s000899",
+      "role": "qa",
+      "role_score": 0.96,
+      "role_reason": "Professor asking for a more general answer."
+    },
+    {
+      "sid": "s000900",
+      "role": "qa",
+      "role_score": 0.96,
+      "role_reason": "Professor repeating the question."
+    },
+    {
+      "sid": "s000901",
+      "role": "qa",
+      "role_score": 0.96,
+      "role_reason": "Professor clarifying the question."
+    },
+    {
+      "sid": "s000902",
+      "role": "qa",
+      "role_score": 0.97,
+      "role_reason": "Professor guiding towards the solution."
+    },
+    {
+      "sid": "s000903",
+      "role": "qa",
+      "role_score": 0.97,
+      "role_reason": "Professor explaining how to determine the boundary."
+    },
+    {
+      "sid": "s000904",
+      "role": "qa",
+      "role_score": 0.98,
+      "role_reason": "Professor providing the boundary condition."
+    },
+    {
+      "sid": "s000905",
+      "role": "qa",
+      "role_score": 0.97,
+      "role_reason": "Professor stating the rule for algorithm choice."
+    },
+    {
+      "sid": "s000906",
+      "role": "qa",
+      "role_score": 0.97,
+      "role_reason": "Professor stating the inverse rule for algorithm choice."
+    },
+    {
+      "sid": "s000907",
+      "role": "qa",
+      "role_score": 0.97,
+      "role_reason": "Professor correcting himself."
+    },
+    {
+      "sid": "s000908",
+      "role": "qa",
+      "role_score": 0.97,
+      "role_reason": "Professor re-stating the rule."
+    },
+    {
+      "sid": "s000909",
+      "role": "qa",
+      "role_score": 0.97,
+      "role_reason": "Professor providing context for the rule."
+    },
+    {
+      "sid": "s000910",
+      "role": "qa",
+      "role_score": 0.97,
+      "role_reason": "Professor re-stating the rule."
+    },
+    {
+      "sid": "s000911",
+      "role": "qa",
+      "role_score": 0.97,
+      "role_reason": "Professor setting up the ideal answer format."
+    },
+    {
+      "sid": "s000912",
+      "role": "qa",
+      "role_score": 0.97,
+      "role_reason": "Professor providing the first part of the answer."
+    },
+    {
+      "sid": "s000913",
+      "role": "qa",
+      "role_score": 0.97,
+      "role_reason": "Professor explaining what to ask in an interview."
+    },
+    {
+      "sid": "s000914",
+      "role": "chitchat",
+      "role_score": 0.95,
+      "role_reason": "Professor giving career advice/banter about interviews."
+    },
+    {
+      "sid": "s000915",
+      "role": "chitchat",
+      "role_score": 0.95,
+      "role_reason": "Professor giving more career advice/banter."
+    },
+    {
+      "sid": "s000916",
+      "role": "chitchat",
+      "role_score": 0.95,
+      "role_reason": "Professor role-playing a conversation."
+    },
+    {
+      "sid": "s000917",
+      "role": "chitchat",
+      "role_score": 0.95,
+      "role_reason": "Professor role-playing a conversation."
+    },
+    {
+      "sid": "s000918",
+      "role": "chitchat",
+      "role_score": 0.95,
+      "role_reason": "Professor role-playing a conversation."
+    },
+    {
+      "sid": "s000919",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor defining 'dense graph' and applying the rule."
+    },
+    {
+      "sid": "s000920",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor stating the inverse rule for graph density."
+    },
+    {
+      "sid": "s000921",
+      "role": "lecture",
+      "role_score": 0.97,
+      "role_reason": "Professor giving practical instruction for boundary case."
+    },
+    {
+      "sid": "s000922",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Professor stating assumptions for asymptotic analysis."
+    },
+    {
+      "sid": "s000923",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Continuing the assumption about large values."
+    },
+    {
+      "sid": "s000924",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Explaining why asymptotic analysis is used."
+    },
+    {
+      "sid": "s000925",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Justifying the use of asymptotic analysis."
+    },
+    {
+      "sid": "s000926",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Summarizing the type of analysis being used."
+    },
+    {
+      "sid": "s000927",
+      "role": "lecture",
+      "role_score": 0.97,
+      "role_reason": "Providing real-world context for large values."
+    },
+    {
+      "sid": "s000928",
+      "role": "lecture",
+      "role_score": 0.97,
+      "role_reason": "Emphasizing the scale of inputs in modern problems."
+    },
+    {
+      "sid": "s000929",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Concluding the importance of asymptotic analysis."
+    },
+    {
+      "sid": "s000930",
+      "role": "lecture",
+      "role_score": 0.97,
+      "role_reason": "Instructor giving advice to practice the material."
+    },
+    {
+      "sid": "s000931",
+      "role": "lecture",
+      "role_score": 0.97,
+      "role_reason": "Instructor giving advice on understanding concepts."
+    },
+    {
+      "sid": "s000932",
+      "role": "lecture",
+      "role_score": 0.97,
+      "role_reason": "Professor reflecting on the lecture content."
+    },
+    {
+      "sid": "s000933",
+      "role": "lecture",
+      "role_score": 0.97,
+      "role_reason": "Highlighting a key takeaway from the lecture."
+    },
+    {
+      "sid": "s000934",
+      "role": "lecture",
+      "role_score": 0.97,
+      "role_reason": "Reinforcing the key takeaway lesson."
+    },
+    {
+      "sid": "s000935",
+      "role": "lecture",
+      "role_score": 0.96,
+      "role_reason": "Downplaying other aspects of the lecture."
+    },
+    {
+      "sid": "s000936",
+      "role": "lecture",
+      "role_score": 0.97,
+      "role_reason": "Recalling the problem-solving process."
+    },
+    {
+      "sid": "s000937",
+      "role": "lecture",
+      "role_score": 0.97,
+      "role_reason": "Continuing the recall of problem-solving steps."
+    },
+    {
+      "sid": "s000938",
+      "role": "lecture",
+      "role_score": 0.97,
+      "role_reason": "Continuing the recall of problem-solving steps."
+    },
+    {
+      "sid": "s000939",
+      "role": "lecture",
+      "role_score": 0.97,
+      "role_reason": "Continuing the recall of problem-solving steps."
+    },
+    {
+      "sid": "s000940",
+      "role": "lecture",
+      "role_score": 0.97,
+      "role_reason": "Continuing the recall of problem-solving steps."
+    },
+    {
+      "sid": "s000941",
+      "role": "lecture",
+      "role_score": 0.97,
+      "role_reason": "Concluding the proof."
+    },
+    {
+      "sid": "s000942",
+      "role": "lecture",
+      "role_score": 0.97,
+      "role_reason": "Recalling the algorithm validation steps."
+    },
+    {
+      "sid": "s000943",
+      "role": "lecture",
+      "role_score": 0.97,
+      "role_reason": "Acknowledging student contribution to examples."
+    },
+    {
+      "sid": "s000944",
+      "role": "lecture",
+      "role_score": 0.97,
+      "role_reason": "Addressing complexity and confirming validity."
+    },
+    {
+      "sid": "s000945",
+      "role": "lecture",
+      "role_score": 0.97,
+      "role_reason": "Stating confidence in the algorithm."
+    },
+    {
+      "sid": "s000946",
+      "role": "lecture",
+      "role_score": 0.97,
+      "role_reason": "Transitioning to the implementation phase."
+    },
+    {
+      "sid": "s000947",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Describing the first straightforward implementation."
+    },
+    {
+      "sid": "s000948",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Evaluating the first implementation's efficiency."
+    },
+    {
+      "sid": "s000949",
+      "role": "lecture",
+      "role_score": 0.97,
+      "role_reason": "Describing the next observation about overestimation."
+    },
+    {
+      "sid": "s000950",
+      "role": "lecture",
+      "role_score": 0.97,
+      "role_reason": "Proposing a new focus for optimization."
+    },
+    {
+      "sid": "s000951",
+      "role": "lecture",
+      "role_score": 0.97,
+      "role_reason": "Encouraging a different perspective on analysis."
+    },
+    {
+      "sid": "s000952",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Explaining the origin of the edge-centric approach."
+    },
+    {
+      "sid": "s000953",
+      "role": "lecture",
+      "role_score": 0.97,
+      "role_reason": "Identifying a bottleneck in the algorithm."
+    },
+    {
+      "sid": "s000954",
+      "role": "lecture",
+      "role_score": 0.97,
+      "role_reason": "Describing the search for an efficient solution."
+    },
+    {
+      "sid": "s000955",
+      "role": "lecture",
+      "role_score": 0.98,
+      "role_reason": "Describing finding the heap data structure solution."
+    },
+    {
+      "sid": "s000956",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Professor expressing personal sentiment about finding solution."
+    },
+    {
+      "sid": "s000957",
+      "role": "lecture",
+      "role_score": 0.97,
+      "role_reason": "Concluding the solution path."
+    },
+    {
+      "sid": "s000958",
+      "role": "lecture",
+      "role_score": 0.97,
+      "role_reason": "Reflecting on the complexity of the process."
+    },
+    {
+      "sid": "s000959",
+      "role": "lecture",
+      "role_score": 0.97,
+      "role_reason": "Instructor giving an instruction to close materials."
+    },
+    {
+      "sid": "s000960",
+      "role": "lecture",
+      "role_score": 0.97,
+      "role_reason": "Explaining the benefit of recreating the lecture."
+    },
+    {
+      "sid": "s000961",
+      "role": "announcement",
+      "role_score": 0.98,
+      "role_reason": "Mention of exams and instruction to practice."
+    },
+    {
+      "sid": "s000962",
+      "role": "chitchat",
+      "role_score": 0.95,
+      "role_reason": "Professor reflecting on his lecturing style."
+    },
+    {
+      "sid": "s000963",
+      "role": "chitchat",
+      "role_score": 0.95,
+      "role_reason": "Professor mimicking student reaction."
+    },
+    {
+      "sid": "s000964",
+      "role": "chitchat",
+      "role_score": 0.95,
+      "role_reason": "Professor mimicking student reaction."
+    },
+    {
+      "sid": "s000965",
+      "role": "lecture",
+      "role_score": 0.97,
+      "role_reason": "Professor giving pedagogical advice on understanding."
+    },
+    {
+      "sid": "s000966",
+      "role": "lecture",
+      "role_score": 0.97,
+      "role_reason": "Professor continuing pedagogical advice."
+    },
+    {
+      "sid": "s000967",
+      "role": "lecture",
+      "role_score": 0.97,
+      "role_reason": "Professor giving instruction to recreate content."
+    },
+    {
+      "sid": "s000968",
+      "role": "announcement",
+      "role_score": 0.98,
+      "role_reason": "Instruction with a deadline mentioned."
+    },
+    {
+      "sid": "s000969",
+      "role": "announcement",
+      "role_score": 0.99,
+      "role_reason": "Explicit announcement about homework deadline."
+    },
+    {
+      "sid": "s000970",
+      "role": "chitchat",
+      "role_score": 0.98,
+      "role_reason": "Standard closing remark."
+    },
+    {
+      "sid": "s000971",
+      "role": "chitchat",
+      "role_score": 0.90,
+      "role_reason": "Final comment, likely related to recording."
+    }
+  ]
+}

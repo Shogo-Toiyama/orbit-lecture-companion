@@ -1,0 +1,1462 @@
+{
+  "labels": [
+    {
+      "sid": "s000001",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explaining concept of breadth-first search and distance."
+    },
+    {
+      "sid": "s000002",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Introducing weighted graphs and source point."
+    },
+    {
+      "sid": "s000003",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explaining BFS behavior in a weighted graph context."
+    },
+    {
+      "sid": "s000004",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Illustrating distances with numerical examples."
+    },
+    {
+      "sid": "s000005",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Continuing example of distances and edges."
+    },
+    {
+      "sid": "s000006",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Clarifying conditions for unweighted graphs."
+    },
+    {
+      "sid": "s000007",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Defining 'shortest path' for weighted graphs."
+    },
+    {
+      "sid": "s000008",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Providing context for the definition."
+    },
+    {
+      "sid": "s000009",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Giving an example of shortest path calculation in a weighted graph."
+    },
+    {
+      "sid": "s000010",
+      "role": "chitchat",
+      "role_score": 0.7,
+      "role_reason": "Short, informal transition phrase."
+    },
+    {
+      "sid": "s000011",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Summarizing definition and posing a problem."
+    },
+    {
+      "sid": "s000012",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explaining why BFS is unsuitable for weighted graphs."
+    },
+    {
+      "sid": "s000013",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Elaborating on BFS limitations."
+    },
+    {
+      "sid": "s000014",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Reinforcing the limitation."
+    },
+    {
+      "sid": "s000015",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Providing a real-world example for edge weights."
+    },
+    {
+      "sid": "s000016",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Further examples of weighted edges."
+    },
+    {
+      "sid": "s000017",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Describing the objective of finding minimum cost."
+    },
+    {
+      "sid": "s000018",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Comparing to unweighted graph properties."
+    },
+    {
+      "sid": "s000019",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Defining single source, single destination path."
+    },
+    {
+      "sid": "s000020",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explaining relationship between single and multiple destination paths."
+    },
+    {
+      "sid": "s000021",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Elaborating on getting distances for free."
+    },
+    {
+      "sid": "s000022",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Stating similarity of algorithms."
+    },
+    {
+      "sid": "s000023",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Comparing unweighted and weighted cases."
+    },
+    {
+      "sid": "s000024",
+      "role": "chitchat",
+      "role_score": 0.8,
+      "role_reason": "Informal teaser phrase, not direct content."
+    },
+    {
+      "sid": "s000025",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Restating the problem: minimum weight path on weighted graph."
+    },
+    {
+      "sid": "s000026",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Clarifying where weights can be placed."
+    },
+    {
+      "sid": "s000027",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Specifying current focus on edge weights."
+    },
+    {
+      "sid": "s000028",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Reinforcing the scope for today's lecture."
+    },
+    {
+      "sid": "s000029",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Defining the problem: shortest path from S to all vertices."
+    },
+    {
+      "sid": "s000030",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Referring to an example solution being shown."
+    },
+    {
+      "sid": "s000031",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Referring to problem statement details."
+    },
+    {
+      "sid": "s000032",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Giving advice on problem-solving methodology."
+    },
+    {
+      "sid": "s000033",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Rhetorical question about problem understanding."
+    },
+    {
+      "sid": "s000034",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Rhetorical question about problem understanding."
+    },
+    {
+      "sid": "s000035",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Advising on questions to ask when encountering a problem."
+    },
+    {
+      "sid": "s000036",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explaining the impact of wrong assumptions on problem-solving."
+    },
+    {
+      "sid": "s000037",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Consequence of incorrect assumptions leading to wrong solutions."
+    },
+    {
+      "sid": "s000038",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Meta-commentary on emphasizing problem understanding."
+    },
+    {
+      "sid": "s000039",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Stating the importance of understanding the problem."
+    },
+    {
+      "sid": "s000040",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Advising to work through examples for understanding."
+    },
+    {
+      "sid": "s000041",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Advising to identify exceptions and difficulties."
+    },
+    {
+      "sid": "s000042",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Posing a question about weight properties."
+    },
+    {
+      "sid": "s000043",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Continuing to pose questions for problem analysis."
+    },
+    {
+      "sid": "s000044",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Reinforcing the importance of problem understanding exercise."
+    },
+    {
+      "sid": "s000045",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Repeating advice to do examples."
+    },
+    {
+      "sid": "s000046",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explaining how examples can provide solution hints."
+    },
+    {
+      "sid": "s000047",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Positive reinforcement for problem-solving steps."
+    },
+    {
+      "sid": "s000048",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Reassuring that time spent understanding is valuable."
+    },
+    {
+      "sid": "s000049",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Advising against rushing solutions, especially in exams."
+    },
+    {
+      "sid": "s000050",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Further advice on problem-solving approach."
+    },
+    {
+      "sid": "s000051",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Condition for starting algorithm design."
+    },
+    {
+      "sid": "s000052",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "When to begin thinking about an algorithm solution."
+    },
+    {
+      "sid": "s000053",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Applying problem-solving practice to homework."
+    },
+    {
+      "sid": "s000054",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Dispelling misconception about time limits for problems."
+    },
+    {
+      "sid": "s000055",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Continuing the thought on time management."
+    },
+    {
+      "sid": "s000056",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Emphasizing correctness over speed in problem-solving."
+    },
+    {
+      "sid": "s000057",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Highlighting how assumptions drastically alter problems."
+    },
+    {
+      "sid": "s000058",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Illustrating the range of impact of assumptions."
+    },
+    {
+      "sid": "s000059",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Concluding that extra time for understanding is beneficial."
+    },
+    {
+      "sid": "s000060",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Connecting back to the problem and BFS limitations."
+    },
+    {
+      "sid": "s000061",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Discussing potential algorithmic approaches."
+    },
+    {
+      "sid": "s000062",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Mentioning trying modifications of BFS."
+    },
+    {
+      "sid": "s000063",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Evaluating the effectiveness of these approaches."
+    },
+    {
+      "sid": "s000064",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Proposing a hypothetical solution: translating weights to edges."
+    },
+    {
+      "sid": "s000065",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explaining the consequence of the proposed translation."
+    },
+    {
+      "sid": "s000066",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Posing a question about the feasibility of the approach."
+    },
+    {
+      "sid": "s000067",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Stating prior knowledge about unweighted problems."
+    },
+    {
+      "sid": "s000068",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Rephrasing the question about the solution's validity."
+    },
+    {
+      "sid": "s000069",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Providing a nuanced answer to the question."
+    },
+    {
+      "sid": "s000070",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explaining the 'yes' part of the answer."
+    },
+    {
+      "sid": "s000071",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explaining the 'no' part: problem size increase."
+    },
+    {
+      "sid": "s000072",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Consequence of increased problem size on algorithm complexity."
+    },
+    {
+      "sid": "s000073",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Specifying the new parameters for algorithm complexity."
+    },
+    {
+      "sid": "s000074",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Defining 'polynomial time algorithm' in context of input size."
+    },
+    {
+      "sid": "s000075",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explaining input for programming algorithms."
+    },
+    {
+      "sid": "s000076",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Elaborating on input size and efficiency definition."
+    },
+    {
+      "sid": "s000077",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Clarifying what is not polynomial."
+    },
+    {
+      "sid": "s000078",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Further clarification on polynomial complexity."
+    },
+    {
+      "sid": "s000079",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Summarizing the definition of polynomial time."
+    },
+    {
+      "sid": "s000080",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Emphasizing the importance of the point."
+    },
+    {
+      "sid": "s000081",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Foreshadowing future discussions on complexity."
+    },
+    {
+      "sid": "s000082",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explaining why some problems are not truly polynomial time."
+    },
+    {
+      "sid": "s000083",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Setting a standard for complexity terms in the course."
+    },
+    {
+      "sid": "s000084",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Reinforcing the implicit understanding of complexity terms."
+    },
+    {
+      "sid": "s000085",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Concluding the discussion on the weight translation approach."
+    },
+    {
+      "sid": "s000086",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Posing the next step: how to solve the problem."
+    },
+    {
+      "sid": "s000087",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Reflecting on problem similarity to known algorithms."
+    },
+    {
+      "sid": "s000088",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Encouraging exploration but stating limitations of known methods."
+    },
+    {
+      "sid": "s000089",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Introducing algorithmic paradigms as a new approach category."
+    },
+    {
+      "sid": "s000090",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Providing context on the number of available paradigms."
+    },
+    {
+      "sid": "s000091",
+      "role": "announcement",
+      "role_score": 1.0,
+      "role_reason": "Discussing future course content and available tools."
+    },
+    {
+      "sid": "s000092",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Focusing on current algorithmic paradigm for today."
+    },
+    {
+      "sid": "s000093",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Naming the specific algorithmic paradigm: Greedy."
+    },
+    {
+      "sid": "s000094",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Stating the intention to apply the greedy paradigm."
+    },
+    {
+      "sid": "s000095",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Discussing potential outcomes of applying the paradigm."
+    },
+    {
+      "sid": "s000096",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Stating the plan if the current approach fails."
+    },
+    {
+      "sid": "s000097",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Posing a question about the greedy principle."
+    },
+    {
+      "sid": "s000098",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explaining the initial step of the greedy approach."
+    },
+    {
+      "sid": "s000099",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Stating a fundamental property of distance from source to itself."
+    },
+    {
+      "sid": "s000100",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Elaborating on the definition of distance to self."
+    },
+    {
+      "sid": "s000101",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Posing a core question for the greedy algorithm's confidence."
+    },
+    {
+      "sid": "s000102",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Referring to the nature of greedy decisions."
+    },
+    {
+      "sid": "s000103",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Providing an example from a previous lecture (interval scheduling)."
+    },
+    {
+      "sid": "s000104",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explaining the finality of greedy choices."
+    },
+    {
+      "sid": "s000105",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Applying the greedy concept to the current problem."
+    },
+    {
+      "sid": "s000106",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Reasoning about the difficulty of picking distant vertices greedily."
+    },
+    {
+      "sid": "s000107",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Continuing reasoning on difficulty for distant vertices."
+    },
+    {
+      "sid": "s000108",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Concluding that distant vertices are not good greedy choices."
+    },
+    {
+      "sid": "s000109",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Stating the intention to try the greedy approach."
+    },
+    {
+      "sid": "s000110",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Reinforcing the decision to try greedy first."
+    },
+    {
+      "sid": "s000111",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Stating the fallback plan if greedy fails."
+    },
+    {
+      "sid": "s000112",
+      "role": "chitchat",
+      "role_score": 0.7,
+      "role_reason": "Short, informal acknowledgment."
+    },
+    {
+      "sid": "s000113",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Introducing a technical difficulty: negative weights."
+    },
+    {
+      "sid": "s000114",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Teasing future explanation of negative weight issues."
+    },
+    {
+      "sid": "s000115",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Stating the current assumption: positive edge weights."
+    },
+    {
+      "sid": "s000116",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Providing examples of positive integer weights."
+    },
+    {
+      "sid": "s000117",
+      "role": "announcement",
+      "role_score": 1.0,
+      "role_reason": "Discussing future course content on algorithms for negative edges."
+    },
+    {
+      "sid": "s000118",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Stating current limitation regarding negative edges."
+    },
+    {
+      "sid": "s000119",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explaining the lack of tools for negative edge problems."
+    },
+    {
+      "sid": "s000120",
+      "role": "chitchat",
+      "role_score": 0.7,
+      "role_reason": "Short, informal transition."
+    },
+    {
+      "sid": "s000121",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Reiterating difficulty of determining distance to distant nodes."
+    },
+    {
+      "sid": "s000122",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Providing an analogy for pathfinding difficulty (LA to NY)."
+    },
+    {
+      "sid": "s000123",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explaining why the analogy is tough (many ways)."
+    },
+    {
+      "sid": "s000124",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Further details on the analogy's complexity."
+    },
+    {
+      "sid": "s000125",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Summarizing the complexity of the analogy."
+    },
+    {
+      "sid": "s000126",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Contrasting with an easier analogy (LA to San Diego)."
+    },
+    {
+      "sid": "s000127",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explaining why the second analogy is easier (limited choices)."
+    },
+    {
+      "sid": "s000128",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Applying the easier analogy to problem-solving strategy."
+    },
+    {
+      "sid": "s000129",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Summarizing the point of the analogy."
+    },
+    {
+      "sid": "s000130",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Proposing a specific greedy step: looking at closest neighbors."
+    },
+    {
+      "sid": "s000131",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Stating the result of the initial greedy choice."
+    },
+    {
+      "sid": "s000132",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explaining a notation convention (numbers in brackets)."
+    },
+    {
+      "sid": "s000133",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Defining the meaning of the bracket notation."
+    },
+    {
+      "sid": "s000134",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Reinforcing the definition of the notation."
+    },
+    {
+      "sid": "s000135",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Stating a claim about picking the closest neighbor."
+    },
+    {
+      "sid": "s000136",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Posing and answering a question about neighbors."
+    },
+    {
+      "sid": "s000137",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Posing a question to identify the closest neighbor."
+    },
+    {
+      "sid": "s000138",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Posing a question to confirm the closest neighbor."
+    },
+    {
+      "sid": "s000139",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Providing reasoning for identifying the closest neighbor."
+    },
+    {
+      "sid": "s000140",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Stating the greedy decision for the distance to B."
+    },
+    {
+      "sid": "s000141",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Clarifying the meaning of 'distance' as shortest distance."
+    },
+    {
+      "sid": "s000142",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Stating the shortest path distance."
+    },
+    {
+      "sid": "s000143",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Reaffirming the claim about the shortest path."
+    },
+    {
+      "sid": "s000144",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Posing a question about how to prove the claim."
+    },
+    {
+      "sid": "s000145",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Introducing the proof methodology."
+    },
+    {
+      "sid": "s000146",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Setting up the visual for the proof."
+    },
+    {
+      "sid": "s000147",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Stating the proof technique: contradiction."
+    },
+    {
+      "sid": "s000148",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explaining the setup for the proof by contradiction."
+    },
+    {
+      "sid": "s000149",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Important reminder about path length vs. weight."
+    },
+    {
+      "sid": "s000150",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Clarifying that sum of weights is what matters."
+    },
+    {
+      "sid": "s000151",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Continuing the proof by contradiction, focusing on the first edge."
+    },
+    {
+      "sid": "s000152",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Posing a question within the proof's logic."
+    },
+    {
+      "sid": "s000153",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Referring to an example for the proof's variable."
+    },
+    {
+      "sid": "s000154",
+      "role": "chitchat",
+      "role_score": 0.8,
+      "role_reason": "Informal check for understanding."
+    },
+    {
+      "sid": "s000155",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Continuing the proof's logical flow."
+    },
+    {
+      "sid": "s000156",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Core reasoning of the proof, comparing distances."
+    },
+    {
+      "sid": "s000157",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Continuing the proof, adding path segments."
+    },
+    {
+      "sid": "s000158",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Conclusion of the proof step, inequality."
+    },
+    {
+      "sid": "s000159",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Summarizing the inequality from the proof."
+    },
+    {
+      "sid": "s000160",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explaining the algebraic implication due to positive weights."
+    },
+    {
+      "sid": "s000161",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Connecting the proof back to the assumption of no negative edges."
+    },
+    {
+      "sid": "s000162",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explaining how negative edges would invalidate the premise."
+    },
+    {
+      "sid": "s000163",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Concluding why greedy fails with negative edges."
+    },
+    {
+      "sid": "s000164",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Reiterating the initial assumption about negative edges."
+    },
+    {
+      "sid": "s000165",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Clarifying the assumption: no negative edges."
+    },
+    {
+      "sid": "s000166",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Transitioning from proof to summary of findings."
+    },
+    {
+      "sid": "s000167",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Stating the conclusion about the final weight to B."
+    },
+    {
+      "sid": "s000168",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Summarizing the success of finding one minimum distance vertex."
+    },
+    {
+      "sid": "s000169",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Connecting the greedy step to previous problem-solving examples."
+    },
+    {
+      "sid": "s000170",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Drawing a parallel to interval scheduling problem."
+    },
+    {
+      "sid": "s000171",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explaining the interval scheduling analogy in detail."
+    },
+    {
+      "sid": "s000172",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Stating the effect of the greedy step: problem size reduction."
+    },
+    {
+      "sid": "s000173",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Continuing the explanation of problem size reduction."
+    },
+    {
+      "sid": "s000174",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Quantifying the remaining vertices after reduction."
+    },
+    {
+      "sid": "s000175",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Referring to a fixed distance value."
+    },
+    {
+      "sid": "s000176",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Further quantifying the problem size reduction."
+    },
+    {
+      "sid": "s000177",
+      "role": "chitchat",
+      "role_score": 0.7,
+      "role_reason": "Short, informal filler word."
+    },
+    {
+      "sid": "s000178",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Highlighting a special property of vertex B."
+    },
+    {
+      "sid": "s000179",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explaining why B is special and the need for the next closest."
+    },
+    {
+      "sid": "s000180",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Posing a question about the next closest vertex."
+    },
+    {
+      "sid": "s000181",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Answering the question about the next closest neighbor."
+    },
+    {
+      "sid": "s000182",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Stating the next greedy decision for vertex A."
+    },
+    {
+      "sid": "s000183",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Stating the claimed minimum distance to A."
+    },
+    {
+      "sid": "s000184",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Describing the process of scaling up the greedy idea."
+    },
+    {
+      "sid": "s000185",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Challenging the greedy decision for A with a proof idea."
+    },
+    {
+      "sid": "s000186",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Stating the inability to prove the claim for A."
+    },
+    {
+      "sid": "s000187",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explaining why the previous proof for B worked."
+    },
+    {
+      "sid": "s000188",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Reinforcing the definition that made the proof for B work."
+    },
+    {
+      "sid": "s000189",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explaining why the proof fails for A (distance not guaranteed)."
+    },
+    {
+      "sid": "s000190",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Consequence: a shorter path to A might exist."
+    },
+    {
+      "sid": "s000191",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Confirming the existence of a counterexample."
+    },
+    {
+      "sid": "s000192",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Concluding that fixing distance to A greedily is incorrect."
+    },
+    {
+      "sid": "s000193",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Summarizing the failure of the proof technique."
+    },
+    {
+      "sid": "s000194",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Further explanation of the proof's failure and counterexample."
+    },
+    {
+      "sid": "s000195",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Posing a question about the next step after failure."
+    },
+    {
+      "sid": "s000196",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Posing a hypothetical next step for the algorithm."
+    },
+    {
+      "sid": "s000197",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Repeating the hypothetical question for emphasis."
+    },
+    {
+      "sid": "s000198",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Stating uncertainty about the correct next step."
+    },
+    {
+      "sid": "s000199",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Summarizing the failure of the simple greedy idea."
+    },
+    {
+      "sid": "s000200",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Illustrating an ideal next greedy choice if it worked."
+    },
+    {
+      "sid": "s000201",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Stating a 'good' choice in the ideal scenario."
+    },
+    {
+      "sid": "s000202",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Stating a 'bad' choice in the ideal scenario."
+    },
+    {
+      "sid": "s000203",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explaining the iterative process of trying algorithms."
+    },
+    {
+      "sid": "s000204",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Recapping a previous step in the greedy attempt."
+    },
+    {
+      "sid": "s000205",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Commenting on the ease of a previous step."
+    },
+    {
+      "sid": "s000206",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Recapping another step in the greedy attempt."
+    },
+    {
+      "sid": "s000207",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explaining the iterative process of forming hypotheses."
+    },
+    {
+      "sid": "s000208",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explaining the goal of these ideas: new algorithms."
+    },
+    {
+      "sid": "s000209",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Emphasizing methodology over specific problem solutions."
+    },
+    {
+      "sid": "s000210",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Further emphasizing the importance of methodology."
+    },
+    {
+      "sid": "s000211",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Stating that methodology is the key takeaway."
+    },
+    {
+      "sid": "s000212",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explaining the teaching approach: evolving problem-solving thinking."
+    },
+    {
+      "sid": "s000213",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Reinforcing the importance of problem-solving skills."
+    },
+    {
+      "sid": "s000214",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Providing real-world context for problem-solving in jobs."
+    },
+    {
+      "sid": "s000215",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Rhetorical question about the need for new solutions."
+    },
+    {
+      "sid": "s000216",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explaining the value of solving novel problems."
+    },
+    {
+      "sid": "s000217",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Student (B) summarizing and proposing an algorithm modification."
+    },
+    {
+      "sid": "s000218",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Student (B) proposing a continuation of the algorithm."
+    },
+    {
+      "sid": "s000219",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Student (B) continuing to explain their proposed algorithm."
+    },
+    {
+      "sid": "s000220",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Student (B) characterizing their proposed algorithm."
+    },
+    {
+      "sid": "s000221",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor (A) directly acknowledging student's input."
+    },
+    {
+      "sid": "s000222",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor transitions to general problem-solving after student input."
+    },
+    {
+      "sid": "s000223",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor (A) summarizing student's proposed technique."
+    },
+    {
+      "sid": "s000224",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor (A) discussing student's proposed method."
+    },
+    {
+      "sid": "s000225",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor (A) asking if student's method works."
+    },
+    {
+      "sid": "s000226",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor (A) directly answering the question."
+    },
+    {
+      "sid": "s000227",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor (A) proposing to test student's algorithm with new example."
+    },
+    {
+      "sid": "s000228",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor evaluates student's algorithm as part of general lesson."
+    },
+    {
+      "sid": "s000229",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Stating the need for a new algorithmic approach."
+    },
+    {
+      "sid": "s000230",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Student (B) asking another question/proposing an idea."
+    },
+    {
+      "sid": "s000231",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Professor (A) directly acknowledging student's input."
+    },
+    {
+      "sid": "s000232",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor generalizes from student input to problem-solving process."
+    },
+    {
+      "sid": "s000233",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explaining the iterative nature of solving problems."
+    },
+    {
+      "sid": "s000234",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Defining problem-solving as an iterative approach."
+    },
+    {
+      "sid": "s000235",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explaining why algorithm creation takes time."
+    },
+    {
+      "sid": "s000236",
+      "role": "chitchat",
+      "role_score": 0.8,
+      "role_reason": "Informal check for understanding."
+    },
+    {
+      "sid": "s000237",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Encouraging experimentation in problem-solving."
+    },
+    {
+      "sid": "s000238",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Normalizing failure as part of the learning process."
+    },
+    {
+      "sid": "s000239",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Stating the benefit of learning from failures."
+    },
+    {
+      "sid": "s000240",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Referring to previous hypotheses and attempts."
+    },
+    {
+      "sid": "s000241",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Stating the outcome of previous hypotheses."
+    },
+    {
+      "sid": "s000242",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Acknowledging student's contribution within the learning process."
+    },
+    {
+      "sid": "s000243",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Transitioning to a new suggestion based on prior discussion."
+    }
+  ]
+}

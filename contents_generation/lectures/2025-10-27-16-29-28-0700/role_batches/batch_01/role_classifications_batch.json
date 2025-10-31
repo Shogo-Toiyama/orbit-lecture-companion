@@ -1,0 +1,1480 @@
+{
+  "labels": [
+    {
+      "sid": "s000001",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Discussing data quality and its implications."
+    },
+    {
+      "sid": "s000002",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Exploring implications for privacy, facial recognition, safety."
+    },
+    {
+      "sid": "s000003",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Discussing activism, IP concerns, and reversing algorithms."
+    },
+    {
+      "sid": "s000004",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Introducing the ACM code of ethics."
+    },
+    {
+      "sid": "s000005",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Mentioning the ACM code of ethics is structured differently."
+    },
+    {
+      "sid": "s000006",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Detailing sections of the ACM code of ethics."
+    },
+    {
+      "sid": "s000007",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Comparing themes in the code of ethics."
+    },
+    {
+      "sid": "s000008",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Listing core ethical principles: avoiding harm, improving society, fairness."
+    },
+    {
+      "sid": "s000009",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Describing the code of ethics as aspirational."
+    },
+    {
+      "sid": "s000010",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Posing a question about company mandates vs. individual responsibility."
+    },
+    {
+      "sid": "s000011",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Continuing the question about balancing work and ethics."
+    },
+    {
+      "sid": "s000012",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Discussing student complaints about balancing stakeholders and work."
+    },
+    {
+      "sid": "s000013",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Concluding that aspiration is the only option."
+    },
+    {
+      "sid": "s000014",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Critiquing Google and ACM, acknowledging personal limitations."
+    },
+    {
+      "sid": "s000015",
+      "role": "announcement",
+      "role_score": 0.9,
+      "role_reason": "Recounting past participation checks and use of ICLIC."
+    },
+    {
+      "sid": "s000016",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Describing the previous system as draconian."
+    },
+    {
+      "sid": "s000017",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Explaining why the system was abandoned."
+    },
+    {
+      "sid": "s000018",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Stating they gave up on the previous system."
+    },
+    {
+      "sid": "s000019",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Asking for audience opinion on the effectiveness of ethics codes."
+    },
+    {
+      "sid": "s000020",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Stating the opinion that codes of ethics are too high-level."
+    },
+    {
+      "sid": "s000021",
+      "role": "lecture",
+      "role_reason": "Suggesting reliance on past critical incidents for guidance.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000022",
+      "role": "lecture",
+      "role_reason": "Explaining how past ethical problems can serve as examples.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000023",
+      "role": "qa",
+      "role_reason": "Asking if a scenario-based approach would be better.",
+      "role_score": 0.9
+    },
+    {
+      "sid": "s000024",
+      "role": "qa",
+      "role_reason": "Asking for a show of hands on preference for current ethics codes.",
+      "role_score": 0.9
+    },
+    {
+      "sid": "s000025",
+      "role": "chitchat",
+      "role_reason": "Acknowledging the start of a quote.",
+      "role_score": 0.7
+    },
+    {
+      "sid": "s000026",
+      "role": "chitchat",
+      "role_reason": "Identifying the source of the quote.",
+      "role_score": 0.7
+    },
+    {
+      "sid": "s000027",
+      "role": "chitchat",
+      "role_reason": "Confirmation.",
+      "role_score": 0.7
+    },
+    {
+      "sid": "s000028",
+      "role": "chitchat",
+      "role_reason": "Referring to specific examples.",
+      "role_score": 0.7
+    },
+    {
+      "sid": "s000029",
+      "role": "lecture",
+      "role_reason": "Contrasting provided examples with life lessons.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000030",
+      "role": "lecture",
+      "role_reason": "Clarifying the nature of the examples.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000031",
+      "role": "qa",
+      "role_reason": "Asking for a show of hands for option A.",
+      "role_score": 0.9
+    },
+    {
+      "sid": "s000032",
+      "role": "chitchat",
+      "role_reason": "Acknowledging the results of the poll.",
+      "role_score": 0.7
+    },
+    {
+      "sid": "s000033",
+      "role": "chitchat",
+      "role_reason": "Commenting on the number of responses.",
+      "role_score": 0.7
+    },
+    {
+      "sid": "s000034",
+      "role": "qa",
+      "role_reason": "Asking for a show of hands for exemplary influence being better.",
+      "role_score": 0.9
+    },
+    {
+      "sid": "s000035",
+      "role": "lecture",
+      "role_reason": "Explaining the benefit of concrete examples.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000036",
+      "role": "qa",
+      "role_reason": "Asking for a show of hands for option B.",
+      "role_score": 0.9
+    },
+    {
+      "sid": "s000037",
+      "role": "qa",
+      "role_reason": "Asking for a show of hands for 'both'.",
+      "role_score": 0.9
+    },
+    {
+      "sid": "s000038",
+      "role": "qa",
+      "role_reason": "Acknowledging the 'both' response.",
+      "role_score": 0.7
+    },
+    {
+      "sid": "s000039",
+      "role": "lecture",
+      "role_reason": "Justifying the 'both' answer.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000040",
+      "role": "lecture",
+      "role_reason": "Reinforcing the need for both approaches.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000041",
+      "role": "lecture",
+      "role_reason": "Explaining the benefit of combining ethics codes with examples.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000042",
+      "role": "chitchat",
+      "role_reason": "Acknowledging the poll results.",
+      "role_score": 0.7
+    },
+    {
+      "sid": "s000043",
+      "role": "chitchat",
+      "role_reason": "Transitioning.",
+      "role_score": 0.7
+    },
+    {
+      "sid": "s000044",
+      "role": "chitchat",
+      "role_reason": "Acknowledging a response.",
+      "role_score": 0.7
+    },
+    {
+      "sid": "s000045",
+      "role": "chitchat",
+      "role_reason": "Expressing surprise.",
+      "role_score": 0.7
+    },
+    {
+      "sid": "s000046",
+      "role": "qa",
+      "role_reason": "Asking for a show of hands for those who think ethics codes are unnecessary.",
+      "role_score": 0.9
+    },
+    {
+      "sid": "s000047",
+      "role": "qa",
+      "role_reason": "Asking for a show of hands for those who think ethics codes should be discarded.",
+      "role_score": 0.9
+    },
+    {
+      "sid": "s000048",
+      "role": "chitchat",
+      "role_reason": "Acknowledging responses.",
+      "role_score": 0.7
+    },
+    {
+      "sid": "s000049",
+      "role": "chitchat",
+      "role_reason": "Positive comment.",
+      "role_score": 0.7
+    },
+    {
+      "sid": "s000050",
+      "role": "chitchat",
+      "role_reason": "Announcing a transition to an art break.",
+      "role_score": 0.9
+    },
+    {
+      "sid": "s000051",
+      "role": "lecture",
+      "role_reason": "Referencing a previous art example (Knight's Tale).",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000052",
+      "role": "lecture",
+      "role_reason": "Recalling immediate movie references.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000053",
+      "role": "chitchat",
+      "role_reason": "Positive feedback on the previous example.",
+      "role_score": 0.7
+    },
+    {
+      "sid": "s000054",
+      "role": "lecture",
+      "role_reason": "Introducing a new art example.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000055",
+      "role": "lecture",
+      "role_reason": "Setting up the scenario for the new example.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000056",
+      "role": "lecture",
+      "role_reason": "Assigning a persona (Raphael) for the example.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000057",
+      "role": "chitchat",
+      "role_reason": "Acknowledgement.",
+      "role_score": 0.7
+    },
+    {
+      "sid": "s000058",
+      "role": "lecture",
+      "role_reason": "Introducing the artwork.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000059",
+      "role": "qa",
+      "role_reason": "Asking for the name of the artwork.",
+      "role_score": 0.9
+    },
+    {
+      "sid": "s000060",
+      "role": "chitchat",
+      "role_reason": "Expressing surprise and recognition.",
+      "role_score": 0.7
+    },
+    {
+      "sid": "s000061",
+      "role": "lecture",
+      "role_reason": "Recalling seeing the artwork before.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000062",
+      "role": "lecture",
+      "role_reason": "Admitting inability to recall details.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000063",
+      "role": "lecture",
+      "role_reason": "Describing the artwork positively.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000064",
+      "role": "lecture",
+      "role_reason": "Dismissing the importance of the artwork's name.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000065",
+      "role": "chitchat",
+      "role_reason": "Dismissing the importance of the question.",
+      "role_score": 0.7
+    },
+    {
+      "sid": "s000066",
+      "role": "lecture",
+      "role_reason": "Confirming the artist.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000067",
+      "role": "lecture",
+      "role_reason": "Stating certainty about the artist.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000068",
+      "role": "lecture",
+      "role_reason": "Instructing the audience to accept the representation.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000069",
+      "role": "lecture",
+      "role_reason": "Confirming the artist.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000070",
+      "role": "lecture",
+      "role_reason": "Introducing a new example: pixel art.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000071",
+      "role": "lecture",
+      "role_reason": "Describing the pixel art and its creation.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000072",
+      "role": "lecture",
+      "role_reason": "Emphasizing the painstaking creation process.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000073",
+      "role": "lecture",
+      "role_reason": "Hypothesizing the creation method (pixel by pixel).",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000074",
+      "role": "lecture",
+      "role_reason": "Acknowledging the hypothesis might not be literal.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000075",
+      "role": "chitchat",
+      "role_reason": "Acknowledgement.",
+      "role_score": 0.7
+    },
+    {
+      "sid": "s000076",
+      "role": "lecture",
+      "role_reason": "Describing the detailed creation process.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000077",
+      "role": "qa",
+      "role_reason": "Asking a question about the creation of the pixel art.",
+      "role_score": 0.9
+    },
+    {
+      "sid": "s000078",
+      "role": "lecture",
+      "role_reason": "Clarifying the question is not about the definition of art.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000079",
+      "role": "lecture",
+      "role_reason": "Stating that defining art is a separate, complex topic.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000080",
+      "role": "qa",
+      "role_reason": "Reiterating the question about who created the pixel art.",
+      "role_score": 0.9
+    },
+    {
+      "sid": "s000081",
+      "role": "qa",
+      "role_reason": "Asking if Fred created the pixel art.",
+      "role_score": 0.9
+    },
+    {
+      "sid": "s000082",
+      "role": "lecture",
+      "role_reason": "Setting up the scenario: Fred drawing on his computer.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000083",
+      "role": "qa",
+      "role_reason": "Asking directly if Fred created it.",
+      "role_score": 0.9
+    },
+    {
+      "sid": "s000084",
+      "role": "qa",
+      "role_reason": "Asking for a show of hands: did Fred NOT create it?",
+      "role_score": 0.9
+    },
+    {
+      "sid": "s000085",
+      "role": "lecture",
+      "role_reason": "Presenting the counter-argument: the computer created it.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000086",
+      "role": "lecture",
+      "role_reason": "Posing the question of Fred's ability to create without the computer.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000087",
+      "role": "lecture",
+      "role_reason": "Stating the obvious answer: no one would say that.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000088",
+      "role": "lecture",
+      "role_reason": "Mentioning a daughter's contrasting opinion.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000089",
+      "role": "lecture",
+      "role_reason": "Describing the daughter as a purist.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000090",
+      "role": "lecture",
+      "role_reason": "Explaining the daughter's definition of art (hand-drawn).",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000091",
+      "role": "chitchat",
+      "role_reason": "Describing a reaction.",
+      "role_score": 0.7
+    },
+    {
+      "sid": "s000092",
+      "role": "chitchat",
+      "role_reason": "Transitioning.",
+      "role_score": 0.7
+    },
+    {
+      "sid": "s000093",
+      "role": "qa",
+      "role_reason": "Asking why the creation must be binary (created or not).",
+      "role_score": 0.9
+    },
+    {
+      "sid": "s000094",
+      "role": "qa",
+      "role_reason": "Asking for clarification on the reasoning.",
+      "role_score": 0.9
+    },
+    {
+      "sid": "s000095",
+      "role": "chitchat",
+      "role_reason": "Expressing lack of understanding.",
+      "role_score": 0.7
+    },
+    {
+      "sid": "s000096",
+      "role": "lecture",
+      "role_reason": "Explaining the previous question was about the creation.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000097",
+      "role": "chitchat",
+      "role_reason": "Negation.",
+      "role_score": 0.7
+    },
+    {
+      "sid": "s000098",
+      "role": "lecture",
+      "role_reason": "Rephrasing the student's question.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000099",
+      "role": "lecture",
+      "role_reason": "Asking about the significance of the question.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000100",
+      "role": "lecture",
+      "role_reason": "Explaining the purpose: understanding feelings about generative AI.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000101",
+      "role": "lecture",
+      "role_reason": "Connecting the art example to generative AI.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000102",
+      "role": "lecture",
+      "role_reason": "Concluding the connection.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000103",
+      "role": "lecture",
+      "role_reason": "Stating transparency about intentions.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000104",
+      "role": "chitchat",
+      "role_reason": "Acknowledgement.",
+      "role_score": 0.7
+    },
+    {
+      "sid": "s000105",
+      "role": "lecture",
+      "role_reason": "Presenting an argument: the computer created it.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000106",
+      "role": "lecture",
+      "role_reason": "Extending the argument: the paintbrush created art.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000107",
+      "role": "chitchat",
+      "role_reason": "Expressing interest.",
+      "role_score": 0.7
+    },
+    {
+      "sid": "s000108",
+      "role": "lecture",
+      "role_reason": "Clarifying the previous statement.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000109",
+      "role": "qa",
+      "role_reason": "Asking if the speaker wants to tell their daughter this.",
+      "role_score": 0.9
+    },
+    {
+      "sid": "s000110",
+      "role": "chitchat",
+      "role_reason": "Affirmative response.",
+      "role_score": 0.7
+    },
+    {
+      "sid": "s000111",
+      "role": "lecture",
+      "role_reason": "Agreeing with the student's point.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000112",
+      "role": "lecture",
+      "role_reason": "Explaining tool evolution and their role.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000113",
+      "role": "lecture",
+      "role_reason": "Asserting that creativity remains.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000114",
+      "role": "lecture",
+      "role_reason": "Describing the artist's mental conception.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000115",
+      "role": "lecture",
+      "role_reason": "Considering the possibility of copying.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000116",
+      "role": "chitchat",
+      "role_reason": "Acknowledging uncertainty about copying.",
+      "role_score": 0.7
+    },
+    {
+      "sid": "s000117",
+      "role": "qa",
+      "role_reason": "Asking to extend the analogy further.",
+      "role_score": 0.9
+    },
+    {
+      "sid": "s000118",
+      "role": "chitchat",
+      "role_reason": "Acknowledgement.",
+      "role_score": 0.7
+    },
+    {
+      "sid": "s000119",
+      "role": "qa",
+      "role_reason": "Asking about the creator of MS Paint.",
+      "role_score": 0.9
+    },
+    {
+      "sid": "s000120",
+      "role": "lecture",
+      "role_reason": "Extending the analogy to paintbrush and horse hairs.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000121",
+      "role": "lecture",
+      "role_reason": "Stating that the tool is still used.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000122",
+      "role": "lecture",
+      "role_reason": "Agreeing with the analogy.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000123",
+      "role": "chitchat",
+      "role_reason": "Expressing agreement.",
+      "role_score": 0.7
+    },
+    {
+      "sid": "s000124",
+      "role": "lecture",
+      "role_reason": "Concluding that the artist used a specialized tool.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000125",
+      "role": "lecture",
+      "role_reason": "Highlighting the artist's inspiration.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000126",
+      "role": "qa",
+      "role_reason": "Asking about another piece of art.",
+      "role_score": 0.9
+    },
+    {
+      "sid": "s000127",
+      "role": "lecture",
+      "role_reason": "Describing a scenario with families and their reactions.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000128",
+      "role": "lecture",
+      "role_reason": "Explaining the refusal to attribute creation to a person.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000129",
+      "role": "lecture",
+      "role_reason": "Introducing turtle graphics and a deterministic procedure.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000130",
+      "role": "lecture",
+      "role_reason": "Stating the absence of random variables.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000131",
+      "role": "lecture",
+      "role_reason": "Continuing the statement about randomness.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000132",
+      "role": "lecture",
+      "role_reason": "Explaining the deterministic outcome.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000133",
+      "role": "qa",
+      "role_reason": "Asking who created the turtle graphics output: person or machine.",
+      "role_score": 0.9
+    },
+    {
+      "sid": "s000134",
+      "role": "lecture",
+      "role_reason": "Stating the impossibility of the machine doing it alone.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000135",
+      "role": "lecture",
+      "role_reason": "Presenting an opinion: coded it, but didn't create the art.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000136",
+      "role": "lecture",
+      "role_reason": "Elaborating on the distinction between code and output.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000137",
+      "role": "lecture",
+      "role_reason": "Asserting the programmer's intent matched the output.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000138",
+      "role": "lecture",
+      "role_reason": "Explaining the precise specification in code.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000139",
+      "role": "qa",
+      "role_reason": "Asking for the difference between this and manual pixel creation.",
+      "role_score": 0.9
+    },
+    {
+      "sid": "s000140",
+      "role": "lecture",
+      "role_reason": "Explaining the limitation of viewing individual pixels.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000141",
+      "role": "lecture",
+      "role_reason": "Describing the final output: Millennium Falcon.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000142",
+      "role": "lecture",
+      "role_reason": "Referring to the previous example.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000143",
+      "role": "qa",
+      "role_reason": "Asking why this is different from manual creation.",
+      "role_score": 0.9
+    },
+    {
+      "sid": "s000144",
+      "role": "lecture",
+      "role_reason": "Agreeing with the question.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000145",
+      "role": "lecture",
+      "role_reason": "Mentioning artists using procedural methods.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000146",
+      "role": "lecture",
+      "role_reason": "Expressing the opinion that this is similar.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000147",
+      "role": "lecture",
+      "role_reason": "Stating the lack of perceived difference.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000148",
+      "role": "chitchat",
+      "role_reason": "Acknowledgement.",
+      "role_score": 0.7
+    },
+    {
+      "sid": "s000149",
+      "role": "lecture",
+      "role_reason": "Expressing a broad definition of art.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000150",
+      "role": "chitchat",
+      "role_reason": "Agreement.",
+      "role_score": 0.7
+    },
+    {
+      "sid": "s000151",
+      "role": "lecture",
+      "role_reason": "Recalling a childhood toy.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000152",
+      "role": "lecture",
+      "role_reason": "Describing the paint-splatting toy.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000153",
+      "role": "lecture",
+      "role_reason": "Identifying the toy's output as random.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000154",
+      "role": "lecture",
+      "role_reason": "Contrasting the toy's randomness with the current example.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000155",
+      "role": "chitchat",
+      "role_reason": "Acknowledgement.",
+      "role_score": 0.7
+    },
+    {
+      "sid": "s000156",
+      "role": "lecture",
+      "role_reason": "Stating the difference: deterministic flow.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000157",
+      "role": "lecture",
+      "role_reason": "Emphasizing the deterministic nature.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000158",
+      "role": "chitchat",
+      "role_reason": "Agreement.",
+      "role_score": 0.7
+    },
+    {
+      "sid": "s000159",
+      "role": "lecture",
+      "role_reason": "Giving credit to the creators of programming libraries.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000160",
+      "role": "qa",
+      "role_reason": "Asking if toolmakers get more credit in this case.",
+      "role_score": 0.9
+    },
+    {
+      "sid": "s000161",
+      "role": "lecture",
+      "role_reason": "Dismissing the relevance of the tool.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000162",
+      "role": "chitchat",
+      "role_reason": "Acknowledgement.",
+      "role_score": 0.7
+    },
+    {
+      "sid": "s000163",
+      "role": "chitchat",
+      "role_reason": "Agreement.",
+      "role_score": 0.7
+    },
+    {
+      "sid": "s000164",
+      "role": "lecture",
+      "role_reason": "Stating the tool's irrelevance.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000165",
+      "role": "lecture",
+      "role_reason": "Elaborating on the irrelevance of the tool (paintbrush vs. Python library).",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000166",
+      "role": "lecture",
+      "role_reason": "Continuing the thought about creation.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000167",
+      "role": "qa",
+      "role_reason": "Asking why the tool matters if the idea originated in the head.",
+      "role_score": 0.9
+    },
+    {
+      "sid": "s000168",
+      "role": "lecture",
+      "role_reason": "Referring to the means of creation.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000169",
+      "role": "lecture",
+      "role_reason": "Acknowledging the author's role despite the implementation.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000170",
+      "role": "lecture",
+      "role_reason": "Agreeing with the idea of creation.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000171",
+      "role": "chitchat",
+      "role_reason": "Acknowledgement.",
+      "role_score": 0.7
+    },
+    {
+      "sid": "s000172",
+      "role": "lecture",
+      "role_reason": "Illustrating the act of creation by showing a friend.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000173",
+      "role": "lecture",
+      "role_reason": "Calling it a good test.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000174",
+      "role": "lecture",
+      "role_reason": "Stating ownership of the creation.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000175",
+      "role": "lecture",
+      "role_reason": "Reiterating the act of showing a friend.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000176",
+      "role": "lecture",
+      "role_reason": "Describing the process of showing how it was done.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000177",
+      "role": "lecture",
+      "role_reason": "Referring to the act of creation.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000178",
+      "role": "chitchat",
+      "role_reason": "Acknowledgement.",
+      "role_score": 0.7
+    },
+    {
+      "sid": "s000179",
+      "role": "lecture",
+      "role_reason": "Referring to drawing.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000180",
+      "role": "chitchat",
+      "role_reason": "Acknowledgement.",
+      "role_score": 0.7
+    },
+    {
+      "sid": "s000181",
+      "role": "chitchat",
+      "role_reason": "Agreement.",
+      "role_score": 0.7
+    },
+    {
+      "sid": "s000182",
+      "role": "lecture",
+      "role_reason": "Claiming creation despite using a tool.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000183",
+      "role": "chitchat",
+      "role_reason": "Acknowledgement.",
+      "role_score": 0.7
+    },
+    {
+      "sid": "s000184",
+      "role": "chitchat",
+      "role_reason": "Agreement.",
+      "role_score": 0.7
+    },
+    {
+      "sid": "s000185",
+      "role": "lecture",
+      "role_reason": "Comparing the tool to a paintbrush.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000186",
+      "role": "lecture",
+      "role_reason": "Distinguishing between coding and creating.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000187",
+      "role": "lecture",
+      "role_reason": "Agreeing with the distinction.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000188",
+      "role": "lecture",
+      "role_reason": "Explaining that copying code means not creating.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000189",
+      "role": "lecture",
+      "role_reason": "Stating they didn't write the code.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000190",
+      "role": "chitchat",
+      "role_reason": "Acknowledgement.",
+      "role_score": 0.7
+    },
+    {
+      "sid": "s000191",
+      "role": "lecture",
+      "role_reason": "Agreeing with the distinction.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000192",
+      "role": "chitchat",
+      "role_reason": "Agreement.",
+      "role_score": 0.7
+    },
+    {
+      "sid": "s000193",
+      "role": "chitchat",
+      "role_reason": "Acknowledgement.",
+      "role_score": 0.7
+    },
+    {
+      "sid": "s000194",
+      "role": "lecture",
+      "role_reason": "Comparing Raphael's claim to the programmer's.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000195",
+      "role": "chitchat",
+      "role_reason": "Agreement.",
+      "role_score": 0.7
+    },
+    {
+      "sid": "s000196",
+      "role": "lecture",
+      "role_reason": "Stating Raphael's claim of creation.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000197",
+      "role": "chitchat",
+      "role_reason": "Acknowledgement.",
+      "role_score": 0.7
+    },
+    {
+      "sid": "s000198",
+      "role": "lecture",
+      "role_reason": "Contrasting the programmer using libraries.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000199",
+      "role": "lecture",
+      "role_reason": "Acknowledging the programmer still made it, but with less claim.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000200",
+      "role": "lecture",
+      "role_reason": "Reiterating that they still made it using tools.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000201",
+      "role": "lecture",
+      "role_reason": "Comparing to ancient aboriginal art.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000202",
+      "role": "lecture",
+      "role_reason": "Mentioning the lack of sophisticated tools then.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000203",
+      "role": "chitchat",
+      "role_reason": "Expressing surprise.",
+      "role_score": 0.7
+    },
+    {
+      "sid": "s000204",
+      "role": "lecture",
+      "role_reason": "Asserting ownership of art.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000205",
+      "role": "chitchat",
+      "role_reason": "Affirmation.",
+      "role_score": 0.7
+    },
+    {
+      "sid": "s000206",
+      "role": "lecture",
+      "role_reason": "Suggesting effort as a factor in art creation.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000207",
+      "role": "chitchat",
+      "role_reason": "Acknowledging the point.",
+      "role_score": 0.7
+    },
+    {
+      "sid": "s000208",
+      "role": "lecture",
+      "role_reason": "Connecting effort to the question of AI art.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000209",
+      "role": "lecture",
+      "role_reason": "Posing the question about AI artists.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000210",
+      "role": "lecture",
+      "role_reason": "Stating the argument against AI artists.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000211",
+      "role": "lecture",
+      "role_reason": "Continuing the argument about AI.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000212",
+      "role": "chitchat",
+      "role_reason": "Acknowledgement.",
+      "role_score": 0.7
+    },
+    {
+      "sid": "s000213",
+      "role": "lecture",
+      "role_reason": "Contrasting AI with human effort.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000214",
+      "role": "lecture",
+      "role_reason": "Discussing digital vs. traditional art ownership.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000215",
+      "role": "lecture",
+      "role_reason": "Suggesting effort contributes to art.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000216",
+      "role": "lecture",
+      "role_reason": "Admitting inability to judge art.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000217",
+      "role": "lecture",
+      "role_reason": "Recounting a visit to an art museum.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000218",
+      "role": "lecture",
+      "role_reason": "Describing a minimalist red painting.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000219",
+      "role": "lecture",
+      "role_reason": "Speculating on the creation process of the red painting.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000220",
+      "role": "lecture",
+      "role_reason": "Acknowledging the potential difficulty of the task.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000221",
+      "role": "lecture",
+      "role_reason": "Comparing the painting to a Home Depot item.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000222",
+      "role": "lecture",
+      "role_reason": "Dismissing the significance of the color.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000223",
+      "role": "chitchat",
+      "role_reason": "Dismissing the importance.",
+      "role_score": 0.7
+    },
+    {
+      "sid": "s000224",
+      "role": "lecture",
+      "role_reason": "Mentioning effort and duct-taped banana.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000225",
+      "role": "lecture",
+      "role_reason": "Comparing the red painting to other art forms.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000226",
+      "role": "lecture",
+      "role_reason": "Acknowledging the artist's effort despite personal dislike.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000227",
+      "role": "lecture",
+      "role_reason": "Introducing the Toy Story graphics pipeline.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000228",
+      "role": "chitchat",
+      "role_reason": "Acknowledgement.",
+      "role_score": 0.7
+    },
+    {
+      "sid": "s000229",
+      "role": "lecture",
+      "role_reason": "Starting with the initial scene setup.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000230",
+      "role": "lecture",
+      "role_reason": "Describing the 3D modeling process.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000231",
+      "role": "lecture",
+      "role_reason": "Explaining the use of polygons and meshes.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000232",
+      "role": "lecture",
+      "role_reason": "Describing camera, lighting, and shape decisions.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000233",
+      "role": "lecture",
+      "role_reason": "Explaining the rendering process.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000234",
+      "role": "lecture",
+      "role_reason": "Detailing shader programs and final output.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000235",
+      "role": "lecture",
+      "role_reason": "Mentioning blending, texturing, and human creation.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000236",
+      "role": "lecture",
+      "role_reason": "Highlighting specific design decisions in Toy Story.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000237",
+      "role": "lecture",
+      "role_reason": "Stating that the art is not hand-drawn.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000238",
+      "role": "lecture",
+      "role_reason": "Comparing the sophisticated tool to the previous script.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000239",
+      "role": "qa",
+      "role_reason": "Asking for audience opinion on the Toy Story example.",
+      "role_score": 0.9
+    },
+    {
+      "sid": "s000240",
+      "role": "qa",
+      "role_reason": "Asking if the GPU or human created the art.",
+      "role_score": 0.9
+    },
+    {
+      "sid": "s000241",
+      "role": "lecture",
+      "role_reason": "Arguing the human created the art, medium is secondary.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000242",
+      "role": "lecture",
+      "role_reason": "Discussing the influence of medium on original idea.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000243",
+      "role": "lecture",
+      "role_reason": "Comparing finger painting to other art forms.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000244",
+      "role": "chitchat",
+      "role_reason": "Acknowledgement.",
+      "role_score": 0.7
+    },
+    {
+      "sid": "s000245",
+      "role": "lecture",
+      "role_reason": "Identifying finger painting as the medium.",
+      "role_score": 0.8
+    },
+    {
+      "sid": "s000246",
+      "role": "lecture",
+      "role_reason": "Concluding that art is person-created, using comfortable mediums.",
+      "role_score": 0.8
+    }
+  ]
+}

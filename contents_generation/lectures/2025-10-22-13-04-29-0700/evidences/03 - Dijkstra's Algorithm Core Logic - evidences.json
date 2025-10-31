@@ -1,0 +1,745 @@
+{
+  "idx": 3,
+  "title": "Dijkstra's Algorithm Core Logic",
+  "count": 92,
+  "sids": [
+    "s000229",
+    "s000243",
+    "s000246",
+    "s000247",
+    "s000249",
+    "s000253",
+    "s000254",
+    "s000256",
+    "s000257",
+    "s000258",
+    "s000266",
+    "s000267",
+    "s000270",
+    "s000276",
+    "s000278",
+    "s000279",
+    "s000281",
+    "s000283",
+    "s000284",
+    "s000297",
+    "s000298",
+    "s000299",
+    "s000300",
+    "s000301",
+    "s000303",
+    "s000304",
+    "s000326",
+    "s000328",
+    "s000329",
+    "s000343",
+    "s000344",
+    "s000345",
+    "s000349",
+    "s000350",
+    "s000353",
+    "s000355",
+    "s000358",
+    "s000363",
+    "s000364",
+    "s000372",
+    "s000373",
+    "s000374",
+    "s000376",
+    "s000377",
+    "s000379",
+    "s000381",
+    "s000382",
+    "s000383",
+    "s000384",
+    "s000390",
+    "s000395",
+    "s000396",
+    "s000398",
+    "s000399",
+    "s000401",
+    "s000403",
+    "s000410",
+    "s000411",
+    "s000415",
+    "s000416",
+    "s000417",
+    "s000421",
+    "s000422",
+    "s000423",
+    "s000424",
+    "s000425",
+    "s000426",
+    "s000427",
+    "s000429",
+    "s000431",
+    "s000432",
+    "s000437",
+    "s000438",
+    "s000439",
+    "s000441",
+    "s000442",
+    "s000443",
+    "s000448",
+    "s000449",
+    "s000450",
+    "s000451",
+    "s000469",
+    "s000471",
+    "s000472",
+    "s000473",
+    "s000474",
+    "s000475",
+    "s000476",
+    "s000498",
+    "s000499",
+    "s000500",
+    "s000501"
+  ],
+  "evidences": [
+    {
+      "sid": "s000229",
+      "text": "We need something else.",
+      "start": 1441180,
+      "end": 1442700,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000243",
+      "text": "So based on that, let me suggest the following.",
+      "start": 1503070,
+      "end": 1505710,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000246",
+      "text": "So there are numbers that are finalized.",
+      "start": 1510190,
+      "end": 1513310,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000247",
+      "text": "I put them in brackets.",
+      "start": 1513390,
+      "end": 1514990,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000249",
+      "text": "But there are also numbers that are temporary.",
+      "start": 1517550,
+      "end": 1520590,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000253",
+      "text": "I say for now, I know a path of distance 10 from A to S. I'm not going to finalize that because it won't work.",
+      "start": 1529640,
+      "end": 1541240,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000254",
+      "text": "I also know a path of length 1, 2 from C to S. Right.",
+      "start": 1542520,
+      "end": 1553160,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000256",
+      "text": "Find all these temporary distances to S. Among them, pick the minimum one.",
+      "start": 1556730,
+      "end": 1564730,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000257",
+      "text": "So what are the parentheses numbers?",
+      "start": 1565290,
+      "end": 1568410,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000258",
+      "text": "They are actual paths from a vertex all the way back to S. So we're going to have this thing.",
+      "start": 1568570,
+      "end": 1577050,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000266",
+      "text": "It's a path that is available to me right now.",
+      "start": 1624520,
+      "end": 1627560,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000267",
+      "text": "There might be shorter path later.",
+      "start": 1628040,
+      "end": 1630440,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000270",
+      "text": "Of all these short paths here, I'm going to pick a minimum one.",
+      "start": 1638200,
+      "end": 1644120,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000276",
+      "text": "And I say this, this path is the minimum path of everyone with parentheses.",
+      "start": 1656840,
+      "end": 1665560,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000278",
+      "text": "The proof is exactly that if there was a shorter path to Y, then it had to go with something here, for example, through X and then back to Y.",
+      "start": 1667640,
+      "end": 1687130,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000279",
+      "text": "But the path from S to X is already larger than the path from S to Y.",
+      "start": 1687930,
+      "end": 1695290,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000281",
+      "text": "Because I picked it that way.",
+      "start": 1696010,
+      "end": 1697850,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000283",
+      "text": "Therefore, any other path that later on by contradiction takes me to Y is going to be larger than higher rate than the one that I picked here.",
+      "start": 1703050,
+      "end": 1716990,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000284",
+      "text": "So based on all the thinking, all the examples, being patient, the few algorithms you came up with, or few ideas that you came up with that failed, all of that leads to this idea?",
+      "start": 1718590,
+      "end": 1733550,
+      "role": "qa"
+    },
+    {
+      "sid": "s000297",
+      "text": "So of all the paths that are reachable to S currently, I pick the minimum one.",
+      "start": 1794700,
+      "end": 1800860,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000298",
+      "text": "That's why I put the word mini here.",
+      "start": 1801100,
+      "end": 1803740,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000299",
+      "text": "Therefore, any other path that takes me to C is going to be larger than 2.",
+      "start": 1805100,
+      "end": 1811100,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000300",
+      "text": "Therefore, finalizing C, saying this is the final path is correct.",
+      "start": 1811740,
+      "end": 1818300,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000301",
+      "text": "The proof is basically this.",
+      "start": 1818700,
+      "end": 1821020,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000303",
+      "text": "So how did I find this C idea is by trying a few other things, noticing that they all fail, and trying to reason why it failed.",
+      "start": 1826220,
+      "end": 1839310,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000304",
+      "text": "And maybe as a next extension, I come up with this idea of all possibilities of paths that are not finalized, pick the minimum one.",
+      "start": 1841220,
+      "end": 1851220,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000326",
+      "text": "We are after a higher level idea, an algorithm.",
+      "start": 1929730,
+      "end": 1934930,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000328",
+      "text": "Remove edges, add edges, keep track of these temporary numbers, whatever those come kind of at the end.",
+      "start": 1939010,
+      "end": 1946380,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000329",
+      "text": "Before that, we have a higher level idea always that we need to be comfortable.",
+      "start": 1946780,
+      "end": 1951980,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000343",
+      "text": "So all the neighbors of finalized one, that's the subset.",
+      "start": 2002250,
+      "end": 2006090,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000344",
+      "text": "And the proof is based on that: of all these, you pick the minimum one.",
+      "start": 2006650,
+      "end": 2011690,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000345",
+      "text": "So we have three types of weights.",
+      "start": 2014330,
+      "end": 2018970,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000349",
+      "text": "Then there are the brackets that are vertices whose weight have been finalized, meaning that's the shortest time.",
+      "start": 2026260,
+      "end": 2034340,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000350",
+      "text": "I put somebody here only when I'm sure its distance is finalized.",
+      "start": 2034420,
+      "end": 2040180,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000353",
+      "text": "Then I see A and C. They come into temporary parts.",
+      "start": 2046120,
+      "end": 2050680,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000355",
+      "text": "Both paths to A represent every path.",
+      "start": 2053880,
+      "end": 2059160,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000358",
+      "text": "But for now, yes, we need to have them all.",
+      "start": 2066200,
+      "end": 2068680,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000363",
+      "text": "So these are temporary paths for numbers.",
+      "start": 2086370,
+      "end": 2089090,
+      "role": "qa"
+    },
+    {
+      "sid": "s000364",
+      "text": "So I know the temporary distance from C to S this way is 2.",
+      "start": 2089090,
+      "end": 2093730,
+      "role": "qa"
+    },
+    {
+      "sid": "s000372",
+      "text": "So far, I only know the path from C to S and from A to S. And so I have two vertices whose distance to S I know so far.",
+      "start": 2118139,
+      "end": 2129830,
+      "role": "qa"
+    },
+    {
+      "sid": "s000373",
+      "text": "I pick the minimum one, C. And I can prove, as I did here, that this distance CBS is going to be the minimum path.",
+      "start": 2130230,
+      "end": 2141830,
+      "role": "qa"
+    },
+    {
+      "sid": "s000374",
+      "text": "Therefore, this becomes from temporary 2 to permanent 2.",
+      "start": 2141910,
+      "end": 2146310,
+      "role": "qa"
+    },
+    {
+      "sid": "s000376",
+      "text": "A is going to remain in the temporary one.",
+      "start": 2151520,
+      "end": 2154880,
+      "role": "qa"
+    },
+    {
+      "sid": "s000377",
+      "text": "So these are permanent, These are temporary.",
+      "start": 2155520,
+      "end": 2159520,
+      "role": "qa"
+    },
+    {
+      "sid": "s000379",
+      "text": "There are also vertices that I haven't even visited.",
+      "start": 2173130,
+      "end": 2176570,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000381",
+      "text": "If that's an implementation detail, people say, let's assign a weight of infinity to that, a temporary weight of infinity.",
+      "start": 2178890,
+      "end": 2188330,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000382",
+      "text": "So put all of these in this category, just leave their weight as infinity.",
+      "start": 2188490,
+      "end": 2194930,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000383",
+      "text": "That's one way, implementation way.",
+      "start": 2194930,
+      "end": 2198170,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000384",
+      "text": "Another way is for these that I haven't even seen, to create yet another category called unreachables.",
+      "start": 2198170,
+      "end": 2205410,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000390",
+      "text": "That's the whole proof there.",
+      "start": 2221650,
+      "end": 2223410,
+      "role": "qa"
+    },
+    {
+      "sid": "s000395",
+      "text": "All the weights are positive.",
+      "start": 2244140,
+      "end": 2245660,
+      "role": "qa"
+    },
+    {
+      "sid": "s000396",
+      "text": "10 plus a positive number is going to be larger than 2 because 2 is larger than 10.",
+      "start": 2246140,
+      "end": 2253190,
+      "role": "qa"
+    },
+    {
+      "sid": "s000398",
+      "text": "Because I picked it that way.",
+      "start": 2255790,
+      "end": 2257430,
+      "role": "qa"
+    },
+    {
+      "sid": "s000399",
+      "text": "That's why I wrote minimum.",
+      "start": 2257590,
+      "end": 2259190,
+      "role": "qa"
+    },
+    {
+      "sid": "s000401",
+      "text": "And what you just asked, that's the T part of the proof.",
+      "start": 2263830,
+      "end": 2268150,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000403",
+      "text": "That's the main operation.",
+      "start": 2270030,
+      "end": 2271510,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000410",
+      "text": "That's the key part of the proof.",
+      "start": 2287170,
+      "end": 2288970,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000411",
+      "text": "Once you observe that the rest is trivial and most algorithms are kind of like that, there is a central team, we discover that the rest becomes easier.",
+      "start": 2289210,
+      "end": 2299770,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000415",
+      "text": "The key point is min is gonna be the actual shortest path from Y to X.",
+      "start": 2309450,
+      "end": 2316970,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000416",
+      "text": "That's the key hypothesis.",
+      "start": 2317050,
+      "end": 2321450,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000417",
+      "text": "Once you prove that, the rest is easy.",
+      "start": 2321770,
+      "end": 2324010,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000421",
+      "text": "Okay, so the way it goes is like this.",
+      "start": 2341300,
+      "end": 2345540,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000422",
+      "text": "The way the algorithm proceeds.",
+      "start": 2345700,
+      "end": 2347620,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000423",
+      "text": "Based on the example, based on what we did here, based on this proof, the algorithm preceding in the following MANNER, I have S0.",
+      "start": 2347620,
+      "end": 2364150,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000424",
+      "text": "That's how I initialize my algorithm.",
+      "start": 2365350,
+      "end": 2368150,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000425",
+      "text": "Then I have a set of vertices that are permanent.",
+      "start": 2368630,
+      "end": 2371990,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000426",
+      "text": "And I have a set of vertices that are temporary.",
+      "start": 2374390,
+      "end": 2377430,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000427",
+      "text": "Initially, there is nothing impermanent, only S. And everyone else is in temporary with sum that says with all of them actually initially saying infinite weight.",
+      "start": 2381120,
+      "end": 2397040,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000429",
+      "text": "At the beginning of the algorithm, before I do anything, first step, set this to 00.",
+      "start": 2399760,
+      "end": 2406670,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000431",
+      "text": "Then you look at all neighbors of S, meaning of all these, you will update their value, which was originally for all of them, infinity.",
+      "start": 2409630,
+      "end": 2421870,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000432",
+      "text": "Some of them, if they are directly connected to S, you go from infinity to one, you go from infinity to 10 and the other remain at infinity.",
+      "start": 2422830,
+      "end": 2437720,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000437",
+      "text": "I take the minimum of these values happen to be one, I move one up here, so that becomes permanent.",
+      "start": 2460400,
+      "end": 2473200,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000438",
+      "text": "And the way I picked one is the minimum of 1 10, infinity, infinity, infinity.",
+      "start": 2474960,
+      "end": 2482240,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000439",
+      "text": "And based on what you asked, the proof, that must be the minimum ever.",
+      "start": 2485770,
+      "end": 2491930,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000441",
+      "text": "Because this is the minimum.",
+      "start": 2497130,
+      "end": 2498890,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000442",
+      "text": "All those billion other paths must go through other vertices.",
+      "start": 2499130,
+      "end": 2502730,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000443",
+      "text": "They are already larger than min, so anything extra is going to be larger.",
+      "start": 2502970,
+      "end": 2508090,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000448",
+      "text": "Because it had a direct path to S. Now, because this became permanent, this value 10 may change.",
+      "start": 2535100,
+      "end": 2544080,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000449",
+      "text": "For example, if there was here an X of weight three, because I moved V up here, that 10 and three the minimum of, sorry, four, three plus one.",
+      "start": 2544160,
+      "end": 2561360,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000450",
+      "text": "The minimum of those values becomes the new parenthesis value.",
+      "start": 2561840,
+      "end": 2565820,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000451",
+      "text": "Because I just found a better way for A to go through S. That's that way.",
+      "start": 2566940,
+      "end": 2574060,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000469",
+      "text": "So I just move one of these up there and I updated the values, keep going of whatever else is left, Pick the minimum, move it up, update the values, keep doing that till everybody ends up in.",
+      "start": 2628350,
+      "end": 2643070,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000471",
+      "text": "Each step was based on that fact.",
+      "start": 2645630,
+      "end": 2648670,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000472",
+      "text": "That minimum will give you the shortest path.",
+      "start": 2648670,
+      "end": 2651710,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000473",
+      "text": "Each step, therefore, is optimal.",
+      "start": 2652190,
+      "end": 2654430,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000474",
+      "text": "Therefore the entire algorithm is optimal.",
+      "start": 2654510,
+      "end": 2657070,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000475",
+      "text": "So it's a greedy paradigm.",
+      "start": 2657230,
+      "end": 2659150,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000476",
+      "text": "What mattered was how to carefully pick the next vertex.",
+      "start": 2661070,
+      "end": 2665390,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000498",
+      "text": "This algorithm is called Dijkstra.",
+      "start": 2769300,
+      "end": 2771780,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000499",
+      "text": "Dijkstra is Shortest Path Algorithm.",
+      "start": 2774310,
+      "end": 2776510,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000500",
+      "text": "A professor at UT Austin named Dijkstra came up with this algorithm in the 70s.",
+      "start": 2776510,
+      "end": 2782070,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000501",
+      "text": "So as of today we call it Dijkstra.",
+      "start": 2782470,
+      "end": 2784870,
+      "role": "lecture"
+    }
+  ]
+}

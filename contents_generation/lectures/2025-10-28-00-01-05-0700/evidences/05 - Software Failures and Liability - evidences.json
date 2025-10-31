@@ -1,0 +1,1361 @@
+{
+  "idx": 5,
+  "title": "Software Failures and Liability",
+  "count": 169,
+  "sids": [
+    "s000424",
+    "s000427",
+    "s000429",
+    "s000430",
+    "s000431",
+    "s000434",
+    "s000436",
+    "s000440",
+    "s000441",
+    "s000448",
+    "s000449",
+    "s000450",
+    "s000451",
+    "s000452",
+    "s000454",
+    "s000455",
+    "s000458",
+    "s000461",
+    "s000462",
+    "s000465",
+    "s000467",
+    "s000470",
+    "s000471",
+    "s000472",
+    "s000475",
+    "s000476",
+    "s000477",
+    "s000478",
+    "s000479",
+    "s000480",
+    "s000484",
+    "s000485",
+    "s000487",
+    "s000489",
+    "s000491",
+    "s000492",
+    "s000493",
+    "s000494",
+    "s000497",
+    "s000501",
+    "s000502",
+    "s000548",
+    "s000549",
+    "s000550",
+    "s000551",
+    "s000552",
+    "s000553",
+    "s000554",
+    "s000555",
+    "s000556",
+    "s000557",
+    "s000559",
+    "s000560",
+    "s000561",
+    "s000562",
+    "s000563",
+    "s000564",
+    "s000565",
+    "s000567",
+    "s000568",
+    "s000569",
+    "s000570",
+    "s000571",
+    "s000575",
+    "s000576",
+    "s000577",
+    "s000578",
+    "s000579",
+    "s000580",
+    "s000581",
+    "s000582",
+    "s000583",
+    "s000585",
+    "s000587",
+    "s000591",
+    "s000594",
+    "s000595",
+    "s000596",
+    "s000597",
+    "s000601",
+    "s000602",
+    "s000603",
+    "s000604",
+    "s000605",
+    "s000606",
+    "s000607",
+    "s000609",
+    "s000610",
+    "s000611",
+    "s000618",
+    "s000619",
+    "s000620",
+    "s000624",
+    "s000625",
+    "s000629",
+    "s000630",
+    "s000648",
+    "s000649",
+    "s000650",
+    "s000652",
+    "s000653",
+    "s000688",
+    "s000689",
+    "s000690",
+    "s000691",
+    "s000692",
+    "s000693",
+    "s000694",
+    "s000696",
+    "s000697",
+    "s000700",
+    "s000701",
+    "s000704",
+    "s000705",
+    "s000706",
+    "s000707",
+    "s000708",
+    "s000709",
+    "s000710",
+    "s000712",
+    "s000713",
+    "s000717",
+    "s000721",
+    "s000725",
+    "s000729",
+    "s000730",
+    "s000731",
+    "s000732",
+    "s000733",
+    "s000734",
+    "s000735",
+    "s000736",
+    "s000737",
+    "s000738",
+    "s000739",
+    "s000740",
+    "s000741",
+    "s000742",
+    "s000743",
+    "s000745",
+    "s000746",
+    "s000747",
+    "s000749",
+    "s000751",
+    "s000752",
+    "s000753",
+    "s000754",
+    "s000755",
+    "s000756",
+    "s000757",
+    "s000758",
+    "s000759",
+    "s000761",
+    "s000762",
+    "s000764",
+    "s000765",
+    "s000766",
+    "s000767",
+    "s000768",
+    "s000769",
+    "s000770",
+    "s000771",
+    "s000773",
+    "s000774",
+    "s000775",
+    "s000776",
+    "s000777",
+    "s000778",
+    "s000779"
+  ],
+  "evidences": [
+    {
+      "sid": "s000424",
+      "text": "When software goes back.",
+      "start": 1792330,
+      "end": 1793610,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000427",
+      "text": "But now I want to loop in kind of technology and talk about things going wrong and evaluating it, either from an ethical standpoint or just a failure to bug proofs.",
+      "start": 1810740,
+      "end": 1821220,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000429",
+      "text": "So let's talk about some examples of technical failures and see how ethics might play in.",
+      "start": 1822430,
+      "end": 1830390,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000430",
+      "text": "Or not.",
+      "start": 1830390,
+      "end": 1830830,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000431",
+      "text": "How many of you are already familiar with the heartbleed bug?",
+      "start": 1831870,
+      "end": 1834670,
+      "role": "qa"
+    },
+    {
+      "sid": "s000434",
+      "text": "So the idea was that if you have this particular protocol, the way it's supposed to work in an honest transaction, give message and you tell the size of the data.",
+      "start": 1838510,
+      "end": 1850530,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000436",
+      "text": "So if I said, hey, the magic word is banana, it's six characters long, can you spit it back?",
+      "start": 1854450,
+      "end": 1859730,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000440",
+      "text": "That's how it should be working.",
+      "start": 1863730,
+      "end": 1864810,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000441",
+      "text": "You verify communication, you verify that it's buffered.",
+      "start": 1864810,
+      "end": 1867370,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000448",
+      "text": "So an issue here could be if I said, oh, the magic word that I'm going to give you is giraffe, and it's 100 characters long.",
+      "start": 1882700,
+      "end": 1890060,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000449",
+      "text": "And you give me everything in memory after giraffe and beyond.",
+      "start": 1890460,
+      "end": 1893340,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000450",
+      "text": "And so maybe that includes something I shouldn't be getting access to.",
+      "start": 1893740,
+      "end": 1896860,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000451",
+      "text": "It's kind of like a bunch of overflow exploit, but just dumping out data that you're giving back to them.",
+      "start": 1897740,
+      "end": 1902830,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000452",
+      "text": "Clearly a bug, Right?",
+      "start": 1905230,
+      "end": 1906590,
+      "role": "qa"
+    },
+    {
+      "sid": "s000454",
+      "text": "It was just a mistake.",
+      "start": 1916350,
+      "end": 1917630,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000455",
+      "text": "Is there an ethical problem here?",
+      "start": 1917630,
+      "end": 1919390,
+      "role": "qa"
+    },
+    {
+      "sid": "s000458",
+      "text": "I don't think there was a malice of forethought here, but they could be liable, right?",
+      "start": 1933390,
+      "end": 1938150,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000461",
+      "text": "I don't think this is necessarily an ethical issue.",
+      "start": 1939110,
+      "end": 1943510,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000462",
+      "text": "But it needs to fix.",
+      "start": 1943510,
+      "end": 1944470,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000465",
+      "text": "So this goes more towards being to able.",
+      "start": 1947790,
+      "end": 1949890,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000467",
+      "text": "This is really more of a golem.",
+      "start": 1951880,
+      "end": 1953240,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000470",
+      "text": "There was no malicious intent here.",
+      "start": 1953800,
+      "end": 1955960,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000471",
+      "text": "There was no bias or bad actor.",
+      "start": 1955960,
+      "end": 1958520,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000472",
+      "text": "But it was just a bun.",
+      "start": 1958840,
+      "end": 1960040,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000475",
+      "text": "So this is one where it was a radiation machine that was supposed to kill cancerous cells with X rays.",
+      "start": 1968440,
+      "end": 1973480,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000476",
+      "text": "It ended up killing six patients over the course of two years because of these hardware overlocks that they had that were supposed to prevent operation of invalid modes was replaced by software.",
+      "start": 1973800,
+      "end": 1984690,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000477",
+      "text": "It was embedded properly created a race condition that led to this machine radiating individuals that weren't to an extent where it wasn't supposed to work.",
+      "start": 1984850,
+      "end": 1993570,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000478",
+      "text": "This is a software engineering failure.",
+      "start": 1995490,
+      "end": 1997490,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000479",
+      "text": "They didn't unit test.",
+      "start": 1997570,
+      "end": 1998690,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000480",
+      "text": "They didn't have any independent review.",
+      "start": 1999970,
+      "end": 2001870,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000484",
+      "text": "And so they didn't have that the Pentium floating point division bug, man, the chance of it happening was so small, relatively small really.",
+      "start": 2023310,
+      "end": 2033300,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000485",
+      "text": "Not affecting the average user.",
+      "start": 2033300,
+      "end": 2035300,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000487",
+      "text": "They cost in total around 457 million.",
+      "start": 2040420,
+      "end": 2043379,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000489",
+      "text": "So these types of failures catastrophic in terms of the cost but not really ethical problem.",
+      "start": 2046580,
+      "end": 2053350,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000491",
+      "text": "The Mars Climate Orbiter got too close to Mars.",
+      "start": 2055630,
+      "end": 2058510,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000492",
+      "text": "Its onboard system used Imperial.",
+      "start": 2059310,
+      "end": 2062270,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000493",
+      "text": "The ground control software was using Imperial measurements.",
+      "start": 2062430,
+      "end": 2064830,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000494",
+      "text": "Onboard software was using SI measurements and just that disconnect cost more than 320 million.",
+      "start": 2064910,
+      "end": 2069950,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000497",
+      "text": "Prius braking system, REM5 Rocket, Night Capital Group Rei5 Rocket was a floating point conversion 64 bits to 16 bits.",
+      "start": 2076430,
+      "end": 2084199,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000501",
+      "text": "All this can work Using common software engineering could have avoided most if not all these issues.",
+      "start": 2101439,
+      "end": 2109850,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000502",
+      "text": "Not rising to the level of ethics.",
+      "start": 2111770,
+      "end": 2114250,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000548",
+      "text": "Okay, let's get into liability.",
+      "start": 2416910,
+      "end": 2422030,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000549",
+      "text": "So in terms of bugs, we talked about different examples, but it can come from improper specification, improper implementation, race conditions, holds and security, et cetera.",
+      "start": 2422430,
+      "end": 2435230,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000550",
+      "text": "If you have a bug in software, who is responsible and what should happen to them?",
+      "start": 2437150,
+      "end": 2441160,
+      "role": "qa"
+    },
+    {
+      "sid": "s000551",
+      "text": "Legally speaking, for all these cases we've talked about, let's take the heart, Fleet Buckle.",
+      "start": 2441160,
+      "end": 2447160,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000552",
+      "text": "We're agreeing that it wasn't an ethical dilemma, that it shouldn't have happened.",
+      "start": 2447640,
+      "end": 2451440,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000553",
+      "text": "But should the program have been responsible?",
+      "start": 2451440,
+      "end": 2453160,
+      "role": "qa"
+    },
+    {
+      "sid": "s000554",
+      "text": "Is it different for that versus Air act where it killed six people?",
+      "start": 2456120,
+      "end": 2459240,
+      "role": "qa"
+    },
+    {
+      "sid": "s000555",
+      "text": "I think, like, you can't really blame one person, especially for, like, large projects.",
+      "start": 2461320,
+      "end": 2465610,
+      "role": "qa"
+    },
+    {
+      "sid": "s000556",
+      "text": "Like, there's multiple people who oversee the code.",
+      "start": 2465610,
+      "end": 2467850,
+      "role": "qa"
+    },
+    {
+      "sid": "s000557",
+      "text": "Like maybe you could say that they probably should have checked it and that they probably should fix it, but it's not like something like something that's like, as bad as if, like multiple people died.",
+      "start": 2467850,
+      "end": 2478930,
+      "role": "qa"
+    },
+    {
+      "sid": "s000559",
+      "text": "There's not really, like any, like, negligence or something.",
+      "start": 2479610,
+      "end": 2481410,
+      "role": "qa"
+    },
+    {
+      "sid": "s000560",
+      "text": "You're not showing that, like, they intentionally did this or this happened because of some decision they, like, willingly made versus, like, it would be different if they.",
+      "start": 2481810,
+      "end": 2490310,
+      "role": "qa"
+    },
+    {
+      "sid": "s000561",
+      "text": "It was like, yeah, we're just going to ignore this.",
+      "start": 2490380,
+      "end": 2492940,
+      "role": "qa"
+    },
+    {
+      "sid": "s000562",
+      "text": "We know it will happen, but we're just going to ignore it because we don't think it's going to happen.",
+      "start": 2492940,
+      "end": 2495660,
+      "role": "qa"
+    },
+    {
+      "sid": "s000563",
+      "text": "So if I came up with the mu Therac that was a radiation machine, I had good intentions, but I'm rushing the market and I don't adequately test them, and I push the device out there because people are dying of cancer and I want to help them and I had good intentions.",
+      "start": 2496220,
+      "end": 2511900,
+      "role": "qa"
+    },
+    {
+      "sid": "s000564",
+      "text": "Does that mean that I'm not liable?",
+      "start": 2511900,
+      "end": 2513260,
+      "role": "qa"
+    },
+    {
+      "sid": "s000565",
+      "text": "I think, like, you still are liable to some extent, but if you knew that there was.",
+      "start": 2515100,
+      "end": 2521920,
+      "role": "qa"
+    },
+    {
+      "sid": "s000567",
+      "text": "There's not really a good answer.",
+      "start": 2523280,
+      "end": 2524400,
+      "role": "qa"
+    },
+    {
+      "sid": "s000568",
+      "text": "But I guess you could say if you knew, there's a high probability.",
+      "start": 2524400,
+      "end": 2526640,
+      "role": "qa"
+    },
+    {
+      "sid": "s000569",
+      "text": "If there's some issue and you know, like, okay, there's a 90% chance that someone's gonna start killing people instead of helping.",
+      "start": 2527440,
+      "end": 2532560,
+      "role": "qa"
+    },
+    {
+      "sid": "s000570",
+      "text": "You probably shouldn't put it out.",
+      "start": 2532640,
+      "end": 2534920,
+      "role": "qa"
+    },
+    {
+      "sid": "s000571",
+      "text": "You have to weigh, especially if something is needed that badly, you kind of need to make a decision what's better?",
+      "start": 2534920,
+      "end": 2542290,
+      "role": "qa"
+    },
+    {
+      "sid": "s000575",
+      "text": "I could say, you know, cancer's killing plenty of people.",
+      "start": 2544570,
+      "end": 2546730,
+      "role": "qa"
+    },
+    {
+      "sid": "s000576",
+      "text": "My device works pretty well on every test I've done.",
+      "start": 2547050,
+      "end": 2549930,
+      "role": "qa"
+    },
+    {
+      "sid": "s000577",
+      "text": "I haven't seen anybody die yet.",
+      "start": 2549930,
+      "end": 2551290,
+      "role": "qa"
+    },
+    {
+      "sid": "s000578",
+      "text": "I haven't tested all my code, but who tests all their code?",
+      "start": 2552010,
+      "end": 2554450,
+      "role": "qa"
+    },
+    {
+      "sid": "s000579",
+      "text": "It seems to work just fine.",
+      "start": 2554450,
+      "end": 2555610,
+      "role": "qa"
+    },
+    {
+      "sid": "s000580",
+      "text": "And do I want people to keep dying?",
+      "start": 2555690,
+      "end": 2557250,
+      "role": "qa"
+    },
+    {
+      "sid": "s000581",
+      "text": "No, I want to put it out there so that's.",
+      "start": 2557250,
+      "end": 2559610,
+      "role": "qa"
+    },
+    {
+      "sid": "s000582",
+      "text": "I'm not liable.",
+      "start": 2559770,
+      "end": 2560730,
+      "role": "qa"
+    },
+    {
+      "sid": "s000583",
+      "text": "I think it's a little, like, hard.",
+      "start": 2562810,
+      "end": 2564650,
+      "role": "qa"
+    },
+    {
+      "sid": "s000585",
+      "text": "I don't know if there's like a great answer.",
+      "start": 2565210,
+      "end": 2566570,
+      "role": "qa"
+    },
+    {
+      "sid": "s000587",
+      "text": "Yeah, I mean, I think they're liable.",
+      "start": 2570580,
+      "end": 2572340,
+      "role": "qa"
+    },
+    {
+      "sid": "s000591",
+      "text": "I mean, if you hadn't put it out there, no one would have died from that.",
+      "start": 2574900,
+      "end": 2578620,
+      "role": "qa"
+    },
+    {
+      "sid": "s000594",
+      "text": "It's just like kind of the unfortunate reality, like you got to be liable for that.",
+      "start": 2579780,
+      "end": 2584940,
+      "role": "qa"
+    },
+    {
+      "sid": "s000595",
+      "text": "Like, that's your product.",
+      "start": 2584940,
+      "end": 2586980,
+      "role": "qa"
+    },
+    {
+      "sid": "s000596",
+      "text": "What If I saved 100 people's lives who would have died otherwise, and I only killed 2?",
+      "start": 2587220,
+      "end": 2591620,
+      "role": "qa"
+    },
+    {
+      "sid": "s000597",
+      "text": "Some benefit for that utilitarian argument would say that I've done better for society as a whole.",
+      "start": 2592940,
+      "end": 2596860,
+      "role": "qa"
+    },
+    {
+      "sid": "s000601",
+      "text": "I mean this murdering is different because I had an intention here.",
+      "start": 2606340,
+      "end": 2609140,
+      "role": "qa"
+    },
+    {
+      "sid": "s000602",
+      "text": "I didn't have the intention.",
+      "start": 2609140,
+      "end": 2609980,
+      "role": "qa"
+    },
+    {
+      "sid": "s000603",
+      "text": "I wanted to save it.",
+      "start": 2609980,
+      "end": 2610940,
+      "role": "qa"
+    },
+    {
+      "sid": "s000604",
+      "text": "I think it's different.",
+      "start": 2611340,
+      "end": 2612140,
+      "role": "qa"
+    },
+    {
+      "sid": "s000605",
+      "text": "No, I mean you still like you still to people.",
+      "start": 2613180,
+      "end": 2618950,
+      "role": "qa"
+    },
+    {
+      "sid": "s000606",
+      "text": "So the outcome matters more.",
+      "start": 2619510,
+      "end": 2620870,
+      "role": "qa"
+    },
+    {
+      "sid": "s000607",
+      "text": "Yeah, your intentions don't matter.",
+      "start": 2621910,
+      "end": 2624790,
+      "role": "qa"
+    },
+    {
+      "sid": "s000609",
+      "text": "I don't think they matter that much.",
+      "start": 2625830,
+      "end": 2626950,
+      "role": "qa"
+    },
+    {
+      "sid": "s000610",
+      "text": "If someone dies, someone dies.",
+      "start": 2626950,
+      "end": 2629550,
+      "role": "qa"
+    },
+    {
+      "sid": "s000611",
+      "text": "They didn't matter to that person.",
+      "start": 2629550,
+      "end": 2630950,
+      "role": "qa"
+    },
+    {
+      "sid": "s000618",
+      "text": "And even though two people died with my algorithm, I still made it safer.",
+      "start": 2653870,
+      "end": 2657710,
+      "role": "qa"
+    },
+    {
+      "sid": "s000619",
+      "text": "But shouldn't that be okay?",
+      "start": 2657710,
+      "end": 2658950,
+      "role": "qa"
+    },
+    {
+      "sid": "s000620",
+      "text": "And I shouldn't be liable?",
+      "start": 2658950,
+      "end": 2659950,
+      "role": "qa"
+    },
+    {
+      "sid": "s000624",
+      "text": "So if you could prove that it was my algorithm that chose between crashing into four versus two and it picked two, and that was the only two choices within reason, I still intentionally killed those two people.",
+      "start": 2666510,
+      "end": 2679000,
+      "role": "qa"
+    },
+    {
+      "sid": "s000625",
+      "text": "So should I be liable as a programmer for the two?",
+      "start": 2679720,
+      "end": 2684680,
+      "role": "qa"
+    },
+    {
+      "sid": "s000629",
+      "text": "Shouldn't I still be liable because I intentionally killed two people?",
+      "start": 2696290,
+      "end": 2699250,
+      "role": "qa"
+    },
+    {
+      "sid": "s000630",
+      "text": "No, because it's a car crash.",
+      "start": 2699730,
+      "end": 2707850,
+      "role": "qa"
+    },
+    {
+      "sid": "s000648",
+      "text": "Yeah, well I guess because the car crash like it's, it's a car crash.",
+      "start": 2759980,
+      "end": 2763899,
+      "role": "qa"
+    },
+    {
+      "sid": "s000649",
+      "text": "So like either the two or the four are gonna die.",
+      "start": 2763899,
+      "end": 2767740,
+      "role": "qa"
+    },
+    {
+      "sid": "s000650",
+      "text": "But like for like the radiation thing, you're basically selling them like this is gonna make you better.",
+      "start": 2767980,
+      "end": 2773820,
+      "role": "qa"
+    },
+    {
+      "sid": "s000652",
+      "text": "And then they die from it.",
+      "start": 2775110,
+      "end": 2776430,
+      "role": "qa"
+    },
+    {
+      "sid": "s000653",
+      "text": "So it's a bit different in that respect.",
+      "start": 2776430,
+      "end": 2778550,
+      "role": "qa"
+    },
+    {
+      "sid": "s000688",
+      "text": "So in that sense, if I put something on the market that hasn't been fully tested or vetted from a biological standpoint, but it has so much potential, should I be insulated from harm about trying to put that idea out there, or should I be liable?",
+      "start": 2907300,
+      "end": 2920420,
+      "role": "qa"
+    },
+    {
+      "sid": "s000689",
+      "text": "Yeah, I think you shouldn't be liable but like you should be given like the opportunity to like, I guess like try and prevent effective.",
+      "start": 2922420,
+      "end": 2929230,
+      "role": "qa"
+    },
+    {
+      "sid": "s000690",
+      "text": "Because I think it's also similar to like when some companies were like developing like vaccines for, to like cure covet.",
+      "start": 2929230,
+      "end": 2937790,
+      "role": "qa"
+    },
+    {
+      "sid": "s000691",
+      "text": "Like the first time that they like were trying to make a vaccine, it wasn't perfect.",
+      "start": 2937950,
+      "end": 2941470,
+      "role": "qa"
+    },
+    {
+      "sid": "s000692",
+      "text": "And like some like even though it wasn't like like perfect at the start, like they were still given the opportunity and like if something, say something were to happen to like the patients that were first given like I guess like the trial versions, I guess they were like, you know, the company still progressed onwards to like try and practice.",
+      "start": 2941710,
+      "end": 2961320,
+      "role": "qa"
+    },
+    {
+      "sid": "s000693",
+      "text": "They tried to maybe pick people who are higher risk because they might have.",
+      "start": 2961480,
+      "end": 2965080,
+      "role": "qa"
+    },
+    {
+      "sid": "s000694",
+      "text": "There might be a real question of do I want to die this way or die that way.",
+      "start": 2965320,
+      "end": 2968560,
+      "role": "qa"
+    },
+    {
+      "sid": "s000696",
+      "text": "And so it's not a clear cut case of hey, you know, I'm not sure which one is the right one.",
+      "start": 2969800,
+      "end": 2973760,
+      "role": "qa"
+    },
+    {
+      "sid": "s000697",
+      "text": "I, I think that it makes sense to have some insulation in cases like that.",
+      "start": 2973760,
+      "end": 2977360,
+      "role": "qa"
+    },
+    {
+      "sid": "s000700",
+      "text": "I think the trick is when you deal with companies like Facebook where their idea is to you know, sort of disrupt and move on and move fast and you're dealing with something where it could be people's lives.",
+      "start": 2985090,
+      "end": 2997290,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000701",
+      "text": "I don't think you want to make a disruptive technology and move fast and break things.",
+      "start": 2997290,
+      "end": 3000850,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000704",
+      "text": "The Equifax Equifax breach, they had a number of hackers that breached the credit reporting agency, right?",
+      "start": 3016940,
+      "end": 3027660,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000705",
+      "text": "And they got personal data of over 140 million people.",
+      "start": 3027660,
+      "end": 3030860,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000706",
+      "text": "The point of failure in this particular case was an implementation of Apache strut.",
+      "start": 3031990,
+      "end": 3036230,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000707",
+      "text": "They had a vulnerability in that implementation that was disclosed by Apache.",
+      "start": 3036230,
+      "end": 3040950,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000708",
+      "text": "It was many months later that the breach actually happened.",
+      "start": 3041670,
+      "end": 3044470,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000709",
+      "text": "And the breach continued even on through in July because they didn't update their particular version of Apache.",
+      "start": 3045830,
+      "end": 3052590,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000710",
+      "text": "I don't know why they didn't update it.",
+      "start": 3052590,
+      "end": 3054350,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000712",
+      "text": "But they didn't make the update.",
+      "start": 3059760,
+      "end": 3061200,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000713",
+      "text": "I think it's pretty reasonable to assume that if they knew that there was a vulnerability and they chose not to take care of it, keep your system offline or do something differently, that they were wise, fair.",
+      "start": 3061680,
+      "end": 3073360,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000717",
+      "text": "So what should a company like this do?",
+      "start": 3093600,
+      "end": 3097120,
+      "role": "qa"
+    },
+    {
+      "sid": "s000721",
+      "text": "But the fact that they didn't do enough to take care of the very thing they're supposed to do, people sympathetic to this, what I'm going to be very.",
+      "start": 3104320,
+      "end": 3116150,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000725",
+      "text": "I think you could say they're greedy.",
+      "start": 3120070,
+      "end": 3122270,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000729",
+      "text": "Yeah, it's like, I'm not going to say I agree with this, but like, like working on like legacy software is like really hard.",
+      "start": 3133590,
+      "end": 3140520,
+      "role": "qa"
+    },
+    {
+      "sid": "s000730",
+      "text": "Like sometimes things just like can't, like you have to rewrite everything.",
+      "start": 3140520,
+      "end": 3143680,
+      "role": "qa"
+    },
+    {
+      "sid": "s000731",
+      "text": "So like it's very expensive and like time consuming and like, I don't know, like what the time like constraint between Apache releasing, like, okay, there's a bug and then someone exploiting it.",
+      "start": 3144480,
+      "end": 3153680,
+      "role": "qa"
+    },
+    {
+      "sid": "s000732",
+      "text": "Like, there may not have just been enough time for them to fix it.",
+      "start": 3153680,
+      "end": 3156880,
+      "role": "qa"
+    },
+    {
+      "sid": "s000733",
+      "text": "Like, that's like something else you have to take into the.",
+      "start": 3157200,
+      "end": 3159120,
+      "role": "qa"
+    },
+    {
+      "sid": "s000734",
+      "text": "Okay, so it's hard.",
+      "start": 3160010,
+      "end": 3161450,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000735",
+      "text": "Let's say they were not lazy and they were not stupid.",
+      "start": 3162010,
+      "end": 3165210,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000736",
+      "text": "They knew there was a problem.",
+      "start": 3165370,
+      "end": 3166570,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000737",
+      "text": "It was extremely difficult.",
+      "start": 3166890,
+      "end": 3168290,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000738",
+      "text": "They had a lot to have to change and the amount that they had was seemingly insurmountable.",
+      "start": 3168290,
+      "end": 3174090,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000739",
+      "text": "Let's give them the benefit of their doubt.",
+      "start": 3174730,
+      "end": 3176410,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000740",
+      "text": "So was their play correct in ignoring the problem and allowing the hack to occur?",
+      "start": 3176410,
+      "end": 3182730,
+      "role": "qa"
+    },
+    {
+      "sid": "s000741",
+      "text": "I mean, I don't think, like, if they, if they can, I don't think they should like just sit by and let it happen.",
+      "start": 3183850,
+      "end": 3188920,
+      "role": "qa"
+    },
+    {
+      "sid": "s000742",
+      "text": "But I think you, like, I don't think there's a good answer.",
+      "start": 3189720,
+      "end": 3192640,
+      "role": "qa"
+    },
+    {
+      "sid": "s000743",
+      "text": "Again, it's, again, like, they probably should have tried and started like trying to make an attempt, but like, if they couldn't, like if it was just not feasible to do it, like, at least they tried to fix it before.",
+      "start": 3192640,
+      "end": 3203960,
+      "role": "qa"
+    },
+    {
+      "sid": "s000745",
+      "text": "I think, like, like what I was saying, like public sentiment matters.",
+      "start": 3205280,
+      "end": 3207480,
+      "role": "qa"
+    },
+    {
+      "sid": "s000746",
+      "text": "Like, I think people will be a lot like, like less like willing to judge them if they're saying like, yes, we were working on proof that we were working on didn't make it in time versus, like we just ignored it.",
+      "start": 3207480,
+      "end": 3215530,
+      "role": "qa"
+    },
+    {
+      "sid": "s000747",
+      "text": "We didn't care if they were working on.",
+      "start": 3215530,
+      "end": 3218250,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000749",
+      "text": "And they didn't notify people.",
+      "start": 3219170,
+      "end": 3220610,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000751",
+      "text": "It would have been ethical for them to have given notice.",
+      "start": 3222850,
+      "end": 3225570,
+      "role": "qa"
+    },
+    {
+      "sid": "s000752",
+      "text": "Kind of like what we talked about with the known vulnerability in the heart transplant.",
+      "start": 3225890,
+      "end": 3231930,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000753",
+      "text": "In this case, the Difference with that example that we did last time, one, there was no risk, it was zero percent chance of risk.",
+      "start": 3231930,
+      "end": 3238060,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000754",
+      "text": "This, the risk is actually high.",
+      "start": 3238460,
+      "end": 3240060,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000755",
+      "text": "This is a real vulnerability and there are real hackers who want this information.",
+      "start": 3241820,
+      "end": 3244940,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000756",
+      "text": "Don't you think they should have disclosed it to people?",
+      "start": 3245580,
+      "end": 3247500,
+      "role": "qa"
+    },
+    {
+      "sid": "s000757",
+      "text": "I mean yeah, I think they probably should have disclosed it and like I don't know, I don't know how feasible it is.",
+      "start": 3248380,
+      "end": 3253300,
+      "role": "qa"
+    },
+    {
+      "sid": "s000758",
+      "text": "Like let's say they have like, like a whole bunch of users, like 140 million users, right?",
+      "start": 3253300,
+      "end": 3256940,
+      "role": "qa"
+    },
+    {
+      "sid": "s000759",
+      "text": "Like every single person decide like okay, like remove my data from your system.",
+      "start": 3256940,
+      "end": 3260620,
+      "role": "qa"
+    },
+    {
+      "sid": "s000761",
+      "text": "Like it's because that's a lot of users one by one to go and remove from the system.",
+      "start": 3261740,
+      "end": 3265430,
+      "role": "qa"
+    },
+    {
+      "sid": "s000762",
+      "text": "There's not really an automatic way to do.",
+      "start": 3265590,
+      "end": 3267750,
+      "role": "qa"
+    },
+    {
+      "sid": "s000764",
+      "text": "I don't know when this, I guess 2017, you probably could have done it or they probably could have done it.",
+      "start": 3270390,
+      "end": 3274790,
+      "role": "qa"
+    },
+    {
+      "sid": "s000765",
+      "text": "Have some form where someone goes in and says I want my data removed from their system.",
+      "start": 3274950,
+      "end": 3278950,
+      "role": "qa"
+    },
+    {
+      "sid": "s000766",
+      "text": "I mean if you have 100, if you had this many users for Microsoft, which is obviously a lot more but let's just say you had probable number and it's an option operating system and you patch things and you know it comes and goes.",
+      "start": 3279430,
+      "end": 3292640,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000767",
+      "text": "But your goal as a company is that you have some security and some management and some, all the other things that Microsoft does versus this company who their whole job is to keep you secure.",
+      "start": 3292800,
+      "end": 3302720,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000768",
+      "text": "And they aren't able to do that.",
+      "start": 3302960,
+      "end": 3305000,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000769",
+      "text": "And there is a no and they're not telling you.",
+      "start": 3305000,
+      "end": 3306960,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000770",
+      "text": "I think that's a huge problem.",
+      "start": 3306960,
+      "end": 3308000,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000771",
+      "text": "Yeah, I think, I think they should tell you for sure.",
+      "start": 3308240,
+      "end": 3310240,
+      "role": "qa"
+    },
+    {
+      "sid": "s000773",
+      "text": "So in general, what goes wrong in software development?",
+      "start": 3316570,
+      "end": 3320490,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000774",
+      "text": "Coding practice can be poor.",
+      "start": 3321370,
+      "end": 3322890,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000775",
+      "text": "We have time frames that we push to things which are just completely unreasonable.",
+      "start": 3323130,
+      "end": 3326570,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000776",
+      "text": "High volumes of software and code under qualified programmers working on sensitive systems.",
+      "start": 3327690,
+      "end": 3332450,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000777",
+      "text": "Come to the recipe chat that doesn't make mistakes.",
+      "start": 3332450,
+      "end": 3335050,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000778",
+      "text": "Emphasis on budget rather than user experience.",
+      "start": 3336170,
+      "end": 3338490,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000779",
+      "text": "Complex operations of interest with intricate sets of management chain that can have this distance from the actual work being done.",
+      "start": 3339380,
+      "end": 3348020,
+      "role": "lecture"
+    }
+  ]
+}

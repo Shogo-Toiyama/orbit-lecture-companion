@@ -1,0 +1,39 @@
+# Dijkstra's Algorithm Introduction
+
+Dijkstra's algorithm is a greedy algorithm used to find the shortest paths from a single source vertex to all other vertices in a graph. The core idea is to iteratively select the vertex with the smallest known distance from the source and finalize its path, while updating the distances of its neighbors. The development of this algorithm involved exploring and discarding various approaches before arriving at an optimal solution.
+
+## The Greedy Approach of Dijkstra's Algorithm
+
+Dijkstra's algorithm operates on a **greedy paradigm**, meaning it makes the locally optimal choice at each step with the hope of finding a global optimum. The critical decision in this algorithm is how to **carefully pick the next vertex** whose shortest path from the source can be finalized. The lecture notes that exploring three different ways of picking the next vertex initially led to failures, but these failures provided new insights that ultimately contributed to the optimal solution.
+
+## Finalizing Shortest Paths Incrementally
+
+A key characteristic of Dijkstra's algorithm is its ability to **finalize the shortest path distance to a vertex at each step**, even when there are many unseen vertices and potential paths. The lecture states that the algorithm can confidently state that the distance to vertex C is finalized, despite not having explored all possible paths to C. This is based on the observation that the distance from the source (S) to C is finalized at each step. This iterative process of finalizing distances continues until all vertices have been processed.
+
+## The Thinking Process Behind Algorithm Development
+
+The lecture emphasizes that the *thinking process* behind developing an algorithm is more important than knowing the algorithm itself. This includes the exploration of ideas, the experience of failures, and learning from them. The development of Dijkstra's algorithm is presented as an example of this iterative process, where initial failures led to new ideas and eventually to an optimal solution. Students are encouraged not to be afraid of coming up with new ideas, even if they might fail, as failure can be a valuable learning opportunity.
+
+## Dijkstra's Shortest Path Algorithm
+
+Dijkstra's algorithm is formally known as the **Dijkstra's Shortest Path Algorithm**. The lecture notes it was developed by a professor at UT Austin named Dijkstra in the 1970s. The algorithm is highly efficient in its implementation and has been widely used in many software applications.
+
+## Algorithm Mechanics and Proof of Optimality
+
+The algorithm works by maintaining a set of vertices with finalized shortest path distances and a set of vertices with tentative distances. At each step, it selects the vertex with the minimum tentative distance from the set of unvisited vertices. This minimum distance is then considered final. The proof of optimality relies on the fact that at each step, the chosen vertex has the smallest distance among all reachable vertices, and this distance is guaranteed to be the shortest possible path. If there were a shorter path to a vertex, it would have to go through a vertex with a smaller finalized distance, which contradicts the selection process. The absence of negative edges is crucial for this proof.
+
+## Implementation and Runtime Analysis
+
+A straightforward implementation of Dijkstra's algorithm involves using an array to store temporary distances. In each step, the algorithm finds the minimum value in this array, which takes linear time. This minimum value is then made permanent. Updating the distances of neighbors also takes time. In a naive implementation where finding the minimum takes linear time and updating neighbors is considered, the overall runtime can be **O(N^2)**, where N is the number of vertices.
+
+A more efficient approach involves an **edge-centric analysis** rather than a vertex-centric one. Instead of focusing on the time taken per vertex step, this approach considers the total work done across all edges. When a vertex's distance is finalized, its outgoing edges are examined to update the distances of their neighbors. The total number of edge relaxations across the entire algorithm is proportional to the number of edges, E.
+
+Further optimization can be achieved by using a **heap data structure**. A min-heap allows finding the minimum value in **constant time (O(1))** and updating or inserting values in **O(log N)** time. With a heap, the overall runtime of Dijkstra's algorithm can be improved to **O(E log N)** or **O(E log E)**, which is generally better than O(N^2), especially for sparse graphs where the number of edges (E) is significantly less than N^2. The choice between the O(N^2) and O(E log N) implementations depends on the density of the graph. For dense graphs (where E is close to N^2), the O(N^2) approach might be comparable or even slightly better due to lower overhead. For sparse graphs, the heap-based approach is superior.
+
+## Summary
+
+*   Dijkstra's algorithm is a **greedy algorithm** for finding the shortest paths from a single source vertex.
+*   It works by iteratively selecting the vertex with the **minimum tentative distance** and finalizing its shortest path.
+*   The algorithm's development highlights the importance of **learning from failures** and the iterative nature of problem-solving.
+*   A basic implementation has a runtime of **O(N^2)**, while using a **heap data structure** improves it to **O(E log N)** or **O(E log E)**.
+*   The choice of implementation depends on the **density of the graph**, with sparse graphs benefiting more from the heap-based approach.

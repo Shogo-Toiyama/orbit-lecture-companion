@@ -1,0 +1,61 @@
+# Dijkstra's Algorithm Runtime Analysis
+
+This lecture explores the efficiency of Dijkstra's algorithm by analyzing its runtime complexity, focusing on how performance scales with the number of vertices (N) and edges (E) in a graph. It contrasts a straightforward vertex-centric approach with an optimized edge-centric method that leverages a heap data structure, ultimately guiding the choice of implementation based on graph density.
+
+## Understanding Algorithm Runtime
+Algorithm runtime is typically expressed as a function of the input size. For graph algorithms like Dijkstra's, the input consists of vertices (N), edges (E), and weights on those edges. A *polynomial time algorithm* is one whose runtime is polynomial in the input size, specifically in terms of N and E. It is crucial that the runtime is not polynomial in the edge weights, as large weights could artificially inflate the problem size, making an algorithm appear polynomial when it is not truly efficient. Therefore, when discussing polynomial, quadratic, or linear time in this class, it always refers to the input size (N and E).
+
+## Initial Runtime Analysis: Vertex-Centric Approach
+A basic implementation of Dijkstra's algorithm can be analyzed using a *vertex-centric approach*. The algorithm proceeds in N steps, where in each step, one temporary vertex value becomes permanent by finding the minimum among the current temporary values.
+
+The operations within each step are:
+-   **Finding the minimum value**: If there are N values, finding the minimum takes *linear time*, or O(N).
+-   **Updating neighbor values**: When a vertex becomes permanent, its neighbors' values may need updating. In the worst case, this could involve updating N values, also taking O(N) time.
+
+Since there are N such steps, and each step involves operations that take linear time (O(N)), the total runtime for this straightforward implementation is **O(N * N) = O(N^2)**. This is considered the easiest implementation but may not be the most efficient for all graph types.
+
+## Optimizing with an Edge-Centric Perspective
+The N-squared runtime can be inefficient, especially for graphs that do not have many edges. Many real-world graphs are *sparse*, meaning they have a relatively small number of edges, often linear in N, rather than the maximum possible N-squared edges. To account for this, an *edge-centric approach* to runtime analysis is introduced.
+
+This approach involves a different way of "accounting" for the work done:
+-   Instead of charging updates to vertices (N updates per step), updates are charged to the edges.
+-   Each edge is examined for updating only once throughout the entire algorithm.
+-   The sum of all edge updates across the algorithm's execution is proportional to the total number of edges, E.
+
+By shifting the accounting from vertices to edges, the update portion of the algorithm's cost becomes **O(E)** for the entire algorithm, rather than O(N) per step. This is the "same algorithm, different accounting."
+
+## Enhancing Performance with Heap Data Structures
+Even with edge-centric accounting, the bottleneck in the algorithm remains the repeated task of finding the minimum value. To address this, a more advanced data structure called a **heap** is introduced.
+
+A heap is a binary tree where the minimum value is always at the root. Using a heap, the operations are significantly faster:
+-   **Finding the minimum**: This can be done in *constant time*, O(1), because the minimum is always at the root.
+-   **Deleting the minimum and re-heapifying**: After extracting the minimum, the heap needs to be reorganized to maintain its property. This operation, often called "heapify," takes *logarithmic time*, O(log N), where N is the number of elements in the heap (or log E, which is considered order-wise equivalent to log N).
+-   **Inserting a new value**: Inserting a new value into the heap also takes O(log N) time.
+
+By incorporating a heap, the overall runtime for the edge-centric approach is improved. For each edge, an update might lead to an insertion or deletion in the heap, each costing O(log N) time. Summing these operations over all edges, the total runtime becomes **O(E log E)** or **O(E log N)**. This is generally a much better runtime than O(N^2).
+
+## Choosing the Right Implementation Based on Graph Density
+The lecture presents two primary runtime complexities for Dijkstra's algorithm:
+1.  **O(N^2)**: From the vertex-centric approach, typically using a simple array for finding minimums.
+2.  **O(E log E)** (or O(E log N)): From the edge-centric approach, utilizing a heap data structure.
+
+The choice of which implementation to use depends on the *density* of the graph, specifically the relationship between E and N:
+-   If the graph is **dense**, meaning it has many edges (E is large, approaching N^2), then O(N^2) might be comparable to or even better than O(E log E). Specifically, if E is greater than N^2 / log N, the O(N^2) algorithm is preferred.
+-   If the graph is **sparse**, meaning it has few edges (E is small, often linear in N), then O(E log E) is significantly faster than O(N^2). This is the preferred algorithm when E is less than N^2 / log N.
+
+In an interview or exam setting, the correct response when asked which algorithm to use is to inquire about the number of edges in the graph to determine its density.
+
+## Summary
+-   Dijkstra's algorithm runtime analysis considers efficiency in terms of vertices (N) and edges (E), not edge weights.
+-   A basic, vertex-centric implementation has a runtime of **O(N^2)**.
+-   An optimized, edge-centric approach, which accounts for operations per edge, initially improves the update cost to O(E).
+-   Using a **heap data structure** to efficiently find and update minimums further optimizes the edge-centric approach to **O(E log E)**.
+-   The choice between O(N^2) and O(E log E) depends on graph density: O(N^2) is better for dense graphs (E > N^2 / log N), while O(E log E) is better for sparse graphs (E < N^2 / log N).
+
+## Supplement: Key Terms in Graph Theory
+-   **Vertices (N)**: The nodes or points in a graph.
+-   **Edges (E)**: The connections between vertices in a graph.
+-   **Weights**: Values assigned to edges, often representing cost, distance, or time.
+-   **Sparse Graph**: A graph with relatively few edges compared to the maximum possible number of edges (e.g., E is closer to N than N^2).
+-   **Dense Graph**: A graph with many edges, approaching the maximum possible number of edges (e.g., E is closer to N^2). The lecture defines a dense graph in this context as one where E > N^2 / log N.
+-   **Heap Data Structure**: A specialized tree-based data structure that satisfies the heap property: if P is a parent node of C, then the value of P is ordered with respect to the value of C. In a *min-heap*, the parent's value is less than or equal to the child's value, ensuring the minimum element is always at the root.

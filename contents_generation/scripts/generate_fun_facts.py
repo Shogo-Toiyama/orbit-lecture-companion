@@ -110,9 +110,9 @@ def main():
     GEN_MODEL = "gemini-2.5-flash"
 
     ROOT = Path(__file__).resolve().parent
-    LECTURE_DIR = ROOT / "lectures/2025-10-07-21-27-43-0700"
+    LECTURE_DIR = ROOT / "../lectures/2025-10-07-21-27-43-0700"
 
-    generate_fun_facts(client, GEN_MODEL, config_text(), LECTURE_DIR)
+    generate_fun_facts(client, GEN_MODEL, config_text(google_search=True), LECTURE_DIR)
 
 if __name__ == "__main__":
     main()

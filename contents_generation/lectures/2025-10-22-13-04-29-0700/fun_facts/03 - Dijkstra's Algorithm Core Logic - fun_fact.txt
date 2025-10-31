@@ -1,0 +1,11 @@
+## Your GPS is a Dijkstra Fan!
+
+Ever wonder how your phone instantly calculates the fastest route when you ask for directions? It's often thanks to algorithms like Dijkstra's, which embody the *greedy paradigm* to find the *minimum path from a starting point*. Just as Dijkstra's iteratively selects the vertex with the *minimum temporary distance* to finalize the shortest path, your GPS constantly evaluates potential road segments, prioritizing those that offer the quickest or shortest known route to your destination at each junction.
+
+This real-world application perfectly illustrates how making locally optimal choices—like picking the fastest immediate road segment—can lead to a globally optimal solution, ensuring you arrive at your destination via the most efficient route. The algorithm's ability to *iteratively identifying and finalizing the shortest known paths* is what makes modern navigation systems so effective, constantly updating as you move and new information becomes available.
+
+## The "No Negative Roads" Rule: Why Dijkstra Needs Positive Weights
+
+A crucial detail for Dijkstra's Algorithm is that *all edge weights are positive*, a condition vital for its *proof of optimality*. Imagine a road network where some roads actually *reduce* your travel time or cost (a "negative weight") – perhaps a wormhole or a road that pays you to use it! If such a "negative edge" existed, Dijkstra's greedy approach could get stuck in a loop, continuously finding a "shorter" path by traversing a negative cycle, violating the assumption that once a path is finalized, it's truly the shortest.
+
+This limitation means Dijkstra's cannot handle graphs with negative edge weights, as its core logic of *repeatedly selecting the vertex with the minimum temporary path* would break down. For scenarios involving negative weights, other algorithms like the Bellman-Ford algorithm are necessary, highlighting that while Dijkstra's is incredibly efficient for many real-world problems (like road networks where distances are always positive), understanding its specific constraints is key to choosing the right tool for the job.

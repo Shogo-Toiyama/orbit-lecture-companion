@@ -1,0 +1,41 @@
+# Greedy Approach Challenges
+
+The greedy approach is a problem-solving paradigm where one makes the locally optimal choice at each step, hoping this will lead to a globally optimal solution. This lecture explores the core idea of greedy algorithms, demonstrates where they can succeed, and critically examines the specific conditions and scenarios, such as the presence of negative edges or when considering paths beyond immediate neighbors, where this approach can fail.
+
+## Understanding the Greedy Paradigm
+
+The *greedy paradigm* involves making a decision that appears best at the current moment, without considering future implications or all possible alternatives. For a problem, the greedy approach asks if there's a part of the solution that can be confidently determined and never changed later. An example from a previous session is *interval scheduling*, where one selects the interval that ends first, without looking at all other intervals, and includes it in the non-overlapping interval problem's output. The motivation for trying a greedy approach is often its simplicity, especially when the solution method is not immediately obvious, and because it has worked for other problems.
+
+## Initial Success: Shortest Path to the Closest Neighbor
+
+When trying to apply the greedy paradigm to find the shortest path from a starting vertex *S* in a graph, the initial step involves looking at the neighbors of *S*. The greedy choice is to select the neighbor closest to *S*, let's call it *B*, and declare its distance from *S* as the *final shortest path*—a number that will not change later.
+
+This claim can be proven by contradiction. If there were a shorter path from *S* to *B* that went through some other vertex *Y* before reaching *B*, then the first edge on this alternative path (from *S* to *Y*) would have to be longer than the direct edge from *S* to *B*. This is because *B* was specifically chosen as the *shortest edge* among all neighbors of *S*. Adding any positive weight to this longer initial edge would only make the total path length even greater than the direct path to *B*.
+
+## Critical Conditions for Greedy Proof
+
+The success of this proof relies on two critical conditions:
+*   **Selection of the Shortest Edge:** The proof holds because *B* was chosen as the vertex connected by the *minimum edge* from *S*. Any alternative path starting with a different edge from *S* would necessarily begin with a longer edge.
+*   **Absence of Negative Edges:** The proof also fundamentally assumes there are *no negative edges* in the graph. If edges could have negative weights, adding "extra stuff" (the weights of subsequent edges) would not necessarily make the number bigger; it could make it smaller.
+
+## Why Greedy Fails: The Negative Edge Problem
+
+The presence of *negative edges* directly undermines the basic premise of the greedy approach for shortest path problems. If a graph contains negative edges, the assumption that adding more edges will only increase the path length (or keep it the same if the added edge is zero) is no longer valid. Consequently, the greedy strategy of confidently finalizing a path length based on immediate shortest connections fails, and thus, the greedy approach *does not work with negative edges*.
+
+## Why Greedy Fails: Beyond the Immediate Neighbor
+
+While the greedy approach successfully identifies the shortest path to the *very closest* neighbor (*B*), it often fails when extended to find shortest paths to other vertices. If we attempt to apply the same greedy logic to the *next* closest neighbor, say *A*, and declare its direct distance from *S* as final, the proof technique used for *B* no longer holds.
+
+The reason for this failure is that the crucial assumption—that any alternative path to *A* would necessarily start with an edge longer than the direct edge to *A*—is not generally true. There could be an alternative path to *A* that goes through other vertices (including *B* or others whose distances might have been finalized) and ultimately results in a shorter total distance than the direct path. In such cases, fixing the distance from *S* to *A* based on the immediate greedy choice would be incorrect, as a shorter path might exist. This scenario represents a *counterexample* where the basic greedy proof technique fails, indicating that a simple greedy strategy is insufficient for finding all shortest paths in a general graph.
+
+## Implications for Algorithm Design
+
+The failure of the simple greedy approach for finding shortest paths beyond the immediate neighbor, and especially in the presence of negative edges, highlights the need for more sophisticated algorithms. When a straightforward greedy strategy fails, it prompts the development of new hypotheses or "clever ways of picking a next vertex" to ensure global optimality, rather than just local optimality.
+
+## Summary
+
+*   The *greedy approach* makes locally optimal choices, aiming for a globally optimal solution, and confidently finalizes parts of the solution.
+*   It successfully finds the *shortest path to the closest neighbor* from a starting point, provable by contradiction assuming no negative edges.
+*   The proof's validity hinges on the assumption that any alternative path's initial segment would be longer than the direct greedy choice.
+*   The greedy approach *fails with negative edges* because they invalidate the assumption that adding path segments increases or maintains total path length.
+*   It also fails for vertices beyond the immediate closest neighbor because the core proof assumption (that alternative paths are longer) does not hold generally, leading to counterexamples where the greedy choice is not the true shortest path.

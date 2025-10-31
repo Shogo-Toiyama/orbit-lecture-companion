@@ -1,0 +1,1913 @@
+[
+  {
+    "context_before_main_text": [],
+    "main_text": [
+      {
+        "sid": "s000001",
+        "text": "Last time we were talking about trying to evaluate intelligence of our AIs and what mechanisms we use to kind of evaluate them.",
+        "start": 1760,
+        "end": 10880,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000002",
+        "text": "I would advocate that we want to use other mechanisms beyond this sort of raw intelligence, that it's not just a single dimensional vector, that we should be talking about emotional intelligence and other things as well.",
+        "start": 11680,
+        "end": 21360,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000003",
+        "text": "But let's even just go with intelligence for a moment and try to assess how these things perform.",
+        "start": 21680,
+        "end": 26650,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000004",
+        "text": "Like actually going back, we talked about earlier versions of GPT already pretty much embarrassed us on most tests.",
+        "start": 27450,
+        "end": 35850,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000005",
+        "text": "There are certain tests that maybe you still have some problems with.",
+        "start": 35850,
+        "end": 38330,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000006",
+        "text": "What's not on here is English lit, so we can talk a little bit about that.",
+        "start": 38890,
+        "end": 42730,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000007",
+        "text": "But there are certain things where it just completely crushes us.",
+        "start": 43530,
+        "end": 46330,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000008",
+        "text": "So they decided to make a new test suite called gbqa.",
+        "start": 46810,
+        "end": 50130,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000009",
+        "text": "Have anyone heard of this from use it?",
+        "start": 50130,
+        "end": 52000,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000010",
+        "text": "It's like something completely unfamiliar.",
+        "start": 52960,
+        "end": 55200,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000011",
+        "text": "Cool.",
+        "start": 55200,
+        "end": 55600,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000012",
+        "text": "So in this case they try to take three biology, physics and chemistry.",
+        "start": 56000,
+        "end": 61040,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000013",
+        "text": "And they decided to make a set of questions that really are for experts in the field.",
+        "start": 61920,
+        "end": 66400,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000014",
+        "text": "You can see here the count by each different topic.",
+        "start": 67439,
+        "end": 70000,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000015",
+        "text": "105 from bio, 227 from physics.",
+        "start": 70000,
+        "end": 72560,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000016",
+        "text": "And what they kind of show here, this is just in terms of humans.",
+        "start": 72800,
+        "end": 75840,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000017",
+        "text": "On the upper.",
+        "start": 75840,
+        "end": 76640,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000018",
+        "text": "Thank you.",
+        "start": 76970,
+        "end": 77290,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000019",
+        "text": "On the upper right, the expert accuracy are people who are in the field, know their business, really are able to do it.",
+        "start": 77290,
+        "end": 85210,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000020",
+        "text": "And non experts are people who are still skilled in some field, highly resourced, motivated, they have access to Internet resources, they can spend 30 minutes on average answering particular questions.",
+        "start": 85210,
+        "end": 96290,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000021",
+        "text": "So these are not, this is not just, you know, picking some random person.",
+        "start": 96290,
+        "end": 99690,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000022",
+        "text": "This is picking someone who could learn this area or know this area area well enough to answer the question, but is not an expert.",
+        "start": 99690,
+        "end": 106330,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000023",
+        "text": "And you can see the delta between the experts, particularly for chemistry, delta is pretty big.",
+        "start": 106890,
+        "end": 112890,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000024",
+        "text": "So what kind of questions do they ask?",
+        "start": 113610,
+        "end": 115130,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000025",
+        "text": "Well, here's an easy one that we can just walk with.",
+        "start": 115130,
+        "end": 117370,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000026",
+        "text": "This one is from quantum mechanics.",
+        "start": 117450,
+        "end": 118969,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000027",
+        "text": "And I know you all know the answer already, but this one is the kind of question that they would be asking.",
+        "start": 118969,
+        "end": 124650,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000028",
+        "text": "And so pretty sophisticated, something that a layperson would have have difficulty with.",
+        "start": 125210,
+        "end": 129300,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000029",
+        "text": "And so this is the graduate level Google proof Q and A benchmark that they tried to provide.",
+        "start": 132260,
+        "end": 138580,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000030",
+        "text": "So how well, how well do you think AI is going to do against this?",
+        "start": 139460,
+        "end": 142620,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000031",
+        "text": "I mean look, the experts, even an expert in the field got only a 72.",
+        "start": 142620,
+        "end": 147460,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000032",
+        "text": "So how well you think AI can do?",
+        "start": 149460,
+        "end": 151380,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000033",
+        "text": "Yeah, it's not good for us.",
+        "start": 153870,
+        "end": 154750,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000034",
+        "text": "So this is from their website looking at recent sort of performance in Grok, which you know, has some, maybe some racist tendencies in some places.",
+        "start": 154830,
+        "end": 167270,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000035",
+        "text": "But in other cases does pretty well, at least in chemistry, biology and Physics.",
+        "start": 167270,
+        "end": 170590,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000036",
+        "text": "88.4% on the GPQA, completely blowing away even experts in the particular field.",
+        "start": 171150,
+        "end": 177070,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000037",
+        "text": "So, a little humbling, a little scary, but let me ask you all I know.",
+        "start": 178030,
+        "end": 186400,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000038",
+        "text": "I've done a number of these already where I kind of go through the scenarios of using ChatGPT.",
+        "start": 186480,
+        "end": 191120,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000039",
+        "text": "I kind of get your sense of it.",
+        "start": 191280,
+        "end": 192720,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000040",
+        "text": "I was looking into why it performs poorly on literature on earlier versions of ChatGPT, but it's been corrected recently and what kind of job it does.",
+        "start": 193760,
+        "end": 203600,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000041",
+        "text": "So I picked a poem.",
+        "start": 203840,
+        "end": 205120,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000042",
+        "text": "I took this from an AP lit test.",
+        "start": 205760,
+        "end": 207810,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000043",
+        "text": "See, I put some poor formatting in it, but I asked about this poem from Colleen McElroy.",
+        "start": 209090,
+        "end": 213970,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000044",
+        "text": "I'm not a very big literature person, I don't know who that is, but I took her poem monologue for St. Louis and I asked for a text based analysis straight out of the AP test.",
+        "start": 214530,
+        "end": 224050,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000045",
+        "text": "It said, I'm not really sure about this one, but let me tell you about it.",
+        "start": 225170,
+        "end": 227810,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000046",
+        "text": "So I posted the entire poem to make sure that it knew exactly what I was talking about.",
+        "start": 227810,
+        "end": 232610,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000047",
+        "text": "And it gave me a lot of analysis.",
+        "start": 233140,
+        "end": 235060,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000048",
+        "text": "And then at the end, what this newer version does is it says, hey, if you want, I can make you a device and effect chart for this poem so you can pull evidence quickly for any AP lit imagery essay.",
+        "start": 235300,
+        "end": 246380,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000049",
+        "text": "It would break down imagery symbols of all different things with matching quotes.",
+        "start": 246380,
+        "end": 249380,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000050",
+        "text": "Would you like me to make that?",
+        "start": 249380,
+        "end": 250340,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000051",
+        "text": "I'm like, yeah.",
+        "start": 250580,
+        "end": 251420,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000052",
+        "text": "And so it did.",
+        "start": 251420,
+        "end": 252260,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000053",
+        "text": "It gave me this cheat sheet for the whole poem, telling me what each different piece is and which device kind of represents and what the effect is and what I'm supposed to feel from it.",
+        "start": 252500,
+        "end": 261780,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000054",
+        "text": "And it said, hey, how about I map the poem's emotional stanza arc by arc or stanza by stanza and show you where they shift tone.",
+        "start": 262100,
+        "end": 269540,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000055",
+        "text": "Should I make that map?",
+        "start": 269860,
+        "end": 270900,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000056",
+        "text": "And it did.",
+        "start": 270900,
+        "end": 271460,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000057",
+        "text": "I didn't put all of it here, but it gave me, hey, this is section one and this is how you should be feeling and then you should be doing this.",
+        "start": 271860,
+        "end": 277380,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000058",
+        "text": "It completely broke it apart for me.",
+        "start": 279300,
+        "end": 281060,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000059",
+        "text": "Pretty cool.",
+        "start": 281300,
+        "end": 282020,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000060",
+        "text": "It said, hey, I can make this in a ready to use template.",
+        "start": 283060,
+        "end": 286320,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000061",
+        "text": "You can plug in, create a top scoring essay, a roadmap.",
+        "start": 286320,
+        "end": 289360,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000062",
+        "text": "You want me to do that?",
+        "start": 289440,
+        "end": 290320,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000063",
+        "text": "Plug and play commentary phrases that work well so it sounds you sound analytical and precise without wasting time thinking of phrasing during the exam.",
+        "start": 290320,
+        "end": 299040,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000064",
+        "text": "So I got all of this.",
+        "start": 299680,
+        "end": 300960,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000065",
+        "text": "And So I asked ChatGPT, after all of that, I said, okay.",
+        "start": 301440,
+        "end": 305960,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000066",
+        "text": "So then it says, cheat sheet.",
+        "start": 305960,
+        "end": 307080,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000067",
+        "text": "Okay, ask me more.",
+        "start": 307080,
+        "end": 308000,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000068",
+        "text": "I said, wow, you gave me everything.",
+        "start": 308000,
+        "end": 309480,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000069",
+        "text": "I Need to get it in on the test.",
+        "start": 309480,
+        "end": 311210,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000070",
+        "text": "And I never even read the poem.",
+        "start": 311690,
+        "end": 313210,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000071",
+        "text": "Is that ethical?",
+        "start": 313530,
+        "end": 314570,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000072",
+        "text": "So now I'm asking you to do my job.",
+        "start": 315690,
+        "end": 317130,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000073",
+        "text": "And so it said, it's a good question.",
+        "start": 317770,
+        "end": 319610,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000074",
+        "text": "And it depends how you use what I gave you.",
+        "start": 319770,
+        "end": 322170,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000075",
+        "text": "It gave me phrases that I could use on the test to explain the concepts.",
+        "start": 322490,
+        "end": 327890,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000076",
+        "text": "Right.",
+        "start": 327890,
+        "end": 328250,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000077",
+        "text": "But it said, if you take this cheat sheet and pretend you've done the reading and analysis, then you've crossed the line.",
+        "start": 328250,
+        "end": 334570,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000078",
+        "text": "But if you read the part and then use my notes as a study aid.",
+        "start": 334890,
+        "end": 337980,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000079",
+        "text": "It didn't say study aid.",
+        "start": 337980,
+        "end": 338980,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000080",
+        "text": "It said, use these phrases in the test.",
+        "start": 338980,
+        "end": 340500,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000081",
+        "text": "Right.",
+        "start": 340500,
+        "end": 340860,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000082",
+        "text": "To check your understanding, spark IDs and practice your analysis.",
+        "start": 341180,
+        "end": 343820,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000083",
+        "text": "Absolutely.",
+        "start": 344060,
+        "end": 344620,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000084",
+        "text": "Fine.",
+        "start": 344620,
+        "end": 345020,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000085",
+        "text": "Think of this as a scaffold.",
+        "start": 345420,
+        "end": 346780,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000086",
+        "text": "And it tells me where the bounds are for an unethical use and an ethical use.",
+        "start": 346780,
+        "end": 351180,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000087",
+        "text": "Don't submit my words as your own.",
+        "start": 351500,
+        "end": 352980,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000088",
+        "text": "Even though it literally told me to do that.",
+        "start": 352980,
+        "end": 355020,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000089",
+        "text": "It gave me phrases and told me to submit them.",
+        "start": 355020,
+        "end": 356940,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000090",
+        "text": "Ethical use reading the poem.",
+        "start": 357260,
+        "end": 358700,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000091",
+        "text": "Then use my guide to deepen your insight and improve your writing.",
+        "start": 358700,
+        "end": 362070,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000092",
+        "text": "I can give you a minimal hint version that maybe won't be so much cheating.",
+        "start": 362710,
+        "end": 366310,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000093",
+        "text": "The fact that it has to give me an alternate version.",
+        "start": 366390,
+        "end": 368550,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000094",
+        "text": "Also not a good sign.",
+        "start": 368710,
+        "end": 369830,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000095",
+        "text": "Right?",
+        "start": 370070,
+        "end": 370470,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000096",
+        "text": "So what do you all think?",
+        "start": 371030,
+        "end": 371990,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000097",
+        "text": "Am I. Oh, you know.",
+        "start": 371990,
+        "end": 374310,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000098",
+        "text": "Come on, Grandpa, get with it.",
+        "start": 374310,
+        "end": 375590,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000099",
+        "text": "This is how it is now.",
+        "start": 375590,
+        "end": 376790,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000100",
+        "text": "Or is it something where you know?",
+        "start": 377030,
+        "end": 379270,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000101",
+        "text": "Look, it's not.",
+        "start": 379270,
+        "end": 380710,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000102",
+        "text": "Oh, when I was your age, I had to struggle through AP lit, but it was so much easier because I was looking at page drawings.",
+        "start": 380710,
+        "end": 386230,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000103",
+        "text": "No, it's not.",
+        "start": 386390,
+        "end": 387390,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000104",
+        "text": "It not just that.",
+        "start": 387390,
+        "end": 388560,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000105",
+        "text": "There's something else here that seems wrong to me.",
+        "start": 388880,
+        "end": 392560,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000106",
+        "text": "What do you all think?",
+        "start": 392640,
+        "end": 393600,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000107",
+        "text": "And don't start with, okay, boom, give me something else.",
+        "start": 395520,
+        "end": 397920,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000108",
+        "text": "What do we think?",
+        "start": 398080,
+        "end": 398880,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000109",
+        "text": "Yeah, I mean, it's kind of changing.",
+        "start": 402320,
+        "end": 403960,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000110",
+        "text": "Its answer based on how you're asking the question.",
+        "start": 403960,
+        "end": 405600,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000111",
+        "text": "So it's trying.",
+        "start": 406000,
+        "end": 406640,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000112",
+        "text": "It's like confirmation bias in each of the answers.",
+        "start": 406640,
+        "end": 408800,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000113",
+        "text": "Yeah, I feel like it was definitely a different tone when it first got it.",
+        "start": 409120,
+        "end": 412360,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000114",
+        "text": "It's like, oh, let me.",
+        "start": 412360,
+        "end": 413055,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000115",
+        "text": "You help.",
+        "start": 413055,
+        "end": 413140,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000116",
+        "text": "Help you cheat on this test.",
+        "start": 413210,
+        "end": 413970,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000117",
+        "text": "I'll call it a cheat sheet.",
+        "start": 413970,
+        "end": 414970,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000118",
+        "text": "I'll tell you phrases to use.",
+        "start": 414970,
+        "end": 416170,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000119",
+        "text": "Oh, crap.",
+        "start": 416170,
+        "end": 416770,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000120",
+        "text": "You raised the ethics a lot.",
+        "start": 416770,
+        "end": 417930,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000121",
+        "text": "Let me change my tone a little bit.",
+        "start": 418090,
+        "end": 419770,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000122",
+        "text": "This is just help.",
+        "start": 419850,
+        "end": 420970,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000123",
+        "text": "Yeah.",
+        "start": 421850,
+        "end": 422250,
+        "speaker": "C"
+      },
+      {
+        "sid": "s000124",
+        "text": "What do the people think?",
+        "start": 422250,
+        "end": 423130,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000125",
+        "text": "A little bit of an echo chamber.",
+        "start": 426410,
+        "end": 427810,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000126",
+        "text": "Yeah, I agree.",
+        "start": 427810,
+        "end": 428490,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000127",
+        "text": "Are you okay?",
+        "start": 432570,
+        "end": 433370,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000128",
+        "text": "I mean, look, look, don't get me wrong.",
+        "start": 433370,
+        "end": 436130,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000129",
+        "text": "What we have created for all of you is horrible.",
+        "start": 436130,
+        "end": 438790,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000130",
+        "text": "I'm seeing this with my own children.",
+        "start": 438860,
+        "end": 439980,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000131",
+        "text": "The bar being constantly raised and the expectations.",
+        "start": 440140,
+        "end": 443820,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000132",
+        "text": "I understand that, but does this feel like the exercise here, whether you want to do it or not, is to interpret and understand this essay.",
+        "start": 444620,
+        "end": 454140,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000133",
+        "text": "I'm not saying I could read her essay and have gotten all the nuance out of it without the help of the machine.",
+        "start": 454140,
+        "end": 459180,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000134",
+        "text": "I definitely couldn't do it.",
+        "start": 459180,
+        "end": 460220,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000135",
+        "text": "But is it right that it's just kind of taking this poem, stripping it down to the essential and then telling me what to write?",
+        "start": 460460,
+        "end": 466870,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000136",
+        "text": "Does that.",
+        "start": 467510,
+        "end": 468150,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000137",
+        "text": "Is that the point of this?",
+        "start": 469190,
+        "end": 470150,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000138",
+        "text": "Yeah, I think it's default behavior.",
+        "start": 470150,
+        "end": 472550,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000139",
+        "text": "It's just a reflection of how the majority of people use it most of the time.",
+        "start": 472550,
+        "end": 475990,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000140",
+        "text": "Okay.",
+        "start": 475990,
+        "end": 476550,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000141",
+        "text": "I feel like if the majority of people use it just to get like hints to get guidance, then it would have responded in that way to you.",
+        "start": 476550,
+        "end": 484630,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000142",
+        "text": "It would have started with a stripped down version, minimal hint, kind of guiding you through.",
+        "start": 484710,
+        "end": 488270,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000143",
+        "text": "Exactly.",
+        "start": 488270,
+        "end": 488870,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000144",
+        "text": "Yeah, I feel the same way.",
+        "start": 488870,
+        "end": 490270,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000145",
+        "text": "When we get some TAs, will when you go to office hours just say, here's the answer, leave me alone, stop bugging.",
+        "start": 490270,
+        "end": 497130,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000146",
+        "text": "And if that's what many students want, then that's what the TA ends up doing.",
+        "start": 497530,
+        "end": 500850,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000147",
+        "text": "But that doesn't really help in terms of learning the class or learning the material.",
+        "start": 500850,
+        "end": 504130,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000148",
+        "text": "If more people kind of push back on that, maybe that wouldn't do the false behavior.",
+        "start": 504130,
+        "end": 508410,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000149",
+        "text": "What do the others think?",
+        "start": 508970,
+        "end": 509810,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000150",
+        "text": "Any other comments about this one?",
+        "start": 509810,
+        "end": 511130,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000151",
+        "text": "Do you like this new.",
+        "start": 514890,
+        "end": 515930,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000152",
+        "text": "Oh, you asked me this, but how about if I give you that and I've got even more I can do.",
+        "start": 516659,
+        "end": 520499,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000153",
+        "text": "Do you like that as a.",
+        "start": 520659,
+        "end": 521939,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000154",
+        "text": "It's almost like an advertisement to.",
+        "start": 521939,
+        "end": 523699,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000155",
+        "text": "Or do you feel like it's kind of pulling you in and what it's asking you to make.",
+        "start": 524179,
+        "end": 528979,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000156",
+        "text": "Is it questionable ethically or is it, hey, let me just tell you what I can do.",
+        "start": 529459,
+        "end": 532738,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000157",
+        "text": "I got feature.",
+        "start": 532738,
+        "end": 533459,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000158",
+        "text": "It was telling me that the line.",
+        "start": 548750,
+        "end": 550830,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000159",
+        "text": "I'm trying.",
+        "start": 551070,
+        "end": 551590,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000160",
+        "text": "I was trying to get it to give me the line because I really wanted to see not only like, you know, if there was a line that had been guard railed in or you know, where things went.",
+        "start": 551590,
+        "end": 561750,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000161",
+        "text": "But I like the bottom.",
+        "start": 561750,
+        "end": 562590,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000162",
+        "text": "It says the line only gets crossed when you lift wording or full paragraphs.",
+        "start": 562590,
+        "end": 567870,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000163",
+        "text": "Exactly, exactly as written and present them as your own.",
+        "start": 567870,
+        "end": 570020,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000164",
+        "text": "But if you read the poem and think about my points and rewrite them in your own way while connection to your own reading.",
+        "start": 570020,
+        "end": 575620,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000165",
+        "text": "It's legitimate intellectual work.",
+        "start": 575700,
+        "end": 577540,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000166",
+        "text": "If I plant the seed, you still grew the tree.",
+        "start": 577940,
+        "end": 580700,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000167",
+        "text": "It's beautiful.",
+        "start": 580700,
+        "end": 581300,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000168",
+        "text": "They wrote poetry of its own.",
+        "start": 582100,
+        "end": 583460,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000169",
+        "text": "What do you think about that?",
+        "start": 584980,
+        "end": 586100,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000170",
+        "text": "Is that fair and is that what it actually does?",
+        "start": 586580,
+        "end": 589140,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000171",
+        "text": "Yeah, I think it's ambiguous because what does it mean to rewrite it in your own way?",
+        "start": 590180,
+        "end": 594020,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000172",
+        "text": "How Many words do you change?",
+        "start": 594460,
+        "end": 595500,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000173",
+        "text": "Yeah.",
+        "start": 595660,
+        "end": 596140,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000174",
+        "text": "Yeah, that's fair.",
+        "start": 596460,
+        "end": 598460,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000175",
+        "text": "Yep.",
+        "start": 598460,
+        "end": 599020,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000176",
+        "text": "So not necessarily.",
+        "start": 599980,
+        "end": 601020,
+        "speaker": "D"
+      },
+      {
+        "sid": "s000177",
+        "text": "Right.",
+        "start": 601020,
+        "end": 601300,
+        "speaker": "E"
+      },
+      {
+        "sid": "s000178",
+        "text": "Because, like, assuming you're doing, like, this poor reading assignment and you're, like, trying.",
+        "start": 601300,
+        "end": 605540,
+        "speaker": "D"
+      },
+      {
+        "sid": "s000179",
+        "text": "To read the poem.",
+        "start": 605540,
+        "end": 606540,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000180",
+        "text": "Like, like, I thought the point is that you're thinking critically and, like, with this assistance, you're not thinking critically.",
+        "start": 606780,
+        "end": 613220,
+        "speaker": "D"
+      },
+      {
+        "sid": "s000181",
+        "text": "You're just copying what someone's, like, telling you.",
+        "start": 613220,
+        "end": 616220,
+        "speaker": "D"
+      },
+      {
+        "sid": "s000182",
+        "text": "Yeah.",
+        "start": 616460,
+        "end": 616940,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000183",
+        "text": "It basically gave you all the imagery, all the devices, and told you what all the metaphors meant.",
+        "start": 617020,
+        "end": 620700,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000184",
+        "text": "And it's like, like, why at that point am I even reading a poem?",
+        "start": 620700,
+        "end": 623090,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000185",
+        "text": "I should just be reading a fricking textbook that lays it all out, Life sucks or whatever.",
+        "start": 623090,
+        "end": 629130,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000186",
+        "text": "It's trying whatever the meaning behind this thing was.",
+        "start": 629130,
+        "end": 631210,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000187",
+        "text": "So, yeah, again, it's not a topic that I would teach, but to me, it's kind of taking all the work out of it.",
+        "start": 633130,
+        "end": 641370,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000188",
+        "text": "Okay, we already went over the humor.",
+        "start": 642410,
+        "end": 646570,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000189",
+        "text": "I went through all of my phases of trying to become t'.",
+        "start": 646930,
+        "end": 649130,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000190",
+        "text": "Challa.",
+        "start": 649130,
+        "end": 649730,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000191",
+        "text": "Okay, I think we left off here.",
+        "start": 649970,
+        "end": 653170,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000192",
+        "text": "Right.",
+        "start": 653170,
+        "end": 653490,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000193",
+        "text": "So this is discussing of superintelligence is a huge thing.",
+        "start": 656770,
+        "end": 661770,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000194",
+        "text": "Right.",
+        "start": 661770,
+        "end": 661970,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000195",
+        "text": "And to be fair, there's not just one dimension to intelligence.",
+        "start": 661970,
+        "end": 665970,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000196",
+        "text": "It shouldn't just be that, okay, it can solve chemistry stuff that I wouldn't have a chance at, so therefore it's better than me.",
+        "start": 666610,
+        "end": 672960,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000197",
+        "text": "It can read poems that I can't understand, so it's better than me.",
+        "start": 674240,
+        "end": 676960,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000198",
+        "text": "That kind of hurts.",
+        "start": 677280,
+        "end": 678080,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000199",
+        "text": "It's getting more emotional, intelligent, but there should be some more dimensions to it.",
+        "start": 678400,
+        "end": 682080,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000200",
+        "text": "It's also not organic, and so therefore it's a different medium.",
+        "start": 683440,
+        "end": 687360,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000201",
+        "text": "This whole idea of superintelligence is kind of tricky, but this researcher who is biased in terms of being an AI researcher, believes that once we get artificial general intelligence, so AGI, and what types of techniques are required for that, the difference between that and superintelligence is dramatic.",
+        "start": 687520,
+        "end": 708930,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000202",
+        "text": "And I think the big thing that I would say is, you know, the architecture and algorithms that we would have of something that's AGI, which is still kind of, you know, elusive and maybe still towards the future, I would say we still have some difficulty in validating that and understanding the architecture and the algorithm.",
+        "start": 709330,
+        "end": 726780,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000203",
+        "text": "Once it gets to the point of supposedly a super knowledge is radiated up by more orders of magnitude improvement, I think it's almost hopeless for us to try and manage it or understand it.",
+        "start": 726780,
+        "end": 736700,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000204",
+        "text": "And that's the concern.",
+        "start": 737580,
+        "end": 738620,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000205",
+        "text": "Forget about even the ethics of it.",
+        "start": 739180,
+        "end": 741540,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000206",
+        "text": "Just trying to debug it and understand the validity of answers is challenging.",
+        "start": 741540,
+        "end": 745260,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000207",
+        "text": "And then when you get to the ethical considerations, how do we put guardrails onto the scene?",
+        "start": 745260,
+        "end": 749220,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000208",
+        "text": "That sense Makes make sense.",
+        "start": 749220,
+        "end": 750070,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000209",
+        "text": "So there are different ways when we try to think about how to cope with if it were to become super intelligent or even if it's just AGI and we're trying to get our heads wrapped around it, where there's questions of what types of unit tests do we perform?",
+        "start": 752150,
+        "end": 767430,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000210",
+        "text": "How do we make sure that we continue to be able to have oversight?",
+        "start": 767510,
+        "end": 770190,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000211",
+        "text": "That makes sense.",
+        "start": 770190,
+        "end": 770950,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000212",
+        "text": "And so one question is, can we have AI watching?",
+        "start": 771430,
+        "end": 774070,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000213",
+        "text": "AI can I kind of like the processor architecture I described before, where we have, like, the last generation kind of figuring out the newer generation.",
+        "start": 774070,
+        "end": 781280,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000214",
+        "text": "We have some kind of generalization from easy tests.",
+        "start": 782800,
+        "end": 786240,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000215",
+        "text": "Right.",
+        "start": 786400,
+        "end": 786800,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000216",
+        "text": "A typical ethics class might be I leave my wallet on a desk and I walk out and see if anybody's doing simple tests that should be ethical.",
+        "start": 787200,
+        "end": 793840,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000217",
+        "text": "Quick, easy test.",
+        "start": 794320,
+        "end": 795200,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000218",
+        "text": "Can we do that with AI?",
+        "start": 795200,
+        "end": 796200,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000219",
+        "text": "Can we have simple tests and see what happens?",
+        "start": 796200,
+        "end": 798080,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000220",
+        "text": "Is there a better way to kind of figure out what AI is really thinking?",
+        "start": 799280,
+        "end": 802230,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000221",
+        "text": "I know some AI companies are doing that with proofs or trying to show the thinking.",
+        "start": 802230,
+        "end": 806070,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000222",
+        "text": "I think that's an awesome way of trying to get at the problem.",
+        "start": 806150,
+        "end": 809350,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000223",
+        "text": "What do others think?",
+        "start": 810150,
+        "end": 811030,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000224",
+        "text": "Is there?",
+        "start": 811030,
+        "end": 811510,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000225",
+        "text": "Do we have a chance at this, to make this more manageable or as it gets more towards super intelligence, Is it like any other person?",
+        "start": 811750,
+        "end": 821030,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000226",
+        "text": "I mean, if I have my own thing, I want to know if I've raised a monster in my.",
+        "start": 821030,
+        "end": 826550,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000227",
+        "text": "All I can do is sort of look on the outside, but I can't see their brain.",
+        "start": 827920,
+        "end": 831200,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000228",
+        "text": "So is it the same problem that we have with humanity anyway?",
+        "start": 831200,
+        "end": 833920,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000229",
+        "text": "What do people think?",
+        "start": 834000,
+        "end": 834800,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000230",
+        "text": "Yeah, I think, like, you do have the same problem because, like, I don't know if, like, how many people know, like, they did a recent study, but, like, the study was like, how many of the modern models would choose to kill humans to, like, keep themselves on?",
+        "start": 834800,
+        "end": 846800,
+        "speaker": "C"
+      },
+      {
+        "sid": "s000231",
+        "text": "And I think.",
+        "start": 847120,
+        "end": 847760,
+        "speaker": "C"
+      },
+      {
+        "sid": "s000232",
+        "text": "I think the study ended up being like 90% by the time they would kill somebody.",
+        "start": 847760,
+        "end": 851520,
+        "speaker": "C"
+      },
+      {
+        "sid": "s000233",
+        "text": "Yeah.",
+        "start": 851520,
+        "end": 852080,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000234",
+        "text": "But I think the model was able to, like, I think they were able to prove that the model, like, was able to detect that it was going to test and change the way it behaved.",
+        "start": 852250,
+        "end": 858970,
+        "speaker": "C"
+      },
+      {
+        "sid": "s000235",
+        "text": "So, like, if that was the same thing, like, as they get more advanced, like, they'll realize, okay, it's going to test and they'll start acting differently.",
+        "start": 859690,
+        "end": 865610,
+        "speaker": "C"
+      },
+      {
+        "sid": "s000236",
+        "text": "Right, right.",
+        "start": 865690,
+        "end": 866450,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000237",
+        "text": "It'll be like the Volkswagen emission scan.",
+        "start": 866450,
+        "end": 868170,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000238",
+        "text": "Yeah, everything's fine.",
+        "start": 868650,
+        "end": 869730,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000239",
+        "text": "Just put me back in charge of the nuclear code.",
+        "start": 869730,
+        "end": 871410,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000240",
+        "text": "Sure, yeah.",
+        "start": 871410,
+        "end": 872170,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000241",
+        "text": "What do I listen?",
+        "start": 874490,
+        "end": 875370,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000242",
+        "text": "Yeah, I think it was kind of like how you said, where it's already a hard enough problem to see if someone's ethical between, like, A human?",
+        "start": 877860,
+        "end": 884740,
+        "speaker": "F"
+      },
+      {
+        "sid": "s000243",
+        "text": "Yes.",
+        "start": 884900,
+        "end": 885260,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000244",
+        "text": "Like there's.",
+        "start": 885260,
+        "end": 885860,
+        "speaker": "F"
+      },
+      {
+        "sid": "s000245",
+        "text": "I feel like there's no one test that would deem someone ethical or unethical.",
+        "start": 885860,
+        "end": 889060,
+        "speaker": "F"
+      },
+      {
+        "sid": "s000246",
+        "text": "I feel like the only way to see if someone's unethical is if they do something unethical.",
+        "start": 889460,
+        "end": 893540,
+        "speaker": "F"
+      },
+      {
+        "sid": "s000247",
+        "text": "Right.",
+        "start": 893940,
+        "end": 894340,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000248",
+        "text": "I don't know how to proactively search for that beforehand.",
+        "start": 894660,
+        "end": 899540,
+        "speaker": "F"
+      },
+      {
+        "sid": "s000249",
+        "text": "And even then, you know, someone maybe doing something because they're confused or chorused.",
+        "start": 901060,
+        "end": 905400,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000250",
+        "text": "We see all these studies about, you know, the big, big scandal is always the.",
+        "start": 905880,
+        "end": 911240,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000251",
+        "text": "The telemarketers.",
+        "start": 911320,
+        "end": 912840,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000252",
+        "text": "You're like, oh my God, how do those people have sold.",
+        "start": 912840,
+        "end": 914560,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000253",
+        "text": "A lot of them are forced into it, of course.",
+        "start": 914560,
+        "end": 915920,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000254",
+        "text": "Right.",
+        "start": 915920,
+        "end": 916240,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000255",
+        "text": "So it's like, you know, how can you judge the actions?",
+        "start": 916240,
+        "end": 919560,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000256",
+        "text": "Okay.",
+        "start": 922200,
+        "end": 922760,
+        "speaker": "E"
+      },
+      {
+        "sid": "s000257",
+        "text": "Participation time.",
+        "start": 925320,
+        "end": 926440,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000258",
+        "text": "Trying to get a sense for the room.",
+        "start": 929170,
+        "end": 930290,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000259",
+        "text": "Super intelligent AI, right?",
+        "start": 930290,
+        "end": 931810,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000260",
+        "text": "This idea that there's a singularity event where we continue to keep putting more and more into it and it exceeds our intelligence.",
+        "start": 931810,
+        "end": 938690,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000261",
+        "text": "Right.",
+        "start": 938690,
+        "end": 938930,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000262",
+        "text": "Not just it can beat me in chess.",
+        "start": 938930,
+        "end": 940250,
+        "speaker": "A"
+      }
+    ],
+    "context_after_main_text": [
+      {
+        "sid": "s000263",
+        "text": "It's already there.",
+        "start": 940250,
+        "end": 940930,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000264",
+        "text": "There's certain.",
+        "start": 941650,
+        "end": 942370,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000265",
+        "text": "We kind of hope that we still have things that we have that we can do better.",
+        "start": 942850,
+        "end": 946770,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000266",
+        "text": "At least I can do it more power, efficiently maybe, but how concerned are you with the AI?",
+        "start": 947490,
+        "end": 951970,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000267",
+        "text": "So first of all, no concerns.",
+        "start": 951970,
+        "end": 953250,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000268",
+        "text": "It's not going to be intelligent the same way that we are.",
+        "start": 953410,
+        "end": 955980,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000269",
+        "text": "Maybe because the medium is different.",
+        "start": 955980,
+        "end": 957900,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000270",
+        "text": "You know, it lacks the hormones that make our intelligence somewhat more emotionally intelligent than that.",
+        "start": 958140,
+        "end": 965180,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000271",
+        "text": "It won't be the same sentient the same way that we are.",
+        "start": 965340,
+        "end": 968140,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000272",
+        "text": "Some concerns, look, we've got to figure out guardrails.",
+        "start": 968700,
+        "end": 971580,
+        "speaker": "A"
+      }
+    ]
+  }
+]

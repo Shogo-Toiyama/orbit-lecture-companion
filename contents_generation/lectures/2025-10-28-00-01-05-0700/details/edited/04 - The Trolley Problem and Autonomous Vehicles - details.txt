@@ -1,0 +1,72 @@
+# The Trolley Problem and Autonomous Vehicles
+
+This lecture explores the classic philosophical thought experiment known as the Trolley Problem and its modern application to the ethical dilemmas faced in programming autonomous vehicles. It examines how decisions about life and death, traditionally made by humans in crisis, must now be pre-programmed into machines, raising complex questions about morality, liability, and societal values.
+
+## Definition of the Trolley Problem
+
+The **Trolley Problem** is a thought experiment with many variants, but its basic premise involves an out-of-control trolley heading towards five people. You, as an observer, have the option to pull a track switch, diverting the trolley to a different track where it will kill only one person instead. The core decision is whether to intervene and actively choose to kill one person to save five, or to do nothing and allow five people to die.
+
+## Ethical Frameworks and Variants of the Trolley Problem
+
+Responses to the basic Trolley Problem often fall into different ethical frameworks. Choosing to pull the switch to save five lives by sacrificing one is considered a **utilitarian** argument, aiming to maximize overall good by saving the greater number of lives. Conversely, refusing to touch the switch might stem from a desire not to actively cause a death, even if it means more people die.
+
+The problem becomes more complex with various scenarios:
+*   **Active vs. Passive Killing:** A variant involves pushing someone off a bridge to stop the trolley, making the act of killing more personal than just pulling a switch.
+*   **Personal Relationships:** The decision might be influenced if the people involved are known to the decision-maker or have some kind of relationship.
+*   **Societal Value:** Another variant questions if the "productivity" or perceived value of individuals should influence the choice.
+
+## The Trolley Problem in Autonomous Vehicles
+
+The ethical quandaries of the Trolley Problem have been modernized and applied to **autonomous vehicles (AVs)**. While AVs promise benefits like safer roads, environmental protection, and better accessibility, they introduce a critical moral difference: their decisions are *programmed ahead of time*. Unlike a human driver who reacts in the moment, an AV's response to an unavoidable accident scenario is a pre-determined choice embedded in its code or learning patterns. This raises questions about the legality and moral accountability of these programmed choices, especially if they lead to a "questionable" outcome.
+
+## MIT's Moral Machine Project
+
+MIT addressed these issues with a project called the **Moral Machine**. This online platform presented users with scenarios similar to the Trolley Problem, but involving autonomous vehicles. For example, an AV unable to stop might have to choose between plowing into five pedestrians or swerving to hit one. The project explored various factors, such as:
+*   The number of people involved (e.g., two elderly, two young, and a cat versus five bank robbers).
+*   The perceived "value" or characteristics of the individuals.
+The goal was to gather data on how people would weigh different lives in these unavoidable accident situations.
+
+## Hypothetical Autonomous Vehicle Dilemmas
+
+The lecture presented a specific scenario for an autonomous vehicle:
+An AV is behind a truck shedding logs, which will likely damage the car and potentially kill its occupants. The AV must swerve either:
+*   **Left:** Into an SUV full of people with many safety features.
+*   **Right:** Into a single motorcyclist wearing a helmet.
+
+Further considerations were added:
+*   **Number of Passengers:** The AV has four passengers, the SUV has five, and the motorcyclist is solo.
+*   **Survival Chances:** The SUV's occupants might have a higher chance of survival due to modern safety features, while the motorcyclist might be more vulnerable.
+*   **Perceived Risk:** Some might argue the motorcyclist "knew the risks" of riding.
+*   **Alternative Options:** The possibility of crashing into a wall, potentially killing the AV's own passengers, was also discussed.
+*   **Legal Implications:** The lecture also raised the point of a "high-priced lawyer" in an SUV being more likely to sue the car manufacturer.
+
+These scenarios highlight the difficult choices that must be engineered into AVs, moving beyond simple utilitarian calculations to consider factors like individual risk, responsibility, and potential legal repercussions.
+
+## Programming Ethics and Liability for Autonomous Vehicles
+
+A central challenge is how to program AVs to make these life-or-death decisions. Should the car prioritize minimizing casualties overall, or should it prioritize the safety of its own passengers? If an algorithm is designed to choose between crashing into four people versus two, and it picks two, the programmer could be seen as having *intentionally killed* those two people, even if it was the "safer" option overall. This raises significant questions about **liability** for programmers and manufacturers. Public sentiment also plays a role, as people might perceive an AV's decision negatively, especially if they believe a human driver could have done better.
+
+## Consumer Choice and Societal Impact of AV Ethics
+
+The ethical programming of AVs also impacts consumer choice. Imagine a sales pitch for an AV:
+*   **Option A:** "This car will optimize and keep *you* alive no matter what, plowing over others if necessary."
+*   **Option B:** "This car will be better for society, aiming for the utilitarian concept of saving the most lives overall, even if it means sacrificing its own passengers."
+
+This creates a dilemma for buyers. If everyone chooses Option A (self-preservation), it could lead to a "race to the bottom" where no one benefits from a collectively safer system. The lecture suggests that ideally, regulations would guide these choices, but without them, individual consumer decisions could have broad societal consequences.
+
+## Unresolved Challenges and Potential Solutions
+
+The lecture concludes by emphasizing that these are not artificial problems but real challenges for AV engineering. While increased coordination among all autonomous vehicles could be an ideal solution to avoid such dilemmas, in situations involving human drivers or uncoordinated AVs, difficult choices remain. The fundamental question is whether there should be a "right or wrong answer" programmed into AVs, or if decisions should be random. Some argue that the initial failure (e.g., the car driving too close to a wall) is the root problem, rather than the subsequent choice in an unavoidable accident.
+
+## Key Takeaways
+
+*   The **Trolley Problem** is a thought experiment exploring ethical dilemmas of choosing between different harmful outcomes.
+*   **Autonomous vehicles** face a modern version of this problem, as their responses to unavoidable accidents must be pre-programmed.
+*   Programming AVs involves complex ethical decisions, such as prioritizing the safety of occupants versus minimizing overall casualties (utilitarianism).
+*   Projects like **MIT's Moral Machine** gather public opinion on these difficult scenarios.
+*   Decisions made in AV programming raise significant questions about **liability** for manufacturers and programmers.
+*   Consumer choices regarding AV safety priorities could have broad **societal impacts**, potentially leading to a "race to the bottom" if self-preservation is universally prioritized.
+
+## Supplement: Understanding Utilitarianism
+
+**Utilitarianism** is an ethical theory that suggests the best action is the one that maximizes overall well-being or "utility." In the context of the Trolley Problem, a utilitarian approach would typically favor the action that results in the fewest deaths or the greatest good for the greatest number of people. This means choosing to sacrifice one life to save five would be considered the utilitarian choice.

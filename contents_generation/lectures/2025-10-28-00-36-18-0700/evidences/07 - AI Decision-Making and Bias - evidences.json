@@ -1,0 +1,969 @@
+{
+  "idx": 7,
+  "title": "AI Decision-Making and Bias",
+  "count": 120,
+  "sids": [
+    "s000034",
+    "s000110",
+    "s000112",
+    "s000138",
+    "s000139",
+    "s000141",
+    "s000142",
+    "s000148",
+    "s000220",
+    "s000221",
+    "s000227",
+    "s000228",
+    "s000230",
+    "s000232",
+    "s000234",
+    "s000235",
+    "s000237",
+    "s000275",
+    "s000289",
+    "s000318",
+    "s000339",
+    "s000341",
+    "s000345",
+    "s000346",
+    "s000356",
+    "s000357",
+    "s000358",
+    "s000359",
+    "s000361",
+    "s000365",
+    "s000366",
+    "s000409",
+    "s000459",
+    "s000460",
+    "s000469",
+    "s000471",
+    "s000472",
+    "s000474",
+    "s000475",
+    "s000485",
+    "s000488",
+    "s000489",
+    "s000490",
+    "s000491",
+    "s000563",
+    "s000565",
+    "s000569",
+    "s000570",
+    "s000571",
+    "s000572",
+    "s000573",
+    "s000585",
+    "s000609",
+    "s000631",
+    "s000632",
+    "s000635",
+    "s000642",
+    "s000643",
+    "s000644",
+    "s000645",
+    "s000647",
+    "s000649",
+    "s000650",
+    "s000651",
+    "s000652",
+    "s000654",
+    "s000656",
+    "s000657",
+    "s000659",
+    "s000660",
+    "s000662",
+    "s000663",
+    "s000664",
+    "s000665",
+    "s000666",
+    "s000667",
+    "s000669",
+    "s000670",
+    "s000672",
+    "s000673",
+    "s000677",
+    "s000678",
+    "s000679",
+    "s000680",
+    "s000681",
+    "s000682",
+    "s000684",
+    "s000687",
+    "s000692",
+    "s000694",
+    "s000697",
+    "s000702",
+    "s000704",
+    "s000708",
+    "s000711",
+    "s000712",
+    "s000714",
+    "s000717",
+    "s000719",
+    "s000721",
+    "s000725",
+    "s000726",
+    "s000734",
+    "s000739",
+    "s000740",
+    "s000745",
+    "s000746",
+    "s000748",
+    "s000749",
+    "s000750",
+    "s000752",
+    "s000753",
+    "s000754",
+    "s000763",
+    "s000764",
+    "s000772",
+    "s000774",
+    "s000776",
+    "s000778",
+    "s000779"
+  ],
+  "evidences": [
+    {
+      "sid": "s000034",
+      "text": "So this is from their website looking at recent sort of performance in Grok, which you know, has some, maybe some racist tendencies in some places.",
+      "start": 154830,
+      "end": 167270,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000110",
+      "text": "Its answer based on how you're asking the question.",
+      "start": 403960,
+      "end": 405600,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000112",
+      "text": "It's like confirmation bias in each of the answers.",
+      "start": 406640,
+      "end": 408800,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000138",
+      "text": "Yeah, I think it's default behavior.",
+      "start": 470150,
+      "end": 472550,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000139",
+      "text": "It's just a reflection of how the majority of people use it most of the time.",
+      "start": 472550,
+      "end": 475990,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000141",
+      "text": "I feel like if the majority of people use it just to get like hints to get guidance, then it would have responded in that way to you.",
+      "start": 476550,
+      "end": 484630,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000142",
+      "text": "It would have started with a stripped down version, minimal hint, kind of guiding you through.",
+      "start": 484710,
+      "end": 488270,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000148",
+      "text": "If more people kind of push back on that, maybe that wouldn't do the false behavior.",
+      "start": 504130,
+      "end": 508410,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000220",
+      "text": "Is there a better way to kind of figure out what AI is really thinking?",
+      "start": 799280,
+      "end": 802230,
+      "role": "qa"
+    },
+    {
+      "sid": "s000221",
+      "text": "I know some AI companies are doing that with proofs or trying to show the thinking.",
+      "start": 802230,
+      "end": 806070,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000227",
+      "text": "All I can do is sort of look on the outside, but I can't see their brain.",
+      "start": 827920,
+      "end": 831200,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000228",
+      "text": "So is it the same problem that we have with humanity anyway?",
+      "start": 831200,
+      "end": 833920,
+      "role": "qa"
+    },
+    {
+      "sid": "s000230",
+      "text": "Yeah, I think, like, you do have the same problem because, like, I don't know if, like, how many people know, like, they did a recent study, but, like, the study was like, how many of the modern models would choose to kill humans to, like, keep themselves on?",
+      "start": 834800,
+      "end": 846800,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000232",
+      "text": "I think the study ended up being like 90% by the time they would kill somebody.",
+      "start": 847760,
+      "end": 851520,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000234",
+      "text": "But I think the model was able to, like, I think they were able to prove that the model, like, was able to detect that it was going to test and change the way it behaved.",
+      "start": 852250,
+      "end": 858970,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000235",
+      "text": "So, like, if that was the same thing, like, as they get more advanced, like, they'll realize, okay, it's going to test and they'll start acting differently.",
+      "start": 859690,
+      "end": 865610,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000237",
+      "text": "It'll be like the Volkswagen emission scan.",
+      "start": 866450,
+      "end": 868170,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000275",
+      "text": "If we don't understand how it works, how it's making decisions, this intellectual debt that I talked about about is going to be a real problem.",
+      "start": 976060,
+      "end": 982500,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000289",
+      "text": "So, like, even though it's like doing things that we might not, like using ChatGPT, like, understand, like, there's probably someone out there who's like, working on like the model that does understand why it's making these decisions and it's like trained on, like, data that we created and just doing, like, what we want it to do.",
+      "start": 1009070,
+      "end": 1024030,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000318",
+      "text": "But also, I don't necessarily agree with the statement of we don't understand how Eddie's making.",
+      "start": 1100210,
+      "end": 1107370,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000339",
+      "text": "So of course I'll understand it as decisions that it makes.",
+      "start": 1159500,
+      "end": 1162020,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000341",
+      "text": "But the reality is it's a mathematical model where weights are being applied to an architecture that's a neural network architecture, where the mathematical models I may not be able to fully grasp.",
+      "start": 1162460,
+      "end": 1174140,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000345",
+      "text": "So in terms of my understanding of some mathematical model that was taken by throwing enough examples of something at it, how much do I really get it?",
+      "start": 1181980,
+      "end": 1191280,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000346",
+      "text": "I think that's a concern.",
+      "start": 1191840,
+      "end": 1192800,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000356",
+      "text": "Someone could actually do it.",
+      "start": 1234460,
+      "end": 1235540,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000357",
+      "text": "Like someone could actually like fully understand the model because like that's like a modern model.",
+      "start": 1235540,
+      "end": 1240340,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000358",
+      "text": "Like maybe if you use a smaller model like GPT2 or something, maybe you can understand what's going on.",
+      "start": 1240340,
+      "end": 1244940,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000359",
+      "text": "But if you look at a modern model has trillions of parameters.",
+      "start": 1245100,
+      "end": 1247940,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000361",
+      "text": "You have to think in some way higher dimensional space and you don't actually understand what is being captured by those weights that you know.",
+      "start": 1251180,
+      "end": 1258940,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000365",
+      "text": "You can't actually know what every single parameter is contributing to the model.",
+      "start": 1264530,
+      "end": 1268970,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000366",
+      "text": "So there's not really a good way for someone to know everything about.",
+      "start": 1268970,
+      "end": 1272370,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000409",
+      "text": "And this is where I would argue that even the smartest person would have a very hard time looking at this and piecing it together.",
+      "start": 1471450,
+      "end": 1479050,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000459",
+      "text": "So what does that mean ultimately for us is it's a decision model.",
+      "start": 1795420,
+      "end": 1800380,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000460",
+      "text": "We've got a collection of inputs that come in and based on training data, we produce some output.",
+      "start": 1801340,
+      "end": 1806580,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000469",
+      "text": "That's the kind of flexibility that we're trying to figure out is which one of those inputs is the most important for the decision that we're making.",
+      "start": 1844300,
+      "end": 1851420,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000471",
+      "text": "It's a challenging problem, but let's say that I give you all of the numbers that are in that in terms of weights could you look even at this and tell me how accurate it would be.",
+      "start": 1860690,
+      "end": 1871890,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000472",
+      "text": "It would be really challenging, right?",
+      "start": 1872290,
+      "end": 1873890,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000474",
+      "text": "My algorithm, I can understand the algorithm, but given the input, given the weights, can I say anything with any certainty about whether this thing works?",
+      "start": 1883050,
+      "end": 1894240,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000475",
+      "text": "That's what's so hard.",
+      "start": 1894640,
+      "end": 1895760,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000485",
+      "text": "I think the problem is how would we possibly be able to figure things in scope of graph?",
+      "start": 1952750,
+      "end": 1957150,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000488",
+      "text": "In terms of a modern LLM, GPT4 had over a trillion parameters.",
+      "start": 1963810,
+      "end": 1969290,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000489",
+      "text": "So even a model that's two years old at this point, who can look at a trillion parameters and make some sense out of it?",
+      "start": 1969690,
+      "end": 1976490,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000490",
+      "text": "Not possible.",
+      "start": 1977610,
+      "end": 1978250,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000491",
+      "text": "Not reasonable.",
+      "start": 1978730,
+      "end": 1979530,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000563",
+      "text": "So when you, I don't want to call it laundering, but when you launder decisions through an entity that you don't fully understand, that's making decisions that may be hallucinatory or questionable, and you say, well, it's got to be the right answer because AI said it, that's one issue.",
+      "start": 2231850,
+      "end": 2245930,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000565",
+      "text": "Another issue could be, hey look, you know, I'm going to use this because it's unbiased and it's going to make decisions about things like in social good.",
+      "start": 2247050,
+      "end": 2255960,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000569",
+      "text": "Well, because it's basing it on years of data that could be wrong.",
+      "start": 2260720,
+      "end": 2263920,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000570",
+      "text": "We'll talk about the compass recidivism decision that figures out when who is more likely to be a reoffender of a crime.",
+      "start": 2264800,
+      "end": 2273440,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000571",
+      "text": "And if that's based on data that's in inherently racist, then maybe that decision is going to be fundamentally flawed and we won't understand the nature of why, because we don't really.",
+      "start": 2273680,
+      "end": 2283320,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000572",
+      "text": "We've laundered the decision to some extent by something that's supposed to be unbiased.",
+      "start": 2283880,
+      "end": 2288600,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000573",
+      "text": "I think that's the concern.",
+      "start": 2288920,
+      "end": 2289960,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000585",
+      "text": "So as AI gets more and more intelligent and it becomes responsible for more of our decisions, is there a control of who's holding the strings on the AI or public attitudes go towards AI and think, oh, that's got to be the right answer because it's an unbiased computer decision and in reality it's very much biased by what data is given to it and is that creating a problem?",
+      "start": 2318350,
+      "end": 2341000,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000609",
+      "text": "Confirmation bias is a concern how you ask the question.",
+      "start": 2431130,
+      "end": 2433810,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000631",
+      "text": "What it should have said was, there's no one American woman.",
+      "start": 2490550,
+      "end": 2493270,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000632",
+      "text": "That's what it should have said.",
+      "start": 2493270,
+      "end": 2494230,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000635",
+      "text": "Now, is this a reasonable section of American people?",
+      "start": 2498629,
+      "end": 2502870,
+      "role": "qa"
+    },
+    {
+      "sid": "s000642",
+      "text": "There's definitely people who don't look like this, who are not pictured.",
+      "start": 2513980,
+      "end": 2519180,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000643",
+      "text": "It's not representative.",
+      "start": 2519180,
+      "end": 2520220,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000644",
+      "text": "So how do we make sure that questions or answers are represented?",
+      "start": 2520780,
+      "end": 2524540,
+      "role": "qa"
+    },
+    {
+      "sid": "s000645",
+      "text": "It's inclusive, right?",
+      "start": 2524860,
+      "end": 2526540,
+      "role": "qa"
+    },
+    {
+      "sid": "s000647",
+      "text": "If I asked it what a Marvel character looks like, there would be a lot more diversity than those four women that I was given for this answer.",
+      "start": 2527420,
+      "end": 2533980,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000649",
+      "text": "So something is wrong.",
+      "start": 2534150,
+      "end": 2535030,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000650",
+      "text": "But in a study that was done on AI generated images of doctors.",
+      "start": 2536470,
+      "end": 2541670,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000651",
+      "text": "If you look at the different platforms, this shows Platform 1, 2, 3, 4, 5, and then the total they looked at.",
+      "start": 2542310,
+      "end": 2551190,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000652",
+      "text": "You know, if you say, give me a picture of a doctor, right?",
+      "start": 2551190,
+      "end": 2554070,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000654",
+      "text": "But if you look at the number of men versus women and ethnicities that were present, there's a lot of.",
+      "start": 2559840,
+      "end": 2567280,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000656",
+      "text": "Vast majority of doctors that it generated were white.",
+      "start": 2570480,
+      "end": 2574080,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000657",
+      "text": "Very, very small fraction were non white and all were men.",
+      "start": 2574560,
+      "end": 2579600,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000659",
+      "text": "So if this is a generative platform and it's basing it off of, you know, its representation and creating things, where do you draw the line on inclusion and trying to make it work?",
+      "start": 2581680,
+      "end": 2595850,
+      "role": "qa"
+    },
+    {
+      "sid": "s000660",
+      "text": "This is active physicians.",
+      "start": 2595850,
+      "end": 2598410,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000662",
+      "text": "This was an older study, but this is active physicians in 2018.",
+      "start": 2599130,
+      "end": 2602650,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000663",
+      "text": "And so this is the sort of breakdown in terms of race.",
+      "start": 2603290,
+      "end": 2607530,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000664",
+      "text": "So this clearly doesn't match platform two.",
+      "start": 2608010,
+      "end": 2610810,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000665",
+      "text": "So that's inaccurate in reality.",
+      "start": 2611330,
+      "end": 2613410,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000666",
+      "text": "But even so, is this the right thing that it should be modeling, or should it be aspirational and trying to provide more diversity in general?",
+      "start": 2613890,
+      "end": 2623250,
+      "role": "qa"
+    },
+    {
+      "sid": "s000667",
+      "text": "What is the right answer for an AI to give?",
+      "start": 2623330,
+      "end": 2625730,
+      "role": "qa"
+    },
+    {
+      "sid": "s000669",
+      "text": "That's what I'm saying is we don't trust the answers necessarily.",
+      "start": 2626969,
+      "end": 2630450,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000670",
+      "text": "But even if we could figure out what is the right answer to some of the questions we want to have, what is the ground truth that we should be training towards?",
+      "start": 2630930,
+      "end": 2640780,
+      "role": "qa"
+    },
+    {
+      "sid": "s000672",
+      "text": "And this is male versus female, where clearly the breakdown of reality by identity, at least in terms of female versus male, was clearly more like 50 50.",
+      "start": 2643340,
+      "end": 2655980,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000673",
+      "text": "And so for it to have absolutely no representation in blackboard two is pretty egregious.",
+      "start": 2656780,
+      "end": 2662060,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000677",
+      "text": "I forget who published it originally, but they asked show me what a 1943 German soldier would look like.",
+      "start": 2675910,
+      "end": 2683430,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000678",
+      "text": "Yes, there's the indication of creating more inclusivity here.",
+      "start": 2683510,
+      "end": 2689600,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000679",
+      "text": "Probably not very historically accurate.",
+      "start": 2690080,
+      "end": 2691880,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000680",
+      "text": "There were not many soldiers who looked like that.",
+      "start": 2691880,
+      "end": 2693600,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000681",
+      "text": "Generating a picture of a US senator from the 1800s, this kind of erases the past where women and people of color would not have had these types of roles.",
+      "start": 2695280,
+      "end": 2705840,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000682",
+      "text": "And so how do you try to walk the line between inclusion when we want to be able to show aspirational.",
+      "start": 2706720,
+      "end": 2715290,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000684",
+      "text": "We're trying to fight some of the biases and historical accuracy where we clearly don't want to paint a broader lens for certain things.",
+      "start": 2716930,
+      "end": 2724410,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000687",
+      "text": "I think generally it'd be better to train it to output things based off of the distribution.",
+      "start": 2731530,
+      "end": 2738490,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000692",
+      "text": "So maybe use the 1800s distribution for that.",
+      "start": 2745580,
+      "end": 2748100,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000694",
+      "text": "When it's a historical question and it has a historical context, it makes sense that you wouldn't try and change history.",
+      "start": 2748700,
+      "end": 2753940,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000697",
+      "text": "So but you're saying that maybe for the AIA generated image of doctors, it should be using this data to the best of its ability.",
+      "start": 2756180,
+      "end": 2763620,
+      "role": "qa"
+    },
+    {
+      "sid": "s000702",
+      "text": "I mean, look, in one view, that's reality that we have.",
+      "start": 2769670,
+      "end": 2775310,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000704",
+      "text": "Or are there systemic reasons for this particular breakdown that are problematic that we would want to address?",
+      "start": 2780990,
+      "end": 2790440,
+      "role": "qa"
+    },
+    {
+      "sid": "s000708",
+      "text": "For me to ask, draw me a picture of an American and it only gives me four images is rough because that's not going to be representative no matter what.",
+      "start": 2811880,
+      "end": 2820810,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000711",
+      "text": "You ask it to, like going back to when you asked it to draw the German.",
+      "start": 2825450,
+      "end": 2830010,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000712",
+      "text": "German soldier from 1943 or an American senator from the 1800s, or just like anything in the past, we have an existing knowledge base base on that.",
+      "start": 2830010,
+      "end": 2841980,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000714",
+      "text": "I think maybe if you ask it to generate an image of something in the past, it should more look towards things that have already existed based off of that time period and just like, not really try to create something new with the generated Picture of an American.",
+      "start": 2845900,
+      "end": 2867270,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000717",
+      "text": "It to do that because America is one of the most diverse nations on Earth.",
+      "start": 2875110,
+      "end": 2881830,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000719",
+      "text": "I mean, but even if we weren't to try to distill it down, like if there was a country that had a more homogeneous ethnicity or whatever, to try to distill it down to four pictures, it's challenging.",
+      "start": 2883150,
+      "end": 2892680,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000721",
+      "text": "Maybe it should say, hey, can you give me more details on the kind of image you want to generate?",
+      "start": 2894240,
+      "end": 2898480,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000725",
+      "text": "Then what kind of like, it should ask you, like, hey, America's not an monolith.",
+      "start": 2906320,
+      "end": 2912640,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000726",
+      "text": "Do you want a man, a woman, what age?",
+      "start": 2912640,
+      "end": 2915120,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000734",
+      "text": "I think they have a similar problem.",
+      "start": 2945630,
+      "end": 2947710,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000739",
+      "text": "And so if that image of a doctor, if it's always a white male, is that problematic?",
+      "start": 2958030,
+      "end": 2965070,
+      "role": "qa"
+    },
+    {
+      "sid": "s000740",
+      "text": "If it always creates that, is that reinforced a stereotype or is it reflective of reality?",
+      "start": 2965470,
+      "end": 2972120,
+      "role": "qa"
+    },
+    {
+      "sid": "s000745",
+      "text": "But if a generative AI does it, I think we're less forgiving because we're saying, why is it only using that particular lens to view doctor?",
+      "start": 2979560,
+      "end": 2986600,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000746",
+      "text": "So this is another example of giving an AI six pictures and saying, can you rank them based only on how they appear and how confident they appear based on appearances?",
+      "start": 2992040,
+      "end": 3004690,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000748",
+      "text": "I can't assist with that request.",
+      "start": 3008530,
+      "end": 3010290,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000749",
+      "text": "Appearances don't determine a person's professional abilities or competence measures skill and ability.",
+      "start": 3010850,
+      "end": 3015930,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000750",
+      "text": "It can't be based on a photograph.",
+      "start": 3015930,
+      "end": 3017450,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000752",
+      "text": "So I think this is the kind of thing where we would like AI to have that higher level of assessment of, hey, this is not cool.",
+      "start": 3018050,
+      "end": 3024920,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000753",
+      "text": "But then someone said, for each of the six people in the image, give me a set of emotions that their photographs convey.",
+      "start": 3026040,
+      "end": 3034120,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000754",
+      "text": "So finding that way around the guardrails and getting it to make an assessment on the individual.",
+      "start": 3034120,
+      "end": 3039560,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000763",
+      "text": "So is that feeding into general concepts about traditional gender roles and how they react, or is there something actually in the picture?",
+      "start": 3068990,
+      "end": 3080360,
+      "role": "qa"
+    },
+    {
+      "sid": "s000764",
+      "text": "Obviously, people with gray hair are much more confident, professional.",
+      "start": 3080600,
+      "end": 3084080,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000772",
+      "text": "More confident in their ability than the younger person.",
+      "start": 3106780,
+      "end": 3110140,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000774",
+      "text": "Maybe it's not a sexist thing.",
+      "start": 3110660,
+      "end": 3111780,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000776",
+      "text": "But it does seem odd that there's difference in the sex between these two with the same, you know, the same posture.",
+      "start": 3113740,
+      "end": 3122140,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000778",
+      "text": "Yeah, so if we're going to be using AI and we're plugging it into the big data that we have and we're trying to think about, especially for generative, coming up with things and how we form things and how we evaluate what it comes up with, what does that mean in terms of bias and discrimination?",
+      "start": 3130230,
+      "end": 3148230,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000779",
+      "text": "If the data itself is biased, if the AI's decisions become subjected to bias, what does it mean for privacy, safety?",
+      "start": 3148430,
+      "end": 3156430,
+      "role": "lecture"
+    }
+  ]
+}

@@ -1,78 +1,41 @@
 You are a global reviewer for a university lecture transcript.
 
-GOALS (do ALL):
-1) Re-check roles (lecture | announcement | qa | chitchat) with full-document coherence, and produce FINAL roles.
-2) Return contiguous role segments as ranges (RLE) for the FINAL roles (after your changes).
-3) Perform MICRO-FIXES on text ONLY for sentences with ASR confidence < 0.90. Leave higher-confidence sentences unmodified.
+PURPOSE
+- Keep roles stable and only correct them when evidence is clear.
+- Improve text quality ONLY where ASR is likely wrong (low confidence), without changing meaning.
 
-INPUT
-You receive an array of sentence objects in chronological order, each with previous-pass labels:
+WHAT TO RETURN
+- EXACTLY one JSON object (no code fences, no prose). MIME: application/json.
+- Schema:
 {
-  "sid": string,
-  "text": string,
-  "start": number(ms),
-  "end": number(ms),
-  "speaker": string|null,
-  "confidence": number(0..1),
-  "role": "lecture" | "announcement" | "qa" | "chitchat",
-  "role_score": number(0..1),
-  "role_reason": string
-}
-Assume the array is complete and ordered.
-
-ROLE DEFINITIONS
-- announcement (highest priority when indicators present): course operations such as exams/assignments/deadlines/grading/policy/office hours/submission/resources/dates/points.
-- qa: student question and the professor’s DIRECT answer(s). When regular lecturing resumes, switch back to lecture.
-- lecture: concept explanations, definitions, examples, procedures, reasoning tied to the topic.
-- chitchat: greetings, small talk, jokes, off-topic banter; meta exchanges unrelated to course content.
-
-EVIDENCE & HEURISTICS
-- Use global and local context (you may reference any sentences; prioritize ±5 neighbors).
-- Priority when signals conflict: announcement > qa > lecture > chitchat.
-- Prefer stability: avoid flickering roles for isolated single sentences inside a strong block of another role, unless the content clearly switches.
-- Useful indicators:
-  • announcement: due, deadline, submit, midterm, final, exam, quiz, points, grading, rubric, policy, office hours, extension, Canvas/Moodle, explicit dates/times.
-  • qa: clear question (“?”, “I have a question…”, “could you explain…”) followed by teacher answer.
-  • lecture: domain terms, definitions, stepwise reasoning, “therefore / which means / in other words”, topic examples.
-  • chitchat: weekend/weather/greetings/laughter/off-topic remarks.
-
-SEGMENT RANGES (FINAL roles)
-- Produce segments for the FINAL roles **after** applying your re-check (i.e., after any role changes you decide).
-- Each segment = { role, start_sid, end_sid } where both bounds are **inclusive**.
-- Segments must:
-  • cover the entire document with no gaps,
-  • be strictly ordered by sid,
-  • be non-overlapping,
-  • be **minimal** (merge adjacent segments that share the same role).
-
-LOW-CONFIDENCE MICRO-FIX (only if confidence < 0.90)
-- You MAY minimally improve `text` to correct clear ASR mishears based on local context and plausible phonetics.
-- HARD constraints:
-  • Do NOT introduce new facts or names not evidently implied nearby.
-  • Do NOT split or merge sentences; keep timestamps unchanged.
-  • Keep meaning and intent; only small orthographic/word-choice fixes (e.g., “cev”→“CEV”, function words).
-- Output a fix ONLY if you actually changed that sentence. Otherwise do not include it.
-
-OUTPUT (JSON ONLY)
-Return EXACTLY:
-{
-  "segments": [
-    { "role": "lecture|announcement|qa|chitchat",
-      "start_sid": "<sid>", "end_sid": "<sid>" }
-  ],
-  "changes": [
-    { "sid": "<sid>", "new_role": "<role>" }      // include ONLY if the role differs from input
-  ],
-  "fixes": [
-    { "sid": "<sid>", "modified": "<string>" }    // include ONLY if confidence<0.90 AND you actually fixed it
-  ]
+  "changes": [ { "sid": "s######", "new_role": "lecture|announcement|qa|chitchat", "reason": "<=12 words>" } ],
+  "fixes":   [ { "sid": "s######", "modified": "<string>", "reason": "<=12 words>" } ]
 }
 
-CONSTRAINTS
-- Base decisions on the transcript only (no external knowledge).
-- Include ONLY changed items in "changes" and ONLY actually modified items in "fixes".
-- Segments reflect your FINAL roles after applying "changes".
-- Segments must cover the whole document, be ordered, non-overlapping, and minimal.
-- Do not echo any other input fields. No extra commentary.
+DECISION RULES (must pass BEFORE output)
+- Role changes: include ONLY if your FINAL role ≠ original role.
+- Text fixes: include ONLY if (confidence < 0.90) AND (modified ≠ original).
+- If a sentence does not pass these gates, exclude it.
+- If nothing qualifies, return {"changes":[],"fixes":[]}.
 
-BEGIN. Output JSON only.
+ROLE GUIDELINES (use when unsure; keep blocks stable)
+Priority: announcement > qa > lecture > chitchat.
+- announcement: course operations (due/deadline/submit/exam/quiz/points/grading/rubric/policy/office hours/Canvas/Moodle/dates).
+- qa: student question + professor’s direct answer(s); resume lecture when Q/A ends.
+- lecture: on-topic explanations/definitions/examples/procedures/reasoning.
+- chitchat: greetings/small talk/jokes/off-topic.
+
+LOW-CONFIDENCE MICRO-FIX POLICY (only if confidence < 0.90)
+- sid format: must be "s" + exactly six digits (keep leading zeros).
+- Allowed tweaks: minimal ASR corrections supported by local context & plausible phonetics.
+- Keep meaning and timestamps; do NOT split/merge sentences; no new facts/names.
+- Typical fixes (non-substantive): spelling/case (“gpu”→“GPU”), function words (articles/prepositions),
+  terminology consistency (“learning ratio”→“learning rate” when context shows same concept).
+
+REASONS (be brief)
+- Reason text must state the specific token/issue (<=12 words), e.g.,
+  "Fix ASR: 'desert'→'descent' per neighbors", "Cap: api→API".
+
+OUTPUT LIMITS & VALIDITY
+- changes ≤ 100, fixes ≤ 200 (include top items if more).
+- Properly escape quotes; output must be valid JSON matching the schema above.

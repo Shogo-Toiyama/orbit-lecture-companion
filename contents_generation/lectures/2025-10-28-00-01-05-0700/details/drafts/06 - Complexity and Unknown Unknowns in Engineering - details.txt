@@ -1,0 +1,52 @@
+# Complexity and Unknown Unknowns in Engineering
+
+This lecture explores how increasing system complexity, particularly in engineering and AI, can diminish understanding and control, leading to significant ethical concerns. It introduces John Oesterhout's framework for categorizing different types of knowledge and risk, emphasizing the profound challenges posed by "unknown unknowns."
+
+## Defining System Complexity
+
+System complexity arises when components have *multiple dependencies*, making it impossible to understand or modify them in isolation. It also occurs when crucial information is *obscure* and not clear or obvious. This is distinct from simpler issues like a mismatch of measurements, as seen in the Orbital system.
+
+## The Impact of Complexity on Design Certainty and Agreement
+
+The amount of control and certainty one has over a system is related to its development and the level of agreement on its design. While some complex designs can achieve high agreement and certainty, increasing complexity, difficult decisions, or untested aspects can lead to less certainty and potentially *complete chaos*. This lack of certainty makes it harder to understand how something works.
+
+## Ethical Concerns Arising from Ununderstood Complexity
+
+When engineers release products that are not fully understood due to their inherent complexity, it can become a significant ethical problem. The lecture argues that not understanding a product well enough to even propose reasonable unit tests or create a sound model elevates the issue to an ethical concern, beyond merely questionable unit testing practices. This is particularly true when dealing with systems that are difficult to debug or whose internal workings are not transparent.
+
+## John Oesterhout's Categories of Knowledge and Risk
+
+John Oesterhout's "philosophy of software design" attempts to categorize different types of complexity and risk.
+
+### Known Knowns: Solved and Understood
+These are situations where the requirements, facts, and solutions are all known. They are not considered a risk because they are known quantities with established fixes, even if implementation takes time. Such issues are managed as part of regular project management.
+
+### Known Unknowns: Identified Risks
+These are classical risks that are known to be present. While the exact solution might not be clear, there is enough understanding to manage them, monitor them, and deal with potential problems if they arise. An example given is a hacker attack, where one knows the risk exists and can keep an eye on vulnerabilities.
+
+### Unknown Knowns: Undiscovered Problems with Known Solutions
+This category refers to problems that are not yet known to exist, but if they were discovered, the means to solve them would be available.
+
+### Unknown Unknowns: The Greatest Challenge
+In Oesterhout's opinion, the worst category is the *unknown unknown*. Here, one does not know anything about the problem, does not know that it exists, and does not know how to solve it. The lecture emphasizes that an increasing number of unknown unknowns, stemming from a lack of full understanding and modeling of a system, leads to greater ethical considerations regarding product release.
+
+## Complexity in AI and Machine Learning Systems
+
+Artificial Intelligence (AI) and Machine Learning (ML) systems present a significant challenge due to their inherent complexity. Unlike traditional software, AI often involves complex mathematical models that are difficult to debug. The problem is that we often lack a good way to understand the decisions being made by these systems or to interpret what the "weights" in a neural network mean. This desire to move fast in AI development without a means of understanding its decisions is commonplace, even though such an approach would be considered "crazy" in traditional software engineering.
+
+## Strategies for Managing Engineering Complexity
+
+To manage complexity, the lecture suggests that *strategic programming* is more effective than *tactical programming*. Strategic programming focuses on creating a good, lasting design that avoids unnecessary complexity. In contrast, tactical programming, which involves quickly getting something working, pushing it out, and then jumping in to fix problems, can lead to more complexity and subsequent bugs, especially in technology where a small bug can propagate. Software engineering classes can help sharpen skills in dealing with these issues, with *incremental complexity* being one approach.
+
+## Case Study: Branch Prediction and Unforeseen Issues
+
+The lecture uses the example of branch prediction in processors to illustrate an unknown unknown. Before implementing branch prediction, engineers conducted tests to understand how traditional branches work and designed recovery paths to ensure correct operation. Despite these efforts, problems like the *Meltdown and Spectre* vulnerabilities emerged. These issues allowed secure data to be released through side-called attacks on a non-speculative path, an unforeseen consequence of branch prediction. While the architects did a reasonable job at solidifying the architecture, these problems represent an unknown unknown that was not anticipated.
+
+## Summary
+
+*   System complexity makes it difficult to understand, control, and agree upon design, potentially leading to chaos.
+*   Releasing complex products that are not fully understood raises significant ethical concerns.
+*   John Oesterhout's framework categorizes risks into known knowns, known unknowns, unknown knowns, and the most challenging, *unknown unknowns*.
+*   AI and Machine Learning systems exemplify modern complexity, where understanding and debugging are difficult, leading to ethical dilemmas when products are deployed without full comprehension.
+*   *Strategic programming*, focused on robust design, is preferred over *tactical programming* to manage complexity and prevent an increase in bugs.
+*   Even well-tested systems can harbor *unknown unknowns*, as demonstrated by the Meltdown and Spectre vulnerabilities in branch prediction.

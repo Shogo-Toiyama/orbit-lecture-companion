@@ -1,0 +1,11 @@
+## Dijkstra's Algorithm: The "Smart" Greedy
+
+Dijkstra's algorithm, a cornerstone for finding shortest paths, exemplifies the lecture's call for "*clever ways of picking a next vertex*" when a simple greedy approach falls short. While the basic greedy strategy fails for paths beyond the immediate neighbor, Dijkstra's algorithm succeeds by iteratively selecting the unvisited vertex with the *smallest known distance* from the source, then updating its neighbors' distances. This isn't just picking the *closest neighbor*; it's a dynamic, informed greedy choice that ensures global optimality.
+
+Crucially, Dijkstra's algorithm, like the successful greedy proof for the closest neighbor, still relies on the *absence of negative edges*. If negative edges were present, the assumption that the shortest path to an unvisited vertex won't be improved by going through an already "finalized" vertex would break, leading to incorrect results. This highlights how fundamental the "absence of negative edges" condition is for many greedy shortest path solutions, even sophisticated ones.
+
+## Negative Edges and the Hunt for Arbitrage
+
+The lecture's discussion of why the greedy approach "*does not work with negative edges*" finds a fascinating real-world parallel in the financial concept of **arbitrage**. Imagine a graph where nodes are different currencies (e.g., USD, EUR, JPY) and edges represent exchange rates. If you can convert money from one currency to another, then to a third, and finally back to the original, ending up with *more* money than you started, you've found an arbitrage opportunity. From a graph perspective, this "profit" can be modeled as a negative-weight cycle, where the total "cost" of the path is negative.
+
+This directly illustrates why the greedy assumption—that adding "extra stuff" (more conversions) will only increase the path length—fails. A path that looks longer or more complex might actually lead to a net gain (a negative cost), completely subverting the idea of confidently finalizing a path based on immediate, positive-cost connections. Algorithms like Bellman-Ford are designed to handle such scenarios, specifically because they don't make the same restrictive greedy assumptions.

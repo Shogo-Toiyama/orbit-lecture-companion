@@ -1,0 +1,673 @@
+{
+  "idx": 9,
+  "title": "Training AI Models",
+  "count": 83,
+  "sids": [
+    "s000287",
+    "s000288",
+    "s000289",
+    "s000320",
+    "s000321",
+    "s000323",
+    "s000330",
+    "s000332",
+    "s000334",
+    "s000338",
+    "s000341",
+    "s000344",
+    "s000345",
+    "s000359",
+    "s000361",
+    "s000365",
+    "s000370",
+    "s000392",
+    "s000395",
+    "s000396",
+    "s000397",
+    "s000398",
+    "s000400",
+    "s000401",
+    "s000403",
+    "s000404",
+    "s000405",
+    "s000406",
+    "s000407",
+    "s000408",
+    "s000410",
+    "s000411",
+    "s000413",
+    "s000414",
+    "s000416",
+    "s000418",
+    "s000420",
+    "s000421",
+    "s000422",
+    "s000425",
+    "s000426",
+    "s000427",
+    "s000429",
+    "s000430",
+    "s000431",
+    "s000432",
+    "s000433",
+    "s000434",
+    "s000435",
+    "s000436",
+    "s000437",
+    "s000438",
+    "s000441",
+    "s000446",
+    "s000460",
+    "s000463",
+    "s000464",
+    "s000465",
+    "s000466",
+    "s000470",
+    "s000473",
+    "s000479",
+    "s000480",
+    "s000483",
+    "s000484",
+    "s000488",
+    "s000496",
+    "s000497",
+    "s000508",
+    "s000509",
+    "s000512",
+    "s000518",
+    "s000519",
+    "s000520",
+    "s000521",
+    "s000589",
+    "s000590",
+    "s000593",
+    "s000594",
+    "s000596",
+    "s000670",
+    "s000687",
+    "s000692"
+  ],
+  "evidences": [
+    {
+      "sid": "s000287",
+      "text": "Well, I think like, AI now, like, it's still not like really artificial intelligence.",
+      "start": 1002020,
+      "end": 1006140,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000288",
+      "text": "It's where like a neural network is like, trained on data.",
+      "start": 1006140,
+      "end": 1008750,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000289",
+      "text": "So, like, even though it's like doing things that we might not, like using ChatGPT, like, understand, like, there's probably someone out there who's like, working on like the model that does understand why it's making these decisions and it's like trained on, like, data that we created and just doing, like, what we want it to do.",
+      "start": 1009070,
+      "end": 1024030,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000320",
+      "text": "Humans are the ones that train the AI.",
+      "start": 1111220,
+      "end": 1113220,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000321",
+      "text": "We give it the knowledge base that.",
+      "start": 1113780,
+      "end": 1115260,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000323",
+      "text": "And ultimately we tell it what to do and whether or not it does it better than us, I guess.",
+      "start": 1118420,
+      "end": 1126420,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000330",
+      "text": "I can't think of this without thinking of my own kids.",
+      "start": 1137900,
+      "end": 1140220,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000332",
+      "text": "I put them in an environment and I told them only good things, so they should only be doing good stuff.",
+      "start": 1140780,
+      "end": 1145500,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000334",
+      "text": "I feel like there's a similarity here, and I hate to make the analogy because this is not alive.",
+      "start": 1145980,
+      "end": 1149860,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000338",
+      "text": "I've given it data that I curated and gave it carefully.",
+      "start": 1155980,
+      "end": 1159260,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000341",
+      "text": "But the reality is it's a mathematical model where weights are being applied to an architecture that's a neural network architecture, where the mathematical models I may not be able to fully grasp.",
+      "start": 1162460,
+      "end": 1174140,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000344",
+      "text": "Is it brittle because I didn't test all the parameters?",
+      "start": 1177660,
+      "end": 1181260,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000345",
+      "text": "So in terms of my understanding of some mathematical model that was taken by throwing enough examples of something at it, how much do I really get it?",
+      "start": 1181980,
+      "end": 1191280,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000359",
+      "text": "But if you look at a modern model has trillions of parameters.",
+      "start": 1245100,
+      "end": 1247940,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000361",
+      "text": "You have to think in some way higher dimensional space and you don't actually understand what is being captured by those weights that you know.",
+      "start": 1251180,
+      "end": 1258940,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000365",
+      "text": "You can't actually know what every single parameter is contributing to the model.",
+      "start": 1264530,
+      "end": 1268970,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000370",
+      "text": "I've got some slides that I'm not saying I'm going to get into back propagation algorithms, just high level kind of giving you a sense for the scope of it.",
+      "start": 1279010,
+      "end": 1288050,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000392",
+      "text": "Pre trained transformers GPT.",
+      "start": 1342250,
+      "end": 1344010,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000395",
+      "text": "Pre trained in the sense that it is trained on a massive amount of data but it's still supposed to be learning and adapting.",
+      "start": 1348010,
+      "end": 1354930,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000396",
+      "text": "So there is some baked in understanding to start.",
+      "start": 1354930,
+      "end": 1357690,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000397",
+      "text": "It's not just starting tabula rasa as like a deep learning like alpha zero alpha transformer originally and I know there's been a lot of innovation that's kind of pushed this down, but just the basic transformer architecture was transforming one language into another, right?",
+      "start": 1357690,
+      "end": 1379220,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000398",
+      "text": "And now instead of it just doing that, it's looking at context and coming up with what is the probabilistic distribution of what comes next.",
+      "start": 1380500,
+      "end": 1390740,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000400",
+      "text": "The big picture is that it tries to understand that context by breaking things down into pieces.",
+      "start": 1395510,
+      "end": 1401670,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000401",
+      "text": "So for this kind of sentence, it'll break it up into tokens or individual pieces.",
+      "start": 1401830,
+      "end": 1406470,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000403",
+      "text": "But it doesn't have to be at the level of words, but it tries to figure out what each piece of a particular context means.",
+      "start": 1407830,
+      "end": 1414950,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000404",
+      "text": "And the way it does that is first looking at the word in isolation.",
+      "start": 1415590,
+      "end": 1419350,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000405",
+      "text": "And so in this case, shoots in this particular sentence could have a variety of meanings, from tender bamboo shoots to a photo shoot to shooting with the bow and arrow or something else.",
+      "start": 1419930,
+      "end": 1429610,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000406",
+      "text": "And so what that panda is doing is there could be many different interpretations that could exist without additional context or clarity.",
+      "start": 1430410,
+      "end": 1439690,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000407",
+      "text": "So what they try to do is they try and figure out, based on the context, the understanding of the pre trained transformer carries of the world and everything else, what does that actually mean.",
+      "start": 1440890,
+      "end": 1452080,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000408",
+      "text": "And so that's broken up into pieces of tokenizing, the individual input, embedding what the word means into some mathematical language, using attention so that you can find all the other context and how that manipulates that mathematical model and then going through layers and layers of perceptrons.",
+      "start": 1453200,
+      "end": 1470880,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000410",
+      "text": "So I think you all understand tokenizing.",
+      "start": 1480170,
+      "end": 1483370,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000411",
+      "text": "And so the idea is that you're taking pieces and you're making it into math.",
+      "start": 1483770,
+      "end": 1487489,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000413",
+      "text": "It's kind of hard to read here, but the idea is that for all these different words, they are embedded as a matrix of numbers.",
+      "start": 1490250,
+      "end": 1496250,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000414",
+      "text": "And once you have this matrix of numbers, what you can do is you can represent that in space.",
+      "start": 1497140,
+      "end": 1503940,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000416",
+      "text": "You could represent it in a three dimensional space, but this particular matrix that we're talking about is far greater.",
+      "start": 1507260,
+      "end": 1514660,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000418",
+      "text": "If I have words that are represented as vectors in that 3D space, you could think about it as being multiple.",
+      "start": 1517060,
+      "end": 1522480,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000420",
+      "text": "And so what happens is that the embedding we have for these words is truly massive.",
+      "start": 1533270,
+      "end": 1539270,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000421",
+      "text": "Because when I put these different words in, into the embedding and I have these different vectors, I can grow and shrink what they are in the space depending on the types of attention that's paid to them.",
+      "start": 1541990,
+      "end": 1553190,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000422",
+      "text": "So this is the weights on individual words tweaking as the mathematical model changes for what the word means.",
+      "start": 1555430,
+      "end": 1563590,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000425",
+      "text": "If I look at the word tower and I look at all the words that are close to it, it could be close in that multidimensional space.",
+      "start": 1576720,
+      "end": 1584480,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000426",
+      "text": "So that things that are similar kind of fit into the same space in the coordinate plane.",
+      "start": 1584960,
+      "end": 1590480,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000427",
+      "text": "And what that means is when you have embeddings that have association, like I compare sushi to Japan, and I compare, maybe bratwurst to Germany, there's an association or a distance that makes sense across those spaces.",
+      "start": 1591600,
+      "end": 1607110,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000429",
+      "text": "So these words in this multi dimensional space have meaning even when you compare them in this sort of matrix, multiple matrix addition and subtraction.",
+      "start": 1608950,
+      "end": 1617270,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000430",
+      "text": "So I think what makes things really challenging is this notion of attention.",
+      "start": 1617910,
+      "end": 1621510,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000431",
+      "text": "So you've got your tokens, words, you break them up in terms of a mathematical model that can be adjusted in terms of weights, and you pay attention to them.",
+      "start": 1621990,
+      "end": 1630660,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000432",
+      "text": "So the word quill, which could mean a porcupine quill or a writing quill, will take its meaning from the sentences that surround it.",
+      "start": 1631460,
+      "end": 1640580,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000433",
+      "text": "All of these different parts from multiple areas will inform what that word means.",
+      "start": 1641140,
+      "end": 1647140,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000434",
+      "text": "When you read the context of something, it disambiguates the word fair.",
+      "start": 1647540,
+      "end": 1651300,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000435",
+      "text": "So similarly, if you see the word mole, if you think about the different vectors, that word mole might start at the same exact value.",
+      "start": 1653870,
+      "end": 1663070,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000436",
+      "text": "As a token, the embedding of mole will start with a certain set of coordinates in this multidimensional space.",
+      "start": 1663390,
+      "end": 1670830,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000437",
+      "text": "But when I pick a particular interpretation, so a mole of carbon dioxide, the attention of the other words will start to play in and change that particular value for mole.",
+      "start": 1671950,
+      "end": 1683500,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000438",
+      "text": "It'll reorient it to be something in the chemical domain instead of just a generic mole.",
+      "start": 1683980,
+      "end": 1688460,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000441",
+      "text": "So attention is the influence on the weights mathematically.",
+      "start": 1711670,
+      "end": 1715670,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000446",
+      "text": "So a perceptron.",
+      "start": 1725270,
+      "end": 1726470,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000460",
+      "text": "We've got a collection of inputs that come in and based on training data, we produce some output.",
+      "start": 1801340,
+      "end": 1806580,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000463",
+      "text": "It's based off of a neuron.",
+      "start": 1811190,
+      "end": 1812710,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000464",
+      "text": "It's got inputs that are weighted by a certain amount that is programmable.",
+      "start": 1813110,
+      "end": 1816470,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000465",
+      "text": "And all those collection of inputs will either trigger or not trigger an output.",
+      "start": 1816950,
+      "end": 1820630,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000466",
+      "text": "I like to view it as a very robust automatic door that may have a combination of pressure and weight, infrared and motion detection.",
+      "start": 1821110,
+      "end": 1831430,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000470",
+      "text": "So just to give you the context, this is an example of a neural network that tries to figure out handwriting.",
+      "start": 1852620,
+      "end": 1858940,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000473",
+      "text": "Maybe as a user I can say, oh, I know how this works with back propagation, I figure out what the actual value is that it should have gone and I work my way backwards.",
+      "start": 1874130,
+      "end": 1883050,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000479",
+      "text": "If you've got the input tokenizing coming up with attention, starting this mathematical model, what you have attached onto it are multi layer perceptrons that are being trained over time.",
+      "start": 1907360,
+      "end": 1920290,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000480",
+      "text": "This is the pre trained part with its understanding of the world.",
+      "start": 1920370,
+      "end": 1923570,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000483",
+      "text": "It's actually much worse than that because then what happens is we go through another round of attention and then we go through more perceptron and as many, many repetitions to refine the answer in order to finally get that ultimate piece out.",
+      "start": 1929090,
+      "end": 1942270,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000484",
+      "text": "And with all of that ridiculous amount of perceptrons and attention and everything else, just to get that one answer that dumps out.",
+      "start": 1943470,
+      "end": 1952190,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000488",
+      "text": "In terms of a modern LLM, GPT4 had over a trillion parameters.",
+      "start": 1963810,
+      "end": 1969290,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000496",
+      "text": "One approach of thinking about how to train these machines is I think, Groundhog Day.",
+      "start": 1992520,
+      "end": 1997760,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000497",
+      "text": "I think this to me is the ultimate analogy for training an LLM.",
+      "start": 1997760,
+      "end": 2001400,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000508",
+      "text": "But he's trained on one day.",
+      "start": 2038740,
+      "end": 2040340,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000509",
+      "text": "He is an expert on one day.",
+      "start": 2040580,
+      "end": 2042340,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000512",
+      "text": "If your AI has been trained on one thing and one thing only, how is that going to help you the next day?",
+      "start": 2046800,
+      "end": 2051720,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000518",
+      "text": "What you try to do is have a training set that is comprehensive enough that you break into three pieces.",
+      "start": 2065200,
+      "end": 2070570,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000519",
+      "text": "You have a training set that you do to actually set the weights.",
+      "start": 2070810,
+      "end": 2074570,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000520",
+      "text": "You have a testing set that you evaluate, called the validation set, that evaluates how far you've come and how good your job you're doing.",
+      "start": 2074810,
+      "end": 2081690,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000521",
+      "text": "And then you have a completely separate test set that actually performs a test on the actual data.",
+      "start": 2081770,
+      "end": 2086330,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000589",
+      "text": "And they say like when, like they get like they publish paper for physics and then they use like if the model uses like a paper that was wrong with ChatGPT, then that paper, that same paper, if it's wrong, then it's going to be feeded back to ChatGPT.",
+      "start": 2353170,
+      "end": 2369970,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000590",
+      "text": "So maybe all the information might be like wrong.",
+      "start": 2370210,
+      "end": 2372730,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000593",
+      "text": "Because really it's garbage and garbage out.",
+      "start": 2378010,
+      "end": 2379690,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000594",
+      "text": "If you train, train it on bad data, then what would you expect the outcome to be?",
+      "start": 2379690,
+      "end": 2383030,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000596",
+      "text": "It's based on bad data that it's learning.",
+      "start": 2383430,
+      "end": 2385950,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000670",
+      "text": "But even if we could figure out what is the right answer to some of the questions we want to have, what is the ground truth that we should be training towards?",
+      "start": 2630930,
+      "end": 2640780,
+      "role": "qa"
+    },
+    {
+      "sid": "s000687",
+      "text": "I think generally it'd be better to train it to output things based off of the distribution.",
+      "start": 2731530,
+      "end": 2738490,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000692",
+      "text": "So maybe use the 1800s distribution for that.",
+      "start": 2745580,
+      "end": 2748100,
+      "role": "lecture"
+    }
+  ]
+}

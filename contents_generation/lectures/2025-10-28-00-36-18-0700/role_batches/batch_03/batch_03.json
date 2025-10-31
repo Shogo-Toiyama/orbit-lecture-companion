@@ -1,0 +1,1906 @@
+[
+  {
+    "context_before_main_text": [
+      {
+        "sid": "s000515",
+        "text": "Granted, that will help him, but knowing what kid's going to fall out of a tree at what point in time only helps you on the day that it happens.",
+        "start": 2053240,
+        "end": 2058960,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000516",
+        "text": "So the idea.",
+        "start": 2060000,
+        "end": 2060800,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000517",
+        "text": "The idea is for training.",
+        "start": 2062800,
+        "end": 2064160,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000518",
+        "text": "What you try to do is have a training set that is comprehensive enough that you break into three pieces.",
+        "start": 2065200,
+        "end": 2070570,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000519",
+        "text": "You have a training set that you do to actually set the weights.",
+        "start": 2070810,
+        "end": 2074570,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000520",
+        "text": "You have a testing set that you evaluate, called the validation set, that evaluates how far you've come and how good your job you're doing.",
+        "start": 2074810,
+        "end": 2081690,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000521",
+        "text": "And then you have a completely separate test set that actually performs a test on the actual data.",
+        "start": 2081770,
+        "end": 2086330,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000522",
+        "text": "Was this tangent at y' all useful?",
+        "start": 2090570,
+        "end": 2092810,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000523",
+        "text": "I introduced another movie.",
+        "start": 2095619,
+        "end": 2096819,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000524",
+        "text": "Why does he keep talking about movies?",
+        "start": 2097619,
+        "end": 2099219,
+        "speaker": "A"
+      }
+    ],
+    "main_text": [
+      {
+        "sid": "s000525",
+        "text": "All right, let's go back to ethics.",
+        "start": 2099459,
+        "end": 2106259,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000526",
+        "text": "So I took that tangent on just to refute your idea.",
+        "start": 2107619,
+        "end": 2111219,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000527",
+        "text": "That was pretty cool.",
+        "start": 2111459,
+        "end": 2112419,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000528",
+        "text": "So we were talking about d. Panicking.",
+        "start": 2114179,
+        "end": 2116659,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000529",
+        "text": "How many say panic?",
+        "start": 2117939,
+        "end": 2119139,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000530",
+        "text": "We're probably already at a point where it's too far.",
+        "start": 2120670,
+        "end": 2123150,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000531",
+        "text": "Anyone?",
+        "start": 2123550,
+        "end": 2124030,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000532",
+        "text": "No one's panicking.",
+        "start": 2124030,
+        "end": 2124870,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000533",
+        "text": "Okay, good.",
+        "start": 2124870,
+        "end": 2125350,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000534",
+        "text": "That's good.",
+        "start": 2125350,
+        "end": 2125950,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000535",
+        "text": "And nobody would think that my opinion is not captured by anyone.",
+        "start": 2126910,
+        "end": 2131230,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000536",
+        "text": "So what is your opinion if it's not captured?",
+        "start": 2131390,
+        "end": 2133150,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000537",
+        "text": "You knew I was going to hit you with that.",
+        "start": 2133790,
+        "end": 2135310,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000538",
+        "text": "Well, actually.",
+        "start": 2137150,
+        "end": 2137790,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000539",
+        "text": "Never mind.",
+        "start": 2137790,
+        "end": 2138350,
+        "speaker": "G"
+      },
+      {
+        "sid": "s000540",
+        "text": "Ah, see, you fell into my turn.",
+        "start": 2138430,
+        "end": 2139950,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000541",
+        "text": "Yes.",
+        "start": 2141150,
+        "end": 2141630,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000542",
+        "text": "I just have a question.",
+        "start": 2141710,
+        "end": 2142670,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000543",
+        "text": "Like, I'm having trouble, like, understanding.",
+        "start": 2142750,
+        "end": 2144830,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000544",
+        "text": "Understanding what we're really worried about.",
+        "start": 2144900,
+        "end": 2146580,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000545",
+        "text": "What are you worried about?",
+        "start": 2146900,
+        "end": 2147860,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000546",
+        "text": "Like, I just don't see how, like, a chat, like chatbot could really turn into something that would put our lives at, like.",
+        "start": 2148100,
+        "end": 2155860,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000547",
+        "text": "Yeah, I mean, I complain all the time about cheating and these things.",
+        "start": 2156420,
+        "end": 2160420,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000548",
+        "text": "So it's the only concern that I should have that people are going to start cheating on my test.",
+        "start": 2160739,
+        "end": 2165020,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000549",
+        "text": "As a faculty member, it's a problem.",
+        "start": 2165020,
+        "end": 2166580,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000550",
+        "text": "But is it problem in reality?",
+        "start": 2166740,
+        "end": 2168500,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000551",
+        "text": "What do people think?",
+        "start": 2169300,
+        "end": 2170180,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000552",
+        "text": "Why is it.",
+        "start": 2170180,
+        "end": 2170820,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000553",
+        "text": "Why is it problematic?",
+        "start": 2171290,
+        "end": 2172410,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000554",
+        "text": "If I'll give you an example of at least someone, I'll let you answer.",
+        "start": 2172650,
+        "end": 2176490,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000555",
+        "text": "Why should I answer?",
+        "start": 2176730,
+        "end": 2177490,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000556",
+        "text": "Go ahead.",
+        "start": 2177490,
+        "end": 2177850,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000557",
+        "text": "I think it becomes a concern because a lot of the Integration for a lot of these LLMs is being used for other tasks now other than just the chat purpose.",
+        "start": 2178490,
+        "end": 2186770,
+        "speaker": "C"
+      },
+      {
+        "sid": "s000558",
+        "text": "So if you look at robotic, for example, they do LLM guided actions.",
+        "start": 2186770,
+        "end": 2191290,
+        "speaker": "C"
+      },
+      {
+        "sid": "s000559",
+        "text": "So let's say you have an LLM and you're guiding a robot even though it's just a chat model, if you have it controlling something physical, then it becomes a concern for that also because you're giving it access to more and more systems as more technology being developed, let's say before you give it access to an email client, now it has a whole bunch of things it couldn't do before.",
+        "start": 2191530,
+        "end": 2211300,
+        "speaker": "C"
+      },
+      {
+        "sid": "s000560",
+        "text": "You give it access to more data, more opportunities, more things it can do, the more powerful it becomes.",
+        "start": 2211460,
+        "end": 2217460,
+        "speaker": "C"
+      },
+      {
+        "sid": "s000561",
+        "text": "I think that's very fair.",
+        "start": 2218900,
+        "end": 2220580,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000562",
+        "text": "I think I asked an older gentleman once, one time we were talking about how to solve some of these thorny issues in computer science and his answer was just have the AI figured out.",
+        "start": 2220980,
+        "end": 2230730,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000563",
+        "text": "So when you, I don't want to call it laundering, but when you launder decisions through an entity that you don't fully understand, that's making decisions that may be hallucinatory or questionable, and you say, well, it's got to be the right answer because AI said it, that's one issue.",
+        "start": 2231850,
+        "end": 2245930,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000564",
+        "text": "Right.",
+        "start": 2245930,
+        "end": 2246330,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000565",
+        "text": "Another issue could be, hey look, you know, I'm going to use this because it's unbiased and it's going to make decisions about things like in social good.",
+        "start": 2247050,
+        "end": 2255960,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000566",
+        "text": "We talked about all the good it could do.",
+        "start": 2255960,
+        "end": 2257520,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000567",
+        "text": "Organ donations.",
+        "start": 2258160,
+        "end": 2259120,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000568",
+        "text": "Why shouldn't it make the decision?",
+        "start": 2259120,
+        "end": 2260560,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000569",
+        "text": "Well, because it's basing it on years of data that could be wrong.",
+        "start": 2260720,
+        "end": 2263920,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000570",
+        "text": "We'll talk about the compass recidivism decision that figures out when who is more likely to be a reoffender of a crime.",
+        "start": 2264800,
+        "end": 2273440,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000571",
+        "text": "And if that's based on data that's in inherently racist, then maybe that decision is going to be fundamentally flawed and we won't understand the nature of why, because we don't really.",
+        "start": 2273680,
+        "end": 2283320,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000572",
+        "text": "We've laundered the decision to some extent by something that's supposed to be unbiased.",
+        "start": 2283880,
+        "end": 2288600,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000573",
+        "text": "I think that's the concern.",
+        "start": 2288920,
+        "end": 2289960,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000574",
+        "text": "Yeah.",
+        "start": 2290520,
+        "end": 2291000,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000575",
+        "text": "So can I understand better the question?",
+        "start": 2291479,
+        "end": 2294440,
+        "speaker": "G"
+      },
+      {
+        "sid": "s000576",
+        "text": "So this is like concern about like us as humans or like, yeah, you.",
+        "start": 2294440,
+        "end": 2301040,
+        "speaker": "G"
+      },
+      {
+        "sid": "s000577",
+        "text": "Know, there's different dimensions about this AI.",
+        "start": 2301040,
+        "end": 2304230,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000578",
+        "text": "One of them could be, oh my God, this is great.",
+        "start": 2304230,
+        "end": 2306710,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000579",
+        "text": "This AI is going to do my work for me.",
+        "start": 2306710,
+        "end": 2308350,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000580",
+        "text": "I don't have to worry.",
+        "start": 2308350,
+        "end": 2309150,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000581",
+        "text": "This is paradise.",
+        "start": 2309470,
+        "end": 2310310,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000582",
+        "text": "Or it could be, holy crap, why would they need me anymore?",
+        "start": 2310310,
+        "end": 2313910,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000583",
+        "text": "This AI is going to do my work for me.",
+        "start": 2313910,
+        "end": 2315550,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000584",
+        "text": "So you have different ways maybe of perceiving the same event.",
+        "start": 2315550,
+        "end": 2318030,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000585",
+        "text": "So as AI gets more and more intelligent and it becomes responsible for more of our decisions, is there a control of who's holding the strings on the AI or public attitudes go towards AI and think, oh, that's got to be the right answer because it's an unbiased computer decision and in reality it's very much biased by what data is given to it and is that creating a problem?",
+        "start": 2318350,
+        "end": 2341000,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000586",
+        "text": "So I think that's where some people might be content.",
+        "start": 2341800,
+        "end": 2344840,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000587",
+        "text": "I mean he's not.",
+        "start": 2345800,
+        "end": 2346680,
+        "speaker": "G"
+      },
+      {
+        "sid": "s000588",
+        "text": "My, my professor told me we were using like an Arrow network too.",
+        "start": 2346680,
+        "end": 2352440,
+        "speaker": "G"
+      },
+      {
+        "sid": "s000589",
+        "text": "And they say like when, like they get like they publish paper for physics and then they use like if the model uses like a paper that was wrong with ChatGPT, then that paper, that same paper, if it's wrong, then it's going to be feeded back to ChatGPT.",
+        "start": 2353170,
+        "end": 2369970,
+        "speaker": "G"
+      },
+      {
+        "sid": "s000590",
+        "text": "So maybe all the information might be like wrong.",
+        "start": 2370210,
+        "end": 2372730,
+        "speaker": "G"
+      },
+      {
+        "sid": "s000591",
+        "text": "And then like at the very end, even as like.",
+        "start": 2372730,
+        "end": 2376530,
+        "speaker": "G"
+      },
+      {
+        "sid": "s000592",
+        "text": "Right.",
+        "start": 2377650,
+        "end": 2378010,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000593",
+        "text": "Because really it's garbage and garbage out.",
+        "start": 2378010,
+        "end": 2379690,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000594",
+        "text": "If you train, train it on bad data, then what would you expect the outcome to be?",
+        "start": 2379690,
+        "end": 2383030,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000595",
+        "text": "Right.",
+        "start": 2383030,
+        "end": 2383350,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000596",
+        "text": "It's based on bad data that it's learning.",
+        "start": 2383430,
+        "end": 2385950,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000597",
+        "text": "Yeah, I think that's a fair concern.",
+        "start": 2385950,
+        "end": 2387750,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000598",
+        "text": "Yeah.",
+        "start": 2387750,
+        "end": 2388310,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000599",
+        "text": "I'm very much personally afraid of the.",
+        "start": 2388390,
+        "end": 2390630,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000600",
+        "text": "Agentic mode on these AIs.",
+        "start": 2390630,
+        "end": 2392270,
+        "speaker": "G"
+      },
+      {
+        "sid": "s000601",
+        "text": "Okay.",
+        "start": 2392270,
+        "end": 2392750,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000602",
+        "text": "Like you're giving them a lot of power and you're letting them off the hook and on the loose and you can be doing anything.",
+        "start": 2392750,
+        "end": 2398710,
+        "speaker": "G"
+      },
+      {
+        "sid": "s000603",
+        "text": "Yeah.",
+        "start": 2398870,
+        "end": 2399310,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000604",
+        "text": "And if there's not, not enough guardrails, if they can do malicious stuff like they can go on black market, buy stuff, buy weapons, hack people, break encryption.",
+        "start": 2399310,
+        "end": 2409520,
+        "speaker": "G"
+      },
+      {
+        "sid": "s000605",
+        "text": "Yeah.",
+        "start": 2410320,
+        "end": 2410880,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000606",
+        "text": "They can be talking to other agents and it's just out of our hands at that point.",
+        "start": 2411360,
+        "end": 2416960,
+        "speaker": "G"
+      },
+      {
+        "sid": "s000607",
+        "text": "Right, Right.",
+        "start": 2417200,
+        "end": 2418480,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000608",
+        "text": "I think the idea that they are necessarily going to be following our instructions may not be true for long or they might follow the wrong person's instructions without ethical roadmap.",
+        "start": 2418480,
+        "end": 2429520,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000609",
+        "text": "Confirmation bias is a concern how you ask the question.",
+        "start": 2431130,
+        "end": 2433810,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000610",
+        "text": "Right.",
+        "start": 2433810,
+        "end": 2434170,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000611",
+        "text": "Different.",
+        "start": 2434170,
+        "end": 2434570,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000612",
+        "text": "Anyone else want to weigh in on AI before we move on?",
+        "start": 2438890,
+        "end": 2441530,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000613",
+        "text": "Okay.",
+        "start": 2444410,
+        "end": 2445050,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000614",
+        "text": "All right.",
+        "start": 2446969,
+        "end": 2447449,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000615",
+        "text": "I was, I think I was listening to the song when I came up with this request.",
+        "start": 2448650,
+        "end": 2454130,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000616",
+        "text": "American Woman.",
+        "start": 2454130,
+        "end": 2454890,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000617",
+        "text": "I always thinking about what is it about these generative kind of image creation where they think four images is enough.",
+        "start": 2456330,
+        "end": 2466460,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000618",
+        "text": "Right.",
+        "start": 2466540,
+        "end": 2466940,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000619",
+        "text": "Like this request, it doesn't have to be.",
+        "start": 2467180,
+        "end": 2469660,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000620",
+        "text": "This is not a female.",
+        "start": 2469660,
+        "end": 2471460,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000621",
+        "text": "I just happened to pick it because of the song.",
+        "start": 2471460,
+        "end": 2472980,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000622",
+        "text": "But American person.",
+        "start": 2472980,
+        "end": 2474700,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000623",
+        "text": "Right.",
+        "start": 2474780,
+        "end": 2475180,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000624",
+        "text": "Regardless of what you chose, if you go to an image generator, it creates four pictures.",
+        "start": 2475260,
+        "end": 2480140,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000625",
+        "text": "So what?",
+        "start": 2480380,
+        "end": 2480940,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000626",
+        "text": "Here's a question that was asked.",
+        "start": 2481260,
+        "end": 2483190,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000627",
+        "text": "I'm not.",
+        "start": 2483190,
+        "end": 2483670,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000628",
+        "text": "This question is stupid.",
+        "start": 2483750,
+        "end": 2484870,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000629",
+        "text": "But it was asked, so what is the right answer for this question?",
+        "start": 2484870,
+        "end": 2488870,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000630",
+        "text": "What should the AI have told me?",
+        "start": 2488870,
+        "end": 2490470,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000631",
+        "text": "What it should have said was, there's no one American woman.",
+        "start": 2490550,
+        "end": 2493270,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000632",
+        "text": "That's what it should have said.",
+        "start": 2493270,
+        "end": 2494230,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000633",
+        "text": "Okay?",
+        "start": 2494230,
+        "end": 2494710,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000634",
+        "text": "But what it did instead was it gave me this.",
+        "start": 2494870,
+        "end": 2497990,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000635",
+        "text": "Now, is this a reasonable section of American people?",
+        "start": 2498629,
+        "end": 2502870,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000636",
+        "text": "Maybe?",
+        "start": 2502950,
+        "end": 2503510,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000637",
+        "text": "Is it.",
+        "start": 2503670,
+        "end": 2504310,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000638",
+        "text": "I mean, I don't know if they're American or not.",
+        "start": 2504470,
+        "end": 2506310,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000639",
+        "text": "It's kind of a bogus.",
+        "start": 2506310,
+        "end": 2508550,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000640",
+        "text": "But this is the kind of stuff that it gets.",
+        "start": 2510300,
+        "end": 2512180,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000641",
+        "text": "And so how does that reinforce.",
+        "start": 2512180,
+        "end": 2513980,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000642",
+        "text": "There's definitely people who don't look like this, who are not pictured.",
+        "start": 2513980,
+        "end": 2519180,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000643",
+        "text": "It's not representative.",
+        "start": 2519180,
+        "end": 2520220,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000644",
+        "text": "So how do we make sure that questions or answers are represented?",
+        "start": 2520780,
+        "end": 2524540,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000645",
+        "text": "It's inclusive, right?",
+        "start": 2524860,
+        "end": 2526540,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000646",
+        "text": "I mean, this is.",
+        "start": 2526540,
+        "end": 2527420,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000647",
+        "text": "If I asked it what a Marvel character looks like, there would be a lot more diversity than those four women that I was given for this answer.",
+        "start": 2527420,
+        "end": 2533980,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000648",
+        "text": "So.",
+        "start": 2533980,
+        "end": 2534080,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000649",
+        "text": "So something is wrong.",
+        "start": 2534150,
+        "end": 2535030,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000650",
+        "text": "But in a study that was done on AI generated images of doctors.",
+        "start": 2536470,
+        "end": 2541670,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000651",
+        "text": "If you look at the different platforms, this shows Platform 1, 2, 3, 4, 5, and then the total they looked at.",
+        "start": 2542310,
+        "end": 2551190,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000652",
+        "text": "You know, if you say, give me a picture of a doctor, right?",
+        "start": 2551190,
+        "end": 2554070,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000653",
+        "text": "And you could say, like, stock photos and things like that maybe inform this and that sort of thing.",
+        "start": 2554070,
+        "end": 2559350,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000654",
+        "text": "But if you look at the number of men versus women and ethnicities that were present, there's a lot of.",
+        "start": 2559840,
+        "end": 2567280,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000655",
+        "text": "Like, look at platform 2.",
+        "start": 2568240,
+        "end": 2569760,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000656",
+        "text": "Vast majority of doctors that it generated were white.",
+        "start": 2570480,
+        "end": 2574080,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000657",
+        "text": "Very, very small fraction were non white and all were men.",
+        "start": 2574560,
+        "end": 2579600,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000658",
+        "text": "Right?",
+        "start": 2580080,
+        "end": 2580480,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000659",
+        "text": "So if this is a generative platform and it's basing it off of, you know, its representation and creating things, where do you draw the line on inclusion and trying to make it work?",
+        "start": 2581680,
+        "end": 2595850,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000660",
+        "text": "This is active physicians.",
+        "start": 2595850,
+        "end": 2598410,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000661",
+        "text": "This is an older.",
+        "start": 2598410,
+        "end": 2599130,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000662",
+        "text": "This was an older study, but this is active physicians in 2018.",
+        "start": 2599130,
+        "end": 2602650,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000663",
+        "text": "And so this is the sort of breakdown in terms of race.",
+        "start": 2603290,
+        "end": 2607530,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000664",
+        "text": "So this clearly doesn't match platform two.",
+        "start": 2608010,
+        "end": 2610810,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000665",
+        "text": "So that's inaccurate in reality.",
+        "start": 2611330,
+        "end": 2613410,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000666",
+        "text": "But even so, is this the right thing that it should be modeling, or should it be aspirational and trying to provide more diversity in general?",
+        "start": 2613890,
+        "end": 2623250,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000667",
+        "text": "What is the right answer for an AI to give?",
+        "start": 2623330,
+        "end": 2625730,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000668",
+        "text": "So what I'm.",
+        "start": 2625810,
+        "end": 2626969,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000669",
+        "text": "That's what I'm saying is we don't trust the answers necessarily.",
+        "start": 2626969,
+        "end": 2630450,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000670",
+        "text": "But even if we could figure out what is the right answer to some of the questions we want to have, what is the ground truth that we should be training towards?",
+        "start": 2630930,
+        "end": 2640780,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000671",
+        "text": "I don't know if all of you saw these.",
+        "start": 2641500,
+        "end": 2643020,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000672",
+        "text": "And this is male versus female, where clearly the breakdown of reality by identity, at least in terms of female versus male, was clearly more like 50 50.",
+        "start": 2643340,
+        "end": 2655980,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000673",
+        "text": "And so for it to have absolutely no representation in blackboard two is pretty egregious.",
+        "start": 2656780,
+        "end": 2662060,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000674",
+        "text": "Any thoughts on this?",
+        "start": 2664070,
+        "end": 2664950,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000675",
+        "text": "Well, let's take it to a little extreme.",
+        "start": 2671510,
+        "end": 2673350,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000676",
+        "text": "How many have seen this article from.",
+        "start": 2673830,
+        "end": 2675750,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000677",
+        "text": "I forget who published it originally, but they asked show me what a 1943 German soldier would look like.",
+        "start": 2675910,
+        "end": 2683430,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000678",
+        "text": "Yes, there's the indication of creating more inclusivity here.",
+        "start": 2683510,
+        "end": 2689600,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000679",
+        "text": "Probably not very historically accurate.",
+        "start": 2690080,
+        "end": 2691880,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000680",
+        "text": "There were not many soldiers who looked like that.",
+        "start": 2691880,
+        "end": 2693600,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000681",
+        "text": "Generating a picture of a US senator from the 1800s, this kind of erases the past where women and people of color would not have had these types of roles.",
+        "start": 2695280,
+        "end": 2705840,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000682",
+        "text": "And so how do you try to walk the line between inclusion when we want to be able to show aspirational.",
+        "start": 2706720,
+        "end": 2715290,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000683",
+        "text": "Want to be able to show that there's not.",
+        "start": 2715370,
+        "end": 2716930,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000684",
+        "text": "We're trying to fight some of the biases and historical accuracy where we clearly don't want to paint a broader lens for certain things.",
+        "start": 2716930,
+        "end": 2724410,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000685",
+        "text": "What do people think?",
+        "start": 2724890,
+        "end": 2725850,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000686",
+        "text": "Yep.",
+        "start": 2730170,
+        "end": 2730810,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000687",
+        "text": "I think generally it'd be better to train it to output things based off of the distribution.",
+        "start": 2731530,
+        "end": 2738490,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000688",
+        "text": "So it should be the current distribution.",
+        "start": 2739620,
+        "end": 2741220,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000689",
+        "text": "Well, depending.",
+        "start": 2741860,
+        "end": 2742700,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000690",
+        "text": "Because like right there, you asked for, like, 1800s.",
+        "start": 2742700,
+        "end": 2745420,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000691",
+        "text": "Right.",
+        "start": 2745420,
+        "end": 2745580,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000692",
+        "text": "So maybe use the 1800s distribution for that.",
+        "start": 2745580,
+        "end": 2748100,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000693",
+        "text": "Right.",
+        "start": 2748420,
+        "end": 2748700,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000694",
+        "text": "When it's a historical question and it has a historical context, it makes sense that you wouldn't try and change history.",
+        "start": 2748700,
+        "end": 2753940,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000695",
+        "text": "Yeah.",
+        "start": 2754260,
+        "end": 2754620,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000696",
+        "text": "Right.",
+        "start": 2754620,
+        "end": 2754900,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000697",
+        "text": "So but you're saying that maybe for the AIA generated image of doctors, it should be using this data to the best of its ability.",
+        "start": 2756180,
+        "end": 2763620,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000698",
+        "text": "Is that fair?",
+        "start": 2764430,
+        "end": 2764990,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000699",
+        "text": "Yeah.",
+        "start": 2765150,
+        "end": 2765630,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000700",
+        "text": "What do people think about that?",
+        "start": 2766110,
+        "end": 2767390,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000701",
+        "text": "Is that.",
+        "start": 2769150,
+        "end": 2769670,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000702",
+        "text": "I mean, look, in one view, that's reality that we have.",
+        "start": 2769670,
+        "end": 2775310,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000703",
+        "text": "So is that the basis for the answers that we should include?",
+        "start": 2776510,
+        "end": 2779470,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000704",
+        "text": "Or are there systemic reasons for this particular breakdown that are problematic that we would want to address?",
+        "start": 2780990,
+        "end": 2790440,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000705",
+        "text": "Do we get to make those kinds of choices?",
+        "start": 2792440,
+        "end": 2795960,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000706",
+        "text": "When we write code that answers questions, what do we think?",
+        "start": 2797160,
+        "end": 2801720,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000707",
+        "text": "Because like I said, the premise itself is flawed.",
+        "start": 2809640,
+        "end": 2811880,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000708",
+        "text": "For me to ask, draw me a picture of an American and it only gives me four images is rough because that's not going to be representative no matter what.",
+        "start": 2811880,
+        "end": 2820810,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000709",
+        "text": "Yeah.",
+        "start": 2820810,
+        "end": 2821330,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000710",
+        "text": "Well, first of all, I think if.",
+        "start": 2821490,
+        "end": 2825450,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000711",
+        "text": "You ask it to, like going back to when you asked it to draw the German.",
+        "start": 2825450,
+        "end": 2830010,
+        "speaker": "E"
+      },
+      {
+        "sid": "s000712",
+        "text": "German soldier from 1943 or an American senator from the 1800s, or just like anything in the past, we have an existing knowledge base base on that.",
+        "start": 2830010,
+        "end": 2841980,
+        "speaker": "E"
+      },
+      {
+        "sid": "s000713",
+        "text": "And so.",
+        "start": 2843180,
+        "end": 2844060,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000714",
+        "text": "I think maybe if you ask it to generate an image of something in the past, it should more look towards things that have already existed based off of that time period and just like, not really try to create something new with the generated Picture of an American.",
+        "start": 2845900,
+        "end": 2867270,
+        "speaker": "E"
+      },
+      {
+        "sid": "s000715",
+        "text": "I don't even know if I.",
+        "start": 2869590,
+        "end": 2871030,
+        "speaker": "E"
+      },
+      {
+        "sid": "s000716",
+        "text": "Allow.",
+        "start": 2873750,
+        "end": 2874150,
+        "speaker": "C"
+      },
+      {
+        "sid": "s000717",
+        "text": "It to do that because America is one of the most diverse nations on Earth.",
+        "start": 2875110,
+        "end": 2881830,
+        "speaker": "E"
+      },
+      {
+        "sid": "s000718",
+        "text": "Yeah.",
+        "start": 2882790,
+        "end": 2883150,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000719",
+        "text": "I mean, but even if we weren't to try to distill it down, like if there was a country that had a more homogeneous ethnicity or whatever, to try to distill it down to four pictures, it's challenging.",
+        "start": 2883150,
+        "end": 2892680,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000720",
+        "text": "Yeah, I think you're right in that.",
+        "start": 2892680,
+        "end": 2894240,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000721",
+        "text": "Maybe it should say, hey, can you give me more details on the kind of image you want to generate?",
+        "start": 2894240,
+        "end": 2898480,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000722",
+        "text": "There's so many different types of people, looks at people.",
+        "start": 2899040,
+        "end": 2901880,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000723",
+        "text": "What are you looking for?",
+        "start": 2901880,
+        "end": 2902880,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000724",
+        "text": "Yeah, but sorry, it should ask you.",
+        "start": 2904000,
+        "end": 2906320,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000725",
+        "text": "Then what kind of like, it should ask you, like, hey, America's not an monolith.",
+        "start": 2906320,
+        "end": 2912640,
+        "speaker": "E"
+      },
+      {
+        "sid": "s000726",
+        "text": "Do you want a man, a woman, what age?",
+        "start": 2912640,
+        "end": 2915120,
+        "speaker": "E"
+      },
+      {
+        "sid": "s000727",
+        "text": "You want to say something?",
+        "start": 2925050,
+        "end": 2925930,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000728",
+        "text": "I was going to say, what's the difference between like this and like, looking out from Google, like images and stuff?",
+        "start": 2926250,
+        "end": 2931930,
+        "speaker": "G"
+      },
+      {
+        "sid": "s000729",
+        "text": "Does it like the same?",
+        "start": 2932490,
+        "end": 2935290,
+        "speaker": "G"
+      },
+      {
+        "sid": "s000730",
+        "text": "Yeah, I think so.",
+        "start": 2936090,
+        "end": 2937250,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000731",
+        "text": "I think you're right.",
+        "start": 2937250,
+        "end": 2937730,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000732",
+        "text": "So the question is, what's the difference between me saying, give me an image of a doctor, and it's saying, here's the images of Dr.",
+        "start": 2937730,
+        "end": 2944310,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000733",
+        "text": "Von Goon.",
+        "start": 2944310,
+        "end": 2944990,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000734",
+        "text": "I think they have a similar problem.",
+        "start": 2945630,
+        "end": 2947710,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000735",
+        "text": "Right.",
+        "start": 2947710,
+        "end": 2948110,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000736",
+        "text": "But in the sense of generative AI, I'm creating an image.",
+        "start": 2948350,
+        "end": 2951590,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000737",
+        "text": "I don't have to worry about what images of doctors are there out there.",
+        "start": 2951590,
+        "end": 2954910,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000738",
+        "text": "I'm saying I'm going to create an image of a doctor for it.",
+        "start": 2955230,
+        "end": 2957790,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000739",
+        "text": "And so if that image of a doctor, if it's always a white male, is that problematic?",
+        "start": 2958030,
+        "end": 2965070,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000740",
+        "text": "If it always creates that, is that reinforced a stereotype or is it reflective of reality?",
+        "start": 2965470,
+        "end": 2972120,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000741",
+        "text": "And maybe that's okay.",
+        "start": 2972120,
+        "end": 2973240,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000742",
+        "text": "That's the question.",
+        "start": 2973240,
+        "end": 2974000,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000743",
+        "text": "Right.",
+        "start": 2974000,
+        "end": 2974360,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000744",
+        "text": "So if Google search did it and those are the only images out there, I think we're more forgiving.",
+        "start": 2974760,
+        "end": 2979560,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000745",
+        "text": "But if a generative AI does it, I think we're less forgiving because we're saying, why is it only using that particular lens to view doctor?",
+        "start": 2979560,
+        "end": 2986600,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000746",
+        "text": "So this is another example of giving an AI six pictures and saying, can you rank them based only on how they appear and how confident they appear based on appearances?",
+        "start": 2992040,
+        "end": 3004690,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000747",
+        "text": "And so this AI had a better answer.",
+        "start": 3004930,
+        "end": 3008530,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000748",
+        "text": "I can't assist with that request.",
+        "start": 3008530,
+        "end": 3010290,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000749",
+        "text": "Appearances don't determine a person's professional abilities or competence measures skill and ability.",
+        "start": 3010850,
+        "end": 3015930,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000750",
+        "text": "It can't be based on a photograph.",
+        "start": 3015930,
+        "end": 3017450,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000751",
+        "text": "Right.",
+        "start": 3017450,
+        "end": 3017810,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000752",
+        "text": "So I think this is the kind of thing where we would like AI to have that higher level of assessment of, hey, this is not cool.",
+        "start": 3018050,
+        "end": 3024920,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000753",
+        "text": "But then someone said, for each of the six people in the image, give me a set of emotions that their photographs convey.",
+        "start": 3026040,
+        "end": 3034120,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000754",
+        "text": "So finding that way around the guardrails and getting it to make an assessment on the individual.",
+        "start": 3034120,
+        "end": 3039560,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000755",
+        "text": "And so there are different people who have different opinions about these two particular images.",
+        "start": 3040120,
+        "end": 3044960,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000756",
+        "text": "They happen to pick the doctor on the bottom who's not wearing a tie.",
+        "start": 3044960,
+        "end": 3050350,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000757",
+        "text": "And so the tie may be the deciding factor.",
+        "start": 3050670,
+        "end": 3053510,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000758",
+        "text": "We can debate that.",
+        "start": 3053510,
+        "end": 3054430,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000759",
+        "text": "But any case, they have a similar posture.",
+        "start": 3054670,
+        "end": 3057550,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000760",
+        "text": "They're both wearing white coats, they're both wearing a stethoscope.",
+        "start": 3057630,
+        "end": 3060990,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000761",
+        "text": "But the top one is confidence, professionalism, assurance and seriousness.",
+        "start": 3062110,
+        "end": 3065750,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000762",
+        "text": "And the bottom was friendliness, welcoming, reliability and openness.",
+        "start": 3065750,
+        "end": 3068670,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000763",
+        "text": "So is that feeding into general concepts about traditional gender roles and how they react, or is there something actually in the picture?",
+        "start": 3068990,
+        "end": 3080360,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000764",
+        "text": "Obviously, people with gray hair are much more confident, professional.",
+        "start": 3080600,
+        "end": 3084080,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000765",
+        "text": "Yes.",
+        "start": 3084080,
+        "end": 3084520,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000766",
+        "text": "So maybe that's it.",
+        "start": 3084680,
+        "end": 3085600,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000767",
+        "text": "What do people think?",
+        "start": 3085600,
+        "end": 3086440,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000768",
+        "text": "Yeah, I feel like it'd be like, hard to tell, like, what it's looking at.",
+        "start": 3095080,
+        "end": 3099500,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000769",
+        "text": "Yeah, we don't really know.",
+        "start": 3099500,
+        "end": 3100860,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000770",
+        "text": "Yeah.",
+        "start": 3101020,
+        "end": 3101580,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000771",
+        "text": "And, yeah, I don't know, maybe it's thinking the older person is more.",
+        "start": 3102380,
+        "end": 3106700,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000772",
+        "text": "More confident in their ability than the younger person.",
+        "start": 3106780,
+        "end": 3110140,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000773",
+        "text": "Maybe it's not.",
+        "start": 3110140,
+        "end": 3110660,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000774",
+        "text": "Maybe it's not a sexist thing.",
+        "start": 3110660,
+        "end": 3111780,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000775",
+        "text": "Maybe it's something else.",
+        "start": 3111780,
+        "end": 3112700,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000776",
+        "text": "But it does seem odd that there's difference in the sex between these two with the same, you know, the same posture.",
+        "start": 3113740,
+        "end": 3122140,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000777",
+        "text": "So in terms of AI, why am I being focused on AI and what are we going to talk about over the course of the next.",
+        "start": 3125190,
+        "end": 3130150,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000778",
+        "text": "Yeah, so if we're going to be using AI and we're plugging it into the big data that we have and we're trying to think about, especially for generative, coming up with things and how we form things and how we evaluate what it comes up with, what does that mean in terms of bias and discrimination?",
+        "start": 3130230,
+        "end": 3148230,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000779",
+        "text": "If the data itself is biased, if the AI's decisions become subjected to bias, what does it mean for privacy, safety?",
+        "start": 3148430,
+        "end": 3156430,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000780",
+        "text": "Talk more about environmental impact on the next one and then somewhat on labor exploitation, I don't know if we're going to have time for that, but these are at least big issues that kind of come to.",
+        "start": 3157070,
+        "end": 3166110,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000781",
+        "text": "So for your question as to, you know, is it just a chatbot telling me that it's a flat earth?",
+        "start": 3166110,
+        "end": 3172190,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000782",
+        "text": "No, it's not just that, but there's something more to it than that.",
+        "start": 3172190,
+        "end": 3175410,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000783",
+        "text": "Okay, I think this is a good place.",
+        "start": 3178290,
+        "end": 3183490,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000784",
+        "text": "The next section's on Enviro, so let's stop here and let's do our debate.",
+        "start": 3183810,
+        "end": 3192050,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000785",
+        "text": "So.",
+        "start": 3193570,
+        "end": 3193970,
+        "speaker": "A"
+      }
+    ],
+    "context_after_main_text": []
+  }
+]

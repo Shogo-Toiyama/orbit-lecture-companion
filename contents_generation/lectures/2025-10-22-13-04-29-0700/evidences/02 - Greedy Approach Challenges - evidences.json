@@ -1,0 +1,385 @@
+{
+  "idx": 2,
+  "title": "Greedy Approach Challenges",
+  "count": 47,
+  "sids": [
+    "s000093",
+    "s000094",
+    "s000097",
+    "s000101",
+    "s000102",
+    "s000103",
+    "s000105",
+    "s000106",
+    "s000108",
+    "s000109",
+    "s000130",
+    "s000131",
+    "s000133",
+    "s000134",
+    "s000135",
+    "s000140",
+    "s000143",
+    "s000144",
+    "s000147",
+    "s000148",
+    "s000150",
+    "s000151",
+    "s000156",
+    "s000160",
+    "s000161",
+    "s000162",
+    "s000163",
+    "s000167",
+    "s000168",
+    "s000171",
+    "s000178",
+    "s000181",
+    "s000182",
+    "s000185",
+    "s000186",
+    "s000187",
+    "s000189",
+    "s000190",
+    "s000191",
+    "s000192",
+    "s000194",
+    "s000195",
+    "s000199",
+    "s000202",
+    "s000203",
+    "s000207",
+    "s000228"
+  ],
+  "evidences": [
+    {
+      "sid": "s000093",
+      "text": "Greedy.",
+      "start": 630350,
+      "end": 631030,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000094",
+      "text": "So for a moment I say, let me use the greedy paradigm to solve this problem.",
+      "start": 631030,
+      "end": 636590,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000097",
+      "text": "What does greedy say?",
+      "start": 642670,
+      "end": 644430,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000101",
+      "text": "There is no edges to traverse from S to get to S. So question is, is there going to be another vertex in this graph that I can confidently say it's distance to S and never change that?",
+      "start": 659580,
+      "end": 678000,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000102",
+      "text": "That's what it really does.",
+      "start": 678480,
+      "end": 680000,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000103",
+      "text": "Of all the intervals scheduling that we did last time, you take the one that ends first without having looked at all the other intervals, you say that's what's going to be in the output of the non overlapping interval problem.",
+      "start": 680640,
+      "end": 696480,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000105",
+      "text": "Can we do something similar here?",
+      "start": 700810,
+      "end": 702890,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000106",
+      "text": "If it was possible to do something similar there, then that vertex probably won't be a vertex way far from S, because there are so many paths between S and Say X.",
+      "start": 703370,
+      "end": 720970,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000108",
+      "text": "So X may not be a good choice for the immediate greedy decision that I'm trying to make.",
+      "start": 734820,
+      "end": 742420,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000109",
+      "text": "Because for now, in my head I want to try green.",
+      "start": 742500,
+      "end": 745540,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000130",
+      "text": "Okay, so based on this concept, then maybe I initially look at neighbors of S. For example, I take the neighbor that's closest to S, B, and I say, how do I get from S to B is through this edge.",
+      "start": 846510,
+      "end": 876580,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000131",
+      "text": "Therefore, I write the distance from S to to be as one.",
+      "start": 877540,
+      "end": 882440,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000133",
+      "text": "That means that's the final shortest path, not some intermediate number, not a number that I'm going to change later.",
+      "start": 885440,
+      "end": 895400,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000134",
+      "text": "It's the final shortest path.",
+      "start": 895880,
+      "end": 898200,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000135",
+      "text": "So I claim, if you take all neighbors of S, take the one that's closest to, in this example, B.",
+      "start": 898920,
+      "end": 908110,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000140",
+      "text": "I'm going to say in a greedy fashion, in a greedy paradigm methodology, the distance from S to B.",
+      "start": 922030,
+      "end": 930230,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000143",
+      "text": "I claim that.",
+      "start": 935640,
+      "end": 936840,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000144",
+      "text": "How do I prove it?",
+      "start": 937720,
+      "end": 939160,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000147",
+      "text": "And I'm saying this is the shortest path by contradiction.",
+      "start": 946840,
+      "end": 952600,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000148",
+      "text": "If there was a shorter path from S to B, it would go through some other vertex and it comes back to B.",
+      "start": 953160,
+      "end": 963970,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000150",
+      "text": "It's the weight that matters, the sum of the weights.",
+      "start": 969290,
+      "end": 972770,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000151",
+      "text": "So by contradiction, if there was a path like that, let's look at the very first edge on this path.",
+      "start": 973570,
+      "end": 981890,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000156",
+      "text": "The distance from S to Y is greater than the distance from S to B Y, because I pick B to be such a vertex, I pick the shortest one, the shortest edge, the minimum edge.",
+      "start": 996420,
+      "end": 1018010,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000160",
+      "text": "Adding some extra stuff, basic algebra, is going to make that number bigger only because this part is a positive number.",
+      "start": 1042739,
+      "end": 1054579,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000161",
+      "text": "Because I assumed there are no negative edges in this case graph.",
+      "start": 1056179,
+      "end": 1061070,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000162",
+      "text": "And in fact, when I have negative edges, this whole basic premise is going to fade.",
+      "start": 1062030,
+      "end": 1067550,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000163",
+      "text": "And that's why greedy doesn't work with negative edges.",
+      "start": 1069950,
+      "end": 1073150,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000167",
+      "text": "It means this should be the final weight from S to B.",
+      "start": 1088910,
+      "end": 1094110,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000168",
+      "text": "So wonderful we can find at least one vertex whose distance to S is the minimum distance.",
+      "start": 1095790,
+      "end": 1105310,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000171",
+      "text": "The first interval that ends, I put it in the optimal solution and then I kind of carry this idea to the rest of the problem.",
+      "start": 1121550,
+      "end": 1130310,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000178",
+      "text": "But b is kind of special.",
+      "start": 1153120,
+      "end": 1155200,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000181",
+      "text": "Next one is going to be A, the next neighbor that's after one closest.",
+      "start": 1172650,
+      "end": 1179050,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000182",
+      "text": "So I go to A and I say, okay, the distance is 10 and that's finalized.",
+      "start": 1179370,
+      "end": 1184930,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000185",
+      "text": "Now if you try that proof from S to A, you gotta prove that if there was an alternate path from S to A, that would be less than that.",
+      "start": 1195780,
+      "end": 1210020,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000186",
+      "text": "But we can't say that.",
+      "start": 1210820,
+      "end": 1212740,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000187",
+      "text": "The only reason we could say that before is because S2Y for sure is greater than S to B.",
+      "start": 1213300,
+      "end": 1220400,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000189",
+      "text": "But now we don't have that anymore because this distance in general could be less than that.",
+      "start": 1223760,
+      "end": 1230240,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000190",
+      "text": "Therefore it could be a path going back to A which is less than 10.",
+      "start": 1230480,
+      "end": 1235520,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000191",
+      "text": "In fact, in this example that's exactly the case.",
+      "start": 1235600,
+      "end": 1238320,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000192",
+      "text": "So fixing a distance from S to A to 10 is not going to work.",
+      "start": 1239200,
+      "end": 1244430,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000194",
+      "text": "Our basic proof technique is going to fail and we have in fact a counterexample.",
+      "start": 1249470,
+      "end": 1255270,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000195",
+      "text": "Why it failed, so what should I do?",
+      "start": 1255270,
+      "end": 1262030,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000199",
+      "text": "So this whole idea of faith, the greedy idea, unless we can come up with a clever way of picking a next vertex.",
+      "start": 1271000,
+      "end": 1281560,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000202",
+      "text": "A is not a good choice.",
+      "start": 1297570,
+      "end": 1299330,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000203",
+      "text": "So you see, I'm trying, I don't know how to solve this problem, so I'm going to try greedy.",
+      "start": 1300290,
+      "end": 1306530,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000207",
+      "text": "That phase, then I come up with hypothesis of what else to consider.",
+      "start": 1310810,
+      "end": 1315330,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000228",
+      "text": "So it's a good, good way to proceed and it worked for the previous examples, but it won't work here.",
+      "start": 1433260,
+      "end": 1440300,
+      "role": "qa"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+# GPQA Benchmark
+
+The GPQA Benchmark is a new, sophisticated test suite designed to evaluate advanced knowledge, particularly in scientific fields, by posing questions intended for experts. It aims to measure performance against both field experts and highly skilled non-experts, revealing significant differences in accuracy.
+
+## Definition of GPQA
+The GPQA Benchmark is a **new test suite** described as a **graduate-level Google Proof Q&A benchmark**. It was created to provide a set of questions that are truly challenging and require expert-level understanding.
+
+## Subject Areas and Question Difficulty
+The benchmark focuses on three core scientific disciplines: **biology, physics, and chemistry**. The questions are designed to be **sophisticated**, with an example given from **quantum mechanics**, indicating their advanced nature. They are difficult enough that a layperson would struggle to answer them.
+
+## Participant Categories
+The GPQA Benchmark distinguishes between two main categories of participants for evaluation:
+
+*   **Experts**: These are individuals who are deeply "in the field," possess extensive knowledge, and are highly capable in their respective areas.
+*   **Non-experts**: These individuals are still skilled in some field, are highly resourced and motivated, have access to internet resources, and can spend an average of 30 minutes answering questions. They are capable of learning or knowing the area well enough to answer the questions but are not considered experts in that specific field.
+
+## Performance Insights
+The benchmark highlights a notable **delta** (difference) in accuracy between experts and non-experts, which is particularly significant for chemistry. For instance, even an expert in a field might achieve an accuracy of "only a 72" on the benchmark. In contrast, a score of **88.4% on the GPQA** has been observed, a result that "completely blew away even experts" in the particular field, demonstrating the benchmark's capacity to identify exceptionally high performance.
+
+## Summary
+*   The **GPQA Benchmark** is a new, graduate-level test suite developed by Google for advanced Q&A.
+*   It covers **biology, physics, and chemistry** with **sophisticated, expert-level questions**.
+*   The benchmark differentiates between **experts** (field specialists) and **highly skilled non-experts**.
+*   It reveals a **significant performance gap** between these groups, with experts sometimes scoring around 72%.
+*   The benchmark has also shown instances of **88.4% accuracy**, surpassing even expert performance.

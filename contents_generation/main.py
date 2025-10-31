@@ -15,7 +15,8 @@ AUDIO_EXTS = {".mp3", ".m4a", ".wav", ".flac", ".aac", ".ogg", ".wma", ".aiff"}
 load_dotenv()
 client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
 
-GEN_MODEL = "gemini-2.5-flash"
+gemini_2_5_flash_lite = "gemini-2.5-flash-lite"
+gemini_2_5_flash = "gemini-2.5-flash"
 
 def config_json(thinking: int = 0, google_search: bool = False):
     kwargs = dict(
@@ -129,11 +130,11 @@ def main():
 
     lecture_audio_to_text(audio_files[0], LECTURE_DIR)
 
-    topic_extraction_for_long_audio(client, GEN_MODEL, config_json(), config_text(), LECTURE_DIR)
+    topic_extraction_for_long_audio(client, gemini_2_5_flash_lite, config_json(), config_text(), LECTURE_DIR)
 
-    generate_topic_details(client, GEN_MODEL, config_json(), config_text(), LECTURE_DIR)
+    generate_topic_details(client, gemini_2_5_flash_lite, config_json(), config_text(), LECTURE_DIR)
 
-    generate_fun_facts(client, GEN_MODEL, config_text(google_search=True), LECTURE_DIR)
+    generate_fun_facts(client, gemini_2_5_flash, config_text(google_search=True), LECTURE_DIR)
 
     end_time_total = time.time()
     elapsed_time_total = end_time_total - start_time_total

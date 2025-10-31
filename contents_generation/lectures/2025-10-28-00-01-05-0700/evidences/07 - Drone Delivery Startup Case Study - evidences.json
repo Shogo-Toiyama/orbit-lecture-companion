@@ -1,0 +1,969 @@
+{
+  "idx": 7,
+  "title": "Drone Delivery Startup Case Study",
+  "count": 120,
+  "sids": [
+    "s000780",
+    "s000781",
+    "s000782",
+    "s000783",
+    "s000784",
+    "s000785",
+    "s000786",
+    "s000787",
+    "s000788",
+    "s000789",
+    "s000790",
+    "s000791",
+    "s000792",
+    "s000794",
+    "s000795",
+    "s000797",
+    "s000800",
+    "s000801",
+    "s000803",
+    "s000808",
+    "s000809",
+    "s000810",
+    "s000812",
+    "s000813",
+    "s000814",
+    "s000816",
+    "s000818",
+    "s000819",
+    "s000820",
+    "s000821",
+    "s000822",
+    "s000824",
+    "s000825",
+    "s000826",
+    "s000827",
+    "s000828",
+    "s000829",
+    "s000831",
+    "s000832",
+    "s000834",
+    "s000837",
+    "s000838",
+    "s000839",
+    "s000840",
+    "s000841",
+    "s000842",
+    "s000843",
+    "s000856",
+    "s000857",
+    "s000858",
+    "s000859",
+    "s000860",
+    "s000861",
+    "s000862",
+    "s000863",
+    "s000865",
+    "s000869",
+    "s000870",
+    "s000871",
+    "s000875",
+    "s000877",
+    "s000878",
+    "s000879",
+    "s000880",
+    "s000881",
+    "s000883",
+    "s000885",
+    "s000887",
+    "s000888",
+    "s000889",
+    "s000890",
+    "s000891",
+    "s000892",
+    "s000894",
+    "s000895",
+    "s000896",
+    "s000897",
+    "s000898",
+    "s000899",
+    "s000900",
+    "s000902",
+    "s000903",
+    "s000904",
+    "s000905",
+    "s000906",
+    "s000907",
+    "s000909",
+    "s000910",
+    "s000911",
+    "s000912",
+    "s000913",
+    "s000914",
+    "s000915",
+    "s000916",
+    "s000917",
+    "s000918",
+    "s000920",
+    "s000921",
+    "s000922",
+    "s000923",
+    "s000924",
+    "s000925",
+    "s000926",
+    "s000927",
+    "s000929",
+    "s000930",
+    "s000931",
+    "s000932",
+    "s000933",
+    "s000934",
+    "s000935",
+    "s000936",
+    "s000937",
+    "s000938",
+    "s000939",
+    "s000940",
+    "s000941",
+    "s000942",
+    "s000943",
+    "s000944"
+  ],
+  "evidences": [
+    {
+      "sid": "s000780",
+      "text": "So let's do a case study.",
+      "start": 3349860,
+      "end": 3353140,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000781",
+      "text": "You've been hired by a drone delivery startup company.",
+      "start": 3354020,
+      "end": 3356580,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000782",
+      "text": "You thought you were being hired for back end web development, but it becomes clear that the company is shorthanded.",
+      "start": 3356580,
+      "end": 3362020,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000783",
+      "text": "So you are expected to help out in the embedded system.",
+      "start": 3362100,
+      "end": 3364360,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000784",
+      "text": "You have little to no experience in this area but you want to learn between the pressing deadlines and constantly shifting milestones.",
+      "start": 3365550,
+      "end": 3372390,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000785",
+      "text": "You have very little mentorship or oversight.",
+      "start": 3372390,
+      "end": 3374430,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000786",
+      "text": "And so you're being asked to do Things that you are not qualified to do and you're trying to figure out.",
+      "start": 3374670,
+      "end": 3379150,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000787",
+      "text": "But it's drone delivery.",
+      "start": 3379310,
+      "end": 3380990,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000788",
+      "text": "It's not like, you know, they're delivering anything that's weapons grade or something like that.",
+      "start": 3381470,
+      "end": 3387870,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000789",
+      "text": "It's just delivering Amazon boxes.",
+      "start": 3388030,
+      "end": 3389890,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000790",
+      "text": "So what's the big deal?",
+      "start": 3390840,
+      "end": 3391800,
+      "role": "qa"
+    },
+    {
+      "sid": "s000791",
+      "text": "What would you do?",
+      "start": 3393000,
+      "end": 3393960,
+      "role": "qa"
+    },
+    {
+      "sid": "s000792",
+      "text": "Yeah, just to clarify, we're not delivering organs, right?",
+      "start": 3401560,
+      "end": 3404440,
+      "role": "qa"
+    },
+    {
+      "sid": "s000794",
+      "text": "Organ, no.",
+      "start": 3405000,
+      "end": 3406680,
+      "role": "qa"
+    },
+    {
+      "sid": "s000795",
+      "text": "You might be creating piles of organs.",
+      "start": 3406680,
+      "end": 3408920,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000797",
+      "text": "I mean, I think there is a fairly obvious.",
+      "start": 3411320,
+      "end": 3415420,
+      "role": "qa"
+    },
+    {
+      "sid": "s000800",
+      "text": "Fairly obvious that if you put an.",
+      "start": 3423450,
+      "end": 3424930,
+      "role": "qa"
+    },
+    {
+      "sid": "s000801",
+      "text": "Inexperienced guy on the embedded systems team, depending on how responsible they're going to.",
+      "start": 3424930,
+      "end": 3430330,
+      "role": "qa"
+    },
+    {
+      "sid": "s000803",
+      "text": "The main thing with this company.",
+      "start": 3433690,
+      "end": 3435170,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000808",
+      "text": "The key product is probably going to.",
+      "start": 3443820,
+      "end": 3449020,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000809",
+      "text": "Be the drone itself.",
+      "start": 3449020,
+      "end": 3449980,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000810",
+      "text": "And so getting safe deliveries and deliveries on time, that kind of thing.",
+      "start": 3451260,
+      "end": 3455180,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000812",
+      "text": "Dropping your boss sculpture off the window.",
+      "start": 3456859,
+      "end": 3458860,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000813",
+      "text": "I left the code on there.",
+      "start": 3459660,
+      "end": 3460780,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000814",
+      "text": "I don't think that code works.",
+      "start": 3460780,
+      "end": 3461700,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000816",
+      "text": "So how many would say, and this is.",
+      "start": 3463180,
+      "end": 3466300,
+      "role": "qa"
+    },
+    {
+      "sid": "s000818",
+      "text": "No problem, I totally got this.",
+      "start": 3471190,
+      "end": 3472950,
+      "role": "qa"
+    },
+    {
+      "sid": "s000819",
+      "text": "Versus I can't do that.",
+      "start": 3473430,
+      "end": 3474950,
+      "role": "qa"
+    },
+    {
+      "sid": "s000820",
+      "text": "Wouldn't be epic.",
+      "start": 3475190,
+      "end": 3476150,
+      "role": "qa"
+    },
+    {
+      "sid": "s000821",
+      "text": "So how many would say, hey, look at that can do attitude, Throw it at me, I can do it.",
+      "start": 3476310,
+      "end": 3481830,
+      "role": "qa"
+    },
+    {
+      "sid": "s000822",
+      "text": "And how many would say, no, look, I'm not qualified for this.",
+      "start": 3482150,
+      "end": 3485270,
+      "role": "qa"
+    },
+    {
+      "sid": "s000824",
+      "text": "Move fast and break things.",
+      "start": 3501280,
+      "end": 3502760,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000825",
+      "text": "Unless you are breaking stuff, you're not moving fast enough.",
+      "start": 3502760,
+      "end": 3505280,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000826",
+      "text": "And they decided, let's move fast with stable.",
+      "start": 3505920,
+      "end": 3509200,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000827",
+      "text": "So why isn't that first term good enough?",
+      "start": 3510960,
+      "end": 3514480,
+      "role": "qa"
+    },
+    {
+      "sid": "s000828",
+      "text": "Why wouldn't we want to be disruptive?",
+      "start": 3515360,
+      "end": 3517540,
+      "role": "qa"
+    },
+    {
+      "sid": "s000829",
+      "text": "Move fast and break things.",
+      "start": 3518010,
+      "end": 3519210,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000831",
+      "text": "Why is that bad?",
+      "start": 3522490,
+      "end": 3523290,
+      "role": "qa"
+    },
+    {
+      "sid": "s000832",
+      "text": "Yeah, sounded like they were moving too fast and they're breaking their own things.",
+      "start": 3523290,
+      "end": 3527450,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000834",
+      "text": "You don't want to move too fast and break their own things.",
+      "start": 3528970,
+      "end": 3531770,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000837",
+      "text": "So instead of, you got two options.",
+      "start": 3537130,
+      "end": 3542010,
+      "role": "qa"
+    },
+    {
+      "sid": "s000838",
+      "text": "Either keep the move fast and break things, which is kind of this mantra of, hey, you know, the current situation for doing things only works if we're disruptive and really put a fly in the arm and shake things up.",
+      "start": 3542010,
+      "end": 3553820,
+      "role": "qa"
+    },
+    {
+      "sid": "s000839",
+      "text": "Think musk with a chainsaw, or should we move fast?",
+      "start": 3553820,
+      "end": 3559900,
+      "role": "qa"
+    },
+    {
+      "sid": "s000840",
+      "text": "Still fast.",
+      "start": 3560220,
+      "end": 3561020,
+      "role": "qa"
+    },
+    {
+      "sid": "s000841",
+      "text": "But as long as we have stable infrastructure, we can sustain whatever headaches come our way and be able to handle the pace of technological innovation, or is it better?",
+      "start": 3561420,
+      "end": 3570790,
+      "role": "qa"
+    },
+    {
+      "sid": "s000842",
+      "text": "Let's just move cautiously and build things?",
+      "start": 3570870,
+      "end": 3573390,
+      "role": "qa"
+    },
+    {
+      "sid": "s000843",
+      "text": "Or tomorrow, what do we think?",
+      "start": 3573390,
+      "end": 3575470,
+      "role": "qa"
+    },
+    {
+      "sid": "s000856",
+      "text": "So for those who picked B, why is moving fast not a deal breaker?",
+      "start": 3595840,
+      "end": 3602000,
+      "role": "qa"
+    },
+    {
+      "sid": "s000857",
+      "text": "Because you're dealing with technology where one small bug can matriculate and doing that kind of tactical programming where you're jumping in, fixing something and moving on to the next problem.",
+      "start": 3602400,
+      "end": 3616880,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000858",
+      "text": "As you're creating things quickly can lead to more complex, which leads to more bugs.",
+      "start": 3617280,
+      "end": 3621310,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000859",
+      "text": "Why is that not a concern for those people?",
+      "start": 3621310,
+      "end": 3624150,
+      "role": "qa"
+    },
+    {
+      "sid": "s000860",
+      "text": "Yeah, well, if it's stable, I'm assuming that there's, like, multiple backups.",
+      "start": 3627110,
+      "end": 3631750,
+      "role": "qa"
+    },
+    {
+      "sid": "s000861",
+      "text": "So, like, if I, in case I were to be, like, ambitious, I'm like, I have this idea and like, you know, I start developing so and so, and then somewhere along the way, I tweak and, like, make an error.",
+      "start": 3631750,
+      "end": 3643750,
+      "role": "qa"
+    },
+    {
+      "sid": "s000862",
+      "text": "I can just revert to the backup and has everything stable.",
+      "start": 3643750,
+      "end": 3646810,
+      "role": "qa"
+    },
+    {
+      "sid": "s000863",
+      "text": "I like the way you're thinking of that.",
+      "start": 3647050,
+      "end": 3648450,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000865",
+      "text": "There was a chip design that I worked for this guy who used to be at intel, now he's a professor in Michigan.",
+      "start": 3649050,
+      "end": 3657130,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000869",
+      "text": "But anyway, the idea was when you go from chip to chip and you start with, let's say, yesterday's design, this is my chip A.",
+      "start": 3666690,
+      "end": 3677700,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000870",
+      "text": "And in hardware, you're not only changing what's on the chip.",
+      "start": 3678820,
+      "end": 3683980,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000871",
+      "text": "Better cache, better pipelines, better batteries, you're also shrinking the transistors.",
+      "start": 3683980,
+      "end": 3688420,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000875",
+      "text": "Assuming these are the same, then we keep the size of the chip the same, but grow the transistor resources, more cores.",
+      "start": 3704270,
+      "end": 3710350,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000877",
+      "text": "More caches, that kind of thing.",
+      "start": 3710750,
+      "end": 3712110,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000878",
+      "text": "So what his idea was, if I take a known quantity, the chip from generation A that I know works and has been battle tested and works, and I put it in a new chip as a smaller piece of the chip, because the die shrinkage, sorry, the die expansion plus the individual transistor shrinkage means that there'll be plenty of space for A plus more.",
+      "start": 3712750,
+      "end": 3736120,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000879",
+      "text": "And then I have a whole new core B. I can make B be very aggressive, try all kinds of crazy optimization and A can be a checker core, a validation engine.",
+      "start": 3737000,
+      "end": 3748060,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000880",
+      "text": "Why does that work?",
+      "start": 3749010,
+      "end": 3749890,
+      "role": "qa"
+    },
+    {
+      "sid": "s000881",
+      "text": "If this is slower than this, how could it possibly keep up with it?",
+      "start": 3749970,
+      "end": 3753370,
+      "role": "qa"
+    },
+    {
+      "sid": "s000883",
+      "text": "Like assuming that the thing I'm putting in here is not just energy efficiency, I'm looking for a performance improvement and B performs much faster, much better than A.",
+      "start": 3755650,
+      "end": 3765730,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000885",
+      "text": "How can it be that A will be a reasonable check on B idea?",
+      "start": 3766930,
+      "end": 3774140,
+      "role": "qa"
+    },
+    {
+      "sid": "s000887",
+      "text": "You could just like try things that.",
+      "start": 3778140,
+      "end": 3780740,
+      "role": "qa"
+    },
+    {
+      "sid": "s000888",
+      "text": "It'S not sure about and then pass that off to A to confirm it.",
+      "start": 3780740,
+      "end": 3785260,
+      "role": "qa"
+    },
+    {
+      "sid": "s000889",
+      "text": "So that way it still optimizes like most of it in manufacture and then it just offloads the positions that might not be able to do.",
+      "start": 3785340,
+      "end": 3796060,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000890",
+      "text": "But if I'm so smart and I'm doing things with way faster than someone else and I'm asking my 5 year old, I don't have one, but if I'm asking my 5 year old keep up with me and figure this out, how are they going to figure out something I can't figure out and keep pace with me on everything else?",
+      "start": 3796140,
+      "end": 3809830,
+      "role": "qa"
+    },
+    {
+      "sid": "s000891",
+      "text": "How could that be possible?",
+      "start": 3809830,
+      "end": 3810630,
+      "role": "qa"
+    },
+    {
+      "sid": "s000892",
+      "text": "If I just said you just do the hard stuff, that would be more challenging.",
+      "start": 3811750,
+      "end": 3815030,
+      "role": "qa"
+    },
+    {
+      "sid": "s000894",
+      "text": "So the trick here is that processors, when they're out of order, what they'll do with the stream of inst.",
+      "start": 3819190,
+      "end": 3825310,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000895",
+      "text": "Instructions here my A's mean something else is the way that B goes so fast is it'll try to do F. If this is the order of program instruction, it might do F first and then C and then B.",
+      "start": 3825380,
+      "end": 3840340,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000896",
+      "text": "It's doing things out of order.",
+      "start": 3840500,
+      "end": 3842020,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000897",
+      "text": "It's speculating and trying to get ahead.",
+      "start": 3842100,
+      "end": 3843940,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000898",
+      "text": "And so B was doing that, it was getting ahead, going aggressive, pulling all this stuff from memory.",
+      "start": 3844660,
+      "end": 3849620,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000899",
+      "text": "And then the stuff was all already in memory by the time A had to look at it.",
+      "start": 3850100,
+      "end": 3853590,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000900",
+      "text": "So it didn't have to wait.",
+      "start": 3853590,
+      "end": 3854390,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000902",
+      "text": "And instead of redoing all the calculations that it had to do, it just checked the answer.",
+      "start": 3855710,
+      "end": 3861350,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000903",
+      "text": "If you told me 4 plus 5 equals 9 check great.",
+      "start": 3861350,
+      "end": 3865630,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000904",
+      "text": "But if you told me 3 plus 3 equals 12 problem.",
+      "start": 3865790,
+      "end": 3869310,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000905",
+      "text": "And so it was B was doing all the hard work of reordering things, pulling in data, getting numbers, redirecting things and all, all I had to do was go, yep, that's right, that's right, that's right.",
+      "start": 3869790,
+      "end": 3879320,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000906",
+      "text": "And do the simple parts of the calculation.",
+      "start": 3879320,
+      "end": 3881480,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000907",
+      "text": "And that's how it kept things.",
+      "start": 3882280,
+      "end": 3883640,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000909",
+      "text": "So Your idea of, you know, hey, if I've got stable infrastructure, if I've got a stable platform where I know I can get the right answer, I can be really aggressive and try things.",
+      "start": 3885360,
+      "end": 3895080,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000910",
+      "text": "And this is what we think intel did is come up with chips where they could maybe not test everything completely, but they could have a backup optimization and if something didn't work, you know how they get rid of it?",
+      "start": 3895080,
+      "end": 3910130,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000911",
+      "text": "It's called chicken bits.",
+      "start": 3911810,
+      "end": 3913170,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000912",
+      "text": "So chicken bits are basically, you have either e fuses or eProms or something where you can set a bit that turns off a particular feature and disabling that feature.",
+      "start": 3913810,
+      "end": 3926410,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000913",
+      "text": "Chickening out is called a chicken.",
+      "start": 3926410,
+      "end": 3927670,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000914",
+      "text": "I was going to say like, like kind of a counter to a stable like infrastructure because I always said C. Right, okay.",
+      "start": 3929820,
+      "end": 3935820,
+      "role": "qa"
+    },
+    {
+      "sid": "s000915",
+      "text": "Like there are certain things like if you use like a existing infrastructure that are like impossible to do.",
+      "start": 3935820,
+      "end": 3941380,
+      "role": "qa"
+    },
+    {
+      "sid": "s000916",
+      "text": "Like, like, let's say like you like, like we have read like computer science or like tech, right?",
+      "start": 3941380,
+      "end": 3945660,
+      "role": "qa"
+    },
+    {
+      "sid": "s000917",
+      "text": "Tech moves like really fast.",
+      "start": 3945660,
+      "end": 3946860,
+      "role": "qa"
+    },
+    {
+      "sid": "s000918",
+      "text": "So like let's take like machine learning or something.",
+      "start": 3947100,
+      "end": 3949180,
+      "role": "qa"
+    },
+    {
+      "sid": "s000920",
+      "text": "For example, like if you do machine learning, if everyone use the same architecture that was proven to work, like we wouldn't be where we're at now.",
+      "start": 3949580,
+      "end": 3955350,
+      "role": "qa"
+    },
+    {
+      "sid": "s000921",
+      "text": "You need to have radical changes to make progress.",
+      "start": 3955430,
+      "end": 3958230,
+      "role": "qa"
+    },
+    {
+      "sid": "s000922",
+      "text": "I don't think you should do A and just break everything just like hyper aggressive do everything.",
+      "start": 3958870,
+      "end": 3962870,
+      "role": "qa"
+    },
+    {
+      "sid": "s000923",
+      "text": "Because obviously that's not like, I don't think that's like a good means of like advancing.",
+      "start": 3962870,
+      "end": 3967590,
+      "role": "qa"
+    },
+    {
+      "sid": "s000924",
+      "text": "But I don't think like you should be so stuck on the path that like you're not able to move on.",
+      "start": 3968070,
+      "end": 3973110,
+      "role": "qa"
+    },
+    {
+      "sid": "s000925",
+      "text": "I think you're making a virtue.",
+      "start": 3973270,
+      "end": 3974630,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000926",
+      "text": "Find that balance between.",
+      "start": 3975350,
+      "end": 3976390,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000927",
+      "text": "I think the problem we have with machine learning AI is we want to move fast but without a means of understanding the decisions that are being made and understanding like how do we read a neural network and actually understand what those weights mean.",
+      "start": 3977510,
+      "end": 3993320,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000929",
+      "text": "No, I mean doing that in software engineering would be crazy.",
+      "start": 3994880,
+      "end": 3999040,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000930",
+      "text": "But it's commonplace now.",
+      "start": 3999200,
+      "end": 4000880,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000931",
+      "text": "I mean you could make like, maybe you can make like the same argument.",
+      "start": 4000880,
+      "end": 4003640,
+      "role": "qa"
+    },
+    {
+      "sid": "s000932",
+      "text": "Like let's say you have like the original cpu.",
+      "start": 4003640,
+      "end": 4005610,
+      "role": "qa"
+    },
+    {
+      "sid": "s000933",
+      "text": "Like you're using CPU architecture, right?",
+      "start": 4005610,
+      "end": 4006970,
+      "role": "qa"
+    },
+    {
+      "sid": "s000934",
+      "text": "Like let's say you never implemented like branch prediction or you never did that because it was before it worked like this is a stable infrastructure.",
+      "start": 4006970,
+      "end": 4015530,
+      "role": "qa"
+    },
+    {
+      "sid": "s000935",
+      "text": "Just compute the condition, right?",
+      "start": 4016650,
+      "end": 4018530,
+      "role": "qa"
+    },
+    {
+      "sid": "s000936",
+      "text": "Like never add branch protect.",
+      "start": 4018530,
+      "end": 4019610,
+      "role": "qa"
+    },
+    {
+      "sid": "s000937",
+      "text": "They add that later and it's like way better now.",
+      "start": 4019610,
+      "end": 4021970,
+      "role": "qa"
+    },
+    {
+      "sid": "s000938",
+      "text": "But it's like totally different than the.",
+      "start": 4021970,
+      "end": 4023130,
+      "role": "qa"
+    },
+    {
+      "sid": "s000939",
+      "text": "Way it was before.",
+      "start": 4023130,
+      "end": 4023970,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000940",
+      "text": "But before we put branch prediction in, we did tests on it, on profiles to understand how traditional branches work.",
+      "start": 4023970,
+      "end": 4030120,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000941",
+      "text": "We also went through and we tried to make sure that we had a recovery path so we could flush the pipeline, restart the correctly that we don't miss.",
+      "start": 4030910,
+      "end": 4038190,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000942",
+      "text": "And yet there are problems like the meltdown inspector problem, right where we do branch prediction and we end up releasing data that we didn't mean to do on a non speculative path that's actually secure data that you can get now through side channel attacks or other media.",
+      "start": 4039390,
+      "end": 4053790,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000943",
+      "text": "So that would be an unknown.",
+      "start": 4054510,
+      "end": 4056040,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000944",
+      "text": "But I feel like they did a reasonable job at solidifying the architecture without those kinds of unforeseen consequences.",
+      "start": 4056990,
+      "end": 4062830,
+      "role": "lecture"
+    }
+  ]
+}

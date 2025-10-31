@@ -1,0 +1,42 @@
+# Dijkstra's Algorithm Core Logic
+
+Dijkstra's Algorithm is a greedy shortest path algorithm designed to find the minimum path from a starting point to all other reachable points in a network. It operates by iteratively identifying and finalizing the shortest known paths, ensuring that each step taken is optimal.
+
+## Definition of Dijkstra's Algorithm
+Dijkstra's Algorithm is a **Shortest Path Algorithm** that was developed by a professor named Dijkstra in the 1970s. It is characterized as a **greedy paradigm** because it makes locally optimal choices at each step, which ultimately leads to a globally optimal solution. The algorithm's core objective is to determine the shortest path from a source to other vertices.
+
+## Motivation for the Algorithm
+The development of Dijkstra's Algorithm arose from the need for a more effective method to find shortest paths, as previous ideas or algorithms had failed. The approach was conceived through a process of trying different methods, observing their failures, and reasoning about why they failed. This iterative refinement led to the central idea of considering all possible paths that are not yet finalized and selecting the minimum one.
+
+## Core Principle: Temporary and Finalized Paths
+The algorithm manages path distances using two main categories:
+*   **Finalized numbers (or permanent paths):** These represent vertices whose shortest path distance from the source has been definitively determined. Once a path's distance is finalized, it is considered the shortest possible path to that vertex, and this value will not change. These are often put in brackets to distinguish them.
+*   **Temporary numbers (or temporary paths):** These represent the shortest known path to a vertex *so far*, but there might be a shorter path discovered later. These are paths that are currently available but not yet confirmed as the absolute minimum.
+
+Additionally, there are vertices that have not yet been visited. For these, an implementation detail suggests assigning a **temporary weight of infinity**, or placing them in a separate category called "unreachables."
+
+## The Iterative Process of Dijkstra's Algorithm
+The algorithm proceeds in a structured manner:
+1.  **Initialization:** Start with a source vertex, S. Initially, only S is considered "permanent" with a distance of 0. All other vertices are in the "temporary" set, typically assigned an infinite weight.
+2.  **Update Neighbors:** Examine all neighbors of the current permanent vertex (initially S). Update their temporary distance values if a shorter path is found through the current permanent vertex. For example, if a neighbor was at infinity and is directly connected to S with a weight of 1, its temporary value becomes 1.
+3.  **Select Minimum Temporary:** From all the vertices in the temporary set, **pick the one with the minimum temporary distance**. This is the critical step.
+4.  **Finalize and Move:** Once the minimum temporary path is selected, it is proven to be the actual shortest path to that vertex. This vertex then moves from the temporary set to the permanent set, and its distance is finalized.
+5.  **Update Adjacent Paths:** When a vertex becomes permanent, its neighbors' temporary distances might need to be updated again. If a new, shorter path to a neighbor is found by going through the newly permanent vertex, that neighbor's temporary distance is updated.
+6.  **Repeat:** Steps 3-5 are repeated until all reachable vertices have been moved to the permanent set, meaning their shortest paths have been finalized.
+
+## The Proof of Optimality
+The entire algorithm is **optimal** because each step is optimal. The key hypothesis and proof revolve around the fact that when the algorithm picks the minimum temporary path to a vertex (say, Y), that path is indeed the shortest path to Y. The proof relies on the condition that **all edge weights are positive**.
+
+The logic is that if there were a shorter path to Y, it would have to go through some other vertex (say, X) that is either already permanent or still temporary. However, because the algorithm always picks the *minimum* temporary path, any alternative path through X would either involve a path to X that is already larger than the path to Y (because Y was picked as minimum), or it would add a positive weight to an already larger path, making it even longer. Therefore, any other path to Y would be larger than the one chosen, confirming that the selected minimum temporary path is indeed the shortest. This central proof makes the rest of the algorithm straightforward.
+
+## Key Takeaways
+*   Dijkstra's Algorithm is a **greedy algorithm** for finding the shortest paths from a single source to all other vertices.
+*   It maintains two sets of vertices: those with **finalized shortest paths** and those with **temporary shortest path estimates**.
+*   The core operation involves **repeatedly selecting the vertex with the minimum temporary path** and moving it to the finalized set.
+*   The algorithm's **optimality is guaranteed** by a proof that relies on positive edge weights and the greedy choice of the minimum temporary path at each step.
+*   The process involves **updating neighbor distances** whenever a new vertex is finalized.
+
+## Supplement: Explanation of Graph Terminology
+*   **Vertex (plural: vertices):** A fundamental unit of a graph, often represented as a point or node. In the context of Dijkstra's, these are the locations or points between which paths are sought.
+*   **Path:** A sequence of connected vertices in a graph. Dijkstra's Algorithm aims to find the shortest sequence of connections between a starting vertex and all other vertices.
+*   **Weight:** A numerical value assigned to an edge (the connection between two vertices), representing its cost, distance, or time. In Dijkstra's, these weights are assumed to be positive.

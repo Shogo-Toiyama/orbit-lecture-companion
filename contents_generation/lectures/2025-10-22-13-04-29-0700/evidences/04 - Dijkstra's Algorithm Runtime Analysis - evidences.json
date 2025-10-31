@@ -1,0 +1,1313 @@
+{
+  "idx": 4,
+  "title": "Dijkstra's Algorithm Runtime Analysis",
+  "count": 163,
+  "sids": [
+    "s000071",
+    "s000072",
+    "s000073",
+    "s000074",
+    "s000075",
+    "s000076",
+    "s000082",
+    "s000083",
+    "s000084",
+    "s000085",
+    "s000505",
+    "s000506",
+    "s000507",
+    "s000512",
+    "s000513",
+    "s000514",
+    "s000583",
+    "s000584",
+    "s000587",
+    "s000588",
+    "s000589",
+    "s000590",
+    "s000591",
+    "s000592",
+    "s000597",
+    "s000600",
+    "s000601",
+    "s000604",
+    "s000609",
+    "s000611",
+    "s000616",
+    "s000617",
+    "s000618",
+    "s000645",
+    "s000647",
+    "s000651",
+    "s000653",
+    "s000654",
+    "s000655",
+    "s000656",
+    "s000658",
+    "s000659",
+    "s000667",
+    "s000668",
+    "s000669",
+    "s000671",
+    "s000677",
+    "s000679",
+    "s000681",
+    "s000688",
+    "s000689",
+    "s000691",
+    "s000698",
+    "s000699",
+    "s000700",
+    "s000701",
+    "s000702",
+    "s000703",
+    "s000705",
+    "s000707",
+    "s000709",
+    "s000710",
+    "s000713",
+    "s000714",
+    "s000718",
+    "s000719",
+    "s000720",
+    "s000722",
+    "s000723",
+    "s000727",
+    "s000730",
+    "s000734",
+    "s000735",
+    "s000736",
+    "s000737",
+    "s000738",
+    "s000742",
+    "s000743",
+    "s000744",
+    "s000745",
+    "s000746",
+    "s000747",
+    "s000749",
+    "s000750",
+    "s000751",
+    "s000752",
+    "s000754",
+    "s000756",
+    "s000758",
+    "s000759",
+    "s000763",
+    "s000777",
+    "s000778",
+    "s000779",
+    "s000780",
+    "s000781",
+    "s000784",
+    "s000785",
+    "s000786",
+    "s000788",
+    "s000789",
+    "s000790",
+    "s000791",
+    "s000792",
+    "s000793",
+    "s000794",
+    "s000800",
+    "s000801",
+    "s000802",
+    "s000803",
+    "s000804",
+    "s000807",
+    "s000808",
+    "s000809",
+    "s000810",
+    "s000811",
+    "s000812",
+    "s000813",
+    "s000814",
+    "s000815",
+    "s000823",
+    "s000824",
+    "s000831",
+    "s000832",
+    "s000833",
+    "s000837",
+    "s000838",
+    "s000840",
+    "s000844",
+    "s000845",
+    "s000846",
+    "s000847",
+    "s000848",
+    "s000849",
+    "s000850",
+    "s000856",
+    "s000859",
+    "s000860",
+    "s000861",
+    "s000865",
+    "s000866",
+    "s000867",
+    "s000872",
+    "s000874",
+    "s000875",
+    "s000876",
+    "s000877",
+    "s000881",
+    "s000885",
+    "s000888",
+    "s000892",
+    "s000894",
+    "s000896",
+    "s000901",
+    "s000904",
+    "s000905",
+    "s000906",
+    "s000911",
+    "s000913",
+    "s000919",
+    "s000920",
+    "s000921",
+    "s000926"
+  ],
+  "evidences": [
+    {
+      "sid": "s000071",
+      "text": "But if you have a weight 10 or 100, you are increasing the problem size by a multiple of 100 or a million or N, etc.",
+      "start": 462400,
+      "end": 472670,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000072",
+      "text": "Therefore, whatever algorithm you come up with won't be just a function of vertices and edges.",
+      "start": 472910,
+      "end": 480350,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000073",
+      "text": "It will be a function of vertices, edges and weights.",
+      "start": 480590,
+      "end": 484429,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000074",
+      "text": "So whenever we say come up with A polynomial time algorithm, it should be polynomial in the input side, the size of this input.",
+      "start": 486270,
+      "end": 497960,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000075",
+      "text": "So when you write a program, the input you take are the vertices and edges and weight on the edges.",
+      "start": 498440,
+      "end": 505480,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000076",
+      "text": "So the size of the input is about E plus n. So when I say come up with a polynomial time algorithm, come up with an efficient algorithm, it should be understood that efficient in terms of E and N, not some other parameter, an infinite parameter in the universe.",
+      "start": 506200,
+      "end": 529170,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000082",
+      "text": "Problems that look polynomial time, they are not because there are polynomial in something else, not in the input class.",
+      "start": 543090,
+      "end": 550890,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000083",
+      "text": "So in this class, whenever you hear polynomial or quadratic or linear, it always means linear, quadratic, polynomial in the input size.",
+      "start": 551290,
+      "end": 563290,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000084",
+      "text": "That should be understood even when it's not explicitly mentioned.",
+      "start": 563850,
+      "end": 568490,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000085",
+      "text": "Okay, so maybe taking an edge of size 100 and translating that into 100 unit weight edges works, but that won't be polynomial anymore and therefore we are not interested in it.",
+      "start": 570970,
+      "end": 588020,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000505",
+      "text": "Please, what's the runtime?",
+      "start": 2800720,
+      "end": 2802240,
+      "role": "qa"
+    },
+    {
+      "sid": "s000506",
+      "text": "We'll get to that.",
+      "start": 2803200,
+      "end": 2804240,
+      "role": "qa"
+    },
+    {
+      "sid": "s000507",
+      "text": "So I get confused personally very quickly.",
+      "start": 2804320,
+      "end": 2808240,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000512",
+      "text": "Now I'm going to improve, invest the time to get into details on it.",
+      "start": 2822480,
+      "end": 2826240,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000513",
+      "text": "Very last, usually the very last step.",
+      "start": 2827040,
+      "end": 2829440,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000514",
+      "text": "And when you do the last step, that's maybe a good time to talk about data structures.",
+      "start": 2829600,
+      "end": 2836080,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000583",
+      "text": "Okay, how would I implement that?",
+      "start": 3133670,
+      "end": 3135590,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000584",
+      "text": "Oh, there are so many things happening.",
+      "start": 3136390,
+      "end": 3139550,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000587",
+      "text": "So this becomes an N cube algorithm, N4 algorithm, et cetera.",
+      "start": 3148630,
+      "end": 3153030,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000588",
+      "text": "Okay, so let's do some analysis of the time S. These are permanent, these are temporary, right?",
+      "start": 3154070,
+      "end": 3181660,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000589",
+      "text": "In a generic step, there are n steps.",
+      "start": 3184910,
+      "end": 3189710,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000590",
+      "text": "At each step, a temporary value becomes permanent.",
+      "start": 3190190,
+      "end": 3194270,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000591",
+      "text": "The minimum of these becomes permanent, right?",
+      "start": 3194830,
+      "end": 3197790,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000592",
+      "text": "So I have n of these steps, counting that.",
+      "start": 3198430,
+      "end": 3202270,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000597",
+      "text": "If there are n values in this generic step, first thing I have to find a mean value of n numbers.",
+      "start": 3221850,
+      "end": 3229370,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000600",
+      "text": "That's order one mean of n values.",
+      "start": 3241140,
+      "end": 3246100,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000601",
+      "text": "How much time does it take?",
+      "start": 3246100,
+      "end": 3247780,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000604",
+      "text": "But since for the most part you are happy with order, taking the mean of n values takes linear time.",
+      "start": 3252900,
+      "end": 3262440,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000609",
+      "text": "So this main thing here takes linear time.",
+      "start": 3274520,
+      "end": 3279240,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000611",
+      "text": "When a vertex becomes a brand new neighbor of S, you may need to go and update these values that are neighbors of.",
+      "start": 3283560,
+      "end": 3294050,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000616",
+      "text": "How much time does it take?",
+      "start": 3317060,
+      "end": 3318740,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000617",
+      "text": "There are n vertices here.",
+      "start": 3318980,
+      "end": 3321300,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000618",
+      "text": "So updating N values before the run time.",
+      "start": 3324660,
+      "end": 3328900,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000645",
+      "text": "Then you're updating in N squared.",
+      "start": 3421020,
+      "end": 3424420,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000647",
+      "text": "For every vertex here that is gonna have only one edge to another vertex.",
+      "start": 3428340,
+      "end": 3434420,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000651",
+      "text": "So this is F square.",
+      "start": 3440420,
+      "end": 3442260,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000653",
+      "text": "Each step takes linear time.",
+      "start": 3447710,
+      "end": 3449710,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000654",
+      "text": "How many steps are there every time I move one of these up there?",
+      "start": 3449950,
+      "end": 3455150,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000655",
+      "text": "So number of steps is going to be order N to be exact.",
+      "start": 3455470,
+      "end": 3460190,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000656",
+      "text": "So total algorithm is order of N squared.",
+      "start": 3460270,
+      "end": 3464270,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000658",
+      "text": "I'm going to give you another implementation.",
+      "start": 3467710,
+      "end": 3470150,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000659",
+      "text": "This is least straightforward implementation, the easiest, but maybe not the best because say the algorithm didn't have the graph didn't have many edges, was a tree structure, it had linear number of edges.",
+      "start": 3470150,
+      "end": 3484700,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000667",
+      "text": "All you need to have is an array here with all the temporary values that every time you go through it and find a mean.",
+      "start": 3498470,
+      "end": 3505990,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000668",
+      "text": "Okay, so after all the observation, after all the algorithms, now I can talk about runtime only then.",
+      "start": 3513350,
+      "end": 3521750,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000669",
+      "text": "It was perhaps premature to talk about these things earlier on because I wasn't even sure if the algorithm is working.",
+      "start": 3523030,
+      "end": 3531430,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000671",
+      "text": "Those should come at a higher level because if you decide to change any step of the algorithm, then all of these has to be changed.",
+      "start": 3533390,
+      "end": 3542510,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000677",
+      "text": "Now I get to implement it.",
+      "start": 3552520,
+      "end": 3554400,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000679",
+      "text": "Is there any way to account for that thing instead of doing N. Yes.",
+      "start": 3555600,
+      "end": 3561440,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000681",
+      "text": "Yes.",
+      "start": 3563840,
+      "end": 3564320,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000688",
+      "text": "But what if I would have said, come up with the most efficient algorithm as a function of edges?",
+      "start": 3576340,
+      "end": 3582340,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000689",
+      "text": "Maybe you observe that even though I have like five edges, I'm counting N updates.",
+      "start": 3582580,
+      "end": 3590060,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000691",
+      "text": "If I don't have many edges, chances of this being connected to many edges is very small.",
+      "start": 3591460,
+      "end": 3597700,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000698",
+      "text": "Now let's focus on edges.",
+      "start": 3613810,
+      "end": 3615730,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000699",
+      "text": "So generally when you do an algorithm, you can do a vertex centric approach.",
+      "start": 3616690,
+      "end": 3622770,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000700",
+      "text": "This is vertex centric.",
+      "start": 3623170,
+      "end": 3624850,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000701",
+      "text": "All the analysis focused on vertices.",
+      "start": 3625090,
+      "end": 3627740,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000702",
+      "text": "All the counting was done on the vertices.",
+      "start": 3628540,
+      "end": 3631900,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000703",
+      "text": "Now we want to go to an edge centric approach.",
+      "start": 3632540,
+      "end": 3635580,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000705",
+      "text": "Because I know statistically, graphs do not have that many edges.",
+      "start": 3636700,
+      "end": 3640780,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000707",
+      "text": "What is the maximum number of edges in a graph?",
+      "start": 3642700,
+      "end": 3645340,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000709",
+      "text": "So in the worst case, this is pretty good.",
+      "start": 3647420,
+      "end": 3649580,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000710",
+      "text": "But in real life, any connection graph is not.",
+      "start": 3650140,
+      "end": 3653980,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000713",
+      "text": "No, it's going to be much, much less.",
+      "start": 3664530,
+      "end": 3666690,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000714",
+      "text": "It's usually linear number of edges.",
+      "start": 3666690,
+      "end": 3669490,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000718",
+      "text": "Now, instead of saying it takes N unit of time to update that, I'm going to say 1 edge, 2 edge, 3 edges.",
+      "start": 3686070,
+      "end": 3695110,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000719",
+      "text": "So it's going to be order E1 edges, the number of edges connected to this.",
+      "start": 3695270,
+      "end": 3701670,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000720",
+      "text": "Next time when I move one of them up, it's got to be all of E2, the edges connected to this, like these guys.",
+      "start": 3703110,
+      "end": 3711530,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000722",
+      "text": "How many times do I look at this edge for updating?",
+      "start": 3715850,
+      "end": 3720730,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000723",
+      "text": "Only once.",
+      "start": 3722010,
+      "end": 3722970,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000727",
+      "text": "So summation of all the edges is going to be order E. So this update is going to be order E for the entire algorithm, not just for one loop for the entire.",
+      "start": 3736740,
+      "end": 3753780,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000730",
+      "text": "Sum of EIs is going to be E. So in the entirety of algorithm, it's order E. So now the runtime is order E Plus, forget about order one, that's too small.",
+      "start": 3758750,
+      "end": 3773949,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000734",
+      "text": "Okay, so the new clever algorithm now is order E is the same algorithm.",
+      "start": 3790800,
+      "end": 3797760,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000735",
+      "text": "It's just accounting is different.",
+      "start": 3797920,
+      "end": 3799920,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000736",
+      "text": "As you said it perfectly, instead of charging to the vertices, I charge them to the edges.",
+      "start": 3800400,
+      "end": 3806720,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000737",
+      "text": "Same algorithms, different accounting.",
+      "start": 3807120,
+      "end": 3809120,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000738",
+      "text": "We talked about different accounting methods for the same algorithm.",
+      "start": 3809560,
+      "end": 3813320,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000742",
+      "text": "Okay, so now I have a much better algorithm.",
+      "start": 3822200,
+      "end": 3825440,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000743",
+      "text": "E plus N squared, yes or no?",
+      "start": 3825440,
+      "end": 3828360,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000744",
+      "text": "No.",
+      "start": 3830040,
+      "end": 3830440,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000745",
+      "text": "This is bad.",
+      "start": 3830600,
+      "end": 3831480,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000746",
+      "text": "This is actually kind of worse than that.",
+      "start": 3831800,
+      "end": 3833960,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000747",
+      "text": "So what is the bottleneck is this guy?",
+      "start": 3834280,
+      "end": 3836990,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000749",
+      "text": "It's costing me any square time.",
+      "start": 3842750,
+      "end": 3844910,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000750",
+      "text": "So instead of me trying to optimize all aspects of this implementation, this, this, this, et cetera, I will focus on that.",
+      "start": 3845390,
+      "end": 3856510,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000751",
+      "text": "I'm saying I can do better than that with finding a bunch of minimums, right?",
+      "start": 3859390,
+      "end": 3865730,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000752",
+      "text": "So instead of targeting every aspect of the algorithm, I target the min finding.",
+      "start": 3867330,
+      "end": 3875010,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000754",
+      "text": "Now all I'm left with is if I can do this more efficiently, then instead of N square here, it's going to be something better.",
+      "start": 3886210,
+      "end": 3894780,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000756",
+      "text": "This is something we're going to cover in a couple of weeks.",
+      "start": 3903580,
+      "end": 3906460,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000758",
+      "text": "You probably have maybe have seen it in your programming courses, called the heap theta structure.",
+      "start": 3908060,
+      "end": 3915030,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000759",
+      "text": "Heap data structure is a binary tree where the minimum is at the root.",
+      "start": 3917350,
+      "end": 3925990,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000763",
+      "text": "The requirement or characteristic of a heap is the minimum value is at the roots.",
+      "start": 3947360,
+      "end": 3953000,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000777",
+      "text": "Such a data structure is called a heap data structure.",
+      "start": 4015070,
+      "end": 4018510,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000778",
+      "text": "How long does it take to find the mean?",
+      "start": 4020590,
+      "end": 4022990,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000779",
+      "text": "Constant time?",
+      "start": 4023150,
+      "end": 4024110,
+      "role": "qa"
+    },
+    {
+      "sid": "s000780",
+      "text": "Finding the mean order one time.",
+      "start": 4028430,
+      "end": 4030590,
+      "role": "qa"
+    },
+    {
+      "sid": "s000781",
+      "text": "How do I find the next mean?",
+      "start": 4031550,
+      "end": 4033550,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000784",
+      "text": "Once I find the mean, I delete it and I make this into a heap again in order log n time.",
+      "start": 4040490,
+      "end": 4048490,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000785",
+      "text": "I'm going to cover these.",
+      "start": 4048490,
+      "end": 4049650,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000786",
+      "text": "I just want you to know these values.",
+      "start": 4049650,
+      "end": 4054850,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000788",
+      "text": "So the height of the tree is log n time log 10.",
+      "start": 4060810,
+      "end": 4064570,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000789",
+      "text": "Therefore making this into a heap again, the literature calls it heapify.",
+      "start": 4064890,
+      "end": 4070500,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000790",
+      "text": "The tree again takes log n time.",
+      "start": 4071380,
+      "end": 4073700,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000791",
+      "text": "So for now you can use this.",
+      "start": 4075140,
+      "end": 4077300,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000792",
+      "text": "There is such a data structure called a heap, a mean heap usually they call it, or a heap.",
+      "start": 4077300,
+      "end": 4083300,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000793",
+      "text": "You can find a minimum in constant time.",
+      "start": 4083540,
+      "end": 4086180,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000794",
+      "text": "You can make it into a heap again in log n time.",
+      "start": 4086420,
+      "end": 4089540,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000800",
+      "text": "I take all these values and I put them in a heap structure so I can find the mean in constant time.",
+      "start": 4112140,
+      "end": 4125780,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000801",
+      "text": "Every time I move something up there like a, I take these edges, I update these, the update we already talked about takes order E1 plus E2, et cetera.",
+      "start": 4128740,
+      "end": 4141380,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000802",
+      "text": "If any of these values of nodes changes, that new value I'm going to insert in the heap.",
+      "start": 4141780,
+      "end": 4149269,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000803",
+      "text": "So I extract, I make it into a heap again, that's log n time.",
+      "start": 4150629,
+      "end": 4156549,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000804",
+      "text": "And I'm going to insert in the heap a new value that takes another order log n time.",
+      "start": 4157029,
+      "end": 4164389,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000807",
+      "text": "Okay, so for every edge here I do an update and I insert into a heap.",
+      "start": 4175080,
+      "end": 4183480,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000808",
+      "text": "So the number of insertion in the heap is going to be E1 times log N. Log n and log e are the same because if E worst case n is square log of n squared is 2 log n. Otherwise they are the same.",
+      "start": 4184120,
+      "end": 4200350,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000809",
+      "text": "So you see, some people prefer to write log e, some people prefer to write log n. They are the same thing orderwise.",
+      "start": 4200750,
+      "end": 4208510,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000810",
+      "text": "Okay, so it's gonna be E1 log n E2 log n E3 log n. So all the doing minimum at insertion and all that is to going going to be order of e log e or e log n for the entire algorithm.",
+      "start": 4211070,
+      "end": 4228960,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000811",
+      "text": "Because for each edge you do one of those Things extract minimum heapify insert a new value.",
+      "start": 4229520,
+      "end": 4237280,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000812",
+      "text": "So that's a more advanced.",
+      "start": 4239280,
+      "end": 4241440,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000813",
+      "text": "A more advanced data structure.",
+      "start": 4241680,
+      "end": 4244920,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000814",
+      "text": "Given that the heap is slightly more advanced than and an array that is here.",
+      "start": 4244920,
+      "end": 4249620,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000815",
+      "text": "So the runtime now becomes order of E log e. Now, E log E is better in general than N squared.",
+      "start": 4249940,
+      "end": 4262020,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000823",
+      "text": "So in the world's case, you have to go all the way down the tree.",
+      "start": 4303640,
+      "end": 4307160,
+      "role": "qa"
+    },
+    {
+      "sid": "s000824",
+      "text": "The depth of the tree is log N. Therefore, updating the heat takes log n times.",
+      "start": 4307400,
+      "end": 4313400,
+      "role": "qa"
+    },
+    {
+      "sid": "s000831",
+      "text": "So every update of the value that by itself is just E1, E2, E3, linear time.",
+      "start": 4331250,
+      "end": 4338530,
+      "role": "qa"
+    },
+    {
+      "sid": "s000832",
+      "text": "But you've got to put these values somewhere so that later on you can find their minimum.",
+      "start": 4339250,
+      "end": 4345130,
+      "role": "qa"
+    },
+    {
+      "sid": "s000833",
+      "text": "That's what costs more time.",
+      "start": 4345130,
+      "end": 4346770,
+      "role": "qa"
+    },
+    {
+      "sid": "s000837",
+      "text": "You still need to find the mean just like that, very quickly.",
+      "start": 4352580,
+      "end": 4356820,
+      "role": "qa"
+    },
+    {
+      "sid": "s000838",
+      "text": "That so preparing a heap, that's what time constant.",
+      "start": 4357060,
+      "end": 4361860,
+      "role": "qa"
+    },
+    {
+      "sid": "s000840",
+      "text": "So two ideas.",
+      "start": 4369380,
+      "end": 4370580,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000844",
+      "text": "There are N steps on N squared.",
+      "start": 4384590,
+      "end": 4386670,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000845",
+      "text": "Here we do the same thing, but we do the accounting for the entirety of the algorithm.",
+      "start": 4387230,
+      "end": 4393150,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000846",
+      "text": "Because each step is E1, E2, E3, etc.",
+      "start": 4393230,
+      "end": 4396990,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000847",
+      "text": "And each of those E's, I gotta multiply it by log n because that's the operation on heap.",
+      "start": 4397630,
+      "end": 4404260,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000848",
+      "text": "So this log N or log E same thing is because of the heap.",
+      "start": 4405620,
+      "end": 4411700,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000849",
+      "text": "If I had a data structure that I could find the mean magically in constant time and I could delete and insert in constant time, then we would not have the log e here.",
+      "start": 4418339,
+      "end": 4430700,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000850",
+      "text": "But you don't have such a data structure.",
+      "start": 4430700,
+      "end": 4432980,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000856",
+      "text": "So there are so two things.",
+      "start": 4444580,
+      "end": 4446420,
+      "role": "qa"
+    },
+    {
+      "sid": "s000859",
+      "text": "The next analysis, I didn't do each step anymore.",
+      "start": 4454750,
+      "end": 4459630,
+      "role": "qa"
+    },
+    {
+      "sid": "s000860",
+      "text": "I said one step may be E1, one step is E2 step two, step three E3, sum of the E's is going to be this E. Total number of edges in the graph.",
+      "start": 4459870,
+      "end": 4472510,
+      "role": "qa"
+    },
+    {
+      "sid": "s000861",
+      "text": "So I don't have N anymore.",
+      "start": 4473150,
+      "end": 4475670,
+      "role": "qa"
+    },
+    {
+      "sid": "s000865",
+      "text": "Different way of accounting.",
+      "start": 4481510,
+      "end": 4483350,
+      "role": "qa"
+    },
+    {
+      "sid": "s000866",
+      "text": "The E approach looks at the entirety of the algorithm and do the analysis.",
+      "start": 4485190,
+      "end": 4489750,
+      "role": "qa"
+    },
+    {
+      "sid": "s000867",
+      "text": "The vertex approach does one step at a time.",
+      "start": 4489990,
+      "end": 4493270,
+      "role": "qa"
+    },
+    {
+      "sid": "s000872",
+      "text": "So the vertex centric approach, the eccentric approach, they are different.",
+      "start": 4510720,
+      "end": 4516080,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000874",
+      "text": "And the eccentric does use the structure.",
+      "start": 4522000,
+      "end": 4525200,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000875",
+      "text": "So today we have two algorithms.",
+      "start": 4526480,
+      "end": 4528720,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000876",
+      "text": "One is this, one is that.",
+      "start": 4529440,
+      "end": 4531860,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000877",
+      "text": "Which one should I use?",
+      "start": 4533140,
+      "end": 4534500,
+      "role": "qa"
+    },
+    {
+      "sid": "s000881",
+      "text": "If I have a choice, what would you answer?",
+      "start": 4548340,
+      "end": 4550620,
+      "role": "qa"
+    },
+    {
+      "sid": "s000885",
+      "text": "Because it's faster.",
+      "start": 4553860,
+      "end": 4554820,
+      "role": "qa"
+    },
+    {
+      "sid": "s000888",
+      "text": "If E is equal to N squared, we have N squared, log N versus N squared.",
+      "start": 4558160,
+      "end": 4564440,
+      "role": "qa"
+    },
+    {
+      "sid": "s000892",
+      "text": "So if it's a dense graph, I want to use this.",
+      "start": 4581080,
+      "end": 4585090,
+      "role": "qa"
+    },
+    {
+      "sid": "s000894",
+      "text": "This is N squared, log N if it's a sparse graph.",
+      "start": 4587320,
+      "end": 4591960,
+      "role": "qa"
+    },
+    {
+      "sid": "s000896",
+      "text": "So this is better.",
+      "start": 4596560,
+      "end": 4597480,
+      "role": "qa"
+    },
+    {
+      "sid": "s000901",
+      "text": "When would I use which?",
+      "start": 4607720,
+      "end": 4609160,
+      "role": "qa"
+    },
+    {
+      "sid": "s000904",
+      "text": "But when E is greater than N squared divided by log n, that's the boundary.",
+      "start": 4620330,
+      "end": 4627970,
+      "role": "qa"
+    },
+    {
+      "sid": "s000905",
+      "text": "If it's more than that, you want to use this algorithm.",
+      "start": 4628450,
+      "end": 4631410,
+      "role": "qa"
+    },
+    {
+      "sid": "s000906",
+      "text": "If it's less than that, you want to use this algorithm.",
+      "start": 4631730,
+      "end": 4634210,
+      "role": "qa"
+    },
+    {
+      "sid": "s000911",
+      "text": "So your answer in the exam or in your interview is going to be.",
+      "start": 4642130,
+      "end": 4646330,
+      "role": "qa"
+    },
+    {
+      "sid": "s000913",
+      "text": "Tell me how many edges you have.",
+      "start": 4647730,
+      "end": 4650370,
+      "role": "qa"
+    },
+    {
+      "sid": "s000919",
+      "text": "When the graph is dense, dense is defined as E greater than N squared divided by log n. That's the definition of a dense Graph in this example, then if this is the case, use that.",
+      "start": 4662170,
+      "end": 4682250,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000920",
+      "text": "If this is not the case, use this.",
+      "start": 4683610,
+      "end": 4685690,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000921",
+      "text": "If it's exactly that, then I don't care, do whatever you want.",
+      "start": 4686170,
+      "end": 4689310,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000926",
+      "text": "So our argument is asymptotic analysis.",
+      "start": 4715930,
+      "end": 4719450,
+      "role": "lecture"
+    }
+  ]
+}

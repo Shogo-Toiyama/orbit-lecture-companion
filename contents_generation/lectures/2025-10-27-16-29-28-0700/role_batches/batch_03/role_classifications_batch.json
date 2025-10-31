@@ -1,0 +1,1480 @@
+{
+  "labels": [
+    {
+      "sid": "s000493",
+      "role": "chitchat",
+      "role_score": 0.8,
+      "role_reason": "Short utterance, continuing previous conversational flow."
+    },
+    {
+      "sid": "s000494",
+      "role": "chitchat",
+      "role_score": 0.8,
+      "role_reason": "Short conversational response, acknowledging previous statement."
+    },
+    {
+      "sid": "s000495",
+      "role": "chitchat",
+      "role_score": 0.8,
+      "role_reason": "Short affirmative utterance, continuing conversational flow."
+    },
+    {
+      "sid": "s000496",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Explaining a concept related to DJing and song selection."
+    },
+    {
+      "sid": "s000497",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Providing context for the previous explanation."
+    },
+    {
+      "sid": "s000498",
+      "role": "chitchat",
+      "role_score": 0.7,
+      "role_reason": "Short affirmative utterance, continuing conversational flow."
+    },
+    {
+      "sid": "s000499",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Explaining a concept related to image distribution and selection."
+    },
+    {
+      "sid": "s000500",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Contrasting AI image selection with DJ selection."
+    },
+    {
+      "sid": "s000501",
+      "role": "chitchat",
+      "role_score": 0.8,
+      "role_reason": "Short affirmative utterance, acknowledging previous point."
+    },
+    {
+      "sid": "s000502",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Elaborating on the difference between manual and AI selection."
+    },
+    {
+      "sid": "s000503",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Continuing the explanation of image selection comparison."
+    },
+    {
+      "sid": "s000504",
+      "role": "chitchat",
+      "role_score": 0.8,
+      "role_reason": "Short affirmative utterance, continuing conversational flow."
+    },
+    {
+      "sid": "s000505",
+      "role": "chitchat",
+      "role_score": 0.8,
+      "role_reason": "Concluding remark, transitioning to next topic."
+    },
+    {
+      "sid": "s000506",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Direct question to the audience."
+    },
+    {
+      "sid": "s000507",
+      "role": "chitchat",
+      "role_score": 0.8,
+      "role_reason": "Short affirmative utterance, continuing conversational flow."
+    },
+    {
+      "sid": "s000508",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Continuing a hypothetical scenario about work and AI."
+    },
+    {
+      "sid": "s000509",
+      "role": "lecture",
+      "role_reason": "Continuing a hypothetical scenario about work and AI.",
+      "role_score": 0.7
+    },
+    {
+      "sid": "s000510",
+      "role": "lecture",
+      "role_reason": "Continuing a hypothetical scenario about work and AI.",
+      "role_score": 0.7
+    },
+    {
+      "sid": "s000511",
+      "role": "lecture",
+      "role_reason": "Explaining the concept of doing work vs. delegating.",
+      "role_score": 0.7
+    },
+    {
+      "sid": "s000512",
+      "role": "lecture",
+      "role_reason": "Continuing the explanation of doing work.",
+      "role_score": 0.7
+    },
+    {
+      "sid": "s000513",
+      "role": "lecture",
+      "role_reason": "Contrasting doing work with not doing work.",
+      "role_score": 0.7
+    },
+    {
+      "sid": "s000514",
+      "role": "lecture",
+      "role_reason": "Continuing the explanation of not building from scratch.",
+      "role_score": 0.7
+    },
+    {
+      "sid": "s000515",
+      "role": "lecture",
+      "role_reason": "Continuing the explanation of not building from scratch.",
+      "role_score": 0.7
+    },
+    {
+      "sid": "s000516",
+      "role": "lecture",
+      "role_reason": "Continuing the explanation of not building from scratch.",
+      "role_score": 0.7
+    },
+    {
+      "sid": "s000517",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student asking for clarification on a professor's argument."
+    },
+    {
+      "sid": "s000518",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Explaining the roles of architect and builder in a construction project."
+    },
+    {
+      "sid": "s000519",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Continuing the explanation of roles in construction."
+    },
+    {
+      "sid": "s000520",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Continuing the explanation of roles in construction."
+    },
+    {
+      "sid": "s000521",
+      "role": "chitchat",
+      "role_score": 0.8,
+      "role_reason": "Short affirmative utterance, continuing conversational flow."
+    },
+    {
+      "sid": "s000522",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Continuing the explanation of roles in construction."
+    },
+    {
+      "sid": "s000523",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Explaining ownership in a collaborative construction project."
+    },
+    {
+      "sid": "s000524",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Continuing the explanation of ownership in construction."
+    },
+    {
+      "sid": "s000525",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Direct question to the audience."
+    },
+    {
+      "sid": "s000526",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Defining the architect's job."
+    },
+    {
+      "sid": "s000527",
+      "role": "lecture",
+      "role_reason": "Defining the architect's job.",
+      "role_score": 0.7
+    },
+    {
+      "sid": "s000528",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Explaining the architect's job completion."
+    },
+    {
+      "sid": "s000529",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Explaining when an architect has not done their job."
+    },
+    {
+      "sid": "s000530",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Acknowledging potential debate on the topic."
+    },
+    {
+      "sid": "s000531",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Speculating about the future of architecture."
+    },
+    {
+      "sid": "s000532",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Speculating about the future of architecture."
+    },
+    {
+      "sid": "s000533",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Explaining the future role of architects as validation engines."
+    },
+    {
+      "sid": "s000534",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Describing how architects might use AI in the future."
+    },
+    {
+      "sid": "s000535",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Continuing the example of architects using AI."
+    },
+    {
+      "sid": "s000536",
+      "role": "chitchat",
+      "role_score": 0.8,
+      "role_reason": "Short affirmative utterance, acknowledging previous point."
+    },
+    {
+      "sid": "s000537",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Concluding the hypothetical scenario about future architects."
+    },
+    {
+      "sid": "s000538",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Connecting to previous speaker's point."
+    },
+    {
+      "sid": "s000539",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Discussing the value of an architect's design."
+    },
+    {
+      "sid": "s000540",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Contrasting architect's design with AI prompt engineering."
+    },
+    {
+      "sid": "s000541",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Continuing the comparison with AI prompt engineering."
+    },
+    {
+      "sid": "s000542",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Continuing the comparison with AI prompt engineering."
+    },
+    {
+      "sid": "s000543",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student asking a question about the previous point."
+    },
+    {
+      "sid": "s000544",
+      "role": "chitchat",
+      "role_score": 0.8,
+      "role_reason": "Short affirmative utterance, continuing conversational flow."
+    },
+    {
+      "sid": "s000545",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Introducing a past student's argument about AI and writing."
+    },
+    {
+      "sid": "s000546",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Differentiating the context from the current class."
+    },
+    {
+      "sid": "s000547",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Explaining the student's argument about using ChatGPT for papers."
+    },
+    {
+      "sid": "s000548",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Continuing the student's argument about submitting AI-generated work."
+    },
+    {
+      "sid": "s000549",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Continuing the student's argument about submitting AI-generated work."
+    },
+    {
+      "sid": "s000550",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Shifting focus to the real-world implications."
+    },
+    {
+      "sid": "s000551",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Providing an example of real-world AI use (email)."
+    },
+    {
+      "sid": "s000552",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Continuing the example of real-world AI use (email)."
+    },
+    {
+      "sid": "s000553",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Explaining the justification for using AI in the real world."
+    },
+    {
+      "sid": "s000554",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Continuing the justification for using AI in the real world."
+    },
+    {
+      "sid": "s000555",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Concluding the real-world example."
+    },
+    {
+      "sid": "s000556",
+      "role": "chitchat",
+      "role_score": 0.8,
+      "role_reason": "Short affirmative utterance, acknowledging previous point."
+    },
+    {
+      "sid": "s000557",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Adding a humorous caveat to the real-world example."
+    },
+    {
+      "sid": "s000558",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Returning to the academic context."
+    },
+    {
+      "sid": "s000559",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Returning to the academic context."
+    },
+    {
+      "sid": "s000560",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Explaining the core ethical dilemma in academic writing with AI."
+    },
+    {
+      "sid": "s000561",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Direct question to the audience about the ethical dilemma."
+    },
+    {
+      "sid": "s000562",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student asking a question about the previous point."
+    },
+    {
+      "sid": "s000563",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Describing the student's stance on AI use."
+    },
+    {
+      "sid": "s000564",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Explaining the student's justification for using AI."
+    },
+    {
+      "sid": "s000565",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Presenting a counter-scenario to the student's argument."
+    },
+    {
+      "sid": "s000566",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Continuing the counter-scenario about AI use."
+    },
+    {
+      "sid": "s000567",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Continuing the counter-scenario about AI use."
+    },
+    {
+      "sid": "s000568",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Continuing the counter-scenario about AI use."
+    },
+    {
+      "sid": "s000569",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Describing the disconnect in the student's argument."
+    },
+    {
+      "sid": "s000570",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Continuing the description of the disconnect."
+    },
+    {
+      "sid": "s000571",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Asking for audience participation to defend the student's argument."
+    },
+    {
+      "sid": "s000572",
+      "role": "chitchat",
+      "role_score": 0.8,
+      "role_reason": "Short affirmative utterance, indicating willingness to respond."
+    },
+    {
+      "sid": "s000573",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Stating that the answer depends on context."
+    },
+    {
+      "sid": "s000574",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Explaining the concept of academic honesty and learning."
+    },
+    {
+      "sid": "s000575",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Continuing the explanation of effort in academic contexts."
+    },
+    {
+      "sid": "s000576",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Contrasting academic context with other contexts."
+    },
+    {
+      "sid": "s000577",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Continuing the discussion on different contexts."
+    },
+    {
+      "sid": "s000578",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Acknowledging the validity of arguments in different contexts."
+    },
+    {
+      "sid": "s000579",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Providing a counter-argument for workplace AI use."
+    },
+    {
+      "sid": "s000580",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Explaining the counter-argument about job replacement."
+    },
+    {
+      "sid": "s000581",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Advocating for staying ahead of technological changes."
+    },
+    {
+      "sid": "s000582",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Continuing the point about staying ahead of the curve."
+    },
+    {
+      "sid": "s000583",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Asking for more audience participation to defend the student's argument."
+    },
+    {
+      "sid": "s000584",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Presenting a scenario where AI output is agreeable but not original."
+    },
+    {
+      "sid": "s000585",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Continuing the scenario about AI output and agreement."
+    },
+    {
+      "sid": "s000586",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Explaining why agreement might be due to ease."
+    },
+    {
+      "sid": "s000587",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Continuing the explanation of ease and AI output."
+    },
+    {
+      "sid": "s000588",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Discussing the difficulty of verifying AI output originality."
+    },
+    {
+      "sid": "s000589",
+      "role": "chitchat",
+      "role_score": 0.8,
+      "role_reason": "Short affirmative utterance, continuing conversational flow."
+    },
+    {
+      "sid": "s000590",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Introducing another student's argument about AI for writing improvement."
+    },
+    {
+      "sid": "s000591",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Explaining the student's argument for using AI to improve writing."
+    },
+    {
+      "sid": "s000592",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Acknowledging the validity of AI use in the professional world."
+    },
+    {
+      "sid": "s000593",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Providing examples of professional writing tools."
+    },
+    {
+      "sid": "s000594",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Continuing the examples of professional writing tools."
+    },
+    {
+      "sid": "s000595",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Concluding the point about professional AI use."
+    },
+    {
+      "sid": "s000596",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Contrasting professional use with academic writing class context."
+    },
+    {
+      "sid": "s000597",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Continuing the contrast with academic writing class context."
+    },
+    {
+      "sid": "s000598",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Introducing a discussion with a Google instructor."
+    },
+    {
+      "sid": "s000599",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Explaining the instructor's argument about the future of CS 130."
+    },
+    {
+      "sid": "s000600",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Continuing the instructor's argument about AI's impact on CS programs."
+    },
+    {
+      "sid": "s000601",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student asking a question about teaching CS programs."
+    },
+    {
+      "sid": "s000602",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Presenting a counter-argument to the instructor's point."
+    },
+    {
+      "sid": "s000603",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Continuing the counter-argument about building with AI."
+    },
+    {
+      "sid": "s000604",
+      "role": "chitchat",
+      "role_score": 0.8,
+      "role_reason": "Short affirmative utterance, continuing conversational flow."
+    },
+    {
+      "sid": "s000605",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Explaining the value of using AI for building software."
+    },
+    {
+      "sid": "s000606",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Continuing the discussion on using AI for software."
+    },
+    {
+      "sid": "s000607",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Stating the unreasonableness of not having verification skills."
+    },
+    {
+      "sid": "s000608",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Explaining the importance of performing tasks as an exercise."
+    },
+    {
+      "sid": "s000609",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student asking a question about disagreement."
+    },
+    {
+      "sid": "s000610",
+      "role": "chitchat",
+      "role_score": 0.8,
+      "role_reason": "Encouraging the student to express their view."
+    },
+    {
+      "sid": "s000611",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student asking a question about AI's future verification capabilities."
+    },
+    {
+      "sid": "s000612",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student asking a follow-up question about AI verification."
+    },
+    {
+      "sid": "s000613",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Expressing concern about losing understanding of complex programs."
+    },
+    {
+      "sid": "s000614",
+      "role": "chitchat",
+      "role_score": 0.8,
+      "role_reason": "Short affirmative utterance, continuing conversational flow."
+    },
+    {
+      "sid": "s000615",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Explaining the consequence of losing understanding."
+    },
+    {
+      "sid": "s000616",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Discussing the need for understanding programs even with AI."
+    },
+    {
+      "sid": "s000617",
+      "role": "chitchat",
+      "role_score": 0.8,
+      "role_reason": "Short affirmative utterance, acknowledging previous point."
+    },
+    {
+      "sid": "s000618",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Summarizing the argument about future computer scientists."
+    },
+    {
+      "sid": "s000619",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Stating that the point of complete replacement is further away."
+    },
+    {
+      "sid": "s000620",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Reiterating the argument made to the instructor."
+    },
+    {
+      "sid": "s000621",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Proposing an alternative approach to using AI in projects."
+    },
+    {
+      "sid": "s000622",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Continuing the proposal for using AI in projects."
+    },
+    {
+      "sid": "s000623",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Summarizing the proposed approach: raising the bar."
+    },
+    {
+      "sid": "s000624",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Agreeing that complete replacement might happen eventually."
+    },
+    {
+      "sid": "s000625",
+      "role": "chitchat",
+      "role_score": 0.8,
+      "role_reason": "Short affirmative utterance, agreeing with the previous point."
+    },
+    {
+      "sid": "s000626",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Expressing uncertainty about the timeline of AI's impact."
+    },
+    {
+      "sid": "s000627",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Continuing the uncertainty about the timeline."
+    },
+    {
+      "sid": "s000628",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Describing the uncertainty of the future due to AI."
+    },
+    {
+      "sid": "s000629",
+      "role": "chitchat",
+      "role_score": 0.8,
+      "role_reason": "Short affirmative utterance, agreeing with the previous point."
+    },
+    {
+      "sid": "s000630",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Expressing a personal belief about the timeline of obsolescence."
+    },
+    {
+      "sid": "s000631",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Wishing good luck to the younger generation regarding AI."
+    },
+    {
+      "sid": "s000632",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Asking for further questions or comments."
+    },
+    {
+      "sid": "s000633",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Asking for further questions or comments."
+    },
+    {
+      "sid": "s000634",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Connecting the AI ethics debate to the Google discussion."
+    },
+    {
+      "sid": "s000635",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Drawing a parallel between AI development and student learning."
+    },
+    {
+      "sid": "s000636",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Explaining the need to use AI to remain competitive."
+    },
+    {
+      "sid": "s000637",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Agreeing that the bar is constantly being raised."
+    },
+    {
+      "sid": "s000638",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Acknowledging the students' achievements."
+    },
+    {
+      "sid": "s000639",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Emphasizing the continuously rising bar."
+    },
+    {
+      "sid": "s000640",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Expressing concern about expectations for high school students."
+    },
+    {
+      "sid": "s000641",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Clarifying the term 'kids' is not condescending."
+    },
+    {
+      "sid": "s000642",
+      "role": "chitchat",
+      "role_score": 0.8,
+      "role_reason": "Humorous interjection, wishing to be a kid."
+    },
+    {
+      "sid": "s000643",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Explaining the difficulty for high school students to meet university standards."
+    },
+    {
+      "sid": "s000644",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Asking how students can keep up with rising standards."
+    },
+    {
+      "sid": "s000645",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Questioning expectations about not using AI."
+    },
+    {
+      "sid": "s000646",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Describing the situation as a 'race to the bottom'."
+    },
+    {
+      "sid": "s000647",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Explaining the lack of room for failure in high-stakes education."
+    },
+    {
+      "sid": "s000648",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Expressing sympathy for current students."
+    },
+    {
+      "sid": "s000649",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Continuing to express empathy for students."
+    },
+    {
+      "sid": "s000650",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Explaining the difficulty of discussing ethics when external pressures exist."
+    },
+    {
+      "sid": "s000651",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Stating the importance of having the discussion."
+    },
+    {
+      "sid": "s000652",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Agreeing on the importance of the discussion."
+    },
+    {
+      "sid": "s000653",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Asking for further questions or comments."
+    },
+    {
+      "sid": "s000654",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Expressing a view on AI's lack of true innovation."
+    },
+    {
+      "sid": "s000655",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Explaining why AI might recycle solutions."
+    },
+    {
+      "sid": "s000656",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Discussing the danger of not teaching foundational skills."
+    },
+    {
+      "sid": "s000657",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student asking a question comparing AI to existing tools."
+    },
+    {
+      "sid": "s000658",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Continuing the comparison with existing tools."
+    },
+    {
+      "sid": "s000659",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Continuing the comparison with existing tools."
+    },
+    {
+      "sid": "s000660",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Describing existing tools as algorithms."
+    },
+    {
+      "sid": "s000661",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Continuing the description of existing tools."
+    },
+    {
+      "sid": "s000662",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Describing existing tools as battle-tested."
+    },
+    {
+      "sid": "s000663",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Describing existing tools as libraries."
+    },
+    {
+      "sid": "s000664",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Encouraging the use of existing tools."
+    },
+    {
+      "sid": "s000665",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Comparing AI to modularity in programming."
+    },
+    {
+      "sid": "s000666",
+      "role": "chitchat",
+      "role_score": 0.8,
+      "role_reason": "Short affirmative utterance, continuing conversational flow."
+    },
+    {
+      "sid": "s000667",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Explaining how AI raises the level of libraries."
+    },
+    {
+      "sid": "s000668",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Expressing mixed feelings about the comparison."
+    },
+    {
+      "sid": "s000669",
+      "role": "chitchat",
+      "role_score": 0.8,
+      "role_reason": "Short affirmative utterance, continuing conversational flow."
+    },
+    {
+      "sid": "s000670",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Introducing the concept of unsolved math problems."
+    },
+    {
+      "sid": "s000671",
+      "role": "chitchat",
+      "role_score": 0.8,
+      "role_reason": "Short affirmative utterance, acknowledging previous point."
+    },
+    {
+      "sid": "s000672",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Discussing the necessity of foundational math knowledge."
+    },
+    {
+      "sid": "s000673",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Providing examples of AI developers learning foundational skills."
+    },
+    {
+      "sid": "s000674",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Acknowledging agreement with the spirit of the argument."
+    },
+    {
+      "sid": "s000675",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Warning against the 'learned it this way' argument."
+    },
+    {
+      "sid": "s000676",
+      "role": "chitchat",
+      "role_score": 0.8,
+      "role_reason": "Short affirmative utterance, acknowledging previous point."
+    },
+    {
+      "sid": "s000677",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Suggesting there might be value in traditional methods."
+    },
+    {
+      "sid": "s000678",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Explaining the pedagogical value of foundational learning."
+    },
+    {
+      "sid": "s000679",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Stating the value of building blocks before complete replacement."
+    },
+    {
+      "sid": "s000680",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Disagreeing with forcing specific methods in higher-level classes."
+    },
+    {
+      "sid": "s000681",
+      "role": "chitchat",
+      "role_score": 0.8,
+      "role_reason": "Short affirmative utterance, continuing conversational flow."
+    },
+    {
+      "sid": "s000682",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Providing an example of a chemistry class with rote memorization."
+    },
+    {
+      "sid": "s000683",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Continuing the example of the chemistry class."
+    },
+    {
+      "sid": "s000684",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Continuing the example of the chemistry class."
+    },
+    {
+      "sid": "s000685",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Continuing the example of the chemistry class."
+    },
+    {
+      "sid": "s000686",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Continuing the example of the chemistry class."
+    },
+    {
+      "sid": "s000687",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Providing a contrasting example of a modern chemistry class."
+    },
+    {
+      "sid": "s000688",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Explaining the goal of the modern chemistry class."
+    },
+    {
+      "sid": "s000689",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Stating that this approach is the correct way."
+    },
+    {
+      "sid": "s000690",
+      "role": "chitchat",
+      "role_score": 0.8,
+      "role_reason": "Short affirmative utterance, continuing conversational flow."
+    },
+    {
+      "sid": "s000691",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Disagreeing with the necessity of the 'old fashioned way'."
+    },
+    {
+      "sid": "s000692",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Calling some traditional methods useless."
+    },
+    {
+      "sid": "s000693",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Suggesting training the non-automatable parts."
+    },
+    {
+      "sid": "s000694",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Discussing limitations in formal systems and human intuition."
+    },
+    {
+      "sid": "s000695",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Continuing the discussion on different systems."
+    },
+    {
+      "sid": "s000696",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Explaining the role of human intuition in problem-solving."
+    },
+    {
+      "sid": "s000697",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Continuing the explanation of creating new systems."
+    },
+    {
+      "sid": "s000698",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Highlighting the importance of human control and grasp."
+    },
+    {
+      "sid": "s000699",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Discussing the possibility of AI creating new systems."
+    },
+    {
+      "sid": "s000700",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Emphasizing the human grasp of the overall goal."
+    },
+    {
+      "sid": "s000701",
+      "role": "chitchat",
+      "role_score": 0.8,
+      "role_reason": "Short affirmative utterance, continuing conversational flow."
+    },
+    {
+      "sid": "s000702",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Acknowledging the possibility of human error."
+    },
+    {
+      "sid": "s000703",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Continuing the point about human error."
+    },
+    {
+      "sid": "s000704",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Providing an example of using AI for calculus problem-solving."
+    },
+    {
+      "sid": "s000705",
+      "role": "chitchat",
+      "role_score": 0.8,
+      "role_reason": "Short affirmative utterance, acknowledging previous point."
+    },
+    {
+      "sid": "s000706",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Asking if anyone has experienced something specific."
+    },
+    {
+      "sid": "s000707",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Expressing dislike for a specific AI interface feature."
+    },
+    {
+      "sid": "s000708",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Continuing the expression of dislike for AI interface."
+    },
+    {
+      "sid": "s000709",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Criticizing the AI's overly positive responses."
+    },
+    {
+      "sid": "s000710",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Questioning the AI's constant positivity."
+    },
+    {
+      "sid": "s000711",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Asking if AI can be more honest."
+    },
+    {
+      "sid": "s000712",
+      "role": "chitchat",
+      "role_score": 0.8,
+      "role_reason": "Short affirmative utterance, continuing conversational flow."
+    },
+    {
+      "sid": "s000713",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Continuing the criticism of AI's interface."
+    },
+    {
+      "sid": "s000714",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Continuing the criticism of AI's interface."
+    },
+    {
+      "sid": "s000715",
+      "role": "chitchat",
+      "role_score": 0.8,
+      "role_reason": "Concluding remark, transitioning to next topic."
+    },
+    {
+      "sid": "s000716",
+      "role": "chitchat",
+      "role_score": 0.8,
+      "role_reason": "Short affirmative utterance, continuing conversational flow."
+    },
+    {
+      "sid": "s000717",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student asking a question about the previous statement."
+    },
+    {
+      "sid": "s000718",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Continuing the discussion about AI's limitations."
+    },
+    {
+      "sid": "s000719",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Expressing a strong opinion about AI's interface."
+    },
+    {
+      "sid": "s000720",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Continuing the expression of a strong opinion."
+    },
+    {
+      "sid": "s000721",
+      "role": "chitchat",
+      "role_score": 0.8,
+      "role_reason": "Short utterance, continuing conversational flow."
+    },
+    {
+      "sid": "s000722",
+      "role": "chitchat",
+      "role_score": 0.8,
+      "role_reason": "Short affirmative utterance, continuing conversational flow."
+    },
+    {
+      "sid": "s000723",
+      "role": "chitchat",
+      "role_score": 0.8,
+      "role_reason": "Short affirmative utterance, continuing conversational flow."
+    },
+    {
+      "sid": "s000724",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Explaining AI's tendency to confirm rather than challenge."
+    },
+    {
+      "sid": "s000725",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Stating that AI's confirmation bias is not helpful."
+    },
+    {
+      "sid": "s000726",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Explaining the need for a sounding board that points out errors."
+    },
+    {
+      "sid": "s000727",
+      "role": "chitchat",
+      "role_score": 0.8,
+      "role_reason": "Short affirmative utterance, continuing conversational flow."
+    },
+    {
+      "sid": "s000728",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Referring to a specific AI version's attempt to remove ambiguity."
+    },
+    {
+      "sid": "s000729",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Continuing the reference to a specific AI version."
+    },
+    {
+      "sid": "s000730",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Explaining the attempt to remove ambiguity in AI."
+    },
+    {
+      "sid": "s000731",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Describing the user reaction to the AI change."
+    },
+    {
+      "sid": "s000732",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Stating the impossibility of pleasing everyone."
+    },
+    {
+      "sid": "s000733",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Identifying the core problem of agreement."
+    },
+    {
+      "sid": "s000734",
+      "role": "chitchat",
+      "role_score": 0.8,
+      "role_reason": "Short affirmative utterance, continuing conversational flow."
+    },
+    {
+      "sid": "s000735",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Explaining the difficulty of agreeing on a format."
+    },
+    {
+      "sid": "s000736",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Asking for any remaining questions or comments."
+    },
+    {
+      "sid": "s000737",
+      "role": "announcement",
+      "role_score": 0.9,
+      "role_reason": "Announcing the next class meeting."
+    },
+    {
+      "sid": "s000738",
+      "role": "announcement",
+      "role_score": 0.9,
+      "role_reason": "Reminding about an upcoming update to course material."
+    }
+  ]
+}

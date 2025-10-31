@@ -1,0 +1,1809 @@
+[
+  {
+    "context_before_main_text": [
+      {
+        "sid": "s000465",
+        "text": "So this goes more towards being to able.",
+        "start": 1947790,
+        "end": 1949890,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000466",
+        "text": "We talked about golems and leviathans.",
+        "start": 1950200,
+        "end": 1951880,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000467",
+        "text": "This is really more of a golem.",
+        "start": 1951880,
+        "end": 1953240,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000468",
+        "text": "Right?",
+        "start": 1953240,
+        "end": 1953520,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000469",
+        "text": "Right.",
+        "start": 1953520,
+        "end": 1953800,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000470",
+        "text": "There was no malicious intent here.",
+        "start": 1953800,
+        "end": 1955960,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000471",
+        "text": "There was no bias or bad actor.",
+        "start": 1955960,
+        "end": 1958520,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000472",
+        "text": "But it was just a bun.",
+        "start": 1958840,
+        "end": 1960040,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000473",
+        "text": "There are other numerous examples of these sorts of things.",
+        "start": 1960920,
+        "end": 1964360,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000474",
+        "text": "Have any of you heard of the fair acting test?",
+        "start": 1964360,
+        "end": 1966119,
+        "speaker": "A"
+      }
+    ],
+    "main_text": [
+      {
+        "sid": "s000475",
+        "text": "So this is one where it was a radiation machine that was supposed to kill cancerous cells with X rays.",
+        "start": 1968440,
+        "end": 1973480,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000476",
+        "text": "It ended up killing six patients over the course of two years because of these hardware overlocks that they had that were supposed to prevent operation of invalid modes was replaced by software.",
+        "start": 1973800,
+        "end": 1984690,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000477",
+        "text": "It was embedded properly created a race condition that led to this machine radiating individuals that weren't to an extent where it wasn't supposed to work.",
+        "start": 1984850,
+        "end": 1993570,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000478",
+        "text": "This is a software engineering failure.",
+        "start": 1995490,
+        "end": 1997490,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000479",
+        "text": "They didn't unit test.",
+        "start": 1997570,
+        "end": 1998690,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000480",
+        "text": "They didn't have any independent review.",
+        "start": 1999970,
+        "end": 2001870,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000481",
+        "text": "When I first, when I started coding, you know a long time ago it was just lone wolf kind of style.",
+        "start": 2002590,
+        "end": 2008990,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000482",
+        "text": "Now you all are doing things where it's a group doing it together or more likely just ask ChatGPT to do it.",
+        "start": 2008990,
+        "end": 2015630,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000483",
+        "text": "But anyway, you know, doing this type of code review or coding I think is really important.",
+        "start": 2015630,
+        "end": 2023150,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000484",
+        "text": "And so they didn't have that the Pentium floating point division bug, man, the chance of it happening was so small, relatively small really.",
+        "start": 2023310,
+        "end": 2033300,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000485",
+        "text": "Not affecting the average user.",
+        "start": 2033300,
+        "end": 2035300,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000486",
+        "text": "But the fact that it got so much publicity, the fact that it had all these issues.",
+        "start": 2035620,
+        "end": 2040020,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000487",
+        "text": "They cost in total around 457 million.",
+        "start": 2040420,
+        "end": 2043379,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000488",
+        "text": "We haven't heard from them again.",
+        "start": 2044340,
+        "end": 2045460,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000489",
+        "text": "So these types of failures catastrophic in terms of the cost but not really ethical problem.",
+        "start": 2046580,
+        "end": 2053350,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000490",
+        "text": "Right.",
+        "start": 2053350,
+        "end": 2053710,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000491",
+        "text": "The Mars Climate Orbiter got too close to Mars.",
+        "start": 2055630,
+        "end": 2058510,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000492",
+        "text": "Its onboard system used Imperial.",
+        "start": 2059310,
+        "end": 2062270,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000493",
+        "text": "The ground control software was using Imperial measurements.",
+        "start": 2062430,
+        "end": 2064830,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000494",
+        "text": "Onboard software was using SI measurements and just that disconnect cost more than 320 million.",
+        "start": 2064910,
+        "end": 2069950,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000495",
+        "text": "Not learning SI metrics.",
+        "start": 2073150,
+        "end": 2075110,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000496",
+        "text": "Okay.",
+        "start": 2075110,
+        "end": 2075550,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000497",
+        "text": "Prius braking system, REM5 Rocket, Night Capital Group Rei5 Rocket was a floating point conversion 64 bits to 16 bits.",
+        "start": 2076430,
+        "end": 2084199,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000498",
+        "text": "Right.",
+        "start": 2084199,
+        "end": 2084479,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000499",
+        "text": "Okay.",
+        "start": 2084799,
+        "end": 2085399,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000500",
+        "text": "So all of these things are problems and we can list out a whole host of different issues that would come into this kind of thing requires a team that's doing development and the operation side to kind of test and deploy and give good feedback.",
+        "start": 2085399,
+        "end": 2101119,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000501",
+        "text": "All this can work Using common software engineering could have avoided most if not all these issues.",
+        "start": 2101439,
+        "end": 2109850,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000502",
+        "text": "Not rising to the level of ethics.",
+        "start": 2111770,
+        "end": 2114250,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000503",
+        "text": "I thought this one was a kind of a cool illustration of this.",
+        "start": 2114570,
+        "end": 2117130,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000504",
+        "text": "This is.",
+        "start": 2117530,
+        "end": 2118170,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000505",
+        "text": "We talked before about the difference between the time something is developed and the amount of control you have over it.",
+        "start": 2118970,
+        "end": 2124650,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000506",
+        "text": "This is the amount of certainty that you have over something and the amount of agreement, the amount of comparison complexity that goes into a design can lead to you having tremendous amounts of agreement on how to design it and tremendous amounts of certainty on whether it works.",
+        "start": 2124650,
+        "end": 2138360,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000507",
+        "text": "But as things get further and further apart, whether it's a lot of decision making that goes into the company that creates less agreement, or it's difficult decisions that have to be done, trying to figure out how something works that you haven't fully tested that gets into more and more or less and less certainty can lead to complete chaos.",
+        "start": 2138680,
+        "end": 2158700,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000508",
+        "text": "Okay, so let's move on to one of the big things in terms of these designs is just overall complexity of the system.",
+        "start": 2163020,
+        "end": 2176340,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000509",
+        "text": "Not in the case something like the Orbital system where it was just a mismatch of measurements.",
+        "start": 2176340,
+        "end": 2181280,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000510",
+        "text": "But as systems get more and more complex and it gets more and more difficult to understand, this is the problem we're running into with AI.",
+        "start": 2181750,
+        "end": 2189030,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000511",
+        "text": "The problem is that it's not just complex software, it's a complex mathematical model that we have really no good way of debugging like we did software.",
+        "start": 2189270,
+        "end": 2197830,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000512",
+        "text": "And so these kinds of things, because of the difficulty dealing with it, I would argue would become an ethical.",
+        "start": 2198070,
+        "end": 2205030,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000513",
+        "text": "We don't fully understand and we put it out there to market.",
+        "start": 2207190,
+        "end": 2209430,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000514",
+        "text": "Is that an ethical problem?",
+        "start": 2209670,
+        "end": 2211030,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000515",
+        "text": "It could be right at that point.",
+        "start": 2213830,
+        "end": 2215270,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000516",
+        "text": "At that point it might rise to the level of an ethical issue.",
+        "start": 2215750,
+        "end": 2218630,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000517",
+        "text": "Not doing the unit testing questionable, but not even understanding the product enough to be able to propose unit tests or have something that's reasonable or have a reasonable model.",
+        "start": 2219110,
+        "end": 2227870,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000518",
+        "text": "I think rises that level of ethical concern.",
+        "start": 2227870,
+        "end": 2231030,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000519",
+        "text": "So this is.",
+        "start": 2235280,
+        "end": 2235840,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000520",
+        "text": "Has anyone heard of the philosophy of Software design by John Osterhau?",
+        "start": 2236400,
+        "end": 2240160,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000521",
+        "text": "So John Oesterhow tried to create a canonization of complexity, and basically the idea was he felt there were known knowns.",
+        "start": 2241440,
+        "end": 2254080,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000522",
+        "text": "That means we know the requirements, we know the facts, and we know how to solve it.",
+        "start": 2254320,
+        "end": 2259450,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000523",
+        "text": "This is not a risk because it's a known quantity and we know how to fix it.",
+        "start": 2259850,
+        "end": 2264130,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000524",
+        "text": "Maybe it's going to take time to implement it or engineer it, but it is not a particular risk.",
+        "start": 2264130,
+        "end": 2268650,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000525",
+        "text": "And you would manage that as part of a regular project management.",
+        "start": 2268810,
+        "end": 2271850,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000526",
+        "text": "Do they have companies that put the product out too soon and have known knowns?",
+        "start": 2272410,
+        "end": 2276490,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000527",
+        "text": "Okay, that's a horrible business practice.",
+        "start": 2276490,
+        "end": 2279210,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000528",
+        "text": "So then you have known unknowns.",
+        "start": 2280410,
+        "end": 2282810,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000529",
+        "text": "These are classical risks that no are present.",
+        "start": 2283050,
+        "end": 2285450,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000530",
+        "text": "And you know, you kind of say, well, I think I understand how this risk works.",
+        "start": 2286240,
+        "end": 2291200,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000531",
+        "text": "Maybe we don't know how to solve it, but I understand Enough, how to manage it, how to keep an eye on it, how to be able to deal with something if it goes wrong.",
+        "start": 2291200,
+        "end": 2298880,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000532",
+        "text": "Hacker attack.",
+        "start": 2300160,
+        "end": 2300960,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000533",
+        "text": "Things where you're looking at, you know, I know there's a risk beyond the firewall of a particular part of my system, and I'll keep an eye on unknown knowledge.",
+        "start": 2301520,
+        "end": 2312410,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000534",
+        "text": "This is something where you don't know there's a problem, but you would know how to solve it if you knew.",
+        "start": 2312890,
+        "end": 2316570,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000535",
+        "text": "They call it untapped knowledge.",
+        "start": 2317770,
+        "end": 2320010,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000536",
+        "text": "And then the worst, in Osterhaupt's opinion, is an unknown unknown.",
+        "start": 2320490,
+        "end": 2324090,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000537",
+        "text": "You don't know anything about it, you don't know that it's there and you don't know how to solve it.",
+        "start": 2324570,
+        "end": 2328810,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000538",
+        "text": "The problem is when we have more and more of the unknown unknowns, not fully understanding and modeling a system, not fully understanding we're doing with it or how to solve it.",
+        "start": 2329610,
+        "end": 2338280,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000539",
+        "text": "But I think we get more into ethical considerations as to why we're releasing the product.",
+        "start": 2338280,
+        "end": 2342320,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000540",
+        "text": "So complexity comes when we have things that have multiple dependencies, can't understand it, and modify it in isolation on its own, and when something is obscure, when important information is not clear and obvious.",
+        "start": 2348960,
+        "end": 2362400,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000541",
+        "text": "So there's different ways to try to focus on this.",
+        "start": 2368730,
+        "end": 2370970,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000542",
+        "text": "Software engineering classes will be a good way to kind of sharpen this.",
+        "start": 2371930,
+        "end": 2374570,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000543",
+        "text": "But the basic idea is incremental complexity is one way of trying to deal with it and try and keep your.",
+        "start": 2374570,
+        "end": 2384090,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000544",
+        "text": "If you're focused on just getting something working and just keep pushing and pushing and pushing, it might be worse than strategic programming where you're trying instead to focus on the design that's good, that's going to be able to last a longer time and avoid unnecessary complexity.",
+        "start": 2385370,
+        "end": 2403060,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000545",
+        "text": "No magic numbers, no comments and that sort of thing.",
+        "start": 2403140,
+        "end": 2407700,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000546",
+        "text": "Comments, questions?",
+        "start": 2412180,
+        "end": 2413300,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000547",
+        "text": "What is happening to me?",
+        "start": 2415150,
+        "end": 2416190,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000548",
+        "text": "Okay, let's get into liability.",
+        "start": 2416910,
+        "end": 2422030,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000549",
+        "text": "So in terms of bugs, we talked about different examples, but it can come from improper specification, improper implementation, race conditions, holds and security, et cetera.",
+        "start": 2422430,
+        "end": 2435230,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000550",
+        "text": "If you have a bug in software, who is responsible and what should happen to them?",
+        "start": 2437150,
+        "end": 2441160,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000551",
+        "text": "Legally speaking, for all these cases we've talked about, let's take the heart, Fleet Buckle.",
+        "start": 2441160,
+        "end": 2447160,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000552",
+        "text": "We're agreeing that it wasn't an ethical dilemma, that it shouldn't have happened.",
+        "start": 2447640,
+        "end": 2451440,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000553",
+        "text": "But should the program have been responsible?",
+        "start": 2451440,
+        "end": 2453160,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000554",
+        "text": "Is it different for that versus Air act where it killed six people?",
+        "start": 2456120,
+        "end": 2459240,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000555",
+        "text": "I think, like, you can't really blame one person, especially for, like, large projects.",
+        "start": 2461320,
+        "end": 2465610,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000556",
+        "text": "Like, there's multiple people who oversee the code.",
+        "start": 2465610,
+        "end": 2467850,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000557",
+        "text": "Like maybe you could say that they probably should have checked it and that they probably should fix it, but it's not like something like something that's like, as bad as if, like multiple people died.",
+        "start": 2467850,
+        "end": 2478930,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000558",
+        "text": "Because you're not.",
+        "start": 2478930,
+        "end": 2479610,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000559",
+        "text": "There's not really, like any, like, negligence or something.",
+        "start": 2479610,
+        "end": 2481410,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000560",
+        "text": "You're not showing that, like, they intentionally did this or this happened because of some decision they, like, willingly made versus, like, it would be different if they.",
+        "start": 2481810,
+        "end": 2490310,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000561",
+        "text": "It was like, yeah, we're just going to ignore this.",
+        "start": 2490380,
+        "end": 2492940,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000562",
+        "text": "We know it will happen, but we're just going to ignore it because we don't think it's going to happen.",
+        "start": 2492940,
+        "end": 2495660,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000563",
+        "text": "So if I came up with the mu Therac that was a radiation machine, I had good intentions, but I'm rushing the market and I don't adequately test them, and I push the device out there because people are dying of cancer and I want to help them and I had good intentions.",
+        "start": 2496220,
+        "end": 2511900,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000564",
+        "text": "Does that mean that I'm not liable?",
+        "start": 2511900,
+        "end": 2513260,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000565",
+        "text": "I think, like, you still are liable to some extent, but if you knew that there was.",
+        "start": 2515100,
+        "end": 2521920,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000566",
+        "text": "I guess it's all like.",
+        "start": 2522320,
+        "end": 2523280,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000567",
+        "text": "There's not really a good answer.",
+        "start": 2523280,
+        "end": 2524400,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000568",
+        "text": "But I guess you could say if you knew, there's a high probability.",
+        "start": 2524400,
+        "end": 2526640,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000569",
+        "text": "If there's some issue and you know, like, okay, there's a 90% chance that someone's gonna start killing people instead of helping.",
+        "start": 2527440,
+        "end": 2532560,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000570",
+        "text": "You probably shouldn't put it out.",
+        "start": 2532640,
+        "end": 2534920,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000571",
+        "text": "You have to weigh, especially if something is needed that badly, you kind of need to make a decision what's better?",
+        "start": 2534920,
+        "end": 2542290,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000572",
+        "text": "Like, you could.",
+        "start": 2542290,
+        "end": 2542730,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000573",
+        "text": "You could argue like that.",
+        "start": 2542730,
+        "end": 2543690,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000574",
+        "text": "I guess I could.",
+        "start": 2543690,
+        "end": 2544570,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000575",
+        "text": "I could say, you know, cancer's killing plenty of people.",
+        "start": 2544570,
+        "end": 2546730,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000576",
+        "text": "My device works pretty well on every test I've done.",
+        "start": 2547050,
+        "end": 2549930,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000577",
+        "text": "I haven't seen anybody die yet.",
+        "start": 2549930,
+        "end": 2551290,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000578",
+        "text": "I haven't tested all my code, but who tests all their code?",
+        "start": 2552010,
+        "end": 2554450,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000579",
+        "text": "It seems to work just fine.",
+        "start": 2554450,
+        "end": 2555610,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000580",
+        "text": "And do I want people to keep dying?",
+        "start": 2555690,
+        "end": 2557250,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000581",
+        "text": "No, I want to put it out there so that's.",
+        "start": 2557250,
+        "end": 2559610,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000582",
+        "text": "I'm not liable.",
+        "start": 2559770,
+        "end": 2560730,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000583",
+        "text": "I think it's a little, like, hard.",
+        "start": 2562810,
+        "end": 2564650,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000584",
+        "text": "It's hard.",
+        "start": 2564650,
+        "end": 2565210,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000585",
+        "text": "I don't know if there's like a great answer.",
+        "start": 2565210,
+        "end": 2566570,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000586",
+        "text": "What are this thing.",
+        "start": 2568980,
+        "end": 2569700,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000587",
+        "text": "Yeah, I mean, I think they're liable.",
+        "start": 2570580,
+        "end": 2572340,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000588",
+        "text": "They're liable.",
+        "start": 2572420,
+        "end": 2573220,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000589",
+        "text": "Yeah.",
+        "start": 2573700,
+        "end": 2574180,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000590",
+        "text": "Just.",
+        "start": 2574340,
+        "end": 2574740,
+        "speaker": "C"
+      },
+      {
+        "sid": "s000591",
+        "text": "I mean, if you hadn't put it out there, no one would have died from that.",
+        "start": 2574900,
+        "end": 2578620,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000592",
+        "text": "You know what I mean?",
+        "start": 2578620,
+        "end": 2579140,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000593",
+        "text": "Yeah.",
+        "start": 2579140,
+        "end": 2579620,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000594",
+        "text": "It's just like kind of the unfortunate reality, like you got to be liable for that.",
+        "start": 2579780,
+        "end": 2584940,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000595",
+        "text": "Like, that's your product.",
+        "start": 2584940,
+        "end": 2586980,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000596",
+        "text": "What If I saved 100 people's lives who would have died otherwise, and I only killed 2?",
+        "start": 2587220,
+        "end": 2591620,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000597",
+        "text": "Some benefit for that utilitarian argument would say that I've done better for society as a whole.",
+        "start": 2592940,
+        "end": 2596860,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000598",
+        "text": "Okay, what if you save 100 people lives and then you merge with people.",
+        "start": 2597580,
+        "end": 2600460,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000599",
+        "text": "You see my, my Saturday night.",
+        "start": 2602380,
+        "end": 2603900,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000600",
+        "text": "No, but I'm just saying what if, right?",
+        "start": 2603900,
+        "end": 2606340,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000601",
+        "text": "I mean this murdering is different because I had an intention here.",
+        "start": 2606340,
+        "end": 2609140,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000602",
+        "text": "I didn't have the intention.",
+        "start": 2609140,
+        "end": 2609980,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000603",
+        "text": "I wanted to save it.",
+        "start": 2609980,
+        "end": 2610940,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000604",
+        "text": "I think it's different.",
+        "start": 2611340,
+        "end": 2612140,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000605",
+        "text": "No, I mean you still like you still to people.",
+        "start": 2613180,
+        "end": 2618950,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000606",
+        "text": "So the outcome matters more.",
+        "start": 2619510,
+        "end": 2620870,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000607",
+        "text": "Yeah, your intentions don't matter.",
+        "start": 2621910,
+        "end": 2624790,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000608",
+        "text": "I mean if.",
+        "start": 2624790,
+        "end": 2625590,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000609",
+        "text": "I don't think they matter that much.",
+        "start": 2625830,
+        "end": 2626950,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000610",
+        "text": "If someone dies, someone dies.",
+        "start": 2626950,
+        "end": 2629550,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000611",
+        "text": "They didn't matter to that person.",
+        "start": 2629550,
+        "end": 2630950,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000612",
+        "text": "So what if it was something like self driving car argument.",
+        "start": 2631590,
+        "end": 2636070,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000613",
+        "text": "People make this argument all the time that it's going to be more, it's going to be safer because we humans suck at driving.",
+        "start": 2636070,
+        "end": 2641830,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000614",
+        "text": "And let's say that, you know, normally a thousand people die.",
+        "start": 2642230,
+        "end": 2644990,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000615",
+        "text": "That's probably wrong in a certain area or car accidents.",
+        "start": 2645150,
+        "end": 2648790,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000616",
+        "text": "But with self driving cars, then only two people will die.",
+        "start": 2648790,
+        "end": 2651950,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000617",
+        "text": "Isn't that a net gain?",
+        "start": 2652430,
+        "end": 2653870,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000618",
+        "text": "And even though two people died with my algorithm, I still made it safer.",
+        "start": 2653870,
+        "end": 2657710,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000619",
+        "text": "But shouldn't that be okay?",
+        "start": 2657710,
+        "end": 2658950,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000620",
+        "text": "And I shouldn't be liable?",
+        "start": 2658950,
+        "end": 2659950,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000621",
+        "text": "That's very broad.",
+        "start": 2661550,
+        "end": 2662510,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000622",
+        "text": "Like the two people, how do the two people die?",
+        "start": 2662510,
+        "end": 2664590,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000623",
+        "text": "Right.",
+        "start": 2666190,
+        "end": 2666510,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000624",
+        "text": "So if you could prove that it was my algorithm that chose between crashing into four versus two and it picked two, and that was the only two choices within reason, I still intentionally killed those two people.",
+        "start": 2666510,
+        "end": 2679000,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000625",
+        "text": "So should I be liable as a programmer for the two?",
+        "start": 2679720,
+        "end": 2684680,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000626",
+        "text": "You're saying that it was a normal crash and there was two people versus four people.",
+        "start": 2684680,
+        "end": 2687960,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000627",
+        "text": "It was a corner case in my design.",
+        "start": 2688040,
+        "end": 2690200,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000628",
+        "text": "And it just so happened that instead of killing four, he killed two.",
+        "start": 2690520,
+        "end": 2693480,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000629",
+        "text": "Shouldn't I still be liable because I intentionally killed two people?",
+        "start": 2696290,
+        "end": 2699250,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000630",
+        "text": "No, because it's a car crash.",
+        "start": 2699730,
+        "end": 2707850,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000631",
+        "text": "Like it's like, like if, if you didn't.",
+        "start": 2707850,
+        "end": 2713490,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000632",
+        "text": "I think like public sentiment matters like as well though.",
+        "start": 2724220,
+        "end": 2726580,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000633",
+        "text": "Like if you look at like the like autonomous vehicles and stuff.",
+        "start": 2726580,
+        "end": 2729140,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000634",
+        "text": "Like, like let's say the car like kills somebody.",
+        "start": 2729140,
+        "end": 2731740,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000635",
+        "text": "Yeah.",
+        "start": 2731740,
+        "end": 2732220,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000636",
+        "text": "No matter what.",
+        "start": 2732540,
+        "end": 2733340,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000637",
+        "text": "Because people would be like, oh well, if a real human was driving, they could have done better.",
+        "start": 2734620,
+        "end": 2738220,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000638",
+        "text": "Right.",
+        "start": 2738460,
+        "end": 2738860,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000639",
+        "text": "I don't think there's like a great way because like either way it's going to be perceived bad.",
+        "start": 2739740,
+        "end": 2743420,
+        "speaker": "B"
+      },
+      {
+        "sid": "s000640",
+        "text": "Right.",
+        "start": 2743900,
+        "end": 2744300,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000641",
+        "text": "It's hard.",
+        "start": 2744620,
+        "end": 2745340,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000642",
+        "text": "It couldn't tell.",
+        "start": 2745900,
+        "end": 2746820,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000643",
+        "text": "Shopping cart or a car.",
+        "start": 2746820,
+        "end": 2748220,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000644",
+        "text": "What are you talking about?",
+        "start": 2748220,
+        "end": 2749500,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000645",
+        "text": "Whereas it did well in so many other cases that people would have done.",
+        "start": 2750460,
+        "end": 2754220,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000646",
+        "text": "Bull.",
+        "start": 2754220,
+        "end": 2754780,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000647",
+        "text": "Okay.",
+        "start": 2758860,
+        "end": 2759420,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000648",
+        "text": "Yeah, well I guess because the car crash like it's, it's a car crash.",
+        "start": 2759980,
+        "end": 2763899,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000649",
+        "text": "So like either the two or the four are gonna die.",
+        "start": 2763899,
+        "end": 2767740,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000650",
+        "text": "But like for like the radiation thing, you're basically selling them like this is gonna make you better.",
+        "start": 2767980,
+        "end": 2773820,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000651",
+        "text": "Yep.",
+        "start": 2774470,
+        "end": 2774870,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000652",
+        "text": "And then they die from it.",
+        "start": 2775110,
+        "end": 2776430,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000653",
+        "text": "So it's a bit different in that respect.",
+        "start": 2776430,
+        "end": 2778550,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000654",
+        "text": "Okay.",
+        "start": 2778950,
+        "end": 2779510,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000655",
+        "text": "Genetics is an amazing field.",
+        "start": 2780470,
+        "end": 2782710,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000656",
+        "text": "We've been trying to help some people who are working on genetics issues, but they haven't figured it out yet.",
+        "start": 2783110,
+        "end": 2788790,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000657",
+        "text": "I was trying to do this accelerator with someone on being able to.",
+        "start": 2789350,
+        "end": 2795750,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000658",
+        "text": "You all know how DNA gets scanned.",
+        "start": 2795910,
+        "end": 2797910,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000659",
+        "text": "So it's basically the way they analogize it.",
+        "start": 2798390,
+        "end": 2800548,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000660",
+        "text": "The to me is imagine if you have a CD.",
+        "start": 2800548,
+        "end": 2803310,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000661",
+        "text": "You all know what CDs are.",
+        "start": 2803310,
+        "end": 2804510,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000662",
+        "text": "I'm not that old.",
+        "start": 2804750,
+        "end": 2805550,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000663",
+        "text": "Right.",
+        "start": 2805550,
+        "end": 2805870,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000664",
+        "text": "It's like a small record.",
+        "start": 2806830,
+        "end": 2807950,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000665",
+        "text": "Okay.",
+        "start": 2807950,
+        "end": 2808510,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000666",
+        "text": "Yeah.",
+        "start": 2808510,
+        "end": 2808990,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000667",
+        "text": "So if you have a CD's worth of information, that would probably be Arduino.",
+        "start": 2809870,
+        "end": 2813310,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000668",
+        "text": "And if you made six copies of it imperfectly, you put it in a bag, you smash it with a hammer, and you remove like some different shards and try to reconstruct the original data.",
+        "start": 2813630,
+        "end": 2826110,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000669",
+        "text": "That's what they kind of deal with when they're scanning for DNA, right?",
+        "start": 2826600,
+        "end": 2829080,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000670",
+        "text": "They have a certain number of base pairs, but they have to try to figure out the overall.",
+        "start": 2829480,
+        "end": 2833400,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000671",
+        "text": "So my thought coming into this project was, okay, 98, 99% of our DNA is the same.",
+        "start": 2833800,
+        "end": 2839120,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000672",
+        "text": "Right.",
+        "start": 2839120,
+        "end": 2839480,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000673",
+        "text": "Most of it's the same.",
+        "start": 2839560,
+        "end": 2840600,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000674",
+        "text": "So if the guy walks into my lab and I'm a sample and they're, you know, 7ft tall and they have green eyes and red.",
+        "start": 2841080,
+        "end": 2851660,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000675",
+        "text": "Red hair or whatever.",
+        "start": 2851730,
+        "end": 2852610,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000676",
+        "text": "If there's something I just.",
+        "start": 2852690,
+        "end": 2854210,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000677",
+        "text": "Conan o' BRIEN okay, if I describe something that is unique about that individual, shouldn't there be landmarks in the DNA where I could say, boom, there's the red hair, Boom, there's the green eye.",
+        "start": 2854370,
+        "end": 2865290,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000678",
+        "text": "Right.",
+        "start": 2865290,
+        "end": 2865530,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000679",
+        "text": "Something that I could use for puzzle pieces, kind of like finding the edge of a puzzle.",
+        "start": 2865530,
+        "end": 2870770,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000680",
+        "text": "They told me we don't really have it down that well yet.",
+        "start": 2871730,
+        "end": 2873730,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000681",
+        "text": "We don't know enough about the area.",
+        "start": 2873730,
+        "end": 2875490,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000682",
+        "text": "So.",
+        "start": 2875650,
+        "end": 2875930,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000683",
+        "text": "Matt, long story short, short.",
+        "start": 2875930,
+        "end": 2877580,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000684",
+        "text": "So imagine that instead of it being a known remediation with a certain amount of X rays, the problem is it is an area where you're still evolving.",
+        "start": 2877580,
+        "end": 2887060,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000685",
+        "text": "All I want to be on the cutting edge of this genetic therapy, but they haven't figured out everything about the science.",
+        "start": 2887060,
+        "end": 2893579,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000686",
+        "text": "So my engineering is based on principles that are not exact.",
+        "start": 2893660,
+        "end": 2896620,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000687",
+        "text": "Kind of like with autonomous vehicles, we're still figuring out how to make them work and how to make a society function better with autonomous vehicles navigating, coordinating.",
+        "start": 2896780,
+        "end": 2906900,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000688",
+        "text": "So in that sense, if I put something on the market that hasn't been fully tested or vetted from a biological standpoint, but it has so much potential, should I be insulated from harm about trying to put that idea out there, or should I be liable?",
+        "start": 2907300,
+        "end": 2920420,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000689",
+        "text": "Yeah, I think you shouldn't be liable but like you should be given like the opportunity to like, I guess like try and prevent effective.",
+        "start": 2922420,
+        "end": 2929230,
+        "speaker": "C"
+      },
+      {
+        "sid": "s000690",
+        "text": "Because I think it's also similar to like when some companies were like developing like vaccines for, to like cure covet.",
+        "start": 2929230,
+        "end": 2937790,
+        "speaker": "C"
+      },
+      {
+        "sid": "s000691",
+        "text": "Like the first time that they like were trying to make a vaccine, it wasn't perfect.",
+        "start": 2937950,
+        "end": 2941470,
+        "speaker": "C"
+      },
+      {
+        "sid": "s000692",
+        "text": "And like some like even though it wasn't like like perfect at the start, like they were still given the opportunity and like if something, say something were to happen to like the patients that were first given like I guess like the trial versions, I guess they were like, you know, the company still progressed onwards to like try and practice.",
+        "start": 2941710,
+        "end": 2961320,
+        "speaker": "C"
+      },
+      {
+        "sid": "s000693",
+        "text": "They tried to maybe pick people who are higher risk because they might have.",
+        "start": 2961480,
+        "end": 2965080,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000694",
+        "text": "There might be a real question of do I want to die this way or die that way.",
+        "start": 2965320,
+        "end": 2968560,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000695",
+        "text": "And it's a kind of a challenge.",
+        "start": 2968560,
+        "end": 2969800,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000696",
+        "text": "And so it's not a clear cut case of hey, you know, I'm not sure which one is the right one.",
+        "start": 2969800,
+        "end": 2973760,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000697",
+        "text": "I, I think that it makes sense to have some insulation in cases like that.",
+        "start": 2973760,
+        "end": 2977360,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000698",
+        "text": "Yeah, that makes sense.",
+        "start": 2977360,
+        "end": 2978200,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000699",
+        "text": "One of those things.",
+        "start": 2978520,
+        "end": 2979400,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000700",
+        "text": "I think the trick is when you deal with companies like Facebook where their idea is to you know, sort of disrupt and move on and move fast and you're dealing with something where it could be people's lives.",
+        "start": 2985090,
+        "end": 2997290,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000701",
+        "text": "I don't think you want to make a disruptive technology and move fast and break things.",
+        "start": 2997290,
+        "end": 3000850,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000702",
+        "text": "I think you want to be disruptive slowly in a nice.",
+        "start": 3001330,
+        "end": 3003490,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000703",
+        "text": "Any other thoughts on that one?",
+        "start": 3010380,
+        "end": 3012700,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000704",
+        "text": "The Equifax Equifax breach, they had a number of hackers that breached the credit reporting agency, right?",
+        "start": 3016940,
+        "end": 3027660,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000705",
+        "text": "And they got personal data of over 140 million people.",
+        "start": 3027660,
+        "end": 3030860,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000706",
+        "text": "The point of failure in this particular case was an implementation of Apache strut.",
+        "start": 3031990,
+        "end": 3036230,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000707",
+        "text": "They had a vulnerability in that implementation that was disclosed by Apache.",
+        "start": 3036230,
+        "end": 3040950,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000708",
+        "text": "It was many months later that the breach actually happened.",
+        "start": 3041670,
+        "end": 3044470,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000709",
+        "text": "And the breach continued even on through in July because they didn't update their particular version of Apache.",
+        "start": 3045830,
+        "end": 3052590,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000710",
+        "text": "I don't know why they didn't update it.",
+        "start": 3052590,
+        "end": 3054350,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000711",
+        "text": "Maybe there was a lack of compatibility that would have to do their code and change things around, I'm not sure.",
+        "start": 3054350,
+        "end": 3059440,
+        "speaker": "A"
+      }
+    ],
+    "context_after_main_text": [
+      {
+        "sid": "s000712",
+        "text": "But they didn't make the update.",
+        "start": 3059760,
+        "end": 3061200,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000713",
+        "text": "I think it's pretty reasonable to assume that if they knew that there was a vulnerability and they chose not to take care of it, keep your system offline or do something differently, that they were wise, fair.",
+        "start": 3061680,
+        "end": 3073360,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000714",
+        "text": "Anyone want to argue in favor of Equifax?",
+        "start": 3074560,
+        "end": 3077280,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000715",
+        "text": "So they instead set up a free credit monitoring system to try to make do with everyone who lost their information and gave that.",
+        "start": 3081600,
+        "end": 3089600,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000716",
+        "text": "But that was also vulnerable.",
+        "start": 3089680,
+        "end": 3091360,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000717",
+        "text": "So what should a company like this do?",
+        "start": 3093600,
+        "end": 3097120,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000718",
+        "text": "It's a massive company.",
+        "start": 3097280,
+        "end": 3098560,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000719",
+        "text": "They certainly have, you know, they employ people, they certainly do things for the economy.",
+        "start": 3099600,
+        "end": 3103360,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000720",
+        "text": "Okay.",
+        "start": 3103360,
+        "end": 3103920,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000721",
+        "text": "But the fact that they didn't do enough to take care of the very thing they're supposed to do, people sympathetic to this, what I'm going to be very.",
+        "start": 3104320,
+        "end": 3116150,
+        "speaker": "A"
+      }
+    ]
+  }
+]

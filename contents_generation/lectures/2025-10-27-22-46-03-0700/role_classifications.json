@@ -1,0 +1,5096 @@
+{
+  "labels": [
+    {
+      "sid": "s000001",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Introduction to the topic of decision frameworks."
+    },
+    {
+      "sid": "s000002",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Overview of three ethical frameworks to be discussed."
+    },
+    {
+      "sid": "s000003",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Definition of consequential frameworks focusing on outcomes."
+    },
+    {
+      "sid": "s000004",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Definition of duty-based frameworks focusing on intent."
+    },
+    {
+      "sid": "s000005",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Definition of virtue-based frameworks and comparison."
+    },
+    {
+      "sid": "s000006",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Explaining the difficulty in distinguishing duty and virtue frameworks."
+    },
+    {
+      "sid": "s000007",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Mentioning weaving between frameworks and providing examples."
+    },
+    {
+      "sid": "s000008",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Transitioning to discuss consequentialist framework."
+    },
+    {
+      "sid": "s000009",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Introducing key figures in consequentialism: Mill and Bentham."
+    },
+    {
+      "sid": "s000010",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Connecting consequentialism to utilitarianism."
+    },
+    {
+      "sid": "s000011",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Stating the core idea of utilitarianism."
+    },
+    {
+      "sid": "s000012",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Explaining the concept of maximizing utility."
+    },
+    {
+      "sid": "s000013",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Defining utilitarianism as maximizing general good."
+    },
+    {
+      "sid": "s000014",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining the link between actions, happiness, and good outcomes."
+    },
+    {
+      "sid": "s000015",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Defining pain as the opposite of happiness in utilitarianism."
+    },
+    {
+      "sid": "s000016",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Describing the calculation of pleasure versus pain."
+    },
+    {
+      "sid": "s000017",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Highlighting Bentham's principle of equal treatment for all individuals."
+    },
+    {
+      "sid": "s000018",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Illustrating the equal weighting of individual happiness."
+    },
+    {
+      "sid": "s000019",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Reinforcing the principle of equal importance of each person's happiness."
+    },
+    {
+      "sid": "s000020",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Transitioning to a related point about decision-making."
+    },
+    {
+      "sid": "s000021",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Stating a principle about overall happiness."
+    },
+    {
+      "sid": "s000022",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Clarifying the focus on overall happiness, not individual preference."
+    },
+    {
+      "sid": "s000023",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Discussing utilitarianism's potential to provide concrete ethical guidance."
+    },
+    {
+      "sid": "s000024",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining the process of judging actions based on outcomes."
+    },
+    {
+      "sid": "s000025",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Identifying the difficulty in quantifying positive and negative outcomes."
+    },
+    {
+      "sid": "s000026",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Questioning the quantification of pleasure versus pain across individuals."
+    },
+    {
+      "sid": "s000027",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Posing the challenge of quantifying utility."
+    },
+    {
+      "sid": "s000028",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Highlighting the difficulty in defining individual utility."
+    },
+    {
+      "sid": "s000029",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Introducing common arguments against utilitarianism: minority rights."
+    },
+    {
+      "sid": "s000030",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining how majority benefit can outweigh minority harm."
+    },
+    {
+      "sid": "s000031",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Discussing Bentham's stance on slavery and utilitarianism's potential justification."
+    },
+    {
+      "sid": "s000032",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Mentioning Bentham's counter-argument regarding cost to one's soul."
+    },
+    {
+      "sid": "s000033",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Elaborating on the concept of moral cost of cruel actions."
+    },
+    {
+      "sid": "s000034",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Describing Bentham's attempt to reconcile his views."
+    },
+    {
+      "sid": "s000035",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Stating the problem of justifying cruel actions with good outcomes."
+    },
+    {
+      "sid": "s000036",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Mentioning historical examples of questionable outcomes."
+    },
+    {
+      "sid": "s000037",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Posing the question of whether the action itself was good."
+    },
+    {
+      "sid": "s000038",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Raising the question of inherently unethical actions."
+    },
+    {
+      "sid": "s000039",
+      "role": "chitchat",
+      "role_score": 0.9,
+      "role_reason": "Checking for student understanding."
+    },
+    {
+      "sid": "s000040",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor asking for questions about utilitarianism."
+    },
+    {
+      "sid": "s000041",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Concluding remarks on utilitarianism and resources."
+    },
+    {
+      "sid": "s000042",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Introducing the deontological ethical framework."
+    },
+    {
+      "sid": "s000043",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Defining deontological thinking as duty or obligation-based."
+    },
+    {
+      "sid": "s000044",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Contrasting deontology with utilitarianism regarding focus."
+    },
+    {
+      "sid": "s000045",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Highlighting intent as the focus in deontology."
+    },
+    {
+      "sid": "s000046",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining the judgment of actions based on intent before outcome."
+    },
+    {
+      "sid": "s000047",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Discussing the challenge of judging actions as inherently good or bad."
+    },
+    {
+      "sid": "s000048",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Posing the question of how to determine good and bad actions."
+    },
+    {
+      "sid": "s000049",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Mentioning societal approaches to determining right and wrong."
+    },
+    {
+      "sid": "s000050",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Introducing contractarianism as a deontological approach."
+    },
+    {
+      "sid": "s000051",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining the idea of cooperation and mutual benefit."
+    },
+    {
+      "sid": "s000052",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Comparing contractarianism to the golden rule and social contract."
+    },
+    {
+      "sid": "s000053",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Discussing political structures and societal benefit."
+    },
+    {
+      "sid": "s000054",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Short interjection."
+    },
+    {
+      "sid": "s000055",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Acknowledging debate on the effectiveness of contractarianism."
+    },
+    {
+      "sid": "s000056",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Introducing divine command theory."
+    },
+    {
+      "sid": "s000057",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining commandments from a higher power."
+    },
+    {
+      "sid": "s000058",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Describing a divine figure making moral decisions."
+    },
+    {
+      "sid": "s000059",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Mentioning Socrates."
+    },
+    {
+      "sid": "s000060",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Correcting the mention of Socrates."
+    },
+    {
+      "sid": "s000061",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Identifying the person who raised the question."
+    },
+    {
+      "sid": "s000062",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Stating Plato wrote about Socrates and the dilemma."
+    },
+    {
+      "sid": "s000063",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Introducing the Euthyphro dilemma."
+    },
+    {
+      "sid": "s000064",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining the Euthyphro dilemma: inherent goodness vs. divine command."
+    },
+    {
+      "sid": "s000065",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Posing the second part of the Euthyphro dilemma."
+    },
+    {
+      "sid": "s000066",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining Plato's reasoning if goodness is inherent."
+    },
+    {
+      "sid": "s000067",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Questioning the need for divine command if goodness is inherent."
+    },
+    {
+      "sid": "s000068",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Suggesting direct understanding of inherent goodness."
+    },
+    {
+      "sid": "s000069",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Presenting the alternative in the Euthyphro dilemma."
+    },
+    {
+      "sid": "s000070",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Describing the arbitrariness of divine command."
+    },
+    {
+      "sid": "s000071",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Concluding that morality becomes arbitrary."
+    },
+    {
+      "sid": "s000072",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Stating the dilemma remains undecided."
+    },
+    {
+      "sid": "s000073",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Introducing human reason as a source of ethics."
+    },
+    {
+      "sid": "s000074",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining natural law and guiding principles."
+    },
+    {
+      "sid": "s000075",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Mentioning Kant's approach within deontology."
+    },
+    {
+      "sid": "s000076",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Introducing Kant's two imperatives."
+    },
+    {
+      "sid": "s000077",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Defining the hypothetical imperative."
+    },
+    {
+      "sid": "s000078",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining conditional decision-making."
+    },
+    {
+      "sid": "s000079",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Highlighting the challenge of applying hypothetical imperatives."
+    },
+    {
+      "sid": "s000080",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Introducing the categorical imperative as stronger."
+    },
+    {
+      "sid": "s000081",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Defining the categorical imperative as unconditional."
+    },
+    {
+      "sid": "s000082",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Stating the two basic principles of the categorical imperative."
+    },
+    {
+      "sid": "s000083",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Introducing the principle of universality."
+    },
+    {
+      "sid": "s000084",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining acting universally regardless of circumstances."
+    },
+    {
+      "sid": "s000085",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Stating hypothetical conditions should not change the imperative."
+    },
+    {
+      "sid": "s000086",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Defining the categorical imperative as a universal law."
+    },
+    {
+      "sid": "s000087",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Introducing the second objective: humanity."
+    },
+    {
+      "sid": "s000088",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining treating humanity as an end, not a means."
+    },
+    {
+      "sid": "s000089",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Discussing the challenge of identifying categorical imperatives."
+    },
+    {
+      "sid": "s000090",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Giving an example: the imperative not to lie."
+    },
+    {
+      "sid": "s000091",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Describing the ease of following a clear imperative."
+    },
+    {
+      "sid": "s000092",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Acknowledging the complexity in certain situations."
+    },
+    {
+      "sid": "s000093",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Introducing a challenge to Kant's ethics."
+    },
+    {
+      "sid": "s000094",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Describing the murderer at the door scenario."
+    },
+    {
+      "sid": "s000095",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining Kant's refusal to lie, even in this situation."
+    },
+    {
+      "sid": "s000096",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Reinforcing Kant's view on not letting outcomes influence duty."
+    },
+    {
+      "sid": "s000097",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Emphasizing duty over personal relationships."
+    },
+    {
+      "sid": "s000098",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Identifying rigidity as a weakness of Kantian ethics."
+    },
+    {
+      "sid": "s000099",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Questioning the universality of many imperatives."
+    },
+    {
+      "sid": "s000100",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Highlighting the problem of conflicting duties."
+    },
+    {
+      "sid": "s000101",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Giving an example of conflicting duties: respect vs. honesty."
+    },
+    {
+      "sid": "s000102",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Describing the difficulty in resolving conflicting duties."
+    },
+    {
+      "sid": "s000103",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Criticizing the focus solely on intentions over outcomes."
+    },
+    {
+      "sid": "s000104",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining the difficulty of ignoring outcomes in ethical strategy."
+    },
+    {
+      "sid": "s000105",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Stating the lack of clear definition for ethical behaviors."
+    },
+    {
+      "sid": "s000106",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor asking for questions on deontological thinking, especially Kant."
+    },
+    {
+      "sid": "s000107",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Summarizing the interplay between action quality and results."
+    },
+    {
+      "sid": "s000108",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Contrasting deontology (action caliber) and consequentialism (results)."
+    },
+    {
+      "sid": "s000109",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Announcing the introduction of the third ethical framework."
+    },
+    {
+      "sid": "s000110",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Stating the intention to apply frameworks to examples."
+    },
+    {
+      "sid": "s000111",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Introducing virtue ethics."
+    },
+    {
+      "sid": "s000112",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Mentioning key figures in virtue ethics: Aristotle, Confucius."
+    },
+    {
+      "sid": "s000113",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Defining virtue ethics based on human character and virtues."
+    },
+    {
+      "sid": "s000114",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Connecting virtues to happy and fulfilling lives."
+    },
+    {
+      "sid": "s000115",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining the role of practicing virtues."
+    },
+    {
+      "sid": "s000116",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Using exercise as an analogy for practicing virtue."
+    },
+    {
+      "sid": "s000117",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Describing how practicing virtue enhances likelihood of good outcomes."
+    },
+    {
+      "sid": "s000118",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Announcing the transition to examples."
+    },
+    {
+      "sid": "s000119",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Introducing the concept of the mean in virtue ethics."
+    },
+    {
+      "sid": "s000120",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Mentioning Confucius' 'doctrine of mean'."
+    },
+    {
+      "sid": "s000121",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Mentioning Aristotle's 'golden mean'."
+    },
+    {
+      "sid": "s000122",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining deficiency and excess of virtues."
+    },
+    {
+      "sid": "s000123",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Defining the goal as finding the middle ground."
+    },
+    {
+      "sid": "s000124",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Using bravery as an example of the mean."
+    },
+    {
+      "sid": "s000125",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Stating the need for a medium between extremes."
+    },
+    {
+      "sid": "s000126",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Highlighting the difficulty in defining the medium."
+    },
+    {
+      "sid": "s000127",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Posing the question of how to find the medium."
+    },
+    {
+      "sid": "s000128",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Mentioning Aristotle and Confucius' approaches to finding the mean."
+    },
+    {
+      "sid": "s000129",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Listing examples of virtues."
+    },
+    {
+      "sid": "s000130",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Providing examples of virtues: courage, friendliness, temperance, generosity."
+    },
+    {
+      "sid": "s000131",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining the goal of finding the midpoint between extremes."
+    },
+    {
+      "sid": "s000132",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Sharing a personal anecdote about finding a middle ground."
+    },
+    {
+      "sid": "s000133",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Illustrating the flaw in a simplistic 'middle ground' argument."
+    },
+    {
+      "sid": "s000134",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Acknowledging the validity of the middle ground concept in some cases."
+    },
+    {
+      "sid": "s000135",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Reiterating the virtue ethics goal of finding a midpoint."
+    },
+    {
+      "sid": "s000136",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Introducing an example from a childhood game, Ultima."
+    },
+    {
+      "sid": "s000137",
+      "role": "chitchat",
+      "role_score": 0.8,
+      "role_reason": "Self-deprecating humor about age."
+    },
+    {
+      "sid": "s000138",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Describing the game Ultima and its world."
+    },
+    {
+      "sid": "s000139",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Mentioning the game's creator included himself as a character."
+    },
+    {
+      "sid": "s000140",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Clarifying the creator's in-game presence."
+    },
+    {
+      "sid": "s000141",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Describing the destructive gameplay that became popular."
+    },
+    {
+      "sid": "s000142",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "The creator's realization that the game was not inspiring virtue."
+    },
+    {
+      "sid": "s000143",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "The creator questioning his game design."
+    },
+    {
+      "sid": "s000144",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Further questioning of the game's negative influence."
+    },
+    {
+      "sid": "s000145",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Mentioning the creator's subsequent changes to the game."
+    },
+    {
+      "sid": "s000146",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Contrasting the old 'win at all costs' approach."
+    },
+    {
+      "sid": "s000147",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Stating the creator embraced virtues in the game."
+    },
+    {
+      "sid": "s000148",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Describing the implementation of a virtue system."
+    },
+    {
+      "sid": "s000149",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Listing the virtues incorporated into the game."
+    },
+    {
+      "sid": "s000150",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining how player performance was judged."
+    },
+    {
+      "sid": "s000151",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Giving an example of judging dishonorable actions."
+    },
+    {
+      "sid": "s000152",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Giving an example of judging honorable actions."
+    },
+    {
+      "sid": "s000153",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Positive affirmation of the example."
+    },
+    {
+      "sid": "s000154",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Providing another example of a virtuous action in the game."
+    },
+    {
+      "sid": "s000155",
+      "role": "chitchat",
+      "role_score": 0.8,
+      "role_reason": "Expressing surprise at the game's feature."
+    },
+    {
+      "sid": "s000156",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Summarizing the game's aim to employ virtue ethics."
+    },
+    {
+      "sid": "s000157",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Introducing the concept of virtue taken to an extreme."
+    },
+    {
+      "sid": "s000158",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Short interjection."
+    },
+    {
+      "sid": "s000159",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Giving an example of virtue taken too far (generosity)."
+    },
+    {
+      "sid": "s000160",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Mentioning the challenge of interfacing virtues across cultures."
+    },
+    {
+      "sid": "s000161",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Positive comment on the game's approach."
+    },
+    {
+      "sid": "s000162",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Connecting virtue systems to modern games like Baldur's Gate."
+    },
+    {
+      "sid": "s000163",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Highlighting Ultima as an early canonical example of virtue ethics."
+    },
+    {
+      "sid": "s000164",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Summarizing the strengths of virtue ethics: aspirational guidance."
+    },
+    {
+      "sid": "s000165",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Giving examples of desired virtues."
+    },
+    {
+      "sid": "s000166",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Identifying the challenge of finding the middle ground."
+    },
+    {
+      "sid": "s000167",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Highlighting the difficulty in choosing between midpoints."
+    },
+    {
+      "sid": "s000168",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Using bravery as an example of difficult fine-tuning."
+    },
+    {
+      "sid": "s000169",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Concluding that fine decisions in virtue are difficult."
+    },
+    {
+      "sid": "s000170",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Mentioning the difficulty of cross-cultural virtue principles."
+    },
+    {
+      "sid": "s000171",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Acknowledging the challenges of virtue ethics."
+    },
+    {
+      "sid": "s000172",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Stating there is a clear difference between frameworks."
+    },
+    {
+      "sid": "s000173",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Qualifying the clarity of the difference."
+    },
+    {
+      "sid": "s000174",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Contrasting virtue ethics with deontological thinking."
+    },
+    {
+      "sid": "s000175",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining deontology's focus on general imperatives vs. virtue ethics."
+    },
+    {
+      "sid": "s000176",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Defining virtue ethics' focus on character."
+    },
+    {
+      "sid": "s000177",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining decision-making aligned with character."
+    },
+    {
+      "sid": "s000178",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Posing a question about lying and compassion."
+    },
+    {
+      "sid": "s000179",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining how lying can serve compassion, conflicting with deontology."
+    },
+    {
+      "sid": "s000180",
+      "role": "chitchat",
+      "role_score": 0.9,
+      "role_reason": "Checking for student understanding."
+    },
+    {
+      "sid": "s000181",
+      "role": "chitchat",
+      "role_score": 0.8,
+      "role_reason": "Humorous, off-topic remark."
+    },
+    {
+      "sid": "s000182",
+      "role": "chitchat",
+      "role_score": 0.8,
+      "role_reason": "Concluding remark."
+    },
+    {
+      "sid": "s000183",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Introducing a spectrum of ethical ideologies."
+    },
+    {
+      "sid": "s000184",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Mentioning an attempt to categorize ethical frameworks."
+    },
+    {
+      "sid": "s000185",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Introducing two dimensions for categorization."
+    },
+    {
+      "sid": "s000186",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Introducing relativism."
+    },
+    {
+      "sid": "s000187",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Defining high relativism as rejecting universal moral rules."
+    },
+    {
+      "sid": "s000188",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining the situational nature of morality."
+    },
+    {
+      "sid": "s000189",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Clarifying that morality is relative to the situation."
+    },
+    {
+      "sid": "s000190",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Self-correction regarding relativism."
+    },
+    {
+      "sid": "s000191",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Correcting the definition of low relativism."
+    },
+    {
+      "sid": "s000192",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Defining high relativism again."
+    },
+    {
+      "sid": "s000193",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Stating high relativism rejects universal moral rules."
+    },
+    {
+      "sid": "s000194",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining morality is relative to situation and time."
+    },
+    {
+      "sid": "s000195",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Stating Kant would not embrace relativism."
+    },
+    {
+      "sid": "s000196",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Reiterating Kant's opposition to relativism."
+    },
+    {
+      "sid": "s000197",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Defining low relativism as using moral absolutes."
+    },
+    {
+      "sid": "s000198",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining universal application of moral judgments."
+    },
+    {
+      "sid": "s000199",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Introducing the second axis: idealism."
+    },
+    {
+      "sid": "s000200",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Defining high idealism: right action guarantees right outcome."
+    },
+    {
+      "sid": "s000201",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Describing high idealism as unrealistic."
+    },
+    {
+      "sid": "s000202",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Defining low idealism: actions have mixed outcomes."
+    },
+    {
+      "sid": "s000203",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining the unpredictable nature of outcomes."
+    },
+    {
+      "sid": "s000204",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Classifying discussed frameworks as low relativism."
+    },
+    {
+      "sid": "s000205",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Highlighting differences in idealism among frameworks."
+    },
+    {
+      "sid": "s000206",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Classifying deontology and virtue ethics as high idealism."
+    },
+    {
+      "sid": "s000207",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Classifying utilitarianism as low idealism and low relativity."
+    },
+    {
+      "sid": "s000208",
+      "role": "chitchat",
+      "role_score": 0.9,
+      "role_reason": "Checking for student understanding."
+    },
+    {
+      "sid": "s000209",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Mentioning other ethical approaches exist."
+    },
+    {
+      "sid": "s000210",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Introducing situational ethics and its focus on love."
+    },
+    {
+      "sid": "s000211",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Classifying situational ethics as high relativism."
+    },
+    {
+      "sid": "s000212",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining situational ethics' focus on specific choices for love."
+    },
+    {
+      "sid": "s000213",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Introducing ethical egoism."
+    },
+    {
+      "sid": "s000214",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Defining ethical egoism as acting in self-interest."
+    },
+    {
+      "sid": "s000215",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Classifying ethical egoism as low idealism."
+    },
+    {
+      "sid": "s000216",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining ethical egoism's acceptance of varied outcomes."
+    },
+    {
+      "sid": "s000217",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Transitioning to examples."
+    },
+    {
+      "sid": "s000218",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Announcing the discussion of three outcomes."
+    },
+    {
+      "sid": "s000219",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Mentioning the iterative nature of ethical development."
+    },
+    {
+      "sid": "s000220",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Stating an intention to go slightly off-topic."
+    },
+    {
+      "sid": "s000221",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining the purpose of the off-topic example."
+    },
+    {
+      "sid": "s000222",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Introducing the Robin Hood example."
+    },
+    {
+      "sid": "s000223",
+      "role": "chitchat",
+      "role_score": 0.8,
+      "role_reason": "Commentary on a specific version of Robin Hood."
+    },
+    {
+      "sid": "s000224",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Describing Robin Hood's actions: redistribution of wealth."
+    },
+    {
+      "sid": "s000225",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Listing Robin Hood's positive attributes: skilled, courageous, crafty."
+    },
+    {
+      "sid": "s000226",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Setting up the ethical judgment of Robin Hood."
+    },
+    {
+      "sid": "s000227",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining the origin of the image used."
+    },
+    {
+      "sid": "s000228",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor posing a question about judging Robin Hood."
+    },
+    {
+      "sid": "s000229",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Asking for judgment from a deontological perspective."
+    },
+    {
+      "sid": "s000230",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Describing Robin Hood's actions for judgment."
+    },
+    {
+      "sid": "s000231",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Specifying the deontological framework (Kantian ethics)."
+    },
+    {
+      "sid": "s000232",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Asking what Kant would say."
+    },
+    {
+      "sid": "s000233",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student's initial response about Kant's disapproval."
+    },
+    {
+      "sid": "s000234",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student explaining Kant's focus on general cases, not relative impact."
+    },
+    {
+      "sid": "s000235",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student stating Kant wouldn't consider means justifying the end."
+    },
+    {
+      "sid": "s000236",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Affirmation of the student's point."
+    },
+    {
+      "sid": "s000237",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining the use of violence as a tool."
+    },
+    {
+      "sid": "s000238",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Stating Kant would likely disapprove of stealing."
+    },
+    {
+      "sid": "s000239",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Suggesting not stealing is a categorical imperative."
+    },
+    {
+      "sid": "s000240",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining the universal application of the 'no stealing' rule."
+    },
+    {
+      "sid": "s000241",
+      "role": "chitchat",
+      "role_score": 0.9,
+      "role_reason": "Checking for student understanding."
+    },
+    {
+      "sid": "s000242",
+      "role": "chitchat",
+      "role_score": 0.8,
+      "role_reason": "Affirmation."
+    },
+    {
+      "sid": "s000243",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Asking for judgment from a utilitarian perspective."
+    },
+    {
+      "sid": "s000244",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor asking for judgment from a utilitarian perspective."
+    },
+    {
+      "sid": "s000245",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Affirmation."
+    },
+    {
+      "sid": "s000246",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student's response about happiness."
+    },
+    {
+      "sid": "s000247",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student's response about happiness."
+    },
+    {
+      "sid": "s000248",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor's comment on the wealthy's happiness."
+    },
+    {
+      "sid": "s000249",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Affirmation."
+    },
+    {
+      "sid": "s000250",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Asking how to evaluate Robin Hood algebraically."
+    },
+    {
+      "sid": "s000251",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Presenting the utilitarian argument for Robin Hood's actions."
+    },
+    {
+      "sid": "s000252",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining the calculation of happiness gain vs. pain cost."
+    },
+    {
+      "sid": "s000253",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Acknowledging the possibility of this utilitarian judgment."
+    },
+    {
+      "sid": "s000254",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor asking for further comments on the utilitarian view."
+    },
+    {
+      "sid": "s000255",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Presenting Mill's potential utilitarian argument regarding needs."
+    },
+    {
+      "sid": "s000256",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Concluding that utilitarians might judge Robin Hood positively."
+    },
+    {
+      "sid": "s000257",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Asking for judgment from a virtue ethics perspective."
+    },
+    {
+      "sid": "s000258",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Asking for ideas on virtue ethics judgment of Robin Hood."
+    },
+    {
+      "sid": "s000259",
+      "role": "lecture",
+      "role_reason": "Explaining Robin Hood's potential virtuous actions."
+    },
+    {
+      "sid": "s000260",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Identifying courage and lack of recklessness."
+    },
+    {
+      "sid": "s000261",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Describing courage without recklessness."
+    },
+    {
+      "sid": "s000262",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Mentioning not putting himself in excessive danger."
+    },
+    {
+      "sid": "s000263",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Highlighting mercy and toughness on excess."
+    },
+    {
+      "sid": "s000264",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Describing generosity and giving to the poor."
+    },
+    {
+      "sid": "s000265",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Concluding that Robin Hood exhibits virtuous traits."
+    },
+    {
+      "sid": "s000266",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor asking for questions on the frameworks discussed."
+    },
+    {
+      "sid": "s000267",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Asking students to consider the Robin Hood case."
+    },
+    {
+      "sid": "s000268",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Emphasizing frameworks are tools for thinking."
+    },
+    {
+      "sid": "s000269",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Stating frameworks are not the final solution."
+    },
+    {
+      "sid": "s000270",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining personal decision-making based on frameworks and information."
+    },
+    {
+      "sid": "s000271",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Describing frameworks as a way to formalize thinking."
+    },
+    {
+      "sid": "s000272",
+      "role": "chitchat",
+      "role_score": 0.9,
+      "role_reason": "Asking for a show of hands for option A."
+    },
+    {
+      "sid": "s000273",
+      "role": "chitchat",
+      "role_score": 0.9,
+      "role_reason": "Asking for a show of hands for option B."
+    },
+    {
+      "sid": "s000274",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Identifying students who chose the utilitarian option."
+    },
+    {
+      "sid": "s000275",
+      "role": "chitchat",
+      "role_score": 0.8,
+      "role_reason": "Affirmation."
+    },
+    {
+      "sid": "s000276",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Identifying students who chose the virtue ethics option."
+    },
+    {
+      "sid": "s000277",
+      "role": "chitchat",
+      "role_score": 0.9,
+      "role_reason": "Asking for a show of hands for option D."
+    },
+    {
+      "sid": "s000278",
+      "role": "chitchat",
+      "role_score": 0.9,
+      "role_reason": "Humorous suggestion for those choosing D."
+    },
+    {
+      "sid": "s000279",
+      "role": "chitchat",
+      "role_score": 0.9,
+      "role_reason": "Asking for a show of hands for option E and acknowledging."
+    },
+    {
+      "sid": "s000280",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Transitioning to a new example."
+    },
+    {
+      "sid": "s000281",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Announcing the next topic: computing."
+    },
+    {
+      "sid": "s000282",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Introducing the topic of computing ethics."
+    },
+    {
+      "sid": "s000283",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Presenting the example of social media data collection."
+    },
+    {
+      "sid": "s000284",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Exclamation, continuing previous thought about data collection."
+    },
+    {
+      "sid": "s000285",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining potential benefits of data collection for user."
+    },
+    {
+      "sid": "s000286",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Continuing explanation of data collection benefits."
+    },
+    {
+      "sid": "s000287",
+      "role": "chitchat",
+      "role_score": 0.7,
+      "role_reason": "Sarcastic exclamation, not core lecture content."
+    },
+    {
+      "sid": "s000288",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Introducing the negative aspects of data collection."
+    },
+    {
+      "sid": "s000289",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Continuing explanation of privacy concerns."
+    },
+    {
+      "sid": "s000290",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Posing a question about judging the ethics of data collection."
+    },
+    {
+      "sid": "s000291",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Direct question asking for ethical framework application."
+    },
+    {
+      "sid": "s000292",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Follow-up question to gauge opinion on data collection ethics."
+    },
+    {
+      "sid": "s000293",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Soliciting comments from students."
+    },
+    {
+      "sid": "s000294",
+      "role": "qa",
+      "role_score": 0.7,
+      "role_reason": "Acknowledging a student's intent to speak."
+    },
+    {
+      "sid": "s000295",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student question about consent in data collection."
+    },
+    {
+      "sid": "s000296",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor's response, setting up a scenario about consent forms."
+    },
+    {
+      "sid": "s000297",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Elaborating on the typical user behavior with consent forms."
+    },
+    {
+      "sid": "s000298",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Continuing the scenario about not reading terms."
+    },
+    {
+      "sid": "s000299",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Concluding the point about disclosure and user awareness."
+    },
+    {
+      "sid": "s000300",
+      "role": "qa",
+      "role_score": 0.8,
+      "role_reason": "Prompting for further discussion or answers."
+    },
+    {
+      "sid": "s000301",
+      "role": "qa",
+      "role_score": 0.7,
+      "role_reason": "Acknowledging someone is about to speak."
+    },
+    {
+      "sid": "s000302",
+      "role": "qa",
+      "role_score": 0.8,
+      "role_reason": "Encouraging student participation."
+    },
+    {
+      "sid": "s000303",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Student's response, applying utilitarianism to data collection."
+    },
+    {
+      "sid": "s000304",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Adding nuance to the ethical consideration based on use case."
+    },
+    {
+      "sid": "s000305",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Proposing anonymity as a condition for ethical data collection."
+    },
+    {
+      "sid": "s000306",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor's response, clarifying the anonymization aspect."
+    },
+    {
+      "sid": "s000307",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Continuing the discussion on data use and app improvement."
+    },
+    {
+      "sid": "s000308",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Connecting data use to overall utility."
+    },
+    {
+      "sid": "s000309",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Student reiterating the importance of the use case for ethics."
+    },
+    {
+      "sid": "s000310",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Summarizing the utilitarian perspective on data collection benefits."
+    },
+    {
+      "sid": "s000311",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Transitioning to legal considerations."
+    },
+    {
+      "sid": "s000312",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Acknowledging the previous point."
+    },
+    {
+      "sid": "s000313",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Student introducing the likelihood of misuse as an ethical factor."
+    },
+    {
+      "sid": "s000314",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Elaborating on the risk assessment based on historical misuse."
+    },
+    {
+      "sid": "s000315",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Continuing the discussion on historical data misuse."
+    },
+    {
+      "sid": "s000316",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor's response, framing the ethical decision based on past behavior."
+    },
+    {
+      "sid": "s000317",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining the rationale for proceeding with data collection."
+    },
+    {
+      "sid": "s000318",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Reiterating the principle of judging based on past failures."
+    },
+    {
+      "sid": "s000319",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Introducing the challenge of new technologies lacking past data."
+    },
+    {
+      "sid": "s000320",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Highlighting the common lack of historical data for new tech."
+    },
+    {
+      "sid": "s000321",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Student discussing privacy, anonymity, and company intent."
+    },
+    {
+      "sid": "s000322",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor posing a question about prioritizing outcome over intent."
+    },
+    {
+      "sid": "s000323",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Clarifying the question about focusing on the end result."
+    },
+    {
+      "sid": "s000324",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Presenting a hypothetical scenario to illustrate the point."
+    },
+    {
+      "sid": "s000325",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Expanding on the hypothetical scenario of data misuse."
+    },
+    {
+      "sid": "s000326",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Student expressing a preference for leniency based on intent."
+    },
+    {
+      "sid": "s000327",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining the rationale for leniency based on fixing mistakes."
+    },
+    {
+      "sid": "s000328",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Contrasting leniency for fixing mistakes versus negligence."
+    },
+    {
+      "sid": "s000329",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Professor's acknowledgement of the student's point."
+    },
+    {
+      "sid": "s000330",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Summarizing the distinction between incompetence and malice."
+    },
+    {
+      "sid": "s000331",
+      "role": "chitchat",
+      "role_score": 0.7,
+      "role_reason": "Positive affirmation of the previous statement."
+    },
+    {
+      "sid": "s000332",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor transitioning to summarizing ethical frameworks."
+    },
+    {
+      "sid": "s000333",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining utilitarianism in the context of data collection."
+    },
+    {
+      "sid": "s000334",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Positive acknowledgement of the summary."
+    },
+    {
+      "sid": "s000335",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining deontology and the categorical imperative regarding privacy."
+    },
+    {
+      "sid": "s000336",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Continuing the deontological explanation about outcomes."
+    },
+    {
+      "sid": "s000337",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Emphasizing the importance of privacy in deontology."
+    },
+    {
+      "sid": "s000338",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Concluding the point about privacy's key role."
+    },
+    {
+      "sid": "s000339",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Introducing virtue ethics."
+    },
+    {
+      "sid": "s000340",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Listing virtues relevant to virtue ethics."
+    },
+    {
+      "sid": "s000341",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining the goal of finding a middle ground in virtue ethics."
+    },
+    {
+      "sid": "s000342",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Illustrating the middle ground with an example of data sharing."
+    },
+    {
+      "sid": "s000343",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Incomplete word, continuing previous sentence."
+    },
+    {
+      "sid": "s000344",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Transitioning to other ethical approaches."
+    },
+    {
+      "sid": "s000345",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Introducing and defining the Communitarian approach."
+    },
+    {
+      "sid": "s000346",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Describing sources of wisdom in Communitarianism."
+    },
+    {
+      "sid": "s000347",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining community support and shared meaning."
+    },
+    {
+      "sid": "s000348",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Identifying a problem with Communitarianism: focusing on the collective."
+    },
+    {
+      "sid": "s000349",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Continuing the explanation of the collective focus."
+    },
+    {
+      "sid": "s000350",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining the potential negative impact on individuals."
+    },
+    {
+      "sid": "s000351",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Describing the issue with deviating from community norms."
+    },
+    {
+      "sid": "s000352",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Mentioning the social standing of elders in Communitarianism."
+    },
+    {
+      "sid": "s000353",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Stating that there are other ethical systems."
+    },
+    {
+      "sid": "s000354",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Listing examples of other ethical systems."
+    },
+    {
+      "sid": "s000355",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor stating the goal was an introduction to basic ethical systems."
+    },
+    {
+      "sid": "s000356",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Encouraging further exploration of ethical systems."
+    },
+    {
+      "sid": "s000357",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Announcing the intention to do more case studies."
+    },
+    {
+      "sid": "s000358",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining the purpose of case studies: gaining experience."
+    },
+    {
+      "sid": "s000359",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Transitioning to a new case study."
+    },
+    {
+      "sid": "s000360",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Setting up the scenario for the case study."
+    },
+    {
+      "sid": "s000361",
+      "role": "chitchat",
+      "role_score": 0.7,
+      "role_reason": "Congratulatory remark, not core lecture content."
+    },
+    {
+      "sid": "s000362",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Describing the role in the case study scenario."
+    },
+    {
+      "sid": "s000363",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Providing context about the product (pacemakers)."
+    },
+    {
+      "sid": "s000364",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Presenting the company president's request for feedback."
+    },
+    {
+      "sid": "s000365",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining the guarantee of anonymity for feedback."
+    },
+    {
+      "sid": "s000366",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Reiterating the company's promise of anonymized feedback."
+    },
+    {
+      "sid": "s000367",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Presenting a negative feedback response from an employee."
+    },
+    {
+      "sid": "s000368",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Describing the employee's stated method of retaliation."
+    },
+    {
+      "sid": "s000369",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Detailing the sabotage method."
+    },
+    {
+      "sid": "s000370",
+      "role": "chitchat",
+      "role_score": 0.7,
+      "role_reason": "Commentary on the severity of the situation."
+    },
+    {
+      "sid": "s000371",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "The president's instruction to the new employee."
+    },
+    {
+      "sid": "s000372",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor posing a question to the class about the scenario."
+    },
+    {
+      "sid": "s000373",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Professor's assessment of the problem's clarity."
+    },
+    {
+      "sid": "s000374",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Giving students time to think about their answers."
+    },
+    {
+      "sid": "s000375",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Presenting one possible action: finding and reporting the saboteur."
+    },
+    {
+      "sid": "s000376",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Questioning the stakes involved in the scenario."
+    },
+    {
+      "sid": "s000377",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Presenting another possible action: refusing to cooperate."
+    },
+    {
+      "sid": "s000378",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining the ethical argument for refusing to cooperate."
+    },
+    {
+      "sid": "s000379",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Presenting a third option: feigning incompetence."
+    },
+    {
+      "sid": "s000380",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Describing the professor's personal approach to a similar situation."
+    },
+    {
+      "sid": "s000381",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Continuing the personal anecdote."
+    },
+    {
+      "sid": "s000382",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Describing the potential legal consequences for the company."
+    },
+    {
+      "sid": "s000383",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Suggesting quitting as an option."
+    },
+    {
+      "sid": "s000384",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Assessing the effectiveness of quitting in this scenario."
+    },
+    {
+      "sid": "s000385",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Presenting another option: finding the saboteur and exploiting no one."
+    },
+    {
+      "sid": "s000386",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor's assessment of the previous option."
+    },
+    {
+      "sid": "s000387",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor asking for a show of hands for option A."
+    },
+    {
+      "sid": "s000388",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Reporting the results of the poll for option A."
+    },
+    {
+      "sid": "s000389",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Acknowledging the poll result."
+    },
+    {
+      "sid": "s000390",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Emphasizing the seriousness of the ethical dilemma."
+    },
+    {
+      "sid": "s000391",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor asking for justification for the chosen answer."
+    },
+    {
+      "sid": "s000392",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Clarifying the question about the correctness of the answer."
+    },
+    {
+      "sid": "s000393",
+      "role": "qa",
+      "role_score": 0.7,
+      "role_reason": "Student agreeing with the professor's assessment."
+    },
+    {
+      "sid": "s000394",
+      "role": "qa",
+      "role_score": 0.7,
+      "role_reason": "Acknowledging agreement."
+    },
+    {
+      "sid": "s000395",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Student explaining their reasoning for reporting the saboteur."
+    },
+    {
+      "sid": "s000396",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Professor acknowledging the student's reasoning."
+    },
+    {
+      "sid": "s000397",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor raising a counter-argument about the slippery slope."
+    },
+    {
+      "sid": "s000398",
+      "role": "qa",
+      "role_score": 0.7,
+      "role_reason": "Acknowledging the counter-argument."
+    },
+    {
+      "sid": "s000399",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Professor acknowledging the complexity of the issue."
+    },
+    {
+      "sid": "s000400",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Student proposing an alternative approach to the problem."
+    },
+    {
+      "sid": "s000401",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Elaborating on the alternative approach: asking for voluntary disclosure."
+    },
+    {
+      "sid": "s000402",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Continuing the explanation of the alternative approach."
+    },
+    {
+      "sid": "s000403",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Asking how the company can fix the situation."
+    },
+    {
+      "sid": "s000404",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor's critique of the proposed alternative approach."
+    },
+    {
+      "sid": "s000405",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Incomplete word, continuing previous sentence."
+    },
+    {
+      "sid": "s000406",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Professor's acknowledgement of the difficulty."
+    },
+    {
+      "sid": "s000407",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor stating the toughness of the specific scenario."
+    },
+    {
+      "sid": "s000408",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor's assessment of the saboteur's likely behavior."
+    },
+    {
+      "sid": "s000409",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor posing a new question, linking to privacy and backdoors."
+    },
+    {
+      "sid": "s000410",
+      "role": "qa",
+      "role_score": 0.7,
+      "role_reason": "Acknowledging the previous point."
+    },
+    {
+      "sid": "s000411",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining the demand for a backdoor in Apple devices."
+    },
+    {
+      "sid": "s000412",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Identifying this as another privacy concern."
+    },
+    {
+      "sid": "s000413",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor asking students to define the line for privacy."
+    },
+    {
+      "sid": "s000414",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Student's answer: privacy is situation dependent."
+    },
+    {
+      "sid": "s000415",
+      "role": "chitchat",
+      "role_score": 0.7,
+      "role_reason": "Positive feedback on the student's answer."
+    },
+    {
+      "sid": "s000416",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor agreeing that privacy is situation dependent."
+    },
+    {
+      "sid": "s000417",
+      "role": "lecture",
+      "role_reason": "Student elaborating on situation dependency, prioritizing life over privacy."
+    },
+    {
+      "sid": "s000418",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Acknowledging the previous point."
+    },
+    {
+      "sid": "s000419",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Referring back to the saboteur scenario."
+    },
+    {
+      "sid": "s000420",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Continuing the discussion on the saboteur scenario."
+    },
+    {
+      "sid": "s000421",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining how the saboteur could indirectly cause death."
+    },
+    {
+      "sid": "s000422",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Continuing the discussion on the impact of faulty pacemakers."
+    },
+    {
+      "sid": "s000423",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Student concluding that harm to life outweighs privacy."
+    },
+    {
+      "sid": "s000424",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining the exception: when lack of privacy leads to harm to life."
+    },
+    {
+      "sid": "s000425",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Using the Apple backdoor example to illustrate the point."
+    },
+    {
+      "sid": "s000426",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining the fear behind the opposition to backdoors."
+    },
+    {
+      "sid": "s000427",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Clarifying that the concern is harm to life, not just privacy."
+    },
+    {
+      "sid": "s000428",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Acknowledging the previous point."
+    },
+    {
+      "sid": "s000429",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Comparing the impact of survey privacy vs. phone security."
+    },
+    {
+      "sid": "s000430",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Concluding the point about secure phones."
+    },
+    {
+      "sid": "s000431",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor asking for a show of hands for option B."
+    },
+    {
+      "sid": "s000432",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Acknowledging the poll result."
+    },
+    {
+      "sid": "s000433",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Reporting the result for option B (refuse to cooperate)."
+    },
+    {
+      "sid": "s000434",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor's comment on the boss's actions."
+    },
+    {
+      "sid": "s000435",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Positive feedback on the poll result."
+    },
+    {
+      "sid": "s000436",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor asking for a show of hands for option C."
+    },
+    {
+      "sid": "s000437",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Asking for a show of hands for option C (feign incompetence)."
+    },
+    {
+      "sid": "s000438",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Reporting the result for option C."
+    },
+    {
+      "sid": "s000439",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Professor's personal comment on the result."
+    },
+    {
+      "sid": "s000440",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Continuing the personal comment."
+    },
+    {
+      "sid": "s000441",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor asking for a show of hands for option D (quit)."
+    },
+    {
+      "sid": "s000442",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Interpreting the poll result for option D."
+    },
+    {
+      "sid": "s000443",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor asking for the reasoning behind choosing D over B."
+    },
+    {
+      "sid": "s000444",
+      "role": "qa",
+      "role_score": 0.8,
+      "role_reason": "Inviting students to share their reasoning."
+    },
+    {
+      "sid": "s000445",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Acknowledging student participation."
+    },
+    {
+      "sid": "s000446",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Acknowledging student participation."
+    },
+    {
+      "sid": "s000447",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Raising a point about quality control in the scenario."
+    },
+    {
+      "sid": "s000448",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor summarizing the students' prioritization of life over privacy."
+    },
+    {
+      "sid": "s000449",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Clarifying the comparison: life vs. individual privacy."
+    },
+    {
+      "sid": "s000450",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Incomplete word, continuing previous sentence."
+    },
+    {
+      "sid": "s000451",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Professor continuing the discussion."
+    },
+    {
+      "sid": "s000452",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Acknowledging the previous point."
+    },
+    {
+      "sid": "s000453",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Student questioning the evidence of faulty pacemakers."
+    },
+    {
+      "sid": "s000454",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Suggesting the saboteur's claim might be false."
+    },
+    {
+      "sid": "s000455",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Elaborating on the possibility of the claim being untrue."
+    },
+    {
+      "sid": "s000456",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Discussing the compromise of privacy if the claim is false."
+    },
+    {
+      "sid": "s000457",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining the saboteur's potential motive: venting frustration."
+    },
+    {
+      "sid": "s000458",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor's acknowledgement of the student's point."
+    },
+    {
+      "sid": "s000459",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Student raising a concern about setting a precedent."
+    },
+    {
+      "sid": "s000460",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Illustrating the precedent concern with an example of complaining about a boss."
+    },
+    {
+      "sid": "s000461",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Continuing the illustration of the precedent concern."
+    },
+    {
+      "sid": "s000462",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Student starting to express a condition."
+    },
+    {
+      "sid": "s000463",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Incomplete word, continuing previous sentence."
+    },
+    {
+      "sid": "s000464",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Incomplete word, continuing previous sentence."
+    },
+    {
+      "sid": "s000465",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Student discussing the case where the saboteur's claim is false."
+    },
+    {
+      "sid": "s000466",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Incomplete word, continuing previous sentence."
+    },
+    {
+      "sid": "s000467",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor asking if it's important to find the saboteur regardless of the claim's truth."
+    },
+    {
+      "sid": "s000468",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining why the inspiration for the comment matters."
+    },
+    {
+      "sid": "s000469",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Stating that the source of the comment should be addressed."
+    },
+    {
+      "sid": "s000470",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor inviting further comments on the case study."
+    },
+    {
+      "sid": "s000471",
+      "role": "qa",
+      "role_score": 0.7,
+      "role_reason": "Acknowledging someone is about to speak."
+    },
+    {
+      "sid": "s000472",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Student sharing a related experience from a previous class."
+    },
+    {
+      "sid": "s000473",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining the decision to use a specific platform for the class."
+    },
+    {
+      "sid": "s000474",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Describing the TAs' recommendation for anonymity."
+    },
+    {
+      "sid": "s000475",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining the reasoning behind the TAs' recommendation."
+    },
+    {
+      "sid": "s000476",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Continuing the explanation of why students would ask more questions."
+    },
+    {
+      "sid": "s000477",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Student expressing initial reluctance towards anonymity."
+    },
+    {
+      "sid": "s000478",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Incomplete word, continuing previous sentence."
+    },
+    {
+      "sid": "s000479",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Distinguishing between anonymity among students and from the instructor."
+    },
+    {
+      "sid": "s000480",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Student's observation about peer opinions versus instructor's opinion."
+    },
+    {
+      "sid": "s000481",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Continuing the observation about peer influence."
+    },
+    {
+      "sid": "s000482",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Describing the compromise made: anonymous to students, visible to instructor."
+    },
+    {
+      "sid": "s000483",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining the TAs' argument for full anonymity."
+    },
+    {
+      "sid": "s000484",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Student's decision to implement full anonymity."
+    },
+    {
+      "sid": "s000485",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Describing the negative outcome: a flame war and racist comment."
+    },
+    {
+      "sid": "s000486",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Describing the discovery of the racist message."
+    },
+    {
+      "sid": "s000487",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Student's initial reaction and professional context."
+    },
+    {
+      "sid": "s000488",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Referring to their affiliation with UCLA."
+    },
+    {
+      "sid": "s000489",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Clarifying their employer."
+    },
+    {
+      "sid": "s000490",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Continuing to state their affiliation."
+    },
+    {
+      "sid": "s000491",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Expressing disapproval of racism."
+    },
+    {
+      "sid": "s000492",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Describing the dilemma: delete the message vs. address it."
+    },
+    {
+      "sid": "s000493",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Describing the action taken: deleting the message."
+    },
+    {
+      "sid": "s000494",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Describing how the message was leaked."
+    },
+    {
+      "sid": "s000495",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Describing the false accusation made about UCLA."
+    },
+    {
+      "sid": "s000496",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Stating the intention to address the class."
+    },
+    {
+      "sid": "s000497",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining the desire to address, not hide, the issue."
+    },
+    {
+      "sid": "s000498",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Clarifying the reason for not leaving the message visible."
+    },
+    {
+      "sid": "s000499",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Stating the desire to identify the student responsible."
+    },
+    {
+      "sid": "s000500",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Continuing the explanation of the desire to identify the student."
+    },
+    {
+      "sid": "s000501",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Describing the refusal to de-anonymize."
+    },
+    {
+      "sid": "s000502",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Specifying the refusal came from the platform provider."
+    },
+    {
+      "sid": "s000503",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Stating the platform refused to reveal the student's identity."
+    },
+    {
+      "sid": "s000504",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Student's reflection on the platform's decision."
+    },
+    {
+      "sid": "s000505",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor asking the class if the platform's choice was ethical."
+    },
+    {
+      "sid": "s000506",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Continuing the professor's question about the ethical choice."
+    },
+    {
+      "sid": "s000507",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Contrasting the situation with life-threatening scenarios."
+    },
+    {
+      "sid": "s000508",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Emphasizing that no one would die in this situation."
+    },
+    {
+      "sid": "s000509",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Describing the immediate action taken after the incident."
+    },
+    {
+      "sid": "s000510",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Stating the decision to disable anonymous posting."
+    },
+    {
+      "sid": "s000511",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Acknowledging steps taken to rectify the situation."
+    },
+    {
+      "sid": "s000512",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Student admitting a mistake in allowing anonymous posting initially."
+    },
+    {
+      "sid": "s000513",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor asking if the platform should have helped identify the student."
+    },
+    {
+      "sid": "s000514",
+      "role": "qa",
+      "role_score": 0.8,
+      "role_reason": "Professor asking for student opinions."
+    },
+    {
+      "sid": "s000515",
+      "role": "qa",
+      "role_score": 0.8,
+      "role_reason": "Student agreeing with the professor's implied stance."
+    },
+    {
+      "sid": "s000516",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Student explaining why the platform should have helped."
+    },
+    {
+      "sid": "s000517",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Agreement with the previous statement."
+    },
+    {
+      "sid": "s000518",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Professor acknowledging the student's agreement."
+    },
+    {
+      "sid": "s000519",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor clarifying the intent of the question."
+    },
+    {
+      "sid": "s000520",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Stating that agreement with the racist comment is not expected."
+    },
+    {
+      "sid": "s000521",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Reassuring students they won't be attacked for their opinions."
+    },
+    {
+      "sid": "s000522",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Clarifying the professor's stance on the issue."
+    },
+    {
+      "sid": "s000523",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Continuing the clarification."
+    },
+    {
+      "sid": "s000524",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor asking about the right to privacy in non-life-threatening situations."
+    },
+    {
+      "sid": "s000525",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Student arguing that anonymous privacy was a privilege misused."
+    },
+    {
+      "sid": "s000526",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Contrasting anonymous posts with in-class discussions."
+    },
+    {
+      "sid": "s000527",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Acknowledging the previous point."
+    },
+    {
+      "sid": "s000528",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Student arguing that there's no expectation of privacy for anonymous posts."
+    },
+    {
+      "sid": "s000529",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Suggesting privacy can be revoked for misconduct."
+    },
+    {
+      "sid": "s000530",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Student explaining their current approach to anonymous features."
+    },
+    {
+      "sid": "s000531",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Incomplete word, continuing previous sentence."
+    },
+    {
+      "sid": "s000532",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Acknowledging the previous point."
+    },
+    {
+      "sid": "s000533",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student asking the professor about their motivation."
+    },
+    {
+      "sid": "s000534",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student asking about the professor's intended action."
+    },
+    {
+      "sid": "s000535",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor explaining their reaction to the racist comment."
+    },
+    {
+      "sid": "s000536",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Continuing the explanation of the professor's reaction."
+    },
+    {
+      "sid": "s000537",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Stating the belief that the incident should be reported."
+    },
+    {
+      "sid": "s000538",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining the professor's policy on misconduct."
+    },
+    {
+      "sid": "s000539",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Describing the duty to report misconduct."
+    },
+    {
+      "sid": "s000540",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining the rationale for reporting the student's behavior."
+    },
+    {
+      "sid": "s000541",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Clarifying the professor's role is not to judge."
+    },
+    {
+      "sid": "s000542",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Stating that the dean handles the judgment."
+    },
+    {
+      "sid": "s000543",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Reflecting on the outcome of the situation."
+    },
+    {
+      "sid": "s000544",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Stating the inability to identify the student."
+    },
+    {
+      "sid": "s000545",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Confirming no student came forward."
+    },
+    {
+      "sid": "s000546",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Describing the action taken regarding anonymous posting."
+    },
+    {
+      "sid": "s000547",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Expressing uncertainty about the broader reaction."
+    },
+    {
+      "sid": "s000548",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Describing the professor's limited options."
+    },
+    {
+      "sid": "s000549",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Acknowledging the difficulty of the situation."
+    },
+    {
+      "sid": "s000550",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Expressing frustration about powerlessness in dealing with misconduct."
+    },
+    {
+      "sid": "s000551",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Describing the only available actions: deleting the message and disabling the feature."
+    },
+    {
+      "sid": "s000552",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Discussing the actions of others who might see the message."
+    },
+    {
+      "sid": "s000553",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Mentioning the first amendment right to disclose."
+    },
+    {
+      "sid": "s000554",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Expressing frustration about the inability to do more."
+    },
+    {
+      "sid": "s000555",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor inviting further comments on the situation."
+    },
+    {
+      "sid": "s000556",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Student starting to express a point about assumptions."
+    },
+    {
+      "sid": "s000557",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Continuing the point about assumptions regarding student behavior."
+    },
+    {
+      "sid": "s000558",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining the assumption of not being a horrible person."
+    },
+    {
+      "sid": "s000559",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor's ironic response to the assumption."
+    },
+    {
+      "sid": "s000560",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Student questioning the professor's statement."
+    },
+    {
+      "sid": "s000561",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Acknowledgement."
+    },
+    {
+      "sid": "s000562",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Student referring back to the desire to identify the student."
+    },
+    {
+      "sid": "s000563",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Discussing the company's role in sharing information."
+    },
+    {
+      "sid": "s000564",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Professor acknowledging understanding."
+    },
+    {
+      "sid": "s000565",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor stating they will share the company's response."
+    },
+    {
+      "sid": "s000566",
+      "role": "chitchat",
+      "role_score": 0.7,
+      "role_reason": "Joking remark, indicating the previous statement was not serious."
+    },
+    {
+      "sid": "s000567",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Starts a narrative example about a gray area."
+    },
+    {
+      "sid": "s000568",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Continues the narrative example about a gray area."
+    },
+    {
+      "sid": "s000569",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Introduces a specific example from a movie."
+    },
+    {
+      "sid": "s000570",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "References a quote from the movie."
+    },
+    {
+      "sid": "s000571",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Quotes a line from the movie."
+    },
+    {
+      "sid": "s000572",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Quotes a line from the movie."
+    },
+    {
+      "sid": "s000573",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Quotes a line from the movie."
+    },
+    {
+      "sid": "s000574",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Confirms understanding of the movie quote."
+    },
+    {
+      "sid": "s000575",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Explains how the movie quote was used in a real situation."
+    },
+    {
+      "sid": "s000576",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Explains the faculty member's reaction to the quote."
+    },
+    {
+      "sid": "s000577",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Continues explaining the misunderstanding."
+    },
+    {
+      "sid": "s000578",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Interprets the student's intent."
+    },
+    {
+      "sid": "s000579",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Acknowledges the student's humor."
+    },
+    {
+      "sid": "s000580",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Explains the faculty member's interpretation of the quote."
+    },
+    {
+      "sid": "s000581",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Describes the faculty member's reaction."
+    },
+    {
+      "sid": "s000582",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Explains the faculty member's lack of understanding."
+    },
+    {
+      "sid": "s000583",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Summarizes the situation as a misunderstanding."
+    },
+    {
+      "sid": "s000584",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Clarifies the student's intent was not a threat."
+    },
+    {
+      "sid": "s000585",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "States the faculty member's lack of knowledge."
+    },
+    {
+      "sid": "s000586",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Agrees that intent matters and there are gray areas."
+    },
+    {
+      "sid": "s000587",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "States the importance of intent."
+    },
+    {
+      "sid": "s000588",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Explains why the speaker doesn't make the final decision."
+    },
+    {
+      "sid": "s000589",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Describes the reporting procedure for cheating."
+    },
+    {
+      "sid": "s000590",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Mentions past cases of justifiable cheating."
+    },
+    {
+      "sid": "s000591",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Recounts a disappointing outcome with a cheating student."
+    },
+    {
+      "sid": "s000592",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Transitions to the next point."
+    },
+    {
+      "sid": "s000593",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Reiterates the speaker's role is reporting, not judging."
+    },
+    {
+      "sid": "s000594",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Explains the process after reporting."
+    },
+    {
+      "sid": "s000595",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Explains the reason for not judging due to potential bias."
+    },
+    {
+      "sid": "s000596",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Refers back to a previous example."
+    },
+    {
+      "sid": "s000597",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Describes the nature of the previous example."
+    },
+    {
+      "sid": "s000598",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Explains the student's use of anonymity."
+    },
+    {
+      "sid": "s000599",
+      "role": "chitchat",
+      "role_score": 0.7,
+      "role_reason": "Asks for other comments, signaling a transition."
+    },
+    {
+      "sid": "s000600",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Asks if they should share a specific story."
+    },
+    {
+      "sid": "s000601",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Agrees to tell the story."
+    },
+    {
+      "sid": "s000602",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Agrees to tell the story."
+    },
+    {
+      "sid": "s000603",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Begins a new anecdote about a past class."
+    },
+    {
+      "sid": "s000604",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Provides context about the class size."
+    },
+    {
+      "sid": "s000605",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Compares past class size to current experience."
+    },
+    {
+      "sid": "s000606",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Describes observing a student potentially cheating."
+    },
+    {
+      "sid": "s000607",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Specifies the student's location."
+    },
+    {
+      "sid": "s000608",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Describes the observed action."
+    },
+    {
+      "sid": "s000609",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Explains the speaker's mindset at the time."
+    },
+    {
+      "sid": "s000610",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Describes the speaker's initial reaction."
+    },
+    {
+      "sid": "s000611",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Expresses uncertainty."
+    },
+    {
+      "sid": "s000612",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Describes the plan to check the exam later."
+    },
+    {
+      "sid": "s000613",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "States the action taken."
+    },
+    {
+      "sid": "s000614",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Describes the finding on the exam."
+    },
+    {
+      "sid": "s000615",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Emphasizes the uniqueness of the wrong answer."
+    },
+    {
+      "sid": "s000616",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Compares the answer to another student's."
+    },
+    {
+      "sid": "s000617",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Provides specific details about the wrong answer."
+    },
+    {
+      "sid": "s000618",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Explains the reason for the wrong answer."
+    },
+    {
+      "sid": "s000619",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Reiterates the uniqueness of the error."
+    },
+    {
+      "sid": "s000620",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "States the conclusion drawn from the evidence."
+    },
+    {
+      "sid": "s000621",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Describes the student's work."
+    },
+    {
+      "sid": "s000622",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Explains the missing part in the student's work."
+    },
+    {
+      "sid": "s000623",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "States the speaker's strong belief about cheating."
+    },
+    {
+      "sid": "s000624",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "States the action taken after reporting."
+    },
+    {
+      "sid": "s000625",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Recounts the speaker's initial statement to the dean."
+    },
+    {
+      "sid": "s000626",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Explains the speaker's hesitation to cause trouble."
+    },
+    {
+      "sid": "s000627",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Reiterates the suspicion of cheating."
+    },
+    {
+      "sid": "s000628",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Describes the dean's investigation duration."
+    },
+    {
+      "sid": "s000629",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Describes the student's response."
+    },
+    {
+      "sid": "s000630",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Recounts the dean's question to the speaker."
+    },
+    {
+      "sid": "s000631",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Speaker's response to the dean."
+    },
+    {
+      "sid": "s000632",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Explains the reason for uncertainty."
+    },
+    {
+      "sid": "s000633",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Reiterates uncertainty."
+    },
+    {
+      "sid": "s000634",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Confirms the speaker's statement to the dean."
+    },
+    {
+      "sid": "s000635",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Describes the student's outcome and performance."
+    },
+    {
+      "sid": "s000636",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Explains why the student didn't cheat effectively."
+    },
+    {
+      "sid": "s000637",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "States the student's overall performance."
+    },
+    {
+      "sid": "s000638",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Explains the student was not penalized for cheating."
+    },
+    {
+      "sid": "s000639",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Reflects on the evidence required for cheating."
+    },
+    {
+      "sid": "s000640",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Recounts the student's explanation."
+    },
+    {
+      "sid": "s000641",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Questions the student's explanation."
+    },
+    {
+      "sid": "s000642",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Summarizes the experience with the cheating student."
+    },
+    {
+      "sid": "s000643",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "States other experiences were positive."
+    },
+    {
+      "sid": "s000644",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Asks for further questions."
+    },
+    {
+      "sid": "s000645",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Introduces another example of cheating."
+    },
+    {
+      "sid": "s000646",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Describes a specific cheating method."
+    },
+    {
+      "sid": "s000647",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Explains the cheating behavior."
+    },
+    {
+      "sid": "s000648",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Summarizes the described actions."
+    },
+    {
+      "sid": "s000649",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Expresses negative sentiment about the behavior."
+    },
+    {
+      "sid": "s000650",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Acknowledges the previous point."
+    },
+    {
+      "sid": "s000651",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Introduces a new case study."
+    },
+    {
+      "sid": "s000652",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Encourages students to review case studies."
+    },
+    {
+      "sid": "s000653",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Describes the context of the new case study."
+    },
+    {
+      "sid": "s000654",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Explains the situation with the medical device."
+    },
+    {
+      "sid": "s000655",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "States the device's functionality."
+    },
+    {
+      "sid": "s000656",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Emphasizes the device's performance."
+    },
+    {
+      "sid": "s000657",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Identifies a limitation of the device."
+    },
+    {
+      "sid": "s000658",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Explains the consequence of the limitation."
+    },
+    {
+      "sid": "s000659",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "States the existence of a vulnerability."
+    },
+    {
+      "sid": "s000660",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Describes the difficulty of exploiting the vulnerability."
+    },
+    {
+      "sid": "s000661",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Explains the perceived probability of exploitation."
+    },
+    {
+      "sid": "s000662",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Confirms the vulnerability's existence."
+    },
+    {
+      "sid": "s000663",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "States that researchers are aware of the vulnerability."
+    },
+    {
+      "sid": "s000664",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Explains the lack of benefit from further research."
+    },
+    {
+      "sid": "s000665",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "States the lesson learned from this case."
+    },
+    {
+      "sid": "s000666",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Describes the device's state."
+    },
+    {
+      "sid": "s000667",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Poses the central question of the case study."
+    },
+    {
+      "sid": "s000668",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Asks for student opinions on the ethical dilemma."
+    },
+    {
+      "sid": "s000669",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Presents one side of the ethical argument."
+    },
+    {
+      "sid": "s000670",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Asks about alternative considerations."
+    },
+    {
+      "sid": "s000671",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Asks for student input."
+    },
+    {
+      "sid": "s000672",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Student responds with a consideration for the decision."
+    },
+    {
+      "sid": "s000673",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Acknowledges the student's point."
+    },
+    {
+      "sid": "s000674",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Student adds another factor to consider."
+    },
+    {
+      "sid": "s000675",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Acknowledges the student's point."
+    },
+    {
+      "sid": "s000676",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Student elaborates on their reasoning."
+    },
+    {
+      "sid": "s000677",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Student points out missing information."
+    },
+    {
+      "sid": "s000678",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Student expresses their opinion."
+    },
+    {
+      "sid": "s000679",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Acknowledges the student's opinion."
+    },
+    {
+      "sid": "s000680",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Speaker shares a similar sentiment."
+    },
+    {
+      "sid": "s000681",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Highlights the importance of the current discussion."
+    },
+    {
+      "sid": "s000682",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Explains the relevance to test questions."
+    },
+    {
+      "sid": "s000683",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Describes the nature of test questions."
+    },
+    {
+      "sid": "s000684",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Explains the constraints of test questions."
+    },
+    {
+      "sid": "s000685",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Compares test constraints to reading time."
+    },
+    {
+      "sid": "s000686",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "States that many things are questions."
+    },
+    {
+      "sid": "s000687",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Suggests how to answer such questions."
+    },
+    {
+      "sid": "s000688",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Continues the hypothetical scenario."
+    },
+    {
+      "sid": "s000689",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Acknowledges the hypothetical."
+    },
+    {
+      "sid": "s000690",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Explains hypothetical imperatives."
+    },
+    {
+      "sid": "s000691",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Contrasts hypothetical scenarios."
+    },
+    {
+      "sid": "s000692",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Acknowledges the previous point."
+    },
+    {
+      "sid": "s000693",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "States that multiple answers are justifiable."
+    },
+    {
+      "sid": "s000694",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Explains the expectation for answers."
+    },
+    {
+      "sid": "s000695",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "States the purpose of the question format."
+    },
+    {
+      "sid": "s000696",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Student offers an opinion on disclosing vulnerability."
+    },
+    {
+      "sid": "s000697",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Student emphasizes the zero probability."
+    },
+    {
+      "sid": "s000698",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Reiterates the zero probability."
+    },
+    {
+      "sid": "s000699",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Student expresses concern about publishing."
+    },
+    {
+      "sid": "s000700",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Acknowledges the student's point."
+    },
+    {
+      "sid": "s000701",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Student suggests exploitation might occur."
+    },
+    {
+      "sid": "s000702",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Acknowledges the student's point."
+    },
+    {
+      "sid": "s000703",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Agrees with the student's concern."
+    },
+    {
+      "sid": "s000704",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Explains why highlighting might be unnecessary."
+    },
+    {
+      "sid": "s000705",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "States the niche nature of the vulnerability."
+    },
+    {
+      "sid": "s000706",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Agrees with the previous statement."
+    },
+    {
+      "sid": "s000707",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Acknowledges the point."
+    },
+    {
+      "sid": "s000708",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Acknowledges the point."
+    },
+    {
+      "sid": "s000709",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Starts a personal anecdote."
+    },
+    {
+      "sid": "s000710",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Describes a travel plan and observation."
+    },
+    {
+      "sid": "s000711",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Describes a picture taken and a question asked."
+    },
+    {
+      "sid": "s000712",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "States the low probability of encountering the issue."
+    },
+    {
+      "sid": "s000713",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Describes the reaction to seeing the issue."
+    },
+    {
+      "sid": "s000714",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Explains the perspective of someone unaware of the full scope."
+    },
+    {
+      "sid": "s000715",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Transitions to a new point."
+    },
+    {
+      "sid": "s000716",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Announces a vote."
+    },
+    {
+      "sid": "s000717",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Presents the first option for the vote (disclosure)."
+    },
+    {
+      "sid": "s000718",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Explains the potential negative impact of disclosure."
+    },
+    {
+      "sid": "s000719",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Describes potential physical impact."
+    },
+    {
+      "sid": "s000720",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Explains the consequence of not receiving the device."
+    },
+    {
+      "sid": "s000721",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Questions the lack of alternatives."
+    },
+    {
+      "sid": "s000722",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Questions the company's failure."
+    },
+    {
+      "sid": "s000723",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Moves past the previous point."
+    },
+    {
+      "sid": "s000724",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Presents the second option for the vote (non-disclosure)."
+    },
+    {
+      "sid": "s000725",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Explains the consequence of non-disclosure."
+    },
+    {
+      "sid": "s000726",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Expresses inability to decide."
+    },
+    {
+      "sid": "s000727",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Calls for a vote."
+    },
+    {
+      "sid": "s000728",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Asks for votes for option A."
+    },
+    {
+      "sid": "s000729",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Asks for votes for option B."
+    },
+    {
+      "sid": "s000730",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Notes the result of the vote for B."
+    },
+    {
+      "sid": "s000731",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Asks for votes for option C."
+    },
+    {
+      "sid": "s000732",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "States inability to decide."
+    },
+    {
+      "sid": "s000733",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Transitions to the next topic."
+    },
+    {
+      "sid": "s000734",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Introduces another case study."
+    },
+    {
+      "sid": "s000735",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Describes the company's business."
+    },
+    {
+      "sid": "s000736",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Identifies a potential issue with the system."
+    },
+    {
+      "sid": "s000737",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "States the issue is not hypothetical."
+    },
+    {
+      "sid": "s000738",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Confirms the issue is real."
+    },
+    {
+      "sid": "s000739",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Indicates the topic will be discussed."
+    },
+    {
+      "sid": "s000740",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "States that examples of this issue exist."
+    },
+    {
+      "sid": "s000741",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Describes the initial compromise."
+    },
+    {
+      "sid": "s000742",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Details the stolen data and its contents."
+    },
+    {
+      "sid": "s000743",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Explains how the stolen data was used."
+    },
+    {
+      "sid": "s000744",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Describes the victims' desire for data deletion."
+    },
+    {
+      "sid": "s000745",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "States that publicly available copies were deleted."
+    },
+    {
+      "sid": "s000746",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Describes the nature of the thieves."
+    },
+    {
+      "sid": "s000747",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Explains the research group's goal."
+    },
+    {
+      "sid": "s000748",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Presents the research group's decision dilemma."
+    },
+    {
+      "sid": "s000749",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Expresses uncertainty about the decision."
+    },
+    {
+      "sid": "s000750",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Describes the researchers' plan for reporting."
+    },
+    {
+      "sid": "s000751",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Explains the need to retain data."
+    },
+    {
+      "sid": "s000752",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "States the inability to delete data immediately."
+    },
+    {
+      "sid": "s000753",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Mentions the promise of careful reporting."
+    },
+    {
+      "sid": "s000754",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Connects the case to ethical frameworks."
+    },
+    {
+      "sid": "s000755",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Asks students to vote on the researchers' decision."
+    },
+    {
+      "sid": "s000756",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Initiates the vote for option A."
+    },
+    {
+      "sid": "s000757",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Acknowledges the vote count."
+    },
+    {
+      "sid": "s000758",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Asks for votes for options B and C."
+    },
+    {
+      "sid": "s000759",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Asks for justification from those who chose A."
+    },
+    {
+      "sid": "s000760",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Acknowledges the difficult situation."
+    },
+    {
+      "sid": "s000761",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Reiterates the question about studying the data."
+    },
+    {
+      "sid": "s000762",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Acknowledges the response."
+    },
+    {
+      "sid": "s000763",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Student explains their reasoning based on intention."
+    },
+    {
+      "sid": "s000764",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Identifies the ethical framework used."
+    },
+    {
+      "sid": "s000765",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Acknowledges the framework."
+    },
+    {
+      "sid": "s000766",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Asks for another student's opinion."
+    },
+    {
+      "sid": "s000767",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Acknowledges the response."
+    },
+    {
+      "sid": "s000768",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Poses a hypothetical to influence the decision."
+    },
+    {
+      "sid": "s000769",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Reassures about privacy."
+    },
+    {
+      "sid": "s000770",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Reassures about privacy."
+    },
+    {
+      "sid": "s000771",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Acknowledges the reassurance."
+    },
+    {
+      "sid": "s000772",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Acknowledges the reassurance."
+    },
+    {
+      "sid": "s000773",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Acknowledges the point."
+    },
+    {
+      "sid": "s000774",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Student begins to explain their reasoning."
+    },
+    {
+      "sid": "s000775",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Continues explaining their reasoning."
+    },
+    {
+      "sid": "s000776",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Identifies a key factor in their decision."
+    },
+    {
+      "sid": "s000777",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Explains the condition for their decision."
+    },
+    {
+      "sid": "s000778",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Elaborates on the condition for studying the data."
+    },
+    {
+      "sid": "s000779",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "States the alternative decision if researchers are untrustworthy."
+    },
+    {
+      "sid": "s000780",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Acknowledges the student's reasoning."
+    },
+    {
+      "sid": "s000781",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Asks for more input on option A."
+    },
+    {
+      "sid": "s000782",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Transitions to discussing option B."
+    },
+    {
+      "sid": "s000783",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Acknowledges the vote."
+    },
+    {
+      "sid": "s000784",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Asks for votes for option B."
+    },
+    {
+      "sid": "s000785",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Asks who voted for B."
+    },
+    {
+      "sid": "s000786",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Invites a student to speak."
+    },
+    {
+      "sid": "s000787",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Student begins to explain their reasoning for B."
+    },
+    {
+      "sid": "s000788",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Draws an analogy to US law regarding evidence."
+    },
+    {
+      "sid": "s000789",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "States the precedent they believe should be set."
+    },
+    {
+      "sid": "s000790",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Explains the implication of the precedent."
+    },
+    {
+      "sid": "s000791",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Clarifies the condition for using the data."
+    },
+    {
+      "sid": "s000792",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Acknowledges the student's point."
+    },
+    {
+      "sid": "s000793",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Acknowledges the point."
+    },
+    {
+      "sid": "s000794",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Agrees with the point."
+    },
+    {
+      "sid": "s000795",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Connects the current discussion to a previous one."
+    },
+    {
+      "sid": "s000796",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Explains the rationale behind wanting backdoors."
+    },
+    {
+      "sid": "s000797",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Poses a counter-argument about wasted data."
+    },
+    {
+      "sid": "s000798",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Questions if the data should go to waste."
+    },
+    {
+      "sid": "s000799",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Acknowledges the counter-argument."
+    },
+    {
+      "sid": "s000800",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Agrees that the precedent could be dangerous."
+    },
+    {
+      "sid": "s000801",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Asks for further input."
+    },
+    {
+      "sid": "s000802",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Acknowledges the point."
+    },
+    {
+      "sid": "s000803",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Student presents a counter-argument based on data uniqueness."
+    },
+    {
+      "sid": "s000804",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "States the data is likely not unique."
+    },
+    {
+      "sid": "s000805",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Points out lack of consent."
+    },
+    {
+      "sid": "s000806",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Explains the lack of consent for data usage."
+    },
+    {
+      "sid": "s000807",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Suggests applicants should have assessed researchers."
+    },
+    {
+      "sid": "s000808",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Acknowledges the point."
+    },
+    {
+      "sid": "s000809",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "States the applicants' preference."
+    },
+    {
+      "sid": "s000810",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Explains the intended use of the data."
+    },
+    {
+      "sid": "s000811",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Connects to the broader issue of AI bias."
+    },
+    {
+      "sid": "s000812",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Transitions to the next point."
+    },
+    {
+      "sid": "s000813",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Asks for more input."
+    },
+    {
+      "sid": "s000814",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Acknowledges the point."
+    },
+    {
+      "sid": "s000815",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Student explains their choice of C (cannot decide)."
+    },
+    {
+      "sid": "s000816",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Questions the researchers' interest in hiring statistics."
+    },
+    {
+      "sid": "s000817",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Questions targeting a specific company's data."
+    },
+    {
+      "sid": "s000818",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Separates data acquisition from its use."
+    },
+    {
+      "sid": "s000819",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Suggests alternative methods for checking bias."
+    },
+    {
+      "sid": "s000820",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Argues for legitimate data sources."
+    },
+    {
+      "sid": "s000821",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Explains the researcher's perspective on the data's value."
+    },
+    {
+      "sid": "s000822",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Continues explaining the researcher's perspective."
+    },
+    {
+      "sid": "s000823",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Describes the potential lesson learned."
+    },
+    {
+      "sid": "s000824",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Acknowledges concerns despite the potential benefits."
+    },
+    {
+      "sid": "s000825",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Agrees with the concerns."
+    },
+    {
+      "sid": "s000826",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Suggests alternative legitimate sources."
+    },
+    {
+      "sid": "s000827",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Acknowledges the point."
+    },
+    {
+      "sid": "s000828",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Transitions to the next topic."
+    },
+    {
+      "sid": "s000829",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Proposes pausing to address general questions."
+    },
+    {
+      "sid": "s000830",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Asks for further questions or comments."
+    },
+    {
+      "sid": "s000831",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Asks about the status of debate preparation."
+    },
+    {
+      "sid": "s000832",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Asks if students are considering debate topics."
+    },
+    {
+      "sid": "s000833",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Asks if there are questions about the debates."
+    },
+    {
+      "sid": "s000834",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Clarifies the scope of the question."
+    },
+    {
+      "sid": "s000835",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Asks about the previous discussion session."
+    },
+    {
+      "sid": "s000836",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Asks if the discussion was helpful for debates."
+    },
+    {
+      "sid": "s000837",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Asks about students finding debate partners."
+    },
+    {
+      "sid": "s000838",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Acknowledges the response."
+    },
+    {
+      "sid": "s000839",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student asks about the availability of discussion slides."
+    },
+    {
+      "sid": "s000840",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Asks if the slides have been posted."
+    },
+    {
+      "sid": "s000841",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "States they haven't seen the slides."
+    },
+    {
+      "sid": "s000842",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Expresses uncertainty about the slides."
+    },
+    {
+      "sid": "s000843",
+      "role": "announcement",
+      "role_score": 0.8,
+      "role_reason": "Promises to follow up on posting the slides."
+    },
+    {
+      "sid": "s000844",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Asks for any other comments or questions."
+    },
+    {
+      "sid": "s000845",
+      "role": "chitchat",
+      "role_score": 0.7,
+      "role_reason": "Acknowledges the end of the discussion."
+    },
+    {
+      "sid": "s000846",
+      "role": "announcement",
+      "role_score": 0.8,
+      "role_reason": "States the intention to end the class early."
+    },
+    {
+      "sid": "s000847",
+      "role": "chitchat",
+      "role_score": 0.7,
+      "role_reason": "Signals the end of the class."
+    },
+    {
+      "sid": "s000848",
+      "role": "chitchat",
+      "role_score": 0.7,
+      "role_reason": "Interjection indicating a pause."
+    },
+    {
+      "sid": "s000849",
+      "role": "announcement",
+      "role_score": 0.8,
+      "role_reason": "Confirms the class duration."
+    }
+  ]
+}

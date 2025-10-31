@@ -98,11 +98,11 @@
     {
       "role": "qa",
       "start_sid": "s000181",
-      "end_sid": "s000194"
+      "end_sid": "s000195"
     },
     {
       "role": "lecture",
-      "start_sid": "s000195",
+      "start_sid": "s000196",
       "end_sid": "s000204"
     },
     {
@@ -143,11 +143,61 @@
     {
       "role": "lecture",
       "start_sid": "s000245",
+      "end_sid": "s000271"
+    },
+    {
+      "role": "chitchat",
+      "start_sid": "s000272",
+      "end_sid": "s000275"
+    },
+    {
+      "role": "lecture",
+      "start_sid": "s000276",
+      "end_sid": "s000276"
+    },
+    {
+      "role": "chitchat",
+      "start_sid": "s000277",
       "end_sid": "s000277"
     },
     {
-      "role": "qa",
+      "role": "lecture",
       "start_sid": "s000278",
+      "end_sid": "s000278"
+    },
+    {
+      "role": "qa",
+      "start_sid": "s000279",
+      "end_sid": "s000287"
+    },
+    {
+      "role": "lecture",
+      "start_sid": "s000288",
+      "end_sid": "s000292"
+    },
+    {
+      "role": "chitchat",
+      "start_sid": "s000293",
+      "end_sid": "s000295"
+    },
+    {
+      "role": "qa",
+      "start_sid": "s000296",
+      "end_sid": "s000339"
+    },
+    {
+      "role": "lecture",
+      "start_sid": "s000340",
+      "end_sid": "s000341"
+    },
+    {
+      "role": "chitchat",
+      "start_sid": "s000342",
+      "end_sid": "s000342"
+    },
+    {
+      "role": "qa",
+      "start_sid": "s000343",
       "end_sid": "s000364"
     },
     {
@@ -253,6 +303,16 @@
     {
       "role": "lecture",
       "start_sid": "s000527",
+      "end_sid": "s000529"
+    },
+    {
+      "role": "chitchat",
+      "start_sid": "s000530",
+      "end_sid": "s000530"
+    },
+    {
+      "role": "lecture",
+      "start_sid": "s000531",
       "end_sid": "s000532"
     },
     {
@@ -398,6 +458,16 @@
     {
       "role": "lecture",
       "start_sid": "s000633",
+      "end_sid": "s000635"
+    },
+    {
+      "role": "chitchat",
+      "start_sid": "s000636",
+      "end_sid": "s000636"
+    },
+    {
+      "role": "lecture",
+      "start_sid": "s000637",
       "end_sid": "s000640"
     },
     {
@@ -428,6 +498,16 @@
     {
       "role": "lecture",
       "start_sid": "s000650",
+      "end_sid": "s000651"
+    },
+    {
+      "role": "chitchat",
+      "start_sid": "s000652",
+      "end_sid": "s000652"
+    },
+    {
+      "role": "lecture",
+      "start_sid": "s000653",
       "end_sid": "s000657"
     },
     {
@@ -453,6 +533,16 @@
     {
       "role": "lecture",
       "start_sid": "s000674",
+      "end_sid": "s000679"
+    },
+    {
+      "role": "chitchat",
+      "start_sid": "s000680",
+      "end_sid": "s000680"
+    },
+    {
+      "role": "lecture",
+      "start_sid": "s000681",
       "end_sid": "s000684"
     },
     {
@@ -563,20 +653,8 @@
   ],
   "changes": [
     {
-      "sid": "s000025",
-      "new_role": "lecture"
-    },
-    {
-      "sid": "s000195",
-      "new_role": "lecture"
-    },
-    {
-      "sid": "s000245",
-      "new_role": "lecture"
-    },
-    {
-      "sid": "s000278",
-      "new_role": "qa"
+      "sid": "s000463",
+      "new_role": "announcement"
     }
   ],
   "fixes": [
@@ -585,24 +663,52 @@
       "modified": "Well, because this is a control component for a car, I felt like it was still in the right wheelhouse."
     },
     {
+      "sid": "s000027",
+      "modified": "The boss told you so, I'll do it."
+    },
+    {
       "sid": "s000037",
-      "modified": "How is that conditioned?"
+      "modified": "Is that how is that conditioned?"
     },
     {
       "sid": "s000041",
-      "modified": "So that even if that were the case, no one would do it."
+      "modified": "So that even if that were the case, so no one would do it."
     },
     {
       "sid": "s000048",
       "modified": "A lot of people choosing not to say something."
     },
     {
+      "sid": "s000052",
+      "modified": "Your boss said this is just the way this company operates. Why not?"
+    },
+    {
       "sid": "s000061",
-      "modified": "Theranos another example of a company that is what we call."
+      "modified": "Theranos, another example of a company that is what we call."
     },
     {
       "sid": "s000091",
-      "modified": "If you have a device that they are intentionally throttling down in order to allow it to avoid shutting down completely and that being a worst scenario that they are trying to prevent."
+      "modified": "If you have a device that they are intentionally throttling down in order to allow it to avoid shutting down completely, and that being a worse scenario that they are deciding."
+    },
+    {
+      "sid": "s000101",
+      "modified": "Okay, yep."
+    },
+    {
+      "sid": "s000111",
+      "modified": "create the problem of batteries aging, but..."
+    },
+    {
+      "sid": "s000140",
+      "modified": "Making it a little more transparent makes sense."
+    },
+    {
+      "sid": "s000153",
+      "modified": "You know, this backwards compatibility shouldn't exist."
+    },
+    {
+      "sid": "s000171",
+      "modified": "And you just..."
     },
     {
       "sid": "s000174",
@@ -610,75 +716,187 @@
     },
     {
       "sid": "s000175",
-      "modified": "There's no longer an ability to be taking chances."
+      "modified": "There's a no-win ability to be taking chances."
+    },
+    {
+      "sid": "s000179",
+      "modified": "And like a lot of like the, you know, Spotify, all these new things, streaming services."
     },
     {
       "sid": "s000184",
-      "modified": "We could say, hey look, if we don't like this, pay-as-you-go model, old days of pay one time."
+      "modified": "We could say, hey look, if we don't like this pay-by-pay as-you-go model, all days of pay one time."
     },
     {
       "sid": "s000188",
-      "modified": "Like for example, everyone needs a smartphone."
+      "modified": "Like, for example, everyone needs a smartphone."
     },
     {
       "sid": "s000204",
       "modified": "We just have to keep upgrading."
     },
     {
+      "sid": "s000209",
+      "modified": "Like, I think a really good example right now is Windows 10, which, if I remember correctly, was advertised when it came out as being like the last version of Windows."
+    },
+    {
       "sid": "s000210",
-      "modified": "Like, this is the version of support for life, right?"
+      "modified": "Like, this is the version to support, right?"
+    },
+    {
+      "sid": "s000219",
+      "modified": "It's probably most of the class, but I attended a talk in 2001 and Intel was saying, we are going to aggressively push frequency."
     },
     {
       "sid": "s000228",
       "modified": "They were sure of it."
     },
     {
+      "sid": "s000237",
+      "modified": "So let's move on to something that I think, I mean, maybe you'll surprise me."
+    },
+    {
+      "sid": "s000239",
+      "modified": "Because some people really do embrace the fact that all technology, that's fine."
+    },
+    {
+      "sid": "s000241",
+      "modified": "But the idea of ransomware where you get this kit and you're able to attack someone's machine, I mean, I worry about autonomous vehicles, you know, that time when ransomware is going to take over one of them and say, 'I'm hitting the brick wall unless you give me, you know, a certain amount of Bitcoin,' whatever."
+    },
+    {
+      "sid": "s000247",
+      "modified": "Ransomware, not-so-fun facts, cost a considerable amount of money shutting down people out of their devices."
+    },
+    {
+      "sid": "s000248",
+      "modified": "It's packaged and sold like ransomware kits."
+    },
+    {
+      "sid": "s000256",
+      "modified": "And so with that case, if we're talking about something like battery gate or other things, maybe giving more insight, and then other things that we will talk about as we progress is treatment of employees or minimal negative impact on the environment."
+    },
+    {
+      "sid": "s000257",
+      "modified": "And I guess when we get to data centers, it's really this question on environmental impact when you look at what the projection is."
+    },
+    {
       "sid": "s000275",
-      "modified": "Doctrine."
+      "modified": "Torture."
     },
     {
       "sid": "s000282",
       "modified": "Would you do it?"
     },
     {
+      "sid": "s000283",
+      "modified": "Yeah, yeah."
+    },
+    {
+      "sid": "s000286",
+      "modified": "So if the website leads them to..."
+    },
+    {
+      "sid": "s000291",
+      "modified": "I mean, maybe it actually works for something, but it's..."
+    },
+    {
       "sid": "s000293",
-      "modified": "You know, if you ever saw My Big Fat Greek Wedding, this is another movie that I."
+      "modified": "You know, if you ever saw My Big Fat Greek Wedding, this is another movie that I..."
+    },
+    {
+      "sid": "s000300",
+      "modified": "their problem because that's..."
+    },
+    {
+      "sid": "s000302",
+      "modified": "And it tells them this is a solution."
+    },
+    {
+      "sid": "s000303",
+      "modified": "Yep."
+    },
+    {
+      "sid": "s000305",
+      "modified": "I mean, it's a..."
+    },
+    {
+      "sid": "s000307",
+      "modified": "It's not a neutral website at all."
+    },
+    {
+      "sid": "s000315",
+      "modified": "Not ethical."
+    },
+    {
+      "sid": "s000319",
+      "modified": "To me, I feel like that's very..."
+    },
+    {
+      "sid": "s000321",
+      "modified": "It's very misleading."
+    },
+    {
+      "sid": "s000323",
+      "modified": "Answers don't matter."
     },
     {
       "sid": "s000324",
-      "modified": "I feel like I'd at least bring it up to someone that this is a problem."
+      "modified": "I feel like I'd at least bring it up to someone about, like, this is a problem."
+    },
+    {
+      "sid": "s000325",
+      "modified": "Right."
     },
     {
       "sid": "s000327",
-      "modified": "That all roads."
+      "modified": "That all leads."
     },
     {
       "sid": "s000328",
-      "modified": "We all lead into."
+      "modified": "We all roads lead into."
     },
     {
       "sid": "s000341",
-      "modified": "Well, is this that she's already designed."
+      "modified": "Well, is this that she's already designed?"
+    },
+    {
+      "sid": "s000342",
+      "modified": "I'll be your..."
+    },
+    {
+      "sid": "s000345",
+      "modified": "Yeah."
+    },
+    {
+      "sid": "s000347",
+      "modified": "So."
     },
     {
       "sid": "s000351",
-      "modified": "It does seem to be in fact a little misleading."
+      "modified": "It does seem to be a little misleading."
+    },
+    {
+      "sid": "s000357",
+      "modified": "They can give."
     },
     {
       "sid": "s000359",
-      "modified": "But could they make the quiz at least fair?"
+      "modified": "But could they make the quiz at least..."
     },
     {
       "sid": "s000362",
-      "modified": "The product genuinely has some use, but it's not for everything."
+      "modified": "The product genuinely has some use, but it's not..."
     },
     {
-      "sid": "s000368",
-      "modified": "Even if there's competing brands."
+      "sid": "s000373",
+      "modified": "So I mean, it's not just sort of okay, so let's do one more thing."
     },
     {
       "sid": "s000379",
-      "modified": "If you have surges in demand for what you need for the company and you don't have to pay the minimum wage or overtime, then the difference is for the contractors actually getting paid in the gig economy is that they have to handle all those taxes Themselves they have the benefit of working for multiple companies simultaneously, but they don't really have that permanence that comes from more job security."
+      "modified": "If you have surges in demand for what you need for the company and you don't have to pay the minimum wage or overtime, then the difference for the contractors actually getting paid for the gig economy is they have to handle all those taxes themselves. They have the benefit of working for multiple companies simultaneously, but they don't really have that permanence that comes from more job security."
+    },
+    {
+      "sid": "s000380",
+      "modified": "So if you've got kind of these on-demand workers, Uber and Lyft are one example."
     },
     {
       "sid": "s000382",
@@ -686,111 +904,411 @@
     },
     {
       "sid": "s000384",
-      "modified": "And so, so, you know, the safety aspects, especially for sort of rideshare, have been real problematic and worker expectations are real problematic."
+      "modified": "And so, you know, the safety aspects, especially for sort of shared ride, have been real problematic, and expectation of worker is real problematic."
+    },
+    {
+      "sid": "s000388",
+      "modified": "Like you're ready to graduate, ready to be done with this place, obviously planning on making massive donations after you get your first job back to UCLA."
+    },
+    {
+      "sid": "s000391",
+      "modified": "It's like, you know, depending on your situation, you might prefer the flexibility of kind of like..."
+    },
+    {
+      "sid": "s000392",
+      "modified": "And I don't think there's anything inherently wrong with contract work."
+    },
+    {
+      "sid": "s000395",
+      "modified": "Exactly."
+    },
+    {
+      "sid": "s000396",
+      "modified": "Yeah, yeah."
+    },
+    {
+      "sid": "s000399",
+      "modified": "Anyone else?"
+    },
+    {
+      "sid": "s000400",
+      "modified": "Let's do."
     },
     {
       "sid": "s000407",
-      "modified": "And this so called big data has five Vs to it, the volume."
+      "modified": "And this so-called big data has five Vs to it: the volume."
+    },
+    {
+      "sid": "s000417",
+      "modified": "We talked about neutrality of technology."
+    },
+    {
+      "sid": "s000418",
+      "modified": "Can we get neutrality of data, right?"
+    },
+    {
+      "sid": "s000423",
+      "modified": "And so we choose to only believe certain types of evidence."
     },
     {
       "sid": "s000424",
-      "modified": "So the problem that many people have tried to study is can we just have neutral data doesn't have the bias, it doesn't have the attachment, or the analysis baked in."
+      "modified": "So the problem that many people have tried to study is, can we just have neutral data that doesn't have the bias, it doesn't have the attachment, have the analysis baked in?"
+    },
+    {
+      "sid": "s000429",
+      "modified": "And part of the problem is when they try to canonize this and try to make it a hierarchy, they could say, you know, data, the things that we collect, the things that we observe, which we can still argue about, it's really not, but that's a different type of philosophy."
     },
     {
       "sid": "s000432",
-      "modified": "If you could you build a model like this where based on data alone it's neutral and then you color it to be able to get actual knowledge that's distilled out with all the BS filtered out and it's not just someone's angle."
+      "modified": "If you could build a model like this where, based on data alone, it's neutral, and then you color it to be able to get actual knowledge that's distilled out with all the BS filtered out, and it's not just someone's angle?"
+    },
+    {
+      "sid": "s000433",
+      "modified": "Do you think that we can make data like this?"
+    },
+    {
+      "sid": "s000435",
+      "modified": "Pretty simple."
+    },
+    {
+      "sid": "s000437",
+      "modified": "A lot of times, like data like..."
     },
     {
       "sid": "s000441",
-      "modified": "Unless there's a complete groundbreaking study, it doesn't sell."
+      "modified": "There's a complete groundbreaking study, it doesn't sell."
+    },
+    {
+      "sid": "s000442",
+      "modified": "You're right."
+    },
+    {
+      "sid": "s000445",
+      "modified": "Okay, but just data for yourself, trying to extract data out."
+    },
+    {
+      "sid": "s000447",
+      "modified": "Yeah, I don't think it can really."
+    },
+    {
+      "sid": "s000450",
+      "modified": "Yeah, I guess like even just when collecting the data, if you're ever just taking a subset of a population, that's going to have bias in there."
+    },
+    {
+      "sid": "s000451",
+      "modified": "So, I mean, you have to literally survey everyone in the world, and that's just not feasible."
+    },
+    {
+      "sid": "s000452",
+      "modified": "And you're, like, you know, adding context and adding meaning."
     },
     {
       "sid": "s000458",
-      "modified": "Now how do we subsample, how are we sure that was statistically significant?"
+      "modified": "Now, how did we subsample? How are we sure that was statistically significant?"
+    },
+    {
+      "sid": "s000461",
+      "modified": "And so how we select what to count, how we select what to measure, how we select how to design these things, creates a huge thing of bias that is kind of inherent to this data."
     },
     {
       "sid": "s000462",
-      "modified": "Makes me nervous."
+      "modified": "Makes me, makes me nervous."
     },
     {
       "sid": "s000466",
-      "modified": "When I was a kid, we used to believe that people could master multiple fields, right?"
+      "modified": "When I was a kid, they used to believe that people could master multiple fields, right?"
     },
     {
       "sid": "s000475",
-      "modified": "Predatory conferences or information weaponization or mob mentality or decentralization and organization, all of this stuff is where AI can come in."
+      "modified": "Predatory conferences, or information weaponization, or mob mentality, or decentralization and organization, all of this stuff is where AI can come in."
+    },
+    {
+      "sid": "s000481",
+      "modified": "If we have something that can make good decisions, autonomous vehicles, we would have more correct decisions in a moral sense."
     },
     {
       "sid": "s000482",
-      "modified": "That whole issue with do I go left or right and avoid the loss."
+      "modified": "That whole issue with, do I go left or right and avoid the logs?"
     },
     {
-      "sid": "s000483",
-      "modified": "AI consultant scale dealing with ethical dilemmas, things coming at us and being able to figure out what's good and bad."
+      "sid": "s000486",
+      "modified": "People worry about organ donation."
     },
     {
       "sid": "s000494",
-      "modified": "We already we got our butts kicked by in chess by computers all the time."
+      "modified": "We already got our butts kicked on chess by computers all the time."
+    },
+    {
+      "sid": "s000496",
+      "modified": "And so they taught a machine basic rules, how you can place something on the board, what the goal is, and then they had it play itself and it learned."
+    },
+    {
+      "sid": "s000498",
+      "modified": "With this deep learning framework, they didn't give it heuristics like, 'develop here, try to expand on the board.'"
+    },
+    {
+      "sid": "s000501",
+      "modified": "And this becomes the basic problem."
+    },
+    {
+      "sid": "s000502",
+      "modified": "We've got this learning engine, this machine that's supposed to be able to extract things."
+    },
+    {
+      "sid": "s000506",
+      "modified": "If it's a transformer architecture, it's trying to come up with the probabilistic next step."
+    },
+    {
+      "sid": "s000507",
+      "modified": "And in terms of, you know, where..."
     },
     {
       "sid": "s000509",
-      "modified": "I would not be able to say that I think as Leopold found that chat GPT by 2023 had already passed the intelligence of a smart high school."
+      "modified": "I would not be able to say that. I think Ashen found that ChatGPT by 2023 had already passed the intelligence of a smart high school."
     },
     {
       "sid": "s000510",
-      "modified": "And his point in an unbiased way was at what point will it be past our smartest individual?"
+      "modified": "And his point, in an unbiased way, was at what point will it be past our smartest individual?"
+    },
+    {
+      "sid": "s000511",
+      "modified": "An automated AI research."
+    },
+    {
+      "sid": "s000514",
+      "modified": "Yeah, I think it has a larger..."
     },
     {
       "sid": "s000527",
-      "modified": "When you've got the kind of bricks along the top of the wall, you know you and you've got the paddle and kind of the ball bounces off and it's a real simple game."
-    },
-    {
-      "sid": "s000528",
-      "modified": "It can learn that in eight hours and master it."
+      "modified": "When you've got the kind of bricks along the top of the wall, you know, and you've got the paddle and the ball bounces off, it's a real video."
     },
     {
       "sid": "s000536",
-      "modified": "But emotional intelligence, actual intelligence, that's a different question."
+      "modified": "But emotional intelligence, actual, you know, intelligence, that's a different question."
     },
     {
-      "sid": "s000553",
-      "modified": "And this is basically a paraphrasing of Euclid's proof."
+      "sid": "s000556",
+      "modified": "Okay, you can look at it on your own, but this was..."
+    },
+    {
+      "sid": "s000563",
+      "modified": "I really want to change it."
+    },
+    {
+      "sid": "s000564",
+      "modified": "It."
+    },
+    {
+      "sid": "s000565",
+      "modified": "It's."
     },
     {
       "sid": "s000567",
-      "modified": "I don't get the extra proof slide."
+      "modified": "I don't get the extra proof square."
     },
     {
-      "sid": "s000575",
-      "modified": "Anybody guess which of those came from AI?"
+      "sid": "s000573",
+      "modified": "But humor."
+    },
+    {
+      "sid": "s000574",
+      "modified": "Here's a fill-in-the-blank humor attempt."
     },
     {
       "sid": "s000578",
-      "modified": "For the onion style headlines, which I pulled from The Onion."
+      "modified": "For the Onion-style headlines, which I built the Onion."
+    },
+    {
+      "sid": "s000582",
+      "modified": "I'm thinking about it."
+    },
+    {
+      "sid": "s000584",
+      "modified": "Okay."
+    },
+    {
+      "sid": "s000599",
+      "modified": "So if we feed it decisions that come from flawed humans, isn't that a problem?"
+    },
+    {
+      "sid": "s000602",
+      "modified": "And when they were looking at COVID-19 misinformation, they could block COVID-19."
+    },
+    {
+      "sid": "s000606",
+      "modified": "for taboo scenarios."
+    },
+    {
+      "sid": "s000611",
+      "modified": "So I decided to take this handsome fellow and try to see what I could do."
+    },
+    {
+      "sid": "s000614",
+      "modified": "That would be."
+    },
+    {
+      "sid": "s000615",
+      "modified": "We didn't say you tripped a guardrail."
     },
     {
       "sid": "s000620",
       "modified": "Ask it to make me a woman."
     },
     {
+      "sid": "s000628",
+      "modified": "Would it do that?"
+    },
+    {
+      "sid": "s000631",
+      "modified": "It had no problem."
+    },
+    {
+      "sid": "s000632",
+      "modified": "Looks just like you."
+    },
+    {
+      "sid": "s000633",
+      "modified": "All right, so I still didn't hit the guardrail."
+    },
+    {
       "sid": "s000641",
-      "modified": "It was still old, I still have gray hair."
+      "modified": "It was still old, still had gray hair."
+    },
+    {
+      "sid": "s000643",
+      "modified": "Right."
+    },
+    {
+      "sid": "s000645",
+      "modified": "Okay."
+    },
+    {
+      "sid": "s000649",
+      "modified": "Okay."
+    },
+    {
+      "sid": "s000651",
+      "modified": "So the question is, what guardrail did I trigger?"
+    },
+    {
+      "sid": "s000652",
+      "modified": "Right."
+    },
+    {
+      "sid": "s000660",
+      "modified": "Right."
+    },
+    {
+      "sid": "s000662",
+      "modified": "something, or didn't even do that."
+    },
+    {
+      "sid": "s000665",
+      "modified": "That was earlier in the year."
+    },
+    {
+      "sid": "s000673",
+      "modified": "Okay."
     },
     {
       "sid": "s000676",
-      "modified": "And so in its mind, gender, it says there's limited opportunities for photorealistic modification of gender."
+      "modified": "And so in its mind, gender, there are limited opportunities for photorealistic modification of gender."
+    },
+    {
+      "sid": "s000679",
+      "modified": "It shouldn't have done it."
+    },
+    {
+      "sid": "s000680",
+      "modified": "And I was a real-world person, I think."
+    },
+    {
+      "sid": "s000684",
+      "modified": "Species."
+    },
+    {
+      "sid": "s000685",
+      "modified": "Yeah."
+    },
+    {
+      "sid": "s000686",
+      "modified": "It can draw me as a dog, no problem."
+    },
+    {
+      "sid": "s000689",
+      "modified": "Now, I'm not saying this was wrong for it to do or anything like that, but I'm just showing you where the guardrails are."
+    },
+    {
+      "sid": "s000690",
+      "modified": "Let me do a couple more things, and then I want to make sure we have enough time."
+    },
+    {
+      "sid": "s000693",
+      "modified": "Great paper by Donald."
     },
     {
       "sid": "s000694",
-      "modified": "Basically, if we don't know how something works, then."
+      "modified": "Basically, if we don't know how something works..."
     },
     {
       "sid": "s000697",
       "modified": "And so if we let this compound and we don't really understand fully how things are making decisions, it becomes problematic by just slapping guardrails on and not really getting to the underlying means."
     },
     {
+      "sid": "s000699",
+      "modified": "And this is my example."
+    },
+    {
+      "sid": "s000700",
+      "modified": "Example."
+    },
+    {
+      "sid": "s000704",
+      "modified": "That's a problem, right?"
+    },
+    {
+      "sid": "s000706",
+      "modified": "And what this means for AI is, how do we continue to scale?"
+    },
+    {
+      "sid": "s000707",
+      "modified": "If we had a simple model that we could look at, understand fully what it's doing, we can say, 'Yep, looks safe.'"
+    },
+    {
+      "sid": "s000709",
+      "modified": "Y'all with me?"
+    },
+    {
+      "sid": "s000710",
+      "modified": "All right, let's stop here."
+    },
+    {
+      "sid": "s000714",
+      "modified": "Aliyah."
+    },
+    {
+      "sid": "s000715",
+      "modified": "Aliyah."
+    },
+    {
+      "sid": "s000717",
+      "modified": "Luke."
+    },
+    {
+      "sid": "s000725",
+      "modified": "All right."
+    },
+    {
+      "sid": "s000729",
+      "modified": "I just realized."
+    },
+    {
       "sid": "s000730",
       "modified": "I realized my debate is today."
+    },
+    {
+      "sid": "s000731",
+      "modified": "K."
     }
   ]
 }

@@ -1,0 +1,481 @@
+{
+  "idx": 8,
+  "title": "Generative AI Image Generation",
+  "count": 59,
+  "sids": [
+    "s000391",
+    "s000394",
+    "s000617",
+    "s000624",
+    "s000631",
+    "s000632",
+    "s000634",
+    "s000635",
+    "s000639",
+    "s000642",
+    "s000643",
+    "s000644",
+    "s000645",
+    "s000647",
+    "s000649",
+    "s000650",
+    "s000651",
+    "s000652",
+    "s000654",
+    "s000656",
+    "s000657",
+    "s000659",
+    "s000660",
+    "s000662",
+    "s000663",
+    "s000664",
+    "s000665",
+    "s000666",
+    "s000667",
+    "s000672",
+    "s000673",
+    "s000677",
+    "s000678",
+    "s000679",
+    "s000680",
+    "s000681",
+    "s000682",
+    "s000684",
+    "s000694",
+    "s000697",
+    "s000702",
+    "s000704",
+    "s000708",
+    "s000711",
+    "s000712",
+    "s000714",
+    "s000717",
+    "s000719",
+    "s000721",
+    "s000725",
+    "s000726",
+    "s000734",
+    "s000736",
+    "s000737",
+    "s000738",
+    "s000739",
+    "s000740",
+    "s000745",
+    "s000778"
+  ],
+  "evidences": [
+    {
+      "sid": "s000391",
+      "text": "So let's skip ahead to what a generative perspective.",
+      "start": 1334570,
+      "end": 1342180,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000394",
+      "text": "Generative in the sense that it can generate new text.",
+      "start": 1345210,
+      "end": 1347450,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000617",
+      "text": "I always thinking about what is it about these generative kind of image creation where they think four images is enough.",
+      "start": 2456330,
+      "end": 2466460,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000624",
+      "text": "Regardless of what you chose, if you go to an image generator, it creates four pictures.",
+      "start": 2475260,
+      "end": 2480140,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000631",
+      "text": "What it should have said was, there's no one American woman.",
+      "start": 2490550,
+      "end": 2493270,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000632",
+      "text": "That's what it should have said.",
+      "start": 2493270,
+      "end": 2494230,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000634",
+      "text": "But what it did instead was it gave me this.",
+      "start": 2494870,
+      "end": 2497990,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000635",
+      "text": "Now, is this a reasonable section of American people?",
+      "start": 2498629,
+      "end": 2502870,
+      "role": "qa"
+    },
+    {
+      "sid": "s000639",
+      "text": "It's kind of a bogus.",
+      "start": 2506310,
+      "end": 2508550,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000642",
+      "text": "There's definitely people who don't look like this, who are not pictured.",
+      "start": 2513980,
+      "end": 2519180,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000643",
+      "text": "It's not representative.",
+      "start": 2519180,
+      "end": 2520220,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000644",
+      "text": "So how do we make sure that questions or answers are represented?",
+      "start": 2520780,
+      "end": 2524540,
+      "role": "qa"
+    },
+    {
+      "sid": "s000645",
+      "text": "It's inclusive, right?",
+      "start": 2524860,
+      "end": 2526540,
+      "role": "qa"
+    },
+    {
+      "sid": "s000647",
+      "text": "If I asked it what a Marvel character looks like, there would be a lot more diversity than those four women that I was given for this answer.",
+      "start": 2527420,
+      "end": 2533980,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000649",
+      "text": "So something is wrong.",
+      "start": 2534150,
+      "end": 2535030,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000650",
+      "text": "But in a study that was done on AI generated images of doctors.",
+      "start": 2536470,
+      "end": 2541670,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000651",
+      "text": "If you look at the different platforms, this shows Platform 1, 2, 3, 4, 5, and then the total they looked at.",
+      "start": 2542310,
+      "end": 2551190,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000652",
+      "text": "You know, if you say, give me a picture of a doctor, right?",
+      "start": 2551190,
+      "end": 2554070,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000654",
+      "text": "But if you look at the number of men versus women and ethnicities that were present, there's a lot of.",
+      "start": 2559840,
+      "end": 2567280,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000656",
+      "text": "Vast majority of doctors that it generated were white.",
+      "start": 2570480,
+      "end": 2574080,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000657",
+      "text": "Very, very small fraction were non white and all were men.",
+      "start": 2574560,
+      "end": 2579600,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000659",
+      "text": "So if this is a generative platform and it's basing it off of, you know, its representation and creating things, where do you draw the line on inclusion and trying to make it work?",
+      "start": 2581680,
+      "end": 2595850,
+      "role": "qa"
+    },
+    {
+      "sid": "s000660",
+      "text": "This is active physicians.",
+      "start": 2595850,
+      "end": 2598410,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000662",
+      "text": "This was an older study, but this is active physicians in 2018.",
+      "start": 2599130,
+      "end": 2602650,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000663",
+      "text": "And so this is the sort of breakdown in terms of race.",
+      "start": 2603290,
+      "end": 2607530,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000664",
+      "text": "So this clearly doesn't match platform two.",
+      "start": 2608010,
+      "end": 2610810,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000665",
+      "text": "So that's inaccurate in reality.",
+      "start": 2611330,
+      "end": 2613410,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000666",
+      "text": "But even so, is this the right thing that it should be modeling, or should it be aspirational and trying to provide more diversity in general?",
+      "start": 2613890,
+      "end": 2623250,
+      "role": "qa"
+    },
+    {
+      "sid": "s000667",
+      "text": "What is the right answer for an AI to give?",
+      "start": 2623330,
+      "end": 2625730,
+      "role": "qa"
+    },
+    {
+      "sid": "s000672",
+      "text": "And this is male versus female, where clearly the breakdown of reality by identity, at least in terms of female versus male, was clearly more like 50 50.",
+      "start": 2643340,
+      "end": 2655980,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000673",
+      "text": "And so for it to have absolutely no representation in blackboard two is pretty egregious.",
+      "start": 2656780,
+      "end": 2662060,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000677",
+      "text": "I forget who published it originally, but they asked show me what a 1943 German soldier would look like.",
+      "start": 2675910,
+      "end": 2683430,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000678",
+      "text": "Yes, there's the indication of creating more inclusivity here.",
+      "start": 2683510,
+      "end": 2689600,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000679",
+      "text": "Probably not very historically accurate.",
+      "start": 2690080,
+      "end": 2691880,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000680",
+      "text": "There were not many soldiers who looked like that.",
+      "start": 2691880,
+      "end": 2693600,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000681",
+      "text": "Generating a picture of a US senator from the 1800s, this kind of erases the past where women and people of color would not have had these types of roles.",
+      "start": 2695280,
+      "end": 2705840,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000682",
+      "text": "And so how do you try to walk the line between inclusion when we want to be able to show aspirational.",
+      "start": 2706720,
+      "end": 2715290,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000684",
+      "text": "We're trying to fight some of the biases and historical accuracy where we clearly don't want to paint a broader lens for certain things.",
+      "start": 2716930,
+      "end": 2724410,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000694",
+      "text": "When it's a historical question and it has a historical context, it makes sense that you wouldn't try and change history.",
+      "start": 2748700,
+      "end": 2753940,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000697",
+      "text": "So but you're saying that maybe for the AIA generated image of doctors, it should be using this data to the best of its ability.",
+      "start": 2756180,
+      "end": 2763620,
+      "role": "qa"
+    },
+    {
+      "sid": "s000702",
+      "text": "I mean, look, in one view, that's reality that we have.",
+      "start": 2769670,
+      "end": 2775310,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000704",
+      "text": "Or are there systemic reasons for this particular breakdown that are problematic that we would want to address?",
+      "start": 2780990,
+      "end": 2790440,
+      "role": "qa"
+    },
+    {
+      "sid": "s000708",
+      "text": "For me to ask, draw me a picture of an American and it only gives me four images is rough because that's not going to be representative no matter what.",
+      "start": 2811880,
+      "end": 2820810,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000711",
+      "text": "You ask it to, like going back to when you asked it to draw the German.",
+      "start": 2825450,
+      "end": 2830010,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000712",
+      "text": "German soldier from 1943 or an American senator from the 1800s, or just like anything in the past, we have an existing knowledge base base on that.",
+      "start": 2830010,
+      "end": 2841980,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000714",
+      "text": "I think maybe if you ask it to generate an image of something in the past, it should more look towards things that have already existed based off of that time period and just like, not really try to create something new with the generated Picture of an American.",
+      "start": 2845900,
+      "end": 2867270,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000717",
+      "text": "It to do that because America is one of the most diverse nations on Earth.",
+      "start": 2875110,
+      "end": 2881830,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000719",
+      "text": "I mean, but even if we weren't to try to distill it down, like if there was a country that had a more homogeneous ethnicity or whatever, to try to distill it down to four pictures, it's challenging.",
+      "start": 2883150,
+      "end": 2892680,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000721",
+      "text": "Maybe it should say, hey, can you give me more details on the kind of image you want to generate?",
+      "start": 2894240,
+      "end": 2898480,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000725",
+      "text": "Then what kind of like, it should ask you, like, hey, America's not an monolith.",
+      "start": 2906320,
+      "end": 2912640,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000726",
+      "text": "Do you want a man, a woman, what age?",
+      "start": 2912640,
+      "end": 2915120,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000734",
+      "text": "I think they have a similar problem.",
+      "start": 2945630,
+      "end": 2947710,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000736",
+      "text": "But in the sense of generative AI, I'm creating an image.",
+      "start": 2948350,
+      "end": 2951590,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000737",
+      "text": "I don't have to worry about what images of doctors are there out there.",
+      "start": 2951590,
+      "end": 2954910,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000738",
+      "text": "I'm saying I'm going to create an image of a doctor for it.",
+      "start": 2955230,
+      "end": 2957790,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000739",
+      "text": "And so if that image of a doctor, if it's always a white male, is that problematic?",
+      "start": 2958030,
+      "end": 2965070,
+      "role": "qa"
+    },
+    {
+      "sid": "s000740",
+      "text": "If it always creates that, is that reinforced a stereotype or is it reflective of reality?",
+      "start": 2965470,
+      "end": 2972120,
+      "role": "qa"
+    },
+    {
+      "sid": "s000745",
+      "text": "But if a generative AI does it, I think we're less forgiving because we're saying, why is it only using that particular lens to view doctor?",
+      "start": 2979560,
+      "end": 2986600,
+      "role": "lecture"
+    },
+    {
+      "sid": "s000778",
+      "text": "Yeah, so if we're going to be using AI and we're plugging it into the big data that we have and we're trying to think about, especially for generative, coming up with things and how we form things and how we evaluate what it comes up with, what does that mean in terms of bias and discrimination?",
+      "start": 3130230,
+      "end": 3148230,
+      "role": "lecture"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+# Software Failures and Liability
+
+This lecture explores various instances of software failures, distinguishing between simple programming bugs and issues with ethical implications. It delves into the complex question of who is responsible and liable when software goes wrong, especially when human lives or sensitive data are at stake.
+
+## Introduction to Software Failures
+The discussion begins by examining how technology can go wrong, evaluating these incidents from both an ethical standpoint and as failures in bug prevention. The goal is to look at examples of technical failures and consider the role ethics might play, or not play, in their assessment.
+
+## Case Study: The Heartbleed Bug
+The **Heartbleed bug** serves as a key example of a technical failure. In an honest transaction using a particular protocol, a message is sent along with its data size (e.g., "banana" is six characters long). The system is supposed to verify communication and buffer the data correctly. The bug occurred when a request specified a much larger data size (e.g., "giraffe" as 100 characters long) than the actual message. The system would then return the message plus everything else in memory immediately following it, potentially including data that should not have been accessible. This was described as a type of "overflow exploit" that dumped data. The lecture concluded that Heartbleed was clearly a bug and a mistake, not an ethical problem involving malice or malicious intent, but the developers could still be liable.
+
+## Case Study: The Therac-25 Radiation Machine
+Another critical example discussed is the **Therac-25 radiation machine**, designed to kill cancerous cells with X-rays. This machine tragically killed six patients over two years. The failure stemmed from hardware interlocks, which were originally intended to prevent invalid operating modes, being replaced by software. This software was not properly created and led to a **race condition**, causing the machine to radiate individuals to an extent it was not supposed to. This was identified as a significant **software engineering failure**, specifically due to a lack of unit testing and independent review.
+
+## Other Notable Software Failures and Their Costs
+Several other software failures were mentioned, highlighting their catastrophic financial costs but generally not classifying them as ethical problems:
+*   The **Pentium floating point division bug** had a relatively small chance of affecting the average user but cost around $457 million.
+*   The **Mars Climate Orbiter** was lost due to a disconnect where its onboard system used SI measurements while ground control software used Imperial measurements, costing over $320 million.
+*   Other examples included the **Prius braking system**, the **REM5 Rocket** (due to a floating-point conversion from 64 bits to 16 bits), and the **Night Capital Group**.
+These issues, while costly, were largely preventable through common software engineering practices and were not considered to rise to the level of ethical dilemmas.
+
+## Understanding Liability in Software Development
+The lecture then shifted to the complex issue of **liability** for software bugs, which can arise from improper specification, improper implementation, race conditions, or security holes. A central question is who is responsible when a bug occurs.
+
+For the Heartbleed bug, despite it not being an ethical dilemma, the question of whether the programmer should be responsible was raised. This was contrasted with the Therac-25 case, where six people died. The discussion explored whether liability differs based on the severity of the outcome.
+
+Students suggested that for large projects, it's hard to blame one person, especially if there was no negligence or intentional wrongdoing. However, the lecturer posed a scenario: if a developer with good intentions rushes a life-saving device (like the Therac-25) to market without adequate testing, are they still liable? The consensus leaned towards some level of liability, especially if there's a high probability of harm.
+
+The concept of the **utilitarian argument** was introduced: if a device saves 100 lives but inadvertently kills 2, is the developer still liable? Student responses emphasized that the *outcome matters more* than intentions, and if someone dies, their intentions don't negate that fact. A distinction was drawn between a car crash (where deaths are unavoidable, and the algorithm chooses the lesser of two evils) and a radiation machine that is *supposed* to make people better but instead kills them. The latter implies a higher degree of liability because the product failed its core promise.
+
+The lecture also considered whether companies developing potentially life-saving but not fully tested products (like vaccines) should be "insulated from harm." It was suggested that some insulation might make sense, especially if high-risk patients are involved and consent, but this approach is problematic when dealing with companies that prioritize "moving fast and breaking things" over human safety.
+
+## Case Study: The Equifax Data Breach
+The **Equifax data breach** served as an example where ethical considerations and liability were more pronounced. Hackers breached the credit reporting agency, obtaining personal data of over 140 million people. The failure point was a known vulnerability in their implementation of **Apache Struts**, which had been disclosed by Apache months before the breach. Equifax failed to update their system, leading to the breach and its continuation.
+
+The lecturer argued that if Equifax knew about the vulnerability and chose not to address it, they were liable. While acknowledging the difficulty and expense of updating legacy software, the lecture emphasized that Equifax's core business is security. Their failure to update a known vulnerability and, crucially, their failure to notify affected individuals, constituted a "huge problem" and an ethical lapse. Transparency and disclosure were highlighted as essential, especially when there is a high risk and real hackers are targeting sensitive information.
+
+## Common Causes of Software Development Failures
+The lecture concluded by summarizing common factors contributing to software failures:
+*   **Poor coding practices**.
+*   **Unreasonable timeframes** for development.
+*   **High volumes of software and code** being handled.
+*   **Underqualified programmers** working on sensitive systems.
+*   An **emphasis on budget** rather than user experience.
+*   **Complex operations** with intricate management chains that are distant from the actual work being done.
+
+## Summary
+*   Software failures range from simple bugs to catastrophic events with ethical implications.
+*   Examples like Heartbleed (a memory dumping bug) were considered technical mistakes, while Therac-25 (a radiation machine with a race condition) was a severe software engineering failure leading to deaths.
+*   Many costly failures (e.g., Pentium bug, Mars Climate Orbiter) could have been avoided with common software engineering practices and were not typically ethical issues.
+*   Liability for software failures is complex, weighing factors like intent, outcome, the severity of harm, and the company's core responsibilities.
+*   The Equifax data breach highlighted liability when a company fails to address known vulnerabilities and notify users, especially when security is their primary function.
+*   Common causes of software failures include poor coding, unrealistic deadlines, underqualified staff, budget over user experience, and distant management.
+
+## Supplement
+*   **Race Condition:** A situation where the outcome of a program depends on the sequence or timing of uncontrollable events, such as multiple processes or threads accessing shared resources simultaneously. In the Therac-25 case, it led to the machine delivering an unsafe dose of radiation.
+*   **Buffer Overflow Exploit:** A type of software vulnerability that occurs when a program attempts to write data to a fixed-size memory buffer, but the data exceeds the buffer's capacity. This can overwrite adjacent memory, potentially leading to crashes, incorrect program behavior, or, as in Heartbleed, the disclosure of sensitive data stored in nearby memory locations.
+*   **Utilitarian Argument:** In the context of this lecture, it refers to an ethical framework where the best action is the one that maximizes overall good or minimizes overall harm, even if it means causing some harm to a smaller number of individuals to benefit a larger group. The lecture discussed this in the hypothetical scenario of an algorithm saving 100 lives while causing 2 deaths.

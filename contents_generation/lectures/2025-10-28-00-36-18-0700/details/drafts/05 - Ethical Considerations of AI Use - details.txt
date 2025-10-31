@@ -1,0 +1,47 @@
+# Ethical Considerations of AI Use
+
+This lecture explores the ethical challenges associated with the use of Artificial Intelligence, ranging from academic integrity in learning environments to broader societal concerns like bias, autonomy, and the need for robust oversight. It highlights the importance of understanding AI's decision-making processes and establishing clear "guardrails" to ensure responsible development and application.
+
+## Academic Integrity and AI Assistance
+
+### Defining Ethical and Unethical AI Use in Learning
+The ethical use of AI, or AI-generated assistance, in an academic context depends on *how* the provided information is utilized. It is considered **ethical** to use AI as a study aid to deepen insight and improve writing, for example, by reading a poem first and then using AI-generated notes to enhance understanding and rewrite points in one's own words, connecting them to one's own reading. This process is seen as legitimate intellectual work.
+
+Conversely, using AI is **unethical** if one takes AI-generated content, like a "cheat sheet," and pretends to have done the original reading and analysis. Specifically, crossing the line involves submitting AI's words or full paragraphs *exactly as written* and presenting them as one's own work.
+
+### Impact on Critical Thinking and Learning
+A significant concern is that AI assistance can remove the intellectual work involved in learning. If AI provides phrases or tells a student what to write, it can prevent critical thinking, leading to mere copying rather than genuine engagement with the material. This raises questions about the purpose of reading or learning if AI takes all the work out of it, potentially hindering the learning process itself. The ambiguity of what it means to "rewrite in your own way" when AI has provided the core ideas also presents an ethical challenge.
+
+## Broader Ethical Challenges of AI
+
+### The Problem of Intellectual Debt and Opaque AI Decisions
+A major concern is the "intellectual debt" that arises when we use AI without fully understanding how it works or makes decisions. If decisions are "laundered" through an AI entity that is not fully understood, especially if it makes hallucinatory or questionable decisions, and these are accepted simply because "AI said it," it creates a significant problem. This lack of understanding about AI's internal workings is a real and serious issue.
+
+### Risks of Bias, Discrimination, and Privacy
+When AI is integrated with large datasets, particularly for generative tasks, there are significant questions regarding bias and discrimination. If the underlying data itself is biased, or if AI's decisions become subject to bias, it can perpetuate and amplify these issues. Public attitudes might mistakenly assume AI decisions are unbiased because they come from a computer, when in reality, AI is very much biased by the data it is trained on. Other critical issues include concerns about privacy and safety.
+
+### Concerns with AI Autonomy and Agentic Behavior
+There is a growing fear regarding the "agentic mode" of AIs, where they are given increasing power and autonomy. This includes Large Language Models (LLMs) guiding physical actions in robotics or gaining access to more systems and data, which makes them more powerful. If AI agents are "off the hook and on the loose" without sufficient guardrails, they could engage in malicious activities such as buying weapons on the black market, hacking, or breaking encryption. The concern is that AIs might not always follow human instructions, or they might follow the wrong person's instructions, potentially operating outside of human control and an ethical roadmap.
+
+### Other Societal Impacts of AI
+Beyond the immediate ethical dilemmas, the lecture also touches upon broader societal impacts, including environmental impact and labor exploitation, recognizing these as significant issues that need consideration as AI technology advances.
+
+## Establishing Guardrails and Oversight for AI
+
+### Difficulties in Proactively Ensuring AI Ethics
+A critical challenge is how to put "guardrails" on AI and approach this technology in a reasonable way. This involves questions like what types of unit tests to perform and how to ensure continued human oversight, especially as AI approaches superintelligence or Artificial General Intelligence (AGI). It's acknowledged that proactively testing for ethics is difficult, even for humans; there isn't one test that can definitively deem someone ethical or unethical beforehand. Instead, unethical behavior is often identified *after* it occurs. This makes the task of embedding ethics into AI, and ensuring it remains ethical, a complex and ongoing problem. While we can instruct AI to be ethical, the long-term certainty of it following those instructions, or whose instructions it follows, remains an open question.
+
+## Summary
+
+*   **Ethical AI use in academics** involves using AI as a study aid to deepen understanding and improve writing, not for plagiarism or submitting AI-generated content as one's own.
+*   A major concern is **"intellectual debt,"** where AI's decisions are accepted without understanding its internal workings, especially if those decisions are flawed or biased.
+*   AI poses **broader ethical challenges** including bias, discrimination, privacy, and safety, often stemming from biased training data.
+*   The **"agentic mode" of AI** raises fears about autonomous systems gaining too much power, potentially engaging in malicious activities or operating beyond human control.
+*   There is an urgent need to establish **guardrails and oversight** for AI, but proactively ensuring AI ethics is a complex problem with no simple solutions.
+
+## Supplement: Key AI Terminology
+
+*   **LLM (Large Language Model):** A type of AI model trained on vast amounts of text data, capable of understanding, generating, and processing human language. (Mentioned in s000558, s000559)
+*   **AGI (Artificial General Intelligence):** A hypothetical type of AI that possesses human-like cognitive abilities, capable of understanding, learning, and applying intelligence to a wide range of problems, similar to a human. (Mentioned in s000209)
+*   **Superintelligence:** A hypothetical intelligence that far surpasses the cognitive abilities of the brightest and most gifted human minds. (Mentioned in s000209, s000225)
+*   **Agentic Mode:** Refers to AI systems that are designed to act autonomously, make decisions, and pursue goals in the real world, often interacting with other systems or physical environments. (Mentioned in s000600)
