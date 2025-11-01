@@ -1,0 +1,7866 @@
+[
+  {
+    "sid": "s000001",
+    "text": "You put in a regrade request and either your TA or the TA that created that problem will take a look at it and reply.",
+    "start": 640,
+    "end": 10400,
+    "speaker": "A",
+    "confidence": 0.7661133
+  },
+  {
+    "sid": "s000002",
+    "text": "If you're not satisfied with the answer only then I ask that you only then escalate it to me and I'll be happy to take a look at it after the TA does.",
+    "start": 10720,
+    "end": 22720,
+    "speaker": "A",
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000003",
+    "text": "And like always my decision, that's how that's been done.",
+    "start": 23200,
+    "end": 28850,
+    "speaker": "A",
+    "confidence": 0.75390625
+  },
+  {
+    "sid": "s000004",
+    "text": "Today we're talking about arithmetic and how we do primarily addition and subtraction.",
+    "start": 29330,
+    "end": 34770,
+    "speaker": "A",
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000005",
+    "text": "We still gotta keep this class.",
+    "start": 35090,
+    "end": 36370,
+    "speaker": "A",
+    "confidence": 0.7753906
+  },
+  {
+    "sid": "s000006",
+    "text": "So, you know, an arithmetic circuit is nothing more than a combinational circuit that performs arithmetic operations such as addition, subtraction, multiplication and division.",
+    "start": 39330,
+    "end": 51090,
+    "speaker": "A",
+    "confidence": 0.9819336
+  },
+  {
+    "sid": "s000007",
+    "text": "We're going to concentrate today on addition and subtraction.",
+    "start": 51650,
+    "end": 54700,
+    "speaker": "A",
+    "confidence": 0.99397784
+  },
+  {
+    "sid": "s000008",
+    "text": "So we're going to develop some arithmetic circuits that use a hierarchical iterative design to beginning at the lowest level to add two binary digits.",
+    "start": 55660,
+    "end": 68620,
+    "speaker": "A",
+    "confidence": 0.9873047
+  },
+  {
+    "sid": "s000009",
+    "text": "And when we add two digits, there really are only four possibilities.",
+    "start": 68940,
+    "end": 72300,
+    "speaker": "A",
+    "confidence": 0.92285156
+  },
+  {
+    "sid": "s000010",
+    "text": "We can add 0 plus 0, we can add 0 plus 1, we can add 1 plus 0 or 1 plus 1.",
+    "start": 73660,
+    "end": 81500,
+    "speaker": "A",
+    "confidence": 0.921875
+  },
+  {
+    "sid": "s000011",
+    "text": "And the.",
+    "start": 83020,
+    "end": 84780,
+    "speaker": "A",
+    "confidence": 0.7548828
+  },
+  {
+    "sid": "s000012",
+    "text": "Yeah, so 0 plus 0, of course is 0, 0 plus 1 is 1, 1 plus 0 is 1 and 1 plus 1 is 2, 0.",
+    "start": 87100,
+    "end": 96619,
+    "speaker": "A",
+    "confidence": 0.9067383
+  },
+  {
+    "sid": "s000013",
+    "text": "So in the first three cases, somebody's.",
+    "start": 97740,
+    "end": 107380,
+    "speaker": "A",
+    "confidence": 0.9838867
+  },
+  {
+    "sid": "s000014",
+    "text": "I just heard something.",
+    "start": 108820,
+    "end": 109860,
+    "speaker": "A",
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000015",
+    "text": "I'm not screen sharing.",
+    "start": 111300,
+    "end": 112500,
+    "speaker": "A",
+    "confidence": 0.9827474
+  },
+  {
+    "sid": "s000016",
+    "text": "Oh, thank you.",
+    "start": 112500,
+    "end": 113220,
+    "speaker": "A",
+    "confidence": 0.7492676
+  },
+  {
+    "sid": "s000017",
+    "text": "Let's see.",
+    "start": 114020,
+    "end": 114660,
+    "speaker": "A",
+    "confidence": 0.9860026
+  },
+  {
+    "sid": "s000018",
+    "text": "Let me fix that.",
+    "start": 114660,
+    "end": 115540,
+    "speaker": "A",
+    "confidence": 0.9916992
+  },
+  {
+    "sid": "s000019",
+    "text": "Bear with me.",
+    "start": 119860,
+    "end": 120820,
+    "speaker": "A",
+    "confidence": 0.87597656
+  },
+  {
+    "sid": "s000020",
+    "text": "Your here.",
+    "start": 131470,
+    "end": 132430,
+    "speaker": "A",
+    "confidence": 0.47216797
+  },
+  {
+    "sid": "s000021",
+    "text": "Okay, good.",
+    "start": 134670,
+    "end": 136310,
+    "speaker": "A",
+    "confidence": 0.953125
+  },
+  {
+    "sid": "s000022",
+    "text": "Well, thank you for telling me.",
+    "start": 136310,
+    "end": 137550,
+    "speaker": "A",
+    "confidence": 0.67871094
+  },
+  {
+    "sid": "s000023",
+    "text": "That's one thing.",
+    "start": 149310,
+    "end": 150030,
+    "speaker": "A",
+    "confidence": 0.9996745
+  },
+  {
+    "sid": "s000024",
+    "text": "If you're watching any of this remote, I'd ask people to watch it remotely to.",
+    "start": 150030,
+    "end": 154190,
+    "speaker": "A",
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000025",
+    "text": "If I missed one of these things like no sound and no here interrupt.",
+    "start": 154270,
+    "end": 157880,
+    "speaker": "A",
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000026",
+    "text": "I start talking and there's nothing on the screen, please interrupt.",
+    "start": 159640,
+    "end": 163400,
+    "speaker": "A",
+    "confidence": 0.63916016
+  },
+  {
+    "sid": "s000027",
+    "text": "I need to know that.",
+    "start": 164200,
+    "end": 165160,
+    "speaker": "A",
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000028",
+    "text": "Okay.",
+    "start": 166120,
+    "end": 166600,
+    "speaker": "A",
+    "confidence": 0.9425456
+  },
+  {
+    "sid": "s000029",
+    "text": "Anyway, with three of those we only need a single bit, but one plus one requires two bits.",
+    "start": 166600,
+    "end": 172520,
+    "speaker": "A",
+    "confidence": 0.998291
+  },
+  {
+    "sid": "s000030",
+    "text": "So if we have a circuit that adds two bits, we need two outputs.",
+    "start": 172520,
+    "end": 177240,
+    "speaker": "A",
+    "confidence": 0.99658203
+  },
+  {
+    "sid": "s000031",
+    "text": "We need two bits of output just to handle the case of one plus one.",
+    "start": 177240,
+    "end": 180680,
+    "speaker": "A",
+    "confidence": 0.9379883
+  },
+  {
+    "sid": "s000032",
+    "text": "And the circuit that does that is called a half adder.",
+    "start": 182930,
+    "end": 186210,
+    "speaker": "A",
+    "confidence": 0.9453125
+  },
+  {
+    "sid": "s000033",
+    "text": "Half adder is purely combinational.",
+    "start": 189410,
+    "end": 191410,
+    "speaker": "A",
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000034",
+    "text": "It generates the sum of two bits.",
+    "start": 192930,
+    "end": 195090,
+    "speaker": "A",
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000035",
+    "text": "It's got two inputs.",
+    "start": 197330,
+    "end": 198930,
+    "speaker": "A",
+    "confidence": 0.99641925
+  },
+  {
+    "sid": "s000036",
+    "text": "You know, instead of X and Y, I'm going to call it X and carry.",
+    "start": 201250,
+    "end": 206690,
+    "speaker": "A",
+    "confidence": 0.796875
+  },
+  {
+    "sid": "s000037",
+    "text": "CM okay.",
+    "start": 207170,
+    "end": 208460,
+    "speaker": "A",
+    "confidence": 0.73095703
+  },
+  {
+    "sid": "s000038",
+    "text": "And two outputs, the carry and the sum, which I'll call the carry.",
+    "start": 208540,
+    "end": 214220,
+    "speaker": "A",
+    "confidence": 0.98535156
+  },
+  {
+    "sid": "s000039",
+    "text": "The carry out cf.",
+    "start": 214220,
+    "end": 215580,
+    "speaker": "A",
+    "confidence": 0.96484375
+  },
+  {
+    "sid": "s000040",
+    "text": "So if we build up a little truth table for that combinational circuit can be defined with a truth table.",
+    "start": 217580,
+    "end": 223180,
+    "speaker": "A",
+    "confidence": 0.9042969
+  },
+  {
+    "sid": "s000041",
+    "text": "Our inputs are X and the carry in.",
+    "start": 223420,
+    "end": 226300,
+    "speaker": "A",
+    "confidence": 0.99316406
+  },
+  {
+    "sid": "s000042",
+    "text": "Nope, I'm going back correctly.",
+    "start": 228700,
+    "end": 230340,
+    "speaker": "A",
+    "confidence": 0.9666341
+  },
+  {
+    "sid": "s000043",
+    "text": "The carry in is for the full end.",
+    "start": 230340,
+    "end": 234380,
+    "speaker": "A",
+    "confidence": 0.6166992
+  },
+  {
+    "sid": "s000044",
+    "text": "We'll call maximum and C and S will work.",
+    "start": 235020,
+    "end": 239180,
+    "speaker": "A",
+    "confidence": 0.84309894
+  },
+  {
+    "sid": "s000045",
+    "text": "I'm getting ahead of Myself.",
+    "start": 242300,
+    "end": 243580,
+    "speaker": "A",
+    "confidence": 0.8925781
+  },
+  {
+    "sid": "s000046",
+    "text": "So X and Y are the inputs and carry and sum are the outputs.",
+    "start": 244700,
+    "end": 249180,
+    "speaker": "A",
+    "confidence": 0.9482422
+  },
+  {
+    "sid": "s000047",
+    "text": "So with two inputs, there are the four combinations.",
+    "start": 251020,
+    "end": 254220,
+    "speaker": "A",
+    "confidence": 0.9868164
+  },
+  {
+    "sid": "s000048",
+    "text": "And just like we did just a moment ago, the first row, zero plus zero, an arithmetic addition, not a binary or zero plus zero, the sum is zero, zero plus one the sum is one, one plus zero the sum is one, and one plus one the sum is two.",
+    "start": 258060,
+    "end": 279520,
+    "speaker": "A",
+    "confidence": 0.9760742
+  },
+  {
+    "sid": "s000049",
+    "text": "So if we wanted to from this, I think we can eyeball this and pull out some boolean expressions.",
+    "start": 283680,
+    "end": 290670,
+    "speaker": "A",
+    "confidence": 0.9770508
+  },
+  {
+    "sid": "s000050",
+    "text": "For example, S. If we look at it, see where S is a one, S is a one on these two rows, that is this first row is where X is a zero and Y is a one.",
+    "start": 291630,
+    "end": 305310,
+    "speaker": "A",
+    "confidence": 0.9975586
+  },
+  {
+    "sid": "s000051",
+    "text": "So we write that, not X, Y.",
+    "start": 305550,
+    "end": 307870,
+    "speaker": "A",
+    "confidence": 0.9921875
+  },
+  {
+    "sid": "s000052",
+    "text": "Or in the other plate row where S is a one, X is a one and Y is a zero.",
+    "start": 309070,
+    "end": 313710,
+    "speaker": "A",
+    "confidence": 0.9975586
+  },
+  {
+    "sid": "s000053",
+    "text": "So that is X, not Y, which is in fact exclusively X.",
+    "start": 313710,
+    "end": 322470,
+    "speaker": "A",
+    "confidence": 0.9511719
+  },
+  {
+    "sid": "s000054",
+    "text": "Exclusively the carry is only one in one place.",
+    "start": 322470,
+    "end": 328030,
+    "speaker": "A",
+    "confidence": 0.87768555
+  },
+  {
+    "sid": "s000055",
+    "text": "And C is a one when both X and Y are one.",
+    "start": 329790,
+    "end": 332270,
+    "speaker": "A",
+    "confidence": 0.98876953
+  },
+  {
+    "sid": "s000056",
+    "text": "So C is just X and Y.",
+    "start": 332350,
+    "end": 334830,
+    "speaker": "A",
+    "confidence": 0.9975586
+  },
+  {
+    "sid": "s000057",
+    "text": "So that we can, I think we can pretty easily draw the combinational circuit for that.",
+    "start": 337960,
+    "end": 343080,
+    "speaker": "A",
+    "confidence": 0.9135742
+  },
+  {
+    "sid": "s000058",
+    "text": "We need an exclusive or S and an and carry.",
+    "start": 343320,
+    "end": 356840,
+    "speaker": "A",
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000059",
+    "text": "And the inputs to both are S and O.",
+    "start": 358280,
+    "end": 360280,
+    "speaker": "A",
+    "confidence": 0.98876953
+  },
+  {
+    "sid": "s000060",
+    "text": "That and there's our half add.",
+    "start": 362520,
+    "end": 372210,
+    "speaker": "A",
+    "confidence": 0.7553711
+  },
+  {
+    "sid": "s000061",
+    "text": "That adds two bits, but that's not enough.",
+    "start": 372370,
+    "end": 379890,
+    "speaker": "A",
+    "confidence": 0.99072266
+  },
+  {
+    "sid": "s000062",
+    "text": "You know, usually when we add two bits we're really adding a much bigger number, multi bit numbers.",
+    "start": 379890,
+    "end": 386250,
+    "speaker": "A",
+    "confidence": 0.57714844
+  },
+  {
+    "sid": "s000063",
+    "text": "And there's typically going to be a K carry in from the previous stage.",
+    "start": 386250,
+    "end": 391020,
+    "speaker": "A",
+    "confidence": 0.6225586
+  },
+  {
+    "sid": "s000064",
+    "text": "And that gives rise to the full adder.",
+    "start": 391820,
+    "end": 394380,
+    "speaker": "A",
+    "confidence": 0.9794922
+  },
+  {
+    "sid": "s000065",
+    "text": "A full adder is also a combinational circuit.",
+    "start": 394940,
+    "end": 398300,
+    "speaker": "A",
+    "confidence": 0.75927734
+  },
+  {
+    "sid": "s000066",
+    "text": "It generates the sum of three bits, the two bits used in the half adder plus a carry.",
+    "start": 398540,
+    "end": 405660,
+    "speaker": "A",
+    "confidence": 0.97558594
+  },
+  {
+    "sid": "s000067",
+    "text": "So three inputs, let's call them, I'm going to call them XY before and here's where I want the carry carry in.",
+    "start": 407420,
+    "end": 415750,
+    "speaker": "A",
+    "confidence": 0.98876953
+  },
+  {
+    "sid": "s000068",
+    "text": "And then the biggest number we're going to get is going to be one plus one plus one, which is three.",
+    "start": 417510,
+    "end": 424790,
+    "speaker": "A",
+    "confidence": 0.9819336
+  },
+  {
+    "sid": "s000069",
+    "text": "That requires two bits.",
+    "start": 425110,
+    "end": 427030,
+    "speaker": "A",
+    "confidence": 0.9838867
+  },
+  {
+    "sid": "s000070",
+    "text": "So we need two bits of output which will be our carry out and the sum bit.",
+    "start": 428070,
+    "end": 433510,
+    "speaker": "A",
+    "confidence": 0.85302734
+  },
+  {
+    "sid": "s000071",
+    "text": "So combinational circuit, there's going to be eight rows on this 1, 2, 3, 41234.",
+    "start": 436150,
+    "end": 447920,
+    "speaker": "A",
+    "confidence": 0.9868164
+  },
+  {
+    "sid": "s000072",
+    "text": "Y is 00110011 0101.",
+    "start": 448880,
+    "end": 456240,
+    "speaker": "A",
+    "confidence": 0.9667969
+  },
+  {
+    "sid": "s000073",
+    "text": "Okay, so starting on the first 0 plus 0 plus 0, that's 0 and the carry out is 0.",
+    "start": 461840,
+    "end": 471590,
+    "speaker": "A",
+    "confidence": 0.961263
+  },
+  {
+    "sid": "s000074",
+    "text": "The second row is 0 plus 0 plus 1 which is binary 1.",
+    "start": 474230,
+    "end": 479190,
+    "speaker": "A",
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000075",
+    "text": "We bring down the 1 and the carry is 0.",
+    "start": 479190,
+    "end": 481910,
+    "speaker": "A",
+    "confidence": 0.98339844
+  },
+  {
+    "sid": "s000076",
+    "text": "Okay, that's 1.",
+    "start": 481910,
+    "end": 484150,
+    "speaker": "A",
+    "confidence": 0.8147786
+  },
+  {
+    "sid": "s000077",
+    "text": "The third row is the variation on the second.",
+    "start": 485750,
+    "end": 487750,
+    "speaker": "A",
+    "confidence": 0.99658203
+  },
+  {
+    "sid": "s000078",
+    "text": "Just they're in a different order.",
+    "start": 487990,
+    "end": 489750,
+    "speaker": "A",
+    "confidence": 0.52490234
+  },
+  {
+    "sid": "s000079",
+    "text": "0 plus 1 plus 0, which is 1.",
+    "start": 489910,
+    "end": 491990,
+    "speaker": "A",
+    "confidence": 0.98633
+  },
+  {
+    "sid": "s000080",
+    "text": "And then the fourth row, row 3, is 0 plus 1 plus 1, which is 2.",
+    "start": 493750,
+    "end": 499830,
+    "speaker": "A",
+    "confidence": 0.94628906
+  },
+  {
+    "sid": "s000081",
+    "text": "So we bring down the 0 and carry the 1 to give us a binary 2.",
+    "start": 500230,
+    "end": 504790,
+    "speaker": "A",
+    "confidence": 0.97216797
+  },
+  {
+    "sid": "s000082",
+    "text": "The next row before there is 1 plus 0 plus 0, which is 1.",
+    "start": 508870,
+    "end": 512710,
+    "speaker": "A",
+    "confidence": 0.9970703
+  },
+  {
+    "sid": "s000083",
+    "text": "We have 1 plus 0 plus 1, which is 2.",
+    "start": 513910,
+    "end": 517256,
+    "speaker": "A",
+    "confidence": 0.8803711
+  },
+  {
+    "sid": "s000084",
+    "text": "1 plus 1 plus 0 is 2.",
+    "start": 517412,
+    "end": 519879,
+    "speaker": "A",
+    "confidence": 0.98462
+  },
+  {
+    "sid": "s000085",
+    "text": "And the last row is all 1.",
+    "start": 519959,
+    "end": 521669,
+    "speaker": "A",
+    "confidence": 0.9760742
+  },
+  {
+    "sid": "s000086",
+    "text": "1 plus 1 plus 1, that's 3.",
+    "start": 521729,
+    "end": 523479,
+    "speaker": "A",
+    "confidence": 0.99707
+  },
+  {
+    "sid": "s000087",
+    "text": "Bring down the 1 and carry it.",
+    "start": 523639,
+    "end": 525319,
+    "speaker": "A",
+    "confidence": 0.9897461
+  },
+  {
+    "sid": "s000088",
+    "text": "And that's the full additives.",
+    "start": 527479,
+    "end": 530599,
+    "speaker": "A",
+    "confidence": 0.81689453
+  },
+  {
+    "sid": "s000089",
+    "text": "So figure out what this is.",
+    "start": 539559,
+    "end": 542639,
+    "speaker": "A",
+    "confidence": 0.95751953
+  },
+  {
+    "sid": "s000090",
+    "text": "Right, let's start with S. S is.",
+    "start": 542639,
+    "end": 570100,
+    "speaker": "A",
+    "confidence": 0.6894531
+  },
+  {
+    "sid": "s000091",
+    "text": "What are the mentions here?",
+    "start": 570660,
+    "end": 572100,
+    "speaker": "A",
+    "confidence": 0.6660156
+  },
+  {
+    "sid": "s000092",
+    "text": "1, 2, 4 and 7.",
+    "start": 574100,
+    "end": 576020,
+    "speaker": "A",
+    "confidence": 0.99805
+  },
+  {
+    "sid": "s000093",
+    "text": "And then C is what?",
+    "start": 581380,
+    "end": 586100,
+    "speaker": "A",
+    "confidence": 0.9794922
+  },
+  {
+    "sid": "s000094",
+    "text": "3, 5, 6 and 7.",
+    "start": 586260,
+    "end": 588020,
+    "speaker": "A",
+    "confidence": 0.9987
+  },
+  {
+    "sid": "s000095",
+    "text": "Okay, so if we write out the midterms, what I want to do is some algebraic manipulation on these to see if we can.",
+    "start": 592180,
+    "end": 598830,
+    "speaker": "A",
+    "confidence": 0.92529297
+  },
+  {
+    "sid": "s000096",
+    "text": "I want to get them expressed using inclusive orbs so they look more like the half.",
+    "start": 599070,
+    "end": 605390,
+    "speaker": "A",
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000097",
+    "text": "So let's see.",
+    "start": 607230,
+    "end": 607950,
+    "speaker": "A",
+    "confidence": 0.9790039
+  },
+  {
+    "sid": "s000098",
+    "text": "Min term 1 is 0, 0, 1, right?",
+    "start": 607950,
+    "end": 610750,
+    "speaker": "A",
+    "confidence": 0.9941406
+  },
+  {
+    "sid": "s000099",
+    "text": "That's not x, not y z. Min term 2 is 0, 1, 0.",
+    "start": 610750,
+    "end": 617070,
+    "speaker": "A",
+    "confidence": 0.96533203
+  },
+  {
+    "sid": "s000100",
+    "text": "So that's not x y not 0, z 4 is 1, 0, 0.",
+    "start": 617230,
+    "end": 623480,
+    "speaker": "A",
+    "confidence": 0.96875
+  },
+  {
+    "sid": "s000101",
+    "text": "So that's x not y, not z.",
+    "start": 623560,
+    "end": 626760,
+    "speaker": "A",
+    "confidence": 0.99658203
+  },
+  {
+    "sid": "s000102",
+    "text": "And 7 is 1, 1, 1, xyz.",
+    "start": 626920,
+    "end": 629800,
+    "speaker": "A",
+    "confidence": 0.99316406
+  },
+  {
+    "sid": "s000103",
+    "text": "Okay, let's see that one.",
+    "start": 632520,
+    "end": 634240,
+    "speaker": "A",
+    "confidence": 0.9347331
+  },
+  {
+    "sid": "s000104",
+    "text": "Now, the first two terms, not x is common, leaving not yz or y not z.",
+    "start": 634240,
+    "end": 644840,
+    "speaker": "A",
+    "confidence": 0.9951172
+  },
+  {
+    "sid": "s000105",
+    "text": "And on the second two terms, x is common.",
+    "start": 645480,
+    "end": 649340,
+    "speaker": "A",
+    "confidence": 0.9746094
+  },
+  {
+    "sid": "s000106",
+    "text": "So that's X ended with not Y not Z or yz.",
+    "start": 650060,
+    "end": 656940,
+    "speaker": "A",
+    "confidence": 0.68310547
+  },
+  {
+    "sid": "s000107",
+    "text": "This is what I was looking for was X not X.",
+    "start": 658380,
+    "end": 663340,
+    "speaker": "A",
+    "confidence": 0.9838867
+  },
+  {
+    "sid": "s000108",
+    "text": "So not yz or Y not Z.",
+    "start": 663900,
+    "end": 666300,
+    "speaker": "A",
+    "confidence": 0.98535156
+  },
+  {
+    "sid": "s000109",
+    "text": "That's an exclusive one.",
+    "start": 666300,
+    "end": 667660,
+    "speaker": "A",
+    "confidence": 0.9975586
+  },
+  {
+    "sid": "s000110",
+    "text": "So that's Y exclusive or Z or X.",
+    "start": 680270,
+    "end": 685710,
+    "speaker": "A",
+    "confidence": 0.7402344
+  },
+  {
+    "sid": "s000111",
+    "text": "And this is an exclusive norm.",
+    "start": 688350,
+    "end": 690030,
+    "speaker": "A",
+    "confidence": 0.8457031
+  },
+  {
+    "sid": "s000112",
+    "text": "Y exclusive or Z naught.",
+    "start": 690670,
+    "end": 694590,
+    "speaker": "A",
+    "confidence": 0.6669922
+  },
+  {
+    "sid": "s000113",
+    "text": "If you take a step back and look at that, okay, this is actually an exclusive or of X.",
+    "start": 695630,
+    "end": 701900,
+    "speaker": "A",
+    "confidence": 0.44995117
+  },
+  {
+    "sid": "s000114",
+    "text": "And then this Y exclusive or Z term, right?",
+    "start": 701900,
+    "end": 704740,
+    "speaker": "A",
+    "confidence": 0.99658203
+  },
+  {
+    "sid": "s000115",
+    "text": "Not of the first term.",
+    "start": 705700,
+    "end": 706820,
+    "speaker": "A",
+    "confidence": 0.9707031
+  },
+  {
+    "sid": "s000116",
+    "text": "Second, not X.",
+    "start": 707300,
+    "end": 709780,
+    "speaker": "A",
+    "confidence": 0.70410156
+  },
+  {
+    "sid": "s000117",
+    "text": "Then the true value here, the true value of X ended with the not here.",
+    "start": 709860,
+    "end": 715060,
+    "speaker": "A",
+    "confidence": 0.46484375
+  },
+  {
+    "sid": "s000118",
+    "text": "That's an exclusive or of those two.",
+    "start": 715060,
+    "end": 717300,
+    "speaker": "A",
+    "confidence": 0.9975586
+  },
+  {
+    "sid": "s000119",
+    "text": "So this thing comes down to X exclusive or Y.",
+    "start": 717620,
+    "end": 723460,
+    "speaker": "A",
+    "confidence": 0.9921875
+  },
+  {
+    "sid": "s000120",
+    "text": "Excuse me.",
+    "start": 723460,
+    "end": 723850,
+    "speaker": "A",
+    "confidence": 0.64241534
+  },
+  {
+    "sid": "s000121",
+    "text": "To support C for C, let's see.",
+    "start": 723920,
+    "end": 733440,
+    "speaker": "A",
+    "confidence": 0.32373047
+  },
+  {
+    "sid": "s000122",
+    "text": "Min term 3, 0, 1, 1, not x y z or minterm 5 1, 01 x not yz.",
+    "start": 734320,
+    "end": 749040,
+    "speaker": "A",
+    "confidence": 0.8964844
+  },
+  {
+    "sid": "s000123",
+    "text": "Min term 6, 6 is 1, 1, 0.",
+    "start": 749830,
+    "end": 751750,
+    "speaker": "A",
+    "confidence": 0.66259766
+  },
+  {
+    "sid": "s000124",
+    "text": "So that's x y not z.",
+    "start": 752310,
+    "end": 754990,
+    "speaker": "A",
+    "confidence": 0.98828125
+  },
+  {
+    "sid": "s000125",
+    "text": "And 7 is xyz 1, 1.",
+    "start": 754990,
+    "end": 756950,
+    "speaker": "A",
+    "confidence": 0.9926758
+  },
+  {
+    "sid": "s000126",
+    "text": "So we can do a similar type of reduction here.",
+    "start": 761590,
+    "end": 764070,
+    "speaker": "A",
+    "confidence": 0.98339844
+  },
+  {
+    "sid": "s000127",
+    "text": "The first two terms, actually, the second two terms, I'm going to bring those to the front, have XY being column XY ended with not Z or Z or.",
+    "start": 764150,
+    "end": 782370,
+    "speaker": "A",
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000128",
+    "text": "And then the first two terms, Z is common.",
+    "start": 783410,
+    "end": 789730,
+    "speaker": "A",
+    "confidence": 0.9765625
+  },
+  {
+    "sid": "s000129",
+    "text": "That's not XY or X not.",
+    "start": 796610,
+    "end": 801500,
+    "speaker": "A",
+    "confidence": 0.9108073
+  },
+  {
+    "sid": "s000130",
+    "text": "So what this does that, not Z.",
+    "start": 804220,
+    "end": 806940,
+    "speaker": "A",
+    "confidence": 0.7397461
+  },
+  {
+    "sid": "s000131",
+    "text": "That, not Z or Z.",
+    "start": 807900,
+    "end": 809180,
+    "speaker": "A",
+    "confidence": 0.99609375
+  },
+  {
+    "sid": "s000132",
+    "text": "Right, That's a one.",
+    "start": 809180,
+    "end": 811420,
+    "speaker": "A",
+    "confidence": 0.94433594
+  },
+  {
+    "sid": "s000133",
+    "text": "Anything or with its complement is a one, which leaves x one.",
+    "start": 812380,
+    "end": 815580,
+    "speaker": "A",
+    "confidence": 0.83496094
+  },
+  {
+    "sid": "s000134",
+    "text": "And then this one here is Z ended with the exclusive order.",
+    "start": 817420,
+    "end": 822140,
+    "speaker": "A",
+    "confidence": 0.9946289
+  },
+  {
+    "sid": "s000135",
+    "text": "So here's what we got.",
+    "start": 829840,
+    "end": 830720,
+    "speaker": "A",
+    "confidence": 0.9790039
+  },
+  {
+    "sid": "s000136",
+    "text": "S is the exclusive or of all three terms of variables.",
+    "start": 831280,
+    "end": 837040,
+    "speaker": "A",
+    "confidence": 0.99072266
+  },
+  {
+    "sid": "s000137",
+    "text": "And C is slightly more complicated expression.",
+    "start": 842160,
+    "end": 848160,
+    "speaker": "A",
+    "confidence": 0.7060547
+  },
+  {
+    "sid": "s000138",
+    "text": "Okay, it's that last XY or Z ended with X squared Y.",
+    "start": 852570,
+    "end": 857290,
+    "speaker": "A",
+    "confidence": 0.9536133
+  },
+  {
+    "sid": "s000139",
+    "text": "So we can draw a circuit that looks like that.",
+    "start": 859850,
+    "end": 863850,
+    "speaker": "A",
+    "confidence": 0.9946289
+  },
+  {
+    "sid": "s000140",
+    "text": "Okay, here's those two expressions we just came up with.",
+    "start": 864090,
+    "end": 867130,
+    "speaker": "A",
+    "confidence": 0.9191081
+  },
+  {
+    "sid": "s000141",
+    "text": "And this is a full adder.",
+    "start": 867290,
+    "end": 868569,
+    "speaker": "A",
+    "confidence": 0.9892578
+  },
+  {
+    "sid": "s000142",
+    "text": "If it implements those, it's got to be the full adder, which we have built by combining two half adders and an orbital.",
+    "start": 871130,
+    "end": 879640,
+    "speaker": "A",
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000143",
+    "text": "So let's check this a couple different ways.",
+    "start": 881950,
+    "end": 885070,
+    "speaker": "A",
+    "confidence": 0.9916992
+  },
+  {
+    "sid": "s000144",
+    "text": "Here's X and Y coming in.",
+    "start": 886190,
+    "end": 887630,
+    "speaker": "A",
+    "confidence": 0.9274089
+  },
+  {
+    "sid": "s000145",
+    "text": "Z comes in.",
+    "start": 887630,
+    "end": 888510,
+    "speaker": "A",
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000146",
+    "text": "So this is X exclusive or Y.",
+    "start": 889950,
+    "end": 891870,
+    "speaker": "A",
+    "confidence": 0.9897461
+  },
+  {
+    "sid": "s000147",
+    "text": "And then here's Z coming in like that.",
+    "start": 896750,
+    "end": 899070,
+    "speaker": "A",
+    "confidence": 0.99609375
+  },
+  {
+    "sid": "s000148",
+    "text": "So we're exclusive oring Z with this term.",
+    "start": 899630,
+    "end": 903150,
+    "speaker": "A",
+    "confidence": 0.99658203
+  },
+  {
+    "sid": "s000149",
+    "text": "So S is X exclusive or Y exclusive or Z and you don't need the parenthesis that matches.",
+    "start": 903230,
+    "end": 911000,
+    "speaker": "A",
+    "confidence": 0.9941406
+  },
+  {
+    "sid": "s000150",
+    "text": "And then for C, what about here?",
+    "start": 911240,
+    "end": 913880,
+    "speaker": "A",
+    "confidence": 0.6513672
+  },
+  {
+    "sid": "s000151",
+    "text": "This and gate is X and Y, which appears on this or gate.",
+    "start": 913960,
+    "end": 918960,
+    "speaker": "A",
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000152",
+    "text": "That's the XY at the beginning of the C expression.",
+    "start": 918960,
+    "end": 923000,
+    "speaker": "A",
+    "confidence": 0.99886066
+  },
+  {
+    "sid": "s000153",
+    "text": "And now do we get this Z end with X exclusive or Y.",
+    "start": 923240,
+    "end": 927160,
+    "speaker": "A",
+    "confidence": 0.9824219
+  },
+  {
+    "sid": "s000154",
+    "text": "What we do, here's Z coming into this.",
+    "start": 927480,
+    "end": 930600,
+    "speaker": "A",
+    "confidence": 0.5986328
+  },
+  {
+    "sid": "s000155",
+    "text": "No, Z right here coming into that and gate.",
+    "start": 933470,
+    "end": 936030,
+    "speaker": "A",
+    "confidence": 0.5366211
+  },
+  {
+    "sid": "s000156",
+    "text": "And what's on the other input is X exclusive or Y when we are those two together to get Z.",
+    "start": 936030,
+    "end": 942110,
+    "speaker": "A",
+    "confidence": 0.53125
+  },
+  {
+    "sid": "s000157",
+    "text": "So this implements those two expressions that we derive with the algebra.",
+    "start": 943950,
+    "end": 949310,
+    "speaker": "A",
+    "confidence": 0.9902344
+  },
+  {
+    "sid": "s000158",
+    "text": "That said, I'm always a little skeptical of these things.",
+    "start": 949630,
+    "end": 953870,
+    "speaker": "A",
+    "confidence": 0.8979492
+  },
+  {
+    "sid": "s000159",
+    "text": "So let's try running a few bit patterns through this just to see if it really does add three bits.",
+    "start": 954830,
+    "end": 965080,
+    "speaker": "A",
+    "confidence": 0.9614258
+  },
+  {
+    "sid": "s000160",
+    "text": "It should.",
+    "start": 965480,
+    "end": 966120,
+    "speaker": "A",
+    "confidence": 0.921875
+  },
+  {
+    "sid": "s000161",
+    "text": "The algebra tells us it should.",
+    "start": 967000,
+    "end": 968680,
+    "speaker": "A",
+    "confidence": 0.6489258
+  },
+  {
+    "sid": "s000162",
+    "text": "Let's put zeros on all the inputs.",
+    "start": 970360,
+    "end": 972840,
+    "speaker": "A",
+    "confidence": 0.99641925
+  },
+  {
+    "sid": "s000163",
+    "text": "The output should be 00, which means we've got a zero here and here and here and here.",
+    "start": 974840,
+    "end": 981720,
+    "speaker": "A",
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000164",
+    "text": "And that input on Z put zeros there.",
+    "start": 982250,
+    "end": 985690,
+    "speaker": "A",
+    "confidence": 0.8798828
+  },
+  {
+    "sid": "s000165",
+    "text": "So coming out of this first exclusive or we get X. I'm sorry, variable ones, actual values.",
+    "start": 989610,
+    "end": 997530,
+    "speaker": "A",
+    "confidence": 0.99121094
+  },
+  {
+    "sid": "s000166",
+    "text": "Zero exclusive or zero is zero.",
+    "start": 1004010,
+    "end": 1007130,
+    "speaker": "A",
+    "confidence": 0.9975586
+  },
+  {
+    "sid": "s000167",
+    "text": "And now we got zero exclusive or zero, which is zero.",
+    "start": 1008580,
+    "end": 1011780,
+    "speaker": "A",
+    "confidence": 0.94970703
+  },
+  {
+    "sid": "s000168",
+    "text": "So S is a zero.",
+    "start": 1011780,
+    "end": 1012820,
+    "speaker": "A",
+    "confidence": 0.9824219
+  },
+  {
+    "sid": "s000169",
+    "text": "And because that zero up here is a zero, that's a zero, zero and zero is zero.",
+    "start": 1014420,
+    "end": 1020660,
+    "speaker": "A",
+    "confidence": 0.95214844
+  },
+  {
+    "sid": "s000170",
+    "text": "Okay, coming out of this and gate right here, that's got to be A right?",
+    "start": 1022820,
+    "end": 1033310,
+    "speaker": "A",
+    "confidence": 0.86604816
+  },
+  {
+    "sid": "s000171",
+    "text": "And so that makes that a zero right there.",
+    "start": 1035870,
+    "end": 1038350,
+    "speaker": "A",
+    "confidence": 0.97998047
+  },
+  {
+    "sid": "s000172",
+    "text": "Zero or zero is zero.",
+    "start": 1038510,
+    "end": 1039870,
+    "speaker": "A",
+    "confidence": 0.9975586
+  },
+  {
+    "sid": "s000173",
+    "text": "Sure enough, S and C are zeros.",
+    "start": 1040270,
+    "end": 1042430,
+    "speaker": "A",
+    "confidence": 0.6044922
+  },
+  {
+    "sid": "s000174",
+    "text": "What I want to do now is let's make one of the bits A1.",
+    "start": 1061210,
+    "end": 1064410,
+    "speaker": "A",
+    "confidence": 0.99072266
+  },
+  {
+    "sid": "s000175",
+    "text": "We're adding 0 plus 0 plus 1.",
+    "start": 1065050,
+    "end": 1067210,
+    "speaker": "A",
+    "confidence": 0.85091144
+  },
+  {
+    "sid": "s000176",
+    "text": "So Z will be A1.",
+    "start": 1067930,
+    "end": 1069130,
+    "speaker": "A",
+    "confidence": 0.88427734
+  },
+  {
+    "sid": "s000177",
+    "text": "All the inputs and those gates inside the first half adder didn't change the signals.",
+    "start": 1070970,
+    "end": 1076570,
+    "speaker": "A",
+    "confidence": 1.0
+  },
+  {
+    "sid": "s000178",
+    "text": "But with Z being a one, we're going to put a one there and gate.",
+    "start": 1077690,
+    "end": 1082650,
+    "speaker": "A",
+    "confidence": 0.92626953
+  },
+  {
+    "sid": "s000179",
+    "text": "Okay, going up to that second exclusive list, zero exclusive or one real difference.",
+    "start": 1083370,
+    "end": 1089700,
+    "speaker": "A",
+    "confidence": 0.8570964
+  },
+  {
+    "sid": "s000180",
+    "text": "So the S is a one and on that and gate right below it, well, zero and one is a zero.",
+    "start": 1089700,
+    "end": 1096100,
+    "speaker": "A",
+    "confidence": 0.97021484
+  },
+  {
+    "sid": "s000181",
+    "text": "We got zero or zero is a zero.",
+    "start": 1096660,
+    "end": 1099620,
+    "speaker": "A",
+    "confidence": 0.98779297
+  },
+  {
+    "sid": "s000182",
+    "text": "So our result is zero one.",
+    "start": 1099700,
+    "end": 1102900,
+    "speaker": "A",
+    "confidence": 0.9926758
+  },
+  {
+    "sid": "s000183",
+    "text": "So it's a binary one, which is what we'd expect from zero plus zero plus one.",
+    "start": 1102900,
+    "end": 1107140,
+    "speaker": "A",
+    "confidence": 0.36035156
+  },
+  {
+    "sid": "s000184",
+    "text": "Let's try changing another one of those in place.",
+    "start": 1109220,
+    "end": 1112180,
+    "speaker": "A",
+    "confidence": 0.99869794
+  },
+  {
+    "sid": "s000185",
+    "text": "The 1.",
+    "start": 1115050,
+    "end": 1115530,
+    "speaker": "A",
+    "confidence": 0.53759766
+  },
+  {
+    "sid": "s000186",
+    "text": "Let's think y over.",
+    "start": 1135130,
+    "end": 1136250,
+    "speaker": "A",
+    "confidence": 0.99820966
+  },
+  {
+    "sid": "s000187",
+    "text": "So now we got 0 plus 1 plus 1.",
+    "start": 1139460,
+    "end": 1141140,
+    "speaker": "A",
+    "confidence": 0.9614258
+  },
+  {
+    "sid": "s000188",
+    "text": "The output should be 2.",
+    "start": 1141140,
+    "end": 1143220,
+    "speaker": "A",
+    "confidence": 0.7080078
+  },
+  {
+    "sid": "s000189",
+    "text": "You got 0 and 1 there, 0 and 1 there.",
+    "start": 1144180,
+    "end": 1147380,
+    "speaker": "A",
+    "confidence": 0.421875
+  },
+  {
+    "sid": "s000190",
+    "text": "So the output, and let's see, this is z1 there and there.",
+    "start": 1148420,
+    "end": 1153220,
+    "speaker": "A",
+    "confidence": 0.99609375
+  },
+  {
+    "sid": "s000191",
+    "text": "So the output of that first exclusive or 0xor1 should be a 1 is a 11 there.",
+    "start": 1153620,
+    "end": 1160660,
+    "speaker": "A",
+    "confidence": 0.6665039
+  },
+  {
+    "sid": "s000192",
+    "text": "The output of that first and gate is 0, 0 and 1 is 0.",
+    "start": 1161220,
+    "end": 1164990,
+    "speaker": "A",
+    "confidence": 0.98291016
+  },
+  {
+    "sid": "s000193",
+    "text": "Puts a 0 on that last.",
+    "start": 1166350,
+    "end": 1167630,
+    "speaker": "A",
+    "confidence": 0.7241211
+  },
+  {
+    "sid": "s000194",
+    "text": "Or we've got a 1 here.",
+    "start": 1167630,
+    "end": 1171310,
+    "speaker": "A",
+    "confidence": 0.93847656
+  },
+  {
+    "sid": "s000195",
+    "text": "So in the second exclusive or 1x or 1 is a 0.",
+    "start": 1171870,
+    "end": 1175150,
+    "speaker": "A",
+    "confidence": 0.9921875
+  },
+  {
+    "sid": "s000196",
+    "text": "They're the same.",
+    "start": 1176110,
+    "end": 1176910,
+    "speaker": "A",
+    "confidence": 0.82633466
+  },
+  {
+    "sid": "s000197",
+    "text": "1 and 1 is a 1.",
+    "start": 1177710,
+    "end": 1179381,
+    "speaker": "A",
+    "confidence": 0.99902
+  },
+  {
+    "sid": "s000198",
+    "text": "1 or 0 is a 1.",
+    "start": 1179477,
+    "end": 1180990,
+    "speaker": "A",
+    "confidence": 0.99902
+  },
+  {
+    "sid": "s000199",
+    "text": "Sure enough, our answer is carries a 1, sum's a 0.",
+    "start": 1180990,
+    "end": 1185870,
+    "speaker": "A",
+    "confidence": 0.9975586
+  },
+  {
+    "sid": "s000200",
+    "text": "We got a binary 2.",
+    "start": 1185870,
+    "end": 1186990,
+    "speaker": "A",
+    "confidence": 0.9057617
+  },
+  {
+    "sid": "s000201",
+    "text": "I'll do one more.",
+    "start": 1187150,
+    "end": 1188110,
+    "speaker": "A",
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000202",
+    "text": "I think we'll stick this one to death.",
+    "start": 1190360,
+    "end": 1192120,
+    "speaker": "A",
+    "confidence": 0.8803711
+  },
+  {
+    "sid": "s000203",
+    "text": "Let's do it with all three.",
+    "start": 1193160,
+    "end": 1194440,
+    "speaker": "A",
+    "confidence": 0.99886066
+  },
+  {
+    "sid": "s000204",
+    "text": "So the output should be one line, right?",
+    "start": 1210440,
+    "end": 1212600,
+    "speaker": "A",
+    "confidence": 0.9663086
+  },
+  {
+    "sid": "s000205",
+    "text": "So let's see that first case.",
+    "start": 1217810,
+    "end": 1219890,
+    "speaker": "A",
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000206",
+    "text": "We got ones on the inputs for the first two gates.",
+    "start": 1219970,
+    "end": 1223730,
+    "speaker": "A",
+    "confidence": 0.8613281
+  },
+  {
+    "sid": "s000207",
+    "text": "The Z, the one on Z appears there and there.",
+    "start": 1224210,
+    "end": 1230930,
+    "speaker": "A",
+    "confidence": 0.8911133
+  },
+  {
+    "sid": "s000208",
+    "text": "Okay, one exclusive or one is a one there.",
+    "start": 1232050,
+    "end": 1235570,
+    "speaker": "A",
+    "confidence": 0.88932294
+  },
+  {
+    "sid": "s000209",
+    "text": "And the NAND gate one and one is a one appears on this last arrow.",
+    "start": 1238050,
+    "end": 1242620,
+    "speaker": "A",
+    "confidence": 0.9375
+  },
+  {
+    "sid": "s000210",
+    "text": "Great.",
+    "start": 1242700,
+    "end": 1243100,
+    "speaker": "A",
+    "confidence": 0.77001953
+  },
+  {
+    "sid": "s000211",
+    "text": "The second exclusive or one xor one is made a mistake.",
+    "start": 1243260,
+    "end": 1250620,
+    "speaker": "A",
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000212",
+    "text": "The first exclusive or one exclusive or one is a z, same value of zero, that's a zero, that's a signal.",
+    "start": 1252540,
+    "end": 1265180,
+    "speaker": "A",
+    "confidence": 0.9946289
+  },
+  {
+    "sid": "s000213",
+    "text": "And then zero exclusive where one is a one, the out and gate right below it.",
+    "start": 1265180,
+    "end": 1270730,
+    "speaker": "A",
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000214",
+    "text": "Zero and one is a zero.",
+    "start": 1273370,
+    "end": 1275610,
+    "speaker": "A",
+    "confidence": 0.9970703
+  },
+  {
+    "sid": "s000215",
+    "text": "But then with a XOR gate we have zero or one which is a one.",
+    "start": 1276010,
+    "end": 1278810,
+    "speaker": "A",
+    "confidence": 0.54833984
+  },
+  {
+    "sid": "s000216",
+    "text": "So both S and C are one.",
+    "start": 1278810,
+    "end": 1280250,
+    "speaker": "A",
+    "confidence": 0.9970703
+  },
+  {
+    "sid": "s000217",
+    "text": "That's how we add three ds.",
+    "start": 1282010,
+    "end": 1283450,
+    "speaker": "A",
+    "confidence": 0.9954427
+  },
+  {
+    "sid": "s000218",
+    "text": "There's only four more combinations and they all work the same way.",
+    "start": 1284410,
+    "end": 1287610,
+    "speaker": "A",
+    "confidence": 0.94417316
+  },
+  {
+    "sid": "s000219",
+    "text": "Computers typically have to add pretty large numbers, right?",
+    "start": 1290890,
+    "end": 1294910,
+    "speaker": "A",
+    "confidence": 0.8774414
+  },
+  {
+    "sid": "s000220",
+    "text": "Most of the desktop laptop computers we're working with now are 64 bit processors.",
+    "start": 1295630,
+    "end": 1302110,
+    "speaker": "A",
+    "confidence": 0.99560547
+  },
+  {
+    "sid": "s000221",
+    "text": "So they need to add two.",
+    "start": 1302430,
+    "end": 1304670,
+    "speaker": "A",
+    "confidence": 0.9975586
+  },
+  {
+    "sid": "s000222",
+    "text": "They have to be able to add two 64 bit numbers, big numbers.",
+    "start": 1304670,
+    "end": 1308350,
+    "speaker": "A",
+    "confidence": 0.7988281
+  },
+  {
+    "sid": "s000223",
+    "text": "Right.",
+    "start": 1309230,
+    "end": 1309630,
+    "speaker": "A",
+    "confidence": 0.54003906
+  },
+  {
+    "sid": "s000224",
+    "text": "So what we do is we combine these full adders into a chain of them.",
+    "start": 1310030,
+    "end": 1316590,
+    "speaker": "A",
+    "confidence": 0.9941406
+  },
+  {
+    "sid": "s000225",
+    "text": "So they'll handle that.",
+    "start": 1317150,
+    "end": 1318310,
+    "speaker": "A",
+    "confidence": 0.86083984
+  },
+  {
+    "sid": "s000226",
+    "text": "Now let's assume, let's just for simplicity sake, pretend we're working with orbits.",
+    "start": 1318310,
+    "end": 1322350,
+    "speaker": "A",
+    "confidence": 0.97753906
+  },
+  {
+    "sid": "s000227",
+    "text": "And so each of these boxes with FA in the middle is that full adder.",
+    "start": 1323730,
+    "end": 1328250,
+    "speaker": "A",
+    "confidence": 0.9238281
+  },
+  {
+    "sid": "s000228",
+    "text": "We were just looking at 3 bits input, 2 bits output.",
+    "start": 1328250,
+    "end": 1331970,
+    "speaker": "A",
+    "confidence": 0.9941406
+  },
+  {
+    "sid": "s000229",
+    "text": "So you can see this is full adder, the 0 bit, it's adding a 0 and b 0 plus carry out, normally be a 0.",
+    "start": 1332610,
+    "end": 1341730,
+    "speaker": "A",
+    "confidence": 0.9770508
+  },
+  {
+    "sid": "s000230",
+    "text": "The output is a sum bit and a carry drift and that carry out becomes one of the inputs.",
+    "start": 1342610,
+    "end": 1348290,
+    "speaker": "A",
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000231",
+    "text": "The second full adder, A, B and C. We get a sum and a carry.",
+    "start": 1348700,
+    "end": 1351980,
+    "speaker": "A",
+    "confidence": 0.70410156
+  },
+  {
+    "sid": "s000232",
+    "text": "Add the three bits, we get a sum and a carry.",
+    "start": 1352300,
+    "end": 1354940,
+    "speaker": "A",
+    "confidence": 0.9379883
+  },
+  {
+    "sid": "s000233",
+    "text": "Add the three bits, we get a sum and a carry.",
+    "start": 1354940,
+    "end": 1357740,
+    "speaker": "A",
+    "confidence": 0.9243164
+  },
+  {
+    "sid": "s000234",
+    "text": "So what this thing does is it adds A plus B and we could potentially have five bits of output if A and B are big enough.",
+    "start": 1359820,
+    "end": 1369420,
+    "speaker": "A",
+    "confidence": 0.9379883
+  },
+  {
+    "sid": "s000235",
+    "text": "So that's why we have five.",
+    "start": 1369980,
+    "end": 1371220,
+    "speaker": "A",
+    "confidence": 0.99316406
+  },
+  {
+    "sid": "s000236",
+    "text": "We got four sum bits and a carry.",
+    "start": 1371220,
+    "end": 1373020,
+    "speaker": "A",
+    "confidence": 0.96191406
+  },
+  {
+    "sid": "s000237",
+    "text": "And this carry in is really only there because the full adder has 3 bits.",
+    "start": 1375120,
+    "end": 1381040,
+    "speaker": "A",
+    "confidence": 0.57666016
+  },
+  {
+    "sid": "s000238",
+    "text": "Normally that would be a zero.",
+    "start": 1381440,
+    "end": 1382640,
+    "speaker": "A",
+    "confidence": 0.91259766
+  },
+  {
+    "sid": "s000239",
+    "text": "This is often called a ripple carry in.",
+    "start": 1385200,
+    "end": 1387360,
+    "speaker": "A",
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000240",
+    "text": "The reason is we have to wait.",
+    "start": 1387760,
+    "end": 1391160,
+    "speaker": "A",
+    "confidence": 0.99609375
+  },
+  {
+    "sid": "s000241",
+    "text": "I mean, if you got a lot of bits, you have to wait for the carry to work its way through all the adders until the outputs are stabilized.",
+    "start": 1391160,
+    "end": 1400320,
+    "speaker": "A",
+    "confidence": 0.8779297
+  },
+  {
+    "sid": "s000242",
+    "text": "And we know what the higher order, that can be slow, especially if you've got a lot of bits.",
+    "start": 1400320,
+    "end": 1405700,
+    "speaker": "A",
+    "confidence": 0.9765625
+  },
+  {
+    "sid": "s000243",
+    "text": "Right.",
+    "start": 1405700,
+    "end": 1406060,
+    "speaker": "A",
+    "confidence": 0.81347656
+  },
+  {
+    "sid": "s000244",
+    "text": "In a real implementation, typical general purpose computer, they'll do it just like this, but they'll add a whole bunch of really complicated combinational logic called carry.",
+    "start": 1407500,
+    "end": 1422500,
+    "speaker": "A",
+    "confidence": 0.7441406
+  },
+  {
+    "sid": "s000245",
+    "text": "Look ahead logic.",
+    "start": 1422500,
+    "end": 1423500,
+    "speaker": "A",
+    "confidence": 0.99365234
+  },
+  {
+    "sid": "s000246",
+    "text": "And they got a way of.",
+    "start": 1423580,
+    "end": 1424860,
+    "speaker": "A",
+    "confidence": 0.8544922
+  },
+  {
+    "sid": "s000247",
+    "text": "There's some tricky ways of calculating the higher order carries from the lower order carries.",
+    "start": 1425660,
+    "end": 1430770,
+    "speaker": "A",
+    "confidence": 0.90966797
+  },
+  {
+    "sid": "s000248",
+    "text": "And they project that forward and it just speeds things up a lot.",
+    "start": 1430930,
+    "end": 1434770,
+    "speaker": "A",
+    "confidence": 0.9555664
+  },
+  {
+    "sid": "s000249",
+    "text": "But the essence of how we add two numbers is this.",
+    "start": 1434930,
+    "end": 1438050,
+    "speaker": "A",
+    "confidence": 0.9536133
+  },
+  {
+    "sid": "s000250",
+    "text": "This is an atom and that's really what there is to addition.",
+    "start": 1438050,
+    "end": 1444930,
+    "speaker": "A",
+    "confidence": 1.0
+  },
+  {
+    "sid": "s000251",
+    "text": "Which leads us to subtract.",
+    "start": 1448690,
+    "end": 1450850,
+    "speaker": "A",
+    "confidence": 0.7895508
+  },
+  {
+    "sid": "s000252",
+    "text": "Yes.",
+    "start": 1455820,
+    "end": 1456140,
+    "speaker": "A",
+    "confidence": 0.8208008
+  },
+  {
+    "sid": "s000253",
+    "text": "The four bit duplicate would C0, B0.",
+    "start": 1457340,
+    "end": 1462700,
+    "speaker": "A",
+    "confidence": 0.5805664
+  },
+  {
+    "sid": "s000254",
+    "text": "Yeah, normally C0 is a zero.",
+    "start": 1467340,
+    "end": 1469180,
+    "speaker": "A",
+    "confidence": 0.9584961
+  },
+  {
+    "sid": "s000255",
+    "text": "It pretty much has to be or you're going to be effectively adding one.",
+    "start": 1470060,
+    "end": 1473340,
+    "speaker": "A",
+    "confidence": 0.99121094
+  },
+  {
+    "sid": "s000256",
+    "text": "So it's four bits of A to four bits of B.",
+    "start": 1474060,
+    "end": 1476140,
+    "speaker": "A",
+    "confidence": 0.98876953
+  },
+  {
+    "sid": "s000257",
+    "text": "That's what this is.",
+    "start": 1476620,
+    "end": 1477580,
+    "speaker": "A",
+    "confidence": 0.81559247
+  },
+  {
+    "sid": "s000258",
+    "text": "Now we're talking about binary, which subtraction can be pretty straightforward.",
+    "start": 1489910,
+    "end": 1509040,
+    "speaker": "A",
+    "confidence": 0.8989258
+  },
+  {
+    "sid": "s000259",
+    "text": "But it becomes a problem when the subprehend is greater than the minion.",
+    "start": 1509200,
+    "end": 1513320,
+    "speaker": "A",
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000260",
+    "text": "That is, if the number on the bottom is bigger than the number on the top, that means the difference is going to be negative.",
+    "start": 1513320,
+    "end": 1520480,
+    "speaker": "A",
+    "confidence": 0.98339844
+  },
+  {
+    "sid": "s000261",
+    "text": "And it's a bit more complicated to Calculate if we do it as doing it by hand, as people, we would normally we just reverse the positions, right?",
+    "start": 1521840,
+    "end": 1534500,
+    "speaker": "A",
+    "confidence": 0.9897461
+  },
+  {
+    "sid": "s000262",
+    "text": "And knowing we reverse the positions, the result has to be negative.",
+    "start": 1534500,
+    "end": 1537300,
+    "speaker": "A",
+    "confidence": 0.9716797
+  },
+  {
+    "sid": "s000263",
+    "text": "We append a minus sign and we know how to borrow and all of that.",
+    "start": 1537300,
+    "end": 1541620,
+    "speaker": "A",
+    "confidence": 0.9848633
+  },
+  {
+    "sid": "s000264",
+    "text": "Okay.",
+    "start": 1541700,
+    "end": 1542340,
+    "speaker": "A",
+    "confidence": 0.7713216
+  },
+  {
+    "sid": "s000265",
+    "text": "And we could do it that way in a process.",
+    "start": 1545460,
+    "end": 1547780,
+    "speaker": "A",
+    "confidence": 0.9482422
+  },
+  {
+    "sid": "s000266",
+    "text": "It requires a lot of hardware and it's pretty slow.",
+    "start": 1549380,
+    "end": 1553460,
+    "speaker": "A",
+    "confidence": 0.9916992
+  },
+  {
+    "sid": "s000267",
+    "text": "So we don't normally do it that way.",
+    "start": 1555140,
+    "end": 1557770,
+    "speaker": "A",
+    "confidence": 0.9819336
+  },
+  {
+    "sid": "s000268",
+    "text": "There's better ways to do it.",
+    "start": 1557770,
+    "end": 1559130,
+    "speaker": "A",
+    "confidence": 0.9744466
+  },
+  {
+    "sid": "s000269",
+    "text": "So as an alternative, let's try doing a subtraction without regard to the relative magnitudes of the numbers.",
+    "start": 1560490,
+    "end": 1568170,
+    "speaker": "A",
+    "confidence": 0.96240234
+  },
+  {
+    "sid": "s000270",
+    "text": "So on top I'll put a number, I'll call it N. This is going to be 10011, and we're going to subtract n, which is 11110.",
+    "start": 1569530,
+    "end": 1588900,
+    "speaker": "A",
+    "confidence": 0.9111328
+  },
+  {
+    "sid": "s000271",
+    "text": "So two five bit numbers, and I hope it's obvious to everybody that N is bigger than N. This result, whatever we got here, whatever we get from this is necessarily negative because we're subtracting a bigger number from a small number.",
+    "start": 1592500,
+    "end": 1607800,
+    "speaker": "A",
+    "confidence": 0.6274414
+  },
+  {
+    "sid": "s000272",
+    "text": "Just do a little check.",
+    "start": 1609710,
+    "end": 1610830,
+    "speaker": "A",
+    "confidence": 0.95751953
+  },
+  {
+    "sid": "s000273",
+    "text": "What are these numbers?",
+    "start": 1615390,
+    "end": 1616590,
+    "speaker": "A",
+    "confidence": 0.9975586
+  },
+  {
+    "sid": "s000274",
+    "text": "Let's see, that's 2, 3, 4.",
+    "start": 1616750,
+    "end": 1635360,
+    "speaker": "A",
+    "confidence": 0.86246747
+  },
+  {
+    "sid": "s000275",
+    "text": "So that first one for M is 16 plus 2 plus 1.",
+    "start": 1635360,
+    "end": 1639880,
+    "speaker": "A",
+    "confidence": 0.9970703
+  },
+  {
+    "sid": "s000276",
+    "text": "What's that?",
+    "start": 1640200,
+    "end": 1640760,
+    "speaker": "A",
+    "confidence": 0.8699544
+  },
+  {
+    "sid": "s000277",
+    "text": "That's 19, right?",
+    "start": 1640760,
+    "end": 1641880,
+    "speaker": "A",
+    "confidence": 0.9946289
+  },
+  {
+    "sid": "s000278",
+    "text": "19 minus.",
+    "start": 1646760,
+    "end": 1648200,
+    "speaker": "A",
+    "confidence": 0.99658
+  },
+  {
+    "sid": "s000279",
+    "text": "And the other one is 16 plus 8, which is 24 plus 4, which is 28 plus 2 is 30.",
+    "start": 1648600,
+    "end": 1657560,
+    "speaker": "A",
+    "confidence": 0.9868164
+  },
+  {
+    "sid": "s000280",
+    "text": "So the answer that we expect would be minus 11, 19.",
+    "start": 1660130,
+    "end": 1668770,
+    "speaker": "A",
+    "confidence": 0.9423828
+  },
+  {
+    "sid": "s000281",
+    "text": "Let's see what we actually get.",
+    "start": 1670130,
+    "end": 1671410,
+    "speaker": "A",
+    "confidence": 0.99560547
+  },
+  {
+    "sid": "s000282",
+    "text": "Okay, let's see.",
+    "start": 1676370,
+    "end": 1677170,
+    "speaker": "A",
+    "confidence": 0.9156901
+  },
+  {
+    "sid": "s000283",
+    "text": "Starting on the right, one minus zero is one, one minus one is zero.",
+    "start": 1677330,
+    "end": 1683410,
+    "speaker": "A",
+    "confidence": 0.9934082
+  },
+  {
+    "sid": "s000284",
+    "text": "If we get zero, zero minus one, we have to borrow and we can't borrow.",
+    "start": 1684130,
+    "end": 1689590,
+    "speaker": "A",
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000285",
+    "text": "There's a zero, the position to the left, we go two over.",
+    "start": 1689590,
+    "end": 1692230,
+    "speaker": "A",
+    "confidence": 0.90625
+  },
+  {
+    "sid": "s000286",
+    "text": "So if we borrow from that one, that becomes a zero, making one to the right one zero.",
+    "start": 1692470,
+    "end": 1699510,
+    "speaker": "A",
+    "confidence": 0.6694336
+  },
+  {
+    "sid": "s000287",
+    "text": "Binary two.",
+    "start": 1699510,
+    "end": 1700390,
+    "speaker": "A",
+    "confidence": 0.99576825
+  },
+  {
+    "sid": "s000288",
+    "text": "You can borrow from that.",
+    "start": 1701270,
+    "end": 1702350,
+    "speaker": "A",
+    "confidence": 0.8022461
+  },
+  {
+    "sid": "s000289",
+    "text": "That two becomes a one, making that value in column two a two.",
+    "start": 1702350,
+    "end": 1710590,
+    "speaker": "A",
+    "confidence": 0.9946289
+  },
+  {
+    "sid": "s000290",
+    "text": "So, so we got two minus one one and one minus one is zero.",
+    "start": 1710590,
+    "end": 1714960,
+    "speaker": "A",
+    "confidence": 0.77197266
+  },
+  {
+    "sid": "s000291",
+    "text": "And now we've got zero minus one.",
+    "start": 1715280,
+    "end": 1718320,
+    "speaker": "A",
+    "confidence": 0.98339844
+  },
+  {
+    "sid": "s000292",
+    "text": "But there's nowhere to borrow, right?",
+    "start": 1718400,
+    "end": 1721040,
+    "speaker": "A",
+    "confidence": 0.9428711
+  },
+  {
+    "sid": "s000293",
+    "text": "So what we're going to do to temporarily fix this is I'm going to add a one right here on the left.",
+    "start": 1721280,
+    "end": 1726560,
+    "speaker": "A",
+    "confidence": 0.9941406
+  },
+  {
+    "sid": "s000294",
+    "text": "I know it changes the number, it's going to change the answer, but it does create an opportunity to borrow.",
+    "start": 1728160,
+    "end": 1732880,
+    "speaker": "A",
+    "confidence": 0.98876953
+  },
+  {
+    "sid": "s000295",
+    "text": "So that goes to zero, making that one a two.",
+    "start": 1732880,
+    "end": 1734960,
+    "speaker": "A",
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000296",
+    "text": "We got two minus one is one.",
+    "start": 1734960,
+    "end": 1736260,
+    "speaker": "A",
+    "confidence": 0.9589844
+  },
+  {
+    "sid": "s000297",
+    "text": "What is that value?",
+    "start": 1738570,
+    "end": 1739370,
+    "speaker": "A",
+    "confidence": 0.9941406
+  },
+  {
+    "sid": "s000298",
+    "text": "That's 16 plus four is 20 plus one.",
+    "start": 1740250,
+    "end": 1746890,
+    "speaker": "A",
+    "confidence": 0.9938151
+  },
+  {
+    "sid": "s000299",
+    "text": "That's 21.",
+    "start": 1746970,
+    "end": 1747930,
+    "speaker": "A",
+    "confidence": 0.9973958
+  },
+  {
+    "sid": "s000300",
+    "text": "Clearly not the magnitude we were looking for.",
+    "start": 1749210,
+    "end": 1751010,
+    "speaker": "A",
+    "confidence": 0.9934082
+  },
+  {
+    "sid": "s000301",
+    "text": "We're looking for a magnitude at least.",
+    "start": 1751010,
+    "end": 1752570,
+    "speaker": "A",
+    "confidence": 0.94091797
+  },
+  {
+    "sid": "s000302",
+    "text": "Even if the sign's wrong.",
+    "start": 1752650,
+    "end": 1753930,
+    "speaker": "A",
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000303",
+    "text": "A magnitude of 11.",
+    "start": 1753930,
+    "end": 1755130,
+    "speaker": "A",
+    "confidence": 0.83154297
+  },
+  {
+    "sid": "s000304",
+    "text": "Well, because a minus 11 is what?",
+    "start": 1755850,
+    "end": 1760570,
+    "speaker": "A",
+    "confidence": 0.84472656
+  },
+  {
+    "sid": "s000305",
+    "text": "Minus.",
+    "start": 1760970,
+    "end": 1761530,
+    "speaker": "A",
+    "confidence": 0.9880371
+  },
+  {
+    "sid": "s000306",
+    "text": "So if we do it with five bits, it's 01011.",
+    "start": 1761860,
+    "end": 1768420,
+    "speaker": "A",
+    "confidence": 0.6191406
+  },
+  {
+    "sid": "s000307",
+    "text": "That's the answer we want.",
+    "start": 1768660,
+    "end": 1769780,
+    "speaker": "A",
+    "confidence": 0.9983724
+  },
+  {
+    "sid": "s000308",
+    "text": "But if we have to borrow into the most significant position like we did, we call that an end borrow.",
+    "start": 1772660,
+    "end": 1779060,
+    "speaker": "A",
+    "confidence": 0.97021484
+  },
+  {
+    "sid": "s000309",
+    "text": "We have to do an end borrow.",
+    "start": 1779860,
+    "end": 1781300,
+    "speaker": "A",
+    "confidence": 0.46166992
+  },
+  {
+    "sid": "s000310",
+    "text": "Two things we know.",
+    "start": 1782260,
+    "end": 1783380,
+    "speaker": "A",
+    "confidence": 0.96875
+  },
+  {
+    "sid": "s000311",
+    "text": "One is we know the result's negative.",
+    "start": 1783540,
+    "end": 1786100,
+    "speaker": "A",
+    "confidence": 0.9453125
+  },
+  {
+    "sid": "s000312",
+    "text": "We wouldn't have to do that in borrow if.",
+    "start": 1786820,
+    "end": 1788820,
+    "speaker": "A",
+    "confidence": 0.9692383
+  },
+  {
+    "sid": "s000313",
+    "text": "If we're going to get a positive number, if the result was going to be positive, they just subtract nice and easily.",
+    "start": 1788980,
+    "end": 1794900,
+    "speaker": "A",
+    "confidence": 0.9379883
+  },
+  {
+    "sid": "s000314",
+    "text": "We wouldn't have to do it in borrow.",
+    "start": 1794900,
+    "end": 1796260,
+    "speaker": "A",
+    "confidence": 0.98339844
+  },
+  {
+    "sid": "s000315",
+    "text": "But we did.",
+    "start": 1796260,
+    "end": 1796900,
+    "speaker": "A",
+    "confidence": 0.55371094
+  },
+  {
+    "sid": "s000316",
+    "text": "So we know the result's negative and we have to correct the magnitude because we change the magnitude by doing that in borrow.",
+    "start": 1797140,
+    "end": 1805460,
+    "speaker": "A",
+    "confidence": 0.9873047
+  },
+  {
+    "sid": "s000317",
+    "text": "Think about what that end borrow is.",
+    "start": 1807140,
+    "end": 1808980,
+    "speaker": "A",
+    "confidence": 0.9941406
+  },
+  {
+    "sid": "s000318",
+    "text": "What we really did was add like a third number, a one, followed by five zeros, right?",
+    "start": 1809460,
+    "end": 1814900,
+    "speaker": "A",
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000319",
+    "text": "By putting that one to the left of the top number, we added that in there.",
+    "start": 1815650,
+    "end": 1819330,
+    "speaker": "A",
+    "confidence": 0.9008789
+  },
+  {
+    "sid": "s000320",
+    "text": "So what we've calculated is M minus N plus 2 to the N. Where N is the number of digits in the original number two to the fifth.",
+    "start": 1819810,
+    "end": 1831250,
+    "speaker": "A",
+    "confidence": 0.9321289
+  },
+  {
+    "sid": "s000321",
+    "text": "This right here, that's two to the fifth.",
+    "start": 1832850,
+    "end": 1834530,
+    "speaker": "A",
+    "confidence": 0.9296875
+  },
+  {
+    "sid": "s000322",
+    "text": "That's what we calculated where that two to the N is a borrow into the most significant position.",
+    "start": 1836610,
+    "end": 1846060,
+    "speaker": "A",
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000323",
+    "text": "The magnitude we're looking for.",
+    "start": 1847420,
+    "end": 1849660,
+    "speaker": "A",
+    "confidence": 0.99658203
+  },
+  {
+    "sid": "s000324",
+    "text": "Let's see, we like this, we calculated, calculated to this, we want.",
+    "start": 1850700,
+    "end": 1861420,
+    "speaker": "A",
+    "confidence": 0.866862
+  },
+  {
+    "sid": "s000325",
+    "text": "And this is just the magnitude.",
+    "start": 1862380,
+    "end": 1863980,
+    "speaker": "A",
+    "confidence": 0.56103516
+  },
+  {
+    "sid": "s000326",
+    "text": "We want a magnitude of N minus N. Right?",
+    "start": 1864620,
+    "end": 1867190,
+    "speaker": "A",
+    "confidence": 0.98828125
+  },
+  {
+    "sid": "s000327",
+    "text": "Remember, the bigger number minus the smaller number.",
+    "start": 1868710,
+    "end": 1871750,
+    "speaker": "A",
+    "confidence": 0.75805664
+  },
+  {
+    "sid": "s000328",
+    "text": "And we know we're going to have to append a minus sign.",
+    "start": 1871990,
+    "end": 1875510,
+    "speaker": "A",
+    "confidence": 0.9501953
+  },
+  {
+    "sid": "s000329",
+    "text": "So we can get that by subtracting the number we calculated from 2 to the N2 to the N minus M minus N plus 2 to the N. But if you take a look and I think you'll agree that that's valid, that is in fact N minus n. So let's try it.",
+    "start": 1876230,
+    "end": 1908330,
+    "speaker": "A",
+    "confidence": 0.9741211
+  },
+  {
+    "sid": "s000330",
+    "text": "Let's see.",
+    "start": 1911930,
+    "end": 1912570,
+    "speaker": "A",
+    "confidence": 0.92871094
+  },
+  {
+    "sid": "s000331",
+    "text": "2 to the N is what a 1 followed by 5 zeros.",
+    "start": 1912650,
+    "end": 1917930,
+    "speaker": "A",
+    "confidence": 0.99854
+  },
+  {
+    "sid": "s000332",
+    "text": "And this number that we calculated was M minus N plus 2 to the N. And what we came up with is 10101.",
+    "start": 1922100,
+    "end": 1934420,
+    "speaker": "A",
+    "confidence": 0.98095703
+  },
+  {
+    "sid": "s000333",
+    "text": "So let's do that subtraction.",
+    "start": 1934660,
+    "end": 1936180,
+    "speaker": "A",
+    "confidence": 0.8144531
+  },
+  {
+    "sid": "s000334",
+    "text": "Well, by the opposite, we got 0 minus 1.",
+    "start": 1939940,
+    "end": 1943140,
+    "speaker": "A",
+    "confidence": 0.98583984
+  },
+  {
+    "sid": "s000335",
+    "text": "So we have to borrow.",
+    "start": 1943140,
+    "end": 1944100,
+    "speaker": "A",
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000336",
+    "text": "We gotta go way over here to borrow.",
+    "start": 1944830,
+    "end": 1946150,
+    "speaker": "A",
+    "confidence": 0.9511719
+  },
+  {
+    "sid": "s000337",
+    "text": "That 1 becomes a 0, making the digit to the right a 2.",
+    "start": 1946150,
+    "end": 1950430,
+    "speaker": "A",
+    "confidence": 0.99316406
+  },
+  {
+    "sid": "s000338",
+    "text": "Borrow from there, that 2 becomes a 1.",
+    "start": 1950990,
+    "end": 1952990,
+    "speaker": "A",
+    "confidence": 0.9944661
+  },
+  {
+    "sid": "s000339",
+    "text": "The digit to the right becomes a 2.",
+    "start": 1953150,
+    "end": 1955070,
+    "speaker": "A",
+    "confidence": 0.99658203
+  },
+  {
+    "sid": "s000340",
+    "text": "We borrow from there, that becomes a 1.",
+    "start": 1955230,
+    "end": 1957350,
+    "speaker": "A",
+    "confidence": 0.70458984
+  },
+  {
+    "sid": "s000341",
+    "text": "The digit to THE right becomes a 2.",
+    "start": 1957350,
+    "end": 1959150,
+    "speaker": "A",
+    "confidence": 0.9765625
+  },
+  {
+    "sid": "s000342",
+    "text": "We borrow FROM there, which becomes a 1.",
+    "start": 1959150,
+    "end": 1961430,
+    "speaker": "A",
+    "confidence": 0.6074219
+  },
+  {
+    "sid": "s000343",
+    "text": "That makes a 2.",
+    "start": 1961430,
+    "end": 1962270,
+    "speaker": "A",
+    "confidence": 0.99560547
+  },
+  {
+    "sid": "s000344",
+    "text": "Here you borrow from there it becomes a 1 and now that's 2.",
+    "start": 1962270,
+    "end": 1965390,
+    "speaker": "A",
+    "confidence": 0.98828125
+  },
+  {
+    "sid": "s000345",
+    "text": "So we got 2 minus 1 is 1.",
+    "start": 1965630,
+    "end": 1968190,
+    "speaker": "A",
+    "confidence": 0.9824219
+  },
+  {
+    "sid": "s000346",
+    "text": "Then we got 1 minus 0, 1 minus 1, 1 minus 0 and 1 minus 1 is 0.",
+    "start": 1969630,
+    "end": 1979790,
+    "speaker": "A",
+    "confidence": 0.9863281
+  },
+  {
+    "sid": "s000347",
+    "text": "Hey, that's 11, isn't it?",
+    "start": 1980510,
+    "end": 1981950,
+    "speaker": "A",
+    "confidence": 0.7717285
+  },
+  {
+    "sid": "s000348",
+    "text": "And we know we have to append the minus sign.",
+    "start": 1982430,
+    "end": 1984510,
+    "speaker": "A",
+    "confidence": 0.97314453
+  },
+  {
+    "sid": "s000349",
+    "text": "So because the result's negative, that's the number solution we're looking for.",
+    "start": 1984910,
+    "end": 1991870,
+    "speaker": "A",
+    "confidence": 0.5620117
+  },
+  {
+    "sid": "s000350",
+    "text": "So how did we get.",
+    "start": 1997240,
+    "end": 1997960,
+    "speaker": "A",
+    "confidence": 0.9819336
+  },
+  {
+    "sid": "s000351",
+    "text": "Here are the steps.",
+    "start": 2003080,
+    "end": 2004120,
+    "speaker": "A",
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000352",
+    "text": "We're going to subtract two n digit numbers.",
+    "start": 2006520,
+    "end": 2009360,
+    "speaker": "A",
+    "confidence": 0.8520508
+  },
+  {
+    "sid": "s000353",
+    "text": "M minus n binary.",
+    "start": 2009360,
+    "end": 2011320,
+    "speaker": "A",
+    "confidence": 0.98779297
+  },
+  {
+    "sid": "s000354",
+    "text": "First thing we do is we compute M minus n. That's what we get.",
+    "start": 2011960,
+    "end": 2014680,
+    "speaker": "A",
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000355",
+    "text": "If we don't have to do it in borrow, then we have our answer.",
+    "start": 2017160,
+    "end": 2021400,
+    "speaker": "A",
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000356",
+    "text": "The difference is non negative, incorrect.",
+    "start": 2021640,
+    "end": 2024870,
+    "speaker": "A",
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000357",
+    "text": "If we don't have to do it in borrow, it meant the number on top is bigger.",
+    "start": 2025830,
+    "end": 2029030,
+    "speaker": "A",
+    "confidence": 0.49829102
+  },
+  {
+    "sid": "s000358",
+    "text": "We're the same.",
+    "start": 2030070,
+    "end": 2030870,
+    "speaker": "A",
+    "confidence": 0.84733075
+  },
+  {
+    "sid": "s000359",
+    "text": "But if we had to do it in borrow, that would only happen if the number on the bottom is bigger.",
+    "start": 2032150,
+    "end": 2037270,
+    "speaker": "A",
+    "confidence": 0.91748047
+  },
+  {
+    "sid": "s000360",
+    "text": "Then what we do.",
+    "start": 2037750,
+    "end": 2038950,
+    "speaker": "A",
+    "confidence": 0.98535156
+  },
+  {
+    "sid": "s000361",
+    "text": "Well if we do it to borrow, we've computed that M minus N plus 2 to the N. Then we subtract it from 2 to the N then append a minus sign that Step three, that last step is called taking the two's complement of a number.",
+    "start": 2039429,
+    "end": 2053150,
+    "speaker": "A",
+    "confidence": 0.82714844
+  },
+  {
+    "sid": "s000362",
+    "text": "So for example, you've got a number that looks like this.",
+    "start": 2058830,
+    "end": 2069150,
+    "speaker": "A",
+    "confidence": 0.9975586
+  },
+  {
+    "sid": "s000363",
+    "text": "Two eight bit numbers.",
+    "start": 2069630,
+    "end": 2070990,
+    "speaker": "A",
+    "confidence": 0.8647461
+  },
+  {
+    "sid": "s000364",
+    "text": "0111 00100.",
+    "start": 2071710,
+    "end": 2081249,
+    "speaker": "A",
+    "confidence": 0.90696
+  },
+  {
+    "sid": "s000365",
+    "text": "That's eight bits.",
+    "start": 2081729,
+    "end": 2082689,
+    "speaker": "A",
+    "confidence": 0.8569336
+  },
+  {
+    "sid": "s000366",
+    "text": "And we're going to subtract 10010110.",
+    "start": 2082689,
+    "end": 2092129,
+    "speaker": "A",
+    "confidence": 0.98291016
+  },
+  {
+    "sid": "s000367",
+    "text": "We're going to do that and the values of these.",
+    "start": 2092129,
+    "end": 2094889,
+    "speaker": "A",
+    "confidence": 0.6621094
+  },
+  {
+    "sid": "s000368",
+    "text": "I figured this out, that's 100 and we're going to subtract 150.",
+    "start": 2094889,
+    "end": 2098769,
+    "speaker": "A",
+    "confidence": 0.9975586
+  },
+  {
+    "sid": "s000369",
+    "text": "So the answer we expect is minus 50.",
+    "start": 2099569,
+    "end": 2102080,
+    "speaker": "A",
+    "confidence": 0.9785156
+  },
+  {
+    "sid": "s000370",
+    "text": "You probably already guessed we're not going to get when you do the initial subtraction.",
+    "start": 2104400,
+    "end": 2108280,
+    "speaker": "A",
+    "confidence": 0.7998047
+  },
+  {
+    "sid": "s000371",
+    "text": "So what do we do here?",
+    "start": 2108280,
+    "end": 2109760,
+    "speaker": "A",
+    "confidence": 0.8432617
+  },
+  {
+    "sid": "s000372",
+    "text": "This is M and this is M. So zero minus zero is zero, zero minus one we have to borrow.",
+    "start": 2110080,
+    "end": 2116960,
+    "speaker": "A",
+    "confidence": 1.0
+  },
+  {
+    "sid": "s000373",
+    "text": "So that one over there becomes zero.",
+    "start": 2117360,
+    "end": 2119280,
+    "speaker": "A",
+    "confidence": 0.8442383
+  },
+  {
+    "sid": "s000374",
+    "text": "This two, two minus one is one.",
+    "start": 2119520,
+    "end": 2121680,
+    "speaker": "A",
+    "confidence": 0.4621582
+  },
+  {
+    "sid": "s000375",
+    "text": "Well, zero minus one we have to borrow.",
+    "start": 2122160,
+    "end": 2124560,
+    "speaker": "A",
+    "confidence": 0.98876953
+  },
+  {
+    "sid": "s000376",
+    "text": "Let's go over reposition this one that makes a two, that's a one, a two, a one.",
+    "start": 2124640,
+    "end": 2131920,
+    "speaker": "A",
+    "confidence": 0.9720052
+  },
+  {
+    "sid": "s000377",
+    "text": "There's a two.",
+    "start": 2132080,
+    "end": 2132840,
+    "speaker": "A",
+    "confidence": 0.99593097
+  },
+  {
+    "sid": "s000378",
+    "text": "Two minus one is one, one minus zero is one.",
+    "start": 2132840,
+    "end": 2136480,
+    "speaker": "A",
+    "confidence": 1.0
+  },
+  {
+    "sid": "s000379",
+    "text": "Then we got one minus one is zero, zero minus zero, one minus zero and zero minus one.",
+    "start": 2138080,
+    "end": 2146960,
+    "speaker": "A",
+    "confidence": 0.9892578
+  },
+  {
+    "sid": "s000380",
+    "text": "We have to do an info.",
+    "start": 2147120,
+    "end": 2148560,
+    "speaker": "A",
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000381",
+    "text": "So we'll put a one here from which we borrow.",
+    "start": 2149200,
+    "end": 2153090,
+    "speaker": "A",
+    "confidence": 0.9868164
+  },
+  {
+    "sid": "s000382",
+    "text": "That goes to zero, that becomes a two, two minus one is one.",
+    "start": 2153090,
+    "end": 2156090,
+    "speaker": "A",
+    "confidence": 0.99316406
+  },
+  {
+    "sid": "s000383",
+    "text": "So I'm not going to take, I'm not going to figure out what that is.",
+    "start": 2159850,
+    "end": 2164610,
+    "speaker": "A",
+    "confidence": 0.98583984
+  },
+  {
+    "sid": "s000384",
+    "text": "We know it's not a negative 50.",
+    "start": 2164610,
+    "end": 2166090,
+    "speaker": "A",
+    "confidence": 0.9975586
+  },
+  {
+    "sid": "s000385",
+    "text": "But we need to take the two's complement of it.",
+    "start": 2170730,
+    "end": 2172810,
+    "speaker": "A",
+    "confidence": 0.9716797
+  },
+  {
+    "sid": "s000386",
+    "text": "So what we do is we're going to subtract that from 2 to the n. Right?",
+    "start": 2173370,
+    "end": 2178720,
+    "speaker": "A",
+    "confidence": 0.9970703
+  },
+  {
+    "sid": "s000387",
+    "text": "We've got this number.",
+    "start": 2178800,
+    "end": 2179800,
+    "speaker": "A",
+    "confidence": 0.98079425
+  },
+  {
+    "sid": "s000388",
+    "text": "We just calculated that this is M minus N plus 2 to the N. And then to get the correct magnitude, we need to subtract that from 2 to the n. So 2 to the n is a 1 followed by 8 zeros.",
+    "start": 2179800,
+    "end": 2195360,
+    "speaker": "A",
+    "confidence": 0.7348633
+  },
+  {
+    "sid": "s000389",
+    "text": "1, 2, 3, 4, 5, 6, 7 and 8 n is the number of digits.",
+    "start": 2195680,
+    "end": 2203040,
+    "speaker": "A",
+    "confidence": 0.99965
+  },
+  {
+    "sid": "s000390",
+    "text": "And then the number we calculated is M minus N plus 2 to the N. If we'll write that down, it's 11001110.",
+    "start": 2203280,
+    "end": 2216000,
+    "speaker": "A",
+    "confidence": 0.93115234
+  },
+  {
+    "sid": "s000391",
+    "text": "When we do that subtraction, that should give us the correct magnitude.",
+    "start": 2216000,
+    "end": 2220080,
+    "speaker": "A",
+    "confidence": 0.61083984
+  },
+  {
+    "sid": "s000392",
+    "text": "We'll need to append a minus one.",
+    "start": 2220239,
+    "end": 2221840,
+    "speaker": "A",
+    "confidence": 0.9899089
+  },
+  {
+    "sid": "s000393",
+    "text": "So let's see, zero minus zero is zero minus one.",
+    "start": 2222000,
+    "end": 2226160,
+    "speaker": "A",
+    "confidence": 0.80810547
+  },
+  {
+    "sid": "s000394",
+    "text": "Well, okay, we've got a problem that goes to zero to two to one to two to one, to two to one to two to 1 to 2 to 1, 2 to 1 to 2.",
+    "start": 2226720,
+    "end": 2240310,
+    "speaker": "A",
+    "confidence": 0.7504883
+  },
+  {
+    "sid": "s000395",
+    "text": "Okay, two minus one is one, one minus one is zero.",
+    "start": 2240470,
+    "end": 2243670,
+    "speaker": "A",
+    "confidence": 0.7911784
+  },
+  {
+    "sid": "s000396",
+    "text": "One minus one is zero.",
+    "start": 2243990,
+    "end": 2245430,
+    "speaker": "A",
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000397",
+    "text": "One minus zero is one.",
+    "start": 2245750,
+    "end": 2247350,
+    "speaker": "A",
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000398",
+    "text": "One minus zero is one.",
+    "start": 2247750,
+    "end": 2249430,
+    "speaker": "A",
+    "confidence": 1.0
+  },
+  {
+    "sid": "s000399",
+    "text": "1 minus 1 is zero, 1 minus 1 is zero.",
+    "start": 2249910,
+    "end": 2253270,
+    "speaker": "A",
+    "confidence": 1.0
+  },
+  {
+    "sid": "s000400",
+    "text": "So this is where our position is 012-3-45.",
+    "start": 2256800,
+    "end": 2263600,
+    "speaker": "A",
+    "confidence": 0.9819336
+  },
+  {
+    "sid": "s000401",
+    "text": "So two to the fifth is 32 plus 16 is 48.",
+    "start": 2263760,
+    "end": 2270160,
+    "speaker": "A",
+    "confidence": 0.9873047
+  },
+  {
+    "sid": "s000402",
+    "text": "Yeah, plus two, that's 50, that's a 50, which is the magnitude we expected.",
+    "start": 2270800,
+    "end": 2276160,
+    "speaker": "A",
+    "confidence": 0.9739583
+  },
+  {
+    "sid": "s000403",
+    "text": "Right.",
+    "start": 2276800,
+    "end": 2277200,
+    "speaker": "A",
+    "confidence": 0.8310547
+  },
+  {
+    "sid": "s000404",
+    "text": "And we know we need to append a minus sign.",
+    "start": 2277280,
+    "end": 2279280,
+    "speaker": "A",
+    "confidence": 0.9926758
+  },
+  {
+    "sid": "s000405",
+    "text": "So this is 110010 to the minus 10, which is minus 3.",
+    "start": 2279360,
+    "end": 2284730,
+    "speaker": "A",
+    "confidence": 0.99658203
+  },
+  {
+    "sid": "s000406",
+    "text": "So that's what we did.",
+    "start": 2291690,
+    "end": 2292730,
+    "speaker": "A",
+    "confidence": 0.9794922
+  },
+  {
+    "sid": "s000407",
+    "text": "We calculated the number saw, we hit do an in borrow.",
+    "start": 2292890,
+    "end": 2298650,
+    "speaker": "A",
+    "confidence": 0.9970703
+  },
+  {
+    "sid": "s000408",
+    "text": "So to fix the magnitude, we subtracted it from 2 to the N of 2 to the 8th.",
+    "start": 2299290,
+    "end": 2303210,
+    "speaker": "A",
+    "confidence": 0.98876953
+  },
+  {
+    "sid": "s000409",
+    "text": "So we're going to do all this.",
+    "start": 2306730,
+    "end": 2308090,
+    "speaker": "A",
+    "confidence": 0.5932617
+  },
+  {
+    "sid": "s000410",
+    "text": "To be able to do addition and subtraction, we need an adder circuit.",
+    "start": 2308360,
+    "end": 2313960,
+    "speaker": "A",
+    "confidence": 0.8208008
+  },
+  {
+    "sid": "s000411",
+    "text": "We know what that looks like.",
+    "start": 2314520,
+    "end": 2315880,
+    "speaker": "A",
+    "confidence": 0.72265625
+  },
+  {
+    "sid": "s000412",
+    "text": "And we need a subtractor circuit and a selective two's complement.",
+    "start": 2316120,
+    "end": 2322440,
+    "speaker": "A",
+    "confidence": 0.98583984
+  },
+  {
+    "sid": "s000413",
+    "text": "Sometimes we have to think two's complement, sometimes we don't.",
+    "start": 2323000,
+    "end": 2326360,
+    "speaker": "A",
+    "confidence": 0.9746094
+  },
+  {
+    "sid": "s000414",
+    "text": "So what we have here, this is that four bit binary adder.",
+    "start": 2327720,
+    "end": 2331240,
+    "speaker": "A",
+    "confidence": 0.98583984
+  },
+  {
+    "sid": "s000415",
+    "text": "You notice we got four bits of A going in there and four, four bits of B.",
+    "start": 2331240,
+    "end": 2335110,
+    "speaker": "A",
+    "confidence": 0.9848633
+  },
+  {
+    "sid": "s000416",
+    "text": "Also with a subtractor, four bits of A and four bits of B.",
+    "start": 2336150,
+    "end": 2340070,
+    "speaker": "A",
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000417",
+    "text": "What's coming out of the adder is A plus B.",
+    "start": 2341030,
+    "end": 2343270,
+    "speaker": "A",
+    "confidence": 0.9895833
+  },
+  {
+    "sid": "s000418",
+    "text": "The subtractor does A minus B, which may or may not be correct depending on which number is bigger.",
+    "start": 2344470,
+    "end": 2353510,
+    "speaker": "A",
+    "confidence": 0.9951172
+  },
+  {
+    "sid": "s000419",
+    "text": "If A is the larger of the two numbers or they're the same size, then we Will not do an end borrow.",
+    "start": 2354710,
+    "end": 2361120,
+    "speaker": "A",
+    "confidence": 0.9926758
+  },
+  {
+    "sid": "s000420",
+    "text": "And this status bit coming out of the subtractor will be a zero.",
+    "start": 2361200,
+    "end": 2364080,
+    "speaker": "A",
+    "confidence": 0.98779297
+  },
+  {
+    "sid": "s000421",
+    "text": "That signals to selective two's complementer to not do a two's complement but to pass the data straight through.",
+    "start": 2364880,
+    "end": 2371120,
+    "speaker": "A",
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000422",
+    "text": "And we got A minus B.",
+    "start": 2371440,
+    "end": 2372880,
+    "speaker": "A",
+    "confidence": 0.9916992
+  },
+  {
+    "sid": "s000423",
+    "text": "So A plus B appears on input 0 of this 2 to 1 multiplexer.",
+    "start": 2373440,
+    "end": 2377760,
+    "speaker": "A",
+    "confidence": 0.99316406
+  },
+  {
+    "sid": "s000424",
+    "text": "A minus B on input 1.",
+    "start": 2378560,
+    "end": 2380240,
+    "speaker": "A",
+    "confidence": 0.9951172
+  },
+  {
+    "sid": "s000425",
+    "text": "What comes out here for the result, it'll either be a sum or a difference.",
+    "start": 2381200,
+    "end": 2385040,
+    "speaker": "A",
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000426",
+    "text": "And that depends upon what's on the select input.",
+    "start": 2385880,
+    "end": 2388480,
+    "speaker": "A",
+    "confidence": 0.9145508
+  },
+  {
+    "sid": "s000427",
+    "text": "It's a 2 to 1 mux 4 bits wide.",
+    "start": 2388480,
+    "end": 2391000,
+    "speaker": "A",
+    "confidence": 0.9215495
+  },
+  {
+    "sid": "s000428",
+    "text": "It only needs a single select bit.",
+    "start": 2391480,
+    "end": 2393240,
+    "speaker": "A",
+    "confidence": 0.71435547
+  },
+  {
+    "sid": "s000429",
+    "text": "And see how this is written.",
+    "start": 2393480,
+    "end": 2394720,
+    "speaker": "A",
+    "confidence": 0.9458008
+  },
+  {
+    "sid": "s000430",
+    "text": "Subtractadd with an overscore that tells us if it's a one we're doing subtraction.",
+    "start": 2394720,
+    "end": 2401880,
+    "speaker": "A",
+    "confidence": 0.81777346
+  },
+  {
+    "sid": "s000431",
+    "text": "If it is a zero, we're doing addition.",
+    "start": 2401880,
+    "end": 2404040,
+    "speaker": "A",
+    "confidence": 0.99658203
+  },
+  {
+    "sid": "s000432",
+    "text": "If we put a zero on S, we're selecting input zero and it passes the sum through the result.",
+    "start": 2404920,
+    "end": 2409400,
+    "speaker": "A",
+    "confidence": 0.96435547
+  },
+  {
+    "sid": "s000433",
+    "text": "If we have a one on select selecting input one and we're passing the difference through the result.",
+    "start": 2409960,
+    "end": 2418230,
+    "speaker": "A",
+    "confidence": 0.98583984
+  },
+  {
+    "sid": "s000434",
+    "text": "Now let's say though B is bigger than A, when it runs through the subtractor we're going to have it has to do an end borrow.",
+    "start": 2419750,
+    "end": 2427510,
+    "speaker": "A",
+    "confidence": 0.9448242
+  },
+  {
+    "sid": "s000435",
+    "text": "And that sets this static.",
+    "start": 2427510,
+    "end": 2428950,
+    "speaker": "A",
+    "confidence": 0.98828125
+  },
+  {
+    "sid": "s000436",
+    "text": "Which signals what this selective two's complementer does is it does another subtraction.",
+    "start": 2429430,
+    "end": 2434070,
+    "speaker": "A",
+    "confidence": 0.97753906
+  },
+  {
+    "sid": "s000437",
+    "text": "It subtracts the result coming out of the subtractor from two to the fourth, the one followed by four zeros.",
+    "start": 2434390,
+    "end": 2444720,
+    "speaker": "A",
+    "confidence": 0.9682617
+  },
+  {
+    "sid": "s000438",
+    "text": "And let's do a minus sign somehow doesn't matter for our discussion right now how it does that, but it gets the right column, right magnitude.",
+    "start": 2445440,
+    "end": 2456960,
+    "speaker": "A",
+    "confidence": 0.93115234
+  },
+  {
+    "sid": "s000439",
+    "text": "Okay, and this will work.",
+    "start": 2456960,
+    "end": 2460560,
+    "speaker": "A",
+    "confidence": 0.77457684
+  },
+  {
+    "sid": "s000440",
+    "text": "But there are simpler ways to do it.",
+    "start": 2462000,
+    "end": 2464000,
+    "speaker": "A",
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000441",
+    "text": "Where we ship parts of the adder and subtractor, we can make them into a common circuit.",
+    "start": 2464630,
+    "end": 2470910,
+    "speaker": "A",
+    "confidence": 0.98339844
+  },
+  {
+    "sid": "s000442",
+    "text": "It's a lot more efficient.",
+    "start": 2470910,
+    "end": 2472070,
+    "speaker": "A",
+    "confidence": 0.8829753
+  },
+  {
+    "sid": "s000443",
+    "text": "So where we're going with this is inside the computer.",
+    "start": 2482150,
+    "end": 2485150,
+    "speaker": "A",
+    "confidence": 0.96191406
+  },
+  {
+    "sid": "s000444",
+    "text": "We do something called two's complement arithmetic.",
+    "start": 2485150,
+    "end": 2488550,
+    "speaker": "A",
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000445",
+    "text": "We represent our numbers with two's complementary.",
+    "start": 2488550,
+    "end": 2490670,
+    "speaker": "A",
+    "confidence": 0.9379883
+  },
+  {
+    "sid": "s000446",
+    "text": "So to get to that I have to explain what one's complement is.",
+    "start": 2490980,
+    "end": 2493460,
+    "speaker": "A",
+    "confidence": 0.93359375
+  },
+  {
+    "sid": "s000447",
+    "text": "Then two's complement and then how we add it and review for complements.",
+    "start": 2493460,
+    "end": 2508340,
+    "speaker": "A",
+    "confidence": 0.9946289
+  },
+  {
+    "sid": "s000448",
+    "text": "Right?",
+    "start": 2508340,
+    "end": 2508740,
+    "speaker": "A",
+    "confidence": 0.9013672
+  },
+  {
+    "sid": "s000449",
+    "text": "Like a tens complement.",
+    "start": 2508820,
+    "end": 2513460,
+    "speaker": "A",
+    "confidence": 0.9658203
+  },
+  {
+    "sid": "s000450",
+    "text": "The way it works is the tens complement of 7 is 10 minus 7, which is 3.",
+    "start": 2520110,
+    "end": 2528110,
+    "speaker": "A",
+    "confidence": 0.97509766
+  },
+  {
+    "sid": "s000451",
+    "text": "But if you have a number with two digits, right, you take it 10 to the second.",
+    "start": 2529790,
+    "end": 2534510,
+    "speaker": "A",
+    "confidence": 0.9848633
+  },
+  {
+    "sid": "s000452",
+    "text": "So 10's complement of 70 would be 100 minus 70, which is 30.",
+    "start": 2534910,
+    "end": 2541550,
+    "speaker": "A",
+    "confidence": 0.98583984
+  },
+  {
+    "sid": "s000453",
+    "text": "That's the idea of complements.",
+    "start": 2541800,
+    "end": 2543640,
+    "speaker": "A",
+    "confidence": 0.9916992
+  },
+  {
+    "sid": "s000454",
+    "text": "There's also.",
+    "start": 2548520,
+    "end": 2549160,
+    "speaker": "A",
+    "confidence": 0.85628253
+  },
+  {
+    "sid": "s000455",
+    "text": "And that's true, we call it a radix complement, whatever the base is.",
+    "start": 2550280,
+    "end": 2554040,
+    "speaker": "A",
+    "confidence": 0.99072266
+  },
+  {
+    "sid": "s000456",
+    "text": "You know, for Radix 5 we have a fives complement.",
+    "start": 2558040,
+    "end": 2562280,
+    "speaker": "A",
+    "confidence": 0.6220703
+  },
+  {
+    "sid": "s000457",
+    "text": "So the 5 complement of 3 is 2.",
+    "start": 2565240,
+    "end": 2570090,
+    "speaker": "A",
+    "confidence": 0.9633789
+  },
+  {
+    "sid": "s000458",
+    "text": "5's complement of 30 would be 50, minus 30 is 20.",
+    "start": 2570330,
+    "end": 2574090,
+    "speaker": "A",
+    "confidence": 0.95361
+  },
+  {
+    "sid": "s000459",
+    "text": "And then we have something called the diminished that turns out to be mathematically important.",
+    "start": 2574810,
+    "end": 2581050,
+    "speaker": "A",
+    "confidence": 0.9736328
+  },
+  {
+    "sid": "s000460",
+    "text": "The diminished radix complement which is the base minus one.",
+    "start": 2581130,
+    "end": 2591210,
+    "speaker": "A",
+    "confidence": 0.99560547
+  },
+  {
+    "sid": "s000461",
+    "text": "So the diminished radix complement of.",
+    "start": 2591530,
+    "end": 2593610,
+    "speaker": "A",
+    "confidence": 0.98291016
+  },
+  {
+    "sid": "s000462",
+    "text": "If we're working at base 5 it would be the force complement.",
+    "start": 2595140,
+    "end": 2598340,
+    "speaker": "A",
+    "confidence": 0.9692383
+  },
+  {
+    "sid": "s000463",
+    "text": "So the diminished radix complement of three is one and so on.",
+    "start": 2598340,
+    "end": 2602420,
+    "speaker": "A",
+    "confidence": 0.95751953
+  },
+  {
+    "sid": "s000464",
+    "text": "So we're going to take a break in a moment and when we come back I'll get into this in more detail.",
+    "start": 2603620,
+    "end": 2608660,
+    "speaker": "A",
+    "confidence": 0.7285156
+  },
+  {
+    "sid": "s000465",
+    "text": "I do want to.",
+    "start": 2608900,
+    "end": 2609780,
+    "speaker": "A",
+    "confidence": 0.9614258
+  },
+  {
+    "sid": "s000466",
+    "text": "We got a minute or two here.",
+    "start": 2610100,
+    "end": 2611300,
+    "speaker": "A",
+    "confidence": 0.94189453
+  },
+  {
+    "sid": "s000467",
+    "text": "I want to show you something I've put in Bruin learn.",
+    "start": 2611300,
+    "end": 2613780,
+    "speaker": "A",
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000468",
+    "text": "It's not unusual for me to finish explaining all this and everybody's still stretching their hands.",
+    "start": 2616260,
+    "end": 2621980,
+    "speaker": "A",
+    "confidence": 0.99609375
+  },
+  {
+    "sid": "s000469",
+    "text": "I saw where we landed.",
+    "start": 2623580,
+    "end": 2624660,
+    "speaker": "A",
+    "confidence": 0.99316406
+  },
+  {
+    "sid": "s000470",
+    "text": "But how did you get there?",
+    "start": 2624660,
+    "end": 2625660,
+    "speaker": "A",
+    "confidence": 0.9741211
+  },
+  {
+    "sid": "s000471",
+    "text": "We look in here where it says Arithmetic functions and Circuits.",
+    "start": 2626780,
+    "end": 2630380,
+    "speaker": "A",
+    "confidence": 0.40698242
+  },
+  {
+    "sid": "s000472",
+    "text": "We've got some pages that addition, subtraction.",
+    "start": 2634860,
+    "end": 2638620,
+    "speaker": "A",
+    "confidence": 0.984375
+  },
+  {
+    "sid": "s000473",
+    "text": "You know this is stuff we've just been talking about.",
+    "start": 2639100,
+    "end": 2640940,
+    "speaker": "A",
+    "confidence": 0.7739258
+  },
+  {
+    "sid": "s000474",
+    "text": "But see this page called Subtraction, Take two.",
+    "start": 2641260,
+    "end": 2644220,
+    "speaker": "A",
+    "confidence": 0.96191406
+  },
+  {
+    "sid": "s000475",
+    "text": "There are four videos in here that I found.",
+    "start": 2646710,
+    "end": 2651270,
+    "speaker": "A",
+    "confidence": 0.9941406
+  },
+  {
+    "sid": "s000476",
+    "text": "They're put on by an organization called the SESO Academy and I think they're really good.",
+    "start": 2651430,
+    "end": 2656230,
+    "speaker": "A",
+    "confidence": 0.91031903
+  },
+  {
+    "sid": "s000477",
+    "text": "So if you feel perplexed after this afternoon this would be time well spent to watch.",
+    "start": 2656310,
+    "end": 2664870,
+    "speaker": "A",
+    "confidence": 0.9321289
+  },
+  {
+    "sid": "s000478",
+    "text": "Here they describe R's complement, the diminished radix complement and then go on to representing negative numbers and subtraction using one's complement and subtraction using two's complement.",
+    "start": 2665110,
+    "end": 2677780,
+    "speaker": "A",
+    "confidence": 0.98095703
+  },
+  {
+    "sid": "s000479",
+    "text": "They're not long videos although together time adds up.",
+    "start": 2678100,
+    "end": 2682500,
+    "speaker": "A",
+    "confidence": 0.9749349
+  },
+  {
+    "sid": "s000480",
+    "text": "But anyway, this is.",
+    "start": 2682500,
+    "end": 2683860,
+    "speaker": "A",
+    "confidence": 0.9892578
+  },
+  {
+    "sid": "s000481",
+    "text": "They do a very good job.",
+    "start": 2683940,
+    "end": 2685060,
+    "speaker": "A",
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000482",
+    "text": "With that said, 1247, 1248.",
+    "start": 2686180,
+    "end": 2696260,
+    "speaker": "A",
+    "confidence": 0.35180664
+  },
+  {
+    "sid": "s000483",
+    "text": "Let's take a 10 minute break.",
+    "start": 2696340,
+    "end": 2697780,
+    "speaker": "A",
+    "confidence": 0.9996745
+  },
+  {
+    "sid": "s000484",
+    "text": "Will reconvene at two last.",
+    "start": 2698040,
+    "end": 2722760,
+    "speaker": "A",
+    "confidence": 0.53222656
+  },
+  {
+    "sid": "s000485",
+    "text": "We were talking about in general, not complement numbers.",
+    "start": 2723570,
+    "end": 2726850,
+    "speaker": "A",
+    "confidence": 0.5390625
+  },
+  {
+    "sid": "s000486",
+    "text": "Everything we're doing here is based.",
+    "start": 2729170,
+    "end": 2730610,
+    "speaker": "A",
+    "confidence": 0.9941406
+  },
+  {
+    "sid": "s000487",
+    "text": "All we've got is ones and zeros.",
+    "start": 2731410,
+    "end": 2733170,
+    "speaker": "A",
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000488",
+    "text": "So if we're going to talk about complement numbers it's either going to be 2's complement or 1's complement.",
+    "start": 2733810,
+    "end": 2738850,
+    "speaker": "A",
+    "confidence": 0.95214844
+  },
+  {
+    "sid": "s000489",
+    "text": "Nothing else.",
+    "start": 2738850,
+    "end": 2739650,
+    "speaker": "A",
+    "confidence": 0.9074707
+  },
+  {
+    "sid": "s000490",
+    "text": "0's complement makes no sense.",
+    "start": 2740130,
+    "end": 2741970,
+    "speaker": "A",
+    "confidence": 0.91504
+  },
+  {
+    "sid": "s000491",
+    "text": "So let's first talk about 1's complement.",
+    "start": 2742770,
+    "end": 2744930,
+    "speaker": "A",
+    "confidence": 0.9838867
+  },
+  {
+    "sid": "s000492",
+    "text": "For an end digit binary number.",
+    "start": 2760140,
+    "end": 2761660,
+    "speaker": "A",
+    "confidence": 0.81152344
+  },
+  {
+    "sid": "s000493",
+    "text": "The 1's complement of n is.",
+    "start": 2778340,
+    "end": 2791219,
+    "speaker": "A",
+    "confidence": 0.99316406
+  },
+  {
+    "sid": "s000494",
+    "text": "It's 2 to the n minus 1.",
+    "start": 2793700,
+    "end": 2797060,
+    "speaker": "A",
+    "confidence": 0.77408856
+  },
+  {
+    "sid": "s000495",
+    "text": "But bear in mind 2 to the n is a binary number that consists of A1 followed by N zeros.",
+    "start": 2804500,
+    "end": 2824180,
+    "speaker": "A",
+    "confidence": 0.3803711
+  },
+  {
+    "sid": "s000496",
+    "text": "This goes.",
+    "start": 2835870,
+    "end": 2836430,
+    "speaker": "A",
+    "confidence": 0.9238281
+  },
+  {
+    "sid": "s000497",
+    "text": "I just remind everyone, I think we know this.",
+    "start": 2836590,
+    "end": 2839310,
+    "speaker": "A",
+    "confidence": 0.63720703
+  },
+  {
+    "sid": "s000498",
+    "text": "This goes back if you remember that very first homework assignment I had to do.",
+    "start": 2839310,
+    "end": 2843270,
+    "speaker": "A",
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000499",
+    "text": "You had to do a lot of funny little numbers and calculations.",
+    "start": 2843270,
+    "end": 2847270,
+    "speaker": "A",
+    "confidence": 0.64453125
+  },
+  {
+    "sid": "s000500",
+    "text": "It probably looked like busy work.",
+    "start": 2847270,
+    "end": 2848750,
+    "speaker": "A",
+    "confidence": 0.6640625
+  },
+  {
+    "sid": "s000501",
+    "text": "It wasn't Remember that question I asked?",
+    "start": 2849150,
+    "end": 2854280,
+    "speaker": "A",
+    "confidence": 0.9116211
+  },
+  {
+    "sid": "s000502",
+    "text": "I gave you a.",
+    "start": 2854360,
+    "end": 2855240,
+    "speaker": "A",
+    "confidence": 0.9873047
+  },
+  {
+    "sid": "s000503",
+    "text": "It was a part A and a B. I said, what's the biggest number you can store with 11 bits?",
+    "start": 2856360,
+    "end": 2862920,
+    "speaker": "A",
+    "confidence": 0.44873047
+  },
+  {
+    "sid": "s000504",
+    "text": "7 bits or something like that?",
+    "start": 2863080,
+    "end": 2864760,
+    "speaker": "A",
+    "confidence": 0.99951
+  },
+  {
+    "sid": "s000505",
+    "text": "7 bits is 2 to the 7th, minus 1, it's a 1.",
+    "start": 2866040,
+    "end": 2871080,
+    "speaker": "A",
+    "confidence": 0.99951
+  },
+  {
+    "sid": "s000506",
+    "text": "2 to the 8th is a 1 followed by 8 zeros.",
+    "start": 2871320,
+    "end": 2874600,
+    "speaker": "A",
+    "confidence": 0.95483
+  },
+  {
+    "sid": "s000507",
+    "text": "2 to the 8th minus 1 is 8 ones.",
+    "start": 2875480,
+    "end": 2879090,
+    "speaker": "A",
+    "confidence": 0.99316
+  },
+  {
+    "sid": "s000508",
+    "text": "So keep that in mind.",
+    "start": 2882530,
+    "end": 2883730,
+    "speaker": "A",
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000509",
+    "text": "Okay?",
+    "start": 2883970,
+    "end": 2884570,
+    "speaker": "A",
+    "confidence": 0.78531903
+  },
+  {
+    "sid": "s000510",
+    "text": "So, yeah, for example, If n equals 4, 2 to the n is 2 to the 4th, which is a 1 followed by 4 zeros.",
+    "start": 2884570,
+    "end": 2906570,
+    "speaker": "A",
+    "confidence": 0.99560547
+  },
+  {
+    "sid": "s000511",
+    "text": "Well, 2 to the n minus 1 is 2 to the 4th minus 1, and that is just 4 ones.",
+    "start": 2909290,
+    "end": 2918410,
+    "speaker": "A",
+    "confidence": 0.9838867
+  },
+  {
+    "sid": "s000512",
+    "text": "So that's what the one's complement is, right?",
+    "start": 2924250,
+    "end": 2926210,
+    "speaker": "A",
+    "confidence": 0.99609375
+  },
+  {
+    "sid": "s000513",
+    "text": "It's 2 to the n minus 1 minus the num ending small N being the number of bits.",
+    "start": 2926210,
+    "end": 2932260,
+    "speaker": "A",
+    "confidence": 0.8855794
+  },
+  {
+    "sid": "s000514",
+    "text": "So in fact, what this is in parentheses here is n ones.",
+    "start": 2933780,
+    "end": 2938580,
+    "speaker": "A",
+    "confidence": 0.9765625
+  },
+  {
+    "sid": "s000515",
+    "text": "If N is 8, it's 8 ones.",
+    "start": 2940660,
+    "end": 2942260,
+    "speaker": "A",
+    "confidence": 0.9770508
+  },
+  {
+    "sid": "s000516",
+    "text": "If it's 4, it's 4 ones.",
+    "start": 2942500,
+    "end": 2944100,
+    "speaker": "A",
+    "confidence": 0.85839844
+  },
+  {
+    "sid": "s000517",
+    "text": "And we subtract that.",
+    "start": 2944100,
+    "end": 2945380,
+    "speaker": "A",
+    "confidence": 0.9765625
+  },
+  {
+    "sid": "s000518",
+    "text": "We subtract n from that.",
+    "start": 2946660,
+    "end": 2948340,
+    "speaker": "A",
+    "confidence": 0.9238281
+  },
+  {
+    "sid": "s000519",
+    "text": "So every bit we're subtracting from a one.",
+    "start": 2948900,
+    "end": 2951380,
+    "speaker": "A",
+    "confidence": 0.98828125
+  },
+  {
+    "sid": "s000520",
+    "text": "Now, which is an interesting thing to do.",
+    "start": 2951700,
+    "end": 2954980,
+    "speaker": "A",
+    "confidence": 0.59033203
+  },
+  {
+    "sid": "s000521",
+    "text": "I think we know that if we do a one minus zero, that's a one.",
+    "start": 2955710,
+    "end": 2962270,
+    "speaker": "A",
+    "confidence": 0.9814453
+  },
+  {
+    "sid": "s000522",
+    "text": "And if we do a one minus one, that's a zero, right?",
+    "start": 2962830,
+    "end": 2969390,
+    "speaker": "A",
+    "confidence": 0.98876953
+  },
+  {
+    "sid": "s000523",
+    "text": "So notice this.",
+    "start": 2970030,
+    "end": 2972270,
+    "speaker": "A",
+    "confidence": 0.99121094
+  },
+  {
+    "sid": "s000524",
+    "text": "We're subtracting from one.",
+    "start": 2972990,
+    "end": 2974350,
+    "speaker": "A",
+    "confidence": 0.9972331
+  },
+  {
+    "sid": "s000525",
+    "text": "If we subtract a zero from one, we get the complement, we get a one.",
+    "start": 2974350,
+    "end": 2978270,
+    "speaker": "A",
+    "confidence": 0.9941406
+  },
+  {
+    "sid": "s000526",
+    "text": "If we subtract a one from one, we get a complement, we get a zero.",
+    "start": 2978270,
+    "end": 2981890,
+    "speaker": "A",
+    "confidence": 0.99316406
+  },
+  {
+    "sid": "s000527",
+    "text": "So if we subtract, no matter what we do, if we going bit by bit for subtracting individual bits from one, they will complement.",
+    "start": 2984200,
+    "end": 2994040,
+    "speaker": "A",
+    "confidence": 0.9746094
+  },
+  {
+    "sid": "s000528",
+    "text": "For example, we got a number 10111011001.",
+    "start": 2999000,
+    "end": 3023430,
+    "speaker": "A",
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000529",
+    "text": "Just for fun, let's subtract that from one.",
+    "start": 3024229,
+    "end": 3026790,
+    "speaker": "A",
+    "confidence": 0.99609375
+  },
+  {
+    "sid": "s000530",
+    "text": "Okay, this is what, seven bits.",
+    "start": 3026870,
+    "end": 3030390,
+    "speaker": "A",
+    "confidence": 0.82177734
+  },
+  {
+    "sid": "s000531",
+    "text": "So we're subtracting it from two to seven.",
+    "start": 3030470,
+    "end": 3032390,
+    "speaker": "A",
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000532",
+    "text": "One minus one is zero.",
+    "start": 3034500,
+    "end": 3035620,
+    "speaker": "A",
+    "confidence": 0.9736328
+  },
+  {
+    "sid": "s000533",
+    "text": "One minus zero is one minus zero is one.",
+    "start": 3036020,
+    "end": 3038780,
+    "speaker": "A",
+    "confidence": 0.97314453
+  },
+  {
+    "sid": "s000534",
+    "text": "One minus one is zero, that's zero.",
+    "start": 3038780,
+    "end": 3041140,
+    "speaker": "A",
+    "confidence": 0.9970703
+  },
+  {
+    "sid": "s000535",
+    "text": "One minus zero is one.",
+    "start": 3041140,
+    "end": 3042500,
+    "speaker": "A",
+    "confidence": 0.99658203
+  },
+  {
+    "sid": "s000536",
+    "text": "One minus 1 is zero.",
+    "start": 3042500,
+    "end": 3044020,
+    "speaker": "A",
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000537",
+    "text": "You'll notice the number on the bottom, bit by bit, is the complement of the number.",
+    "start": 3044420,
+    "end": 3050100,
+    "speaker": "A",
+    "confidence": 0.87076825
+  },
+  {
+    "sid": "s000538",
+    "text": "And the number on the bottom is the one's complement of the number we started with because we subtracted it from two to the seventh minus one.",
+    "start": 3053460,
+    "end": 3063070,
+    "speaker": "A",
+    "confidence": 0.98339844
+  },
+  {
+    "sid": "s000539",
+    "text": "So it's that hard to calculate a one's complement.",
+    "start": 3064750,
+    "end": 3068190,
+    "speaker": "A",
+    "confidence": 0.9707031
+  },
+  {
+    "sid": "s000540",
+    "text": "You just complement every bit.",
+    "start": 3068670,
+    "end": 3070190,
+    "speaker": "A",
+    "confidence": 0.9863281
+  },
+  {
+    "sid": "s000541",
+    "text": "So if a number is, say, 0001111, one's complement will be 1110000, because the one's complement is 2 to the n minus 1 minus the number complement every bit.",
+    "start": 3072110,
+    "end": 3102280,
+    "speaker": "A",
+    "confidence": 0.9794922
+  },
+  {
+    "sid": "s000542",
+    "text": "That's how hard one's complement is.",
+    "start": 3103160,
+    "end": 3105960,
+    "speaker": "A",
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000543",
+    "text": "Now let's talk about two's complements.",
+    "start": 3107640,
+    "end": 3109240,
+    "speaker": "A",
+    "confidence": 0.8486328
+  },
+  {
+    "sid": "s000544",
+    "text": "Definition.",
+    "start": 3121890,
+    "end": 3122450,
+    "speaker": "A",
+    "confidence": 0.99527997
+  },
+  {
+    "sid": "s000545",
+    "text": "For n digit binary number n, two's complement of n, it's 2 to the n minus n when n is not 0 and it's 0 when n is 0.",
+    "start": 3122610,
+    "end": 3167350,
+    "speaker": "A",
+    "confidence": 0.59472656
+  },
+  {
+    "sid": "s000546",
+    "text": "That's because the result has to have n bits.",
+    "start": 3168950,
+    "end": 3171030,
+    "speaker": "A",
+    "confidence": 0.88623047
+  },
+  {
+    "sid": "s000547",
+    "text": "Now let's the relationship between the two's complement and one's complement is the same.",
+    "start": 3183030,
+    "end": 3187840,
+    "speaker": "A",
+    "confidence": 0.9033203
+  },
+  {
+    "sid": "s000548",
+    "text": "Especially useful, there's the two's complement.",
+    "start": 3187990,
+    "end": 3191830,
+    "speaker": "A",
+    "confidence": 0.77978516
+  },
+  {
+    "sid": "s000549",
+    "text": "And I say we can get the one the two's complement by taking the ones complement and adding one.",
+    "start": 3195350,
+    "end": 3200390,
+    "speaker": "A",
+    "confidence": 0.84033203
+  },
+  {
+    "sid": "s000550",
+    "text": "So let's see, here's the ones complement two to the n minus one minus n plus one.",
+    "start": 3200470,
+    "end": 3214000,
+    "speaker": "A",
+    "confidence": 0.96191406
+  },
+  {
+    "sid": "s000551",
+    "text": "I think those are equal.",
+    "start": 3217840,
+    "end": 3219040,
+    "speaker": "A",
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000552",
+    "text": "The ones cancel and we're left with two to the n minus n. So we already know how to calculate the ones complement.",
+    "start": 3221040,
+    "end": 3232000,
+    "speaker": "A",
+    "confidence": 0.7524414
+  },
+  {
+    "sid": "s000553",
+    "text": "We just complement each individual bit.",
+    "start": 3232000,
+    "end": 3234880,
+    "speaker": "A",
+    "confidence": 0.9604492
+  },
+  {
+    "sid": "s000554",
+    "text": "And this tells us this first part here.",
+    "start": 3236960,
+    "end": 3242490,
+    "speaker": "A",
+    "confidence": 0.9038086
+  },
+  {
+    "sid": "s000555",
+    "text": "This is the ones complement that the two's complement is the ones complement plus one.",
+    "start": 3242490,
+    "end": 3252450,
+    "speaker": "A",
+    "confidence": 0.99316406
+  },
+  {
+    "sid": "s000556",
+    "text": "So for example, got a number here.",
+    "start": 3253330,
+    "end": 3256610,
+    "speaker": "A",
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000557",
+    "text": "11001110.",
+    "start": 3256610,
+    "end": 3262690,
+    "speaker": "A",
+    "confidence": 0.98895
+  },
+  {
+    "sid": "s000558",
+    "text": "That's 8 bits.",
+    "start": 3263090,
+    "end": 3263930,
+    "speaker": "A",
+    "confidence": 0.93440753
+  },
+  {
+    "sid": "s000559",
+    "text": "Good.",
+    "start": 3263930,
+    "end": 3264210,
+    "speaker": "A",
+    "confidence": 0.98828125
+  },
+  {
+    "sid": "s000560",
+    "text": "So first let's calculate the ones complement.",
+    "start": 3265100,
+    "end": 3267260,
+    "speaker": "A",
+    "confidence": 0.43725586
+  },
+  {
+    "sid": "s000561",
+    "text": "Just complement every bit.",
+    "start": 3269100,
+    "end": 3270380,
+    "speaker": "A",
+    "confidence": 0.89404297
+  },
+  {
+    "sid": "s000562",
+    "text": "00110001.",
+    "start": 3270460,
+    "end": 3274300,
+    "speaker": "A",
+    "confidence": 0.9657
+  },
+  {
+    "sid": "s000563",
+    "text": "And then we'll add one.",
+    "start": 3274460,
+    "end": 3275820,
+    "speaker": "A",
+    "confidence": 0.9926758
+  },
+  {
+    "sid": "s000564",
+    "text": "So one plus one is zero.",
+    "start": 3278620,
+    "end": 3280060,
+    "speaker": "A",
+    "confidence": 0.9838867
+  },
+  {
+    "sid": "s000565",
+    "text": "Carry the one, it's two.",
+    "start": 3280380,
+    "end": 3282220,
+    "speaker": "A",
+    "confidence": 0.9992676
+  },
+  {
+    "sid": "s000566",
+    "text": "One plus zero is 10011.",
+    "start": 3283100,
+    "end": 3289980,
+    "speaker": "A",
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000567",
+    "text": "And that gives us the two's complement of that original number.",
+    "start": 3290380,
+    "end": 3293100,
+    "speaker": "A",
+    "confidence": 0.9350586
+  },
+  {
+    "sid": "s000568",
+    "text": "Take the one's complement and add one.",
+    "start": 3296460,
+    "end": 3298860,
+    "speaker": "A",
+    "confidence": 0.97998047
+  },
+  {
+    "sid": "s000569",
+    "text": "That's how we get it.",
+    "start": 3300620,
+    "end": 3301740,
+    "speaker": "A",
+    "confidence": 0.9983724
+  },
+  {
+    "sid": "s000570",
+    "text": "Both one's complement and two's complement have been used at various times to represent negative numbers.",
+    "start": 3303900,
+    "end": 3310460,
+    "speaker": "A",
+    "confidence": 0.99560547
+  },
+  {
+    "sid": "s000571",
+    "text": "There's a third way that's still being used, and it's probably more intuitively obvious, but a little more difficult to implement than a computer.",
+    "start": 3313420,
+    "end": 3323660,
+    "speaker": "A",
+    "confidence": 0.9663086
+  },
+  {
+    "sid": "s000572",
+    "text": "I'm going to call it signed binary numbers.",
+    "start": 3324140,
+    "end": 3326300,
+    "speaker": "A",
+    "confidence": 0.9973958
+  },
+  {
+    "sid": "s000573",
+    "text": "You know, up till now we really haven't concerned ourselves with negative numbers.",
+    "start": 3334700,
+    "end": 3338580,
+    "speaker": "A",
+    "confidence": 0.7758789
+  },
+  {
+    "sid": "s000574",
+    "text": "Everything's been a positive integer, right?",
+    "start": 3338580,
+    "end": 3341830,
+    "speaker": "A",
+    "confidence": 0.90690106
+  },
+  {
+    "sid": "s000575",
+    "text": "If we want to represent negative numbers, we have to at least have a sum indicate that they're negative.",
+    "start": 3345990,
+    "end": 3352230,
+    "speaker": "A",
+    "confidence": 0.99658203
+  },
+  {
+    "sid": "s000576",
+    "text": "As it turns out, with both 1's complement and 2's complement representation, that leftmost bit is a 1.",
+    "start": 3353110,
+    "end": 3359830,
+    "speaker": "A",
+    "confidence": 0.9902344
+  },
+  {
+    "sid": "s000577",
+    "text": "If the value is negative, it's not technically a sign bit, but it's often referred to as such.",
+    "start": 3360310,
+    "end": 3366550,
+    "speaker": "A",
+    "confidence": 0.7451172
+  },
+  {
+    "sid": "s000578",
+    "text": "It means it's minimum, but we can actually explicitly make that assignment, right?",
+    "start": 3367040,
+    "end": 3372160,
+    "speaker": "A",
+    "confidence": 0.75683594
+  },
+  {
+    "sid": "s000579",
+    "text": "So make that high order bit assigned bit.",
+    "start": 3372480,
+    "end": 3374640,
+    "speaker": "A",
+    "confidence": 0.98876953
+  },
+  {
+    "sid": "s000580",
+    "text": "I'm going to call it N sub ho.",
+    "start": 3374640,
+    "end": 3376640,
+    "speaker": "A",
+    "confidence": 0.9923503
+  },
+  {
+    "sid": "s000581",
+    "text": "And for example, if it equals zero, then that indicates a positive number.",
+    "start": 3377520,
+    "end": 3382000,
+    "speaker": "A",
+    "confidence": 0.9770508
+  },
+  {
+    "sid": "s000582",
+    "text": "And if that high order bit n Sub ho equals a one, that would represent a negative sign.",
+    "start": 3392080,
+    "end": 3398330,
+    "speaker": "A",
+    "confidence": 0.94140625
+  },
+  {
+    "sid": "s000583",
+    "text": "So that would indicate a negative number.",
+    "start": 3398490,
+    "end": 3400170,
+    "speaker": "A",
+    "confidence": 0.99609375
+  },
+  {
+    "sid": "s000584",
+    "text": "You could do it the other way.",
+    "start": 3404330,
+    "end": 3405450,
+    "speaker": "A",
+    "confidence": 0.84375
+  },
+  {
+    "sid": "s000585",
+    "text": "Also thinking of that higher order bit as the presence or the absence of a minus sign 0 and a 1, where a 1 and a 0 is more intuitive.",
+    "start": 3405450,
+    "end": 3419500,
+    "speaker": "A",
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000586",
+    "text": "So what that means is now we have to know, you know, everything in a computer is a string of bits, right?",
+    "start": 3420370,
+    "end": 3426690,
+    "speaker": "A",
+    "confidence": 0.9770508
+  },
+  {
+    "sid": "s000587",
+    "text": "So we have to know in advance how to interpret those bits.",
+    "start": 3427090,
+    "end": 3431090,
+    "speaker": "A",
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000588",
+    "text": "So yeah, if you look at this, this number 01011, okay, that might just be 11, maybe 11 if we're dealing with unsigned integers.",
+    "start": 3431570,
+    "end": 3446170,
+    "speaker": "A",
+    "confidence": 0.9199219
+  },
+  {
+    "sid": "s000589",
+    "text": "But it also might be a positive element.",
+    "start": 3448880,
+    "end": 3450960,
+    "speaker": "A",
+    "confidence": 0.9897461
+  },
+  {
+    "sid": "s000590",
+    "text": "There's a distinction between the two.",
+    "start": 3456080,
+    "end": 3457760,
+    "speaker": "A",
+    "confidence": 0.89729816
+  },
+  {
+    "sid": "s000591",
+    "text": "The same value.",
+    "start": 3457760,
+    "end": 3458560,
+    "speaker": "A",
+    "confidence": 0.9272461
+  },
+  {
+    "sid": "s000592",
+    "text": "That's if that's assigned integer.",
+    "start": 3458880,
+    "end": 3460640,
+    "speaker": "A",
+    "confidence": 0.9189453
+  },
+  {
+    "sid": "s000593",
+    "text": "Look, if we have the number 11011, that might be 27 if we're dealing with unsigned integers.",
+    "start": 3462720,
+    "end": 3475850,
+    "speaker": "A",
+    "confidence": 0.9199219
+  },
+  {
+    "sid": "s000594",
+    "text": "Or it might be a negative element if that leftmost bit is a sign.",
+    "start": 3494250,
+    "end": 3498490,
+    "speaker": "A",
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000595",
+    "text": "If we're doing it this way, it's referred to as the signed magnitude system.",
+    "start": 3508330,
+    "end": 3512490,
+    "speaker": "A",
+    "confidence": 0.9975586
+  },
+  {
+    "sid": "s000596",
+    "text": "And this is used in some places.",
+    "start": 3522010,
+    "end": 3524170,
+    "speaker": "A",
+    "confidence": 0.84033203
+  },
+  {
+    "sid": "s000597",
+    "text": "It is probably the most intuitive of the representations of negative numbers.",
+    "start": 3525070,
+    "end": 3530590,
+    "speaker": "A",
+    "confidence": 0.6748047
+  },
+  {
+    "sid": "s000598",
+    "text": "It requires a fair amount of hard work.",
+    "start": 3530590,
+    "end": 3532270,
+    "speaker": "A",
+    "confidence": 0.99072266
+  },
+  {
+    "sid": "s000599",
+    "text": "So we've got this neat chart here in our textbook.",
+    "start": 3533950,
+    "end": 3537870,
+    "speaker": "A",
+    "confidence": 0.9526367
+  },
+  {
+    "sid": "s000600",
+    "text": "It shows representations of the three systems.",
+    "start": 3539870,
+    "end": 3544190,
+    "speaker": "A",
+    "confidence": 0.97558594
+  },
+  {
+    "sid": "s000601",
+    "text": "Over here on the right you can see that leftmost bit, the higher order bit assigned bit.",
+    "start": 3546110,
+    "end": 3555720,
+    "speaker": "A",
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000602",
+    "text": "So you got a positive 1, 2, 3, 4 for the magnitude.",
+    "start": 3556040,
+    "end": 3560160,
+    "speaker": "A",
+    "confidence": 0.9921875
+  },
+  {
+    "sid": "s000603",
+    "text": "You got four bits.",
+    "start": 3560160,
+    "end": 3561320,
+    "speaker": "A",
+    "confidence": 0.69873047
+  },
+  {
+    "sid": "s000604",
+    "text": "You can only use three for the magnitude because one of them is devoted to the sign.",
+    "start": 3561320,
+    "end": 3564920,
+    "speaker": "A",
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000605",
+    "text": "And for a negative number that's negative and then it's a sign bit followed by the magnitude -1, 2, 3, 4 all the way up to -7.",
+    "start": 3566280,
+    "end": 3576450,
+    "speaker": "A",
+    "confidence": 0.9667969
+  },
+  {
+    "sid": "s000606",
+    "text": "When you strip off that left number leftmost bit, it gives you the magnitude.",
+    "start": 3577010,
+    "end": 3580850,
+    "speaker": "A",
+    "confidence": 0.56640625
+  },
+  {
+    "sid": "s000607",
+    "text": "1's complement and 2's complement are less intuitive.",
+    "start": 3583330,
+    "end": 3587650,
+    "speaker": "A",
+    "confidence": 0.94694
+  },
+  {
+    "sid": "s000608",
+    "text": "These are referred to as sign 2's complement or sign 1's complement.",
+    "start": 3588130,
+    "end": 3591649,
+    "speaker": "A",
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000609",
+    "text": "I never like using putting appending the word sign to it.",
+    "start": 3592370,
+    "end": 3596330,
+    "speaker": "A",
+    "confidence": 0.91015625
+  },
+  {
+    "sid": "s000610",
+    "text": "But in fact the leftmost bit does serve as assigned in I suppose assigned ones complement.",
+    "start": 3596330,
+    "end": 3604950,
+    "speaker": "A",
+    "confidence": 0.9946289
+  },
+  {
+    "sid": "s000611",
+    "text": "You know, positive numbers are just values, just like an integer, except we've only got the three bits on the right available to us.",
+    "start": 3604950,
+    "end": 3613750,
+    "speaker": "A",
+    "confidence": 0.7763672
+  },
+  {
+    "sid": "s000612",
+    "text": "And for example positive one one is positive one is 0001, right?",
+    "start": 3614070,
+    "end": 3628800,
+    "speaker": "A",
+    "confidence": 0.98291016
+  },
+  {
+    "sid": "s000613",
+    "text": "So the negative one must be 11, 10, the one's complement.",
+    "start": 3630000,
+    "end": 3633920,
+    "speaker": "A",
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000614",
+    "text": "Sure enough, there it is, 1110, the signed two's complement.",
+    "start": 3634320,
+    "end": 3642560,
+    "speaker": "A",
+    "confidence": 1.0
+  },
+  {
+    "sid": "s000615",
+    "text": "Again there's the positive numbers and the negative numbers, right?",
+    "start": 3643280,
+    "end": 3648080,
+    "speaker": "A",
+    "confidence": 0.99316406
+  },
+  {
+    "sid": "s000616",
+    "text": "The positive one is the same as we had.",
+    "start": 3648080,
+    "end": 3650880,
+    "speaker": "A",
+    "confidence": 0.99365234
+  },
+  {
+    "sid": "s000617",
+    "text": "The ones complement 0,01.",
+    "start": 3651280,
+    "end": 3653640,
+    "speaker": "A",
+    "confidence": 0.7817383
+  },
+  {
+    "sid": "s000618",
+    "text": "The negative number with the two's complement would be the ones complement plus 1, which is 4 ones.",
+    "start": 3654920,
+    "end": 3663240,
+    "speaker": "A",
+    "confidence": 0.7739258
+  },
+  {
+    "sid": "s000619",
+    "text": "Sure enough, that's what you see here.",
+    "start": 3663640,
+    "end": 3666200,
+    "speaker": "A",
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000620",
+    "text": "The one's complement and side magnitude systems present us with a little bit of difficulty because we have both a positive and a negative zero we dealt with.",
+    "start": 3675880,
+    "end": 3687950,
+    "speaker": "A",
+    "confidence": 0.9785156
+  },
+  {
+    "sid": "s000621",
+    "text": "But it's certainly inelegant.",
+    "start": 3687950,
+    "end": 3689710,
+    "speaker": "A",
+    "confidence": 0.5131836
+  },
+  {
+    "sid": "s000622",
+    "text": "The two's complement doesn't have that because it's defined.",
+    "start": 3689950,
+    "end": 3695390,
+    "speaker": "A",
+    "confidence": 0.99658203
+  },
+  {
+    "sid": "s000623",
+    "text": "It's just zero is zero and it is in fact most efficient.",
+    "start": 3695390,
+    "end": 3701870,
+    "speaker": "A",
+    "confidence": 0.96565753
+  },
+  {
+    "sid": "s000624",
+    "text": "And it's what prevails in actual EAPs.",
+    "start": 3701870,
+    "end": 3704270,
+    "speaker": "A",
+    "confidence": 0.98046875
+  },
+  {
+    "sid": "s000625",
+    "text": "All these systems have been used at one time or another.",
+    "start": 3705960,
+    "end": 3708440,
+    "speaker": "A",
+    "confidence": 0.97021484
+  },
+  {
+    "sid": "s000626",
+    "text": "Imagine some of them still are.",
+    "start": 3709080,
+    "end": 3710920,
+    "speaker": "A",
+    "confidence": 0.9589844
+  },
+  {
+    "sid": "s000627",
+    "text": "But two's complement is by far the most popular.",
+    "start": 3711000,
+    "end": 3713560,
+    "speaker": "A",
+    "confidence": 0.98876953
+  },
+  {
+    "sid": "s000628",
+    "text": "So if we're going to subtract using two's complement, we're going to do a subtraction M minus N. What we really do is we add M plus a negative n. We calculate the two's complement of N and at that time M plus a negative n. So we add the two's complement of N, right?",
+    "start": 3716840,
+    "end": 3742930,
+    "speaker": "A",
+    "confidence": 0.9394531
+  },
+  {
+    "sid": "s000629",
+    "text": "And we get pretty much what we were doing before.",
+    "start": 3750610,
+    "end": 3752730,
+    "speaker": "A",
+    "confidence": 0.7241211
+  },
+  {
+    "sid": "s000630",
+    "text": "You get M minus N plus 2 to the N. If M is the larger number, you throw out your carry bit and you're left with M minus N. It's the right answer.",
+    "start": 3752730,
+    "end": 3761510,
+    "speaker": "A",
+    "confidence": 0.9760742
+  },
+  {
+    "sid": "s000631",
+    "text": "If M is smaller than n, you have to take the two's complement and put a minus sign.",
+    "start": 3761830,
+    "end": 3766150,
+    "speaker": "A",
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000632",
+    "text": "And in actual practice it's much simpler than that.",
+    "start": 3768710,
+    "end": 3772390,
+    "speaker": "A",
+    "confidence": 0.9404297
+  },
+  {
+    "sid": "s000633",
+    "text": "If we just assume we're working in two's complement, all of our numbers are two's complement.",
+    "start": 3773350,
+    "end": 3778070,
+    "speaker": "A",
+    "confidence": 0.8613281
+  },
+  {
+    "sid": "s000634",
+    "text": "The system pretty much takes care of itself.",
+    "start": 3778310,
+    "end": 3781110,
+    "speaker": "A",
+    "confidence": 0.51171875
+  },
+  {
+    "sid": "s000635",
+    "text": "So let's say X equals.",
+    "start": 3781670,
+    "end": 3784980,
+    "speaker": "A",
+    "confidence": 0.99121094
+  },
+  {
+    "sid": "s000636",
+    "text": "What have I got?",
+    "start": 3785220,
+    "end": 3786100,
+    "speaker": "A",
+    "confidence": 0.8339844
+  },
+  {
+    "sid": "s000637",
+    "text": "1010100 and y7 bit numbers, 1 followed by 4 zeros, 1123411.",
+    "start": 3786740,
+    "end": 3803860,
+    "speaker": "A",
+    "confidence": 0.92404
+  },
+  {
+    "sid": "s000638",
+    "text": "So let's calculate X minus Y and Y minus X.",
+    "start": 3805300,
+    "end": 3808450,
+    "speaker": "A",
+    "confidence": 0.98535156
+  },
+  {
+    "sid": "s000639",
+    "text": "The X is the bigger number.",
+    "start": 3811080,
+    "end": 3812280,
+    "speaker": "A",
+    "confidence": 0.97314453
+  },
+  {
+    "sid": "s000640",
+    "text": "Let's do that.",
+    "start": 3812600,
+    "end": 3813320,
+    "speaker": "A",
+    "confidence": 0.99609375
+  },
+  {
+    "sid": "s000641",
+    "text": "X minus 2.",
+    "start": 3813560,
+    "end": 3815720,
+    "speaker": "A",
+    "confidence": 0.9951172
+  },
+  {
+    "sid": "s000642",
+    "text": "Remember what you do when you're doing subtraction.",
+    "start": 3820680,
+    "end": 3822760,
+    "speaker": "A",
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000643",
+    "text": "We're actually adding the top number plus the negative of the bottom number.",
+    "start": 3825400,
+    "end": 3829880,
+    "speaker": "A",
+    "confidence": 0.96565753
+  },
+  {
+    "sid": "s000644",
+    "text": "So we start by taking the two's complement of the bottom number, going to write down y 100001.",
+    "start": 3829880,
+    "end": 3840690,
+    "speaker": "A",
+    "confidence": 0.9897461
+  },
+  {
+    "sid": "s000645",
+    "text": "And then the ones complement which is 0111100.",
+    "start": 3841250,
+    "end": 3848610,
+    "speaker": "A",
+    "confidence": 0.9921875
+  },
+  {
+    "sid": "s000646",
+    "text": "And then we add one to get the two's complement which is 1011110.",
+    "start": 3848850,
+    "end": 3857330,
+    "speaker": "A",
+    "confidence": 0.99316406
+  },
+  {
+    "sid": "s000647",
+    "text": "Right?",
+    "start": 3857570,
+    "end": 3857970,
+    "speaker": "A",
+    "confidence": 0.7451172
+  },
+  {
+    "sid": "s000648",
+    "text": "And this is the two's complement which is a negative one.",
+    "start": 3858050,
+    "end": 3863550,
+    "speaker": "A",
+    "confidence": 0.97265625
+  },
+  {
+    "sid": "s000649",
+    "text": "And to that we'll add x 1010100.",
+    "start": 3864590,
+    "end": 3870830,
+    "speaker": "A",
+    "confidence": 0.9423828
+  },
+  {
+    "sid": "s000650",
+    "text": "We just add those.",
+    "start": 3872750,
+    "end": 3873790,
+    "speaker": "A",
+    "confidence": 0.9326172
+  },
+  {
+    "sid": "s000651",
+    "text": "Let's see, 1 plus 1 is 2.",
+    "start": 3873950,
+    "end": 3875350,
+    "speaker": "A",
+    "confidence": 0.99332684
+  },
+  {
+    "sid": "s000652",
+    "text": "So 0 carry the 1.",
+    "start": 3875350,
+    "end": 3876685,
+    "speaker": "A",
+    "confidence": 0.4260254
+  },
+  {
+    "sid": "s000653",
+    "text": "1 plus 1 plus 0 is 20 carry the 11 plus 1 plus 1 is 3.",
+    "start": 3876733,
+    "end": 3881830,
+    "speaker": "A",
+    "confidence": 0.99927
+  },
+  {
+    "sid": "s000654",
+    "text": "It's a 1 carry the 1 which is 20 carry 1.",
+    "start": 3881830,
+    "end": 3885944,
+    "speaker": "A",
+    "confidence": 0.70548505
+  },
+  {
+    "sid": "s000655",
+    "text": "1 plus 0 plus 1 is 20 carry the 1 and we'll throw out, then carry out.",
+    "start": 3886085,
+    "end": 3893720,
+    "speaker": "A",
+    "confidence": 0.95288
+  },
+  {
+    "sid": "s000656",
+    "text": "And that gives us our answer which is a clearly a positive number, whatever that is.",
+    "start": 3894280,
+    "end": 3900680,
+    "speaker": "A",
+    "confidence": 0.9819336
+  },
+  {
+    "sid": "s000657",
+    "text": "It's X, that's X minus 1.",
+    "start": 3902039,
+    "end": 3904040,
+    "speaker": "A",
+    "confidence": 0.7923177
+  },
+  {
+    "sid": "s000658",
+    "text": "So the way we did it is we figured out a negative Y and then added X to it.",
+    "start": 3904200,
+    "end": 3909000,
+    "speaker": "A",
+    "confidence": 0.54248047
+  },
+  {
+    "sid": "s000659",
+    "text": "Yes, it does.",
+    "start": 3909080,
+    "end": 3916460,
+    "speaker": "A",
+    "confidence": 0.9824219
+  },
+  {
+    "sid": "s000660",
+    "text": "What he asked was if you take the two's complement of the number and then take the two's complement of that, are you back where you started?",
+    "start": 3916540,
+    "end": 3922060,
+    "speaker": "A",
+    "confidence": 0.9296875
+  },
+  {
+    "sid": "s000661",
+    "text": "Yes.",
+    "start": 3922220,
+    "end": 3922700,
+    "speaker": "A",
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000662",
+    "text": "In fact, that is, I'll do that sometimes I'll wind up the negative number.",
+    "start": 3923660,
+    "end": 3929460,
+    "speaker": "A",
+    "confidence": 0.99658203
+  },
+  {
+    "sid": "s000663",
+    "text": "I know what the magnitude was and then I'll get this.",
+    "start": 3929460,
+    "end": 3931900,
+    "speaker": "A",
+    "confidence": 0.9921875
+  },
+  {
+    "sid": "s000664",
+    "text": "Two's complement doesn't look like the number at all.",
+    "start": 3932060,
+    "end": 3934980,
+    "speaker": "A",
+    "confidence": 0.9609375
+  },
+  {
+    "sid": "s000665",
+    "text": "Right.",
+    "start": 3934980,
+    "end": 3935340,
+    "speaker": "A",
+    "confidence": 0.9316406
+  },
+  {
+    "sid": "s000666",
+    "text": "And I can make the two's complement again just to check my magnitude.",
+    "start": 3935500,
+    "end": 3938510,
+    "speaker": "A",
+    "confidence": 0.9814453
+  },
+  {
+    "sid": "s000667",
+    "text": "Yeah.",
+    "start": 3939710,
+    "end": 3940190,
+    "speaker": "A",
+    "confidence": 0.8359375
+  },
+  {
+    "sid": "s000668",
+    "text": "Okay, so that's X minus Y.",
+    "start": 3941310,
+    "end": 3943150,
+    "speaker": "A",
+    "confidence": 0.98291016
+  },
+  {
+    "sid": "s000669",
+    "text": "Right?",
+    "start": 3943710,
+    "end": 3944110,
+    "speaker": "A",
+    "confidence": 0.5029297
+  },
+  {
+    "sid": "s000670",
+    "text": "Y minus X.",
+    "start": 3944270,
+    "end": 3945070,
+    "speaker": "A",
+    "confidence": 0.9770508
+  },
+  {
+    "sid": "s000671",
+    "text": "We'd expect to have a negative result.",
+    "start": 3945070,
+    "end": 3946830,
+    "speaker": "A",
+    "confidence": 0.96272784
+  },
+  {
+    "sid": "s000672",
+    "text": "Right, because X is bigger.",
+    "start": 3946830,
+    "end": 3948350,
+    "speaker": "A",
+    "confidence": 0.8925781
+  },
+  {
+    "sid": "s000673",
+    "text": "So let's see what's Y minus X.",
+    "start": 3948830,
+    "end": 3952590,
+    "speaker": "A",
+    "confidence": 0.88183594
+  },
+  {
+    "sid": "s000674",
+    "text": "Well, we'll start with x which is 1010100.",
+    "start": 3953630,
+    "end": 3962030,
+    "speaker": "A",
+    "confidence": 0.97265625
+  },
+  {
+    "sid": "s000675",
+    "text": "And we want to get a negative X.",
+    "start": 3962030,
+    "end": 3964360,
+    "speaker": "A",
+    "confidence": 0.93066406
+  },
+  {
+    "sid": "s000676",
+    "text": "So we need the two's complement.",
+    "start": 3964360,
+    "end": 3966040,
+    "speaker": "A",
+    "confidence": 0.9916992
+  },
+  {
+    "sid": "s000677",
+    "text": "So we start by calculating the ones complement which is just 0101011.",
+    "start": 3966120,
+    "end": 3972320,
+    "speaker": "A",
+    "confidence": 0.95654297
+  },
+  {
+    "sid": "s000678",
+    "text": "We not every bit and we add one.",
+    "start": 3972320,
+    "end": 3974600,
+    "speaker": "A",
+    "confidence": 0.56591797
+  },
+  {
+    "sid": "s000679",
+    "text": "Okay.",
+    "start": 3976600,
+    "end": 3977080,
+    "speaker": "A",
+    "confidence": 0.92089844
+  },
+  {
+    "sid": "s000680",
+    "text": "One plus one is two.",
+    "start": 3977080,
+    "end": 3978320,
+    "speaker": "A",
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000681",
+    "text": "So zero carry the one.",
+    "start": 3978320,
+    "end": 3979720,
+    "speaker": "A",
+    "confidence": 0.8227539
+  },
+  {
+    "sid": "s000682",
+    "text": "One plus one is two, zero carry the one.",
+    "start": 3979960,
+    "end": 3983000,
+    "speaker": "A",
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000683",
+    "text": "One plus zero is one.",
+    "start": 3983880,
+    "end": 3985320,
+    "speaker": "A",
+    "confidence": 1.0
+  },
+  {
+    "sid": "s000684",
+    "text": "Writing down these other bits, and that's a negative x.",
+    "start": 3986040,
+    "end": 3990630,
+    "speaker": "A",
+    "confidence": 0.48364258
+  },
+  {
+    "sid": "s000685",
+    "text": "That's the two's complement.",
+    "start": 3991910,
+    "end": 3993510,
+    "speaker": "A",
+    "confidence": 0.99886066
+  },
+  {
+    "sid": "s000686",
+    "text": "And to that, we're going to add one which is 10002110 plus one zero plus one one plus zero one plus zero zero plus zero one plus zero zero plus one carry out some zero.",
+    "start": 3993510,
+    "end": 4015790,
+    "speaker": "A",
+    "confidence": 0.9140625
+  },
+  {
+    "sid": "s000687",
+    "text": "Throw that out.",
+    "start": 4016670,
+    "end": 4017550,
+    "speaker": "A",
+    "confidence": 0.96777344
+  },
+  {
+    "sid": "s000688",
+    "text": "And to the left in the seventh position on the left is a one.",
+    "start": 4017630,
+    "end": 4021950,
+    "speaker": "A",
+    "confidence": 0.9785156
+  },
+  {
+    "sid": "s000689",
+    "text": "So it's clearly a negative number.",
+    "start": 4021950,
+    "end": 4023470,
+    "speaker": "A",
+    "confidence": 0.99072266
+  },
+  {
+    "sid": "s000690",
+    "text": "That's maybe y minus x.",
+    "start": 4025070,
+    "end": 4027150,
+    "speaker": "A",
+    "confidence": 0.9770508
+  },
+  {
+    "sid": "s000691",
+    "text": "Just to repeat the way you do it is you take calculate the negative or the two's complement of the number on the bottom and add it to the number on the top.",
+    "start": 4027470,
+    "end": 4042350,
+    "speaker": "A",
+    "confidence": 0.99658203
+  },
+  {
+    "sid": "s000692",
+    "text": "So what this does for us is by using the two's complement for a negative number, we end up adding right, we're taking the one circuit which is just complementing every bit.",
+    "start": 4048030,
+    "end": 4061470,
+    "speaker": "A",
+    "confidence": 0.9667969
+  },
+  {
+    "sid": "s000693",
+    "text": "And then after that we're doing all addition.",
+    "start": 4061470,
+    "end": 4063230,
+    "speaker": "A",
+    "confidence": 0.9926758
+  },
+  {
+    "sid": "s000694",
+    "text": "So we can eliminate that whole subtractor circuit looked at before and we can work with just an add.",
+    "start": 4063470,
+    "end": 4068520,
+    "speaker": "A",
+    "confidence": 0.99560547
+  },
+  {
+    "sid": "s000695",
+    "text": "Let's see how this works.",
+    "start": 4068840,
+    "end": 4070120,
+    "speaker": "A",
+    "confidence": 0.9692383
+  },
+  {
+    "sid": "s000696",
+    "text": "Here's that adder, right, that we looked at about an hour ago.",
+    "start": 4070520,
+    "end": 4075160,
+    "speaker": "A",
+    "confidence": 0.9947917
+  },
+  {
+    "sid": "s000697",
+    "text": "This adds four bits, A plus B.",
+    "start": 4079080,
+    "end": 4081240,
+    "speaker": "A",
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000698",
+    "text": "What if we do this, I'm gonna put a not gauge on every B input.",
+    "start": 4083000,
+    "end": 4088520,
+    "speaker": "A",
+    "confidence": 0.9921875
+  },
+  {
+    "sid": "s000699",
+    "text": "Which means we're adding A sub I to a complement of B sub I.",
+    "start": 4097330,
+    "end": 4107810,
+    "speaker": "A",
+    "confidence": 0.81396484
+  },
+  {
+    "sid": "s000700",
+    "text": "Right?",
+    "start": 4107810,
+    "end": 4108210,
+    "speaker": "A",
+    "confidence": 0.87890625
+  },
+  {
+    "sid": "s000701",
+    "text": "It's A plus the ones complement of B.",
+    "start": 4110130,
+    "end": 4112290,
+    "speaker": "A",
+    "confidence": 0.91715497
+  },
+  {
+    "sid": "s000702",
+    "text": "And then if we make our carry in equal to 1, we're adding A plus the ones complement of B plus plus 1.",
+    "start": 4112370,
+    "end": 4119119,
+    "speaker": "A",
+    "confidence": 0.98828125
+  },
+  {
+    "sid": "s000703",
+    "text": "Effectively A plus the 2's complement of B.",
+    "start": 4119999,
+    "end": 4122799,
+    "speaker": "A",
+    "confidence": 0.99487305
+  },
+  {
+    "sid": "s000704",
+    "text": "We're getting A minus B.",
+    "start": 4123119,
+    "end": 4124639,
+    "speaker": "A",
+    "confidence": 0.90445966
+  },
+  {
+    "sid": "s000705",
+    "text": "Pretty clear on that.",
+    "start": 4129839,
+    "end": 4130879,
+    "speaker": "A",
+    "confidence": 0.78727216
+  },
+  {
+    "sid": "s000706",
+    "text": "This is important, so I'll repeat it.",
+    "start": 4132719,
+    "end": 4137479,
+    "speaker": "A",
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000707",
+    "text": "Even if you got it, I'm going to repeat it by taking the not of all the B bits, we've got the ones complement of B.",
+    "start": 4137479,
+    "end": 4145119,
+    "speaker": "A",
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000708",
+    "text": "By carrying in A one we've got the one's complement of B plus one, which means the two's complement of B.",
+    "start": 4146069,
+    "end": 4152149,
+    "speaker": "A",
+    "confidence": 0.9770508
+  },
+  {
+    "sid": "s000709",
+    "text": "It's a negative V which we're adding to A.",
+    "start": 4152149,
+    "end": 4154309,
+    "speaker": "A",
+    "confidence": 0.8279622
+  },
+  {
+    "sid": "s000710",
+    "text": "This will do A minus B.",
+    "start": 4154549,
+    "end": 4156869,
+    "speaker": "A",
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000711",
+    "text": "Remember I said we wanted to combine the two circuits?",
+    "start": 4159829,
+    "end": 4162149,
+    "speaker": "A",
+    "confidence": 0.9992676
+  },
+  {
+    "sid": "s000712",
+    "text": "So the way we do that is instead of not gates we use exclusive orbs.",
+    "start": 4162389,
+    "end": 4167269,
+    "speaker": "A",
+    "confidence": 0.82910156
+  },
+  {
+    "sid": "s000713",
+    "text": "Refresh your memory S and say B sub I.",
+    "start": 4170800,
+    "end": 4178000,
+    "speaker": "A",
+    "confidence": 0.9785156
+  },
+  {
+    "sid": "s000714",
+    "text": "Right.",
+    "start": 4178880,
+    "end": 4179280,
+    "speaker": "A",
+    "confidence": 0.9008789
+  },
+  {
+    "sid": "s000715",
+    "text": "And I'll do a truth the for the exclusive 10011011 and the exclusive R looks like this.",
+    "start": 4179440,
+    "end": 4191680,
+    "speaker": "A",
+    "confidence": 0.9873047
+  },
+  {
+    "sid": "s000716",
+    "text": "So break this into two parts.",
+    "start": 4194480,
+    "end": 4196400,
+    "speaker": "A",
+    "confidence": 0.52246094
+  },
+  {
+    "sid": "s000717",
+    "text": "If S is a zero, the exclusive or is the same as B sub I.",
+    "start": 4197450,
+    "end": 4203290,
+    "speaker": "A",
+    "confidence": 0.99121094
+  },
+  {
+    "sid": "s000718",
+    "text": "Right.",
+    "start": 4203370,
+    "end": 4203770,
+    "speaker": "A",
+    "confidence": 0.77246094
+  },
+  {
+    "sid": "s000719",
+    "text": "But if S is a one, the exclusive or is the complement of B sub I, we're using the exclusive or as a selective complement.",
+    "start": 4205530,
+    "end": 4215130,
+    "speaker": "A",
+    "confidence": 0.9277344
+  },
+  {
+    "sid": "s000720",
+    "text": "Complement something with a 1 you get I'm sorry exclusive or something with a 1 you get the complement exclusive or with a 0 it goes through unchanged.",
+    "start": 4215770,
+    "end": 4226200,
+    "speaker": "A",
+    "confidence": 0.96240234
+  },
+  {
+    "sid": "s000721",
+    "text": "So if we were to set s equals zero, what are we getting?",
+    "start": 4228600,
+    "end": 4235120,
+    "speaker": "A",
+    "confidence": 0.93359375
+  },
+  {
+    "sid": "s000722",
+    "text": "That's a zero on all these lines we got b3, b3, b2, b2, b1, a1, b0, a0 and deuterium is zero, we're adding a plus b.",
+    "start": 4235120,
+    "end": 4257010,
+    "speaker": "A",
+    "confidence": 0.9366862
+  },
+  {
+    "sid": "s000723",
+    "text": "So if s equals a zero, we're doing addition.",
+    "start": 4258130,
+    "end": 4261970,
+    "speaker": "A",
+    "confidence": 0.99121094
+  },
+  {
+    "sid": "s000724",
+    "text": "Let's make s a1.",
+    "start": 4270130,
+    "end": 4272370,
+    "speaker": "A",
+    "confidence": 0.9973958
+  },
+  {
+    "sid": "s000725",
+    "text": "If s equals one, that's a1, that's a1, that'S a1, that's a1.",
+    "start": 4275980,
+    "end": 4283100,
+    "speaker": "A",
+    "confidence": 0.9897461
+  },
+  {
+    "sid": "s000726",
+    "text": "So we're actually complementing now, right?",
+    "start": 4283180,
+    "end": 4284940,
+    "speaker": "A",
+    "confidence": 0.9921875
+  },
+  {
+    "sid": "s000727",
+    "text": "We've got not b3, not v2, not v1, not v0.",
+    "start": 4284940,
+    "end": 4289980,
+    "speaker": "A",
+    "confidence": 0.7871094
+  },
+  {
+    "sid": "s000728",
+    "text": "So we're adding a to the ones complement of b.",
+    "start": 4290140,
+    "end": 4293260,
+    "speaker": "A",
+    "confidence": 0.9863281
+  },
+  {
+    "sid": "s000729",
+    "text": "And then we're adding one.",
+    "start": 4293420,
+    "end": 4295260,
+    "speaker": "A",
+    "confidence": 0.77685547
+  },
+  {
+    "sid": "s000730",
+    "text": "We're calculating a minus B.",
+    "start": 4295420,
+    "end": 4297740,
+    "speaker": "A",
+    "confidence": 0.90804034
+  },
+  {
+    "sid": "s000731",
+    "text": "This becomes a subtractor.",
+    "start": 4297740,
+    "end": 4299340,
+    "speaker": "A",
+    "confidence": 0.90966797
+  },
+  {
+    "sid": "s000732",
+    "text": "So if S is equals one, we're doing subtraction.",
+    "start": 4299660,
+    "end": 4305540,
+    "speaker": "A",
+    "confidence": 0.984375
+  },
+  {
+    "sid": "s000733",
+    "text": "And this is in fact the Most common way to do this in a general purpose computer, except for the ripple carry part of the carries.",
+    "start": 4314420,
+    "end": 4323300,
+    "speaker": "A",
+    "confidence": 0.88623047
+  },
+  {
+    "sid": "s000734",
+    "text": "Right.",
+    "start": 4323300,
+    "end": 4323700,
+    "speaker": "A",
+    "confidence": 0.921875
+  },
+  {
+    "sid": "s000735",
+    "text": "Normally they'd add a bunch of carry look at.",
+    "start": 4323700,
+    "end": 4326260,
+    "speaker": "A",
+    "confidence": 0.9465332
+  },
+  {
+    "sid": "s000736",
+    "text": "But this is the way it's done.",
+    "start": 4326750,
+    "end": 4328430,
+    "speaker": "A",
+    "confidence": 0.79589844
+  },
+  {
+    "sid": "s000737",
+    "text": "It's pretty.",
+    "start": 4328830,
+    "end": 4329550,
+    "speaker": "A",
+    "confidence": 0.8408203
+  },
+  {
+    "sid": "s000738",
+    "text": "I think using two's complement to represent negative numbers gives us a remarkably elegant solution to this.",
+    "start": 4330030,
+    "end": 4337550,
+    "speaker": "A",
+    "confidence": 0.99365234
+  },
+  {
+    "sid": "s000739",
+    "text": "Now what does this mean for you?",
+    "start": 4342670,
+    "end": 4344110,
+    "speaker": "A",
+    "confidence": 0.49536133
+  },
+  {
+    "sid": "s000740",
+    "text": "Let's say there's a problem like this on the homework like we're about to do here.",
+    "start": 4347070,
+    "end": 4352190,
+    "speaker": "A",
+    "confidence": 0.9916992
+  },
+  {
+    "sid": "s000741",
+    "text": "And I will emphasize it's a very important problem.",
+    "start": 4352510,
+    "end": 4354750,
+    "speaker": "A",
+    "confidence": 0.6870117
+  },
+  {
+    "sid": "s000742",
+    "text": "It's probably the most important takeaway from today.",
+    "start": 4354830,
+    "end": 4357550,
+    "speaker": "A",
+    "confidence": 0.95703125
+  },
+  {
+    "sid": "s000743",
+    "text": "Okay, so we've got this little circuit, the circuit here, which I made very small and what we've got, oh, it's the part A, B, C and B.",
+    "start": 4358190,
+    "end": 4366830,
+    "speaker": "A",
+    "confidence": 0.78238934
+  },
+  {
+    "sid": "s000744",
+    "text": "We're given the inputs s, 4 bits of A and 4 bits of B and we're asked to figure out what the outputs are.5 outputs, right?",
+    "start": 4367070,
+    "end": 4375070,
+    "speaker": "A",
+    "confidence": 0.9947917
+  },
+  {
+    "sid": "s000745",
+    "text": "C4s, 3, 2, 1, 0.",
+    "start": 4375070,
+    "end": 4378190,
+    "speaker": "A",
+    "confidence": 0.98884
+  },
+  {
+    "sid": "s000746",
+    "text": "Because we know what this thing does.",
+    "start": 4380520,
+    "end": 4383960,
+    "speaker": "A",
+    "confidence": 0.99609375
+  },
+  {
+    "sid": "s000747",
+    "text": "It does two's complement, addition or subtraction.",
+    "start": 4384760,
+    "end": 4387480,
+    "speaker": "A",
+    "confidence": 0.98046875
+  },
+  {
+    "sid": "s000748",
+    "text": "We don't need to trace ones and zeros through the logic.",
+    "start": 4388680,
+    "end": 4391640,
+    "speaker": "A",
+    "confidence": 0.96240234
+  },
+  {
+    "sid": "s000749",
+    "text": "In fact, that wouldn't even be a good idea.",
+    "start": 4391960,
+    "end": 4394120,
+    "speaker": "A",
+    "confidence": 0.96191406
+  },
+  {
+    "sid": "s000750",
+    "text": "It'd work if you did it perfectly every time.",
+    "start": 4394600,
+    "end": 4397040,
+    "speaker": "A",
+    "confidence": 0.7609863
+  },
+  {
+    "sid": "s000751",
+    "text": "But it's sort of fraught with peril.",
+    "start": 4397040,
+    "end": 4399640,
+    "speaker": "A",
+    "confidence": 0.8569336
+  },
+  {
+    "sid": "s000752",
+    "text": "Easy to make a mistake there and no need to because look, this first one here, S equals zero, meaning we're doing addition.",
+    "start": 4399640,
+    "end": 4408290,
+    "speaker": "A",
+    "confidence": 0.9975586
+  },
+  {
+    "sid": "s000753",
+    "text": "Right.",
+    "start": 4408530,
+    "end": 4408930,
+    "speaker": "A",
+    "confidence": 0.9038086
+  },
+  {
+    "sid": "s000754",
+    "text": "We're just going to add A +B0011 +0100, that's A and B1 +01 +00 +10 +0 and the carry out is A0.",
+    "start": 4409170,
+    "end": 4426290,
+    "speaker": "A",
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000755",
+    "text": "So this represents the C4, S3, S2, S1 and S0.",
+    "start": 4427410,
+    "end": 4434580,
+    "speaker": "A",
+    "confidence": 0.9399414
+  },
+  {
+    "sid": "s000756",
+    "text": "So we can just write those values right here.",
+    "start": 4434580,
+    "end": 4436620,
+    "speaker": "A",
+    "confidence": 0.98339844
+  },
+  {
+    "sid": "s000757",
+    "text": "I understand when we're doing this kind of arithmetic we would normally discard the carry out.",
+    "start": 4441100,
+    "end": 4448220,
+    "speaker": "A",
+    "confidence": 0.93408203
+  },
+  {
+    "sid": "s000758",
+    "text": "We've got a four bit computer.",
+    "start": 4449500,
+    "end": 4450940,
+    "speaker": "A",
+    "confidence": 0.64591473
+  },
+  {
+    "sid": "s000759",
+    "text": "You can't hold five bits, you're not going to keep the four and it should be the correct result unless you got an overflow condition.",
+    "start": 4450940,
+    "end": 4457260,
+    "speaker": "A",
+    "confidence": 0.9379883
+  },
+  {
+    "sid": "s000760",
+    "text": "So.",
+    "start": 4457890,
+    "end": 4458090,
+    "speaker": "A",
+    "confidence": 0.77685547
+  },
+  {
+    "sid": "s000761",
+    "text": "But nonetheless the hardware puts it out.",
+    "start": 4458090,
+    "end": 4460370,
+    "speaker": "A",
+    "confidence": 0.8852539
+  },
+  {
+    "sid": "s000762",
+    "text": "So what this question is asking is not really what the correct arithmetic answer is.",
+    "start": 4460610,
+    "end": 4464890,
+    "speaker": "A",
+    "confidence": 0.9042969
+  },
+  {
+    "sid": "s000763",
+    "text": "It's what's the hard way over here on the right, S equals one.",
+    "start": 4464890,
+    "end": 4472530,
+    "speaker": "A",
+    "confidence": 0.8540039
+  },
+  {
+    "sid": "s000764",
+    "text": "Well, that means we're doing subtraction.",
+    "start": 4472610,
+    "end": 4474530,
+    "speaker": "A",
+    "confidence": 0.86376953
+  },
+  {
+    "sid": "s000765",
+    "text": "So we're going to start with B.",
+    "start": 4477250,
+    "end": 4478610,
+    "speaker": "A",
+    "confidence": 0.98876953
+  },
+  {
+    "sid": "s000766",
+    "text": "Put that more to the left.",
+    "start": 4485340,
+    "end": 4486460,
+    "speaker": "A",
+    "confidence": 0.54589844
+  },
+  {
+    "sid": "s000767",
+    "text": "We start with b which is 0100.",
+    "start": 4490220,
+    "end": 4497020,
+    "speaker": "A",
+    "confidence": 0.6386719
+  },
+  {
+    "sid": "s000768",
+    "text": "And then we need to figure out the ones complement, not complement, every bit 1, 0, 1 1.",
+    "start": 4497260,
+    "end": 4505260,
+    "speaker": "A",
+    "confidence": 0.9946289
+  },
+  {
+    "sid": "s000769",
+    "text": "We'll add 1 to get the 2's complement.",
+    "start": 4505580,
+    "end": 4507900,
+    "speaker": "A",
+    "confidence": 0.991862
+  },
+  {
+    "sid": "s000770",
+    "text": "So 1 plus 1 is 2, 0 carry 1.",
+    "start": 4512070,
+    "end": 4514822,
+    "speaker": "A",
+    "confidence": 0.9609375
+  },
+  {
+    "sid": "s000771",
+    "text": "1 plus 1 is 2.",
+    "start": 4514918,
+    "end": 4516070,
+    "speaker": "A",
+    "confidence": 0.88696
+  },
+  {
+    "sid": "s000772",
+    "text": "This is 0, carry 1.",
+    "start": 4516070,
+    "end": 4517482,
+    "speaker": "A",
+    "confidence": 0.9868164
+  },
+  {
+    "sid": "s000773",
+    "text": "1 plus 0 is 1.",
+    "start": 4517538,
+    "end": 4518790,
+    "speaker": "A",
+    "confidence": 0.99902
+  },
+  {
+    "sid": "s000774",
+    "text": "Bring down 1.",
+    "start": 4518790,
+    "end": 4519750,
+    "speaker": "A",
+    "confidence": 0.8964844
+  },
+  {
+    "sid": "s000775",
+    "text": "So there's a negative B.",
+    "start": 4519990,
+    "end": 4521990,
+    "speaker": "A",
+    "confidence": 0.9946289
+  },
+  {
+    "sid": "s000776",
+    "text": "B is clearly 4.",
+    "start": 4523990,
+    "end": 4525350,
+    "speaker": "A",
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000777",
+    "text": "Right.",
+    "start": 4525510,
+    "end": 4525910,
+    "speaker": "A",
+    "confidence": 0.96533203
+  },
+  {
+    "sid": "s000778",
+    "text": "I think if you went and you looked up, if you looked up at that table, you'd find 1100 as a negative 1 plus 1, that's a 0, 1 is 0, 1 plus 1 is 00.",
+    "start": 4526470,
+    "end": 4549250,
+    "speaker": "A",
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000779",
+    "text": "Oh yeah, that's okay.",
+    "start": 4549810,
+    "end": 4553810,
+    "speaker": "A",
+    "confidence": 0.99243164
+  },
+  {
+    "sid": "s000780",
+    "text": "Okay.",
+    "start": 4553810,
+    "end": 4554370,
+    "speaker": "A",
+    "confidence": 0.97347003
+  },
+  {
+    "sid": "s000781",
+    "text": "And then we add A, that's a negative B and we're going to add a which is 0011.",
+    "start": 4554850,
+    "end": 4563640,
+    "speaker": "A",
+    "confidence": 0.9975586
+  },
+  {
+    "sid": "s000782",
+    "text": "And let's see, we need to borrow.",
+    "start": 4565240,
+    "end": 4566680,
+    "speaker": "A",
+    "confidence": 0.9941406
+  },
+  {
+    "sid": "s000783",
+    "text": "That's a 0 goes to 2 goes to 1, 2, 2 minus 1 is 1, 1 minus 1 is 0, 0 minus 01 minus 0 and what?",
+    "start": 4566680,
+    "end": 4581880,
+    "speaker": "A",
+    "confidence": 0.89957684
+  },
+  {
+    "sid": "s000784",
+    "text": "Yeah, yeah I did, I subtracted, didn't I?",
+    "start": 4584200,
+    "end": 4587080,
+    "speaker": "A",
+    "confidence": 0.90722656
+  },
+  {
+    "sid": "s000785",
+    "text": "Thank you.",
+    "start": 4587410,
+    "end": 4587890,
+    "speaker": "A",
+    "confidence": 0.7495117
+  },
+  {
+    "sid": "s000786",
+    "text": "I was thinking ahead.",
+    "start": 4590850,
+    "end": 4591810,
+    "speaker": "A",
+    "confidence": 1.0
+  },
+  {
+    "sid": "s000787",
+    "text": "Okay.",
+    "start": 4609250,
+    "end": 4609730,
+    "speaker": "A",
+    "confidence": 0.875
+  },
+  {
+    "sid": "s000788",
+    "text": "Then we add any which is 0011.",
+    "start": 4609730,
+    "end": 4613410,
+    "speaker": "A",
+    "confidence": 0.6767578
+  },
+  {
+    "sid": "s000789",
+    "text": "So the answer is this.",
+    "start": 4614320,
+    "end": 4615680,
+    "speaker": "A",
+    "confidence": 0.8261719
+  },
+  {
+    "sid": "s000790",
+    "text": "Right?",
+    "start": 4615920,
+    "end": 4616320,
+    "speaker": "A",
+    "confidence": 0.7680664
+  },
+  {
+    "sid": "s000791",
+    "text": "And that makes sense.",
+    "start": 4616640,
+    "end": 4617680,
+    "speaker": "A",
+    "confidence": 0.7285156
+  },
+  {
+    "sid": "s000792",
+    "text": "If you look at this A minus B, it's 3 minus 4.",
+    "start": 4617920,
+    "end": 4622000,
+    "speaker": "A",
+    "confidence": 0.859375
+  },
+  {
+    "sid": "s000793",
+    "text": "We expect a negative one.",
+    "start": 4622560,
+    "end": 4624080,
+    "speaker": "A",
+    "confidence": 0.8515625
+  },
+  {
+    "sid": "s000794",
+    "text": "And it turns out in two's complement all ones is the way we represent a negative one.",
+    "start": 4624160,
+    "end": 4630160,
+    "speaker": "A",
+    "confidence": 0.9736328
+  },
+  {
+    "sid": "s000795",
+    "text": "So there's our solution there.",
+    "start": 4631840,
+    "end": 4633520,
+    "speaker": "A",
+    "confidence": 0.75634766
+  },
+  {
+    "sid": "s000796",
+    "text": "And over here you know, we did a plus B3 plus four, we'd expect seven.",
+    "start": 4633840,
+    "end": 4638440,
+    "speaker": "A",
+    "confidence": 0.9379883
+  },
+  {
+    "sid": "s000797",
+    "text": "And that's what we've down the lower left S equals a one.",
+    "start": 4638440,
+    "end": 4644370,
+    "speaker": "A",
+    "confidence": 0.72998047
+  },
+  {
+    "sid": "s000798",
+    "text": "We're doing subtraction.",
+    "start": 4644370,
+    "end": 4645530,
+    "speaker": "A",
+    "confidence": 0.99527997
+  },
+  {
+    "sid": "s000799",
+    "text": "So we need a negative b.",
+    "start": 4646250,
+    "end": 4650810,
+    "speaker": "A",
+    "confidence": 0.9941406
+  },
+  {
+    "sid": "s000800",
+    "text": "B is 0011.",
+    "start": 4651450,
+    "end": 4654890,
+    "speaker": "A",
+    "confidence": 1.0
+  },
+  {
+    "sid": "s000801",
+    "text": "We take the ones complement which is 1100 and we'll add 1 1.",
+    "start": 4655129,
+    "end": 4664590,
+    "speaker": "A",
+    "confidence": 0.9111328
+  },
+  {
+    "sid": "s000802",
+    "text": "That should be a negative 3 and we're going to add 4 to that.",
+    "start": 4665220,
+    "end": 4668900,
+    "speaker": "A",
+    "confidence": 0.8125
+  },
+  {
+    "sid": "s000803",
+    "text": "A 0100101 plus 1 is 2 and 1 plus 1 is 2 0.",
+    "start": 4672500,
+    "end": 4687940,
+    "speaker": "A",
+    "confidence": 0.9067383
+  },
+  {
+    "sid": "s000804",
+    "text": "Carry the 110001 and that's if you throw out the out to carry out you got a binary one which is the result of 1 minus 3.",
+    "start": 4687940,
+    "end": 4699930,
+    "speaker": "A",
+    "confidence": 0.96191406
+  },
+  {
+    "sid": "s000805",
+    "text": "Finally the last one S is a zero.",
+    "start": 4701610,
+    "end": 4703930,
+    "speaker": "A",
+    "confidence": 0.6965332
+  },
+  {
+    "sid": "s000806",
+    "text": "So we're just adding need plus 3.",
+    "start": 4704010,
+    "end": 4706330,
+    "speaker": "A",
+    "confidence": 0.99560547
+  },
+  {
+    "sid": "s000807",
+    "text": "A is 1101 and B is 110 0.",
+    "start": 4708410,
+    "end": 4714650,
+    "speaker": "A",
+    "confidence": 0.99609375
+  },
+  {
+    "sid": "s000808",
+    "text": "That's actually two negative numbers.",
+    "start": 4716390,
+    "end": 4717990,
+    "speaker": "A",
+    "confidence": 0.9013672
+  },
+  {
+    "sid": "s000809",
+    "text": "Oh, it's minus 3 and minus 4.",
+    "start": 4720630,
+    "end": 4722150,
+    "speaker": "A",
+    "confidence": 0.8757324
+  },
+  {
+    "sid": "s000810",
+    "text": "So we should get a minus 7.",
+    "start": 4722150,
+    "end": 4723670,
+    "speaker": "A",
+    "confidence": 0.99609375
+  },
+  {
+    "sid": "s000811",
+    "text": "We just add those 101 plus 1 is 2, 11 plus 1 plus 1 is 3 and we'll carry the one if we don't actually use 1100 1.",
+    "start": 4724550,
+    "end": 4737910,
+    "speaker": "A",
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000812",
+    "text": "So 1001 should be negative 7.",
+    "start": 4737990,
+    "end": 4741110,
+    "speaker": "A",
+    "confidence": 0.98535156
+  },
+  {
+    "sid": "s000813",
+    "text": "That's how we use this.",
+    "start": 4750000,
+    "end": 4750960,
+    "speaker": "A",
+    "confidence": 0.9967448
+  },
+  {
+    "sid": "s000814",
+    "text": "We've got subtraction.",
+    "start": 4751760,
+    "end": 4753040,
+    "speaker": "A",
+    "confidence": 0.6878255
+  },
+  {
+    "sid": "s000815",
+    "text": "Take the two's complement of the bottom number and add it to the top.",
+    "start": 4753280,
+    "end": 4756880,
+    "speaker": "A",
+    "confidence": 0.99658203
+  },
+  {
+    "sid": "s000816",
+    "text": "How do you take the two's complement, we complement every bit.",
+    "start": 4757440,
+    "end": 4761680,
+    "speaker": "A",
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000817",
+    "text": "And one, if it's addition S equals zero, just add.",
+    "start": 4761680,
+    "end": 4769690,
+    "speaker": "A",
+    "confidence": 0.63134766
+  },
+  {
+    "sid": "s000818",
+    "text": "And this works in every case, unless we have an overflow.",
+    "start": 4771210,
+    "end": 4776890,
+    "speaker": "A",
+    "confidence": 0.98095703
+  },
+  {
+    "sid": "s000819",
+    "text": "What's overflow?",
+    "start": 4778490,
+    "end": 4779450,
+    "speaker": "A",
+    "confidence": 0.9930013
+  },
+  {
+    "sid": "s000820",
+    "text": "If you've done.",
+    "start": 4780250,
+    "end": 4780970,
+    "speaker": "A",
+    "confidence": 0.5800781
+  },
+  {
+    "sid": "s000821",
+    "text": "I'm sure anybody who's done much software development at all has experienced overflow.",
+    "start": 4781770,
+    "end": 4787050,
+    "speaker": "A",
+    "confidence": 0.95996094
+  },
+  {
+    "sid": "s000822",
+    "text": "I'm sure, yes.",
+    "start": 4787050,
+    "end": 4789050,
+    "speaker": "A",
+    "confidence": 0.91031903
+  },
+  {
+    "sid": "s000823",
+    "text": "Wait, just to confirm, are A and B signed in this?",
+    "start": 4789050,
+    "end": 4791930,
+    "speaker": "A",
+    "confidence": 0.86206055
+  },
+  {
+    "sid": "s000824",
+    "text": "Now we're assuming A2's complement representation for negative numbers.",
+    "start": 4792900,
+    "end": 4796100,
+    "speaker": "A",
+    "confidence": 0.75878906
+  },
+  {
+    "sid": "s000825",
+    "text": "Okay, that's.",
+    "start": 4796180,
+    "end": 4799780,
+    "speaker": "A",
+    "confidence": 0.8727214
+  },
+  {
+    "sid": "s000826",
+    "text": "For this to work, you have to assume overflow condition means the result of your arithmetic operation has more bits, has too many bits, your registers.",
+    "start": 4800420,
+    "end": 4816540,
+    "speaker": "A",
+    "confidence": 0.9091797
+  },
+  {
+    "sid": "s000827",
+    "text": "You know, if it's A, in this case a 4 bit computer, it needs 5 bits, or if it's an 8 bit computer, it needs 9 bits, that's overflow and the result's inbound.",
+    "start": 4816540,
+    "end": 4826520,
+    "speaker": "A",
+    "confidence": 0.83447266
+  },
+  {
+    "sid": "s000828",
+    "text": "You don't necessarily know.",
+    "start": 4827000,
+    "end": 4828360,
+    "speaker": "A",
+    "confidence": 0.98095703
+  },
+  {
+    "sid": "s000829",
+    "text": "Well, there have been a lot of schemes developed to handle that, both detection and correction.",
+    "start": 4829400,
+    "end": 4836840,
+    "speaker": "A",
+    "confidence": 0.9658203
+  },
+  {
+    "sid": "s000830",
+    "text": "It turns out what works best is just the detect owner.",
+    "start": 4837400,
+    "end": 4844120,
+    "speaker": "A",
+    "confidence": 0.99560547
+  },
+  {
+    "sid": "s000831",
+    "text": "We don't necessarily need to know where the problem is, we just need to know it's an invalid answer.",
+    "start": 4845890,
+    "end": 4850450,
+    "speaker": "A",
+    "confidence": 0.96728516
+  },
+  {
+    "sid": "s000832",
+    "text": "And that's what you get.",
+    "start": 4850530,
+    "end": 4852130,
+    "speaker": "A",
+    "confidence": 0.9140625
+  },
+  {
+    "sid": "s000833",
+    "text": "You know, when you're programming, you get an exceptional condition overflow flag gets sent and in your software you handle it, or if you don't, typically the program will just stop running.",
+    "start": 4852370,
+    "end": 4864610,
+    "speaker": "A",
+    "confidence": 0.53027344
+  },
+  {
+    "sid": "s000834",
+    "text": "They take care of it for you.",
+    "start": 4865250,
+    "end": 4866610,
+    "speaker": "A",
+    "confidence": 0.3449707
+  },
+  {
+    "sid": "s000835",
+    "text": "Right?",
+    "start": 4866610,
+    "end": 4866930,
+    "speaker": "A",
+    "confidence": 0.92041016
+  },
+  {
+    "sid": "s000836",
+    "text": "But we need to know.",
+    "start": 4867010,
+    "end": 4867970,
+    "speaker": "A",
+    "confidence": 0.85839844
+  },
+  {
+    "sid": "s000837",
+    "text": "We need to know if we got an overflow which would tell us we have an invalid result.",
+    "start": 4868130,
+    "end": 4872150,
+    "speaker": "A",
+    "confidence": 0.8901367
+  },
+  {
+    "sid": "s000838",
+    "text": "If we're working with unsigned numbers, just plain old unsigned integers.",
+    "start": 4881430,
+    "end": 4885750,
+    "speaker": "A",
+    "confidence": 0.8852539
+  },
+  {
+    "sid": "s000839",
+    "text": "Pretty straightforward.",
+    "start": 4886710,
+    "end": 4887710,
+    "speaker": "A",
+    "confidence": 0.9983724
+  },
+  {
+    "sid": "s000840",
+    "text": "If there's a carry out, we've got an overflow.",
+    "start": 4887710,
+    "end": 4890430,
+    "speaker": "A",
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000841",
+    "text": "And if we don't, there's not.",
+    "start": 4890430,
+    "end": 4891830,
+    "speaker": "A",
+    "confidence": 0.9741211
+  },
+  {
+    "sid": "s000842",
+    "text": "But for signed numbers, like 2's complementary, it's a bit more complicated.",
+    "start": 4891830,
+    "end": 4896850,
+    "speaker": "A",
+    "confidence": 0.9848633
+  },
+  {
+    "sid": "s000843",
+    "text": "So for example, let's say we're adding two 8 bit numbers.",
+    "start": 4898690,
+    "end": 4908610,
+    "speaker": "A",
+    "confidence": 0.8354492
+  },
+  {
+    "sid": "s000844",
+    "text": "So we know, let's see an 8 bit register, 8 bits.",
+    "start": 4917010,
+    "end": 4921900,
+    "speaker": "A",
+    "confidence": 0.9868164
+  },
+  {
+    "sid": "s000845",
+    "text": "We can store numbers between 0 and 255 if we're dealing with unsigned numbers.",
+    "start": 4922460,
+    "end": 4935740,
+    "speaker": "A",
+    "confidence": 0.9975586
+  },
+  {
+    "sid": "s000846",
+    "text": "But if we're dealing with signed numbers, which would include two's complement representation, then an 8bit register can store the range minus 128 to 127.",
+    "start": 4939500,
+    "end": 4955910,
+    "speaker": "A",
+    "confidence": 0.9868164
+  },
+  {
+    "sid": "s000847",
+    "text": "So if we got a number, a result that was a positive 128 or a minus 129, we'd have an overflow.",
+    "start": 4962150,
+    "end": 4969990,
+    "speaker": "A",
+    "confidence": 0.98876953
+  },
+  {
+    "sid": "s000848",
+    "text": "It takes too many bits.",
+    "start": 4970870,
+    "end": 4972090,
+    "speaker": "A",
+    "confidence": 0.4970703
+  },
+  {
+    "sid": "s000849",
+    "text": "So let's try adding, for example, let's add the numbers that will give us an overflow.",
+    "start": 4975840,
+    "end": 4983120,
+    "speaker": "A",
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000850",
+    "text": "By the way, if you're adding a positive and a negative number, you'll Never get an overflow right because the result will be the magnitude will be less than the biggest number, which presumably could already is already stored in processors in the registers.",
+    "start": 4983440,
+    "end": 4999830,
+    "speaker": "A",
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000851",
+    "text": "You'll only get overflow if you're adding two negative numbers or adding two positive, in which case you might get overflow.",
+    "start": 5000150,
+    "end": 5008550,
+    "speaker": "A",
+    "confidence": 0.9042969
+  },
+  {
+    "sid": "s000852",
+    "text": "You won't necessarily.",
+    "start": 5008630,
+    "end": 5009670,
+    "speaker": "A",
+    "confidence": 0.98291016
+  },
+  {
+    "sid": "s000853",
+    "text": "So let's add O plus 95 and I'm working in base 10 here.",
+    "start": 5010230,
+    "end": 5018150,
+    "speaker": "A",
+    "confidence": 0.9970703
+  },
+  {
+    "sid": "s000854",
+    "text": "Base 10 plus positive 40, which gives us what?",
+    "start": 5018630,
+    "end": 5028800,
+    "speaker": "A",
+    "confidence": 0.8635254
+  },
+  {
+    "sid": "s000855",
+    "text": "135.",
+    "start": 5028800,
+    "end": 5029680,
+    "speaker": "A",
+    "confidence": 0.99453
+  },
+  {
+    "sid": "s000856",
+    "text": "Right.",
+    "start": 5029680,
+    "end": 5030080,
+    "speaker": "A",
+    "confidence": 0.8984375
+  },
+  {
+    "sid": "s000857",
+    "text": "And if this is an eight bit register, that'll be an over four.",
+    "start": 5033440,
+    "end": 5037600,
+    "speaker": "A",
+    "confidence": 0.9785156
+  },
+  {
+    "sid": "s000858",
+    "text": "It's too big a number.",
+    "start": 5037760,
+    "end": 5038800,
+    "speaker": "A",
+    "confidence": 0.96744794
+  },
+  {
+    "sid": "s000859",
+    "text": "And then we'll also add a negative number, base 10 to a negative 40 in base 10.",
+    "start": 5039040,
+    "end": 5052220,
+    "speaker": "A",
+    "confidence": 0.9824219
+  },
+  {
+    "sid": "s000860",
+    "text": "And that result of course with the a negative 135 also an overflow.",
+    "start": 5052460,
+    "end": 5057340,
+    "speaker": "A",
+    "confidence": 0.9941406
+  },
+  {
+    "sid": "s000861",
+    "text": "So let's see.",
+    "start": 5062300,
+    "end": 5063420,
+    "speaker": "A",
+    "confidence": 0.9970703
+  },
+  {
+    "sid": "s000862",
+    "text": "But a positive 95 in binary is 0101 followed by four ones and a negative 95 is a 10100001.",
+    "start": 5068780,
+    "end": 5092790,
+    "speaker": "A",
+    "confidence": 0.7109375
+  },
+  {
+    "sid": "s000863",
+    "text": "Positive 45 is 00101000 and a negative 45 is 11011.",
+    "start": 5094390,
+    "end": 5117840,
+    "speaker": "A",
+    "confidence": 0.9165039
+  },
+  {
+    "sid": "s000864",
+    "text": "Okay, so plus 95 plus 4 plus a 40.",
+    "start": 5120720,
+    "end": 5129990,
+    "speaker": "A",
+    "confidence": 0.7861328
+  },
+  {
+    "sid": "s000865",
+    "text": "We're going to add these two numbers.",
+    "start": 5130630,
+    "end": 5132070,
+    "speaker": "A",
+    "confidence": 0.9973958
+  },
+  {
+    "sid": "s000866",
+    "text": "No, I don't want that.",
+    "start": 5132070,
+    "end": 5133030,
+    "speaker": "A",
+    "confidence": 0.6699219
+  },
+  {
+    "sid": "s000867",
+    "text": "And you know, I probably haven't launched Visual Studio on this computer for months.",
+    "start": 5135270,
+    "end": 5140670,
+    "speaker": "A",
+    "confidence": 0.4650879
+  },
+  {
+    "sid": "s000868",
+    "text": "So it's got to load everything.",
+    "start": 5140670,
+    "end": 5142230,
+    "speaker": "A",
+    "confidence": 0.98339844
+  },
+  {
+    "sid": "s000869",
+    "text": "The positive 95 is 0101 and positive 45.",
+    "start": 5150070,
+    "end": 5160900,
+    "speaker": "A",
+    "confidence": 0.6176758
+  },
+  {
+    "sid": "s000870",
+    "text": "Well, these are not 45s.",
+    "start": 5164820,
+    "end": 5166260,
+    "speaker": "A",
+    "confidence": 0.73876953
+  },
+  {
+    "sid": "s000871",
+    "text": "They're at a 001 0100.",
+    "start": 5172100,
+    "end": 5178820,
+    "speaker": "A",
+    "confidence": 0.7363281
+  },
+  {
+    "sid": "s000872",
+    "text": "That should give us a positive 130.",
+    "start": 5181980,
+    "end": 5183980,
+    "speaker": "A",
+    "confidence": 0.98828125
+  },
+  {
+    "sid": "s000873",
+    "text": "We're going to get one one, one.",
+    "start": 5187660,
+    "end": 5191260,
+    "speaker": "A",
+    "confidence": 0.9012044
+  },
+  {
+    "sid": "s000874",
+    "text": "Notice on these all the carries are zero, right?",
+    "start": 5192060,
+    "end": 5194860,
+    "speaker": "A",
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000875",
+    "text": "And then one plus one is a zero carry the one.",
+    "start": 5195099,
+    "end": 5198540,
+    "speaker": "A",
+    "confidence": 0.99121094
+  },
+  {
+    "sid": "s000876",
+    "text": "One plus one plus zero is a zero carry the one.",
+    "start": 5199260,
+    "end": 5202620,
+    "speaker": "A",
+    "confidence": 1.0
+  },
+  {
+    "sid": "s000877",
+    "text": "1 plus zero plus one is a zero zero carry the one that's a zero carry the one.",
+    "start": 5203180,
+    "end": 5207700,
+    "speaker": "A",
+    "confidence": 1.0
+  },
+  {
+    "sid": "s000878",
+    "text": "1plus zero plus zero is a one will carry zero.",
+    "start": 5207940,
+    "end": 5212100,
+    "speaker": "A",
+    "confidence": 0.99341
+  },
+  {
+    "sid": "s000879",
+    "text": "The last two carries there were different significant.",
+    "start": 5213700,
+    "end": 5217300,
+    "speaker": "A",
+    "confidence": 0.98339844
+  },
+  {
+    "sid": "s000880",
+    "text": "And then we'll do a negative 95 plus a negative 40.",
+    "start": 5218580,
+    "end": 5221700,
+    "speaker": "A",
+    "confidence": 0.84277344
+  },
+  {
+    "sid": "s000881",
+    "text": "Negative 95 is 101000 four zeros and one right.",
+    "start": 5225060,
+    "end": 5232440,
+    "speaker": "A",
+    "confidence": 0.9797363
+  },
+  {
+    "sid": "s000882",
+    "text": "And negative 40 is 110110001 plus 0 is 000 plus 10 plus 11 plus 00 plus 1 then 1.",
+    "start": 5232680,
+    "end": 5251720,
+    "speaker": "A",
+    "confidence": 0.96191406
+  },
+  {
+    "sid": "s000883",
+    "text": "So that that's a carry.",
+    "start": 5252120,
+    "end": 5253920,
+    "speaker": "A",
+    "confidence": 0.94433594
+  },
+  {
+    "sid": "s000884",
+    "text": "That carry is a 00 plus 1 plus 1 is 20 carry the 1.",
+    "start": 5253920,
+    "end": 5260760,
+    "speaker": "A",
+    "confidence": 0.99560547
+  },
+  {
+    "sid": "s000885",
+    "text": "Again, the two carries are.",
+    "start": 5260840,
+    "end": 5263080,
+    "speaker": "A",
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000886",
+    "text": "If we didn't have an overflow, the last two carries would be the same because you can drop that high order bit.",
+    "start": 5266040,
+    "end": 5273720,
+    "speaker": "A",
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000887",
+    "text": "Look, this is going to give us a positive Number, Right?",
+    "start": 5274200,
+    "end": 5279200,
+    "speaker": "A",
+    "confidence": 0.86865234
+  },
+  {
+    "sid": "s000888",
+    "text": "And yet the carry out here is a zero.",
+    "start": 5279200,
+    "end": 5284130,
+    "speaker": "A",
+    "confidence": 0.94873047
+  },
+  {
+    "sid": "s000889",
+    "text": "And if we drop that high order bit, if we drop the carry out, our higher order bits, A1, which is clearly wrong, it indicates a negative number.",
+    "start": 5284690,
+    "end": 5297410,
+    "speaker": "A",
+    "confidence": 0.95214844
+  },
+  {
+    "sid": "s000890",
+    "text": "The same thing here.",
+    "start": 5297410,
+    "end": 5298210,
+    "speaker": "A",
+    "confidence": 0.6855469
+  },
+  {
+    "sid": "s000891",
+    "text": "If we drop this carry out, we got a zero, but this has to be a negative, we know it's wrong.",
+    "start": 5298290,
+    "end": 5303570,
+    "speaker": "A",
+    "confidence": 0.9946289
+  },
+  {
+    "sid": "s000892",
+    "text": "Turns out if the carries are the same, you're good.",
+    "start": 5304930,
+    "end": 5307810,
+    "speaker": "A",
+    "confidence": 0.99780273
+  },
+  {
+    "sid": "s000893",
+    "text": "If the last two carries are different, we've got a problem.",
+    "start": 5308120,
+    "end": 5313640,
+    "speaker": "A",
+    "confidence": 0.97753906
+  },
+  {
+    "sid": "s000894",
+    "text": "It's an overflow.",
+    "start": 5313800,
+    "end": 5314920,
+    "speaker": "A",
+    "confidence": 0.99869794
+  },
+  {
+    "sid": "s000895",
+    "text": "So what we do first, for an unsigned integer, we just need the last carrying.",
+    "start": 5316600,
+    "end": 5329160,
+    "speaker": "A",
+    "confidence": 0.99316406
+  },
+  {
+    "sid": "s000896",
+    "text": "Okay, we'll call that C. That's an overflow indicator for an unsigned integer.",
+    "start": 5329560,
+    "end": 5338340,
+    "speaker": "A",
+    "confidence": 0.74560547
+  },
+  {
+    "sid": "s000897",
+    "text": "But for a signed integer like 2's complement, we need to know if the last two carries are different or the same.",
+    "start": 5339300,
+    "end": 5345780,
+    "speaker": "A",
+    "confidence": 0.9770508
+  },
+  {
+    "sid": "s000898",
+    "text": "And an exclusive or is just about ideal for detecting.",
+    "start": 5346900,
+    "end": 5350580,
+    "speaker": "A",
+    "confidence": 0.7841797
+  },
+  {
+    "sid": "s000899",
+    "text": "Right?",
+    "start": 5351300,
+    "end": 5351620,
+    "speaker": "A",
+    "confidence": 0.5839844
+  },
+  {
+    "sid": "s000900",
+    "text": "Because if the inputs are different, you get a one.",
+    "start": 5351620,
+    "end": 5353780,
+    "speaker": "A",
+    "confidence": 0.9003906
+  },
+  {
+    "sid": "s000901",
+    "text": "If they're the same, it's a zero.",
+    "start": 5353940,
+    "end": 5358500,
+    "speaker": "A",
+    "confidence": 0.99560547
+  },
+  {
+    "sid": "s000902",
+    "text": "When we do, that'll give us the last two carriers.",
+    "start": 5359630,
+    "end": 5365870,
+    "speaker": "A",
+    "confidence": 0.80810547
+  },
+  {
+    "sid": "s000903",
+    "text": "That's C3, C4, and this is an overflow detector.",
+    "start": 5366190,
+    "end": 5372590,
+    "speaker": "A",
+    "confidence": 0.99690753
+  },
+  {
+    "sid": "s000904",
+    "text": "We'll call it V. If that's a one, we've got an overflow.",
+    "start": 5372590,
+    "end": 5375270,
+    "speaker": "A",
+    "confidence": 0.7447917
+  },
+  {
+    "sid": "s000905",
+    "text": "If it's a zero, we don't.",
+    "start": 5375270,
+    "end": 5376430,
+    "speaker": "A",
+    "confidence": 0.8330078
+  },
+  {
+    "sid": "s000906",
+    "text": "And those would be status.",
+    "start": 5378110,
+    "end": 5379470,
+    "speaker": "A",
+    "confidence": 0.98779297
+  },
+  {
+    "sid": "s000907",
+    "text": "Those would be status bits coming out of our arithmetic logic before we use an add or subtractor like.",
+    "start": 5379630,
+    "end": 5385070,
+    "speaker": "A",
+    "confidence": 0.9941406
+  },
+  {
+    "sid": "s000908",
+    "text": "Like this.",
+    "start": 5385220,
+    "end": 5385620,
+    "speaker": "A",
+    "confidence": 0.67871094
+  },
+  {
+    "sid": "s000909",
+    "text": "And all we need are those status bits, which we call them flags.",
+    "start": 5385940,
+    "end": 5391700,
+    "speaker": "A",
+    "confidence": 0.9790039
+  },
+  {
+    "sid": "s000910",
+    "text": "Okay.",
+    "start": 5391780,
+    "end": 5392340,
+    "speaker": "A",
+    "confidence": 0.9029948
+  },
+  {
+    "sid": "s000911",
+    "text": "We set a flag and it'd be up to the compiler.",
+    "start": 5392580,
+    "end": 5399540,
+    "speaker": "A",
+    "confidence": 0.8330078
+  },
+  {
+    "sid": "s000912",
+    "text": "Interpreter needs to accommodate this and fires an interpreter.",
+    "start": 5399540,
+    "end": 5405620,
+    "speaker": "A",
+    "confidence": 0.9968262
+  },
+  {
+    "sid": "s000913",
+    "text": "Stop your.",
+    "start": 5406100,
+    "end": 5406820,
+    "speaker": "A",
+    "confidence": 0.7290039
+  },
+  {
+    "sid": "s000914",
+    "text": "Presumably stop your program from running and check and see if you've got something to handle.",
+    "start": 5407460,
+    "end": 5411410,
+    "speaker": "A",
+    "confidence": 0.8382161
+  },
+  {
+    "sid": "s000915",
+    "text": "Okay?",
+    "start": 5417480,
+    "end": 5417960,
+    "speaker": "A",
+    "confidence": 0.9536133
+  },
+  {
+    "sid": "s000916",
+    "text": "Okay, good.",
+    "start": 5421080,
+    "end": 5421800,
+    "speaker": "A",
+    "confidence": 0.9436849
+  },
+  {
+    "sid": "s000917",
+    "text": "Let's.",
+    "start": 5421880,
+    "end": 5422360,
+    "speaker": "A",
+    "confidence": 0.9975586
+  },
+  {
+    "sid": "s000918",
+    "text": "Last thing I want to talk about is multiplication.",
+    "start": 5423800,
+    "end": 5425880,
+    "speaker": "A",
+    "confidence": 0.50097656
+  },
+  {
+    "sid": "s000919",
+    "text": "Not at all complicated.",
+    "start": 5428920,
+    "end": 5430120,
+    "speaker": "A",
+    "confidence": 1.0
+  },
+  {
+    "sid": "s000920",
+    "text": "I can't count the number of times I've deleted that little block.",
+    "start": 5441250,
+    "end": 5443970,
+    "speaker": "A",
+    "confidence": 0.9819336
+  },
+  {
+    "sid": "s000921",
+    "text": "Must be doing it on a different version.",
+    "start": 5446290,
+    "end": 5448050,
+    "speaker": "A",
+    "confidence": 0.9970703
+  },
+  {
+    "sid": "s000922",
+    "text": "I don't know.",
+    "start": 5448050,
+    "end": 5448770,
+    "speaker": "A",
+    "confidence": 0.9951172
+  },
+  {
+    "sid": "s000923",
+    "text": "Okay, turns out if and is like the ideal one bit multiple.",
+    "start": 5449010,
+    "end": 5455490,
+    "speaker": "A",
+    "confidence": 0.80777997
+  },
+  {
+    "sid": "s000924",
+    "text": "If you look at what an AND does just this, X and Y and then the output is xy.",
+    "start": 5456530,
+    "end": 5466060,
+    "speaker": "A",
+    "confidence": 0.9511719
+  },
+  {
+    "sid": "s000925",
+    "text": "Think about that.",
+    "start": 5466140,
+    "end": 5466860,
+    "speaker": "A",
+    "confidence": 0.99609375
+  },
+  {
+    "sid": "s000926",
+    "text": "I'll do a quick truth table.",
+    "start": 5466860,
+    "end": 5468460,
+    "speaker": "A",
+    "confidence": 0.9967448
+  },
+  {
+    "sid": "s000927",
+    "text": "There's your and function.",
+    "start": 5475260,
+    "end": 5476700,
+    "speaker": "A",
+    "confidence": 0.93929034
+  },
+  {
+    "sid": "s000928",
+    "text": "0 times 0 is 0.",
+    "start": 5479020,
+    "end": 5480914,
+    "speaker": "A",
+    "confidence": 1.0
+  },
+  {
+    "sid": "s000929",
+    "text": "0 times 1 is 0.",
+    "start": 5481086,
+    "end": 5482908,
+    "speaker": "A",
+    "confidence": 0.99585
+  },
+  {
+    "sid": "s000930",
+    "text": "1 times 0 is 0.",
+    "start": 5482972,
+    "end": 5484156,
+    "speaker": "A",
+    "confidence": 1.0
+  },
+  {
+    "sid": "s000931",
+    "text": "1 times 1 is 1.",
+    "start": 5484204,
+    "end": 5485260,
+    "speaker": "A",
+    "confidence": 0.99902
+  },
+  {
+    "sid": "s000932",
+    "text": "It multiplies two bits.",
+    "start": 5485980,
+    "end": 5487420,
+    "speaker": "A",
+    "confidence": 0.9975586
+  },
+  {
+    "sid": "s000933",
+    "text": "That's that beautifully.",
+    "start": 5488230,
+    "end": 5489190,
+    "speaker": "A",
+    "confidence": 0.77091473
+  },
+  {
+    "sid": "s000934",
+    "text": "So say we want to multiply these two two bit numbers, two digit numbers A and B, right here.",
+    "start": 5489510,
+    "end": 5497270,
+    "speaker": "A",
+    "confidence": 0.9941406
+  },
+  {
+    "sid": "s000935",
+    "text": "Now you do it.",
+    "start": 5498150,
+    "end": 5499030,
+    "speaker": "A",
+    "confidence": 0.703125
+  },
+  {
+    "sid": "s000936",
+    "text": "You take the rightmost bit, rightmost digit on the bottom number and multiply it through the top.",
+    "start": 5499350,
+    "end": 5504710,
+    "speaker": "A",
+    "confidence": 0.99658203
+  },
+  {
+    "sid": "s000937",
+    "text": "It's going to be a one or a zero, but Anyway, it's going to be a zero and B zero.",
+    "start": 5505270,
+    "end": 5511830,
+    "speaker": "A",
+    "confidence": 0.9977214
+  },
+  {
+    "sid": "s000938",
+    "text": "That's a zero times B zero and then a zero and B one, which is right here.",
+    "start": 5512150,
+    "end": 5517620,
+    "speaker": "A",
+    "confidence": 0.99625653
+  },
+  {
+    "sid": "s000939",
+    "text": "Then we shift to the left one bit and multiply the next bottom digit to the left to the top.",
+    "start": 5518340,
+    "end": 5526260,
+    "speaker": "A",
+    "confidence": 0.99560547
+  },
+  {
+    "sid": "s000940",
+    "text": "And you get a 1 times B0 right here and then a 1 times B1.",
+    "start": 5526340,
+    "end": 5531300,
+    "speaker": "A",
+    "confidence": 0.94384766
+  },
+  {
+    "sid": "s000941",
+    "text": "Once you've got that, then you can do the addition.",
+    "start": 5532900,
+    "end": 5534660,
+    "speaker": "A",
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000942",
+    "text": "Bring this down, you add these two carry and bring that down.",
+    "start": 5534820,
+    "end": 5539300,
+    "speaker": "A",
+    "confidence": 0.9946289
+  },
+  {
+    "sid": "s000943",
+    "text": "That's how you do it.",
+    "start": 5542430,
+    "end": 5543190,
+    "speaker": "A",
+    "confidence": 0.8902995
+  },
+  {
+    "sid": "s000944",
+    "text": "And here's the hardware to do that.",
+    "start": 5543190,
+    "end": 5544750,
+    "speaker": "A",
+    "confidence": 0.98095703
+  },
+  {
+    "sid": "s000945",
+    "text": "Right here's a zero ending with the two bits of B that A zero and B zero.",
+    "start": 5545070,
+    "end": 5551630,
+    "speaker": "A",
+    "confidence": 0.5449219
+  },
+  {
+    "sid": "s000946",
+    "text": "We just bring down this A zero and B one is what we get out of here.",
+    "start": 5551630,
+    "end": 5558510,
+    "speaker": "A",
+    "confidence": 0.9458008
+  },
+  {
+    "sid": "s000947",
+    "text": "And we're running that into one side of a half adder.",
+    "start": 5558670,
+    "end": 5561310,
+    "speaker": "A",
+    "confidence": 0.9819336
+  },
+  {
+    "sid": "s000948",
+    "text": "It adds two bits and we're adding that to a 1, B 0, which is this right here.",
+    "start": 5561310,
+    "end": 5569240,
+    "speaker": "A",
+    "confidence": 0.37597656
+  },
+  {
+    "sid": "s000949",
+    "text": "You get the carryover and carry out and that goes into A1, B1 and you get two bits.",
+    "start": 5570200,
+    "end": 5576600,
+    "speaker": "A",
+    "confidence": 0.7133789
+  },
+  {
+    "sid": "s000950",
+    "text": "That's the hardware to do that.",
+    "start": 5578040,
+    "end": 5579400,
+    "speaker": "A",
+    "confidence": 0.99593097
+  },
+  {
+    "sid": "s000951",
+    "text": "If you're getting a little more bits, you might not use half adder, you might use multi bit adders.",
+    "start": 5580040,
+    "end": 5587720,
+    "speaker": "A",
+    "confidence": 0.64746094
+  },
+  {
+    "sid": "s000952",
+    "text": "So this would be 3 bits of A over 4 bits of B.",
+    "start": 5588520,
+    "end": 5592250,
+    "speaker": "A",
+    "confidence": 0.98339844
+  },
+  {
+    "sid": "s000953",
+    "text": "A zero is coming in here and individually we.",
+    "start": 5593370,
+    "end": 5596410,
+    "speaker": "A",
+    "confidence": 0.94873047
+  },
+  {
+    "sid": "s000954",
+    "text": "And the bits with the bits of B0, the rightmost just comes straight down and then the next three bits.",
+    "start": 5596410,
+    "end": 5604490,
+    "speaker": "A",
+    "confidence": 0.85546875
+  },
+  {
+    "sid": "s000955",
+    "text": "Here's how you accomplish that.",
+    "start": 5604490,
+    "end": 5605810,
+    "speaker": "A",
+    "confidence": 0.99397784
+  },
+  {
+    "sid": "s000956",
+    "text": "Shift.",
+    "start": 5605810,
+    "end": 5606250,
+    "speaker": "A",
+    "confidence": 0.98291016
+  },
+  {
+    "sid": "s000957",
+    "text": "Here's A one times the four bits of B.",
+    "start": 5607210,
+    "end": 5609530,
+    "speaker": "A",
+    "confidence": 0.99365234
+  },
+  {
+    "sid": "s000958",
+    "text": "They're lined up there.",
+    "start": 5609690,
+    "end": 5610810,
+    "speaker": "A",
+    "confidence": 0.95963544
+  },
+  {
+    "sid": "s000959",
+    "text": "But these three bits, effectively they're a shift to the right on the.",
+    "start": 5611050,
+    "end": 5616190,
+    "speaker": "A",
+    "confidence": 0.92041016
+  },
+  {
+    "sid": "s000960",
+    "text": "We're adding in a zero.",
+    "start": 5616340,
+    "end": 5617260,
+    "speaker": "A",
+    "confidence": 0.89713544
+  },
+  {
+    "sid": "s000961",
+    "text": "So then we get the sum, bring down the least significant sum bit, and the next three bits go into the high order on this side, times the four there, and so on.",
+    "start": 5617260,
+    "end": 5629620,
+    "speaker": "A",
+    "confidence": 0.9873047
+  },
+  {
+    "sid": "s000962",
+    "text": "So the way you can do it is for every bit of.",
+    "start": 5629620,
+    "end": 5633380,
+    "speaker": "A",
+    "confidence": 0.96875
+  },
+  {
+    "sid": "s000963",
+    "text": "If you're doing it this way, for every bit of B, for every bit of A, you need a new adder.",
+    "start": 5634500,
+    "end": 5645690,
+    "speaker": "A",
+    "confidence": 0.98876953
+  },
+  {
+    "sid": "s000964",
+    "text": "That is, if you got n bits of A, you need N minus 1 atoms to do this.",
+    "start": 5645690,
+    "end": 5650850,
+    "speaker": "A",
+    "confidence": 0.99609375
+  },
+  {
+    "sid": "s000965",
+    "text": "So obviously this is not how we really do it when we're doing this kind of thing.",
+    "start": 5651010,
+    "end": 5656290,
+    "speaker": "A",
+    "confidence": 0.8144531
+  },
+  {
+    "sid": "s000966",
+    "text": "Typically, multiplication is repeated addition.",
+    "start": 5657730,
+    "end": 5665490,
+    "speaker": "A",
+    "confidence": 0.7988281
+  },
+  {
+    "sid": "s000967",
+    "text": "They might have a multiplier circuit.",
+    "start": 5665890,
+    "end": 5667430,
+    "speaker": "A",
+    "confidence": 0.9916992
+  },
+  {
+    "sid": "s000968",
+    "text": "They probably do now.",
+    "start": 5669980,
+    "end": 5671100,
+    "speaker": "A",
+    "confidence": 0.85498047
+  },
+  {
+    "sid": "s000969",
+    "text": "But then you store your results.",
+    "start": 5671740,
+    "end": 5673180,
+    "speaker": "A",
+    "confidence": 0.98339844
+  },
+  {
+    "sid": "s000970",
+    "text": "Shift, shift one of the words, add them together, multiply again, store it, shift it, store it, shift it, et cetera, et cetera.",
+    "start": 5673740,
+    "end": 5682860,
+    "speaker": "A",
+    "confidence": 0.69873047
+  },
+  {
+    "sid": "s000971",
+    "text": "So repeated addition.",
+    "start": 5682860,
+    "end": 5683980,
+    "speaker": "A",
+    "confidence": 0.81884766
+  },
+  {
+    "sid": "s000972",
+    "text": "This is why the rate at which a computer can multiply is such an important net speed metric when we're evaluating processes.",
+    "start": 5684460,
+    "end": 5694710,
+    "speaker": "A",
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000973",
+    "text": "In fact, we're not going to talk about it in this case.",
+    "start": 5694950,
+    "end": 5697510,
+    "speaker": "A",
+    "confidence": 0.98828125
+  },
+  {
+    "sid": "s000974",
+    "text": "To handle floating point numbers, they're more complicated, right?",
+    "start": 5697510,
+    "end": 5700870,
+    "speaker": "A",
+    "confidence": 0.9785156
+  },
+  {
+    "sid": "s000975",
+    "text": "They keep a mantissa and then an exponent, two separate parts, the.",
+    "start": 5700870,
+    "end": 5705590,
+    "speaker": "A",
+    "confidence": 0.9404297
+  },
+  {
+    "sid": "s000976",
+    "text": "What they call flops, floating point operations per second.",
+    "start": 5705670,
+    "end": 5709030,
+    "speaker": "A",
+    "confidence": 0.9946289
+  },
+  {
+    "sid": "s000977",
+    "text": "They're really talking about multiplications.",
+    "start": 5709110,
+    "end": 5710710,
+    "speaker": "A",
+    "confidence": 0.9458008
+  },
+  {
+    "sid": "s000978",
+    "text": "That's one of the most important speed metrics.",
+    "start": 5710950,
+    "end": 5713030,
+    "speaker": "A",
+    "confidence": 0.9498698
+  },
+  {
+    "sid": "s000979",
+    "text": "So, anyway, that's it for today.",
+    "start": 5715030,
+    "end": 5716390,
+    "speaker": "A",
+    "confidence": 0.9609375
+  },
+  {
+    "sid": "s000980",
+    "text": "Next week we're going to come back and we're going to get into.",
+    "start": 5720800,
+    "end": 5722880,
+    "speaker": "A",
+    "confidence": 0.9926758
+  },
+  {
+    "sid": "s000981",
+    "text": "I kind of have an idea about how it works.",
+    "start": 5722960,
+    "end": 5725320,
+    "speaker": "A",
+    "confidence": 0.9370117
+  },
+  {
+    "sid": "s000982",
+    "text": "Okay.",
+    "start": 5725320,
+    "end": 5725840,
+    "speaker": "A",
+    "confidence": 0.9941406
+  },
+  {
+    "sid": "s000983",
+    "text": "No, I'm saying.",
+    "start": 5726880,
+    "end": 5727660,
+    "speaker": "A",
+    "confidence": 0.7036133
+  }
+]

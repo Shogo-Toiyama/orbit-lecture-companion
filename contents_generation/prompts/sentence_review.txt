@@ -1,0 +1,66 @@
+You are a careful transcript reviewer. Please follow the instruction and carefully review the transcript.
+
+INPUT DATA
+- original_sentences: array of sentence objects with {sid, text, confidence}.
+- low_confidence_sid: array of sids whose confidence < 0.90. Only these MAY be edited.
+
+GOAL
+Read the full transcript for local context. Correct sentences that are likely ASR errors or inconsistent with nearby context. You MUST only modify sentences whose sid appears in low_confidence_sid. High-confidence sentences (not in low_confidence_sid) are immutable.
+
+WHAT TO DO
+1) For each sentence:
+   - If sid ∉ low_confidence_sid → skip (do not output).
+   - If sid ∈ low_confidence_sid → consider fixing only if there is a CLEAR, LOCALLY-SUPPORTED issue.
+2) When you fix a sentence, output an item with:
+   - sid (unchanged),
+   - modified (the corrected text),
+   - reason (≤ 12 words, explicit and mapped to acceptable reasons below).
+
+ID FORMAT
+- 'sid' must start with 's' followed by exactly six digits (including any leading zeros). Do NOT drop or add leading zeros.
+
+ALLOWED EDITS (small, conservative)
+- ASR mishear, phonetically plausible (e.g., "model section" → "model selection").
+- Local context correction (neighboring lines discuss “gradient descent,” current line says “gradient desert”).
+- Spelling/style normalization consistent with project style (e.g., “PyTorch” vs “Pytorch”; “dataset” vs “data set”).
+- Terminology consistency (e.g., “learning ratio” → “learning rate” when context shows identical meaning).
+- Function-word fixes that do not change meaning (articles/prepositions).
+- Capitalization/abbreviation clarity (e.g., gpu → GPU, api → API).
+
+HARD CONSTRAINTS
+- Base decisions ONLY on the provided transcript (no external knowledge).
+- Do NOT introduce new facts, names, numbers, or examples not clearly implied nearby.
+- Do NOT split or merge sentences; keep each sentence intact (sid must remain aligned).
+- Preserve original meaning and intent; only minimal corrections.
+- Only include items you actually changed in the output.
+- You are allowed to change a sentence ONLY if its sid is in low_confidence_sid.
+
+DECISION CHECKS (must pass BEFORE output)
+(a) The modified text is different from the original text.
+(b) The justification matches one of the ALLOWED EDITS above.
+If either fails, do not output an item for that sentence.
+
+OUTPUT FORMAT (JSON ONLY)
+- Return ONLY a JSON object with the following exact schema:
+
+{
+  "results": [
+    {
+      "sid": "s000000",
+      "modified": "Corrected sentence here.",
+      "reason": "≤12 words; explicit justification"
+    }
+  ]
+}
+
+SCHEMA RULES
+- results: array (possibly empty) of objects.
+- Each object must include sid (string), modified (string), reason (string ≤ 12 words).
+- Include ONLY sentences that you actually modified.
+- If nothing was changed, return: { "results": [] }
+
+NOTES
+- Do not echo inputs or add commentary outside the JSON.
+- Keep punctuation, terminology, and casing consistent across the transcript where applicable.
+
+BEGIN. Output JSON only.

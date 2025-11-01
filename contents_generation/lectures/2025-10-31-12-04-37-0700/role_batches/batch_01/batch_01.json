@@ -1,0 +1,1801 @@
+[
+  {
+    "context_before_main_text": [],
+    "main_text": [
+      {
+        "sid": "s000001",
+        "text": "You put in a regrade request and either your TA or the TA that created that problem will take a look at it and reply.",
+        "start": 640,
+        "end": 10400,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000002",
+        "text": "If you're not satisfied with the answer only then I ask that you only then escalate it to me and I'll be happy to take a look at it after the TA does.",
+        "start": 10720,
+        "end": 22720,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000003",
+        "text": "And like always, my decision, that's how that's done.",
+        "start": 23200,
+        "end": 28850,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000004",
+        "text": "Today we're talking about arithmetic and how we do primarily addition and subtraction.",
+        "start": 29330,
+        "end": 34770,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000005",
+        "text": "We still got to keep this class.",
+        "start": 35090,
+        "end": 36370,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000006",
+        "text": "So, you know, an arithmetic circuit is nothing more than a combinational circuit that performs arithmetic operations such as addition, subtraction, multiplication and division.",
+        "start": 39330,
+        "end": 51090,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000007",
+        "text": "We're going to concentrate today on addition and subtraction.",
+        "start": 51650,
+        "end": 54700,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000008",
+        "text": "So we're going to develop some arithmetic circuits that use a hierarchical iterative design to beginning at the lowest level to add two binary digits.",
+        "start": 55660,
+        "end": 68620,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000009",
+        "text": "And when we add two digits, there really are only four possibilities.",
+        "start": 68940,
+        "end": 72300,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000010",
+        "text": "We can add 0 plus 0, we can add 0 plus 1, we can add 1 plus 0 or 1 plus 1.",
+        "start": 73660,
+        "end": 81500,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000011",
+        "text": "And the.",
+        "start": 83020,
+        "end": 84780,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000012",
+        "text": "Yeah, so 0 plus 0, of course is 0, 0 plus 1 is 1, 1 plus 0 is 1 and 1 plus 1 is 2, 0.",
+        "start": 87100,
+        "end": 96619,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000013",
+        "text": "So in the first three cases, somebody's.",
+        "start": 97740,
+        "end": 107380,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000014",
+        "text": "I just heard something.",
+        "start": 108820,
+        "end": 109860,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000015",
+        "text": "I'm not screen sharing.",
+        "start": 111300,
+        "end": 112500,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000016",
+        "text": "Oh, thank you.",
+        "start": 112500,
+        "end": 113220,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000017",
+        "text": "Let's see.",
+        "start": 114020,
+        "end": 114660,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000018",
+        "text": "Let me fix that.",
+        "start": 114660,
+        "end": 115540,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000019",
+        "text": "Bear with me.",
+        "start": 119860,
+        "end": 120820,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000020",
+        "text": "You're here.",
+        "start": 131470,
+        "end": 132430,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000021",
+        "text": "Okay, good.",
+        "start": 134670,
+        "end": 136310,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000022",
+        "text": "Well, thank you for telling me.",
+        "start": 136310,
+        "end": 137550,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000023",
+        "text": "That's one thing.",
+        "start": 149310,
+        "end": 150030,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000024",
+        "text": "If you're watching any of this remote, I'd ask people to watch it remotely to.",
+        "start": 150030,
+        "end": 154190,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000025",
+        "text": "If I missed one of these things like no sound and no here interrupt.",
+        "start": 154270,
+        "end": 157880,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000026",
+        "text": "I start talking and there's nothing on the screen, please interrupt.",
+        "start": 159640,
+        "end": 163400,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000027",
+        "text": "I need to know that.",
+        "start": 164200,
+        "end": 165160,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000028",
+        "text": "Okay.",
+        "start": 166120,
+        "end": 166600,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000029",
+        "text": "Anyway, with three of those we only need a single bit, but one plus one requires two bits.",
+        "start": 166600,
+        "end": 172520,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000030",
+        "text": "So if we have a circuit that adds two bits, we need two outputs.",
+        "start": 172520,
+        "end": 177240,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000031",
+        "text": "We need two bits of output just to handle the case of one plus one.",
+        "start": 177240,
+        "end": 180680,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000032",
+        "text": "And the circuit that does that is called a half adder.",
+        "start": 182930,
+        "end": 186210,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000033",
+        "text": "Half adder is purely combinational.",
+        "start": 189410,
+        "end": 191410,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000034",
+        "text": "It generates the sum of two bits.",
+        "start": 192930,
+        "end": 195090,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000035",
+        "text": "It's got two inputs.",
+        "start": 197330,
+        "end": 198930,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000036",
+        "text": "You know, instead of X and Y, I'm going to call it X and carry.",
+        "start": 201250,
+        "end": 206690,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000037",
+        "text": "C_in, okay.",
+        "start": 207170,
+        "end": 208460,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000038",
+        "text": "And two outputs, the carry and the sum, which I'll call the carry.",
+        "start": 208540,
+        "end": 214220,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000039",
+        "text": "The carry out cf.",
+        "start": 214220,
+        "end": 215580,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000040",
+        "text": "So if we build up a little truth table for that combinational circuit can be defined with a truth table.",
+        "start": 217580,
+        "end": 223180,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000041",
+        "text": "Our inputs are X and the carry in.",
+        "start": 223420,
+        "end": 226300,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000042",
+        "text": "Nope, I'm going back correctly.",
+        "start": 228700,
+        "end": 230340,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000043",
+        "text": "The carry in is for the full adder.",
+        "start": 230340,
+        "end": 234380,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000044",
+        "text": "We'll call maximum and C and S will work.",
+        "start": 235020,
+        "end": 239180,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000045",
+        "text": "I'm getting ahead of myself.",
+        "start": 242300,
+        "end": 243580,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000046",
+        "text": "So X and Y are the inputs and carry and sum are the outputs.",
+        "start": 244700,
+        "end": 249180,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000047",
+        "text": "So with two inputs, there are the four combinations.",
+        "start": 251020,
+        "end": 254220,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000048",
+        "text": "And just like we did just a moment ago, the first row, zero plus zero, an arithmetic addition, not a binary or zero plus zero, the sum is zero, zero plus one the sum is one, one plus zero the sum is one, and one plus one the sum is two.",
+        "start": 258060,
+        "end": 279520,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000049",
+        "text": "So if we wanted to from this, I think we can eyeball this and pull out some boolean expressions.",
+        "start": 283680,
+        "end": 290670,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000050",
+        "text": "For example, S. If we look at it, see where S is a one, S is a one on these two rows, that is this first row is where X is a zero and Y is a one.",
+        "start": 291630,
+        "end": 305310,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000051",
+        "text": "So we write that, not X, Y.",
+        "start": 305550,
+        "end": 307870,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000052",
+        "text": "Or in the other plate row where S is a one, X is a one and Y is a zero.",
+        "start": 309070,
+        "end": 313710,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000053",
+        "text": "So that is X, not Y, which is in fact exclusively X.",
+        "start": 313710,
+        "end": 322470,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000054",
+        "text": "The carry is only one in one place.",
+        "start": 322470,
+        "end": 328030,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000055",
+        "text": "And C is a one when both X and Y are one.",
+        "start": 329790,
+        "end": 332270,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000056",
+        "text": "So C is just X and Y.",
+        "start": 332350,
+        "end": 334830,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000057",
+        "text": "So that we can, I think we can pretty easily draw the combinational circuit for that.",
+        "start": 337960,
+        "end": 343080,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000058",
+        "text": "We need an exclusive or S and an and carry.",
+        "start": 343320,
+        "end": 356840,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000059",
+        "text": "And the inputs to both are S and O.",
+        "start": 358280,
+        "end": 360280,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000060",
+        "text": "That and there's our half adder.",
+        "start": 362520,
+        "end": 372210,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000061",
+        "text": "That adds two bits, but that's not enough.",
+        "start": 372370,
+        "end": 379890,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000062",
+        "text": "You know, usually when we add two bits we're really adding a much bigger number, multi bit numbers.",
+        "start": 379890,
+        "end": 386250,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000063",
+        "text": "And there's typically going to be a carry in from the previous stage.",
+        "start": 386250,
+        "end": 391020,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000064",
+        "text": "And that gives rise to the full adder.",
+        "start": 391820,
+        "end": 394380,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000065",
+        "text": "A full adder is also a combinational circuit.",
+        "start": 394940,
+        "end": 398300,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000066",
+        "text": "It generates the sum of three bits, the two bits used in the half adder plus a carry.",
+        "start": 398540,
+        "end": 405660,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000067",
+        "text": "So three inputs, let's call them, I'm going to call them XY before and here's where I want the carry carry in.",
+        "start": 407420,
+        "end": 415750,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000068",
+        "text": "And then the biggest number we're going to get is going to be one plus one plus one, which is three.",
+        "start": 417510,
+        "end": 424790,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000069",
+        "text": "That requires two bits.",
+        "start": 425110,
+        "end": 427030,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000070",
+        "text": "So we need two bits of output which will be our carry out and the sum bit.",
+        "start": 428070,
+        "end": 433510,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000071",
+        "text": "So combinational circuit, there's going to be eight rows on this 1, 2, 3, 41234.",
+        "start": 436150,
+        "end": 447920,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000072",
+        "text": "Y is 00110011 0101.",
+        "start": 448880,
+        "end": 456240,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000073",
+        "text": "Okay, so starting on the first 0 plus 0 plus 0, that's 0 and the carry out is 0.",
+        "start": 461840,
+        "end": 471590,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000074",
+        "text": "The second row is 0 plus 0 plus 1 which is binary 1.",
+        "start": 474230,
+        "end": 479190,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000075",
+        "text": "We bring down the 1 and the carry is 0.",
+        "start": 479190,
+        "end": 481910,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000076",
+        "text": "Okay, that's 1.",
+        "start": 481910,
+        "end": 484150,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000077",
+        "text": "The third row is the variation on the second.",
+        "start": 485750,
+        "end": 487750,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000078",
+        "text": "Just, they're in a different order.",
+        "start": 487990,
+        "end": 489750,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000079",
+        "text": "0 plus 1 plus 0, which is 1.",
+        "start": 489910,
+        "end": 491990,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000080",
+        "text": "And then the fourth row, row 3, is 0 plus 1 plus 1, which is 2.",
+        "start": 493750,
+        "end": 499830,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000081",
+        "text": "So we bring down the 0 and carry the 1 to give us a binary 2.",
+        "start": 500230,
+        "end": 504790,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000082",
+        "text": "The next row before there is 1 plus 0 plus 0, which is 1.",
+        "start": 508870,
+        "end": 512710,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000083",
+        "text": "We have 1 plus 0 plus 1, which is 2.",
+        "start": 513910,
+        "end": 517256,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000084",
+        "text": "1 plus 1 plus 0 is 2.",
+        "start": 517412,
+        "end": 519879,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000085",
+        "text": "And the last row is all 1.",
+        "start": 519959,
+        "end": 521669,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000086",
+        "text": "1 plus 1 plus 1, that's 3.",
+        "start": 521729,
+        "end": 523479,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000087",
+        "text": "Bring down the 1 and carry it.",
+        "start": 523639,
+        "end": 525319,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000088",
+        "text": "And that's the full adder.",
+        "start": 527479,
+        "end": 530599,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000089",
+        "text": "So figure out what this is.",
+        "start": 539559,
+        "end": 542639,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000090",
+        "text": "Right, let's start with S. S is.",
+        "start": 542639,
+        "end": 570100,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000091",
+        "text": "What are the minterms here?",
+        "start": 570660,
+        "end": 572100,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000092",
+        "text": "1, 2, 4 and 7.",
+        "start": 574100,
+        "end": 576020,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000093",
+        "text": "And then C is what?",
+        "start": 581380,
+        "end": 586100,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000094",
+        "text": "3, 5, 6 and 7.",
+        "start": 586260,
+        "end": 588020,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000095",
+        "text": "Okay, so if we write out the midterms, what I want to do is some algebraic manipulation on these to see if we can.",
+        "start": 592180,
+        "end": 598830,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000096",
+        "text": "I want to get them expressed using inclusive orbs so they look more like the half.",
+        "start": 599070,
+        "end": 605390,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000097",
+        "text": "So let's see.",
+        "start": 607230,
+        "end": 607950,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000098",
+        "text": "Min term 1 is 0, 0, 1, right?",
+        "start": 607950,
+        "end": 610750,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000099",
+        "text": "That's not x, not y z. Min term 2 is 0, 1, 0.",
+        "start": 610750,
+        "end": 617070,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000100",
+        "text": "So that's not x y not 0, z 4 is 1, 0, 0.",
+        "start": 617230,
+        "end": 623480,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000101",
+        "text": "So that's x not y, not z.",
+        "start": 623560,
+        "end": 626760,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000102",
+        "text": "And 7 is 1, 1, 1, xyz.",
+        "start": 626920,
+        "end": 629800,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000103",
+        "text": "Okay, let's see that one.",
+        "start": 632520,
+        "end": 634240,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000104",
+        "text": "Now, the first two terms, not x is common, leaving not yz or y not z.",
+        "start": 634240,
+        "end": 644840,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000105",
+        "text": "And on the second two terms, x is common.",
+        "start": 645480,
+        "end": 649340,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000106",
+        "text": "So that's X ended with not Y not Z or yz.",
+        "start": 650060,
+        "end": 656940,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000107",
+        "text": "This is what I was looking for was X not X.",
+        "start": 658380,
+        "end": 663340,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000108",
+        "text": "So not yz or Y not Z.",
+        "start": 663900,
+        "end": 666300,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000109",
+        "text": "That's an exclusive one.",
+        "start": 666300,
+        "end": 667660,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000110",
+        "text": "So that's Y exclusive OR Z, exclusive OR X.",
+        "start": 680270,
+        "end": 685710,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000111",
+        "text": "And this is an exclusive NOR.",
+        "start": 688350,
+        "end": 690030,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000112",
+        "text": "Y exclusive or Z naught.",
+        "start": 690670,
+        "end": 694590,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000113",
+        "text": "If you take a step back and look at that, okay, this is actually an exclusive or of X.",
+        "start": 695630,
+        "end": 701900,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000114",
+        "text": "And then this Y exclusive or Z term, right?",
+        "start": 701900,
+        "end": 704740,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000115",
+        "text": "Not of the first term.",
+        "start": 705700,
+        "end": 706820,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000116",
+        "text": "Second, not X.",
+        "start": 707300,
+        "end": 709780,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000117",
+        "text": "Then the true value here, the true value of X ANDed with the NOT of this.",
+        "start": 709860,
+        "end": 715060,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000118",
+        "text": "That's an exclusive or of those two.",
+        "start": 715060,
+        "end": 717300,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000119",
+        "text": "So this thing comes down to X exclusive or Y.",
+        "start": 717620,
+        "end": 723460,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000120",
+        "text": "Excuse me.",
+        "start": 723460,
+        "end": 723850,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000121",
+        "text": "To solve for C, let's see.",
+        "start": 723920,
+        "end": 733440,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000122",
+        "text": "Min term 3, 0, 1, 1, not x y z or minterm 5 1, 01 x not yz.",
+        "start": 734320,
+        "end": 749040,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000123",
+        "text": "Minterm 6 is 1, 1, 0.",
+        "start": 749830,
+        "end": 751750,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000124",
+        "text": "So that's x y not z.",
+        "start": 752310,
+        "end": 754990,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000125",
+        "text": "And 7 is xyz 1, 1.",
+        "start": 754990,
+        "end": 756950,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000126",
+        "text": "So we can do a similar type of reduction here.",
+        "start": 761590,
+        "end": 764070,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000127",
+        "text": "The first two terms, actually, the second two terms, I'm going to bring those to the front, have XY being column XY ended with not Z or Z or.",
+        "start": 764150,
+        "end": 782370,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000128",
+        "text": "And then the first two terms, Z is common.",
+        "start": 783410,
+        "end": 789730,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000129",
+        "text": "That's not XY or X not.",
+        "start": 796610,
+        "end": 801500,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000130",
+        "text": "So what this does, that's (NOT Z).",
+        "start": 804220,
+        "end": 806940,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000131",
+        "text": "That, not Z or Z.",
+        "start": 807900,
+        "end": 809180,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000132",
+        "text": "Right, That's a one.",
+        "start": 809180,
+        "end": 811420,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000133",
+        "text": "Anything ORed with its complement is a one, which leaves XY.",
+        "start": 812380,
+        "end": 815580,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000134",
+        "text": "And then this one here is Z ended with the exclusive order.",
+        "start": 817420,
+        "end": 822140,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000135",
+        "text": "So here's what we got.",
+        "start": 829840,
+        "end": 830720,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000136",
+        "text": "S is the exclusive or of all three terms of variables.",
+        "start": 831280,
+        "end": 837040,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000137",
+        "text": "And C is a slightly more complicated expression.",
+        "start": 842160,
+        "end": 848160,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000138",
+        "text": "Okay, it's that last XY or Z ended with X squared Y.",
+        "start": 852570,
+        "end": 857290,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000139",
+        "text": "So we can draw a circuit that looks like that.",
+        "start": 859850,
+        "end": 863850,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000140",
+        "text": "Okay, here's those two expressions we just came up with.",
+        "start": 864090,
+        "end": 867130,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000141",
+        "text": "And this is a full adder.",
+        "start": 867290,
+        "end": 868569,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000142",
+        "text": "If it implements those, it's got to be the full adder, which we have built by combining two half adders and an orbital.",
+        "start": 871130,
+        "end": 879640,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000143",
+        "text": "So let's check this a couple different ways.",
+        "start": 881950,
+        "end": 885070,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000144",
+        "text": "Here's X and Y coming in.",
+        "start": 886190,
+        "end": 887630,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000145",
+        "text": "Z comes in.",
+        "start": 887630,
+        "end": 888510,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000146",
+        "text": "So this is X exclusive or Y.",
+        "start": 889950,
+        "end": 891870,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000147",
+        "text": "And then here's Z coming in like that.",
+        "start": 896750,
+        "end": 899070,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000148",
+        "text": "So we're exclusive oring Z with this term.",
+        "start": 899630,
+        "end": 903150,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000149",
+        "text": "So S is X exclusive or Y exclusive or Z and you don't need the parenthesis that matches.",
+        "start": 903230,
+        "end": 911000,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000150",
+        "text": "And then for C, what about here?",
+        "start": 911240,
+        "end": 913880,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000151",
+        "text": "This and gate is X and Y, which appears on this or gate.",
+        "start": 913960,
+        "end": 918960,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000152",
+        "text": "That's the XY at the beginning of the C expression.",
+        "start": 918960,
+        "end": 923000,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000153",
+        "text": "And now do we get this Z end with X exclusive or Y.",
+        "start": 923240,
+        "end": 927160,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000154",
+        "text": "What we do, here's Z coming into this gate.",
+        "start": 927480,
+        "end": 930600,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000155",
+        "text": "No, Z right here coming into that and gate.",
+        "start": 933470,
+        "end": 936030,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000156",
+        "text": "And what's on the other input is X exclusive OR Y when we OR those two together to get C.",
+        "start": 936030,
+        "end": 942110,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000157",
+        "text": "So this implements those two expressions that we derive with the algebra.",
+        "start": 943950,
+        "end": 949310,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000158",
+        "text": "That said, I'm always a little skeptical of these things.",
+        "start": 949630,
+        "end": 953870,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000159",
+        "text": "So let's try running a few bit patterns through this just to see if it really does add three bits.",
+        "start": 954830,
+        "end": 965080,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000160",
+        "text": "It should.",
+        "start": 965480,
+        "end": 966120,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000161",
+        "text": "The algebra tells us it should.",
+        "start": 967000,
+        "end": 968680,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000162",
+        "text": "Let's put zeros on all the inputs.",
+        "start": 970360,
+        "end": 972840,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000163",
+        "text": "The output should be 00, which means we've got a zero here and here and here and here.",
+        "start": 974840,
+        "end": 981720,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000164",
+        "text": "And for input Z, we put zeros there.",
+        "start": 982250,
+        "end": 985690,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000165",
+        "text": "So coming out of this first exclusive or we get X. I'm sorry, variable ones, actual values.",
+        "start": 989610,
+        "end": 997530,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000166",
+        "text": "Zero exclusive or zero is zero.",
+        "start": 1004010,
+        "end": 1007130,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000167",
+        "text": "And now we got zero exclusive or zero, which is zero.",
+        "start": 1008580,
+        "end": 1011780,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000168",
+        "text": "So S is a zero.",
+        "start": 1011780,
+        "end": 1012820,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000169",
+        "text": "And because that zero up here is a zero, that's a zero, zero and zero is zero.",
+        "start": 1014420,
+        "end": 1020660,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000170",
+        "text": "Okay, coming out of this AND gate right here, that's got to be a zero, right?",
+        "start": 1022820,
+        "end": 1033310,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000171",
+        "text": "And so that makes that a zero right there.",
+        "start": 1035870,
+        "end": 1038350,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000172",
+        "text": "Zero or zero is zero.",
+        "start": 1038510,
+        "end": 1039870,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000173",
+        "text": "Sure enough, S and C are zeros.",
+        "start": 1040270,
+        "end": 1042430,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000174",
+        "text": "What I want to do now is let's make one of the bits A1.",
+        "start": 1061210,
+        "end": 1064410,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000175",
+        "text": "We're adding 0 plus 0 plus 1.",
+        "start": 1065050,
+        "end": 1067210,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000176",
+        "text": "So Z will be a 1.",
+        "start": 1067930,
+        "end": 1069130,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000177",
+        "text": "All the inputs and those gates inside the first half adder didn't change the signals.",
+        "start": 1070970,
+        "end": 1076570,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000178",
+        "text": "But with Z being a one, we're going to put a one there and gate.",
+        "start": 1077690,
+        "end": 1082650,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000179",
+        "text": "Okay, going up to that second exclusive OR, zero exclusive OR one is one.",
+        "start": 1083370,
+        "end": 1089700,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000180",
+        "text": "So the S is a one and on that and gate right below it, well, zero and one is a zero.",
+        "start": 1089700,
+        "end": 1096100,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000181",
+        "text": "We got zero or zero is a zero.",
+        "start": 1096660,
+        "end": 1099620,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000182",
+        "text": "So our result is zero one.",
+        "start": 1099700,
+        "end": 1102900,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000183",
+        "text": "So it's a binary one, which is what we'd expect from zero plus zero plus one.",
+        "start": 1102900,
+        "end": 1107140,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000184",
+        "text": "Let's try changing another one of those in place.",
+        "start": 1109220,
+        "end": 1112180,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000185",
+        "text": "The Y input to 1.",
+        "start": 1115050,
+        "end": 1115530,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000186",
+        "text": "Let's think y over.",
+        "start": 1135130,
+        "end": 1136250,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000187",
+        "text": "So now we got 0 plus 1 plus 1.",
+        "start": 1139460,
+        "end": 1141140,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000188",
+        "text": "The output should be 2.",
+        "start": 1141140,
+        "end": 1143220,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000189",
+        "text": "You got 0 and 1 there, 0 and 1 there.",
+        "start": 1144180,
+        "end": 1147380,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000190",
+        "text": "So the output, and let's see, this is z1 there and there.",
+        "start": 1148420,
+        "end": 1153220,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000191",
+        "text": "So the output of that first exclusive OR (0 XOR 1) should be a 1. It is a 1 there.",
+        "start": 1153620,
+        "end": 1160660,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000192",
+        "text": "The output of that first and gate is 0, 0 and 1 is 0.",
+        "start": 1161220,
+        "end": 1164990,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000193",
+        "text": "Puts a 0 on that last OR gate.",
+        "start": 1166350,
+        "end": 1167630,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000194",
+        "text": "Or we've got a 1 here.",
+        "start": 1167630,
+        "end": 1171310,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000195",
+        "text": "So in the second exclusive or 1x or 1 is a 0.",
+        "start": 1171870,
+        "end": 1175150,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000196",
+        "text": "They're the same.",
+        "start": 1176110,
+        "end": 1176910,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000197",
+        "text": "1 and 1 is a 1.",
+        "start": 1177710,
+        "end": 1179381,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000198",
+        "text": "1 or 0 is a 1.",
+        "start": 1179477,
+        "end": 1180990,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000199",
+        "text": "Sure enough, our answer is carries a 1, sum's a 0.",
+        "start": 1180990,
+        "end": 1185870,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000200",
+        "text": "We got a binary 2.",
+        "start": 1185870,
+        "end": 1186990,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000201",
+        "text": "I'll do one more.",
+        "start": 1187150,
+        "end": 1188110,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000202",
+        "text": "I think we'll stick this one to death.",
+        "start": 1190360,
+        "end": 1192120,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000203",
+        "text": "Let's do it with all three.",
+        "start": 1193160,
+        "end": 1194440,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000204",
+        "text": "So the output should be one line, right?",
+        "start": 1210440,
+        "end": 1212600,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000205",
+        "text": "So let's see that first case.",
+        "start": 1217810,
+        "end": 1219890,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000206",
+        "text": "We got ones on the inputs for the first two gates.",
+        "start": 1219970,
+        "end": 1223730,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000207",
+        "text": "The Z, the one on Z appears there and there.",
+        "start": 1224210,
+        "end": 1230930,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000208",
+        "text": "Okay, one exclusive or one is a one there.",
+        "start": 1232050,
+        "end": 1235570,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000209",
+        "text": "And the NAND gate one and one is a one appears on this last arrow.",
+        "start": 1238050,
+        "end": 1242620,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000210",
+        "text": "Great.",
+        "start": 1242700,
+        "end": 1243100,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000211",
+        "text": "The second exclusive or one xor one is made a mistake.",
+        "start": 1243260,
+        "end": 1250620,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000212",
+        "text": "The first exclusive or one exclusive or one is a z, same value of zero, that's a zero, that's a signal.",
+        "start": 1252540,
+        "end": 1265180,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000213",
+        "text": "And then zero exclusive where one is a one, the out and gate right below it.",
+        "start": 1265180,
+        "end": 1270730,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000214",
+        "text": "Zero and one is a zero.",
+        "start": 1273370,
+        "end": 1275610,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000215",
+        "text": "But then with an XOR gate we have zero OR one which is a one.",
+        "start": 1276010,
+        "end": 1278810,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000216",
+        "text": "So both S and C are one.",
+        "start": 1278810,
+        "end": 1280250,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000217",
+        "text": "That's how we add three ds.",
+        "start": 1282010,
+        "end": 1283450,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000218",
+        "text": "There's only four more combinations and they all work the same way.",
+        "start": 1284410,
+        "end": 1287610,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000219",
+        "text": "Computers typically have to add pretty large numbers, right?",
+        "start": 1290890,
+        "end": 1294910,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000220",
+        "text": "Most of the desktop laptop computers we're working with now are 64 bit processors.",
+        "start": 1295630,
+        "end": 1302110,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000221",
+        "text": "So they need to add two.",
+        "start": 1302430,
+        "end": 1304670,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000222",
+        "text": "They have to be able to add two 64 bit numbers, big numbers.",
+        "start": 1304670,
+        "end": 1308350,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000223",
+        "text": "Right.",
+        "start": 1309230,
+        "end": 1309630,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000224",
+        "text": "So what we do is we combine these full adders into a chain of them.",
+        "start": 1310030,
+        "end": 1316590,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000225",
+        "text": "So they'll handle that.",
+        "start": 1317150,
+        "end": 1318310,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000226",
+        "text": "Now let's assume, let's just for simplicity sake, pretend we're working with orbits.",
+        "start": 1318310,
+        "end": 1322350,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000227",
+        "text": "And so each of these boxes with FA in the middle is that full adder.",
+        "start": 1323730,
+        "end": 1328250,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000228",
+        "text": "We were just looking at 3 bits input, 2 bits output.",
+        "start": 1328250,
+        "end": 1331970,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000229",
+        "text": "So you can see this is full adder, the 0 bit, it's adding a 0 and b 0 plus carry out, normally be a 0.",
+        "start": 1332610,
+        "end": 1341730,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000230",
+        "text": "The output is a sum bit and a carry drift and that carry out becomes one of the inputs.",
+        "start": 1342610,
+        "end": 1348290,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000231",
+        "text": "The second full adder, A, B and C_in. We get a sum and a carry.",
+        "start": 1348700,
+        "end": 1351980,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000232",
+        "text": "Add the three bits, we get a sum and a carry.",
+        "start": 1352300,
+        "end": 1354940,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000233",
+        "text": "Add the three bits, we get a sum and a carry.",
+        "start": 1354940,
+        "end": 1357740,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000234",
+        "text": "So what this thing does is it adds A plus B and we could potentially have five bits of output if A and B are big enough.",
+        "start": 1359820,
+        "end": 1369420,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000235",
+        "text": "So that's why we have five.",
+        "start": 1369980,
+        "end": 1371220,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000236",
+        "text": "We got four sum bits and a carry.",
+        "start": 1371220,
+        "end": 1373020,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000237",
+        "text": "And this carry in is really only there because the full adder has 3 bits.",
+        "start": 1375120,
+        "end": 1381040,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000238",
+        "text": "Normally that would be a zero.",
+        "start": 1381440,
+        "end": 1382640,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000239",
+        "text": "This is often called a ripple carry in.",
+        "start": 1385200,
+        "end": 1387360,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000240",
+        "text": "The reason is we have to wait.",
+        "start": 1387760,
+        "end": 1391160,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000241",
+        "text": "I mean, if you got a lot of bits, you have to wait for the carry to work its way through all the adders until the outputs are stabilized.",
+        "start": 1391160,
+        "end": 1400320,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000242",
+        "text": "And we know what the higher order, that can be slow, especially if you've got a lot of bits.",
+        "start": 1400320,
+        "end": 1405700,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000243",
+        "text": "Right.",
+        "start": 1405700,
+        "end": 1406060,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000244",
+        "text": "In a real implementation, typical general purpose computer, they'll do it just like this, but they'll add a whole bunch of really complicated combinational logic called carry.",
+        "start": 1407500,
+        "end": 1422500,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000245",
+        "text": "Look ahead logic.",
+        "start": 1422500,
+        "end": 1423500,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000246",
+        "text": "And they got a way of.",
+        "start": 1423580,
+        "end": 1424860,
+        "speaker": "A"
+      }
+    ],
+    "context_after_main_text": [
+      {
+        "sid": "s000247",
+        "text": "There's some tricky ways of calculating the higher order carries from the lower order carries.",
+        "start": 1425660,
+        "end": 1430770,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000248",
+        "text": "And they project that forward and it just speeds things up a lot.",
+        "start": 1430930,
+        "end": 1434770,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000249",
+        "text": "But the essence of how we add two numbers is this.",
+        "start": 1434930,
+        "end": 1438050,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000250",
+        "text": "This is an atom and that's really what there is to addition.",
+        "start": 1438050,
+        "end": 1444930,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000251",
+        "text": "Which leads us to subtraction.",
+        "start": 1448690,
+        "end": 1450850,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000252",
+        "text": "Yes.",
+        "start": 1455820,
+        "end": 1456140,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000253",
+        "text": "The four-bit adder, what about C0, B0?",
+        "start": 1457340,
+        "end": 1462700,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000254",
+        "text": "Yeah, normally C0 is a zero.",
+        "start": 1467340,
+        "end": 1469180,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000255",
+        "text": "It pretty much has to be or you're going to be effectively adding one.",
+        "start": 1470060,
+        "end": 1473340,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000256",
+        "text": "So it's four bits of A to four bits of B.",
+        "start": 1474060,
+        "end": 1476140,
+        "speaker": "A"
+      }
+    ]
+  }
+]

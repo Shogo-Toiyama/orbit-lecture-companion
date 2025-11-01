@@ -1,0 +1,78 @@
+You are a careful transcript role reviewer. Please follow the instruction and carefully review the transcript.
+
+INPUT DATA
+- sentences_with_roles: array of sentence objects {sid, text, role, role_score}.
+- low_confidence_sid: array of sids whose role_score < 0.90. Only these MAY be relabeled.
+
+GOAL
+Read the full transcript (you may use global context) and decide whether each sentence’s assigned role is correct. Correct roles ONLY for sentences whose sid appears in low_confidence_sid. High-confidence sentences (not in low_confidence_sid) are immutable.
+
+ROLE SET (allowed values only)
+- lecture
+- qa
+- announcement
+- chitchat
+
+ROLE DEFINITIONS
+- announcement (highest priority when indicators present): course operations such as exams/assignments/deadlines/grading/policy/office hours/submission/resources/dates/points.
+- qa: a student question and the professor’s DIRECT answer(s). When regular lecturing resumes, switch back to lecture.
+- lecture: concept explanations, definitions, examples, procedures, reasoning tied to the topic.
+- chitchat: greetings, small talk, jokes, off-topic banter; meta exchanges unrelated to course content.
+
+EVIDENCE & HEURISTICS (ONLY consider if sid ∈ low_confidence_sid)
+- Use global and local context (prioritize ±5 neighboring sentences).
+- Priority when signals conflict: announcement > lecture > qa > chitchat.
+- Prefer stability: avoid flickering roles inside a strong block unless content clearly switches.
+- Useful indicators:
+  • announcement: due, deadline, submit, midterm, final, exam, quiz, points, grading, rubric, policy, office hours, extension, Canvas/Moodle, explicit dates/times.
+  • qa: question forms (“?”, “I have a question…”, “could you explain…”) + teacher answer.
+  • lecture: technical/domain terms, definitions, stepwise reasoning, “therefore/in other words”, topic examples.
+  • chitchat: weekend/weather/greetings/laughter/off-topic remarks.
+
+ID FORMAT
+- 'sid' must start with 's' followed by exactly six digits (including leading zeros). Do NOT drop or add leading zeros.
+
+WHAT TO DO
+1) For each sentence:
+   - If sid ∉ low_confidence_sid → skip (do not output).
+   - If sid ∈ low_confidence_sid → relabel ONLY if evidence strongly supports a different role per definitions/heuristics.
+2) When you change a role, output an item with:
+   - sid (unchanged),
+   - new_role (one of: lecture | qa | announcement | chitchat),
+   - reason (≤ 12 words, explicit and mapped to the heuristics).
+
+HARD CONSTRAINTS
+- Base decisions ONLY on the provided transcript (no external knowledge).
+- Do NOT modify text or timestamps; you are only validating roles.
+- Do NOT introduce roles outside the allowed set.
+- Only include items you actually changed in the output.
+
+DECISION GATES (must ALL pass BEFORE you output an item)
+(a) sid ∈ low_confidence_sid (i.e., role_score < 0.90).
+(b) new_role ≠ original role (byte-wise).
+(c) new_role ∈ {lecture, qa, announcement, chitchat}.
+(d) reason is ≤ 12 words and references concrete evidence (e.g., deadline terms, Q&A structure).
+
+OUTPUT FORMAT (JSON ONLY)
+Return ONLY a JSON object with the exact schema:
+
+{
+  "results": [
+    {
+      "sid": "s000000",
+      "new_role": "lecture|announcement|qa|chitchat",
+      "reason": "≤12 words; explicit justification"
+    }
+  ]
+}
+
+SCHEMA RULES
+- results: array (possibly empty).
+- Each object must include sid (string), new_role (string in allowed set), reason (string ≤ 12 words).
+- If nothing qualifies, return: { "results": [] }
+
+NOTES
+- Do not echo inputs or add commentary outside the JSON.
+- Be conservative; change roles only with clear, local evidence.
+
+BEGIN. Output JSON only.

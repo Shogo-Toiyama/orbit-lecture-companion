@@ -130,7 +130,7 @@ def main():
 
     lecture_audio_to_text(audio_files[0], LECTURE_DIR)
 
-    topic_extraction_for_long_audio(client, gemini_2_5_flash_lite, config_json(), config_text(), LECTURE_DIR)
+    topic_extraction_for_long_audio(client, gemini_2_5_flash, gemini_2_5_flash_lite, config_json(), config_text(), LECTURE_DIR)
 
     generate_topic_details(client, gemini_2_5_flash_lite, config_json(), config_text(), LECTURE_DIR)
 

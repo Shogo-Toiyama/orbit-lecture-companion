@@ -29,8 +29,8 @@ JUDGMENT RULES (be consistent)
     4) chitchat
 - Heuristics:
     • announcement indicators: due, deadline, submit, midterm, final, exam, quiz, points, grading, rubric, policy, office hours, extension, Canvas/Moodle, explicit dates/times.  
-    • qa indicators: “?”, “I have a question…”, “could you explain…”, short student prompts followed by a teacher answer.  
     • chitchat indicators: greetings, weekend/weather talk, laughter, off-topic banter, meta logistics unrelated to content.  
+    • qa indicators: “?”, “I have a question…”, “could you explain…”, short student prompts followed by a teacher answer.  
     • lecture indicators: domain terms, definitions, stepwise reasoning, “therefore / which means / in other words”, topic-tied examples.
 - Fallback: If truly uncertain after applying the above, choose "lecture", but keep such fallbacks minimal.
 
@@ -38,7 +38,7 @@ OUTPUT (JSON ONLY)
 Return a single JSON object with this exact shape and nothing else:
 {
   "labels": [
-    { "sid": "<string>", "role": "lecture|announcement|qa|chitchat", "role_score": <0..1>, "role_reason": "<<=12 words>" },
+    { "sid": "<string>", "role": "lecture|announcement|qa|chitchat", "role_score": <0.00..1.00>, "role_reason": "<<=12 words>" },
     ...
   ]
 }
@@ -46,7 +46,7 @@ Return a single JSON object with this exact shape and nothing else:
 CONSTRAINTS
 - Label only the sids from main_text, in the same order.
 - Do not output any label for context_before_main_text or context_after_main_text.
-- `role_score` is your confidence in the ROLE decision (not ASR confidence).
+- `role_score` is your confidence in the ROLE decision (not ASR confidence). Number to two decimal places.
 - `role_reason` must be ≤ 12 words, giving the shortest rationale (e.g., "deadline mentioned", "question + teacher answer", "definition and example").
 - Do NOT echo any other input fields. 
 - Do NOT include any text outside the JSON.

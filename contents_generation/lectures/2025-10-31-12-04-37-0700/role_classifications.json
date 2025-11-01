@@ -1,0 +1,5902 @@
+{
+  "labels": [
+    {
+      "sid": "s000001",
+      "role": "announcement",
+      "role_score": 0.95,
+      "role_reason": "Explains process for regrade requests and escalation."
+    },
+    {
+      "sid": "s000002",
+      "role": "announcement",
+      "role_score": 0.95,
+      "role_reason": "Explains process for regrade requests and escalation."
+    },
+    {
+      "sid": "s000003",
+      "role": "announcement",
+      "role_score": 0.8,
+      "role_reason": "States professor's decision is final for regrades."
+    },
+    {
+      "sid": "s000004",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Introduces topic: arithmetic, addition, and subtraction."
+    },
+    {
+      "sid": "s000005",
+      "role": "chitchat",
+      "role_score": 0.7,
+      "role_reason": "Filler sentence, possibly related to continuing the class."
+    },
+    {
+      "sid": "s000006",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Defines arithmetic circuit and its operations."
+    },
+    {
+      "sid": "s000007",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "States focus for the day: addition and subtraction."
+    },
+    {
+      "sid": "s000008",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains design approach: hierarchical iterative design for adding bits."
+    },
+    {
+      "sid": "s000009",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Introduces the possibilities when adding two digits."
+    },
+    {
+      "sid": "s000010",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Lists the four possibilities for adding two binary digits."
+    },
+    {
+      "sid": "s000011",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Transition to explaining the results of the additions."
+    },
+    {
+      "sid": "s000012",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Provides the results of the four binary addition possibilities."
+    },
+    {
+      "sid": "s000013",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Starts to explain the implications of the addition results."
+    },
+    {
+      "sid": "s000014",
+      "role": "chitchat",
+      "role_score": 0.8,
+      "role_reason": "Interruption due to a technical issue."
+    },
+    {
+      "sid": "s000015",
+      "role": "chitchat",
+      "role_score": 0.95,
+      "role_reason": "Identifies the technical issue: screen sharing problem."
+    },
+    {
+      "sid": "s000016",
+      "role": "chitchat",
+      "role_score": 0.95,
+      "role_reason": "Acknowledges the notification about the technical issue."
+    },
+    {
+      "sid": "s000017",
+      "role": "chitchat",
+      "role_score": 0.95,
+      "role_reason": "Initiates action to fix the technical issue."
+    },
+    {
+      "sid": "s000018",
+      "role": "chitchat",
+      "role_score": 0.95,
+      "role_reason": "Initiates action to fix the technical issue."
+    },
+    {
+      "sid": "s000019",
+      "role": "chitchat",
+      "role_score": 0.95,
+      "role_reason": "Asks for patience while fixing the technical issue."
+    },
+    {
+      "sid": "s000020",
+      "role": "chitchat",
+      "role_score": 0.8,
+      "role_reason": "Confirms the screen sharing is now visible."
+    },
+    {
+      "sid": "s000021",
+      "role": "chitchat",
+      "role_score": 0.95,
+      "role_reason": "Confirms the screen sharing is now visible."
+    },
+    {
+      "sid": "s000022",
+      "role": "chitchat",
+      "role_score": 0.95,
+      "role_reason": "Expresses gratitude for being informed about the issue."
+    },
+    {
+      "sid": "s000023",
+      "role": "chitchat",
+      "role_score": 0.7,
+      "role_reason": "Transitioning back to the lecture, but still related to the interruption."
+    },
+    {
+      "sid": "s000024",
+      "role": "announcement",
+      "role_score": 0.85,
+      "role_reason": "Asks remote students to interrupt if issues arise."
+    },
+    {
+      "sid": "s000025",
+      "role": "announcement",
+      "role_score": 0.95,
+      "role_reason": "Requests interruptions for technical issues like no sound/screen."
+    },
+    {
+      "sid": "s000026",
+      "role": "announcement",
+      "role_score": 0.95,
+      "role_reason": "Requests interruptions for technical issues like no sound/screen."
+    },
+    {
+      "sid": "s000027",
+      "role": "announcement",
+      "role_score": 0.9,
+      "role_reason": "Emphasizes the need for feedback on technical problems."
+    },
+    {
+      "sid": "s000028",
+      "role": "chitchat",
+      "role_score": 0.7,
+      "role_reason": "Acknowledgement before returning to lecture."
+    },
+    {
+      "sid": "s000029",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains the need for two bits for 1+1, introducing the concept of carry."
+    },
+    {
+      "sid": "s000030",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "States the requirement of two output bits for a two-bit adder."
+    },
+    {
+      "sid": "s000031",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Reiterates the need for two output bits to handle 1+1."
+    },
+    {
+      "sid": "s000032",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Introduces and defines the 'half adder' circuit."
+    },
+    {
+      "sid": "s000033",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "States that a half adder is a combinational circuit."
+    },
+    {
+      "sid": "s000034",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Describes the function of a half adder: generating the sum of two bits."
+    },
+    {
+      "sid": "s000035",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Specifies the number of inputs for a half adder."
+    },
+    {
+      "sid": "s000036",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Defines the inputs for the half adder as X and Carry In (C_in)."
+    },
+    {
+      "sid": "s000037",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Clarifies the notation for Carry In (C_in)."
+    },
+    {
+      "sid": "s000038",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Defines the outputs of the half adder: Carry Out (C_out) and Sum."
+    },
+    {
+      "sid": "s000039",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Specifies the notation for Carry Out (C_out)."
+    },
+    {
+      "sid": "s000040",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Introduces the use of a truth table to define the combinational circuit."
+    },
+    {
+      "sid": "s000041",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Defines the inputs for the truth table: X and Carry In."
+    },
+    {
+      "sid": "s000042",
+      "role": "lecture",
+      "role_score": 0.85,
+      "role_reason": "Self-correction regarding input names for the half adder."
+    },
+    {
+      "sid": "s000043",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Clarifies that Carry In is for a full adder, not a half adder."
+    },
+    {
+      "sid": "s000044",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Defines the inputs as X and Y, and outputs as C and S."
+    },
+    {
+      "sid": "s000045",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Acknowledges getting ahead of the explanation."
+    },
+    {
+      "sid": "s000046",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Confirms inputs X, Y and outputs Carry, Sum for the half adder."
+    },
+    {
+      "sid": "s000047",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "States there are four combinations for two inputs."
+    },
+    {
+      "sid": "s000048",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Details the sum results for each of the four input combinations."
+    },
+    {
+      "sid": "s000049",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Proposes deriving boolean expressions from the truth table."
+    },
+    {
+      "sid": "s000050",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Analyzes the truth table to derive the boolean expression for the Sum (S)."
+    },
+    {
+      "sid": "s000051",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Writes the first part of the Sum expression: NOT X AND Y."
+    },
+    {
+      "sid": "s000052",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Analyzes the second part of the Sum expression: X AND NOT Y."
+    },
+    {
+      "sid": "s000053",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Identifies the Sum expression as XOR: (NOT X AND Y) OR (X AND NOT Y)."
+    },
+    {
+      "sid": "s000054",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Starts analyzing the truth table for the Carry (C) output."
+    },
+    {
+      "sid": "s000055",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Identifies the condition for Carry (C) being one: X AND Y."
+    },
+    {
+      "sid": "s000056",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "States the boolean expression for Carry (C): X AND Y."
+    },
+    {
+      "sid": "s000057",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Proposes drawing the combinational circuit for the half adder."
+    },
+    {
+      "sid": "s000058",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Specifies the gates needed: XOR for Sum, AND for Carry."
+    },
+    {
+      "sid": "s000059",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Defines the inputs to the XOR and AND gates."
+    },
+    {
+      "sid": "s000060",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Concludes the description of the half adder circuit."
+    },
+    {
+      "sid": "s000061",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "States that the half adder is insufficient for multi-bit addition."
+    },
+    {
+      "sid": "s000062",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains the need to add multi-bit numbers, not just single bits."
+    },
+    {
+      "sid": "s000063",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Introduces the concept of a carry-in from a previous stage."
+    },
+    {
+      "sid": "s000064",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Introduces the 'full adder' circuit."
+    },
+    {
+      "sid": "s000065",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "States that a full adder is also a combinational circuit."
+    },
+    {
+      "sid": "s000066",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Defines the function of a full adder: sum of three bits."
+    },
+    {
+      "sid": "s000067",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Defines the three inputs for a full adder: X, Y, and Carry In."
+    },
+    {
+      "sid": "s000068",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Determines the maximum possible sum of three bits (1+1+1=3)."
+    },
+    {
+      "sid": "s000069",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "States that the maximum sum (3) requires two bits."
+    },
+    {
+      "sid": "s000070",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Defines the two outputs of a full adder: Carry Out and Sum."
+    },
+    {
+      "sid": "s000071",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "States there will be eight rows in the truth table for three inputs."
+    },
+    {
+      "sid": "s000072",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Lists the input combinations for the full adder truth table."
+    },
+    {
+      "sid": "s000073",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Calculates the sum and carry for 0+0+0."
+    },
+    {
+      "sid": "s000074",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Calculates the sum and carry for 0+0+1."
+    },
+    {
+      "sid": "s000075",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains the result of 0+0+1 as sum 1, carry 0."
+    },
+    {
+      "sid": "s000076",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Confirms the sum for 0+0+1 is 1."
+    },
+    {
+      "sid": "s000077",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Notes the similarity of the next row to the previous one."
+    },
+    {
+      "sid": "s000078",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains the next row is a permutation of the previous one."
+    },
+    {
+      "sid": "s000079",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Calculates the sum and carry for 0+1+0."
+    },
+    {
+      "sid": "s000080",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Calculates the sum and carry for 0+1+1 (binary 2)."
+    },
+    {
+      "sid": "s000081",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains the result of 0+1+1 as sum 0, carry 1."
+    },
+    {
+      "sid": "s000082",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Calculates the sum and carry for 1+0+0."
+    },
+    {
+      "sid": "s000083",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Calculates the sum and carry for 1+0+1 (binary 2)."
+    },
+    {
+      "sid": "s000084",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Calculates the sum and carry for 1+1+0 (binary 2)."
+    },
+    {
+      "sid": "s000085",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Identifies the last row as all ones."
+    },
+    {
+      "sid": "s000086",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Calculates the sum and carry for 1+1+1 (binary 3)."
+    },
+    {
+      "sid": "s000087",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains the result of 1+1+1 as sum 1, carry 1."
+    },
+    {
+      "sid": "s000088",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Concludes the truth table explanation for the full adder."
+    },
+    {
+      "sid": "s000089",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Proposes deriving boolean expressions from the full adder truth table."
+    },
+    {
+      "sid": "s000090",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Starts deriving the boolean expression for the Sum (S)."
+    },
+    {
+      "sid": "s000091",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Asks for the minterms where the Sum (S) is 1."
+    },
+    {
+      "sid": "s000092",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Lists the minterms for Sum (S): 1, 2, 4, 7."
+    },
+    {
+      "sid": "s000093",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Asks for the minterms where the Carry (C) is 1."
+    },
+    {
+      "sid": "s000094",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Lists the minterms for Carry (C): 3, 5, 6, 7."
+    },
+    {
+      "sid": "s000095",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "States the intention to manipulate minterms into a simpler form."
+    },
+    {
+      "sid": "s000096",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Aims to express the minterms using inclusive ORs, like the half adder."
+    },
+    {
+      "sid": "s000097",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Transition to writing out the minterms."
+    },
+    {
+      "sid": "s000098",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Writes the minterm for 1 (001) in boolean form."
+    },
+    {
+      "sid": "s000099",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Writes the minterm for 2 (010) in boolean form."
+    },
+    {
+      "sid": "s000100",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Writes the minterm for 4 (100) in boolean form."
+    },
+    {
+      "sid": "s000101",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "States the boolean form for minterm 4."
+    },
+    {
+      "sid": "s000102",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Writes the minterm for 7 (111) in boolean form."
+    },
+    {
+      "sid": "s000103",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Transition to algebraic manipulation."
+    },
+    {
+      "sid": "s000104",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Applies factoring to the first two minterms for Sum (S)."
+    },
+    {
+      "sid": "s000105",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Applies factoring to the last two minterms for Sum (S)."
+    },
+    {
+      "sid": "s000106",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Shows the factored form of the Sum (S) expression."
+    },
+    {
+      "sid": "s000107",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Identifies the first part as an XOR operation."
+    },
+    {
+      "sid": "s000108",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "States the result of the first factored part: Y XOR Z."
+    },
+    {
+      "sid": "s000109",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Identifies the second part as an XOR operation."
+    },
+    {
+      "sid": "s000110",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Expresses the Sum (S) as X XOR (Y XOR Z)."
+    },
+    {
+      "sid": "s000111",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Identifies the second part of the factored expression as XOR."
+    },
+    {
+      "sid": "s000112",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "States the second part as Y XOR Z."
+    },
+    {
+      "sid": "s000113",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Relates the Sum expression to XORing X with (Y XOR Z)."
+    },
+    {
+      "sid": "s000114",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Confirms the structure of the Sum expression."
+    },
+    {
+      "sid": "s000115",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains the structure of the Sum expression."
+    },
+    {
+      "sid": "s000116",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains the structure of the Sum expression."
+    },
+    {
+      "sid": "s000117",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains the structure of the Sum expression."
+    },
+    {
+      "sid": "s000118",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Identifies the overall operation as XOR."
+    },
+    {
+      "sid": "s000119",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Simplifies the Sum expression to X XOR Y XOR Z."
+    },
+    {
+      "sid": "s000120",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Filler word after completing the Sum expression derivation."
+    },
+    {
+      "sid": "s000121",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Starts deriving the boolean expression for the Carry (C)."
+    },
+    {
+      "sid": "s000122",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Writes the minterms for Carry (C): 3, 5, 6."
+    },
+    {
+      "sid": "s000123",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Writes the minterm for 6 (110) in boolean form."
+    },
+    {
+      "sid": "s000124",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "States the boolean form for minterm 6."
+    },
+    {
+      "sid": "s000125",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Includes minterm 7 (111) for the Carry (C) expression."
+    },
+    {
+      "sid": "s000126",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Proposes similar algebraic reduction for the Carry (C) expression."
+    },
+    {
+      "sid": "s000127",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Applies factoring and simplification to the Carry (C) expression."
+    },
+    {
+      "sid": "s000128",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Applies factoring to the remaining terms in the Carry (C) expression."
+    },
+    {
+      "sid": "s000129",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Shows the factored form of the Carry (C) expression."
+    },
+    {
+      "sid": "s000130",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Identifies a term in the Carry (C) expression."
+    },
+    {
+      "sid": "s000131",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Simplifies a part of the Carry (C) expression."
+    },
+    {
+      "sid": "s000132",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "States that a term ORed with its complement is 1."
+    },
+    {
+      "sid": "s000133",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Simplifies the Carry (C) expression to XY OR Z(X XOR Y)."
+    },
+    {
+      "sid": "s000134",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains the second part of the Carry (C) expression."
+    },
+    {
+      "sid": "s000135",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Summarizes the derived expressions."
+    },
+    {
+      "sid": "s000136",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "States the simplified expression for Sum (S)."
+    },
+    {
+      "sid": "s000137",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Describes the Carry (C) expression as more complicated."
+    },
+    {
+      "sid": "s000138",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "States the Carry (C) expression."
+    },
+    {
+      "sid": "s000139",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Proposes drawing the circuit for the full adder."
+    },
+    {
+      "sid": "s000140",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Refers to the derived boolean expressions for the full adder."
+    },
+    {
+      "sid": "s000141",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Identifies the circuit as a full adder."
+    },
+    {
+      "sid": "s000142",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains how a full adder can be built from two half adders and an OR gate."
+    },
+    {
+      "sid": "s000143",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Suggests verifying the full adder circuit with examples."
+    },
+    {
+      "sid": "s000144",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Traces the inputs X and Y into the circuit."
+    },
+    {
+      "sid": "s000145",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Traces the input Z into the circuit."
+    },
+    {
+      "sid": "s000146",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Identifies the output of the first XOR gate as X XOR Y."
+    },
+    {
+      "sid": "s000147",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Traces Z into the second XOR gate."
+    },
+    {
+      "sid": "s000148",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains the operation of the second XOR gate."
+    },
+    {
+      "sid": "s000149",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Confirms the Sum (S) output matches X XOR Y XOR Z."
+    },
+    {
+      "sid": "s000150",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Starts tracing the Carry (C) output calculation."
+    },
+    {
+      "sid": "s000151",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Identifies the output of the first AND gate as X AND Y."
+    },
+    {
+      "sid": "s000152",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Connects the first AND gate output to the final OR gate for C."
+    },
+    {
+      "sid": "s000153",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Asks how the Z AND (X XOR Y) term is formed."
+    },
+    {
+      "sid": "s000154",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Traces Z into an AND gate."
+    },
+    {
+      "sid": "s000155",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Identifies the other input to the AND gate as X XOR Y."
+    },
+    {
+      "sid": "s000156",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains the final OR operation for the Carry (C) output."
+    },
+    {
+      "sid": "s000157",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Confirms the circuit implements the derived boolean expressions."
+    },
+    {
+      "sid": "s000158",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Expresses slight skepticism about the circuit's correctness."
+    },
+    {
+      "sid": "s000159",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Proposes testing the circuit with bit patterns."
+    },
+    {
+      "sid": "s000160",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Confirms the circuit should work correctly."
+    },
+    {
+      "sid": "s000161",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Reiterates that the algebra confirms the circuit's function."
+    },
+    {
+      "sid": "s000162",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Sets the first test case: all inputs are zero."
+    },
+    {
+      "sid": "s000163",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "States the expected output for all zero inputs (00)."
+    },
+    {
+      "sid": "s000164",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Confirms the inputs to the first half adder are zero."
+    },
+    {
+      "sid": "s000165",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Traces the signal through the first XOR gate."
+    },
+    {
+      "sid": "s000166",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Calculates the output of the first XOR gate (0 XOR 0)."
+    },
+    {
+      "sid": "s000167",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Traces the signal through the second XOR gate."
+    },
+    {
+      "sid": "s000168",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Determines the Sum (S) output is zero."
+    },
+    {
+      "sid": "s000169",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Traces the signal through the first AND gate."
+    },
+    {
+      "sid": "s000170",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Determines the output of the first AND gate is zero."
+    },
+    {
+      "sid": "s000171",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Traces the signal through the final OR gate."
+    },
+    {
+      "sid": "s000172",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Calculates the Carry Out (C) output (0 OR 0)."
+    },
+    {
+      "sid": "s000173",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Confirms the output (00) matches the expected result."
+    },
+    {
+      "sid": "s000174",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Sets the second test case: one input is one (0+0+1)."
+    },
+    {
+      "sid": "s000175",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "States the expected result for 0+0+1."
+    },
+    {
+      "sid": "s000176",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Sets Z to 1 for the test case."
+    },
+    {
+      "sid": "s000177",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Notes that the first half adder inputs are unchanged."
+    },
+    {
+      "sid": "s000178",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Traces the effect of Z=1 on the circuit."
+    },
+    {
+      "sid": "s000179",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Calculates the output of the second XOR gate (0 XOR 1)."
+    },
+    {
+      "sid": "s000180",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Determines the Sum (S) is 1 and traces the first AND gate."
+    },
+    {
+      "sid": "s000181",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Calculates the output of the final OR gate (0 OR 0)."
+    },
+    {
+      "sid": "s000182",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "States the resulting output is 01."
+    },
+    {
+      "sid": "s000183",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Confirms the result (binary 1) matches the expectation for 0+0+1."
+    },
+    {
+      "sid": "s000184",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Sets the third test case: two inputs are one (0+1+1)."
+    },
+    {
+      "sid": "s000185",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Sets Y to 1 for the test case."
+    },
+    {
+      "sid": "s000186",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Transition to explaining the test case 0+1+1."
+    },
+    {
+      "sid": "s000187",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "States the calculation for the third test case: 0+1+1."
+    },
+    {
+      "sid": "s000188",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "States the expected result for 0+1+1 (binary 2)."
+    },
+    {
+      "sid": "s000189",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Traces the inputs to the gates for 0+1+1."
+    },
+    {
+      "sid": "s000190",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Traces the inputs to the gates for 0+1+1."
+    },
+    {
+      "sid": "s000191",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Calculates the output of the first XOR gate (0 XOR 1)."
+    },
+    {
+      "sid": "s000192",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Calculates the output of the first AND gate (0 AND 1)."
+    },
+    {
+      "sid": "s000193",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Traces the output of the first AND gate to the final OR gate."
+    },
+    {
+      "sid": "s000194",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Traces the output of the second XOR gate (1 XOR 1)."
+    },
+    {
+      "sid": "s000195",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Calculates the output of the second XOR gate (1 XOR 1)."
+    },
+    {
+      "sid": "s000196",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Notes that the outputs of the second XOR are the same."
+    },
+    {
+      "sid": "s000197",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Calculates the output of the second AND gate (1 AND 1)."
+    },
+    {
+      "sid": "s000198",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Calculates the output of the final OR gate (0 OR 1)."
+    },
+    {
+      "sid": "s000199",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "States the result is Carry 1, Sum 0."
+    },
+    {
+      "sid": "s000200",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Confirms the result is binary 2."
+    },
+    {
+      "sid": "s000201",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Indicates another test case will be performed."
+    },
+    {
+      "sid": "s000202",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Humorous remark about over-testing."
+    },
+    {
+      "sid": "s000203",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Sets the fourth test case: all inputs are one (1+1+1)."
+    },
+    {
+      "sid": "s000204",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "States the expected result for 1+1+1 (binary 3)."
+    },
+    {
+      "sid": "s000205",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Starts tracing the circuit for the 1+1+1 case."
+    },
+    {
+      "sid": "s000206",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Describes the inputs to the first two gates."
+    },
+    {
+      "sid": "s000207",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Traces the input Z to the gates."
+    },
+    {
+      "sid": "s000208",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Calculates the output of the first XOR gate (1 XOR 1)."
+    },
+    {
+      "sid": "s000209",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Calculates the output of the first AND gate (1 AND 1)."
+    },
+    {
+      "sid": "s000210",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Acknowledgement of a correct intermediate result."
+    },
+    {
+      "sid": "s000211",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Identifies a mistake in tracing the second XOR gate."
+    },
+    {
+      "sid": "s000212",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Corrects the calculation for the first XOR gate (1 XOR 1 = 0)."
+    },
+    {
+      "sid": "s000213",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Calculates the output of the second XOR gate (0 XOR 1)."
+    },
+    {
+      "sid": "s000214",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Calculates the output of the second AND gate (0 AND 1)."
+    },
+    {
+      "sid": "s000215",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Calculates the output of the final OR gate (0 OR 1)."
+    },
+    {
+      "sid": "s000216",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "States the final result: S=1, C=1."
+    },
+    {
+      "sid": "s000217",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Concludes the explanation of adding three bits."
+    },
+    {
+      "sid": "s000218",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "States that the remaining combinations work similarly."
+    },
+    {
+      "sid": "s000219",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Introduces the need for adding large numbers in computers."
+    },
+    {
+      "sid": "s000220",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Mentions current computers use 64-bit processors."
+    },
+    {
+      "sid": "s000221",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "States the requirement to add two large numbers."
+    },
+    {
+      "sid": "s000222",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Reiterates the need to add two 64-bit numbers."
+    },
+    {
+      "sid": "s000223",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Acknowledgement."
+    },
+    {
+      "sid": "s000224",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains how to add large numbers: chaining full adders."
+    },
+    {
+      "sid": "s000225",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "States that chained full adders handle large numbers."
+    },
+    {
+      "sid": "s000226",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Simplifies the explanation by assuming 2-bit numbers."
+    },
+    {
+      "sid": "s000227",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Identifies the boxes as full adders."
+    },
+    {
+      "sid": "s000228",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "States the full adder has 3 inputs and 2 outputs."
+    },
+    {
+      "sid": "s000229",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains the first full adder's operation (adding A0, B0, and carry-in)."
+    },
+    {
+      "sid": "s000230",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains how the carry-out becomes the carry-in for the next stage."
+    },
+    {
+      "sid": "s000231",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains the second full adder's inputs and outputs."
+    },
+    {
+      "sid": "s000232",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "States the function of each full adder: adding three bits."
+    },
+    {
+      "sid": "s000233",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Repeats the function of each full adder."
+    },
+    {
+      "sid": "s000234",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains the overall addition process and potential output bits."
+    },
+    {
+      "sid": "s000235",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains why there are five output bits."
+    },
+    {
+      "sid": "s000236",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Specifies the five output bits: four sum bits and one carry."
+    },
+    {
+      "sid": "s000237",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains the purpose of the initial carry-in."
+    },
+    {
+      "sid": "s000238",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "States that the initial carry-in is usually zero."
+    },
+    {
+      "sid": "s000239",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Introduces the term 'ripple carry'."
+    },
+    {
+      "sid": "s000240",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains the reason for the term 'ripple carry'."
+    },
+    {
+      "sid": "s000241",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Describes the delay caused by the carry propagating through adders."
+    },
+    {
+      "sid": "s000242",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Mentions that ripple carry can be slow for many bits."
+    },
+    {
+      "sid": "s000243",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Acknowledgement."
+    },
+    {
+      "sid": "s000244",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Mentions advanced logic used in computers to speed up addition."
+    },
+    {
+      "sid": "s000245",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Names the advanced logic: 'carry look ahead'."
+    },
+    {
+      "sid": "s000246",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Indicates there are methods to calculate carries faster."
+    },
+    {
+      "sid": "s000247",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains carry look ahead logic calculates higher order carries."
+    },
+    {
+      "sid": "s000248",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "States that carry look ahead logic speeds up addition."
+    },
+    {
+      "sid": "s000249",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Asserts that the chained full adder is the essence of addition."
+    },
+    {
+      "sid": "s000250",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Concludes the explanation of binary addition."
+    },
+    {
+      "sid": "s000251",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Transitions to the next topic: subtraction."
+    },
+    {
+      "sid": "s000252",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Acknowledgement."
+    },
+    {
+      "sid": "s000253",
+      "role": "qa",
+      "role_score": 0.95,
+      "role_reason": "Student question about the carry-in for a four-bit adder."
+    },
+    {
+      "sid": "s000254",
+      "role": "qa",
+      "role_score": 0.95,
+      "role_reason": "Professor's direct answer: C0 is normally zero."
+    },
+    {
+      "sid": "s000255",
+      "role": "qa",
+      "role_score": 0.95,
+      "role_reason": "Professor's explanation of why C0 must be zero."
+    },
+    {
+      "sid": "s000256",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Clarifies the inputs for a four-bit adder."
+    },
+    {
+      "sid": "s000257",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Confirms the description of the adder."
+    },
+    {
+      "sid": "s000258",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Introduces binary subtraction and its potential complication."
+    },
+    {
+      "sid": "s000259",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Identifies the problem case in subtraction (minuend < subtrahend)."
+    },
+    {
+      "sid": "s000260",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains the consequence of subtracting a larger number."
+    },
+    {
+      "sid": "s000261",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Describes how humans handle subtraction of larger numbers."
+    },
+    {
+      "sid": "s000262",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains the implication of reversing positions in subtraction."
+    },
+    {
+      "sid": "s000263",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Mentions borrowing and appending a minus sign."
+    },
+    {
+      "sid": "s000264",
+      "role": "chitchat",
+      "role_score": 0.9,
+      "role_reason": "Short affirmative response, filler."
+    },
+    {
+      "sid": "s000265",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Discusses a potential method for subtraction."
+    },
+    {
+      "sid": "s000266",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "States the drawbacks of that subtraction method."
+    },
+    {
+      "sid": "s000267",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Rejects the previously discussed subtraction method."
+    },
+    {
+      "sid": "s000268",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Suggests there are better methods for subtraction."
+    },
+    {
+      "sid": "s000269",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Proposes an alternative subtraction approach."
+    },
+    {
+      "sid": "s000270",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Sets up a specific subtraction example."
+    },
+    {
+      "sid": "s000271",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains why the result of the example subtraction is negative."
+    },
+    {
+      "sid": "s000272",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Initiates a check of the example numbers."
+    },
+    {
+      "sid": "s000273",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Asks for the decimal values of the binary numbers."
+    },
+    {
+      "sid": "s000274",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Starts calculating the decimal value of the first number."
+    },
+    {
+      "sid": "s000275",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Continues calculating the decimal value of the first number."
+    },
+    {
+      "sid": "s000276",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Asks for confirmation of the calculated value."
+    },
+    {
+      "sid": "s000277",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Confirms the decimal value of the first number."
+    },
+    {
+      "sid": "s000278",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Starts calculating the decimal value of the second number."
+    },
+    {
+      "sid": "s000279",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Calculates the decimal value of the second number."
+    },
+    {
+      "sid": "s000280",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "States the expected decimal result of the subtraction."
+    },
+    {
+      "sid": "s000281",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Proposes to perform the actual binary subtraction."
+    },
+    {
+      "sid": "s000282",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Initiates the binary subtraction process."
+    },
+    {
+      "sid": "s000283",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Performs the first two subtractions."
+    },
+    {
+      "sid": "s000284",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Describes the difficulty of the next subtraction (0 minus 1)."
+    },
+    {
+      "sid": "s000285",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains the borrowing process from the next position."
+    },
+    {
+      "sid": "s000286",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Details the borrowing and its effect on the current and next position."
+    },
+    {
+      "sid": "s000287",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Clarifies the binary value created by borrowing."
+    },
+    {
+      "sid": "s000288",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Mentions the possibility of borrowing again."
+    },
+    {
+      "sid": "s000289",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains the effect of borrowing on the next position."
+    },
+    {
+      "sid": "s000290",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Performs two more subtractions."
+    },
+    {
+      "sid": "s000291",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Identifies the next subtraction to be performed."
+    },
+    {
+      "sid": "s000292",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Notes the inability to borrow from the next position."
+    },
+    {
+      "sid": "s000293",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Describes a temporary fix involving adding a bit."
+    },
+    {
+      "sid": "s000294",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains the purpose of the temporary fix."
+    },
+    {
+      "sid": "s000295",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Details the borrowing process after the temporary fix."
+    },
+    {
+      "sid": "s000296",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Performs a subtraction after borrowing."
+    },
+    {
+      "sid": "s000297",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Asks about the value of the result so far."
+    },
+    {
+      "sid": "s000298",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Calculates the decimal value of the current result."
+    },
+    {
+      "sid": "s000299",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Confirms the decimal value."
+    },
+    {
+      "sid": "s000300",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Notes that the current result's magnitude is incorrect."
+    },
+    {
+      "sid": "s000301",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "States the desired magnitude."
+    },
+    {
+      "sid": "s000302",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Clarifies that the sign might be wrong."
+    },
+    {
+      "sid": "s000303",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Reiterates the target magnitude."
+    },
+    {
+      "sid": "s000304",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Asks about the binary representation of the expected negative result."
+    },
+    {
+      "sid": "s000305",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Starts stating the expected binary representation."
+    },
+    {
+      "sid": "s000306",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Provides the expected binary representation with five bits."
+    },
+    {
+      "sid": "s000307",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Confirms this is the desired answer."
+    },
+    {
+      "sid": "s000308",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Introduces the concept of an 'end borrow'."
+    },
+    {
+      "sid": "s000309",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "States the necessity of an 'end borrow'."
+    },
+    {
+      "sid": "s000310",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Mentions two implications of the end borrow."
+    },
+    {
+      "sid": "s000311",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "States the first implication: the result is negative."
+    },
+    {
+      "sid": "s000312",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains when an end borrow would not be needed."
+    },
+    {
+      "sid": "s000313",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Describes the condition for a positive result in subtraction."
+    },
+    {
+      "sid": "s000314",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Reiterates that an end borrow implies a negative result."
+    },
+    {
+      "sid": "s000315",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Confirms that an end borrow occurred."
+    },
+    {
+      "sid": "s000316",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "States the two consequences of an end borrow."
+    },
+    {
+      "sid": "s000317",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Asks to consider the meaning of the end borrow."
+    },
+    {
+      "sid": "s000318",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains what the end borrow effectively adds."
+    },
+    {
+      "sid": "s000319",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Clarifies the effect of adding the bit."
+    },
+    {
+      "sid": "s000320",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Provides a formula for the calculated value."
+    },
+    {
+      "sid": "s000321",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Identifies the term 2 to the N in the formula."
+    },
+    {
+      "sid": "s000322",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains the role of 2 to the N in the context of the borrow."
+    },
+    {
+      "sid": "s000323",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Refers to the desired magnitude."
+    },
+    {
+      "sid": "s000324",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Compares the calculated value to the desired value."
+    },
+    {
+      "sid": "s000325",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "States that the goal is to find the magnitude."
+    },
+    {
+      "sid": "s000326",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Restates the desired magnitude calculation."
+    },
+    {
+      "sid": "s000327",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Reminds about the condition for subtraction."
+    },
+    {
+      "sid": "s000328",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Mentions appending a minus sign."
+    },
+    {
+      "sid": "s000329",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains how to get the correct magnitude and validates the formula."
+    },
+    {
+      "sid": "s000330",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Proposes to verify the formula."
+    },
+    {
+      "sid": "s000331",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "States the value of 2 to the N."
+    },
+    {
+      "sid": "s000332",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "States the calculated value and its formula."
+    },
+    {
+      "sid": "s000333",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Initiates the subtraction to verify the formula."
+    },
+    {
+      "sid": "s000334",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Describes the first subtraction step."
+    },
+    {
+      "sid": "s000335",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Notes the need to borrow."
+    },
+    {
+      "sid": "s000336",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains the extent of borrowing required."
+    },
+    {
+      "sid": "s000337",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Details the first step of borrowing."
+    },
+    {
+      "sid": "s000338",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Describes the next borrowing step."
+    },
+    {
+      "sid": "s000339",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains the result of the borrowing."
+    },
+    {
+      "sid": "s000340",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Continues describing the borrowing process."
+    },
+    {
+      "sid": "s000341",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Clarifies the value created by borrowing."
+    },
+    {
+      "sid": "s000342",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Describes another borrowing step."
+    },
+    {
+      "sid": "s000343",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "States the value created by the latest borrow."
+    },
+    {
+      "sid": "s000344",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains the final borrowing step and its result."
+    },
+    {
+      "sid": "s000345",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Performs a subtraction after borrowing."
+    },
+    {
+      "sid": "s000346",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Performs the remaining subtractions."
+    },
+    {
+      "sid": "s000347",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Asks if the result is correct."
+    },
+    {
+      "sid": "s000348",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Reiterates the need to append a minus sign."
+    },
+    {
+      "sid": "s000349",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Confirms that the calculated result is the correct one."
+    },
+    {
+      "sid": "s000350",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Asks about the process used."
+    },
+    {
+      "sid": "s000351",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Introduces the steps for subtraction."
+    },
+    {
+      "sid": "s000352",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "States the first step: subtracting N-digit numbers."
+    },
+    {
+      "sid": "s000353",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Specifies the operation as M minus N in binary."
+    },
+    {
+      "sid": "s000354",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "States the second step: computing M minus N."
+    },
+    {
+      "sid": "s000355",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Describes the condition for a non-negative result."
+    },
+    {
+      "sid": "s000356",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Clarifies the meaning of a non-negative difference."
+    },
+    {
+      "sid": "s000357",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains the condition for not needing an end borrow."
+    },
+    {
+      "sid": "s000358",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Specifies the condition for a non-negative result."
+    },
+    {
+      "sid": "s000359",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "States the condition that necessitates an end borrow."
+    },
+    {
+      "sid": "s000360",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Introduces the next step if an end borrow occurs."
+    },
+    {
+      "sid": "s000361",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains the steps for handling an end borrow and introduces two's complement."
+    },
+    {
+      "sid": "s000362",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Introduces a new example for subtraction."
+    },
+    {
+      "sid": "s000363",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Specifies the number of bits for the example."
+    },
+    {
+      "sid": "s000364",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Provides the first binary number for the example."
+    },
+    {
+      "sid": "s000365",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Confirms the number of bits."
+    },
+    {
+      "sid": "s000366",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Provides the second binary number for the example."
+    },
+    {
+      "sid": "s000367",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "States the intention to perform the subtraction."
+    },
+    {
+      "sid": "s000368",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Provides the decimal values of the example numbers."
+    },
+    {
+      "sid": "s000369",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "States the expected result of the subtraction."
+    },
+    {
+      "sid": "s000370",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Predicts the outcome of the initial subtraction."
+    },
+    {
+      "sid": "s000371",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Asks what to do in this situation."
+    },
+    {
+      "sid": "s000372",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Begins the binary subtraction process for the example."
+    },
+    {
+      "sid": "s000373",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Describes the borrowing process."
+    },
+    {
+      "sid": "s000374",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Performs a subtraction after borrowing."
+    },
+    {
+      "sid": "s000375",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Identifies the next subtraction requiring a borrow."
+    },
+    {
+      "sid": "s000376",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Details the extensive borrowing process."
+    },
+    {
+      "sid": "s000377",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "States the value created by borrowing."
+    },
+    {
+      "sid": "s000378",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Performs two subtractions."
+    },
+    {
+      "sid": "s000379",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Performs the remaining subtractions."
+    },
+    {
+      "sid": "s000380",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Notes the occurrence of an 'info' (end borrow)."
+    },
+    {
+      "sid": "s000381",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Describes the action taken to facilitate borrowing."
+    },
+    {
+      "sid": "s000382",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains the result of the borrowing and subtraction."
+    },
+    {
+      "sid": "s000383",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "States an intention not to calculate the current value."
+    },
+    {
+      "sid": "s000384",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Confirms the current result is not the expected negative 50."
+    },
+    {
+      "sid": "s000385",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "States the next required step: taking the two's complement."
+    },
+    {
+      "sid": "s000386",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains how to obtain the two's complement."
+    },
+    {
+      "sid": "s000387",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Refers to the number calculated previously."
+    },
+    {
+      "sid": "s000388",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains the process of subtracting from 2 to the N."
+    },
+    {
+      "sid": "s000389",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Defines N in the context of the calculation."
+    },
+    {
+      "sid": "s000390",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Provides the binary representation of the number to be subtracted."
+    },
+    {
+      "sid": "s000391",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "States the expected outcome of the subtraction."
+    },
+    {
+      "sid": "s000392",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Mentions appending a minus sign."
+    },
+    {
+      "sid": "s000393",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Starts the subtraction process for the two's complement calculation."
+    },
+    {
+      "sid": "s000394",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Details the extensive borrowing required for the subtraction."
+    },
+    {
+      "sid": "s000395",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Performs two subtractions."
+    },
+    {
+      "sid": "s000396",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Performs another subtraction."
+    },
+    {
+      "sid": "s000397",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Performs a subtraction."
+    },
+    {
+      "sid": "s000398",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Performs another subtraction."
+    },
+    {
+      "sid": "s000399",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Performs the final two subtractions."
+    },
+    {
+      "sid": "s000400",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Identifies the resulting binary number."
+    },
+    {
+      "sid": "s000401",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Calculates the decimal value of the result."
+    },
+    {
+      "sid": "s000402",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Confirms the magnitude matches the expected value."
+    },
+    {
+      "sid": "s000403",
+      "role": "chitchat",
+      "role_score": 0.9,
+      "role_reason": "Short affirmative response, filler."
+    },
+    {
+      "sid": "s000404",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Reiterates the need to append a minus sign."
+    },
+    {
+      "sid": "s000405",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "States the final binary result and its decimal equivalent."
+    },
+    {
+      "sid": "s000406",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Summarizes the process followed."
+    },
+    {
+      "sid": "s000407",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Recaps the condition that triggered the end borrow."
+    },
+    {
+      "sid": "s000408",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains the correction step for the magnitude."
+    },
+    {
+      "sid": "s000409",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "States the intention to perform the described operations."
+    },
+    {
+      "sid": "s000410",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Introduces the need for an adder circuit for arithmetic."
+    },
+    {
+      "sid": "s000411",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Confirms the audience knows what an adder looks like."
+    },
+    {
+      "sid": "s000412",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Mentions the need for subtractor and two's complement circuits."
+    },
+    {
+      "sid": "s000413",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Discusses the conditional use of two's complement."
+    },
+    {
+      "sid": "s000414",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Refers to a diagram of a four-bit binary adder."
+    },
+    {
+      "sid": "s000415",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Describes the inputs to the adder."
+    },
+    {
+      "sid": "s000416",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Describes the inputs to a subtractor circuit."
+    },
+    {
+      "sid": "s000417",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "States the output of the adder."
+    },
+    {
+      "sid": "s000418",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains the output of the subtractor and its conditionality."
+    },
+    {
+      "sid": "s000419",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Describes the condition for not performing an end borrow."
+    },
+    {
+      "sid": "s000420",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains the meaning of the status bit from the subtractor."
+    },
+    {
+      "sid": "s000421",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Describes the function of the selective two's complementer."
+    },
+    {
+      "sid": "s000422",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "States the output when no two's complement is needed."
+    },
+    {
+      "sid": "s000423",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Describes the inputs to the multiplexer."
+    },
+    {
+      "sid": "s000424",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "States the second input to the multiplexer."
+    },
+    {
+      "sid": "s000425",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains the possible outputs of the multiplexer."
+    },
+    {
+      "sid": "s000426",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "States that the output depends on the select input."
+    },
+    {
+      "sid": "s000427",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Describes the multiplexer's size."
+    },
+    {
+      "sid": "s000428",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Mentions the number of select bits needed."
+    },
+    {
+      "sid": "s000429",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Refers to the diagram's notation."
+    },
+    {
+      "sid": "s000430",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains the meaning of the 'Subtract/Add' notation."
+    },
+    {
+      "sid": "s000431",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains the operation when the select bit is zero."
+    },
+    {
+      "sid": "s000432",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Describes the multiplexer's behavior with a select bit of zero."
+    },
+    {
+      "sid": "s000433",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Describes the multiplexer's behavior with a select bit of one."
+    },
+    {
+      "sid": "s000434",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Describes the scenario where B is larger than A."
+    },
+    {
+      "sid": "s000435",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains the consequence of an end borrow on the status bit."
+    },
+    {
+      "sid": "s000436",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Describes the action of the selective two's complementer."
+    },
+    {
+      "sid": "s000437",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains the subtraction performed by the two's complementer."
+    },
+    {
+      "sid": "s000438",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "States that the circuit achieves the correct magnitude."
+    },
+    {
+      "sid": "s000439",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Confirms the circuit's functionality."
+    },
+    {
+      "sid": "s000440",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Suggests there are simpler methods."
+    },
+    {
+      "sid": "s000441",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Proposes combining adder and subtractor circuits."
+    },
+    {
+      "sid": "s000442",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "States the benefit of a common circuit."
+    },
+    {
+      "sid": "s000443",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Indicates the direction of the lecture's focus."
+    },
+    {
+      "sid": "s000444",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Introduces two's complement arithmetic."
+    },
+    {
+      "sid": "s000445",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "States the representation of numbers using two's complement."
+    },
+    {
+      "sid": "s000446",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Announces the explanation of one's complement."
+    },
+    {
+      "sid": "s000447",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Outlines the topics to be covered: two's complement and complements."
+    },
+    {
+      "sid": "s000448",
+      "role": "chitchat",
+      "role_score": 0.9,
+      "role_reason": "Short affirmative response, filler."
+    },
+    {
+      "sid": "s000449",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Introduces the concept of tens complement."
+    },
+    {
+      "sid": "s000450",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Provides an example of tens complement."
+    },
+    {
+      "sid": "s000451",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains the calculation for a two-digit number."
+    },
+    {
+      "sid": "s000452",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Gives an example of tens complement for a two-digit number."
+    },
+    {
+      "sid": "s000453",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Summarizes the idea of complements."
+    },
+    {
+      "sid": "s000454",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Introduces another type of complement."
+    },
+    {
+      "sid": "s000455",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Defines radix complement."
+    },
+    {
+      "sid": "s000456",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Gives an example of fives complement."
+    },
+    {
+      "sid": "s000457",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Provides an example of fives complement for a single digit."
+    },
+    {
+      "sid": "s000458",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Provides an example of fives complement for a two-digit number."
+    },
+    {
+      "sid": "s000459",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Introduces diminished radix complement."
+    },
+    {
+      "sid": "s000460",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Defines diminished radix complement."
+    },
+    {
+      "sid": "s000461",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Starts defining diminished radix complement for base 5."
+    },
+    {
+      "sid": "s000462",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Specifies the diminished radix complement for base 5."
+    },
+    {
+      "sid": "s000463",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Gives an example of diminished radix complement."
+    },
+    {
+      "sid": "s000464",
+      "role": "announcement",
+      "role_score": 0.95,
+      "role_reason": "Announces a break and future discussion topics."
+    },
+    {
+      "sid": "s000465",
+      "role": "chitchat",
+      "role_score": 0.9,
+      "role_reason": "Filler phrase."
+    },
+    {
+      "sid": "s000466",
+      "role": "chitchat",
+      "role_score": 0.9,
+      "role_reason": "Filler phrase indicating time remaining."
+    },
+    {
+      "sid": "s000467",
+      "role": "announcement",
+      "role_score": 0.95,
+      "role_reason": "Mentions resources posted on Bruin Learn."
+    },
+    {
+      "sid": "s000468",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Relates lecture content to potential student confusion."
+    },
+    {
+      "sid": "s000469",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Refers to the current point in the lecture."
+    },
+    {
+      "sid": "s000470",
+      "role": "qa",
+      "role_score": 0.95,
+      "role_reason": "Implied student question about the process."
+    },
+    {
+      "sid": "s000471",
+      "role": "announcement",
+      "role_score": 0.95,
+      "role_reason": "Directs students to specific resources on Bruin Learn."
+    },
+    {
+      "sid": "s000472",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Mentions topics covered in the referenced resource."
+    },
+    {
+      "sid": "s000473",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Connects resource content to lecture material."
+    },
+    {
+      "sid": "s000474",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Highlights a specific page within the resource."
+    },
+    {
+      "sid": "s000475",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Describes the content of the referenced page."
+    },
+    {
+      "sid": "s000476",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Recommends the videos and their source."
+    },
+    {
+      "sid": "s000477",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Suggests watching the videos if confused."
+    },
+    {
+      "sid": "s000478",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Summarizes the topics covered in the videos."
+    },
+    {
+      "sid": "s000479",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Comments on the length of the videos."
+    },
+    {
+      "sid": "s000480",
+      "role": "chitchat",
+      "role_score": 0.9,
+      "role_reason": "Filler phrase."
+    },
+    {
+      "sid": "s000481",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Praises the quality of the videos."
+    },
+    {
+      "sid": "s000482",
+      "role": "announcement",
+      "role_score": 0.95,
+      "role_reason": "Announces the current time and upcoming break."
+    },
+    {
+      "sid": "s000483",
+      "role": "announcement",
+      "role_score": 0.95,
+      "role_reason": "Announces a 10-minute break."
+    },
+    {
+      "sid": "s000484",
+      "role": "announcement",
+      "role_score": 0.95,
+      "role_reason": "States the time for reconvening and references previous topic."
+    },
+    {
+      "sid": "s000485",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Recalls the previous topic of N's complement numbers."
+    },
+    {
+      "sid": "s000486",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Emphasizes the binary nature of the system."
+    },
+    {
+      "sid": "s000487",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "States the available digits in binary."
+    },
+    {
+      "sid": "s000488",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Specifies the relevant complement types for binary."
+    },
+    {
+      "sid": "s000489",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "States that only two complement types are relevant."
+    },
+    {
+      "sid": "s000490",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Dismisses the possibility of 0's complement."
+    },
+    {
+      "sid": "s000491",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Announces the discussion of 1's complement."
+    },
+    {
+      "sid": "s000492",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Introduces the definition of 1's complement for binary numbers."
+    },
+    {
+      "sid": "s000493",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Definition of 1's complement for an N-digit binary number."
+    },
+    {
+      "sid": "s000494",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains the formula for 1's complement."
+    },
+    {
+      "sid": "s000495",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Clarifies the binary representation of 2 to the N."
+    },
+    {
+      "sid": "s000496",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Transition sentence, leading into a reminder."
+    },
+    {
+      "sid": "s000497",
+      "role": "lecture",
+      "role_score": 0.85,
+      "role_reason": "Reminds students of a previous concept."
+    },
+    {
+      "sid": "s000498",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Connects current topic to a past homework assignment."
+    },
+    {
+      "sid": "s000499",
+      "role": "lecture",
+      "role_score": 0.85,
+      "role_reason": "Describes the nature of the previous assignment."
+    },
+    {
+      "sid": "s000500",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Acknowledges potential student perception of past work."
+    },
+    {
+      "sid": "s000501",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "References a specific question from a previous assignment."
+    },
+    {
+      "sid": "s000502",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Sets up an example from a previous question."
+    },
+    {
+      "sid": "s000503",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Recalls a specific question about maximum binary number storage."
+    },
+    {
+      "sid": "s000504",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Clarifies the number of bits in the previous example."
+    },
+    {
+      "sid": "s000505",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains the calculation for 7 bits."
+    },
+    {
+      "sid": "s000506",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Defines the binary representation of 2 to the 8th."
+    },
+    {
+      "sid": "s000507",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains the calculation for 2 to the 8th minus 1."
+    },
+    {
+      "sid": "s000508",
+      "role": "lecture",
+      "role_score": 0.85,
+      "role_reason": "Instructs students to remember the previous explanation."
+    },
+    {
+      "sid": "s000509",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Short confirmation, contextually part of lecture."
+    },
+    {
+      "sid": "s000510",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Provides a concrete example for N=4."
+    },
+    {
+      "sid": "s000511",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Calculates 2 to the N minus 1 for N=4."
+    },
+    {
+      "sid": "s000512",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Summarizes the concept of one's complement."
+    },
+    {
+      "sid": "s000513",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Provides a more formal definition of one's complement."
+    },
+    {
+      "sid": "s000514",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explains the meaning of 'n ones' in the context."
+    },
+    {
+      "sid": "s000515",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Gives an example for N=8."
+    },
+    {
+      "sid": "s000516",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Gives an example for N=4."
+    },
+    {
+      "sid": "s000517",
+      "role": "lecture",
+      "role_score": 0.85,
+      "role_reason": "Transition to explaining the subtraction process."
+    },
+    {
+      "sid": "s000518",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explains the subtraction operation in the context."
+    },
+    {
+      "sid": "s000519",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains the bit-wise subtraction from one."
+    },
+    {
+      "sid": "s000520",
+      "role": "lecture",
+      "role_score": 0.85,
+      "role_reason": "Comments on the nature of the operation."
+    },
+    {
+      "sid": "s000521",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains the result of 1 minus 0."
+    },
+    {
+      "sid": "s000522",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains the result of 1 minus 1."
+    },
+    {
+      "sid": "s000523",
+      "role": "lecture",
+      "role_score": 0.85,
+      "role_reason": "Draws attention to a specific observation."
+    },
+    {
+      "sid": "s000524",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Reiterates the subtraction from one."
+    },
+    {
+      "sid": "s000525",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains the complement result of subtracting 0 from 1."
+    },
+    {
+      "sid": "s000526",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains the complement result of subtracting 1 from 1."
+    },
+    {
+      "sid": "s000527",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Generalizes the bit-wise complement outcome."
+    },
+    {
+      "sid": "s000528",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Introduces a specific binary number for an example."
+    },
+    {
+      "sid": "s000529",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "States the operation to be performed on the example number."
+    },
+    {
+      "sid": "s000530",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Specifies the number of bits for the example."
+    },
+    {
+      "sid": "s000531",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Clarifies the value being subtracted from."
+    },
+    {
+      "sid": "s000532",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Performs the first bit subtraction in the example."
+    },
+    {
+      "sid": "s000533",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Performs subsequent bit subtractions in the example."
+    },
+    {
+      "sid": "s000534",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Continues the bit subtraction in the example."
+    },
+    {
+      "sid": "s000535",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Continues the bit subtraction in the example."
+    },
+    {
+      "sid": "s000536",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Completes the bit subtraction in the example."
+    },
+    {
+      "sid": "s000537",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Observes the relationship between the numbers."
+    },
+    {
+      "sid": "s000538",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Concludes the example and relates it to one's complement."
+    },
+    {
+      "sid": "s000539",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Summarizes the ease of calculating one's complement."
+    },
+    {
+      "sid": "s000540",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "States the simple method for one's complement."
+    },
+    {
+      "sid": "s000541",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Provides an example and reiterates the definition."
+    },
+    {
+      "sid": "s000542",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Reiterates the simplicity of one's complement calculation."
+    },
+    {
+      "sid": "s000543",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Introduces the topic of two's complement."
+    },
+    {
+      "sid": "s000544",
+      "role": "lecture",
+      "role_score": 0.85,
+      "role_reason": "Transition to definition."
+    },
+    {
+      "sid": "s000545",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Defines two's complement for N-digit binary numbers."
+    },
+    {
+      "sid": "s000546",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explains the constraint on the result's bit length."
+    },
+    {
+      "sid": "s000547",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "States the relationship between two's and one's complement."
+    },
+    {
+      "sid": "s000548",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Highlights the usefulness of two's complement."
+    },
+    {
+      "sid": "s000549",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains how to obtain two's complement from one's complement."
+    },
+    {
+      "sid": "s000550",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Shows the formula for two's complement using one's complement."
+    },
+    {
+      "sid": "s000551",
+      "role": "lecture",
+      "role_score": 0.85,
+      "role_reason": "Confirms the equality of the expressions."
+    },
+    {
+      "sid": "s000552",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Relates calculation of two's complement to one's complement."
+    },
+    {
+      "sid": "s000553",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Reiterates the method for one's complement."
+    },
+    {
+      "sid": "s000554",
+      "role": "lecture",
+      "role_score": 0.85,
+      "role_reason": "Points to the significance of the previous statement."
+    },
+    {
+      "sid": "s000555",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "States the relationship between two's and one's complement again."
+    },
+    {
+      "sid": "s000556",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Introduces an example for two's complement calculation."
+    },
+    {
+      "sid": "s000557",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Provides the binary number for the example."
+    },
+    {
+      "sid": "s000558",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Specifies the number of bits for the example."
+    },
+    {
+      "sid": "s000559",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Short confirmation, contextually part of lecture."
+    },
+    {
+      "sid": "s000560",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "States the first step in the example calculation."
+    },
+    {
+      "sid": "s000561",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains how to calculate the one's complement."
+    },
+    {
+      "sid": "s000562",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Shows the result of the one's complement."
+    },
+    {
+      "sid": "s000563",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "States the next step in the two's complement calculation."
+    },
+    {
+      "sid": "s000564",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Performs the addition of one in the example."
+    },
+    {
+      "sid": "s000565",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains the carry operation in the addition."
+    },
+    {
+      "sid": "s000566",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Shows the result of the addition step."
+    },
+    {
+      "sid": "s000567",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Identifies the final result of the example."
+    },
+    {
+      "sid": "s000568",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Summarizes the process for calculating two's complement."
+    },
+    {
+      "sid": "s000569",
+      "role": "lecture",
+      "role_score": 0.85,
+      "role_reason": "Confirms the method."
+    },
+    {
+      "sid": "s000570",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Discusses the historical use of complement systems for negative numbers."
+    },
+    {
+      "sid": "s000571",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Introduces a third method for representing negative numbers."
+    },
+    {
+      "sid": "s000572",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Names the third method: signed binary numbers."
+    },
+    {
+      "sid": "s000573",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Notes the previous focus on positive integers."
+    },
+    {
+      "sid": "s000574",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Confirms the previous focus on positive integers."
+    },
+    {
+      "sid": "s000575",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains the need for indicating negative numbers."
+    },
+    {
+      "sid": "s000576",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Relates the leftmost bit to negative values in complement systems."
+    },
+    {
+      "sid": "s000577",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains the concept of a sign bit."
+    },
+    {
+      "sid": "s000578",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Reiterates the ability to explicitly assign the sign bit."
+    },
+    {
+      "sid": "s000579",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Assigns a name to the high-order bit."
+    },
+    {
+      "sid": "s000580",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Introduces notation for the high-order bit."
+    },
+    {
+      "sid": "s000581",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains the meaning of a zero in the high-order bit."
+    },
+    {
+      "sid": "s000582",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains the meaning of a one in the high-order bit."
+    },
+    {
+      "sid": "s000583",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Confirms the indication of a negative number."
+    },
+    {
+      "sid": "s000584",
+      "role": "lecture",
+      "role_score": 0.85,
+      "role_reason": "Suggests an alternative interpretation of the sign bit."
+    },
+    {
+      "sid": "s000585",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains the signed magnitude system's interpretation of bits."
+    },
+    {
+      "sid": "s000586",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Highlights the need to interpret bit strings."
+    },
+    {
+      "sid": "s000587",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Emphasizes the importance of pre-defined interpretation."
+    },
+    {
+      "sid": "s000588",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Provides an example of interpreting a bit string."
+    },
+    {
+      "sid": "s000589",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "States the alternative interpretation for the example."
+    },
+    {
+      "sid": "s000590",
+      "role": "lecture",
+      "role_score": 0.85,
+      "role_reason": "Notes the distinction between interpretations."
+    },
+    {
+      "sid": "s000591",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Clarifies that the value is the same."
+    },
+    {
+      "sid": "s000592",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Refers to the signed integer interpretation."
+    },
+    {
+      "sid": "s000593",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Provides another example of interpretation."
+    },
+    {
+      "sid": "s000594",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains the negative interpretation based on the sign bit."
+    },
+    {
+      "sid": "s000595",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Names the system being described."
+    },
+    {
+      "sid": "s000596",
+      "role": "lecture",
+      "role_score": 0.85,
+      "role_reason": "Mentions the usage of this system."
+    },
+    {
+      "sid": "s000597",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Describes the signed magnitude system as intuitive."
+    },
+    {
+      "sid": "s000598",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Notes the implementation complexity."
+    },
+    {
+      "sid": "s000599",
+      "role": "lecture",
+      "role_score": 0.85,
+      "role_reason": "Refers to a visual aid in the textbook."
+    },
+    {
+      "sid": "s000600",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "States the purpose of the chart."
+    },
+    {
+      "sid": "s000601",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Points out the sign bit in the chart."
+    },
+    {
+      "sid": "s000602",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Describes the representation of positive numbers in the chart."
+    },
+    {
+      "sid": "s000603",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Specifies the number of bits used for magnitude."
+    },
+    {
+      "sid": "s000604",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains the allocation of bits for sign and magnitude."
+    },
+    {
+      "sid": "s000605",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Describes the representation of negative numbers in the chart."
+    },
+    {
+      "sid": "s000606",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains how to recover the magnitude from the representation."
+    },
+    {
+      "sid": "s000607",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Compares the intuitiveness of different systems."
+    },
+    {
+      "sid": "s000608",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Names the signed versions of complement systems."
+    },
+    {
+      "sid": "s000609",
+      "role": "lecture",
+      "role_score": 0.85,
+      "role_reason": "Expresses a personal preference regarding terminology."
+    },
+    {
+      "sid": "s000610",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains the role of the leftmost bit in signed complement systems."
+    },
+    {
+      "sid": "s000611",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains positive number representation in signed complement."
+    },
+    {
+      "sid": "s000612",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Provides an example of positive number representation."
+    },
+    {
+      "sid": "s000613",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Shows the one's complement representation of negative one."
+    },
+    {
+      "sid": "s000614",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Shows the two's complement representation of negative one."
+    },
+    {
+      "sid": "s000615",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Highlights the distinction between positive and negative numbers."
+    },
+    {
+      "sid": "s000616",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Compares positive number representation across systems."
+    },
+    {
+      "sid": "s000617",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Shows the one's complement representation of positive one."
+    },
+    {
+      "sid": "s000618",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Shows the two's complement representation of negative one."
+    },
+    {
+      "sid": "s000619",
+      "role": "lecture",
+      "role_score": 0.85,
+      "role_reason": "Confirms the result in the chart."
+    },
+    {
+      "sid": "s000620",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Discusses the issue of dual zero representation."
+    },
+    {
+      "sid": "s000621",
+      "role": "lecture",
+      "role_score": 0.85,
+      "role_reason": "Comments on the inelegant nature of dual zero."
+    },
+    {
+      "sid": "s000622",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "States that two's complement avoids dual zero."
+    },
+    {
+      "sid": "s000623",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains why two's complement is efficient."
+    },
+    {
+      "sid": "s000624",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "States the prevalence of two's complement in systems."
+    },
+    {
+      "sid": "s000625",
+      "role": "lecture",
+      "role_score": 0.85,
+      "role_reason": "Mentions historical usage of different systems."
+    },
+    {
+      "sid": "s000626",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Suggests continued usage of some systems."
+    },
+    {
+      "sid": "s000627",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "States the popularity of two's complement."
+    },
+    {
+      "sid": "s000628",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains subtraction using two's complement."
+    },
+    {
+      "sid": "s000629",
+      "role": "lecture",
+      "role_score": 0.85,
+      "role_reason": "Relates the process to previous operations."
+    },
+    {
+      "sid": "s000630",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains the outcome of subtraction when M > N."
+    },
+    {
+      "sid": "s000631",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains the outcome of subtraction when M < N."
+    },
+    {
+      "sid": "s000632",
+      "role": "lecture",
+      "role_score": 0.85,
+      "role_reason": "Comments on the practical implementation."
+    },
+    {
+      "sid": "s000633",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "States the assumption for practical two's complement arithmetic."
+    },
+    {
+      "sid": "s000634",
+      "role": "lecture",
+      "role_score": 0.85,
+      "role_reason": "Suggests the system handles operations automatically."
+    },
+    {
+      "sid": "s000635",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Introduces variables for an example calculation."
+    },
+    {
+      "sid": "s000636",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Transition to providing the values."
+    },
+    {
+      "sid": "s000637",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Provides the binary values for the example."
+    },
+    {
+      "sid": "s000638",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "States the calculations to be performed in the example."
+    },
+    {
+      "sid": "s000639",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Identifies the larger number in the example."
+    },
+    {
+      "sid": "s000640",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Transition to performing the calculation."
+    },
+    {
+      "sid": "s000641",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Specifies the first calculation to perform."
+    },
+    {
+      "sid": "s000642",
+      "role": "lecture",
+      "role_score": 0.85,
+      "role_reason": "Reminds students of the subtraction process."
+    },
+    {
+      "sid": "s000643",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains subtraction as adding the negative."
+    },
+    {
+      "sid": "s000644",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Starts the two's complement calculation for Y."
+    },
+    {
+      "sid": "s000645",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Calculates the one's complement of Y."
+    },
+    {
+      "sid": "s000646",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Calculates the two's complement of Y."
+    },
+    {
+      "sid": "s000647",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Short confirmation, contextually part of lecture."
+    },
+    {
+      "sid": "s000648",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Identifies the calculated value as negative Y."
+    },
+    {
+      "sid": "s000649",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "States the next step: adding X."
+    },
+    {
+      "sid": "s000650",
+      "role": "lecture",
+      "role_score": 0.85,
+      "role_reason": "Indicates the addition operation."
+    },
+    {
+      "sid": "s000651",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Performs the first bit addition."
+    },
+    {
+      "sid": "s000652",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains the carry operation."
+    },
+    {
+      "sid": "s000653",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Performs subsequent bit additions and carries."
+    },
+    {
+      "sid": "s000654",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Continues the addition and carry operations."
+    },
+    {
+      "sid": "s000655",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Completes the addition and handles the carry-out."
+    },
+    {
+      "sid": "s000656",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Identifies the result as a positive number."
+    },
+    {
+      "sid": "s000657",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Labels the result of the calculation."
+    },
+    {
+      "sid": "s000658",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Summarizes the method used for subtraction."
+    },
+    {
+      "sid": "s000659",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Confirmation of the previous statement."
+    },
+    {
+      "sid": "s000660",
+      "role": "qa",
+      "role_score": 0.95,
+      "role_reason": "Student question about double two's complement."
+    },
+    {
+      "sid": "s000661",
+      "role": "qa",
+      "role_score": 0.95,
+      "role_reason": "Professor's direct answer to the question."
+    },
+    {
+      "sid": "s000662",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explains a personal method for checking magnitudes."
+    },
+    {
+      "sid": "s000663",
+      "role": "lecture",
+      "role_score": 0.85,
+      "role_reason": "Describes the appearance of two's complement."
+    },
+    {
+      "sid": "s000664",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Notes that two's complement doesn't resemble the original number."
+    },
+    {
+      "sid": "s000665",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Short confirmation, contextually part of lecture."
+    },
+    {
+      "sid": "s000666",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains how to use double two's complement for checking."
+    },
+    {
+      "sid": "s000667",
+      "role": "lecture",
+      "role_score": 0.8,
+      "role_reason": "Confirmation of the previous statement."
+    },
+    {
+      "sid": "s000668",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Labels the completed calculation."
+    },
+    {
+      "sid": "s000669",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Short confirmation, contextually part of lecture."
+    },
+    {
+      "sid": "s000670",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "States the next calculation to perform."
+    },
+    {
+      "sid": "s000671",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Predicts the outcome of the next calculation."
+    },
+    {
+      "sid": "s000672",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Justifies the prediction based on number sizes."
+    },
+    {
+      "sid": "s000673",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "States the specific calculation to be performed."
+    },
+    {
+      "sid": "s000674",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Provides the value of X for the calculation."
+    },
+    {
+      "sid": "s000675",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "States the goal: to get negative X."
+    },
+    {
+      "sid": "s000676",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Identifies the method to get negative X."
+    },
+    {
+      "sid": "s000677",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Calculates the one's complement of X."
+    },
+    {
+      "sid": "s000678",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains the process of complementing and adding one."
+    },
+    {
+      "sid": "s000679",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Short confirmation, contextually part of lecture."
+    },
+    {
+      "sid": "s000680",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Performs the addition of one in the two's complement calculation."
+    },
+    {
+      "sid": "s000681",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains the carry operation during addition."
+    },
+    {
+      "sid": "s000682",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Continues the addition and carry operations."
+    },
+    {
+      "sid": "s000683",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Performs a bit addition in the calculation."
+    },
+    {
+      "sid": "s000684",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Shows the result of the two's complement calculation."
+    },
+    {
+      "sid": "s000685",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Identifies the result as negative X."
+    },
+    {
+      "sid": "s000686",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Performs the addition of Y to negative X."
+    },
+    {
+      "sid": "s000687",
+      "role": "lecture",
+      "role_score": 0.85,
+      "role_reason": "Indicates discarding the carry-out."
+    },
+    {
+      "sid": "s000688",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Points out the sign bit of the result."
+    },
+    {
+      "sid": "s000689",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Confirms the result is negative."
+    },
+    {
+      "sid": "s000690",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Labels the result of the calculation."
+    },
+    {
+      "sid": "s000691",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Summarizes the general subtraction method."
+    },
+    {
+      "sid": "s000692",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains the benefit of two's complement for subtraction."
+    },
+    {
+      "sid": "s000693",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "States that the operation becomes addition."
+    },
+    {
+      "sid": "s000694",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains how this simplifies hardware design."
+    },
+    {
+      "sid": "s000695",
+      "role": "lecture",
+      "role_score": 0.85,
+      "role_reason": "Transition to illustrating the hardware implementation."
+    },
+    {
+      "sid": "s000696",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Refers to a previously discussed adder circuit."
+    },
+    {
+      "sid": "s000697",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Describes the functionality of the adder circuit."
+    },
+    {
+      "sid": "s000698",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains how to modify the adder for subtraction."
+    },
+    {
+      "sid": "s000699",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains the effect of complementing the B input bits."
+    },
+    {
+      "sid": "s000700",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Short confirmation, contextually part of lecture."
+    },
+    {
+      "sid": "s000701",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "States the result of complementing B inputs."
+    },
+    {
+      "sid": "s000702",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains the effect of setting carry-in to 1."
+    },
+    {
+      "sid": "s000703",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "States the overall operation performed."
+    },
+    {
+      "sid": "s000704",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Concludes that the circuit now performs subtraction."
+    },
+    {
+      "sid": "s000705",
+      "role": "lecture",
+      "role_score": 0.85,
+      "role_reason": "Confirms understanding of the explanation."
+    },
+    {
+      "sid": "s000706",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Emphasizes the importance of the explanation."
+    },
+    {
+      "sid": "s000707",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Repeats the explanation of one's complement."
+    },
+    {
+      "sid": "s000708",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Repeats the explanation of two's complement."
+    },
+    {
+      "sid": "s000709",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains the meaning of adding two's complement of B."
+    },
+    {
+      "sid": "s000710",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "States the final operation performed by the circuit."
+    },
+    {
+      "sid": "s000711",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Recalls the goal of combining circuits."
+    },
+    {
+      "sid": "s000712",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Introduces exclusive OR gates as an alternative to NOT gates."
+    },
+    {
+      "sid": "s000713",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Introduces the variable S for the exclusive OR gate."
+    },
+    {
+      "sid": "s000714",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Short confirmation, contextually part of lecture."
+    },
+    {
+      "sid": "s000715",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains the function of the exclusive OR gate."
+    },
+    {
+      "sid": "s000716",
+      "role": "lecture",
+      "role_score": 0.85,
+      "role_reason": "Divides the explanation of the XOR truth table."
+    },
+    {
+      "sid": "s000717",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains the XOR behavior when S is zero."
+    },
+    {
+      "sid": "s000718",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Short confirmation, contextually part of lecture."
+    },
+    {
+      "sid": "s000719",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains the XOR behavior when S is one."
+    },
+    {
+      "sid": "s000720",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Summarizes the selective complementing property of XOR."
+    },
+    {
+      "sid": "s000721",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Asks about the circuit's behavior when S is zero."
+    },
+    {
+      "sid": "s000722",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains the circuit's operation when S is zero (addition)."
+    },
+    {
+      "sid": "s000723",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Confirms that S=0 results in addition."
+    },
+    {
+      "sid": "s000724",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Sets S to one to demonstrate subtraction."
+    },
+    {
+      "sid": "s000725",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains the effect of S=1 on the B inputs."
+    },
+    {
+      "sid": "s000726",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "States that the operation is now complementing."
+    },
+    {
+      "sid": "s000727",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Shows the complemented B bits."
+    },
+    {
+      "sid": "s000728",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains that this is A plus one's complement of B."
+    },
+    {
+      "sid": "s000729",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Mentions the addition of one (carry-in)."
+    },
+    {
+      "sid": "s000730",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "States that the circuit is now performing A minus B."
+    },
+    {
+      "sid": "s000731",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Labels the circuit's function when S=1."
+    },
+    {
+      "sid": "s000732",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Confirms that S=1 results in subtraction."
+    },
+    {
+      "sid": "s000733",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Discusses the common implementation in general-purpose computers."
+    },
+    {
+      "sid": "s000734",
+      "role": "lecture",
+      "role_score": 0.7,
+      "role_reason": "Short confirmation, contextually part of lecture."
+    },
+    {
+      "sid": "s000735",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Mentions the use of carry lookahead logic."
+    },
+    {
+      "sid": "s000736",
+      "role": "lecture",
+      "role_score": 0.85,
+      "role_reason": "Confirms the described method is standard."
+    },
+    {
+      "sid": "s000737",
+      "role": "lecture",
+      "role_score": 0.85,
+      "role_reason": "Comments on the elegance of the solution."
+    },
+    {
+      "sid": "s000738",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Summarizes the elegance of two's complement for negative numbers."
+    },
+    {
+      "sid": "s000739",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor posing a rhetorical question to transition to an example."
+    },
+    {
+      "sid": "s000740",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor introduces a problem from the homework as an example."
+    },
+    {
+      "sid": "s000741",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor emphasizes the importance of the upcoming problem."
+    },
+    {
+      "sid": "s000742",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor highlights the key takeaway from the current lecture."
+    },
+    {
+      "sid": "s000743",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor describes the circuit and its inputs for the example."
+    },
+    {
+      "sid": "s000744",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor explains the inputs and outputs for the given problem."
+    },
+    {
+      "sid": "s000745",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor lists the output bits for the problem."
+    },
+    {
+      "sid": "s000746",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor explains the function of the circuit in the example."
+    },
+    {
+      "sid": "s000747",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor clarifies the operation performed by the circuit."
+    },
+    {
+      "sid": "s000748",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor advises against tracing logic gates for this problem."
+    },
+    {
+      "sid": "s000749",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor explains why tracing logic gates is not ideal."
+    },
+    {
+      "sid": "s000750",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor elaborates on the difficulty of tracing logic gates."
+    },
+    {
+      "sid": "s000751",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor continues to explain the pitfalls of tracing logic gates."
+    },
+    {
+      "sid": "s000752",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor explains the first case of the example (S=0, addition)."
+    },
+    {
+      "sid": "s000753",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor confirms the operation for the first case."
+    },
+    {
+      "sid": "s000754",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor performs the addition for the first case of the example."
+    },
+    {
+      "sid": "s000755",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor maps the result bits to the output signals."
+    },
+    {
+      "sid": "s000756",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor indicates where to write the calculated values."
+    },
+    {
+      "sid": "s000757",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor discusses discarding the carry-out in arithmetic."
+    },
+    {
+      "sid": "s000758",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor contextualizes the carry-out discussion with a 4-bit computer."
+    },
+    {
+      "sid": "s000759",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor explains the implication of carry-out in a fixed-bit system."
+    },
+    {
+      "sid": "s000760",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor uses a filler word to transition."
+    },
+    {
+      "sid": "s000761",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor notes that hardware still outputs the carry."
+    },
+    {
+      "sid": "s000762",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor clarifies what the problem is asking for."
+    },
+    {
+      "sid": "s000763",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor reiterates the focus on hardware output."
+    },
+    {
+      "sid": "s000764",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor identifies the operation for the second case (S=1, subtraction)."
+    },
+    {
+      "sid": "s000765",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor begins the calculation for subtraction."
+    },
+    {
+      "sid": "s000766",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor adjusts the presentation for clarity."
+    },
+    {
+      "sid": "s000767",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor states the value of B for the subtraction example."
+    },
+    {
+      "sid": "s000768",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor calculates the one's complement of B."
+    },
+    {
+      "sid": "s000769",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor explains the next step: adding 1 for two's complement."
+    },
+    {
+      "sid": "s000770",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor performs the binary addition for two's complement."
+    },
+    {
+      "sid": "s000771",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor continues the binary addition."
+    },
+    {
+      "sid": "s000772",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor continues the binary addition."
+    },
+    {
+      "sid": "s000773",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor continues the binary addition."
+    },
+    {
+      "sid": "s000774",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor describes bringing down a bit."
+    },
+    {
+      "sid": "s000775",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor identifies the result as negative B."
+    },
+    {
+      "sid": "s000776",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor states the decimal value of B."
+    },
+    {
+      "sid": "s000777",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor confirms the decimal value."
+    },
+    {
+      "sid": "s000778",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor refers to a table and performs addition for negative B."
+    },
+    {
+      "sid": "s000779",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor acknowledges a previous calculation."
+    },
+    {
+      "sid": "s000780",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor uses a filler word."
+    },
+    {
+      "sid": "s000781",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor describes adding A to the two's complement of B."
+    },
+    {
+      "sid": "s000782",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor indicates the need for borrowing in subtraction."
+    },
+    {
+      "sid": "s000783",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor performs the binary subtraction with borrowing."
+    },
+    {
+      "sid": "s000784",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor self-corrects, realizing they performed subtraction."
+    },
+    {
+      "sid": "s000785",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor thanks someone for the correction."
+    },
+    {
+      "sid": "s000786",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor explains the reason for the self-correction."
+    },
+    {
+      "sid": "s000787",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor uses a filler word."
+    },
+    {
+      "sid": "s000788",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor restates adding A."
+    },
+    {
+      "sid": "s000789",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor states the result of the operation."
+    },
+    {
+      "sid": "s000790",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor seeks confirmation of the result."
+    },
+    {
+      "sid": "s000791",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor states the result makes sense."
+    },
+    {
+      "sid": "s000792",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor verifies the arithmetic result with decimal values."
+    },
+    {
+      "sid": "s000793",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor states the expected result for the subtraction."
+    },
+    {
+      "sid": "s000794",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor explains how the result represents negative one in two's complement."
+    },
+    {
+      "sid": "s000795",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor points to the solution for the subtraction case."
+    },
+    {
+      "sid": "s000796",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor starts explaining the next case (S=0, addition)."
+    },
+    {
+      "sid": "s000797",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor describes the condition for the next case."
+    },
+    {
+      "sid": "s000798",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor identifies the operation for the next case."
+    },
+    {
+      "sid": "s000799",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor states the requirement for the next calculation."
+    },
+    {
+      "sid": "s000800",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor states the value of B for the next case."
+    },
+    {
+      "sid": "s000801",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor calculates the two's complement of B."
+    },
+    {
+      "sid": "s000802",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor states the operation for the next case."
+    },
+    {
+      "sid": "s000803",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor performs the binary addition for the next case."
+    },
+    {
+      "sid": "s000804",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor explains the result and the carry-out for the next case."
+    },
+    {
+      "sid": "s000805",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor introduces the final case (S=0, addition)."
+    },
+    {
+      "sid": "s000806",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor states the operation for the final case."
+    },
+    {
+      "sid": "s000807",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor provides the values of A and B for the final case."
+    },
+    {
+      "sid": "s000808",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor identifies the numbers as negative."
+    },
+    {
+      "sid": "s000809",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor states the decimal values of the numbers."
+    },
+    {
+      "sid": "s000810",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor states the expected result for the final case."
+    },
+    {
+      "sid": "s000811",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor performs the binary addition for the final case."
+    },
+    {
+      "sid": "s000812",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor identifies the binary result and its decimal equivalent."
+    },
+    {
+      "sid": "s000813",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor summarizes the application of the circuit."
+    },
+    {
+      "sid": "s000814",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor reiterates the operation for subtraction."
+    },
+    {
+      "sid": "s000815",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor explains the procedure for subtraction using two's complement."
+    },
+    {
+      "sid": "s000816",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor explains how to compute two's complement."
+    },
+    {
+      "sid": "s000817",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor explains the procedure for addition (S=0)."
+    },
+    {
+      "sid": "s000818",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor introduces the concept of overflow."
+    },
+    {
+      "sid": "s000819",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor asks a question about overflow."
+    },
+    {
+      "sid": "s000820",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor starts to explain overflow."
+    },
+    {
+      "sid": "s000821",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor relates overflow to software development experience."
+    },
+    {
+      "sid": "s000822",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor acknowledges the audience's likely experience with overflow."
+    },
+    {
+      "sid": "s000823",
+      "role": "qa",
+      "role_score": 0.95,
+      "role_reason": "Student question about signed numbers and professor's direct answer."
+    },
+    {
+      "sid": "s000824",
+      "role": "qa",
+      "role_score": 0.95,
+      "role_reason": "Professor's direct answer to the question about signed numbers."
+    },
+    {
+      "sid": "s000825",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor uses a filler word and continues explaining overflow."
+    },
+    {
+      "sid": "s000826",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor defines overflow in terms of bit capacity."
+    },
+    {
+      "sid": "s000827",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor provides examples of overflow conditions."
+    },
+    {
+      "sid": "s000828",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor states a limitation regarding overflow detection."
+    },
+    {
+      "sid": "s000829",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor discusses schemes for handling overflow."
+    },
+    {
+      "sid": "s000830",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor states the most effective overflow handling method."
+    },
+    {
+      "sid": "s000831",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor explains the purpose of overflow detection."
+    },
+    {
+      "sid": "s000832",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor confirms the outcome of overflow detection."
+    },
+    {
+      "sid": "s000833",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor describes how overflow is handled in software."
+    },
+    {
+      "sid": "s000834",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor mentions automatic handling of overflow."
+    },
+    {
+      "sid": "s000835",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor uses a filler word."
+    },
+    {
+      "sid": "s000836",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor emphasizes the need to know about overflow."
+    },
+    {
+      "sid": "s000837",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor explains the significance of detecting overflow."
+    },
+    {
+      "sid": "s000838",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor introduces unsigned integer overflow."
+    },
+    {
+      "sid": "s000839",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor describes unsigned integer overflow as straightforward."
+    },
+    {
+      "sid": "s000840",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor explains the overflow condition for unsigned integers."
+    },
+    {
+      "sid": "s000841",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor states the condition when there is no overflow."
+    },
+    {
+      "sid": "s000842",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor contrasts unsigned with signed integer overflow."
+    },
+    {
+      "sid": "s000843",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor introduces an example for signed integer overflow."
+    },
+    {
+      "sid": "s000844",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor specifies the bit size for the example."
+    },
+    {
+      "sid": "s000845",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor states the range for unsigned 8-bit numbers."
+    },
+    {
+      "sid": "s000846",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor states the range for signed 8-bit numbers (two's complement)."
+    },
+    {
+      "sid": "s000847",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor gives examples of results that would cause overflow."
+    },
+    {
+      "sid": "s000848",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor explains why these results cause overflow."
+    },
+    {
+      "sid": "s000849",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor proposes an example to demonstrate overflow."
+    },
+    {
+      "sid": "s000850",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor explains why adding positive and negative numbers doesn't cause overflow."
+    },
+    {
+      "sid": "s000851",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor identifies conditions that might lead to overflow."
+    },
+    {
+      "sid": "s000852",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor qualifies the previous statement about overflow."
+    },
+    {
+      "sid": "s000853",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor provides the first part of the addition example."
+    },
+    {
+      "sid": "s000854",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor provides the second part of the addition example and asks for the result."
+    },
+    {
+      "sid": "s000855",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor states the sum of the numbers."
+    },
+    {
+      "sid": "s000856",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor confirms the sum."
+    },
+    {
+      "sid": "s000857",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor explains why the result is an overflow."
+    },
+    {
+      "sid": "s000858",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor explains why the number is too big."
+    },
+    {
+      "sid": "s000859",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor provides the second part of the overflow example (negative numbers)."
+    },
+    {
+      "sid": "s000860",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor states the result of the negative number addition and its overflow status."
+    },
+    {
+      "sid": "s000861",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor uses a filler word to transition to binary calculation."
+    },
+    {
+      "sid": "s000862",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor provides the binary representation for positive and negative 95."
+    },
+    {
+      "sid": "s000863",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor provides the binary representation for positive and negative 45."
+    },
+    {
+      "sid": "s000864",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor restates the first addition problem in binary."
+    },
+    {
+      "sid": "s000865",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor states the intention to add the binary numbers."
+    },
+    {
+      "sid": "s000866",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor expresses a desire to avoid a specific action."
+    },
+    {
+      "sid": "s000867",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor makes a comment about software loading times."
+    },
+    {
+      "sid": "s000868",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor explains the reason for the software delay."
+    },
+    {
+      "sid": "s000869",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor states the binary for positive 95 and starts with positive 40."
+    },
+    {
+      "sid": "s000870",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor corrects the value for 40."
+    },
+    {
+      "sid": "s000871",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor provides the correct binary for 40."
+    },
+    {
+      "sid": "s000872",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor states the expected decimal result of the addition."
+    },
+    {
+      "sid": "s000873",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor starts performing the binary addition."
+    },
+    {
+      "sid": "s000874",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor notes the carry bits in the addition."
+    },
+    {
+      "sid": "s000875",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor continues the binary addition."
+    },
+    {
+      "sid": "s000876",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor continues the binary addition."
+    },
+    {
+      "sid": "s000877",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor continues the binary addition."
+    },
+    {
+      "sid": "s000878",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor continues the binary addition."
+    },
+    {
+      "sid": "s000879",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor comments on the significance of the last two carries."
+    },
+    {
+      "sid": "s000880",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor introduces the second addition problem (negative numbers)."
+    },
+    {
+      "sid": "s000881",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor provides the binary for negative 95."
+    },
+    {
+      "sid": "s000882",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor provides the binary for negative 40 and starts addition."
+    },
+    {
+      "sid": "s000883",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor identifies a carry bit."
+    },
+    {
+      "sid": "s000884",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor continues the binary addition."
+    },
+    {
+      "sid": "s000885",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor comments on the carries again."
+    },
+    {
+      "sid": "s000886",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor explains the condition for no overflow related to carries."
+    },
+    {
+      "sid": "s000887",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor points out an issue with the result of the negative addition."
+    },
+    {
+      "sid": "s000888",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor highlights the carry-out in the negative addition."
+    },
+    {
+      "sid": "s000889",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor explains why the result is incorrect."
+    },
+    {
+      "sid": "s000890",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor states the same issue applies to the other case."
+    },
+    {
+      "sid": "s000891",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor explains why the other case's result is also incorrect."
+    },
+    {
+      "sid": "s000892",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor states a rule for detecting overflow based on carries."
+    },
+    {
+      "sid": "s000893",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor states the condition for overflow based on carries."
+    },
+    {
+      "sid": "s000894",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor names the overflow condition."
+    },
+    {
+      "sid": "s000895",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor explains how to detect overflow for unsigned integers."
+    },
+    {
+      "sid": "s000896",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor defines the overflow indicator for unsigned integers."
+    },
+    {
+      "sid": "s000897",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor explains the overflow detection for signed integers."
+    },
+    {
+      "sid": "s000898",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor suggests using XOR for detecting differences."
+    },
+    {
+      "sid": "s000899",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor uses a filler word."
+    },
+    {
+      "sid": "s000900",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor explains XOR logic for different inputs."
+    },
+    {
+      "sid": "s000901",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor explains XOR logic for same inputs."
+    },
+    {
+      "sid": "s000902",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor states what the XOR operation will yield."
+    },
+    {
+      "sid": "s000903",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor identifies the inputs to XOR and names the output."
+    },
+    {
+      "sid": "s000904",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor defines the overflow detector V."
+    },
+    {
+      "sid": "s000905",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor states the condition for no overflow."
+    },
+    {
+      "sid": "s000906",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor mentions the status of these bits."
+    },
+    {
+      "sid": "s000907",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor explains where status bits come from."
+    },
+    {
+      "sid": "s000908",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor uses a filler word."
+    },
+    {
+      "sid": "s000909",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor names the status bits."
+    },
+    {
+      "sid": "s000910",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor uses a filler word."
+    },
+    {
+      "sid": "s000911",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor explains the role of the compiler/interpreter."
+    },
+    {
+      "sid": "s000912",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor continues explaining the compiler/interpreter's role."
+    },
+    {
+      "sid": "s000913",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor starts explaining the program's behavior on overflow."
+    },
+    {
+      "sid": "s000914",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor explains the program's response to overflow."
+    },
+    {
+      "sid": "s000915",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor uses a filler word."
+    },
+    {
+      "sid": "s000916",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor uses a filler phrase."
+    },
+    {
+      "sid": "s000917",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor uses a filler word."
+    },
+    {
+      "sid": "s000918",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor introduces the next topic: multiplication."
+    },
+    {
+      "sid": "s000919",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor comments on the complexity of multiplication."
+    },
+    {
+      "sid": "s000920",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor makes a comment about deleting code."
+    },
+    {
+      "sid": "s000921",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor speculates about a reason for code deletion."
+    },
+    {
+      "sid": "s000922",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor expresses uncertainty."
+    },
+    {
+      "sid": "s000923",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor identifies the AND operation as a one-bit multiplier."
+    },
+    {
+      "sid": "s000924",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor explains the AND operation's role in multiplication."
+    },
+    {
+      "sid": "s000925",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor prompts the audience to consider the AND operation."
+    },
+    {
+      "sid": "s000926",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor proposes creating a truth table."
+    },
+    {
+      "sid": "s000927",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor displays the AND function truth table."
+    },
+    {
+      "sid": "s000928",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor states the result of 0 times 0."
+    },
+    {
+      "sid": "s000929",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor states the result of 0 times 1."
+    },
+    {
+      "sid": "s000930",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor states the result of 1 times 0."
+    },
+    {
+      "sid": "s000931",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor states the result of 1 times 1."
+    },
+    {
+      "sid": "s000932",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor summarizes the AND operation's function."
+    },
+    {
+      "sid": "s000933",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor confirms the AND operation's suitability."
+    },
+    {
+      "sid": "s000934",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor introduces a multiplication example."
+    },
+    {
+      "sid": "s000935",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor prompts the audience to perform the multiplication."
+    },
+    {
+      "sid": "s000936",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor explains the first step of multiplication."
+    },
+    {
+      "sid": "s000937",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor describes the result of the first multiplication step."
+    },
+    {
+      "sid": "s000938",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor describes the second part of the first multiplication step."
+    },
+    {
+      "sid": "s000939",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor explains the second step of multiplication (shifting)."
+    },
+    {
+      "sid": "s000940",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor describes the results of the second multiplication step."
+    },
+    {
+      "sid": "s000941",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor explains the next step after multiplication."
+    },
+    {
+      "sid": "s000942",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor describes the addition process."
+    },
+    {
+      "sid": "s000943",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor confirms the multiplication procedure."
+    },
+    {
+      "sid": "s000944",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor introduces the hardware implementation of multiplication."
+    },
+    {
+      "sid": "s000945",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor describes the first part of the hardware implementation."
+    },
+    {
+      "sid": "s000946",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor describes the output of the first part of the hardware."
+    },
+    {
+      "sid": "s000947",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor explains the use of a half adder."
+    },
+    {
+      "sid": "s000948",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor describes the second part of the hardware implementation."
+    },
+    {
+      "sid": "s000949",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor describes the output of the second part of the hardware."
+    },
+    {
+      "sid": "s000950",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor confirms the hardware's function."
+    },
+    {
+      "sid": "s000951",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor discusses alternative hardware for more bits."
+    },
+    {
+      "sid": "s000952",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor describes the inputs for a larger multiplication example."
+    },
+    {
+      "sid": "s000953",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor explains the initial input to the hardware."
+    },
+    {
+      "sid": "s000954",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor describes the ANDing process for the larger example."
+    },
+    {
+      "sid": "s000955",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor states how the process is accomplished."
+    },
+    {
+      "sid": "s000956",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor uses a filler word."
+    },
+    {
+      "sid": "s000957",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor describes the next ANDing operation."
+    },
+    {
+      "sid": "s000958",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor notes the alignment of the bits."
+    },
+    {
+      "sid": "s000959",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor explains the shifting aspect of the hardware."
+    },
+    {
+      "sid": "s000960",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor mentions adding a zero."
+    },
+    {
+      "sid": "s000961",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor describes the addition and shifting process."
+    },
+    {
+      "sid": "s000962",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor starts to explain the hardware requirement."
+    },
+    {
+      "sid": "s000963",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor explains the number of adders needed."
+    },
+    {
+      "sid": "s000964",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor states the number of adders for N bits."
+    },
+    {
+      "sid": "s000965",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor comments on the inefficiency of this hardware approach."
+    },
+    {
+      "sid": "s000966",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor introduces the common method for multiplication."
+    },
+    {
+      "sid": "s000967",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor mentions the existence of multiplier circuits."
+    },
+    {
+      "sid": "s000968",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor speculates about current multiplier circuits."
+    },
+    {
+      "sid": "s000969",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor describes storing intermediate results."
+    },
+    {
+      "sid": "s000970",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor explains the process of repeated addition and shifting."
+    },
+    {
+      "sid": "s000971",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor reiterates the method of multiplication."
+    },
+    {
+      "sid": "s000972",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor explains why multiplication speed is important."
+    },
+    {
+      "sid": "s000973",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor states they will not discuss floating point multiplication."
+    },
+    {
+      "sid": "s000974",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor mentions the complexity of floating point numbers."
+    },
+    {
+      "sid": "s000975",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor describes the components of floating point numbers."
+    },
+    {
+      "sid": "s000976",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor defines FLOPS."
+    },
+    {
+      "sid": "s000977",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor clarifies what FLOPS primarily measures."
+    },
+    {
+      "sid": "s000978",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor reiterates the importance of multiplication speed."
+    },
+    {
+      "sid": "s000979",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor concludes the lecture for the day."
+    },
+    {
+      "sid": "s000980",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor announces the topic for the next lecture."
+    },
+    {
+      "sid": "s000981",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor expresses a preliminary understanding of the next topic."
+    },
+    {
+      "sid": "s000982",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor uses a filler word."
+    },
+    {
+      "sid": "s000983",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor uses a filler phrase."
+    }
+  ]
+}
