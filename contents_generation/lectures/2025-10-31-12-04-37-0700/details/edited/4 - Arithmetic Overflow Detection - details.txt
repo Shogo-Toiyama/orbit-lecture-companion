@@ -1,0 +1,49 @@
+# 4. Arithmetic Overflow Detection
+
+Arithmetic overflow detection is crucial in computer systems to identify when the result of an arithmetic operation exceeds the capacity of the register designed to store it, leading to an invalid outcome. This process involves different methods for unsigned and signed numbers, with signed numbers requiring a more complex detection mechanism involving the last two carries of the addition.
+
+## ⚠️ What is Arithmetic Overflow?
+
+An **overflow condition** occurs when the result of an arithmetic operation, such as addition or subtraction, requires more bits than the register allocated to store it can hold ⟦s000826, s000827, s000848⟧. For instance, if a 4-bit computer needs 5 bits for a result, or an 8-bit computer needs 9 bits, an overflow has happened, rendering the result invalid ⟦s000827, s000837⟧. This is a common experience for anyone involved in software development ⟦s000821⟧.
+
+## 🛠️ Handling Overflow Conditions
+
+When an overflow occurs, the result is considered invalid, and it is essential to detect this condition ⟦s000831, s000837⟧. While various schemes exist for both detecting and correcting overflow, detection is generally preferred ⟦s000829, s000830⟧. In programming, an overflow typically triggers an **exceptional condition** or an **overflow flag**, which software can then handle to prevent program errors or crashes ⟦s000833, s000834, s000911, s000912, s000914⟧.
+
+## ➕ Overflow Detection for Unsigned Numbers
+
+For **unsigned integers**, detecting an overflow is straightforward: if there is a **carry out** from the most significant bit position, an overflow has occurred ⟦s000838, s000840, s000895, s000896⟧. If there is no carry out, there is no overflow ⟦s000841⟧.
+
+## ➖ Overflow Detection for Signed Numbers (Two's Complement)
+
+For **signed numbers**, particularly those represented using **two's complement**, overflow detection is more complex ⟦s000842, s000897⟧.
+
+### 📏 Range of Signed Numbers
+
+An N-bit register using two's complement representation can store a specific range of signed numbers. For example, an 8-bit register can store numbers from -128 to +127 ⟦s000846⟧. If an arithmetic operation yields a result outside this range, such as +128 or -129 for an 8-bit system, an overflow occurs ⟦s000847⟧.
+
+### 🚦 Conditions for Overflow
+
+Overflow in two's complement arithmetic only happens under specific conditions:
+*   When adding two **positive numbers** and the result is too large to be represented, appearing as a negative number.
+*   When adding two **negative numbers** and the result is too small (more negative) to be represented, appearing as a positive number.
+*   Adding a positive and a negative number will **never** result in an overflow, as the magnitude of the sum will always be less than or equal to the magnitude of the larger input number, which should already fit within the register.
+⟦s000850, s000851, s000854, s000855, s000857, s000858, s000859, s000860, s000864, s000865, s000879, s000880, s000885, s000889, s000891⟧
+
+### ⚙️ Detection Mechanism
+
+To detect overflow for signed numbers, one must examine the **last two carries** generated during the addition process ⟦s000879, s000885, s000893, s000897, s000902⟧.
+*   If the last two carries are **different**, an overflow has occurred.
+*   If the last two carries are the **same**, there is no overflow.
+⟦s000892, s000893⟧
+
+An **exclusive OR (XOR) gate** is ideal for detecting this difference ⟦s000898⟧. If the two inputs to an XOR gate are different, the output is a one; if they are the same, the output is a zero ⟦s000900, s000901⟧. Therefore, an XOR gate can be used as an **overflow detector (V)** by taking the carry into the most significant bit (C3) and the carry out from the most significant bit (C4) as its inputs ⟦s000903⟧. If the output V is a one, an overflow is detected; if it's a zero, there is no overflow ⟦s000904, s000905⟧. These overflow indicators are often referred to as **status bits** or **flags** ⟦s000906, s000909⟧.
+
+```
+      C4
+     /
+    XOR --- V (Overflow Flag)
+     \
+      C3
+```
+⟦s000903, s000904⟧

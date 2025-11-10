@@ -1,0 +1,89 @@
+# 3. Two's Complement Arithmetic
+
+This lecture introduces two's complement arithmetic, a fundamental method for representing signed binary numbers and performing subtraction using addition in digital systems. It details the definitions and calculation procedures for one's and two's complements, demonstrating how a single adder circuit can be efficiently adapted to handle both addition and subtraction operations. ⟦s000485, s000488, s000543, s000694, s000738⟧
+
+## Definition of One's Complement
+In binary systems, complement numbers are exclusively either *two's complement* or *one's complement*, as the concept of a zero's complement is not applicable ⟦s000488, s000489, s000490⟧. For an N-digit binary number, the **one's complement** of N is mathematically defined as 2^N - 1 - N ⟦s000492, s000493, s000494, s000513⟧. The term "2 to the N" represents a binary number consisting of a 1 followed by N zeros ⟦s000495⟧. Consequently, "2 to the N minus 1" is a binary number composed entirely of N ones (e.g., for N=4, 2^4 - 1 is four ones: 1111) ⟦s000507, s000511, s000514, s000515, s000516⟧.
+
+## Calculating One's Complement
+To calculate the one's complement, each bit of the number is effectively subtracted from one ⟦s000519, s000524⟧. This operation results in the complement of each bit: one minus zero yields one, and one minus one yields zero ⟦s000521, s000522, s000525, s000526⟧. Therefore, the simplest way to find the one's complement is to **complement every bit** of the original number (i.e., flip all 0s to 1s and all 1s to 0s) ⟦s000527, s000537, s000540, s000541, s000542⟧. For example, the one's complement of 0001111 is 1110000 ⟦s000541⟧.
+
+## Definition of Two's Complement
+For an N-digit binary number N, the **two's complement** of N is defined as 2^N - N when N is not zero, and it is 0 when N is 0 ⟦s000544, s000545⟧. This definition is crucial because it ensures that the resulting two's complement number will also have N bits ⟦s000546⟧.
+
+## Calculating Two's Complement
+A particularly useful relationship is that the two's complement can be obtained by taking the *one's complement and adding one* ⟦s000547, s000549, s000555⟧. This method is mathematically equivalent to the definition: (2^N - 1 - N) + 1 simplifies to 2^N - N ⟦s000550, s000551, s000552⟧. Therefore, to calculate the two's complement of a number, you first complement each individual bit (to get the one's complement), and then add one to that result ⟦s000553, s000555, s000560, s000561, s000563, s000568⟧.
+
+For example, to find the two's complement of the 8-bit number *11001110*:
+1.  Take the one's complement (complement every bit): *00110001* ⟦s000557, s000562⟧.
+2.  Add one to the one's complement: *00110001* + 1 = *00110010* ⟦s000563, s000564, s000565, s000566, s000567⟧.
+This final result, *00110010*, is the two's complement of the original number.
+
+## Representing Negative Numbers
+Several systems have been used to represent negative numbers in binary, including one's complement, two's complement, and *signed magnitude* ⟦s000570, s000571, s000572⟧. Signed magnitude is often considered the most intuitive but is more complex to implement in hardware ⟦s000597, s000598⟧.
+
+In the **signed magnitude system**, the leftmost (high-order) bit is explicitly designated as a *sign bit* ⟦s000579, s000585, s000601⟧. A zero in this bit indicates a positive number, while a one indicates a negative number ⟦s000581, s000582, s000583, s000585⟧. The remaining bits represent the magnitude of the number ⟦s000604, s000606⟧. For instance, using four bits, a positive 1 would be 0001, and a negative 1 would be 1001 (where the '1' is the sign bit and '001' is the magnitude) ⟦s000602, s000604, s000605, s000612⟧.
+
+A notable issue with one's complement and signed magnitude systems is the existence of both a positive and a negative representation for zero, which is considered inelegant ⟦s000620, s000621⟧. The **two's complement system** avoids this problem because zero has a unique representation ⟦s000622, s000623⟧. Due to its efficiency and elegance, two's complement is the *most popular* and widely adopted system in actual computer arithmetic logic units (ALUs) ⟦s000623, s000624, s000627⟧.
+
+## Subtraction with Two's Complement
+Using two's complement simplifies subtraction by converting it into an addition problem ⟦s000691⟧. To perform **M - N**, the operation is transformed into **M + (-N)**, where -N is represented by the two's complement of N ⟦s000628, s000691⟧.
+
+The process is as follows:
+1.  Calculate the two's complement of the subtrahend (N). This effectively gives you -N ⟦s000628, s000643, s000644, s000645, s000646, s000691⟧.
+2.  Add this two's complement of N to the minuend (M) ⟦s000628, s000649, s000650, s000691⟧.
+
+The interpretation of the result depends on the relative magnitudes of M and N:
+*   If M is greater than or equal to N, the addition will produce a carry-out bit from the most significant position. This carry-out bit is *discarded*, and the remaining bits represent the correct positive difference (M - N) ⟦s000630, s000655⟧.
+*   If M is smaller than N, no carry-out is produced. The result will be in two's complement form, representing a negative number. To find the true magnitude, you would take the two's complement of this result and then append a minus sign ⟦s000631, s000671, s000688, s000689, s000690⟧.
+
+In practice, if all numbers are consistently treated as two's complement representations, the system automatically handles both positive and negative results correctly, simplifying arithmetic operations ⟦s000633, s000634, s000778, s000794, s000817⟧.
+
+## Combined Adder/Subtractor Circuit
+One of the significant advantages of two's complement is that it allows a single circuit to perform both addition and subtraction, eliminating the need for separate hardware for each operation ⟦s000692, s000694, s000711, s000712⟧.
+
+An existing adder circuit can be adapted into a combined adder/subtractor by modifying the inputs for the number B and the initial carry-in (C_in) ⟦s000697, s000698, s000702⟧:
+*   Instead of direct NOT gates, **exclusive OR (XOR) gates** are used for each bit of the B input ⟦s000712⟧.
+*   A single *select input* (S) controls these XOR gates and the initial carry-in:
+    *   If **S = 0** (for addition):
+        *   Each XOR gate receives B_i and 0. An XOR with 0 passes the input unchanged (B_i XOR 0 = B_i) ⟦s000717, s000720, s000721, s000722⟧.
+        *   The initial carry-in (C_in) is also set to 0 ⟦s000722⟧.
+        *   The circuit then performs **A + B** (standard addition) ⟦s000722, s000723⟧.
+    *   If **S = 1** (for subtraction):
+        *   Each XOR gate receives B_i and 1. An XOR with 1 complements the input (B_i XOR 1 = NOT B_i) ⟦s000719, s000720, s000724, s000725, s000726, s000727, s000728⟧. This effectively generates the one's complement of B.
+        *   The initial carry-in (C_in) is also set to 1 ⟦s000729⟧.
+        *   The circuit then performs **A + (NOT B) + 1**, which is equivalent to **A + (two's complement of B)**, thereby achieving **A - B** (subtraction) ⟦s000702, s000703, s000708, s000709, s000710, s000730, s000731, s000732⟧.
+
+This combined adder/subtractor circuit is the *most common and elegant way* to implement these operations in general-purpose computers, often enhanced with "carry look-ahead logic" to improve speed ⟦s000733, s000735, s000736, s000737, s000738⟧.
+
+## Example Arithmetic with Combined Circuit
+When analyzing the output of this combined circuit, it's important to determine what the hardware actually outputs, rather than just the mathematical result ⟦s000762, s000763⟧. The following examples illustrate its behavior for 4-bit numbers, assuming two's complement representation for signed values:
+
+*   **Case 1: S = 0 (Addition)**
+    *   Inputs: A = 0011 (decimal 3), B = 0100 (decimal 4) ⟦s000754⟧.
+    *   Operation: A + B
+    *   Output: C4=0, S3S2S1S0 = 0111 (decimal 7) ⟦s000754, s000755, s000756, s000796⟧.
+
+*   **Case 2: S = 1 (Subtraction: A - B)**
+    *   Inputs: A = 0011 (decimal 3), B = 0100 (decimal 4) ⟦s000767, s000781, s000788, s000792⟧.
+    *   Operation: A + (two's complement of B)
+        *   Two's complement of B (0100): One's complement is 1011. Adding 1 gives 1100 (decimal -4) ⟦s000768, s000769, s000770, s000771, s000772, s000773, s000774, s000775, s000778⟧.
+    *   Output: C4=0, S3S2S1S0 = 1111 (decimal -1) ⟦s000781, s000788, s000789, s000792, s000793, s000794, s000795⟧.
+
+*   **Case 3: S = 1 (Subtraction: A - B)**
+    *   Inputs: A = 0100 (decimal 4), B = 0011 (decimal 3) ⟦s000800, s000802⟧.
+    *   Operation: A + (two's complement of B)
+        *   Two's complement of B (0011): One's complement is 1100. Adding 1 gives 1101 (decimal -3) ⟦s000801, s000802⟧.
+    *   Output: C4=1 (discarded), S3S2S1S0 = 0001 (decimal 1) ⟦s000803, s000804⟧.
+
+*   **Case 4: S = 0 (Addition)**
+    *   Inputs: A = 1101 (decimal -3), B = 1100 (decimal -4) ⟦s000807, s000808, s000809⟧.
+    *   Operation: A + B
+    *   Output: C4=1 (discarded), S3S2S1S0 = 1001 (decimal -7) ⟦s000811, s000812⟧.
+
+This method works in all cases unless an *overflow* condition occurs ⟦s000818⟧. An overflow happens when the result of an arithmetic operation exceeds the maximum representable value for the given number of bits (e.g., a 4-bit computer needing 5 bits, or an 8-bit computer needing 9 bits), rendering the result invalid ⟦s000826, s000827, s000831, s000837⟧.
+
+## Supplement: Radix and Diminished Radix Complements
+The concept of complements extends beyond binary to any number base (radix).
+*   **Radix Complement (R's Complement):** For a number in base R, the R's complement of a number N with *n* digits is R^n - N ⟦s000449, s000450, s000451, s000452, s000455⟧. For example, the 10's complement of 7 is 10 - 7 = 3. For a two-digit number like 70, it's 10^2 - 70 = 30 ⟦s000450, s000452⟧.
+*   **Diminished Radix Complement ((R-1)'s Complement):** This is the base minus one complement ⟦s000459, s000460⟧. For a number in base R, the (R-1)'s complement of N is R^n - 1 - N ⟦s000460⟧. For example, in base 5, the diminished radix complement is the 4's complement. The 4's complement of 3 is 4 - 3 = 1 ⟦s000462, s000463⟧. The one's complement in binary is a specific instance of the diminished radix complement (2-1 = 1's complement) ⟦s000493⟧.

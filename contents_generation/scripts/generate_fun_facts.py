@@ -110,7 +110,7 @@ def main():
     GEN_MODEL = "gemini-2.5-flash"
 
     ROOT = Path(__file__).resolve().parent
-    LECTURE_DIR = ROOT / "../lectures/2025-10-07-21-27-43-0700"
+    LECTURE_DIR = ROOT / "../lectures/2025-10-31-12-04-37-0700"
 
     generate_fun_facts(client, GEN_MODEL, config_text(google_search=True), LECTURE_DIR)
 

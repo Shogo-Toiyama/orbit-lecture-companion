@@ -1,0 +1,136 @@
+# 1. Binary Addition Circuits
+
+This topic explores the fundamental building blocks of digital arithmetic, focusing on how computers perform addition using combinational logic circuits.
+It details the design and function of basic components like the half adder and full adder, and how these are combined to create multi-bit adders, such as the ripple carry adder.
+
+## ➕ Introduction to Arithmetic Circuits
+Arithmetic circuits are combinational circuits designed to perform arithmetic operations, including addition, subtraction, multiplication, and division ⟦s000006⟧.
+This lecture primarily focuses on developing circuits for binary addition and subtraction ⟦s000004, s000007⟧.
+The approach involves a hierarchical, iterative design, starting with the simplest operation: adding two binary digits ⟦s000008⟧.
+
+## 🔢 Adding Two Binary Digits
+When adding two binary digits, there are only four possible combinations: 0+0, 0+1, 1+0, and 1+1 ⟦s000009, s000010⟧.
+The results are:
+*   0 + 0 = 0
+*   0 + 1 = 1
+*   1 + 0 = 1
+*   1 + 1 = 2 (represented as binary 10)
+⟦s000012⟧
+
+For the first three cases, a single output bit is sufficient ⟦s000029⟧.
+However, the sum of 1+1 requires two bits to represent the result (a sum bit and a carry bit) ⟦s000029, s000030, s000031⟧.
+
+## 🧮 The Half Adder Circuit
+
+### 📝 Definition of a Half Adder
+A **half adder** is a purely combinational circuit that generates the sum of two binary bits ⟦s000032, s000033, s000034⟧.
+
+### ➡️ Half Adder Inputs and Outputs
+A half adder has two inputs, typically labeled X and Y, and two outputs: a *sum* (S) and a *carry* (C) ⟦s000035, s000038, s000039, s000046⟧.
+The carry output is often referred to as `C_out` or `C_f` (carry forward) ⟦s000038, s000039⟧.
+
+### 💡 Half Adder Truth Table and Boolean Expressions
+The behavior of a half adder can be defined by a truth table based on the four possible input combinations ⟦s000040, s000047⟧:
+
+| X | Y | Sum (S) | Carry (C) |
+|---|---|---------|-----------|
+| 0 | 0 | 0       | 0         |
+| 0 | 1 | 1       | 0         |
+| 1 | 0 | 1       | 0         |
+| 1 | 1 | 0       | 1         |
+⟦s000048⟧
+
+From this truth table, the Boolean expressions for the outputs can be derived ⟦s000049⟧.
+These expressions are:
+*   The **Sum (S)** is 1 when X is 0 and Y is 1 (NOT X AND Y), or when X is 1 and Y is 0 (X AND NOT Y). This is equivalent to an **exclusive OR** operation: S = X XOR Y.
+*   The **Carry (C)** is 1 only when both X and Y are 1. This is equivalent to an **AND** operation: C = X AND Y.
+⟦s000050, s000051, s000052, s000053, s000054, s000055, s000056⟧
+
+### ⚙️ Half Adder Circuit Implementation
+The combinational circuit for a half adder can be easily drawn using an exclusive OR gate for the sum and an AND gate for the carry, both taking X and Y as inputs ⟦s000057, s000058, s000059, s000060⟧.
+
+## ➕ The Full Adder Circuit
+
+### 📝 Definition of a Full Adder
+While a half adder can add two bits, it is insufficient for multi-bit addition because it cannot account for a carry-in from a previous, less significant bit position ⟦s000061, s000062, s000063⟧.
+This limitation gives rise to the **full adder** ⟦s000064⟧.
+A full adder is also a combinational circuit, but it generates the sum of *three* bits: the two input bits (X and Y) and a carry-in bit ⟦s000065, s000066⟧.
+
+### ➡️ Full Adder Inputs and Outputs
+A full adder has three inputs (X, Y, and a carry-in, `C_in` or Z) and two outputs (a sum bit, S, and a carry-out bit, `C_out`) ⟦s000067, s000070⟧.
+The largest possible sum from three binary inputs (1+1+1) is 3, which requires two bits (binary 11) to represent, thus necessitating both a sum and a carry-out ⟦s000068, s000069, s000070⟧.
+
+### 💡 Full Adder Truth Table and Boolean Expressions
+With three inputs, a full adder's truth table has eight rows ⟦s000071⟧:
+
+| X | Y | Z (`C_in`) | Sum (S) | Carry Out (`C_out`) |
+|---|---|------------|---------|---------------------|
+| 0 | 0 | 0          | 0       | 0                   |
+| 0 | 0 | 1          | 1       | 0                   |
+| 0 | 1 | 0          | 1       | 0                   |
+| 0 | 1 | 1          | 0       | 1                   |
+| 1 | 0 | 0          | 1       | 0                   |
+| 1 | 0 | 1          | 0       | 1                   |
+| 1 | 1 | 0          | 0       | 1                   |
+| 1 | 1 | 1          | 1       | 1                   |
+⟦s000073, s000074, s000075, s000076, s000079, s000080, s000081, s000082, s000083, s000084, s000085, s000086, s000087⟧
+
+The Boolean expressions for the sum (S) and carry-out (C) can be derived from this truth table ⟦s000089, s000090, s000091, s000092, s000093, s000094⟧.
+Through algebraic manipulation, the expressions can be simplified:
+*   **Sum (S)**: S = X XOR Y XOR Z
+*   **Carry Out (C)**: C = (X AND Y) OR (Z AND (X XOR Y))
+⟦s000103, s000104, s000105, s000106, s000107, s000108, s000109, s000110, s000113, s000114, s000115, s000116, s000117, s000118, s000119, s000136, s000121, s000122, s000123, s000124, s000125, s000126, s000127, s000128, s000129, s000130, s000131, s000132, s000133, s000134, s000137, s000138⟧
+
+### ⚙️ Full Adder Circuit Implementation and Verification
+A full adder can be constructed by combining two half adders and an OR gate ⟦s000142⟧.
+The circuit implements the derived Boolean expressions for S and C ⟦s000139, s000140, s000141, s000157⟧.
+
+The circuit's functionality can be verified by tracing various input patterns:
+*   **0 + 0 + 0**: All inputs (X, Y, Z) are 0.
+    The first XOR (X XOR Y) is 0, and the second XOR (0 XOR Z) is 0, so S=0.
+    The AND gates produce 0, so C=0.
+    The result is 00, which is correct.
+*   **0 + 0 + 1**: With Z=1 and X=Y=0.
+    The first XOR (0 XOR 0) is 0, and the second XOR (0 XOR 1) is 1, so S=1.
+    The AND gates produce 0, so C=0.
+    The result is 01 (binary 1), which is correct.
+*   **0 + 1 + 1**: With Y=1, Z=1, and X=0.
+    The first XOR (0 XOR 1) is 1.
+    The second XOR (1 XOR 1) is 0, so S=0.
+    The first AND (0 AND 1) is 0.
+    The second AND (1 AND 1) is 1.
+    The OR gate (0 OR 1) is 1, so C=1.
+    The result is 10 (binary 2), which is correct.
+*   **1 + 1 + 1**: All inputs (X, Y, Z) are 1.
+    The first XOR (1 XOR 1) is 0.
+    The second XOR (0 XOR 1) is 1, so S=1.
+    The first AND (1 AND 1) is 1.
+    The second AND (0 AND 1) is 0.
+    The OR gate (1 OR 0) is 1, so C=1.
+    The result is 11 (binary 3), which is correct.
+⟦s000162, s000163, s000164, s000166, s000167, s000168, s000169, s000170, s000171, s000172, s000173, s000174, s000175, s000176, s000179, s000180, s000181, s000182, s000183, s000187, s000188, s000191, s000192, s000193, s000194, s000195, s000197, s000198, s000199, s000200, s000203, s000204, s000206, s000207, s000208, s000209, s000212, s000213, s000214, s000215, s000216, s000217⟧
+
+## ⛓️ Multi-bit Binary Addition: Ripple Carry Adder
+
+### 🔗 Combining Full Adders
+Computers typically add multi-bit numbers, such as 64-bit numbers in modern processors ⟦s000219, s000220, s000221, s000222⟧.
+To achieve this, full adders are combined in a chain to form a multi-bit adder, often called a **ripple carry adder** ⟦s000224, s000239⟧.
+
+In a ripple carry adder, each full adder (FA) handles one bit position of the numbers being added ⟦s000227, s000228⟧.
+For example, in a 4-bit adder:
+*   The first full adder (FA0) adds the least significant bits (A0 and B0) and an initial carry-in (C_in0), which is typically 0.
+    It produces a sum bit (S0) and a carry-out (C_out0).
+*   This C_out0 then becomes the carry-in for the next full adder (FA1), which adds A1, B1, and C_out0.
+*   This process continues, with the carry-out from each stage becoming the carry-in for the next, until all bit positions are added.
+*   The final output includes the sum bits (S0-S3 for a 4-bit adder) and a final carry-out (C_out4), potentially resulting in a sum with one more bit than the inputs.
+⟦s000229, s000237, s000238, s000230, s000231, s000232, s000233, s000234, s000236⟧
+
+### 🐢 Challenges of Ripple Carry
+The ripple carry design has a significant drawback: speed ⟦s000240⟧.
+The carry signal must "ripple" through each full adder sequentially ⟦s000239, s000241⟧.
+For numbers with many bits, this can be slow, as the output of higher-order bits cannot stabilize until the carry from all lower-order bits has propagated ⟦s000241, s000242⟧.
+
+### ⚡ Improving Carry Propagation
+To address the speed limitation of ripple carry adders, real-world computer implementations often incorporate complex combinational logic known as **carry look-ahead logic** ⟦s000244, s000245⟧.
+This logic calculates higher-order carries more quickly by projecting them forward from lower-order carries, significantly speeding up the addition process ⟦s000247, s000248⟧.
+Despite these optimizations, the fundamental principle of adding numbers remains rooted in the full adder's operation ⟦s000249, s000250⟧.

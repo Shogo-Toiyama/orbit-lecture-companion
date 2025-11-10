@@ -1,0 +1,29 @@
+{
+    "idx": number,
+    "topic": string,
+    "overview": Block[],
+    "sections": Section[],
+    "sources": {
+        "start_sid": string, "end_sid": string
+    }
+}
+
+Section = {
+    "title": string,
+    "blocks": Block[]
+}
+
+Block = 
+  | Paragraph
+  | List
+  | Diagram
+  | IconMemo
+
+Paragraph = {"type": "paragraph", "children": Span[], "sidRef": SidRef[]}
+List = { "type": "list", "style": "bullet|number", "items": ListItem[] }
+ListItem = { "children": Span[], "items"?: ListItem[], "sidRef"?: SidRef[] }
+Diagram = { "type": "diagram", "syntax": "ascii", "content": string, "sidRef"?: SidRef[] }
+IconMemo = {"type": "icon-memo", "emoji": <string>, "children": Block[]}
+
+Span = { "text": string, "marks": ("none"|"bold"|"italic"|"code"|"underline")[], "sidRef"?: SidRef[] }
+SidRef = { "sid": string}

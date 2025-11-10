@@ -6,8 +6,9 @@ from google import genai
 from google.genai import types
 
 from scripts.lecture_audio_to_text import lecture_audio_to_text
-from scripts.topic_extraction_for_long_audio import topic_extraction_for_long_audio
-from scripts.generate_topic_details import generate_topic_details
+from scripts.role_classification import role_classification
+from scripts.lecture_segmentation import lecture_segmentation
+from scripts.generate_topic_details_from_segments import generate_topic_details
 from scripts.generate_fun_facts import generate_fun_facts
 
 AUDIO_EXTS = {".mp3", ".m4a", ".wav", ".flac", ".aac", ".ogg", ".wma", ".aiff"}
@@ -128,9 +129,11 @@ def main():
 
     start_time_total = time.time()
 
-    lecture_audio_to_text(audio_files[0], LECTURE_DIR)
+    lecture_audio_to_text(audio_files[0], LECTURE_DIR, client, gemini_2_5_flash, config_json())
 
-    topic_extraction_for_long_audio(client, gemini_2_5_flash, gemini_2_5_flash_lite, config_json(), config_text(), LECTURE_DIR)
+    role_classification(client, gemini_2_5_flash, gemini_2_5_flash_lite, config_json(), LECTURE_DIR)
+
+    lecture_segmentation(client, gemini_2_5_flash, gemini_2_5_flash_lite, config_json(), LECTURE_DIR)
 
     generate_topic_details(client, gemini_2_5_flash_lite, config_json(), config_text(), LECTURE_DIR)
 

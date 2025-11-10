@@ -1,0 +1,11 @@
+## Subtraction is Just Addition: The ALU's Secret Weapon
+
+The lecture highlights that *complements for efficient hardware implementation* are crucial for computers to handle negative results in binary subtraction. The real "magic" of the **two's complement** method, which is used to correct the magnitude after an *end borrow* occurs, is that it allows computers to perform subtraction using the exact same hardware circuit designed for addition. Instead of needing a separate, complex subtractor, the CPU's Arithmetic Logic Unit (ALU) can simply convert the subtrahend to its two's complement and then add it to the minuend.
+
+This ingenious approach drastically simplifies the design and reduces the cost of microprocessors. By effectively turning every subtraction problem into an addition problem, computer architects can build more compact and faster ALUs, which are the core computational engines of every CPU. This unification of arithmetic operations is a cornerstone of modern digital logic design, directly addressing the lecture's point about finding *more efficient methods* for computers to perform subtraction.
+
+## The Evolution of Negative Numbers: Why Two's Complement Won
+
+While the lecture focuses on the *binary subtraction challenges* and the solution involving *end borrow* and *two's complement*, it's worth noting that this wasn't always the only way computers represented negative numbers. Early digital systems experimented with other methods like **sign-magnitude** (where one bit indicates the sign, and the rest represent the magnitude) and **one's complement** (where negative numbers are formed by inverting all bits of the positive equivalent).
+
+However, these alternatives presented their own problems. Sign-magnitude had two representations for zero (+0 and -0), which complicated logic. One's complement also suffered from this "double zero" issue and required more complex circuitry to handle carries across the most significant bit during addition, making it less efficient for *hardware implementation*. The two's complement system, by contrast, has a single representation for zero and simplifies arithmetic operations significantly, making it the undisputed champion for representing signed integers in almost all modern computer architectures.

@@ -1,0 +1,40 @@
+# 2. Binary Subtraction Challenges
+
+Binary subtraction presents challenges when the subtrahend is larger than the minuend, leading to negative results. Traditional manual borrowing methods are inefficient for computers, necessitating an alternative approach that involves detecting an "end borrow" and correcting the magnitude using a specific mathematical operation. This leads to the concept of complements for efficient hardware implementation. ⟦s000258, s000259, s000266, s000268, s000308, s000316, s000361⟧
+
+## The Challenge of Binary Subtraction
+Binary subtraction can be straightforward, but it becomes problematic when the *subtrahend* (the number being subtracted) is greater than the *minuend* (the number from which another is subtracted) ⟦s000258, s000259⟧. In such cases, the difference will be a negative number ⟦s000260⟧. While humans can easily handle this by reversing the numbers, appending a minus sign, and using borrowing, this method requires significant hardware and is slow for computer processors ⟦s000261, s000262, s000263, s000265, s000266⟧. Therefore, better, more efficient ways are needed for computers to perform subtraction ⟦s000268⟧.
+
+## An Alternative Approach: Handling Negative Results
+An alternative method involves performing subtraction without initially considering the relative magnitudes of the numbers ⟦s000269⟧. For instance, when subtracting a larger number (N) from a smaller number (M), the result will inherently be negative ⟦s000271⟧. If a subtraction requires borrowing into the most significant position, this is termed an ***end borrow*** ⟦s000308, s000309⟧. The presence of an end borrow indicates that the result is negative and that its magnitude needs to be corrected because the initial subtraction process effectively added 2^N (where N is the number of digits) to the true difference ⟦s000311, s000316, s000318, s000320, s000322⟧. To obtain the correct magnitude (N - M), the calculated result (M - N + 2^N) must be subtracted from 2^N, and then a minus sign is appended ⟦s000326, s000328, s000329⟧. This final correction step is known as taking the ***two's complement*** of the number ⟦s000361⟧.
+
+## Steps for Binary Subtraction with End Borrow Correction
+To subtract two N-digit binary numbers (M - N):
+1.  Compute M - N directly ⟦s000354⟧.
+2.  If no end borrow occurs, the difference is non-negative and the result is correct ⟦s000355, s000356, s000357⟧.
+3.  If an end borrow occurs (meaning N was larger than M), the computed result is M - N + 2^N ⟦s000359, s000361⟧. To correct this:
+    *   Subtract this result from 2^N ⟦s000361⟧.
+    *   Append a minus sign to the final magnitude ⟦s000361⟧.
+    *   This process of subtracting from 2^N is equivalent to taking the two's complement of the initial result ⟦s000361⟧.
+
+## Example of Subtraction with End Borrow
+Consider subtracting N = 11110 (decimal 30) from M = 10011 (decimal 19), expecting a result of -11 ⟦s000270, s000271, s000275, s000277, s000279, s000280⟧.
+
+1.  **Direct Subtraction (M - N):**
+    Performing this subtraction requires borrowing across multiple positions, eventually leading to an "end borrow" where a '1' is temporarily added to the leftmost position of M to facilitate borrowing ⟦s000283, s000284, s000285, s000286, s000289, s000291, s000292, s000293, s000294, s000295, s000296⟧. The result of this intermediate calculation is 10101 (decimal 21), which is not the expected magnitude of 11 ⟦s000297, s000298, s000299, s000300, s000303⟧.
+
+2.  **Correction for End Borrow:**
+    Since an end borrow occurred, the result is negative, and its magnitude needs correction ⟦s000311, s000316⟧. The calculated value (10101) is M - N + 2^N (where N=5 bits, so 2^N is 100000) ⟦s000320, s000321, s000322, s000332⟧. To get the correct magnitude (N - M), we subtract this calculated value from 2^N:
+    ```
+      100000  (2^N)
+    - 10101   (Calculated M - N + 2^N)
+    -------
+      01011   (Result: 11)
+    ```
+    After performing the necessary borrowing for this subtraction ⟦s000334, s000335, s000336, s000337, s000338, s000339, s000340, s000341, s000342, s000343, s000344, s000345, s000346⟧, the result is 01011, which is decimal 11 ⟦s000347⟧. Appending the minus sign, the final answer is -11, matching the expected result ⟦s000348, s000349⟧.
+
+## Hardware Implementation for Subtraction
+To perform both addition and subtraction, a computer typically requires an adder circuit, a subtractor circuit, and a selective two's complementer ⟦s000410, s000412⟧. The subtractor circuit computes A minus B, but its output might be incorrect if B is larger than A ⟦s000418⟧. If A is larger or equal to B, no end borrow occurs, and a status bit from the subtractor remains zero, allowing the data to pass through unchanged ⟦s000419, s000420, s000421, s000422⟧. However, if B is larger than A, an end borrow occurs, setting the status bit to one ⟦s000434, s000435⟧. This signals the selective two's complementer to subtract the subtractor's output from 2^N (e.g., 2^4 for a 4-bit system) to obtain the correct magnitude, with a minus sign implicitly handled ⟦s000436, s000437, s000438⟧. While this approach works, more efficient methods exist that combine parts of the adder and subtractor into a common circuit ⟦s000440, s000441, s000442⟧.
+
+## Supplement: Introduction to Complements
+The concept of *complements* is fundamental to how computers handle negative numbers and subtraction efficiently ⟦s000443, s000444, s000445, s000446, s000447⟧. In a given number system (radix), the *radix complement* of a number N with 'n' digits is calculated as R^n - N, where R is the base (radix) ⟦s000450, s000451, s000452, s000453, s000455⟧. For example, in base 10, the tens complement of 7 is 10 - 7 = 3, and for a two-digit number like 70, it's 100 - 70 = 30 ⟦s000450, s000452⟧. Similarly, in base 5, the fives complement of 3 is 2, and for 30, it's 50 - 30 = 20 ⟦s000456, s000457, s000458⟧. There is also a *diminished radix complement*, which is the base minus one complement (e.g., the "fours complement" for base 5) ⟦s000459, s000460, s000462, s000463⟧. For binary numbers, the relevant complements are one's complement and two's complement ⟦s000488⟧.
