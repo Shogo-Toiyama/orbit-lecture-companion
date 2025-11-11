@@ -1723,9 +1723,7 @@
         "start": 1423580,
         "end": 1424860,
         "speaker": "A"
-      }
-    ],
-    "context_after_main_text": [
+      },
       {
         "sid": "s000247",
         "text": "There's some tricky ways of calculating the higher order carries from the lower order carries.",
@@ -1794,6 +1792,582 @@
         "text": "So it's four bits of A to four bits of B.",
         "start": 1474060,
         "end": 1476140,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000257",
+        "text": "That's what this is.",
+        "start": 1476620,
+        "end": 1477580,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000258",
+        "text": "Now we're talking about binary subtraction, which can be pretty straightforward.",
+        "start": 1489910,
+        "end": 1509040,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000259",
+        "text": "But it becomes a problem when the subprehend is greater than the minion.",
+        "start": 1509200,
+        "end": 1513320,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000260",
+        "text": "That is, if the number on the bottom is bigger than the number on the top, that means the difference is going to be negative.",
+        "start": 1513320,
+        "end": 1520480,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000261",
+        "text": "And it's a bit more complicated to Calculate if we do it as doing it by hand, as people, we would normally we just reverse the positions, right?",
+        "start": 1521840,
+        "end": 1534500,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000262",
+        "text": "And knowing we reverse the positions, the result has to be negative.",
+        "start": 1534500,
+        "end": 1537300,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000263",
+        "text": "We append a minus sign and we know how to borrow and all of that.",
+        "start": 1537300,
+        "end": 1541620,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000264",
+        "text": "Okay.",
+        "start": 1541700,
+        "end": 1542340,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000265",
+        "text": "And we could do it that way in a process.",
+        "start": 1545460,
+        "end": 1547780,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000266",
+        "text": "It requires a lot of hardware and it's pretty slow.",
+        "start": 1549380,
+        "end": 1553460,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000267",
+        "text": "So we don't normally do it that way.",
+        "start": 1555140,
+        "end": 1557770,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000268",
+        "text": "There's better ways to do it.",
+        "start": 1557770,
+        "end": 1559130,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000269",
+        "text": "So as an alternative, let's try doing a subtraction without regard to the relative magnitudes of the numbers.",
+        "start": 1560490,
+        "end": 1568170,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000270",
+        "text": "So on top I'll put a number, I'll call it N. This is going to be 10011, and we're going to subtract n, which is 11110.",
+        "start": 1569530,
+        "end": 1588900,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000271",
+        "text": "So two five-bit numbers, and I hope it's obvious to everybody that N is bigger than M. This result, whatever we got here, whatever we get from this is necessarily negative because we're subtracting a bigger number from a small number.",
+        "start": 1592500,
+        "end": 1607800,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000272",
+        "text": "Just do a little check.",
+        "start": 1609710,
+        "end": 1610830,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000273",
+        "text": "What are these numbers?",
+        "start": 1615390,
+        "end": 1616590,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000274",
+        "text": "Let's see, that's 2 to the 3, 2 to the 4.",
+        "start": 1616750,
+        "end": 1635360,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000275",
+        "text": "So that first one for M is 16 plus 2 plus 1.",
+        "start": 1635360,
+        "end": 1639880,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000276",
+        "text": "What's that?",
+        "start": 1640200,
+        "end": 1640760,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000277",
+        "text": "That's 19, right?",
+        "start": 1640760,
+        "end": 1641880,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000278",
+        "text": "19 minus.",
+        "start": 1646760,
+        "end": 1648200,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000279",
+        "text": "And the other one is 16 plus 8, which is 24 plus 4, which is 28 plus 2 is 30.",
+        "start": 1648600,
+        "end": 1657560,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000280",
+        "text": "So the answer that we expect would be minus 11, 19.",
+        "start": 1660130,
+        "end": 1668770,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000281",
+        "text": "Let's see what we actually get.",
+        "start": 1670130,
+        "end": 1671410,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000282",
+        "text": "Okay, let's see.",
+        "start": 1676370,
+        "end": 1677170,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000283",
+        "text": "Starting on the right, one minus zero is one, one minus one is zero.",
+        "start": 1677330,
+        "end": 1683410,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000284",
+        "text": "If we get zero, zero minus one, we have to borrow and we can't borrow.",
+        "start": 1684130,
+        "end": 1689590,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000285",
+        "text": "There's a zero, the position to the left, we go two over.",
+        "start": 1689590,
+        "end": 1692230,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000286",
+        "text": "So if we borrow from that one, that becomes a zero, making the one to the right a one-zero.",
+        "start": 1692470,
+        "end": 1699510,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000287",
+        "text": "Binary two.",
+        "start": 1699510,
+        "end": 1700390,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000288",
+        "text": "You can borrow from that.",
+        "start": 1701270,
+        "end": 1702350,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000289",
+        "text": "That two becomes a one, making that value in column two a two.",
+        "start": 1702350,
+        "end": 1710590,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000290",
+        "text": "So, so we got two minus one is one, and one minus one is zero.",
+        "start": 1710590,
+        "end": 1714960,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000291",
+        "text": "And now we've got zero minus one.",
+        "start": 1715280,
+        "end": 1718320,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000292",
+        "text": "But there's nowhere to borrow, right?",
+        "start": 1718400,
+        "end": 1721040,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000293",
+        "text": "So what we're going to do to temporarily fix this is I'm going to add a one right here on the left.",
+        "start": 1721280,
+        "end": 1726560,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000294",
+        "text": "I know it changes the number, it's going to change the answer, but it does create an opportunity to borrow.",
+        "start": 1728160,
+        "end": 1732880,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000295",
+        "text": "So that goes to zero, making that one a two.",
+        "start": 1732880,
+        "end": 1734960,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000296",
+        "text": "We got two minus one is one.",
+        "start": 1734960,
+        "end": 1736260,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000297",
+        "text": "What is that value?",
+        "start": 1738570,
+        "end": 1739370,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000298",
+        "text": "That's 16 plus four is 20 plus one.",
+        "start": 1740250,
+        "end": 1746890,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000299",
+        "text": "That's 21.",
+        "start": 1746970,
+        "end": 1747930,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000300",
+        "text": "Clearly not the magnitude we were looking for.",
+        "start": 1749210,
+        "end": 1751010,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000301",
+        "text": "We're looking for a magnitude at least.",
+        "start": 1751010,
+        "end": 1752570,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000302",
+        "text": "Even if the sign's wrong.",
+        "start": 1752650,
+        "end": 1753930,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000303",
+        "text": "A magnitude of 11.",
+        "start": 1753930,
+        "end": 1755130,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000304",
+        "text": "Well, because a minus 11 is what?",
+        "start": 1755850,
+        "end": 1760570,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000305",
+        "text": "Minus.",
+        "start": 1760970,
+        "end": 1761530,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000306",
+        "text": "So if we do it with five bits, it's 01011.",
+        "start": 1761860,
+        "end": 1768420,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000307",
+        "text": "That's the answer we want.",
+        "start": 1768660,
+        "end": 1769780,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000308",
+        "text": "But if we have to borrow into the most significant position like we did, we call that an end borrow.",
+        "start": 1772660,
+        "end": 1779060,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000309",
+        "text": "We have to do an end borrow.",
+        "start": 1779860,
+        "end": 1781300,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000310",
+        "text": "Two things we know.",
+        "start": 1782260,
+        "end": 1783380,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000311",
+        "text": "One is we know the result's negative.",
+        "start": 1783540,
+        "end": 1786100,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000312",
+        "text": "We wouldn't have to do that in borrow if.",
+        "start": 1786820,
+        "end": 1788820,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000313",
+        "text": "If we're going to get a positive number, if the result was going to be positive, they just subtract nice and easily.",
+        "start": 1788980,
+        "end": 1794900,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000314",
+        "text": "We wouldn't have to do it in borrow.",
+        "start": 1794900,
+        "end": 1796260,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000315",
+        "text": "But we did.",
+        "start": 1796260,
+        "end": 1796900,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000316",
+        "text": "So we know the result's negative and we have to correct the magnitude because we change the magnitude by doing that in borrow.",
+        "start": 1797140,
+        "end": 1805460,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000317",
+        "text": "Think about what that end borrow is.",
+        "start": 1807140,
+        "end": 1808980,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000318",
+        "text": "What we really did was add like a third number, a one, followed by five zeros, right?",
+        "start": 1809460,
+        "end": 1814900,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000319",
+        "text": "By putting that one to the left of the top number, we added that in there.",
+        "start": 1815650,
+        "end": 1819330,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000320",
+        "text": "So what we've calculated is M minus N plus 2 to the N. Where N is the number of digits in the original number two to the fifth.",
+        "start": 1819810,
+        "end": 1831250,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000321",
+        "text": "This right here, that's two to the fifth.",
+        "start": 1832850,
+        "end": 1834530,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000322",
+        "text": "That's what we calculated where that two to the N is a borrow into the most significant position.",
+        "start": 1836610,
+        "end": 1846060,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000323",
+        "text": "The magnitude we're looking for.",
+        "start": 1847420,
+        "end": 1849660,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000324",
+        "text": "Let's see, we like this, we calculated this, we want.",
+        "start": 1850700,
+        "end": 1861420,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000325",
+        "text": "And this is just the magnitude.",
+        "start": 1862380,
+        "end": 1863980,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000326",
+        "text": "We want a magnitude of N minus N. Right?",
+        "start": 1864620,
+        "end": 1867190,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000327",
+        "text": "Remember, the bigger number minus the smaller number.",
+        "start": 1868710,
+        "end": 1871750,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000328",
+        "text": "And we know we're going to have to append a minus sign.",
+        "start": 1871990,
+        "end": 1875510,
+        "speaker": "A"
+      }
+    ],
+    "context_after_main_text": [
+      {
+        "sid": "s000329",
+        "text": "So we can get that by subtracting the number we calculated from 2 to the N2 to the N minus M minus N plus 2 to the N. But if you take a look and I think you'll agree that that's valid, that is in fact N minus n. So let's try it.",
+        "start": 1876230,
+        "end": 1908330,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000330",
+        "text": "Let's see.",
+        "start": 1911930,
+        "end": 1912570,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000331",
+        "text": "2 to the N is what a 1 followed by 5 zeros.",
+        "start": 1912650,
+        "end": 1917930,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000332",
+        "text": "And this number that we calculated was M minus N plus 2 to the N. And what we came up with is 10101.",
+        "start": 1922100,
+        "end": 1934420,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000333",
+        "text": "So let's do that subtraction.",
+        "start": 1934660,
+        "end": 1936180,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000334",
+        "text": "Well, by the opposite, we got 0 minus 1.",
+        "start": 1939940,
+        "end": 1943140,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000335",
+        "text": "So we have to borrow.",
+        "start": 1943140,
+        "end": 1944100,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000336",
+        "text": "We gotta go way over here to borrow.",
+        "start": 1944830,
+        "end": 1946150,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000337",
+        "text": "That 1 becomes a 0, making the digit to the right a 2.",
+        "start": 1946150,
+        "end": 1950430,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000338",
+        "text": "Borrow from there, that 2 becomes a 1.",
+        "start": 1950990,
+        "end": 1952990,
         "speaker": "A"
       }
     ]

@@ -1,29 +1,9 @@
 {
   "results": [
     {
-      "sid": "s000252",
-      "new_role": "qa",
-      "reason": "Direct answer to implicit question, followed by explicit student question."
-    },
-    {
-      "sid": "s000264",
-      "new_role": "lecture",
-      "reason": "Transition within lecture content, not off-topic banter."
-    },
-    {
-      "sid": "s000403",
-      "new_role": "lecture",
-      "reason": "Conversational filler within lecture content."
-    },
-    {
-      "sid": "s000448",
-      "new_role": "lecture",
-      "reason": "Conversational filler seeking confirmation within lecture."
-    },
-    {
-      "sid": "s000659",
-      "new_role": "qa",
-      "reason": "Direct answer to implicit question, followed by explicit student question."
+      "sid": "s000023",
+      "new_role": "announcement",
+      "reason": "Introduces course operational policy for remote viewers."
     }
   ]
 }

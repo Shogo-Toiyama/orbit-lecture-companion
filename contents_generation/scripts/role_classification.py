@@ -17,6 +17,15 @@ PROMPTS_DIR = PROJECT_ROOT / "prompts"
 
 SID_NUM = re.compile(r"s(\d+)")
 
+def token_report(resp):
+    um = resp.usage_metadata
+    prompt_tokens = um.prompt_token_count
+    candidate_tokens = um.candidates_token_count
+    total_tokens = um.total_token_count
+    thinking_tokens = total_tokens - prompt_tokens - candidate_tokens
+    return (f"TOKEN USAGE REPORT\n  ⬆️:{prompt_tokens}, 🧠: {thinking_tokens}, ⬇️: {candidate_tokens}\n  TOTAL: {total_tokens}")
+
+
 def split_balanced(n_items: int, max_batch: int):
     if n_items <= 0:
         return []
@@ -70,6 +79,7 @@ async def run_one_role_classification(client, gen_model, config_json, prompt, ba
         print(f"✅ Saved {result_path.name}")
         end_time_one_role_classification = time.time()
         elapsed_time_one_role_classification = end_time_one_role_classification - start_time_one_role_classification
+        print(token_report(resp))
         print(f"⏰One Role Classification of {batch_path.name}: {elapsed_time_one_role_classification:.2f} seconds.")
         return resp.text
     except Exception as e:
@@ -329,6 +339,7 @@ def role_review(client, gen_model, config_json, lecture_dir: Path):
     
     end_time_role_review = time.time()
     elapsed_time_role_review = end_time_role_review - start_time_role_review
+    print(token_report(response_role_review))
     print(f"⏰Reviewed roles: {elapsed_time_role_review:.2f} seconds.")
 
 
@@ -339,3 +350,42 @@ def role_classification(client, gen_model, gen_model_lite, config_json, lecture_
     role_review(client, gen_model, config_json, lecture_dir)
 
     print("\n✅All tasks of ROLE CLASSIFICATION completed.")
+
+
+# ------ for test -------
+def config_json(thinking: int = 0, google_search: bool = False):
+    kwargs = dict(
+        temperature=0.2,
+        response_mime_type="application/json",
+    )
+    if thinking > 0:
+        kwargs["thinking_config"] = types.ThinkingConfig(thinking_budget=thinking)
+    if google_search:
+        kwargs["tools"] = [types.Tool(google_search=types.GoogleSearch())]
+    return types.GenerateContentConfig(**kwargs)
+
+def config_text(thinking: int = 0, google_search: int = 0):
+    kwargs = dict(
+        temperature=0.2,
+        response_mime_type="text/plain",
+    )
+    if thinking > 0:
+        kwargs["thinking_config"] = types.ThinkingConfig(thinking_budget=thinking)
+    if google_search:
+        kwargs["tools"] = [types.Tool(google_search=types.GoogleSearch())]
+    return types.GenerateContentConfig(**kwargs)
+
+def main():
+    load_dotenv()
+    client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
+
+    flash = "gemini-2.5-flash"
+    flash_lite = "gemini-2.5-flash-lite"
+
+    ROOT = Path(__file__).resolve().parent
+    LECTURE_DIR = ROOT / "../lectures/2025-10-31-12-04-37-0700"  # ⚠️ CHANGE FOLDER NAME!!! 🛑
+
+    role_classification(client, flash, flash_lite, config_json(), LECTURE_DIR)
+
+if __name__ == "__main__":
+    main()

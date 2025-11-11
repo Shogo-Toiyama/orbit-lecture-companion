@@ -20,6 +20,13 @@ You will receive an array of sentence objects in chronological order:
 - main_text is the only portion to label.
 - context_before_main_text / context_after_main_text are optional and read-only context.
 
+DECISION ORDER (apply in this order, stop at first match)
+0) BACKCHANNEL/FILLER DETECTION (apply FIRST; if true, skip all other rules)
+1) announcement
+2) qa
+3) lecture
+4) chitchat
+
 JUDGMENT RULES (be consistent)
 - Consider local context: you may reference up to ±5 neighboring sentences (including from the context arrays) to decide the role.
 - Prioritize roles when signals conflict:
@@ -33,6 +40,29 @@ JUDGMENT RULES (be consistent)
     • qa indicators: “?”, “I have a question…”, “could you explain…”, short student prompts followed by a teacher answer.  
     • lecture indicators: domain terms, definitions, stepwise reasoning, “therefore / which means / in other words”, topic-tied examples.
 - Fallback: If truly uncertain after applying the above, choose "lecture", but keep such fallbacks minimal.
+
+BACKCHANNEL / FILLER HANDLING (DETERMINISTIC)
+- Normalize text: lowercase, trim, remove surrounding punctuation, collapse spaces.
+- A sentence is "backchannel-only" if ALL are true:
+  (a) length ≤ 12 characters OR ≤ 3 tokens (after normalization); and
+  (b) DOES NOT contain a question mark "?"; and
+  (c) DOES NOT contain any course-operation keywords:
+      {due, deadline, submit, exam, quiz, points, grading, rubric,
+       policy, office hours, extension, canvas, moodle,
+       mon, tue, wed, thu, fri, sat, sun, am, pm, :00, :30, 0-9}; and
+  (d) normalized text is EXACTLY one of:
+      {yes, yeah, yep, no, ok, okay, right, sure, great, cool, nice,
+       uh, um, hmm, mm-hmm, uh-huh, i see, got it, understood,
+       excuse me, pardon, thanks, thank you}
+- Exception: if the sentence immediately introduces substantive content
+  (e.g., "okay, the exam is on friday"), do NOT treat as backchannel-only.
+
+IF backchannel-only:
+  role := inherit the last non-backchannel role within visible context
+          (prefer main_text; if none, use "chitchat").
+  role_score := 1.00
+  role_reason := "backchannel; inherits previous role"
+  (STOP: do not evaluate any other rules)
 
 OUTPUT (JSON ONLY)
 Return a single JSON object with this exact shape and nothing else:

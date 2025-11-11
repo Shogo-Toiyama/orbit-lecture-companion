@@ -11,6 +11,14 @@ PROJECT_ROOT = Path(__file__).resolve().parents[1]
 PROMPTS_DIR = PROJECT_ROOT / "prompts"
 _ILLEGAL_FS = re.compile(r'[\\/:*?"<>|\n\r\t]')
 
+def token_report(resp):
+    um = resp.usage_metadata
+    prompt_tokens = um.prompt_token_count
+    candidate_tokens = um.candidates_token_count
+    total_tokens = um.total_token_count
+    thinking_tokens = total_tokens - prompt_tokens - candidate_tokens
+    return (f"TOKEN USAGE REPORT\n  ⬆️:{prompt_tokens}, 🧠: {thinking_tokens}, ⬇️: {candidate_tokens}\n  TOTAL: {total_tokens}")
+
 def _strip_code_fence(text: str) -> str:
     t = text.strip()
     if t.startswith("```"):
@@ -62,6 +70,7 @@ def _generate_one_topic_detail(
     draft_path.write_text(response_topic_detail.text.strip(), encoding="utf-8")
 
     elapsed = time.time() - start_time_one_topic_detail_generation
+    print(token_report(response_topic_detail))
     print(f"  --> ⏰ Generated details for topic {idx} in {elapsed:.2f} seconds.")
 
 def _check_one_faithfulness(
@@ -103,6 +112,7 @@ def _check_one_faithfulness(
     out_path.write_text(resp.text, encoding="utf-8")
 
     elapsed = time.time() - start
+    print(token_report(resp))
     print(f"  --> ⏰ Checked and edited details for {draft_path.name} in {elapsed:.2f} seconds.")
     return out_path
 

@@ -11,6 +11,14 @@ from google.genai import types
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 PROMPTS_DIR = PROJECT_ROOT / "prompts"
 
+def token_report(resp):
+    um = resp.usage_metadata
+    prompt_tokens = um.prompt_token_count
+    candidate_tokens = um.candidates_token_count
+    total_tokens = um.total_token_count
+    thinking_tokens = total_tokens - prompt_tokens - candidate_tokens
+    return (f"TOKEN USAGE REPORT\n  ⬆️:{prompt_tokens}, 🧠: {thinking_tokens}, ⬇️: {candidate_tokens}\n  TOTAL: {total_tokens}")
+
 def _generate_one_fun_fact(
     client, gen_model, config_text,
     instr_fun_facts_generation: str,
@@ -41,6 +49,7 @@ def _generate_one_fun_fact(
     
     end_time_one_fun_fact = time.time()
     elapsed_time_one_fun_fact = end_time_one_fun_fact - start_time_one_fun_fact
+    print(token_report(response_fun_facts))
     print(f"  --> ⏰Generated fun fact for '{topic_name}': {elapsed_time_one_fun_fact:.2f} seconds.")
 
 def generate_fun_facts(client, gen_model, config_text, lecture_dir: Path):

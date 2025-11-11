@@ -6,6 +6,14 @@ from pathlib import Path
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 PROMPTS_DIR = PROJECT_ROOT / "prompts"
 
+def token_report(resp):
+    um = resp.usage_metadata
+    prompt_tokens = um.prompt_token_count
+    candidate_tokens = um.candidates_token_count
+    total_tokens = um.total_token_count
+    thinking_tokens = total_tokens - prompt_tokens - candidate_tokens
+    return (f"TOKEN USAGE REPORT\n  ⬆️:{prompt_tokens}, 🧠: {thinking_tokens}, ⬇️: {candidate_tokens}\n  TOTAL: {total_tokens}")
+
 def _strip_code_fence(text: str) -> str:
     if text.lstrip().startswith("```"):
         lines = [ln.rstrip("\n") for ln in text.splitlines()]
@@ -59,7 +67,6 @@ def speach_to_text(audio_file, lecture_dir: Path):
     end_time_audio_to_text = time.time()
     elapsed_time_audio_to_text = end_time_audio_to_text - start_time_audio_to_text
     print(f"⏰Transcribed audio to text: {elapsed_time_audio_to_text:.2f} seconds.")
-
 
 def sentence_review(client, gen_model, config_json, lecture_dir: Path):
     # sentencesのReview
@@ -134,6 +141,7 @@ def sentence_review(client, gen_model, config_json, lecture_dir: Path):
 
     end_time_sentence_review = time.time()
     elapsed_time_sentence_review = end_time_sentence_review - start_time_sentence_review
+    print(token_report(response_sentence_review))
     print(f"⏰Sentence Review: {elapsed_time_sentence_review:.2f} seconds.") 
 
 def lecture_audio_to_text(audio_file, lecture_dir: Path, client, gen_model, config_json):

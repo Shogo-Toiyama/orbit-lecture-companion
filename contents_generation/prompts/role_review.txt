@@ -5,7 +5,15 @@ INPUT DATA
 - low_confidence_sid: array of sids whose role_score < 0.90. Only these MAY be relabeled.
 
 GOAL
-Read the full transcript (you may use global context) and decide whether each sentence’s assigned role is correct. Correct roles ONLY for sentences whose sid appears in low_confidence_sid. High-confidence sentences (not in low_confidence_sid) are immutable.
+Review only the local context windows for the sids listed in low_confidence_sid (e.g., ±5 neighboring sentences) and decide whether the target sentence’s role should be changed. Do not use any global context. Modify roles ONLY for sentences whose sid appears in low_confidence_sid. High-confidence sentences (not in low_confidence_sid) are immutable.
+
+BACKCHANNEL / FILLER RULE
+- If the target sentence is a minimal backchannel/acknowledgment (e.g., "yes", "okay", "right", "uh-huh", "excuse me", "thanks")
+  and contains no course-operation keywords, and no technical content,
+  then immediately ignore it. DO NOT change its role and DO NOT include it in `results`.
+- Exception: if the sentence immediately introduces substantive content
+  (e.g., "Okay, this due Friday"), evaluate normally.
+- Do not emit reasons for ignored backchannels.
 
 ROLE SET (allowed values only)
 - lecture
@@ -20,7 +28,7 @@ ROLE DEFINITIONS
 - chitchat: greetings, small talk, jokes, off-topic banter; meta exchanges unrelated to course content.
 
 EVIDENCE & HEURISTICS (ONLY consider if sid ∈ low_confidence_sid)
-- Use global and local context (prioritize ±5 neighboring sentences).
+- Use local context (prioritize ±5, up to ±15 neighboring sentences). Do NOT read full transcript.
 - Priority when signals conflict: announcement > lecture > qa > chitchat.
 - Prefer stability: avoid flickering roles inside a strong block unless content clearly switches.
 - Useful indicators:

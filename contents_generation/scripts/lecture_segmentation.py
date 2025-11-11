@@ -11,6 +11,14 @@ PROMPTS_DIR = PROJECT_ROOT / "prompts"
 
 SID_NUM = re.compile(r"s(\d+)")
 
+def token_report(resp):
+    um = resp.usage_metadata
+    prompt_tokens = um.prompt_token_count
+    candidate_tokens = um.candidates_token_count
+    total_tokens = um.total_token_count
+    thinking_tokens = total_tokens - prompt_tokens - candidate_tokens
+    return (f"TOKEN USAGE REPORT\n  ⬆️:{prompt_tokens}, 🧠: {thinking_tokens}, ⬇️: {candidate_tokens}\n  TOTAL: {total_tokens}")
+
 def sid_to_num(sid: str):
     m = SID_NUM.match(sid)
     if m:
@@ -56,6 +64,7 @@ def topic_segmentation(client, gen_model, config_json, lecture_dir: Path):
 
     end_time_topic_segmentation = time.time()
     elapsed_time_topic_segmentation = end_time_topic_segmentation - start_time_topic_segmentation
+    print(token_report(response_topic_segmentation))
     print(f"⏰Extracted topic: {elapsed_time_topic_segmentation:.2f} seconds.")
 
 def out_of_segment_classification(client, gen_model_lite, config_json, lecture_dir: Path):
@@ -112,6 +121,7 @@ def out_of_segment_classification(client, gen_model_lite, config_json, lecture_d
 
     end_time_oos_classification = time.time()
     elapsed_time_oos_classification = end_time_oos_classification - start_time_oos_classification
+    print(token_report(response_oos_classification))
     print(f"⏰Classified out of segments: {elapsed_time_oos_classification:.2f} seconds.")
     
 
