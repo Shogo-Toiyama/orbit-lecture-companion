@@ -1,0 +1,1768 @@
+{
+  "labels": [
+    {
+      "sid": "s000296",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Continuing explanation of algorithm analysis and comparison."
+    },
+    {
+      "sid": "s000297",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Continuing explanation of algorithm analysis and comparison."
+    },
+    {
+      "sid": "s000298",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Continuing explanation of algorithm analysis and comparison."
+    },
+    {
+      "sid": "s000299",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Continuing explanation of algorithm analysis and comparison."
+    },
+    {
+      "sid": "s000300",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Continuing explanation of algorithm analysis and comparison."
+    },
+    {
+      "sid": "s000301",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Continuing explanation of algorithm analysis and comparison."
+    },
+    {
+      "sid": "s000302",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Continuing explanation of algorithm analysis and comparison."
+    },
+    {
+      "sid": "s000303",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Continuing explanation of algorithm analysis and comparison."
+    },
+    {
+      "sid": "s000304",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Explaining two solutions and their runtime complexity."
+    },
+    {
+      "sid": "s000305",
+      "role": "qa",
+      "role_score": 0.90,
+      "role_reason": "Student-like question about correctness of solutions."
+    },
+    {
+      "sid": "s000306",
+      "role": "qa",
+      "role_score": 0.90,
+      "role_reason": "Direct answer to the question about correctness."
+    },
+    {
+      "sid": "s000307",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Elaborating on the correctness of the solutions."
+    },
+    {
+      "sid": "s000308",
+      "role": "qa",
+      "role_score": 0.90,
+      "role_reason": "Student-like question about efficiency of solutions."
+    },
+    {
+      "sid": "s000309",
+      "role": "qa",
+      "role_score": 0.90,
+      "role_reason": "Direct answer to the question about efficiency."
+    },
+    {
+      "sid": "s000310",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Providing an example to illustrate efficiency difference."
+    },
+    {
+      "sid": "s000311",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Continuing the example to show the magnitude of difference."
+    },
+    {
+      "sid": "s000312",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Extending the example to larger numbers."
+    },
+    {
+      "sid": "s000313",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Connecting the example to real-world numbers."
+    },
+    {
+      "sid": "s000314",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Transitioning to practical implications of the analysis."
+    },
+    {
+      "sid": "s000315",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Discussing practical execution versus theoretical analysis."
+    },
+    {
+      "sid": "s000316",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Continuing the discussion on practical execution."
+    },
+    {
+      "sid": "s000317",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Emphasizing the identical nature of the code in practice."
+    },
+    {
+      "sid": "s000318",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Referring back to the theoretical analysis."
+    },
+    {
+      "sid": "s000319",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Contrasting theoretical analysis with practical runtime."
+    },
+    {
+      "sid": "s000320",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Highlighting the importance of knowing runtime ahead of time."
+    },
+    {
+      "sid": "s000321",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Explaining the consequence of an inefficient analysis."
+    },
+    {
+      "sid": "s000322",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Clarifying which solution is being discussed."
+    },
+    {
+      "sid": "s000323",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Explaining the reasoning behind the first solution's analysis."
+    },
+    {
+      "sid": "s000324",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Providing a scenario to illustrate the comparison process."
+    },
+    {
+      "sid": "s000325",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Continuing the scenario to show progression."
+    },
+    {
+      "sid": "s000326",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Continuing the scenario to show progression."
+    },
+    {
+      "sid": "s000327",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Continuing the scenario to show progression."
+    },
+    {
+      "sid": "s000328",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Continuing the scenario to show progression."
+    },
+    {
+      "sid": "s000329",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Summarizing the worst-case comparison for an element."
+    },
+    {
+      "sid": "s000330",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Referring to a previous proof or explanation."
+    },
+    {
+      "sid": "s000331",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Acknowledging student feedback or perception."
+    },
+    {
+      "sid": "s000332",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Agreeing with the student's point."
+    },
+    {
+      "sid": "s000333",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Explaining a counter-argument or refinement."
+    },
+    {
+      "sid": "s000334",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Introducing a new approach to the analysis."
+    },
+    {
+      "sid": "s000335",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Explaining the impact of the approach shift."
+    },
+    {
+      "sid": "s000336",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Drawing parallels to previous examples."
+    },
+    {
+      "sid": "s000337",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Continuing the parallel to previous examples."
+    },
+    {
+      "sid": "s000338",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Reinforcing that this is a recurring theme."
+    },
+    {
+      "sid": "s000339",
+      "role": "qa",
+      "role_score": 0.90,
+      "role_reason": "Student-like question about different cases of analysis."
+    },
+    {
+      "sid": "s000340",
+      "role": "qa",
+      "role_score": 0.90,
+      "role_reason": "Direct answer clarifying that both are worst cases."
+    },
+    {
+      "sid": "s000341",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Distinguishing between types of worst cases."
+    },
+    {
+      "sid": "s000342",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Explaining the reason for a pessimistic analysis."
+    },
+    {
+      "sid": "s000343",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Reiterating the correctness of the worst-case analysis."
+    },
+    {
+      "sid": "s000344",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Explaining the purpose of using 'order' notation."
+    },
+    {
+      "sid": "s000345",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Explaining the implication of the 'order' notation."
+    },
+    {
+      "sid": "s000346",
+      "role": "chitchat",
+      "role_score": 0.80,
+      "role_reason": "Short interjection, likely a filler."
+    },
+    {
+      "sid": "s000347",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Clarifying the bounds of the algorithm's runtime."
+    },
+    {
+      "sid": "s000348",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Continuing the explanation of runtime bounds."
+    },
+    {
+      "sid": "s000349",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Explaining the implication of the second analysis."
+    },
+    {
+      "sid": "s000350",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Reiterating the reason for using 'order' notation."
+    },
+    {
+      "sid": "s000351",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Highlighting the difference in quality of analysis."
+    },
+    {
+      "sid": "s000352",
+      "role": "chitchat",
+      "role_score": 0.80,
+      "role_reason": "Short concluding remark."
+    },
+    {
+      "sid": "s000353",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Introducing an analogy to explain the concept."
+    },
+    {
+      "sid": "s000354",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Explaining the first part of the analogy."
+    },
+    {
+      "sid": "s000355",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Explaining the second part of the analogy."
+    },
+    {
+      "sid": "s000356",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Connecting the analogy back to the algorithm analysis."
+    },
+    {
+      "sid": "s000357",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Continuing the comparison within the analogy."
+    },
+    {
+      "sid": "s000358",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Summarizing the difference in budgeting/analysis."
+    },
+    {
+      "sid": "s000359",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Concluding the point about spending not changing."
+    },
+    {
+      "sid": "s000360",
+      "role": "chitchat",
+      "role_score": 0.80,
+      "role_reason": "Short interjection, likely a filler."
+    },
+    {
+      "sid": "s000361",
+      "role": "qa",
+      "role_score": 0.90,
+      "role_reason": "Student-like question about the logical correctness of solution one."
+    },
+    {
+      "sid": "s000362",
+      "role": "qa",
+      "role_score": 0.90,
+      "role_reason": "Further elaboration of the student's question."
+    },
+    {
+      "sid": "s000363",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Responding to the student's question with an explanation."
+    },
+    {
+      "sid": "s000364",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Connecting the student's point to the current discussion."
+    },
+    {
+      "sid": "s000365",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Addressing the correctness of the initial statement."
+    },
+    {
+      "sid": "s000366",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Reiterating a key point about comparisons."
+    },
+    {
+      "sid": "s000367",
+      "role": "qa",
+      "role_score": 0.90,
+      "role_reason": "Student-like question seeking confirmation."
+    },
+    {
+      "sid": "s000368",
+      "role": "chitchat",
+      "role_score": 0.80,
+      "role_reason": "Short affirmative response."
+    },
+    {
+      "sid": "s000369",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Acknowledging the correctness and proceeding with the analysis."
+    },
+    {
+      "sid": "s000370",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Quantifying the number of elements."
+    },
+    {
+      "sid": "s000371",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Multiplying the number of elements by comparisons."
+    },
+    {
+      "sid": "s000372",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Addressing the student's potential next thought."
+    },
+    {
+      "sid": "s000373",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Validating the student's intuition but correcting the conclusion."
+    },
+    {
+      "sid": "s000374",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Acknowledging the student's doubt about the comparison count."
+    },
+    {
+      "sid": "s000375",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Clarifying that doubt doesn't mean incorrectness."
+    },
+    {
+      "sid": "s000376",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Pointing to the existence of a better method."
+    },
+    {
+      "sid": "s000377",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Emphasizing the distinction between correctness and efficiency."
+    },
+    {
+      "sid": "s000378",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Setting up a hypothetical exam question."
+    },
+    {
+      "sid": "s000379",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Stating the expected answer for correctness."
+    },
+    {
+      "sid": "s000380",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Confirming the correctness."
+    },
+    {
+      "sid": "s000381",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Posing the second part of the hypothetical question."
+    },
+    {
+      "sid": "s000382",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Stating the expected answer for efficiency."
+    },
+    {
+      "sid": "s000383",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Explaining the reason for the 'no' answer."
+    },
+    {
+      "sid": "s000384",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Highlighting the importance of the distinction."
+    },
+    {
+      "sid": "s000385",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Stating the core concepts being contrasted."
+    },
+    {
+      "sid": "s000386",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Encouraging student understanding of the distinction."
+    },
+    {
+      "sid": "s000387",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Referencing previous instances of this concept."
+    },
+    {
+      "sid": "s000388",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Stating requirements for the next algorithm."
+    },
+    {
+      "sid": "s000389",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Stating another requirement for the algorithm."
+    },
+    {
+      "sid": "s000390",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Elaborating on the relationship between S and T."
+    },
+    {
+      "sid": "s000391",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Providing an example of list sizes."
+    },
+    {
+      "sid": "s000392",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Providing another example of list sizes."
+    },
+    {
+      "sid": "s000393",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Stating the algorithm's indifference to list sizes."
+    },
+    {
+      "sid": "s000394",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Clarifying the irrelevance of S and T equality."
+    },
+    {
+      "sid": "s000395",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Reiterating the algorithm's independence from S and T size."
+    },
+    {
+      "sid": "s000396",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Stating the core operation: merging sorted lists."
+    },
+    {
+      "sid": "s000397",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Explaining why sorted lists are a requirement."
+    },
+    {
+      "sid": "s000398",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Reiterating the sorted list requirement."
+    },
+    {
+      "sid": "s000399",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Stating the outcome of merging sorted lists."
+    },
+    {
+      "sid": "s000400",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Clarifying the output of the algorithm."
+    },
+    {
+      "sid": "s000401",
+      "role": "qa",
+      "role_score": 0.90,
+      "role_reason": "Student-like question seeking clarification."
+    },
+    {
+      "sid": "s000402",
+      "role": "chitchat",
+      "role_score": 0.80,
+      "role_reason": "Short interjection, likely a filler."
+    },
+    {
+      "sid": "s000403",
+      "role": "qa",
+      "role_score": 0.90,
+      "role_reason": "Student-like question about the scope of the algorithm."
+    },
+    {
+      "sid": "s000404",
+      "role": "qa",
+      "role_score": 0.90,
+      "role_reason": "Direct answer clarifying the algorithm's purpose."
+    },
+    {
+      "sid": "s000405",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Acknowledging the student's point and transitioning."
+    },
+    {
+      "sid": "s000406",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Explaining the role of merging in the overall problem."
+    },
+    {
+      "sid": "s000407",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Explaining the necessity of discussing merging."
+    },
+    {
+      "sid": "s000408",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Highlighting the dependency on the merging subproblem."
+    },
+    {
+      "sid": "s000409",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Explaining the consequence of inefficient merging."
+    },
+    {
+      "sid": "s000410",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Introducing bubble sort as a side note."
+    },
+    {
+      "sid": "s000411",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Describing the procedure of bubble sort."
+    },
+    {
+      "sid": "s000412",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Continuing the description of bubble sort."
+    },
+    {
+      "sid": "s000413",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Stating the time complexity of bubble sort."
+    },
+    {
+      "sid": "s000414",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Characterizing bubble sort's efficiency."
+    },
+    {
+      "sid": "s000415",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Explaining the motivation for alternative sorting methods."
+    },
+    {
+      "sid": "s000416",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Summarizing the efficiency of merging sorted lists."
+    },
+    {
+      "sid": "s000417",
+      "role": "qa",
+      "role_score": 0.90,
+      "role_reason": "Student-like question transitioning to the next topic."
+    },
+    {
+      "sid": "s000418",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Introducing the problem of sorting a list of size N."
+    },
+    {
+      "sid": "s000419",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Defining the recurrence relation for merge sort."
+    },
+    {
+      "sid": "s000420",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Describing the recursive step of sorting halves."
+    },
+    {
+      "sid": "s000421",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Highlighting the state after recursive calls."
+    },
+    {
+      "sid": "s000422",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Explaining the need for merging to get the final solution."
+    },
+    {
+      "sid": "s000423",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Formulating the recurrence relation with merge cost."
+    },
+    {
+      "sid": "s000424",
+      "role": "chitchat",
+      "role_score": 0.80,
+      "role_reason": "Short affirmative response."
+    },
+    {
+      "sid": "s000425",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Explaining the recurrence relation for merge sort."
+    },
+    {
+      "sid": "s000426",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Generalizing the divide and conquer structure."
+    },
+    {
+      "sid": "s000427",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Describing the general time complexity of divide and conquer."
+    },
+    {
+      "sid": "s000428",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Discussing the cost of dividing the problem."
+    },
+    {
+      "sid": "s000429",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Asking how the problem is divided."
+    },
+    {
+      "sid": "s000430",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Explaining the division process."
+    },
+    {
+      "sid": "s000431",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Characterizing the division step."
+    },
+    {
+      "sid": "s000432",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Highlighting the complexity of the merging step."
+    },
+    {
+      "sid": "s000433",
+      "role": "qa",
+      "role_score": 0.90,
+      "role_reason": "Student-like question seeking confirmation on the equation."
+    },
+    {
+      "sid": "s000434",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Explaining the origin of the equation."
+    },
+    {
+      "sid": "s000435",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Reiterating the divide and conquer structure."
+    },
+    {
+      "sid": "s000436",
+      "role": "chitchat",
+      "role_score": 0.80,
+      "role_reason": "Short affirmative response."
+    },
+    {
+      "sid": "s000437",
+      "role": "qa",
+      "role_score": 0.90,
+      "role_reason": "Student-like question about the merge cost."
+    },
+    {
+      "sid": "s000438",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Clarifying the sizes of the subproblems."
+    },
+    {
+      "sid": "s000439",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Stating the cost of dividing."
+    },
+    {
+      "sid": "s000440",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Explaining what the 'order of one' refers to."
+    },
+    {
+      "sid": "s000441",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Announcing the simplification of the equation."
+    },
+    {
+      "sid": "s000442",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Writing the simplified recurrence relation."
+    },
+    {
+      "sid": "s000443",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Explaining the simplification of the merge cost."
+    },
+    {
+      "sid": "s000444",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Asking about the runtime of the merge step."
+    },
+    {
+      "sid": "s000445",
+      "role": "qa",
+      "role_score": 0.90,
+      "role_reason": "Student-like question seeking confirmation."
+    },
+    {
+      "sid": "s000446",
+      "role": "chitchat",
+      "role_score": 0.80,
+      "role_reason": "Short interjection, likely a filler."
+    },
+    {
+      "sid": "s000447",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Recalling the merge runtime and applying it."
+    },
+    {
+      "sid": "s000448",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Explaining why the 'order of one' is omitted."
+    },
+    {
+      "sid": "s000449",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Simplifying the recurrence relation and announcing the next step."
+    },
+    {
+      "sid": "s000450",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Discussing the difficulty of algebraic manipulation with order notation."
+    },
+    {
+      "sid": "s000451",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Introducing a more manageable form of the recurrence relation."
+    },
+    {
+      "sid": "s000452",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Stating the irrelevance of the constant factor."
+    },
+    {
+      "sid": "s000453",
+      "role": "chitchat",
+      "role_score": 0.80,
+      "role_reason": "Short affirmative response."
+    },
+    {
+      "sid": "s000454",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Clarifying the meaning of 'same number'."
+    },
+    {
+      "sid": "s000455",
+      "role": "qa",
+      "role_score": 0.90,
+      "role_reason": "Student-like question about the size of subproblems."
+    },
+    {
+      "sid": "s000456",
+      "role": "chitchat",
+      "role_score": 0.80,
+      "role_reason": "Short affirmative response."
+    },
+    {
+      "sid": "s000457",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Confirming that subproblem sizes are not necessarily equal."
+    },
+    {
+      "sid": "s000458",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Stating that unequal sizes are acceptable."
+    },
+    {
+      "sid": "s000459",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Reiterating the independence of S and T sizes in merging."
+    },
+    {
+      "sid": "s000460",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Explaining the condition for balanced subproblems."
+    },
+    {
+      "sid": "s000461",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Referring back to the merging process."
+    },
+    {
+      "sid": "s000462",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Emphasizing the flexibility in S and T sizes."
+    },
+    {
+      "sid": "s000463",
+      "role": "chitchat",
+      "role_score": 0.80,
+      "role_reason": "Short affirmative response."
+    },
+    {
+      "sid": "s000464",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Defining T as a function of time complexity."
+    },
+    {
+      "sid": "s000465",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Defining T(N) formally."
+    },
+    {
+      "sid": "s000466",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Stating the ultimate goal of complexity analysis."
+    },
+    {
+      "sid": "s000467",
+      "role": "qa",
+      "role_score": 0.90,
+      "role_reason": "Student-like question about the final form of the complexity."
+    },
+    {
+      "sid": "s000468",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Announcing the next step in solving the equation."
+    },
+    {
+      "sid": "s000469",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Explaining the scope of the recurrence relation."
+    },
+    {
+      "sid": "s000470",
+      "role": "qa",
+      "role_score": 0.90,
+      "role_reason": "Student-like question about the applicability of the relation."
+    },
+    {
+      "sid": "s000471",
+      "role": "chitchat",
+      "role_score": 0.80,
+      "role_reason": "Short affirmative response."
+    },
+    {
+      "sid": "s000472",
+      "role": "qa",
+      "role_score": 0.90,
+      "role_reason": "Student-like question about the merge time."
+    },
+    {
+      "sid": "s000473",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Recalling the merge time from previous discussion."
+    },
+    {
+      "sid": "s000474",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Clarifying the sizes of the subproblems in the merge context."
+    },
+    {
+      "sid": "s000475",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Connecting generic S and T to the specific N/2 sizes."
+    },
+    {
+      "sid": "s000476",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Mapping S to the previous notation."
+    },
+    {
+      "sid": "s000477",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Mapping T to the previous notation and its current value."
+    },
+    {
+      "sid": "s000478",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Summarizing the two key points discussed."
+    },
+    {
+      "sid": "s000479",
+      "role": "chitchat",
+      "role_score": 0.80,
+      "role_reason": "Marking a side note."
+    },
+    {
+      "sid": "s000480",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Emphasizing the importance of understanding divide and conquer structure."
+    },
+    {
+      "sid": "s000481",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Explaining the benefit of understanding the structure."
+    },
+    {
+      "sid": "s000482",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Outlining the plan for the rest of the lecture."
+    },
+    {
+      "sid": "s000483",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Characterizing divide and conquer as straightforward."
+    },
+    {
+      "sid": "s000484",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Identifying the difficult part of divide and conquer."
+    },
+    {
+      "sid": "s000485",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Describing the ease of merging in this specific case."
+    },
+    {
+      "sid": "s000486",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Acknowledging that merging can be complex in other problems."
+    },
+    {
+      "sid": "s000487",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Reiterating the general structure of divide and conquer."
+    },
+    {
+      "sid": "s000488",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Emphasizing the need for comfort with the structure."
+    },
+    {
+      "sid": "s000489",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Connecting the structure to the recurrence equation."
+    },
+    {
+      "sid": "s000490",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Announcing the next step: solving the equation."
+    },
+    {
+      "sid": "s000491",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Mentioning advanced mathematical techniques for solving recurrences."
+    },
+    {
+      "sid": "s000492",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Stating that advanced techniques are overkill for this course."
+    },
+    {
+      "sid": "s000493",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Describing the method that will be used for solving recurrences."
+    },
+    {
+      "sid": "s000494",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Emphasizing the need for comfort with the equations."
+    },
+    {
+      "sid": "s000495",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Providing an example of a solvable recurrence."
+    },
+    {
+      "sid": "s000496",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Stating that advanced solving techniques are not needed."
+    },
+    {
+      "sid": "s000497",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Reinforcing the irrelevance of advanced math for algorithm design."
+    },
+    {
+      "sid": "s000498",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Describing the scope of math needed for complexity analysis."
+    },
+    {
+      "sid": "s000499",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Specifying the context for complexity analysis."
+    },
+    {
+      "sid": "s000500",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Reiterating the generality of the recurrence relation."
+    },
+    {
+      "sid": "s000501",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Explaining the implication of the relation's generality."
+    },
+    {
+      "sid": "s000502",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Announcing the substitution of N/2 into the relation."
+    },
+    {
+      "sid": "s000503",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Showing the result of substituting N/2."
+    },
+    {
+      "sid": "s000504",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Clarifying what the bracketed term represents."
+    },
+    {
+      "sid": "s000505",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Stating that no complex algebra was used."
+    },
+    {
+      "sid": "s000506",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Describing the substitution process."
+    },
+    {
+      "sid": "s000507",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Explaining the result of the substitution."
+    },
+    {
+      "sid": "s000508",
+      "role": "chitchat",
+      "role_score": 0.80,
+      "role_reason": "Short concluding remark."
+    },
+    {
+      "sid": "s000509",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Reiterating the action taken."
+    },
+    {
+      "sid": "s000510",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Explaining the substitution process in detail."
+    },
+    {
+      "sid": "s000511",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Characterizing the substitution as simple."
+    },
+    {
+      "sid": "s000512",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Providing an analogy for simple substitution."
+    },
+    {
+      "sid": "s000513",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Emphasizing the simplicity of the math involved."
+    },
+    {
+      "sid": "s000514",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Announcing the rewriting of the equation."
+    },
+    {
+      "sid": "s000515",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Showing the rewritten equation and explaining the simplification."
+    },
+    {
+      "sid": "s000516",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Announcing the intention to write the rest of the equation."
+    },
+    {
+      "sid": "s000517",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Announcing the placement of the final equation."
+    },
+    {
+      "sid": "s000518",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Presenting the simplified equation and reiterating the math type."
+    },
+    {
+      "sid": "s000519",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Clarifying what 'simple math' refers to."
+    },
+    {
+      "sid": "s000520",
+      "role": "chitchat",
+      "role_score": 0.80,
+      "role_reason": "Short affirmative response."
+    },
+    {
+      "sid": "s000521",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Revisiting the merge time and its notation."
+    },
+    {
+      "sid": "s000522",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Discussing the difficulty of algebra with order notation."
+    },
+    {
+      "sid": "s000523",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Explaining the use of 'CN' instead of 'order N'."
+    },
+    {
+      "sid": "s000524",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Stating the ease of algebraic manipulation with CN."
+    },
+    {
+      "sid": "s000525",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Listing the allowed algebraic operations on CN."
+    },
+    {
+      "sid": "s000526",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Contrasting the difficulty with order notation."
+    },
+    {
+      "sid": "s000527",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Qualifying the difficulty of order notation algebra."
+    },
+    {
+      "sid": "s000528",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Stating personal preference for CN."
+    },
+    {
+      "sid": "s000529",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Expressing desire for comfort with the method."
+    },
+    {
+      "sid": "s000530",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Explaining the familiarity with CN algebra."
+    },
+    {
+      "sid": "s000531",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Confirming the ability to perform these operations."
+    },
+    {
+      "sid": "s000532",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Announcing the successful translation of T(N)."
+    },
+    {
+      "sid": "s000533",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Explaining the progression of the recurrence relation."
+    },
+    {
+      "sid": "s000534",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Describing the next step in the substitution process."
+    },
+    {
+      "sid": "s000535",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Stating the initial lack of knowledge about T(N)."
+    },
+    {
+      "sid": "s000536",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Rephrasing the unknown T(N)."
+    },
+    {
+      "sid": "s000537",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Confirming the unknown runtime."
+    },
+    {
+      "sid": "s000538",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Explaining the purpose of writing the recurrence."
+    },
+    {
+      "sid": "s000539",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Highlighting the difficulty of solving for T(N/4) without knowing T(N)."
+    },
+    {
+      "sid": "s000540",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Concluding that the problem hasn't been simplified yet."
+    },
+    {
+      "sid": "s000541",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Announcing the next step in the process."
+    },
+    {
+      "sid": "s000542",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Stating the generality of the recurrence relation."
+    },
+    {
+      "sid": "s000543",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Explaining the applicability of the relation to N/4."
+    },
+    {
+      "sid": "s000544",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Showing the result of substituting N/4."
+    },
+    {
+      "sid": "s000545",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Describing the substitution process for N/4."
+    },
+    {
+      "sid": "s000546",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Comparing the substitution method to previous steps."
+    },
+    {
+      "sid": "s000547",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Stating that the substitution was performed again."
+    },
+    {
+      "sid": "s000548",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Suggesting the possibility of further steps."
+    },
+    {
+      "sid": "s000549",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Encouraging further steps."
+    },
+    {
+      "sid": "s000550",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Explaining the purpose of performing multiple substitutions."
+    },
+    {
+      "sid": "s000551",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Presenting the general form of the equation after multiple substitutions."
+    },
+    {
+      "sid": "s000552",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Indicating the pattern of the exponents."
+    },
+    {
+      "sid": "s000553",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Describing the current state of the equation."
+    },
+    {
+      "sid": "s000554",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Highlighting the dependency on the exponent 'i'."
+    },
+    {
+      "sid": "s000555",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Expressing doubt about the simplification achieved."
+    },
+    {
+      "sid": "s000556",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Stating the lack of knowledge about T(N)."
+    },
+    {
+      "sid": "s000557",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Reiterating the unknown runtime."
+    },
+    {
+      "sid": "s000558",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Observing that the equation seems more complex."
+    },
+    {
+      "sid": "s000559",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Questioning the progress made."
+    },
+    {
+      "sid": "s000560",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Asking about the purpose of the steps taken."
+    },
+    {
+      "sid": "s000561",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Stating the intention to ask a self-reflective question."
+    },
+    {
+      "sid": "s000562",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Considering a specific large input size."
+    },
+    {
+      "sid": "s000563",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Stating the lack of knowledge about runtime for large N."
+    },
+    {
+      "sid": "s000564",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Repeating the lack of knowledge for another large N."
+    },
+    {
+      "sid": "s000565",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Asking if runtime is known for any size."
+    },
+    {
+      "sid": "s000566",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Identifying the base case: very small problem size."
+    },
+    {
+      "sid": "s000567",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Stating that the runtime for the base case is known."
+    },
+    {
+      "sid": "s000568",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Posing a question about the runtime for a single input."
+    },
+    {
+      "sid": "s000569",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Explaining why the list is already sorted."
+    },
+    {
+      "sid": "s000570",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Discussing the constant time for the base case."
+    },
+    {
+      "sid": "s000571",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Connecting the known runtime to the general equation."
+    },
+    {
+      "sid": "s000572",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Stating the logic behind the approach."
+    },
+    {
+      "sid": "s000573",
+      "role": "qa",
+      "role_score": 0.90,
+      "role_reason": "Student-like question about when the base case is reached."
+    },
+    {
+      "sid": "s000574",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Announcing the mathematical step to find the base case."
+    },
+    {
+      "sid": "s000575",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Setting up the equation to find the value of 'i'."
+    },
+    {
+      "sid": "s000576",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Announcing the next mathematical step."
+    },
+    {
+      "sid": "s000577",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Formulating the equation for 'i'."
+    },
+    {
+      "sid": "s000578",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Explaining the method to solve for 'i'."
+    },
+    {
+      "sid": "s000579",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Solving for 'i' and defining log notation."
+    },
+    {
+      "sid": "s000580",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Stating the value of T when 'i' is log N."
+    },
+    {
+      "sid": "s000581",
+      "role": "qa",
+      "role_score": 0.90,
+      "role_reason": "Student-like question about the value of T(1)."
+    },
+    {
+      "sid": "s000582",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Explaining the runtime for the base case T(1)."
+    },
+    {
+      "sid": "s000583",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Using an example to illustrate T(1)."
+    },
+    {
+      "sid": "s000584",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Providing the answer for the example."
+    },
+    {
+      "sid": "s000585",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Explaining the state of the sorted list."
+    },
+    {
+      "sid": "s000586",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Suggesting a value for the constant time."
+    },
+    {
+      "sid": "s000587",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Clarifying the meaning of the constant time."
+    },
+    {
+      "sid": "s000588",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Substituting the value of 'i' back into the general equation."
+    },
+    {
+      "sid": "s000589",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "Using an analogy to explain substitution."
+    }
+  ]
+}

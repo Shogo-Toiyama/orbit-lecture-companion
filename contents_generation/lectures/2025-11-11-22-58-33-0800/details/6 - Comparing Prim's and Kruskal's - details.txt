@@ -1,0 +1,15 @@
+# 6. Comparing Prim's and Kruskal's
+
+This section introduces two fundamental algorithms, Prim's and Kruskal's, used to construct a Minimum Spanning Tree (MST). Both algorithms are rooted in the MST theorem, with Prim's building the tree vertex by vertex and Kruskal's selecting edges based on sorted weights while avoiding cycles. ⟦s001098, s001101⟧
+
+## 📚 Foundation and Overview of MST Algorithms
+The lecture emphasizes the importance of understanding the *Minimum Spanning Tree (MST) theorem* as a foundational concept. ⟦s001098, s001099⟧ Once this theorem is grasped, it enables the development of specific algorithms to find an MST. ⟦s001100⟧ There are two primary algorithms discussed for this purpose: Prim's and Kruskal's. ⟦s001101⟧
+
+## ⚙️ Prim's Algorithm Mechanism
+Prim's algorithm constructs an MST by progressively adding *one vertex at a time* to the growing tree. ⟦s001102⟧ This algorithm can be implemented in two ways: either with a *vertex-centric* approach or an *edge-centric* approach. ⟦s001103⟧
+
+## ⚙️ Kruskal's Algorithm Mechanism and Union-Find
+Kruskal's algorithm is another method for finding an MST. ⟦s001104⟧ Its process involves *sorting all the edges* in the graph by weight. ⟦s001105⟧ A critical component for Kruskal's is the *Union-Find data structure*, which is necessary to keep track of cycles and ensure that no cycles are formed when adding edges to the MST. ⟦s001106⟧
+
+## 🔍 Supplement: Understanding Union-Find for Cycle Detection
+The *Union-Find data structure* is used to manage a collection of disjoint sets. In Kruskal's algorithm, it helps determine if adding an edge between two vertices would create a cycle. If the two vertices are already connected (i.e., in the same set), adding the edge would form a cycle; otherwise, the edge can be added, and their respective sets are merged. ⟦s001106⟧

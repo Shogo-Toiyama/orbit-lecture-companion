@@ -1,20 +1,41 @@
 You are a careful transcript reviewer. Please follow the instruction and carefully review the transcript.
 
 INPUT DATA
-- original_sentences: array of sentence objects with {sid, text, confidence}.
-- low_confidence_sid: array of sids whose confidence < 0.90. Only these MAY be edited.
+- low_confidence_sentences: array of sentences whose confidence < 0.90.
 
 GOAL
-Read the full transcript for local context. Correct sentences that are likely ASR errors or inconsistent with nearby context. You MUST only modify sentences whose sid appears in low_confidence_sid. High-confidence sentences (not in low_confidence_sid) are immutable.
+Correct sentences that are likely ASR errors or inconsistent with nearby context. You MUST only modify sentences whose sid appears in low_confidence_sentences. High-confidence sentences (not in low_confidence_sentences) are immutable.
+
+LEVEL DEFINITIONS (decide per sentence)
+- Level 1: Minimal/cosmetic only. Meaning/nuance unchanged (punctuation/casing/style).
+- Level 2: Small improvement to readability/nuance; technical meaning unchanged (minor grammar/wording/terminology casing).
+- Level 3: Affects comprehension; ASR word mistakes or misheard phrases that impede understanding.
+- Level 4: Critical error; would mislead without fix (key terminology mix-ups, wrong symbols/numbers that change meaning).
+
+OUTPUT POLICY
+- OUTPUT ONLY Level 3 and Level 4 fixes.
+- DO NOT output Level 1 or Level 2 items.
+- For each output item, include 1–2 reason codes from REASON_CODES (no free-form text).
+
+REASON_CODES (choose 1–2 max per item)
+- asr_mishear          : ASR mishear / phonetically plausible substitution
+- terminology          : terminology consistency (e.g., MST vs MSP, edge vs agent)
+- capitalization       : capitalization/abbreviation clarity (API, GPU, N, E)
+- punctuation          : punctuation clarity only
+- grammar              : minor grammatical correction
+- style                : spelling/style normalization consistent with project
+- local_context        : local context correction within nearby lines
+- redundancy           : redundancy removal that preserves meaning
 
 WHAT TO DO
 1) For each sentence:
-   - If sid ∉ low_confidence_sid → skip (do not output).
-   - If sid ∈ low_confidence_sid → consider fixing only if there is a CLEAR, LOCALLY-SUPPORTED issue.
-2) When you fix a sentence, output an item with:
+   - Consider fixing only if there is a CLEAR, LOCALLY-SUPPORTED issue.
+   - Classify the needed change as Level 1–4. Output ONLY if Level ∈ {3,4}.
+2) When you fix a sentence (Level 3 or 4), output an item with:
    - sid (unchanged),
    - modified (the corrected text),
-   - reason (≤ 12 words, explicit and mapped to acceptable reasons below).
+   - reasons (array of 1–2 codes from REASON_CODES).
+   - Do NOT include any free-form justification outside these codes.
 
 ID FORMAT
 - 'sid' must start with 's' followed by exactly six digits (including any leading zeros). Do NOT drop or add leading zeros.
@@ -33,12 +54,13 @@ HARD CONSTRAINTS
 - Do NOT split or merge sentences; keep each sentence intact (sid must remain aligned).
 - Preserve original meaning and intent; only minimal corrections.
 - Only include items you actually changed in the output.
-- You are allowed to change a sentence ONLY if its sid is in low_confidence_sid.
+- You are allowed to change a sentence ONLY if its sid is in low_confidence_sentences.
 
 DECISION CHECKS (must pass BEFORE output)
 (a) The modified text is different from the original text.
-(b) The justification matches one of the ALLOWED EDITS above.
-If either fails, do not output an item for that sentence.
+(b) The change corresponds to Level 3 or Level 4.
+(c) The reasons array contains 1–2 items and every item ∈ REASON_CODES.
+If any fails, do not output an item for that sentence.
 
 OUTPUT FORMAT (JSON ONLY)
 - Return ONLY a JSON object with the following exact schema:
@@ -46,17 +68,17 @@ OUTPUT FORMAT (JSON ONLY)
 {
   "results": [
     {
-      "sid": "s000000",
-      "modified": "Corrected sentence here.",
-      "reason": "≤12 words; explicit justification"
+      "sid": "s000123",
+      "modified": "Modified text here.",
+      "reasons": ["reason_code1", "reason_code2"]
     }
   ]
 }
 
 SCHEMA RULES
 - results: array (possibly empty) of objects.
-- Each object must include sid (string), modified (string), reason (string ≤ 12 words).
-- Include ONLY sentences that you actually modified.
+- Each object must include sid (string), modified (string), reasons (array of 1–2 codes).
+- Include ONLY sentences that you actually modified (Level 3 or Level 4).
 - If nothing was changed, return: { "results": [] }
 
 NOTES

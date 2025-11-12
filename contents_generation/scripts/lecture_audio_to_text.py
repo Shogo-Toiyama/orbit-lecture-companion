@@ -3,6 +3,9 @@ import assemblyai as aai
 from dotenv import load_dotenv
 from pathlib import Path
 
+from google import genai
+from google.genai import types
+
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 PROMPTS_DIR = PROJECT_ROOT / "prompts"
 
@@ -34,8 +37,10 @@ def speach_to_text(audio_file, lecture_dir: Path):
     aai.settings.api_key = os.getenv("ASSEMBLYAI_API_KEY")
 
     aai_config = aai.TranscriptionConfig(
-        speech_model=aai.SpeechModel.universal,
-        speaker_labels=True
+        speech_model=aai.SpeechModel.nano,
+        punctuate=True,
+        format_text=True,
+        disfluencies=False,
     )
 
     print("Waiting for response from AssemblyAI API...")
@@ -56,11 +61,12 @@ def speach_to_text(audio_file, lecture_dir: Path):
             "text": getattr(s, "text", None),
             "start": getattr(s, "start", None),
             "end": getattr(s, "end", None),
-            "speaker": getattr(s, "speaker", None),
             "confidence": getattr(s, "confidence", None),
         }
 
     data = [sentence_to_dict(s, idx) for idx, s in enumerate(sentences, start=1)]
+    duration = transcript.audio_duration
+    print(f"Cost (nano): ${duration/3600*0.12:.3f}")
     with open(lecture_dir / "transcript_sentences.json", "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
     
@@ -83,15 +89,14 @@ def sentence_review(client, gen_model, config_json, lecture_dir: Path):
 
     ALLOWED = ["sid", "text", "confidence"]
     projected_sentences = [{k: s.get(k) for k in ALLOWED} for s in sentences]
-    low_confidence_sid = [s.get("sid") for s in sentences if s.get("confidence") < 0.9]
-    print("Low Confident Sentences: ", len(low_confidence_sid))
+    low_confidence_sentences = [s for s in projected_sentences if s.get("confidence", 1.0) < 0.9]
+    print("Low Confident Sentences: ", len(low_confidence_sentences))
 
     payload = {
         "task": "Sentence Review",
         "instruction": instr_sentence_review,
         "data": {
-            "original_sentences": projected_sentences,
-            "low_confidence_sid": low_confidence_sid
+            "low_confidence_sentences": low_confidence_sentences
         }
     }
 
@@ -148,12 +153,42 @@ def lecture_audio_to_text(audio_file, lecture_dir: Path, client, gen_model, conf
 
     speach_to_text(audio_file, lecture_dir)
     sentence_review(client, gen_model, config_json, lecture_dir)
-    
+
+
+
+# ------ for test -------
+def config_json(thinking: int = 0, google_search: bool = False):
+    kwargs = dict(
+        temperature=0.2,
+        response_mime_type="application/json",
+    )
+    if thinking > 0:
+        kwargs["thinking_config"] = types.ThinkingConfig(thinking_budget=thinking)
+    if google_search:
+        kwargs["tools"] = [types.Tool(google_search=types.GoogleSearch())]
+    return types.GenerateContentConfig(**kwargs)
+
+def config_text(thinking: int = 0, google_search: int = 0):
+    kwargs = dict(
+        temperature=0.2,
+        response_mime_type="text/plain",
+    )
+    if thinking > 0:
+        kwargs["thinking_config"] = types.ThinkingConfig(thinking_budget=thinking)
+    if google_search:
+        kwargs["tools"] = [types.Tool(google_search=types.GoogleSearch())]
+    return types.GenerateContentConfig(**kwargs)
 
 def main():
+    load_dotenv()
+    client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
+
+    flash = "gemini-2.5-flash"
+    flash_lite = "gemini-2.5-flash-lite"
+
     ROOT = Path(__file__).resolve().parent
-    LECTURE_DIR = ROOT / "../lectures/2025-10-27-16-29-28-0700"
-    lecture_audio_to_text(LECTURE_DIR)
+    LECTURE_DIR = ROOT / "../lectures/2025-10-31-12-04-37-0700"
+    lecture_audio_to_text("", LECTURE_DIR, client, flash, config_json())
 
 if __name__ == "__main__":
     main()

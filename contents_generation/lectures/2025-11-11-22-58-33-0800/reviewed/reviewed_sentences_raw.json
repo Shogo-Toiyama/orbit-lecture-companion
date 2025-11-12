@@ -1,0 +1,559 @@
+{
+  "results": [
+    {
+      "sid": "s000007",
+      "modified": "A weighted graph like that, where we have arbitrary integer weights on N vertices, you always, almost always use N as the number of vertices, E as the number of edges.",
+      "reason": "Terminology consistency and ASR mishear."
+    },
+    {
+      "sid": "s000008",
+      "modified": "Unless otherwise stated.",
+      "reason": "Spelling/style normalization and function-word fix."
+    },
+    {
+      "sid": "s000010",
+      "modified": "N is equal to 5.",
+      "reason": "Capitalization clarity."
+    },
+    {
+      "sid": "s000012",
+      "modified": "Spanning tree is a tree on these vertices that spans all the vertices, touches all the vertices.",
+      "reason": "ASR mishear, phonetically plausible."
+    },
+    {
+      "sid": "s000040",
+      "modified": "Okay, and sometimes in this spanning tree we will have edges that are of high weight just to ensure connectivity.",
+      "reason": "ASR mishear, phonetically plausible."
+    },
+    {
+      "sid": "s000043",
+      "modified": "So in the spanning tree there are some edges with larger weights, some edges with smaller weights, all else being equal.",
+      "reason": "ASR mishear, phonetically plausible."
+    },
+    {
+      "sid": "s000046",
+      "modified": "Okay, so the problem that we want to study is the so-called MST, Minimum Spanning Tree problem.",
+      "reason": "Spelling/style normalization and terminology consistency."
+    },
+    {
+      "sid": "s000048",
+      "modified": "It has applications.",
+      "reason": "Local context correction, completing an implied thought."
+    },
+    {
+      "sid": "s000053",
+      "modified": "Okay, so before we, and the graph is undirected, is the problem clear?",
+      "reason": "ASR mishear, phonetically plausible."
+    },
+    {
+      "sid": "s000058",
+      "modified": "You talk to your marketing manager or technical manager or whoever, try to make sure we understand the problem.",
+      "reason": "Redundancy removal, function-word fix."
+    },
+    {
+      "sid": "s000061",
+      "modified": "Lesson number one, in any problem you see, especially in this course, but in general, okay, so now we wanted to come up with algorithms that give us an MST.",
+      "reason": "Grammatical correction and capitalization clarity."
+    },
+    {
+      "sid": "s000075",
+      "modified": "Okay, consider a tree structure and a graph as such.",
+      "reason": "ASR mishear and local context correction."
+    },
+    {
+      "sid": "s000089",
+      "modified": "Okay, so if I take a structure like this, a tree structure given to me, and add one edge to it, the graph is not going to be a tree anymore.",
+      "reason": "ASR mishear, phonetically plausible."
+    },
+    {
+      "sid": "s000096",
+      "modified": "Let me call it C.",
+      "reason": "ASR mishear, phonetically plausible."
+    },
+    {
+      "sid": "s000104",
+      "modified": "I have a tree back. Okay, what I just said, all of this has nothing to do directly with MST, but we're going to use it in Prim's and Kruskal's MST.",
+      "reason": "ASR mishear and local context correction."
+    },
+    {
+      "sid": "s000110",
+      "modified": "Okay, consider your original graph G with a set of N vertices and E edges.",
+      "reason": "Redundancy removal and terminology consistency."
+    },
+    {
+      "sid": "s000118",
+      "modified": "If I take all the vertices and put them here, that's not a partition anymore.",
+      "reason": "Grammatical correction."
+    },
+    {
+      "sid": "s000143",
+      "modified": "There's going to be about N-squared edges that go across, but minimum is one, it's not zero.",
+      "reason": "ASR mishear and terminology consistency."
+    },
+    {
+      "sid": "s000151",
+      "modified": "Okay, I claim that every E sub min must be in every MST in the original graph.",
+      "reason": "Terminology consistency and ASR mishear."
+    },
+    {
+      "sid": "s000179",
+      "modified": "Yeah, so one was a no-brainer because that's the smallest weight in the entire graph.",
+      "reason": "ASR mishear, phonetically plausible."
+    },
+    {
+      "sid": "s000195",
+      "modified": "MST theorem says for every partition, not just one, not that there exists a partition.",
+      "reason": "Terminology consistency."
+    },
+    {
+      "sid": "s000209",
+      "modified": "Contrarily.",
+      "reason": "Spelling/style normalization."
+    },
+    {
+      "sid": "s000211",
+      "modified": "Complement of that. Complement of 'every' is 'there exists one'.",
+      "reason": "Local context correction, completing an implied thought."
+    },
+    {
+      "sid": "s000225",
+      "modified": "There's got to be at least one edge from left to right.",
+      "reason": "ASR mishear, phonetically plausible."
+    },
+    {
+      "sid": "s000238",
+      "modified": "A hundred edges, N minus one edges or just one edge.",
+      "reason": "Spelling/style normalization and capitalization clarity."
+    },
+    {
+      "sid": "s000252",
+      "modified": "E sub min is the minimum one going from left to right in my partition.",
+      "reason": "Terminology consistency and ASR mishear."
+    },
+    {
+      "sid": "s000274",
+      "modified": "We've already done this.",
+      "reason": "Grammatical correction."
+    },
+    {
+      "sid": "s000281",
+      "modified": "If I have some money in my pocket and I go buy a hot dog, give them 10 bucks, they give me $2 back, I'm going to have less money because instead of 10, they gave me two.",
+      "reason": "Grammatical correction."
+    },
+    {
+      "sid": "s000286",
+      "modified": "So E sub min, since it's the minimum between left and right, it's going to be less than that, it's going to be less than that, it's going to be less than that, it's going to be less than that by definition.",
+      "reason": "ASR mishear and terminology consistency."
+    },
+    {
+      "sid": "s000292",
+      "modified": "So MST theorem is true because of what you prove here.",
+      "reason": "Terminology consistency."
+    },
+    {
+      "sid": "s000314",
+      "modified": "We will produce a ton of partitions and for each partition I find an E sub min, I output that and I say that's part of MST.",
+      "reason": "ASR mishear and terminology consistency."
+    },
+    {
+      "sid": "s000317",
+      "modified": "Precisely N minus one times.",
+      "reason": "Grammatical correction."
+    },
+    {
+      "sid": "s000320",
+      "modified": "Any spanning tree will have exactly N minus one edges.",
+      "reason": "ASR mishear and capitalization clarity."
+    },
+    {
+      "sid": "s000325",
+      "modified": "So the one that Prim proposed, we're gonna call it Prim's MST algorithm.",
+      "reason": "Redundancy removal and style normalization."
+    },
+    {
+      "sid": "s000354",
+      "modified": "The detailed data structure at the end.",
+      "reason": "Grammatical correction."
+    },
+    {
+      "sid": "s000359",
+      "modified": "A, that's confusing to me.",
+      "reason": "Punctuation clarity."
+    },
+    {
+      "sid": "s000377",
+      "modified": "Arbitrary versus random.",
+      "reason": "Grammatical correction."
+    },
+    {
+      "sid": "s000378",
+      "modified": "Arbitrary versus being smart about picking the first vertex.",
+      "reason": "Grammatical correction."
+    },
+    {
+      "sid": "s000429",
+      "modified": "E sub min should be in the solution.",
+      "reason": "ASR mishear and terminology consistency."
+    },
+    {
+      "sid": "s000431",
+      "modified": "E sub min should be in the solution.",
+      "reason": "ASR mishear and terminology consistency."
+    },
+    {
+      "sid": "s000463",
+      "modified": "MST theorem. Proof.",
+      "reason": "Punctuation clarity."
+    },
+    {
+      "sid": "s000483",
+      "modified": "Instead I have V sub 1 through V sub N minus 1.",
+      "reason": "Terminology consistency."
+    },
+    {
+      "sid": "s000488",
+      "modified": "So why is this whole algorithm correct, Prim's algorithm?",
+      "reason": "ASR mishear, phonetically plausible."
+    },
+    {
+      "sid": "s000504",
+      "modified": "E sub 3.",
+      "reason": "Terminology consistency."
+    },
+    {
+      "sid": "s000532",
+      "modified": "Dijkstra's numbering.",
+      "reason": "Capitalization clarity."
+    },
+    {
+      "sid": "s000538",
+      "modified": "Now I'm ready for details of implementation.",
+      "reason": "ASR mishear, phonetically plausible."
+    },
+    {
+      "sid": "s000545",
+      "modified": "N time initially is N minus 1 because there are N minus 1 numbers, some of them infinite, some of them other numbers.",
+      "reason": "Capitalization clarity."
+    },
+    {
+      "sid": "s000565",
+      "modified": "So that's for finding E sub min after that, right?",
+      "reason": "Terminology consistency."
+    },
+    {
+      "sid": "s000595",
+      "modified": "You said, what happened to this edge?",
+      "reason": "ASR mishear, phonetically plausible."
+    },
+    {
+      "sid": "s000603",
+      "modified": "How do I pick E sub min?",
+      "reason": "Terminology consistency."
+    },
+    {
+      "sid": "s000616",
+      "modified": "But each stage you need to spend N-squared time, not N, if you don't keep updating.",
+      "reason": "Spelling/style normalization and capitalization clarity."
+    },
+    {
+      "sid": "s000646",
+      "modified": "i.e., E sub 1 times as we called it last time.",
+      "reason": "Spelling/style normalization and grammatical correction."
+    },
+    {
+      "sid": "s000656",
+      "modified": "Prim's algorithm.",
+      "reason": "ASR mishear and terminology consistency."
+    },
+    {
+      "sid": "s000662",
+      "modified": "Okay, so this is called Prim's algorithm.",
+      "reason": "ASR mishear and terminology consistency."
+    },
+    {
+      "sid": "s000671",
+      "modified": "That's what MST theorem says.",
+      "reason": "Terminology consistency."
+    },
+    {
+      "sid": "s000688",
+      "modified": "What if you had another edge like to the right side?",
+      "reason": "ASR mishear, phonetically plausible."
+    },
+    {
+      "sid": "s000709",
+      "modified": "And that's fine, I'm willing to pay for that.",
+      "reason": "Spelling/style normalization."
+    },
+    {
+      "sid": "s000711",
+      "modified": "Isn't this just like a modified Dijkstra's where instead of calculating the distance from the source of every iteration, you calculate the distance from the entire left partition?",
+      "reason": "ASR mishear and local context correction."
+    },
+    {
+      "sid": "s000712",
+      "modified": "Yes, and that's why I presented Dijkstra before this.",
+      "reason": "Capitalization clarity."
+    },
+    {
+      "sid": "s000715",
+      "modified": "Idea of processing plus MST theorem is really Prim's algorithm.",
+      "reason": "Terminology consistency and ASR mishear."
+    },
+    {
+      "sid": "s000717",
+      "modified": "The same way you use the heap to keep track of the E sub mins and updating them.",
+      "reason": "Terminology consistency."
+    },
+    {
+      "sid": "s000718",
+      "modified": "And you also do that for the nodes.",
+      "reason": "Redundancy removal."
+    },
+    {
+      "sid": "s000720",
+      "modified": "So you take from the heap.",
+      "reason": "ASR mishear, phonetically plausible."
+    },
+    {
+      "sid": "s000726",
+      "modified": "Well, if you keep track of the min of that node, the min of that node is going to come from the edges.",
+      "reason": "ASR mishear, phonetically plausible."
+    },
+    {
+      "sid": "s000734",
+      "modified": "It's a balanced tree.",
+      "reason": "Punctuation clarity."
+    },
+    {
+      "sid": "s000737",
+      "modified": "Okay, so Prim's version is a vertex-centric algorithm.",
+      "reason": "ASR mishear and style normalization."
+    },
+    {
+      "sid": "s000745",
+      "modified": "But MST, Minimum Spanning Tree, are a bunch of edges that have a small weight.",
+      "reason": "Terminology consistency and ASR mishear."
+    },
+    {
+      "sid": "s000748",
+      "modified": "Let me name them E1, E2, ..., E_total. E is the total number of edges.",
+      "reason": "ASR mishear and local context correction."
+    },
+    {
+      "sid": "s000752",
+      "modified": "But sorting E edges is going to take E log E time.",
+      "reason": "Terminology consistency."
+    },
+    {
+      "sid": "s000755",
+      "modified": "Okay, so first let's look at E1 because it's an edge-centric approach.",
+      "reason": "Terminology consistency and ASR mishear."
+    },
+    {
+      "sid": "s000761",
+      "modified": "E2, E3, E sub E all over here.",
+      "reason": "Terminology consistency."
+    },
+    {
+      "sid": "s000766",
+      "modified": "One hundred percent.",
+      "reason": "Spelling/style normalization."
+    },
+    {
+      "sid": "s000768",
+      "modified": "One hundred percent.",
+      "reason": "Spelling/style normalization."
+    },
+    {
+      "sid": "s000774",
+      "modified": "Okay, there is only one thing I understand: MST theorem, a fact.",
+      "reason": "Terminology consistency and punctuation clarity."
+    },
+    {
+      "sid": "s000775",
+      "modified": "Okay, let's say hypothetically have one vertex of E1 to be in one group and then we have the other vertex of E1 in the other group that no matter what E1 is always going to be the smallest edge between the two groups because it is the same smallest edge.",
+      "reason": "Terminology consistency and ASR mishear."
+    },
+    {
+      "sid": "s000778",
+      "modified": "So by one vertex and the other vertex, I assume you mean one vertex and the other.",
+      "reason": "Terminology consistency."
+    },
+    {
+      "sid": "s000798",
+      "modified": "Now, since Kruskal spent the time to sort this, it now makes sense maybe not to jump here, maybe not to jump to vertices, because Kruskal is saying I want an edge-centric approach, not a vertex-centric approach.",
+      "reason": "ASR mishear and terminology consistency."
+    },
+    {
+      "sid": "s000800",
+      "modified": "Next we do E2.",
+      "reason": "Terminology consistency."
+    },
+    {
+      "sid": "s000821",
+      "modified": "Now it's connected to E1.",
+      "reason": "Terminology consistency."
+    },
+    {
+      "sid": "s000825",
+      "modified": "E2 is the minimum edge between that one unit partition and everybody else.",
+      "reason": "Terminology consistency."
+    },
+    {
+      "sid": "s000826",
+      "modified": "Okay, then I output E sub 2.",
+      "reason": "Terminology consistency."
+    },
+    {
+      "sid": "s000835",
+      "modified": "E3, if it looks like that, put one of them in one partition, the rest in a different partition.",
+      "reason": "Terminology consistency."
+    },
+    {
+      "sid": "s000840",
+      "modified": "E3, same thing.",
+      "reason": "Terminology consistency."
+    },
+    {
+      "sid": "s000842",
+      "modified": "I cannot apply MST theorem.",
+      "reason": "Terminology consistency and local context correction."
+    },
+    {
+      "sid": "s000858",
+      "modified": "Like a partition could be this and everybody else.",
+      "reason": "Capitalization clarity."
+    },
+    {
+      "sid": "s000859",
+      "modified": "The E3 is not even across.",
+      "reason": "Terminology consistency."
+    },
+    {
+      "sid": "s000874",
+      "modified": "If I tell you to come up with your own brand new algorithm for MST, that's not Prim's or Kruskal's.",
+      "reason": "Terminology consistency and ASR mishear."
+    },
+    {
+      "sid": "s000881",
+      "modified": "E4.",
+      "reason": "Terminology consistency."
+    },
+    {
+      "sid": "s000883",
+      "modified": "E5.",
+      "reason": "Terminology consistency."
+    },
+    {
+      "sid": "s000885",
+      "modified": "E6.",
+      "reason": "Terminology consistency."
+    },
+    {
+      "sid": "s000887",
+      "modified": "E7.",
+      "reason": "Terminology consistency."
+    },
+    {
+      "sid": "s000916",
+      "modified": "So the runtime of this algorithm is order of E log E plus E times time of cycle detection.",
+      "reason": "Local context correction."
+    },
+    {
+      "sid": "s000932",
+      "modified": "Okay, so not efficient.",
+      "reason": "Local context correction."
+    },
+    {
+      "sid": "s000936",
+      "modified": "And I keep doing that until N minus 1 edges are output.",
+      "reason": "Capitalization clarity."
+    },
+    {
+      "sid": "s000943",
+      "modified": "We have a bunch of sets.",
+      "reason": "ASR mishear, phonetically plausible."
+    },
+    {
+      "sid": "s000948",
+      "modified": "Find sets.",
+      "reason": "ASR mishear, phonetically plausible."
+    },
+    {
+      "sid": "s000954",
+      "modified": "That's the 'find' operation. What is the 'union' part?",
+      "reason": "Punctuation clarity and local context correction."
+    },
+    {
+      "sid": "s000958",
+      "modified": "Okay. Then I can do another function.",
+      "reason": "Punctuation clarity."
+    },
+    {
+      "sid": "s001001",
+      "modified": "Therefore the answer to find is no.",
+      "reason": "Local context correction."
+    },
+    {
+      "sid": "s001003",
+      "modified": "Then I have one or so in general, assume after N stages or K stages of the algorithm, I have a bunch of roots.",
+      "reason": "Grammatical correction."
+    },
+    {
+      "sid": "s001024",
+      "modified": "Okay, so if I do one 'find' operation.",
+      "reason": "Local context correction."
+    },
+    {
+      "sid": "s001052",
+      "modified": "Well, if this is log of N1 and this is log of N1, the total number of vertices now is 2*N1.",
+      "reason": "Spelling/style normalization."
+    },
+    {
+      "sid": "s001058",
+      "modified": "Okay, what does it have to do with MST in the I stage of MST?",
+      "reason": "Terminology consistency."
+    },
+    {
+      "sid": "s001075",
+      "modified": "But that's Kruskal's, one sentence.",
+      "reason": "ASR mishear and terminology consistency."
+    },
+    {
+      "sid": "s001080",
+      "modified": "Why is the union-find O(log N) if we just said that every node, the problem is so?",
+      "reason": "Terminology consistency and punctuation clarity."
+    },
+    {
+      "sid": "s001086",
+      "modified": "Same thing, just point it.",
+      "reason": "Grammatical correction."
+    },
+    {
+      "sid": "s001089",
+      "modified": "So you saved on find from log N to 1.",
+      "reason": "Capitalization clarity."
+    },
+    {
+      "sid": "s001098",
+      "modified": "Make sure you are comfortable with MST theorem.",
+      "reason": "Terminology consistency."
+    },
+    {
+      "sid": "s001102",
+      "modified": "Prim, one vertex at a time.",
+      "reason": "ASR mishear and terminology consistency."
+    },
+    {
+      "sid": "s001104",
+      "modified": "Exactly like MST with Kruskal's.",
+      "reason": "Terminology consistency and ASR mishear."
+    },
+    {
+      "sid": "s001106",
+      "modified": "To keep track of cycles via Union-Find, you need the Union-Find data structure.",
+      "reason": "ASR mishear and terminology consistency."
+    }
+  ]
+}

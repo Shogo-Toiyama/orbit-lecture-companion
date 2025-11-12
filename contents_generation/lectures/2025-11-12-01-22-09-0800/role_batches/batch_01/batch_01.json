@@ -1,0 +1,1165 @@
+[
+  {
+    "context_before_main_text": [],
+    "main_text": [
+      {
+        "sid": "s000001",
+        "text": "One was a vertex centric one and one was an edge centric."
+      },
+      {
+        "sid": "s000002",
+        "text": "Experimentation and they give rise to different time complexity."
+      },
+      {
+        "sid": "s000003",
+        "text": "One is better when you have denser graph, one micrometer when you have more sparse graph."
+      },
+      {
+        "sid": "s000004",
+        "text": "So make sure you're comfortable with that."
+      },
+      {
+        "sid": "s000005",
+        "text": "The next problem that I want to talk about is called the spanning tree."
+      },
+      {
+        "sid": "s000006",
+        "text": "So given same as before, a weighted graph like that, where we have arbitrary weights, let's say integer on n vertices, we always, almost always use n as the number of vertices, E as the number of edges."
+      },
+      {
+        "sid": "s000007",
+        "text": "Unless otherwise, it's 1, 2, 3, 4, 5."
+      },
+      {
+        "sid": "s000008",
+        "text": "N is equal to 5 here spanning 3."
+      },
+      {
+        "sid": "s000009",
+        "text": "First of all, 3 sub graph is a set of edges and the vertices that form a 3 structure doesn't have any side spanning tree is a tree on these vertices that spans all the vertices, touches all the vertices."
+      },
+      {
+        "sid": "s000010",
+        "text": "That's called a spanning tree."
+      },
+      {
+        "sid": "s000011",
+        "text": "So if I have three, let's say four, two and nine, that forms a tree structure because it doesn't have any cycles and touches every vertex and is always connected."
+      },
+      {
+        "sid": "s000012",
+        "text": "We assume that the graph given to us is a connected graph, otherwise the spanning tree doesn't exist if there are different components."
+      },
+      {
+        "sid": "s000013",
+        "text": "I cannot have a tree that connects everybody because the graph itself wasn't connected to begin yet."
+      },
+      {
+        "sid": "s000014",
+        "text": "So there are many ways to do a spanning tree."
+      },
+      {
+        "sid": "s000015",
+        "text": "For example, I can start from a vertex, get a width from search tree or a depth first search tree."
+      },
+      {
+        "sid": "s000016",
+        "text": "Those are trees by definition, we know the algorithm for them."
+      },
+      {
+        "sid": "s000017",
+        "text": "And because they go through every vertex, they are spanning trees."
+      },
+      {
+        "sid": "s000018",
+        "text": "So finding a spanning tree on a graph is straightforward."
+      },
+      {
+        "sid": "s000019",
+        "text": "We already know how to do it."
+      },
+      {
+        "sid": "s000020",
+        "text": "Now here we are interested in the so called MST minimum spanning tree, which means among all the spine trees that there could be exponential number of spanning trees or a large number of them."
+      },
+      {
+        "sid": "s000021",
+        "text": "In fact, if you have a cycle for sure there is more than one spanning tree."
+      },
+      {
+        "sid": "s000022",
+        "text": "Only if the original graph is a tree, then the spanning tree is unique if you have one cycle."
+      },
+      {
+        "sid": "s000023",
+        "text": "There are many possibilities for a spanning tree of all subspanning trees."
+      },
+      {
+        "sid": "s000024",
+        "text": "We want a main one, the one where total weight of the edges on the tree is minimized over all possibilities."
+      },
+      {
+        "sid": "s000025",
+        "text": "So for example, the one I chose here, three, four, two, nine, that's not a spanning tree."
+      },
+      {
+        "sid": "s000026",
+        "text": "I could instead of four, pick one."
+      },
+      {
+        "sid": "s000027",
+        "text": "This one."
+      },
+      {
+        "sid": "s000028",
+        "text": "Now you can do it on your own by experiments."
+      },
+      {
+        "sid": "s000029",
+        "text": "You will see the one that I have check marks next to."
+      },
+      {
+        "sid": "s000030",
+        "text": "It's a tree structure."
+      },
+      {
+        "sid": "s000031",
+        "text": "It's spanning, it touches every vertex, it covers all the vertices, and among all such trees, it's the one with minimum weight and the Size or weight of this tree is 9 plus 2 plus 1 plus 3."
+      },
+      {
+        "sid": "s000032",
+        "text": "Okay, and sometimes in this spanning tree we will have edges that are of high weight just to ensure connectivity."
+      },
+      {
+        "sid": "s000033",
+        "text": "For example, 9 happens to be the largest rake in this region graph."
+      },
+      {
+        "sid": "s000034",
+        "text": "But if I don't put nine in the solution, this vertex will not be connected to anybody."
+      },
+      {
+        "sid": "s000035",
+        "text": "So in this binary there are some edges with larger weights, some edges with smaller weights, all else being equal."
+      },
+      {
+        "sid": "s000036",
+        "text": "If you have the option, we want edges with smaller weights."
+      },
+      {
+        "sid": "s000037",
+        "text": "That's the whole point of the spine tree."
+      },
+      {
+        "sid": "s000038",
+        "text": "Okay, so the problem that we want to study is the so-called MST or Minimum Spanning Tree problem."
+      },
+      {
+        "sid": "s000039",
+        "text": "It gives us a connectivity in a graph it has."
+      },
+      {
+        "sid": "s000040",
+        "text": "So if you have a set of nodes in a network, how to connect them with minimum traffic, with minimum congestion, the spanning MSP is a solution to that."
+      },
+      {
+        "sid": "s000041",
+        "text": "So it finds a many direct application and b many other problems can be formulated as an msp."
+      },
+      {
+        "sid": "s000042",
+        "text": "And since we're going to know by the end of lecture today how to solve msd, we can just use the MST algorithm to solve it."
+      },
+      {
+        "sid": "s000043",
+        "text": "Just like DI Strat, shortest path has application A its structure is useful where we can solve many other problems using the structured algorithm we did in the last lecture on Tuesday."
+      },
+      {
+        "sid": "s000044",
+        "text": "Okay, so before we put and the graph is underregative, is the problem to."
+      },
+      {
+        "sid": "s000045",
+        "text": "As always, if the problem is not clear, if something is vague, the rest is absolutely irrelevant."
+      },
+      {
+        "sid": "s000046",
+        "text": "In the exam, in the homework, if you see a problem, there are some ambiguity."
+      },
+      {
+        "sid": "s000047",
+        "text": "There is something about it that we don't understand."
+      },
+      {
+        "sid": "s000048",
+        "text": "We can't even begin providing a solution."
+      },
+      {
+        "sid": "s000049",
+        "text": "Sometimes when you work in industry, there are problems that are vague, but you need to go and get answer to those questions before you can solve it."
+      },
+      {
+        "sid": "s000050",
+        "text": "You talk to your marketing manager or technical manager or whoever, try to make sure we understand the problem. It's trivial, but very important and sometimes missed even in this class."
+      },
+      {
+        "sid": "s000051",
+        "text": "So number one, understand the problem, do a few examples, see if it makes sense, look at some corner cases, etc."
+      },
+      {
+        "sid": "s000052",
+        "text": "Lesson number one and any problem you see, especially in this four squad in general."
+      },
+      {
+        "sid": "s000053",
+        "text": "Okay, so now we wanted to come up with algorithms that gives us an MST."
+      },
+      {
+        "sid": "s000054",
+        "text": "And also for most of discussion related to MST, I'll assume that the weights are unique."
+      },
+      {
+        "sid": "s000055",
+        "text": "In fact, in this example I picked the weights to be unique."
+      },
+      {
+        "sid": "s000056",
+        "text": "No weight is repeated."
+      },
+      {
+        "sid": "s000057",
+        "text": "Why do we make that assumption?"
+      },
+      {
+        "sid": "s000058",
+        "text": "What if in real life weights are not unique?"
+      },
+      {
+        "sid": "s000059",
+        "text": "We will see a trivial way of extending everything I'm saying into general case where weights are not unique, but having initially unique weights."
+      },
+      {
+        "sid": "s000060",
+        "text": "It makes the algorithm and the proofs much simpler."
+      },
+      {
+        "sid": "s000061",
+        "text": "Then at the end we need to come and say, what if they are not unique, how do we add it?"
+      },
+      {
+        "sid": "s000062",
+        "text": "And I'll give you the trick to that right now."
+      },
+      {
+        "sid": "s000063",
+        "text": "If you have two weights that are both, say two and two, we make one of them two plus epsilon, epsilon being a very small number."
+      },
+      {
+        "sid": "s000064",
+        "text": "Then the weights become unique."
+      },
+      {
+        "sid": "s000065",
+        "text": "It makes no other impact."
+      },
+      {
+        "sid": "s000066",
+        "text": "So that's kind of the idea."
+      },
+      {
+        "sid": "s000067",
+        "text": "We will address that at the end of all this."
+      },
+      {
+        "sid": "s000068",
+        "text": "Okay, consider a tree structure."
+      },
+      {
+        "sid": "s000069",
+        "text": "A tree as such."
+      },
+      {
+        "sid": "s000070",
+        "text": "Does it have any cycles?"
+      },
+      {
+        "sid": "s000071",
+        "text": "No, because I just said it's a tree structure."
+      },
+      {
+        "sid": "s000072",
+        "text": "By definition, it does not have any cycles."
+      },
+      {
+        "sid": "s000073",
+        "text": "And by definition, if there are n vertices, it's going to have exactly, no more, no less, exactly n minus one edges."
+      },
+      {
+        "sid": "s000074",
+        "text": "We talked about that, I don't know, three weeks ago."
+      },
+      {
+        "sid": "s000075",
+        "text": "And prove it."
+      },
+      {
+        "sid": "s000076",
+        "text": "That tree structure has n minus one."
+      },
+      {
+        "sid": "s000077",
+        "text": "It's the minimum number of edges you can get for a connected graph."
+      },
+      {
+        "sid": "s000078",
+        "text": "Anything less than n minus 1, it's not a connected graph."
+      },
+      {
+        "sid": "s000079",
+        "text": "So when we talked about number of edges in a graph, we said it's anywhere."
+      },
+      {
+        "sid": "s000080",
+        "text": "For a connected graph, it's anywhere between n minus 1 and roughly n squared order of n squared on the N square."
+      },
+      {
+        "sid": "s000081",
+        "text": "We call it a dense graph."
+      },
+      {
+        "sid": "s000082",
+        "text": "Closer to a three, we call it A."
+      },
+      {
+        "sid": "s000083",
+        "text": "Okay, so if I take a structure like this, a tree structure given to me, and add one edge to it, the graph is not going to be a tree anymore."
+      },
+      {
+        "sid": "s000084",
+        "text": "It's going to be a graph with a cycle."
+      },
+      {
+        "sid": "s000085",
+        "text": "In fact, it's going to have precisely N edges, N vertices and edges must have a cycle."
+      },
+      {
+        "sid": "s000086",
+        "text": "Okay, now let me redraw this."
+      },
+      {
+        "sid": "s000087",
+        "text": "So now we have a cycle."
+      },
+      {
+        "sid": "s000088",
+        "text": "That's the cycle with a bunch of other structure hanging from this cycle."
+      },
+      {
+        "sid": "s000089",
+        "text": "Okay, so this is your cycle here, let me call it sigs."
+      },
+      {
+        "sid": "s000090",
+        "text": "And there are edges hanging from this cycle."
+      },
+      {
+        "sid": "s000091",
+        "text": "So any tree structure where I have added an edge to it, I can focus on the cycle and say there are other sub trees that is hanging from the cycle that are not part of the cycle."
+      },
+      {
+        "sid": "s000092",
+        "text": "That's what a three plus one edge would look like."
+      },
+      {
+        "sid": "s000093",
+        "text": "Okay, so if I take this cycle and I remove any edge from this cycle, for example, this edge. First of all, the edge that I added, E. Let's say I remove E prime."
+      },
+      {
+        "sid": "s000094",
+        "text": "I get back a tree structure because the new one will not have any more cycles in it."
+      },
+      {
+        "sid": "s000095",
+        "text": "If I remove, let's say this one here, then that's a disconnected graph and it still has a cycle."
+      },
+      {
+        "sid": "s000096",
+        "text": "But if I remove it from the cycle itself, then I have destroyed that cycle."
+      },
+      {
+        "sid": "s000097",
+        "text": "I have a Tree back."
+      },
+      {
+        "sid": "s000098",
+        "text": "Okay, what I just said, all of this has nothing to do directly with MST, but we're going to use it and apply it to MST."
+      },
+      {
+        "sid": "s000099",
+        "text": "So I just want it to be comfortable for now."
+      },
+      {
+        "sid": "s000100",
+        "text": "Having a tree structure, you can add edge or edges to it and those that edge or edges will create cycles."
+      },
+      {
+        "sid": "s000101",
+        "text": "And if you start removing edges from those cycles, you get back the original tree."
+      },
+      {
+        "sid": "s000102",
+        "text": "You just have to make sure when you remove it has to be part of the cycle."
+      },
+      {
+        "sid": "s000103",
+        "text": "Otherwise you disconnect the ground."
+      },
+      {
+        "sid": "s000104",
+        "text": "With me so far."
+      },
+      {
+        "sid": "s000105",
+        "text": "Okay?"
+      },
+      {
+        "sid": "s000106",
+        "text": "Consider your original graph G, which is a set of vertices, N vertices and E edges."
+      },
+      {
+        "sid": "s000107",
+        "text": "This graph, for example, on top of everything, the edges have weights on them."
+      },
+      {
+        "sid": "s000108",
+        "text": "That is the input to the MST algorithm or algorithms."
+      },
+      {
+        "sid": "s000109",
+        "text": "Okay, I can take this graph and partition it into two groups."
+      },
+      {
+        "sid": "s000110",
+        "text": "Some vertices go left, some vertices go right."
+      },
+      {
+        "sid": "s000111",
+        "text": "How many vertices go on left?"
+      },
+      {
+        "sid": "s000112",
+        "text": "How many on right?"
+      },
+      {
+        "sid": "s000113",
+        "text": "I don't care 1 or N minus 1."
+      },
+      {
+        "sid": "s000114",
+        "text": "The only requirement definition of a partition or bipartisan is each set should be non empty."
+      },
+      {
+        "sid": "s000115",
+        "text": "That's a requirement."
+      },
+      {
+        "sid": "s000116",
+        "text": "If I take all the vertices and put it here, that's not a partition anymore."
+      },
+      {
+        "sid": "s000117",
+        "text": "That's or it's not a bipartition."
+      },
+      {
+        "sid": "s000118",
+        "text": "Other than that, I can put one vertex here from my original graph 2 all the way to N minus 1."
+      },
+      {
+        "sid": "s000119",
+        "text": "They are all called bipartition, being balanced, each of them having N over 2, is not what we are after here."
+      },
+      {
+        "sid": "s000120",
+        "text": "Sometimes when you think of partition, you think of balanced partition."
+      },
+      {
+        "sid": "s000121",
+        "text": "This is not it."
+      },
+      {
+        "sid": "s000122",
+        "text": "There are problems where we want to balance each side, each subset."
+      },
+      {
+        "sid": "s000123",
+        "text": "We're going to study that when we look at the divide and conquer paradigm."
+      },
+      {
+        "sid": "s000124",
+        "text": "But here that's not an issue."
+      },
+      {
+        "sid": "s000125",
+        "text": "So take any partition you like."
+      },
+      {
+        "sid": "s000126",
+        "text": "Some vertices here, some vertices here."
+      },
+      {
+        "sid": "s000127",
+        "text": "Look at the edge that connects them."
+      },
+      {
+        "sid": "s000128",
+        "text": "Sorry, the edges that connect them like this."
+      },
+      {
+        "sid": "s000129",
+        "text": "So these are the edges that go From V sub 1 to V sub 2, from left to right, from partition 1 to partition 2."
+      },
+      {
+        "sid": "s000130",
+        "text": "And there's going to be at least one such edge."
+      },
+      {
+        "sid": "s000131",
+        "text": "Because if there are no edges from left to right in the original graph, that means the graph is not connected."
+      },
+      {
+        "sid": "s000132",
+        "text": "If there are no edges, then this vertex has no way of connecting to that vertex."
+      },
+      {
+        "sid": "s000133",
+        "text": "And one of the main criteria where we started things was assume you have a connected graph."
+      },
+      {
+        "sid": "s000134",
+        "text": "One component, okay?"
+      },
+      {
+        "sid": "s000135",
+        "text": "Not five components, not two components, one component."
+      },
+      {
+        "sid": "s000136",
+        "text": "So there gotta be at least one edge."
+      },
+      {
+        "sid": "s000137",
+        "text": "There could be two edges."
+      },
+      {
+        "sid": "s000138",
+        "text": "There could be N square edges between left and right."
+      },
+      {
+        "sid": "s000139",
+        "text": "If it's a very dense graph."
+      },
+      {
+        "sid": "s000140",
+        "text": "If it's a complete graph, every vertex is connected to every other vertex."
+      },
+      {
+        "sid": "s000141",
+        "text": "There's going to be a bot N square edges that goes across, but minimum is one."
+      },
+      {
+        "sid": "s000142",
+        "text": "It's not zero."
+      },
+      {
+        "sid": "s000143",
+        "text": "Of all the edges that go from left to right, let's look at their weight."
+      },
+      {
+        "sid": "s000144",
+        "text": "The weights are 1, 4, 3, 2."
+      },
+      {
+        "sid": "s000145",
+        "text": "And I said assume the weights are unique."
+      },
+      {
+        "sid": "s000146",
+        "text": "For now, for the next 40 minutes, an hour or so, pick the one that has minimum weight and give it a name."
+      },
+      {
+        "sid": "s000147",
+        "text": "Doesn't matter."
+      },
+      {
+        "sid": "s000148",
+        "text": "E prime mean, whatever."
+      },
+      {
+        "sid": "s000149",
+        "text": "I call it E sub mean meaning the minimum weight currently between left and right."
+      },
+      {
+        "sid": "s000150",
+        "text": "Okay, I claim that every edge in an MST must be in every MST in the original graph."
+      },
+      {
+        "sid": "s000151",
+        "text": "Okay, Example."
+      },
+      {
+        "sid": "s000152",
+        "text": "Take this graph."
+      },
+      {
+        "sid": "s000153",
+        "text": "Partition it."
+      },
+      {
+        "sid": "s000154",
+        "text": "I say it any way you like."
+      },
+      {
+        "sid": "s000155",
+        "text": "This is not a partition because the top one is not in it."
+      },
+      {
+        "sid": "s000156",
+        "text": "This one is a partition by partition or partition."
+      },
+      {
+        "sid": "s000157",
+        "text": "Okay."
+      },
+      {
+        "sid": "s000158",
+        "text": "This is one such example."
+      },
+      {
+        "sid": "s000159",
+        "text": "There are many, many other partitions."
+      },
+      {
+        "sid": "s000160",
+        "text": "Exponential number of them."
+      },
+      {
+        "sid": "s000161",
+        "text": "This is one of them."
+      },
+      {
+        "sid": "s000162",
+        "text": "Which one is in mean?"
+      },
+      {
+        "sid": "s000163",
+        "text": "What is the weight of in mean?"
+      },
+      {
+        "sid": "s000164",
+        "text": "Here."
+      },
+      {
+        "sid": "s000165",
+        "text": "Thank you."
+      },
+      {
+        "sid": "s000166",
+        "text": "This is imi."
+      },
+      {
+        "sid": "s000167",
+        "text": "Okay."
+      },
+      {
+        "sid": "s000168",
+        "text": "That's saying email must be in every MSP I come up with."
+      },
+      {
+        "sid": "s000169",
+        "text": "And you can do that by inspection yourself."
+      },
+      {
+        "sid": "s000170",
+        "text": "Just try to come up with MST."
+      },
+      {
+        "sid": "s000171",
+        "text": "Can you find one that does not have one in it?"
+      },
+      {
+        "sid": "s000172",
+        "text": "It's not possible."
+      },
+      {
+        "sid": "s000173",
+        "text": "Just for inspection."
+      },
+      {
+        "sid": "s000174",
+        "text": "We haven't proved that yet."
+      },
+      {
+        "sid": "s000175",
+        "text": "We will prove that."
+      },
+      {
+        "sid": "s000176",
+        "text": "Let's do another partition."
+      },
+      {
+        "sid": "s000177",
+        "text": "Yeah, so one was a no brainer because that's the smallest weight in the entire graph."
+      },
+      {
+        "sid": "s000178",
+        "text": "So it would make sense for that to be in it."
+      },
+      {
+        "sid": "s000179",
+        "text": "Let's do another partition."
+      },
+      {
+        "sid": "s000180",
+        "text": "This."
+      },
+      {
+        "sid": "s000181",
+        "text": "What is the rate of E mean in this partition?"
+      },
+      {
+        "sid": "s000182",
+        "text": "Every NSP must have that edge with weight 9 in it."
+      },
+      {
+        "sid": "s000183",
+        "text": "That's very easy to argue."
+      },
+      {
+        "sid": "s000184",
+        "text": "9 is the largest weight."
+      },
+      {
+        "sid": "s000185",
+        "text": "But you can easily reason to say if 9 was not in an MSP, this vertex wouldn't be connected to the rest of the vertices."
+      },
+      {
+        "sid": "s000186",
+        "text": "Therefore you don't have a tree structure."
+      },
+      {
+        "sid": "s000187",
+        "text": "You don't have a spanning tree."
+      },
+      {
+        "sid": "s000188",
+        "text": "You have something else."
+      },
+      {
+        "sid": "s000189",
+        "text": "You have spanning forest or something."
+      },
+      {
+        "sid": "s000190",
+        "text": "Something."
+      },
+      {
+        "sid": "s000191",
+        "text": "So two examples that I just gave you and you can do a few more examples on other graphs of this graph to see if you can build cases where E sub mean is not in a solution and is not possible."
+      },
+      {
+        "sid": "s000192",
+        "text": "I claim it's not possible."
+      },
+      {
+        "sid": "s000193",
+        "text": "So if that's true, then I want to prove what is known as MSV theorem."
+      },
+      {
+        "sid": "s000194",
+        "text": "And MST theorem says for every partition, not just one, not that there exists a partition."
+      },
+      {
+        "sid": "s000195",
+        "text": "That's not what this is saying."
+      },
+      {
+        "sid": "s000196",
+        "text": "It's a lot more general than that."
+      },
+      {
+        "sid": "s000197",
+        "text": "For every partition e sub min must be in every MST that it should come up with."
+      },
+      {
+        "sid": "s000198",
+        "text": "Yes."
+      },
+      {
+        "sid": "s000199",
+        "text": "So by E sub n you not the minimal edge and the polyolic acid."
+      },
+      {
+        "sid": "s000200",
+        "text": "Correct?"
+      },
+      {
+        "sid": "s000201",
+        "text": "Exactly."
+      },
+      {
+        "sid": "s000202",
+        "text": "The minimum E sub min is defined as the minimum weight H that goes from left to right."
+      },
+      {
+        "sid": "s000203",
+        "text": "How do you define left and right?"
+      },
+      {
+        "sid": "s000204",
+        "text": "Any way you like."
+      },
+      {
+        "sid": "s000205",
+        "text": "There are billions of ways of drawing left and right."
+      },
+      {
+        "sid": "s000206",
+        "text": "For each and every one of them that E mean the local E min must be in the msd."
+      },
+      {
+        "sid": "s000207",
+        "text": "That's what MSD theorem is saying."
+      },
+      {
+        "sid": "s000208",
+        "text": "Quite powerful and maybe surprising."
+      },
+      {
+        "sid": "s000209",
+        "text": "Okay, by contradiction, assume E sub mean there is an MSD and E sub B is not in it."
+      },
+      {
+        "sid": "s000210",
+        "text": "Right."
+      },
+      {
+        "sid": "s000211",
+        "text": "Every MSD must have E mean complement of that."
+      },
+      {
+        "sid": "s000212",
+        "text": "Complement of every is."
+      },
+      {
+        "sid": "s000213",
+        "text": "There exists one in saying that everyone is wearing blue."
+      },
+      {
+        "sid": "s000214",
+        "text": "Contradiction."
+      },
+      {
+        "sid": "s000215",
+        "text": "If I find one person who is not wearing a blue, it means that's not true."
+      },
+      {
+        "sid": "s000216",
+        "text": "Or if I say no, there got to be at least one who is not wearing blue and get into a contradiction."
+      },
+      {
+        "sid": "s000217",
+        "text": "It means my original hypothesis of everyone is wearing blue is red."
+      },
+      {
+        "sid": "s000218",
+        "text": "Basic proof by contradiction."
+      },
+      {
+        "sid": "s000219",
+        "text": "Same as any other proof we have done or most proofs we have done by confidence."
+      },
+      {
+        "sid": "s000220",
+        "text": "Okay, so there is an MST that this is not in it."
+      },
+      {
+        "sid": "s000221",
+        "text": "Perfect."
+      },
+      {
+        "sid": "s000222",
+        "text": "How does it look like?"
+      },
+      {
+        "sid": "s000223",
+        "text": "Maybe there is an edge here."
+      },
+      {
+        "sid": "s000224",
+        "text": "There's got to be at least one edge from left to right."
+      },
+      {
+        "sid": "s000225",
+        "text": "This is the same partition."
+      },
+      {
+        "sid": "s000226",
+        "text": "Because if there is, if the Ms, if the contradiction Ms."
+      },
+      {
+        "sid": "s000227",
+        "text": "Doesn't have any edges between left and right, it's not a tree structure anymore, it's a forest."
+      },
+      {
+        "sid": "s000228",
+        "text": "It has components."
+      },
+      {
+        "sid": "s000229",
+        "text": "So it's got to have at this one or it could have hundreds."
+      },
+      {
+        "sid": "s000230",
+        "text": "I don't know."
+      },
+      {
+        "sid": "s000231",
+        "text": "I don't care."
+      },
+      {
+        "sid": "s000232",
+        "text": "Are there other edges?"
+      },
+      {
+        "sid": "s000233",
+        "text": "Yeah, there could be edges in there."
+      },
+      {
+        "sid": "s000234",
+        "text": "So it would look something like that."
+      },
+      {
+        "sid": "s000235",
+        "text": "Maybe more edges between left and right."
+      },
+      {
+        "sid": "s000236",
+        "text": "N edges, N minus one edges or just one edge?"
+      },
+      {
+        "sid": "s000237",
+        "text": "Anything is possible as long as it's one or more."
+      },
+      {
+        "sid": "s000238",
+        "text": "Okay, so this is called T prime contradiction mst the three I'm showing here."
+      },
+      {
+        "sid": "s000239",
+        "text": "Actually let me get rid of prime."
+      },
+      {
+        "sid": "s000240",
+        "text": "It's called the contradiction mst, meaning by contradiction there is somebody saying no, I know of an MST that does not have E min in it."
+      },
+      {
+        "sid": "s000241",
+        "text": "Right?"
+      },
+      {
+        "sid": "s000242",
+        "text": "That's complement of this statement."
+      },
+      {
+        "sid": "s000243",
+        "text": "Okay, you say fine, let's go with your hypothesis."
+      },
+      {
+        "sid": "s000244",
+        "text": "There exists such an MST with E sub minot in it."
+      },
+      {
+        "sid": "s000245",
+        "text": "Let me add E sub mean to that."
+      },
+      {
+        "sid": "s000246",
+        "text": "Let's say it's here."
+      },
+      {
+        "sid": "s000247",
+        "text": "What is this E mean?"
+      },
+      {
+        "sid": "s000248",
+        "text": "Same as this."
+      },
+      {
+        "sid": "s000249",
+        "text": "E mean it's the minimum one going from left to right in my plane."
+      },
+      {
+        "sid": "s000250",
+        "text": "So that's why I label it the same."
+      },
+      {
+        "sid": "s000251",
+        "text": "This edge is exactly this edge."
+      },
+      {
+        "sid": "s000252",
+        "text": "Okay, with me so far."
+      },
+      {
+        "sid": "s000253",
+        "text": "I start with the contradiction msd, I add one edge."
+      },
+      {
+        "sid": "s000254",
+        "text": "Again, specific edge E min that I insisted must be in an MST."
+      },
+      {
+        "sid": "s000255",
+        "text": "Now I don't have a tree structure anymore."
+      },
+      {
+        "sid": "s000256",
+        "text": "When you have a tree structure, you add an edge."
+      },
+      {
+        "sid": "s000257",
+        "text": "It's not a tree anymore."
+      },
+      {
+        "sid": "s000258",
+        "text": "We talked about that."
+      },
+      {
+        "sid": "s000259",
+        "text": "Okay, I'm going to take this."
+      },
+      {
+        "sid": "s000260",
+        "text": "We talked about three minutes ago that when you have a tree structure, when you add an edge to it, you create a cycle."
+      },
+      {
+        "sid": "s000261",
+        "text": "In this example, that's this cycle."
+      },
+      {
+        "sid": "s000262",
+        "text": "There's a cycle somewhere."
+      },
+      {
+        "sid": "s000263",
+        "text": "Take this graph, remove an edge of this cycle."
+      },
+      {
+        "sid": "s000264",
+        "text": "Let me call it E cycle because I don't know a better name."
+      },
+      {
+        "sid": "s000265",
+        "text": "Remove from that the edge of the cycle and at let equal."
+      },
+      {
+        "sid": "s000266",
+        "text": "Let me do it actually backwards."
+      },
+      {
+        "sid": "s000267",
+        "text": "Same equation."
+      },
+      {
+        "sid": "s000268",
+        "text": "I'm going to write it backwards because that's the really big thing."
+      },
+      {
+        "sid": "s000269",
+        "text": "Add to that E sub min, remove from that E cycle, right?"
+      },
+      {
+        "sid": "s000270",
+        "text": "This means, let me call it T prime."
+      },
+      {
+        "sid": "s000271",
+        "text": "So T prime is you add E sub min, this E sub min, and you remove this outside the context of msp."
+      },
+      {
+        "sid": "s000272",
+        "text": "We've already done this."
+      },
+      {
+        "sid": "s000273",
+        "text": "If you look at your notes 10 minutes ago, we add an edge and we remove many other edges one at a time from a graph."
+      },
+      {
+        "sid": "s000274",
+        "text": "If we remove one, we get the origin, we get eight."
+      },
+      {
+        "sid": "s000275",
+        "text": "Feedback, right?"
+      },
+      {
+        "sid": "s000276",
+        "text": "That's all I'm doing here."
+      },
+      {
+        "sid": "s000277",
+        "text": "Clear."
+      },
+      {
+        "sid": "s000278",
+        "text": "Okay."
+      },
+      {
+        "sid": "s000279",
+        "text": "Weight of T prime got to be less than rate of T, contradiction and st. Because Amin is less than E cycle, right?"
+      }
+    ],
+    "context_after_main_text": [
+      {
+        "sid": "s000280",
+        "text": "If I have some money in my pocket and I go buy a Haddock, give them 10 bucks, they gave me $2 back, I'm gonna have less money because instead of 10, they gave me two."
+      },
+      {
+        "sid": "s000281",
+        "text": "That's all I'm saying here."
+      },
+      {
+        "sid": "s000282",
+        "text": "Got rid of this one, added this one."
+      },
+      {
+        "sid": "s000283",
+        "text": "How was E sub min defined?"
+      },
+      {
+        "sid": "s000284",
+        "text": "As the minimum between left and right."
+      },
+      {
+        "sid": "s000285",
+        "text": "So since it's the minimum between left and right, it's gonna be less than that, it's gonna be less than that, it's gonna be less than that, it's gonna be less than that by definition."
+      },
+      {
+        "sid": "s000286",
+        "text": "By definition of E sub mean, therefore I have a better tree structure now."
+      },
+      {
+        "sid": "s000287",
+        "text": "So contradiction phase."
+      },
+      {
+        "sid": "s000288",
+        "text": "There is not an MST with E mean not in it."
+      },
+      {
+        "sid": "s000289",
+        "text": "Because if there is this one, that cannot be the mst."
+      }
+    ]
+  }
+]

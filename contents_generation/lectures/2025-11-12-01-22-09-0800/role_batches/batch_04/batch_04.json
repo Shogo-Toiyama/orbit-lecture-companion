@@ -1,0 +1,1165 @@
+[
+  {
+    "context_before_main_text": [
+      {
+        "sid": "s000828",
+        "text": "Now it's connected to 1."
+      },
+      {
+        "sid": "s000829",
+        "text": "I can still do the same thing."
+      },
+      {
+        "sid": "s000830",
+        "text": "I put this in one partition and I put everybody else in another partition."
+      },
+      {
+        "sid": "s000831",
+        "text": "I cannot put this in one partition and everybody else in a different partition because then M2 will not be the E sub min of that partition, but this and everybody else."
+      },
+      {
+        "sid": "s000832",
+        "text": "E2 is the minimum edge between that one unit partition and everybody else."
+      },
+      {
+        "sid": "s000833",
+        "text": "Okay, then I output M sub 2."
+      },
+      {
+        "sid": "s000834",
+        "text": "So either the vertices of N2 are connected to this or are not connected either."
+      },
+      {
+        "sid": "s000835",
+        "text": "Way I can create this MSD theorem partition."
+      },
+      {
+        "sid": "s000836",
+        "text": "Therefore I can output M sub no matter what."
+      },
+      {
+        "sid": "s000837",
+        "text": "So if I tell you are there two minimum edges in a graph always in an msd, the answer is yes and improve it or justify it like that."
+      }
+    ],
+    "main_text": [
+      {
+        "sid": "s000838",
+        "text": "Okay, so far so good."
+      },
+      {
+        "sid": "s000839",
+        "text": "Two for two, 100% result."
+      },
+      {
+        "sid": "s000840",
+        "text": "What about entry next?"
+      },
+      {
+        "sid": "s000841",
+        "text": "But that's the whole idea."
+      },
+      {
+        "sid": "s000842",
+        "text": "E3."
+      },
+      {
+        "sid": "s000843",
+        "text": "If it looks like that, put one of them in one partition, the rest in a different partition."
+      },
+      {
+        "sid": "s000844",
+        "text": "E3 will be E_min for that partition."
+      },
+      {
+        "sid": "s000845",
+        "text": "So that's one condition."
+      },
+      {
+        "sid": "s000846",
+        "text": "And E3 is not connected to anybody."
+      },
+      {
+        "sid": "s000847",
+        "text": "What if it was like that?"
+      },
+      {
+        "sid": "s000848",
+        "text": "What if it was connected to one of these?"
+      },
+      {
+        "sid": "s000849",
+        "text": "Like that Entry."
+      },
+      {
+        "sid": "s000850",
+        "text": "Same thing."
+      },
+      {
+        "sid": "s000851",
+        "text": "Put this in one partition, everybody else in a decent part to check M3 will be E. I can apply Ms."
+      },
+      {
+        "sid": "s000852",
+        "text": "Feature."
+      },
+      {
+        "sid": "s000853",
+        "text": "So it seems in every case I can."
+      },
+      {
+        "sid": "s000854",
+        "text": "Whatever M3 is, I can put one vertex on one partition, the other in one partition and M3 will be E. Why not?"
+      },
+      {
+        "sid": "s000855",
+        "text": "The vertex has to be one that you haven't reached already through the other."
+      },
+      {
+        "sid": "s000856",
+        "text": "I don't follow."
+      },
+      {
+        "sid": "s000857",
+        "text": "So what condition?"
+      },
+      {
+        "sid": "s000858",
+        "text": "I cannot put M3."
+      },
+      {
+        "sid": "s000859",
+        "text": "Put M3 in between the to."
+      },
+      {
+        "sid": "s000860",
+        "text": "So he is saying in this case there is no way to do a partition where E3 is the minimum."
+      },
+      {
+        "sid": "s000861",
+        "text": "Did I understand that correctly?"
+      },
+      {
+        "sid": "s000862",
+        "text": "And it's true."
+      },
+      {
+        "sid": "s000863",
+        "text": "I don't know how to do it."
+      },
+      {
+        "sid": "s000864",
+        "text": "Can you find any partition?"
+      },
+      {
+        "sid": "s000865",
+        "text": "There are billions of partitions."
+      },
+      {
+        "sid": "s000866",
+        "text": "Show me one where M3 is the minimum between the two partitions."
+      },
+      {
+        "sid": "s000867",
+        "text": "Like a partition could be this and Everybody else."
+      },
+      {
+        "sid": "s000868",
+        "text": "The E3 is not even across the cut."
+      },
+      {
+        "sid": "s000869",
+        "text": "I can put in this in one side and all the others on the other side."
+      },
+      {
+        "sid": "s000870",
+        "text": "But I know M2 is going to be in in."
+      },
+      {
+        "sid": "s000871",
+        "text": "So by inspection to a few cases, it's impossible."
+      },
+      {
+        "sid": "s000872",
+        "text": "So what does cross?"
+      },
+      {
+        "sid": "s000873",
+        "text": "So that's correct."
+      },
+      {
+        "sid": "s000874",
+        "text": "Obviously you just proved it, justified it."
+      },
+      {
+        "sid": "s000875",
+        "text": "Kruskal says if you ever get to a situation where E sub I, the next E in the list creates a cycle with existing things that you output."
+      },
+      {
+        "sid": "s000876",
+        "text": "Like in this case."
+      },
+      {
+        "sid": "s000877",
+        "text": "Ignore that, go to the next one, go to M4."
+      },
+      {
+        "sid": "s000878",
+        "text": "So I'm going to ignore this."
+      },
+      {
+        "sid": "s000879",
+        "text": "Why do I ignore this?"
+      },
+      {
+        "sid": "s000880",
+        "text": "Only because I cannot apply MSD theorem."
+      },
+      {
+        "sid": "s000881",
+        "text": "If I cannot apply MSD theorem, all the bets are off."
+      },
+      {
+        "sid": "s000882",
+        "text": "You can if I tell you to come up with your own brand new algorithm for MST, that's not true."
+      },
+      {
+        "sid": "s000883",
+        "text": "Or cross call."
+      },
+      {
+        "sid": "s000884",
+        "text": "All you need to do."
+      },
+      {
+        "sid": "s000885",
+        "text": "All you need to do is at every step make sure the H you are picking is E sub B."
+      },
+      {
+        "sid": "s000886",
+        "text": "If you can do that, you are all set."
+      },
+      {
+        "sid": "s000887",
+        "text": "If you can't, then you can't."
+      },
+      {
+        "sid": "s000888",
+        "text": "Okay, so That's."
+      },
+      {
+        "sid": "s000889",
+        "text": "So what does it say?"
+      },
+      {
+        "sid": "s000890",
+        "text": "Ignore entry, go to the next one."
+      },
+      {
+        "sid": "s000891",
+        "text": "M4 I can do that."
+      },
+      {
+        "sid": "s000892",
+        "text": "M5 I can do that."
+      },
+      {
+        "sid": "s000893",
+        "text": "M6 I can do that."
+      },
+      {
+        "sid": "s000894",
+        "text": "E7. Can I do that for the same reason?"
+      },
+      {
+        "sid": "s000895",
+        "text": "No."
+      },
+      {
+        "sid": "s000896",
+        "text": "So whenever an edge creates a cycle with edges that are already output, then I cannot partition it such that M7 is the minimum."
+      },
+      {
+        "sid": "s000897",
+        "text": "Yes."
+      },
+      {
+        "sid": "s000898",
+        "text": "Algorithmically I don't know yet."
+      },
+      {
+        "sid": "s000899",
+        "text": "So that becomes one of my challenges."
+      },
+      {
+        "sid": "s000900",
+        "text": "How to."
+      },
+      {
+        "sid": "s000901",
+        "text": "I know how to do cycle I use."
+      },
+      {
+        "sid": "s000902",
+        "text": "But if every time I have to run depth first search, this is going to be a super slow algorithm."
+      },
+      {
+        "sid": "s000903",
+        "text": "So what you're asking is, is there an efficient way of finding cycles for every inch that I have?"
+      },
+      {
+        "sid": "s000904",
+        "text": "So I got it."
+      },
+      {
+        "sid": "s000905",
+        "text": "That's a problem I need to address later."
+      },
+      {
+        "sid": "s000906",
+        "text": "If this is successful."
+      },
+      {
+        "sid": "s000907",
+        "text": "If this is not successful, that's irrelevant."
+      },
+      {
+        "sid": "s000908",
+        "text": "So I make a side note to myself."
+      },
+      {
+        "sid": "s000909",
+        "text": "Efficient cycle findings dynamically need to address that."
+      },
+      {
+        "sid": "s000910",
+        "text": "Okay."
+      },
+      {
+        "sid": "s000911",
+        "text": "So I keep going."
+      },
+      {
+        "sid": "s000912",
+        "text": "I keep adding one H at a time."
+      },
+      {
+        "sid": "s000913",
+        "text": "If it creates a cycle, I don't do anything about it."
+      },
+      {
+        "sid": "s000914",
+        "text": "If it doesn't create a cycle, then I have to."
+      },
+      {
+        "sid": "s000915",
+        "text": "So the runtime of this algorithm is order of E log E plus E times time of cycle."
+      },
+      {
+        "sid": "s000916",
+        "text": "Fine."
+      },
+      {
+        "sid": "s000917",
+        "text": "Right."
+      },
+      {
+        "sid": "s000918",
+        "text": "For every edge, I need to find out if it creates a cycle or not."
+      },
+      {
+        "sid": "s000919",
+        "text": "How much time does it take?"
+      },
+      {
+        "sid": "s000920",
+        "text": "Right now I can write whatever I know from before depth first search E +V."
+      },
+      {
+        "sid": "s000921",
+        "text": "If I took E+V for depth-first search, this gives me an E-squared algorithm."
+      },
+      {
+        "sid": "s000922",
+        "text": "Too slow."
+      },
+      {
+        "sid": "s000923",
+        "text": "But that's all I know right now."
+      },
+      {
+        "sid": "s000924",
+        "text": "Order of E. Let's say assuming certain sorts in the original."
+      },
+      {
+        "sid": "s000925",
+        "text": "So E square algorithm."
+      },
+      {
+        "sid": "s000926",
+        "text": "That's very slow."
+      },
+      {
+        "sid": "s000927",
+        "text": "If E is N squared, this is going to be N to the power four algorithm."
+      },
+      {
+        "sid": "s000928",
+        "text": "Very slow."
+      },
+      {
+        "sid": "s000929",
+        "text": "Practically."
+      },
+      {
+        "sid": "s000930",
+        "text": "It will take you two days to get an answer from GPT that final slope."
+      },
+      {
+        "sid": "s000931",
+        "text": "Okay, so not."
+      },
+      {
+        "sid": "s000932",
+        "text": "So this algorithm works."
+      },
+      {
+        "sid": "s000933",
+        "text": "I can always."
+      },
+      {
+        "sid": "s000934",
+        "text": "As long as it doesn't create a cycle, I can output that."
+      },
+      {
+        "sid": "s000935",
+        "text": "And I keep doing that until n minus one edges are altered."
+      },
+      {
+        "sid": "s000936",
+        "text": "All I have left to do is I'm going to introduce a brand new problem."
+      },
+      {
+        "sid": "s000937",
+        "text": "Has nothing to do with what we studied today."
+      },
+      {
+        "sid": "s000938",
+        "text": "You might have seen it in your programming courses."
+      },
+      {
+        "sid": "s000939",
+        "text": "Maybe not."
+      },
+      {
+        "sid": "s000940",
+        "text": "It's called union."
+      },
+      {
+        "sid": "s000941",
+        "text": "Find."
+      },
+      {
+        "sid": "s000942",
+        "text": "We have a bunch of sets."
+      },
+      {
+        "sid": "s000943",
+        "text": "4, 6, 1, 2, 9, 8, 7, 12, 14."
+      },
+      {
+        "sid": "s000944",
+        "text": "Let's say you need numbers for now."
+      },
+      {
+        "sid": "s000945",
+        "text": "Okay, these are 6, 5, 6."
+      },
+      {
+        "sid": "s000946",
+        "text": "The following."
+      },
+      {
+        "sid": "s000947",
+        "text": "I give you two numbers, A and B."
+      },
+      {
+        "sid": "s000948",
+        "text": "Are they in the same set or not?"
+      },
+      {
+        "sid": "s000949",
+        "text": "If A and B are 8 and 12, the answer is yes."
+      },
+      {
+        "sid": "s000950",
+        "text": "If A and B are of 7 and 6 the answer is no, they are not in the same set."
+      },
+      {
+        "sid": "s000951",
+        "text": "So one of the operations in the union find problem is find if two numbers, two elements are in the same set."
+      },
+      {
+        "sid": "s000952",
+        "text": "That's the fine part."
+      },
+      {
+        "sid": "s000953",
+        "text": "What is the union part?"
+      },
+      {
+        "sid": "s000954",
+        "text": "At some point in the algorithm, I can take these two and do their unions."
+      },
+      {
+        "sid": "s000955",
+        "text": "We know how to do union of two sets."
+      },
+      {
+        "sid": "s000956",
+        "text": "They all become one set."
+      },
+      {
+        "sid": "s000957",
+        "text": "Okay, then I can do another find."
+      },
+      {
+        "sid": "s000958",
+        "text": "So union."
+      },
+      {
+        "sid": "s000959",
+        "text": "Now when I do a union, those two will remain as one set for the rest of the my life."
+      },
+      {
+        "sid": "s000960",
+        "text": "I cannot break a set into subsets."
+      },
+      {
+        "sid": "s000961",
+        "text": "I cannot say go back to this original one."
+      },
+      {
+        "sid": "s000962",
+        "text": "I'm so sorry for union."
+      },
+      {
+        "sid": "s000963",
+        "text": "Shouldn't have done it."
+      },
+      {
+        "sid": "s000964",
+        "text": "Can't do that."
+      },
+      {
+        "sid": "s000965",
+        "text": "Once it's union, it's union forever."
+      },
+      {
+        "sid": "s000966",
+        "text": "This problem is called union."
+      },
+      {
+        "sid": "s000967",
+        "text": "Fine."
+      },
+      {
+        "sid": "s000968",
+        "text": "Take two."
+      },
+      {
+        "sid": "s000969",
+        "text": "Take a bunch of sets, do a bunch of fine."
+      },
+      {
+        "sid": "s000970",
+        "text": "1,210 billion fine."
+      },
+      {
+        "sid": "s000971",
+        "text": "Then do one union or two union."
+      },
+      {
+        "sid": "s000972",
+        "text": "Then do more."
+      },
+      {
+        "sid": "s000973",
+        "text": "Fine."
+      },
+      {
+        "sid": "s000974",
+        "text": "Then union-find."
+      },
+      {
+        "sid": "s000975",
+        "text": "There is no order, no number, nothing."
+      },
+      {
+        "sid": "s000976",
+        "text": "No restrictions of any type."
+      },
+      {
+        "sid": "s000977",
+        "text": "Bunch of union and fines."
+      },
+      {
+        "sid": "s000978",
+        "text": "Interleaved or not interleaved."
+      },
+      {
+        "sid": "s000979",
+        "text": "For as long as I wish."
+      },
+      {
+        "sid": "s000980",
+        "text": "For as long as I live."
+      },
+      {
+        "sid": "s000981",
+        "text": "That's not the union find problem."
+      },
+      {
+        "sid": "s000982",
+        "text": "I have not given a solution."
+      },
+      {
+        "sid": "s000983",
+        "text": "Here is the problem clear."
+      },
+      {
+        "sid": "s000984",
+        "text": "The way I'm going to solve this is in the following manner."
+      },
+      {
+        "sid": "s000985",
+        "text": "First, you can kind of play with this."
+      },
+      {
+        "sid": "s000986",
+        "text": "Come up with your own technique."
+      },
+      {
+        "sid": "s000987",
+        "text": "It may work."
+      },
+      {
+        "sid": "s000988",
+        "text": "I'm going to take each set and I represent it."
+      },
+      {
+        "sid": "s000989",
+        "text": "Initially."
+      },
+      {
+        "sid": "s000990",
+        "text": "I'm going to represent, let's say initially, each set has one element."
+      },
+      {
+        "sid": "s000991",
+        "text": "So it becomes node of a rooted tree."
+      },
+      {
+        "sid": "s000992",
+        "text": "So there are n nodes."
+      },
+      {
+        "sid": "s000993",
+        "text": "If every set has one element, then I take this and another set B and I do a union."
+      },
+      {
+        "sid": "s000994",
+        "text": "I take this one of them A and the other one B. I point any one of them to the other."
+      },
+      {
+        "sid": "s000995",
+        "text": "So I'm building a rooted tree."
+      },
+      {
+        "sid": "s000996",
+        "text": "Later on I do a find."
+      },
+      {
+        "sid": "s000997",
+        "text": "The way I do find is the following."
+      },
+      {
+        "sid": "s000998",
+        "text": "Let's say I do find ad."
+      },
+      {
+        "sid": "s000999",
+        "text": "Let's say I do find ac."
+      },
+      {
+        "sid": "s001000",
+        "text": "What I do is each of them is a three."
+      },
+      {
+        "sid": "s001001",
+        "text": "Structure a root at three."
+      },
+      {
+        "sid": "s001002",
+        "text": "From one I go to the root of that three."
+      },
+      {
+        "sid": "s001003",
+        "text": "It's C. From this I go to the root of that B and I ask is C is equal to D?"
+      },
+      {
+        "sid": "s001004",
+        "text": "If yes, it means the find is yes."
+      },
+      {
+        "sid": "s001005",
+        "text": "I found them in the same set."
+      },
+      {
+        "sid": "s001006",
+        "text": "If the answer is no, it means no, you are not in the same set."
+      },
+      {
+        "sid": "s001007",
+        "text": "So if you take A and B and you do A find both of these."
+      },
+      {
+        "sid": "s001008",
+        "text": "Return B the root of the tree, they are the same value."
+      },
+      {
+        "sid": "s001009",
+        "text": "If it's A and B, find is yes."
+      },
+      {
+        "sid": "s001010",
+        "text": "If I do D and C. The roots are D and C. They are different values."
+      },
+      {
+        "sid": "s001011",
+        "text": "Therefore the answer to find is okay, so this is initially when I have one or so in general, assume after N state or K state of algorithm, I have a bunch of roots."
+      },
+      {
+        "sid": "s001012",
+        "text": "Okay?"
+      },
+      {
+        "sid": "s001013",
+        "text": "So same thing."
+      },
+      {
+        "sid": "s001014",
+        "text": "I take two elements like that and that, I go to the root."
+      },
+      {
+        "sid": "s001015",
+        "text": "If they are the same, then I say find."
+      },
+      {
+        "sid": "s001016",
+        "text": "No, sorry, if they are different, if they are the same, I say find."
+      },
+      {
+        "sid": "s001017",
+        "text": "Yes."
+      },
+      {
+        "sid": "s001018",
+        "text": "So root of the tree is one of the elements, but also is the name of that set."
+      },
+      {
+        "sid": "s001019",
+        "text": "So this set here, A, B, E, F. I'm going to pick one of them that happens to be the root."
+      },
+      {
+        "sid": "s001020",
+        "text": "Doesn't matter which one."
+      },
+      {
+        "sid": "s001021",
+        "text": "It's just a naming convention."
+      },
+      {
+        "sid": "s001022",
+        "text": "And I'm going to call this set, let's say D forever, unless it get merged with somebody."
+      },
+      {
+        "sid": "s001023",
+        "text": "Okay, so assumption number one, assumption number two is if I have N1 vertices here, the height of this is log N1 order."
+      },
+      {
+        "sid": "s001024",
+        "text": "It could be, yes."
+      },
+      {
+        "sid": "s001025",
+        "text": "Okay, so inductive up to K stage of the algorithm, I assume I have a bunch of Rooted 3."
+      },
+      {
+        "sid": "s001026",
+        "text": "In this example, this is a rooted tree."
+      },
+      {
+        "sid": "s001027",
+        "text": "This is a rooted tree."
+      },
+      {
+        "sid": "s001028",
+        "text": "These two together is one of these rooted three."
+      },
+      {
+        "sid": "s001029",
+        "text": "Inductive hypothesis."
+      },
+      {
+        "sid": "s001030",
+        "text": "After K step, I have a bunch of Rooted 3 where the height is logarithmic in the size of that rooted three."
+      },
+      {
+        "sid": "s001031",
+        "text": "Okay, so if I do one, fine."
+      },
+      {
+        "sid": "s001032",
+        "text": "First of all, you also know that all these log N1, N2, etc is less than log n and is the total number of vertices."
+      },
+      {
+        "sid": "s001033",
+        "text": "This is a subset of vertices."
+      },
+      {
+        "sid": "s001034",
+        "text": "So log of that got to be less than or equal to log of everything."
+      },
+      {
+        "sid": "s001035",
+        "text": "So if I have two vertices here and here to find, if the answer to find is yes or no, I just follow that in log n time, if the roots are the same, yes."
+      },
+      {
+        "sid": "s001036",
+        "text": "If the roots are different, no."
+      },
+      {
+        "sid": "s001037",
+        "text": "So in log n time I will answer."
+      },
+      {
+        "sid": "s001038",
+        "text": "Find what?"
+      },
+      {
+        "sid": "s001039",
+        "text": "What about union?"
+      },
+      {
+        "sid": "s001040",
+        "text": "I take the smaller tree pointed to the larger tree."
+      },
+      {
+        "sid": "s001041",
+        "text": "Okay, so if this was a smaller tree, N1 and N2, height of this was log of N2, height of this is log of N1."
+      },
+      {
+        "sid": "s001042",
+        "text": "The height of the combined tree is going to be log of N2 because this is a small so I have it."
+      },
+      {
+        "sid": "s001043",
+        "text": "So previously the assumption was heights were log n. By merging by union, the height remains as log n. Still, if one of them is a smaller what if."
+      },
+      {
+        "sid": "s001044",
+        "text": "Of course, if this was a smaller distance, point to that."
+      },
+      {
+        "sid": "s001045",
+        "text": "What if."
+      },
+      {
+        "sid": "s001046",
+        "text": "This is the trick, this is the important part."
+      },
+      {
+        "sid": "s001047",
+        "text": "What if they are the same size?"
+      },
+      {
+        "sid": "s001048",
+        "text": "Which one points to that?"
+      },
+      {
+        "sid": "s001049",
+        "text": "If this was N1, N1 log N1, log N1 which one do I point to here?"
+      },
+      {
+        "sid": "s001050",
+        "text": "The other one."
+      },
+      {
+        "sid": "s001051",
+        "text": "Because whichever I do, the height of the combined tree is going to be 1 higher than the previous one."
+      },
+      {
+        "sid": "s001052",
+        "text": "Right?"
+      },
+      {
+        "sid": "s001053",
+        "text": "The whole premise of keeping that was the height will not change."
+      },
+      {
+        "sid": "s001054",
+        "text": "So if they were the same, the height will increase by one."
+      },
+      {
+        "sid": "s001055",
+        "text": "It goes from log of N1 to log of N1 plus one."
+      },
+      {
+        "sid": "s001056",
+        "text": "Because this is going to be log of N1."
+      },
+      {
+        "sid": "s001057",
+        "text": "Sorry, this log of N1 plus one, these will not change."
+      },
+      {
+        "sid": "s001058",
+        "text": "These will."
+      },
+      {
+        "sid": "s001059",
+        "text": "So how do I maintain the logarithmic after this happens?"
+      },
+      {
+        "sid": "s001060",
+        "text": "Well, if this is log of N1 and this is log of N1, the total number of vertices now is 2 N1."
+      },
+      {
+        "sid": "s001061",
+        "text": "Log of 2 N1 is log of N1 plus 1."
+      },
+      {
+        "sid": "s001062",
+        "text": "So I'm allowed to go 1 extra because I have just doubled the number of vertices."
+      },
+      {
+        "sid": "s001063",
+        "text": "So that hypothesis that invariant that height of every tree is logarithmic in the size of the tree will be true no matter if this is bigger, this is bigger, or they are the same size."
+      },
+      {
+        "sid": "s001064",
+        "text": "So I can do every union in constant time with one pointer."
+      },
+      {
+        "sid": "s001065",
+        "text": "I can do every five in logarithmic time."
+      },
+      {
+        "sid": "s001066",
+        "text": "Okay, what does it have to do with MST?"
+      },
+      {
+        "sid": "s001067",
+        "text": "In the AI stage of msd, let's say at some point I have sub trees like that."
+      },
+      {
+        "sid": "s001068",
+        "text": "I keep each subtree as one of these guys."
+      },
+      {
+        "sid": "s001069",
+        "text": "A rooted sub tree."
+      },
+      {
+        "sid": "s001070",
+        "text": "So if I want to know the brand new edge here, N3, does it create a cycle or not?"
+      },
+      {
+        "sid": "s001071",
+        "text": "I take this vertex and I take this vertex and I follow to see if they're the same component or not."
+      },
+      {
+        "sid": "s001072",
+        "text": "If they are, then it means these two belong to the same component."
+      },
+      {
+        "sid": "s001073",
+        "text": "Meaning as you said, they create a cycle."
+      },
+      {
+        "sid": "s001074",
+        "text": "If they are not going to be part of the same component, then adding this entry will not create a cycle."
+      },
+      {
+        "sid": "s001075",
+        "text": "So I can output that."
+      },
+      {
+        "sid": "s001076",
+        "text": "So union find is the main data structure for crossfold item."
+      },
+      {
+        "sid": "s001077",
+        "text": "For every edge, I spend log n time to find out if two vertices create a cycle or n how many edges are there."
+      },
+      {
+        "sid": "s001078",
+        "text": "All I need to do is come here, plug in log n for cycle binding."
+      },
+      {
+        "sid": "s001079",
+        "text": "Therefore this Kruskal algorithm becomes an E log E."
+      },
+      {
+        "sid": "s001080",
+        "text": "So Kruskal itself is very easy."
+      },
+      {
+        "sid": "s001081",
+        "text": "Sort the edges, go one by one according to the sorted edge list."
+      },
+      {
+        "sid": "s001082",
+        "text": "If it creates a cycle, don't add it."
+      },
+      {
+        "sid": "s001083",
+        "text": "If it doesn't create a cycle, add it."
+      },
+      {
+        "sid": "s001084",
+        "text": "So that's trustworthy."
+      },
+      {
+        "sid": "s001085",
+        "text": "One sentence."
+      },
+      {
+        "sid": "s001086",
+        "text": "Second, how do I find cycles via union?"
+      },
+      {
+        "sid": "s001087",
+        "text": "Because I can do it other ways, but it's not."
+      },
+      {
+        "sid": "s001088",
+        "text": "This is very efficient and very simple to maintain."
+      },
+      {
+        "sid": "s001089",
+        "text": "Yes."
+      },
+      {
+        "sid": "s001090",
+        "text": "Why is it unified every node?"
+      },
+      {
+        "sid": "s001091",
+        "text": "The problem is so yeah, that's a good question."
+      },
+      {
+        "sid": "s001092",
+        "text": "If so, his suggestion is why don't I do that?"
+      },
+      {
+        "sid": "s001093",
+        "text": "So for this group I put in constant time, right?"
+      },
+      {
+        "sid": "s001094",
+        "text": "I can find the root, the name of the cell."
+      },
+      {
+        "sid": "s001095",
+        "text": "What about this cell though?"
+      },
+      {
+        "sid": "s001096",
+        "text": "Same thing."
+      },
+      {
+        "sid": "s001097",
+        "text": "So how long does it take to do find here?"
+      },
+      {
+        "sid": "s001098",
+        "text": "How long does it take to reunion N?"
+      },
+      {
+        "sid": "s001099",
+        "text": "So you saved on find from log n to 1."
+      },
+      {
+        "sid": "s001100",
+        "text": "Now you did your union from log n to n. And if you're doing a bunch of union that you make, then your dominant number is N, not log n. So usually in many lectures I start actually with this solution where union is slow, finding is fast."
+      },
+      {
+        "sid": "s001101",
+        "text": "There is another solution like this, a very long path here."
+      },
+      {
+        "sid": "s001102",
+        "text": "Union is very easy."
+      },
+      {
+        "sid": "s001103",
+        "text": "The last one points to the last, the first one to the last one, but find the unit here."
+      },
+      {
+        "sid": "s001104",
+        "text": "So I start by saying this is not good because union dominates."
+      },
+      {
+        "sid": "s001105",
+        "text": "This is not good because find dominates."
+      },
+      {
+        "sid": "s001106",
+        "text": "Let's find something, a middle ground where both of them are kind of reasonable."
+      },
+      {
+        "sid": "s001107",
+        "text": "Then it's the idea of balance theory."
+      },
+      {
+        "sid": "s001108",
+        "text": "Make sure you are comfortable with mst."
+      },
+      {
+        "sid": "s001109",
+        "text": "MST theorem, that's number one."
+      },
+      {
+        "sid": "s001110",
+        "text": "Once you have that, you probably can do your own algorithm."
+      },
+      {
+        "sid": "s001111",
+        "text": "But which MST theory?"
+      },
+      {
+        "sid": "s001112",
+        "text": "There are two algorithms."
+      },
+      {
+        "sid": "s001113",
+        "text": "Trim one vertex at a time."
+      },
+      {
+        "sid": "s001114",
+        "text": "Two implementation vertex centric or H centric exactly like nice with cross goals."
+      },
+      {
+        "sid": "s001115",
+        "text": "Sort the edges, keep track of cycles."
+      },
+      {
+        "sid": "s001116",
+        "text": "We need to use them a lot in the exam in the future."
+      }
+    ],
+    "context_after_main_text": []
+  }
+]

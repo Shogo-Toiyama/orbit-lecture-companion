@@ -34,14 +34,63 @@ def _safe_filename(name: str, max_len: int = 120) -> str:
     name = _ILLEGAL_FS.sub('_', name).strip()
     return (name[:max_len]).rstrip(' .')
 
+def _slice_by_sid(sentences, start_sid=None, end_sid=None):
+    if isinstance(sentences, dict):
+        seq = sorted(sentences.values(), key=lambda s: s.get("sid", ""))
+    else:
+        seq = list(sentences)
+    if not seq:
+        return []
+
+    sid_to_idx = {}
+    for i, s in enumerate(seq):
+        sid = s.get("sid")
+        if sid is not None and sid not in sid_to_idx:
+            sid_to_idx[sid] = i
+
+    if start_sid is None:
+        i0 = 0
+    else:
+        if start_sid not in sid_to_idx:
+            raise ValueError(f"start_sid not found: {start_sid}")
+        i0 = sid_to_idx[start_sid]
+
+    if end_sid is None:
+        i1 = len(seq) - 1
+    else:
+        if end_sid not in sid_to_idx:
+            raise ValueError(f"end_sid not found: {end_sid}")
+        i1 = sid_to_idx[end_sid]
+
+    if i0 > i1:
+        i0, i1 = i1, i0
+
+    if i0 >= 20:
+        i0 -= 20
+    else:
+        i0 = 0
+    if i1 + 20 < len(seq):
+        i1 += 20
+    else:
+        i1 = len(seq) - 1
+
+    return seq[i0:i1+1]
+
 def _generate_one_topic_detail(
     client, gen_model, config_text,
     instr_topic_details_generation: str,
-    draft_dir: Path, sentences:dict, segment:dict
+    details_dir: Path, sentences, segment:dict
 ):
     start_time_one_topic_detail_generation = time.time()
     idx = segment["idx"]
     title = segment.get("title", f"Topic {idx}")
+    start_sid = segment.get("start_sid")
+    end_sid = segment.get("end_sid")
+
+    ALLOWED = ["sid", "text", "role"]
+    projected_sentences = [{k: s.get(k) for k in ALLOWED} for s in sentences]
+
+    partial_sentences = _slice_by_sid(projected_sentences, start_sid, end_sid)
 
     print(f"Waiting for response from Gemini API for topic {idx}...")
 
@@ -50,7 +99,7 @@ def _generate_one_topic_detail(
         "instruction": instr_topic_details_generation,
         "data": {
             "topic": segment,
-            "full-transcript": sentences
+            "partial-transcript": partial_sentences
         }
     }
 
@@ -66,8 +115,8 @@ def _generate_one_topic_detail(
     )
 
     print("saving response...")
-    draft_path = draft_dir / f"{idx} - {_safe_filename(title)} - details.txt"
-    draft_path.write_text(response_topic_detail.text.strip(), encoding="utf-8")
+    details_path = details_dir / f"{idx} - {_safe_filename(title)} - details.txt"
+    details_path.write_text(response_topic_detail.text.strip(), encoding="utf-8")
 
     elapsed = time.time() - start_time_one_topic_detail_generation
     print(token_report(response_topic_detail))
@@ -122,12 +171,10 @@ def generate_details_draft(client, gen_model, config_json, lecture_dir: Path):
 
     start_time_topic_details_generation = time.time()
 
-    max_workers = 5
+    max_workers = 3
 
-    DETAIL_DRAFT_DIR = Path(lecture_dir / "details" / "drafts")
-    DETAIL_DRAFT_DIR.mkdir(parents=True, exist_ok=True)
-
-    Path(lecture_dir / "details" / "edited").mkdir(parents=True, exist_ok=True)
+    DETAILS_DIR = Path(lecture_dir / "details")
+    DETAILS_DIR.mkdir(exist_ok=True, parents=True)
 
     instr_topic_details_generation = Path(PROMPTS_DIR / "topic_details_generation_from_segments.txt").read_text(encoding="utf-8")
 
@@ -142,7 +189,7 @@ def generate_details_draft(client, gen_model, config_json, lecture_dir: Path):
             _generate_one_topic_detail,
             client, gen_model, config_json,
             instr_topic_details_generation,
-            DETAIL_DRAFT_DIR, sentences_final
+            DETAILS_DIR, sentences_final
         )
     
     with ThreadPoolExecutor(max_workers=max_workers) as ex:
@@ -159,7 +206,7 @@ def generate_details_draft(client, gen_model, config_json, lecture_dir: Path):
     elapsed_time_topic_details_generation = end_time_topic_details_generation - start_time_topic_details_generation
     print(f"⏰Generated topic details: {elapsed_time_topic_details_generation:.2f} seconds.")
 
-def faithfulness_check_and_minimal_edit(client, gen_model, config_text, lecture_dir: Path):
+def faithfulness_check_and_readablity_enhancement(client, gen_model, config_text, lecture_dir: Path):
     # 生成された詳細の忠実性チェックと最小限の修正
     print("\n### Faithfulness Check and Minimal Edit###")
     start_time_faithfulness_check = time.time()
@@ -217,9 +264,9 @@ def faithfulness_check_and_minimal_edit(client, gen_model, config_text, lecture_
 
 def generate_topic_details(client, gen_model, config_json, config_text, lecture_dir: Path):
     
-    # generate_details_draft(client, gen_model, config_text, lecture_dir)
+    generate_details_draft(client, gen_model, config_text, lecture_dir)
     
-    faithfulness_check_and_minimal_edit(client, gen_model, config_text, lecture_dir)
+    # faithfulness_check_and_readablity_enhancement(client, gen_model, config_text, lecture_dir)
 
     print("\n✅All tasks of TOPIC DETAIL GENERATION completed.")
 
@@ -254,7 +301,7 @@ def main():
     GEN_MODEL = "gemini-2.5-flash"
 
     ROOT = Path(__file__).resolve().parent
-    LECTURE_DIR = ROOT / "../lectures/2025-10-31-12-04-37-0700"
+    LECTURE_DIR = ROOT / "../lectures/2025-11-11-16-38-54-0800"
 
     generate_topic_details(client, GEN_MODEL, config_json(), config_text(), LECTURE_DIR)
 

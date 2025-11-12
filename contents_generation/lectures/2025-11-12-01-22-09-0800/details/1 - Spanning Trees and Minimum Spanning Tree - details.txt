@@ -1,0 +1,25 @@
+# 1. Spanning Trees and Minimum Spanning Tree
+
+This lecture introduces the concepts of spanning trees and minimum spanning trees (MSTs) within weighted graphs. It defines what a spanning tree is, explains how to find one, and then focuses on the MST problem, which aims to find a spanning tree with the lowest possible total edge weight. The lecture also touches upon the practical applications of MSTs and an important assumption regarding edge weights for algorithm design.
+
+## 📚 Definition of Spanning Trees and MSTs
+
+The discussion begins with a *weighted graph*, which consists of *n* vertices and *E* edges, where edges have arbitrary weights, such as integers. ⟦s000006⟧ A *tree subgraph* is defined as a collection of edges and vertices that form a tree structure, meaning it contains no cycles. ⟦s000009⟧ A *spanning tree* is a specific type of tree subgraph that connects and *spans all the vertices* of the original graph, ensuring every vertex is touched. ⟦s000009, s000010, s000011⟧ For a spanning tree to exist, the initial graph must be *connected*; otherwise, it's impossible to form a single tree that links all components. ⟦s000012, s000013⟧
+
+The primary focus is on the *Minimum Spanning Tree (MST)*, which is identified from the potentially large or even exponential number of possible spanning trees for a given graph. ⟦s000020, s000023⟧ The MST is the unique spanning tree where the *total sum of the weights of its edges is minimized* across all possible spanning trees. ⟦s000024, s000038⟧ For instance, if one spanning tree has edges with weights 3, 4, 2, and 9, another might have edges with weights 3, 1, 2, and 9, with the latter potentially being the MST if its total weight is less. ⟦s000025, s000026, s000031⟧
+
+## 💡 Finding Spanning Trees
+
+Finding a basic spanning tree within a graph is considered a straightforward task. ⟦s000018⟧ Established algorithms like *Breadth-First Search (BFS)* or *Depth-First Search (DFS)* can be used to generate a spanning tree. ⟦s000015, s000016⟧ These search algorithms inherently produce spanning trees because they systematically visit and connect every vertex in the graph. ⟦s000017⟧
+
+## 🌳 Properties of Spanning Trees and MSTs
+
+A given graph can have numerous spanning trees; specifically, if the original graph contains at least one cycle, there will be more than one possible spanning tree. ⟦s000021, s000023⟧ The only scenario where a spanning tree is unique is if the original graph itself is already a tree. ⟦s000022⟧ While the goal of an MST is to minimize total edge weight, it may sometimes include edges with *larger individual weights* if those edges are crucial for maintaining connectivity to certain vertices. ⟦s000032, s000034⟧ For example, a high-weight edge might be necessary to connect an isolated vertex that would otherwise remain disconnected. ⟦s000033, s000034⟧ Despite this, the overall objective remains to select edges with smaller weights whenever possible to achieve the minimum total sum. ⟦s000036⟧
+
+## 🎯 Purpose and Applications of MSTs
+
+The Minimum Spanning Tree problem is significant because it provides a fundamental solution for establishing connectivity within a graph. ⟦s000039⟧ It has direct applications, such as determining how to connect a set of nodes in a network with the *minimum possible traffic or congestion*. ⟦s000040, s000041⟧ Furthermore, the MST algorithm is a powerful tool because many other complex problems can be formulated and solved using its structure. ⟦s000041, s000042⟧ This is comparable to how Dijkstra's shortest path algorithm offers a useful structure for solving various problems beyond just finding the shortest path. ⟦s000043⟧
+
+## ⚖️ The Unique Edge Weight Assumption
+
+When developing and proving MST algorithms, it is often assumed that all edge weights in the graph are *unique*. ⟦s000054, s000055, s000056⟧ This assumption simplifies both the design of the algorithms and the mathematical proofs of their correctness. ⟦s000060⟧ In practical scenarios where edge weights might not be unique, this issue can be addressed with a simple trick. ⟦s000058, s000059, s000061⟧ If two edges share the same weight, one of them can be assigned a slightly modified weight by adding a very small, negligible number, referred to as *epsilon*, to make it unique. ⟦s000063⟧

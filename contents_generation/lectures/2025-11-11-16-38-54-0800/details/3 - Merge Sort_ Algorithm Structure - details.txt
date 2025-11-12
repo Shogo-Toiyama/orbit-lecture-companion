@@ -1,0 +1,47 @@
+# 3. Merge Sort: Algorithm Structure
+
+Merge Sort is a sorting algorithm that employs the divide and conquer methodology. It works by recursively breaking down a problem into smaller subproblems until they are trivial to solve, then combining the solutions to these subproblems to solve the original problem. The algorithm's core strength lies in its efficient merging process. ⟦s000130, s000156, s000164, s000170⟧
+
+## 📚 Introduction to Merge Sort
+
+Merge Sort is a specific algorithm used for *sorting* problems, which is based on the *divide and conquer* approach. ⟦s000129, s000130⟧ It is also commonly referred to as "merge sorting" or simply "merge sort." ⟦s000131, s000165⟧ This method aims to achieve optimal time complexity for sorting. ⟦s000135, s000136⟧
+
+## 🔄 The Divide Phase
+
+### Recursive Division in Merge Sort
+
+The first step in Merge Sort is to *divide* the problem into smaller, more manageable subproblems. ⟦s000139⟧ This division should be done recursively, meaning the process is repeated multiple times until the subproblems become simple enough to solve directly. ⟦s000113, s000122, s000155, s000156⟧ While dividing into exact halves is common, it's not strictly necessary; dividing roughly equally, such as into 40% and 60% segments, is sufficient for the algorithm's efficiency. ⟦s000109, s000111, s000112, s000140, s000190⟧ The input size does not need to be a power of two for this division to work. ⟦s000192, s000194⟧
+
+### Base Case for Division
+
+The recursive division continues until the problem size is small enough to be easily solved. ⟦s000119, s000156⟧ The ultimate base case is a list containing only *one number*, which is considered already sorted. ⟦s000158, s000159, s000160⟧
+
+### Efficiency of Division
+
+It is crucial that the division process itself is *efficient*. ⟦s000120, s000122⟧ Spending excessive time, like N-cubed or 2-to-the-N time, just to divide the problem would defeat the entire purpose of using a divide and conquer strategy. ⟦s000121, s000126⟧
+
+## ✨ The Conquer and Merge Phase
+
+### The Core Merge Operation
+
+After the problem has been recursively divided into its simplest forms (e.g., lists of one element), the next step is to *merge* these solved subproblems back together. ⟦s000164⟧ This merging process is considered the "meat" or the most significant algorithmic part of Merge Sort, giving the algorithm its name. ⟦s000170, s000173⟧ The goal of the merge step is to take two *already sorted* lists and combine them into a single, larger *sorted list*. ⟦s000166, s000167, s000179⟧
+
+### Efficiency of Merging
+
+Similar to the division phase, the process of putting the subproblems back together must also be performed *efficiently*. ⟦s000124, s000127⟧ If merging requires excessive time, such as N-cubed, it would undermine the benefits of the divide and conquer approach. ⟦s000125, s000126⟧
+
+### How the Merge Step Works
+
+To merge two sorted lists, say L and R, into a final sorted list F, the algorithm identifies the smallest value for F. ⟦s000198, s000199⟧ This smallest value will always be either the first element of list L (L sub 1) or the first element of list R (R sub 1), because both L and R are individually sorted. ⟦s000200, s000203⟧ The process involves comparing L sub 1 and R sub 1, selecting the smaller one to place into F, and then advancing the pointer for the list from which that element was taken. ⟦s000204, s000205, s000206⟧ This continues until all elements are merged.
+
+## 💡 Example of Merge Sort in Action
+
+Consider an initial list of numbers, for example, `7, 4, 2, 6`. ⟦s000137⟧
+
+### Division Steps
+
+First, this list is divided into two sub-lists: `(7, 4)` and `(2, 6)`. ⟦s000139, s000144, s000152⟧ Each of these is further divided: `(7)` and `(4)`, and `(2)` and `(6)`. ⟦s000149, s000150, s000151, s000153⟧ At this point, there are four problems of size one, each containing a single number, which are inherently sorted. ⟦s000154, s000159, s000160⟧
+
+### Merging Steps
+
+The sorted single-element lists `(7)` and `(4)` are merged to form `(4, 7)`. ⟦s000164, s000166, s000174, s000175⟧ Similarly, `(2)` and `(6)` are merged to form `(2, 6)`. ⟦s000183⟧ Finally, these two sorted lists, `(4, 7)` and `(2, 6)`, are merged to produce the single, fully sorted list: `(2, 4, 6, 7)`. ⟦s000184⟧ The algorithm concludes once a single sorted list is obtained. ⟦s000185⟧

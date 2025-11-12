@@ -1,0 +1,1678 @@
+{
+  "labels": [
+    {
+      "sid": "s000559",
+      "role": "chitchat",
+      "role_score": 0.99,
+      "role_reason": "backchannel; inherits previous role"
+    },
+    {
+      "sid": "s000560",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor starts explaining an example"
+    },
+    {
+      "sid": "s000561",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor starts explaining an example"
+    },
+    {
+      "sid": "s000562",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor starts explaining an example"
+    },
+    {
+      "sid": "s000563",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains algorithm step"
+    },
+    {
+      "sid": "s000564",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains algorithm step"
+    },
+    {
+      "sid": "s000565",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains algorithm step"
+    },
+    {
+      "sid": "s000566",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains algorithm step"
+    },
+    {
+      "sid": "s000567",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains algorithm step"
+    },
+    {
+      "sid": "s000568",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains algorithm step"
+    },
+    {
+      "sid": "s000569",
+      "role": "qa",
+      "role_score": 0.85,
+      "role_reason": "student question about algorithm step"
+    },
+    {
+      "sid": "s000570",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains algorithm step"
+    },
+    {
+      "sid": "s000571",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains algorithm step"
+    },
+    {
+      "sid": "s000572",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains algorithm step"
+    },
+    {
+      "sid": "s000573",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains algorithm step"
+    },
+    {
+      "sid": "s000574",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains algorithm step"
+    },
+    {
+      "sid": "s000575",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains algorithm step"
+    },
+    {
+      "sid": "s000576",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains algorithm step"
+    },
+    {
+      "sid": "s000577",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains algorithm step"
+    },
+    {
+      "sid": "s000578",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains algorithm step"
+    },
+    {
+      "sid": "s000579",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains algorithm step"
+    },
+    {
+      "sid": "s000580",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains algorithm complexity"
+    },
+    {
+      "sid": "s000581",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains algorithm complexity"
+    },
+    {
+      "sid": "s000582",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains algorithm complexity"
+    },
+    {
+      "sid": "s000583",
+      "role": "qa",
+      "role_score": 0.85,
+      "role_reason": "student question about algorithm stages"
+    },
+    {
+      "sid": "s000584",
+      "role": "qa",
+      "role_score": 0.85,
+      "role_reason": "student question about algorithm stages"
+    },
+    {
+      "sid": "s000585",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor answers question about algorithm stages"
+    },
+    {
+      "sid": "s000586",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor answers question about algorithm stages"
+    },
+    {
+      "sid": "s000587",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains algorithm stages"
+    },
+    {
+      "sid": "s000588",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains algorithm stages"
+    },
+    {
+      "sid": "s000589",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains algorithm stages"
+    },
+    {
+      "sid": "s000590",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains algorithm stages"
+    },
+    {
+      "sid": "s000591",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains algorithm stages"
+    },
+    {
+      "sid": "s000592",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains algorithm stages"
+    },
+    {
+      "sid": "s000593",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains algorithm complexity"
+    },
+    {
+      "sid": "s000594",
+      "role": "chitchat",
+      "role_score": 0.99,
+      "role_reason": "backchannel; inherits previous role"
+    },
+    {
+      "sid": "s000595",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor continues explaining algorithm"
+    },
+    {
+      "sid": "s000596",
+      "role": "chitchat",
+      "role_score": 0.99,
+      "role_reason": "backchannel; inherits previous role"
+    },
+    {
+      "sid": "s000597",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains algorithm details"
+    },
+    {
+      "sid": "s000598",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains algorithm details"
+    },
+    {
+      "sid": "s000599",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains algorithm details"
+    },
+    {
+      "sid": "s000600",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains algorithm details"
+    },
+    {
+      "sid": "s000601",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains algorithm details"
+    },
+    {
+      "sid": "s000602",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains algorithm details"
+    },
+    {
+      "sid": "s000603",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains algorithm details"
+    },
+    {
+      "sid": "s000604",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains algorithm details"
+    },
+    {
+      "sid": "s000605",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains algorithm details"
+    },
+    {
+      "sid": "s000606",
+      "role": "chitchat",
+      "role_score": 0.99,
+      "role_reason": "backchannel; inherits previous role"
+    },
+    {
+      "sid": "s000607",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains algorithm details"
+    },
+    {
+      "sid": "s000608",
+      "role": "qa",
+      "role_score": 0.85,
+      "role_reason": "student question about algorithm"
+    },
+    {
+      "sid": "s000609",
+      "role": "qa",
+      "role_score": 0.85,
+      "role_reason": "student question about algorithm"
+    },
+    {
+      "sid": "s000610",
+      "role": "qa",
+      "role_score": 0.85,
+      "role_reason": "student question about algorithm"
+    },
+    {
+      "sid": "s000611",
+      "role": "qa",
+      "role_score": 0.85,
+      "role_reason": "student question about algorithm"
+    },
+    {
+      "sid": "s000612",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor answers question about algorithm"
+    },
+    {
+      "sid": "s000613",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor answers question about algorithm"
+    },
+    {
+      "sid": "s000614",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains algorithm details"
+    },
+    {
+      "sid": "s000615",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains algorithm details"
+    },
+    {
+      "sid": "s000616",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains algorithm details"
+    },
+    {
+      "sid": "s000617",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains algorithm details"
+    },
+    {
+      "sid": "s000618",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains algorithm details"
+    },
+    {
+      "sid": "s000619",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains algorithm details"
+    },
+    {
+      "sid": "s000620",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains algorithm complexity"
+    },
+    {
+      "sid": "s000621",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains algorithm complexity"
+    },
+    {
+      "sid": "s000622",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains algorithm details"
+    },
+    {
+      "sid": "s000623",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains algorithm details"
+    },
+    {
+      "sid": "s000624",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains algorithm complexity"
+    },
+    {
+      "sid": "s000625",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains algorithm complexity"
+    },
+    {
+      "sid": "s000626",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains algorithm complexity"
+    },
+    {
+      "sid": "s000627",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains algorithm complexity"
+    },
+    {
+      "sid": "s000628",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains algorithm complexity"
+    },
+    {
+      "sid": "s000629",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor compares algorithms"
+    },
+    {
+      "sid": "s000630",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor compares algorithms"
+    },
+    {
+      "sid": "s000631",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor compares algorithms"
+    },
+    {
+      "sid": "s000632",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor compares algorithms"
+    },
+    {
+      "sid": "s000633",
+      "role": "chitchat",
+      "role_score": 0.99,
+      "role_reason": "backchannel; inherits previous role"
+    },
+    {
+      "sid": "s000634",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains algorithm details"
+    },
+    {
+      "sid": "s000635",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains algorithm details"
+    },
+    {
+      "sid": "s000636",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains algorithm details"
+    },
+    {
+      "sid": "s000637",
+      "role": "qa",
+      "role_score": 0.85,
+      "role_reason": "student question about algorithm"
+    },
+    {
+      "sid": "s000638",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains algorithm complexity"
+    },
+    {
+      "sid": "s000639",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains algorithm details"
+    },
+    {
+      "sid": "s000640",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains algorithm details"
+    },
+    {
+      "sid": "s000641",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains algorithm complexity"
+    },
+    {
+      "sid": "s000642",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor emphasizes previous lecture"
+    },
+    {
+      "sid": "s000643",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor emphasizes previous lecture"
+    },
+    {
+      "sid": "s000644",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains algorithm implementation"
+    },
+    {
+      "sid": "s000645",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains algorithm implementation"
+    },
+    {
+      "sid": "s000646",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains algorithm implementation"
+    },
+    {
+      "sid": "s000647",
+      "role": "chitchat",
+      "role_score": 0.99,
+      "role_reason": "backchannel; inherits previous role"
+    },
+    {
+      "sid": "s000648",
+      "role": "qa",
+      "role_score": 0.85,
+      "role_reason": "student question about algorithm complexity"
+    },
+    {
+      "sid": "s000649",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor answers question about complexity"
+    },
+    {
+      "sid": "s000650",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains algorithm details"
+    },
+    {
+      "sid": "s000651",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains algorithm details"
+    },
+    {
+      "sid": "s000652",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains algorithm details"
+    },
+    {
+      "sid": "s000653",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains algorithm complexity"
+    },
+    {
+      "sid": "s000654",
+      "role": "qa",
+      "role_score": 0.85,
+      "role_reason": "student question about algorithm complexity"
+    },
+    {
+      "sid": "s000655",
+      "role": "qa",
+      "role_score": 0.85,
+      "role_reason": "student question about algorithm complexity"
+    },
+    {
+      "sid": "s000656",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor answers question about complexity"
+    },
+    {
+      "sid": "s000657",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains algorithm complexity"
+    },
+    {
+      "sid": "s000658",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains algorithm complexity"
+    },
+    {
+      "sid": "s000659",
+      "role": "qa",
+      "role_score": 0.85,
+      "role_reason": "student question about algorithm complexity"
+    },
+    {
+      "sid": "s000660",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor answers question about complexity"
+    },
+    {
+      "sid": "s000661",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor answers question about complexity"
+    },
+    {
+      "sid": "s000662",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor introduces new topic"
+    },
+    {
+      "sid": "s000663",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor introduces new algorithm"
+    },
+    {
+      "sid": "s000664",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains Prim's algorithm"
+    },
+    {
+      "sid": "s000665",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains Prim's algorithm"
+    },
+    {
+      "sid": "s000666",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains Prim's algorithm"
+    },
+    {
+      "sid": "s000667",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains Prim's algorithm"
+    },
+    {
+      "sid": "s000668",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor names Prim's algorithm"
+    },
+    {
+      "sid": "s000669",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains Prim's algorithm"
+    },
+    {
+      "sid": "s000670",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains Prim's algorithm"
+    },
+    {
+      "sid": "s000671",
+      "role": "qa",
+      "role_score": 0.85,
+      "role_reason": "student question about MST theorem"
+    },
+    {
+      "sid": "s000672",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor reassures student"
+    },
+    {
+      "sid": "s000673",
+      "role": "qa",
+      "role_score": 0.85,
+      "role_reason": "student question about MST theorem"
+    },
+    {
+      "sid": "s000674",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains MST theorem"
+    },
+    {
+      "sid": "s000675",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor reassures student"
+    },
+    {
+      "sid": "s000676",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains MST theorem"
+    },
+    {
+      "sid": "s000677",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains MST theorem"
+    },
+    {
+      "sid": "s000678",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains MST theorem"
+    },
+    {
+      "sid": "s000679",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains MST theorem"
+    },
+    {
+      "sid": "s000680",
+      "role": "chitchat",
+      "role_score": 0.99,
+      "role_reason": "backchannel; inherits previous role"
+    },
+    {
+      "sid": "s000681",
+      "role": "chitchat",
+      "role_score": 0.99,
+      "role_reason": "backchannel; inherits previous role"
+    },
+    {
+      "sid": "s000682",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains Prim's algorithm example"
+    },
+    {
+      "sid": "s000683",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains Prim's algorithm example"
+    },
+    {
+      "sid": "s000684",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains Prim's algorithm example"
+    },
+    {
+      "sid": "s000685",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains Prim's algorithm example"
+    },
+    {
+      "sid": "s000686",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains Prim's algorithm example"
+    },
+    {
+      "sid": "s000687",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains Prim's algorithm example"
+    },
+    {
+      "sid": "s000688",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains Prim's algorithm example"
+    },
+    {
+      "sid": "s000689",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains Prim's algorithm example"
+    },
+    {
+      "sid": "s000690",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains Prim's algorithm example"
+    },
+    {
+      "sid": "s000691",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains Prim's algorithm example"
+    },
+    {
+      "sid": "s000692",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains Prim's algorithm example"
+    },
+    {
+      "sid": "s000693",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains Prim's algorithm example"
+    },
+    {
+      "sid": "s000694",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains Prim's algorithm example"
+    },
+    {
+      "sid": "s000695",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains Prim's algorithm example"
+    },
+    {
+      "sid": "s000696",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains Prim's algorithm example"
+    },
+    {
+      "sid": "s000697",
+      "role": "chitchat",
+      "role_score": 0.99,
+      "role_reason": "backchannel; inherits previous role"
+    },
+    {
+      "sid": "s000698",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains Prim's algorithm example"
+    },
+    {
+      "sid": "s000699",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains Prim's algorithm example"
+    },
+    {
+      "sid": "s000700",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains Prim's algorithm example"
+    },
+    {
+      "sid": "s000701",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains Prim's algorithm example"
+    },
+    {
+      "sid": "s000702",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains Prim's algorithm example"
+    },
+    {
+      "sid": "s000703",
+      "role": "qa",
+      "role_score": 0.85,
+      "role_reason": "student question about algorithm logic"
+    },
+    {
+      "sid": "s000704",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains algorithm logic"
+    },
+    {
+      "sid": "s000705",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains algorithm logic"
+    },
+    {
+      "sid": "s000706",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains algorithm logic"
+    },
+    {
+      "sid": "s000707",
+      "role": "qa",
+      "role_score": 0.85,
+      "role_reason": "student question about algorithm logic"
+    },
+    {
+      "sid": "s000708",
+      "role": "qa",
+      "role_score": 0.85,
+      "role_reason": "student question about algorithm logic"
+    },
+    {
+      "sid": "s000709",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor answers question about algorithm logic"
+    },
+    {
+      "sid": "s000710",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor answers question about algorithm logic"
+    },
+    {
+      "sid": "s000711",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains algorithm complexity"
+    },
+    {
+      "sid": "s000712",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains algorithm complexity"
+    },
+    {
+      "sid": "s000713",
+      "role": "chitchat",
+      "role_score": 0.99,
+      "role_reason": "backchannel; inherits previous role"
+    },
+    {
+      "sid": "s000714",
+      "role": "qa",
+      "role_score": 0.85,
+      "role_reason": "student question comparing algorithms"
+    },
+    {
+      "sid": "s000715",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor confirms student's analogy"
+    },
+    {
+      "sid": "s000716",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains relationship between algorithms"
+    },
+    {
+      "sid": "s000717",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains relationship between algorithms"
+    },
+    {
+      "sid": "s000718",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains relationship between algorithms"
+    },
+    {
+      "sid": "s000719",
+      "role": "chitchat",
+      "role_score": 0.99,
+      "role_reason": "backchannel; inherits previous role"
+    },
+    {
+      "sid": "s000720",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains heap usage in algorithms"
+    },
+    {
+      "sid": "s000721",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains algorithm complexity"
+    },
+    {
+      "sid": "s000722",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains algorithm complexity"
+    },
+    {
+      "sid": "s000723",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains heap operations"
+    },
+    {
+      "sid": "s000724",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains heap operations"
+    },
+    {
+      "sid": "s000725",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains algorithm details"
+    },
+    {
+      "sid": "s000726",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains algorithm details"
+    },
+    {
+      "sid": "s000727",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains algorithm details"
+    },
+    {
+      "sid": "s000728",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains algorithm details"
+    },
+    {
+      "sid": "s000729",
+      "role": "chitchat",
+      "role_score": 0.99,
+      "role_reason": "backchannel; inherits previous role"
+    },
+    {
+      "sid": "s000730",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains heap operations complexity"
+    },
+    {
+      "sid": "s000731",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor mentions upcoming proof"
+    },
+    {
+      "sid": "s000732",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor mentions upcoming proof"
+    },
+    {
+      "sid": "s000733",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains intuition"
+    },
+    {
+      "sid": "s000734",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains intuition"
+    },
+    {
+      "sid": "s000735",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains intuition"
+    },
+    {
+      "sid": "s000736",
+      "role": "qa",
+      "role_score": 0.85,
+      "role_reason": "student question about proof"
+    },
+    {
+      "sid": "s000737",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor answers question about proof"
+    },
+    {
+      "sid": "s000738",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor introduces Prim's algorithm examples"
+    },
+    {
+      "sid": "s000739",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor describes Prim's algorithm"
+    },
+    {
+      "sid": "s000740",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor describes Prim's algorithm"
+    },
+    {
+      "sid": "s000741",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor describes Prim's algorithm"
+    },
+    {
+      "sid": "s000742",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor describes Prim's algorithm"
+    },
+    {
+      "sid": "s000743",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor describes Prim's algorithm"
+    },
+    {
+      "sid": "s000744",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor introduces Kruskal's algorithm"
+    },
+    {
+      "sid": "s000745",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains Kruskal's algorithm"
+    },
+    {
+      "sid": "s000746",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains Kruskal's algorithm"
+    },
+    {
+      "sid": "s000747",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains Kruskal's algorithm"
+    },
+    {
+      "sid": "s000748",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains Kruskal's algorithm"
+    },
+    {
+      "sid": "s000749",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains Kruskal's algorithm"
+    },
+    {
+      "sid": "s000750",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains Kruskal's algorithm"
+    },
+    {
+      "sid": "s000751",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains Kruskal's algorithm"
+    },
+    {
+      "sid": "s000752",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains Kruskal's algorithm"
+    },
+    {
+      "sid": "s000753",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor mentions upcoming topic"
+    },
+    {
+      "sid": "s000754",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains sorting complexity"
+    },
+    {
+      "sid": "s000755",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains sorting complexity"
+    },
+    {
+      "sid": "s000756",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor mentions upcoming proof"
+    },
+    {
+      "sid": "s000757",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor mentions upcoming proof"
+    },
+    {
+      "sid": "s000758",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains Kruskal's algorithm"
+    },
+    {
+      "sid": "s000759",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains Kruskal's algorithm"
+    },
+    {
+      "sid": "s000760",
+      "role": "qa",
+      "role_score": 0.85,
+      "role_reason": "student question about Kruskal's algorithm"
+    },
+    {
+      "sid": "s000761",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor answers question about Kruskal's algorithm"
+    },
+    {
+      "sid": "s000762",
+      "role": "chitchat",
+      "role_score": 0.99,
+      "role_reason": "backchannel; inherits previous role"
+    },
+    {
+      "sid": "s000763",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains Kruskal's algorithm"
+    },
+    {
+      "sid": "s000764",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains Kruskal's algorithm"
+    },
+    {
+      "sid": "s000765",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains Kruskal's algorithm"
+    },
+    {
+      "sid": "s000766",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains Kruskal's algorithm"
+    },
+    {
+      "sid": "s000767",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains Kruskal's algorithm"
+    },
+    {
+      "sid": "s000768",
+      "role": "qa",
+      "role_score": 0.85,
+      "role_reason": "student question about Kruskal's algorithm"
+    },
+    {
+      "sid": "s000769",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor answers question about Kruskal's algorithm"
+    },
+    {
+      "sid": "s000770",
+      "role": "chitchat",
+      "role_score": 0.99,
+      "role_reason": "backchannel; inherits previous role"
+    },
+    {
+      "sid": "s000771",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor disagrees with student"
+    },
+    {
+      "sid": "s000772",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor disagrees with student"
+    },
+    {
+      "sid": "s000773",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains MST theorem"
+    },
+    {
+      "sid": "s000774",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains MST theorem"
+    },
+    {
+      "sid": "s000775",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains MST theorem"
+    },
+    {
+      "sid": "s000776",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains MST theorem"
+    },
+    {
+      "sid": "s000777",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains MST theorem example"
+    },
+    {
+      "sid": "s000778",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains MST theorem example"
+    },
+    {
+      "sid": "s000779",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains MST theorem example"
+    },
+    {
+      "sid": "s000780",
+      "role": "chitchat",
+      "role_score": 0.99,
+      "role_reason": "backchannel; inherits previous role"
+    },
+    {
+      "sid": "s000781",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor clarifies student's statement"
+    },
+    {
+      "sid": "s000782",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor clarifies student's statement"
+    },
+    {
+      "sid": "s000783",
+      "role": "chitchat",
+      "role_score": 0.99,
+      "role_reason": "backchannel; inherits previous role"
+    },
+    {
+      "sid": "s000784",
+      "role": "chitchat",
+      "role_score": 0.99,
+      "role_reason": "backchannel; inherits previous role"
+    },
+    {
+      "sid": "s000785",
+      "role": "chitchat",
+      "role_score": 0.99,
+      "role_reason": "backchannel; inherits previous role"
+    },
+    {
+      "sid": "s000786",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains MST theorem"
+    },
+    {
+      "sid": "s000787",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains MST theorem"
+    },
+    {
+      "sid": "s000788",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains MST theorem"
+    },
+    {
+      "sid": "s000789",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains MST theorem"
+    },
+    {
+      "sid": "s000790",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains MST theorem"
+    },
+    {
+      "sid": "s000791",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains MST theorem"
+    },
+    {
+      "sid": "s000792",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains MST theorem"
+    },
+    {
+      "sid": "s000793",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains MST theorem"
+    },
+    {
+      "sid": "s000794",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains MST theorem"
+    },
+    {
+      "sid": "s000795",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains MST theorem"
+    },
+    {
+      "sid": "s000796",
+      "role": "qa",
+      "role_score": 0.85,
+      "role_reason": "student asks for confirmation"
+    },
+    {
+      "sid": "s000797",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor confirms student's understanding"
+    },
+    {
+      "sid": "s000798",
+      "role": "chitchat",
+      "role_score": 0.99,
+      "role_reason": "backchannel; inherits previous role"
+    },
+    {
+      "sid": "s000799",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor summarizes progress"
+    },
+    {
+      "sid": "s000800",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor summarizes progress"
+    },
+    {
+      "sid": "s000801",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains Kruskal's algorithm"
+    },
+    {
+      "sid": "s000802",
+      "role": "chitchat",
+      "role_score": 0.99,
+      "role_reason": "backchannel; inherits previous role"
+    },
+    {
+      "sid": "s000803",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains Kruskal's algorithm"
+    },
+    {
+      "sid": "s000804",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains Kruskal's algorithm philosophy"
+    },
+    {
+      "sid": "s000805",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains Kruskal's algorithm philosophy"
+    },
+    {
+      "sid": "s000806",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains Kruskal's algorithm example"
+    },
+    {
+      "sid": "s000807",
+      "role": "qa",
+      "role_score": 0.85,
+      "role_reason": "student question about Kruskal's algorithm"
+    },
+    {
+      "sid": "s000808",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor answers question about Kruskal's algorithm"
+    },
+    {
+      "sid": "s000809",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains Kruskal's algorithm example"
+    },
+    {
+      "sid": "s000810",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains Kruskal's algorithm example"
+    },
+    {
+      "sid": "s000811",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains Kruskal's algorithm example"
+    },
+    {
+      "sid": "s000812",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains Kruskal's algorithm example"
+    },
+    {
+      "sid": "s000813",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains Kruskal's algorithm example"
+    },
+    {
+      "sid": "s000814",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains Kruskal's algorithm example"
+    },
+    {
+      "sid": "s000815",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains MST theorem"
+    },
+    {
+      "sid": "s000816",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains MST theorem"
+    },
+    {
+      "sid": "s000817",
+      "role": "qa",
+      "role_score": 0.85,
+      "role_reason": "student asks about alternative cases"
+    },
+    {
+      "sid": "s000818",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains alternative cases"
+    },
+    {
+      "sid": "s000819",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains alternative cases"
+    },
+    {
+      "sid": "s000820",
+      "role": "chitchat",
+      "role_score": 0.99,
+      "role_reason": "backchannel; inherits previous role"
+    },
+    {
+      "sid": "s000821",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains alternative cases"
+    },
+    {
+      "sid": "s000822",
+      "role": "chitchat",
+      "role_score": 0.99,
+      "role_reason": "backchannel; inherits previous role"
+    },
+    {
+      "sid": "s000823",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains alternative cases"
+    },
+    {
+      "sid": "s000824",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains alternative cases"
+    },
+    {
+      "sid": "s000825",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains alternative cases"
+    },
+    {
+      "sid": "s000826",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains alternative cases"
+    },
+    {
+      "sid": "s000827",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains alternative cases"
+    },
+    {
+      "sid": "s000828",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains alternative cases"
+    },
+    {
+      "sid": "s000829",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains alternative cases"
+    },
+    {
+      "sid": "s000830",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains alternative cases"
+    },
+    {
+      "sid": "s000831",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains alternative cases"
+    },
+    {
+      "sid": "s000832",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains alternative cases"
+    },
+    {
+      "sid": "s000833",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains alternative cases"
+    },
+    {
+      "sid": "s000834",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains alternative cases"
+    },
+    {
+      "sid": "s000835",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains alternative cases"
+    },
+    {
+      "sid": "s000836",
+      "role": "lecture",
+      "role_score": 0.90,
+      "role_reason": "professor explains alternative cases"
+    },
+    {
+      "sid": "s000837",
+      "role": "qa",
+      "role_score": 0.85,
+      "role_reason": "student asks about minimum edges"
+    }
+  ]
+}

@@ -135,7 +135,7 @@ def main():
 
     lecture_segmentation(client, gemini_2_5_flash, gemini_2_5_flash_lite, config_json(), LECTURE_DIR)
 
-    generate_topic_details(client, gemini_2_5_flash_lite, config_json(), config_text(), LECTURE_DIR)
+    generate_topic_details(client, gemini_2_5_flash, config_json(), config_text(), LECTURE_DIR)
 
     generate_fun_facts(client, gemini_2_5_flash, config_text(google_search=True), LECTURE_DIR)
 

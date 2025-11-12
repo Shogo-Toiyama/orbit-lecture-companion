@@ -37,13 +37,16 @@ def topic_segmentation(client, gen_model, config_json, lecture_dir: Path):
     with open(lecture_dir / "sentences_final.json", "r", encoding="utf-8") as f:
         sentences_final = json.load(f)
 
+    ALLOWED = ["sid", "text", "start", "role"]
+    projected_sentences = [{k: s.get(k) for k in ALLOWED} for s in sentences_final]
+
     print("Waiting for response from Gemini API...")
 
     payload = {
         "task": "Topic Segmentation",
         "instruction": instr_topic_segmentation,
         "data": {
-            "sentences": sentences_final
+            "sentences": projected_sentences
         }
     }
 
@@ -163,7 +166,7 @@ def main():
     flash_lite = "gemini-2.5-flash-lite"
 
     ROOT = Path(__file__).resolve().parent
-    LECTURE_DIR = ROOT / "../lectures/2025-10-31-12-04-37-0700"  # ⚠️ CHANGE FOLDER NAME!!! 🛑
+    LECTURE_DIR = ROOT / "../lectures/2025-11-11-16-38-54-0800"  # ⚠️ CHANGE FOLDER NAME!!! 🛑
 
     lecture_segmentation(client, flash, flash_lite, config_json(), LECTURE_DIR)
 

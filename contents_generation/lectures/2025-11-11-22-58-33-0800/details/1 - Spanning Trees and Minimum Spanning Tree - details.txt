@@ -1,0 +1,24 @@
+# 1. Spanning Trees and Minimum Spanning Tree
+
+This topic introduces spanning trees as subgraphs that connect all vertices without cycles, and then focuses on the Minimum Spanning Tree (MST), which is a spanning tree with the lowest possible total edge weight. The lecture discusses the properties of these trees, methods for finding them, their practical applications, and a common assumption about unique edge weights for algorithmic simplicity. ⟦s000005, s000011, s000012, s000024, s000030, s000049, s000062⟧
+
+📚 **Understanding Spanning Trees**
+A *spanning tree* is a specific type of subgraph derived from a given weighted graph. ⟦s000005, s000007, s000011⟧ It consists of a set of edges and vertices that form a *tree structure*, meaning it contains no cycles. ⟦s000011, s000014, s000077, s000078⟧ Crucially, a spanning tree must "span" or "touch" *all the vertices* present in the original graph. ⟦s000012, s000014, s000038⟧ For a spanning tree to exist, the original graph must be *connected*; if the graph has disconnected components, a single tree cannot connect all vertices. ⟦s000015, s000016, s000017⟧
+
+🎯 **The Goal: Minimum Spanning Tree (MST)**
+While many spanning trees can exist for a given graph, the primary interest is in the *Minimum Spanning Tree* (MST). ⟦s000018, s000024, s000025, s000029⟧ The MST is defined as the spanning tree where the *total sum of the weights of its edges is minimized* compared to all other possible spanning trees. ⟦s000029, s000030, s000039⟧ Even in an MST, some edges might have relatively *high weights* if they are essential for maintaining connectivity to certain vertices. ⟦s000040, s000041, s000042⟧ However, the general principle is to prefer edges with *smaller weights* whenever there is a choice, to achieve the minimum total weight. ⟦s000043, s000044⟧
+
+💡 **Characteristics of a Spanning Tree**
+A tree structure, by definition, does not contain any cycles. ⟦s000011, s000077, s000078⟧ For a graph with *N vertices*, a spanning tree will always have exactly *N-1 edges*. ⟦s000079, s000080⟧ If the original graph contains cycles, there will typically be *multiple possible spanning trees*. ⟦s000025, s000026, s000028⟧ Only if the original graph itself is already a tree, then its spanning tree is unique. ⟦s000027⟧
+
+⚙️ **Finding a Spanning Tree**
+Finding *a* spanning tree for a connected graph is a straightforward process. ⟦s000022, s000023⟧ Common algorithms like *Breadth-First Search (BFS)* or *Depth-First Search (DFS)* can be used to generate spanning trees. ⟦s000019⟧ These search algorithms naturally produce tree structures that traverse all vertices, thus fulfilling the definition of a spanning tree. ⟦s000020, s000021⟧
+
+🌐 **Applications of Minimum Spanning Trees**
+The MST problem is significant because it provides a way to establish *connectivity* within a graph efficiently. ⟦s000047, s000049⟧ It has *direct applications*, such as designing networks to connect a set of nodes with *minimum traffic* or *minimum congestion*. ⟦s000048, s000049, s000050⟧ Furthermore, many other complex problems can be *formulated and solved* by transforming them into an MST problem. ⟦s000050, s000051⟧ This is similar to how Dijkstra's shortest path algorithm's structure is useful for solving various problems. ⟦s000052⟧ The graph considered for MST problems is typically *undirected*. ⟦s000053⟧
+
+⚖️ **Assumption of Unique Edge Weights**
+For simplifying the development of MST algorithms and their proofs, it is often assumed that *all edge weights in the graph are unique*. ⟦s000062, s000063, s000064, s000067⟧ This assumption makes the algorithms and their theoretical justifications much simpler to understand. ⟦s000067⟧ In real-world scenarios where weights might not be unique, a practical trick can be applied: if two edges have the same weight (e.g., two), one can be slightly perturbed by adding a very small number, *epsilon*, to make it unique (e.g., 2 and 2 + epsilon). ⟦s000066, s000068, s000069, s000070, s000071, s000072, s000073, s000074⟧
+
+⚠️ **Importance of Problem Understanding**
+A fundamental principle in problem-solving, especially in this course, is to *thoroughly understand the problem* before attempting to find a solution. ⟦s000054, s000055, s000056, s000059, s000061⟧ Ambiguity or a lack of understanding about the problem statement makes it impossible to begin providing a correct solution. ⟦s000054, s000055, s000056⟧ It is advised to work through a few examples and examine *corner cases* to ensure full comprehension. ⟦s000060⟧ This practice is crucial in academic settings and also in industry, where clarifying vague problems with stakeholders is necessary before proceeding. ⟦s000057, s000058⟧

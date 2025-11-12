@@ -1,0 +1,35 @@
+# 4. Kruskal's Algorithm: Strategy
+
+Kruskal's algorithm is an edge-centric approach for finding a Minimum Spanning Tree (MST) that prioritizes selecting edges based on their weight. Its strategy involves sorting all edges by weight and then iteratively adding the smallest available edge, provided it does not form a cycle with previously selected edges, until an MST is formed.
+
+## 📚 Core Idea of Kruskal's Algorithm
+
+Kruskal's algorithm offers an *edge-centric* approach to finding a Minimum Spanning Tree (MST), contrasting with Prim's algorithm which is *vertex-centric* ⟦s000739, s000743, s000744, s000804⟧. Instead of focusing on individual vertices, Kruskal's considers which edges should be included in the solution ⟦s000745, s000804⟧. The general idea is to select edges with smaller weights, as larger weight edges are typically undesirable for an MST ⟦s000746, s000748⟧.
+
+## ⚙️ Step-by-Step Strategy
+
+The very first step in Kruskal's algorithm is to **sort all edges** in the graph according to their weight ⟦s000749, s000751, s000752⟧. If there are *m* total edges (e1, e2, ..., e_m), they are arranged in ascending order of their weights ⟦s000750, s000751⟧. This sorting process takes approximately *E log E* time, where *E* is the number of edges ⟦s000754⟧. After sorting, the algorithm proceeds by examining edges one by one, starting with the smallest weight edge ⟦s000759⟧.
+
+## ✅ Incorporating Edges: The MST Theorem Application
+
+The algorithm begins by considering the smallest edge, E1. E1 is guaranteed to be part of any MST because it is the minimum weight edge *anywhere* in the graph ⟦s000778, s000792, s000793⟧. This allows the application of the MST theorem: if you partition the graph into two sets of vertices, the minimum weight edge connecting these two partitions must be in the MST ⟦s000789, s000791, s000794, s000795⟧. Since E1 is the overall minimum, it will always be the minimum edge between any such partition, thus it can be confidently added to the MST ⟦s000778, s000779, s000794, s000795⟧.
+
+The process continues with the next smallest edge, E2 ⟦s000806⟧. Similar to E1, E2 can also be added to the MST. Whether E2's vertices are entirely separate from E1's vertices or connected to one of them, a partition can always be created where E2 is the minimum weight edge crossing that partition ⟦s000810, s000812, s000814, s000827, s000828, s000832, s000834, s000835⟧. This ensures that E2 can also be included in the MST based on the MST theorem ⟦s000815, s000836⟧. This logic extends to subsequent edges (E3, E4, etc.) as long as they meet certain conditions ⟦s000841, s000843, s000844, s000850, s000851, s000853, s000854⟧.
+
+## 🚫 Handling Cycles: Kruskal's Key Rule
+
+A critical situation arises when considering an edge, say E3, that connects two vertices which are *already connected* by previously selected edges (e.g., E1 and E2) ⟦s000858, s000859, s000860⟧. In this scenario, adding E3 would create a **cycle** ⟦s000875⟧. When an edge forms a cycle, it becomes impossible to create a partition where that edge is the minimum weight edge crossing the cut ⟦s000860, s000868, s000871, s000880, s000896⟧.
+
+Kruskal's algorithm addresses this by stating that if an edge creates a cycle with existing edges already chosen for the MST, that edge must be **ignored** ⟦s000875, s000877, s000878, s000890, s000913⟧. The fundamental reason for ignoring such edges is that the MST theorem cannot be applied to them, meaning there's no guarantee they belong in the MST ⟦s000880, s000881, s000885, s000887⟧. The algorithm then proceeds to the next smallest edge in the sorted list ⟦s000877, s000890⟧.
+
+## 🚧 Algorithmic Challenges and Efficiency
+
+A significant challenge in implementing Kruskal's algorithm efficiently is the **dynamic detection of cycles** ⟦s000899, s000903, s000909⟧. If a naive approach like running a Depth First Search (DFS) is used to check for cycles for every edge, the algorithm becomes very slow ⟦s000902, s000918, s000920, s000921, s000922⟧. The total runtime would be *E log E* (for sorting) plus *E* times the cost of cycle detection ⟦s000915⟧. If DFS takes *E+V* time, the overall complexity could be *E*(E+V), which simplifies to *E-squared* or even *N-to-the-power-four* for dense graphs, making it impractical for large graphs ⟦s000921, s000925, s000927, s000928⟧. This highlights the need for a more efficient method to determine if adding an edge creates a cycle ⟦s000909⟧.
+
+## 🎯 Algorithm Termination
+
+Kruskal's algorithm continues to add edges one at a time, ignoring those that create cycles, until a total of *N-1* edges have been selected ⟦s000912, s000914, s000934, s000935⟧. This number of edges is required to form a spanning tree for a graph with *N* vertices.
+
+## 🔍 Supplement: Explanation of Union-Find
+
+The lecture briefly introduces the "Union-Find" data structure as a potential solution to the challenge of efficiently detecting cycles in Kruskal's algorithm ⟦s000936, s000940, s000941⟧. This data structure is designed to manage a collection of disjoint sets and supports two primary operations: `find`, which determines which set an element belongs to, and `union`, which merges two sets into one ⟦s000947, s000948, s000951, s000954, s000955⟧. By using Union-Find, cycle detection can be performed much more efficiently than with repeated DFS traversals.

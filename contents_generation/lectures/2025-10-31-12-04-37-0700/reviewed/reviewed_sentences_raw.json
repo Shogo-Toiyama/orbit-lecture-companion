@@ -2,48 +2,63 @@
   "results": [
     {
       "sid": "s000003",
-      "modified": "And like always, my decision, that's how that's done.",
-      "reason": "Improved flow and conciseness; removed redundancy."
+      "modified": "And like always, my decision, that's how that's been done.",
+      "reason": "Punctuation for clarity."
     },
     {
-      "sid": "s000005",
-      "modified": "We still got to keep this class.",
-      "reason": "Spelling/style normalization: 'gotta' to 'got to'."
+      "sid": "s000011",
+      "modified": "And the...",
+      "reason": "Incomplete sentence."
     },
     {
       "sid": "s000020",
       "modified": "You're here.",
-      "reason": "ASR mishear: 'Your' to 'You're'."
+      "reason": "Grammatical correction."
+    },
+    {
+      "sid": "s000036",
+      "modified": "You know, instead of X and Y, I'm going to call it X and C_in.",
+      "reason": "Terminology consistency with 'carry in'."
     },
     {
       "sid": "s000037",
       "modified": "C_in, okay.",
-      "reason": "ASR mishear: 'CM' to 'C_in' for 'carry in'."
+      "reason": "Terminology consistency with 'carry in'."
     },
     {
       "sid": "s000043",
       "modified": "The carry in is for the full adder.",
-      "reason": "ASR mishear: 'full end' to 'full adder'."
+      "reason": "ASR mishear: 'full end' should be 'full adder'."
+    },
+    {
+      "sid": "s000044",
+      "modified": "We'll call X and Y, and C and S will work.",
+      "reason": "ASR mishear and local context correction."
     },
     {
       "sid": "s000045",
       "modified": "I'm getting ahead of myself.",
-      "reason": "Capitalization: 'Myself' to 'myself'."
+      "reason": "Capitalization for style normalization."
     },
     {
       "sid": "s000054",
       "modified": "The carry is only one in one place.",
-      "reason": "Removed extraneous word 'Exclusively'; ASR mishear."
+      "reason": "ASR mishear, removed extraneous word."
     },
     {
       "sid": "s000060",
-      "modified": "That and there's our half adder.",
-      "reason": "ASR mishear: 'half add' to 'half adder'."
+      "modified": "And there's our half adder.",
+      "reason": "ASR mishear: 'half add' should be 'half adder'."
+    },
+    {
+      "sid": "s000062",
+      "modified": "You know, usually when we add two bits, we're really adding a much bigger number, multi-bit numbers.",
+      "reason": "Punctuation and hyphenation for clarity."
     },
     {
       "sid": "s000063",
       "modified": "And there's typically going to be a carry in from the previous stage.",
-      "reason": "ASR mishear: 'K carry in' to 'carry in'."
+      "reason": "ASR mishear: 'a K carry in' should be 'a carry in'."
     },
     {
       "sid": "s000078",
@@ -53,487 +68,597 @@
     {
       "sid": "s000088",
       "modified": "And that's the full adder.",
-      "reason": "ASR mishear: 'full additives' to 'full adder'."
+      "reason": "ASR mishear: 'additives' should be 'adder'."
+    },
+    {
+      "sid": "s000090",
+      "modified": "Right, let's start with S. S is...",
+      "reason": "Incomplete sentence."
     },
     {
       "sid": "s000091",
       "modified": "What are the minterms here?",
-      "reason": "ASR mishear: 'mentions' to 'minterms'."
+      "reason": "ASR mishear: 'mentions' should be 'minterms'."
+    },
+    {
+      "sid": "s000106",
+      "modified": "So that's X ended with (not Y not Z or Y Z).",
+      "reason": "Punctuation for clarity in boolean expression."
     },
     {
       "sid": "s000110",
-      "modified": "So that's Y exclusive OR Z, exclusive OR X.",
-      "reason": "ASR mishear/terminology: 'or X' to 'exclusive OR X'."
+      "modified": "So that's Y exclusive or Z, or X.",
+      "reason": "Punctuation for clarity."
     },
     {
       "sid": "s000111",
       "modified": "And this is an exclusive NOR.",
-      "reason": "Terminology consistency: 'exclusive norm' to 'exclusive NOR'."
+      "reason": "ASR mishear: 'norm' should be 'NOR'."
+    },
+    {
+      "sid": "s000112",
+      "modified": "Y exclusive or Z, NOT.",
+      "reason": "ASR mishear: 'naught' should be 'NOT'."
+    },
+    {
+      "sid": "s000113",
+      "modified": "If you take a step back and look at that, okay, this is actually an exclusive OR of X.",
+      "reason": "Capitalization for logical gate."
+    },
+    {
+      "sid": "s000116",
+      "modified": "Second, NOT X.",
+      "reason": "Capitalization for logical operation."
     },
     {
       "sid": "s000117",
-      "modified": "Then the true value here, the true value of X ANDed with the NOT of this.",
-      "reason": "ASR mishear: 'ended' to 'ANDed'; clarity."
+      "modified": "Then the true value here, the true value of X ended with the NOT here.",
+      "reason": "Capitalization for logical operation."
     },
     {
       "sid": "s000121",
       "modified": "To solve for C, let's see.",
-      "reason": "ASR mishear: 'To support C for C' to 'To solve for C'."
+      "reason": "ASR mishear: 'support' should be 'solve'."
+    },
+    {
+      "sid": "s000122",
+      "modified": "Minterm 3, 0, 1, 1, NOT X Y Z or minterm 5, 1, 0, 1, X NOT Y Z.",
+      "reason": "Capitalization for logical NOT and formatting."
     },
     {
       "sid": "s000123",
-      "modified": "Minterm 6 is 1, 1, 0.",
-      "reason": "Removed redundant '6'; ASR mishear."
+      "modified": "Minterm 6, 6 is 1, 1, 0.",
+      "reason": "Spelling/style normalization."
     },
     {
       "sid": "s000130",
-      "modified": "So what this does, that's (NOT Z).",
-      "reason": "ASR mishear/clarity; verbalization of Boolean term."
+      "modified": "So what this does, that NOT Z.",
+      "reason": "Punctuation and capitalization for logical NOT."
     },
     {
       "sid": "s000133",
-      "modified": "Anything ORed with its complement is a one, which leaves XY.",
-      "reason": "ASR mishear: 'x one' to 'XY'; terminology consistency."
+      "modified": "Anything ORed with its complement is a one, which leaves X Y.",
+      "reason": "ASR mishear and terminology correction."
     },
     {
       "sid": "s000137",
       "modified": "And C is a slightly more complicated expression.",
-      "reason": "Grammar: added article 'a'."
+      "reason": "Function-word fix (missing article)."
     },
     {
-      "sid": "s000154",
-      "modified": "What we do, here's Z coming into this gate.",
-      "reason": "Added implied word 'gate' for clarity."
+      "sid": "s000155",
+      "modified": "No, Z right here coming into that AND gate.",
+      "reason": "Capitalization for logical gate."
     },
     {
       "sid": "s000156",
-      "modified": "And what's on the other input is X exclusive OR Y when we OR those two together to get C.",
-      "reason": "ASR mishear: 'are' to 'OR', 'Z' to 'C'; terminology."
+      "modified": "And what's on the other input is X exclusive OR Y. When we OR those two together to get C_out.",
+      "reason": "ASR mishear, capitalization, and terminology consistency."
     },
     {
       "sid": "s000164",
-      "modified": "And for input Z, we put zeros there.",
-      "reason": "Improved clarity and flow; ASR mishear."
+      "modified": "And that input on Z, put zeros there.",
+      "reason": "Punctuation for clarity."
     },
     {
       "sid": "s000170",
       "modified": "Okay, coming out of this AND gate right here, that's got to be a zero, right?",
-      "reason": "ASR mishear: 'A' to 'a zero'; local context correction."
+      "reason": "ASR mishear and capitalization for logical gate."
     },
     {
       "sid": "s000176",
-      "modified": "So Z will be a 1.",
-      "reason": "ASR mishear: 'A1' to 'a 1'."
+      "modified": "So Z will be a one.",
+      "reason": "ASR mishear: 'A1' should be 'a one'."
     },
     {
       "sid": "s000179",
-      "modified": "Okay, going up to that second exclusive OR, zero exclusive OR one is one.",
-      "reason": "ASR mishear: 'exclusive list' to 'exclusive OR'; clarity."
+      "modified": "Okay, going up to that second exclusive OR, zero exclusive OR one, no real difference.",
+      "reason": "ASR mishear and local context correction."
     },
     {
       "sid": "s000185",
-      "modified": "The Y input to 1.",
-      "reason": "Added implied words for clarity and context."
+      "modified": "The one.",
+      "reason": "Spelling/style normalization."
     },
     {
       "sid": "s000191",
-      "modified": "So the output of that first exclusive OR (0 XOR 1) should be a 1. It is a 1 there.",
-      "reason": "ASR mishear; improved clarity and punctuation."
+      "modified": "So the output of that first exclusive OR (0 XOR 1) should be a 1. It's a 1 there.",
+      "reason": "ASR mishear, capitalization, and punctuation for clarity."
     },
     {
       "sid": "s000193",
       "modified": "Puts a 0 on that last OR gate.",
-      "reason": "Added implied word 'OR gate' for clarity."
+      "reason": "Incomplete sentence, added implied term."
+    },
+    {
+      "sid": "s000202",
+      "modified": "I think we'll stick with this one to the end.",
+      "reason": "ASR mishear and local context correction."
+    },
+    {
+      "sid": "s000208",
+      "modified": "Okay, one exclusive OR one is a zero there.",
+      "reason": "ASR mishear: 1 XOR 1 is 0."
     },
     {
       "sid": "s000215",
-      "modified": "But then with an XOR gate we have zero OR one which is a one.",
-      "reason": "Grammar: 'a' to 'an'; terminology: 'or' to 'OR'."
+      "modified": "But then with an OR gate we have zero OR one which is a one.",
+      "reason": "ASR mishear and terminology correction."
+    },
+    {
+      "sid": "s000222",
+      "modified": "They have to be able to add two 64-bit numbers, big numbers.",
+      "reason": "Hyphenation for clarity."
     },
     {
       "sid": "s000231",
-      "modified": "The second full adder, A, B and C_in. We get a sum and a carry.",
-      "reason": "Terminology consistency: 'C' to 'C_in' for carry in."
+      "modified": "The second full adder, A, B, and C_in. We get a sum and a carry.",
+      "reason": "Terminology consistency with 'carry in'."
+    },
+    {
+      "sid": "s000244",
+      "modified": "In a real implementation, typical general-purpose computer, they'll do it just like this, but they'll add a whole bunch of really complicated combinational logic called carry.",
+      "reason": "Hyphenation for clarity."
+    },
+    {
+      "sid": "s000246",
+      "modified": "And they've got a way of...",
+      "reason": "Contraction and incomplete sentence."
     },
     {
       "sid": "s000251",
       "modified": "Which leads us to subtraction.",
-      "reason": "ASR mishear: 'subtract' to 'subtraction'."
+      "reason": "Grammatical correction."
     },
     {
       "sid": "s000253",
-      "modified": "The four-bit adder, what about C0, B0?",
-      "reason": "ASR mishear: 'duplicate would' to 'adder, what about'; clarity."
+      "modified": "The four-bit ripple carry adder would have C0, B0.",
+      "reason": "ASR mishear and context completion."
     },
     {
       "sid": "s000258",
-      "modified": "Now we're talking about binary subtraction, which can be pretty straightforward.",
-      "reason": "Improved flow and conciseness; ASR mishear."
+      "modified": "Now we're talking about binary, where subtraction can be pretty straightforward.",
+      "reason": "Function-word fix (preposition)."
     },
     {
       "sid": "s000271",
-      "modified": "So two five-bit numbers, and I hope it's obvious to everybody that N is bigger than M. This result, whatever we got here, whatever we get from this is necessarily negative because we're subtracting a bigger number from a small number.",
-      "reason": "Corrected variable name 'N' to 'M' for consistency."
-    },
-    {
-      "sid": "s000274",
-      "modified": "Let's see, that's 2 to the 3, 2 to the 4.",
-      "reason": "ASR mishear: '2, 3, 4' to '2 to the 3, 2 to the 4'."
+      "modified": "So two five-bit numbers, and I hope it's obvious to everybody that N is bigger than M. This result, whatever we got here, whatever we get from this is necessarily negative because we're subtracting a bigger number from a smaller number.",
+      "reason": "Hyphenation, context correction, and grammatical fix."
     },
     {
       "sid": "s000286",
-      "modified": "So if we borrow from that one, that becomes a zero, making the one to the right a one-zero.",
-      "reason": "ASR mishear; clarified binary borrowing explanation."
+      "modified": "So if we borrow from that one, that becomes a zero, making the one to the right a one zero.",
+      "reason": "Clarity and grammatical correction."
     },
     {
       "sid": "s000290",
-      "modified": "So, so we got two minus one is one, and one minus one is zero.",
-      "reason": "ASR mishear: 'one one' to 'is one'."
+      "modified": "So, we got two minus one is one, and one minus one is zero.",
+      "reason": "Punctuation and clarity."
+    },
+    {
+      "sid": "s000304",
+      "modified": "Well, because minus 11 is what?",
+      "reason": "Grammatical correction."
+    },
+    {
+      "sid": "s000309",
+      "modified": "We have to do an end-borrow.",
+      "reason": "Hyphenation for compound term."
     },
     {
       "sid": "s000324",
-      "modified": "Let's see, we like this, we calculated this, we want.",
-      "reason": "Removed redundant 'calculated'; improved flow."
+      "modified": "Let's see, we calculated this, we want...",
+      "reason": "Redundancy removal and incomplete sentence."
     },
     {
-      "sid": "s000349",
-      "modified": "So because the result's negative, that's the numerical solution we're looking for.",
-      "reason": "Improved terminology: 'number solution' to 'numerical solution'."
+      "sid": "s000340",
+      "modified": "We borrow from there, that becomes a one.",
+      "reason": "Spelling/style normalization."
+    },
+    {
+      "sid": "s000342",
+      "modified": "We borrow from there, which becomes a one.",
+      "reason": "Capitalization and spelling/style normalization."
+    },
+    {
+      "sid": "s000352",
+      "modified": "We're going to subtract two N-digit numbers.",
+      "reason": "Hyphenation and capitalization for clarity."
     },
     {
       "sid": "s000357",
-      "modified": "If we don't have to do an end borrow, it meant the number on top is bigger.",
-      "reason": "ASR mishear: 'it in borrow' to 'an end borrow'."
+      "modified": "If we don't have to do an end-borrow, it meant the number on top is bigger.",
+      "reason": "ASR mishear and terminology consistency."
     },
     {
       "sid": "s000358",
       "modified": "Or the same.",
-      "reason": "ASR mishear: 'We're' to 'Or'; local context correction."
+      "reason": "ASR mishear: 'We're' should be 'Or'."
     },
     {
       "sid": "s000361",
-      "modified": "Well if we do an end borrow, we've computed that M minus N plus 2 to the N. Then we subtract it from 2 to the N then append a minus sign. That's Step three, that last step is called taking the two's complement of a number.",
-      "reason": "ASR mishear: 'it to borrow' to 'an end borrow'; 'that's Step three'."
+      "modified": "Then we subtract it from 2 to the N, then append a minus sign. That Step three, that last step, is called taking the two's complement of a number.",
+      "reason": "Punctuation for clarity."
+    },
+    {
+      "sid": "s000363",
+      "modified": "Two eight-bit numbers.",
+      "reason": "Hyphenation for clarity."
+    },
+    {
+      "sid": "s000367",
+      "modified": "We're going to do that, and the values of these...",
+      "reason": "Punctuation and incomplete sentence."
     },
     {
       "sid": "s000370",
       "modified": "You probably already guessed we're not going to get the expected result when you do the initial subtraction.",
-      "reason": "Added implied words for clarity and completeness."
+      "reason": "Context completion for clarity."
     },
     {
       "sid": "s000373",
       "modified": "So that one over there becomes a zero.",
-      "reason": "Grammar: added article 'a'."
-    },
-    {
-      "sid": "s000374",
-      "modified": "This two, so two minus one is one.",
-      "reason": "Improved flow and clarity."
+      "reason": "Function-word fix (missing article)."
     },
     {
       "sid": "s000388",
-      "modified": "We just calculated that this is M minus N plus 2 to the N. And then to get the correct magnitude, we need to subtract that from 2 to the N. So 2 to the N is a 1 followed by 8 zeros.",
-      "reason": "Terminology consistency: 'n' to 'N'."
+      "modified": "So 2 to the N is a 1 followed by 8 zeros.",
+      "reason": "Capitalization for consistency."
     },
     {
       "sid": "s000393",
       "modified": "So let's see, zero minus zero is zero. Zero minus one...",
-      "reason": "Punctuation and clarity for subtraction steps."
+      "reason": "Punctuation for clarity and incomplete sentence."
+    },
+    {
+      "sid": "s000394",
+      "modified": "Well, okay, we've got a problem. That goes to zero, to two, to one, to two, to one, to two, to one, to two, to one, to two.",
+      "reason": "Punctuation and clarity."
+    },
+    {
+      "sid": "s000409",
+      "modified": "So we're going to do all of this.",
+      "reason": "Function-word fix (missing preposition)."
     },
     {
       "sid": "s000430",
-      "modified": "Subtract/Add with an overscore, that tells us if it's a one we're doing subtraction.",
-      "reason": "Clarified signal name 'Subtractadd' to 'Subtract/Add'."
+      "modified": "Subtract/Add with an overscore that tells us if it's a one we're doing subtraction.",
+      "reason": "Terminology consistency and clarity."
+    },
+    {
+      "sid": "s000454",
+      "modified": "There's also...",
+      "reason": "Incomplete sentence."
+    },
+    {
+      "sid": "s000456",
+      "modified": "You know, for radix 5 we have a fives complement.",
+      "reason": "Capitalization for style normalization."
     },
     {
       "sid": "s000471",
       "modified": "We look in here where it says 'Arithmetic Functions and Circuits'.",
-      "reason": "Capitalization and quotation marks for title."
+      "reason": "Punctuation and capitalization for title."
     },
     {
       "sid": "s000482",
       "modified": "With that said, 12:47, 12:48.",
-      "reason": "Punctuation for time format."
+      "reason": "Formatting for time."
     },
     {
       "sid": "s000484",
-      "modified": "Will reconvene at 2:00. Last...",
-      "reason": "ASR mishear: 'two last' to '2:00. Last...'; punctuation."
+      "modified": "We'll reconvene at two. Last...",
+      "reason": "Contraction and punctuation for clarity."
     },
     {
       "sid": "s000485",
-      "modified": "We were talking about in general, N's complement numbers.",
-      "reason": "ASR mishear: 'not complement' to 'N's complement'; terminology."
+      "modified": "We were talking about, in general, not complement numbers.",
+      "reason": "Punctuation for clarity."
     },
     {
       "sid": "s000492",
       "modified": "For an N-digit binary number.",
-      "reason": "Terminology consistency: 'end digit' to 'N-digit'."
+      "reason": "Hyphenation and capitalization for clarity."
     },
     {
       "sid": "s000494",
       "modified": "It's 2 to the N minus 1.",
-      "reason": "Terminology consistency: 'n' to 'N'."
+      "reason": "Capitalization for consistency."
     },
     {
       "sid": "s000495",
-      "modified": "But bear in mind 2 to the N is a binary number that consists of a 1 followed by N zeros.",
-      "reason": "Consistency: 'n' to 'N'; ASR: 'A1' to 'a 1'."
-    },
-    {
-      "sid": "s000497",
-      "modified": "I just want to remind everyone, I think we know this.",
-      "reason": "Added implied words for clarity and natural flow."
+      "modified": "But bear in mind, 2 to the N is a binary number that consists of a 1 followed by N zeros.",
+      "reason": "Punctuation, ASR mishear, and capitalization."
     },
     {
       "sid": "s000513",
-      "modified": "It's 2 to the N minus 1 minus the number N, N being the number of bits.",
-      "reason": "Consistency: 'n' to 'N'; ASR mishear: 'num ending small N' to 'number N'."
+      "modified": "It's 2 to the N minus 1 minus the number N, where N is the number of bits.",
+      "reason": "ASR mishear and clarity."
     },
     {
       "sid": "s000543",
       "modified": "Now let's talk about two's complement.",
-      "reason": "Grammar: 'complements' to 'complement'."
+      "reason": "Grammatical correction."
     },
     {
       "sid": "s000545",
-      "modified": "For N-digit binary number N, two's complement of N, it's 2 to the N minus N when N is not 0 and it's 0 when N is 0.",
-      "reason": "Terminology consistency: 'n' to 'N'."
+      "modified": "For an N-digit binary number N, the two's complement of N is 2 to the N minus N when N is not 0, and it's 0 when N is 0.",
+      "reason": "Capitalization and function-word fix."
     },
     {
       "sid": "s000546",
       "modified": "That's because the result has to have N bits.",
-      "reason": "Terminology consistency: 'n' to 'N'."
-    },
-    {
-      "sid": "s000548",
-      "modified": "Especially useful is the two's complement.",
-      "reason": "Improved flow and conciseness."
+      "reason": "Capitalization for consistency."
     },
     {
       "sid": "s000549",
       "modified": "And I say we can get the two's complement by taking the one's complement and adding one.",
-      "reason": "ASR mishear: 'the one the two's' to 'the two's'; grammar."
+      "reason": "Redundancy removal and punctuation."
     },
     {
       "sid": "s000552",
       "modified": "The ones cancel and we're left with 2 to the N minus N. So we already know how to calculate the one's complement.",
-      "reason": "Terminology consistency: 'n' to 'N'; 'ones' to 'one's'."
+      "reason": "Capitalization and punctuation."
     },
     {
       "sid": "s000560",
       "modified": "So first let's calculate the one's complement.",
-      "reason": "Terminology consistency: 'ones' to 'one's'."
-    },
-    {
-      "sid": "s000577",
-      "modified": "If the value is negative, it's not technically a sign bit, but it's often referred to as such. It means it's the sign bit, but we can actually explicitly make that assignment, right?",
-      "reason": "ASR mishear: 'it's minimum' to 'it's the sign bit'."
+      "reason": "Punctuation."
     },
     {
       "sid": "s000606",
       "modified": "When you strip off that leftmost bit, it gives you the magnitude.",
-      "reason": "Removed redundant 'left number'; improved conciseness."
+      "reason": "Redundancy removal."
     },
     {
       "sid": "s000617",
-      "modified": "The one's complement 0,01.",
-      "reason": "Terminology consistency: 'ones' to 'one's'."
+      "modified": "The one's complement is 0001.",
+      "reason": "Punctuation and clarity."
     },
     {
       "sid": "s000618",
-      "modified": "The negative number with the two's complement would be the one's complement plus 1, which is 4 ones.",
-      "reason": "Terminology consistency: 'ones' to 'one's'."
+      "modified": "The negative number with the two's complement would be the one's complement plus 1, which is four ones.",
+      "reason": "Punctuation and spelling/style normalization."
+    },
+    {
+      "sid": "s000652",
+      "modified": "So 0, carry the 1.",
+      "reason": "Punctuation for clarity."
     },
     {
       "sid": "s000654",
-      "modified": "1 plus 0 plus 1 is 2, 0 carry the 1, which is 2, 0 carry 1.",
-      "reason": "Punctuation and clarity for binary addition steps."
+      "modified": "1 plus 0 plus 1 is 2, 0, carry 1.",
+      "reason": "Punctuation for clarity."
     },
     {
       "sid": "s000657",
       "modified": "It's X, that's X minus Y.",
-      "reason": "ASR mishear: 'X minus 1' to 'X minus Y'."
+      "reason": "ASR mishear: '1' should be 'Y'."
     },
     {
       "sid": "s000678",
       "modified": "We NOT every bit and we add one.",
-      "reason": "ASR mishear: 'not' to 'NOT' (Boolean operation)."
+      "reason": "Capitalization for logical NOT."
+    },
+    {
+      "sid": "s000681",
+      "modified": "So zero, carry the one.",
+      "reason": "Punctuation for clarity."
     },
     {
       "sid": "s000684",
       "modified": "Writing down these other bits, and that's a negative X.",
-      "reason": "Terminology consistency: 'x' to 'X'."
+      "reason": "Capitalization for consistency."
     },
     {
       "sid": "s000699",
-      "modified": "Which means we're adding A sub I to the complement of B sub I.",
-      "reason": "Grammar: 'a complement' to 'the complement'."
+      "modified": "Which means we're adding A_i to a complement of B_i.",
+      "reason": "Notation consistency."
     },
     {
       "sid": "s000709",
       "modified": "It's a negative B which we're adding to A.",
-      "reason": "ASR mishear: 'negative V' to 'negative B'."
+      "reason": "ASR mishear: 'V' should be 'B'."
     },
     {
       "sid": "s000712",
       "modified": "So the way we do that is instead of NOT gates we use exclusive ORs.",
-      "reason": "Terminology consistency: 'not' to 'NOT'; 'orbs' to 'ORs'."
+      "reason": "Capitalization for logical gates."
     },
     {
       "sid": "s000727",
       "modified": "We've got NOT B3, NOT B2, NOT B1, NOT B0.",
-      "reason": "Terminology consistency: 'not' to 'NOT'; 'v' to 'B'."
+      "reason": "Capitalization for logical NOT and variables."
     },
     {
       "sid": "s000733",
-      "modified": "And this is in fact the most common way to do this in a general purpose computer, except for the ripple carry part of the carries.",
-      "reason": "Capitalization: 'Most' to 'most'."
+      "modified": "And this is in fact the most common way to do this in a general-purpose computer, except for the ripple carry part of the carries.",
+      "reason": "Capitalization and hyphenation."
     },
     {
       "sid": "s000737",
       "modified": "It's pretty elegant.",
-      "reason": "Added implied word 'elegant' for completeness and context."
+      "reason": "Context completion."
     },
     {
       "sid": "s000743",
-      "modified": "Okay, so we've got this little circuit, the circuit here, which I made very small and what we've got, oh, it's the inputs S, A, B, and C_in.",
-      "reason": "ASR mishear: 'the part A, B, C and B' to 'the inputs S, A, B, and C_in'."
+      "modified": "Okay, so we've got this little circuit, the circuit here, which I made very small, and what we've got, oh, it's the inputs S, 4 bits of A and 4 bits of B.",
+      "reason": "ASR mishear and context correction."
+    },
+    {
+      "sid": "s000758",
+      "modified": "We've got a four-bit computer.",
+      "reason": "Hyphenation for clarity."
     },
     {
       "sid": "s000763",
-      "modified": "It's what the hardware outputs over here on the right, S equals one.",
-      "reason": "ASR mishear: 'hard way' to 'hardware outputs'; clarity."
+      "modified": "It's what the hardware puts out over here on the right, S equals one.",
+      "reason": "ASR mishear: 'hard way' should be 'hardware'."
     },
     {
       "sid": "s000767",
-      "modified": "We start with B which is 0100.",
-      "reason": "Terminology consistency: 'b' to 'B'."
-    },
-    {
-      "sid": "s000774",
-      "modified": "Bring down the 1.",
-      "reason": "Grammar: added article 'the'."
+      "modified": "We start with B, which is 0100.",
+      "reason": "Capitalization for consistency."
     },
     {
       "sid": "s000783",
-      "modified": "That's a 0 goes to 2 goes to 1, 2, 2 minus 1 is 1, 1 minus 1 is 0, 0 minus 0, 1 minus 0 and what?",
-      "reason": "Punctuation for clarity in subtraction steps."
+      "modified": "That's a 0, goes to 2, goes to 1, 2. 2 minus 1 is 1, 1 minus 1 is 0, 0 minus 0, 1 minus 0. And what?",
+      "reason": "Punctuation for clarity."
     },
     {
       "sid": "s000788",
-      "modified": "Then we add A which is 0011.",
-      "reason": "ASR mishear: 'any' to 'A'."
+      "modified": "Then we add A, which is 0011.",
+      "reason": "ASR mishear: 'any' should be 'A'."
     },
     {
       "sid": "s000797",
-      "modified": "And that's what we've done, the lower left S equals a one.",
-      "reason": "ASR mishear: 'what we've down' to 'what we've done'."
+      "modified": "And that's what we have down the lower left, S equals a one.",
+      "reason": "ASR mishear: 'we've down' should be 'we have down'."
     },
     {
       "sid": "s000817",
-      "modified": "And if it's addition, S equals zero, just add.",
-      "reason": "ASR mishear: 'And one' to 'And if it's'; improved clarity."
+      "modified": "And one. If it's addition, S equals zero, just add.",
+      "reason": "Punctuation for clarity."
+    },
+    {
+      "sid": "s000820",
+      "modified": "If you've done...",
+      "reason": "Incomplete sentence."
     },
     {
       "sid": "s000824",
       "modified": "Now we're assuming two's complement representation for negative numbers.",
-      "reason": "ASR mishear: 'A2's complement' to 'two's complement'."
+      "reason": "ASR mishear: 'A2's' should be 'two's'."
+    },
+    {
+      "sid": "s000825",
+      "modified": "Okay, that's it.",
+      "reason": "Incomplete sentence."
     },
     {
       "sid": "s000827",
-      "modified": "You know, if it's a, in this case a 4-bit computer, it needs 5 bits, or if it's an 8-bit computer, it needs 9 bits, that's overflow and the result's invalid.",
-      "reason": "ASR mishear: 'A' to 'a', 'inbound' to 'invalid'; hyphenation."
-    },
-    {
-      "sid": "s000833",
-      "modified": "You know, when you're programming, you get an exceptional condition; an overflow flag gets sent and in your software you handle it, or if you don't, typically the program will just stop running.",
-      "reason": "Punctuation for clarity; added implied article 'an'."
+      "modified": "You know, if it's, in this case, a 4-bit computer, it needs 5 bits, or if it's an 8-bit computer, it needs 9 bits. That's overflow, and the result's invalid.",
+      "reason": "ASR mishear, punctuation, and hyphenation."
     },
     {
       "sid": "s000843",
       "modified": "So for example, let's say we're adding two 8-bit numbers.",
-      "reason": "Spelling/style normalization: hyphenation for '8-bit'."
+      "reason": "Hyphenation for clarity."
     },
     {
-      "sid": "s000854",
-      "modified": "Plus positive 95 plus positive 40, which gives us what?",
-      "reason": "ASR mishear: 'Base 10' to 'positive 95'; local context."
+      "sid": "s000862",
+      "modified": "But a positive 95 in binary is 0101 followed by four ones, and a negative 95 is 10100001.",
+      "reason": "Punctuation and article removal."
     },
     {
       "sid": "s000864",
       "modified": "Okay, so plus 95 plus 40.",
-      "reason": "ASR mishear: 'plus 4 plus a 40' to 'plus 40'."
+      "reason": "Redundancy removal."
     },
     {
       "sid": "s000869",
       "modified": "The positive 95 is 0101 and positive 40.",
-      "reason": "Local context correction: 'positive 45' to 'positive 40'."
+      "reason": "Context correction: '45' should be '40'."
     },
     {
       "sid": "s000870",
       "modified": "Well, these are not 40s.",
-      "reason": "Local context correction: '45s' to '40s'."
+      "reason": "Context correction: '45s' should be '40s'."
     },
     {
       "sid": "s000871",
-      "modified": "They are 00101000.",
-      "reason": "ASR mishear: 'They're at a' to 'They are'; clarity."
+      "modified": "They're 0010100.",
+      "reason": "Redundancy removal."
     },
     {
       "sid": "s000887",
       "modified": "Look, this is going to give us a positive number, right?",
-      "reason": "Capitalization: 'Number' to 'number'."
+      "reason": "Capitalization for style normalization."
     },
     {
       "sid": "s000898",
-      "modified": "And an exclusive OR is just about ideal for detecting differences.",
-      "reason": "Terminology: 'or' to 'OR'; added implied word 'differences'."
+      "modified": "And an exclusive OR is just about ideal for detecting.",
+      "reason": "Capitalization for logical gate."
     },
     {
       "sid": "s000902",
-      "modified": "When we do, that'll give us the last two carries.",
-      "reason": "ASR mishear: 'carriers' to 'carries'."
+      "modified": "When we do that, it'll give us the last two carries.",
+      "reason": "ASR mishear and function-word fix."
+    },
+    {
+      "sid": "s000911",
+      "modified": "We set a flag, and it'd be up to the compiler.",
+      "reason": "Punctuation for clarity."
+    },
+    {
+      "sid": "s000913",
+      "modified": "Stop your program.",
+      "reason": "Incomplete sentence."
     },
     {
       "sid": "s000923",
-      "modified": "Okay, turns out if AND is like the ideal one-bit multiplier.",
-      "reason": "Terminology: 'and' to 'AND'; 'multiple' to 'multiplier'; hyphenation."
+      "modified": "Okay, turns out an AND gate is like the ideal one-bit multiplier.",
+      "reason": "ASR mishear and terminology correction."
     },
     {
       "sid": "s000933",
-      "modified": "That does that beautifully.",
-      "reason": "Improved flow and conciseness."
+      "modified": "That's that, beautifully.",
+      "reason": "Punctuation for clarity."
+    },
+    {
+      "sid": "s000935",
+      "modified": "Now, how do you do it?",
+      "reason": "Clarity and grammatical correction."
     },
     {
       "sid": "s000945",
-      "modified": "Right here's A0 ANDing with the two bits of B, that's A0 AND B0.",
-      "reason": "ASR mishear: 'a zero ending' to 'A0 ANDing'; 'that A zero' to 'that's A0'."
+      "modified": "Right, here's A0 ANDing with the two bits of B. That's A0 and B0.",
+      "reason": "Punctuation, capitalization, and ASR mishear."
     },
     {
       "sid": "s000948",
-      "modified": "It adds two bits and we're adding that to A1 AND B0, which is this right here.",
-      "reason": "ASR mishear: 'a 1, B 0' to 'A1 AND B0'; terminology."
+      "modified": "It adds two bits, and we're adding that to A1 B0, which is this right here.",
+      "reason": "Punctuation and notation consistency."
     },
     {
       "sid": "s000949",
-      "modified": "You get the carryover and carry out and that goes into A1 AND B1 and you get two bits.",
-      "reason": "ASR mishear: 'A1, B1' to 'A1 AND B1'; terminology."
+      "modified": "You get the carry-over and carry-out, and that goes into A1 B1, and you get two bits.",
+      "reason": "Hyphenation, punctuation, and notation consistency."
     },
     {
       "sid": "s000951",
-      "modified": "If you're getting a little more bits, you might not use half adders, you might use multi-bit adders.",
-      "reason": "Grammar: 'half adder' to 'half adders'; hyphenation."
+      "modified": "If you're getting a little more bits, you might not use a half adder, you might use multi-bit adders.",
+      "reason": "Function-word fix and hyphenation."
     },
     {
       "sid": "s000954",
-      "modified": "ANDing the bits with B0, the rightmost just comes straight down and then the next three bits.",
-      "reason": "ASR mishear: 'And the bits with the bits of B0' to 'ANDing the bits with B0'."
+      "modified": "And the bits with the bits of B0. The rightmost just comes straight down, and then the next three bits...",
+      "reason": "Punctuation and incomplete sentence."
     },
     {
-      "sid": "s000970",
-      "modified": "Shift one of the words, add them together, multiply again, store it, shift it, store it, shift it, et cetera, et cetera.",
-      "reason": "Removed redundant 'shift'."
+      "sid": "s000983",
+      "modified": "No, I'm saying...",
+      "reason": "Incomplete sentence."
     }
   ]
 }

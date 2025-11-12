@@ -1,0 +1,2011 @@
+[
+  {
+    "context_before_main_text": [
+      {
+        "sid": "s000822",
+        "text": "I can still do the same thing.",
+        "start": 4234880,
+        "end": 4236960,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000823",
+        "text": "I put this in one partition and I put everybody else in another partition.",
+        "start": 4237040,
+        "end": 4244160,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000824",
+        "text": "I cannot put this in one partition and everybody else in a different partition because then M2 will not be the E sub min of that partition, but this and everybody else.",
+        "start": 4245200,
+        "end": 4257760,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000825",
+        "text": "E2 is the minimum edge between that one unit partition and everybody else.",
+        "start": 4257840,
+        "end": 4264560,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000826",
+        "text": "Okay, then I output E sub 2.",
+        "start": 4265680,
+        "end": 4268240,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000827",
+        "text": "So either the vertices of M2 are connected to this or are not connected.",
+        "start": 4270560,
+        "end": 4277760,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000828",
+        "text": "Either way, I can create this MSD theorem partition.",
+        "start": 4277840,
+        "end": 4282000,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000829",
+        "text": "Therefore I can output and sub 2 no matter what.",
+        "start": 4282480,
+        "end": 4286130,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000830",
+        "text": "So if I tell you are the two minimum edges in a graph always in an msd, the answer is yes and you prove it or justify it like that.",
+        "start": 4288130,
+        "end": 4298370,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000831",
+        "text": "Okay, so far.",
+        "start": 4299730,
+        "end": 4301250,
+        "speaker": "A"
+      }
+    ],
+    "main_text": [
+      {
+        "sid": "s000832",
+        "text": "So root 242 100% result.",
+        "start": 4301250,
+        "end": 4304610,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000833",
+        "text": "What about N3 next?",
+        "start": 4305410,
+        "end": 4307330,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000834",
+        "text": "Because that's the whole idea.",
+        "start": 4307730,
+        "end": 4309130,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000835",
+        "text": "E3, if it looks like that, put one of them in one partition, the rest in a different partition.",
+        "start": 4309130,
+        "end": 4324840,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000836",
+        "text": "L3 will be E sub mean for that partition.",
+        "start": 4325000,
+        "end": 4328440,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000837",
+        "text": "So that's one condition when L3 is not connected to anybody.",
+        "start": 4328520,
+        "end": 4332440,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000838",
+        "text": "What if it was like that?",
+        "start": 4333320,
+        "end": 4334840,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000839",
+        "text": "What if it was connected to one of these like that?",
+        "start": 4341230,
+        "end": 4344030,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000840",
+        "text": "E3, same thing.",
+        "start": 4344750,
+        "end": 4346310,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000841",
+        "text": "Put this in one partition, everybody else in a different partition, M3 will be E sub link.",
+        "start": 4346310,
+        "end": 4353110,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000842",
+        "text": "I cannot apply MST theorem.",
+        "start": 4353110,
+        "end": 4354270,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000843",
+        "text": "Feature.",
+        "start": 4354270,
+        "end": 4354670,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000844",
+        "text": "So it seems in every case I can.",
+        "start": 4356110,
+        "end": 4359150,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000845",
+        "text": "Whatever M3 is, I can put one vertex on one partition, the other in one partition and N3 will be E sub N. Why not?",
+        "start": 4359310,
+        "end": 4368990,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000846",
+        "text": "It has to be the vertex that you're using.",
+        "start": 4369790,
+        "end": 4372030,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000847",
+        "text": "Has to be one that you haven't reached already through the other edges.",
+        "start": 4372110,
+        "end": 4376030,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000848",
+        "text": "I don't follow.",
+        "start": 4376510,
+        "end": 4377390,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000849",
+        "text": "So what condition?",
+        "start": 4377390,
+        "end": 4378550,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000850",
+        "text": "I cannot put M3 put M3 in between the two, make a triangle.",
+        "start": 4378550,
+        "end": 4383790,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000851",
+        "text": "So he is saying in this case there is no way to do a partition where M3 is the minimum.",
+        "start": 4389320,
+        "end": 4396840,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000852",
+        "text": "Did I understand that correctly?",
+        "start": 4397960,
+        "end": 4399920,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000853",
+        "text": "And it's true.",
+        "start": 4399920,
+        "end": 4400680,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000854",
+        "text": "I don't know how to do it.",
+        "start": 4400680,
+        "end": 4401880,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000855",
+        "text": "Can you find any partition?",
+        "start": 4402440,
+        "end": 4404840,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000856",
+        "text": "There are billions of partitions.",
+        "start": 4404840,
+        "end": 4406600,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000857",
+        "text": "Show me one where M3 is the minimum between the two partitions.",
+        "start": 4407080,
+        "end": 4412170,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000858",
+        "text": "Like a partition could be this and everybody else.",
+        "start": 4412640,
+        "end": 4415520,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000859",
+        "text": "The E3 is not even across.",
+        "start": 4416000,
+        "end": 4417680,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000860",
+        "text": "I can put in this in one side and all the others on the other side.",
+        "start": 4418320,
+        "end": 4423560,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000861",
+        "text": "But I know M2 is going to be in it.",
+        "start": 4423560,
+        "end": 4426160,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000862",
+        "text": "So by inspection to do a few cases is impossible.",
+        "start": 4426640,
+        "end": 4429920,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000863",
+        "text": "So what does cross?",
+        "start": 4432240,
+        "end": 4433360,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000864",
+        "text": "So that's correct.",
+        "start": 4433520,
+        "end": 4434720,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000865",
+        "text": "Obviously you just prove that.",
+        "start": 4434800,
+        "end": 4436880,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000866",
+        "text": "Just define it.",
+        "start": 4436880,
+        "end": 4438000,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000867",
+        "text": "Cross code says if you ever get to a situation where E sub I, the next E in the list creates a cycle with existing things that you output.",
+        "start": 4438530,
+        "end": 4451570,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000868",
+        "text": "Like in this case.",
+        "start": 4451730,
+        "end": 4452770,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000869",
+        "text": "Ignore that, go to the next one, go to M4.",
+        "start": 4453170,
+        "end": 4455970,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000870",
+        "text": "So I'm going to ignore this.",
+        "start": 4456530,
+        "end": 4457890,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000871",
+        "text": "Why do I ignore this?",
+        "start": 4457890,
+        "end": 4459330,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000872",
+        "text": "Only because I cannot apply msdt.",
+        "start": 4460530,
+        "end": 4463590,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000873",
+        "text": "If I cannot apply MSD theorem, all the bets are off.",
+        "start": 4465100,
+        "end": 4469020,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000874",
+        "text": "If I tell you to come up with your own brand new algorithm for MST, that's not Prim's or Kruskal's.",
+        "start": 4469900,
+        "end": 4476620,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000875",
+        "text": "All you need to do, all you need to do is at every step make sure the Edge you are picking is E sub B.",
+        "start": 4476700,
+        "end": 4483660,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000876",
+        "text": "If you can do that, you are all set.",
+        "start": 4483740,
+        "end": 4485900,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000877",
+        "text": "If you can't, then we can't.",
+        "start": 4486940,
+        "end": 4488700,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000878",
+        "text": "Okay, so that.",
+        "start": 4491910,
+        "end": 4492790,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000879",
+        "text": "So what does it say?",
+        "start": 4492790,
+        "end": 4494150,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000880",
+        "text": "Ignore M3, go to the next one.",
+        "start": 4494310,
+        "end": 4496470,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000881",
+        "text": "E4.",
+        "start": 4496470,
+        "end": 4497110,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000882",
+        "text": "I can do that.",
+        "start": 4497990,
+        "end": 4499030,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000883",
+        "text": "E5.",
+        "start": 4499190,
+        "end": 4499910,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000884",
+        "text": "I can do that.",
+        "start": 4501990,
+        "end": 4503030,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000885",
+        "text": "E6.",
+        "start": 4504230,
+        "end": 4505030,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000886",
+        "text": "I can do that.",
+        "start": 4505430,
+        "end": 4506550,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000887",
+        "text": "E7.",
+        "start": 4507270,
+        "end": 4508070,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000888",
+        "text": "Can I do that for the same reason?",
+        "start": 4508870,
+        "end": 4514470,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000889",
+        "text": "No.",
+        "start": 4514550,
+        "end": 4514950,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000890",
+        "text": "So whenever an edge creates a cycle with edges that are already output, then I cannot partition it such that M7 is the minimum.",
+        "start": 4515320,
+        "end": 4529640,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000891",
+        "text": "Yes.",
+        "start": 4530440,
+        "end": 4530920,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000892",
+        "text": "How do you know?",
+        "start": 4531880,
+        "end": 4532600,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000893",
+        "text": "Algorithmically?",
+        "start": 4534360,
+        "end": 4535400,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000894",
+        "text": "I don't know yet.",
+        "start": 4535720,
+        "end": 4537000,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000895",
+        "text": "So that becomes one of my challenges.",
+        "start": 4537800,
+        "end": 4540040,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000896",
+        "text": "How to.",
+        "start": 4540040,
+        "end": 4540760,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000897",
+        "text": "I know how to do cycle.",
+        "start": 4541200,
+        "end": 4542480,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000898",
+        "text": "I use depth first search.",
+        "start": 4542480,
+        "end": 4544320,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000899",
+        "text": "But if every time I have to run depth first search, this is going to be a super slow algorithm.",
+        "start": 4544400,
+        "end": 4550000,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000900",
+        "text": "So what you're asking is, is there an efficient way of finding cycles for every edge that I have?",
+        "start": 4550320,
+        "end": 4556160,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000901",
+        "text": "So I got it.",
+        "start": 4556480,
+        "end": 4557600,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000902",
+        "text": "That's a problem I need to address later.",
+        "start": 4557600,
+        "end": 4559920,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000903",
+        "text": "If this is successful.",
+        "start": 4560320,
+        "end": 4561920,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000904",
+        "text": "If this is not successful, that's irrelevant.",
+        "start": 4562240,
+        "end": 4564960,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000905",
+        "text": "So I make a side note to myself.",
+        "start": 4565120,
+        "end": 4567270,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000906",
+        "text": "Efficient cycle finding.",
+        "start": 4568870,
+        "end": 4571030,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000907",
+        "text": "Dynamic.",
+        "start": 4571510,
+        "end": 4572310,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000908",
+        "text": "Need to add.",
+        "start": 4572950,
+        "end": 4573590,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000909",
+        "text": "What's that?",
+        "start": 4573590,
+        "end": 4574150,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000910",
+        "text": "Okay.",
+        "start": 4575990,
+        "end": 4576550,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000911",
+        "text": "So I keep going.",
+        "start": 4577750,
+        "end": 4578870,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000912",
+        "text": "I keep adding one edge at a time.",
+        "start": 4579270,
+        "end": 4581750,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000913",
+        "text": "Oh.",
+        "start": 4582390,
+        "end": 4582950,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000914",
+        "text": "If it creates a cycle, I don't do anything about it.",
+        "start": 4582950,
+        "end": 4586190,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000915",
+        "text": "If it doesn't create a cycle, then I have to.",
+        "start": 4586190,
+        "end": 4588790,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000916",
+        "text": "So the runtime of this algorithm is order of E log E plus E times time of cycle detection.",
+        "start": 4591670,
+        "end": 4602400,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000917",
+        "text": "Fine.",
+        "start": 4604080,
+        "end": 4604640,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000918",
+        "text": "Right.",
+        "start": 4609040,
+        "end": 4609440,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000919",
+        "text": "For every age I need to find out if it creates a cycle or not.",
+        "start": 4610080,
+        "end": 4615200,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000920",
+        "text": "How much time does it take?",
+        "start": 4616160,
+        "end": 4617600,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000921",
+        "text": "Right now I can write whatever I know from before.",
+        "start": 4618180,
+        "end": 4621220,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000922",
+        "text": "Depth first search E plus V. If I put E plus V for depth first search, this gives me an E square algorithm.",
+        "start": 4621380,
+        "end": 4629060,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000923",
+        "text": "Too slow.",
+        "start": 4629140,
+        "end": 4630020,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000924",
+        "text": "But that's all I know right now.",
+        "start": 4632260,
+        "end": 4634500,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000925",
+        "text": "Order of E. Let's say assuming certain sorting is already So E square algorithm.",
+        "start": 4634980,
+        "end": 4643860,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000926",
+        "text": "That's very slow.",
+        "start": 4643860,
+        "end": 4644640,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000927",
+        "text": "If E is N squared, this is going to be N to the power four algorithm.",
+        "start": 4645190,
+        "end": 4649190,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000928",
+        "text": "Very slow.",
+        "start": 4649350,
+        "end": 4650390,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000929",
+        "text": "Practically.",
+        "start": 4650550,
+        "end": 4651190,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000930",
+        "text": "It will take you two days to get an answer from GPT.",
+        "start": 4653190,
+        "end": 4656550,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000931",
+        "text": "That kind of is slow.",
+        "start": 4656630,
+        "end": 4658070,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000932",
+        "text": "Okay, so not efficient.",
+        "start": 4664070,
+        "end": 4666150,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000933",
+        "text": "So this algorithm works.",
+        "start": 4666150,
+        "end": 4667990,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000934",
+        "text": "I can always.",
+        "start": 4667990,
+        "end": 4669110,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000935",
+        "text": "As long as it doesn't create a sum, I can output that.",
+        "start": 4669510,
+        "end": 4673140,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000936",
+        "text": "And I keep doing that until N minus 1 edges are output.",
+        "start": 4673780,
+        "end": 4678260,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000937",
+        "text": "All I have left to do is I'm going to introduce a brand new problem.",
+        "start": 4679540,
+        "end": 4693540,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000938",
+        "text": "Has nothing to do with what we studied today.",
+        "start": 4693700,
+        "end": 4696660,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000939",
+        "text": "You might have seen it in your programming courses.",
+        "start": 4698510,
+        "end": 4701190,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000940",
+        "text": "Maybe not.",
+        "start": 4701190,
+        "end": 4701870,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000941",
+        "text": "It's called union.",
+        "start": 4702350,
+        "end": 4703470,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000942",
+        "text": "Find.",
+        "start": 4703470,
+        "end": 4703870,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000943",
+        "text": "We have a bunch of sets.",
+        "start": 4708430,
+        "end": 4710430,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000944",
+        "text": "4, 6, 1, 2, 9, 8, 7, 12, 14.",
+        "start": 4712430,
+        "end": 4723960,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000945",
+        "text": "Let's say you need numbers for now.",
+        "start": 4725880,
+        "end": 4728040,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000946",
+        "text": "Okay.",
+        "start": 4729320,
+        "end": 4729960,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000947",
+        "text": "These are sets.",
+        "start": 4730280,
+        "end": 4731480,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000948",
+        "text": "Find sets.",
+        "start": 4733000,
+        "end": 4734160,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000949",
+        "text": "The Following, I give you two numbers A and B.",
+        "start": 4734160,
+        "end": 4742760,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000950",
+        "text": "Are they in the same set or not?",
+        "start": 4743800,
+        "end": 4746440,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000951",
+        "text": "If A And B are 8 and 12, well, the answer is yes.",
+        "start": 4747400,
+        "end": 4752160,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000952",
+        "text": "If A and B are of 7 and 6, the answer is no, they are not in the same set.",
+        "start": 4755040,
+        "end": 4761680,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000953",
+        "text": "So one of the operations in the union find problem is find if two numbers, two elements are in the same set.",
+        "start": 4762960,
+        "end": 4772800,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000954",
+        "text": "That's the 'find' operation. What is the 'union' part?",
+        "start": 4774640,
+        "end": 4777270,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000955",
+        "text": "At some point in the algorithm, I can take these two and do their unions.",
+        "start": 4777750,
+        "end": 4783350,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000956",
+        "text": "We know how to do union of two sets.",
+        "start": 4784230,
+        "end": 4786590,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000957",
+        "text": "They all become one set.",
+        "start": 4786590,
+        "end": 4788150,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000958",
+        "text": "Okay. Then I can do another function.",
+        "start": 4790070,
+        "end": 4792630,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000959",
+        "text": "So unions.",
+        "start": 4792950,
+        "end": 4793830,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000960",
+        "text": "Now, when I do a union, those two will remain as one set for the rest of my.",
+        "start": 4793910,
+        "end": 4801210,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000961",
+        "text": "I cannot break a set into subsets.",
+        "start": 4802560,
+        "end": 4806360,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000962",
+        "text": "I cannot say go back to this original one.",
+        "start": 4806360,
+        "end": 4809280,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000963",
+        "text": "I'm so sorry for union.",
+        "start": 4809280,
+        "end": 4811360,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000964",
+        "text": "Shouldn't have done it.",
+        "start": 4812320,
+        "end": 4813400,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000965",
+        "text": "Can't do that.",
+        "start": 4813400,
+        "end": 4814240,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000966",
+        "text": "Once it's union, it's union forever.",
+        "start": 4814720,
+        "end": 4817200,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000967",
+        "text": "This problem is called union fine.",
+        "start": 4817920,
+        "end": 4820160,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000968",
+        "text": "Take two.",
+        "start": 4822000,
+        "end": 4822880,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000969",
+        "text": "Take a bunch of sets, do a bunch of fun 1,210 billion fines.",
+        "start": 4823360,
+        "end": 4829710,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000970",
+        "text": "Then do one union or two union.",
+        "start": 4829870,
+        "end": 4832190,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000971",
+        "text": "Then do more fines, then union fine.",
+        "start": 4832350,
+        "end": 4834630,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000972",
+        "text": "There is no order, no number, nothing, no restrictions of any type.",
+        "start": 4834630,
+        "end": 4839710,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000973",
+        "text": "Bunch of union and fines interleaved or not interleaved for as long as I wish.",
+        "start": 4840030,
+        "end": 4846190,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000974",
+        "text": "For as long as I live.",
+        "start": 4846430,
+        "end": 4847870,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000975",
+        "text": "That's called the union fine problem.",
+        "start": 4848350,
+        "end": 4850190,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000976",
+        "text": "I have not given a sentence is the problem here.",
+        "start": 4851630,
+        "end": 4855860,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000977",
+        "text": "The way I'm going to solve this is in the following manner.",
+        "start": 4861300,
+        "end": 4865620,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000978",
+        "text": "First, you can kind of play with this.",
+        "start": 4867780,
+        "end": 4869780,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000979",
+        "text": "Come up with your own technique.",
+        "start": 4869780,
+        "end": 4871620,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000980",
+        "text": "It may work.",
+        "start": 4871940,
+        "end": 4872820,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000981",
+        "text": "I'm going to take each set and I represent it initially.",
+        "start": 4874340,
+        "end": 4879780,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000982",
+        "text": "I'm going to represent, say initially each set has one element, so it becomes node of a rooted tree.",
+        "start": 4879780,
+        "end": 4888090,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000983",
+        "text": "So there are elements.",
+        "start": 4889370,
+        "end": 4890410,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000984",
+        "text": "If every set has one element, then I take this and another set B and I do a union.",
+        "start": 4890570,
+        "end": 4900090,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000985",
+        "text": "I take this one of them A and the other one.",
+        "start": 4902490,
+        "end": 4906730,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000986",
+        "text": "I point any one of them to the other.",
+        "start": 4907870,
+        "end": 4910670,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000987",
+        "text": "So I'm building a rooted tree.",
+        "start": 4911070,
+        "end": 4913790,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000988",
+        "text": "Later on I do a find.",
+        "start": 4916510,
+        "end": 4919150,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000989",
+        "text": "The way I do find is the following.",
+        "start": 4919310,
+        "end": 4921310,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000990",
+        "text": "Let's say I do find ad.",
+        "start": 4921390,
+        "end": 4923390,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000991",
+        "text": "Let's say I do find ac.",
+        "start": 4925070,
+        "end": 4926990,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000992",
+        "text": "What I do is each of them is a tree structure, a rooted tree.",
+        "start": 4928110,
+        "end": 4932670,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000993",
+        "text": "From one I go to the root of that three is C. From this I go to the root of that 3D and I ask is C is equal to D. If yes, it means they are in the defined is yes, I found them in the same set.",
+        "start": 4933780,
+        "end": 4950100,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000994",
+        "text": "If the answer is no, it means no, they are not in the same set.",
+        "start": 4950820,
+        "end": 4954260,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000995",
+        "text": "So if you take A and B and you Do A.",
+        "start": 4954340,
+        "end": 4957060,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000996",
+        "text": "Fine.",
+        "start": 4957060,
+        "end": 4957500,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000997",
+        "text": "Both of these return B the root of the tree.",
+        "start": 4957500,
+        "end": 4960890,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000998",
+        "text": "They are the same value.",
+        "start": 4960890,
+        "end": 4962050,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000999",
+        "text": "If it's A and B, find is yes.",
+        "start": 4962290,
+        "end": 4965090,
+        "speaker": "A"
+      },
+      {
+        "sid": "s001000",
+        "text": "If I do D and C, the roots are D and C. They are different values.",
+        "start": 4965810,
+        "end": 4970850,
+        "speaker": "A"
+      },
+      {
+        "sid": "s001001",
+        "text": "Therefore the answer to find is no.",
+        "start": 4970930,
+        "end": 4973170,
+        "speaker": "A"
+      },
+      {
+        "sid": "s001002",
+        "text": "Okay, so this is initially.",
+        "start": 4975490,
+        "end": 4977890,
+        "speaker": "A"
+      },
+      {
+        "sid": "s001003",
+        "text": "Then I have one or so in general, assume after N stages or K stages of the algorithm, I have a bunch of roots.",
+        "start": 4977970,
+        "end": 4987230,
+        "speaker": "A"
+      },
+      {
+        "sid": "s001004",
+        "text": "Okay, so same thing.",
+        "start": 4992270,
+        "end": 4995870,
+        "speaker": "A"
+      },
+      {
+        "sid": "s001005",
+        "text": "I take two elements like that and that I go to the root.",
+        "start": 4995870,
+        "end": 5001150,
+        "speaker": "A"
+      },
+      {
+        "sid": "s001006",
+        "text": "If they are the same, then I say find.",
+        "start": 5003070,
+        "end": 5005550,
+        "speaker": "A"
+      },
+      {
+        "sid": "s001007",
+        "text": "No, sorry, if they are different.",
+        "start": 5005790,
+        "end": 5008870,
+        "speaker": "A"
+      },
+      {
+        "sid": "s001008",
+        "text": "If they are the same, I say find the other.",
+        "start": 5008870,
+        "end": 5011270,
+        "speaker": "A"
+      },
+      {
+        "sid": "s001009",
+        "text": "Yes.",
+        "start": 5011420,
+        "end": 5011740,
+        "speaker": "A"
+      },
+      {
+        "sid": "s001010",
+        "text": "So root of the tree is one of the elements, but also is the name of that set.",
+        "start": 5012460,
+        "end": 5017580,
+        "speaker": "A"
+      },
+      {
+        "sid": "s001011",
+        "text": "So this set here, A, B, B, F. I'm going to pick one of them that happens to be the root.",
+        "start": 5018780,
+        "end": 5028340,
+        "speaker": "A"
+      },
+      {
+        "sid": "s001012",
+        "text": "Doesn't matter which one.",
+        "start": 5028340,
+        "end": 5029460,
+        "speaker": "A"
+      },
+      {
+        "sid": "s001013",
+        "text": "It's just a naming convention.",
+        "start": 5029460,
+        "end": 5031100,
+        "speaker": "A"
+      },
+      {
+        "sid": "s001014",
+        "text": "And I'm going to call this set.",
+        "start": 5031260,
+        "end": 5032940,
+        "speaker": "A"
+      },
+      {
+        "sid": "s001015",
+        "text": "Let's say D forever unless it gets merge with somebody.",
+        "start": 5032940,
+        "end": 5038270,
+        "speaker": "A"
+      },
+      {
+        "sid": "s001016",
+        "text": "Okay, so assumption number one, assumption number two is if I have N1 vertices here, the height of this is log N1 order.",
+        "start": 5039710,
+        "end": 5052190,
+        "speaker": "A"
+      },
+      {
+        "sid": "s001017",
+        "text": "It could be less.",
+        "start": 5053150,
+        "end": 5054190,
+        "speaker": "A"
+      },
+      {
+        "sid": "s001018",
+        "text": "Okay, so inductively, up to 10th stage of the algorithm, I assume I have a bunch of Newton.",
+        "start": 5054830,
+        "end": 5063080,
+        "speaker": "A"
+      },
+      {
+        "sid": "s001019",
+        "text": "In this example, this is a rooted three.",
+        "start": 5064430,
+        "end": 5066750,
+        "speaker": "A"
+      },
+      {
+        "sid": "s001020",
+        "text": "This is a rooted three.",
+        "start": 5066910,
+        "end": 5068350,
+        "speaker": "A"
+      },
+      {
+        "sid": "s001021",
+        "text": "These two together is one of these rooted three.",
+        "start": 5068590,
+        "end": 5071150,
+        "speaker": "A"
+      },
+      {
+        "sid": "s001022",
+        "text": "Inductive hypothesis.",
+        "start": 5072190,
+        "end": 5073830,
+        "speaker": "A"
+      },
+      {
+        "sid": "s001023",
+        "text": "After K step, I have a bunch of Rooted 3 where the height is logarithmic in the size of that rooted three.",
+        "start": 5073830,
+        "end": 5082510,
+        "speaker": "A"
+      },
+      {
+        "sid": "s001024",
+        "text": "Okay, so if I do one 'find' operation.",
+        "start": 5084510,
+        "end": 5089810,
+        "speaker": "A"
+      },
+      {
+        "sid": "s001025",
+        "text": "First of all, you also know that all these log N1, N2 etc is less than log n n is the total number of vertices.",
+        "start": 5090850,
+        "end": 5100130,
+        "speaker": "A"
+      },
+      {
+        "sid": "s001026",
+        "text": "This is a subset of vertices.",
+        "start": 5100770,
+        "end": 5102530,
+        "speaker": "A"
+      },
+      {
+        "sid": "s001027",
+        "text": "So log of that has got to be less than or equal to log of everything.",
+        "start": 5102610,
+        "end": 5107090,
+        "speaker": "A"
+      },
+      {
+        "sid": "s001028",
+        "text": "So if I have two vertices here and here to find, if the answer to find is yes or no, I just follow that in log n time, if the roots are the same, yes.",
+        "start": 5108610,
+        "end": 5124540,
+        "speaker": "A"
+      },
+      {
+        "sid": "s001029",
+        "text": "If the roots are different, no.",
+        "start": 5124860,
+        "end": 5126620,
+        "speaker": "A"
+      },
+      {
+        "sid": "s001030",
+        "text": "So in log n time I will answer find.",
+        "start": 5126940,
+        "end": 5130380,
+        "speaker": "A"
+      },
+      {
+        "sid": "s001031",
+        "text": "What about union?",
+        "start": 5131740,
+        "end": 5133100,
+        "speaker": "A"
+      },
+      {
+        "sid": "s001032",
+        "text": "I take the smaller tree pointed to the larger tree.",
+        "start": 5133580,
+        "end": 5137500,
+        "speaker": "A"
+      },
+      {
+        "sid": "s001033",
+        "text": "Okay, so if this was a smaller tree, N1 and N2, height of this was log of N2, height of this is log of N1.",
+        "start": 5140310,
+        "end": 5153190,
+        "speaker": "A"
+      },
+      {
+        "sid": "s001034",
+        "text": "The height of the combined tree is going to be log of N2 because this is a small so I have a.",
+        "start": 5154470,
+        "end": 5162870,
+        "speaker": "A"
+      },
+      {
+        "sid": "s001035",
+        "text": "So previously the assumption was heights were logged in by merging by union.",
+        "start": 5162870,
+        "end": 5169060,
+        "speaker": "A"
+      },
+      {
+        "sid": "s001036",
+        "text": "The height remains as log n. Still, if one of them is small, what if they.",
+        "start": 5169060,
+        "end": 5178900,
+        "speaker": "A"
+      },
+      {
+        "sid": "s001037",
+        "text": "Of course, if this was a smaller distance, point to that.",
+        "start": 5179540,
+        "end": 5182740,
+        "speaker": "A"
+      },
+      {
+        "sid": "s001038",
+        "text": "What if this is the trick, this is the important part.",
+        "start": 5183219,
+        "end": 5187300,
+        "speaker": "A"
+      },
+      {
+        "sid": "s001039",
+        "text": "What if they are the same size?",
+        "start": 5187940,
+        "end": 5190020,
+        "speaker": "A"
+      },
+      {
+        "sid": "s001040",
+        "text": "Which one points to that?",
+        "start": 5190740,
+        "end": 5192340,
+        "speaker": "A"
+      },
+      {
+        "sid": "s001041",
+        "text": "If this was N1, N1 log N1 log N1, which one do I point to?",
+        "start": 5193150,
+        "end": 5200230,
+        "speaker": "A"
+      },
+      {
+        "sid": "s001042",
+        "text": "The other.",
+        "start": 5200230,
+        "end": 5200670,
+        "speaker": "A"
+      },
+      {
+        "sid": "s001043",
+        "text": "Because whichever I do, the height of the combined tree is going to be 1 higher than the previous one, right?",
+        "start": 5200910,
+        "end": 5208990,
+        "speaker": "A"
+      },
+      {
+        "sid": "s001044",
+        "text": "The whole premise of keeping that was the height did not change.",
+        "start": 5209870,
+        "end": 5214270,
+        "speaker": "A"
+      },
+      {
+        "sid": "s001045",
+        "text": "So if they were the same, the height will increase by one.",
+        "start": 5214910,
+        "end": 5220320,
+        "speaker": "A"
+      },
+      {
+        "sid": "s001046",
+        "text": "It goes from log of N1 to log of N1 plus one.",
+        "start": 5220320,
+        "end": 5227800,
+        "speaker": "A"
+      },
+      {
+        "sid": "s001047",
+        "text": "Because this is going to be log of N1.",
+        "start": 5229320,
+        "end": 5232120,
+        "speaker": "A"
+      },
+      {
+        "sid": "s001048",
+        "text": "Sorry, log of N1 plus one.",
+        "start": 5232520,
+        "end": 5235320,
+        "speaker": "A"
+      },
+      {
+        "sid": "s001049",
+        "text": "These will not change.",
+        "start": 5235560,
+        "end": 5236680,
+        "speaker": "A"
+      },
+      {
+        "sid": "s001050",
+        "text": "These will.",
+        "start": 5236680,
+        "end": 5237400,
+        "speaker": "A"
+      },
+      {
+        "sid": "s001051",
+        "text": "So how do I maintain the logarithmic after this happens?",
+        "start": 5237880,
+        "end": 5243160,
+        "speaker": "A"
+      },
+      {
+        "sid": "s001052",
+        "text": "Well, if this is log of N1 and this is log of N1, the total number of vertices now is 2*N1.",
+        "start": 5244050,
+        "end": 5252290,
+        "speaker": "A"
+      },
+      {
+        "sid": "s001053",
+        "text": "Log of 2 N1 is log of N1 plus 1.",
+        "start": 5254690,
+        "end": 5258850,
+        "speaker": "A"
+      },
+      {
+        "sid": "s001054",
+        "text": "So I'm allowed to go 1 extra because I have just doubled the number of vertices.",
+        "start": 5259010,
+        "end": 5264690,
+        "speaker": "A"
+      },
+      {
+        "sid": "s001055",
+        "text": "So that hypothesis that invariant that height of every tree is logarithmic in the size of the tree will be true no matter if this is bigger, this is bigger, or they are the same size.",
+        "start": 5266210,
+        "end": 5281920,
+        "speaker": "A"
+      },
+      {
+        "sid": "s001056",
+        "text": "So I can do every union in constant time with one pointer.",
+        "start": 5282800,
+        "end": 5288320,
+        "speaker": "A"
+      },
+      {
+        "sid": "s001057",
+        "text": "I can do every five in logarithmic time.",
+        "start": 5288480,
+        "end": 5291840,
+        "speaker": "A"
+      },
+      {
+        "sid": "s001058",
+        "text": "Okay, what does it have to do with MST in the I stage of MST?",
+        "start": 5297130,
+        "end": 5306410,
+        "speaker": "A"
+      },
+      {
+        "sid": "s001059",
+        "text": "Let's say at some point I have sub trees like that.",
+        "start": 5315610,
+        "end": 5319290,
+        "speaker": "A"
+      },
+      {
+        "sid": "s001060",
+        "text": "I keep each sub tree as one of these guys.",
+        "start": 5325460,
+        "end": 5328900,
+        "speaker": "A"
+      },
+      {
+        "sid": "s001061",
+        "text": "A rooted sub tree.",
+        "start": 5328900,
+        "end": 5330340,
+        "speaker": "A"
+      },
+      {
+        "sid": "s001062",
+        "text": "So if I want to know the brand new edge here, N3, does it create a cycle or not?",
+        "start": 5331700,
+        "end": 5339460,
+        "speaker": "A"
+      },
+      {
+        "sid": "s001063",
+        "text": "I take this vertex and I take this vertex and I follow to see if they are the same components and on off if they are, then it means these two belong to the same component.",
+        "start": 5340020,
+        "end": 5352770,
+        "speaker": "A"
+      },
+      {
+        "sid": "s001064",
+        "text": "Meaning as you said, they create a cycle.",
+        "start": 5352930,
+        "end": 5355650,
+        "speaker": "A"
+      },
+      {
+        "sid": "s001065",
+        "text": "If they are not going to be part of the same component, then adding this entry will not create a cycle.",
+        "start": 5356850,
+        "end": 5365730,
+        "speaker": "A"
+      },
+      {
+        "sid": "s001066",
+        "text": "So I can output that.",
+        "start": 5365730,
+        "end": 5367170,
+        "speaker": "A"
+      },
+      {
+        "sid": "s001067",
+        "text": "So union find is the main data structure for possible algorithm.",
+        "start": 5369250,
+        "end": 5374200,
+        "speaker": "A"
+      },
+      {
+        "sid": "s001068",
+        "text": "For every edge, I spend log n time to find out if two vertices create a cycle or not.",
+        "start": 5374840,
+        "end": 5382520,
+        "speaker": "A"
+      },
+      {
+        "sid": "s001069",
+        "text": "How many edges are there?",
+        "start": 5382920,
+        "end": 5384680,
+        "speaker": "A"
+      },
+      {
+        "sid": "s001070",
+        "text": "All I need to do is come here, plug in log n for cycle time.",
+        "start": 5386120,
+        "end": 5392680,
+        "speaker": "A"
+      },
+      {
+        "sid": "s001071",
+        "text": "Therefore this trust call algorithm becomes an E log T. So crosscode itself is very easy.",
+        "start": 5393400,
+        "end": 5403110,
+        "speaker": "A"
+      },
+      {
+        "sid": "s001072",
+        "text": "Sort the edges, go one one by one according to the sorted edge list.",
+        "start": 5403190,
+        "end": 5410230,
+        "speaker": "A"
+      },
+      {
+        "sid": "s001073",
+        "text": "If it creates a cycle, don't add it.",
+        "start": 5410630,
+        "end": 5413230,
+        "speaker": "A"
+      },
+      {
+        "sid": "s001074",
+        "text": "If it doesn't create a cycle, add it.",
+        "start": 5413230,
+        "end": 5415430,
+        "speaker": "A"
+      },
+      {
+        "sid": "s001075",
+        "text": "But that's Kruskal's, one sentence.",
+        "start": 5416390,
+        "end": 5419270,
+        "speaker": "A"
+      },
+      {
+        "sid": "s001076",
+        "text": "Second, how do I find cycles via unions?",
+        "start": 5420470,
+        "end": 5423830,
+        "speaker": "A"
+      },
+      {
+        "sid": "s001077",
+        "text": "Because I can do it other ways, but it's only slow.",
+        "start": 5424710,
+        "end": 5427590,
+        "speaker": "A"
+      },
+      {
+        "sid": "s001078",
+        "text": "This is very efficient and very simple to maintain.",
+        "start": 5427670,
+        "end": 5431270,
+        "speaker": "A"
+      },
+      {
+        "sid": "s001079",
+        "text": "Yes.",
+        "start": 5431510,
+        "end": 5431990,
+        "speaker": "A"
+      },
+      {
+        "sid": "s001080",
+        "text": "Why is the union-find O(log N) if we just said that every node, the problem is so?",
+        "start": 5432550,
+        "end": 5443230,
+        "speaker": "A"
+      },
+      {
+        "sid": "s001081",
+        "text": "Yeah, that's a good question.",
+        "start": 5443230,
+        "end": 5444790,
+        "speaker": "A"
+      },
+      {
+        "sid": "s001082",
+        "text": "If so, his suggestion is why don't I do that?",
+        "start": 5446230,
+        "end": 5456960,
+        "speaker": "A"
+      },
+      {
+        "sid": "s001083",
+        "text": "So for this group I put so in constant time, right?",
+        "start": 5457040,
+        "end": 5461600,
+        "speaker": "A"
+      },
+      {
+        "sid": "s001084",
+        "text": "I can find the root, the name of the cell.",
+        "start": 5461680,
+        "end": 5464880,
+        "speaker": "A"
+      },
+      {
+        "sid": "s001085",
+        "text": "What about this cell?",
+        "start": 5465040,
+        "end": 5466480,
+        "speaker": "A"
+      },
+      {
+        "sid": "s001086",
+        "text": "Same thing, just point it.",
+        "start": 5466640,
+        "end": 5468320,
+        "speaker": "A"
+      },
+      {
+        "sid": "s001087",
+        "text": "So how long does it take to do find here?",
+        "start": 5469840,
+        "end": 5472240,
+        "speaker": "A"
+      },
+      {
+        "sid": "s001088",
+        "text": "How long does it take to be union n?",
+        "start": 5475740,
+        "end": 5483740,
+        "speaker": "A"
+      },
+      {
+        "sid": "s001089",
+        "text": "So you saved on find from log N to 1.",
+        "start": 5485580,
+        "end": 5490620,
+        "speaker": "A"
+      },
+      {
+        "sid": "s001090",
+        "text": "Now you did your union from log n to n. And if you are doing a bunch of union that you made, then your dominant number is N not log n. So usually in many lectures I start actually with this solution where union is slow, finding is fast.",
+        "start": 5491100,
+        "end": 5510630,
+        "speaker": "A"
+      },
+      {
+        "sid": "s001091",
+        "text": "There is another solution like this, a very long path here union is very easy.",
+        "start": 5510870,
+        "end": 5521150,
+        "speaker": "A"
+      },
+      {
+        "sid": "s001092",
+        "text": "The last one points to the last, the first one to the last one.",
+        "start": 5521150,
+        "end": 5524790,
+        "speaker": "A"
+      },
+      {
+        "sid": "s001093",
+        "text": "But fine will be linear.",
+        "start": 5524870,
+        "end": 5526490,
+        "speaker": "A"
+      },
+      {
+        "sid": "s001094",
+        "text": "So I start by saying this is not good because union dominates.",
+        "start": 5527520,
+        "end": 5532080,
+        "speaker": "A"
+      },
+      {
+        "sid": "s001095",
+        "text": "This is not good because find dominates.",
+        "start": 5532240,
+        "end": 5535080,
+        "speaker": "A"
+      },
+      {
+        "sid": "s001096",
+        "text": "Let's find something, a middle ground where both of them are kind of reasonable.",
+        "start": 5535080,
+        "end": 5540000,
+        "speaker": "A"
+      },
+      {
+        "sid": "s001097",
+        "text": "Then it's the idea of balance.",
+        "start": 5540320,
+        "end": 5542160,
+        "speaker": "A"
+      },
+      {
+        "sid": "s001098",
+        "text": "Make sure you are comfortable with MST theorem.",
+        "start": 5547840,
+        "end": 5551360,
+        "speaker": "A"
+      },
+      {
+        "sid": "s001099",
+        "text": "That's number one.",
+        "start": 5551360,
+        "end": 5552020,
+        "speaker": "A"
+      },
+      {
+        "sid": "s001100",
+        "text": "Once you have that, you probably can do your own algorithm.",
+        "start": 5552810,
+        "end": 5555690,
+        "speaker": "A"
+      },
+      {
+        "sid": "s001101",
+        "text": "But with MST theorem there are two algorithms.",
+        "start": 5557130,
+        "end": 5560010,
+        "speaker": "A"
+      },
+      {
+        "sid": "s001102",
+        "text": "Prim, one vertex at a time.",
+        "start": 5560410,
+        "end": 5562970,
+        "speaker": "A"
+      },
+      {
+        "sid": "s001103",
+        "text": "Two implementation Vertex centric or edge centric.",
+        "start": 5563050,
+        "end": 5567290,
+        "speaker": "A"
+      },
+      {
+        "sid": "s001104",
+        "text": "Exactly like MST with Kruskal's.",
+        "start": 5567370,
+        "end": 5571330,
+        "speaker": "A"
+      },
+      {
+        "sid": "s001105",
+        "text": "Sort the edges.",
+        "start": 5571330,
+        "end": 5572250,
+        "speaker": "A"
+      },
+      {
+        "sid": "s001106",
+        "text": "To keep track of cycles via Union-Find, you need the Union-Find data structure.",
+        "start": 5572490,
+        "end": 5578810,
+        "speaker": "A"
+      },
+      {
+        "sid": "s001107",
+        "text": "Using them and with the.",
+        "start": 5579050,
+        "end": 5580890,
+        "speaker": "A"
+      }
+    ],
+    "context_after_main_text": []
+  }
+]

@@ -1,0 +1,45 @@
+# 2. Minimum Spanning Tree Theorem and Proof
+
+This lecture introduces the Minimum Spanning Tree (MST) problem and presents a fundamental theorem that guarantees the optimality of certain edges in an MST. The core idea is that for any way a graph's vertices are divided into two sets, the minimum-weight edge connecting these sets must be part of every MST. This theorem is then rigorously proven using a proof by contradiction, highlighting its importance for developing MST algorithms.
+
+## 📚 Understanding the Minimum Spanning Tree (MST) Problem
+The **Minimum Spanning Tree (MST)** problem involves finding a connected subgraph that spans all vertices of a given graph with the minimum possible total edge weight. This problem has practical applications, such as determining how to connect a set of network nodes with minimum traffic or congestion. Many other problems can also be formulated and solved using MST algorithms. ⟦s000046, s000049, s000050, s000051⟧
+
+## 💡 The Unique Weight Assumption
+For the purpose of discussing MST algorithms and their proofs, it is often assumed that all edge weights in the graph are *unique*. This assumption simplifies the algorithms and proofs significantly. ⟦s000062, s000067⟧ If, in a real-world scenario, weights are not unique (e.g., two edges have a weight of '2'), a common trick is to slightly perturb one of the weights by adding a very small number, *epsilon*, making it '2 + epsilon'. This effectively makes all weights unique without altering the overall structure or solution significantly. ⟦s000070, s000071, s000072⟧
+
+## 🌳 Essential Tree Properties
+A **tree structure** is a type of graph that, by definition, contains no cycles. For a graph with *N* vertices, a tree will always have exactly *N-1* edges, no more and no less. ⟦s000077, s000078, s000079, s000080, s000082⟧ This *N-1* edge count represents the minimum number of edges required for a graph to be connected. If a graph has fewer than *N-1* edges, it cannot be connected. ⟦s000083, s000084, s000318, s000320⟧
+Adding just one edge to an existing tree structure will inevitably create a cycle within the graph, transforming it from a tree into a graph with a cycle. Conversely, if an edge is removed from such a cycle, the graph can revert to a tree structure without cycles, provided the removed edge was part of the cycle. ⟦s000089, s000090, s000091, s000101, s000103, s000106, s000107, s000108⟧
+
+## ✂️ Graph Partitioning and the `E_min` Edge
+Consider an original graph *G* with *N* vertices and *E* edges, where edges have associated weights. This graph can be **partitioned** into two non-empty sets of vertices, let's call them *V1* (left) and *V2* (right). ⟦s000110, s000112, s000113, s000116, s000127, s000128⟧ The specific way the graph is partitioned does not matter; it can be any valid bipartition where both sets are non-empty. ⟦s000115, s000120, s000121, s000127⟧
+Since the original graph is assumed to be connected, there must be at least one edge connecting a vertex in *V1* to a vertex in *V2*. ⟦s000132, s000133, s000135, s000138⟧ Among all such edges that cross this partition (from *V1* to *V2*), we identify the one with the *minimum weight*. This specific edge is denoted as **`E_min`**. ⟦s000144, s000147, s000150, s000202⟧
+
+## 📜 Statement of the MST Theorem
+The **Minimum Spanning Tree (MST) Theorem** states that for *every possible partition* of the graph's vertices into two non-empty sets, the edge with the minimum weight (`E_min`) that connects these two sets *must be included in every Minimum Spanning Tree* of the graph. This is a powerful and general statement, applying to any partition, not just a specific one. ⟦s000151, s000194, s000195, s000198, s000205, s000206, s000292, s000293⟧
+
+## 🛡️ Proof of the MST Theorem by Contradiction
+
+The MST Theorem can be proven using a **proof by contradiction**.
+
+### ➡️ Setting up the Contradiction
+Assume, contrary to the theorem, that there *exists* an MST, let's call it *T'*, which *does not* contain the edge `E_min` for a given partition. ⟦s000208, s000210, s000221, s000243, s000247⟧ Since *T'* is a spanning tree, it must connect all vertices, meaning it must have at least one edge crossing the partition from *V1* to *V2*. If it didn't, it would be a forest (disconnected components), not a spanning tree. ⟦s000225, s000228, s000229, s000230⟧
+
+### ➡️ Forming a Cycle and Identifying `E_cycle`
+Now, consider adding the edge `E_min` to our assumed MST *T'*. Since *T'* is already a tree, adding any new edge will create exactly one cycle. ⟦s000248, s000256, s000257, s000258, s000259, s000262, s000263⟧ This newly formed cycle must include `E_min`. Because `E_min` connects *V1* and *V2*, the cycle must also contain at least one other edge that crosses the partition from *V1* to *V2*. Let's call this other edge **`E_cycle`**. ⟦s000265, s000266, s000270⟧
+
+### ➡️ Constructing a Lighter Spanning Tree
+Next, we remove `E_cycle` from the graph (*T'* + `E_min`). The resulting graph, let's call it *T''*, will still be a spanning tree because we added one edge (`E_min`) and removed another (`E_cycle`) from a structure that was originally a tree plus one edge. ⟦s000270, s000272, s000273, s000275, s000276⟧
+Now, let's compare the total weights:
+*   The weight of *T''* is `Weight(T') + Weight(E_min) - Weight(E_cycle)`. ⟦s000280, s000283⟧
+By definition, `E_min` was chosen as the *minimum weight edge* crossing the partition. Since `E_cycle` also crosses the same partition, it must be that `Weight(E_min) < Weight(E_cycle)`. ⟦s000280, s000284, s000285, s000286⟧
+
+### ➡️ The Contradiction and Conclusion
+Because `Weight(E_min)` is strictly less than `Weight(E_cycle)`, it follows that `Weight(T'')` must be strictly less than `Weight(T')`. ⟦s000280, s000287⟧ This creates a contradiction: we assumed *T'* was an MST (meaning it had the minimum possible total weight), but we have just constructed *T''*, which is also a spanning tree and has an even lower total weight. Therefore, our initial assumption that an MST *T'* could exist without `E_min` must be false. ⟦s000288, s000289, s000290⟧ This proves that `E_min` must indeed be part of every MST. ⟦s000292, s000293⟧
+
+## ⚠️ Importance of Unique Edge Weights
+It is crucial to note that this proof relies on the assumption of *unique edge weights*. If weights are not unique, then `Weight(E_min)` might be *equal to* `Weight(E_cycle)` (i.e., `Weight(E_min) <= Weight(E_cycle)`). In such a case, replacing `E_cycle` with `E_min` would result in a new spanning tree *T''* with a weight *equal to* or less than *T'*, not strictly less. ⟦s000294, s000295, s000296, s000297⟧ This means the proof by contradiction, as presented, would not directly hold because it wouldn't necessarily lead to a *strictly* lighter tree, thus not contradicting the "minimum" aspect of MST. However, this is considered a minor issue that can be addressed. ⟦s000298, s000299, s000300, s000301⟧
+
+## ⚙️ Algorithmic Implications of the Theorem
+The MST Theorem provides a fundamental strategy for designing MST algorithms. The general game plan is to iteratively identify an `E_min` edge for a chosen partition and add it to the solution. This process is repeated, creating new partitions and finding new `E_min` edges, until *N-1* edges have been selected, forming a complete MST. ⟦s000302, s000303, s000304, s000306, s000307, s000308, s000309, s000313, s000314, s000317, s000318, s000320⟧ Different methodologies for creating these partitions lead to various MST algorithms, such as Prim's and Kruskal's algorithms. ⟦s000104, s000321⟧

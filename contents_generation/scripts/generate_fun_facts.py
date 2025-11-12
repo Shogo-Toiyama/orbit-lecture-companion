@@ -64,9 +64,9 @@ def generate_fun_facts(client, gen_model, config_text, lecture_dir: Path):
     with open(PROMPTS_DIR / "fun_fact_generation.txt", "r", encoding="utf-8") as f:
         instr_fun_facts_generation = f.read()
 
-    detail_files = sorted(Path(lecture_dir / "details/edited").glob("* - details.txt"))
+    detail_files = sorted(Path(lecture_dir / "details").glob("* - details.txt"))
     
-    max_workers = 5
+    max_workers = 3
     with ThreadPoolExecutor(max_workers=max_workers) as ex:
         submit_one = partial(
             _generate_one_fun_fact,
@@ -119,7 +119,7 @@ def main():
     GEN_MODEL = "gemini-2.5-flash"
 
     ROOT = Path(__file__).resolve().parent
-    LECTURE_DIR = ROOT / "../lectures/2025-10-31-12-04-37-0700"
+    LECTURE_DIR = ROOT / "../lectures/2025-11-11-16-38-54-0800"
 
     generate_fun_facts(client, GEN_MODEL, config_text(google_search=True), LECTURE_DIR)
 

@@ -1,0 +1,449 @@
+{
+  "results": [
+    {
+      "sid": "s000001",
+      "modified": "In midterm I may write another algorithm and I say show that this is or is not a minimum spanning tree.",
+      "reason": "ASR mishear: \"treatment\" to \"tree\" based on context."
+    },
+    {
+      "sid": "s000006",
+      "modified": "Do different types of partition so these are the types of questions that might be similar to what we did last week.",
+      "reason": "Spelling/style normalization: \"question\" to \"questions\"."
+    },
+    {
+      "sid": "s000020",
+      "modified": "And these extra problems are either at the end of the chapters that you've been covering or you can just Google problems in algorithm design.",
+      "reason": "Capitalization clarity: \"google\" to \"Google\"."
+    },
+    {
+      "sid": "s000026",
+      "modified": "And in fact I always suggest the night before the midterm, don't do anything, everything has to be done kind of the weekend before.",
+      "reason": "Spelling/style normalization: \"gotta\" to \"has to be\"."
+    },
+    {
+      "sid": "s000042",
+      "modified": "And there are lots of resources available to you.",
+      "reason": "Local context correction: fixed sentence fragment."
+    },
+    {
+      "sid": "s000047",
+      "modified": "So please, if you need to, start using those resources.",
+      "reason": "Local context correction: fixed sentence fragment."
+    },
+    {
+      "sid": "s000048",
+      "modified": "So far in the past two weeks we have covered this paradigm of the greedy paradigm.",
+      "reason": "Spelling/style normalization: removed redundant \"so\"."
+    },
+    {
+      "sid": "s000073",
+      "modified": "And basically the way you want to do it is you want to compare the two numbers.",
+      "reason": "ASR mishear: \"number\" to \"numbers\"."
+    },
+    {
+      "sid": "s000076",
+      "modified": "Okay, so what makes it hard is if you have a billion numbers or a trillion numbers to sort.",
+      "reason": "ASR mishear: \"number\" to \"numbers\"."
+    },
+    {
+      "sid": "s000081",
+      "modified": "Doing large language models and all that.",
+      "reason": "ASR mishear: \"model\" to \"models\" for consistency."
+    },
+    {
+      "sid": "s000104",
+      "modified": "Now maybe 500k numbers is already difficult.",
+      "reason": "ASR mishear: removed extraneous \"a\"."
+    },
+    {
+      "sid": "s000111",
+      "modified": "If it's 400K and 600K, that's good enough.",
+      "reason": "Spelling/style normalization: \"k\" to \"K\" for consistency."
+    },
+    {
+      "sid": "s000119",
+      "modified": "But if I can keep doing it till the problem size gets to a thousand or a hundred or ten, then maybe I have an approach.",
+      "reason": "Spelling/style normalization: \"one hundred\" to \"a hundred\"."
+    },
+    {
+      "sid": "s000135",
+      "modified": "We are actually going to show its optimal time.",
+      "reason": "ASR mishear: added missing \"are\"."
+    },
+    {
+      "sid": "s000137",
+      "modified": "Okay, so with that, if I have numbers like 7, 4, 2, 6, this is my 1 billion or 1 trillion set of numbers.",
+      "reason": "Punctuation consistency: added comma."
+    },
+    {
+      "sid": "s000138",
+      "modified": "By way of example, that N is 4 here.",
+      "reason": "Spelling/style normalization: \"number n\" to \"N\" for clarity."
+    },
+    {
+      "sid": "s000156",
+      "modified": "Be able to keep dividing till the problem becomes easy enough.",
+      "reason": "Spelling/style normalization: removed repetitive word."
+    },
+    {
+      "sid": "s000157",
+      "modified": "That's the first direction of divide and conquer.",
+      "reason": "Spelling/style normalization: removed repetitive word."
+    },
+    {
+      "sid": "s000160",
+      "modified": "So each of these is going to be sorted already.",
+      "reason": "Grammatical correction: \"are\" to \"is\"."
+    },
+    {
+      "sid": "s000162",
+      "modified": "You stop at that level that you feel it's very comfortable and easy and it's okay to go all the way to the base case.",
+      "reason": "Spelling/style normalization: removed repetitive word."
+    },
+    {
+      "sid": "s000168",
+      "modified": "The output, the final list, that's the problem to be solved.",
+      "reason": "Local context correction: clarified \"final\"."
+    },
+    {
+      "sid": "s000182",
+      "modified": "We kind of put some subproblems on the side, we focus on the general structure, but we need to go back and solve these side problems as we've been doing throughout the course.",
+      "reason": "Terminology consistency: \"some problems\" to \"subproblems\"."
+    },
+    {
+      "sid": "s000188",
+      "modified": "Say here I have S numbers and I have T numbers here.",
+      "reason": "Capitalization clarity: \"S\" and \"T\" as variables."
+    },
+    {
+      "sid": "s000194",
+      "modified": "But I don't need to put such a constraint on my problem that your input for sorting has to be a power of 2.",
+      "reason": "ASR mishear: \"2T\" to \"2\"."
+    },
+    {
+      "sid": "s000200",
+      "modified": "It's going to be either L sub 1 or R sub 1.",
+      "reason": "Capitalization clarity: \"L\" and \"R\" as variables."
+    },
+    {
+      "sid": "s000209",
+      "modified": "No need to output R sub 1 multiple times.",
+      "reason": "ASR mishear: \"Not need\" to \"No need\"."
+    },
+    {
+      "sid": "s000211",
+      "modified": "Then the same algorithm compares the values of L and R. Take the minimum one, it could be L, it could be R, I just don't know.",
+      "reason": "Grammatical correction: \"compare\" to \"compares\"."
+    },
+    {
+      "sid": "s000229",
+      "modified": "That is, I'm doing a comparison with R sub 1.",
+      "reason": "Terminology consistency: \"R1\" to \"R sub 1\"."
+    },
+    {
+      "sid": "s000239",
+      "modified": "Therefore, the runtime of this algorithm is Order of S times T. Okay?",
+      "reason": "Capitalization clarity: \"order\" to \"Order\" for notation."
+    },
+    {
+      "sid": "s000241",
+      "modified": "If you compare it, aren't you already putting it in the list so you're not going to compare it again later?",
+      "reason": "ASR mishear: added missing pronoun \"it\"."
+    },
+    {
+      "sid": "s000243",
+      "modified": "So, so that's if I look at R sub I and compare it to that, and this is less than R sub I, I put this in the list.",
+      "reason": "Terminology consistency and grammatical correction."
+    },
+    {
+      "sid": "s000245",
+      "modified": "So I may have to, in the worst case for R sub I, do",
+      "reason": "ASR mishear: \"R.I. d.O.\" to \"R sub I, do\"."
+    },
+    {
+      "sid": "s000250",
+      "modified": "But S times T implies that you're doing that like T times.",
+      "reason": "ASR mishear: \"SC\" to \"S times T\" for clarity."
+    },
+    {
+      "sid": "s000291",
+      "modified": "Instead of focusing on R sub I and knowing that R sub I may get compared S times, let's look at F sub j and ask a different question.",
+      "reason": "Terminology consistency and grammatical correction."
+    },
+    {
+      "sid": "s000311",
+      "modified": "And this is going to be roughly N, so linear to quadratic, big difference: thousand versus thousand times thousand, which is a million.",
+      "reason": "Punctuation for clarity and flow."
+    },
+    {
+      "sid": "s000313",
+      "modified": "It's got to be, which are the kind of numbers we deal with today.",
+      "reason": "ASR mishear and grammatical correction."
+    },
+    {
+      "sid": "s000327",
+      "modified": "I advance this to L sub 3.",
+      "reason": "Terminology consistency: \"L3\" to \"L sub 3\"."
+    },
+    {
+      "sid": "s000355",
+      "modified": "Assuming every night you spend a hundred, but you probably don't; probably other nights you spend $10.",
+      "reason": "Grammatical correction and clarity."
+    },
+    {
+      "sid": "s000357",
+      "modified": "Hundred plus 10 plus 10, this analysis is the same amount of money that you're spending.",
+      "reason": "Grammatical correction: fixed sentence structure."
+    },
+    {
+      "sid": "s000398",
+      "modified": "So requirement: they should both be sorted.",
+      "reason": "Punctuation for clarity."
+    },
+    {
+      "sid": "s000404",
+      "modified": "That's not for the entire sorting. Merging is not called sorting; it is for merging two sorted lists.",
+      "reason": "Grammatical correction and terminology consistency."
+    },
+    {
+      "sid": "s000435",
+      "modified": "So half a problem, half a problem and then combine it.",
+      "reason": "Grammatical correction: added article \"a\"."
+    },
+    {
+      "sid": "s000439",
+      "modified": "It's Order of one.",
+      "reason": "Capitalization clarity: \"order\" to \"Order\" for notation."
+    },
+    {
+      "sid": "s000441",
+      "modified": "Okay, so let me simplify this equation.",
+      "reason": "ASR mishear: \"entry\" to \"equation\"."
+    },
+    {
+      "sid": "s000447",
+      "modified": "This whole board was about S and T. And the runtime is Order of S plus T. Now if I write Order here and Order one is going to go in here.",
+      "reason": "Capitalization clarity: \"t\" to \"T\", \"order\" to \"Order\"."
+    },
+    {
+      "sid": "s000448",
+      "modified": "So I don't need to write another Order of 1.",
+      "reason": "Terminology consistency: \"Order 1\" to \"Order of 1\"."
+    },
+    {
+      "sid": "s000455",
+      "modified": "Is that what you're saying, the two halves do not need to be the same size?",
+      "reason": "Grammatical correction: fixed sentence structure."
+    },
+    {
+      "sid": "s000478",
+      "modified": "So two things so far: merging.",
+      "reason": "Punctuation for clarity."
+    },
+    {
+      "sid": "s000494",
+      "modified": "I just want you to be comfortable with these equations.",
+      "reason": "Local context correction: clarified \"these equations\"."
+    },
+    {
+      "sid": "s000499",
+      "modified": "Complexity analysis for this course, for pretty much any algorithm design problem.",
+      "reason": "ASR mishear: \"analytics/post/for for\" to \"analysis/course/for\"."
+    },
+    {
+      "sid": "s000500",
+      "modified": "Okay, so I said this thing is true for any N. I did not make any restriction on N that it should be less than 1,000 or more than 1,000 or anything like that.",
+      "reason": "Capitalization clarity: \"n\" to \"N\" for variable."
+    },
+    {
+      "sid": "s000510",
+      "modified": "Plug it for each N that I see here.",
+      "reason": "Capitalization clarity: \"n\" to \"N\" for variable."
+    },
+    {
+      "sid": "s000575",
+      "modified": "I say when is it that N over 2 to the power of I is one for what value of I?",
+      "reason": "Local context correction: clarified mathematical expression."
+    },
+    {
+      "sid": "s000587",
+      "modified": "Call it one. What's the number?",
+      "reason": "ASR mishear and grammatical correction."
+    },
+    {
+      "sid": "s000588",
+      "modified": "Okay, so now I'm going to go back to this general equation with I and I plug in I equal to log N. Because I do know something about this value when I is log N. So in this case, T of N when I equal to log N, T of N is going to be two to the log N. I'm just going to substitute in this equation for I this log N. So 2 to the log N T of N over 2 to the log N plus Icn log N times C times N. Simple substitution for the value I, nothing else.",
+      "reason": "Capitalization clarity and terminology consistency."
+    },
+    {
+      "sid": "s000595",
+      "modified": "And in computer science, N. Because this is base two.",
+      "reason": "ASR mishear: \"your computer science N\" to \"in computer science, N\"."
+    },
+    {
+      "sid": "s000596",
+      "modified": "What's N divided by 2 to the log N?",
+      "reason": "Capitalization clarity: \"n\" to \"N\"."
+    },
+    {
+      "sid": "s000607",
+      "modified": "One. Another way, how long does it take to sort one number? One or two. Constant, if you want to call it.",
+      "reason": "Punctuation for clarity."
+    },
+    {
+      "sid": "s000613",
+      "modified": "Oh, T of 1 is Order of 1.",
+      "reason": "Terminology consistency and capitalization clarity."
+    },
+    {
+      "sid": "s000622",
+      "modified": "True for every value of N. Okay, every value of N. So it better be true for when N is equal to N over 2, because we just said so.",
+      "reason": "Capitalization clarity: \"n\" to \"N\"."
+    },
+    {
+      "sid": "s000630",
+      "modified": "But all the other equations I'm going to do or you will do in the exam are going to be a simple variation of what I did here.",
+      "reason": "Grammatical correction: \"is\" to \"are\"."
+    },
+    {
+      "sid": "s000631",
+      "modified": "We will not be doing very fancy recursion equations because we don't need them.",
+      "reason": "Local context correction: completed sentence."
+    },
+    {
+      "sid": "s000632",
+      "modified": "Or in general we don't need them in algorithm design.",
+      "reason": "Local context correction: clarified pronoun."
+    },
+    {
+      "sid": "s000637",
+      "modified": "Or you have to tell yourself, okay, I designed this algorithm using divide and conquer.",
+      "reason": "Spelling/style normalization: \"gotta\" to \"have to\"."
+    },
+    {
+      "sid": "s000643",
+      "modified": "It makes it very easy to design algorithms.",
+      "reason": "Spelling/style normalization and grammatical correction."
+    },
+    {
+      "sid": "s000659",
+      "modified": "And the answer to that question is yes, if this is one, I know what that is.",
+      "reason": "Spelling/style normalization: removed redundant \"whenever\"."
+    },
+    {
+      "sid": "s000668",
+      "modified": "Okay, now, so please do this 100% on your own. Number one,",
+      "reason": "Punctuation for clarity."
+    },
+    {
+      "sid": "s000673",
+      "modified": "Okay, now what if this was T of N over 3 plus T of 2N over 3 plus all these guys, i.e., what if I didn't divide the list into half and half, N over 2 and N over 2.",
+      "reason": "Spelling/style normalization and capitalization clarity."
+    },
+    {
+      "sid": "s000682",
+      "modified": "And this will be less than or equal to 9N over 10.",
+      "reason": "Capitalization clarity: \"n\" to \"N\"."
+    },
+    {
+      "sid": "s000693",
+      "modified": "Instead of N over 2, pick any other number, N over 100.",
+      "reason": "Punctuation for clarity."
+    },
+    {
+      "sid": "s000710",
+      "modified": "Like if a processor has instead of dual threading, it has triple threading.",
+      "reason": "Grammatical correction: \"it's\" to \"it has\"."
+    },
+    {
+      "sid": "s000725",
+      "modified": "Without parallel processors such as NVIDIA doing any serious LLM, machine learning is impossible.",
+      "reason": "Capitalization clarity: \"Nvidia\" to \"NVIDIA\"."
+    },
+    {
+      "sid": "s000739",
+      "modified": "And so I told you from day one in this course that we will not do any parallel processing.",
+      "reason": "Grammatical correction: fixed run-on sentence."
+    },
+    {
+      "sid": "s000740",
+      "modified": "You are using uniprocessor, von Neumann or serial model of computation.",
+      "reason": "Punctuation for clarity."
+    },
+    {
+      "sid": "s000741",
+      "modified": "But I also tell you what you are learning in this class with some modifications can immediately be used in parallel processing such as GPU.",
+      "reason": "Grammatical correction and capitalization clarity."
+    },
+    {
+      "sid": "s000747",
+      "modified": "Okay, say you have a sorted list already, either sorted through this or the input is a sorted list.",
+      "reason": "Grammatical correction: added article \"a\"."
+    },
+    {
+      "sid": "s000750",
+      "modified": "So searching is the problem of finding an element.",
+      "reason": "Local context correction: completed sentence."
+    },
+    {
+      "sid": "s000758",
+      "modified": "But you're all familiar, probably from your previous courses, with binary search.",
+      "reason": "Local context correction: completed sentence."
+    },
+    {
+      "sid": "s000773",
+      "modified": "So, homework for you.",
+      "reason": "Punctuation for clarity."
+    },
+    {
+      "sid": "s000781",
+      "modified": "So binary search, that maybe you are used to from your previous courses, is an application of divide and conquer.",
+      "reason": "Punctuation for clarity."
+    },
+    {
+      "sid": "s000821",
+      "modified": "Ok, now sorting, what you did today was N log N.",
+      "reason": "Terminology consistency: \"N logging\" to \"N log N\"."
+    },
+    {
+      "sid": "s000828",
+      "modified": "Okay, so again this is lower bound analysis. We'll get to that.",
+      "reason": "Grammatical correction: fixed sentence structure."
+    },
+    {
+      "sid": "s000852",
+      "modified": "Special sorting like zeros and ones or 0, 1, and 2 or A's, B's, and C's like letter grades in this class.",
+      "reason": "Punctuation for clarity (serial comma)."
+    },
+    {
+      "sid": "s000857",
+      "modified": "Instead of 0 and 1, I have seven values, 0 through 6, and I say sort them.",
+      "reason": "Punctuation and style normalization."
+    },
+    {
+      "sid": "s000866",
+      "modified": "If we know 300 is a constant number, then it's linear time.",
+      "reason": "Local context correction: completed sentence."
+    },
+    {
+      "sid": "s000867",
+      "modified": "And I know in algorithm analysis that's always tricky: when is it constant?",
+      "reason": "Terminology consistency and grammatical correction."
+    },
+    {
+      "sid": "s000870",
+      "modified": "What if we feel it's not a function of N? N grows.",
+      "reason": "Punctuation for clarity."
+    },
+    {
+      "sid": "s000871",
+      "modified": "If I'm sorting 100 numbers versus 100 billion, N is growing.",
+      "reason": "Punctuation for clarity."
+    },
+    {
+      "sid": "s000881",
+      "modified": "So please pay attention to the general problem versus a special class.",
+      "reason": "Grammatical correction: added article \"the\"."
+    }
+  ]
+}

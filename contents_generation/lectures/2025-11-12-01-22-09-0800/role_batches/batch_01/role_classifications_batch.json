@@ -1,0 +1,1678 @@
+{
+  "labels": [
+    {
+      "sid": "s000001",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains graph algorithm concepts, vertex vs edge centric."
+    },
+    {
+      "sid": "s000002",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains graph algorithm concepts, time complexity."
+    },
+    {
+      "sid": "s000003",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains graph algorithm concepts, dense vs sparse graphs."
+    },
+    {
+      "sid": "s000004",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Encourages understanding of previous concepts."
+    },
+    {
+      "sid": "s000005",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Introduces a new problem: spanning tree."
+    },
+    {
+      "sid": "s000006",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Defines input for spanning tree problem."
+    },
+    {
+      "sid": "s000007",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Provides example values for graph parameters."
+    },
+    {
+      "sid": "s000008",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Relates example to spanning tree concept."
+    },
+    {
+      "sid": "s000009",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Defines tree subgraph and spanning tree."
+    },
+    {
+      "sid": "s000010",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Confirms definition of spanning tree."
+    },
+    {
+      "sid": "s000011",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Provides an example of a spanning tree."
+    },
+    {
+      "sid": "s000012",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "States assumption about graph connectivity for spanning trees."
+    },
+    {
+      "sid": "s000013",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains consequence of disconnected graph for spanning trees."
+    },
+    {
+      "sid": "s000014",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "States there are multiple ways to form a spanning tree."
+    },
+    {
+      "sid": "s000015",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Mentions BFS and DFS as methods to find spanning trees."
+    },
+    {
+      "sid": "s000016",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Notes that BFS/DFS trees are known algorithms."
+    },
+    {
+      "sid": "s000017",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains why BFS/DFS trees are spanning trees."
+    },
+    {
+      "sid": "s000018",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "States finding a spanning tree is straightforward."
+    },
+    {
+      "sid": "s000019",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Reiterates that algorithms for spanning trees are known."
+    },
+    {
+      "sid": "s000020",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Introduces Minimum Spanning Tree (MST) concept."
+    },
+    {
+      "sid": "s000021",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains that cycles lead to multiple spanning trees."
+    },
+    {
+      "sid": "s000022",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "States when a spanning tree is unique."
+    },
+    {
+      "sid": "s000023",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Reiterates multiple possibilities for spanning trees."
+    },
+    {
+      "sid": "s000024",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Defines MST as the spanning tree with minimum total weight."
+    },
+    {
+      "sid": "s000025",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Provides an example of a non-spanning tree."
+    },
+    {
+      "sid": "s000026",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Suggests an alternative edge for a spanning tree."
+    },
+    {
+      "sid": "s000027",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Refers to a specific edge in the example."
+    },
+    {
+      "sid": "s000028",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Encourages self-exploration of the example."
+    },
+    {
+      "sid": "s000029",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Points to a specific tree in the example."
+    },
+    {
+      "sid": "s000030",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Confirms the structure is a tree."
+    },
+    {
+      "sid": "s000031",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains spanning property and calculates MST weight."
+    },
+    {
+      "sid": "s000032",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Discusses high-weight edges in spanning trees."
+    },
+    {
+      "sid": "s000033",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Identifies a high-weight edge in the example."
+    },
+    {
+      "sid": "s000034",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains the necessity of a high-weight edge for connectivity."
+    },
+    {
+      "sid": "s000035",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Compares edge weights and preference for smaller ones."
+    },
+    {
+      "sid": "s000036",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "States the goal of minimizing edge weights."
+    },
+    {
+      "sid": "s000037",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Summarizes the core idea of spanning trees."
+    },
+    {
+      "sid": "s000038",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Reiterates the MST problem definition."
+    },
+    {
+      "sid": "s000039",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Mentions MST's role in connectivity."
+    },
+    {
+      "sid": "s000040",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Provides an application of MST in network connection."
+    },
+    {
+      "sid": "s000041",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Discusses applications and problem formulations using MST."
+    },
+    {
+      "sid": "s000042",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Connects MST solving to lecture content."
+    },
+    {
+      "sid": "s000043",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Draws analogy to Dijkstra's algorithm applications."
+    },
+    {
+      "sid": "s000044",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Introduces a condition for the graph."
+    },
+    {
+      "sid": "s000045",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Emphasizes the importance of understanding the problem."
+    },
+    {
+      "sid": "s000046",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Highlights ambiguity in problems (exam, homework)."
+    },
+    {
+      "sid": "s000047",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Discusses the consequence of not understanding a problem."
+    },
+    {
+      "sid": "s000048",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains the inability to solve an unclear problem."
+    },
+    {
+      "sid": "s000049",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Relates problem understanding to industry practice."
+    },
+    {
+      "sid": "s000050",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Stresses the importance of clarifying problems."
+    },
+    {
+      "sid": "s000051",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Lists steps for understanding a problem."
+    },
+    {
+      "sid": "s000052",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Generalizes the lesson about problem understanding."
+    },
+    {
+      "sid": "s000053",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "States the goal of finding MST algorithms."
+    },
+    {
+      "sid": "s000054",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Introduces assumption of unique edge weights."
+    },
+    {
+      "sid": "s000055",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Notes unique weights in the example."
+    },
+    {
+      "sid": "s000056",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Confirms no repeated weights in the example."
+    },
+    {
+      "sid": "s000057",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Asks about the reason for the unique weight assumption."
+    },
+    {
+      "sid": "s000058",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Poses a question about non-unique weights."
+    },
+    {
+      "sid": "s000059",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains how to handle non-unique weights later."
+    },
+    {
+      "sid": "s000060",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "States the benefit of unique weights for simplicity."
+    },
+    {
+      "sid": "s000061",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Promises to address non-unique weights later."
+    },
+    {
+      "sid": "s000062",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Offers a trick for handling non-unique weights."
+    },
+    {
+      "sid": "s000063",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains the epsilon trick for unique weights."
+    },
+    {
+      "sid": "s000064",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "States the result of the epsilon trick."
+    },
+    {
+      "sid": "s000065",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Asserts the epsilon trick has no other impact."
+    },
+    {
+      "sid": "s000066",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Summarizes the epsilon trick idea."
+    },
+    {
+      "sid": "s000067",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Confirms addressing non-unique weights at the end."
+    },
+    {
+      "sid": "s000068",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Introduces the concept of a tree structure."
+    },
+    {
+      "sid": "s000069",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Refers to a tree as a structure."
+    },
+    {
+      "sid": "s000070",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Asks about cycles in a tree."
+    },
+    {
+      "sid": "s000071",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Answers that trees have no cycles by definition."
+    },
+    {
+      "sid": "s000072",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Reiterates that trees lack cycles by definition."
+    },
+    {
+      "sid": "s000073",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "States the number of edges in a tree."
+    },
+    {
+      "sid": "s000074",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "References previous discussion on tree edges."
+    },
+    {
+      "sid": "s000075",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Mentions proof of the tree edge property."
+    },
+    {
+      "sid": "s000076",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Confirms the n-1 edge property for trees."
+    },
+    {
+      "sid": "s000077",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "States the minimum edges for a connected graph."
+    },
+    {
+      "sid": "s000078",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains the consequence of having fewer than n-1 edges."
+    },
+    {
+      "sid": "s000079",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Discusses the range of edges in connected graphs."
+    },
+    {
+      "sid": "s000080",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Defines dense graphs based on edge count."
+    },
+    {
+      "sid": "s000081",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Defines dense graphs."
+    },
+    {
+      "sid": "s000082",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Defines sparse graphs (closer to a tree)."
+    },
+    {
+      "sid": "s000083",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains the effect of adding an edge to a tree."
+    },
+    {
+      "sid": "s000084",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "States that adding an edge creates a cycle."
+    },
+    {
+      "sid": "s000085",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Describes the properties of a graph with n edges and n vertices."
+    },
+    {
+      "sid": "s000086",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Indicates a redrawing of the graph."
+    },
+    {
+      "sid": "s000087",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Confirms the presence of a cycle."
+    },
+    {
+      "sid": "s000088",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Describes the structure with a cycle and attached trees."
+    },
+    {
+      "sid": "s000089",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Labels the cycle in the diagram."
+    },
+    {
+      "sid": "s000090",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Describes edges hanging from the cycle."
+    },
+    {
+      "sid": "s000091",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains the structure of a tree plus an edge."
+    },
+    {
+      "sid": "s000092",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Summarizes the structure of a tree plus an edge."
+    },
+    {
+      "sid": "s000093",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Discusses removing an edge from the cycle."
+    },
+    {
+      "sid": "s000094",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains that removing a cycle edge restores a tree."
+    },
+    {
+      "sid": "s000095",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Describes the consequence of removing a non-cycle edge."
+    },
+    {
+      "sid": "s000096",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Clarifies removing an edge from the cycle itself."
+    },
+    {
+      "sid": "s000097",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Confirms that removing a cycle edge yields a tree."
+    },
+    {
+      "sid": "s000098",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "States the relevance of the previous discussion to MST."
+    },
+    {
+      "sid": "s000099",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Aims for comfort with the concepts before applying to MST."
+    },
+    {
+      "sid": "s000100",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Summarizes the relationship between trees, edges, and cycles."
+    },
+    {
+      "sid": "s000101",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains how removing cycle edges returns to a tree."
+    },
+    {
+      "sid": "s000102",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Adds a condition for edge removal to avoid disconnection."
+    },
+    {
+      "sid": "s000103",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Warns against disconnecting the graph."
+    },
+    {
+      "sid": "s000104",
+      "role": "qa",
+      "role_score": 0.95,
+      "role_reason": "Checks for student understanding."
+    },
+    {
+      "sid": "s000105",
+      "role": "chitchat",
+      "role_score": 0.95,
+      "role_reason": "Acknowledges student understanding."
+    },
+    {
+      "sid": "s000106",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Re-introduces the graph G and its properties."
+    },
+    {
+      "sid": "s000107",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "States that edges have weights."
+    },
+    {
+      "sid": "s000108",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Identifies weighted graph as input for MST algorithm."
+    },
+    {
+      "sid": "s000109",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Introduces the concept of partitioning vertices."
+    },
+    {
+      "sid": "s000110",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains the two groups for partitioning."
+    },
+    {
+      "sid": "s000111",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Asks about the number of vertices in each partition."
+    },
+    {
+      "sid": "s000112",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Asks about the distribution of vertices."
+    },
+    {
+      "sid": "s000113",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "States that the exact number of vertices per partition doesn't matter."
+    },
+    {
+      "sid": "s000114",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Defines the requirement for a partition."
+    },
+    {
+      "sid": "s000115",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Reiterates the non-empty set requirement."
+    },
+    {
+      "sid": "s000116",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains what is not a valid partition."
+    },
+    {
+      "sid": "s000117",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Clarifies what is not a bipartition."
+    },
+    {
+      "sid": "s000118",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "States the range of valid partition sizes."
+    },
+    {
+      "sid": "s000119",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Contrasts with balanced partitions."
+    },
+    {
+      "sid": "s000120",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Mentions the common association of partition with balance."
+    },
+    {
+      "sid": "s000121",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Clarifies that balanced partitions are not the focus here."
+    },
+    {
+      "sid": "s000122",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Mentions problems that do require balanced partitions."
+    },
+    {
+      "sid": "s000123",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Links balanced partitions to divide and conquer."
+    },
+    {
+      "sid": "s000124",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Reiterates that balance is not an issue here."
+    },
+    {
+      "sid": "s000125",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Instructs to choose any partition."
+    },
+    {
+      "sid": "s000126",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Visualizes the partitioned vertices."
+    },
+    {
+      "sid": "s000127",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Focuses on edges connecting the partitions."
+    },
+    {
+      "sid": "s000128",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Illustrates edges between partitions."
+    },
+    {
+      "sid": "s000129",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Defines edges connecting the two partitions."
+    },
+    {
+      "sid": "s000130",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "States that there must be at least one such edge."
+    },
+    {
+      "sid": "s000131",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains why at least one edge must exist."
+    },
+    {
+      "sid": "s000132",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Illustrates the connectivity issue if no edges exist."
+    },
+    {
+      "sid": "s000133",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Recalls the assumption of a connected graph."
+    },
+    {
+      "sid": "s000134",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Emphasizes the single component requirement."
+    },
+    {
+      "sid": "s000135",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Contrasts with multiple components."
+    },
+    {
+      "sid": "s000136",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Confirms the minimum of one edge between partitions."
+    },
+    {
+      "sid": "s000137",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "States that there could be more than one edge."
+    },
+    {
+      "sid": "s000138",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Mentions the possibility of many edges in dense graphs."
+    },
+    {
+      "sid": "s000139",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Defines dense graphs in terms of edges."
+    },
+    {
+      "sid": "s000140",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Describes a complete graph scenario."
+    },
+    {
+      "sid": "s000141",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "States the minimum and maximum number of cross-partition edges."
+    },
+    {
+      "sid": "s000142",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Confirms the minimum is not zero."
+    },
+    {
+      "sid": "s000143",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Focuses on the weights of cross-partition edges."
+    },
+    {
+      "sid": "s000144",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Provides example weights for cross-partition edges."
+    },
+    {
+      "sid": "s000145",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Reiterates the assumption of unique weights."
+    },
+    {
+      "sid": "s000146",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Instructs to pick the minimum weight edge."
+    },
+    {
+      "sid": "s000147",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "States that the name of the edge doesn't matter."
+    },
+    {
+      "sid": "s000148",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Suggests a name for the minimum weight edge."
+    },
+    {
+      "sid": "s000149",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Defines E_mean as the minimum weight edge between partitions."
+    },
+    {
+      "sid": "s000150",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "States a claim about MST edges."
+    },
+    {
+      "sid": "s000151",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Introduces an example to illustrate the claim."
+    },
+    {
+      "sid": "s000152",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Specifies the graph for the example."
+    },
+    {
+      "sid": "s000153",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Instructs to partition the graph."
+    },
+    {
+      "sid": "s000154",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "States that partitioning can be done arbitrarily."
+    },
+    {
+      "sid": "s000155",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Identifies an invalid partition in the example."
+    },
+    {
+      "sid": "s000156",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Presents a valid partition for the example."
+    },
+    {
+      "sid": "s000157",
+      "role": "chitchat",
+      "role_score": 0.95,
+      "role_reason": "Acknowledges the partition."
+    },
+    {
+      "sid": "s000158",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "States this is one example of a partition."
+    },
+    {
+      "sid": "s000159",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Mentions the existence of many other partitions."
+    },
+    {
+      "sid": "s000160",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Quantifies the number of possible partitions."
+    },
+    {
+      "sid": "s000161",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Reiterates that this is one specific partition."
+    },
+    {
+      "sid": "s000162",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Asks to identify the minimum weight edge in this partition."
+    },
+    {
+      "sid": "s000163",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Asks for the weight of the minimum edge."
+    },
+    {
+      "sid": "s000164",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Indicates the location for the weight."
+    },
+    {
+      "sid": "s000165",
+      "role": "chitchat",
+      "role_score": 0.95,
+      "role_reason": "Expresses gratitude."
+    },
+    {
+      "sid": "s000166",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Identifies the minimum weight edge."
+    },
+    {
+      "sid": "s000167",
+      "role": "chitchat",
+      "role_score": 0.95,
+      "role_reason": "Acknowledges the identification."
+    },
+    {
+      "sid": "s000168",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Restates the claim about the minimum edge in MSTs."
+    },
+    {
+      "sid": "s000169",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Suggests verifying the claim through inspection."
+    },
+    {
+      "sid": "s000170",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Encourages trying to find an MST without the minimum edge."
+    },
+    {
+      "sid": "s000171",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Poses a challenge to find an MST without the minimum edge."
+    },
+    {
+      "sid": "s000172",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Asserts that it's not possible to find such an MST."
+    },
+    {
+      "sid": "s000173",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Suggests inspection for verification."
+    },
+    {
+      "sid": "s000174",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "States that the proof is yet to come."
+    },
+    {
+      "sid": "s000175",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Promises to provide the proof."
+    },
+    {
+      "sid": "s000176",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Proposes doing another partition for illustration."
+    },
+    {
+      "sid": "s000177",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains why one edge was a 'no-brainer' for MST."
+    },
+    {
+      "sid": "s000178",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Justifies the inclusion of the smallest weight edge."
+    },
+    {
+      "sid": "s000179",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Proposes performing another partition."
+    },
+    {
+      "sid": "s000180",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Presents a new partition."
+    },
+    {
+      "sid": "s000181",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Asks for the weight of the minimum edge in this new partition."
+    },
+    {
+      "sid": "s000182",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "States a claim about the edge with weight 9."
+    },
+    {
+      "sid": "s000183",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Asserts that the claim about edge 9 is easy to argue."
+    },
+    {
+      "sid": "s000184",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Identifies edge weight 9 as the largest."
+    },
+    {
+      "sid": "s000185",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains why edge 9 must be in an MST."
+    },
+    {
+      "sid": "s000186",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "States the consequence of excluding edge 9."
+    },
+    {
+      "sid": "s000187",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains why excluding edge 9 breaks the spanning tree property."
+    },
+    {
+      "sid": "s000188",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "States that excluding edge 9 results in something else."
+    },
+    {
+      "sid": "s000189",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Suggests 'spanning forest' as an alternative."
+    },
+    {
+      "sid": "s000190",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Indicates uncertainty about the exact term."
+    },
+    {
+      "sid": "s000191",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Encourages further examples to test the claim."
+    },
+    {
+      "sid": "s000192",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Asserts that building counterexamples is not possible."
+    },
+    {
+      "sid": "s000193",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "States the intention to prove the MST theorem."
+    },
+    {
+      "sid": "s000194",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "States the MST theorem."
+    },
+    {
+      "sid": "s000195",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Clarifies the generality of the theorem."
+    },
+    {
+      "sid": "s000196",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Emphasizes the theorem's broad applicability."
+    },
+    {
+      "sid": "s000197",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Restates the MST theorem's core assertion."
+    },
+    {
+      "sid": "s000198",
+      "role": "chitchat",
+      "role_score": 0.95,
+      "role_reason": "Confirms understanding of the theorem."
+    },
+    {
+      "sid": "s000199",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Asks for clarification on notation."
+    },
+    {
+      "sid": "s000200",
+      "role": "qa",
+      "role_score": 0.95,
+      "role_reason": "Student asks for clarification on notation."
+    },
+    {
+      "sid": "s000201",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Confirms the student's interpretation."
+    },
+    {
+      "sid": "s000202",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Defines E_mean precisely."
+    },
+    {
+      "sid": "s000203",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Asks how 'left' and 'right' are defined."
+    },
+    {
+      "sid": "s000204",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "States that 'left' and 'right' can be defined arbitrarily."
+    },
+    {
+      "sid": "s000205",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Quantifies the number of ways to define partitions."
+    },
+    {
+      "sid": "s000206",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Restates the MST theorem's implication for E_mean."
+    },
+    {
+      "sid": "s000207",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Summarizes the MST theorem's significance."
+    },
+    {
+      "sid": "s000208",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Comments on the theorem's power and potential surprise."
+    },
+    {
+      "sid": "s000209",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Begins the proof by contradiction."
+    },
+    {
+      "sid": "s000210",
+      "role": "chitchat",
+      "role_score": 0.95,
+      "role_reason": "Acknowledges the start of the proof."
+    },
+    {
+      "sid": "s000211",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "States the assumption for contradiction."
+    },
+    {
+      "sid": "s000212",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains the negation of 'every'."
+    },
+    {
+      "sid": "s000213",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Provides an analogy for negation."
+    },
+    {
+      "sid": "s000214",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Identifies the contradiction."
+    },
+    {
+      "sid": "s000215",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains how finding a counterexample leads to contradiction."
+    },
+    {
+      "sid": "s000216",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Describes the structure of proof by contradiction."
+    },
+    {
+      "sid": "s000217",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains how contradiction invalidates the hypothesis."
+    },
+    {
+      "sid": "s000218",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Labels the proof technique."
+    },
+    {
+      "sid": "s000219",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Compares the proof technique to previous ones."
+    },
+    {
+      "sid": "s000220",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Restates the assumption for contradiction."
+    },
+    {
+      "sid": "s000221",
+      "role": "chitchat",
+      "role_score": 0.95,
+      "role_reason": "Acknowledges the setup for the next step."
+    },
+    {
+      "sid": "s000222",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Asks about the structure of the hypothetical MST."
+    },
+    {
+      "sid": "s000223",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Suggests the presence of other edges."
+    },
+    {
+      "sid": "s000224",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Reiterates the necessity of cross-partition edges."
+    },
+    {
+      "sid": "s000225",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Confirms the partition remains the same."
+    },
+    {
+      "sid": "s000226",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains the implication if the MST lacks cross-partition edges."
+    },
+    {
+      "sid": "s000227",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "States that a graph without cross-partition edges is a forest."
+    },
+    {
+      "sid": "s000228",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains that a forest has components."
+    },
+    {
+      "sid": "s000229",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "States that there must be at least one cross-partition edge."
+    },
+    {
+      "sid": "s000230",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Expresses uncertainty about the exact number of edges."
+    },
+    {
+      "sid": "s000231",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "States that the exact number is not important."
+    },
+    {
+      "sid": "s000232",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Asks if other edges might exist."
+    },
+    {
+      "sid": "s000233",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Confirms the possibility of other edges."
+    },
+    {
+      "sid": "s000234",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Describes the potential structure of the graph."
+    },
+    {
+      "sid": "s000235",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Mentions the possibility of more cross-partition edges."
+    },
+    {
+      "sid": "s000236",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Asks about the number of edges in the graph."
+    },
+    {
+      "sid": "s000237",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "States that any number of edges (>=1) is possible."
+    },
+    {
+      "sid": "s000238",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Labels the hypothetical MST."
+    },
+    {
+      "sid": "s000239",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Decides to remove the 'prime' notation."
+    },
+    {
+      "sid": "s000240",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains the meaning of 'contradiction MST'."
+    },
+    {
+      "sid": "s000241",
+      "role": "chitchat",
+      "role_score": 0.95,
+      "role_reason": "Acknowledges the hypothesis."
+    },
+    {
+      "sid": "s000242",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Refers to the complement of the statement."
+    },
+    {
+      "sid": "s000243",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Agrees to proceed with the hypothesis."
+    },
+    {
+      "sid": "s000244",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Restates the hypothesis: an MST exists without E_mean."
+    },
+    {
+      "sid": "s000245",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Proposes adding E_mean to this MST."
+    },
+    {
+      "sid": "s000246",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Indicates where E_mean would be added."
+    },
+    {
+      "sid": "s000247",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Asks what E_mean is."
+    },
+    {
+      "sid": "s000248",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Refers back to the definition of E_mean."
+    },
+    {
+      "sid": "s000249",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Reiterates E_mean's definition in the context of the partition."
+    },
+    {
+      "sid": "s000250",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains the labeling consistency."
+    },
+    {
+      "sid": "s000251",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Confirms the identity of the added edge."
+    },
+    {
+      "sid": "s000252",
+      "role": "qa",
+      "role_score": 0.95,
+      "role_reason": "Checks for student understanding."
+    },
+    {
+      "sid": "s000253",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Describes the operation: add E_mean to the MST."
+    },
+    {
+      "sid": "s000254",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Reiterates the specific edge being added."
+    },
+    {
+      "sid": "s000255",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "States that the resulting structure is no longer a tree."
+    },
+    {
+      "sid": "s000256",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Recalls the effect of adding an edge to a tree."
+    },
+    {
+      "sid": "s000257",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Confirms that the structure is no longer a tree."
+    },
+    {
+      "sid": "s000258",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "References previous discussion on adding edges to trees."
+    },
+    {
+      "sid": "s000259",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Indicates the next step in the proof."
+    },
+    {
+      "sid": "s000260",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains that adding an edge to a tree creates a cycle."
+    },
+    {
+      "sid": "s000261",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Identifies the cycle created in the example."
+    },
+    {
+      "sid": "s000262",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Confirms the presence of a cycle."
+    },
+    {
+      "sid": "s000263",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Proposes removing an edge from the cycle."
+    },
+    {
+      "sid": "s000264",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Labels the edge to be removed."
+    },
+    {
+      "sid": "s000265",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Describes the operation: remove cycle edge, add E_mean."
+    },
+    {
+      "sid": "s000266",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Indicates a preference for presenting the operation differently."
+    },
+    {
+      "sid": "s000267",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "States that the equation remains the same."
+    },
+    {
+      "sid": "s000268",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains the reason for rewriting the operation."
+    },
+    {
+      "sid": "s000269",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Presents the operation: add E_mean, remove E_cycle."
+    },
+    {
+      "sid": "s000270",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Labels the resulting structure T prime."
+    },
+    {
+      "sid": "s000271",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Explains T prime: add E_mean, remove E_cycle."
+    },
+    {
+      "sid": "s000272",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Refers to a previously discussed operation."
+    },
+    {
+      "sid": "s000273",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Recalls a previous example of adding and removing edges."
+    },
+    {
+      "sid": "s000274",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "States that removing an edge restores the original tree."
+    },
+    {
+      "sid": "s000275",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Confirms the feedback loop."
+    },
+    {
+      "sid": "s000276",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "States that the same logic applies here."
+    },
+    {
+      "sid": "s000277",
+      "role": "qa",
+      "role_score": 0.95,
+      "role_reason": "Checks for student understanding."
+    },
+    {
+      "sid": "s000278",
+      "role": "chitchat",
+      "role_score": 0.95,
+      "role_reason": "Acknowledges student understanding."
+    },
+    {
+      "sid": "s000279",
+      "role": "lecture",
+      "role_score": 0.95,
+      "role_reason": "Compares weights and concludes T prime is lighter."
+    }
+  ]
+}

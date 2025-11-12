@@ -1,0 +1,13 @@
+# 1. Greedy Algorithms: Review & Contrast
+
+Greedy algorithms represent a problem-solving paradigm where decisions are made quickly and locally, without any subsequent reconsideration or backtracking. This approach prioritizes speed and efficiency by avoiding global analysis, standing in stark contrast to exhaustive search methods that explore every possible solution. While proving the correctness of a greedy algorithm can be more complex, once validated, it provides a highly reliable and efficient solution.
+
+## 📚 Core Principles and Reliability of Greedy Algorithms
+
+The fundamental concept behind a *greedy algorithm* is to make immediate, quick decisions that contribute to a solution. ⟦s000049⟧ Once a decision is made, it is never changed or revisited; there is no going back to redo previous choices. ⟦s000050⟧ This characteristic typically makes greedy algorithms very fast and efficient, as they do not perform extensive global analysis of the problem space. ⟦s000051⟧ While the proof of correctness for greedy algorithms can be harder than average due to these quick, local decisions, once their correctness and time efficiency are established, they become highly dependable. ⟦s000052, s000059⟧ For instance, algorithms like *interval scheduling* exemplify greedy approaches that, once proven, can be confidently applied to solve problems consistently. ⟦s000059⟧
+
+## ⚖️ Contrasting Greedy with Exhaustive Search
+
+Greedy algorithms are often considered the opposite extreme to *exhaustive search* methods. ⟦s000051, s000058⟧ Exhaustive search involves examining the entire search space, looking at every single possibility to find a solution. ⟦s000051, s000053⟧ This comprehensive approach means that proving the correctness of an exhaustive search algorithm is almost trivial, as one of the possibilities *must* be optimal. ⟦s000054, s000055⟧
+
+However, the major drawback of exhaustive search is its extreme slowness, often resulting in impractical exponential time complexities like n factorial (n!) or 2 to the power of n (2^n). ⟦s000056, s000057⟧ In contrast, greedy algorithms achieve speed through quick local decisions, making them very efficient, but requiring more rigorous proof for their correctness. ⟦s000051, s000052⟧

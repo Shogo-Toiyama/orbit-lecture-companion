@@ -1,0 +1,78 @@
+# 5. Merge Sort: Recurrence Relation & Complexity
+
+This section explains how to derive and solve the recurrence relation for Merge Sort, demonstrating its time complexity. It covers the recursive nature of the algorithm, the cost of merging, and the importance of balanced problem division for optimal performance.
+
+## 📚 Understanding Merge Sort's Recurrence Relation
+The time complexity of Merge Sort for a list of size *N*, denoted as *T(N)*, is expressed through a recurrence relation. This relation captures the recursive nature of the algorithm, which involves dividing the problem into smaller subproblems and then combining their solutions. ⟦s000418, s000419, s000425, s000465⟧ The goal of writing this relation is to determine the overall runtime of the algorithm. ⟦s000535, s000536, s000538⟧
+
+## ⚙️ Deriving the Recurrence Relation
+To sort a list of *N* numbers using Merge Sort, the process follows a divide and conquer strategy:
+1.  **Divide:** The list is conceptually divided into two halves. This division step takes constant time, *Order of 1*. ⟦s000428, s000439, s000440⟧
+2.  **Conquer (Sort Subproblems):** Each half is sorted recursively. Sorting the first half takes *T(N/2)* time, and sorting the second half also takes *T(N/2)* time. ⟦s000420⟧
+3.  **Combine (Merge):** Once both halves are sorted, they are merged to produce the final sorted list. ⟦s000421, s000422⟧ The merging operation for two already sorted lists of sizes *S* and *T* takes *Order of S + T* time. ⟦s000416, s000447, s000473⟧ In Merge Sort, since both halves are of size *N/2*, merging them takes *Order of N/2 + N/2*, which simplifies to *Order of N* time. ⟦s000423, s000449, s000475⟧
+
+Combining these steps, the recurrence relation for Merge Sort's time complexity is:
+*T(N) = T(N/2) + T(N/2) + Order(N)* ⟦s000423, s000425, s000449⟧
+This can be simplified to:
+*T(N) = 2T(N/2) + C*N* ⟦s000442, s000451⟧
+Here, *C* is a constant representing the linear time taken for the merging step, as performing algebra directly with "Order notation" can be complex. ⟦s000451, s000522, s000523, s000524⟧
+
+## 📈 Solving the Recurrence Relation through Substitution
+To solve the recurrence relation *T(N) = 2T(N/2) + C*N*, a recursive substitution method is employed. This equation is true for any *N*, meaning it also applies when *N* is *N/2*, *N/4*, and so on. ⟦s000500, s000501, s000502, s000543⟧
+
+1.  **First Substitution:** Substitute *N/2* for *N* in the original equation to find *T(N/2)*:
+    *T(N/2) = 2T(N/4) + C*(N/2)* ⟦s000506, s000507, s000511⟧
+    Plug this expression for *T(N/2)* back into the main equation for *T(N)*:
+    *T(N) = 2 * [2T(N/4) + C*(N/2)] + C*N*
+    *T(N) = 2^2 * T(N/2^2) + 2 * C*(N/2) + C*N*
+    *T(N) = 2^2 * T(N/4) + C*N + C*N*
+    *T(N) = 2^2 * T(N/4) + 2C*N* ⟦s000515, s000518⟧
+
+2.  **Second Substitution:** Repeat the process by substituting *N/4* for *N* to find *T(N/4)*:
+    *T(N/4) = 2T(N/8) + C*(N/4)* ⟦s000545⟧
+    Plug this expression for *T(N/4)* back into the current equation for *T(N)*:
+    *T(N) = 2^2 * [2T(N/8) + C*(N/4)] + 2C*N*
+    *T(N) = 2^3 * T(N/2^3) + 2^2 * C*(N/4) + 2C*N*
+    *T(N) = 2^3 * T(N/8) + C*N + 2C*N*
+    *T(N) = 2^3 * T(N/8) + 3C*N* ⟦s000544⟧
+
+3.  **General Form:** After *i* such substitutions, a pattern emerges, and the general form of the equation becomes:
+    *T(N) = 2^i * T(N/2^i) + i*C*N* ⟦s000551⟧
+
+## 🛑 Identifying the Base Case
+The recursive substitutions continue until the problem size becomes very small, specifically when *N/2^i* equals 1. ⟦s000566, s000571, s000573⟧ At this point, sorting a single element takes a constant amount of time, as a list with one number is already sorted. ⟦s000569, s000570, s000582, s000616⟧ Therefore, *T(1)* is a constant value. ⟦s000570, s000617⟧
+
+To determine the value of *i* at which this base case is reached, we set the problem size *N/2^i* to 1:
+*N/2^i = 1*
+*N = 2^i* ⟦s000575, s000577⟧
+Taking the logarithm base 2 of both sides yields:
+*i = log₂N* ⟦s000578, s000579⟧ (In computer science, "log N" typically refers to logarithm base 2). ⟦s000579⟧
+
+## 🏁 Final Time Complexity
+Now, substitute *i = log₂N* and *T(N/2^i) = T(1)* into the general form of the equation:
+*T(N) = 2^(log₂N) * T(1) + (log₂N) * C*N* ⟦s000588⟧
+
+Using the logarithmic property that *2^(log₂N) = N*:
+*T(N) = N * T(1) + C*N*log₂N* ⟦s000595, s000603⟧
+
+Since *T(1)* is a constant (let's denote it as *K*), and *C* is also a constant:
+*T(N) = N*K + C*N*log₂N* ⟦s000606, s000608, s000617⟧
+
+In Big O notation, constant factors and lower-order terms are disregarded. Therefore, the time complexity of Merge Sort is:
+*T(N) = O(N log N)* ⟦s000609⟧
+This result demonstrates that Merge Sort is a more efficient sorting algorithm than *O(N^2)* algorithms like Bubble Sort. ⟦s000413, s000414, s000609⟧
+
+## ⚖️ Impact of Balanced vs. Unbalanced Division
+The efficiency of divide and conquer algorithms, including Merge Sort, is significantly influenced by how balanced the subproblems are. ⟦s000686, s000705, s000706⟧
+
+*   **Balanced Division:** If the list is divided into parts that are roughly proportional to *N* (e.g., *N/3* and *2N/3*, or *N/10* and *9N/10*), the time complexity remains *O(N log N)*. The base of the logarithm might change (e.g., *log₃/₂N* or *log₁₀/₉N*), but in Big O notation, this is still *O(log N)*. ⟦s000673, s000679, s000680, s000681, s000684, s000694⟧ This is because logarithms of different bases are proportional to each other. ⟦s000684⟧
+*   **Unbalanced Division:** If the division is highly unbalanced, such as splitting the list into one element and *N-1* elements, the recurrence relation changes to *T(N) = T(1) + T(N-1) + C*N*. ⟦s000685, s000696⟧ Solving this type of recurrence leads to a time complexity of *O(N^2)*. ⟦s000699, s000701, s000702⟧ This means an unbalanced divide and conquer approach would perform as poorly as simpler *O(N^2)* sorting algorithms like Bubble Sort, thereby negating the benefits of using Merge Sort. ⟦s000413, s000414, s000703, s000704⟧ The significant runtime improvement comes from maintaining balanced divisions. ⟦s000705, s000706⟧
+
+## 🚀 Applications and Broader Significance
+The divide and conquer methodology, as demonstrated by Merge Sort, is a fundamental and widely applicable technique in algorithm design. ⟦s000426, s000480, s000481, s000642, s000644⟧ Understanding its recurrence relations allows for predicting and optimizing algorithm performance. This approach is not limited to sorting but extends to many other problems, such as finding the closest pair of points in geometry. ⟦s000427, s000638⟧
+
+Moreover, the principles of divide and conquer are crucial for designing algorithms for parallel processing, particularly with hardware like GPUs (Graphics Processing Units). ⟦s000713, s000714, s000741⟧ By dividing problems into numerous small, independent subproblems that can be processed concurrently, significant speedups can be achieved. This can potentially reduce the runtime from *O(N log N)* to *O(log N)* in certain parallel contexts. ⟦s000720, s000722⟧ This capability is essential for modern applications such as large language models (LLMs) and matrix multiplication, which rely heavily on efficient parallel computation. ⟦s000723, s000725, s000738⟧
+
+## 🔍 Supplement: Understanding Order Notation and Logarithms
+*   **Order Notation (Big O):** This mathematical notation describes the limiting behavior of a function, classifying algorithms by how their running time or space requirements grow as the input size (*N*) increases. For instance, *O(N)* indicates that runtime grows linearly with *N*, while *O(N log N)* means it grows proportionally to *N* multiplied by the logarithm of *N*. ⟦s000449, s000451, s000523⟧
+*   **Logarithm Base 2 (log₂N):** In computer science, when "log N" is mentioned without a specified base, it typically refers to the *logarithm base 2*. This base is common because many algorithms, especially divide and conquer strategies, repeatedly halve the problem size. The number of times *N* can be divided by 2 until it reaches 1 is *log₂N*. ⟦s000579⟧

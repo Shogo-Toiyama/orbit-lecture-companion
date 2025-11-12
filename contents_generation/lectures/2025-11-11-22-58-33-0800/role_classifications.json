@@ -1,0 +1,6646 @@
+{
+  "labels": [
+    {
+      "sid": "s000001",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explains implementation details and their impact."
+    },
+    {
+      "sid": "s000002",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explains consequence of implementation choice."
+    },
+    {
+      "sid": "s000003",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Provides specific examples of complexity trade-offs."
+    },
+    {
+      "sid": "s000004",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Encourages understanding of previous concepts."
+    },
+    {
+      "sid": "s000005",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Introduces a new topic: spanning trees."
+    },
+    {
+      "sid": "s000006",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Sets context for the next explanation."
+    },
+    {
+      "sid": "s000007",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Defines graph properties and notation."
+    },
+    {
+      "sid": "s000008",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Clarifies a condition for the definitions."
+    },
+    {
+      "sid": "s000009",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Provides a concrete example for N."
+    },
+    {
+      "sid": "s000010",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "States the value of N for the example."
+    },
+    {
+      "sid": "s000011",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Defines a spanning tree and its properties."
+    },
+    {
+      "sid": "s000012",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Further clarifies the definition of a spanning tree."
+    },
+    {
+      "sid": "s000013",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explains the term 'spanning'."
+    },
+    {
+      "sid": "s000014",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Gives an example of a spanning tree structure."
+    },
+    {
+      "sid": "s000015",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "States an assumption about the input graph."
+    },
+    {
+      "sid": "s000016",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explains the implication if the graph is not connected."
+    },
+    {
+      "sid": "s000017",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Elaborates on why a spanning tree might not exist."
+    },
+    {
+      "sid": "s000018",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "States that multiple spanning trees can exist."
+    },
+    {
+      "sid": "s000019",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Provides examples of algorithms that generate spanning trees."
+    },
+    {
+      "sid": "s000020",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Connects BFS/DFS to tree structures."
+    },
+    {
+      "sid": "s000021",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explains why BFS/DFS trees are spanning trees."
+    },
+    {
+      "sid": "s000022",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Summarizes the ease of finding a spanning tree."
+    },
+    {
+      "sid": "s000023",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "References prior knowledge of algorithms."
+    },
+    {
+      "sid": "s000024",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Introduces the Minimum Spanning Tree (MST) problem."
+    },
+    {
+      "sid": "s000025",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explains the goal of finding an MST among many spanning trees."
+    },
+    {
+      "sid": "s000026",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explains the condition for multiple spanning trees."
+    },
+    {
+      "sid": "s000027",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explains the condition for a unique spanning tree."
+    },
+    {
+      "sid": "s000028",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Reiterates the existence of multiple possibilities."
+    },
+    {
+      "sid": "s000029",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "States the objective of finding a minimum weight spanning tree."
+    },
+    {
+      "sid": "s000030",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Defines the minimization criterion for MST."
+    },
+    {
+      "sid": "s000031",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Refers back to a previous example."
+    },
+    {
+      "sid": "s000032",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Corrects a previous statement about the example."
+    },
+    {
+      "sid": "s000033",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Suggests an alternative edge choice."
+    },
+    {
+      "sid": "s000034",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Refers to a specific edge in the example."
+    },
+    {
+      "sid": "s000035",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Encourages self-exploration of the example."
+    },
+    {
+      "sid": "s000036",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Points to a specific element in the example."
+    },
+    {
+      "sid": "s000037",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Confirms the structure of the selected edges."
+    },
+    {
+      "sid": "s000038",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Confirms the spanning property of the selected edges."
+    },
+    {
+      "sid": "s000039",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "States the total weight of the minimum spanning tree."
+    },
+    {
+      "sid": "s000040",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explains the presence of high-weight edges in spanning trees."
+    },
+    {
+      "sid": "s000041",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Identifies a specific high-weight edge in the example."
+    },
+    {
+      "sid": "s000042",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explains the necessity of the high-weight edge for connectivity."
+    },
+    {
+      "sid": "s000043",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Discusses the trade-off between edge weights."
+    },
+    {
+      "sid": "s000044",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "States the preference for lower weight edges."
+    },
+    {
+      "sid": "s000045",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Summarizes the core idea of MST."
+    },
+    {
+      "sid": "s000046",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Reiterates the problem statement: Minimum Spanning Tree."
+    },
+    {
+      "sid": "s000047",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Mentions a property of MSTs."
+    },
+    {
+      "sid": "s000048",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "States that MST has applications."
+    },
+    {
+      "sid": "s000049",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Provides a network connectivity application of MST."
+    },
+    {
+      "sid": "s000050",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Discusses the broader applicability of MST."
+    },
+    {
+      "sid": "s000051",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Connects solving MST to lecture content."
+    },
+    {
+      "sid": "s000052",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Draws analogy to Dijkstra's algorithm and its applications."
+    },
+    {
+      "sid": "s000053",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Asks a clarifying question about the problem."
+    },
+    {
+      "sid": "s000054",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Emphasizes the importance of understanding the problem."
+    },
+    {
+      "sid": "s000055",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explains the consequence of ambiguity in problems."
+    },
+    {
+      "sid": "s000056",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "States the inability to solve ambiguous problems."
+    },
+    {
+      "sid": "s000057",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Relates problem understanding to industry practice."
+    },
+    {
+      "sid": "s000058",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Describes the process of clarifying problems."
+    },
+    {
+      "sid": "s000059",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Highlights the importance of a basic step."
+    },
+    {
+      "sid": "s000060",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Provides a general strategy for problem-solving."
+    },
+    {
+      "sid": "s000061",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Transitions back to the main topic of MST algorithms."
+    },
+    {
+      "sid": "s000062",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Introduces an assumption about edge weights."
+    },
+    {
+      "sid": "s000063",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Notes that the example uses unique weights."
+    },
+    {
+      "sid": "s000064",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Confirms the uniqueness of weights in the example."
+    },
+    {
+      "sid": "s000065",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Asks for the reason behind the assumption."
+    },
+    {
+      "sid": "s000066",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Asks about the scenario with non-unique weights."
+    },
+    {
+      "sid": "s000067",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explains the benefit of the unique weight assumption."
+    },
+    {
+      "sid": "s000068",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "States the intention to address non-unique weights later."
+    },
+    {
+      "sid": "s000069",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Asks how non-unique weights will be handled."
+    },
+    {
+      "sid": "s000070",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Promises to reveal a technique for non-unique weights."
+    },
+    {
+      "sid": "s000071",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explains the epsilon trick for non-unique weights."
+    },
+    {
+      "sid": "s000072",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "States the minimal impact of the epsilon trick."
+    },
+    {
+      "sid": "s000073",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Summarizes the epsilon trick idea."
+    },
+    {
+      "sid": "s000074",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Reiterates when the non-unique weight issue will be addressed."
+    },
+    {
+      "sid": "s000075",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Introduces a concept related to graph structure."
+    },
+    {
+      "sid": "s000076",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Asks a question about the presented structure."
+    },
+    {
+      "sid": "s000077",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Answers the question based on prior definition."
+    },
+    {
+      "sid": "s000078",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Reiterates the property of tree structures."
+    },
+    {
+      "sid": "s000079",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "States a property about the number of edges in a tree."
+    },
+    {
+      "sid": "s000080",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Specifies the exact number of edges."
+    },
+    {
+      "sid": "s000081",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "References a previous lecture and proof."
+    },
+    {
+      "sid": "s000082",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Reiterates the N-1 edge property for trees."
+    },
+    {
+      "sid": "s000083",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explains the significance of N-1 edges for connectivity."
+    },
+    {
+      "sid": "s000084",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "States the consequence of having fewer than N-1 edges."
+    },
+    {
+      "sid": "s000085",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Recalls discussion about the number of edges in connected graphs."
+    },
+    {
+      "sid": "s000086",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Provides the range of edges for connected graphs."
+    },
+    {
+      "sid": "s000087",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Defines a 'dense graph'."
+    },
+    {
+      "sid": "s000088",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Defines a 'sparse graph'."
+    },
+    {
+      "sid": "s000089",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explains the effect of adding an edge to a tree."
+    },
+    {
+      "sid": "s000090",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "States the result of adding an edge to a tree."
+    },
+    {
+      "sid": "s000091",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explains the property of graphs with N vertices and N edges."
+    },
+    {
+      "sid": "s000092",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Indicates a redraw of the graph."
+    },
+    {
+      "sid": "s000093",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "States the current graph structure."
+    },
+    {
+      "sid": "s000094",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Describes the structure of the graph with a cycle."
+    },
+    {
+      "sid": "s000095",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Identifies the cycle in the diagram."
+    },
+    {
+      "sid": "s000096",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Assigns a label to the cycle."
+    },
+    {
+      "sid": "s000097",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Describes additional structures connected to the cycle."
+    },
+    {
+      "sid": "s000098",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explains the relationship between cycles, trees, and subtrees."
+    },
+    {
+      "sid": "s000099",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Describes the structure formed by adding an edge to a tree."
+    },
+    {
+      "sid": "s000100",
+      "role": "chitchat",
+      "role_score": 1.0,
+      "role_reason": "Filler word."
+    },
+    {
+      "sid": "s000101",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explains the result of removing an edge from a cycle."
+    },
+    {
+      "sid": "s000102",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Describes the consequence of removing a specific edge."
+    },
+    {
+      "sid": "s000103",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explains how removing an edge from a cycle restores a tree."
+    },
+    {
+      "sid": "s000104",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "States the relevance of the previous discussion to MST algorithms."
+    },
+    {
+      "sid": "s000105",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Encourages understanding of the current concepts."
+    },
+    {
+      "sid": "s000106",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Summarizes the relationship between trees, edges, and cycles."
+    },
+    {
+      "sid": "s000107",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explains how removing cycle edges recovers the tree."
+    },
+    {
+      "sid": "s000108",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Adds a condition for removing edges."
+    },
+    {
+      "sid": "s000109",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Indicates a transition to a new topic."
+    },
+    {
+      "sid": "s000110",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Defines the input graph for MST algorithms."
+    },
+    {
+      "sid": "s000111",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Specifies the input format for MST algorithms."
+    },
+    {
+      "sid": "s000112",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Introduces the concept of partitioning vertices."
+    },
+    {
+      "sid": "s000113",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Describes the partitioning process."
+    },
+    {
+      "sid": "s000114",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Asks about the distribution of vertices in the partition."
+    },
+    {
+      "sid": "s000115",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "States that the distribution is flexible."
+    },
+    {
+      "sid": "s000116",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Defines the requirement for a partition."
+    },
+    {
+      "sid": "s000117",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Emphasizes the non-empty set requirement."
+    },
+    {
+      "sid": "s000118",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explains what is not a valid partition."
+    },
+    {
+      "sid": "s000119",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Clarifies the term 'bipartition'."
+    },
+    {
+      "sid": "s000120",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "States the range of possible partition sizes."
+    },
+    {
+      "sid": "s000121",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Clarifies that balanced partitions are not required."
+    },
+    {
+      "sid": "s000122",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Contrasts with the concept of balanced partitions."
+    },
+    {
+      "sid": "s000123",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "States that balanced partitions are not the goal here."
+    },
+    {
+      "sid": "s000124",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Mentions problems where balanced partitions are relevant."
+    },
+    {
+      "sid": "s000125",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Connects balanced partitions to divide and conquer."
+    },
+    {
+      "sid": "s000126",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Reiterates that balance is not an issue here."
+    },
+    {
+      "sid": "s000127",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Encourages arbitrary partitioning."
+    },
+    {
+      "sid": "s000128",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Describes the partitioning process again."
+    },
+    {
+      "sid": "s000129",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Focuses on edges connecting the partitions."
+    },
+    {
+      "sid": "s000130",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Illustrates the connecting edges."
+    },
+    {
+      "sid": "s000131",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Defines the edges connecting the two partitions."
+    },
+    {
+      "sid": "s000132",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "States the minimum number of connecting edges."
+    },
+    {
+      "sid": "s000133",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explains why there must be at least one connecting edge."
+    },
+    {
+      "sid": "s000134",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Elaborates on the connectivity requirement."
+    },
+    {
+      "sid": "s000135",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Recalls the initial assumption of a connected graph."
+    },
+    {
+      "sid": "s000136",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Clarifies the meaning of 'one component'."
+    },
+    {
+      "sid": "s000137",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Contrasts with multiple components."
+    },
+    {
+      "sid": "s000138",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Reiterates that at least one edge must exist."
+    },
+    {
+      "sid": "s000139",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "States that multiple edges are possible."
+    },
+    {
+      "sid": "s000140",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Describes the maximum number of edges between partitions."
+    },
+    {
+      "sid": "s000141",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Relates dense graphs to the number of edges."
+    },
+    {
+      "sid": "s000142",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Defines a complete graph and its edge property."
+    },
+    {
+      "sid": "s000143",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "States the range of cross-partition edges in a complete graph."
+    },
+    {
+      "sid": "s000144",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Focuses on the weights of connecting edges."
+    },
+    {
+      "sid": "s000145",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Provides example weights for connecting edges."
+    },
+    {
+      "sid": "s000146",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Reiterates the assumption of unique weights."
+    },
+    {
+      "sid": "s000147",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Instructs to select the minimum weight edge."
+    },
+    {
+      "sid": "s000148",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "States that the name of the edge doesn't matter."
+    },
+    {
+      "sid": "s000149",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Suggests a name for the minimum weight edge."
+    },
+    {
+      "sid": "s000150",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Defines the notation E sub min."
+    },
+    {
+      "sid": "s000151",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Makes a claim about E sub min and MSTs."
+    },
+    {
+      "sid": "s000152",
+      "role": "chitchat",
+      "role_score": 1.0,
+      "role_reason": "Filler word."
+    },
+    {
+      "sid": "s000153",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Introduces an example to illustrate the claim."
+    },
+    {
+      "sid": "s000154",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Refers to a specific graph for the example."
+    },
+    {
+      "sid": "s000155",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Instructs to partition the graph."
+    },
+    {
+      "sid": "s000156",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "States that partitioning can be done arbitrarily."
+    },
+    {
+      "sid": "s000157",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Identifies an invalid partition in the diagram."
+    },
+    {
+      "sid": "s000158",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Identifies a valid partition in the diagram."
+    },
+    {
+      "sid": "s000159",
+      "role": "chitchat",
+      "role_score": 1.0,
+      "role_reason": "Filler word."
+    },
+    {
+      "sid": "s000160",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Refers to the presented partition as an example."
+    },
+    {
+      "sid": "s000161",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Indicates the existence of multiple partitions."
+    },
+    {
+      "sid": "s000162",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "States the large number of possible partitions."
+    },
+    {
+      "sid": "s000163",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Quantifies the number of partitions."
+    },
+    {
+      "sid": "s000164",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Reiterates that the shown partition is one example."
+    },
+    {
+      "sid": "s000165",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Asks to identify E_min in the example."
+    },
+    {
+      "sid": "s000166",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Asks for the weight of E_min."
+    },
+    {
+      "sid": "s000167",
+      "role": "chitchat",
+      "role_score": 1.0,
+      "role_reason": "Acknowledgement."
+    },
+    {
+      "sid": "s000168",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Identifies E_min in the example."
+    },
+    {
+      "sid": "s000169",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Restates the claim about E_min and MSTs."
+    },
+    {
+      "sid": "s000170",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Indicates the speaker's role in the claim."
+    },
+    {
+      "sid": "s000171",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Encourages the audience to verify the claim."
+    },
+    {
+      "sid": "s000172",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Suggests trying to build an MST."
+    },
+    {
+      "sid": "s000173",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Asks if an MST without E_min can be found."
+    },
+    {
+      "sid": "s000174",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "States that finding such an MST is not possible."
+    },
+    {
+      "sid": "s000175",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Suggests inspection for verification."
+    },
+    {
+      "sid": "s000176",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Notes that the proof is pending."
+    },
+    {
+      "sid": "s000177",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "States the intention to provide the proof."
+    },
+    {
+      "sid": "s000178",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Indicates the next step in the explanation."
+    },
+    {
+      "sid": "s000179",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explains why a specific edge is a 'no-brainer' for MST."
+    },
+    {
+      "sid": "s000180",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Justifies the inclusion of the minimum weight edge."
+    },
+    {
+      "sid": "s000181",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Proposes to examine another partition."
+    },
+    {
+      "sid": "s000182",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Refers to the next example."
+    },
+    {
+      "sid": "s000183",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Asks for the value of E_min in the new partition."
+    },
+    {
+      "sid": "s000184",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Identifies the minimum weight edge in the new partition."
+    },
+    {
+      "sid": "s000185",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Restates the claim for the edge with weight 9."
+    },
+    {
+      "sid": "s000186",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "States that the reasoning for this case is easy."
+    },
+    {
+      "sid": "s000187",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Identifies the weight 9 as the largest."
+    },
+    {
+      "sid": "s000188",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explains why the edge with weight 9 must be in an MST."
+    },
+    {
+      "sid": "s000189",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "States the consequence if the edge is not included."
+    },
+    {
+      "sid": "s000190",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Describes the alternative structure if the edge is missing."
+    },
+    {
+      "sid": "s000191",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Suggests alternative graph structures."
+    },
+    {
+      "sid": "s000192",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Encourages further verification of the claim."
+    },
+    {
+      "sid": "s000193",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Reiterates the impossibility of counterexamples."
+    },
+    {
+      "sid": "s000194",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Introduces the MST theorem."
+    },
+    {
+      "sid": "s000195",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "States the MST theorem's generality."
+    },
+    {
+      "sid": "s000196",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Clarifies that the theorem is more general than existence."
+    },
+    {
+      "sid": "s000197",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Emphasizes the theorem's broad applicability."
+    },
+    {
+      "sid": "s000198",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Restates the MST theorem."
+    },
+    {
+      "sid": "s000199",
+      "role": "chitchat",
+      "role_score": 1.0,
+      "role_reason": "Acknowledgement."
+    },
+    {
+      "sid": "s000200",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Asks for clarification on the definition of E_min."
+    },
+    {
+      "sid": "s000201",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Confirms the clarification."
+    },
+    {
+      "sid": "s000202",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Provides the precise definition of E_min."
+    },
+    {
+      "sid": "s000203",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Asks how the partitions are defined."
+    },
+    {
+      "sid": "s000204",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "States that the partitions can be arbitrary."
+    },
+    {
+      "sid": "s000205",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explains the implication of the MST theorem regarding E_min."
+    },
+    {
+      "sid": "s000206",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Summarizes the MST theorem's statement."
+    },
+    {
+      "sid": "s000207",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Comments on the theorem's significance."
+    },
+    {
+      "sid": "s000208",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Begins the proof by contradiction."
+    },
+    {
+      "sid": "s000209",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "States the contradictory assumption."
+    },
+    {
+      "sid": "s000210",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "States the theorem's claim."
+    },
+    {
+      "sid": "s000211",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explains the logical relationship between statements."
+    },
+    {
+      "sid": "s000212",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Provides an analogy for the logical relationship."
+    },
+    {
+      "sid": "s000213",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "States the outcome of the contradiction."
+    },
+    {
+      "sid": "s000214",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explains the implication of finding a counterexample."
+    },
+    {
+      "sid": "s000215",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Describes the alternative approach to contradiction."
+    },
+    {
+      "sid": "s000216",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "States the conclusion if the alternative approach leads to contradiction."
+    },
+    {
+      "sid": "s000217",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Announces the start of the formal proof."
+    },
+    {
+      "sid": "s000218",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Identifies the proof technique."
+    },
+    {
+      "sid": "s000219",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Draws analogy to other proofs."
+    },
+    {
+      "sid": "s000220",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Refers to the MST theorem."
+    },
+    {
+      "sid": "s000221",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "States the assumption for the contradiction."
+    },
+    {
+      "sid": "s000222",
+      "role": "chitchat",
+      "role_score": 1.0,
+      "role_reason": "Acknowledgement."
+    },
+    {
+      "sid": "s000223",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Asks about the structure of the contradiction."
+    },
+    {
+      "sid": "s000224",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Suggests the presence of an edge."
+    },
+    {
+      "sid": "s000225",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Reiterates the necessity of a cross-partition edge."
+    },
+    {
+      "sid": "s000226",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Refers to the same partition used earlier."
+    },
+    {
+      "sid": "s000227",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Starts explaining the consequence of the assumption."
+    },
+    {
+      "sid": "s000228",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explains why the contradiction MST is not a tree."
+    },
+    {
+      "sid": "s000229",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "States the consequence of not being a tree."
+    },
+    {
+      "sid": "s000230",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Asserts the presence of a specific edge."
+    },
+    {
+      "sid": "s000231",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Acknowledges the possibility of other edges."
+    },
+    {
+      "sid": "s000232",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Expresses uncertainty about the number of edges."
+    },
+    {
+      "sid": "s000233",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "States indifference to the exact number."
+    },
+    {
+      "sid": "s000234",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Asks about the existence of other edges."
+    },
+    {
+      "sid": "s000235",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Confirms the possibility of other edges."
+    },
+    {
+      "sid": "s000236",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Describes the resulting graph structure."
+    },
+    {
+      "sid": "s000237",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "States that more edges are possible."
+    },
+    {
+      "sid": "s000238",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Specifies the range of possible edges."
+    },
+    {
+      "sid": "s000239",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Confirms that any number of edges is acceptable."
+    },
+    {
+      "sid": "s000240",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Labels the graph constructed under contradiction."
+    },
+    {
+      "sid": "s000241",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Refers to the depicted tree structure."
+    },
+    {
+      "sid": "s000242",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Indicates a correction or simplification."
+    },
+    {
+      "sid": "s000243",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explains the meaning of the 'contradiction MST'."
+    },
+    {
+      "sid": "s000244",
+      "role": "chitchat",
+      "role_score": 1.0,
+      "role_reason": "Acknowledgement."
+    },
+    {
+      "sid": "s000245",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explains the logical complement."
+    },
+    {
+      "sid": "s000246",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "States the acceptance of the contradictory hypothesis."
+    },
+    {
+      "sid": "s000247",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Restates the contradictory hypothesis."
+    },
+    {
+      "sid": "s000248",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Describes the next step: adding E_min."
+    },
+    {
+      "sid": "s000249",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Indicates where E_min is added."
+    },
+    {
+      "sid": "s000250",
+      "role": "qa",
+      "role_score": 1.0,
+      "role_reason": "Asks for the identity of E_min."
+    },
+    {
+      "sid": "s000251",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "States that E_min is the same edge."
+    },
+    {
+      "sid": "s000252",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Reiterates the definition of E_min."
+    },
+    {
+      "sid": "s000253",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explains the reason for the labeling."
+    },
+    {
+      "sid": "s000254",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Confirms the identity of the edge."
+    },
+    {
+      "sid": "s000255",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Checks for audience understanding."
+    },
+    {
+      "sid": "s000256",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Summarizes the construction process."
+    },
+    {
+      "sid": "s000257",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "States the consequence of adding E_min."
+    },
+    {
+      "sid": "s000258",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Recalls the effect of adding an edge to a tree."
+    },
+    {
+      "sid": "s000259",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "States that the result is no longer a tree."
+    },
+    {
+      "sid": "s000260",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "References prior discussion."
+    },
+    {
+      "sid": "s000261",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Indicates a specific action."
+    },
+    {
+      "sid": "s000262",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Reiterates the creation of a cycle when adding an edge."
+    },
+    {
+      "sid": "s000263",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Identifies the cycle formed."
+    },
+    {
+      "sid": "s000264",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Confirms the presence of a cycle."
+    },
+    {
+      "sid": "s000265",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Describes the operation: remove a cycle edge."
+    },
+    {
+      "sid": "s000266",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Assigns a temporary name to the removed edge."
+    },
+    {
+      "sid": "s000267",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Describes the operation: add E_min."
+    },
+    {
+      "sid": "s000268",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "States the order of operations."
+    },
+    {
+      "sid": "s000269",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explains the reason for the order."
+    },
+    {
+      "sid": "s000270",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Specifies the operations: add E_min, remove E_cycle."
+    },
+    {
+      "sid": "s000271",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Indicates the result of the operations."
+    },
+    {
+      "sid": "s000272",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Labels the resulting graph T prime."
+    },
+    {
+      "sid": "s000273",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explains the construction of T prime."
+    },
+    {
+      "sid": "s000274",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Refers to prior discussion of this operation."
+    },
+    {
+      "sid": "s000275",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Recalls a previous explanation about adding/removing edges."
+    },
+    {
+      "sid": "s000276",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "States the outcome of removing an edge."
+    },
+    {
+      "sid": "s000277",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Confirms that the described operation is being performed."
+    },
+    {
+      "sid": "s000278",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Transitioning from previous lecture content."
+    },
+    {
+      "sid": "s000279",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Continuation of lecture explanation."
+    },
+    {
+      "sid": "s000280",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explaining a contradiction in the lecture."
+    },
+    {
+      "sid": "s000281",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Providing an analogy to explain a concept."
+    },
+    {
+      "sid": "s000282",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Summarizing the analogy's relevance."
+    },
+    {
+      "sid": "s000283",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Continuing explanation of graph modification."
+    },
+    {
+      "sid": "s000284",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor asks a question to guide explanation."
+    },
+    {
+      "sid": "s000285",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Direct answer to the preceding question."
+    },
+    {
+      "sid": "s000286",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Detailed explanation of definition and implication."
+    },
+    {
+      "sid": "s000287",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Concluding a proof step with a definition."
+    },
+    {
+      "sid": "s000288",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Stating a conclusion from the contradiction."
+    },
+    {
+      "sid": "s000289",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explaining the implication of the contradiction."
+    },
+    {
+      "sid": "s000290",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Reinforcing the proof's basis."
+    },
+    {
+      "sid": "s000291",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Transitioning to the algorithm's game plan."
+    },
+    {
+      "sid": "s000292",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Stating the theorem's validity based on proof."
+    },
+    {
+      "sid": "s000293",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explaining the theorem's implication for bipartitions."
+    },
+    {
+      "sid": "s000294",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Introducing a crucial condition for the theorem."
+    },
+    {
+      "sid": "s000295",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explaining the consequence of non-unique weights."
+    },
+    {
+      "sid": "s000296",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Stating the modified inequality for non-unique weights."
+    },
+    {
+      "sid": "s000297",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explaining the implication of non-unique weights on contradiction."
+    },
+    {
+      "sid": "s000298",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Summarizing the limitation for non-unique weights."
+    },
+    {
+      "sid": "s000299",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Reinforcing the previous statement."
+    },
+    {
+      "sid": "s000300",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Hinting at future discussion."
+    },
+    {
+      "sid": "s000301",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Downplaying the current issue."
+    },
+    {
+      "sid": "s000302",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Transitioning to the algorithm's plan."
+    },
+    {
+      "sid": "s000303",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Describing the process of creating partitions and finding E sub min."
+    },
+    {
+      "sid": "s000304",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining the action taken with E sub min."
+    },
+    {
+      "sid": "s000305",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor asks a rhetorical question."
+    },
+    {
+      "sid": "s000306",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Answering the rhetorical question using the theorem."
+    },
+    {
+      "sid": "s000307",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Describing the next step in the algorithm."
+    },
+    {
+      "sid": "s000308",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining the action taken with the new E sub min."
+    },
+    {
+      "sid": "s000309",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Indicating repetition of the process."
+    },
+    {
+      "sid": "s000310",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explaining a condition to avoid redundant work."
+    },
+    {
+      "sid": "s000311",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Stating the consequence of not meeting the condition."
+    },
+    {
+      "sid": "s000312",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Stating the requirement for progress."
+    },
+    {
+      "sid": "s000313",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Summarizing the algorithm's plan."
+    },
+    {
+      "sid": "s000314",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Describing the overall process and output."
+    },
+    {
+      "sid": "s000315",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Concluding the description of the process."
+    },
+    {
+      "sid": "s000316",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor asks a question about the number of iterations."
+    },
+    {
+      "sid": "s000317",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Direct answer to the preceding question."
+    },
+    {
+      "sid": "s000318",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explaining the reason for N-1 edges in an MST."
+    },
+    {
+      "sid": "s000319",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Clarifying the scope of the statement."
+    },
+    {
+      "sid": "s000320",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Stating a property of spanning trees."
+    },
+    {
+      "sid": "s000321",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explaining how different partitions lead to different algorithms."
+    },
+    {
+      "sid": "s000322",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Introducing the two fundamental approaches to partitioning."
+    },
+    {
+      "sid": "s000323",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Naming the two fundamental algorithms and their origin."
+    },
+    {
+      "sid": "s000324",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Reiterating the use of the MST theorem."
+    },
+    {
+      "sid": "s000325",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Naming Prim's algorithm."
+    },
+    {
+      "sid": "s000326",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Naming Kruskal's algorithm."
+    },
+    {
+      "sid": "s000327",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Stating which algorithms will be studied."
+    },
+    {
+      "sid": "s000328",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining the relationship of other algorithms to these two."
+    },
+    {
+      "sid": "s000329",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Justifying the focus on these two algorithms."
+    },
+    {
+      "sid": "s000330",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Concluding the statement about understanding MST algorithms."
+    },
+    {
+      "sid": "s000331",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Reiterating the algorithm's game plan."
+    },
+    {
+      "sid": "s000332",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Describing the first step of the algorithm."
+    },
+    {
+      "sid": "s000333",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explaining the justification for outputting the edge."
+    },
+    {
+      "sid": "s000334",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Describing the next iteration of the algorithm."
+    },
+    {
+      "sid": "s000335",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Stating the minimum value found in the next iteration."
+    },
+    {
+      "sid": "s000336",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explaining the justification for outputting the new minimum edge."
+    },
+    {
+      "sid": "s000337",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Reinforcing the previous statement."
+    },
+    {
+      "sid": "s000338",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Stating the total number of iterations."
+    },
+    {
+      "sid": "s000339",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining the outcome of each iteration."
+    },
+    {
+      "sid": "s000340",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Concluding the description of the algorithm's steps."
+    },
+    {
+      "sid": "s000341",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Stating the approach to proof."
+    },
+    {
+      "sid": "s000342",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Indicating reliance on the MST theorem for proof."
+    },
+    {
+      "sid": "s000343",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor asks a rhetorical question about justification."
+    },
+    {
+      "sid": "s000344",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Answering the rhetorical question by referencing the theorem."
+    },
+    {
+      "sid": "s000345",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Summarizing the overall plan."
+    },
+    {
+      "sid": "s000346",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor asks for confirmation of understanding."
+    },
+    {
+      "sid": "s000347",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor asks for confirmation of understanding."
+    },
+    {
+      "sid": "s000348",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Transitioning to implementation details."
+    },
+    {
+      "sid": "s000349",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Outlining the two levels of detail."
+    },
+    {
+      "sid": "s000350",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Specifying the first detail: producing partitions."
+    },
+    {
+      "sid": "s000351",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Specifying the second detail: implementation."
+    },
+    {
+      "sid": "s000352",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Categorizing the implementation details."
+    },
+    {
+      "sid": "s000353",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explaining the preferred order of discussing algorithm and data structure."
+    },
+    {
+      "sid": "s000354",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Stating the placement of detailed data structure discussion."
+    },
+    {
+      "sid": "s000355",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Justifying the preferred order of discussion."
+    },
+    {
+      "sid": "s000356",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Reinforcing the preference for the order."
+    },
+    {
+      "sid": "s000357",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Stating what the professor wants to avoid discussing now."
+    },
+    {
+      "sid": "s000358",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Clarifying the timing of the discussion."
+    },
+    {
+      "sid": "s000359",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining the reason for avoiding data structure discussion."
+    },
+    {
+      "sid": "s000360",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Elaborating on the complexity of data structures."
+    },
+    {
+      "sid": "s000361",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Continuing the explanation of why data structures are deferred."
+    },
+    {
+      "sid": "s000362",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explaining the consequence of algorithm issues on data structure analysis."
+    },
+    {
+      "sid": "s000363",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Expressing reluctance to redo work."
+    },
+    {
+      "sid": "s000364",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Transitioning to the next step."
+    },
+    {
+      "sid": "s000365",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Stating the importance of the current proof."
+    },
+    {
+      "sid": "s000366",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Emphasizing repetition."
+    },
+    {
+      "sid": "s000367",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Starting a new section of the algorithm description."
+    },
+    {
+      "sid": "s000368",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Describing the first step of partition generation."
+    },
+    {
+      "sid": "s000369",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explaining how to generate the initial partitions."
+    },
+    {
+      "sid": "s000370",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Characterizing the method of picking a vertex."
+    },
+    {
+      "sid": "s000371",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explaining the arbitrary nature of picking the first vertex."
+    },
+    {
+      "sid": "s000372",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Advising against overthinking the choice."
+    },
+    {
+      "sid": "s000373",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Contrasting arbitrary with random selection."
+    },
+    {
+      "sid": "s000374",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Stating a general principle about randomness."
+    },
+    {
+      "sid": "s000375",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Qualifying the principle about randomness."
+    },
+    {
+      "sid": "s000376",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining the cost of non-arbitrary choices."
+    },
+    {
+      "sid": "s000377",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Comparing arbitrary and random selection."
+    },
+    {
+      "sid": "s000378",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Clarifying the meaning of 'arbitrary' in this context."
+    },
+    {
+      "sid": "s000379",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Stating the cost of non-arbitrary choices."
+    },
+    {
+      "sid": "s000380",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explaining the time complexity of arbitrary selection."
+    },
+    {
+      "sid": "s000381",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Specifying the choice of the first vertex."
+    },
+    {
+      "sid": "s000382",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Describing the placement of the chosen vertex."
+    },
+    {
+      "sid": "s000383",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Describing the placement of the remaining vertices."
+    },
+    {
+      "sid": "s000384",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Stating the number of vertices in the second partition."
+    },
+    {
+      "sid": "s000385",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Stating the number of vertices in the first partition."
+    },
+    {
+      "sid": "s000386",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Seeking confirmation."
+    },
+    {
+      "sid": "s000387",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Referencing Prim's algorithm's description."
+    },
+    {
+      "sid": "s000388",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explaining Prim's step of considering edges from the single vertex."
+    },
+    {
+      "sid": "s000389",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Rephrasing the consideration of edges in terms of partitions."
+    },
+    {
+      "sid": "s000390",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Simplifying the edge consideration due to partition size."
+    },
+    {
+      "sid": "s000391",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor asks a question about the number of edges."
+    },
+    {
+      "sid": "s000392",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Direct answer to the preceding question."
+    },
+    {
+      "sid": "s000393",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Providing possible values for the number of edges."
+    },
+    {
+      "sid": "s000394",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Providing possible values for the number of edges."
+    },
+    {
+      "sid": "s000395",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Stating the range of possibilities."
+    },
+    {
+      "sid": "s000396",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Direct answer to the preceding question."
+    },
+    {
+      "sid": "s000397",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Stating the irrelevance of the exact number."
+    },
+    {
+      "sid": "s000398",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Acknowledging a student's interjection."
+    },
+    {
+      "sid": "s000399",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student asks a question about cycles."
+    },
+    {
+      "sid": "s000400",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor clarifies the condition for a cycle."
+    },
+    {
+      "sid": "s000401",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor asks for clarification."
+    },
+    {
+      "sid": "s000402",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor acknowledges answering their own question."
+    },
+    {
+      "sid": "s000403",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor expresses gratitude."
+    },
+    {
+      "sid": "s000404",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor clarifies who answered the question."
+    },
+    {
+      "sid": "s000405",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Continuing the explanation of edge possibilities."
+    },
+    {
+      "sid": "s000406",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Providing a possible number of edges."
+    },
+    {
+      "sid": "s000407",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Providing another possible number of edges."
+    },
+    {
+      "sid": "s000408",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explaining Prim's algorithm's action: finding the minimum edge."
+    },
+    {
+      "sid": "s000409",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Stating the number of edges to consider."
+    },
+    {
+      "sid": "s000410",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explaining the selection and output of the minimum weight edge."
+    },
+    {
+      "sid": "s000411",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Confirming the action of outputting the edge."
+    },
+    {
+      "sid": "s000412",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Attributing the action to Prim's algorithm."
+    },
+    {
+      "sid": "s000413",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Transitioning to the next step of the algorithm."
+    },
+    {
+      "sid": "s000414",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Describing the creation of the next partition."
+    },
+    {
+      "sid": "s000415",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining the modification to create the new partition."
+    },
+    {
+      "sid": "s000416",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Stating the result of the partition modification."
+    },
+    {
+      "sid": "s000417",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Describing the sizes of the new partitions."
+    },
+    {
+      "sid": "s000418",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Indicating the next step: finding the new minimum edge."
+    },
+    {
+      "sid": "s000419",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor asks a question about the new minimum edge."
+    },
+    {
+      "sid": "s000420",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Direct answer to the preceding question."
+    },
+    {
+      "sid": "s000421",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor asks a clarifying question."
+    },
+    {
+      "sid": "s000422",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Identifying a potential candidate for the minimum edge."
+    },
+    {
+      "sid": "s000423",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Confirming the possibility."
+    },
+    {
+      "sid": "s000424",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor asks about another potential candidate."
+    },
+    {
+      "sid": "s000425",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Confirming the possibility."
+    },
+    {
+      "sid": "s000426",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explaining the potential issue of outputting the same edge."
+    },
+    {
+      "sid": "s000427",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Continuing the explanation of the potential problem."
+    },
+    {
+      "sid": "s000428",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor interrupts to emphasize a point."
+    },
+    {
+      "sid": "s000429",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Stating the requirement for the minimum edge."
+    },
+    {
+      "sid": "s000430",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor repeats the emphasis."
+    },
+    {
+      "sid": "s000431",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Stating the requirement for the minimum edge."
+    },
+    {
+      "sid": "s000432",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Acknowledging the repeated emphasis."
+    },
+    {
+      "sid": "s000433",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Confirming the requirement."
+    },
+    {
+      "sid": "s000434",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Expressing frustration with lack of progress."
+    },
+    {
+      "sid": "s000435",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explaining why moving a vertex is a bad idea."
+    },
+    {
+      "sid": "s000436",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Introducing an alternative approach."
+    },
+    {
+      "sid": "s000437",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Introducing new notation for partitions."
+    },
+    {
+      "sid": "s000438",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Describing the connection of edges to the other side."
+    },
+    {
+      "sid": "s000439",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Introducing notation for vertices on the other side."
+    },
+    {
+      "sid": "s000440",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Clarifying the origin of the naming convention."
+    },
+    {
+      "sid": "s000441",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Acknowledging that original names may differ."
+    },
+    {
+      "sid": "s000442",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Providing examples of original vertex names."
+    },
+    {
+      "sid": "s000443",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Indicating the next step in the algorithm."
+    },
+    {
+      "sid": "s000444",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor asks for confirmation of the current state."
+    },
+    {
+      "sid": "s000445",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Describing the new partition structure."
+    },
+    {
+      "sid": "s000446",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Seeking confirmation."
+    },
+    {
+      "sid": "s000447",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Indicating the next step: finding the new minimum edge."
+    },
+    {
+      "sid": "s000448",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Introducing notation for the new minimum edge."
+    },
+    {
+      "sid": "s000449",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Seeking confirmation."
+    },
+    {
+      "sid": "s000450",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explaining the potential connections for the new minimum edge."
+    },
+    {
+      "sid": "s000451",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Correcting a previous statement."
+    },
+    {
+      "sid": "s000452",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Clarifying the possible connections."
+    },
+    {
+      "sid": "s000453",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Stating uncertainty about the connection."
+    },
+    {
+      "sid": "s000454",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Stating irrelevance of the specific connection."
+    },
+    {
+      "sid": "s000455",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining dependency on graph topology."
+    },
+    {
+      "sid": "s000456",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Describing a possible scenario for the new minimum edge."
+    },
+    {
+      "sid": "s000457",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor asks a question about the definition of the new minimum edge."
+    },
+    {
+      "sid": "s000458",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Referring back to the process of creating the partition."
+    },
+    {
+      "sid": "s000459",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Identifying the other end of the original minimum edge."
+    },
+    {
+      "sid": "s000460",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Stating that this is the new minimum edge."
+    },
+    {
+      "sid": "s000461",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining the action taken with the new minimum edge."
+    },
+    {
+      "sid": "s000462",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor asks a rhetorical question."
+    },
+    {
+      "sid": "s000463",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Answering the rhetorical question by referencing the theorem."
+    },
+    {
+      "sid": "s000464",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Reiterating the justification."
+    },
+    {
+      "sid": "s000465",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Concluding the statement."
+    },
+    {
+      "sid": "s000466",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Stating the implication of proving the MST theorem once."
+    },
+    {
+      "sid": "s000467",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explaining the repeated application of the theorem in the algorithm."
+    },
+    {
+      "sid": "s000468",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Summarizing the progress made so far."
+    },
+    {
+      "sid": "s000469",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Hinting at the next step."
+    },
+    {
+      "sid": "s000470",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Describing the next action in the algorithm."
+    },
+    {
+      "sid": "s000471",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Introducing notation for the next vertex."
+    },
+    {
+      "sid": "s000472",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Describing the state of partitions after multiple steps."
+    },
+    {
+      "sid": "s000473",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Stating the number of remaining vertices."
+    },
+    {
+      "sid": "s000474",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Describing the process of finding the next minimum edge."
+    },
+    {
+      "sid": "s000475",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explaining the output of the new minimum edge."
+    },
+    {
+      "sid": "s000476",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explaining how the algorithm ensures progress by selecting the other side."
+    },
+    {
+      "sid": "s000477",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Clarifying the implication of the selection strategy."
+    },
+    {
+      "sid": "s000478",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Stating the desired outcome of the strategy."
+    },
+    {
+      "sid": "s000479",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining the reason for avoiding repeated edges."
+    },
+    {
+      "sid": "s000480",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Summarizing the output of minimum edges in each step."
+    },
+    {
+      "sid": "s000481",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Indicating the continuation of the process."
+    },
+    {
+      "sid": "s000482",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Describing the final state of the partitions."
+    },
+    {
+      "sid": "s000483",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Stating the vertices in the final partitions."
+    },
+    {
+      "sid": "s000484",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Describing the final partition and the last minimum edge."
+    },
+    {
+      "sid": "s000485",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explaining the final actions and completion of the algorithm."
+    },
+    {
+      "sid": "s000486",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Reiterating the use of the MST theorem."
+    },
+    {
+      "sid": "s000487",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Stating the confidence in the correctness of the output edges."
+    },
+    {
+      "sid": "s000488",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor asks a question about the algorithm's correctness."
+    },
+    {
+      "sid": "s000489",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Answering the question by referencing the MST theorem."
+    },
+    {
+      "sid": "s000490",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Concluding the explanation."
+    },
+    {
+      "sid": "s000491",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Stating that the proof is complete."
+    },
+    {
+      "sid": "s000492",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Asserting the correctness of each step."
+    },
+    {
+      "sid": "s000493",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explaining why each step is correct."
+    },
+    {
+      "sid": "s000494",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Concluding that the collective output is correct."
+    },
+    {
+      "sid": "s000495",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Stating the final outcome."
+    },
+    {
+      "sid": "s000496",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Seeking confirmation."
+    },
+    {
+      "sid": "s000497",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Describing the action performed in each step of the algorithm."
+    },
+    {
+      "sid": "s000498",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Detailing the process of finding and outputting the minimum edge in each step."
+    },
+    {
+      "sid": "s000499",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Concluding the description of the step."
+    },
+    {
+      "sid": "s000500",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Acknowledging a student's interjection."
+    },
+    {
+      "sid": "s000501",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student asks a question about outputting all edges."
+    },
+    {
+      "sid": "s000502",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Direct answer to the preceding question, explaining the number of edges output."
+    },
+    {
+      "sid": "s000503",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Clarifying the number of edges outputted."
+    },
+    {
+      "sid": "s000504",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Continuing the explanation."
+    },
+    {
+      "sid": "s000505",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Seeking confirmation."
+    },
+    {
+      "sid": "s000506",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Acknowledging a student's interjection."
+    },
+    {
+      "sid": "s000507",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student asks a hypothetical question about missed edges."
+    },
+    {
+      "sid": "s000508",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor asks for clarification of the student's question."
+    },
+    {
+      "sid": "s000509",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Professor reassures that the issue will be addressed."
+    },
+    {
+      "sid": "s000510",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Stating that the algorithm will handle the situation."
+    },
+    {
+      "sid": "s000511",
+      "role": "announcement",
+      "role_score": 1.0,
+      "role_reason": "Professor addresses the class about asking questions."
+    },
+    {
+      "sid": "s000512",
+      "role": "announcement",
+      "role_score": 1.0,
+      "role_reason": "Professor addresses the class about not distracting others."
+    },
+    {
+      "sid": "s000513",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Returning to the algorithm explanation."
+    },
+    {
+      "sid": "s000514",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explaining why the edge will not be lost."
+    },
+    {
+      "sid": "s000515",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Addressing the possibility of a large weight edge."
+    },
+    {
+      "sid": "s000516",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Acknowledging the student's specific concern."
+    },
+    {
+      "sid": "s000517",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor asks a clarifying question about the student's concern."
+    },
+    {
+      "sid": "s000518",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explaining when the edge in question will be considered."
+    },
+    {
+      "sid": "s000519",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Instructing the student."
+    },
+    {
+      "sid": "s000520",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Instructing the student."
+    },
+    {
+      "sid": "s000521",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Advising against overthinking."
+    },
+    {
+      "sid": "s000522",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor asks a rhetorical question about missed edges."
+    },
+    {
+      "sid": "s000523",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Reiterating the correctness of output edges based on the MST theorem."
+    },
+    {
+      "sid": "s000524",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining the complementary perspective of the proof."
+    },
+    {
+      "sid": "s000525",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Stating the directness of the proof."
+    },
+    {
+      "sid": "s000526",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Summarizing the correctness of each output."
+    },
+    {
+      "sid": "s000527",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Transitioning to the next part of the explanation."
+    },
+    {
+      "sid": "s000528",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Providing example weights for edges."
+    },
+    {
+      "sid": "s000529",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Listing the example weights."
+    },
+    {
+      "sid": "s000530",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explaining how to handle unconnected vertices."
+    },
+    {
+      "sid": "s000531",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Comparing the current numbering to Dijkstra's numbering."
+    },
+    {
+      "sid": "s000532",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Clarifying the reference to Dijkstra's algorithm."
+    },
+    {
+      "sid": "s000533",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explaining Dijkstra's numbering's purpose."
+    },
+    {
+      "sid": "s000534",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explaining the difference in the new numbering."
+    },
+    {
+      "sid": "s000535",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Comparing the new numbering to Dijkstra's."
+    },
+    {
+      "sid": "s000536",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Stating the similarity in analysis."
+    },
+    {
+      "sid": "s000537",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Transitioning to the next phase of the explanation."
+    },
+    {
+      "sid": "s000538",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Indicating readiness for implementation details."
+    },
+    {
+      "sid": "s000539",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Stating that an algorithm is ready."
+    },
+    {
+      "sid": "s000540",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Reiterating the algorithm's correctness."
+    },
+    {
+      "sid": "s000541",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Stating the value of the effort invested."
+    },
+    {
+      "sid": "s000542",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explaining the benefit of reusing the proof."
+    },
+    {
+      "sid": "s000543",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Indicating the next step in implementation."
+    },
+    {
+      "sid": "s000544",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Asking about the time complexity of finding the minimum."
+    },
+    {
+      "sid": "s000545",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explaining the initial time complexity for finding the minimum."
+    },
+    {
+      "sid": "s000546",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Describing the process of updating parameters after moving a vertex."
+    },
+    {
+      "sid": "s000547",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining the connections to the moved vertex."
+    },
+    {
+      "sid": "s000548",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Stating the need to update parameters."
+    },
+    {
+      "sid": "s000549",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Providing an example of a previous distance."
+    },
+    {
+      "sid": "s000550",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Providing an example of a new distance."
+    },
+    {
+      "sid": "s000551",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explaining the update process based on the new vertex."
+    },
+    {
+      "sid": "s000552",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explaining the condition for not updating a distance."
+    },
+    {
+      "sid": "s000553",
+      "role": "lecture",
+      "role_score": 1.0,
+      "role_reason": "Explaining the worst-case time complexity of updates."
+    },
+    {
+      "sid": "s000554",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Justifying the time complexity of updates."
+    },
+    {
+      "sid": "s000555",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "continuation of lecture, acknowledges previous point"
+    },
+    {
+      "sid": "s000556",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "introduces example for explanation"
+    },
+    {
+      "sid": "s000557",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "part of example explanation"
+    },
+    {
+      "sid": "s000558",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "part of example explanation"
+    },
+    {
+      "sid": "s000559",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "part of example explanation"
+    },
+    {
+      "sid": "s000560",
+      "role": "qa",
+      "role_score": 0.8,
+      "role_reason": "student question about picking minimum"
+    },
+    {
+      "sid": "s000561",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "explains procedure for finding minimum"
+    },
+    {
+      "sid": "s000562",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "explains procedure for finding minimum"
+    },
+    {
+      "sid": "s000563",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "explains procedure for finding minimum"
+    },
+    {
+      "sid": "s000564",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "explains procedure for finding minimum"
+    },
+    {
+      "sid": "s000565",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "transition to next step in algorithm"
+    },
+    {
+      "sid": "s000566",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "describes next step in algorithm"
+    },
+    {
+      "sid": "s000567",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "continues explanation of algorithm state"
+    },
+    {
+      "sid": "s000568",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "continues explanation of algorithm state"
+    },
+    {
+      "sid": "s000569",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "continues explanation of algorithm state"
+    },
+    {
+      "sid": "s000570",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "explains updating parameters"
+    },
+    {
+      "sid": "s000571",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "example value"
+    },
+    {
+      "sid": "s000572",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "explains updating parameters"
+    },
+    {
+      "sid": "s000573",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "explains updating parameters"
+    },
+    {
+      "sid": "s000574",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "discusses worst-case complexity"
+    },
+    {
+      "sid": "s000575",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "reiterates previous point about complexity"
+    },
+    {
+      "sid": "s000576",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "summarizes algorithm step"
+    },
+    {
+      "sid": "s000577",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "explains complexity of finding minimum and updating"
+    },
+    {
+      "sid": "s000578",
+      "role": "qa",
+      "role_score": 0.8,
+      "role_reason": "student question about number of stages"
+    },
+    {
+      "sid": "s000579",
+      "role": "qa",
+      "role_score": 0.8,
+      "role_reason": "student question about number of stages"
+    },
+    {
+      "sid": "s000580",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "answers question about number of stages"
+    },
+    {
+      "sid": "s000581",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "explains stages of the algorithm"
+    },
+    {
+      "sid": "s000582",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "explains stages of the algorithm"
+    },
+    {
+      "sid": "s000583",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "explains stages of the algorithm"
+    },
+    {
+      "sid": "s000584",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "clarifies number of vertices"
+    },
+    {
+      "sid": "s000585",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "explains initial state"
+    },
+    {
+      "sid": "s000586",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "explains number of stages"
+    },
+    {
+      "sid": "s000587",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "states overall runtime complexity"
+    },
+    {
+      "sid": "s000588",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "acknowledges previous point"
+    },
+    {
+      "sid": "s000589",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "explains a specific scenario"
+    },
+    {
+      "sid": "s000590",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "confirms understanding of scenario"
+    },
+    {
+      "sid": "s000591",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "discusses graph structure"
+    },
+    {
+      "sid": "s000592",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "discusses graph structure"
+    },
+    {
+      "sid": "s000593",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "explains updating process"
+    },
+    {
+      "sid": "s000594",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "refers to previous discussion"
+    },
+    {
+      "sid": "s000595",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "refers to previous discussion"
+    },
+    {
+      "sid": "s000596",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "explains updating process"
+    },
+    {
+      "sid": "s000597",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "example of updating"
+    },
+    {
+      "sid": "s000598",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "example of updating"
+    },
+    {
+      "sid": "s000599",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "explains consequence of updating"
+    },
+    {
+      "sid": "s000600",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "explains consequence of updating"
+    },
+    {
+      "sid": "s000601",
+      "role": "qa",
+      "role_score": 0.8,
+      "role_reason": "student question"
+    },
+    {
+      "sid": "s000602",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "explains process of finding minimum"
+    },
+    {
+      "sid": "s000603",
+      "role": "qa",
+      "role_score": 0.8,
+      "role_reason": "student question about finding minimum"
+    },
+    {
+      "sid": "s000604",
+      "role": "qa",
+      "role_score": 0.8,
+      "role_reason": "student question about finding minimum"
+    },
+    {
+      "sid": "s000605",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "explains how minimum weight is determined"
+    },
+    {
+      "sid": "s000606",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "explains how minimum weight is determined"
+    },
+    {
+      "sid": "s000607",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "example of determining minimum weight"
+    },
+    {
+      "sid": "s000608",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "explains consequence of not knowing weight"
+    },
+    {
+      "sid": "s000609",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "explains how minimum weight is determined"
+    },
+    {
+      "sid": "s000610",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "explains reason for knowing weight"
+    },
+    {
+      "sid": "s000611",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "continuation of explanation"
+    },
+    {
+      "sid": "s000612",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "checks for understanding"
+    },
+    {
+      "sid": "s000613",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "discusses alternative approach"
+    },
+    {
+      "sid": "s000614",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "describes alternative approach"
+    },
+    {
+      "sid": "s000615",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "states complexity of alternative approach"
+    },
+    {
+      "sid": "s000616",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "compares complexities of approaches"
+    },
+    {
+      "sid": "s000617",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "discusses storage of weights"
+    },
+    {
+      "sid": "s000618",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "describes alternative approach to finding minimum"
+    },
+    {
+      "sid": "s000619",
+      "role": "qa",
+      "role_score": 0.8,
+      "role_reason": "student question about number of edges"
+    },
+    {
+      "sid": "s000620",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "answers question about number of edges"
+    },
+    {
+      "sid": "s000621",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "states complexity of alternative approach"
+    },
+    {
+      "sid": "s000622",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "identifies problem with alternative approach"
+    },
+    {
+      "sid": "s000623",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "identifies problem with alternative approach"
+    },
+    {
+      "sid": "s000624",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "states complexity of alternative approach"
+    },
+    {
+      "sid": "s000625",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "states complexity of alternative approach"
+    },
+    {
+      "sid": "s000626",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "contrasts approaches and discusses implementation"
+    },
+    {
+      "sid": "s000627",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "states complexity of preferred approach"
+    },
+    {
+      "sid": "s000628",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "states complexity of alternative approach"
+    },
+    {
+      "sid": "s000629",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "highlights difference in complexity"
+    },
+    {
+      "sid": "s000630",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "discusses conceptual differences"
+    },
+    {
+      "sid": "s000631",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "discusses practical implementation details"
+    },
+    {
+      "sid": "s000632",
+      "role": "qa",
+      "role_score": 0.8,
+      "role_reason": "student question about necessity of list traversal"
+    },
+    {
+      "sid": "s000633",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "compares to Dijkstra's algorithm complexity"
+    },
+    {
+      "sid": "s000634",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "explains complexity based on edge updates"
+    },
+    {
+      "sid": "s000635",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "discusses heap structure and complexity"
+    },
+    {
+      "sid": "s000636",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "emphasizes importance of previous lecture"
+    },
+    {
+      "sid": "s000637",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "explains benefit of understanding heap structure"
+    },
+    {
+      "sid": "s000638",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "attributes speed to prior knowledge"
+    },
+    {
+      "sid": "s000639",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "explains ease of implementation"
+    },
+    {
+      "sid": "s000640",
+      "role": "qa",
+      "role_score": 0.8,
+      "role_reason": "student question"
+    },
+    {
+      "sid": "s000641",
+      "role": "qa",
+      "role_score": 0.8,
+      "role_reason": "student question about complexity notation"
+    },
+    {
+      "sid": "s000642",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "explains consistency of complexity notation"
+    },
+    {
+      "sid": "s000643",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "explains complexity based on edge updates"
+    },
+    {
+      "sid": "s000644",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "explains vertex update frequency"
+    },
+    {
+      "sid": "s000645",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "explains vertex update frequency"
+    },
+    {
+      "sid": "s000646",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "refers to previous terminology"
+    },
+    {
+      "sid": "s000647",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "explains derivation of complexity"
+    },
+    {
+      "sid": "s000648",
+      "role": "qa",
+      "role_score": 0.8,
+      "role_reason": "student question about complexity notation"
+    },
+    {
+      "sid": "s000649",
+      "role": "qa",
+      "role_score": 0.8,
+      "role_reason": "student question about complexity notation"
+    },
+    {
+      "sid": "s000650",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "humorous answer about complexity notation"
+    },
+    {
+      "sid": "s000651",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "explains equivalence of complexity notations"
+    },
+    {
+      "sid": "s000652",
+      "role": "qa",
+      "role_score": 0.8,
+      "role_reason": "student question about complexity notation"
+    },
+    {
+      "sid": "s000653",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "humorous answer about complexity notation"
+    },
+    {
+      "sid": "s000654",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "humorous answer about complexity notation"
+    },
+    {
+      "sid": "s000655",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "introduces algorithm summary"
+    },
+    {
+      "sid": "s000656",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "names the algorithm"
+    },
+    {
+      "sid": "s000657",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "describes algorithm's core operation"
+    },
+    {
+      "sid": "s000658",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "explains how duplicates are avoided"
+    },
+    {
+      "sid": "s000659",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "explains condition for avoiding duplicates"
+    },
+    {
+      "sid": "s000660",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "explains consequence of avoiding duplicates"
+    },
+    {
+      "sid": "s000661",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "explains algorithm termination and output"
+    },
+    {
+      "sid": "s000662",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "names the algorithm"
+    },
+    {
+      "sid": "s000663",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "states condition for algorithm simplicity"
+    },
+    {
+      "sid": "s000664",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "states consequence of not knowing MST theorem"
+    },
+    {
+      "sid": "s000665",
+      "role": "qa",
+      "role_score": 0.8,
+      "role_reason": "student question about justification"
+    },
+    {
+      "sid": "s000666",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "refers to student's question"
+    },
+    {
+      "sid": "s000667",
+      "role": "qa",
+      "role_score": 0.8,
+      "role_reason": "student question about edge inclusion"
+    },
+    {
+      "sid": "s000668",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "explains MST theorem's reassurance"
+    },
+    {
+      "sid": "s000669",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "explains MST theorem's reassurance"
+    },
+    {
+      "sid": "s000670",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "explains focus of MST theorem"
+    },
+    {
+      "sid": "s000671",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "states MST theorem's principle"
+    },
+    {
+      "sid": "s000672",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "states MST theorem's principle"
+    },
+    {
+      "sid": "s000673",
+      "role": "qa",
+      "role_score": 0.8,
+      "role_reason": "student question"
+    },
+    {
+      "sid": "s000674",
+      "role": "qa",
+      "role_score": 0.8,
+      "role_reason": "student question"
+    },
+    {
+      "sid": "s000675",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "explains scenario with updated vertex"
+    },
+    {
+      "sid": "s000676",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "explains reason for moving vertex"
+    },
+    {
+      "sid": "s000677",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "explains process of checking distance"
+    },
+    {
+      "sid": "s000678",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "states previous distance"
+    },
+    {
+      "sid": "s000679",
+      "role": "qa",
+      "role_score": 0.8,
+      "role_reason": "student question"
+    },
+    {
+      "sid": "s000680",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "explains how new distance is determined"
+    },
+    {
+      "sid": "s000681",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "explains comparison for updating"
+    },
+    {
+      "sid": "s000682",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "explains condition for not updating"
+    },
+    {
+      "sid": "s000683",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "explains necessity of check"
+    },
+    {
+      "sid": "s000684",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "explains consequence of not updating"
+    },
+    {
+      "sid": "s000685",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "example of updating"
+    },
+    {
+      "sid": "s000686",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "explains updated distance"
+    },
+    {
+      "sid": "s000687",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "confirms update"
+    },
+    {
+      "sid": "s000688",
+      "role": "qa",
+      "role_score": 0.8,
+      "role_reason": "student question about other edges"
+    },
+    {
+      "sid": "s000689",
+      "role": "qa",
+      "role_score": 0.8,
+      "role_reason": "student question"
+    },
+    {
+      "sid": "s000690",
+      "role": "qa",
+      "role_score": 0.8,
+      "role_reason": "student question"
+    },
+    {
+      "sid": "s000691",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "clarifies context of question"
+    },
+    {
+      "sid": "s000692",
+      "role": "qa",
+      "role_score": 0.8,
+      "role_reason": "student question"
+    },
+    {
+      "sid": "s000693",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "provides example value"
+    },
+    {
+      "sid": "s000694",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "explains setting a value"
+    },
+    {
+      "sid": "s000695",
+      "role": "qa",
+      "role_score": 0.8,
+      "role_reason": "student question about the problem"
+    },
+    {
+      "sid": "s000696",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "explains consequence of not picking minimum"
+    },
+    {
+      "sid": "s000697",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "explains consequence of not picking minimum"
+    },
+    {
+      "sid": "s000698",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "explains scenario for next phase"
+    },
+    {
+      "sid": "s000699",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "explains outcome for next phase"
+    },
+    {
+      "sid": "s000700",
+      "role": "qa",
+      "role_score": 0.8,
+      "role_reason": "student question about considering neighbors"
+    },
+    {
+      "sid": "s000701",
+      "role": "qa",
+      "role_score": 0.8,
+      "role_reason": "student question about considering neighbors"
+    },
+    {
+      "sid": "s000702",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "confirms student's understanding"
+    },
+    {
+      "sid": "s000703",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "confirms necessity of updating neighbors"
+    },
+    {
+      "sid": "s000704",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "explains complexity of updating neighbors"
+    },
+    {
+      "sid": "s000705",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "clarifies scope of update"
+    },
+    {
+      "sid": "s000706",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "explains condition for update"
+    },
+    {
+      "sid": "s000707",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "discusses worst-case scenario"
+    },
+    {
+      "sid": "s000708",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "explains complexity of worst-case update"
+    },
+    {
+      "sid": "s000709",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "accepts complexity of update"
+    },
+    {
+      "sid": "s000710",
+      "role": "qa",
+      "role_score": 0.8,
+      "role_reason": "student question"
+    },
+    {
+      "sid": "s000711",
+      "role": "qa",
+      "role_score": 0.8,
+      "role_reason": "student question comparing algorithms"
+    },
+    {
+      "sid": "s000712",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "confirms similarity to Dijkstra's"
+    },
+    {
+      "sid": "s000713",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "confirms similarity to Dijkstra's"
+    },
+    {
+      "sid": "s000714",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "states similarity to Dijkstra's idea"
+    },
+    {
+      "sid": "s000715",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "defines Prim's algorithm"
+    },
+    {
+      "sid": "s000716",
+      "role": "qa",
+      "role_score": 0.8,
+      "role_reason": "student question"
+    },
+    {
+      "sid": "s000717",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "explains heap usage in Prim's"
+    },
+    {
+      "sid": "s000718",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "explains heap usage for nodes"
+    },
+    {
+      "sid": "s000719",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "explains complexity with heap"
+    },
+    {
+      "sid": "s000720",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "explains heap operation"
+    },
+    {
+      "sid": "s000721",
+      "role": "qa",
+      "role_score": 0.8,
+      "role_reason": "student question"
+    },
+    {
+      "sid": "s000722",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "explains edge's effect on node value"
+    },
+    {
+      "sid": "s000723",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "explains heap insertion"
+    },
+    {
+      "sid": "s000724",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "explains heap insertion per edge"
+    },
+    {
+      "sid": "s000725",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "explains node update frequency"
+    },
+    {
+      "sid": "s000726",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "explains how node minimum is tracked"
+    },
+    {
+      "sid": "s000727",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "explains consequence of edge change"
+    },
+    {
+      "sid": "s000728",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "explains heap insertion"
+    },
+    {
+      "sid": "s000729",
+      "role": "qa",
+      "role_score": 0.8,
+      "role_reason": "student question"
+    },
+    {
+      "sid": "s000730",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "explains heap operation complexity"
+    },
+    {
+      "sid": "s000731",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "indicates proof is pending"
+    },
+    {
+      "sid": "s000732",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "indicates proof is pending"
+    },
+    {
+      "sid": "s000733",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "discusses intuition of complexity"
+    },
+    {
+      "sid": "s000734",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "explains balanced tree property"
+    },
+    {
+      "sid": "s000735",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "explains complexity based on tree depth"
+    },
+    {
+      "sid": "s000736",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "indicates proof is pending"
+    },
+    {
+      "sid": "s000737",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "characterizes Prim's algorithm"
+    },
+    {
+      "sid": "s000738",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "describes Prim's algorithm's focus"
+    },
+    {
+      "sid": "s000739",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "describes Prim's algorithm's operation"
+    },
+    {
+      "sid": "s000740",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "explains consequence of operation"
+    },
+    {
+      "sid": "s000741",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "describes Prim's algorithm's unit of operation"
+    },
+    {
+      "sid": "s000742",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "introduces alternative algorithm approach"
+    },
+    {
+      "sid": "s000743",
+      "role": "qa",
+      "role_score": 0.8,
+      "role_reason": "student question about edge selection"
+    },
+    {
+      "sid": "s000744",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "suggests criterion for edge selection"
+    },
+    {
+      "sid": "s000745",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "defines MST property"
+    },
+    {
+      "sid": "s000746",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "discusses general edge weights"
+    },
+    {
+      "sid": "s000747",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "introduces Kruskal's algorithm approach"
+    },
+    {
+      "sid": "s000748",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "defines notation for edges"
+    },
+    {
+      "sid": "s000749",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "describes Kruskal's algorithm's first step"
+    },
+    {
+      "sid": "s000750",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "highlights sorting step"
+    },
+    {
+      "sid": "s000751",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "indicates future proof of sorting"
+    },
+    {
+      "sid": "s000752",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "states complexity of sorting edges"
+    },
+    {
+      "sid": "s000753",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "states complexity of sorting numbers"
+    },
+    {
+      "sid": "s000754",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "mentions merge sort for proof"
+    },
+    {
+      "sid": "s000755",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "explains focus of edge-centric approach"
+    },
+    {
+      "sid": "s000756",
+      "role": "qa",
+      "role_score": 0.8,
+      "role_reason": "student question about other vertices"
+    },
+    {
+      "sid": "s000757",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "describes location of other vertices"
+    },
+    {
+      "sid": "s000758",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "acknowledges student's point"
+    },
+    {
+      "sid": "s000759",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "discusses existence of other edges"
+    },
+    {
+      "sid": "s000760",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "discusses existence of other edges"
+    },
+    {
+      "sid": "s000761",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "lists other edges"
+    },
+    {
+      "sid": "s000762",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "clarifies visualization"
+    },
+    {
+      "sid": "s000763",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "confirms existence of other edges"
+    },
+    {
+      "sid": "s000764",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "explains focus of illustration"
+    },
+    {
+      "sid": "s000765",
+      "role": "qa",
+      "role_score": 0.8,
+      "role_reason": "student question about edge inclusion"
+    },
+    {
+      "sid": "s000766",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "answers question about edge inclusion"
+    },
+    {
+      "sid": "s000767",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "agrees with part of student's statement"
+    },
+    {
+      "sid": "s000768",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "confirms answer"
+    },
+    {
+      "sid": "s000769",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "disagrees with justification"
+    },
+    {
+      "sid": "s000770",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "expresses doubt about justification"
+    },
+    {
+      "sid": "s000771",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "states understanding of one point"
+    },
+    {
+      "sid": "s000772",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "acknowledges student's understanding"
+    },
+    {
+      "sid": "s000773",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "prompts for deeper explanation"
+    },
+    {
+      "sid": "s000774",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "states understanding of MST theorem"
+    },
+    {
+      "sid": "s000775",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "explains MST theorem application"
+    },
+    {
+      "sid": "s000776",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "concludes edge must be in MST"
+    },
+    {
+      "sid": "s000777",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "acknowledges student's conclusion"
+    },
+    {
+      "sid": "s000778",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "clarifies student's terminology"
+    },
+    {
+      "sid": "s000779",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "confirms student's terminology"
+    },
+    {
+      "sid": "s000780",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "acknowledges clarification"
+    },
+    {
+      "sid": "s000781",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "acknowledges clarification"
+    },
+    {
+      "sid": "s000782",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "refers to student's statement"
+    },
+    {
+      "sid": "s000783",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "confirms understanding of student's statement"
+    },
+    {
+      "sid": "s000784",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "humorous remark about responsibility"
+    },
+    {
+      "sid": "s000785",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "rephrases student's hypothetical scenario"
+    },
+    {
+      "sid": "s000786",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "interprets student's statement about MST theorem"
+    },
+    {
+      "sid": "s000787",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "explains MST theorem application"
+    },
+    {
+      "sid": "s000788",
+      "role": "qa",
+      "role_score": 0.8,
+      "role_reason": "student question about edge weight justification"
+    },
+    {
+      "sid": "s000789",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "explains edge weight justification"
+    },
+    {
+      "sid": "s000790",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "explains edge weight justification"
+    },
+    {
+      "sid": "s000791",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "explains MST theorem application"
+    },
+    {
+      "sid": "s000792",
+      "role": "qa",
+      "role_score": 0.8,
+      "role_reason": "student question about accuracy"
+    },
+    {
+      "sid": "s000793",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "positive feedback on student's understanding"
+    },
+    {
+      "sid": "s000794",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "summarizes progress"
+    },
+    {
+      "sid": "s000795",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "positive remark on progress"
+    },
+    {
+      "sid": "s000796",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "acknowledges student's statement"
+    },
+    {
+      "sid": "s000797",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "acknowledges student's statement"
+    },
+    {
+      "sid": "s000798",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "contrasts Kruskal's approach with Prim's"
+    },
+    {
+      "sid": "s000799",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "explains consistency of Kruskal's philosophy"
+    },
+    {
+      "sid": "s000800",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "states next step in Kruskal's algorithm"
+    },
+    {
+      "sid": "s000801",
+      "role": "qa",
+      "role_score": 0.8,
+      "role_reason": "student question about edge location"
+    },
+    {
+      "sid": "s000802",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "acknowledges uncertainty about edge location"
+    },
+    {
+      "sid": "s000803",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "suggests possible location"
+    },
+    {
+      "sid": "s000804",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "explains adherence to technique"
+    },
+    {
+      "sid": "s000805",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "describes partitioning strategy"
+    },
+    {
+      "sid": "s000806",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "explains minimum edge in partition"
+    },
+    {
+      "sid": "s000807",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "explains condition for minimum edge"
+    },
+    {
+      "sid": "s000808",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "explains minimum edge in partition"
+    },
+    {
+      "sid": "s000809",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "clarifies MST theorem condition"
+    },
+    {
+      "sid": "s000810",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "confirms condition met"
+    },
+    {
+      "sid": "s000811",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "explores alternative scenario"
+    },
+    {
+      "sid": "s000812",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "explores alternative scenario"
+    },
+    {
+      "sid": "s000813",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "explores alternative scenario"
+    },
+    {
+      "sid": "s000814",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "acknowledges alternative scenario"
+    },
+    {
+      "sid": "s000815",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "explains alternative connection"
+    },
+    {
+      "sid": "s000816",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "acknowledges alternative connection"
+    },
+    {
+      "sid": "s000817",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "acknowledges alternative connection"
+    },
+    {
+      "sid": "s000818",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "introduces case analysis"
+    },
+    {
+      "sid": "s000819",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "explains purpose of examples"
+    },
+    {
+      "sid": "s000820",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "describes case one scenario"
+    },
+    {
+      "sid": "s000821",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "describes case one scenario"
+    },
+    {
+      "sid": "s000822",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "explains strategy for case one"
+    },
+    {
+      "sid": "s000823",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "describes partitioning strategy"
+    },
+    {
+      "sid": "s000824",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "explains why partitioning strategy works"
+    },
+    {
+      "sid": "s000825",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "explains minimum edge in partition"
+    },
+    {
+      "sid": "s000826",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "states output for case one"
+    },
+    {
+      "sid": "s000827",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "discusses connectivity of edge vertices"
+    },
+    {
+      "sid": "s000828",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "explains ability to create MST partition"
+    },
+    {
+      "sid": "s000829",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "states guaranteed output"
+    },
+    {
+      "sid": "s000830",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "generalizes conclusion about minimum edges"
+    },
+    {
+      "sid": "s000831",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "summarizes progress"
+    },
+    {
+      "sid": "s000832",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Continuing explanation of MST theorem application."
+    },
+    {
+      "sid": "s000833",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Transitioning to the next case (N3)."
+    },
+    {
+      "sid": "s000834",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining the reasoning behind the next case."
+    },
+    {
+      "sid": "s000835",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Describing a specific scenario for E3."
+    },
+    {
+      "sid": "s000836",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining the minimum edge for the partition."
+    },
+    {
+      "sid": "s000837",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Describing a condition for L3."
+    },
+    {
+      "sid": "s000838",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Posing a hypothetical scenario."
+    },
+    {
+      "sid": "s000839",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Continuing the hypothetical scenario."
+    },
+    {
+      "sid": "s000840",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Applying the same logic to E3."
+    },
+    {
+      "sid": "s000841",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Describing the partition and minimum edge for M3."
+    },
+    {
+      "sid": "s000842",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Stating a limitation of the MST theorem."
+    },
+    {
+      "sid": "s000843",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Continuing the explanation."
+    },
+    {
+      "sid": "s000844",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Summarizing the current understanding."
+    },
+    {
+      "sid": "s000845",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining how M3 can be the minimum."
+    },
+    {
+      "sid": "s000846",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Clarifying a condition for the vertex."
+    },
+    {
+      "sid": "s000847",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Adding another condition for the vertex."
+    },
+    {
+      "sid": "s000848",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student question about understanding."
+    },
+    {
+      "sid": "s000849",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Rephrasing the question about conditions."
+    },
+    {
+      "sid": "s000850",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining a specific problematic scenario."
+    },
+    {
+      "sid": "s000851",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Interpreting the student's statement about M3."
+    },
+    {
+      "sid": "s000852",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student question seeking confirmation."
+    },
+    {
+      "sid": "s000853",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Confirming the student's understanding."
+    },
+    {
+      "sid": "s000854",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Continuing the explanation."
+    },
+    {
+      "sid": "s000855",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student question asking for a partition."
+    },
+    {
+      "sid": "s000856",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Responding to the student's question about partitions."
+    },
+    {
+      "sid": "s000857",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Clarifying the request for a specific partition."
+    },
+    {
+      "sid": "s000858",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Providing an example of a partition."
+    },
+    {
+      "sid": "s000859",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining why E3 is not across."
+    },
+    {
+      "sid": "s000860",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Describing a possible partition strategy."
+    },
+    {
+      "sid": "s000861",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Stating a consequence of the partition."
+    },
+    {
+      "sid": "s000862",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Concluding about the difficulty of manual cases."
+    },
+    {
+      "sid": "s000863",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Asking for clarification on a term."
+    },
+    {
+      "sid": "s000864",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Confirming the student's statement."
+    },
+    {
+      "sid": "s000865",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Suggesting a way to prove it."
+    },
+    {
+      "sid": "s000866",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Suggesting a method for proof."
+    },
+    {
+      "sid": "s000867",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Defining the 'cross code' condition."
+    },
+    {
+      "sid": "s000868",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Referring to a specific case."
+    },
+    {
+      "sid": "s000869",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining the action to take for M3."
+    },
+    {
+      "sid": "s000870",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Stating the intention to ignore M3."
+    },
+    {
+      "sid": "s000871",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student question asking for the reason to ignore."
+    },
+    {
+      "sid": "s000872",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Answering the question about ignoring M3."
+    },
+    {
+      "sid": "s000873",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining the consequence of not applying the MST theorem."
+    },
+    {
+      "sid": "s000874",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Setting up a hypothetical algorithm design task."
+    },
+    {
+      "sid": "s000875",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Stating the core requirement for a new MST algorithm."
+    },
+    {
+      "sid": "s000876",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Concluding the condition for success."
+    },
+    {
+      "sid": "s000877",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Stating the consequence if the condition is not met."
+    },
+    {
+      "sid": "s000878",
+      "role": "chitchat",
+      "role_score": 0.9,
+      "role_reason": "Acknowledging the previous point."
+    },
+    {
+      "sid": "s000879",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student question asking for clarification."
+    },
+    {
+      "sid": "s000880",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining the action for M3."
+    },
+    {
+      "sid": "s000881",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Moving to the next edge."
+    },
+    {
+      "sid": "s000882",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Confirming the ability to process E4."
+    },
+    {
+      "sid": "s000883",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Moving to the next edge."
+    },
+    {
+      "sid": "s000884",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Confirming the ability to process E5."
+    },
+    {
+      "sid": "s000885",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Moving to the next edge."
+    },
+    {
+      "sid": "s000886",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Confirming the ability to process E6."
+    },
+    {
+      "sid": "s000887",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Moving to the next edge."
+    },
+    {
+      "sid": "s000888",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student question about processing E7."
+    },
+    {
+      "sid": "s000889",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Answering the question about E7."
+    },
+    {
+      "sid": "s000890",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining the condition for not being able to partition M7."
+    },
+    {
+      "sid": "s000891",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Confirming the student's understanding."
+    },
+    {
+      "sid": "s000892",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student question asking for the reason."
+    },
+    {
+      "sid": "s000893",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student question about algorithmic approach."
+    },
+    {
+      "sid": "s000894",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Answering the question about algorithmic approach."
+    },
+    {
+      "sid": "s000895",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Identifying a challenge."
+    },
+    {
+      "sid": "s000896",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Continuing the thought."
+    },
+    {
+      "sid": "s000897",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Stating knowledge about cycle detection."
+    },
+    {
+      "sid": "s000898",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Mentioning a method for cycle detection."
+    },
+    {
+      "sid": "s000899",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining the inefficiency of the current approach."
+    },
+    {
+      "sid": "s000900",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student question about efficiency."
+    },
+    {
+      "sid": "s000901",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Acknowledging understanding of the problem."
+    },
+    {
+      "sid": "s000902",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Stating the need to address the problem later."
+    },
+    {
+      "sid": "s000903",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Conditional statement about success."
+    },
+    {
+      "sid": "s000904",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Conditional statement about failure."
+    },
+    {
+      "sid": "s000905",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Making a note for future reference."
+    },
+    {
+      "sid": "s000906",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Writing down the note."
+    },
+    {
+      "sid": "s000907",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Adding a keyword to the note."
+    },
+    {
+      "sid": "s000908",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Adding another keyword to the note."
+    },
+    {
+      "sid": "s000909",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student question asking for clarification."
+    },
+    {
+      "sid": "s000910",
+      "role": "chitchat",
+      "role_score": 0.9,
+      "role_reason": "Acknowledging the previous point."
+    },
+    {
+      "sid": "s000911",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Continuing the algorithm description."
+    },
+    {
+      "sid": "s000912",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Describing the process of adding edges."
+    },
+    {
+      "sid": "s000913",
+      "role": "chitchat",
+      "role_score": 0.9,
+      "role_reason": "Interjection."
+    },
+    {
+      "sid": "s000914",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining the action if a cycle is created."
+    },
+    {
+      "sid": "s000915",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining the action if no cycle is created."
+    },
+    {
+      "sid": "s000916",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Analyzing the runtime of the algorithm."
+    },
+    {
+      "sid": "s000917",
+      "role": "chitchat",
+      "role_score": 0.9,
+      "role_reason": "Acknowledging the previous point."
+    },
+    {
+      "sid": "s000918",
+      "role": "chitchat",
+      "role_score": 0.9,
+      "role_reason": "Acknowledging the previous point."
+    },
+    {
+      "sid": "s000919",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Reiterating the need for cycle detection."
+    },
+    {
+      "sid": "s000920",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student question about the time complexity of cycle detection."
+    },
+    {
+      "sid": "s000921",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Stating the current knowledge for cycle detection."
+    },
+    {
+      "sid": "s000922",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Calculating the algorithm's complexity with DFS."
+    },
+    {
+      "sid": "s000923",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Evaluating the complexity."
+    },
+    {
+      "sid": "s000924",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Stating the current limitation."
+    },
+    {
+      "sid": "s000925",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Estimating the complexity."
+    },
+    {
+      "sid": "s000926",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Evaluating the complexity."
+    },
+    {
+      "sid": "s000927",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Calculating complexity in a specific case."
+    },
+    {
+      "sid": "s000928",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Evaluating the complexity."
+    },
+    {
+      "sid": "s000929",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Describing the practical implication."
+    },
+    {
+      "sid": "s000930",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Giving a humorous example of slowness."
+    },
+    {
+      "sid": "s000931",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Concluding about the slowness."
+    },
+    {
+      "sid": "s000932",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Summarizing the inefficiency."
+    },
+    {
+      "sid": "s000933",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Stating that the algorithm works."
+    },
+    {
+      "sid": "s000934",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Continuing the explanation."
+    },
+    {
+      "sid": "s000935",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining the condition for outputting an edge."
+    },
+    {
+      "sid": "s000936",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Describing the completion condition of the algorithm."
+    },
+    {
+      "sid": "s000937",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Introducing a new problem."
+    },
+    {
+      "sid": "s000938",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Stating the irrelevance to the current topic."
+    },
+    {
+      "sid": "s000939",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Suggesting prior exposure to the problem."
+    },
+    {
+      "sid": "s000940",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Acknowledging uncertainty about prior exposure."
+    },
+    {
+      "sid": "s000941",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Naming the new problem."
+    },
+    {
+      "sid": "s000942",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Naming the second part of the problem."
+    },
+    {
+      "sid": "s000943",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Describing the initial state of the problem."
+    },
+    {
+      "sid": "s000944",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Providing an example of sets."
+    },
+    {
+      "sid": "s000945",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Simplifying the example."
+    },
+    {
+      "sid": "s000946",
+      "role": "chitchat",
+      "role_score": 0.9,
+      "role_reason": "Acknowledging the simplification."
+    },
+    {
+      "sid": "s000947",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Clarifying the nature of the elements."
+    },
+    {
+      "sid": "s000948",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Introducing the 'find' operation."
+    },
+    {
+      "sid": "s000949",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Describing the input for the 'find' operation."
+    },
+    {
+      "sid": "s000950",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Stating the question the 'find' operation answers."
+    },
+    {
+      "sid": "s000951",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Providing an example answer for 'find'."
+    },
+    {
+      "sid": "s000952",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Providing another example answer for 'find'."
+    },
+    {
+      "sid": "s000953",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Summarizing the 'find' operation."
+    },
+    {
+      "sid": "s000954",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student question about the 'union' part."
+    },
+    {
+      "sid": "s000955",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining the 'union' operation."
+    },
+    {
+      "sid": "s000956",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Stating knowledge about set union."
+    },
+    {
+      "sid": "s000957",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Describing the result of a union."
+    },
+    {
+      "sid": "s000958",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Introducing another operation."
+    },
+    {
+      "sid": "s000959",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Naming the operation."
+    },
+    {
+      "sid": "s000960",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining the permanence of union."
+    },
+    {
+      "sid": "s000961",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Stating a limitation of the union operation."
+    },
+    {
+      "sid": "s000962",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Clarifying the inability to undo union."
+    },
+    {
+      "sid": "s000963",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Expressing regret about a union."
+    },
+    {
+      "sid": "s000964",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Continuing the expression of regret."
+    },
+    {
+      "sid": "s000965",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Stating the inability to undo."
+    },
+    {
+      "sid": "s000966",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Emphasizing the permanence of union."
+    },
+    {
+      "sid": "s000967",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Naming the problem."
+    },
+    {
+      "sid": "s000968",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Introducing the problem context."
+    },
+    {
+      "sid": "s000969",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Describing the operations in the problem."
+    },
+    {
+      "sid": "s000970",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Describing the sequence of operations."
+    },
+    {
+      "sid": "s000971",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Describing the interleaving of operations."
+    },
+    {
+      "sid": "s000972",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Stating the lack of restrictions."
+    },
+    {
+      "sid": "s000973",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Describing the flexibility of operations."
+    },
+    {
+      "sid": "s000974",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Emphasizing the duration."
+    },
+    {
+      "sid": "s000975",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Naming the problem."
+    },
+    {
+      "sid": "s000976",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Stating the lack of a specific problem definition yet."
+    },
+    {
+      "sid": "s000977",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Introducing the solution approach."
+    },
+    {
+      "sid": "s000978",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Suggesting experimentation."
+    },
+    {
+      "sid": "s000979",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Encouraging independent technique development."
+    },
+    {
+      "sid": "s000980",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Acknowledging the possibility of success."
+    },
+    {
+      "sid": "s000981",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Describing the initial representation."
+    },
+    {
+      "sid": "s000982",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining the initial structure of sets as trees."
+    },
+    {
+      "sid": "s000983",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Referring to the elements."
+    },
+    {
+      "sid": "s000984",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Describing the union operation on initial sets."
+    },
+    {
+      "sid": "s000985",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Continuing the description of union."
+    },
+    {
+      "sid": "s000986",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining the pointer manipulation in union."
+    },
+    {
+      "sid": "s000987",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Stating the data structure being built."
+    },
+    {
+      "sid": "s000988",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Introducing the 'find' operation in the context of trees."
+    },
+    {
+      "sid": "s000989",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Describing the method for 'find'."
+    },
+    {
+      "sid": "s000990",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Giving an example of a 'find' operation."
+    },
+    {
+      "sid": "s000991",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Giving another example of a 'find' operation."
+    },
+    {
+      "sid": "s000992",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining the structure of elements in 'find'."
+    },
+    {
+      "sid": "s000993",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Describing the 'find' process and its outcome."
+    },
+    {
+      "sid": "s000994",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining the 'no' outcome for 'find'."
+    },
+    {
+      "sid": "s000995",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Continuing the example for 'find'."
+    },
+    {
+      "sid": "s000996",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Naming the operation."
+    },
+    {
+      "sid": "s000997",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining the return value of 'find'."
+    },
+    {
+      "sid": "s000998",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Interpreting the return value."
+    },
+    {
+      "sid": "s000999",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Providing a 'yes' case for 'find'."
+    },
+    {
+      "sid": "s001000",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Providing a 'no' case for 'find'."
+    },
+    {
+      "sid": "s001001",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Concluding the outcome of 'find'."
+    },
+    {
+      "sid": "s001002",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Summarizing the initial state."
+    },
+    {
+      "sid": "s001003",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Describing the state after multiple stages."
+    },
+    {
+      "sid": "s001004",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Acknowledging the previous point."
+    },
+    {
+      "sid": "s001005",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Describing the process of finding roots."
+    },
+    {
+      "sid": "s001006",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining the condition for 'find'."
+    },
+    {
+      "sid": "s001007",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Clarifying the 'no' case."
+    },
+    {
+      "sid": "s001008",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Clarifying the 'yes' case."
+    },
+    {
+      "sid": "s001009",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Confirming the 'yes' case."
+    },
+    {
+      "sid": "s001010",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining the role of the root."
+    },
+    {
+      "sid": "s001011",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Continuing the explanation of root's role."
+    },
+    {
+      "sid": "s001012",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Stating the irrelevance of root choice."
+    },
+    {
+      "sid": "s001013",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining the nature of the root choice."
+    },
+    {
+      "sid": "s001014",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Describing the naming convention."
+    },
+    {
+      "sid": "s001015",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining the permanence of the set name."
+    },
+    {
+      "sid": "s001016",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Introducing an assumption about tree height."
+    },
+    {
+      "sid": "s001017",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Acknowledging potential for smaller height."
+    },
+    {
+      "sid": "s001018",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Stating the inductive hypothesis."
+    },
+    {
+      "sid": "s001019",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Giving an example of a rooted tree."
+    },
+    {
+      "sid": "s001020",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Giving another example of a rooted tree."
+    },
+    {
+      "sid": "s001021",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining the combination of trees."
+    },
+    {
+      "sid": "s001022",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Naming the hypothesis."
+    },
+    {
+      "sid": "s001023",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Stating the inductive hypothesis about tree height."
+    },
+    {
+      "sid": "s001024",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Introducing the 'find' operation's complexity."
+    },
+    {
+      "sid": "s001025",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Relating subset size to total size."
+    },
+    {
+      "sid": "s001026",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Defining the relationship between subset and total vertices."
+    },
+    {
+      "sid": "s001027",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining the logarithmic relationship."
+    },
+    {
+      "sid": "s001028",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Describing the 'find' operation's time complexity."
+    },
+    {
+      "sid": "s001029",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining the 'no' outcome for 'find'."
+    },
+    {
+      "sid": "s001030",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Summarizing the time complexity of 'find'."
+    },
+    {
+      "sid": "s001031",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student question about the 'union' operation."
+    },
+    {
+      "sid": "s001032",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Describing the strategy for 'union'."
+    },
+    {
+      "sid": "s001033",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining the height calculation for 'union'."
+    },
+    {
+      "sid": "s001034",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Continuing the height calculation."
+    },
+    {
+      "sid": "s001035",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Relating the height to the 'union' operation."
+    },
+    {
+      "sid": "s001036",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Discussing the height when sizes are equal."
+    },
+    {
+      "sid": "s001037",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Clarifying the pointer direction."
+    },
+    {
+      "sid": "s001038",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Highlighting a crucial scenario."
+    },
+    {
+      "sid": "s001039",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student question about the scenario of equal sizes."
+    },
+    {
+      "sid": "s001040",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Answering the question about pointer direction."
+    },
+    {
+      "sid": "s001041",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining the height implication."
+    },
+    {
+      "sid": "s001042",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Stating the choice."
+    },
+    {
+      "sid": "s001043",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining the height increase."
+    },
+    {
+      "sid": "s001044",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Revisiting the premise of height maintenance."
+    },
+    {
+      "sid": "s001045",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining the height change when sizes are equal."
+    },
+    {
+      "sid": "s001046",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Quantifying the height increase."
+    },
+    {
+      "sid": "s001047",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Continuing the height calculation."
+    },
+    {
+      "sid": "s001048",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Correcting the height calculation."
+    },
+    {
+      "sid": "s001049",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Stating what remains unchanged."
+    },
+    {
+      "sid": "s001050",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Stating what changes."
+    },
+    {
+      "sid": "s001051",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student question about maintaining logarithmic height."
+    },
+    {
+      "sid": "s001052",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining the scenario of equal sizes."
+    },
+    {
+      "sid": "s001053",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Calculating the logarithmic height of the combined tree."
+    },
+    {
+      "sid": "s001054",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining the allowance for height increase."
+    },
+    {
+      "sid": "s001055",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Confirming the validity of the height invariant."
+    },
+    {
+      "sid": "s001056",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Stating the time complexity of union."
+    },
+    {
+      "sid": "s001057",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Stating the time complexity of find."
+    },
+    {
+      "sid": "s001058",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student question connecting union-find to MST."
+    },
+    {
+      "sid": "s001059",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Describing the state of subtrees."
+    },
+    {
+      "sid": "s001060",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining how subtrees are represented."
+    },
+    {
+      "sid": "s001061",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Clarifying the representation."
+    },
+    {
+      "sid": "s001062",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Introducing the problem of cycle detection with a new edge."
+    },
+    {
+      "sid": "s001063",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining how to check for cycles using union-find."
+    },
+    {
+      "sid": "s001064",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Confirming the interpretation of the check."
+    },
+    {
+      "sid": "s001065",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining the condition for not creating a cycle."
+    },
+    {
+      "sid": "s001066",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Stating the action to take if no cycle is created."
+    },
+    {
+      "sid": "s001067",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Identifying the data structure for Kruskal's algorithm."
+    },
+    {
+      "sid": "s001068",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Stating the time complexity for cycle detection per edge."
+    },
+    {
+      "sid": "s001069",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student question about the number of edges."
+    },
+    {
+      "sid": "s001070",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining how to integrate union-find into Kruskal's."
+    },
+    {
+      "sid": "s001071",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Stating the complexity of Kruskal's algorithm with union-find."
+    },
+    {
+      "sid": "s001072",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Describing the steps of Kruskal's algorithm."
+    },
+    {
+      "sid": "s001073",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining the condition for adding an edge."
+    },
+    {
+      "sid": "s001074",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining the action if no cycle is formed."
+    },
+    {
+      "sid": "s001075",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Comparing the description to Kruskal's algorithm."
+    },
+    {
+      "sid": "s001076",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student question about finding cycles using union."
+    },
+    {
+      "sid": "s001077",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Answering the question about alternative cycle detection methods."
+    },
+    {
+      "sid": "s001078",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Highlighting the efficiency and simplicity of union-find."
+    },
+    {
+      "sid": "s001079",
+      "role": "chitchat",
+      "role_score": 0.9,
+      "role_reason": "Acknowledging the previous point."
+    },
+    {
+      "sid": "s001080",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student question about the complexity of union-find."
+    },
+    {
+      "sid": "s001081",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Professor acknowledging the question."
+    },
+    {
+      "sid": "s001082",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Presenting an alternative union-find strategy."
+    },
+    {
+      "sid": "s001083",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Discussing the complexity of finding the root."
+    },
+    {
+      "sid": "s001084",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining the operation for finding the root."
+    },
+    {
+      "sid": "s001085",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Asking about another cell."
+    },
+    {
+      "sid": "s001086",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining the operation for the other cell."
+    },
+    {
+      "sid": "s001087",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student question about the time for 'find'."
+    },
+    {
+      "sid": "s001088",
+      "role": "qa",
+      "role_score": 0.9,
+      "role_reason": "Student question about the time for 'union'."
+    },
+    {
+      "sid": "s001089",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Comparing the complexities of 'find' and 'union' in this strategy."
+    },
+    {
+      "sid": "s001090",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining a common starting point for teaching union-find."
+    },
+    {
+      "sid": "s001091",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Describing an alternative union-find strategy."
+    },
+    {
+      "sid": "s001092",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Explaining the pointer logic in this alternative."
+    },
+    {
+      "sid": "s001093",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Stating the complexity of 'find' in this alternative."
+    },
+    {
+      "sid": "s001094",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Evaluating the first alternative strategy."
+    },
+    {
+      "sid": "s001095",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Evaluating the second alternative strategy."
+    },
+    {
+      "sid": "s001096",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Stating the goal of finding a middle ground."
+    },
+    {
+      "sid": "s001097",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Introducing the concept of balance."
+    },
+    {
+      "sid": "s001098",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Emphasizing the importance of understanding the MST theorem."
+    },
+    {
+      "sid": "s001099",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Stating the first priority."
+    },
+    {
+      "sid": "s001100",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Suggesting the possibility of developing one's own algorithm."
+    },
+    {
+      "sid": "s001101",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Listing the algorithms related to the MST theorem."
+    },
+    {
+      "sid": "s001102",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Naming the first algorithm and its approach."
+    },
+    {
+      "sid": "s001103",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Mentioning implementations of Prim's algorithm."
+    },
+    {
+      "sid": "s001104",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Comparing to Kruskal's algorithm."
+    },
+    {
+      "sid": "s001105",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Stating a step in Kruskal's algorithm."
+    },
+    {
+      "sid": "s001106",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Identifying the data structure for cycle tracking in Kruskal's."
+    },
+    {
+      "sid": "s001107",
+      "role": "lecture",
+      "role_score": 0.9,
+      "role_reason": "Continuing the explanation."
+    }
+  ]
+}

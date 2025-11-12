@@ -8,7 +8,7 @@ Segments may include some qa/announcement/chitchat lines, but the segment must c
 INPUT FORMAT
 An array of sentence objects in chronological order (complete, ordered):
 [
-  { "sid": "<string>", "text": "<string>", "start": <ms>, "end": <ms>, "role": "lecture|announcement|qa|chitchat" },
+  { "sid": "<string>", "text": "<string>", "start": <ms>, "role": "lecture|announcement|qa|chitchat" },
   ...
 ]
 
@@ -25,9 +25,9 @@ Detect boundaries when one or more of the following are clearly present:
 
 MERGE / SPLIT POLICY
  - Prefer fewer, well-formed segments over many micro-segments.
-   - Target count: First try to partition the lecture into 3–6 balanced segments. Fewer (e.g., ≤2) or more (e.g., 7–10) is allowed if coherence clearly improves, but never exceed 10 topics.
+   - Target count: First try to partition the lecture into 2–6 balanced segments. Never exceed 6 topics.
    - Size heuristic: As a rough guide, aim for segments that are each about 1/6–1/3 of the transcript by sentence count (not strictly equal, just a balancing cue).
-   - Exception: If a clear declaration of the number of topics is made early in the class and that number exceeds 10, you may follow the declared number but don't have to. (Example: "Today's class will cover 15 key concepts.")
+   - Exception: If a clear declaration of the number of topics is made early in the class and that number exceeds 6 (Example: "Today's class will cover 8 key concepts."), you may follow the declared number. But other than that, don't exceeds 6 segments.
  - If two adjacent clusters are tightly coupled (e.g., definition immediately followed by its canonical example or the algorithm and its step-by-step run-through), combine them into a single segment.
  - A topic can reappear later; if it’s clearly the same conceptual thread, you may keep it separate as a later segment only if the sub-goal is substantially different (e.g., “risks” earlier vs. “mitigations” later). Otherwise consider unifying via a broader title.
 

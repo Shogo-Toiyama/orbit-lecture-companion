@@ -1,0 +1,2018 @@
+[
+  {
+    "context_before_main_text": [],
+    "main_text": [
+      {
+        "sid": "s000001",
+        "text": "One was a vertex centric one and one was an edge centric implementation.",
+        "start": 800,
+        "end": 6400,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000002",
+        "text": "And they give rise to different time complexity.",
+        "start": 6480,
+        "end": 9760,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000003",
+        "text": "One is better when you have denser graph, one microbeador when you have more sparse graph.",
+        "start": 10560,
+        "end": 16720,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000004",
+        "text": "So make sure you're comfortable with that.",
+        "start": 16800,
+        "end": 19440,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000005",
+        "text": "The next problem that I want to talk about is called spanning tree.",
+        "start": 19920,
+        "end": 25440,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000006",
+        "text": "So keep it same as before.",
+        "start": 26490,
+        "end": 28570,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000007",
+        "text": "A weighted graph like that, where we have arbitrary integer weights on N vertices, you always, almost always use N as the number of vertices, E as the number of edges.",
+        "start": 30650,
+        "end": 62100,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000008",
+        "text": "Unless otherwise stated.",
+        "start": 63300,
+        "end": 67140,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000009",
+        "text": "1, 2, 3, 4, 5.",
+        "start": 67780,
+        "end": 69780,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000010",
+        "text": "N is equal to 5.",
+        "start": 69940,
+        "end": 71380,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000011",
+        "text": "Here a spanning tree for thought 3 sub graph is a set of edges and the vertices that form a tree structure doesn't have any cycles.",
+        "start": 71380,
+        "end": 88640,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000012",
+        "text": "Spanning tree is a tree on these vertices that spans all the vertices, touches all the vertices.",
+        "start": 97920,
+        "end": 109580,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000013",
+        "text": "That's called a spanning.",
+        "start": 110140,
+        "end": 111660,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000014",
+        "text": "So if I have three, let's say four, two and nine, that forms a three structure because doesn't have any cycles and touches every vertex and is always coming.",
+        "start": 114460,
+        "end": 132640,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000015",
+        "text": "We assume that the graph given to us is a connected graph.",
+        "start": 133830,
+        "end": 138230,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000016",
+        "text": "Otherwise the spanning tree doesn't exist if there are different components.",
+        "start": 138710,
+        "end": 144670,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000017",
+        "text": "I cannot have a tree that connects everybody because the graph itself wasn't connected to repeating.",
+        "start": 144670,
+        "end": 151350,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000018",
+        "text": "So there are many ways to do a spanning tree.",
+        "start": 153190,
+        "end": 156150,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000019",
+        "text": "For example, I can start from a vertex, get a breadth first search tree or a depth first search tree.",
+        "start": 156230,
+        "end": 165750,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000020",
+        "text": "Those are trees by definition, we know the algorithm for them.",
+        "start": 166630,
+        "end": 171670,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000021",
+        "text": "And because they go through every vertex, they are spanning trees.",
+        "start": 171990,
+        "end": 175750,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000022",
+        "text": "So finding a spanning tree on a graph is straightforward.",
+        "start": 176870,
+        "end": 181910,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000023",
+        "text": "We already know how to do it.",
+        "start": 181910,
+        "end": 183850,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000024",
+        "text": "Now here we are interested in the so called MST minimum spanning tree.",
+        "start": 184800,
+        "end": 192160,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000025",
+        "text": "Which means among all spanning trees there could be exponential number of spanning trees or a large number of them.",
+        "start": 192480,
+        "end": 200160,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000026",
+        "text": "In fact, if you have a cycle for sure there is more than one spanning tree.",
+        "start": 201280,
+        "end": 207040,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000027",
+        "text": "Only if the original graph is a three, then the spanning tree is unique if you have one cycle.",
+        "start": 207280,
+        "end": 214820,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000028",
+        "text": "There are many possibilities.",
+        "start": 214820,
+        "end": 216020,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000029",
+        "text": "For a spanning tree of all subspanning trees, we want a minimum one.",
+        "start": 216100,
+        "end": 221860,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000030",
+        "text": "The one where total weight of the edges on the tree is minimized over all possible ones.",
+        "start": 221860,
+        "end": 229780,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000031",
+        "text": "So for example, the one I showed here, three, four, two, nine.",
+        "start": 231220,
+        "end": 235300,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000032",
+        "text": "That's not a spanning tree.",
+        "start": 236110,
+        "end": 237790,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000033",
+        "text": "I could instead of four, pick one.",
+        "start": 238270,
+        "end": 241790,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000034",
+        "text": "This one.",
+        "start": 242510,
+        "end": 243190,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000035",
+        "text": "Now you can do it on your own by experiments.",
+        "start": 243190,
+        "end": 247390,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000036",
+        "text": "You will see the one that I have check marks next to.",
+        "start": 247710,
+        "end": 250830,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000037",
+        "text": "It's a tree structure.",
+        "start": 251150,
+        "end": 252750,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000038",
+        "text": "It's spanning, it touches every vertex, it covers all the vertices.",
+        "start": 253390,
+        "end": 258910,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000039",
+        "text": "And among all such trees trees, it's the one with minimum weight and the size or weight of this tree is 9 plus 2 plus 1 plus 3.",
+        "start": 259310,
+        "end": 270500,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000040",
+        "text": "Okay, and sometimes in this spanning tree we will have edges that are of high weight just to ensure connectivity.",
+        "start": 274500,
+        "end": 286340,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000041",
+        "text": "For example, 9 happens to be the largest weight in this graph.",
+        "start": 286660,
+        "end": 291500,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000042",
+        "text": "But if I don't put nine in the solution, this vertex will not be connected to anybody.",
+        "start": 291900,
+        "end": 298940,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000043",
+        "text": "So in the spanning tree there are some edges with larger weights, some edges with smaller weights, all else being equal.",
+        "start": 299980,
+        "end": 308900,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000044",
+        "text": "If you have the option, we want edges with smaller weights.",
+        "start": 308900,
+        "end": 313260,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000045",
+        "text": "That's the whole point of the spine.",
+        "start": 314230,
+        "end": 315750,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000046",
+        "text": "Okay, so the problem that we want to study is the so-called MST, Minimum Spanning Tree problem.",
+        "start": 318310,
+        "end": 326550,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000047",
+        "text": "It gives us a connectivity in a graph.",
+        "start": 330710,
+        "end": 334230,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000048",
+        "text": "It has applications.",
+        "start": 334550,
+        "end": 335190,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000049",
+        "text": "So if you have a set of nodes in a network, how to connect them with minimum traffic, with minimum congestion spanning MST is a solution to that.",
+        "start": 335670,
+        "end": 346330,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000050",
+        "text": "So it finds a many direct application and b many other problems can be formulated as an mst.",
+        "start": 346890,
+        "end": 355450,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000051",
+        "text": "And since we're going to know by the end of lecture today how to solve mst, we can just use the MST algorithm to solve it.",
+        "start": 355769,
+        "end": 363850,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000052",
+        "text": "Just like Dijkstra shortest path has application A, its structure is useful where we can solve many other problems using the structuring algorithm we did in the last lecture on Tuesday.",
+        "start": 365380,
+        "end": 378900,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000053",
+        "text": "Okay, so before we, and the graph is undirected, is the problem clear?",
+        "start": 380900,
+        "end": 388820,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000054",
+        "text": "As always, if the problem is not clear, if something is there, the rest is absolutely irrelevant.",
+        "start": 391950,
+        "end": 398270,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000055",
+        "text": "In the exam, in the homework, if we see a problem, there is some ambiguity, there is something about it that we don't understand.",
+        "start": 399070,
+        "end": 407310,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000056",
+        "text": "We can't even begin providing a solution.",
+        "start": 407870,
+        "end": 410910,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000057",
+        "text": "Sometimes when you work in industry, there are problems that are vague, but you need to go and get answers to those questions before you can solve it.",
+        "start": 412830,
+        "end": 422120,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000058",
+        "text": "You talk to your marketing manager or technical manager or whoever, try to make sure we understand the problem.",
+        "start": 423000,
+        "end": 431000,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000059",
+        "text": "Trivial, but very important and sometimes miss even in this class.",
+        "start": 432919,
+        "end": 439000,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000060",
+        "text": "So number one, understand the problem, do a few examples, see if it makes sense, look at some corner cases, et cetera.",
+        "start": 440680,
+        "end": 449780,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000061",
+        "text": "Lesson number one, in any problem you see, especially in this course, but in general, okay, so now we wanted to come up with algorithms that give us an MST.",
+        "start": 450820,
+        "end": 464820,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000062",
+        "text": "And also for most of the discussion related to msd, all assume that the weights are unique.",
+        "start": 465620,
+        "end": 478400,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000063",
+        "text": "In fact, in this example I picked the weights to be unique.",
+        "start": 481200,
+        "end": 484640,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000064",
+        "text": "No weight is repeated.",
+        "start": 485039,
+        "end": 486560,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000065",
+        "text": "Why do we make that assumption?",
+        "start": 486960,
+        "end": 488720,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000066",
+        "text": "What if in real life weights are not unique?",
+        "start": 488720,
+        "end": 492000,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000067",
+        "text": "We will see a 3D order of extant B Everything I'm saying into general case where weights are not unique, but having initially unique weights, it makes the algorithm and the proofs much simpler.",
+        "start": 492960,
+        "end": 509640,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000068",
+        "text": "Then at the end we need to come and say, what if they are not unique?",
+        "start": 510040,
+        "end": 513400,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000069",
+        "text": "How do we address them?",
+        "start": 513400,
+        "end": 515240,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000070",
+        "text": "And I give you the trick to that right now.",
+        "start": 517240,
+        "end": 520680,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000071",
+        "text": "If you have two weights that as our board states two and two, we make one of them, two plus epsilon, epsilon being a very small number, then awaits the community.",
+        "start": 521000,
+        "end": 532400,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000072",
+        "text": "It makes no other impact.",
+        "start": 532960,
+        "end": 534640,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000073",
+        "text": "So that's kind of the idea.",
+        "start": 534800,
+        "end": 536240,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000074",
+        "text": "We will address that at the end of all this.",
+        "start": 536240,
+        "end": 538959,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000075",
+        "text": "Okay, consider a tree structure and a graph as such.",
+        "start": 542320,
+        "end": 555850,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000076",
+        "text": "Does it have any cycles?",
+        "start": 557930,
+        "end": 559690,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000077",
+        "text": "No, because I just said it's a 3 structure.",
+        "start": 561610,
+        "end": 564290,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000078",
+        "text": "By definition, it does not have any cycles.",
+        "start": 564290,
+        "end": 567610,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000079",
+        "text": "And by definition, if there are n vertices, it's going to have exactly, no more, no less.",
+        "start": 567930,
+        "end": 574490,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000080",
+        "text": "Exactly n minus one.",
+        "start": 574650,
+        "end": 576010,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000081",
+        "text": "We talked about that, I don't know, three weeks ago and proved it.",
+        "start": 578560,
+        "end": 582880,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000082",
+        "text": "That tree structure has n minus one.",
+        "start": 583040,
+        "end": 586960,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000083",
+        "text": "It's the minimum number of edges you can get for a connected graph.",
+        "start": 587120,
+        "end": 592000,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000084",
+        "text": "Anything less than N minus 1, it's not a connected graph.",
+        "start": 592640,
+        "end": 596720,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000085",
+        "text": "So when we talked about number of edges in a graph, we said it's anywhere.",
+        "start": 597840,
+        "end": 602050,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000086",
+        "text": "For a connected graph, it's anywhere between n -1 and roughly n squared order of n squared on the N squared.",
+        "start": 602050,
+        "end": 610690,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000087",
+        "text": "We call it a dense graph.",
+        "start": 610690,
+        "end": 612170,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000088",
+        "text": "Closer to a three, we call it a sparse graph.",
+        "start": 612650,
+        "end": 615610,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000089",
+        "text": "Okay, so if I take a structure like this, a tree structure given to me, and add one edge to it, the graph is not going to be a tree anymore.",
+        "start": 616330,
+        "end": 635140,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000090",
+        "text": "It's going to be a graph with a cycle.",
+        "start": 635140,
+        "end": 639060,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000091",
+        "text": "In fact, it's going to have precisely N edges, N vertices, N edges must have a cycle.",
+        "start": 639540,
+        "end": 647140,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000092",
+        "text": "Okay, now let me redraw this.",
+        "start": 650020,
+        "end": 654670,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000093",
+        "text": "So now we have a cycle.",
+        "start": 655070,
+        "end": 656750,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000094",
+        "text": "That's the cycle with a bunch of other structure hanging from this cycle.",
+        "start": 657150,
+        "end": 667310,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000095",
+        "text": "Okay, so this is your cycle here.",
+        "start": 671790,
+        "end": 674990,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000096",
+        "text": "Let me call it C.",
+        "start": 675710,
+        "end": 677630,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000097",
+        "text": "And there are edges hanging from this cycle.",
+        "start": 679400,
+        "end": 682920,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000098",
+        "text": "So any tree structure where I have added an edge to it, I can focus on the cycle and say there are other sub trees that is hanging from the cycle that are not part of the cycle.",
+        "start": 684280,
+        "end": 701640,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000099",
+        "text": "That's what a tiny three plus one edge would look like.",
+        "start": 703080,
+        "end": 707270,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000100",
+        "text": "Okay?",
+        "start": 709510,
+        "end": 710150,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000101",
+        "text": "So if I take this cycle and I remove any edge from this cycle, for example, this edge, first of all, the edge that I added in at remove E prime, I get back a tree structure because the new one will not have any more cycles in it.",
+        "start": 710630,
+        "end": 740720,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000102",
+        "text": "If I remove, let's say this one here, then that's a disconnected graph and still has a cycle.",
+        "start": 742640,
+        "end": 751760,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000103",
+        "text": "But if I remove it from this cycle itself, then I have destroyed that cycle.",
+        "start": 752640,
+        "end": 759210,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000104",
+        "text": "I have a tree back. Okay, what I just said, all of this has nothing to do directly with MST, but we're going to use it in Prim's and Kruskal's MST.",
+        "start": 759450,
+        "end": 773450,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000105",
+        "text": "So I just want you to be comfortable for now.",
+        "start": 773930,
+        "end": 776890,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000106",
+        "text": "Having a tree structure you can add age or edges to and those that edge or edges will create cycles.",
+        "start": 777370,
+        "end": 787130,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000107",
+        "text": "And if you start removing edges from those cycles, you get back the original tree.",
+        "start": 787530,
+        "end": 794170,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000108",
+        "text": "You just have to make sure when you remove it has to be part of the cycle.",
+        "start": 794730,
+        "end": 798970,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000109",
+        "text": "Otherwise you so far.",
+        "start": 799290,
+        "end": 804410,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000110",
+        "text": "Okay, consider your original graph G with a set of N vertices and E edges.",
+        "start": 808260,
+        "end": 833990,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000111",
+        "text": "This graph for example, where on top of everything, the edges have weights on them, I. E. The input to the MST algorithm or algorithms.",
+        "start": 834870,
+        "end": 846470,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000112",
+        "text": "Okay, I can take this graph and partition it into two groups.",
+        "start": 849190,
+        "end": 856630,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000113",
+        "text": "Some vertices go left, some vertices go right.",
+        "start": 864400,
+        "end": 867600,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000114",
+        "text": "How many vertices go on left, how many on right?",
+        "start": 870320,
+        "end": 873920,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000115",
+        "text": "I don't care 1 or N minus 1.",
+        "start": 873920,
+        "end": 878600,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000116",
+        "text": "The only requirement definition of a partition or Y partition is each set should be non empty.",
+        "start": 878600,
+        "end": 886890,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000117",
+        "text": "That's a requirement.",
+        "start": 887770,
+        "end": 888890,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000118",
+        "text": "If I take all the vertices and put them here, that's not a partition anymore.",
+        "start": 889050,
+        "end": 894090,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000119",
+        "text": "That's or it's not a bipartition.",
+        "start": 894810,
+        "end": 897370,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000120",
+        "text": "Other than that, I can put one vertex here from my original graph 2 all the way to N minus 1.",
+        "start": 899450,
+        "end": 907210,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000121",
+        "text": "They are all called Y partition being balanced, each of them having n over 2 is not what you are after here.",
+        "start": 907210,
+        "end": 916580,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000122",
+        "text": "Sometimes when you think of partition, we think of balanced partition.",
+        "start": 916580,
+        "end": 921060,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000123",
+        "text": "This is not it.",
+        "start": 921060,
+        "end": 922180,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000124",
+        "text": "There are problems where we want to balance each side, each subset.",
+        "start": 923220,
+        "end": 928740,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000125",
+        "text": "We're going to study that when we look at the divide and conquer paradigm.",
+        "start": 929380,
+        "end": 934180,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000126",
+        "text": "But here that's not an issue.",
+        "start": 934260,
+        "end": 935680,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000127",
+        "text": "So take any partition you like.",
+        "start": 936790,
+        "end": 938630,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000128",
+        "text": "Put some vertices here, some vertices there.",
+        "start": 939430,
+        "end": 943670,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000129",
+        "text": "Look at the edge that connects them.",
+        "start": 946390,
+        "end": 950310,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000130",
+        "text": "Sorry, the edges that connect them like this.",
+        "start": 950630,
+        "end": 954710,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000131",
+        "text": "So these are the edges that go from V sub one to resell, tooth from left to right from partition one to partition two.",
+        "start": 955910,
+        "end": 965600,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000132",
+        "text": "And there's going to be at least one such edge.",
+        "start": 966720,
+        "end": 969520,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000133",
+        "text": "Because if there are no edges from left to right in the original graph, that means the graph is not connected.",
+        "start": 970880,
+        "end": 978800,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000134",
+        "text": "If there are no edges, then this vertex has no way of connecting to that vertex.",
+        "start": 979600,
+        "end": 984640,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000135",
+        "text": "And one of the main criteria where we started things was assume you have a connected graph.",
+        "start": 985520,
+        "end": 992860,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000136",
+        "text": "One component, okay?",
+        "start": 993500,
+        "end": 998780,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000137",
+        "text": "Not five components, not two components, one component.",
+        "start": 1000620,
+        "end": 1004220,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000138",
+        "text": "So there's got to be at least one edge.",
+        "start": 1004300,
+        "end": 1006780,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000139",
+        "text": "There could be two edges.",
+        "start": 1007020,
+        "end": 1008380,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000140",
+        "text": "There could be any square edges between left and right.",
+        "start": 1008620,
+        "end": 1011660,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000141",
+        "text": "If it's a very dense graph.",
+        "start": 1011820,
+        "end": 1013660,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000142",
+        "text": "If it's a complete graph, every vertex is connected to every other vertex.",
+        "start": 1014230,
+        "end": 1018390,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000143",
+        "text": "There's going to be about N-squared edges that go across, but minimum is one, it's not zero.",
+        "start": 1018390,
+        "end": 1024950,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000144",
+        "text": "Of all the agents that go from left to right, let's look at their weight.",
+        "start": 1027030,
+        "end": 1031670,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000145",
+        "text": "The weights are 1, 4, 3, 2.",
+        "start": 1032230,
+        "end": 1034870,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000146",
+        "text": "And I said assume the weights are unique.",
+        "start": 1035110,
+        "end": 1038230,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000147",
+        "text": "For now, for the next 40 minutes and over, pick the one that has minimum weight and give it a name.",
+        "start": 1038230,
+        "end": 1049039,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000148",
+        "text": "Doesn't matter.",
+        "start": 1049039,
+        "end": 1049679,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000149",
+        "text": "E prime mean, whatever.",
+        "start": 1049839,
+        "end": 1052239,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000150",
+        "text": "I call it E sub mean, meaning the minimum weight currently between left and right.",
+        "start": 1052239,
+        "end": 1059199,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000151",
+        "text": "Okay, I claim that every E sub min must be in every MST in the original graph.",
+        "start": 1061439,
+        "end": 1082730,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000152",
+        "text": "Okay.",
+        "start": 1088650,
+        "end": 1089290,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000153",
+        "text": "Example.",
+        "start": 1090170,
+        "end": 1091050,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000154",
+        "text": "Take this graph.",
+        "start": 1099780,
+        "end": 1100740,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000155",
+        "text": "Partition it.",
+        "start": 1100900,
+        "end": 1101860,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000156",
+        "text": "I say it any way you like.",
+        "start": 1101860,
+        "end": 1103620,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000157",
+        "text": "This is not a partition because the top one is not in it.",
+        "start": 1104820,
+        "end": 1108420,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000158",
+        "text": "This one is a partition by partition or partition.",
+        "start": 1108900,
+        "end": 1113860,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000159",
+        "text": "Okay?",
+        "start": 1114660,
+        "end": 1115300,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000160",
+        "text": "This is one such example.",
+        "start": 1116820,
+        "end": 1118740,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000161",
+        "text": "There are.",
+        "start": 1118740,
+        "end": 1118950,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000162",
+        "text": "There are many, many other partitions.",
+        "start": 1119020,
+        "end": 1120940,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000163",
+        "text": "Exponential number of them.",
+        "start": 1121100,
+        "end": 1122620,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000164",
+        "text": "This is one of them.",
+        "start": 1122780,
+        "end": 1123980,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000165",
+        "text": "Which one is K mean.",
+        "start": 1124620,
+        "end": 1126300,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000166",
+        "text": "What is the weight of Amine here.",
+        "start": 1126380,
+        "end": 1128460,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000167",
+        "text": "Thank you.",
+        "start": 1132140,
+        "end": 1132700,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000168",
+        "text": "This is E mean.",
+        "start": 1133980,
+        "end": 1135020,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000169",
+        "text": "Okay, that's saying E mean must be in every msp.",
+        "start": 1137580,
+        "end": 1145180,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000170",
+        "text": "I come up with it.",
+        "start": 1145180,
+        "end": 1146450,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000171",
+        "text": "And you can do that by inspection yourself.",
+        "start": 1149570,
+        "end": 1152770,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000172",
+        "text": "Just try to come up with msc.",
+        "start": 1153090,
+        "end": 1154850,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000173",
+        "text": "Can you find one that does not have one in it?",
+        "start": 1155490,
+        "end": 1159330,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000174",
+        "text": "It's not possible.",
+        "start": 1159730,
+        "end": 1160770,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000175",
+        "text": "Just for inspection.",
+        "start": 1161330,
+        "end": 1162490,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000176",
+        "text": "We haven't proved that yet.",
+        "start": 1162490,
+        "end": 1163810,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000177",
+        "text": "We will prove that.",
+        "start": 1163810,
+        "end": 1164930,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000178",
+        "text": "Let's do another part.",
+        "start": 1166370,
+        "end": 1167890,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000179",
+        "text": "Yeah, so one was a no-brainer because that's the smallest weight in the entire graph.",
+        "start": 1171740,
+        "end": 1176860,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000180",
+        "text": "So it would make sense for that to be in it.",
+        "start": 1177180,
+        "end": 1179900,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000181",
+        "text": "Let's do another partition.",
+        "start": 1185740,
+        "end": 1187340,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000182",
+        "text": "This.",
+        "start": 1187500,
+        "end": 1187899,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000183",
+        "text": "What is the rate of E mean in this partition?",
+        "start": 1192220,
+        "end": 1195740,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000184",
+        "text": "9.",
+        "start": 1197570,
+        "end": 1197810,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000185",
+        "text": "Every NST must have that edge with weight 9 in it.",
+        "start": 1198930,
+        "end": 1203330,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000186",
+        "text": "That's very easy to argue.",
+        "start": 1205010,
+        "end": 1206770,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000187",
+        "text": "9 is the largest weight.",
+        "start": 1207330,
+        "end": 1208930,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000188",
+        "text": "But you can easily reason to say if 9 was not in an MSP, this vertex wouldn't be connected to the rest of the vertices.",
+        "start": 1209250,
+        "end": 1221410,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000189",
+        "text": "Therefore you don't have a three structure, you don't have a spanning tree.",
+        "start": 1221490,
+        "end": 1225390,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000190",
+        "text": "You have something else.",
+        "start": 1225390,
+        "end": 1226270,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000191",
+        "text": "You have spanning forest or something.",
+        "start": 1226270,
+        "end": 1228550,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000192",
+        "text": "So two examples that I just gave you and you can do a few more examples on other graphs or this graph to see if you can build cases where E sub mean is not in a solution and is not possible.",
+        "start": 1229590,
+        "end": 1246070,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000193",
+        "text": "I claim is not possible.",
+        "start": 1246310,
+        "end": 1247670,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000194",
+        "text": "So if that's true, then I want to prove what is known as MSD theorem.",
+        "start": 1248550,
+        "end": 1258210,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000195",
+        "text": "MST theorem says for every partition, not just one, not that there exists a partition.",
+        "start": 1261650,
+        "end": 1269650,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000196",
+        "text": "That's not what this is saying.",
+        "start": 1269890,
+        "end": 1271410,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000197",
+        "text": "It's a lot more general than that.",
+        "start": 1271810,
+        "end": 1274450,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000198",
+        "text": "For every partition E sub mi must be in every MSP that you could come up with.",
+        "start": 1274610,
+        "end": 1280800,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000199",
+        "text": "Yes.",
+        "start": 1285520,
+        "end": 1286000,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000200",
+        "text": "So by E sub min you mean not the Minimal edge in the overall graph, but only one of correct.",
+        "start": 1286400,
+        "end": 1294080,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000201",
+        "text": "Exactly.",
+        "start": 1294080,
+        "end": 1294880,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000202",
+        "text": "The minimum even is defined as the minimum weight edge that goes from left to right.",
+        "start": 1302720,
+        "end": 1309230,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000203",
+        "text": "How do you define left and right?",
+        "start": 1309710,
+        "end": 1311990,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000204",
+        "text": "Any way you like.",
+        "start": 1311990,
+        "end": 1312990,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000205",
+        "text": "There are billions of ways of drawing left and right for each and every one of them that imine, the local imine must be in the mst.",
+        "start": 1313790,
+        "end": 1322910,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000206",
+        "text": "That's what MSD theorem is saying.",
+        "start": 1322990,
+        "end": 1325070,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000207",
+        "text": "Quite powerful and maybe surprising.",
+        "start": 1325310,
+        "end": 1328270,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000208",
+        "text": "Okay, by contradiction, assume E sub means there is an msb and E sub mean is not immense, right?",
+        "start": 1330600,
+        "end": 1340440,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000209",
+        "text": "Contrarily.",
+        "start": 1340520,
+        "end": 1341320,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000210",
+        "text": "Every MSP must have E mean.",
+        "start": 1342520,
+        "end": 1344600,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000211",
+        "text": "Complement of that. Complement of 'every' is 'there exists one'.",
+        "start": 1344840,
+        "end": 1348880,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000212",
+        "text": "There exists one been saying that everyone is wearing blue.",
+        "start": 1348880,
+        "end": 1353800,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000213",
+        "text": "Contradiction.",
+        "start": 1355170,
+        "end": 1355930,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000214",
+        "text": "If I find one person who is not wearing blue, it means that's not true.",
+        "start": 1355930,
+        "end": 1361010,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000215",
+        "text": "Or if I say no, there gotta be at least one who is not wearing blue and get into a contradiction.",
+        "start": 1362370,
+        "end": 1368210,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000216",
+        "text": "It means my original hypothesis of everyone is wearing blue is correct.",
+        "start": 1368290,
+        "end": 1372930,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000217",
+        "text": "Proof.",
+        "start": 1373970,
+        "end": 1374450,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000218",
+        "text": "Basic proof by contradiction.",
+        "start": 1374610,
+        "end": 1376530,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000219",
+        "text": "Same as any other proof.",
+        "start": 1378290,
+        "end": 1379730,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000220",
+        "text": "We have the only most.",
+        "start": 1379730,
+        "end": 1380930,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000221",
+        "text": "Okay, so there is MSD that this is not in it.",
+        "start": 1383250,
+        "end": 1387170,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000222",
+        "text": "Perfect.",
+        "start": 1387250,
+        "end": 1387810,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000223",
+        "text": "How does it look like?",
+        "start": 1389170,
+        "end": 1390530,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000224",
+        "text": "Maybe there is an edge here.",
+        "start": 1391810,
+        "end": 1393490,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000225",
+        "text": "There's got to be at least one edge from left to right.",
+        "start": 1393490,
+        "end": 1396050,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000226",
+        "text": "This is the same partition.",
+        "start": 1396050,
+        "end": 1397650,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000227",
+        "text": "Because if there is, if the Ms.",
+        "start": 1401010,
+        "end": 1403410,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000228",
+        "text": "If the contradiction MSB doesn't have any edges between left and right, it's not a tree structure anymore, it's a forest.",
+        "start": 1403810,
+        "end": 1418610,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000229",
+        "text": "It has components.",
+        "start": 1419250,
+        "end": 1420450,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000230",
+        "text": "So it's got to have this one.",
+        "start": 1420450,
+        "end": 1421850,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000231",
+        "text": "But it could have hundred.",
+        "start": 1421850,
+        "end": 1423090,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000232",
+        "text": "I don't know.",
+        "start": 1423970,
+        "end": 1425090,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000233",
+        "text": "I don't care.",
+        "start": 1425090,
+        "end": 1425810,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000234",
+        "text": "Are there other edges?",
+        "start": 1426130,
+        "end": 1427490,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000235",
+        "text": "Yeah, there could be edges in there.",
+        "start": 1427490,
+        "end": 1429330,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000236",
+        "text": "So it would look something like that.",
+        "start": 1432380,
+        "end": 1434220,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000237",
+        "text": "Maybe more edges between left and right.",
+        "start": 1434380,
+        "end": 1436780,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000238",
+        "text": "A hundred edges, N minus one edges or just one edge.",
+        "start": 1437100,
+        "end": 1441740,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000239",
+        "text": "Anything is possible as long as it's one or more.",
+        "start": 1442380,
+        "end": 1446140,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000240",
+        "text": "Okay, so this is called T prime contradiction msp.",
+        "start": 1448460,
+        "end": 1458380,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000241",
+        "text": "The three I'm showing here.",
+        "start": 1459920,
+        "end": 1461360,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000242",
+        "text": "Actually let me get rid of prime.",
+        "start": 1462080,
+        "end": 1464000,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000243",
+        "text": "It's called the contradiction mst meaning by contradiction there is somebody saying no, I know of an MST that does not have E mean in it.",
+        "start": 1464080,
+        "end": 1475440,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000244",
+        "text": "Right?",
+        "start": 1475440,
+        "end": 1475840,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000245",
+        "text": "That's complement of this statement.",
+        "start": 1476000,
+        "end": 1477920,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000246",
+        "text": "Okay, you say fine, let's go with your hypothesis.",
+        "start": 1478960,
+        "end": 1483040,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000247",
+        "text": "There exists such an MST with E sub min not in it.",
+        "start": 1483040,
+        "end": 1487200,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000248",
+        "text": "Let me add E sub min to that.",
+        "start": 1488000,
+        "end": 1490720,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000249",
+        "text": "Let's say it's here.",
+        "start": 1491680,
+        "end": 1492800,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000250",
+        "text": "What is this E mean?",
+        "start": 1496240,
+        "end": 1497680,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000251",
+        "text": "Same as this.",
+        "start": 1498240,
+        "end": 1499000,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000252",
+        "text": "E sub min is the minimum one going from left to right in my partition.",
+        "start": 1499000,
+        "end": 1506080,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000253",
+        "text": "So that's why I label it the same.",
+        "start": 1507040,
+        "end": 1509200,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000254",
+        "text": "This edge is exactly this edge.",
+        "start": 1509360,
+        "end": 1512450,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000255",
+        "text": "Okay with me so far.",
+        "start": 1515410,
+        "end": 1517730,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000256",
+        "text": "I start with a contradiction mst, I add one edge, a specific edge E main that I insisted Must be in an mst.",
+        "start": 1518530,
+        "end": 1528450,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000257",
+        "text": "Now I don't have a tree structure anymore.",
+        "start": 1529810,
+        "end": 1532290,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000258",
+        "text": "When you have a tree structure, you add an edge.",
+        "start": 1533730,
+        "end": 1536210,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000259",
+        "text": "It's not a tree anymore.",
+        "start": 1536210,
+        "end": 1537330,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000260",
+        "text": "We talked about that.",
+        "start": 1537330,
+        "end": 1538230,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000261",
+        "text": "Okay, I'm going to take this.",
+        "start": 1539820,
+        "end": 1542140,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000262",
+        "text": "We talked about three minutes ago that when you have a tree structure, when you add an edge to it, you create a cycle.",
+        "start": 1542700,
+        "end": 1551020,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000263",
+        "text": "In this example, that's this cycle.",
+        "start": 1554220,
+        "end": 1557100,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000264",
+        "text": "There is a cycle somewhere.",
+        "start": 1560940,
+        "end": 1562540,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000265",
+        "text": "Take this graph, remove an edge of this cycle.",
+        "start": 1567930,
+        "end": 1575930,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000266",
+        "text": "Let me call it E cycle because I don't know a better name.",
+        "start": 1576490,
+        "end": 1580570,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000267",
+        "text": "Remove from that the edge of the cycle and add to it equal.",
+        "start": 1581450,
+        "end": 1587690,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000268",
+        "text": "Let me do it actually backwards, same equation.",
+        "start": 1587690,
+        "end": 1592340,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000269",
+        "text": "I'm going to write it backwards because that's the way you've been thinking.",
+        "start": 1592820,
+        "end": 1596340,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000270",
+        "text": "Add to that E sub mean, remove from that E cycle, right?",
+        "start": 1596660,
+        "end": 1604820,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000271",
+        "text": "This means.",
+        "start": 1605140,
+        "end": 1605980,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000272",
+        "text": "Let me call it T prime.",
+        "start": 1605980,
+        "end": 1609220,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000273",
+        "text": "So T prime is you add E sub bin this E sub mean and you remove this outside the context of mst.",
+        "start": 1610580,
+        "end": 1622060,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000274",
+        "text": "We've already done this.",
+        "start": 1622060,
+        "end": 1623260,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000275",
+        "text": "If you look at your notes 10 minutes ago, we add an edge and we remove many other edges one at a time from a graph.",
+        "start": 1623260,
+        "end": 1632460,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000276",
+        "text": "If we remove one, we get the or we get eight feedback, right?",
+        "start": 1632540,
+        "end": 1638820,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000277",
+        "text": "That's all I'm doing here.",
+        "start": 1638820,
+        "end": 1640220,
+        "speaker": "A"
+      }
+    ],
+    "context_after_main_text": [
+      {
+        "sid": "s000278",
+        "text": "Clear.",
+        "start": 1644550,
+        "end": 1644790,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000279",
+        "text": "Okay.",
+        "start": 1645670,
+        "end": 1646310,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000280",
+        "text": "Weight of T prime got to be less than weight of T contradicting msd because E min is less than E cycle, right?",
+        "start": 1648950,
+        "end": 1673840,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000281",
+        "text": "If I have some money in my pocket and I go buy a hot dog, give them 10 bucks, they give me $2 back, I'm going to have less money because instead of 10, they gave me two.",
+        "start": 1686320,
+        "end": 1699950,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000282",
+        "text": "That's all I'm saying here.",
+        "start": 1701230,
+        "end": 1702750,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000283",
+        "text": "Got rid of this one, added this one.",
+        "start": 1705790,
+        "end": 1710830,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000284",
+        "text": "How was E sub min defined?",
+        "start": 1711470,
+        "end": 1713550,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000285",
+        "text": "As the minimum between left and right.",
+        "start": 1713790,
+        "end": 1716430,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000286",
+        "text": "So E sub min, since it's the minimum between left and right, it's going to be less than that, it's going to be less than that, it's going to be less than that, it's going to be less than that by definition.",
+        "start": 1717870,
+        "end": 1728650,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000287",
+        "text": "By definition of E sub E, therefore I have a better tree structure now.",
+        "start": 1729050,
+        "end": 1734490,
+        "speaker": "A"
+      }
+    ]
+  }
+]

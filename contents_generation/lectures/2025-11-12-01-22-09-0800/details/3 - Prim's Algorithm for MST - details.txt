@@ -1,0 +1,35 @@
+# 3. Prim's Algorithm for MST
+
+Prim's algorithm is a vertex-centric method for finding a Minimum Spanning Tree (MST) by iteratively growing a tree from an arbitrary starting vertex. It works by repeatedly adding the minimum-weight edge that connects a vertex in the growing tree to a vertex outside of it, ensuring each added edge is part of an MST based on the MST theorem. The algorithm proceeds in N-1 stages, ultimately constructing an MST with N-1 edges.
+
+## 📚 Understanding Prim's Algorithm
+
+Prim's algorithm is one of two fundamental approaches, alongside Kruskal's algorithm, for constructing a Minimum Spanning Tree (MST) by strategically partitioning the graph's vertices. Unlike Kruskal's, which is edge-centric, Prim's is a *vertex-centric* algorithm, focusing on processing one vertex at a time. ⟦s000322, s000323, s000325, s000326, s000739, s000740, s000741, s000743, s000744⟧
+
+## 💡 The Core Idea: MST Theorem and Partitions
+
+The overarching strategy for MST algorithms involves creating a bipartition of the graph's vertices into two sets, V1 and V2. For each such partition, the algorithm identifies the *minimum-weight edge* (E sub min) that crosses between V1 and V2. ⟦s000303, s000314, s000321⟧ According to the **MST theorem**, this E sub min must be part of any MST, and therefore, it is added to the solution. ⟦s000306, s000331, s000334, s000339, s000456, s000457, s000459, s000460, s000481, s000482, s000483, s000485, s000486, s000487, s000488, s000489, s000524, s000526, s000527, s000669, s000670, s000674, s000678⟧ This process is repeated N-1 times, as an MST for a graph with N vertices always contains exactly N-1 edges. ⟦s000317, s000318, s000321⟧
+
+## ⚙️ Step-by-Step Execution of Prim's Algorithm
+
+Prim's algorithm implements this core idea through the following steps:
+
+1.  **Initial Partition**: Start by arbitrarily selecting one vertex and placing it into set V1. All other N-1 vertices are placed into set V2. The choice of the initial vertex is arbitrary and does not significantly impact the algorithm's correctness or efficiency. ⟦s000361, s000362, s000363, s000364, s000372, s000373, s000374, s000375, s000376, s000378⟧
+2.  **Find E_min**: Identify all edges connecting a vertex in V1 to a vertex in V2. From these, select the edge with the *minimum weight* (E sub min). ⟦s000379, s000380, s000401, s000403⟧
+3.  **Add to MST**: Add this E sub min to the set of edges forming the MST. ⟦s000404, s000405⟧
+4.  **Update Partition**: Move the vertex from V2 that is connected by the newly added E sub min to V1. This expands the set of vertices already included in the growing MST. ⟦s000409, s000410, s000428, s000469⟧
+5.  **Repeat**: Continue steps 2-4 for N-1 stages. Each stage adds one edge and one vertex to V1, ensuring that a new E sub min is found each time and preventing the algorithm from repeatedly selecting the same edge. ⟦s000335, s000336, s000469, s000470, s000471, s000472, s000473, s000475, s000476, s000477, s000478, s000479, s000480, s000667⟧
+
+## ✅ Why Prim's Algorithm is Correct
+
+The correctness of Prim's algorithm is fundamentally guaranteed by the **MST theorem**. Each time an E sub min is selected based on the current bipartition, the MST theorem dictates that this edge *must* be part of an MST. ⟦s000306, s000331, s000334, s000339, s000456, s000457, s000459, s000460, s000481, s000482, s000483, s000485, s000486, s000487, s000488, s000489, s000524, s000526, s000527, s000669, s000670, s000674, s000678⟧ By moving the vertex associated with the chosen E sub min to the "left" (V1), the algorithm ensures that the next partition will yield a *brand new* E sub min, preventing redundant selections and guaranteeing progress. ⟦s000469, s000470, s000471, s000665, s000666⟧ This systematic approach, driven by the MST theorem, ensures that the collected N-1 edges collectively form a valid MST. ⟦s000488, s000489, s000667⟧
+
+## ⏱️ Runtime Analysis and Optimization
+
+Initially, Prim's algorithm can be implemented with a runtime complexity of **O(N^2)**. In each of the N-1 stages, finding the minimum edge requires scanning all N-1 vertices in V2 to find their minimum connection to V1, which takes O(N) time. Additionally, when a new vertex moves to V1, the connections of its neighbors in V2 might need to be updated, which can also take up to O(N) time in the worst case. ⟦s000548, s000549, s000557, s000558, s000580, s000581, s000582, s000585, s000592, s000593, s000710, s000711⟧
+
+This process is analogous to Dijkstra's algorithm, where distances to a source are updated. ⟦s000535, s000537, s000538, s000539, s000540, s000714, s000715, s000716, s000717, s000718⟧ By employing a **heap data structure** (specifically a min-priority queue) to store and efficiently retrieve the minimum-weight edges, the runtime can be optimized. Each edge update or insertion into the heap takes logarithmic time, specifically O(log E) or O(log N). Since there are E edges, and each might trigger an update, the total runtime with a heap becomes **O(E log E)** or **O(E log N)**. ⟦s000638, s000639, s000641, s000643, s000649, s000650, s000651, s000652, s000653, s000720, s000721, s000722, s000723, s000724, s000725, s000726, s000727, s000728, s000730, s000734, s000735⟧ The terms O(E log E) and O(E log N) are considered equivalent in order because the number of edges (E) can be at most N squared, meaning log(N^2) is 2 log N, which is the same order as log N. ⟦s000657, s000658⟧
+
+## ⚠️ Considerations for Non-Unique Edge Weights
+
+The direct proof of the MST theorem, which underpins Prim's algorithm, relies on the assumption that edge weights are *unique*. If multiple edges have the same minimum weight, there might be several options for E sub min. In such cases, the strict inequality (E sub min < E cycle) used in the proof becomes a less-than-or-equal-to (E sub min <= E cycle), which can complicate the direct contradiction argument. ⟦s000294, s000295, s000296, s000297⟧ However, this is generally considered a minor issue for the algorithm's practical application. ⟦s000298, s000299, s000301⟧

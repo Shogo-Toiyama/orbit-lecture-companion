@@ -1,0 +1,1206 @@
+[
+  {
+    "context_before_main_text": [
+      {
+        "sid": "s000270",
+        "text": "This means, let me call it T prime."
+      },
+      {
+        "sid": "s000271",
+        "text": "So T prime is you add E sub min, this E sub min, and you remove this outside the context of msp."
+      },
+      {
+        "sid": "s000272",
+        "text": "We've already done this."
+      },
+      {
+        "sid": "s000273",
+        "text": "If you look at your notes 10 minutes ago, we add an edge and we remove many other edges one at a time from a graph."
+      },
+      {
+        "sid": "s000274",
+        "text": "If we remove one, we get the origin, we get eight."
+      },
+      {
+        "sid": "s000275",
+        "text": "Feedback, right?"
+      },
+      {
+        "sid": "s000276",
+        "text": "That's all I'm doing here."
+      },
+      {
+        "sid": "s000277",
+        "text": "Clear."
+      },
+      {
+        "sid": "s000278",
+        "text": "Okay."
+      },
+      {
+        "sid": "s000279",
+        "text": "Weight of T prime got to be less than rate of T, contradiction and st. Because Amin is less than E cycle, right?"
+      }
+    ],
+    "main_text": [
+      {
+        "sid": "s000280",
+        "text": "If I have some money in my pocket and I go buy a Haddock, give them 10 bucks, they gave me $2 back, I'm gonna have less money because instead of 10, they gave me two."
+      },
+      {
+        "sid": "s000281",
+        "text": "That's all I'm saying here."
+      },
+      {
+        "sid": "s000282",
+        "text": "Got rid of this one, added this one."
+      },
+      {
+        "sid": "s000283",
+        "text": "How was E sub min defined?"
+      },
+      {
+        "sid": "s000284",
+        "text": "As the minimum between left and right."
+      },
+      {
+        "sid": "s000285",
+        "text": "So since it's the minimum between left and right, it's gonna be less than that, it's gonna be less than that, it's gonna be less than that, it's gonna be less than that by definition."
+      },
+      {
+        "sid": "s000286",
+        "text": "By definition of E sub mean, therefore I have a better tree structure now."
+      },
+      {
+        "sid": "s000287",
+        "text": "So contradiction phase."
+      },
+      {
+        "sid": "s000288",
+        "text": "There is not an MST with E mean not in it."
+      },
+      {
+        "sid": "s000289",
+        "text": "Because if there is this one, that cannot be the mst."
+      },
+      {
+        "sid": "s000290",
+        "text": "And I just prove that because I can reduce its weight."
+      },
+      {
+        "sid": "s000291",
+        "text": "Okay, so this is called so MSDT or Ms."
+      },
+      {
+        "sid": "s000292",
+        "text": "True because of what you prove here."
+      },
+      {
+        "sid": "s000293",
+        "text": "It means if you do any by partition of the vertices, you take the minimum one that's going to be in mst."
+      },
+      {
+        "sid": "s000294",
+        "text": "One of the things that I want to emphasize again is this is true only if the weights are unique."
+      },
+      {
+        "sid": "s000295",
+        "text": "You can imagine that if the weights are not unique, let's say all the weights are one, then they have many options."
+      },
+      {
+        "sid": "s000296",
+        "text": "Then I cannot say E sub min is less than E cycle."
+      },
+      {
+        "sid": "s000297",
+        "text": "I have to say E sub min is less than or equal to E cycle because they are not unique and therefore I don't have a contradiction."
+      },
+      {
+        "sid": "s000298",
+        "text": "So none of this works directly when the weights are non unique."
+      },
+      {
+        "sid": "s000299",
+        "text": "It does not work that way."
+      },
+      {
+        "sid": "s000300",
+        "text": "But later we'll see."
+      },
+      {
+        "sid": "s000301",
+        "text": "That's a minor issue."
+      },
+      {
+        "sid": "s000302",
+        "text": "Okay, so now we have a game plan for algorithm."
+      },
+      {
+        "sid": "s000303",
+        "text": "I'm going to produce a bipartition of the original graph and I somehow arbitrary randomly, by magic, I will create a bipartition that will give me an E sub mean."
+      },
+      {
+        "sid": "s000304",
+        "text": "I put it in the solution."
+      },
+      {
+        "sid": "s000305",
+        "text": "Why?"
+      },
+      {
+        "sid": "s000306",
+        "text": "Because MST theorem says put that in the solution."
+      },
+      {
+        "sid": "s000307",
+        "text": "Then I create another by partition that gives me another E sub min."
+      },
+      {
+        "sid": "s000308",
+        "text": "I put that in the solution."
+      },
+      {
+        "sid": "s000309",
+        "text": "I keep doing that."
+      },
+      {
+        "sid": "s000310",
+        "text": "I just have to make sure that if I create, if this is E mean, I want to make sure the next partition doesn't have this as its E min because then I'm oscillating the same edge over and over."
+      },
+      {
+        "sid": "s000311",
+        "text": "Waste of time."
+      },
+      {
+        "sid": "s000312",
+        "text": "I just got to make sure E sub mean changes as I change partition."
+      },
+      {
+        "sid": "s000313",
+        "text": "But other than that, this is the game plan."
+      },
+      {
+        "sid": "s000314",
+        "text": "Produce a ton of partitions and for each partition I find an E min, I output that out and I say that's part of MST."
+      },
+      {
+        "sid": "s000315",
+        "text": "That's all."
+      },
+      {
+        "sid": "s000316",
+        "text": "How many times we gotta do that?"
+      },
+      {
+        "sid": "s000317",
+        "text": "Precisely n minus one time."
+      },
+      {
+        "sid": "s000318",
+        "text": "Because the number of edges in an MSP is E sub is n minus one."
+      },
+      {
+        "sid": "s000319",
+        "text": "Any."
+      },
+      {
+        "sid": "s000320",
+        "text": "I don't even need the n part."
+      },
+      {
+        "sid": "s000321",
+        "text": "Any spanning tree will have exactly N minus one edges. Okay, so depending on how I do these partitions, what kind of methodology I use to produce these green boundaries, and there are many ways to produce these boundaries that give rise to different algorithms."
+      },
+      {
+        "sid": "s000322",
+        "text": "There are two central fundamental way of doing its partitions."
+      },
+      {
+        "sid": "s000323",
+        "text": "One was proposed by Prem P P R I M1 was proposed by Crossco C R U S K A L and there are other ways of doing it, but these are the two fundamental ones of doing partitions."
+      },
+      {
+        "sid": "s000324",
+        "text": "And every time use MSD theorem."
+      },
+      {
+        "sid": "s000325",
+        "text": "So the one that Print proposed, we're going to call it Prim's MSP minimum aspiring free algorithm."
+      },
+      {
+        "sid": "s000326",
+        "text": "The one that Cross proposed, we're going to call it Crosscodes msd."
+      },
+      {
+        "sid": "s000327",
+        "text": "Those are the two we're going to study in this class and all other variations of mst."
+      },
+      {
+        "sid": "s000328",
+        "text": "Algorithms are basically variation of these, so we don't need to study them once we understand these two, we pretty much understand every MST algorithm."
+      },
+      {
+        "sid": "s000329",
+        "text": "Okay, so, so, Prim."
+      },
+      {
+        "sid": "s000330",
+        "text": "I produce a partition, I pick the e min one and I say based on."
+      },
+      {
+        "sid": "s000331",
+        "text": "I'm going to keep saying that based on E. Based on MST theorem, this has to be the solution."
+      },
+      {
+        "sid": "s000332",
+        "text": "Then I do another partition like this."
+      },
+      {
+        "sid": "s000333",
+        "text": "Minimum one is three."
+      },
+      {
+        "sid": "s000334",
+        "text": "Now I output three and I said this based on MSP theorem."
+      },
+      {
+        "sid": "s000335",
+        "text": "Three has to be in the solution and I do n -1 partition."
+      },
+      {
+        "sid": "s000336",
+        "text": "Every time a brand new imine has to be in the solution."
+      },
+      {
+        "sid": "s000337",
+        "text": "I'm done."
+      },
+      {
+        "sid": "s000338",
+        "text": "And every time for my proof, I'm not going to prove anything."
+      },
+      {
+        "sid": "s000339",
+        "text": "I say look at MSD theorem."
+      },
+      {
+        "sid": "s000340",
+        "text": "How do you know this should be the solution?"
+      },
+      {
+        "sid": "s000341",
+        "text": "You have a list data structure."
+      },
+      {
+        "sid": "s000342",
+        "text": "That's the game plan."
+      },
+      {
+        "sid": "s000343",
+        "text": "Is it clear what the problem is?"
+      },
+      {
+        "sid": "s000344",
+        "text": "How are we going to proceed?"
+      },
+      {
+        "sid": "s000345",
+        "text": "The rest of it is not going to be details."
+      },
+      {
+        "sid": "s000346",
+        "text": "First, algorithmic details."
+      },
+      {
+        "sid": "s000347",
+        "text": "How do I produce the partitions one at a time?"
+      },
+      {
+        "sid": "s000348",
+        "text": "A and B how to implement them."
+      },
+      {
+        "sid": "s000349",
+        "text": "So two levels."
+      },
+      {
+        "sid": "s000350",
+        "text": "As always, I do the algorithmic one first and I do the data structure one the details data structure at the end."
+      },
+      {
+        "sid": "s000351",
+        "text": "Because if something fails with the algorithm, all the discussion about data structure is useless."
+      },
+      {
+        "sid": "s000352",
+        "text": "I prefer to do things that way."
+      },
+      {
+        "sid": "s000353",
+        "text": "I don't want to think about arrays, binary trees, etc."
+      },
+      {
+        "sid": "s000354",
+        "text": "Right now."
+      },
+      {
+        "sid": "s000355",
+        "text": "A that's confusing to me because too many things happen."
+      },
+      {
+        "sid": "s000356",
+        "text": "B if I start using a heap structure and my algorithm has some issue, I gotta go back and change my whole data structure analysis extra work."
+      },
+      {
+        "sid": "s000357",
+        "text": "I don't feel like it."
+      },
+      {
+        "sid": "s000358",
+        "text": "Okay, let's do that."
+      },
+      {
+        "sid": "s000359",
+        "text": "So all I need to do is hit this, because that's the main proof that I need over and over."
+      },
+      {
+        "sid": "s000360",
+        "text": "Prim's algorithm 6."
+      },
+      {
+        "sid": "s000361",
+        "text": "Take all the vertices, generate V sub 1 and V sub 2 in this manner."
+      },
+      {
+        "sid": "s000362",
+        "text": "Arbitrary."
+      },
+      {
+        "sid": "s000363",
+        "text": "Take a vertex, the one you like, the one whose name you like."
+      },
+      {
+        "sid": "s000364",
+        "text": "The the one that comes first."
+      },
+      {
+        "sid": "s000365",
+        "text": "Don't spend time on it."
+      },
+      {
+        "sid": "s000366",
+        "text": "Don't do things randomly."
+      },
+      {
+        "sid": "s000367",
+        "text": "We never do that."
+      },
+      {
+        "sid": "s000368",
+        "text": "Almost never do that unless there are strong reasons for it because it costs time."
+      },
+      {
+        "sid": "s000369",
+        "text": "So arbitrary versus randomly."
+      },
+      {
+        "sid": "s000370",
+        "text": "Arbitrary versus be smart about picking the first vertex."
+      },
+      {
+        "sid": "s000371",
+        "text": "Those all take time."
+      },
+      {
+        "sid": "s000372",
+        "text": "Arbitrary almost doesn't take any time or takes constant time."
+      },
+      {
+        "sid": "s000373",
+        "text": "First one in the list of V, that's the only one."
+      },
+      {
+        "sid": "s000374",
+        "text": "So pick one which here, take the rest here."
+      },
+      {
+        "sid": "s000375",
+        "text": "So you have n minus one vertices."
+      },
+      {
+        "sid": "s000376",
+        "text": "Here you have one vertex."
+      },
+      {
+        "sid": "s000377",
+        "text": "Okay?"
+      },
+      {
+        "sid": "s000378",
+        "text": "That's what trim says."
+      },
+      {
+        "sid": "s000379",
+        "text": "Then prim says, look at all the edges between this vertex and all the other vertices."
+      },
+      {
+        "sid": "s000380",
+        "text": "Equivalently, look at all the edges between this partition and this partition."
+      },
+      {
+        "sid": "s000381",
+        "text": "But since this partition has one vertex."
+      },
+      {
+        "sid": "s000382",
+        "text": "We can just say between this vertex and everybody else."
+      },
+      {
+        "sid": "s000383",
+        "text": "How many edges are there between this and everybody else?"
+      },
+      {
+        "sid": "s000384",
+        "text": "We don't know."
+      },
+      {
+        "sid": "s000385",
+        "text": "It could be 1."
+      },
+      {
+        "sid": "s000386",
+        "text": "It could be n minus 1."
+      },
+      {
+        "sid": "s000387",
+        "text": "It could be anywhere in between."
+      },
+      {
+        "sid": "s000388",
+        "text": "We don't know."
+      },
+      {
+        "sid": "s000389",
+        "text": "We don't care."
+      },
+      {
+        "sid": "s000390",
+        "text": "Yeah."
+      },
+      {
+        "sid": "s000391",
+        "text": "If we had more than one, wouldn't that be considered a cycle?"
+      },
+      {
+        "sid": "s000392",
+        "text": "If you have more than one from left to right."
+      },
+      {
+        "sid": "s000393",
+        "text": "You mean like this?"
+      },
+      {
+        "sid": "s000394",
+        "text": "I just answered one question."
+      },
+      {
+        "sid": "s000395",
+        "text": "Thank you."
+      },
+      {
+        "sid": "s000396",
+        "text": "No, I answered exactly."
+      },
+      {
+        "sid": "s000397",
+        "text": "So there are like this two."
+      },
+      {
+        "sid": "s000398",
+        "text": "There could be one."
+      },
+      {
+        "sid": "s000399",
+        "text": "There could be n minus one."
+      },
+      {
+        "sid": "s000400",
+        "text": "Right."
+      },
+      {
+        "sid": "s000401",
+        "text": "Prim says take the minimum of all these."
+      },
+      {
+        "sid": "s000402",
+        "text": "There are 50 of them."
+      },
+      {
+        "sid": "s000403",
+        "text": "Take the minimum weights and put this 8e sub mean in the MST."
+      },
+      {
+        "sid": "s000404",
+        "text": "I put that."
+      },
+      {
+        "sid": "s000405",
+        "text": "That's what print says."
+      },
+      {
+        "sid": "s000406",
+        "text": "Okay."
+      },
+      {
+        "sid": "s000407",
+        "text": "Now let's take."
+      },
+      {
+        "sid": "s000408",
+        "text": "Let's do the next partition in this way."
+      },
+      {
+        "sid": "s000409",
+        "text": "Let's take this vertex and move it to the left."
+      },
+      {
+        "sid": "s000410",
+        "text": "I have a brand new partition."
+      },
+      {
+        "sid": "s000411",
+        "text": "2 on the left, n minus 2 on the right."
+      },
+      {
+        "sid": "s000412",
+        "text": "Let's take the E mean."
+      },
+      {
+        "sid": "s000413",
+        "text": "Now what does E mean after I move one to the left?"
+      },
+      {
+        "sid": "s000414",
+        "text": "We don't know."
+      },
+      {
+        "sid": "s000415",
+        "text": "Could it be this one?"
+      },
+      {
+        "sid": "s000416",
+        "text": "This edge?"
+      },
+      {
+        "sid": "s000417",
+        "text": "For sure."
+      },
+      {
+        "sid": "s000418",
+        "text": "Could it be this edge?"
+      },
+      {
+        "sid": "s000419",
+        "text": "Could be."
+      },
+      {
+        "sid": "s000420",
+        "text": "So if I take this and move it to the left, maybe I'm just outputting the same E mean."
+      },
+      {
+        "sid": "s000421",
+        "text": "And if I keep doing that, I'm saying, listen, E means should be in the solution."
+      },
+      {
+        "sid": "s000422",
+        "text": "Listen again."
+      },
+      {
+        "sid": "s000423",
+        "text": "E means should be in the solution."
+      },
+      {
+        "sid": "s000424",
+        "text": "Yeah, we get it."
+      },
+      {
+        "sid": "s000425",
+        "text": "It should be in the solution."
+      },
+      {
+        "sid": "s000426",
+        "text": "I'm not making any progress."
+      },
+      {
+        "sid": "s000427",
+        "text": "So moving this to the left and doing an imine is a bad idea."
+      },
+      {
+        "sid": "s000428",
+        "text": "Instead, what might be a good idea is the following."
+      },
+      {
+        "sid": "s000429",
+        "text": "Let me call this V sub 1, V sub 2."
+      },
+      {
+        "sid": "s000430",
+        "text": "So every time the other side of V sub min."
+      },
+      {
+        "sid": "s000431",
+        "text": "I'm going to call it v sub 2, v sub 3, etc."
+      },
+      {
+        "sid": "s000432",
+        "text": "Just a naming convention in the original graph."
+      },
+      {
+        "sid": "s000433",
+        "text": "They may have other names."
+      },
+      {
+        "sid": "s000434",
+        "text": "5, 18, aw, etc."
+      },
+      {
+        "sid": "s000435",
+        "text": "Okay, so I'm gonna take this movement."
+      },
+      {
+        "sid": "s000436",
+        "text": "So how does it look like?"
+      },
+      {
+        "sid": "s000437",
+        "text": "Now I have V sub 1 here."
+      },
+      {
+        "sid": "s000438",
+        "text": "I have V sub 2 and I have N minus 2 vertices here."
+      },
+      {
+        "sid": "s000439",
+        "text": "Right?"
+      },
+      {
+        "sid": "s000440",
+        "text": "Now find the E sub the new E sub mean."
+      },
+      {
+        "sid": "s000441",
+        "text": "Let me call this E sub mean super strict one."
+      },
+      {
+        "sid": "s000442",
+        "text": "Okay."
+      },
+      {
+        "sid": "s000443",
+        "text": "The next is V sub B which may be connected to V sub 2, which may be connected to V sub 2."
+      },
+      {
+        "sid": "s000444",
+        "text": "Sorry."
+      },
+      {
+        "sid": "s000445",
+        "text": "V sub 1 or V sub 2, I don't know which one."
+      },
+      {
+        "sid": "s000446",
+        "text": "I don't care."
+      },
+      {
+        "sid": "s000447",
+        "text": "It depends on the topology of the graph."
+      },
+      {
+        "sid": "s000448",
+        "text": "The graph will die."
+      },
+      {
+        "sid": "s000449",
+        "text": "Let's say it's connected to here."
+      },
+      {
+        "sid": "s000450",
+        "text": "V sub min 2."
+      },
+      {
+        "sid": "s000451",
+        "text": "So what is the definition of E sub bin 2 when I have now 2 vertices and I showed you how I got from 1 to 2 vertices."
+      },
+      {
+        "sid": "s000452",
+        "text": "This one is the other end of B, the original E sub min."
+      },
+      {
+        "sid": "s000453",
+        "text": "So now this is new E sub min."
+      },
+      {
+        "sid": "s000454",
+        "text": "I put this in the solution."
+      },
+      {
+        "sid": "s000455",
+        "text": "Why?"
+      },
+      {
+        "sid": "s000456",
+        "text": "MST theorem."
+      },
+      {
+        "sid": "s000457",
+        "text": "Prove MST theorem."
+      },
+      {
+        "sid": "s000458",
+        "text": "That's it."
+      },
+      {
+        "sid": "s000459",
+        "text": "You prove MST theorem once."
+      },
+      {
+        "sid": "s000460",
+        "text": "You just keep using it N minus one time in your rhino, in your proof, in your algorithm."
+      },
+      {
+        "sid": "s000461",
+        "text": "Okay, so with me so far, so far I have two pages one and two."
+      },
+      {
+        "sid": "s000462",
+        "text": "Now you can probably guess what's going to happen."
+      },
+      {
+        "sid": "s000463",
+        "text": "I go to the other side of V sub me."
+      },
+      {
+        "sid": "s000464",
+        "text": "Just give it a name, V sub 3."
+      },
+      {
+        "sid": "s000465",
+        "text": "Next time we're going to have V sub 1 V sub 2 V sub 3."
+      },
+      {
+        "sid": "s000466",
+        "text": "I have N minus 3 vertices."
+      },
+      {
+        "sid": "s000467",
+        "text": "I take the new E shopping."
+      },
+      {
+        "sid": "s000468",
+        "text": "Let's say it's time for to be e sub min 3 by the output e sub min 3 as the third edge."
+      },
+      {
+        "sid": "s000469",
+        "text": "So you see, if every time I take the other side, the other vertex of the edge that I just output, I'll make sure that edge E sub min next time around is going to be all in the left side will not go across."
+      },
+      {
+        "sid": "s000470",
+        "text": "Therefore I'll have a brand new E sub B, which is what I want."
+      },
+      {
+        "sid": "s000471",
+        "text": "I don't want to repeat the same E sub min and not make any progress."
+      },
+      {
+        "sid": "s000472",
+        "text": "So I output 1e sub min 2nd e sub min 3rd e sub min."
+      },
+      {
+        "sid": "s000473",
+        "text": "I keep doing that."
+      },
+      {
+        "sid": "s000474",
+        "text": "At the end I get this."
+      },
+      {
+        "sid": "s000475",
+        "text": "The variable at the end, it's N minus one."
+      },
+      {
+        "sid": "s000476",
+        "text": "Instead I have V sub one through V n minus one."
+      },
+      {
+        "sid": "s000477",
+        "text": "I have one vertex here I have a brand new E sub min Superscript N minus 1."
+      },
+      {
+        "sid": "s000478",
+        "text": "I put that I output that very last E sub means superscript N minus 1."
+      },
+      {
+        "sid": "s000479",
+        "text": "I move this to the left."
+      },
+      {
+        "sid": "s000480",
+        "text": "I'm done."
+      },
+      {
+        "sid": "s000481",
+        "text": "Every time I use MSD theorem, so with confidence, every edge that my output must be in every msd."
+      },
+      {
+        "sid": "s000482",
+        "text": "So why is this whole algorithm correct, the Prince algorithm?"
+      },
+      {
+        "sid": "s000483",
+        "text": "Because every thing that I output was based on that."
+      },
+      {
+        "sid": "s000484",
+        "text": "That's it."
+      },
+      {
+        "sid": "s000485",
+        "text": "That's the proof."
+      },
+      {
+        "sid": "s000486",
+        "text": "Every step is correct."
+      },
+      {
+        "sid": "s000487",
+        "text": "Because every step I outputted the right edge again based on that."
+      },
+      {
+        "sid": "s000488",
+        "text": "Therefore, collectively they are all the right set of edges that I output."
+      },
+      {
+        "sid": "s000489",
+        "text": "That's how I get the final nst."
+      },
+      {
+        "sid": "s000490",
+        "text": "Okay?"
+      },
+      {
+        "sid": "s000491",
+        "text": "So one step of the algorithm, the I step find E sub B."
+      },
+      {
+        "sid": "s000492",
+        "text": "In the ith step, the edge that connects this to the the other side of D sub B that edge output that as your MSDH moves it to the nerve."
+      },
+      {
+        "sid": "s000493",
+        "text": "That's the I step."
+      },
+      {
+        "sid": "s000494",
+        "text": "That's all you need to do."
+      },
+      {
+        "sid": "s000495",
+        "text": "Yes, please."
+      },
+      {
+        "sid": "s000496",
+        "text": "So we did all These steps."
+      },
+      {
+        "sid": "s000497",
+        "text": "Didn't we just output all the edges?"
+      },
+      {
+        "sid": "s000498",
+        "text": "No."
+      },
+      {
+        "sid": "s000499",
+        "text": "There are N square edges sometime, right?"
+      },
+      {
+        "sid": "s000500",
+        "text": "You only output N minus 1 out there."
+      },
+      {
+        "sid": "s000501",
+        "text": "It's sub."
+      },
+      {
+        "sid": "s000502",
+        "text": "Okay, yes."
+      },
+      {
+        "sid": "s000503",
+        "text": "Sorry."
+      },
+      {
+        "sid": "s000504",
+        "text": "What if there was an edge that."
+      },
+      {
+        "sid": "s000505",
+        "text": "There was a edge that was more and we didn't know because that other note was in the."
+      },
+      {
+        "sid": "s000506",
+        "text": "You mean if there was something here, we will get to that at some."
+      },
+      {
+        "sid": "s000507",
+        "text": "What I mean, not."
+      },
+      {
+        "sid": "s000508",
+        "text": "We will get."
+      },
+      {
+        "sid": "s000509",
+        "text": "The algorithm is getting snapped."
+      },
+      {
+        "sid": "s000510",
+        "text": "Guys."
+      },
+      {
+        "sid": "s000511",
+        "text": "If you have a question, please wait and raise your hand."
+      },
+      {
+        "sid": "s000512",
+        "text": "Please don't distract others."
+      },
+      {
+        "sid": "s000513",
+        "text": "So at some point this is going to go to the left."
+      },
+      {
+        "sid": "s000514",
+        "text": "This becomes e sub min in some partition, so it will not be lost."
+      },
+      {
+        "sid": "s000515",
+        "text": "In fact, the very first one that I pick could be a very large weight H, like the nine we have there."
+      },
+      {
+        "sid": "s000516",
+        "text": "So you are asking what about one?"
+      },
+      {
+        "sid": "s000517",
+        "text": "Why did you output nine?"
+      },
+      {
+        "sid": "s000518",
+        "text": "I will get to one when the partition becomes this."
+      },
+      {
+        "sid": "s000519",
+        "text": "So don't."
+      },
+      {
+        "sid": "s000520",
+        "text": "Don't."
+      },
+      {
+        "sid": "s000521",
+        "text": "I guess don't think."
+      },
+      {
+        "sid": "s000522",
+        "text": "Did I miss any edges?"
+      },
+      {
+        "sid": "s000523",
+        "text": "Think."
+      },
+      {
+        "sid": "s000524",
+        "text": "Any edge that I output must be part of MSD because of mst."
+      },
+      {
+        "sid": "s000525",
+        "text": "That's the complement of the way you are stating it."
+      },
+      {
+        "sid": "s000526",
+        "text": "And the proof comes directly from that."
+      },
+      {
+        "sid": "s000527",
+        "text": "Every output is a good output."
+      },
+      {
+        "sid": "s000528",
+        "text": "Okay, so first I have that, then I'm gonna write."
+      },
+      {
+        "sid": "s000529",
+        "text": "Let's say this weight is four, this weight is six."
+      },
+      {
+        "sid": "s000530",
+        "text": "This weight is two in parentheses."
+      },
+      {
+        "sid": "s000531",
+        "text": "I'm gonna write four, six, two, etc."
+      },
+      {
+        "sid": "s000532",
+        "text": "And some vertices may not even be connected to the left."
+      },
+      {
+        "sid": "s000533",
+        "text": "Might be connected here."
+      },
+      {
+        "sid": "s000534",
+        "text": "I'm gonna say infinite."
+      },
+      {
+        "sid": "s000535",
+        "text": "So you may recall this numbering is precisely Dijkstra's numbering, with one difference."
+      },
+      {
+        "sid": "s000536",
+        "text": "Dijkstra's numbering."
+      },
+      {
+        "sid": "s000537",
+        "text": "This was the distance to one vertex that we call the source."
+      },
+      {
+        "sid": "s000538",
+        "text": "The new numbering is the weight to the left to anybody on the left, any vertex."
+      },
+      {
+        "sid": "s000539",
+        "text": "So this is one H. Dijkstra was a patch."
+      },
+      {
+        "sid": "s000540",
+        "text": "Other than that, it's the same kind of numbering, the same kind of analysis."
+      },
+      {
+        "sid": "s000541",
+        "text": "So what's going to happen now is this."
+      },
+      {
+        "sid": "s000542",
+        "text": "No."
+      },
+      {
+        "sid": "s000543",
+        "text": "Now I'm ready for details of implementation."
+      },
+      {
+        "sid": "s000544",
+        "text": "I have an algorithm."
+      },
+      {
+        "sid": "s000545",
+        "text": "It's correct based on MSB theorem."
+      },
+      {
+        "sid": "s000546",
+        "text": "I invested time in proving that it was well worth it because I'm reusing it over and over and I don't need to prove anything else."
+      },
+      {
+        "sid": "s000547",
+        "text": "Okay, so I'm going to take all these numbers."
+      },
+      {
+        "sid": "s000548",
+        "text": "I find the minimum of these numbers in how much time order N. Time initially is n minus 1, because there are n minus 1 numbers, some of them infinite, some of them other numbers."
+      },
+      {
+        "sid": "s000549",
+        "text": "So for the I step, I find the minimum order N time."
+      },
+      {
+        "sid": "s000550",
+        "text": "Then when this."
+      },
+      {
+        "sid": "s000551",
+        "text": "Let's say this one was moved."
+      },
+      {
+        "sid": "s000552",
+        "text": "So V sub 2 was moved to the left."
+      },
+      {
+        "sid": "s000553",
+        "text": "After this step, there are connections to V sub 2."
+      },
+      {
+        "sid": "s000554",
+        "text": "I need to go and maybe update those parameters, those distances, because previously maybe the distance to this was 8, now this is 3."
+      },
+      {
+        "sid": "s000555",
+        "text": "So I update this from 8 to 10 because of V sub 2 that I just moved to the left."
+      },
+      {
+        "sid": "s000556",
+        "text": "And if it happens that the new distance is more than the previous one, then I don't update that."
+      },
+      {
+        "sid": "s000557",
+        "text": "But in the worst case, I need to go to each and every one of these and update them so the update takes order n time."
+      },
+      {
+        "sid": "s000558",
+        "text": "Because I may have to update N vertices."
+      }
+    ],
+    "context_after_main_text": [
+      {
+        "sid": "s000559",
+        "text": "Yes, of course."
+      },
+      {
+        "sid": "s000560",
+        "text": "Okay, I have."
+      },
+      {
+        "sid": "s000561",
+        "text": "Let's say V sub 1."
+      },
+      {
+        "sid": "s000562",
+        "text": "I have V sub 2."
+      },
+      {
+        "sid": "s000563",
+        "text": "This is E. How did I pick V sub 2?"
+      },
+      {
+        "sid": "s000564",
+        "text": "I go to all the vertices, look at their connection to the left."
+      },
+      {
+        "sid": "s000565",
+        "text": "If they don't have a connection, their distance is infinity."
+      },
+      {
+        "sid": "s000566",
+        "text": "If they have a connection to the left."
+      },
+      {
+        "sid": "s000567",
+        "text": "Let's say this is 6, this distance becomes 6 and probably this is 4."
+      },
+      {
+        "sid": "s000568",
+        "text": "4, that's y equals E sub M was the minimum possible."
+      }
+    ]
+  }
+]

@@ -1,0 +1,1678 @@
+{
+  "labels": [
+    {
+      "sid": "s000838",
+      "role": "chitchat",
+      "role_score": 0.99,
+      "role_reason": "acknowledges previous explanation, filler"
+    },
+    {
+      "sid": "s000839",
+      "role": "chitchat",
+      "role_score": 0.99,
+      "role_reason": "continuation of previous filler"
+    },
+    {
+      "sid": "s000840",
+      "role": "qa",
+      "role_score": 0.99,
+      "role_reason": "student question about next step"
+    },
+    {
+      "sid": "s000841",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor explains the idea"
+    },
+    {
+      "sid": "s000842",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor continues explanation"
+    },
+    {
+      "sid": "s000843",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor explains partitioning strategy"
+    },
+    {
+      "sid": "s000844",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor explains minimum edge"
+    },
+    {
+      "sid": "s000845",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor states a condition"
+    },
+    {
+      "sid": "s000846",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor states another condition"
+    },
+    {
+      "sid": "s000847",
+      "role": "qa",
+      "role_score": 0.99,
+      "role_reason": "student poses a hypothetical question"
+    },
+    {
+      "sid": "s000848",
+      "role": "qa",
+      "role_score": 0.99,
+      "role_reason": "student poses a hypothetical question"
+    },
+    {
+      "sid": "s000849",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor continues hypothetical scenario"
+    },
+    {
+      "sid": "s000850",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor continues explanation"
+    },
+    {
+      "sid": "s000851",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor explains partitioning strategy"
+    },
+    {
+      "sid": "s000852",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor continues explanation"
+    },
+    {
+      "sid": "s000853",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor summarizes the situation"
+    },
+    {
+      "sid": "s000854",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor explains partitioning strategy"
+    },
+    {
+      "sid": "s000855",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor clarifies a condition"
+    },
+    {
+      "sid": "s000856",
+      "role": "qa",
+      "role_score": 0.99,
+      "role_reason": "student expresses confusion"
+    },
+    {
+      "sid": "s000857",
+      "role": "qa",
+      "role_score": 0.99,
+      "role_reason": "student asks for clarification"
+    },
+    {
+      "sid": "s000858",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor explains a constraint"
+    },
+    {
+      "sid": "s000859",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor explains a constraint"
+    },
+    {
+      "sid": "s000860",
+      "role": "qa",
+      "role_score": 0.99,
+      "role_reason": "student rephrases understanding of professor's point"
+    },
+    {
+      "sid": "s000861",
+      "role": "qa",
+      "role_score": 0.99,
+      "role_reason": "student seeks confirmation"
+    },
+    {
+      "sid": "s000862",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor confirms student's understanding"
+    },
+    {
+      "sid": "s000863",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor admits difficulty"
+    },
+    {
+      "sid": "s000864",
+      "role": "qa",
+      "role_score": 0.99,
+      "role_reason": "professor challenges student to find a partition"
+    },
+    {
+      "sid": "s000865",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor explains the vast number of possibilities"
+    },
+    {
+      "sid": "s000866",
+      "role": "qa",
+      "role_score": 0.99,
+      "role_reason": "professor challenges student to find a partition"
+    },
+    {
+      "sid": "s000867",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor illustrates a partition example"
+    },
+    {
+      "sid": "s000868",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor explains why the edge is not across the cut"
+    },
+    {
+      "sid": "s000869",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor explains partitioning strategy"
+    },
+    {
+      "sid": "s000870",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor explains a constraint"
+    },
+    {
+      "sid": "s000871",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor concludes based on examples"
+    },
+    {
+      "sid": "s000872",
+      "role": "qa",
+      "role_score": 0.99,
+      "role_reason": "student asks for clarification on a term"
+    },
+    {
+      "sid": "s000873",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor confirms student's understanding"
+    },
+    {
+      "sid": "s000874",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor praises student's reasoning"
+    },
+    {
+      "sid": "s000875",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor explains Kruskal's algorithm rule"
+    },
+    {
+      "sid": "s000876",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor relates rule to previous example"
+    },
+    {
+      "sid": "s000877",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor explains next step in algorithm"
+    },
+    {
+      "sid": "s000878",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor states action to take"
+    },
+    {
+      "sid": "s000879",
+      "role": "qa",
+      "role_score": 0.99,
+      "role_reason": "student asks for the reason behind an action"
+    },
+    {
+      "sid": "s000880",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor explains the reason for ignoring an edge"
+    },
+    {
+      "sid": "s000881",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor explains the consequence of not applying the theorem"
+    },
+    {
+      "sid": "s000882",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor clarifies the scope of the algorithm"
+    },
+    {
+      "sid": "s000883",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor mentions alternative algorithm name"
+    },
+    {
+      "sid": "s000884",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor states the requirement for the algorithm"
+    },
+    {
+      "sid": "s000885",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor explains the condition for edge selection"
+    },
+    {
+      "sid": "s000886",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor states the outcome if condition is met"
+    },
+    {
+      "sid": "s000887",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor states the outcome if condition is not met"
+    },
+    {
+      "sid": "s000888",
+      "role": "chitchat",
+      "role_score": 0.99,
+      "role_reason": "acknowledgement, filler"
+    },
+    {
+      "sid": "s000889",
+      "role": "qa",
+      "role_score": 0.99,
+      "role_reason": "student asks for the implication of the previous statement"
+    },
+    {
+      "sid": "s000890",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor reiterates the algorithm step"
+    },
+    {
+      "sid": "s000891",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor applies algorithm step to an edge"
+    },
+    {
+      "sid": "s000892",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor applies algorithm step to an edge"
+    },
+    {
+      "sid": "s000893",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor applies algorithm step to an edge"
+    },
+    {
+      "sid": "s000894",
+      "role": "qa",
+      "role_score": 0.99,
+      "role_reason": "student asks if a specific edge can be processed"
+    },
+    {
+      "sid": "s000895",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor answers the question negatively"
+    },
+    {
+      "sid": "s000896",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor explains the condition for not adding an edge"
+    },
+    {
+      "sid": "s000897",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor confirms student's understanding"
+    },
+    {
+      "sid": "s000898",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor states a current limitation"
+    },
+    {
+      "sid": "s000899",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor identifies a future problem"
+    },
+    {
+      "sid": "s000900",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor states the problem to be addressed"
+    },
+    {
+      "sid": "s000901",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor mentions a known method for cycle detection"
+    },
+    {
+      "sid": "s000902",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor discusses the inefficiency of a method"
+    },
+    {
+      "sid": "s000903",
+      "role": "qa",
+      "role_score": 0.99,
+      "role_reason": "student asks about an efficient method for cycle detection"
+    },
+    {
+      "sid": "s000904",
+      "role": "chitchat",
+      "role_score": 0.99,
+      "role_reason": "acknowledgement, filler"
+    },
+    {
+      "sid": "s000905",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor states the problem to be addressed later"
+    },
+    {
+      "sid": "s000906",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor states a condition for relevance"
+    },
+    {
+      "sid": "s000907",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor states the consequence if the condition is not met"
+    },
+    {
+      "sid": "s000908",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor describes a personal note"
+    },
+    {
+      "sid": "s000909",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor states the topic for the note"
+    },
+    {
+      "sid": "s000910",
+      "role": "chitchat",
+      "role_score": 0.99,
+      "role_reason": "acknowledgement, filler"
+    },
+    {
+      "sid": "s000911",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor describes the continuation of the algorithm"
+    },
+    {
+      "sid": "s000912",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor describes the algorithm step"
+    },
+    {
+      "sid": "s000913",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor explains the action if a cycle is created"
+    },
+    {
+      "sid": "s000914",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor explains the action if no cycle is created"
+    },
+    {
+      "sid": "s000915",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor states the runtime complexity"
+    },
+    {
+      "sid": "s000916",
+      "role": "chitchat",
+      "role_score": 0.99,
+      "role_reason": "acknowledgement, filler"
+    },
+    {
+      "sid": "s000917",
+      "role": "chitchat",
+      "role_score": 0.99,
+      "role_reason": "acknowledgement, filler"
+    },
+    {
+      "sid": "s000918",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor reiterates the task for each edge"
+    },
+    {
+      "sid": "s000919",
+      "role": "qa",
+      "role_score": 0.99,
+      "role_reason": "student asks about the time complexity of cycle detection"
+    },
+    {
+      "sid": "s000920",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor provides a time estimate for cycle detection"
+    },
+    {
+      "sid": "s000921",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor calculates the overall algorithm complexity"
+    },
+    {
+      "sid": "s000922",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor comments on the complexity"
+    },
+    {
+      "sid": "s000923",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor states the current limitation"
+    },
+    {
+      "sid": "s000924",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor discusses complexity with assumptions"
+    },
+    {
+      "sid": "s000925",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor states the resulting complexity"
+    },
+    {
+      "sid": "s000926",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor comments on the complexity"
+    },
+    {
+      "sid": "s000927",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor calculates complexity for a specific case"
+    },
+    {
+      "sid": "s000928",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor comments on the complexity"
+    },
+    {
+      "sid": "s000929",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor comments on the practical implication"
+    },
+    {
+      "sid": "s000930",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor gives a practical example of slowness"
+    },
+    {
+      "sid": "s000931",
+      "role": "chitchat",
+      "role_score": 0.99,
+      "role_reason": "acknowledgement, filler"
+    },
+    {
+      "sid": "s000932",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor states the algorithm's correctness"
+    },
+    {
+      "sid": "s000933",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor explains the condition for adding an edge"
+    },
+    {
+      "sid": "s000934",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor explains the condition for adding an edge"
+    },
+    {
+      "sid": "s000935",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor describes the termination condition of the algorithm"
+    },
+    {
+      "sid": "s000936",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor introduces a new problem"
+    },
+    {
+      "sid": "s000937",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor states the relation of the new problem to the current topic"
+    },
+    {
+      "sid": "s000938",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor mentions where the problem might have been seen"
+    },
+    {
+      "sid": "s000939",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor acknowledges uncertainty"
+    },
+    {
+      "sid": "s000940",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor names the new problem"
+    },
+    {
+      "sid": "s000941",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor names the new problem"
+    },
+    {
+      "sid": "s000942",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor describes the initial state of the problem"
+    },
+    {
+      "sid": "s000943",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor gives an example of sets"
+    },
+    {
+      "sid": "s000944",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor clarifies the example"
+    },
+    {
+      "sid": "s000945",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor corrects the count of sets"
+    },
+    {
+      "sid": "s000946",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor describes the input to the problem"
+    },
+    {
+      "sid": "s000947",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor describes the input to the problem"
+    },
+    {
+      "sid": "s000948",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor states the question of the problem"
+    },
+    {
+      "sid": "s000949",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor gives an example answer"
+    },
+    {
+      "sid": "s000950",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor gives another example answer"
+    },
+    {
+      "sid": "s000951",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor defines the 'find' operation"
+    },
+    {
+      "sid": "s000952",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor clarifies the 'find' operation"
+    },
+    {
+      "sid": "s000953",
+      "role": "qa",
+      "role_score": 0.99,
+      "role_reason": "student asks about the 'union' operation"
+    },
+    {
+      "sid": "s000954",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor explains the 'union' operation"
+    },
+    {
+      "sid": "s000955",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor states knowledge about set union"
+    },
+    {
+      "sid": "s000956",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor describes the result of union"
+    },
+    {
+      "sid": "s000957",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor describes subsequent operations"
+    },
+    {
+      "sid": "s000958",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor reiterates the problem name"
+    },
+    {
+      "sid": "s000959",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor explains the permanence of union"
+    },
+    {
+      "sid": "s000960",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor states a restriction on union"
+    },
+    {
+      "sid": "s000961",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor states a restriction on union"
+    },
+    {
+      "sid": "s000962",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor expresses regret about union"
+    },
+    {
+      "sid": "s000963",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor expresses regret about union"
+    },
+    {
+      "sid": "s000964",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor states a restriction on union"
+    },
+    {
+      "sid": "s000965",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor emphasizes the permanence of union"
+    },
+    {
+      "sid": "s000966",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor names the problem"
+    },
+    {
+      "sid": "s000967",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor names the problem"
+    },
+    {
+      "sid": "s000968",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor describes the operations in the problem"
+    },
+    {
+      "sid": "s000969",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor describes the operations in the problem"
+    },
+    {
+      "sid": "s000970",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor gives an example of operations"
+    },
+    {
+      "sid": "s000971",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor describes the operations in the problem"
+    },
+    {
+      "sid": "s000972",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor describes the operations in the problem"
+    },
+    {
+      "sid": "s000973",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor describes the operations in the problem"
+    },
+    {
+      "sid": "s000974",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor names the problem"
+    },
+    {
+      "sid": "s000975",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor states the lack of restrictions"
+    },
+    {
+      "sid": "s000976",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor states the lack of restrictions"
+    },
+    {
+      "sid": "s000977",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor describes the operations in the problem"
+    },
+    {
+      "sid": "s000978",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor describes the operations in the problem"
+    },
+    {
+      "sid": "s000979",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor states the duration of operations"
+    },
+    {
+      "sid": "s000980",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor states the duration of operations"
+    },
+    {
+      "sid": "s000981",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor clarifies the problem definition"
+    },
+    {
+      "sid": "s000982",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor states the lack of a provided solution"
+    },
+    {
+      "sid": "s000983",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor emphasizes the clarity of the problem"
+    },
+    {
+      "sid": "s000984",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor outlines the approach to solving the problem"
+    },
+    {
+      "sid": "s000985",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor suggests an initial approach"
+    },
+    {
+      "sid": "s000986",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor encourages experimentation"
+    },
+    {
+      "sid": "s000987",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor acknowledges potential success"
+    },
+    {
+      "sid": "s000988",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor describes the representation of sets"
+    },
+    {
+      "sid": "s000989",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor describes the initial state"
+    },
+    {
+      "sid": "s000990",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor describes the initial representation of sets"
+    },
+    {
+      "sid": "s000991",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor describes the data structure used"
+    },
+    {
+      "sid": "s000992",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor states the number of nodes"
+    },
+    {
+      "sid": "s000993",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor describes the union operation"
+    },
+    {
+      "sid": "s000994",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor describes the union operation"
+    },
+    {
+      "sid": "s000995",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor describes the resulting data structure"
+    },
+    {
+      "sid": "s000996",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor describes a subsequent operation"
+    },
+    {
+      "sid": "s000997",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor describes the find operation"
+    },
+    {
+      "sid": "s000998",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor gives an example of find"
+    },
+    {
+      "sid": "s000999",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor gives an example of find"
+    },
+    {
+      "sid": "s001000",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor describes the data structure for elements"
+    },
+    {
+      "sid": "s001001",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor describes the data structure"
+    },
+    {
+      "sid": "s001002",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor describes the find operation"
+    },
+    {
+      "sid": "s001003",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor describes the find operation"
+    },
+    {
+      "sid": "s001004",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor explains the meaning of a successful find"
+    },
+    {
+      "sid": "s001005",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor explains the meaning of a successful find"
+    },
+    {
+      "sid": "s001006",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor explains the meaning of an unsuccessful find"
+    },
+    {
+      "sid": "s001007",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor explains the find operation result"
+    },
+    {
+      "sid": "s001008",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor explains the find operation result"
+    },
+    {
+      "sid": "s001009",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor gives an example of find result"
+    },
+    {
+      "sid": "s001010",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor gives an example of find result"
+    },
+    {
+      "sid": "s001011",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor describes the state of the algorithm"
+    },
+    {
+      "sid": "s001012",
+      "role": "chitchat",
+      "role_score": 0.99,
+      "role_reason": "acknowledgement, filler"
+    },
+    {
+      "sid": "s001013",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor explains the find operation"
+    },
+    {
+      "sid": "s001014",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor explains the find operation"
+    },
+    {
+      "sid": "s001015",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor explains the find operation result"
+    },
+    {
+      "sid": "s001016",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor explains the find operation result"
+    },
+    {
+      "sid": "s001017",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor confirms the find operation result"
+    },
+    {
+      "sid": "s001018",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor explains the naming convention for sets"
+    },
+    {
+      "sid": "s001019",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor explains the naming convention for sets"
+    },
+    {
+      "sid": "s001020",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor explains the naming convention for sets"
+    },
+    {
+      "sid": "s001021",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor explains the naming convention for sets"
+    },
+    {
+      "sid": "s001022",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor explains the naming convention for sets"
+    },
+    {
+      "sid": "s001023",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor states an assumption about tree height"
+    },
+    {
+      "sid": "s001024",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor confirms the assumption"
+    },
+    {
+      "sid": "s001025",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor states the inductive hypothesis"
+    },
+    {
+      "sid": "s001026",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor gives an example of a rooted tree"
+    },
+    {
+      "sid": "s001027",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor gives an example of a rooted tree"
+    },
+    {
+      "sid": "s001028",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor explains the composition of rooted trees"
+    },
+    {
+      "sid": "s001029",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor states the inductive hypothesis"
+    },
+    {
+      "sid": "s001030",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor states the inductive hypothesis"
+    },
+    {
+      "sid": "s001031",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor discusses the find operation"
+    },
+    {
+      "sid": "s001032",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor relates tree size to total vertices"
+    },
+    {
+      "sid": "s001033",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor explains the relationship between subset and total vertices"
+    },
+    {
+      "sid": "s001034",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor explains the relationship between logarithmic values"
+    },
+    {
+      "sid": "s001035",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor explains the find operation time complexity"
+    },
+    {
+      "sid": "s001036",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor explains the find operation logic"
+    },
+    {
+      "sid": "s001037",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor states the time complexity of find"
+    },
+    {
+      "sid": "s001038",
+      "role": "qa",
+      "role_score": 0.99,
+      "role_reason": "student asks for clarification on find"
+    },
+    {
+      "sid": "s001039",
+      "role": "qa",
+      "role_score": 0.99,
+      "role_reason": "student asks about the union operation"
+    },
+    {
+      "sid": "s001040",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor explains the union operation strategy"
+    },
+    {
+      "sid": "s001041",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor explains the height of the combined tree"
+    },
+    {
+      "sid": "s001042",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor explains the height of the combined tree"
+    },
+    {
+      "sid": "s001043",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor discusses the height invariant"
+    },
+    {
+      "sid": "s001044",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor explains the union operation strategy"
+    },
+    {
+      "sid": "s001045",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor poses a hypothetical scenario"
+    },
+    {
+      "sid": "s001046",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor highlights an important aspect"
+    },
+    {
+      "sid": "s001047",
+      "role": "qa",
+      "role_score": 0.99,
+      "role_reason": "student asks about a specific scenario in union"
+    },
+    {
+      "sid": "s001048",
+      "role": "qa",
+      "role_score": 0.99,
+      "role_reason": "student asks about the union operation"
+    },
+    {
+      "sid": "s001049",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor explains the implication of equal sizes"
+    },
+    {
+      "sid": "s001050",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor explains the union operation"
+    },
+    {
+      "sid": "s001051",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor explains the height increase in union"
+    },
+    {
+      "sid": "s001052",
+      "role": "chitchat",
+      "role_score": 0.99,
+      "role_reason": "acknowledgement, filler"
+    },
+    {
+      "sid": "s001053",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor discusses the premise of height maintenance"
+    },
+    {
+      "sid": "s001054",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor explains the height increase"
+    },
+    {
+      "sid": "s001055",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor explains the height increase"
+    },
+    {
+      "sid": "s001056",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor explains the height calculation"
+    },
+    {
+      "sid": "s001057",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor explains the height calculation"
+    },
+    {
+      "sid": "s001058",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor explains the height calculation"
+    },
+    {
+      "sid": "s001059",
+      "role": "qa",
+      "role_score": 0.99,
+      "role_reason": "student asks how the logarithmic height is maintained"
+    },
+    {
+      "sid": "s001060",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor explains the relationship between size and height"
+    },
+    {
+      "sid": "s001061",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor explains the logarithmic relationship"
+    },
+    {
+      "sid": "s001062",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor explains the allowance for height increase"
+    },
+    {
+      "sid": "s001063",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor confirms the invariant holds"
+    },
+    {
+      "sid": "s001064",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor states the time complexity of union"
+    },
+    {
+      "sid": "s001065",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor states the time complexity of find"
+    },
+    {
+      "sid": "s001066",
+      "role": "qa",
+      "role_score": 0.99,
+      "role_reason": "student asks about the relevance to MST"
+    },
+    {
+      "sid": "s001067",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor explains the application to MST"
+    },
+    {
+      "sid": "s001068",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor explains how subtrees are represented"
+    },
+    {
+      "sid": "s001069",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor describes the representation"
+    },
+    {
+      "sid": "s001070",
+      "role": "qa",
+      "role_score": 0.99,
+      "role_reason": "student asks about cycle detection with a new edge"
+    },
+    {
+      "sid": "s001071",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor explains how to check for cycles"
+    },
+    {
+      "sid": "s001072",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor explains the implication of belonging to the same component"
+    },
+    {
+      "sid": "s001073",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor confirms the implication"
+    },
+    {
+      "sid": "s001074",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor explains the condition for not creating a cycle"
+    },
+    {
+      "sid": "s001075",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor states the action if no cycle is created"
+    },
+    {
+      "sid": "s001076",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor identifies the data structure for Kruskal's"
+    },
+    {
+      "sid": "s001077",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor states the time complexity for cycle detection"
+    },
+    {
+      "sid": "s001078",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor explains how to improve Kruskal's algorithm"
+    },
+    {
+      "sid": "s001079",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor states the improved complexity of Kruskal's"
+    },
+    {
+      "sid": "s001080",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor summarizes Kruskal's algorithm"
+    },
+    {
+      "sid": "s001081",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor describes the steps of Kruskal's algorithm"
+    },
+    {
+      "sid": "s001082",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor describes the condition for adding an edge"
+    },
+    {
+      "sid": "s001083",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor describes the condition for adding an edge"
+    },
+    {
+      "sid": "s001084",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor confirms the trustworthiness of the algorithm"
+    },
+    {
+      "sid": "s001085",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor summarizes a point"
+    },
+    {
+      "sid": "s001086",
+      "role": "qa",
+      "role_score": 0.99,
+      "role_reason": "student asks about cycle detection method"
+    },
+    {
+      "sid": "s001087",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor explains the efficiency of the method"
+    },
+    {
+      "sid": "s001088",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor explains the efficiency of the method"
+    },
+    {
+      "sid": "s001089",
+      "role": "chitchat",
+      "role_score": 0.99,
+      "role_reason": "acknowledgement, filler"
+    },
+    {
+      "sid": "s001090",
+      "role": "qa",
+      "role_score": 0.99,
+      "role_reason": "student asks about the union operation for every node"
+    },
+    {
+      "sid": "s001091",
+      "role": "qa",
+      "role_score": 0.99,
+      "role_reason": "professor acknowledges the question"
+    },
+    {
+      "sid": "s001092",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor explains the student's suggestion"
+    },
+    {
+      "sid": "s001093",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor discusses the time complexity of find"
+    },
+    {
+      "sid": "s001094",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor explains the find operation"
+    },
+    {
+      "sid": "s001095",
+      "role": "qa",
+      "role_score": 0.99,
+      "role_reason": "student asks about the complexity of another cell"
+    },
+    {
+      "sid": "s001096",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor states the complexity is the same"
+    },
+    {
+      "sid": "s001097",
+      "role": "qa",
+      "role_score": 0.99,
+      "role_reason": "student asks about the time complexity of find"
+    },
+    {
+      "sid": "s001098",
+      "role": "qa",
+      "role_score": 0.99,
+      "role_reason": "student asks about the time complexity of union"
+    },
+    {
+      "sid": "s001099",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor compares the complexities"
+    },
+    {
+      "sid": "s001100",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor discusses different solutions and their trade-offs"
+    },
+    {
+      "sid": "s001101",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor describes an alternative solution"
+    },
+    {
+      "sid": "s001102",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor describes an alternative solution"
+    },
+    {
+      "sid": "s001103",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor describes an alternative solution"
+    },
+    {
+      "sid": "s001104",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor evaluates a solution"
+    },
+    {
+      "sid": "s001105",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor evaluates a solution"
+    },
+    {
+      "sid": "s001106",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor states the goal of finding a middle ground"
+    },
+    {
+      "sid": "s001107",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor introduces the concept of balanced trees"
+    },
+    {
+      "sid": "s001108",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor advises on a prerequisite topic"
+    },
+    {
+      "sid": "s001109",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor emphasizes the importance of MST theorem"
+    },
+    {
+      "sid": "s001110",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor suggests a consequence of understanding MST"
+    },
+    {
+      "sid": "s001111",
+      "role": "qa",
+      "role_score": 0.99,
+      "role_reason": "student asks for clarification on MST theorem"
+    },
+    {
+      "sid": "s001112",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor states the number of MST algorithms"
+    },
+    {
+      "sid": "s001113",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor describes one approach to MST algorithms"
+    },
+    {
+      "sid": "s001114",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor describes two implementations of MST algorithms"
+    },
+    {
+      "sid": "s001115",
+      "role": "lecture",
+      "role_score": 0.99,
+      "role_reason": "professor reiterates Kruskal's algorithm steps"
+    },
+    {
+      "sid": "s001116",
+      "role": "announcement",
+      "role_score": 0.99,
+      "role_reason": "professor mentions future relevance of the topic"
+    }
+  ]
+}

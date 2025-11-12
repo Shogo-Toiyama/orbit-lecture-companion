@@ -1,0 +1,7835 @@
+[
+  {
+    "sid": "s000001",
+    "text": "One was a vertex centric one and one was an edge centric.",
+    "start": 640,
+    "end": 4360,
+    "confidence": 0.9663086
+  },
+  {
+    "sid": "s000002",
+    "text": "Experimentation and they give rise to different time complexity.",
+    "start": 4360,
+    "end": 7920,
+    "confidence": 0.787207
+  },
+  {
+    "sid": "s000003",
+    "text": "One is better when you have denser graph, one micrometer when you have more sparse graph.",
+    "start": 8400,
+    "end": 13440,
+    "confidence": 0.98828125
+  },
+  {
+    "sid": "s000004",
+    "text": "So make sure you're comfortable with that.",
+    "start": 13440,
+    "end": 15600,
+    "confidence": 0.8491211
+  },
+  {
+    "sid": "s000005",
+    "text": "The next problem that I want to talk about is called the spanning tree.",
+    "start": 15919,
+    "end": 20480,
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000006",
+    "text": "So given same as before, a weighted graph like that, where we have arbitrary weights, let's say integer on n vertices, we always, almost always use n as the number of vertices, E as the number of edges.",
+    "start": 21040,
+    "end": 49790,
+    "confidence": 0.9892578
+  },
+  {
+    "sid": "s000007",
+    "text": "Unless otherwise it's so 1, 2, 3, 4, 5.",
+    "start": 50590,
+    "end": 55910,
+    "confidence": 0.8395996
+  },
+  {
+    "sid": "s000008",
+    "text": "N is equal to 5 here spanning 3.",
+    "start": 55910,
+    "end": 60390,
+    "confidence": 0.98291016
+  },
+  {
+    "sid": "s000009",
+    "text": "First of all, 3 sub graph is a set of edges and the vertices that form a 3 structure doesn't have any side spanning tree is a tree on these vertices that spans all the vertices, touches all the vertices.",
+    "start": 60630,
+    "end": 87680,
+    "confidence": 0.9921875
+  },
+  {
+    "sid": "s000010",
+    "text": "That's called a spanning tree.",
+    "start": 88080,
+    "end": 89760,
+    "confidence": 0.9926758
+  },
+  {
+    "sid": "s000011",
+    "text": "So if I have three, let's say four, two and nine, that forms a tree structure because it doesn't have any cycles and touches every vertex and is always connected.",
+    "start": 91520,
+    "end": 106500,
+    "confidence": 0.9711914
+  },
+  {
+    "sid": "s000012",
+    "text": "We assume that the graph given to us is a connected graph, otherwise the spanning tree doesn't exist if there are different components.",
+    "start": 106900,
+    "end": 115780,
+    "confidence": 0.82666016
+  },
+  {
+    "sid": "s000013",
+    "text": "I cannot have a tree that connects everybody because the graph itself wasn't connected to begin yet.",
+    "start": 115780,
+    "end": 121300,
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000014",
+    "text": "So there are many ways to do a spanning tree.",
+    "start": 122500,
+    "end": 124980,
+    "confidence": 0.9770508
+  },
+  {
+    "sid": "s000015",
+    "text": "For example, I can start from a vertex, get a width from search tree or a depth first search tree.",
+    "start": 124980,
+    "end": 132679,
+    "confidence": 0.9926758
+  },
+  {
+    "sid": "s000016",
+    "text": "Those are trees by definition, we know the algorithm for them.",
+    "start": 133239,
+    "end": 137399,
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000017",
+    "text": "And because they go through every vertex, they are spanning trees.",
+    "start": 137559,
+    "end": 140679,
+    "confidence": 0.9941406
+  },
+  {
+    "sid": "s000018",
+    "text": "So finding a spanning tree on a graph is straightforward.",
+    "start": 141479,
+    "end": 145558,
+    "confidence": 0.97753906
+  },
+  {
+    "sid": "s000019",
+    "text": "We already know how to do it.",
+    "start": 145558,
+    "end": 147239,
+    "confidence": 0.87890625
+  },
+  {
+    "sid": "s000020",
+    "text": "Now here we are interested in the so called MST minimum spanning tree, which means among all the spine trees that there could be exponential number of spanning trees or a large number of them.",
+    "start": 147719,
+    "end": 160140,
+    "confidence": 0.9902344
+  },
+  {
+    "sid": "s000021",
+    "text": "In fact, if you have a cycle for sure there is more than one spanning tree.",
+    "start": 161020,
+    "end": 165740,
+    "confidence": 0.99658203
+  },
+  {
+    "sid": "s000022",
+    "text": "Only if the original graph is a tree, then the spanning tree is unique if you have one cycle.",
+    "start": 165740,
+    "end": 171860,
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000023",
+    "text": "There are many possibilities for a spanning tree of all subspanning trees.",
+    "start": 171860,
+    "end": 175900,
+    "confidence": 0.9970703
+  },
+  {
+    "sid": "s000024",
+    "text": "We want a main one, the one where total weight of the edges on the tree is minimized over all possibilities.",
+    "start": 175980,
+    "end": 183540,
+    "confidence": 0.90234375
+  },
+  {
+    "sid": "s000025",
+    "text": "So for example, the one I chose here, three, four, two, nine, that's not a spanning tree.",
+    "start": 184980,
+    "end": 190340,
+    "confidence": 0.9790039
+  },
+  {
+    "sid": "s000026",
+    "text": "I could instead of four, pick one.",
+    "start": 190580,
+    "end": 193540,
+    "confidence": 0.9663086
+  },
+  {
+    "sid": "s000027",
+    "text": "This one.",
+    "start": 193940,
+    "end": 194540,
+    "confidence": 0.9970703
+  },
+  {
+    "sid": "s000028",
+    "text": "Now you can do it on your own by experiments.",
+    "start": 194540,
+    "end": 197940,
+    "confidence": 0.98876953
+  },
+  {
+    "sid": "s000029",
+    "text": "You will see the one that I have check marks next to.",
+    "start": 198100,
+    "end": 200740,
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000030",
+    "text": "It's a tree structure.",
+    "start": 200900,
+    "end": 202260,
+    "confidence": 0.9951172
+  },
+  {
+    "sid": "s000031",
+    "text": "It's spanning, it touches every vertex, it covers all the vertices, and among all such trees, it's the one with minimum weight and the Size or weight of this tree is 9 plus 2 plus 1 plus 3.",
+    "start": 202660,
+    "end": 216430,
+    "confidence": 0.97802734
+  },
+  {
+    "sid": "s000032",
+    "text": "Okay, and sometimes in this spanning tree we will have agents that are of high weight just to ensure connectivity.",
+    "start": 219550,
+    "end": 229230,
+    "confidence": 0.875
+  },
+  {
+    "sid": "s000033",
+    "text": "For example, 9 happens to be the largest rake in this region graph.",
+    "start": 229310,
+    "end": 233400,
+    "confidence": 0.9951172
+  },
+  {
+    "sid": "s000034",
+    "text": "But if I don't put nine in the solution, this vertex will not be connected to anybody.",
+    "start": 233480,
+    "end": 239240,
+    "confidence": 0.98779297
+  },
+  {
+    "sid": "s000035",
+    "text": "So in this binary there are some edges with larger weights, some edges with smaller weights, all else being equal.",
+    "start": 239880,
+    "end": 247120,
+    "confidence": 0.90234375
+  },
+  {
+    "sid": "s000036",
+    "text": "If you have the option, we want edges with smaller weights.",
+    "start": 247120,
+    "end": 250680,
+    "confidence": 0.9736328
+  },
+  {
+    "sid": "s000037",
+    "text": "That's the whole point of the spine tree.",
+    "start": 251160,
+    "end": 253080,
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000038",
+    "text": "Okay, so the problem that we want to study is the so called MSP or minimum spanning problem.",
+    "start": 254600,
+    "end": 261350,
+    "confidence": 0.86116534
+  },
+  {
+    "sid": "s000039",
+    "text": "It gives us a connectivity in a graph it has.",
+    "start": 264470,
+    "end": 268230,
+    "confidence": 0.9975586
+  },
+  {
+    "sid": "s000040",
+    "text": "So if you have a set of nodes in a network, how to connect them with minimum traffic, with minimum congestion, the spanning MSP is a solution to that.",
+    "start": 268470,
+    "end": 277110,
+    "confidence": 0.97216797
+  },
+  {
+    "sid": "s000041",
+    "text": "So it finds a many direct application and b many other problems can be formulated as an msp.",
+    "start": 277510,
+    "end": 284470,
+    "confidence": 0.9824219
+  },
+  {
+    "sid": "s000042",
+    "text": "And since we're going to know by the end of lecture today how to solve msd, we can just use the MST algorithm to solve it.",
+    "start": 284550,
+    "end": 291230,
+    "confidence": 0.96240234
+  },
+  {
+    "sid": "s000043",
+    "text": "Just like dice to shortest path has application A its structure is useful where we can solve many other problems using the structured algorithm we did in the last lecture on Tuesday.",
+    "start": 292030,
+    "end": 303230,
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000044",
+    "text": "Okay, so before we put and the graph is underregative, is the problem to.",
+    "start": 304670,
+    "end": 310960,
+    "confidence": 0.9000651
+  },
+  {
+    "sid": "s000045",
+    "text": "As always, if the problem is not clear, if something is vague, the rest is absolutely irrelevant.",
+    "start": 313590,
+    "end": 318710,
+    "confidence": 0.9501953
+  },
+  {
+    "sid": "s000046",
+    "text": "In the exam, in the homework, if you see a problem, there are some ambiguity.",
+    "start": 319190,
+    "end": 324110,
+    "confidence": 0.99121094
+  },
+  {
+    "sid": "s000047",
+    "text": "There is something about it that we don't understand.",
+    "start": 324110,
+    "end": 325910,
+    "confidence": 0.97998047
+  },
+  {
+    "sid": "s000048",
+    "text": "We can't even begin providing a solution.",
+    "start": 326230,
+    "end": 328870,
+    "confidence": 0.9213867
+  },
+  {
+    "sid": "s000049",
+    "text": "Sometimes when you work in industry, there are problems that are vague, but you need to go and get answer to those questions before you can solve it.",
+    "start": 330230,
+    "end": 337840,
+    "confidence": 0.9970703
+  },
+  {
+    "sid": "s000050",
+    "text": "You talk to your marketing manager or manager or technical manager or whoever, try to make sure we understand the problem trivial, what very important and sometimes miss even in this class.",
+    "start": 338320,
+    "end": 351280,
+    "confidence": 0.7973633
+  },
+  {
+    "sid": "s000051",
+    "text": "So number one, understand the problem, do a few examples, see if it makes sense, look at some corner cases, etc.",
+    "start": 352559,
+    "end": 359920,
+    "confidence": 0.52197266
+  },
+  {
+    "sid": "s000052",
+    "text": "Lesson number one and any problem you see, especially in this four squad in general.",
+    "start": 360640,
+    "end": 365290,
+    "confidence": 0.96435547
+  },
+  {
+    "sid": "s000053",
+    "text": "Okay, so now we wanted to come up with algorithms that gives us an msd.",
+    "start": 366650,
+    "end": 372090,
+    "confidence": 0.8828125
+  },
+  {
+    "sid": "s000054",
+    "text": "And also for most of discussion related to msd, I'll assume that the weights are unique.",
+    "start": 372410,
+    "end": 382810,
+    "confidence": 0.8251953
+  },
+  {
+    "sid": "s000055",
+    "text": "In fact, in this example I picked the weights to be unique.",
+    "start": 384890,
+    "end": 387670,
+    "confidence": 0.94189453
+  },
+  {
+    "sid": "s000056",
+    "text": "No weight is repeated.",
+    "start": 388140,
+    "end": 389340,
+    "confidence": 0.99072266
+  },
+  {
+    "sid": "s000057",
+    "text": "Why do we make that assumption?",
+    "start": 389500,
+    "end": 390980,
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000058",
+    "text": "What if in real life weights are not unique?",
+    "start": 390980,
+    "end": 393660,
+    "confidence": 0.96972656
+  },
+  {
+    "sid": "s000059",
+    "text": "We will see a trivial way of extending everything I'm saying into general case where weights are not unique, but having initially unique weights.",
+    "start": 394300,
+    "end": 405220,
+    "confidence": 0.98583984
+  },
+  {
+    "sid": "s000060",
+    "text": "It makes the algorithm and the proofs much simpler.",
+    "start": 405220,
+    "end": 407820,
+    "confidence": 0.88720703
+  },
+  {
+    "sid": "s000061",
+    "text": "Then at the end we need to come and say, what if they are not unique, how do we add it?",
+    "start": 407980,
+    "end": 412060,
+    "confidence": 0.9477539
+  },
+  {
+    "sid": "s000062",
+    "text": "And I'll give you the trick to that right now.",
+    "start": 413910,
+    "end": 416630,
+    "confidence": 0.92089844
+  },
+  {
+    "sid": "s000063",
+    "text": "If you have two weights that are both, say two and two, we make one of them two plus epsilon, epsilon being a very small number.",
+    "start": 416710,
+    "end": 424630,
+    "confidence": 0.98583984
+  },
+  {
+    "sid": "s000064",
+    "text": "Then the weights become unique.",
+    "start": 424790,
+    "end": 426310,
+    "confidence": 0.99609375
+  },
+  {
+    "sid": "s000065",
+    "text": "It makes no other impact.",
+    "start": 426310,
+    "end": 427750,
+    "confidence": 0.98535156
+  },
+  {
+    "sid": "s000066",
+    "text": "So that's kind of the idea.",
+    "start": 427750,
+    "end": 428990,
+    "confidence": 0.9682617
+  },
+  {
+    "sid": "s000067",
+    "text": "We will address that at the end of all this.",
+    "start": 428990,
+    "end": 431270,
+    "confidence": 0.9394531
+  },
+  {
+    "sid": "s000068",
+    "text": "Okay, consider a tree structure.",
+    "start": 433830,
+    "end": 437910,
+    "confidence": 0.80354816
+  },
+  {
+    "sid": "s000069",
+    "text": "A tree as such.",
+    "start": 438310,
+    "end": 444760,
+    "confidence": 0.90527344
+  },
+  {
+    "sid": "s000070",
+    "text": "Does it have any cycles?",
+    "start": 446280,
+    "end": 447800,
+    "confidence": 0.9926758
+  },
+  {
+    "sid": "s000071",
+    "text": "No, because I just said it's a tree structure.",
+    "start": 449240,
+    "end": 451440,
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000072",
+    "text": "By definition it does not have any cycles.",
+    "start": 451440,
+    "end": 454200,
+    "confidence": 0.9921875
+  },
+  {
+    "sid": "s000073",
+    "text": "And by definition, if there are n vertices, it's going to have exactly, no more, no less, exactly n minus one edges.",
+    "start": 454280,
+    "end": 461400,
+    "confidence": 0.98876953
+  },
+  {
+    "sid": "s000074",
+    "text": "We talked about that, I don't know, three weeks ago.",
+    "start": 462760,
+    "end": 464920,
+    "confidence": 0.9638672
+  },
+  {
+    "sid": "s000075",
+    "text": "And prove it.",
+    "start": 465500,
+    "end": 466380,
+    "confidence": 0.8564453
+  },
+  {
+    "sid": "s000076",
+    "text": "That tree structure has n minus one.",
+    "start": 466380,
+    "end": 469660,
+    "confidence": 0.96533203
+  },
+  {
+    "sid": "s000077",
+    "text": "It's the minimum number of edges you can get for a connected graph.",
+    "start": 469660,
+    "end": 473740,
+    "confidence": 0.99072266
+  },
+  {
+    "sid": "s000078",
+    "text": "Anything less than n minus 1, it's not a connected graph.",
+    "start": 474060,
+    "end": 477420,
+    "confidence": 0.9987793
+  },
+  {
+    "sid": "s000079",
+    "text": "So when we talked about number of edges in a graph, we said it's anywhere.",
+    "start": 478220,
+    "end": 481660,
+    "confidence": 0.96728516
+  },
+  {
+    "sid": "s000080",
+    "text": "For a connected graph, it's anywhere between n minus 1 and roughly n squared order of n squared on the N square.",
+    "start": 481660,
+    "end": 488580,
+    "confidence": 0.99658203
+  },
+  {
+    "sid": "s000081",
+    "text": "We call it a dense graph.",
+    "start": 488580,
+    "end": 489820,
+    "confidence": 0.99609375
+  },
+  {
+    "sid": "s000082",
+    "text": "Closer to a three, we call it A.",
+    "start": 490060,
+    "end": 491800,
+    "confidence": 0.99975586
+  },
+  {
+    "sid": "s000083",
+    "text": "Okay, so if I take a structure like this, a three structure given to me, and add one edge to it, the graph is not going to be a three anymore.",
+    "start": 493230,
+    "end": 508150,
+    "confidence": 0.8930664
+  },
+  {
+    "sid": "s000084",
+    "text": "It's going to be a graph with a cycle.",
+    "start": 508150,
+    "end": 511310,
+    "confidence": 0.98876953
+  },
+  {
+    "sid": "s000085",
+    "text": "In fact, it's going to have precisely N edges, N vertices and edges must have a cycle.",
+    "start": 511630,
+    "end": 517360,
+    "confidence": 0.9970703
+  },
+  {
+    "sid": "s000086",
+    "text": "Okay, now let me redraw this.",
+    "start": 520070,
+    "end": 523830,
+    "confidence": 0.79622394
+  },
+  {
+    "sid": "s000087",
+    "text": "So now we have a cycle.",
+    "start": 523990,
+    "end": 525430,
+    "confidence": 0.9902344
+  },
+  {
+    "sid": "s000088",
+    "text": "That's the cycle with a bunch of other structure hanging from this cycle.",
+    "start": 525670,
+    "end": 533910,
+    "confidence": 0.88346356
+  },
+  {
+    "sid": "s000089",
+    "text": "Okay, so this is your cycle here, let me call it sigs.",
+    "start": 537350,
+    "end": 542230,
+    "confidence": 0.9474284
+  },
+  {
+    "sid": "s000090",
+    "text": "And there are edges hanging from this cycle.",
+    "start": 543520,
+    "end": 546400,
+    "confidence": 0.7416992
+  },
+  {
+    "sid": "s000091",
+    "text": "So any tree structure where I have added an edge to it, I can focus on the cycle and say there are other sub trees that is hanging from the cycle that are not part of the cycle.",
+    "start": 547440,
+    "end": 561360,
+    "confidence": 0.9794922
+  },
+  {
+    "sid": "s000092",
+    "text": "That's what a three plus one edge would look like.",
+    "start": 562400,
+    "end": 565920,
+    "confidence": 0.9824219
+  },
+  {
+    "sid": "s000093",
+    "text": "Okay, so if I take this cycle and I remove any edge from this cycle, for example, this edge, first of all the edge that I added E, let's say remove E prime.",
+    "start": 567600,
+    "end": 585530,
+    "confidence": 0.7526042
+  },
+  {
+    "sid": "s000094",
+    "text": "I get back a tree structure because the new one will not have any more cycles in it.",
+    "start": 586090,
+    "end": 592570,
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000095",
+    "text": "If I remove, let's say this one here, then that's a disconnected graph and it still has a cycle.",
+    "start": 594260,
+    "end": 601460,
+    "confidence": 0.9814453
+  },
+  {
+    "sid": "s000096",
+    "text": "But if I remove it from the cycle itself, then I have destroyed that cycle.",
+    "start": 602100,
+    "end": 607460,
+    "confidence": 0.9321289
+  },
+  {
+    "sid": "s000097",
+    "text": "I have a tree Back.",
+    "start": 607540,
+    "end": 608820,
+    "confidence": 0.9033203
+  },
+  {
+    "sid": "s000098",
+    "text": "Okay, what I just said, all of this has nothing to do directly with mst, but we're going to use it and pin at mst.",
+    "start": 610980,
+    "end": 618820,
+    "confidence": 0.80940753
+  },
+  {
+    "sid": "s000099",
+    "text": "So I just want it to be comfortable for now.",
+    "start": 619060,
+    "end": 621540,
+    "confidence": 0.9897461
+  },
+  {
+    "sid": "s000100",
+    "text": "Having a tree structure, you can add edge or edges to it.",
+    "start": 621860,
+    "end": 625940,
+    "confidence": 0.9975586
+  },
+  {
+    "sid": "s000101",
+    "text": "And those that edge or edges will create cycles.",
+    "start": 626180,
+    "end": 629780,
+    "confidence": 0.9941406
+  },
+  {
+    "sid": "s000102",
+    "text": "And if you start removing edges from those cycles, you get back the original tree.",
+    "start": 629860,
+    "end": 635300,
+    "confidence": 0.79785156
+  },
+  {
+    "sid": "s000103",
+    "text": "You just have to make sure when you remove it has to be part of the cycle.",
+    "start": 635700,
+    "end": 639220,
+    "confidence": 0.86621094
+  },
+  {
+    "sid": "s000104",
+    "text": "Otherwise you disconnect the ground.",
+    "start": 639380,
+    "end": 640900,
+    "confidence": 0.9996745
+  },
+  {
+    "sid": "s000105",
+    "text": "With me so far, okay?",
+    "start": 642580,
+    "end": 647070,
+    "confidence": 0.9711914
+  },
+  {
+    "sid": "s000106",
+    "text": "Consider your original graph G, which is a set of vertices, N vertices and E edges.",
+    "start": 656510,
+    "end": 667230,
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000107",
+    "text": "This graph, for example, on top of everything, the edges have weights on them.",
+    "start": 667870,
+    "end": 673160,
+    "confidence": 0.9975586
+  },
+  {
+    "sid": "s000108",
+    "text": "That is the input to the MST algorithm or algorithms.",
+    "start": 673320,
+    "end": 677240,
+    "confidence": 0.58251953
+  },
+  {
+    "sid": "s000109",
+    "text": "Okay, I can take this graph and partition it into two groups.",
+    "start": 679400,
+    "end": 685400,
+    "confidence": 0.8782552
+  },
+  {
+    "sid": "s000110",
+    "text": "Some vertices go left, some vertices go right.",
+    "start": 691320,
+    "end": 694120,
+    "confidence": 0.99121094
+  },
+  {
+    "sid": "s000111",
+    "text": "How many vertices go on left?",
+    "start": 696200,
+    "end": 697960,
+    "confidence": 1.0
+  },
+  {
+    "sid": "s000112",
+    "text": "How many on right?",
+    "start": 698320,
+    "end": 699200,
+    "confidence": 0.99316406
+  },
+  {
+    "sid": "s000113",
+    "text": "I don't care 1 or N minus 1.",
+    "start": 699200,
+    "end": 702880,
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000114",
+    "text": "The only requirement definition of a partition or bipartisan is each set should be non empty.",
+    "start": 702880,
+    "end": 709600,
+    "confidence": 0.98583984
+  },
+  {
+    "sid": "s000115",
+    "text": "That's a requirement.",
+    "start": 710160,
+    "end": 711200,
+    "confidence": 0.9970703
+  },
+  {
+    "sid": "s000116",
+    "text": "If I take all the vertices and put it here, that's not a partition anymore.",
+    "start": 711200,
+    "end": 715360,
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000117",
+    "text": "That's or it's not a bipartition.",
+    "start": 715760,
+    "end": 718000,
+    "confidence": 0.8803711
+  },
+  {
+    "sid": "s000118",
+    "text": "Other than that, I can put one vertex here from my original graph 2 all the way to N minus 1.",
+    "start": 719520,
+    "end": 725820,
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000119",
+    "text": "They are all called Y partition being balanced, each of them having n over 2 is not what we are after here.",
+    "start": 725820,
+    "end": 733260,
+    "confidence": 0.7597656
+  },
+  {
+    "sid": "s000120",
+    "text": "Sometimes when you think of partition, you think of balanced partition.",
+    "start": 733260,
+    "end": 736900,
+    "confidence": 0.9998372
+  },
+  {
+    "sid": "s000121",
+    "text": "This is not it.",
+    "start": 736900,
+    "end": 737860,
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000122",
+    "text": "There are problems where we want to balance each side, each subset.",
+    "start": 738500,
+    "end": 743060,
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000123",
+    "text": "We're going to study that when we look at the divide and conquer paradigm.",
+    "start": 743460,
+    "end": 747340,
+    "confidence": 0.8227539
+  },
+  {
+    "sid": "s000124",
+    "text": "But here that's not an issue.",
+    "start": 747340,
+    "end": 748740,
+    "confidence": 0.9321289
+  },
+  {
+    "sid": "s000125",
+    "text": "So take any partition you like.",
+    "start": 749220,
+    "end": 750790,
+    "confidence": 0.8642578
+  },
+  {
+    "sid": "s000126",
+    "text": "Some vertices here, some vertices here.",
+    "start": 751900,
+    "end": 755020,
+    "confidence": 0.95410156
+  },
+  {
+    "sid": "s000127",
+    "text": "Look at the edge that connects them.",
+    "start": 757100,
+    "end": 760300,
+    "confidence": 0.9902344
+  },
+  {
+    "sid": "s000128",
+    "text": "Sorry, the edges that connect them like this.",
+    "start": 760460,
+    "end": 763820,
+    "confidence": 0.99283856
+  },
+  {
+    "sid": "s000129",
+    "text": "So these are the edges that go From V sub 1 to V sub 2, from left to right, from partition 1 to partition 2.",
+    "start": 764700,
+    "end": 772540,
+    "confidence": 0.9916992
+  },
+  {
+    "sid": "s000130",
+    "text": "And there's going to be at least one such edge.",
+    "start": 773340,
+    "end": 775660,
+    "confidence": 0.9916992
+  },
+  {
+    "sid": "s000131",
+    "text": "Because if there are no edges from left to right in the original graph, that means the graph is not connected.",
+    "start": 776830,
+    "end": 783150,
+    "confidence": 0.97753906
+  },
+  {
+    "sid": "s000132",
+    "text": "If there are no edges, then this vertex has no way of connecting to that vertex.",
+    "start": 783630,
+    "end": 787790,
+    "confidence": 0.98779297
+  },
+  {
+    "sid": "s000133",
+    "text": "And one of the main criteria where we started things was assume you have a connected graph.",
+    "start": 788430,
+    "end": 794350,
+    "confidence": 0.95166016
+  },
+  {
+    "sid": "s000134",
+    "text": "One component, okay?",
+    "start": 794750,
+    "end": 799150,
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000135",
+    "text": "Not five components, not two components, one component.",
+    "start": 800510,
+    "end": 803470,
+    "confidence": 0.99658203
+  },
+  {
+    "sid": "s000136",
+    "text": "So there gotta be at least one edge.",
+    "start": 803470,
+    "end": 805470,
+    "confidence": 0.9975586
+  },
+  {
+    "sid": "s000137",
+    "text": "There could be two edges.",
+    "start": 805550,
+    "end": 806750,
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000138",
+    "text": "There could be N square edges between left and right.",
+    "start": 806830,
+    "end": 809390,
+    "confidence": 0.9951172
+  },
+  {
+    "sid": "s000139",
+    "text": "If it's a very dense graph, if it's a complete graph, every vertex is connected to every other vertex.",
+    "start": 809390,
+    "end": 814710,
+    "confidence": 0.72216797
+  },
+  {
+    "sid": "s000140",
+    "text": "There's Going to be a bot N square edges that goes across, but minimum is one.",
+    "start": 814710,
+    "end": 819190,
+    "confidence": 0.97965497
+  },
+  {
+    "sid": "s000141",
+    "text": "It's not zero.",
+    "start": 819190,
+    "end": 820030,
+    "confidence": 0.8880208
+  },
+  {
+    "sid": "s000142",
+    "text": "Of all the edges that go from left to right, let's look at their weight.",
+    "start": 821550,
+    "end": 825390,
+    "confidence": 0.9892578
+  },
+  {
+    "sid": "s000143",
+    "text": "The weights are 1, 4, 3, 2 and I said assume the weights are unique.",
+    "start": 825710,
+    "end": 830650,
+    "confidence": 0.8925781
+  },
+  {
+    "sid": "s000144",
+    "text": "For now, for the next 40 minutes, an hour or so, pick the one that has minimum weight and give it a name.",
+    "start": 830650,
+    "end": 839290,
+    "confidence": 0.9892578
+  },
+  {
+    "sid": "s000145",
+    "text": "Doesn't matter.",
+    "start": 839290,
+    "end": 839890,
+    "confidence": 0.99560547
+  },
+  {
+    "sid": "s000146",
+    "text": "E prime mean, whatever.",
+    "start": 839890,
+    "end": 841810,
+    "confidence": 0.9692383
+  },
+  {
+    "sid": "s000147",
+    "text": "I call it E sub mean meaning the minimum weight currently between left and right.",
+    "start": 841810,
+    "end": 847410,
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000148",
+    "text": "Okay, I claim that every MSP subme must be in every MSC in the original graph.",
+    "start": 849090,
+    "end": 866220,
+    "confidence": 0.7989909
+  },
+  {
+    "sid": "s000149",
+    "text": "Okay, Example.",
+    "start": 870860,
+    "end": 872940,
+    "confidence": 0.86051434
+  },
+  {
+    "sid": "s000150",
+    "text": "Take this graph.",
+    "start": 879830,
+    "end": 880630,
+    "confidence": 0.96875
+  },
+  {
+    "sid": "s000151",
+    "text": "Partition it.",
+    "start": 880630,
+    "end": 881510,
+    "confidence": 0.99975586
+  },
+  {
+    "sid": "s000152",
+    "text": "I say it any way you like.",
+    "start": 881510,
+    "end": 882950,
+    "confidence": 0.9838867
+  },
+  {
+    "sid": "s000153",
+    "text": "This is not a partition because the top one is not in it.",
+    "start": 883750,
+    "end": 886790,
+    "confidence": 0.9975586
+  },
+  {
+    "sid": "s000154",
+    "text": "This one is a partition by partition or partition.",
+    "start": 887110,
+    "end": 891190,
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000155",
+    "text": "Okay.",
+    "start": 891670,
+    "end": 892310,
+    "confidence": 0.8932292
+  },
+  {
+    "sid": "s000156",
+    "text": "This is one such example.",
+    "start": 893350,
+    "end": 895030,
+    "confidence": 0.8823242
+  },
+  {
+    "sid": "s000157",
+    "text": "There are many, many other partitions.",
+    "start": 895030,
+    "end": 896790,
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000158",
+    "text": "Exponential number of them.",
+    "start": 896790,
+    "end": 898150,
+    "confidence": 0.9993164
+  },
+  {
+    "sid": "s000159",
+    "text": "This is one of them.",
+    "start": 898150,
+    "end": 899270,
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000160",
+    "text": "Which one is in mean?",
+    "start": 899670,
+    "end": 901110,
+    "confidence": 0.99658203
+  },
+  {
+    "sid": "s000161",
+    "text": "What is the weight of in mean?",
+    "start": 901110,
+    "end": 902470,
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000162",
+    "text": "Here.",
+    "start": 902470,
+    "end": 902790,
+    "confidence": 0.7050781
+  },
+  {
+    "sid": "s000163",
+    "text": "Thank you.",
+    "start": 905840,
+    "end": 906320,
+    "confidence": 0.9333496
+  },
+  {
+    "sid": "s000164",
+    "text": "This is imi.",
+    "start": 907120,
+    "end": 908160,
+    "confidence": 0.9946289
+  },
+  {
+    "sid": "s000165",
+    "text": "Okay, that's saying email must be in every MSP I come up with.",
+    "start": 910080,
+    "end": 917040,
+    "confidence": 0.96533203
+  },
+  {
+    "sid": "s000166",
+    "text": "And you can do that by inspection yourself.",
+    "start": 919600,
+    "end": 922240,
+    "confidence": 0.9589844
+  },
+  {
+    "sid": "s000167",
+    "text": "Just try to come up with msc.",
+    "start": 922480,
+    "end": 924000,
+    "confidence": 0.8720703
+  },
+  {
+    "sid": "s000168",
+    "text": "Can you find one that does not have one in it?",
+    "start": 924400,
+    "end": 927520,
+    "confidence": 0.9975586
+  },
+  {
+    "sid": "s000169",
+    "text": "It's not possible.",
+    "start": 927760,
+    "end": 928640,
+    "confidence": 0.9741211
+  },
+  {
+    "sid": "s000170",
+    "text": "Just for inspection.",
+    "start": 929040,
+    "end": 930000,
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000171",
+    "text": "We haven't proved that yet.",
+    "start": 930000,
+    "end": 931040,
+    "confidence": 0.6645508
+  },
+  {
+    "sid": "s000172",
+    "text": "We will prove that.",
+    "start": 931040,
+    "end": 932090,
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000173",
+    "text": "Let's do another partition.",
+    "start": 933050,
+    "end": 934570,
+    "confidence": 0.99104816
+  },
+  {
+    "sid": "s000174",
+    "text": "Yeah, so one was a no brainer because that's the smallest weight in the entire graph.",
+    "start": 937210,
+    "end": 941530,
+    "confidence": 0.8880208
+  },
+  {
+    "sid": "s000175",
+    "text": "So it would make sense for that to be in it.",
+    "start": 941690,
+    "end": 944010,
+    "confidence": 0.9916992
+  },
+  {
+    "sid": "s000176",
+    "text": "Let's do another partition.",
+    "start": 948570,
+    "end": 950010,
+    "confidence": 0.9947917
+  },
+  {
+    "sid": "s000177",
+    "text": "This.",
+    "start": 950010,
+    "end": 950410,
+    "confidence": 0.9628906
+  },
+  {
+    "sid": "s000178",
+    "text": "What is the rate of E mean in this partition?",
+    "start": 953770,
+    "end": 956730,
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000179",
+    "text": "Every NSP must have that edge with weight 9 in it.",
+    "start": 959300,
+    "end": 962740,
+    "confidence": 0.984375
+  },
+  {
+    "sid": "s000180",
+    "text": "That's very easy to argue.",
+    "start": 964020,
+    "end": 965540,
+    "confidence": 0.99576825
+  },
+  {
+    "sid": "s000181",
+    "text": "9 is the largest weight.",
+    "start": 965780,
+    "end": 967220,
+    "confidence": 0.99658
+  },
+  {
+    "sid": "s000182",
+    "text": "But you can easily reason to say if 9 was not in an MSP, this vertex wouldn't be connected to the rest of the vertices.",
+    "start": 967380,
+    "end": 977180,
+    "confidence": 0.9819336
+  },
+  {
+    "sid": "s000183",
+    "text": "Therefore you don't have a tree structure.",
+    "start": 977180,
+    "end": 978900,
+    "confidence": 0.79467773
+  },
+  {
+    "sid": "s000184",
+    "text": "You don't have a spanning tree.",
+    "start": 978900,
+    "end": 980300,
+    "confidence": 0.99658203
+  },
+  {
+    "sid": "s000185",
+    "text": "You have something else.",
+    "start": 980300,
+    "end": 981060,
+    "confidence": 0.6640625
+  },
+  {
+    "sid": "s000186",
+    "text": "You have spanning forest or something.",
+    "start": 981060,
+    "end": 982600,
+    "confidence": 0.79052734
+  },
+  {
+    "sid": "s000187",
+    "text": "Something.",
+    "start": 982750,
+    "end": 982990,
+    "confidence": 0.50341797
+  },
+  {
+    "sid": "s000188",
+    "text": "So two examples that I just gave you and you can do a few more examples on other graphs of this graph to see if you can build cases where E sub mean is not in a solution and is not possible.",
+    "start": 983550,
+    "end": 996910,
+    "confidence": 0.98339844
+  },
+  {
+    "sid": "s000189",
+    "text": "I claim it's not possible.",
+    "start": 996990,
+    "end": 998270,
+    "confidence": 0.8574219
+  },
+  {
+    "sid": "s000190",
+    "text": "So if that's true, then I want to prove what is known as MSV theorem.",
+    "start": 998750,
+    "end": 1006590,
+    "confidence": 0.9868164
+  },
+  {
+    "sid": "s000191",
+    "text": "And STT theorem says for every partition, not just one, not that there exists a partition.",
+    "start": 1009400,
+    "end": 1015800,
+    "confidence": 0.4013672
+  },
+  {
+    "sid": "s000192",
+    "text": "That's not what this is saying.",
+    "start": 1015800,
+    "end": 1017160,
+    "confidence": 0.9978841
+  },
+  {
+    "sid": "s000193",
+    "text": "It's a lot more general than that.",
+    "start": 1017400,
+    "end": 1019640,
+    "confidence": 0.84195966
+  },
+  {
+    "sid": "s000194",
+    "text": "For every partition E sub min must be in every MST that it should come up with.",
+    "start": 1019640,
+    "end": 1024680,
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000195",
+    "text": "Yes.",
+    "start": 1028360,
+    "end": 1028840,
+    "confidence": 0.9711914
+  },
+  {
+    "sid": "s000196",
+    "text": "So by e Sub N you not the minimal edge and the polyolic acid.",
+    "start": 1029080,
+    "end": 1033660,
+    "confidence": 0.90185547
+  },
+  {
+    "sid": "s000197",
+    "text": "Correct?",
+    "start": 1034930,
+    "end": 1035290,
+    "confidence": 0.98551434
+  },
+  {
+    "sid": "s000198",
+    "text": "Exactly.",
+    "start": 1035290,
+    "end": 1035970,
+    "confidence": 0.9920247
+  },
+  {
+    "sid": "s000199",
+    "text": "The minimum E sub min is defined as the minimum weight H that goes from left to right.",
+    "start": 1042130,
+    "end": 1047410,
+    "confidence": 0.9790039
+  },
+  {
+    "sid": "s000200",
+    "text": "How do you define left and right?",
+    "start": 1047730,
+    "end": 1049609,
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000201",
+    "text": "Any way you like.",
+    "start": 1049609,
+    "end": 1050450,
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000202",
+    "text": "There are billions of ways of drawing left and right.",
+    "start": 1050930,
+    "end": 1053850,
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000203",
+    "text": "For each and every one of them that E min, the local E min must be in the msd.",
+    "start": 1053850,
+    "end": 1058450,
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000204",
+    "text": "That's what MSD theorem is saying.",
+    "start": 1058450,
+    "end": 1060050,
+    "confidence": 0.9941406
+  },
+  {
+    "sid": "s000205",
+    "text": "Quite powerful and maybe surprising.",
+    "start": 1060430,
+    "end": 1062670,
+    "confidence": 0.98413086
+  },
+  {
+    "sid": "s000206",
+    "text": "Okay, by contradiction, assume E sub mean.",
+    "start": 1064350,
+    "end": 1068430,
+    "confidence": 0.9793294
+  },
+  {
+    "sid": "s000207",
+    "text": "There is an MSD and E sub mean is not in it.",
+    "start": 1068430,
+    "end": 1071230,
+    "confidence": 0.9863281
+  },
+  {
+    "sid": "s000208",
+    "text": "Right.",
+    "start": 1071950,
+    "end": 1072350,
+    "confidence": 0.94921875
+  },
+  {
+    "sid": "s000209",
+    "text": "Every MSD must have E mean.",
+    "start": 1073950,
+    "end": 1075710,
+    "confidence": 0.9975586
+  },
+  {
+    "sid": "s000210",
+    "text": "Complement of that.",
+    "start": 1075950,
+    "end": 1077070,
+    "confidence": 0.9869792
+  },
+  {
+    "sid": "s000211",
+    "text": "Complement of every is.",
+    "start": 1077550,
+    "end": 1079070,
+    "confidence": 0.9838867
+  },
+  {
+    "sid": "s000212",
+    "text": "There exists one in saying that everyone is wearing blue.",
+    "start": 1079070,
+    "end": 1083070,
+    "confidence": 0.96484375
+  },
+  {
+    "sid": "s000213",
+    "text": "Contradiction.",
+    "start": 1083950,
+    "end": 1084750,
+    "confidence": 0.96904296
+  },
+  {
+    "sid": "s000214",
+    "text": "If I find one person who is not wearing a blue, it means that's not true.",
+    "start": 1084750,
+    "end": 1088890,
+    "confidence": 0.9897461
+  },
+  {
+    "sid": "s000215",
+    "text": "Or if I say no, there got to be at least one who is not wearing blue and get into a contradiction.",
+    "start": 1089850,
+    "end": 1094570,
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000216",
+    "text": "It means my original hypothesis of everyone is wearing blue is red.",
+    "start": 1094570,
+    "end": 1098250,
+    "confidence": 0.99560547
+  },
+  {
+    "sid": "s000217",
+    "text": "Basic proof by contradiction.",
+    "start": 1099610,
+    "end": 1101210,
+    "confidence": 0.99731445
+  },
+  {
+    "sid": "s000218",
+    "text": "Same as any other proof we have done or most proofs we have done by confidence.",
+    "start": 1102649,
+    "end": 1106090,
+    "confidence": 0.99609375
+  },
+  {
+    "sid": "s000219",
+    "text": "Okay, so there is an MSD that this is not in it.",
+    "start": 1106570,
+    "end": 1109770,
+    "confidence": 0.83479816
+  },
+  {
+    "sid": "s000220",
+    "text": "Perfect.",
+    "start": 1109770,
+    "end": 1110330,
+    "confidence": 0.9847005
+  },
+  {
+    "sid": "s000221",
+    "text": "How does it look like?",
+    "start": 1111290,
+    "end": 1112490,
+    "confidence": 0.9975586
+  },
+  {
+    "sid": "s000222",
+    "text": "Maybe there is an edge here.",
+    "start": 1113530,
+    "end": 1114770,
+    "confidence": 0.96728516
+  },
+  {
+    "sid": "s000223",
+    "text": "There's got to be at least one edge from left to right.",
+    "start": 1114770,
+    "end": 1116890,
+    "confidence": 0.64249676
+  },
+  {
+    "sid": "s000224",
+    "text": "This is the same partition.",
+    "start": 1116890,
+    "end": 1118170,
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000225",
+    "text": "Because if there is, if the Ms, if the contradiction Ms.",
+    "start": 1120810,
+    "end": 1124650,
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000226",
+    "text": "Doesn't have any edges between left and right, it's not a tree structure anymore, it's a forest.",
+    "start": 1130570,
+    "end": 1134890,
+    "confidence": 0.99869794
+  },
+  {
+    "sid": "s000227",
+    "text": "It has components.",
+    "start": 1135370,
+    "end": 1136370,
+    "confidence": 0.9951172
+  },
+  {
+    "sid": "s000228",
+    "text": "So it's got to have at this one.",
+    "start": 1136370,
+    "end": 1137530,
+    "confidence": 0.9902344
+  },
+  {
+    "sid": "s000229",
+    "text": "Or it could have hundreds.",
+    "start": 1137530,
+    "end": 1138780,
+    "confidence": 0.9291992
+  },
+  {
+    "sid": "s000230",
+    "text": "I don't know.",
+    "start": 1139330,
+    "end": 1140050,
+    "confidence": 0.9399414
+  },
+  {
+    "sid": "s000231",
+    "text": "I don't care.",
+    "start": 1140050,
+    "end": 1140690,
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000232",
+    "text": "Are there other edges?",
+    "start": 1140850,
+    "end": 1142010,
+    "confidence": 0.9897461
+  },
+  {
+    "sid": "s000233",
+    "text": "Yeah, there could be edges in there.",
+    "start": 1142010,
+    "end": 1143570,
+    "confidence": 0.9814453
+  },
+  {
+    "sid": "s000234",
+    "text": "So it would look something like that.",
+    "start": 1145730,
+    "end": 1147410,
+    "confidence": 0.8935547
+  },
+  {
+    "sid": "s000235",
+    "text": "Maybe more edges between left and right.",
+    "start": 1147490,
+    "end": 1149490,
+    "confidence": 0.9824219
+  },
+  {
+    "sid": "s000236",
+    "text": "Hundred edges, n minus one edges or just one edge.",
+    "start": 1149650,
+    "end": 1153410,
+    "confidence": 0.8964844
+  },
+  {
+    "sid": "s000237",
+    "text": "Anything is possible as long as it's one or more.",
+    "start": 1153890,
+    "end": 1157010,
+    "confidence": 0.9992676
+  },
+  {
+    "sid": "s000238",
+    "text": "Okay, so this is called T prime contradiction mst the three I'm showing here.",
+    "start": 1158690,
+    "end": 1169180,
+    "confidence": 0.9475911
+  },
+  {
+    "sid": "s000239",
+    "text": "Actually, let me get rid of prime.",
+    "start": 1169660,
+    "end": 1171260,
+    "confidence": 0.98828125
+  },
+  {
+    "sid": "s000240",
+    "text": "It's called the contradiction mst, meaning by contradiction there is somebody saying no, I know of an MST that does not have E min in it.",
+    "start": 1171260,
+    "end": 1180379,
+    "confidence": 0.898763
+  },
+  {
+    "sid": "s000241",
+    "text": "Right?",
+    "start": 1180379,
+    "end": 1180740,
+    "confidence": 0.9560547
+  },
+  {
+    "sid": "s000242",
+    "text": "That's complement of this statement.",
+    "start": 1180740,
+    "end": 1182380,
+    "confidence": 0.9847005
+  },
+  {
+    "sid": "s000243",
+    "text": "Okay, you say fine, let's go with your hypothesis.",
+    "start": 1183180,
+    "end": 1186420,
+    "confidence": 0.9088542
+  },
+  {
+    "sid": "s000244",
+    "text": "There exists such an MST with E sub minot in it.",
+    "start": 1186420,
+    "end": 1189820,
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000245",
+    "text": "Let me add E sub mean to that.",
+    "start": 1190550,
+    "end": 1192630,
+    "confidence": 0.9658203
+  },
+  {
+    "sid": "s000246",
+    "text": "Let's say it's here.",
+    "start": 1193270,
+    "end": 1194390,
+    "confidence": 0.92073566
+  },
+  {
+    "sid": "s000247",
+    "text": "What is this E mean?",
+    "start": 1196950,
+    "end": 1198230,
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000248",
+    "text": "Same as this E mean it's the minimum one going from left to right in my plane.",
+    "start": 1198550,
+    "end": 1204950,
+    "confidence": 0.9970703
+  },
+  {
+    "sid": "s000249",
+    "text": "So that's why I label it the same.",
+    "start": 1205510,
+    "end": 1207350,
+    "confidence": 0.80371094
+  },
+  {
+    "sid": "s000250",
+    "text": "This edge is exactly this edge.",
+    "start": 1207510,
+    "end": 1209990,
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000251",
+    "text": "Okay, with me so far.",
+    "start": 1212230,
+    "end": 1214310,
+    "confidence": 0.9160156
+  },
+  {
+    "sid": "s000252",
+    "text": "I start with the Contradiction.",
+    "start": 1214710,
+    "end": 1216270,
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000253",
+    "text": "Msd.",
+    "start": 1216270,
+    "end": 1216830,
+    "confidence": 0.88655597
+  },
+  {
+    "sid": "s000254",
+    "text": "I add one edge.",
+    "start": 1216830,
+    "end": 1218070,
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000255",
+    "text": "Again, specific edge.",
+    "start": 1218070,
+    "end": 1219450,
+    "confidence": 0.18139648
+  },
+  {
+    "sid": "s000256",
+    "text": "E mean that I insisted must be in an NSD Now I don't have a tree structure anymore.",
+    "start": 1219450,
+    "end": 1225930,
+    "confidence": 0.4177246
+  },
+  {
+    "sid": "s000257",
+    "text": "When you have a tree structure, you add an edge.",
+    "start": 1226970,
+    "end": 1228970,
+    "confidence": 0.49047852
+  },
+  {
+    "sid": "s000258",
+    "text": "It's not a tree anymore.",
+    "start": 1228970,
+    "end": 1229890,
+    "confidence": 0.98876953
+  },
+  {
+    "sid": "s000259",
+    "text": "We talked about that.",
+    "start": 1229890,
+    "end": 1230810,
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000260",
+    "text": "Okay, I'm going to take this.",
+    "start": 1231690,
+    "end": 1233770,
+    "confidence": 0.9296875
+  },
+  {
+    "sid": "s000261",
+    "text": "We talked about three minutes ago that when you have a tree structure, when you add an edge to it, you create a cycle.",
+    "start": 1234249,
+    "end": 1240890,
+    "confidence": 0.99121094
+  },
+  {
+    "sid": "s000262",
+    "text": "In this example, that's this cycle.",
+    "start": 1243290,
+    "end": 1245810,
+    "confidence": 0.99072266
+  },
+  {
+    "sid": "s000263",
+    "text": "There's a cycle somewhere.",
+    "start": 1248690,
+    "end": 1250050,
+    "confidence": 0.8642578
+  },
+  {
+    "sid": "s000264",
+    "text": "Take this graph, remove an edge of this cycle.",
+    "start": 1254210,
+    "end": 1260690,
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000265",
+    "text": "Let me call it E cycle because I don't know a better name.",
+    "start": 1261170,
+    "end": 1264530,
+    "confidence": 0.9741211
+  },
+  {
+    "sid": "s000266",
+    "text": "Remove from that the edge of the cycle and at let equal.",
+    "start": 1265090,
+    "end": 1270170,
+    "confidence": 0.9741211
+  },
+  {
+    "sid": "s000267",
+    "text": "Let me do it actually backwards.",
+    "start": 1270170,
+    "end": 1271530,
+    "confidence": 0.9555664
+  },
+  {
+    "sid": "s000268",
+    "text": "Same equation.",
+    "start": 1273280,
+    "end": 1273920,
+    "confidence": 0.9892578
+  },
+  {
+    "sid": "s000269",
+    "text": "I'm going to write it backwards because that's the really big thing.",
+    "start": 1274240,
+    "end": 1276960,
+    "confidence": 0.9938151
+  },
+  {
+    "sid": "s000270",
+    "text": "Add to that E sub min, remove from that E cycle, right?",
+    "start": 1277280,
+    "end": 1283920,
+    "confidence": 0.9941406
+  },
+  {
+    "sid": "s000271",
+    "text": "This means.",
+    "start": 1284160,
+    "end": 1284800,
+    "confidence": 0.99316406
+  },
+  {
+    "sid": "s000272",
+    "text": "Let me call it T prime.",
+    "start": 1284800,
+    "end": 1287440,
+    "confidence": 0.77197266
+  },
+  {
+    "sid": "s000273",
+    "text": "So T prime is you add E sub min, this E sub min, and you remove this outside the context of msp.",
+    "start": 1288400,
+    "end": 1297680,
+    "confidence": 0.9892578
+  },
+  {
+    "sid": "s000274",
+    "text": "We've already done this.",
+    "start": 1297680,
+    "end": 1298640,
+    "confidence": 0.76464844
+  },
+  {
+    "sid": "s000275",
+    "text": "If you look at your notes 10 minutes ago, we add an edge and we remove many other edges one at a time from a graph.",
+    "start": 1298640,
+    "end": 1306010,
+    "confidence": 0.9638672
+  },
+  {
+    "sid": "s000276",
+    "text": "If we remove one, we get the origin, we get eight.",
+    "start": 1306010,
+    "end": 1308850,
+    "confidence": 0.9375
+  },
+  {
+    "sid": "s000277",
+    "text": "Feedback, right?",
+    "start": 1308850,
+    "end": 1311090,
+    "confidence": 0.75634766
+  },
+  {
+    "sid": "s000278",
+    "text": "That's all I'm doing here.",
+    "start": 1311090,
+    "end": 1312250,
+    "confidence": 0.99820966
+  },
+  {
+    "sid": "s000279",
+    "text": "Clear.",
+    "start": 1315450,
+    "end": 1315850,
+    "confidence": 0.92041016
+  },
+  {
+    "sid": "s000280",
+    "text": "Okay.",
+    "start": 1316569,
+    "end": 1317130,
+    "confidence": 0.8566081
+  },
+  {
+    "sid": "s000281",
+    "text": "Weight of T prime got to be less than rate of T, contradiction and st. Because Amin is less than E cycle, right?",
+    "start": 1319050,
+    "end": 1339140,
+    "confidence": 0.9472656
+  },
+  {
+    "sid": "s000282",
+    "text": "If I have some money in my pocket and I go buy a Haddock, give them 10 bucks, they gave me $2 back, I'm gonna have less money because instead of 10, they gave me two.",
+    "start": 1349060,
+    "end": 1360040,
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000283",
+    "text": "That's all I'm saying here.",
+    "start": 1360920,
+    "end": 1362280,
+    "confidence": 0.9991862
+  },
+  {
+    "sid": "s000284",
+    "text": "Got rid of this one, added this one.",
+    "start": 1364600,
+    "end": 1368600,
+    "confidence": 0.97558594
+  },
+  {
+    "sid": "s000285",
+    "text": "How was E sub min defined?",
+    "start": 1369080,
+    "end": 1370920,
+    "confidence": 0.9667969
+  },
+  {
+    "sid": "s000286",
+    "text": "As the minimum between left and right.",
+    "start": 1371000,
+    "end": 1373160,
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000287",
+    "text": "So since it's the minimum between left and right, it's gonna be less than that, it's gonna be less than that, it's gonna be less than that, it's gonna be less than that.",
+    "start": 1374360,
+    "end": 1382080,
+    "confidence": 0.9692383
+  },
+  {
+    "sid": "s000288",
+    "text": "By definition.",
+    "start": 1382080,
+    "end": 1383000,
+    "confidence": 0.97216797
+  },
+  {
+    "sid": "s000289",
+    "text": "By definition of E sub mean, therefore I have a better tree structure now.",
+    "start": 1383310,
+    "end": 1387710,
+    "confidence": 0.8911133
+  },
+  {
+    "sid": "s000290",
+    "text": "So contradiction phase.",
+    "start": 1388270,
+    "end": 1389870,
+    "confidence": 0.9682617
+  },
+  {
+    "sid": "s000291",
+    "text": "There is not an MST with E mean not in it.",
+    "start": 1390750,
+    "end": 1396270,
+    "confidence": 0.9970703
+  },
+  {
+    "sid": "s000292",
+    "text": "Because if there is this one, that cannot be the mst.",
+    "start": 1396750,
+    "end": 1402350,
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000293",
+    "text": "And I just prove that because I can reduce its weight.",
+    "start": 1402510,
+    "end": 1405390,
+    "confidence": 0.95654297
+  },
+  {
+    "sid": "s000294",
+    "text": "Okay, so this is called so MSDT or Ms.",
+    "start": 1409240,
+    "end": 1413960,
+    "confidence": 0.9786784
+  },
+  {
+    "sid": "s000295",
+    "text": "True because of what you prove here.",
+    "start": 1413960,
+    "end": 1416120,
+    "confidence": 0.70617676
+  },
+  {
+    "sid": "s000296",
+    "text": "It means if you do any by partition of the vertices, you take the minimum one that's going to be in mst.",
+    "start": 1416280,
+    "end": 1423240,
+    "confidence": 0.9941406
+  },
+  {
+    "sid": "s000297",
+    "text": "One of the things that I want to emphasize again is this is true only if the weights are unique.",
+    "start": 1425000,
+    "end": 1430200,
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000298",
+    "text": "You can imagine that if the weights are not unique, let's say all the weights are one, then they have many options.",
+    "start": 1431000,
+    "end": 1436790,
+    "confidence": 0.99609375
+  },
+  {
+    "sid": "s000299",
+    "text": "Then I cannot say E sub min is less than E cycle.",
+    "start": 1437030,
+    "end": 1440310,
+    "confidence": 0.98876953
+  },
+  {
+    "sid": "s000300",
+    "text": "I have to say E sub min is less than or equal to E cycle because they are not unique and therefore I don't have a contradiction.",
+    "start": 1440550,
+    "end": 1448470,
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000301",
+    "text": "So none of this works directly when the weights are non unique.",
+    "start": 1449830,
+    "end": 1454630,
+    "confidence": 0.98779297
+  },
+  {
+    "sid": "s000302",
+    "text": "It does not work that way.",
+    "start": 1454630,
+    "end": 1456070,
+    "confidence": 0.77441406
+  },
+  {
+    "sid": "s000303",
+    "text": "But later we'll see.",
+    "start": 1456550,
+    "end": 1457630,
+    "confidence": 0.9926758
+  },
+  {
+    "sid": "s000304",
+    "text": "That's a minor issue.",
+    "start": 1457630,
+    "end": 1458870,
+    "confidence": 0.98811847
+  },
+  {
+    "sid": "s000305",
+    "text": "Okay, so now we have a game plan for algorithm.",
+    "start": 1460230,
+    "end": 1463920,
+    "confidence": 0.77701825
+  },
+  {
+    "sid": "s000306",
+    "text": "I'm going to produce a bipartition of the original graph and I somehow arbitrary randomly, by magic, I will create a bipartition that will give me an E sub mean.",
+    "start": 1464560,
+    "end": 1481480,
+    "confidence": 0.9864909
+  },
+  {
+    "sid": "s000307",
+    "text": "I put it in the solution.",
+    "start": 1481480,
+    "end": 1482720,
+    "confidence": 0.9970703
+  },
+  {
+    "sid": "s000308",
+    "text": "Why?",
+    "start": 1483040,
+    "end": 1483360,
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000309",
+    "text": "Because MST theorem says put that in the solution.",
+    "start": 1483360,
+    "end": 1486160,
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000310",
+    "text": "Then I create another by partition that gives me another E sub min.",
+    "start": 1486730,
+    "end": 1490170,
+    "confidence": 0.9135742
+  },
+  {
+    "sid": "s000311",
+    "text": "I put that in the solution.",
+    "start": 1490410,
+    "end": 1491810,
+    "confidence": 0.9951172
+  },
+  {
+    "sid": "s000312",
+    "text": "I keep doing that.",
+    "start": 1491810,
+    "end": 1492890,
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000313",
+    "text": "I just have to make sure that if I create, if this is E mean, I want to make sure the next partition doesn't have this as its E min because then I'm oscillating the same edge over and over.",
+    "start": 1493770,
+    "end": 1506330,
+    "confidence": 0.99560547
+  },
+  {
+    "sid": "s000314",
+    "text": "Waste of time.",
+    "start": 1506330,
+    "end": 1507210,
+    "confidence": 0.95703125
+  },
+  {
+    "sid": "s000315",
+    "text": "I just got to make sure E sub mean changes as I change partition.",
+    "start": 1507530,
+    "end": 1511050,
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000316",
+    "text": "But other than that, this is the game plan.",
+    "start": 1511290,
+    "end": 1513210,
+    "confidence": 0.93115234
+  },
+  {
+    "sid": "s000317",
+    "text": "Will produce a ton of partitions and for each partition I find an imi, I output that out and I say that's part of mst.",
+    "start": 1513930,
+    "end": 1522650,
+    "confidence": 0.35839844
+  },
+  {
+    "sid": "s000318",
+    "text": "That's all.",
+    "start": 1523530,
+    "end": 1524170,
+    "confidence": 0.84016925
+  },
+  {
+    "sid": "s000319",
+    "text": "How many times we got to do that?",
+    "start": 1524330,
+    "end": 1525970,
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000320",
+    "text": "Precisely N minus one time.",
+    "start": 1525970,
+    "end": 1527930,
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000321",
+    "text": "Because the number of edges in an MSP is E sub is n minus one.",
+    "start": 1528170,
+    "end": 1533210,
+    "confidence": 1.0
+  },
+  {
+    "sid": "s000322",
+    "text": "Any I don't even need the N part.",
+    "start": 1535130,
+    "end": 1537370,
+    "confidence": 0.6850586
+  },
+  {
+    "sid": "s000323",
+    "text": "Any ispanic three will have exactly n minus one N. Okay, so depending on how I do these partitions, what kind of methodology I use to produce these green boundaries, and there are many ways to bring these boundaries that give rise to different algorithms.",
+    "start": 1537690,
+    "end": 1558920,
+    "confidence": 0.7138672
+  },
+  {
+    "sid": "s000324",
+    "text": "There are two central fundamental way of doing its partitions.",
+    "start": 1559320,
+    "end": 1563320,
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000325",
+    "text": "One was proposed by Prem P P R I M1 was proposed by Crossco C R U S K A L and there are other ways of doing it, but these are the two fundamental ones of doing partitions.",
+    "start": 1564280,
+    "end": 1577900,
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000326",
+    "text": "And every time use MSD theorem.",
+    "start": 1578140,
+    "end": 1580220,
+    "confidence": 0.96777344
+  },
+  {
+    "sid": "s000327",
+    "text": "So the one that Print proposed, we're going to call it Prim's MSP minimum aspiring free algorithm.",
+    "start": 1580540,
+    "end": 1585500,
+    "confidence": 0.94091797
+  },
+  {
+    "sid": "s000328",
+    "text": "The one that Cross proposed, we're going to call it Crosscodes msd.",
+    "start": 1585500,
+    "end": 1589340,
+    "confidence": 0.99609375
+  },
+  {
+    "sid": "s000329",
+    "text": "Those are the two we're going to study in this class and all other variations of mst.",
+    "start": 1589980,
+    "end": 1594200,
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000330",
+    "text": "Algorithms are basically variation of these, so we don't need to study them Once we understand these two, we pretty much understand every MST algorithm.",
+    "start": 1594200,
+    "end": 1602560,
+    "confidence": 0.9863281
+  },
+  {
+    "sid": "s000331",
+    "text": "Okay, so, so yay plan.",
+    "start": 1606160,
+    "end": 1608400,
+    "confidence": 0.8673503
+  },
+  {
+    "sid": "s000332",
+    "text": "I produce a partition, I pick the E min one and I say based on.",
+    "start": 1608479,
+    "end": 1613000,
+    "confidence": 0.99316406
+  },
+  {
+    "sid": "s000333",
+    "text": "I'm going to keep saying that based on E. Based on MST theorem, this has to be the solution.",
+    "start": 1613000,
+    "end": 1617760,
+    "confidence": 0.9954427
+  },
+  {
+    "sid": "s000334",
+    "text": "Then I do another partition like this.",
+    "start": 1618090,
+    "end": 1620650,
+    "confidence": 0.953125
+  },
+  {
+    "sid": "s000335",
+    "text": "Minimum one is three.",
+    "start": 1622330,
+    "end": 1623690,
+    "confidence": 0.99820966
+  },
+  {
+    "sid": "s000336",
+    "text": "Now I output three and I said this based on MST theorem.",
+    "start": 1624090,
+    "end": 1628610,
+    "confidence": 0.98583984
+  },
+  {
+    "sid": "s000337",
+    "text": "Three has to be in the solution and I do n -1 partition.",
+    "start": 1628610,
+    "end": 1632810,
+    "confidence": 0.9970703
+  },
+  {
+    "sid": "s000338",
+    "text": "Every time a brand new imine has to be in the solution.",
+    "start": 1632890,
+    "end": 1635970,
+    "confidence": 1.0
+  },
+  {
+    "sid": "s000339",
+    "text": "I'm done.",
+    "start": 1635970,
+    "end": 1636490,
+    "confidence": 0.9913737
+  },
+  {
+    "sid": "s000340",
+    "text": "And every time for my proof, I'm not going to prove anything.",
+    "start": 1637690,
+    "end": 1640730,
+    "confidence": 0.9736328
+  },
+  {
+    "sid": "s000341",
+    "text": "I say look at MSD theorem.",
+    "start": 1640730,
+    "end": 1642890,
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000342",
+    "text": "How do you know this should be the solution?",
+    "start": 1643700,
+    "end": 1645220,
+    "confidence": 0.9892578
+  },
+  {
+    "sid": "s000343",
+    "text": "You have a list deteriorator.",
+    "start": 1645220,
+    "end": 1646500,
+    "confidence": 0.8696289
+  },
+  {
+    "sid": "s000344",
+    "text": "That's the game plan.",
+    "start": 1646500,
+    "end": 1647460,
+    "confidence": 0.9951172
+  },
+  {
+    "sid": "s000345",
+    "text": "Is it clear what the problem is?",
+    "start": 1650260,
+    "end": 1652340,
+    "confidence": 0.9946289
+  },
+  {
+    "sid": "s000346",
+    "text": "How are we going to proceed?",
+    "start": 1652500,
+    "end": 1653860,
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000347",
+    "text": "The rest of it is not going to be details first, algorithmic details.",
+    "start": 1655220,
+    "end": 1660580,
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000348",
+    "text": "How do I produce the partitions one at a time?",
+    "start": 1661540,
+    "end": 1664100,
+    "confidence": 0.9975586
+  },
+  {
+    "sid": "s000349",
+    "text": "A and B how to implement them.",
+    "start": 1664100,
+    "end": 1666260,
+    "confidence": 0.90283203
+  },
+  {
+    "sid": "s000350",
+    "text": "So two levels.",
+    "start": 1666340,
+    "end": 1667260,
+    "confidence": 0.93310547
+  },
+  {
+    "sid": "s000351",
+    "text": "As always, I do the algorithmic one first and I do the data structure one the details data structure at the end.",
+    "start": 1667260,
+    "end": 1675210,
+    "confidence": 0.98583984
+  },
+  {
+    "sid": "s000352",
+    "text": "Because if something fails with the algorithm, all the discussion about data structure is useless.",
+    "start": 1675210,
+    "end": 1680810,
+    "confidence": 0.9975586
+  },
+  {
+    "sid": "s000353",
+    "text": "I prefer to do things that way.",
+    "start": 1681210,
+    "end": 1683210,
+    "confidence": 0.7324219
+  },
+  {
+    "sid": "s000354",
+    "text": "I don't want to think about arrays, binary trees, etc.",
+    "start": 1683370,
+    "end": 1686810,
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000355",
+    "text": "Right now.",
+    "start": 1686810,
+    "end": 1687450,
+    "confidence": 0.9897461
+  },
+  {
+    "sid": "s000356",
+    "text": "A that's confusing to me because too many things happen.",
+    "start": 1687770,
+    "end": 1690250,
+    "confidence": 0.87109375
+  },
+  {
+    "sid": "s000357",
+    "text": "B if I start using a heap structure and my algorithm has some issue, I gotta go back and change my whole data structure analysis extra work.",
+    "start": 1690570,
+    "end": 1701680,
+    "confidence": 0.9604492
+  },
+  {
+    "sid": "s000358",
+    "text": "I don't feel like it.",
+    "start": 1701680,
+    "end": 1702760,
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000359",
+    "text": "Okay, let's do that.",
+    "start": 1703960,
+    "end": 1705320,
+    "confidence": 0.9506836
+  },
+  {
+    "sid": "s000360",
+    "text": "So all I need to do is hit this, because that's the main proof that I need over and over.",
+    "start": 1707160,
+    "end": 1715000,
+    "confidence": 0.9736328
+  },
+  {
+    "sid": "s000361",
+    "text": "Print algorithm 6.",
+    "start": 1725970,
+    "end": 1732370,
+    "confidence": 0.88671875
+  },
+  {
+    "sid": "s000362",
+    "text": "Take all the vertices, generate V sub 1 and V sub 2 in this manner.",
+    "start": 1732930,
+    "end": 1741730,
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000363",
+    "text": "Arbitrary.",
+    "start": 1742450,
+    "end": 1743330,
+    "confidence": 0.9025391
+  },
+  {
+    "sid": "s000364",
+    "text": "Take a vertex, the one you like, the one whose name you like.",
+    "start": 1743650,
+    "end": 1746970,
+    "confidence": 0.9916992
+  },
+  {
+    "sid": "s000365",
+    "text": "The the one that comes first.",
+    "start": 1746970,
+    "end": 1748210,
+    "confidence": 0.97998047
+  },
+  {
+    "sid": "s000366",
+    "text": "Don't spend time on it.",
+    "start": 1748370,
+    "end": 1749810,
+    "confidence": 0.93896484
+  },
+  {
+    "sid": "s000367",
+    "text": "Don't do things randomly.",
+    "start": 1749970,
+    "end": 1751490,
+    "confidence": 0.8927409
+  },
+  {
+    "sid": "s000368",
+    "text": "We never do that.",
+    "start": 1751490,
+    "end": 1752370,
+    "confidence": 0.6713867
+  },
+  {
+    "sid": "s000369",
+    "text": "Almost never do that unless there are strong reasons for it because it costs time.",
+    "start": 1752530,
+    "end": 1756850,
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000370",
+    "text": "So arbitrary versus randomly.",
+    "start": 1757570,
+    "end": 1759490,
+    "confidence": 0.9213867
+  },
+  {
+    "sid": "s000371",
+    "text": "Arbitrary versus be smart about picking the first vertex.",
+    "start": 1759650,
+    "end": 1763529,
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000372",
+    "text": "Those all take time.",
+    "start": 1763529,
+    "end": 1764770,
+    "confidence": 0.99658203
+  },
+  {
+    "sid": "s000373",
+    "text": "Arbitrary almost doesn't take any time or takes constant time.",
+    "start": 1764850,
+    "end": 1768970,
+    "confidence": 0.9730469
+  },
+  {
+    "sid": "s000374",
+    "text": "First one in the list of V, that's the only one.",
+    "start": 1768970,
+    "end": 1771730,
+    "confidence": 0.98095703
+  },
+  {
+    "sid": "s000375",
+    "text": "So pick one which here, take the rest here.",
+    "start": 1771730,
+    "end": 1775160,
+    "confidence": 0.9770508
+  },
+  {
+    "sid": "s000376",
+    "text": "So you have n minus one vertices.",
+    "start": 1775560,
+    "end": 1777560,
+    "confidence": 0.88623047
+  },
+  {
+    "sid": "s000377",
+    "text": "Here you have one vertex.",
+    "start": 1777560,
+    "end": 1779480,
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000378",
+    "text": "Okay?",
+    "start": 1783080,
+    "end": 1783720,
+    "confidence": 0.87890625
+  },
+  {
+    "sid": "s000379",
+    "text": "That's what trim says.",
+    "start": 1784440,
+    "end": 1785800,
+    "confidence": 0.99641925
+  },
+  {
+    "sid": "s000380",
+    "text": "Then prim says, look at all the edges between this vertex and all the other vertices.",
+    "start": 1786360,
+    "end": 1793720,
+    "confidence": 0.99072266
+  },
+  {
+    "sid": "s000381",
+    "text": "Equivalently, look at all the edges between this partition and this partition.",
+    "start": 1793880,
+    "end": 1798330,
+    "confidence": 0.96988934
+  },
+  {
+    "sid": "s000382",
+    "text": "But since this Partition has one vertex.",
+    "start": 1798720,
+    "end": 1800600,
+    "confidence": 0.9736328
+  },
+  {
+    "sid": "s000383",
+    "text": "We can just say between this vertex and everybody else.",
+    "start": 1800600,
+    "end": 1803200,
+    "confidence": 0.95458984
+  },
+  {
+    "sid": "s000384",
+    "text": "How many edges are there between this and everybody else?",
+    "start": 1803200,
+    "end": 1806240,
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000385",
+    "text": "We don't know.",
+    "start": 1806240,
+    "end": 1806680,
+    "confidence": 0.98535156
+  },
+  {
+    "sid": "s000386",
+    "text": "It could be 1, it could be N minus 1.",
+    "start": 1806680,
+    "end": 1808880,
+    "confidence": 0.98339844
+  },
+  {
+    "sid": "s000387",
+    "text": "It could be anywhere in between.",
+    "start": 1808880,
+    "end": 1811040,
+    "confidence": 0.9477539
+  },
+  {
+    "sid": "s000388",
+    "text": "We don't know.",
+    "start": 1811360,
+    "end": 1812000,
+    "confidence": 0.9902344
+  },
+  {
+    "sid": "s000389",
+    "text": "We don't care.",
+    "start": 1812000,
+    "end": 1812640,
+    "confidence": 0.9951172
+  },
+  {
+    "sid": "s000390",
+    "text": "Yeah.",
+    "start": 1813520,
+    "end": 1814000,
+    "confidence": 0.90983075
+  },
+  {
+    "sid": "s000391",
+    "text": "If we had more than one, wouldn't that be considered a cycle?",
+    "start": 1814320,
+    "end": 1817360,
+    "confidence": 0.9975586
+  },
+  {
+    "sid": "s000392",
+    "text": "If you have more than one from left to right.",
+    "start": 1818160,
+    "end": 1820640,
+    "confidence": 0.90478516
+  },
+  {
+    "sid": "s000393",
+    "text": "You mean like this?",
+    "start": 1821440,
+    "end": 1822320,
+    "confidence": 0.97509766
+  },
+  {
+    "sid": "s000394",
+    "text": "I just answered one question.",
+    "start": 1827450,
+    "end": 1828610,
+    "confidence": 0.9614258
+  },
+  {
+    "sid": "s000395",
+    "text": "Thank you.",
+    "start": 1828610,
+    "end": 1829050,
+    "confidence": 0.92700195
+  },
+  {
+    "sid": "s000396",
+    "text": "No, I answered exactly.",
+    "start": 1829050,
+    "end": 1833770,
+    "confidence": 0.9614258
+  },
+  {
+    "sid": "s000397",
+    "text": "So there are like this two.",
+    "start": 1835050,
+    "end": 1837450,
+    "confidence": 0.9580078
+  },
+  {
+    "sid": "s000398",
+    "text": "There could be one, There could be N minus one.",
+    "start": 1837450,
+    "end": 1839530,
+    "confidence": 0.9975586
+  },
+  {
+    "sid": "s000399",
+    "text": "Right.",
+    "start": 1839530,
+    "end": 1839850,
+    "confidence": 0.97802734
+  },
+  {
+    "sid": "s000400",
+    "text": "Prim says take the minimum of all these.",
+    "start": 1841690,
+    "end": 1844650,
+    "confidence": 0.53271484
+  },
+  {
+    "sid": "s000401",
+    "text": "There are 50 of them.",
+    "start": 1846090,
+    "end": 1847650,
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000402",
+    "text": "Take the minimum weights and put this 8e sub mean in the MST.",
+    "start": 1847650,
+    "end": 1857300,
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000403",
+    "text": "I put that.",
+    "start": 1857300,
+    "end": 1858580,
+    "confidence": 0.9033203
+  },
+  {
+    "sid": "s000404",
+    "text": "That's what print says.",
+    "start": 1859060,
+    "end": 1860260,
+    "confidence": 0.9978841
+  },
+  {
+    "sid": "s000405",
+    "text": "Okay.",
+    "start": 1861620,
+    "end": 1862260,
+    "confidence": 0.94352216
+  },
+  {
+    "sid": "s000406",
+    "text": "Now let's take.",
+    "start": 1862980,
+    "end": 1864020,
+    "confidence": 0.99365234
+  },
+  {
+    "sid": "s000407",
+    "text": "Let's do the next partition in this way.",
+    "start": 1864420,
+    "end": 1866500,
+    "confidence": 0.9943034
+  },
+  {
+    "sid": "s000408",
+    "text": "Let's take this vertex and move it to the left.",
+    "start": 1866580,
+    "end": 1869220,
+    "confidence": 0.9991862
+  },
+  {
+    "sid": "s000409",
+    "text": "I have a brand new partition.",
+    "start": 1869460,
+    "end": 1870900,
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000410",
+    "text": "2 on the left, n minus 2 on the right.",
+    "start": 1870900,
+    "end": 1873380,
+    "confidence": 0.99414
+  },
+  {
+    "sid": "s000411",
+    "text": "Let's take the E mean.",
+    "start": 1874100,
+    "end": 1875460,
+    "confidence": 0.9991862
+  },
+  {
+    "sid": "s000412",
+    "text": "Now what does E mean after I move one to the left?",
+    "start": 1875460,
+    "end": 1879120,
+    "confidence": 0.81396484
+  },
+  {
+    "sid": "s000413",
+    "text": "We don't know.",
+    "start": 1880400,
+    "end": 1881160,
+    "confidence": 0.97558594
+  },
+  {
+    "sid": "s000414",
+    "text": "Could it be this one?",
+    "start": 1881160,
+    "end": 1882320,
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000415",
+    "text": "This edge?",
+    "start": 1882480,
+    "end": 1883280,
+    "confidence": 0.9838867
+  },
+  {
+    "sid": "s000416",
+    "text": "For sure.",
+    "start": 1884000,
+    "end": 1884560,
+    "confidence": 0.99658203
+  },
+  {
+    "sid": "s000417",
+    "text": "Could it be this edge?",
+    "start": 1884800,
+    "end": 1886080,
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000418",
+    "text": "Could be.",
+    "start": 1886320,
+    "end": 1886880,
+    "confidence": 0.9970703
+  },
+  {
+    "sid": "s000419",
+    "text": "So if I take this and move it to the left, maybe I'm just outputting the same E mean.",
+    "start": 1887920,
+    "end": 1893040,
+    "confidence": 0.9921875
+  },
+  {
+    "sid": "s000420",
+    "text": "And if I keep doing that, I'm saying, listen, E means should be in the solution.",
+    "start": 1893120,
+    "end": 1897440,
+    "confidence": 0.80566406
+  },
+  {
+    "sid": "s000421",
+    "text": "Listen again.",
+    "start": 1897520,
+    "end": 1898160,
+    "confidence": 0.982666
+  },
+  {
+    "sid": "s000422",
+    "text": "E means should be in the solution.",
+    "start": 1898160,
+    "end": 1899600,
+    "confidence": 0.8779297
+  },
+  {
+    "sid": "s000423",
+    "text": "Yeah, we get it.",
+    "start": 1899600,
+    "end": 1900360,
+    "confidence": 0.94921875
+  },
+  {
+    "sid": "s000424",
+    "text": "It should be in the solution.",
+    "start": 1900360,
+    "end": 1901440,
+    "confidence": 1.0
+  },
+  {
+    "sid": "s000425",
+    "text": "I'm not making any progress.",
+    "start": 1901440,
+    "end": 1902790,
+    "confidence": 0.9998372
+  },
+  {
+    "sid": "s000426",
+    "text": "So moving this to the left and doing an imine is a bad idea.",
+    "start": 1903500,
+    "end": 1908140,
+    "confidence": 0.9873047
+  },
+  {
+    "sid": "s000427",
+    "text": "Instead, what might be a good idea is the following.",
+    "start": 1908780,
+    "end": 1911420,
+    "confidence": 0.94506836
+  },
+  {
+    "sid": "s000428",
+    "text": "Let me call this V sub 1, V sub 2.",
+    "start": 1913340,
+    "end": 1917100,
+    "confidence": 0.9975586
+  },
+  {
+    "sid": "s000429",
+    "text": "So every time the other side of V sub min.",
+    "start": 1917340,
+    "end": 1919620,
+    "confidence": 0.69921875
+  },
+  {
+    "sid": "s000430",
+    "text": "I'm going to call it v sub 2, v sub 3, etc.",
+    "start": 1919620,
+    "end": 1922140,
+    "confidence": 0.93847656
+  },
+  {
+    "sid": "s000431",
+    "text": "Just a naming convention in the original graph.",
+    "start": 1922140,
+    "end": 1925100,
+    "confidence": 0.99121094
+  },
+  {
+    "sid": "s000432",
+    "text": "They may have other names.",
+    "start": 1925100,
+    "end": 1926460,
+    "confidence": 0.96972656
+  },
+  {
+    "sid": "s000433",
+    "text": "5, 18, aw, etc.",
+    "start": 1926700,
+    "end": 1929550,
+    "confidence": 0.99854
+  },
+  {
+    "sid": "s000434",
+    "text": "Okay, so I'm gonna take this movement.",
+    "start": 1930820,
+    "end": 1932700,
+    "confidence": 0.9794922
+  },
+  {
+    "sid": "s000435",
+    "text": "So how does it look like?",
+    "start": 1932700,
+    "end": 1934380,
+    "confidence": 0.9975586
+  },
+  {
+    "sid": "s000436",
+    "text": "Now I have V sub 1 here.",
+    "start": 1934380,
+    "end": 1937620,
+    "confidence": 0.9765625
+  },
+  {
+    "sid": "s000437",
+    "text": "I have V sub 2 and I have N minus 2 vertices here.",
+    "start": 1937860,
+    "end": 1943620,
+    "confidence": 1.0
+  },
+  {
+    "sid": "s000438",
+    "text": "Right?",
+    "start": 1944180,
+    "end": 1944580,
+    "confidence": 0.99560547
+  },
+  {
+    "sid": "s000439",
+    "text": "Now find the E sub the new E sub mean.",
+    "start": 1945860,
+    "end": 1949340,
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000440",
+    "text": "Let me call this E sub mean super strict one.",
+    "start": 1949340,
+    "end": 1952820,
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000441",
+    "text": "Okay.",
+    "start": 1953220,
+    "end": 1953780,
+    "confidence": 0.7402344
+  },
+  {
+    "sid": "s000442",
+    "text": "The next is V sub B which may be connected to V sub 2, which may be connected to V sub 2.",
+    "start": 1953780,
+    "end": 1959530,
+    "confidence": 0.8730469
+  },
+  {
+    "sid": "s000443",
+    "text": "Sorry, V sub 1 or V sub 2, I don't know which one.",
+    "start": 1959530,
+    "end": 1962330,
+    "confidence": 0.9733073
+  },
+  {
+    "sid": "s000444",
+    "text": "I don't care.",
+    "start": 1962330,
+    "end": 1963050,
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000445",
+    "text": "It depends on the topology of the graph.",
+    "start": 1963370,
+    "end": 1965050,
+    "confidence": 0.99121094
+  },
+  {
+    "sid": "s000446",
+    "text": "The graph will die.",
+    "start": 1965050,
+    "end": 1966090,
+    "confidence": 0.98535156
+  },
+  {
+    "sid": "s000447",
+    "text": "Let's say it's connected to here.",
+    "start": 1966090,
+    "end": 1967850,
+    "confidence": 0.9920247
+  },
+  {
+    "sid": "s000448",
+    "text": "V sub min 2.",
+    "start": 1968170,
+    "end": 1969850,
+    "confidence": 0.7915039
+  },
+  {
+    "sid": "s000449",
+    "text": "So what is the definition of E sub bin 2 when I have now 2 vertices and I showed you how I got from 1 to 2 vertices.",
+    "start": 1970970,
+    "end": 1978730,
+    "confidence": 0.9975586
+  },
+  {
+    "sid": "s000450",
+    "text": "This one is the other end of B, the original E sub min.",
+    "start": 1978970,
+    "end": 1982550,
+    "confidence": 1.0
+  },
+  {
+    "sid": "s000451",
+    "text": "So now this is new E sub min.",
+    "start": 1983750,
+    "end": 1985790,
+    "confidence": 0.9946289
+  },
+  {
+    "sid": "s000452",
+    "text": "I put this in the solution.",
+    "start": 1985790,
+    "end": 1987350,
+    "confidence": 0.99658203
+  },
+  {
+    "sid": "s000453",
+    "text": "Why?",
+    "start": 1987830,
+    "end": 1988230,
+    "confidence": 0.8022461
+  },
+  {
+    "sid": "s000454",
+    "text": "MST theorem.",
+    "start": 1988470,
+    "end": 1989750,
+    "confidence": 0.97680664
+  },
+  {
+    "sid": "s000455",
+    "text": "Prove MST theorem.",
+    "start": 1990550,
+    "end": 1992310,
+    "confidence": 0.77734375
+  },
+  {
+    "sid": "s000456",
+    "text": "That's it.",
+    "start": 1992310,
+    "end": 1992870,
+    "confidence": 0.92496747
+  },
+  {
+    "sid": "s000457",
+    "text": "You prove MST theorem once.",
+    "start": 1992870,
+    "end": 1994630,
+    "confidence": 0.9951172
+  },
+  {
+    "sid": "s000458",
+    "text": "You just keep using it N minus one time in your rhino, in your proof, in your algorithm.",
+    "start": 1994710,
+    "end": 2001110,
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000459",
+    "text": "Okay, so with me so far, so far I have two pages one and two.",
+    "start": 2002390,
+    "end": 2008150,
+    "confidence": 0.88395184
+  },
+  {
+    "sid": "s000460",
+    "text": "Now you can probably guess what's going to happen.",
+    "start": 2010870,
+    "end": 2012870,
+    "confidence": 0.9926758
+  },
+  {
+    "sid": "s000461",
+    "text": "I go to the other side of V sub me.",
+    "start": 2013350,
+    "end": 2015750,
+    "confidence": 0.98095703
+  },
+  {
+    "sid": "s000462",
+    "text": "Just give it a name, V sub three.",
+    "start": 2015830,
+    "end": 2017510,
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000463",
+    "text": "Next time we're going to have V sub one V sub two V sub three.",
+    "start": 2017990,
+    "end": 2023429,
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000464",
+    "text": "I have n minus three vertices.",
+    "start": 2024310,
+    "end": 2028550,
+    "confidence": 0.9975586
+  },
+  {
+    "sid": "s000465",
+    "text": "I take the new E shopping.",
+    "start": 2029910,
+    "end": 2031470,
+    "confidence": 0.9970703
+  },
+  {
+    "sid": "s000466",
+    "text": "Let's say it's time for to be e sub min 3 by the output e sub min 3 as the third edge.",
+    "start": 2031470,
+    "end": 2039050,
+    "confidence": 0.99397784
+  },
+  {
+    "sid": "s000467",
+    "text": "So you see, if every time I take the other side, the other vertex of the edge that I just output, I'll make sure that edge E sub min next time around is going to be all in the left side will not go across.",
+    "start": 2040730,
+    "end": 2055290,
+    "confidence": 0.9926758
+  },
+  {
+    "sid": "s000468",
+    "text": "Therefore I'll have a brand new E sub B, which is what I want.",
+    "start": 2055610,
+    "end": 2058810,
+    "confidence": 0.99975586
+  },
+  {
+    "sid": "s000469",
+    "text": "I don't want to repeat the same E sub min and not make any progress.",
+    "start": 2059540,
+    "end": 2062900,
+    "confidence": 0.98876953
+  },
+  {
+    "sid": "s000470",
+    "text": "So I output 1e sub min 2nd e sub min 3rd e sub min.",
+    "start": 2063460,
+    "end": 2068100,
+    "confidence": 0.9765625
+  },
+  {
+    "sid": "s000471",
+    "text": "I keep doing that.",
+    "start": 2068100,
+    "end": 2069620,
+    "confidence": 0.99658203
+  },
+  {
+    "sid": "s000472",
+    "text": "At the end, I get this.",
+    "start": 2070180,
+    "end": 2071540,
+    "confidence": 0.9550781
+  },
+  {
+    "sid": "s000473",
+    "text": "The variable at the end, it's minus one.",
+    "start": 2072100,
+    "end": 2073940,
+    "confidence": 0.51464844
+  },
+  {
+    "sid": "s000474",
+    "text": "Instead I have V sub one through v n minus one.",
+    "start": 2073940,
+    "end": 2076980,
+    "confidence": 0.75805664
+  },
+  {
+    "sid": "s000475",
+    "text": "I have one vertex here I have a brand new E sub min Superscript N minus 1.",
+    "start": 2077460,
+    "end": 2085010,
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000476",
+    "text": "I put that I output that very last E sub means superscript N minus 1.",
+    "start": 2086680,
+    "end": 2091400,
+    "confidence": 0.95703125
+  },
+  {
+    "sid": "s000477",
+    "text": "I move this to the left.",
+    "start": 2091640,
+    "end": 2093080,
+    "confidence": 0.99316406
+  },
+  {
+    "sid": "s000478",
+    "text": "I'm done.",
+    "start": 2093160,
+    "end": 2093800,
+    "confidence": 0.97591144
+  },
+  {
+    "sid": "s000479",
+    "text": "Every time I use MSD theorem.",
+    "start": 2094680,
+    "end": 2096720,
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000480",
+    "text": "So with confidence, every edge that my output must be in every msd.",
+    "start": 2096720,
+    "end": 2100920,
+    "confidence": 0.984375
+  },
+  {
+    "sid": "s000481",
+    "text": "So why is this whole algorithm correct, the Prince algorithm?",
+    "start": 2103320,
+    "end": 2109480,
+    "confidence": 0.98046875
+  },
+  {
+    "sid": "s000482",
+    "text": "Because every thing that I output was based on that.",
+    "start": 2109480,
+    "end": 2113080,
+    "confidence": 0.9921875
+  },
+  {
+    "sid": "s000483",
+    "text": "That's it.",
+    "start": 2113880,
+    "end": 2114400,
+    "confidence": 0.99690753
+  },
+  {
+    "sid": "s000484",
+    "text": "That's the proof.",
+    "start": 2114400,
+    "end": 2115160,
+    "confidence": 0.9975586
+  },
+  {
+    "sid": "s000485",
+    "text": "Every step is correct.",
+    "start": 2116120,
+    "end": 2117280,
+    "confidence": 0.9975586
+  },
+  {
+    "sid": "s000486",
+    "text": "Because every step I outputted the right edge again based on that.",
+    "start": 2117280,
+    "end": 2121720,
+    "confidence": 0.7270508
+  },
+  {
+    "sid": "s000487",
+    "text": "Therefore, collectively they are all the right set of edges that I output.",
+    "start": 2121800,
+    "end": 2125400,
+    "confidence": 0.99780273
+  },
+  {
+    "sid": "s000488",
+    "text": "That's how I get the final nst.",
+    "start": 2125560,
+    "end": 2127880,
+    "confidence": 0.9975586
+  },
+  {
+    "sid": "s000489",
+    "text": "Okay?",
+    "start": 2131480,
+    "end": 2132120,
+    "confidence": 0.8645833
+  },
+  {
+    "sid": "s000490",
+    "text": "So one step of the algorithm, the I step find E sub b.",
+    "start": 2132520,
+    "end": 2136520,
+    "confidence": 0.9970703
+  },
+  {
+    "sid": "s000491",
+    "text": "In the ith step, the edge that connects this to the the other side of D sub b that edge output that as your MSDH moves it to the nerve.",
+    "start": 2136790,
+    "end": 2147390,
+    "confidence": 0.9711914
+  },
+  {
+    "sid": "s000492",
+    "text": "That's the I step.",
+    "start": 2147390,
+    "end": 2148430,
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000493",
+    "text": "That's all you need to do.",
+    "start": 2148430,
+    "end": 2149470,
+    "confidence": 0.99886066
+  },
+  {
+    "sid": "s000494",
+    "text": "Yes, please.",
+    "start": 2149470,
+    "end": 2150070,
+    "confidence": 0.99560547
+  },
+  {
+    "sid": "s000495",
+    "text": "So we did all these steps.",
+    "start": 2150070,
+    "end": 2151470,
+    "confidence": 0.99560547
+  },
+  {
+    "sid": "s000496",
+    "text": "Didn't we just output all the edges?",
+    "start": 2151470,
+    "end": 2153190,
+    "confidence": 0.99609375
+  },
+  {
+    "sid": "s000497",
+    "text": "No.",
+    "start": 2153590,
+    "end": 2153870,
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000498",
+    "text": "There are N square edges sometime, right?",
+    "start": 2153870,
+    "end": 2157230,
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000499",
+    "text": "You only output N minus 1 out there.",
+    "start": 2157230,
+    "end": 2159350,
+    "confidence": 0.9902344
+  },
+  {
+    "sid": "s000500",
+    "text": "It's sub.",
+    "start": 2159350,
+    "end": 2159910,
+    "confidence": 0.9667969
+  },
+  {
+    "sid": "s000501",
+    "text": "Okay, yes.",
+    "start": 2164720,
+    "end": 2165840,
+    "confidence": 0.9894206
+  },
+  {
+    "sid": "s000502",
+    "text": "Sorry.",
+    "start": 2166400,
+    "end": 2166840,
+    "confidence": 0.8541667
+  },
+  {
+    "sid": "s000503",
+    "text": "What if there was an edge that.",
+    "start": 2166840,
+    "end": 2168320,
+    "confidence": 0.9609375
+  },
+  {
+    "sid": "s000504",
+    "text": "There was a edge that was more and we didn't know because that other note was in the.",
+    "start": 2171760,
+    "end": 2180720,
+    "confidence": 0.8989258
+  },
+  {
+    "sid": "s000505",
+    "text": "You mean if there was something here, we will get to that at some.",
+    "start": 2182480,
+    "end": 2188600,
+    "confidence": 0.95654297
+  },
+  {
+    "sid": "s000506",
+    "text": "What I mean, not.",
+    "start": 2189080,
+    "end": 2190200,
+    "confidence": 0.94677734
+  },
+  {
+    "sid": "s000507",
+    "text": "We will get.",
+    "start": 2190200,
+    "end": 2190760,
+    "confidence": 0.57910156
+  },
+  {
+    "sid": "s000508",
+    "text": "The algorithm is getting snapped.",
+    "start": 2191080,
+    "end": 2192760,
+    "confidence": 0.9790039
+  },
+  {
+    "sid": "s000509",
+    "text": "Guys.",
+    "start": 2193240,
+    "end": 2193560,
+    "confidence": 0.9892578
+  },
+  {
+    "sid": "s000510",
+    "text": "If you have a question, please wait and raise your hand.",
+    "start": 2193560,
+    "end": 2195720,
+    "confidence": 0.99365234
+  },
+  {
+    "sid": "s000511",
+    "text": "Please don't distract others.",
+    "start": 2195960,
+    "end": 2197240,
+    "confidence": 0.9946289
+  },
+  {
+    "sid": "s000512",
+    "text": "So at some point this is going to go to the left.",
+    "start": 2197720,
+    "end": 2200440,
+    "confidence": 0.9667969
+  },
+  {
+    "sid": "s000513",
+    "text": "This becomes E sub min in some partition, so it will not be lost.",
+    "start": 2200840,
+    "end": 2205400,
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000514",
+    "text": "In fact, the very first one that I pick could be a very large weight H, like the nine we have there.",
+    "start": 2206120,
+    "end": 2211880,
+    "confidence": 0.9970703
+  },
+  {
+    "sid": "s000515",
+    "text": "So you are asking what about one?",
+    "start": 2212280,
+    "end": 2214750,
+    "confidence": 0.9838867
+  },
+  {
+    "sid": "s000516",
+    "text": "Why did you output nine?",
+    "start": 2215310,
+    "end": 2216750,
+    "confidence": 0.99121094
+  },
+  {
+    "sid": "s000517",
+    "text": "I will get to one when the partition becomes this.",
+    "start": 2216750,
+    "end": 2220030,
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000518",
+    "text": "So don't.",
+    "start": 2222670,
+    "end": 2223350,
+    "confidence": 0.95654297
+  },
+  {
+    "sid": "s000519",
+    "text": "Don't.",
+    "start": 2223350,
+    "end": 2223710,
+    "confidence": 0.91308594
+  },
+  {
+    "sid": "s000520",
+    "text": "I guess don't think.",
+    "start": 2223710,
+    "end": 2224750,
+    "confidence": 0.9819336
+  },
+  {
+    "sid": "s000521",
+    "text": "Did I miss any edges?",
+    "start": 2224830,
+    "end": 2226350,
+    "confidence": 0.9941406
+  },
+  {
+    "sid": "s000522",
+    "text": "Think.",
+    "start": 2226670,
+    "end": 2227070,
+    "confidence": 0.9946289
+  },
+  {
+    "sid": "s000523",
+    "text": "Any edge that I output must be part of MSD because of mst.",
+    "start": 2227230,
+    "end": 2231230,
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000524",
+    "text": "That's the complement of the way you are stating it.",
+    "start": 2231950,
+    "end": 2234590,
+    "confidence": 0.9943034
+  },
+  {
+    "sid": "s000525",
+    "text": "And the proof comes directly from that.",
+    "start": 2235230,
+    "end": 2237230,
+    "confidence": 0.95751953
+  },
+  {
+    "sid": "s000526",
+    "text": "Every output is a good output.",
+    "start": 2237230,
+    "end": 2238830,
+    "confidence": 0.9975586
+  },
+  {
+    "sid": "s000527",
+    "text": "Okay, so first I have that, then I'm gonna write.",
+    "start": 2240600,
+    "end": 2247880,
+    "confidence": 0.9845378
+  },
+  {
+    "sid": "s000528",
+    "text": "Let's say this weight is four, this weight is six.",
+    "start": 2248040,
+    "end": 2250800,
+    "confidence": 0.99576825
+  },
+  {
+    "sid": "s000529",
+    "text": "This weight is two in parentheses.",
+    "start": 2250800,
+    "end": 2254040,
+    "confidence": 0.9838867
+  },
+  {
+    "sid": "s000530",
+    "text": "I'm gonna write four, six, two, etc.",
+    "start": 2254040,
+    "end": 2258440,
+    "confidence": 0.99658203
+  },
+  {
+    "sid": "s000531",
+    "text": "And some vertices may not even be connected to the left.",
+    "start": 2259720,
+    "end": 2262560,
+    "confidence": 0.98535156
+  },
+  {
+    "sid": "s000532",
+    "text": "Might be connected here.",
+    "start": 2262560,
+    "end": 2263720,
+    "confidence": 0.9916992
+  },
+  {
+    "sid": "s000533",
+    "text": "I'm gonna say infinite.",
+    "start": 2263720,
+    "end": 2264860,
+    "confidence": 0.992513
+  },
+  {
+    "sid": "s000534",
+    "text": "So you may recall this numbering is precisely Dijkstra's numbering, with one difference.",
+    "start": 2266290,
+    "end": 2272370,
+    "confidence": 0.9667969
+  },
+  {
+    "sid": "s000535",
+    "text": "Dijkstra's numbering.",
+    "start": 2273010,
+    "end": 2274450,
+    "confidence": 0.9851074
+  },
+  {
+    "sid": "s000536",
+    "text": "This was the distance to one vertex that we call the source.",
+    "start": 2275090,
+    "end": 2279650,
+    "confidence": 0.97802734
+  },
+  {
+    "sid": "s000537",
+    "text": "The new numbering is the weight to the left to anybody on the left, any vertex.",
+    "start": 2280210,
+    "end": 2285490,
+    "confidence": 0.99658203
+  },
+  {
+    "sid": "s000538",
+    "text": "So this is one H. Dijkstra was a patch.",
+    "start": 2285970,
+    "end": 2289970,
+    "confidence": 0.9838867
+  },
+  {
+    "sid": "s000539",
+    "text": "Other than that, it's the same kind of numbering, the same kind of analysis.",
+    "start": 2290540,
+    "end": 2293980,
+    "confidence": 0.9921875
+  },
+  {
+    "sid": "s000540",
+    "text": "So what's going to happen now is this.",
+    "start": 2295180,
+    "end": 2297100,
+    "confidence": 0.98535156
+  },
+  {
+    "sid": "s000541",
+    "text": "No.",
+    "start": 2297900,
+    "end": 2298220,
+    "confidence": 0.43066406
+  },
+  {
+    "sid": "s000542",
+    "text": "Now I'm ready for details of implementation.",
+    "start": 2298220,
+    "end": 2300300,
+    "confidence": 0.56884766
+  },
+  {
+    "sid": "s000543",
+    "text": "I have an algorithm.",
+    "start": 2300300,
+    "end": 2301420,
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000544",
+    "text": "It's correct based on MSB theorem.",
+    "start": 2301420,
+    "end": 2303420,
+    "confidence": 0.9817708
+  },
+  {
+    "sid": "s000545",
+    "text": "I invested time in proving that it was well worth it because I'm reusing it over and over and I don't need to prove anything else.",
+    "start": 2303420,
+    "end": 2311580,
+    "confidence": 0.88378906
+  },
+  {
+    "sid": "s000546",
+    "text": "Okay, so I'm going to take all these numbers.",
+    "start": 2312700,
+    "end": 2315020,
+    "confidence": 0.81184894
+  },
+  {
+    "sid": "s000547",
+    "text": "I find the minimum of these numbers in how much time order?",
+    "start": 2315420,
+    "end": 2320080,
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000548",
+    "text": "N. Time initially is n minus 1, because there are n minus 1 numbers, some of them infinite, some of them other numbers.",
+    "start": 2320080,
+    "end": 2327600,
+    "confidence": 0.6899414
+  },
+  {
+    "sid": "s000549",
+    "text": "So for the I step, I find the minimum order N time.",
+    "start": 2328240,
+    "end": 2333200,
+    "confidence": 0.99560547
+  },
+  {
+    "sid": "s000550",
+    "text": "Then when this.",
+    "start": 2334480,
+    "end": 2336080,
+    "confidence": 0.9970703
+  },
+  {
+    "sid": "s000551",
+    "text": "Let's say this one was moved, so V sub 2 was moved to the left.",
+    "start": 2336080,
+    "end": 2349370,
+    "confidence": 0.99658203
+  },
+  {
+    "sid": "s000552",
+    "text": "After this step, there are connections to V sub 2.",
+    "start": 2349690,
+    "end": 2354970,
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000553",
+    "text": "I need to go and maybe update those parameters, those distances.",
+    "start": 2355130,
+    "end": 2360650,
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000554",
+    "text": "Because previously maybe the distance to this was 8.",
+    "start": 2360970,
+    "end": 2364090,
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000555",
+    "text": "Now this is 3.",
+    "start": 2364730,
+    "end": 2365850,
+    "confidence": 0.9975586
+  },
+  {
+    "sid": "s000556",
+    "text": "So I update this from 8 to 10 because of V sub 2 that I just moved to the left.",
+    "start": 2366170,
+    "end": 2372180,
+    "confidence": 0.9814453
+  },
+  {
+    "sid": "s000557",
+    "text": "And if it happens that the new distance is more than the previous one, then I don't update that.",
+    "start": 2373140,
+    "end": 2378580,
+    "confidence": 0.9682617
+  },
+  {
+    "sid": "s000558",
+    "text": "But in the worst case, I need to go to each and every one of these and update them so the update takes order n time.",
+    "start": 2378900,
+    "end": 2388180,
+    "confidence": 0.98046875
+  },
+  {
+    "sid": "s000559",
+    "text": "Because I may have to update N vertices.",
+    "start": 2388900,
+    "end": 2392260,
+    "confidence": 0.859375
+  },
+  {
+    "sid": "s000560",
+    "text": "Yes, of course.",
+    "start": 2392340,
+    "end": 2395550,
+    "confidence": 0.9733887
+  },
+  {
+    "sid": "s000561",
+    "text": "Okay, I have.",
+    "start": 2407070,
+    "end": 2408070,
+    "confidence": 0.92057294
+  },
+  {
+    "sid": "s000562",
+    "text": "Let's say V sub 1.",
+    "start": 2408070,
+    "end": 2409630,
+    "confidence": 0.9975586
+  },
+  {
+    "sid": "s000563",
+    "text": "I have V sub 2.",
+    "start": 2411230,
+    "end": 2412590,
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000564",
+    "text": "This is E. How did I pick V sub 2?",
+    "start": 2413470,
+    "end": 2418430,
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000565",
+    "text": "I go to all the vertices, look at their connection to the left.",
+    "start": 2418590,
+    "end": 2422430,
+    "confidence": 1.0
+  },
+  {
+    "sid": "s000566",
+    "text": "If they don't have a connection, their distance is infinity.",
+    "start": 2422590,
+    "end": 2425150,
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000567",
+    "text": "If they have a connection to the left.",
+    "start": 2425790,
+    "end": 2427510,
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000568",
+    "text": "Let's say this is 6.",
+    "start": 2427510,
+    "end": 2428750,
+    "confidence": 0.96191406
+  },
+  {
+    "sid": "s000569",
+    "text": "This distance becomes 6 and probably this is 4.",
+    "start": 2429070,
+    "end": 2433296,
+    "confidence": 0.82421875
+  },
+  {
+    "sid": "s000570",
+    "text": "4, that's y equals E sub M was the minimum possible.",
+    "start": 2433444,
+    "end": 2436830,
+    "confidence": 0.99512
+  },
+  {
+    "sid": "s000571",
+    "text": "So that's for finding mean after that, right?",
+    "start": 2437310,
+    "end": 2440750,
+    "confidence": 0.5239258
+  },
+  {
+    "sid": "s000572",
+    "text": "Immediately after that I move the algorithm said move V sub 2 to the left.",
+    "start": 2440750,
+    "end": 2446200,
+    "confidence": 0.9975586
+  },
+  {
+    "sid": "s000573",
+    "text": "I still have all previous value.",
+    "start": 2447720,
+    "end": 2449480,
+    "confidence": 0.9663086
+  },
+  {
+    "sid": "s000574",
+    "text": "Let's say this is seven, six.",
+    "start": 2449480,
+    "end": 2453200,
+    "confidence": 0.9895833
+  },
+  {
+    "sid": "s000575",
+    "text": "Actually, let's take the one that I had before six.",
+    "start": 2453200,
+    "end": 2455640,
+    "confidence": 0.97509766
+  },
+  {
+    "sid": "s000576",
+    "text": "Now that six may be connected to here with a smaller weight.",
+    "start": 2456200,
+    "end": 2460120,
+    "confidence": 0.9760742
+  },
+  {
+    "sid": "s000577",
+    "text": "Let's say two.",
+    "start": 2460280,
+    "end": 2461160,
+    "confidence": 0.9944661
+  },
+  {
+    "sid": "s000578",
+    "text": "So I need to go to this vertex and I say now you are closer to the left than six.",
+    "start": 2461720,
+    "end": 2466520,
+    "confidence": 0.9970703
+  },
+  {
+    "sid": "s000579",
+    "text": "So let me update you to two.",
+    "start": 2466840,
+    "end": 2468600,
+    "confidence": 0.99560547
+  },
+  {
+    "sid": "s000580",
+    "text": "I may have to do that for every vertex, worst case.",
+    "start": 2468920,
+    "end": 2472210,
+    "confidence": 0.9975586
+  },
+  {
+    "sid": "s000581",
+    "text": "So that's what I was saying.",
+    "start": 2473010,
+    "end": 2474290,
+    "confidence": 0.78564453
+  },
+  {
+    "sid": "s000582",
+    "text": "So at each stage I find a minimum order and time.",
+    "start": 2476130,
+    "end": 2479730,
+    "confidence": 0.9838867
+  },
+  {
+    "sid": "s000583",
+    "text": "If I have all these values in an array, I scan the array, find the minimum in order and time.",
+    "start": 2479730,
+    "end": 2485570,
+    "confidence": 0.57373047
+  },
+  {
+    "sid": "s000584",
+    "text": "And I may have to update every one of these vertices another order in time.",
+    "start": 2485730,
+    "end": 2491490,
+    "confidence": 0.9951172
+  },
+  {
+    "sid": "s000585",
+    "text": "How many times do I need to.",
+    "start": 2491970,
+    "end": 2493450,
+    "confidence": 0.99365234
+  },
+  {
+    "sid": "s000586",
+    "text": "How many stages do I have?",
+    "start": 2493450,
+    "end": 2495010,
+    "confidence": 0.99609375
+  },
+  {
+    "sid": "s000587",
+    "text": "There are n minus one stage.",
+    "start": 2495890,
+    "end": 2497570,
+    "confidence": 0.9916992
+  },
+  {
+    "sid": "s000588",
+    "text": "Stages.",
+    "start": 2497640,
+    "end": 2497960,
+    "confidence": 0.765625
+  },
+  {
+    "sid": "s000589",
+    "text": "Stage one, I move one to the left.",
+    "start": 2498680,
+    "end": 2500680,
+    "confidence": 0.99731445
+  },
+  {
+    "sid": "s000590",
+    "text": "Stage two, I move the second one to the left.",
+    "start": 2501000,
+    "end": 2503320,
+    "confidence": 0.9970703
+  },
+  {
+    "sid": "s000591",
+    "text": "Last stage, I move the last one to the left.",
+    "start": 2503640,
+    "end": 2506040,
+    "confidence": 0.99121094
+  },
+  {
+    "sid": "s000592",
+    "text": "So there are n vertices.",
+    "start": 2506760,
+    "end": 2507960,
+    "confidence": 0.9868164
+  },
+  {
+    "sid": "s000593",
+    "text": "The initial stage one was already in the left side.",
+    "start": 2508040,
+    "end": 2511400,
+    "confidence": 0.9970703
+  },
+  {
+    "sid": "s000594",
+    "text": "Therefore I have n minus one stages.",
+    "start": 2511480,
+    "end": 2513880,
+    "confidence": 0.99975586
+  },
+  {
+    "sid": "s000595",
+    "text": "So the run time of the algorithm is order N squared.",
+    "start": 2514760,
+    "end": 2517880,
+    "confidence": 0.98291016
+  },
+  {
+    "sid": "s000596",
+    "text": "Yeah.",
+    "start": 2520280,
+    "end": 2520760,
+    "confidence": 0.84000653
+  },
+  {
+    "sid": "s000597",
+    "text": "So if V1 and V2 Gold had.",
+    "start": 2520840,
+    "end": 2523080,
+    "confidence": 0.97753906
+  },
+  {
+    "sid": "s000598",
+    "text": "Exactly, exactly.",
+    "start": 2527980,
+    "end": 2529260,
+    "confidence": 0.9536133
+  },
+  {
+    "sid": "s000599",
+    "text": "And in general there is a ton of vertices here.",
+    "start": 2529420,
+    "end": 2531900,
+    "confidence": 0.98876953
+  },
+  {
+    "sid": "s000600",
+    "text": "They have all sorts of.",
+    "start": 2531980,
+    "end": 2533100,
+    "confidence": 0.9902344
+  },
+  {
+    "sid": "s000601",
+    "text": "To the right, I need to update it to keep it meet the current minimum because there might be an edge that was hidden on.",
+    "start": 2533340,
+    "end": 2540500,
+    "confidence": 0.67333984
+  },
+  {
+    "sid": "s000602",
+    "text": "That's actually the edge you were talking about.",
+    "start": 2540500,
+    "end": 2542220,
+    "confidence": 0.9970703
+  },
+  {
+    "sid": "s000603",
+    "text": "A Few minutes ago he said, what happened to this edge?",
+    "start": 2542220,
+    "end": 2544940,
+    "confidence": 0.9970703
+  },
+  {
+    "sid": "s000604",
+    "text": "I will get to that and I will update this value to respect.",
+    "start": 2545180,
+    "end": 2548220,
+    "confidence": 0.9970703
+  },
+  {
+    "sid": "s000605",
+    "text": "If this is one, this was infinity.",
+    "start": 2548460,
+    "end": 2550990,
+    "confidence": 0.91796875
+  },
+  {
+    "sid": "s000606",
+    "text": "As soon as I move this to the left, this becomes one.",
+    "start": 2551230,
+    "end": 2554110,
+    "confidence": 0.99609375
+  },
+  {
+    "sid": "s000607",
+    "text": "So I pick up one in the next phase, it will not be forgotten.",
+    "start": 2554110,
+    "end": 2558990,
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000608",
+    "text": "Yes, please.",
+    "start": 2559310,
+    "end": 2559870,
+    "confidence": 0.8757324
+  },
+  {
+    "sid": "s000609",
+    "text": "Because I want to find a minimum every time.",
+    "start": 2562510,
+    "end": 2564910,
+    "confidence": 0.9921875
+  },
+  {
+    "sid": "s000610",
+    "text": "How do I pick et?",
+    "start": 2572030,
+    "end": 2573390,
+    "confidence": 0.89160156
+  },
+  {
+    "sid": "s000611",
+    "text": "Why can't you?",
+    "start": 2573950,
+    "end": 2574610,
+    "confidence": 0.58984375
+  },
+  {
+    "sid": "s000612",
+    "text": "How do I pick Emine?",
+    "start": 2575720,
+    "end": 2576920,
+    "confidence": 0.9838867
+  },
+  {
+    "sid": "s000613",
+    "text": "How do I know the weight of Emine?",
+    "start": 2579800,
+    "end": 2581720,
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000614",
+    "text": "By updating the vertex on the right.",
+    "start": 2584120,
+    "end": 2587240,
+    "confidence": 0.99072266
+  },
+  {
+    "sid": "s000615",
+    "text": "That's what gives me E mean.",
+    "start": 2587240,
+    "end": 2588600,
+    "confidence": 0.9947917
+  },
+  {
+    "sid": "s000616",
+    "text": "If I don't know this value is 6, this E min doesn't have a weight.",
+    "start": 2588840,
+    "end": 2593000,
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000617",
+    "text": "The weight of this E min is because of that.",
+    "start": 2593720,
+    "end": 2596280,
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000618",
+    "text": "And the reason I know that is because I've been updating it all the time.",
+    "start": 2596680,
+    "end": 2599880,
+    "confidence": 0.97998047
+  },
+  {
+    "sid": "s000619",
+    "text": "Follow me.",
+    "start": 2601170,
+    "end": 2601730,
+    "confidence": 0.9482422
+  },
+  {
+    "sid": "s000620",
+    "text": "Or maybe you say don't pre compute every time.",
+    "start": 2602450,
+    "end": 2605170,
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000621",
+    "text": "I'm going to go and redo all the calculation of all vertices in the graph.",
+    "start": 2605170,
+    "end": 2609250,
+    "confidence": 0.9508464
+  },
+  {
+    "sid": "s000622",
+    "text": "In that case, you have N square edges between left and right.",
+    "start": 2609250,
+    "end": 2612690,
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000623",
+    "text": "So at each stage you need to spend N square time, not n. If you don't keep updating.",
+    "start": 2612770,
+    "end": 2617090,
+    "confidence": 0.5888672
+  },
+  {
+    "sid": "s000624",
+    "text": "So the weights are not stored like in the edges, they are stored in the edges.",
+    "start": 2617330,
+    "end": 2622450,
+    "confidence": 0.9736328
+  },
+  {
+    "sid": "s000625",
+    "text": "So option one, you go to all these hedges, pick the ening right.",
+    "start": 2622530,
+    "end": 2626530,
+    "confidence": 0.9663086
+  },
+  {
+    "sid": "s000626",
+    "text": "How many edges do you have from left to right could be N squared.",
+    "start": 2626810,
+    "end": 2631050,
+    "confidence": 0.9916992
+  },
+  {
+    "sid": "s000627",
+    "text": "So at each stage you have to go through N square edges to keep that algorithm works.",
+    "start": 2631130,
+    "end": 2636970,
+    "confidence": 0.9916992
+  },
+  {
+    "sid": "s000628",
+    "text": "Problem.",
+    "start": 2637130,
+    "end": 2637530,
+    "confidence": 0.8671875
+  },
+  {
+    "sid": "s000629",
+    "text": "Each stage is N squared.",
+    "start": 2637930,
+    "end": 2639370,
+    "confidence": 0.96484375
+  },
+  {
+    "sid": "s000630",
+    "text": "There are n stages, so it's an N cubed algorithm.",
+    "start": 2639370,
+    "end": 2642170,
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000631",
+    "text": "Whereas if you keep updating so algorithmically we are on the same page detailed implementation.",
+    "start": 2642569,
+    "end": 2647690,
+    "confidence": 0.9929199
+  },
+  {
+    "sid": "s000632",
+    "text": "I'm saying if you keep updating, the whole thing is going to take N square time.",
+    "start": 2647690,
+    "end": 2651610,
+    "confidence": 0.98258466
+  },
+  {
+    "sid": "s000633",
+    "text": "Yours will take nq time.",
+    "start": 2651610,
+    "end": 2653100,
+    "confidence": 0.99560547
+  },
+  {
+    "sid": "s000634",
+    "text": "That's the only difference.",
+    "start": 2653100,
+    "end": 2654100,
+    "confidence": 0.9996745
+  },
+  {
+    "sid": "s000635",
+    "text": "But.",
+    "start": 2654500,
+    "end": 2654820,
+    "confidence": 0.7055664
+  },
+  {
+    "sid": "s000636",
+    "text": "But conceptually, yeah, if you somehow magically new image, don't store anything, don't update anything.",
+    "start": 2654820,
+    "end": 2660740,
+    "confidence": 1.0
+  },
+  {
+    "sid": "s000637",
+    "text": "But unfortunately we do yesterday and find the manual keys and update.",
+    "start": 2660900,
+    "end": 2668180,
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000638",
+    "text": "So why do I need to go through this list?",
+    "start": 2670900,
+    "end": 2675140,
+    "confidence": 0.99658203
+  },
+  {
+    "sid": "s000639",
+    "text": "We did that with Dijkstra initially, N squared.",
+    "start": 2675140,
+    "end": 2677980,
+    "confidence": 0.97998047
+  },
+  {
+    "sid": "s000640",
+    "text": "But we figured when I move something, there's probably not going to be N edges.",
+    "start": 2677980,
+    "end": 2682950,
+    "confidence": 0.89404297
+  },
+  {
+    "sid": "s000641",
+    "text": "N things that need to get updated is less is E sub 1 and E sub 2.",
+    "start": 2683110,
+    "end": 2687910,
+    "confidence": 0.9760742
+  },
+  {
+    "sid": "s000642",
+    "text": "So I'm going to follow 100% the heap structure of last time and that algorithm will give me E log E the exact same implementation I learned as last time.",
+    "start": 2687910,
+    "end": 2699110,
+    "confidence": 0.99316406
+  },
+  {
+    "sid": "s000643",
+    "text": "That's why I insisted last time.",
+    "start": 2699430,
+    "end": 2701110,
+    "confidence": 0.9983724
+  },
+  {
+    "sid": "s000644",
+    "text": "Please make sure you are comfortable, because if you are comfortable with that whole heap structure, you just duplicate it here, you're done.",
+    "start": 2701110,
+    "end": 2707650,
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000645",
+    "text": "And I didn't do anything.",
+    "start": 2708210,
+    "end": 2709290,
+    "confidence": 0.8881836
+  },
+  {
+    "sid": "s000646",
+    "text": "I Spent based on your suggestion.",
+    "start": 2709290,
+    "end": 2711330,
+    "confidence": 0.81689453
+  },
+  {
+    "sid": "s000647",
+    "text": "Took me 10 seconds to write this because I already knew it from last lecture.",
+    "start": 2711330,
+    "end": 2714770,
+    "confidence": 0.9897461
+  },
+  {
+    "sid": "s000648",
+    "text": "Please.",
+    "start": 2715010,
+    "end": 2715410,
+    "confidence": 0.9614258
+  },
+  {
+    "sid": "s000649",
+    "text": "Isn't it E logg because we go max like n minus 1 for same reason as last time.",
+    "start": 2715970,
+    "end": 2721050,
+    "confidence": 0.9674072
+  },
+  {
+    "sid": "s000650",
+    "text": "It's E log E. Because for every edge I need to do an update for every edge, not for every vertex.",
+    "start": 2721050,
+    "end": 2727810,
+    "confidence": 0.9895833
+  },
+  {
+    "sid": "s000651",
+    "text": "A vertex may get updated many, many times.",
+    "start": 2727970,
+    "end": 2730850,
+    "confidence": 0.98828125
+  },
+  {
+    "sid": "s000652",
+    "text": "If a vertex has two 20 edges connected to it, it gets updated 20 times.",
+    "start": 2731170,
+    "end": 2736050,
+    "confidence": 0.9604492
+  },
+  {
+    "sid": "s000653",
+    "text": "I, e e sub one time as we called it last time.",
+    "start": 2737010,
+    "end": 2740010,
+    "confidence": 0.56640625
+  },
+  {
+    "sid": "s000654",
+    "text": "Then e sub two, then e sub three sum of the e I's is going to be E. That's where we get this E here.",
+    "start": 2740010,
+    "end": 2746850,
+    "confidence": 0.96777344
+  },
+  {
+    "sid": "s000655",
+    "text": "Since many of you asked me last time after the lecture, should it be E log e or E log n?",
+    "start": 2749010,
+    "end": 2755610,
+    "confidence": 0.99072266
+  },
+  {
+    "sid": "s000656",
+    "text": "Which one is correct?",
+    "start": 2755610,
+    "end": 2756610,
+    "confidence": 0.9785156
+  },
+  {
+    "sid": "s000657",
+    "text": "Whichever looks pretty is correct.",
+    "start": 2758620,
+    "end": 2761380,
+    "confidence": 0.9680176
+  },
+  {
+    "sid": "s000658",
+    "text": "Because log e and log n are the same order, E can at most be N squared.",
+    "start": 2761380,
+    "end": 2767260,
+    "confidence": 0.99658203
+  },
+  {
+    "sid": "s000659",
+    "text": "Log of n squared is 2 log n. Therefore same order.",
+    "start": 2767500,
+    "end": 2771820,
+    "confidence": 0.9970703
+  },
+  {
+    "sid": "s000660",
+    "text": "So which one is correct?",
+    "start": 2771900,
+    "end": 2773300,
+    "confidence": 0.9770508
+  },
+  {
+    "sid": "s000661",
+    "text": "The one you like more.",
+    "start": 2773300,
+    "end": 2774220,
+    "confidence": 0.9916992
+  },
+  {
+    "sid": "s000662",
+    "text": "If you don't like any of them, just don't write anything.",
+    "start": 2776060,
+    "end": 2778380,
+    "confidence": 0.9926758
+  },
+  {
+    "sid": "s000663",
+    "text": "So, game plan.",
+    "start": 2782380,
+    "end": 2783260,
+    "confidence": 0.97021484
+  },
+  {
+    "sid": "s000664",
+    "text": "Print algorithm.",
+    "start": 2783750,
+    "end": 2784430,
+    "confidence": 0.7915039
+  },
+  {
+    "sid": "s000665",
+    "text": "We added one edge at a time to the msd.",
+    "start": 2784430,
+    "end": 2787910,
+    "confidence": 0.9868164
+  },
+  {
+    "sid": "s000666",
+    "text": "We make sure the edges we are adding has not been or your outputting was not output before by moving this to the left, by making sure the aiming that I just output not is entirely on the left side.",
+    "start": 2787990,
+    "end": 2801750,
+    "confidence": 0.9916992
+  },
+  {
+    "sid": "s000667",
+    "text": "So I will not duplicate that.",
+    "start": 2801910,
+    "end": 2803430,
+    "confidence": 0.9824219
+  },
+  {
+    "sid": "s000668",
+    "text": "And therefore after n minus one stage, the algorithm will stop and N minus one edges are on, which is exactly what we have in nst.",
+    "start": 2804630,
+    "end": 2812580,
+    "confidence": 0.95703125
+  },
+  {
+    "sid": "s000669",
+    "text": "Okay, so this is called Pring's algorithm.",
+    "start": 2816740,
+    "end": 2819940,
+    "confidence": 0.91585284
+  },
+  {
+    "sid": "s000670",
+    "text": "Fairly straightforward if we know the MST theorem.",
+    "start": 2819940,
+    "end": 2823460,
+    "confidence": 0.9951172
+  },
+  {
+    "sid": "s000671",
+    "text": "If you don't know MST theorem, this is a mess.",
+    "start": 2823700,
+    "end": 2826340,
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000672",
+    "text": "How do I know that?",
+    "start": 2827140,
+    "end": 2828260,
+    "confidence": 0.99658203
+  },
+  {
+    "sid": "s000673",
+    "text": "Kind of what you were asking.",
+    "start": 2829060,
+    "end": 2830580,
+    "confidence": 0.98828125
+  },
+  {
+    "sid": "s000674",
+    "text": "How do I know that this shouldn't be part of the mst?",
+    "start": 2830580,
+    "end": 2833380,
+    "confidence": 0.9526367
+  },
+  {
+    "sid": "s000675",
+    "text": "MST theorem says.",
+    "start": 2833860,
+    "end": 2835300,
+    "confidence": 0.82910156
+  },
+  {
+    "sid": "s000676",
+    "text": "Don't panic, Relax, relax.",
+    "start": 2835540,
+    "end": 2836840,
+    "confidence": 0.99641925
+  },
+  {
+    "sid": "s000677",
+    "text": "If this has to be in the msp, we will get to it later.",
+    "start": 2837470,
+    "end": 2840910,
+    "confidence": 0.98291016
+  },
+  {
+    "sid": "s000678",
+    "text": "So let's just focus on the current piece of method.",
+    "start": 2842030,
+    "end": 2844510,
+    "confidence": 0.98828125
+  },
+  {
+    "sid": "s000679",
+    "text": "That's what MSD theorem says.",
+    "start": 2844510,
+    "end": 2846110,
+    "confidence": 0.9889323
+  },
+  {
+    "sid": "s000680",
+    "text": "Focus on current by partition.",
+    "start": 2846350,
+    "end": 2848430,
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000681",
+    "text": "Yes, please.",
+    "start": 2848990,
+    "end": 2849710,
+    "confidence": 0.986084
+  },
+  {
+    "sid": "s000682",
+    "text": "Yes.",
+    "start": 2852110,
+    "end": 2852590,
+    "confidence": 0.8959961
+  },
+  {
+    "sid": "s000683",
+    "text": "So before, when V sub 2 was on the right, the distance from V sub 3 to the left side was 6 because of that edge, right?",
+    "start": 2852749,
+    "end": 2867960,
+    "confidence": 0.9316406
+  },
+  {
+    "sid": "s000684",
+    "text": "I just move.",
+    "start": 2868120,
+    "end": 2869320,
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000685",
+    "text": "Because of this image, I moved V sub 2 to the left.",
+    "start": 2869560,
+    "end": 2872760,
+    "confidence": 0.9975586
+  },
+  {
+    "sid": "s000686",
+    "text": "So now I look at this and I say what is your distance to the left?",
+    "start": 2873560,
+    "end": 2876920,
+    "confidence": 0.9975586
+  },
+  {
+    "sid": "s000687",
+    "text": "I know before it was six.",
+    "start": 2876920,
+    "end": 2878520,
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000688",
+    "text": "What is it now?",
+    "start": 2878679,
+    "end": 2879640,
+    "confidence": 0.97558594
+  },
+  {
+    "sid": "s000689",
+    "text": "I look at the one that I just moved to the left.",
+    "start": 2879720,
+    "end": 2882280,
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000690",
+    "text": "I look at this number, compare it with six.",
+    "start": 2882440,
+    "end": 2885240,
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000691",
+    "text": "If it's more than six, I Don't do any updating, doesn't do.",
+    "start": 2885400,
+    "end": 2888360,
+    "confidence": 0.92626953
+  },
+  {
+    "sid": "s000692",
+    "text": "I have to do the check anyway.",
+    "start": 2888360,
+    "end": 2890030,
+    "confidence": 0.99365234
+  },
+  {
+    "sid": "s000693",
+    "text": "But I will not change this value.",
+    "start": 2890030,
+    "end": 2891950,
+    "confidence": 0.7548828
+  },
+  {
+    "sid": "s000694",
+    "text": "Like if this was 12.",
+    "start": 2892030,
+    "end": 2893390,
+    "confidence": 0.9790039
+  },
+  {
+    "sid": "s000695",
+    "text": "Now if this is less than that, I say oh, now your distance to the left is not going to be six anymore, it's going to be two.",
+    "start": 2894430,
+    "end": 2900550,
+    "confidence": 0.99072266
+  },
+  {
+    "sid": "s000696",
+    "text": "So I'll update you to two.",
+    "start": 2900550,
+    "end": 2901950,
+    "confidence": 0.98583984
+  },
+  {
+    "sid": "s000697",
+    "text": "What if you have another edge like this to the right side?",
+    "start": 2902270,
+    "end": 2908670,
+    "confidence": 0.5673828
+  },
+  {
+    "sid": "s000698",
+    "text": "Okay.",
+    "start": 2908910,
+    "end": 2909350,
+    "confidence": 0.96744794
+  },
+  {
+    "sid": "s000699",
+    "text": "And what is the vertex on it?",
+    "start": 2909350,
+    "end": 2911110,
+    "confidence": 0.99658203
+  },
+  {
+    "sid": "s000700",
+    "text": "What is the weight on it?",
+    "start": 2911110,
+    "end": 2912310,
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000701",
+    "text": "One.",
+    "start": 2912310,
+    "end": 2912670,
+    "confidence": 0.95410156
+  },
+  {
+    "sid": "s000702",
+    "text": "One.",
+    "start": 2912910,
+    "end": 2913310,
+    "confidence": 1.0
+  },
+  {
+    "sid": "s000703",
+    "text": "So I put this as one.",
+    "start": 2913550,
+    "end": 2914910,
+    "confidence": 0.9975586
+  },
+  {
+    "sid": "s000704",
+    "text": "So what's the problem now?",
+    "start": 2915990,
+    "end": 2917110,
+    "confidence": 0.98583984
+  },
+  {
+    "sid": "s000705",
+    "text": "When I was looking at 2 and 1, I should have picked 1 e sub min so this would not have moved before.",
+    "start": 2918870,
+    "end": 2925590,
+    "confidence": 0.99365234
+  },
+  {
+    "sid": "s000706",
+    "text": "But if before we sub to here 2 was the minimum next phase, this is going to be the ev.",
+    "start": 2925910,
+    "end": 2932790,
+    "confidence": 0.9536133
+  },
+  {
+    "sid": "s000707",
+    "text": "So this is going to be the solution next phase.",
+    "start": 2934630,
+    "end": 2937190,
+    "confidence": 0.99316406
+  },
+  {
+    "sid": "s000708",
+    "text": "So what I'm saying is, don't you still have to consider all the neighbors?",
+    "start": 2937350,
+    "end": 2940310,
+    "confidence": 0.8251953
+  },
+  {
+    "sid": "s000709",
+    "text": "All the neighbors of this?",
+    "start": 2942560,
+    "end": 2943680,
+    "confidence": 0.9902344
+  },
+  {
+    "sid": "s000710",
+    "text": "Yes, that's why I update all of them.",
+    "start": 2944080,
+    "end": 2946080,
+    "confidence": 0.9951172
+  },
+  {
+    "sid": "s000711",
+    "text": "That's why I have to spend order and time to update them.",
+    "start": 2946080,
+    "end": 2948560,
+    "confidence": 1.0
+  },
+  {
+    "sid": "s000712",
+    "text": "All the neighbors, all the neighbors are less than N. But I'm saying worst case, even if I have to update N neighbors that's older than.",
+    "start": 2948720,
+    "end": 2955200,
+    "confidence": 0.9951172
+  },
+  {
+    "sid": "s000713",
+    "text": "Fine, I'm willing to pay for that.",
+    "start": 2955200,
+    "end": 2956879,
+    "confidence": 0.92407227
+  },
+  {
+    "sid": "s000714",
+    "text": "Yes, please.",
+    "start": 2957600,
+    "end": 2958320,
+    "confidence": 0.99560547
+  },
+  {
+    "sid": "s000715",
+    "text": "Isn't this just like a modified extras where instead of calculating the distance from the source of every iteration, you calculate the distance from the entire like.",
+    "start": 2958320,
+    "end": 2965760,
+    "confidence": 0.96313477
+  },
+  {
+    "sid": "s000716",
+    "text": "Yes, yes.",
+    "start": 2966090,
+    "end": 2967130,
+    "confidence": 0.9719238
+  },
+  {
+    "sid": "s000717",
+    "text": "And that's why I presented Dijkstra before this.",
+    "start": 2967690,
+    "end": 2970090,
+    "confidence": 0.53125
+  },
+  {
+    "sid": "s000718",
+    "text": "You've seen Dijkstra.",
+    "start": 2970090,
+    "end": 2971170,
+    "confidence": 0.8334961
+  },
+  {
+    "sid": "s000719",
+    "text": "This is Dijkstra's idea of processing plus MSD theorem is really print out.",
+    "start": 2971170,
+    "end": 2977050,
+    "confidence": 0.9902344
+  },
+  {
+    "sid": "s000720",
+    "text": "Yes please.",
+    "start": 2977930,
+    "end": 2978570,
+    "confidence": 0.99731445
+  },
+  {
+    "sid": "s000721",
+    "text": "The same way you use the heat to keep track of the edges mins and updating them.",
+    "start": 2978890,
+    "end": 2983490,
+    "confidence": 0.9658203
+  },
+  {
+    "sid": "s000722",
+    "text": "And you also do that for the node for the nodes.",
+    "start": 2983490,
+    "end": 2985810,
+    "confidence": 0.7060547
+  },
+  {
+    "sid": "s000723",
+    "text": "And then that way you just get a whole n log entry.",
+    "start": 2985810,
+    "end": 2987930,
+    "confidence": 0.9863281
+  },
+  {
+    "sid": "s000724",
+    "text": "Because for every node on set, for every edge to just find C and to but every edge will change the value of the node.",
+    "start": 2988090,
+    "end": 2995850,
+    "confidence": 0.8461914
+  },
+  {
+    "sid": "s000725",
+    "text": "So I have to do an insertion in the heap.",
+    "start": 2996170,
+    "end": 2998490,
+    "confidence": 0.9267578
+  },
+  {
+    "sid": "s000726",
+    "text": "For every edge, I have to insert the node per edge.",
+    "start": 2998490,
+    "end": 3001610,
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000727",
+    "text": "And a node may have to be updated many many times in the algorithm.",
+    "start": 3001850,
+    "end": 3006330,
+    "confidence": 0.96435547
+  },
+  {
+    "sid": "s000728",
+    "text": "Well, if you keep track of the mean of that node, let's say the mean of that node is going to come from the edges.",
+    "start": 3007210,
+    "end": 3013610,
+    "confidence": 0.8959961
+  },
+  {
+    "sid": "s000729",
+    "text": "So every time I change an edge I have to change the value.",
+    "start": 3013930,
+    "end": 3016970,
+    "confidence": 0.90185547
+  },
+  {
+    "sid": "s000730",
+    "text": "I have to insert a brand new value.",
+    "start": 3019360,
+    "end": 3021000,
+    "confidence": 0.9736328
+  },
+  {
+    "sid": "s000731",
+    "text": "Yes please.",
+    "start": 3021000,
+    "end": 3021600,
+    "confidence": 0.9526367
+  },
+  {
+    "sid": "s000732",
+    "text": "So I said for not trust me, any insertion and any heapify in a heap is log of the size of the heap, log e or log N. Okay, I haven't shown.",
+    "start": 3027280,
+    "end": 3038200,
+    "confidence": 0.99365234
+  },
+  {
+    "sid": "s000733",
+    "text": "I kind of Suggested on why that's the case, but I haven't proved it yet.",
+    "start": 3038200,
+    "end": 3042000,
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000734",
+    "text": "And we will prove it, but for now it kind of makes sense.",
+    "start": 3042000,
+    "end": 3045920,
+    "confidence": 0.9145508
+  },
+  {
+    "sid": "s000735",
+    "text": "It's a balance tree.",
+    "start": 3045920,
+    "end": 3047040,
+    "confidence": 0.9711914
+  },
+  {
+    "sid": "s000736",
+    "text": "The depth of the tree is log n because it's a balanced tree and therefore probably any operation up and down takes log n. Those were the intuition from last time.",
+    "start": 3047440,
+    "end": 3056560,
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000737",
+    "text": "Proof.",
+    "start": 3056640,
+    "end": 3057040,
+    "confidence": 0.89160156
+  },
+  {
+    "sid": "s000738",
+    "text": "No, we haven't done it.",
+    "start": 3057040,
+    "end": 3058080,
+    "confidence": 0.9916992
+  },
+  {
+    "sid": "s000739",
+    "text": "Okay, so pre examples.",
+    "start": 3060480,
+    "end": 3062880,
+    "confidence": 0.8666992
+  },
+  {
+    "sid": "s000740",
+    "text": "Prig is a vertex centric algorithm.",
+    "start": 3073130,
+    "end": 3076170,
+    "confidence": 0.41992188
+  },
+  {
+    "sid": "s000741",
+    "text": "It deals with one vertex at a time.",
+    "start": 3076570,
+    "end": 3078570,
+    "confidence": 0.9375
+  },
+  {
+    "sid": "s000742",
+    "text": "It moves one vertex to the left, and the vertex that you move from right to left is based on an edge.",
+    "start": 3078570,
+    "end": 3085850,
+    "confidence": 0.99121094
+  },
+  {
+    "sid": "s000743",
+    "text": "Therefore we ought to do that.",
+    "start": 3085850,
+    "end": 3087010,
+    "confidence": 0.9970703
+  },
+  {
+    "sid": "s000744",
+    "text": "But we deal with vertices as our basic unit of operation.",
+    "start": 3087010,
+    "end": 3090890,
+    "confidence": 0.9453125
+  },
+  {
+    "sid": "s000745",
+    "text": "There is another algorithm by Threshold that says I don't want to deal with vertices, I want to deal with edges.",
+    "start": 3091290,
+    "end": 3101380,
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000746",
+    "text": "Which edge should be in the solution?",
+    "start": 3102180,
+    "end": 3103940,
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000747",
+    "text": "Probably a smaller weight edge, but MSD minimum is 93 are a bunch of edges that have a small weight.",
+    "start": 3104180,
+    "end": 3111740,
+    "confidence": 0.9090169
+  },
+  {
+    "sid": "s000748",
+    "text": "Generally speaking, it's not general unless you have to like the nine that we have down here.",
+    "start": 3111740,
+    "end": 3118340,
+    "confidence": 0.9724121
+  },
+  {
+    "sid": "s000749",
+    "text": "Generally we don't want large.",
+    "start": 3118580,
+    "end": 3119800,
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000750",
+    "text": "Crossbow recognizes that and says, okay, let's sort the edges.",
+    "start": 3121630,
+    "end": 3126510,
+    "confidence": 0.6884155
+  },
+  {
+    "sid": "s000751",
+    "text": "Let me use n Age 1, Age 2, Age E is the total number of agents.",
+    "start": 3133230,
+    "end": 3141710,
+    "confidence": 0.7241211
+  },
+  {
+    "sid": "s000752",
+    "text": "It says sort them according to their weight.",
+    "start": 3141790,
+    "end": 3144590,
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000753",
+    "text": "Okay, Very first step, sorting.",
+    "start": 3148360,
+    "end": 3151080,
+    "confidence": 0.87646484
+  },
+  {
+    "sid": "s000754",
+    "text": "And I said again, take my word for it, we're going to study this soon.",
+    "start": 3151240,
+    "end": 3154440,
+    "confidence": 0.53125
+  },
+  {
+    "sid": "s000755",
+    "text": "But sorting E things is going to take E log e time.",
+    "start": 3154520,
+    "end": 3157960,
+    "confidence": 0.9399414
+  },
+  {
+    "sid": "s000756",
+    "text": "Sorting N numbers is going to take N log n time.",
+    "start": 3158760,
+    "end": 3161480,
+    "confidence": 0.8435872
+  },
+  {
+    "sid": "s000757",
+    "text": "And we haven't proved that yet.",
+    "start": 3162680,
+    "end": 3164080,
+    "confidence": 0.99072266
+  },
+  {
+    "sid": "s000758",
+    "text": "We will when we study marriages.",
+    "start": 3164080,
+    "end": 3165800,
+    "confidence": 0.9926758
+  },
+  {
+    "sid": "s000759",
+    "text": "So we can have.",
+    "start": 3165800,
+    "end": 3168040,
+    "confidence": 0.8745117
+  },
+  {
+    "sid": "s000760",
+    "text": "So first is to look at M1 because it's an edge centric approach.",
+    "start": 3169640,
+    "end": 3178410,
+    "confidence": 0.67626953
+  },
+  {
+    "sid": "s000761",
+    "text": "Where are all the other vertices?",
+    "start": 3178410,
+    "end": 3180050,
+    "confidence": 0.9472656
+  },
+  {
+    "sid": "s000762",
+    "text": "All over the place.",
+    "start": 3180290,
+    "end": 3181250,
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000763",
+    "text": "Right.",
+    "start": 3184370,
+    "end": 3184770,
+    "confidence": 0.8964844
+  },
+  {
+    "sid": "s000764",
+    "text": "So there's going to be a ton of other edges.",
+    "start": 3185890,
+    "end": 3188570,
+    "confidence": 0.9921875
+  },
+  {
+    "sid": "s000765",
+    "text": "M2, M3, M sub E all over here.",
+    "start": 3188570,
+    "end": 3192770,
+    "confidence": 0.97498
+  },
+  {
+    "sid": "s000766",
+    "text": "I'm not showing them.",
+    "start": 3192770,
+    "end": 3193810,
+    "confidence": 0.99641925
+  },
+  {
+    "sid": "s000767",
+    "text": "They are their daisies.",
+    "start": 3194370,
+    "end": 3195730,
+    "confidence": 0.8989258
+  },
+  {
+    "sid": "s000768",
+    "text": "I just want to focus on this smaller case.",
+    "start": 3197420,
+    "end": 3199580,
+    "confidence": 0.97021484
+  },
+  {
+    "sid": "s000769",
+    "text": "What are the chances of M sub 1 to be in the NST?",
+    "start": 3200540,
+    "end": 3206874,
+    "confidence": 1.0
+  },
+  {
+    "sid": "s000770",
+    "text": "100% I agree with the first part.",
+    "start": 3207526,
+    "end": 3216740,
+    "confidence": 0.82288
+  },
+  {
+    "sid": "s000771",
+    "text": "100%.",
+    "start": 3216740,
+    "end": 3217380,
+    "confidence": 0.75928
+  },
+  {
+    "sid": "s000772",
+    "text": "I don't agree with you, Justice.",
+    "start": 3217380,
+    "end": 3218940,
+    "confidence": 0.99609375
+  },
+  {
+    "sid": "s000773",
+    "text": "I don't buy that.",
+    "start": 3222310,
+    "end": 3223110,
+    "confidence": 0.9667969
+  },
+  {
+    "sid": "s000774",
+    "text": "There is only one thing.",
+    "start": 3223270,
+    "end": 3224310,
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000775",
+    "text": "I understand your thinking properly.",
+    "start": 3224310,
+    "end": 3226510,
+    "confidence": 0.99121094
+  },
+  {
+    "sid": "s000776",
+    "text": "I want to push you to say why There is only one thing.",
+    "start": 3226510,
+    "end": 3229990,
+    "confidence": 0.98876953
+  },
+  {
+    "sid": "s000777",
+    "text": "I understand MSD theorem, fact theory.",
+    "start": 3229990,
+    "end": 3232310,
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000778",
+    "text": "Okay, let's say hypothetically we have one edge of M1 to be in one group and then we have the other edge of M1 in the other group.",
+    "start": 3232310,
+    "end": 3238550,
+    "confidence": 0.9067383
+  },
+  {
+    "sid": "s000779",
+    "text": "And no matter what, M1 is always going to be the smallest edge between the two groups because it is the smallest edge.",
+    "start": 3238550,
+    "end": 3243510,
+    "confidence": 0.36938477
+  },
+  {
+    "sid": "s000780",
+    "text": "So therefore, M1 must be at least in the MST theorem or in the the LSP.",
+    "start": 3243590,
+    "end": 3248000,
+    "confidence": 0.99560547
+  },
+  {
+    "sid": "s000781",
+    "text": "Right.",
+    "start": 3248400,
+    "end": 3248800,
+    "confidence": 0.99560547
+  },
+  {
+    "sid": "s000782",
+    "text": "So by.",
+    "start": 3248880,
+    "end": 3249760,
+    "confidence": 0.86376953
+  },
+  {
+    "sid": "s000783",
+    "text": "By one edge and the other age, I assume you mean one vertex and the other.",
+    "start": 3249840,
+    "end": 3253000,
+    "confidence": 0.98876953
+  },
+  {
+    "sid": "s000784",
+    "text": "Yes.",
+    "start": 3253000,
+    "end": 3253280,
+    "confidence": 0.9946289
+  },
+  {
+    "sid": "s000785",
+    "text": "My bad.",
+    "start": 3253280,
+    "end": 3253680,
+    "confidence": 0.95458984
+  },
+  {
+    "sid": "s000786",
+    "text": "No, that's good.",
+    "start": 3253760,
+    "end": 3254560,
+    "confidence": 0.9760742
+  },
+  {
+    "sid": "s000787",
+    "text": "So he's.",
+    "start": 3254640,
+    "end": 3255280,
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000788",
+    "text": "I'm just following what you said.",
+    "start": 3255280,
+    "end": 3256480,
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000789",
+    "text": "If it's wrong, you know, complain to him, not me.",
+    "start": 3256480,
+    "end": 3258960,
+    "confidence": 0.9838867
+  },
+  {
+    "sid": "s000790",
+    "text": "So he says take one vertex, put it in one partition, all the other vertices in other partition.",
+    "start": 3259360,
+    "end": 3265920,
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000791",
+    "text": "He's saying I cannot use MSP theorem.",
+    "start": 3266160,
+    "end": 3270040,
+    "confidence": 0.83170575
+  },
+  {
+    "sid": "s000792",
+    "text": "Why he is saying the minimum edge between this partition and that partition, the minimum edge is actually M1.",
+    "start": 3270040,
+    "end": 3276530,
+    "confidence": 0.984375
+  },
+  {
+    "sid": "s000793",
+    "text": "Why he's saying M1 is the minimum edge anywhere.",
+    "start": 3277250,
+    "end": 3280370,
+    "confidence": 0.99316406
+  },
+  {
+    "sid": "s000794",
+    "text": "That's why it appears first in the list, because it's the minimum weight edge anywhere.",
+    "start": 3280530,
+    "end": 3286450,
+    "confidence": 0.83902997
+  },
+  {
+    "sid": "s000795",
+    "text": "Must be the minimum weight edge between this partition and that partition.",
+    "start": 3286610,
+    "end": 3290050,
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000796",
+    "text": "And he's saying use MSE theorem to output with confidence M1.",
+    "start": 3290689,
+    "end": 3295010,
+    "confidence": 0.98291016
+  },
+  {
+    "sid": "s000797",
+    "text": "Did I say that correctly?",
+    "start": 3295170,
+    "end": 3297090,
+    "confidence": 0.9946289
+  },
+  {
+    "sid": "s000798",
+    "text": "Okay, so good stuff.",
+    "start": 3297090,
+    "end": 3300330,
+    "confidence": 0.89973956
+  },
+  {
+    "sid": "s000799",
+    "text": "So.",
+    "start": 3300330,
+    "end": 3300520,
+    "confidence": 0.78125
+  },
+  {
+    "sid": "s000800",
+    "text": "So we did one.",
+    "start": 3300590,
+    "end": 3301630,
+    "confidence": 0.6582031
+  },
+  {
+    "sid": "s000801",
+    "text": "That's always a good start.",
+    "start": 3301630,
+    "end": 3302830,
+    "confidence": 0.98372394
+  },
+  {
+    "sid": "s000802",
+    "text": "So this is odd.",
+    "start": 3302830,
+    "end": 3303710,
+    "confidence": 0.99121094
+  },
+  {
+    "sid": "s000803",
+    "text": "Fine.",
+    "start": 3304110,
+    "end": 3304750,
+    "confidence": 0.79345703
+  },
+  {
+    "sid": "s000804",
+    "text": "Now, once since pricecode spend the time to sort this, it now makes sense.",
+    "start": 3305150,
+    "end": 3317270,
+    "confidence": 0.31152344
+  },
+  {
+    "sid": "s000805",
+    "text": "Maybe not to jump here, maybe not to jump to vertices, because Crossbow is saying I want an edge centric approach, not a vertex centric approach.",
+    "start": 3317270,
+    "end": 3326170,
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000806",
+    "text": "Therefore makes sense if you are following this philosophy.",
+    "start": 3327040,
+    "end": 3330720,
+    "confidence": 0.9968262
+  },
+  {
+    "sid": "s000807",
+    "text": "Next we do M2.",
+    "start": 3330720,
+    "end": 3332000,
+    "confidence": 0.9848633
+  },
+  {
+    "sid": "s000808",
+    "text": "Where is M2?",
+    "start": 3332960,
+    "end": 3334240,
+    "confidence": 0.98876953
+  },
+  {
+    "sid": "s000809",
+    "text": "I don't know.",
+    "start": 3334960,
+    "end": 3335680,
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000810",
+    "text": "Maybe here.",
+    "start": 3335920,
+    "end": 3336720,
+    "confidence": 0.9963379
+  },
+  {
+    "sid": "s000811",
+    "text": "If it is there, then I'm going to follow your technique.",
+    "start": 3339920,
+    "end": 3343040,
+    "confidence": 0.48608398
+  },
+  {
+    "sid": "s000812",
+    "text": "I put this on one side and everything else on the other side.",
+    "start": 3343040,
+    "end": 3347920,
+    "confidence": 0.98779297
+  },
+  {
+    "sid": "s000813",
+    "text": "And M2 is going to be the minimum between left and right.",
+    "start": 3350080,
+    "end": 3353490,
+    "confidence": 0.97216797
+  },
+  {
+    "sid": "s000814",
+    "text": "Because M1, which was less than M2 is not entirely on the right.",
+    "start": 3353730,
+    "end": 3357570,
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000815",
+    "text": "So M2 is going to be the minimum weight in some partition.",
+    "start": 3357970,
+    "end": 3361570,
+    "confidence": 0.9897461
+  },
+  {
+    "sid": "s000816",
+    "text": "All I have to show in MST theorem is in some partition, not every partition.",
+    "start": 3361650,
+    "end": 3365810,
+    "confidence": 0.9951172
+  },
+  {
+    "sid": "s000817",
+    "text": "Okay, so that's one condition.",
+    "start": 3367490,
+    "end": 3369330,
+    "confidence": 0.88948566
+  },
+  {
+    "sid": "s000818",
+    "text": "How else could it look?",
+    "start": 3369330,
+    "end": 3370610,
+    "confidence": 0.9868164
+  },
+  {
+    "sid": "s000819",
+    "text": "Maybe M2 is not like that.",
+    "start": 3372530,
+    "end": 3374410,
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000820",
+    "text": "Maybe it's.",
+    "start": 3374410,
+    "end": 3374970,
+    "confidence": 0.8688965
+  },
+  {
+    "sid": "s000821",
+    "text": "Aha.",
+    "start": 3374970,
+    "end": 3375450,
+    "confidence": 0.92333984
+  },
+  {
+    "sid": "s000822",
+    "text": "Maybe it's connected to this.",
+    "start": 3375450,
+    "end": 3376770,
+    "confidence": 0.99121094
+  },
+  {
+    "sid": "s000823",
+    "text": "Right.",
+    "start": 3378140,
+    "end": 3378300,
+    "confidence": 0.7705078
+  },
+  {
+    "sid": "s000824",
+    "text": "That's a possibility.",
+    "start": 3378300,
+    "end": 3379100,
+    "confidence": 0.99886066
+  },
+  {
+    "sid": "s000825",
+    "text": "So case 1.",
+    "start": 3379740,
+    "end": 3380780,
+    "confidence": 0.9770508
+  },
+  {
+    "sid": "s000826",
+    "text": "I'm just doing examples.",
+    "start": 3381180,
+    "end": 3382620,
+    "confidence": 0.9972331
+  },
+  {
+    "sid": "s000827",
+    "text": "Case 1.",
+    "start": 3382780,
+    "end": 3383388,
+    "confidence": 0.9838867
+  },
+  {
+    "sid": "s000828",
+    "text": "M2 was not even connected to any vertex of M1.",
+    "start": 3383452,
+    "end": 3386140,
+    "confidence": 0.72502
+  },
+  {
+    "sid": "s000829",
+    "text": "Now it's connected to 1.",
+    "start": 3386140,
+    "end": 3387580,
+    "confidence": 0.69873047
+  },
+  {
+    "sid": "s000830",
+    "text": "I can still do the same thing.",
+    "start": 3387900,
+    "end": 3389580,
+    "confidence": 0.98876953
+  },
+  {
+    "sid": "s000831",
+    "text": "I put this in one partition and I put everybody else in another partition.",
+    "start": 3389660,
+    "end": 3395420,
+    "confidence": 0.9873047
+  },
+  {
+    "sid": "s000832",
+    "text": "I cannot put this in one partition and everybody else in a different partition because then M2 will not be the E sub min of that partition, but this and everybody else.",
+    "start": 3396060,
+    "end": 3406300,
+    "confidence": 0.98828125
+  },
+  {
+    "sid": "s000833",
+    "text": "M2 is the minimum edge between that one unit partition and everybody else.",
+    "start": 3406300,
+    "end": 3411740,
+    "confidence": 0.87061
+  },
+  {
+    "sid": "s000834",
+    "text": "Okay, then I output M sub 2.",
+    "start": 3412540,
+    "end": 3414620,
+    "confidence": 0.93570966
+  },
+  {
+    "sid": "s000835",
+    "text": "So either the vertices of N2 are connected to this or are not connected either way I can create this MSD theorem partition.",
+    "start": 3416380,
+    "end": 3425660,
+    "confidence": 0.9921875
+  },
+  {
+    "sid": "s000836",
+    "text": "Therefore I can output M sub no matter what.",
+    "start": 3425900,
+    "end": 3428940,
+    "confidence": 0.99975586
+  },
+  {
+    "sid": "s000837",
+    "text": "So if I tell you are there two minimum edges in a graph always in an msd, the answer is yes and improve it or justify it like that.",
+    "start": 3430630,
+    "end": 3438790,
+    "confidence": 0.98339844
+  },
+  {
+    "sid": "s000838",
+    "text": "Okay, so far so good.",
+    "start": 3439750,
+    "end": 3441510,
+    "confidence": 0.8523763
+  },
+  {
+    "sid": "s000839",
+    "text": "2, 42 100% result.",
+    "start": 3441510,
+    "end": 3443750,
+    "confidence": 0.85116
+  },
+  {
+    "sid": "s000840",
+    "text": "What about entry next?",
+    "start": 3444310,
+    "end": 3445910,
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000841",
+    "text": "But that's the whole idea.",
+    "start": 3446150,
+    "end": 3447310,
+    "confidence": 0.4309082
+  },
+  {
+    "sid": "s000842",
+    "text": "Entry.",
+    "start": 3447310,
+    "end": 3447830,
+    "confidence": 0.7792969
+  },
+  {
+    "sid": "s000843",
+    "text": "If it looks like that, put one of them in one partition, the rest in a different partition.",
+    "start": 3447910,
+    "end": 3459960,
+    "confidence": 0.93847656
+  },
+  {
+    "sid": "s000844",
+    "text": "L3 will be E sub V for that partition.",
+    "start": 3459960,
+    "end": 3462840,
+    "confidence": 0.88135
+  },
+  {
+    "sid": "s000845",
+    "text": "So that's one condition.",
+    "start": 3462840,
+    "end": 3463880,
+    "confidence": 0.9682617
+  },
+  {
+    "sid": "s000846",
+    "text": "And L3 is not connected to anybody.",
+    "start": 3463880,
+    "end": 3466040,
+    "confidence": 0.41577148
+  },
+  {
+    "sid": "s000847",
+    "text": "What if it was like that?",
+    "start": 3466600,
+    "end": 3467960,
+    "confidence": 0.9536133
+  },
+  {
+    "sid": "s000848",
+    "text": "What if it was connected to one of these like that Entry.",
+    "start": 3472760,
+    "end": 3476280,
+    "confidence": 0.7373047
+  },
+  {
+    "sid": "s000849",
+    "text": "Same thing.",
+    "start": 3476520,
+    "end": 3477080,
+    "confidence": 0.9892578
+  },
+  {
+    "sid": "s000850",
+    "text": "Put this in one partition, everybody else in a decent part to check M3 will be E. I can apply Ms.",
+    "start": 3477080,
+    "end": 3483460,
+    "confidence": 0.9165039
+  },
+  {
+    "sid": "s000851",
+    "text": "Feature.",
+    "start": 3483460,
+    "end": 3483820,
+    "confidence": 0.743042
+  },
+  {
+    "sid": "s000852",
+    "text": "So it seems in every case I can.",
+    "start": 3484780,
+    "end": 3487420,
+    "confidence": 0.87597656
+  },
+  {
+    "sid": "s000853",
+    "text": "Whatever M3 is, I can put one vertex on one partition, the other in one partition and M3 will be E. Why not?",
+    "start": 3487420,
+    "end": 3495260,
+    "confidence": 1.0
+  },
+  {
+    "sid": "s000854",
+    "text": "It has to be the vertex has to be one that you haven't reached already through the other.",
+    "start": 3495740,
+    "end": 3500300,
+    "confidence": 0.4482422
+  },
+  {
+    "sid": "s000855",
+    "text": "I don't follow.",
+    "start": 3501180,
+    "end": 3501900,
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000856",
+    "text": "So what condition?",
+    "start": 3501900,
+    "end": 3502860,
+    "confidence": 0.99658203
+  },
+  {
+    "sid": "s000857",
+    "text": "I cannot put M3.",
+    "start": 3502860,
+    "end": 3504060,
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000858",
+    "text": "Put M3 in between the to.",
+    "start": 3504220,
+    "end": 3506390,
+    "confidence": 0.99316406
+  },
+  {
+    "sid": "s000859",
+    "text": "So he is saying in this case there is no way to do a partition where M3 is the minimum.",
+    "start": 3511270,
+    "end": 3517510,
+    "confidence": 0.88427734
+  },
+  {
+    "sid": "s000860",
+    "text": "Did I understand that correctly?",
+    "start": 3518310,
+    "end": 3519910,
+    "confidence": 0.9628906
+  },
+  {
+    "sid": "s000861",
+    "text": "And it's true.",
+    "start": 3519910,
+    "end": 3520590,
+    "confidence": 0.76220703
+  },
+  {
+    "sid": "s000862",
+    "text": "I don't know how to do it.",
+    "start": 3520590,
+    "end": 3521590,
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000863",
+    "text": "Can you find any partition?",
+    "start": 3521989,
+    "end": 3523870,
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000864",
+    "text": "There are billions of partitions.",
+    "start": 3523870,
+    "end": 3525350,
+    "confidence": 0.99072266
+  },
+  {
+    "sid": "s000865",
+    "text": "Show me one where M3 is the minimum between the two partitions.",
+    "start": 3525670,
+    "end": 3529990,
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000866",
+    "text": "Like a partition could be this and Everybody else.",
+    "start": 3529990,
+    "end": 3532470,
+    "confidence": 0.94433594
+  },
+  {
+    "sid": "s000867",
+    "text": "The M3 is not even across.",
+    "start": 3532960,
+    "end": 3534240,
+    "confidence": 0.6303711
+  },
+  {
+    "sid": "s000868",
+    "text": "I can put in this in one side and all the others on the other side.",
+    "start": 3534640,
+    "end": 3538840,
+    "confidence": 0.9975586
+  },
+  {
+    "sid": "s000869",
+    "text": "But I know M2 is going to be in.",
+    "start": 3538840,
+    "end": 3540640,
+    "confidence": 0.9946289
+  },
+  {
+    "sid": "s000870",
+    "text": "In.",
+    "start": 3540640,
+    "end": 3540960,
+    "confidence": 0.9946289
+  },
+  {
+    "sid": "s000871",
+    "text": "So by inspection to a few cases, it's impossible.",
+    "start": 3541280,
+    "end": 3544000,
+    "confidence": 0.9921875
+  },
+  {
+    "sid": "s000872",
+    "text": "So what does cross?",
+    "start": 3545680,
+    "end": 3546720,
+    "confidence": 0.99121094
+  },
+  {
+    "sid": "s000873",
+    "text": "So that's correct.",
+    "start": 3546800,
+    "end": 3547800,
+    "confidence": 0.98339844
+  },
+  {
+    "sid": "s000874",
+    "text": "Obviously you just proved it, justified it.",
+    "start": 3547800,
+    "end": 3550560,
+    "confidence": 0.9998372
+  },
+  {
+    "sid": "s000875",
+    "text": "Crossbody says if you ever get to a situation where E sub I, the next E in the list creates a cycle with existing things that you output.",
+    "start": 3550640,
+    "end": 3561290,
+    "confidence": 0.6359863
+  },
+  {
+    "sid": "s000876",
+    "text": "Like in this case.",
+    "start": 3561290,
+    "end": 3562330,
+    "confidence": 0.8305664
+  },
+  {
+    "sid": "s000877",
+    "text": "Ignore that, go to the next one, go to M4.",
+    "start": 3562490,
+    "end": 3564890,
+    "confidence": 0.93188477
+  },
+  {
+    "sid": "s000878",
+    "text": "So I'm going to ignore this.",
+    "start": 3565130,
+    "end": 3566370,
+    "confidence": 0.8027344
+  },
+  {
+    "sid": "s000879",
+    "text": "Why do I ignore this?",
+    "start": 3566370,
+    "end": 3567530,
+    "confidence": 0.9975586
+  },
+  {
+    "sid": "s000880",
+    "text": "Only because I cannot apply MSD theorem.",
+    "start": 3568410,
+    "end": 3571210,
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000881",
+    "text": "If I cannot apply MSD theorem, all the bets are off.",
+    "start": 3571850,
+    "end": 3575290,
+    "confidence": 0.98779297
+  },
+  {
+    "sid": "s000882",
+    "text": "You can if I tell you to come up with your own brand new algorithm for MSD that's not true.",
+    "start": 3575370,
+    "end": 3580530,
+    "confidence": 0.6196289
+  },
+  {
+    "sid": "s000883",
+    "text": "Or cross call.",
+    "start": 3580530,
+    "end": 3581330,
+    "confidence": 0.9848633
+  },
+  {
+    "sid": "s000884",
+    "text": "All you need to do.",
+    "start": 3581330,
+    "end": 3582170,
+    "confidence": 0.9970703
+  },
+  {
+    "sid": "s000885",
+    "text": "All you need to do is at every step make sure the H you are picking is E sub B.",
+    "start": 3582570,
+    "end": 3586970,
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000886",
+    "text": "If you can do that, you are all set.",
+    "start": 3586970,
+    "end": 3588730,
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000887",
+    "text": "If you can't, then you Can't.",
+    "start": 3589530,
+    "end": 3591050,
+    "confidence": 0.9970703
+  },
+  {
+    "sid": "s000888",
+    "text": "Okay, so that's.",
+    "start": 3593370,
+    "end": 3594290,
+    "confidence": 0.96761066
+  },
+  {
+    "sid": "s000889",
+    "text": "So what does it say?",
+    "start": 3594290,
+    "end": 3595370,
+    "confidence": 0.7841797
+  },
+  {
+    "sid": "s000890",
+    "text": "Ignore entry, go to the next one.",
+    "start": 3595370,
+    "end": 3597210,
+    "confidence": 0.9460449
+  },
+  {
+    "sid": "s000891",
+    "text": "M4 I can do that.",
+    "start": 3597210,
+    "end": 3599290,
+    "confidence": 0.97461
+  },
+  {
+    "sid": "s000892",
+    "text": "M5 I can do that.",
+    "start": 3599290,
+    "end": 3602490,
+    "confidence": 0.98389
+  },
+  {
+    "sid": "s000893",
+    "text": "M6 I can do that.",
+    "start": 3603370,
+    "end": 3605370,
+    "confidence": 0.95972
+  },
+  {
+    "sid": "s000894",
+    "text": "M7 Can I do that for the same reason?",
+    "start": 3605770,
+    "end": 3611630,
+    "confidence": 0.89868
+  },
+  {
+    "sid": "s000895",
+    "text": "No.",
+    "start": 3611630,
+    "end": 3612030,
+    "confidence": 0.82373047
+  },
+  {
+    "sid": "s000896",
+    "text": "So whenever an edge creates a cycle with edges that are already output, then I cannot partition it such that M7 is the minimum.",
+    "start": 3612110,
+    "end": 3623790,
+    "confidence": 0.97021484
+  },
+  {
+    "sid": "s000897",
+    "text": "Yes.",
+    "start": 3624270,
+    "end": 3624830,
+    "confidence": 0.97924805
+  },
+  {
+    "sid": "s000898",
+    "text": "Algorithmically I don't know yet.",
+    "start": 3627470,
+    "end": 3629630,
+    "confidence": 0.99731445
+  },
+  {
+    "sid": "s000899",
+    "text": "So that becomes one of my challenges.",
+    "start": 3630190,
+    "end": 3632070,
+    "confidence": 0.98095703
+  },
+  {
+    "sid": "s000900",
+    "text": "How to.",
+    "start": 3632070,
+    "end": 3632670,
+    "confidence": 0.765625
+  },
+  {
+    "sid": "s000901",
+    "text": "I know how to do cycle I use.",
+    "start": 3632670,
+    "end": 3634430,
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000902",
+    "text": "But if every time I have to run depth first search, this is going to be a super slow algorithm.",
+    "start": 3635640,
+    "end": 3640040,
+    "confidence": 0.90185547
+  },
+  {
+    "sid": "s000903",
+    "text": "So what you're asking is, is there an efficient way of finding cycles for every inch that I have?",
+    "start": 3640200,
+    "end": 3645000,
+    "confidence": 0.98828125
+  },
+  {
+    "sid": "s000904",
+    "text": "So I got it.",
+    "start": 3645160,
+    "end": 3646080,
+    "confidence": 0.95751953
+  },
+  {
+    "sid": "s000905",
+    "text": "That's a problem I need to address later.",
+    "start": 3646080,
+    "end": 3648040,
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000906",
+    "text": "If this is successful.",
+    "start": 3648200,
+    "end": 3649560,
+    "confidence": 0.9970703
+  },
+  {
+    "sid": "s000907",
+    "text": "If this is not successful, that's irrelevant.",
+    "start": 3649720,
+    "end": 3652040,
+    "confidence": 0.9902344
+  },
+  {
+    "sid": "s000908",
+    "text": "So I make a side note to myself.",
+    "start": 3652040,
+    "end": 3653880,
+    "confidence": 0.9897461
+  },
+  {
+    "sid": "s000909",
+    "text": "Efficient cycle findings dynamically need to address that.",
+    "start": 3655080,
+    "end": 3659400,
+    "confidence": 0.98876953
+  },
+  {
+    "sid": "s000910",
+    "text": "Okay, So I keep going.",
+    "start": 3660930,
+    "end": 3663170,
+    "confidence": 0.8927409
+  },
+  {
+    "sid": "s000911",
+    "text": "I keep adding one H at a time.",
+    "start": 3663410,
+    "end": 3665490,
+    "confidence": 0.9472656
+  },
+  {
+    "sid": "s000912",
+    "text": "If it creates a cycle, I don't do anything about it.",
+    "start": 3666290,
+    "end": 3668930,
+    "confidence": 0.96875
+  },
+  {
+    "sid": "s000913",
+    "text": "If it doesn't create a cycle, then I have to.",
+    "start": 3668930,
+    "end": 3671090,
+    "confidence": 0.9902344
+  },
+  {
+    "sid": "s000914",
+    "text": "So the runtime of this algorithm is order of E log E plus E times time of cycle.",
+    "start": 3673410,
+    "end": 3681970,
+    "confidence": 0.9873047
+  },
+  {
+    "sid": "s000915",
+    "text": "Fine.",
+    "start": 3683250,
+    "end": 3683810,
+    "confidence": 0.6489258
+  },
+  {
+    "sid": "s000916",
+    "text": "Right.",
+    "start": 3687340,
+    "end": 3687580,
+    "confidence": 0.8413086
+  },
+  {
+    "sid": "s000917",
+    "text": "For every edge, I need to find out if it creates a cycle or not.",
+    "start": 3687980,
+    "end": 3692220,
+    "confidence": 0.9975586
+  },
+  {
+    "sid": "s000918",
+    "text": "How much time does it take?",
+    "start": 3692860,
+    "end": 3694060,
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000919",
+    "text": "Right now I can write whatever I know from before depth first search E +V.",
+    "start": 3694380,
+    "end": 3698780,
+    "confidence": 0.9975586
+  },
+  {
+    "sid": "s000920",
+    "text": "If I took E +V for depth first search, this gives me an E square algorithm.",
+    "start": 3699020,
+    "end": 3703340,
+    "confidence": 0.5908203
+  },
+  {
+    "sid": "s000921",
+    "text": "Too slow.",
+    "start": 3703340,
+    "end": 3704140,
+    "confidence": 0.99121094
+  },
+  {
+    "sid": "s000922",
+    "text": "But that's all I know right now.",
+    "start": 3705820,
+    "end": 3707660,
+    "confidence": 0.94189453
+  },
+  {
+    "sid": "s000923",
+    "text": "Order of E. Let's say assuming certain sorts in the original.",
+    "start": 3707900,
+    "end": 3713590,
+    "confidence": 0.87158203
+  },
+  {
+    "sid": "s000924",
+    "text": "So E square algorithm.",
+    "start": 3713830,
+    "end": 3715030,
+    "confidence": 0.9345703
+  },
+  {
+    "sid": "s000925",
+    "text": "That's very slow.",
+    "start": 3715030,
+    "end": 3715990,
+    "confidence": 0.99690753
+  },
+  {
+    "sid": "s000926",
+    "text": "If E is N squared, this is going to be N to the power four algorithm.",
+    "start": 3715990,
+    "end": 3719430,
+    "confidence": 0.98779297
+  },
+  {
+    "sid": "s000927",
+    "text": "Very slow.",
+    "start": 3719510,
+    "end": 3720390,
+    "confidence": 0.9921875
+  },
+  {
+    "sid": "s000928",
+    "text": "Practically.",
+    "start": 3720390,
+    "end": 3721030,
+    "confidence": 0.97924805
+  },
+  {
+    "sid": "s000929",
+    "text": "It will take you two days to get an answer from GPT that final slope.",
+    "start": 3722550,
+    "end": 3726630,
+    "confidence": 0.9790039
+  },
+  {
+    "sid": "s000930",
+    "text": "Okay, so not so this algorithm works.",
+    "start": 3731190,
+    "end": 3734430,
+    "confidence": 0.9135742
+  },
+  {
+    "sid": "s000931",
+    "text": "I can always.",
+    "start": 3734430,
+    "end": 3735270,
+    "confidence": 0.9838867
+  },
+  {
+    "sid": "s000932",
+    "text": "As long as it doesn't create a cycle, I can output that.",
+    "start": 3735510,
+    "end": 3738600,
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000933",
+    "text": "And I keep doing that until n minus one edges are altered.",
+    "start": 3738920,
+    "end": 3742680,
+    "confidence": 0.765625
+  },
+  {
+    "sid": "s000934",
+    "text": "All I have left to do is I'm going to introduce a brand new problem.",
+    "start": 3743560,
+    "end": 3754840,
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000935",
+    "text": "Has nothing to do with what we studied today.",
+    "start": 3755000,
+    "end": 3757480,
+    "confidence": 0.9838867
+  },
+  {
+    "sid": "s000936",
+    "text": "You might have seen it in your programming courses.",
+    "start": 3758600,
+    "end": 3761000,
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000937",
+    "text": "Maybe not.",
+    "start": 3761000,
+    "end": 3761560,
+    "confidence": 0.99243164
+  },
+  {
+    "sid": "s000938",
+    "text": "It's called union.",
+    "start": 3761800,
+    "end": 3762800,
+    "confidence": 0.9773763
+  },
+  {
+    "sid": "s000939",
+    "text": "Find.",
+    "start": 3762800,
+    "end": 3763160,
+    "confidence": 0.5131836
+  },
+  {
+    "sid": "s000940",
+    "text": "We have a bunch of SIPs.",
+    "start": 3766850,
+    "end": 3768796,
+    "confidence": 0.8125
+  },
+  {
+    "sid": "s000941",
+    "text": "4, 6, 1, 2, 9, 8, 7, 12, 14.",
+    "start": 3769024,
+    "end": 3779170,
+    "confidence": 0.96216
+  },
+  {
+    "sid": "s000942",
+    "text": "Let's say you need numbers for now.",
+    "start": 3780690,
+    "end": 3782450,
+    "confidence": 0.9318034
+  },
+  {
+    "sid": "s000943",
+    "text": "Okay, these are 6, 5, 6.",
+    "start": 3783410,
+    "end": 3787210,
+    "confidence": 0.97591144
+  },
+  {
+    "sid": "s000944",
+    "text": "The following.",
+    "start": 3787210,
+    "end": 3787810,
+    "confidence": 0.95654297
+  },
+  {
+    "sid": "s000945",
+    "text": "I give you two numbers, A and B.",
+    "start": 3792300,
+    "end": 3794300,
+    "confidence": 0.95654297
+  },
+  {
+    "sid": "s000946",
+    "text": "Are they in the same set or not?",
+    "start": 3795020,
+    "end": 3797180,
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000947",
+    "text": "If A and B are 8 and 12, the answer is yes.",
+    "start": 3797820,
+    "end": 3801820,
+    "confidence": 0.99609375
+  },
+  {
+    "sid": "s000948",
+    "text": "If A and B are of 7 and 6.",
+    "start": 3803980,
+    "end": 3807100,
+    "confidence": 0.99072266
+  },
+  {
+    "sid": "s000949",
+    "text": "The answer is no, they are not in the same set.",
+    "start": 3807100,
+    "end": 3809420,
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000950",
+    "text": "So one of the operations in the union find problem is find if two numbers, two elements are in the same set.",
+    "start": 3810300,
+    "end": 3818310,
+    "confidence": 0.9628906
+  },
+  {
+    "sid": "s000951",
+    "text": "That's the fine part.",
+    "start": 3819670,
+    "end": 3820710,
+    "confidence": 0.9946289
+  },
+  {
+    "sid": "s000952",
+    "text": "What is the union part?",
+    "start": 3820710,
+    "end": 3821910,
+    "confidence": 0.9975586
+  },
+  {
+    "sid": "s000953",
+    "text": "At some point in the algorithm, I can take these two and do their unions.",
+    "start": 3822150,
+    "end": 3826790,
+    "confidence": 0.9975586
+  },
+  {
+    "sid": "s000954",
+    "text": "We know how to do union of two sets.",
+    "start": 3827350,
+    "end": 3829230,
+    "confidence": 0.984375
+  },
+  {
+    "sid": "s000955",
+    "text": "They all become one set.",
+    "start": 3829230,
+    "end": 3830550,
+    "confidence": 0.99365234
+  },
+  {
+    "sid": "s000956",
+    "text": "Okay, then I can do another fun.",
+    "start": 3831990,
+    "end": 3833990,
+    "confidence": 0.8704427
+  },
+  {
+    "sid": "s000957",
+    "text": "So union.",
+    "start": 3834310,
+    "end": 3835110,
+    "confidence": 0.91015625
+  },
+  {
+    "sid": "s000958",
+    "text": "Now when I do a union, those two will remain as one set for the rest of the my life.",
+    "start": 3835110,
+    "end": 3841400,
+    "confidence": 0.8925781
+  },
+  {
+    "sid": "s000959",
+    "text": "I cannot break a set into subsets.",
+    "start": 3841880,
+    "end": 3845120,
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000960",
+    "text": "I cannot say go back to this original one.",
+    "start": 3845120,
+    "end": 3847480,
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000961",
+    "text": "I'm so sorry for union.",
+    "start": 3847480,
+    "end": 3849240,
+    "confidence": 0.9916992
+  },
+  {
+    "sid": "s000962",
+    "text": "Shouldn't have done it.",
+    "start": 3849800,
+    "end": 3850760,
+    "confidence": 0.99816895
+  },
+  {
+    "sid": "s000963",
+    "text": "Can't do that.",
+    "start": 3850760,
+    "end": 3851480,
+    "confidence": 0.98811847
+  },
+  {
+    "sid": "s000964",
+    "text": "Once it's union, it's union forever.",
+    "start": 3851720,
+    "end": 3853880,
+    "confidence": 0.99609375
+  },
+  {
+    "sid": "s000965",
+    "text": "This problem is called union.",
+    "start": 3854280,
+    "end": 3855720,
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000966",
+    "text": "Fine.",
+    "start": 3855720,
+    "end": 3856200,
+    "confidence": 0.9187012
+  },
+  {
+    "sid": "s000967",
+    "text": "Take two.",
+    "start": 3857560,
+    "end": 3858360,
+    "confidence": 0.99365234
+  },
+  {
+    "sid": "s000968",
+    "text": "Take a bunch of sets.",
+    "start": 3858600,
+    "end": 3860280,
+    "confidence": 0.9975586
+  },
+  {
+    "sid": "s000969",
+    "text": "Do a bunch of fine 1,210 billion.",
+    "start": 3860280,
+    "end": 3863320,
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000970",
+    "text": "Fine.",
+    "start": 3863320,
+    "end": 3863840,
+    "confidence": 0.95947266
+  },
+  {
+    "sid": "s000971",
+    "text": "Then do one union or two union.",
+    "start": 3863840,
+    "end": 3865880,
+    "confidence": 0.9975586
+  },
+  {
+    "sid": "s000972",
+    "text": "Then do more.",
+    "start": 3865880,
+    "end": 3866520,
+    "confidence": 0.99560547
+  },
+  {
+    "sid": "s000973",
+    "text": "Fine.",
+    "start": 3866520,
+    "end": 3866880,
+    "confidence": 0.94970703
+  },
+  {
+    "sid": "s000974",
+    "text": "Then union fine.",
+    "start": 3866880,
+    "end": 3867760,
+    "confidence": 0.8720703
+  },
+  {
+    "sid": "s000975",
+    "text": "There is no order, no number, nothing.",
+    "start": 3867760,
+    "end": 3870070,
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000976",
+    "text": "No restrictions of any type.",
+    "start": 3870070,
+    "end": 3871830,
+    "confidence": 0.9946289
+  },
+  {
+    "sid": "s000977",
+    "text": "Bunch of union and fines.",
+    "start": 3871990,
+    "end": 3873550,
+    "confidence": 0.98795575
+  },
+  {
+    "sid": "s000978",
+    "text": "Interleaved or not interleaved.",
+    "start": 3873550,
+    "end": 3875630,
+    "confidence": 0.98461914
+  },
+  {
+    "sid": "s000979",
+    "text": "For as long as I wish.",
+    "start": 3875630,
+    "end": 3876950,
+    "confidence": 0.9970703
+  },
+  {
+    "sid": "s000980",
+    "text": "For as long as I live.",
+    "start": 3877110,
+    "end": 3878390,
+    "confidence": 0.9736328
+  },
+  {
+    "sid": "s000981",
+    "text": "That's not the union find problem.",
+    "start": 3878630,
+    "end": 3880230,
+    "confidence": 0.9970703
+  },
+  {
+    "sid": "s000982",
+    "text": "I have not given a solution here.",
+    "start": 3881270,
+    "end": 3883030,
+    "confidence": 0.9970703
+  },
+  {
+    "sid": "s000983",
+    "text": "Is the problem clear.",
+    "start": 3883430,
+    "end": 3884710,
+    "confidence": 0.9086914
+  },
+  {
+    "sid": "s000984",
+    "text": "The way I'm going to solve this is in the following manner.",
+    "start": 3888950,
+    "end": 3892550,
+    "confidence": 0.9892578
+  },
+  {
+    "sid": "s000985",
+    "text": "First, you can kind of play with this.",
+    "start": 3894150,
+    "end": 3895790,
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000986",
+    "text": "Come up with your own technique.",
+    "start": 3895790,
+    "end": 3897360,
+    "confidence": 0.99121094
+  },
+  {
+    "sid": "s000987",
+    "text": "It may work.",
+    "start": 3897520,
+    "end": 3898320,
+    "confidence": 0.9970703
+  },
+  {
+    "sid": "s000988",
+    "text": "I'm going to take each set and I represent it initially.",
+    "start": 3899440,
+    "end": 3903800,
+    "confidence": 0.98014325
+  },
+  {
+    "sid": "s000989",
+    "text": "I'm going to represent, let's say initially, each set has one element.",
+    "start": 3903800,
+    "end": 3907600,
+    "confidence": 0.99576825
+  },
+  {
+    "sid": "s000990",
+    "text": "So it becomes node of a rooted tree.",
+    "start": 3908160,
+    "end": 3910560,
+    "confidence": 0.99316406
+  },
+  {
+    "sid": "s000991",
+    "text": "So there are n nodes.",
+    "start": 3911360,
+    "end": 3912519,
+    "confidence": 0.6611328
+  },
+  {
+    "sid": "s000992",
+    "text": "If every set has one element, then I take this and another set B and I do a union.",
+    "start": 3912519,
+    "end": 3920160,
+    "confidence": 0.7373047
+  },
+  {
+    "sid": "s000993",
+    "text": "I take this one of them A and the other one B. I point any one of them to the other.",
+    "start": 3922170,
+    "end": 3928570,
+    "confidence": 0.9707031
+  },
+  {
+    "sid": "s000994",
+    "text": "So I'm building a rooted tree.",
+    "start": 3928810,
+    "end": 3931130,
+    "confidence": 0.890625
+  },
+  {
+    "sid": "s000995",
+    "text": "Later on I do a find.",
+    "start": 3933130,
+    "end": 3935370,
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000996",
+    "text": "The way I do find is the following.",
+    "start": 3935370,
+    "end": 3937130,
+    "confidence": 0.98583984
+  },
+  {
+    "sid": "s000997",
+    "text": "Let's say I do find ad.",
+    "start": 3937130,
+    "end": 3938730,
+    "confidence": 0.99625653
+  },
+  {
+    "sid": "s000998",
+    "text": "Let's say I do find ac.",
+    "start": 3940010,
+    "end": 3941610,
+    "confidence": 0.96777344
+  },
+  {
+    "sid": "s000999",
+    "text": "What I do is each of them is a three structure a root at three.",
+    "start": 3942410,
+    "end": 3946330,
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s001000",
+    "text": "From one I go to the root of that three.",
+    "start": 3946810,
+    "end": 3949210,
+    "confidence": 0.9975586
+  },
+  {
+    "sid": "s001001",
+    "text": "It's C. From this I go to the root of that B and I ask is C is equal to D?",
+    "start": 3949210,
+    "end": 3955750,
+    "confidence": 0.9213867
+  },
+  {
+    "sid": "s001002",
+    "text": "If yes, it means the find is yes, I found them in the same set.",
+    "start": 3955990,
+    "end": 3960150,
+    "confidence": 0.9477539
+  },
+  {
+    "sid": "s001003",
+    "text": "If the answer is no, it means no, you are not in the same set.",
+    "start": 3960630,
+    "end": 3963430,
+    "confidence": 0.9975586
+  },
+  {
+    "sid": "s001004",
+    "text": "So if you take A and B and you do A, find both of these.",
+    "start": 3963430,
+    "end": 3966830,
+    "confidence": 0.9902344
+  },
+  {
+    "sid": "s001005",
+    "text": "Return B the root of the tree.",
+    "start": 3966830,
+    "end": 3968710,
+    "confidence": 0.99316406
+  },
+  {
+    "sid": "s001006",
+    "text": "They are the same value.",
+    "start": 3968710,
+    "end": 3969670,
+    "confidence": 0.9379883
+  },
+  {
+    "sid": "s001007",
+    "text": "If it's A and B, find Is yes.",
+    "start": 3969750,
+    "end": 3972150,
+    "confidence": 0.8989258
+  },
+  {
+    "sid": "s001008",
+    "text": "If I do D and C, the roots are D and C. They are different values.",
+    "start": 3972630,
+    "end": 3976710,
+    "confidence": 0.9975586
+  },
+  {
+    "sid": "s001009",
+    "text": "Therefore the answer to find is okay, so this is initially when I have one or so in general, assume after N state or K state of algorithm, I have a bunch of roots.",
+    "start": 3976900,
+    "end": 3989780,
+    "confidence": 0.99243164
+  },
+  {
+    "sid": "s001010",
+    "text": "Okay?",
+    "start": 3993780,
+    "end": 3994420,
+    "confidence": 0.92073566
+  },
+  {
+    "sid": "s001011",
+    "text": "So same thing, I take two elements like that and that, I go to the root.",
+    "start": 3995860,
+    "end": 4000980,
+    "confidence": 0.9814453
+  },
+  {
+    "sid": "s001012",
+    "text": "If they are the same, then I say find.",
+    "start": 4002590,
+    "end": 4004510,
+    "confidence": 0.96240234
+  },
+  {
+    "sid": "s001013",
+    "text": "No, sorry, if they are different.",
+    "start": 4004590,
+    "end": 4007110,
+    "confidence": 0.9711914
+  },
+  {
+    "sid": "s001014",
+    "text": "If they are the same, I say find.",
+    "start": 4007110,
+    "end": 4008830,
+    "confidence": 0.9848633
+  },
+  {
+    "sid": "s001015",
+    "text": "Yes.",
+    "start": 4008910,
+    "end": 4009390,
+    "confidence": 0.9938965
+  },
+  {
+    "sid": "s001016",
+    "text": "So root of the tree is one of the elements, but also is the name of that set.",
+    "start": 4009870,
+    "end": 4014110,
+    "confidence": 0.99316406
+  },
+  {
+    "sid": "s001017",
+    "text": "So this set here, A, B, E, F, I'm going to pick one of them that happens to be the root.",
+    "start": 4014990,
+    "end": 4022670,
+    "confidence": 0.9897461
+  },
+  {
+    "sid": "s001018",
+    "text": "Doesn't matter which one.",
+    "start": 4022670,
+    "end": 4023590,
+    "confidence": 0.99820966
+  },
+  {
+    "sid": "s001019",
+    "text": "It's just a naming convention.",
+    "start": 4023590,
+    "end": 4024990,
+    "confidence": 0.8751628
+  },
+  {
+    "sid": "s001020",
+    "text": "And I'm going to call this set, let's say D forever unless it get merged with somebody.",
+    "start": 4024990,
+    "end": 4030680,
+    "confidence": 0.9848633
+  },
+  {
+    "sid": "s001021",
+    "text": "Okay, so assumption number one, assumption number two is if I have N1 vertices here, the height of this is log N1 order.",
+    "start": 4031720,
+    "end": 4041800,
+    "confidence": 0.9321289
+  },
+  {
+    "sid": "s001022",
+    "text": "It could be yes.",
+    "start": 4042440,
+    "end": 4043480,
+    "confidence": 0.6748047
+  },
+  {
+    "sid": "s001023",
+    "text": "Okay, so inductive up to K stage of the algorithm, I assume I have a bunch of Rooted 3.",
+    "start": 4043879,
+    "end": 4051000,
+    "confidence": 0.9689128
+  },
+  {
+    "sid": "s001024",
+    "text": "In this example, this is a rooted tree.",
+    "start": 4051320,
+    "end": 4053460,
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s001025",
+    "text": "This is a rooted tree.",
+    "start": 4053690,
+    "end": 4054810,
+    "confidence": 0.9663086
+  },
+  {
+    "sid": "s001026",
+    "text": "These two together is one of these rooted three.",
+    "start": 4054810,
+    "end": 4057050,
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s001027",
+    "text": "Inductive hypothesis.",
+    "start": 4057690,
+    "end": 4059090,
+    "confidence": 0.8570964
+  },
+  {
+    "sid": "s001028",
+    "text": "After K step, I have a bunch of Rooted 3 where the height is logarithmic in the size of that rooted three.",
+    "start": 4059090,
+    "end": 4066090,
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s001029",
+    "text": "Okay, so if I do one, fine.",
+    "start": 4067610,
+    "end": 4071850,
+    "confidence": 0.96744794
+  },
+  {
+    "sid": "s001030",
+    "text": "First of all, you also know that all these log N1, N2, etc is less than log n and is the total number of vertices.",
+    "start": 4072650,
+    "end": 4080040,
+    "confidence": 0.98583984
+  },
+  {
+    "sid": "s001031",
+    "text": "This is a subset of vertices.",
+    "start": 4080750,
+    "end": 4082070,
+    "confidence": 0.9663086
+  },
+  {
+    "sid": "s001032",
+    "text": "So log of that got to be less than or equal to log of everything.",
+    "start": 4082070,
+    "end": 4085710,
+    "confidence": 0.9902344
+  },
+  {
+    "sid": "s001033",
+    "text": "So if I have two vertices here and here to find, if the answer to find is yes or no, I just follow that in log n time, if the roots are the same, yes.",
+    "start": 4086830,
+    "end": 4099630,
+    "confidence": 0.9736328
+  },
+  {
+    "sid": "s001034",
+    "text": "If the roots are different, no.",
+    "start": 4099790,
+    "end": 4101390,
+    "confidence": 0.9951172
+  },
+  {
+    "sid": "s001035",
+    "text": "So in log n time I will answer.",
+    "start": 4101470,
+    "end": 4103950,
+    "confidence": 0.9838867
+  },
+  {
+    "sid": "s001036",
+    "text": "Find what?",
+    "start": 4103950,
+    "end": 4105570,
+    "confidence": 0.6040039
+  },
+  {
+    "sid": "s001037",
+    "text": "What about union?",
+    "start": 4105640,
+    "end": 4106600,
+    "confidence": 0.95166016
+  },
+  {
+    "sid": "s001038",
+    "text": "I take the smaller tree pointed to the larger tree.",
+    "start": 4106840,
+    "end": 4110040,
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s001039",
+    "text": "Okay, so if this was a smaller tree, N1 and N2, height of this was log of N2, height of this is log of N1.",
+    "start": 4111960,
+    "end": 4122600,
+    "confidence": 0.93880206
+  },
+  {
+    "sid": "s001040",
+    "text": "The height of the combined tree is going to be log of N2 because this is a small, so I have it.",
+    "start": 4123480,
+    "end": 4130320,
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s001041",
+    "text": "So previously the assumption was heights were log n. By merging by union, the height remains as log n. Still, if one of them is a smaller what if.",
+    "start": 4130320,
+    "end": 4142960,
+    "confidence": 0.97021484
+  },
+  {
+    "sid": "s001042",
+    "text": "Of course, if this was a smaller distance, point to that.",
+    "start": 4143600,
+    "end": 4146240,
+    "confidence": 0.79541016
+  },
+  {
+    "sid": "s001043",
+    "text": "What if.",
+    "start": 4146480,
+    "end": 4147120,
+    "confidence": 0.99560547
+  },
+  {
+    "sid": "s001044",
+    "text": "This is the trick, this is the important part.",
+    "start": 4147360,
+    "end": 4149840,
+    "confidence": 0.8666992
+  },
+  {
+    "sid": "s001045",
+    "text": "What if they are the same size?",
+    "start": 4150320,
+    "end": 4152080,
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s001046",
+    "text": "Which one points to that?",
+    "start": 4152560,
+    "end": 4154000,
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s001047",
+    "text": "If this was N1, N1 log N1.",
+    "start": 4154400,
+    "end": 4157560,
+    "confidence": 0.99560547
+  },
+  {
+    "sid": "s001048",
+    "text": "Log N1.",
+    "start": 4157560,
+    "end": 4158960,
+    "confidence": 0.9770508
+  },
+  {
+    "sid": "s001049",
+    "text": "Which one do I point to here?",
+    "start": 4159040,
+    "end": 4160200,
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s001050",
+    "text": "The other one.",
+    "start": 4160269,
+    "end": 4160789,
+    "confidence": 0.55908203
+  },
+  {
+    "sid": "s001051",
+    "text": "Because whichever I do, the height of the combined tree is going to be 1 higher than the previous one.",
+    "start": 4160789,
+    "end": 4165949,
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s001052",
+    "text": "Right?",
+    "start": 4166829,
+    "end": 4167229,
+    "confidence": 0.90283203
+  },
+  {
+    "sid": "s001053",
+    "text": "The whole premise of keeping that was the height will not change.",
+    "start": 4167789,
+    "end": 4171469,
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s001054",
+    "text": "So if they were the same, the height will increase by one.",
+    "start": 4171869,
+    "end": 4176229,
+    "confidence": 0.9370117
+  },
+  {
+    "sid": "s001055",
+    "text": "It goes from log of N1 to log of N1 plus one.",
+    "start": 4176229,
+    "end": 4182269,
+    "confidence": 0.9868164
+  },
+  {
+    "sid": "s001056",
+    "text": "Because this is going to be log of N1.",
+    "start": 4183389,
+    "end": 4185709,
+    "confidence": 0.9970703
+  },
+  {
+    "sid": "s001057",
+    "text": "Sorry, this log of N1 plus one, these will not change.",
+    "start": 4186110,
+    "end": 4189350,
+    "confidence": 0.7569987
+  },
+  {
+    "sid": "s001058",
+    "text": "These will.",
+    "start": 4189350,
+    "end": 4190030,
+    "confidence": 0.66308594
+  },
+  {
+    "sid": "s001059",
+    "text": "So how do I maintain the logarithmic after this happens?",
+    "start": 4190270,
+    "end": 4194590,
+    "confidence": 0.98535156
+  },
+  {
+    "sid": "s001060",
+    "text": "Well, if this is log of N1 and this is log of N1, the total number of vertices now is 2 N1.",
+    "start": 4195070,
+    "end": 4201870,
+    "confidence": 0.8022461
+  },
+  {
+    "sid": "s001061",
+    "text": "Log of 2 N1 is log of N1 plus 1.",
+    "start": 4203710,
+    "end": 4207070,
+    "confidence": 0.9970703
+  },
+  {
+    "sid": "s001062",
+    "text": "So I'm allowed to go 1 extra because I have just doubled the number of vertices.",
+    "start": 4207150,
+    "end": 4211620,
+    "confidence": 0.93896484
+  },
+  {
+    "sid": "s001063",
+    "text": "So that hypothesis that invariant that height of every tree is logarithmic in the size of the tree will be true no matter if this is bigger, this is bigger, or they are the same size.",
+    "start": 4213130,
+    "end": 4225610,
+    "confidence": 0.9838867
+  },
+  {
+    "sid": "s001064",
+    "text": "So I can do every union in constant time with one pointer.",
+    "start": 4226250,
+    "end": 4230730,
+    "confidence": 0.98535156
+  },
+  {
+    "sid": "s001065",
+    "text": "I can do every five in logarithmic time.",
+    "start": 4230730,
+    "end": 4233530,
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s001066",
+    "text": "Okay, what does it have to do with msd?",
+    "start": 4237700,
+    "end": 4241620,
+    "confidence": 0.89973956
+  },
+  {
+    "sid": "s001067",
+    "text": "In the AI stage of msd, let's say at some point I have sub trees like that.",
+    "start": 4243060,
+    "end": 4255540,
+    "confidence": 0.99365234
+  },
+  {
+    "sid": "s001068",
+    "text": "I keep each subtree as one of these guys.",
+    "start": 4260180,
+    "end": 4262980,
+    "confidence": 0.99316406
+  },
+  {
+    "sid": "s001069",
+    "text": "A rooted sub tree.",
+    "start": 4263290,
+    "end": 4264330,
+    "confidence": 0.9189453
+  },
+  {
+    "sid": "s001070",
+    "text": "So if I want to know the brand new edge here, N3, does it create a cycle or not?",
+    "start": 4265290,
+    "end": 4271690,
+    "confidence": 0.95654297
+  },
+  {
+    "sid": "s001071",
+    "text": "I take this vertex and I take this vertex and I follow to see if they're the same component or not.",
+    "start": 4271930,
+    "end": 4278250,
+    "confidence": 0.99560547
+  },
+  {
+    "sid": "s001072",
+    "text": "If they are, then it means these two belong to the same component.",
+    "start": 4278490,
+    "end": 4282250,
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s001073",
+    "text": "Meaning as you said, they create a cycle.",
+    "start": 4282330,
+    "end": 4284570,
+    "confidence": 0.99780273
+  },
+  {
+    "sid": "s001074",
+    "text": "If they are not going to be part of the same component, then adding this entry will not create a cycle.",
+    "start": 4285450,
+    "end": 4292590,
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s001075",
+    "text": "So I can output that.",
+    "start": 4292590,
+    "end": 4293830,
+    "confidence": 0.98828125
+  },
+  {
+    "sid": "s001076",
+    "text": "So union find is the main data structure for crossfold item.",
+    "start": 4295350,
+    "end": 4299190,
+    "confidence": 0.9838867
+  },
+  {
+    "sid": "s001077",
+    "text": "For every edge, I spend log n time to find out if two vertices create a cycle or n how many edges are there.",
+    "start": 4299830,
+    "end": 4307830,
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s001078",
+    "text": "All I need to do is come here, plug in log n for cycle binding.",
+    "start": 4308870,
+    "end": 4314470,
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s001079",
+    "text": "Therefore this cross code algorithm becomes an E log.",
+    "start": 4314880,
+    "end": 4317760,
+    "confidence": 0.8745117
+  },
+  {
+    "sid": "s001080",
+    "text": "So crossbode itself is very easy.",
+    "start": 4320480,
+    "end": 4322480,
+    "confidence": 0.66503906
+  },
+  {
+    "sid": "s001081",
+    "text": "Sort the edges, go one by one according to the sorted edge list.",
+    "start": 4322560,
+    "end": 4328240,
+    "confidence": 0.99625653
+  },
+  {
+    "sid": "s001082",
+    "text": "If it creates a cycle, don't add it.",
+    "start": 4328480,
+    "end": 4330640,
+    "confidence": 0.99365234
+  },
+  {
+    "sid": "s001083",
+    "text": "If it doesn't create a cycle, add it.",
+    "start": 4330640,
+    "end": 4332400,
+    "confidence": 0.9921875
+  },
+  {
+    "sid": "s001084",
+    "text": "So that's trustworthy.",
+    "start": 4333040,
+    "end": 4334680,
+    "confidence": 0.4711914
+  },
+  {
+    "sid": "s001085",
+    "text": "One sentence.",
+    "start": 4334680,
+    "end": 4335440,
+    "confidence": 0.9086914
+  },
+  {
+    "sid": "s001086",
+    "text": "Second, how do I find cycles via union?",
+    "start": 4336320,
+    "end": 4339200,
+    "confidence": 0.9682617
+  },
+  {
+    "sid": "s001087",
+    "text": "Because I can do it other ways, but it's not.",
+    "start": 4339600,
+    "end": 4341430,
+    "confidence": 0.9873047
+  },
+  {
+    "sid": "s001088",
+    "text": "This is very efficient and very simple to maintain.",
+    "start": 4342300,
+    "end": 4345100,
+    "confidence": 0.9873047
+  },
+  {
+    "sid": "s001089",
+    "text": "Yes.",
+    "start": 4345180,
+    "end": 4345660,
+    "confidence": 0.99609375
+  },
+  {
+    "sid": "s001090",
+    "text": "Why is it unified every node?",
+    "start": 4345980,
+    "end": 4350940,
+    "confidence": 0.9667969
+  },
+  {
+    "sid": "s001091",
+    "text": "The problem is so.",
+    "start": 4353340,
+    "end": 4354580,
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s001092",
+    "text": "Yeah, that's a good question.",
+    "start": 4354580,
+    "end": 4355900,
+    "confidence": 0.9996745
+  },
+  {
+    "sid": "s001093",
+    "text": "If so, his suggestion is why don't I do that?",
+    "start": 4356940,
+    "end": 4365660,
+    "confidence": 0.7910156
+  },
+  {
+    "sid": "s001094",
+    "text": "So for this group I put in constant time, right?",
+    "start": 4365660,
+    "end": 4369330,
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s001095",
+    "text": "I can find the root, the name of the cell.",
+    "start": 4369330,
+    "end": 4371930,
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s001096",
+    "text": "What about this cell though?",
+    "start": 4372010,
+    "end": 4373370,
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s001097",
+    "text": "Same thing.",
+    "start": 4373370,
+    "end": 4373930,
+    "confidence": 0.8095703
+  },
+  {
+    "sid": "s001098",
+    "text": "So how long does it take to do find here?",
+    "start": 4375850,
+    "end": 4377850,
+    "confidence": 0.99365234
+  },
+  {
+    "sid": "s001099",
+    "text": "How long does it take to reunion N?",
+    "start": 4380410,
+    "end": 4387050,
+    "confidence": 0.99560547
+  },
+  {
+    "sid": "s001100",
+    "text": "So you saved on find from log n to 1.",
+    "start": 4388410,
+    "end": 4392570,
+    "confidence": 0.8173828
+  },
+  {
+    "sid": "s001101",
+    "text": "Now you did your union from log n to n. And if you're doing a bunch of union that you make, then your dominant number is N, not log n. So usually in many lectures I start actually with this solution where union is slow, finding is fast.",
+    "start": 4392890,
+    "end": 4408660,
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s001102",
+    "text": "There is another solution like this, a very long path here.",
+    "start": 4408660,
+    "end": 4415660,
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s001103",
+    "text": "Union is very easy.",
+    "start": 4415660,
+    "end": 4416940,
+    "confidence": 0.99780273
+  },
+  {
+    "sid": "s001104",
+    "text": "The last one points to the last, the first one to the last one, but find the unit here.",
+    "start": 4416940,
+    "end": 4421230,
+    "confidence": 0.9970703
+  },
+  {
+    "sid": "s001105",
+    "text": "So I start by saying this is not good because union dominates.",
+    "start": 4422020,
+    "end": 4425780,
+    "confidence": 0.7705078
+  },
+  {
+    "sid": "s001106",
+    "text": "This is not good because find dominates.",
+    "start": 4425780,
+    "end": 4428060,
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s001107",
+    "text": "Let's find something, a middle ground where both of them are kind of reasonable.",
+    "start": 4428060,
+    "end": 4432100,
+    "confidence": 0.9794922
+  },
+  {
+    "sid": "s001108",
+    "text": "Then it's the idea of balance theory.",
+    "start": 4432180,
+    "end": 4434180,
+    "confidence": 0.9946289
+  },
+  {
+    "sid": "s001109",
+    "text": "Make sure you are comfortable with mst.",
+    "start": 4438260,
+    "end": 4439940,
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s001110",
+    "text": "MST theorem.",
+    "start": 4440180,
+    "end": 4441140,
+    "confidence": 0.9831543
+  },
+  {
+    "sid": "s001111",
+    "text": "That's number one.",
+    "start": 4441140,
+    "end": 4441940,
+    "confidence": 0.9970703
+  },
+  {
+    "sid": "s001112",
+    "text": "Once you have that, you probably can do your own algorithm.",
+    "start": 4442100,
+    "end": 4444580,
+    "confidence": 0.98779297
+  },
+  {
+    "sid": "s001113",
+    "text": "But which MST theory?",
+    "start": 4445620,
+    "end": 4446850,
+    "confidence": 0.6982422
+  },
+  {
+    "sid": "s001114",
+    "text": "There are two algorithms.",
+    "start": 4447080,
+    "end": 4448120,
+    "confidence": 0.75341797
+  },
+  {
+    "sid": "s001115",
+    "text": "Trim one vertex at a time.",
+    "start": 4448280,
+    "end": 4450440,
+    "confidence": 0.92163086
+  },
+  {
+    "sid": "s001116",
+    "text": "Two implementation vertex centric or H centric.",
+    "start": 4450440,
+    "end": 4453880,
+    "confidence": 0.91748047
+  },
+  {
+    "sid": "s001117",
+    "text": "Exactly like nice with cross goals.",
+    "start": 4453880,
+    "end": 4457080,
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s001118",
+    "text": "Sort the edges, keep track of cycles.",
+    "start": 4457080,
+    "end": 4459440,
+    "confidence": 0.9013672
+  },
+  {
+    "sid": "s001119",
+    "text": "Vi we need the top of this video to using them a lot in the exam future.",
+    "start": 4459440,
+    "end": 4465800,
+    "confidence": 0.28881836
+  }
+]

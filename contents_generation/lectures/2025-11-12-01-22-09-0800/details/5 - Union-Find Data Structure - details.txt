@@ -1,0 +1,47 @@
+# 5. Union-Find Data Structure
+
+The Union-Find data structure is introduced as a solution to efficiently manage a collection of disjoint sets, allowing for two primary operations: determining if two elements belong to the same set ("find") and merging two sets into one ("union"). This structure is particularly useful for algorithms like Kruskal's, where quick cycle detection is crucial.
+
+## 📚 What is the Union-Find Problem?
+
+The Union-Find problem involves managing a collection of *disjoint sets* of elements. ⟦s000942⟧ The core operations are:
+*   **Find**: Given two elements, A and B, determine if they belong to the *same set*. ⟦s000947, s000948, s000951, s000952⟧ For example, if 8 and 12 are in the same set, the answer is "yes"; if 7 and 6 are in different sets, the answer is "no". ⟦s000949, s000950⟧
+*   **Union**: Merge two existing sets into a single, combined set. ⟦s000954, s000956⟧ Once a union operation is performed, the merged sets remain as one permanently; they cannot be broken back into their original subsets. ⟦s000959, s000960, s000965⟧
+
+These "union" and "find" operations can be performed in any order and any number of times. ⟦s000969, s000971, s000977, s000978⟧
+
+## ⚙️ Representing Sets with Rooted Trees
+
+To solve the Union-Find problem, each set is represented as a *rooted tree*. ⟦s000988, s000991⟧ Initially, each element starts as its own set, meaning each element is a single node that is also the root of its own tree. ⟦s000990, s000991⟧ When a union operation occurs between two sets (represented by trees A and B), one tree's root is made to point to the other tree's root, effectively merging them into a single rooted tree. ⟦s000993, s000994, s000995⟧ The root of a tree serves as the *name* or identifier for that entire set. ⟦s001018, s001019, s001022⟧
+
+## 🔍 The "Find" Operation
+
+To perform a *find* operation for two elements, say A and C, the process involves traversing from each element up to the root of its respective tree. ⟦s000996, s000997, s001002⟧ If the roots of the two trees are the same, it means elements A and C are in the same set, and the "find" operation returns "yes". ⟦s001003, s001004, s001005⟧ If the roots are different, then A and C are in different sets, and the "find" operation returns "no". ⟦s001006, s001010⟧
+
+## 🤝 The "Union" Operation
+
+When performing a *union* operation between two sets (represented by two rooted trees), the strategy is to attach the root of the *smaller tree* to the root of the *larger tree*. ⟦s001040⟧ This approach helps to maintain the efficiency of the data structure. ⟦s001042, s001043⟧ The union operation itself can be done in constant time by simply updating one pointer. ⟦s001064⟧
+
+## 📈 Maintaining Logarithmic Height
+
+A crucial invariant for the efficiency of the Union-Find data structure is that the *height* of any rooted tree should remain *logarithmic* in the size of the set it represents. ⟦s001023, s001030⟧
+*   When a smaller tree is pointed to a larger tree during a union, the height of the combined tree typically remains the same as the larger tree's height. ⟦s001042, s001043⟧
+*   If two trees of the *same size* are united, the height of the combined tree will increase by one. ⟦s001051, s001054, s001055⟧ However, this increase is acceptable because when two trees of size N1 are merged, the new tree has 2N1 vertices. ⟦s001060⟧ Since log(2N1) equals log(N1) + 1, the height increase by one is consistent with maintaining a logarithmic height relative to the new, doubled size of the set. ⟦s001061, s001062, s001063⟧ This invariant ensures that the height of any tree is always less than or equal to the logarithm of the total number of vertices, N. ⟦s001032, s001034⟧
+
+## ⏱️ Performance of Union-Find Operations
+
+With the strategy of maintaining logarithmic tree heights:
+*   A *find* operation takes **logarithmic time** (O(log N)), as it involves traversing from an element up to its root, and the height of the tree is logarithmic. ⟦s001035, s001037, s001065⟧
+*   A *union* operation takes **constant time** (O(1)), as it only requires updating a single pointer to merge the roots of two trees. ⟦s001064⟧
+
+## 🔗 Application to Kruskal's Algorithm
+
+The Union-Find data structure is the *main data structure* used in Kruskal's algorithm for finding a Minimum Spanning Tree (MST). ⟦s001076⟧
+*   In Kruskal's algorithm, edges are sorted by weight, and then processed one by one. ⟦s001081⟧
+*   For each edge, the algorithm needs to determine if adding it would create a *cycle* with the edges already included in the MST. ⟦s000918, s001070⟧
+*   This cycle detection is efficiently handled by Union-Find:
+    *   Each connected component (or subtree) formed by the edges already added is treated as a set in the Union-Find structure. ⟦s001067, s001068, s001069⟧
+    *   To check if an edge (connecting two vertices) creates a cycle, a "find" operation is performed on its two endpoints. ⟦s001071⟧
+    *   If both endpoints belong to the *same set* (i.e., their roots are identical), adding the edge would create a cycle, so it is not added. ⟦s001072, s001073, s001082⟧
+    *   If the endpoints belong to *different sets*, adding the edge will not create a cycle, so it is added to the MST, and a "union" operation is performed on the sets of its two endpoints to merge them into a single component. ⟦s001074, s001075, s001083⟧
+*   By using Union-Find, the cycle detection for each edge takes O(log N) time, where N is the number of vertices. ⟦s001077, s001078⟧ This improves the overall time complexity of Kruskal's algorithm to O(E log E), where E is the number of edges, primarily due to the initial sorting of edges and the E logarithmic-time find operations. ⟦s001079⟧ Previously, a naive depth-first search for cycle detection would result in a much slower O(E²) algorithm. ⟦s000921, s000925, s000926⟧

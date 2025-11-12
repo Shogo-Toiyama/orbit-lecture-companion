@@ -197,9 +197,9 @@ def role_classification_draft(client, gen_model, config_json, lecture_dir: Path,
     with open(lecture_dir / "reviewed_sentences.json", "r", encoding="utf-8") as f:
         sentences = json.load(f)
 
-    ALLOWED = ["sid", "text", "start", "end", "speaker"]
+    ALLOWED_CLASSIFY = ["sid", "text"]
 
-    projected = [{k: s.get(k) for k in ALLOWED} for s in sentences]
+    projected = [{k: s.get(k) for k in ALLOWED_CLASSIFY} for s in sentences]
 
     print("\n --> Separate Json to batches")
     n = len(projected)
@@ -225,9 +225,12 @@ def role_classification_draft(client, gen_model, config_json, lecture_dir: Path,
     labels = out_role_classification.get("labels", [])
     label_map = {lab["sid"]: lab for lab in labels}
 
+    ALLOWED_FINAL = ["sid", "text", "start", "end"]
+    minimum_sentences = [{k: s.get(k) for k in ALLOWED_FINAL} for s in sentences]
+
     merged = []
     missing = []
-    for s in sentences:
+    for s in minimum_sentences:
         sid = s.get("sid")
         lab = label_map.get(sid)
         if lab is None:
@@ -235,21 +238,21 @@ def role_classification_draft(client, gen_model, config_json, lecture_dir: Path,
             merged.append({
                 **s,
                 "role": None,
-                "role_score": None,
-                "role_reason": "missing label"
+                # "role_score": None,
+                # "role_reason": "missing label"
             })
         else:
             merged.append({
                 **s,
                 "role": lab.get("role"),
-                "role_score": lab.get("role_score"),
-                "role_reason": lab.get("role_reason"),
+                # "role_score": lab.get("role_score"),
+                # "role_reason": lab.get("role_reason"),
             })
 
     sentence_sids = {s["sid"] for s in sentences}
     extra = [sid for sid in label_map.keys() if sid not in sentence_sids]
 
-    with open(lecture_dir / "sentences_with_roles.json", "w", encoding="utf-8") as f:
+    with open(lecture_dir / "sentences_final.json", "w", encoding="utf-8") as f:
         json.dump(merged, f, ensure_ascii=False, indent=2)
 
     print(f"merged {len(merged)} sentences -> sentences_with_roles.json")
@@ -279,7 +282,18 @@ def role_review(client, gen_model, config_json, lecture_dir: Path):
     ALLOWED = ["sid", "text", "role", "role_score"]
     projected = [{k: s.get(k) for k in ALLOWED} for s in sentences_with_role]
 
-    low_confidence_sid = [s.get("sid") for s in sentences_with_role if s.get("role_score") < 0.9]
+    low_confidence_sid = []
+    for s in sentences_with_role:
+        sid = s.get("sid")
+        if sid is None:
+            continue
+        try:
+            score = float(s.get("role_score"))
+        except (TypeError, ValueError):
+            continue  # None や非数値文字列は除外
+        if not math.isnan(score) and score < 0.9:
+            low_confidence_sid.append(sid)
+
     print("Low Confident Roles: ", len(low_confidence_sid))
 
     payload = {
@@ -347,7 +361,7 @@ def role_classification(client, gen_model, gen_model_lite, config_json, lecture_
 
     role_classification_draft(client, gen_model_lite, config_json, lecture_dir, max_batch_size, ctx)
 
-    role_review(client, gen_model, config_json, lecture_dir)
+    # role_review(client, gen_model, config_json, lecture_dir)
 
     print("\n✅All tasks of ROLE CLASSIFICATION completed.")
 
@@ -383,7 +397,7 @@ def main():
     flash_lite = "gemini-2.5-flash-lite"
 
     ROOT = Path(__file__).resolve().parent
-    LECTURE_DIR = ROOT / "../lectures/2025-10-31-12-04-37-0700"  # ⚠️ CHANGE FOLDER NAME!!! 🛑
+    LECTURE_DIR = ROOT / "../lectures/2025-11-11-16-38-54-0800"  # ⚠️ CHANGE FOLDER NAME!!! 🛑
 
     role_classification(client, flash, flash_lite, config_json(), LECTURE_DIR)
 

@@ -1,0 +1,2089 @@
+[
+  {
+    "context_before_main_text": [
+      {
+        "sid": "s000268",
+        "text": "Let me do it actually backwards, same equation.",
+        "start": 1587690,
+        "end": 1592340,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000269",
+        "text": "I'm going to write it backwards because that's the way you've been thinking.",
+        "start": 1592820,
+        "end": 1596340,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000270",
+        "text": "Add to that E sub mean, remove from that E cycle, right?",
+        "start": 1596660,
+        "end": 1604820,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000271",
+        "text": "This means.",
+        "start": 1605140,
+        "end": 1605980,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000272",
+        "text": "Let me call it T prime.",
+        "start": 1605980,
+        "end": 1609220,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000273",
+        "text": "So T prime is you add E sub bin this E sub mean and you remove this outside the context of mst.",
+        "start": 1610580,
+        "end": 1622060,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000274",
+        "text": "We've already done this.",
+        "start": 1622060,
+        "end": 1623260,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000275",
+        "text": "If you look at your notes 10 minutes ago, we add an edge and we remove many other edges one at a time from a graph.",
+        "start": 1623260,
+        "end": 1632460,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000276",
+        "text": "If we remove one, we get the or we get eight feedback, right?",
+        "start": 1632540,
+        "end": 1638820,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000277",
+        "text": "That's all I'm doing here.",
+        "start": 1638820,
+        "end": 1640220,
+        "speaker": "A"
+      }
+    ],
+    "main_text": [
+      {
+        "sid": "s000278",
+        "text": "Clear.",
+        "start": 1644550,
+        "end": 1644790,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000279",
+        "text": "Okay.",
+        "start": 1645670,
+        "end": 1646310,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000280",
+        "text": "Weight of T prime got to be less than weight of T contradicting msd because E min is less than E cycle, right?",
+        "start": 1648950,
+        "end": 1673840,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000281",
+        "text": "If I have some money in my pocket and I go buy a hot dog, give them 10 bucks, they give me $2 back, I'm going to have less money because instead of 10, they gave me two.",
+        "start": 1686320,
+        "end": 1699950,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000282",
+        "text": "That's all I'm saying here.",
+        "start": 1701230,
+        "end": 1702750,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000283",
+        "text": "Got rid of this one, added this one.",
+        "start": 1705790,
+        "end": 1710830,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000284",
+        "text": "How was E sub min defined?",
+        "start": 1711470,
+        "end": 1713550,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000285",
+        "text": "As the minimum between left and right.",
+        "start": 1713790,
+        "end": 1716430,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000286",
+        "text": "So E sub min, since it's the minimum between left and right, it's going to be less than that, it's going to be less than that, it's going to be less than that, it's going to be less than that by definition.",
+        "start": 1717870,
+        "end": 1728650,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000287",
+        "text": "By definition of E sub E, therefore I have a better tree structure now.",
+        "start": 1729050,
+        "end": 1734490,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000288",
+        "text": "So contradiction says there is not an MSE with IMI not in it.",
+        "start": 1735450,
+        "end": 1745210,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000289",
+        "text": "Because if there is this one, that cannot be the mst.",
+        "start": 1746140,
+        "end": 1752860,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000290",
+        "text": "And I just prove that because I can reduce its weight.",
+        "start": 1753260,
+        "end": 1756620,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000291",
+        "text": "Okay, so this is called.",
+        "start": 1761419,
+        "end": 1765180,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000292",
+        "text": "So MST theorem is true because of what you prove here.",
+        "start": 1765500,
+        "end": 1770060,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000293",
+        "text": "It means if you do any bipartition of the vertices, you take the minimum one that's got to be in mse.",
+        "start": 1770460,
+        "end": 1778950,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000294",
+        "text": "One of the things that I want to emphasize again is this is true only if the weights are unique.",
+        "start": 1781270,
+        "end": 1787749,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000295",
+        "text": "You can imagine that if the weights are not unique, let's say all the weights are one, then you have many options.",
+        "start": 1788790,
+        "end": 1795910,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000296",
+        "text": "Then I cannot say E sub bin is less than E cy.",
+        "start": 1796310,
+        "end": 1800030,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000297",
+        "text": "I have to say E sub mean is less than or equal to E cyle because they are not unique and therefore I don't have a confederation.",
+        "start": 1800750,
+        "end": 1810350,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000298",
+        "text": "So none of this works directly when the weights are non unique.",
+        "start": 1812350,
+        "end": 1818310,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000299",
+        "text": "It does not work that way.",
+        "start": 1818310,
+        "end": 1820030,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000300",
+        "text": "But later we'll see.",
+        "start": 1820750,
+        "end": 1822030,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000301",
+        "text": "That's a minor issue.",
+        "start": 1822030,
+        "end": 1823470,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000302",
+        "text": "Okay, so now we have a game plan for algorithm.",
+        "start": 1825560,
+        "end": 1829880,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000303",
+        "text": "I'm going to produce a bipartisan of the original graph and I somehow arbitrary randomly, by magic, I will create a bipartisan that will give me an E sub mean.",
+        "start": 1830680,
+        "end": 1851880,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000304",
+        "text": "I put it in the solution.",
+        "start": 1851880,
+        "end": 1853200,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000305",
+        "text": "Why?",
+        "start": 1853990,
+        "end": 1854230,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000306",
+        "text": "Because MST theorem says put that in the solution.",
+        "start": 1854230,
+        "end": 1857590,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000307",
+        "text": "Then I create another bipartition that gives me another E sub min.",
+        "start": 1858150,
+        "end": 1862630,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000308",
+        "text": "I put that in the solution.",
+        "start": 1863030,
+        "end": 1864710,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000309",
+        "text": "I keep doing that.",
+        "start": 1864710,
+        "end": 1865990,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000310",
+        "text": "I just have to make sure that if I create, if this is imi, I want to make sure the next partition doesn't have this as its imi, because then I'm oscillating the same edge over and over.",
+        "start": 1867270,
+        "end": 1882800,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000311",
+        "text": "Waste of time.",
+        "start": 1882960,
+        "end": 1883920,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000312",
+        "text": "I just gotta make sure E sub min changes as I change partitions.",
+        "start": 1884400,
+        "end": 1888720,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000313",
+        "text": "But other than that, this is the game plan.",
+        "start": 1889120,
+        "end": 1891440,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000314",
+        "text": "We will produce a ton of partitions and for each partition I find an E sub min, I output that and I say that's part of MST.",
+        "start": 1892160,
+        "end": 1903440,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000315",
+        "text": "That's all.",
+        "start": 1904650,
+        "end": 1905130,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000316",
+        "text": "How many times we're going to do that?",
+        "start": 1905530,
+        "end": 1907450,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000317",
+        "text": "Precisely N minus one times.",
+        "start": 1907530,
+        "end": 1909850,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000318",
+        "text": "Because the number of edges in an MST is E sub is n minus one.",
+        "start": 1910250,
+        "end": 1916410,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000319",
+        "text": "Any, I don't even need the N part.",
+        "start": 1918970,
+        "end": 1921770,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000320",
+        "text": "Any spanning tree will have exactly N minus one edges.",
+        "start": 1922170,
+        "end": 1925850,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000321",
+        "text": "Okay, so depending on how I do these partitions, what kind of methodology I use to produce these green boundaries, and there are many ways to bring these boundaries that give rise to different algorithms.",
+        "start": 1929370,
+        "end": 1948510,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000322",
+        "text": "There are two central fundamental way of doing its partitions.",
+        "start": 1949150,
+        "end": 1954030,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000323",
+        "text": "One was proposed by Prim, one was proposed by crosscol C R U S K A L. And there are other ways of doing it, but these are the two fundamental ones of doing partitions.",
+        "start": 1955390,
+        "end": 1972290,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000324",
+        "text": "And every time use MST theorem.",
+        "start": 1972770,
+        "end": 1975090,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000325",
+        "text": "So the one that Prim proposed, we're gonna call it Prim's MST algorithm.",
+        "start": 1975730,
+        "end": 1981810,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000326",
+        "text": "The one that crossfold proposal, we're going to call it cross codes mst.",
+        "start": 1981970,
+        "end": 1986390,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000327",
+        "text": "Those are the two we're going to study in this class.",
+        "start": 1987590,
+        "end": 1990070,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000328",
+        "text": "All other variation of MST algorithms are basically variation of these.",
+        "start": 1990550,
+        "end": 1995510,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000329",
+        "text": "So we don't need to study them.",
+        "start": 1996310,
+        "end": 1997990,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000330",
+        "text": "Once we understand these two, we Pretty much understand every MST algorithm.",
+        "start": 1998630,
+        "end": 2003270,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000331",
+        "text": "So, game plan.",
+        "start": 2009600,
+        "end": 2010400,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000332",
+        "text": "I produce a partition, I pick the E min one and I say based on.",
+        "start": 2010640,
+        "end": 2016240,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000333",
+        "text": "I'm going to keep saying that based on E. Based on MST theorem, this has to be the solution.",
+        "start": 2016240,
+        "end": 2022080,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000334",
+        "text": "Then I do another partition like this.",
+        "start": 2022400,
+        "end": 2025760,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000335",
+        "text": "Minimum one is three.",
+        "start": 2028000,
+        "end": 2029600,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000336",
+        "text": "Now I output three and I said this based on MSD theorem.",
+        "start": 2030160,
+        "end": 2035770,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000337",
+        "text": "Three has to be in the solution.",
+        "start": 2035770,
+        "end": 2037530,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000338",
+        "text": "And I do n -1 partition.",
+        "start": 2038570,
+        "end": 2040970,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000339",
+        "text": "Every time a brand new emine has to be the solution.",
+        "start": 2041130,
+        "end": 2044930,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000340",
+        "text": "I'm done.",
+        "start": 2044930,
+        "end": 2045530,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000341",
+        "text": "And every time, for my proof, I'm not going to prove anything.",
+        "start": 2047130,
+        "end": 2050890,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000342",
+        "text": "I say look at MSD theorem.",
+        "start": 2050970,
+        "end": 2053530,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000343",
+        "text": "How do you know this should be the solution?",
+        "start": 2054490,
+        "end": 2056530,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000344",
+        "text": "Look at MSD theorem.",
+        "start": 2056530,
+        "end": 2058010,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000345",
+        "text": "That's the game plan.",
+        "start": 2058010,
+        "end": 2059290,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000346",
+        "text": "Is it clear what the problem is?",
+        "start": 2063060,
+        "end": 2065380,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000347",
+        "text": "How are we going to proceed?",
+        "start": 2065700,
+        "end": 2067220,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000348",
+        "text": "The rest of it is not going to be details.",
+        "start": 2069140,
+        "end": 2072340,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000349",
+        "text": "First, algorithmic details.",
+        "start": 2073540,
+        "end": 2075620,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000350",
+        "text": "How do I produce the partitions one at a time?",
+        "start": 2076980,
+        "end": 2080100,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000351",
+        "text": "A and B how to implement them.",
+        "start": 2080100,
+        "end": 2082740,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000352",
+        "text": "So two levels.",
+        "start": 2082980,
+        "end": 2084060,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000353",
+        "text": "As always, I do the algorithmic one first and I do the data structure one.",
+        "start": 2084060,
+        "end": 2090279,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000354",
+        "text": "The detailed data structure at the end.",
+        "start": 2090919,
+        "end": 2093879,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000355",
+        "text": "Because if something fails with the algorithm, all the discussion about data structure is useless.",
+        "start": 2094039,
+        "end": 2100919,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000356",
+        "text": "So I prefer to do things that way.",
+        "start": 2101479,
+        "end": 2103879,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000357",
+        "text": "I don't want to think about arrays, binary trees, etc.",
+        "start": 2104279,
+        "end": 2108439,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000358",
+        "text": "Right now.",
+        "start": 2108519,
+        "end": 2109239,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000359",
+        "text": "A, that's confusing to me.",
+        "start": 2109719,
+        "end": 2111439,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000360",
+        "text": "Just too many things happen.",
+        "start": 2111439,
+        "end": 2112759,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000361",
+        "text": "B.",
+        "start": 2113420,
+        "end": 2113620,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000362",
+        "text": "If I start using a heap structure and my algorithm has some issue, I've got to go back and change my whole data structure analysis extra work.",
+        "start": 2113620,
+        "end": 2127100,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000363",
+        "text": "I don't feel like it.",
+        "start": 2127100,
+        "end": 2128380,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000364",
+        "text": "Okay, let's do that.",
+        "start": 2129900,
+        "end": 2131500,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000365",
+        "text": "So all I need to do is keep this, because that's the main proof that I need.",
+        "start": 2133980,
+        "end": 2142670,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000366",
+        "text": "Over and over.",
+        "start": 2142670,
+        "end": 2143670,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000367",
+        "text": "6.",
+        "start": 2165200,
+        "end": 2165440,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000368",
+        "text": "Take all the vertices.",
+        "start": 2166240,
+        "end": 2167520,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000369",
+        "text": "Generate V sub 1 and V sub 2 in this manner.",
+        "start": 2172400,
+        "end": 2177120,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000370",
+        "text": "Arbitrary.",
+        "start": 2178160,
+        "end": 2179120,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000371",
+        "text": "Take a vertex, the one you like, the one whose name you like, the one that comes first.",
+        "start": 2179600,
+        "end": 2185200,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000372",
+        "text": "Don't spend time on it.",
+        "start": 2185520,
+        "end": 2187200,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000373",
+        "text": "Don't do things random.",
+        "start": 2187520,
+        "end": 2189200,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000374",
+        "text": "We never do that.",
+        "start": 2189280,
+        "end": 2190400,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000375",
+        "text": "Almost never do that unless there are strong reasons for it.",
+        "start": 2190840,
+        "end": 2194520,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000376",
+        "text": "Because it costs time.",
+        "start": 2194520,
+        "end": 2196040,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000377",
+        "text": "Arbitrary versus random.",
+        "start": 2197080,
+        "end": 2199240,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000378",
+        "text": "Arbitrary versus being smart about picking the first vertex.",
+        "start": 2199640,
+        "end": 2204360,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000379",
+        "text": "Those all take time.",
+        "start": 2204360,
+        "end": 2205880,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000380",
+        "text": "Arbitrary almost doesn't take any time or takes constant time.",
+        "start": 2206120,
+        "end": 2211240,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000381",
+        "text": "First one in the list of V, that's the one we want.",
+        "start": 2211240,
+        "end": 2214520,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000382",
+        "text": "So pick one, put it here.",
+        "start": 2214760,
+        "end": 2216620,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000383",
+        "text": "Take the rest here.",
+        "start": 2217500,
+        "end": 2218860,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000384",
+        "text": "So you have n minus one vertices.",
+        "start": 2219500,
+        "end": 2221900,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000385",
+        "text": "Here you have one vertex.",
+        "start": 2221980,
+        "end": 2224220,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000386",
+        "text": "Okay?",
+        "start": 2228940,
+        "end": 2229580,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000387",
+        "text": "That's what trim says.",
+        "start": 2230620,
+        "end": 2232140,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000388",
+        "text": "Then prim says, look at all the edges between this vertex and all the other vertex.",
+        "start": 2232940,
+        "end": 2241880,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000389",
+        "text": "Equivalently, look at all the edges between this partition and this partition.",
+        "start": 2242510,
+        "end": 2248030,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000390",
+        "text": "But since this partition has one vertex, we can just say between this vertex and everybody else.",
+        "start": 2248190,
+        "end": 2253950,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000391",
+        "text": "How many edges are there between this and everybody else?",
+        "start": 2254110,
+        "end": 2257829,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000392",
+        "text": "We don't know.",
+        "start": 2257829,
+        "end": 2258310,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000393",
+        "text": "It could be 1.",
+        "start": 2258310,
+        "end": 2259230,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000394",
+        "text": "It could be n minus 1.",
+        "start": 2259470,
+        "end": 2261110,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000395",
+        "text": "It could be anywhere in between.",
+        "start": 2261110,
+        "end": 2263790,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000396",
+        "text": "We don't know.",
+        "start": 2264270,
+        "end": 2264990,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000397",
+        "text": "We don't care.",
+        "start": 2264990,
+        "end": 2265710,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000398",
+        "text": "Yeah.",
+        "start": 2266910,
+        "end": 2267390,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000399",
+        "text": "If we had more than one, wouldn't that be considered a cycle?",
+        "start": 2268060,
+        "end": 2271580,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000400",
+        "text": "If you have more than one from left to right.",
+        "start": 2272780,
+        "end": 2275740,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000401",
+        "text": "You mean like this?",
+        "start": 2276860,
+        "end": 2277900,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000402",
+        "text": "I just answered my own question.",
+        "start": 2284220,
+        "end": 2285780,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000403",
+        "text": "Thank you.",
+        "start": 2285780,
+        "end": 2286300,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000404",
+        "text": "No, I answered.",
+        "start": 2286300,
+        "end": 2287340,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000405",
+        "text": "So there are like these two.",
+        "start": 2293990,
+        "end": 2296750,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000406",
+        "text": "There could be one.",
+        "start": 2296750,
+        "end": 2297670,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000407",
+        "text": "There could be n minus one.",
+        "start": 2297910,
+        "end": 2299430,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000408",
+        "text": "Right Trim says take the minimum of all these.",
+        "start": 2299430,
+        "end": 2305670,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000409",
+        "text": "There are 50 of them.",
+        "start": 2307670,
+        "end": 2309630,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000410",
+        "text": "Take the minimum weight and put this edge is sub mean in the mst.",
+        "start": 2309630,
+        "end": 2321600,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000411",
+        "text": "I will output that.",
+        "start": 2321680,
+        "end": 2323120,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000412",
+        "text": "That's what print says.",
+        "start": 2323840,
+        "end": 2325200,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000413",
+        "text": "Okay, now let's take.",
+        "start": 2327120,
+        "end": 2329920,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000414",
+        "text": "Let's do the next partition in this way.",
+        "start": 2330640,
+        "end": 2332960,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000415",
+        "text": "Let's take this vertex and move it to the left.",
+        "start": 2333280,
+        "end": 2336400,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000416",
+        "text": "I have a brand new partition.",
+        "start": 2336880,
+        "end": 2338640,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000417",
+        "text": "2 on the left, n minus 2 on the right.",
+        "start": 2338720,
+        "end": 2341680,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000418",
+        "text": "Let's take the E mean.",
+        "start": 2342720,
+        "end": 2344160,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000419",
+        "text": "Now what does E mean after I moved one to the left?",
+        "start": 2344400,
+        "end": 2348800,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000420",
+        "text": "We don't know.",
+        "start": 2350560,
+        "end": 2351360,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000421",
+        "text": "Could it be this one?",
+        "start": 2351440,
+        "end": 2352800,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000422",
+        "text": "This edge?",
+        "start": 2353200,
+        "end": 2354000,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000423",
+        "text": "For sure.",
+        "start": 2354960,
+        "end": 2355600,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000424",
+        "text": "Could it be this edge?",
+        "start": 2356080,
+        "end": 2357440,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000425",
+        "text": "Could be.",
+        "start": 2357920,
+        "end": 2358560,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000426",
+        "text": "So if I take this and move it to the left, maybe I'm just outputting the same E mean.",
+        "start": 2359920,
+        "end": 2366160,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000427",
+        "text": "And if I keep doing that, I think.",
+        "start": 2366480,
+        "end": 2368960,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000428",
+        "text": "Listen.",
+        "start": 2369280,
+        "end": 2369800,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000429",
+        "text": "E sub min should be in the solution.",
+        "start": 2369800,
+        "end": 2371750,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000430",
+        "text": "Listen again.",
+        "start": 2371990,
+        "end": 2372710,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000431",
+        "text": "E sub min should be in the solution.",
+        "start": 2372710,
+        "end": 2374510,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000432",
+        "text": "Yeah, we get it.",
+        "start": 2374510,
+        "end": 2375430,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000433",
+        "text": "It should be in the solution.",
+        "start": 2375430,
+        "end": 2376630,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000434",
+        "text": "I'm not making any progress.",
+        "start": 2376870,
+        "end": 2378470,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000435",
+        "text": "So moving this to the left and doing an imine is a bad idea.",
+        "start": 2379190,
+        "end": 2385110,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000436",
+        "text": "Instead, what might be a good idea is the following.",
+        "start": 2385990,
+        "end": 2389190,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000437",
+        "text": "Let me call this V sub 1, V sub 2.",
+        "start": 2391750,
+        "end": 2396230,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000438",
+        "text": "Every time the other side of E sub means.",
+        "start": 2397250,
+        "end": 2399490,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000439",
+        "text": "I'm going to call it v sub 2, v sub 3, etc.",
+        "start": 2399490,
+        "end": 2402530,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000440",
+        "text": "Just a naming convention in the original graph.",
+        "start": 2402770,
+        "end": 2406330,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000441",
+        "text": "They may have other names.",
+        "start": 2406330,
+        "end": 2407970,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000442",
+        "text": "5, 18, a W, etc.",
+        "start": 2408450,
+        "end": 2412130,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000443",
+        "text": "Okay, so I'm going to take this movement.",
+        "start": 2413330,
+        "end": 2415810,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000444",
+        "text": "So how does it look like now?",
+        "start": 2415810,
+        "end": 2418290,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000445",
+        "text": "I have V sub 1 here, I have V sub 2 and I have N minus 2 vertices here.",
+        "start": 2418610,
+        "end": 2429460,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000446",
+        "text": "Right?",
+        "start": 2430260,
+        "end": 2430660,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000447",
+        "text": "Now find the E sub the new E sub min.",
+        "start": 2432340,
+        "end": 2436620,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000448",
+        "text": "Let me call this E sub min superscript 1.",
+        "start": 2436620,
+        "end": 2440900,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000449",
+        "text": "Okay.",
+        "start": 2441700,
+        "end": 2442180,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000450",
+        "text": "The next is V sub bin, which may be connected to V sub 2, which may be connected to the V sub 2.",
+        "start": 2442180,
+        "end": 2449310,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000451",
+        "text": "Sorry.",
+        "start": 2449470,
+        "end": 2449870,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000452",
+        "text": "V sub 1 or V sub 2.",
+        "start": 2449870,
+        "end": 2451670,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000453",
+        "text": "I don't know which one.",
+        "start": 2451670,
+        "end": 2452830,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000454",
+        "text": "I don't care.",
+        "start": 2452990,
+        "end": 2453790,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000455",
+        "text": "It depends on the topology of the graph.",
+        "start": 2454190,
+        "end": 2456270,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000456",
+        "text": "The graph looks like, let's say it's connected to here e sub min 2.",
+        "start": 2456270,
+        "end": 2462270,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000457",
+        "text": "So what is the definition of e sub min 2 when I have now two vertices.",
+        "start": 2463870,
+        "end": 2468910,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000458",
+        "text": "And I showed you how I got from one to two vertices.",
+        "start": 2469950,
+        "end": 2473310,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000459",
+        "text": "This, this one is the other end of the original E sub min.",
+        "start": 2473790,
+        "end": 2478120,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000460",
+        "text": "So now this is new E sub min.",
+        "start": 2479800,
+        "end": 2482120,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000461",
+        "text": "I put this in the solution.",
+        "start": 2482200,
+        "end": 2484040,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000462",
+        "text": "Why?",
+        "start": 2484840,
+        "end": 2485240,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000463",
+        "text": "MST theorem. Proof.",
+        "start": 2485640,
+        "end": 2488760,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000464",
+        "text": "MST theorem.",
+        "start": 2489000,
+        "end": 2490200,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000465",
+        "text": "That's it.",
+        "start": 2490360,
+        "end": 2491000,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000466",
+        "text": "You prove MST theorem once.",
+        "start": 2491160,
+        "end": 2493160,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000467",
+        "text": "You just keep using it N minus one time in your rhino, in your pool, in your algorithm.",
+        "start": 2493400,
+        "end": 2501260,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000468",
+        "text": "Okay, so with me so far, so far I have two edges, one and two.",
+        "start": 2503100,
+        "end": 2510060,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000469",
+        "text": "Now you can probably guess what's going to happen.",
+        "start": 2513660,
+        "end": 2515980,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000470",
+        "text": "I go to the other side of V sub min.",
+        "start": 2516700,
+        "end": 2519580,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000471",
+        "text": "Just give it a name, V sub 3.",
+        "start": 2519820,
+        "end": 2521740,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000472",
+        "text": "Next time we're going to have V sub 31 V sub 2 V sub 3.",
+        "start": 2522540,
+        "end": 2529160,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000473",
+        "text": "I have N minus 3 vertices.",
+        "start": 2530440,
+        "end": 2535560,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000474",
+        "text": "I take the new E sub mean, let's say it's connected to here, e sub mean 3.",
+        "start": 2537480,
+        "end": 2543400,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000475",
+        "text": "I will output e sub min 3 as the third edge.",
+        "start": 2543800,
+        "end": 2548680,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000476",
+        "text": "So, so you see, if every time I take the other side, the other vertex of the edge that I just output, I'll make sure that edge E sub mean next time around is going to be all in.",
+        "start": 2550840,
+        "end": 2566570,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000477",
+        "text": "The left side will not go across.",
+        "start": 2566570,
+        "end": 2569090,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000478",
+        "text": "Therefore I'll have a brand new E sub min, which is what I want.",
+        "start": 2569490,
+        "end": 2573490,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000479",
+        "text": "I don't want to repeat the same E sub mean and not make any progress.",
+        "start": 2574290,
+        "end": 2578300,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000480",
+        "text": "So I output 1e sub min 2nd e sub min 3rd e sub min.",
+        "start": 2579570,
+        "end": 2585010,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000481",
+        "text": "I keep doing that.",
+        "start": 2585090,
+        "end": 2587010,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000482",
+        "text": "At the end, I get this, the variable at the end minus 1.",
+        "start": 2587730,
+        "end": 2592450,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000483",
+        "text": "Instead I have V sub 1 through V sub N minus 1.",
+        "start": 2592450,
+        "end": 2596210,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000484",
+        "text": "I have one vertex here I have a brand new E sub min superscript N minus 1.",
+        "start": 2596850,
+        "end": 2606460,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000485",
+        "text": "I put that I output that very last E sub means superscript N minus 1, I move this to the left, I'm done.",
+        "start": 2608140,
+        "end": 2617180,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000486",
+        "text": "Every time I use MSD theorem.",
+        "start": 2618380,
+        "end": 2620780,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000487",
+        "text": "So with confidence, every edge that my output must be in, every msd.",
+        "start": 2620940,
+        "end": 2626060,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000488",
+        "text": "So why is this whole algorithm correct, Prim's algorithm?",
+        "start": 2629430,
+        "end": 2636710,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000489",
+        "text": "Because everything that I output was based on that.",
+        "start": 2636790,
+        "end": 2641270,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000490",
+        "text": "That's it.",
+        "start": 2642470,
+        "end": 2642990,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000491",
+        "text": "That's the proof.",
+        "start": 2642990,
+        "end": 2643830,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000492",
+        "text": "Every step is correct.",
+        "start": 2645269,
+        "end": 2646630,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000493",
+        "text": "Because every step I outputted the right edge again based on that.",
+        "start": 2646630,
+        "end": 2652070,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000494",
+        "text": "Therefore, collectively they are all the right set of edges that I ought to.",
+        "start": 2652230,
+        "end": 2656270,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000495",
+        "text": "That's how I get the final mst.",
+        "start": 2657140,
+        "end": 2659700,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000496",
+        "text": "Okay?",
+        "start": 2664500,
+        "end": 2665060,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000497",
+        "text": "So one step of the algorithm, the ith step, find E sub bin.",
+        "start": 2665620,
+        "end": 2670740,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000498",
+        "text": "In the ith step, the edge that connects this to the other side of E sub B, that edge, output that as your msp dh, move this to the M. That's the I step.",
+        "start": 2670740,
+        "end": 2685470,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000499",
+        "text": "That's all you need to do.",
+        "start": 2685550,
+        "end": 2686830,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000500",
+        "text": "Yes, please.",
+        "start": 2686830,
+        "end": 2687550,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000501",
+        "text": "So within all these steps, didn't we Just output all the edges.",
+        "start": 2687630,
+        "end": 2691390,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000502",
+        "text": "No, there are n square edges sometime, right?",
+        "start": 2692030,
+        "end": 2696510,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000503",
+        "text": "You only output N minus 1 out there.",
+        "start": 2696590,
+        "end": 2699150,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000504",
+        "text": "E sub 3.",
+        "start": 2699150,
+        "end": 2700190,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000505",
+        "text": "Okay?",
+        "start": 2705790,
+        "end": 2706350,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000506",
+        "text": "Yes, sorry.",
+        "start": 2706670,
+        "end": 2708590,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000507",
+        "text": "What if there was an edge that we say A and there was a edge that was more minimum to the edge A and we didn't know cuz that other note was in the second.",
+        "start": 2708590,
+        "end": 2726390,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000508",
+        "text": "You mean if there was something here Happiness that lifting.",
+        "start": 2728150,
+        "end": 2732790,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000509",
+        "text": "We will get to that at some what I mean not we will get to that.",
+        "start": 2733400,
+        "end": 2738760,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000510",
+        "text": "The algorithm will get into that.",
+        "start": 2738760,
+        "end": 2740680,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000511",
+        "text": "Guys, if you have a question, please wait and raise your hand.",
+        "start": 2741560,
+        "end": 2744680,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000512",
+        "text": "Please don't distract others.",
+        "start": 2744920,
+        "end": 2746440,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000513",
+        "text": "So at some point this is going to go to the left.",
+        "start": 2747160,
+        "end": 2750520,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000514",
+        "text": "This becomes e sub min in some partition, so it will not be lost.",
+        "start": 2751080,
+        "end": 2756680,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000515",
+        "text": "In fact, the very first one that's my could be a very large weight age like the nine we had there.",
+        "start": 2757640,
+        "end": 2764820,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000516",
+        "text": "So you are asking what about one?",
+        "start": 2765460,
+        "end": 2768260,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000517",
+        "text": "Why did you output nine?",
+        "start": 2769220,
+        "end": 2770820,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000518",
+        "text": "I will get to one when the partition becomes this.",
+        "start": 2770980,
+        "end": 2774900,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000519",
+        "text": "So don't.",
+        "start": 2778340,
+        "end": 2779140,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000520",
+        "text": "Don't.",
+        "start": 2779220,
+        "end": 2779620,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000521",
+        "text": "I guess don't think.",
+        "start": 2779620,
+        "end": 2780900,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000522",
+        "text": "Did I miss any edges?",
+        "start": 2781060,
+        "end": 2782740,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000523",
+        "text": "Think any edge that I output must be part of MST because of MST theorem.",
+        "start": 2783380,
+        "end": 2789640,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000524",
+        "text": "That's the complement of the way you are stating it.",
+        "start": 2790040,
+        "end": 2793160,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000525",
+        "text": "And the proof comes directly from that.",
+        "start": 2794040,
+        "end": 2796520,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000526",
+        "text": "Every output is a good output.",
+        "start": 2796520,
+        "end": 2798440,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000527",
+        "text": "Okay, so first I have that, then I'm going to write.",
+        "start": 2800600,
+        "end": 2809720,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000528",
+        "text": "Let's say this weight is 4, this way is 6, this way is 2 in parentheses.",
+        "start": 2810040,
+        "end": 2817490,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000529",
+        "text": "I'm going to write 4, 6, 2, etc.",
+        "start": 2817570,
+        "end": 2823010,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000530",
+        "text": "And some vertices may not even be connected to the left might be connected here I'm going to say infinity.",
+        "start": 2824690,
+        "end": 2831330,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000531",
+        "text": "So you may recall this numbering is precisely diaphragma numbering with one difference.",
+        "start": 2832690,
+        "end": 2840430,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000532",
+        "text": "Dijkstra's numbering.",
+        "start": 2841230,
+        "end": 2842990,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000533",
+        "text": "This was the distance to one vertex that we call the source.",
+        "start": 2843950,
+        "end": 2849390,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000534",
+        "text": "The new numbering is the weight to the left to anybody on the left, any vertex.",
+        "start": 2850350,
+        "end": 2856830,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000535",
+        "text": "So this is one H. Dijkstra was a patch.",
+        "start": 2857470,
+        "end": 2862430,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000536",
+        "text": "Other than that, it's the same kind of numbering, the same kind of analysis.",
+        "start": 2863020,
+        "end": 2867340,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000537",
+        "text": "So what's going to happen now is this?",
+        "start": 2869020,
+        "end": 2871260,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000538",
+        "text": "Now I'm ready for details of implementation.",
+        "start": 2872460,
+        "end": 2875260,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000539",
+        "text": "I have an algorithm.",
+        "start": 2875420,
+        "end": 2876740,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000540",
+        "text": "It's correct based on MSP theorem.",
+        "start": 2876740,
+        "end": 2879100,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000541",
+        "text": "I invested time improving that.",
+        "start": 2879340,
+        "end": 2883260,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000542",
+        "text": "It was well worth it because I'm reusing it over and over and I don't need to prove anything else.",
+        "start": 2883660,
+        "end": 2889350,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000543",
+        "text": "Okay, so I'm going to take all these numbers.",
+        "start": 2890950,
+        "end": 2893670,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000544",
+        "text": "I find the minimum of these numbers in how much time order?",
+        "start": 2894310,
+        "end": 2900070,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000545",
+        "text": "N time initially is N minus 1 because there are N minus 1 numbers, some of them infinite, some of them other numbers.",
+        "start": 2900150,
+        "end": 2909350,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000546",
+        "text": "So for the I step, I find the minimum order and time Then when this, let's say this one was moved, so V sub 2 was moved to the left.",
+        "start": 2910390,
+        "end": 2936640,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000547",
+        "text": "After this step There are connections 2v sub 2.",
+        "start": 2937120,
+        "end": 2943610,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000548",
+        "text": "I need to go and maybe update those parameters, those distances.",
+        "start": 2943930,
+        "end": 2950650,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000549",
+        "text": "Because previously maybe the distance to this was 8.",
+        "start": 2951210,
+        "end": 2954970,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000550",
+        "text": "Now this is 3.",
+        "start": 2956010,
+        "end": 2957290,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000551",
+        "text": "So I update this from 8 to 3 because of V sub 2 that I just moved to the next.",
+        "start": 2957770,
+        "end": 2965000,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000552",
+        "text": "And if it happens that the new distance is more than the previous one, then I don't update that.",
+        "start": 2966670,
+        "end": 2973070,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000553",
+        "text": "But in the worst case, I need to go to each and every one of these and update them so the update takes order n time.",
+        "start": 2973630,
+        "end": 2985070,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000554",
+        "text": "Because I may have to update N vertices here.",
+        "start": 2986190,
+        "end": 2990530,
+        "speaker": "A"
+      }
+    ],
+    "context_after_main_text": [
+      {
+        "sid": "s000555",
+        "text": "Yes, of course.",
+        "start": 2990600,
+        "end": 2994360,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000556",
+        "text": "Okay, I have.",
+        "start": 3008920,
+        "end": 3010120,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000557",
+        "text": "Let's say V sub 1.",
+        "start": 3010120,
+        "end": 3011960,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000558",
+        "text": "I have V sub 2.",
+        "start": 3014040,
+        "end": 3015640,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000559",
+        "text": "This is E min.",
+        "start": 3017030,
+        "end": 3018150,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000560",
+        "text": "How did I pick this up too?",
+        "start": 3020950,
+        "end": 3023030,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000561",
+        "text": "I go through all the vertices, look at their connection to the left.",
+        "start": 3023270,
+        "end": 3027990,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000562",
+        "text": "If they don't have a connection, their distance is infinity.",
+        "start": 3028310,
+        "end": 3031350,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000563",
+        "text": "If they have a connection to their left, let's say this is 6, this distance becomes 6 and probably this is 4.",
+        "start": 3032150,
+        "end": 3041622,
+        "speaker": "A"
+      },
+      {
+        "sid": "s000564",
+        "text": "4, that's y equals e sub mu was the minimum possible.",
+        "start": 3041807,
+        "end": 3045920,
+        "speaker": "A"
+      }
+    ]
+  }
+]

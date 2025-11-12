@@ -1,0 +1,22 @@
+# 6. Kruskal's Algorithm: Efficient Implementation
+
+This lecture segment focuses on how Kruskal's Algorithm for finding a Minimum Spanning Tree (MST) achieves efficiency, primarily through the use of the Union-Find data structure. It details how Union-Find detects cycles and contributes to the algorithm's overall time complexity, emphasizing the importance of balancing its operations.
+
+## 📚 Role of Union-Find in Kruskal's Algorithm
+Kruskal's Algorithm utilizes the Union-Find data structure as its main component for efficiently detecting cycles. ⟦s001076, s001086⟧ In the process of building an MST, each subtree formed is represented as a rooted subtree within the Union-Find structure. ⟦s001067, s001068, s001069⟧ This allows the algorithm to determine if adding a new edge would create a cycle. ⟦s001070, s001071⟧
+
+## ⚙️ Mechanism of Cycle Detection
+To check if a new edge, connecting two vertices, creates a cycle, the algorithm performs a "find" operation for each of these vertices. ⟦s001070, s001071⟧ If both vertices belong to the same component (i.e., their "find" operations return the same root), then adding the edge would form a cycle. ⟦s001072, s001073⟧ Conversely, if the vertices are in different components, adding the edge will not create a cycle, and it can be included in the MST. ⟦s001074, s001075⟧
+
+## ⏱️ Time Complexity with Union-Find
+The efficiency of Kruskal's Algorithm is significantly influenced by the Union-Find operations. ⟦s001077⟧ For every edge considered, the algorithm spends logarithmic time (log N) to perform the "find" operation for cycle detection. ⟦s001077, s001078⟧ This integration of Union-Find makes the overall time complexity of Kruskal's Algorithm *E log E*, where E is the number of edges. ⟦s001079⟧
+
+## 💡 Core Steps of Kruskal's Algorithm
+Kruskal's Algorithm itself is straightforward: first, all edges are sorted by weight. ⟦s001081, s001115⟧ Then, the algorithm iterates through this sorted list of edges. ⟦s001081⟧ For each edge, it checks if adding it would create a cycle; if it does, the edge is not added, but if it doesn't, the edge is added to the MST. ⟦s001082, s001083, s001115⟧
+
+## ⚖️ Balancing Union-Find Operations
+Achieving efficiency in Union-Find requires a balance between the "find" and "union" operations. ⟦s001106, s001107⟧ An implementation where "find" is fast (constant time) might make "union" slow (linear time), which is undesirable if many unions are performed. ⟦s001099, s001100, s001104⟧ Conversely, an implementation where "union" is very easy might lead to slow "find" operations. ⟦s001102, s001103, s001105⟧ The goal is to find a middle ground where both operations are reasonably efficient, typically achieving logarithmic time for "find" and nearly constant time for "union" by maintaining a logarithmic height for the trees. ⟦s001065, s001106, s001063⟧
+
+## 🔍 Supplement: Maintaining Logarithmic Height in Union-Find
+*This section is supplemental and not necessarily stated in class.*
+To ensure efficient "find" operations, the Union-Find data structure aims to keep the height of its component trees logarithmic with respect to their size. ⟦s001063, s001065⟧ When performing a "union" operation, especially when combining two trees of the same size, the height of the resulting tree increases by one. ⟦s001051, s001054, s001055⟧ This increase is acceptable because the number of vertices in the combined tree doubles, meaning the logarithmic height property (log(2N1) = log(N1) + 1) is maintained. ⟦s001060, s001061, s001062, s001063⟧ This strategy ensures that "find" operations remain efficient, typically in logarithmic time. ⟦s001065⟧

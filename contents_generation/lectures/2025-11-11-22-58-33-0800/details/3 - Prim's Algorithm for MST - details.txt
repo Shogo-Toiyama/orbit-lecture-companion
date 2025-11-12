@@ -1,0 +1,39 @@
+# 3. Prim's Algorithm for MST
+
+Prim's algorithm is a fundamental method for constructing a Minimum Spanning Tree (MST) by iteratively adding edges based on a specific partitioning strategy. It operates by growing a single component, always selecting the minimum-weight edge that connects a vertex within the growing component to a vertex outside of it, relying on the correctness guaranteed by the MST theorem. This process continues until an MST with N-1 edges is formed.
+
+## 📚 Introduction to Prim's Algorithm
+
+Prim's algorithm is one of two primary methods for finding a Minimum Spanning Tree (MST) in a graph. The algorithm's core strategy involves producing a series of partitions of the graph's vertices and, for each partition, identifying a specific minimum-weight edge. ⟦s000322, s000325, s000332⟧ This approach ensures that the selected edges collectively form an MST. ⟦s000314, s000495⟧
+
+## 🎯 The Foundation: MST Theorem
+
+Prim's algorithm is fundamentally based on the **MST theorem**, which states that if you create any bipartition of the vertices in a graph, the minimum-weight edge (referred to as *E sub min*) that crosses this partition must be included in any MST. ⟦s000293, s000306, s000333, s000463⟧ This theorem provides the confidence that each edge selected by Prim's algorithm is a correct component of the final MST. ⟦s000486, s000489, s000493⟧ A crucial condition for the direct proof of the MST theorem to hold is that *all edge weights must be unique*. ⟦s000294, s000298⟧ If weights are not unique, the proof by contradiction, which relies on *E sub min* being strictly less than other edges, does not directly apply. ⟦s000295, s000296, s000297⟧
+
+## ⚙️ The Iterative Process of Prim's
+
+Prim's algorithm proceeds iteratively, adding one edge at a time to build the MST. ⟦s000557⟧ The process involves N-1 stages, as an MST for N vertices always contains N-1 edges. ⟦s000317, s000318, s000320, s000580, s000586⟧
+
+The steps are as follows:
+1.  **Initial Partition**: Start by selecting an *arbitrary* vertex from the graph. ⟦s000370, s000371, s000381⟧ This chosen vertex forms the initial "left" partition (V sub 1), while all other N-1 vertices constitute the "right" partition (V sub 2). ⟦s000382, s000383, s000384, s000385⟧
+2.  **Select E sub min**: Identify all edges that connect a vertex in the current "left" partition to a vertex in the "right" partition. ⟦s000388, s000389⟧ From these, select the edge with the *minimum weight* (E sub min). ⟦s000408, s000410⟧
+3.  **Add to MST and Update Partition**: Add this selected E sub min to the MST solution. ⟦s000410, s000411, s000461⟧ Then, move the vertex on the "right" side of this E sub min to the "left" partition. ⟦s000415, s000416, s000470, s000476⟧ This ensures that a *brand new E sub min* will be found in the subsequent iteration, preventing the algorithm from repeatedly selecting the same edge. ⟦s000478, s000479, s000658, s000659, s000660⟧
+4.  **Repeat**: Continue steps 2 and 3 for N-1 iterations until N-1 edges have been added to the MST. ⟦s000338, s000481, s000485, s000661⟧ Each edge added is guaranteed to be part of an MST due to the MST theorem. ⟦s000486, s000487, s000663⟧
+
+## ⏱️ Implementation and Runtime Complexity
+
+The implementation of Prim's algorithm shares similarities with Dijkstra's algorithm. ⟦s000531, s000536, s000711, s000714⟧ To efficiently find the E sub min at each step, the algorithm maintains a "distance" for each vertex in the right partition, representing the minimum weight of an edge connecting it to any vertex in the left partition. ⟦s000534, s000548, s000561, s000562, s000572⟧
+
+*   **Basic Implementation (Array-based):**
+    *   In each of the N-1 stages, finding the minimum "distance" among the remaining vertices takes *O(N)* time by scanning an array. ⟦s000544, s000545, s000576, s000577⟧
+    *   After moving a vertex to the left partition, its neighbors' "distances" to the left partition may need to be updated. In the worst case, this update process can also take *O(N)* time. ⟦s000553, s000554, s000577, s000704, s000708⟧
+    *   Therefore, the total runtime for this basic implementation is *O(N^2)* (N-1 stages * (O(N) for finding min + O(N) for updates)). ⟦s000586, s000587, s000627⟧
+
+*   **Optimized Implementation (Heap-based):**
+    *   By using a **heap structure** (like a min-priority queue) to store and retrieve the minimum "distances," the algorithm's efficiency can be significantly improved. ⟦s000635, s000637, s000717⟧
+    *   Each time a vertex is moved to the left partition, its adjacent edges might cause updates to the "distances" of its neighbors in the right partition. ⟦s000547, s000548, s000551, s000570, s000572, s000722⟧ These updates, including insertions or decrease-key operations in a heap, take *O(log E)* or *O(log N)* time. ⟦s000730, s000735⟧
+    *   Since there are E edges in total, and each edge might trigger an update, the overall runtime complexity with a heap is *O(E log E)* or *O(E log N)*. ⟦s000635, s000643, s000647, s000651⟧ The terms log E and log N are often considered to be of the same order in this context. ⟦s000651⟧
+
+## 💡 Prim's as a Vertex-Centric Strategy
+
+Prim's algorithm is characterized as a **vertex-centric algorithm** because it focuses on processing one vertex at a time. ⟦s000737, s000738, s000741⟧ It grows the MST by adding vertices to an expanding component, always choosing the vertex that can be connected with the minimum-weight edge. ⟦s000415, s000416, s000476⟧ This contrasts with other MST algorithms, such as Kruskal's algorithm, which is an *edge-centric* approach that sorts edges by weight and considers them one by one. ⟦s000323, s000742, s000747, s000755⟧

@@ -1,0 +1,7066 @@
+[
+  {
+    "sid": "s000001",
+    "text": "In midterm I may write another algorithm and I say show that this is or is not a minimum spanning tree.",
+    "start": 160,
+    "end": 9280,
+    "speaker": "A",
+    "confidence": 0.7084961
+  },
+  {
+    "sid": "s000002",
+    "text": "If it is, then you gotta show that every step it uses the MSP theorem and you don't duplicate E sub means.",
+    "start": 9360,
+    "end": 17440,
+    "speaker": "A",
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000003",
+    "text": "If I do arbitrary partitions and many of them have the same E sub min then this will will not be a good MSC algorithm.",
+    "start": 18240,
+    "end": 29310,
+    "speaker": "A",
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000004",
+    "text": "So that's how you prove or disprove.",
+    "start": 30750,
+    "end": 33030,
+    "speaker": "A",
+    "confidence": 0.9921875
+  },
+  {
+    "sid": "s000005",
+    "text": "Or I may tell you, come up with your own brand new MSC algorithm.",
+    "start": 33030,
+    "end": 37390,
+    "speaker": "A",
+    "confidence": 0.99072266
+  },
+  {
+    "sid": "s000006",
+    "text": "Do different types of partition so these are the types of questions that might be similar to what we did last week.",
+    "start": 38030,
+    "end": 45870,
+    "speaker": "A",
+    "confidence": 0.3918457
+  },
+  {
+    "sid": "s000007",
+    "text": "Furthermore, you can solving other problems as we shall see.",
+    "start": 46910,
+    "end": 51390,
+    "speaker": "A",
+    "confidence": 0.9983724
+  },
+  {
+    "sid": "s000008",
+    "text": "You can use MSD as part of that.",
+    "start": 51880,
+    "end": 54360,
+    "speaker": "A",
+    "confidence": 0.9814453
+  },
+  {
+    "sid": "s000009",
+    "text": "So we'll be doing that.",
+    "start": 56040,
+    "end": 57320,
+    "speaker": "A",
+    "confidence": 0.79785156
+  },
+  {
+    "sid": "s000010",
+    "text": "And finally the structure of many problems are very similar to the MSD structure.",
+    "start": 57560,
+    "end": 64680,
+    "speaker": "A",
+    "confidence": 0.9667969
+  },
+  {
+    "sid": "s000011",
+    "text": "So you will be seeing those problems today.",
+    "start": 65160,
+    "end": 68119,
+    "speaker": "A",
+    "confidence": 0.9897461
+  },
+  {
+    "sid": "s000012",
+    "text": "Some people ask on how to prepare for the midterm.",
+    "start": 69320,
+    "end": 72600,
+    "speaker": "A",
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000013",
+    "text": "Same thing.",
+    "start": 72920,
+    "end": 73600,
+    "speaker": "A",
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000014",
+    "text": "Make sure you are super comfortable with the lectures.",
+    "start": 73600,
+    "end": 76200,
+    "speaker": "A",
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000015",
+    "text": "You do all the problems in the homeworks and you understand them.",
+    "start": 76600,
+    "end": 80050,
+    "speaker": "A",
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000016",
+    "text": "Getting the solution from the web doesn't really help.",
+    "start": 81480,
+    "end": 84520,
+    "speaker": "A",
+    "confidence": 0.9902344
+  },
+  {
+    "sid": "s000017",
+    "text": "Even if you kind of recreate it yourself.",
+    "start": 85240,
+    "end": 87720,
+    "speaker": "A",
+    "confidence": 0.9716797
+  },
+  {
+    "sid": "s000018",
+    "text": "It's always suggested that you do them from scratch and any extra time you have, just do more and more problems.",
+    "start": 87720,
+    "end": 95400,
+    "speaker": "A",
+    "confidence": 0.9845378
+  },
+  {
+    "sid": "s000019",
+    "text": "That's where you become more versed in doing problems, doing exams, interviews, etc.",
+    "start": 95640,
+    "end": 103960,
+    "speaker": "A",
+    "confidence": 0.8795573
+  },
+  {
+    "sid": "s000020",
+    "text": "And these extra problems are either at the end of the chapters that you've been covering or you can just Google problems in algorithm design.",
+    "start": 104440,
+    "end": 114520,
+    "speaker": "A",
+    "confidence": 0.78759766
+  },
+  {
+    "sid": "s000021",
+    "text": "Problems related to minimum spanning tree.",
+    "start": 114840,
+    "end": 117520,
+    "speaker": "A",
+    "confidence": 0.99975586
+  },
+  {
+    "sid": "s000022",
+    "text": "You're going to get a ton of practice problems on the web.",
+    "start": 117520,
+    "end": 120880,
+    "speaker": "A",
+    "confidence": 0.8491211
+  },
+  {
+    "sid": "s000023",
+    "text": "Those are good practice problems to kind of just move more and more problems.",
+    "start": 120880,
+    "end": 126000,
+    "speaker": "A",
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000024",
+    "text": "So what you want to do any lecture material that you are not comfortable with, now is the time to do it.",
+    "start": 126000,
+    "end": 133280,
+    "speaker": "A",
+    "confidence": 0.9238281
+  },
+  {
+    "sid": "s000025",
+    "text": "Not a couple of days before the midterm.",
+    "start": 133280,
+    "end": 136570,
+    "speaker": "A",
+    "confidence": 0.99609375
+  },
+  {
+    "sid": "s000026",
+    "text": "And in fact I always suggest the night before the midterm, don't do anything, everything has to be done kind of the weekend before.",
+    "start": 138010,
+    "end": 148330,
+    "speaker": "A",
+    "confidence": 0.6923828
+  },
+  {
+    "sid": "s000027",
+    "text": "So Sunday.",
+    "start": 148730,
+    "end": 149450,
+    "speaker": "A",
+    "confidence": 0.94140625
+  },
+  {
+    "sid": "s000028",
+    "text": "Think of that as your internal deadline for getting ready for the midterm.",
+    "start": 149930,
+    "end": 155210,
+    "speaker": "A",
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000029",
+    "text": "So you don't have to lunch to and just relax the night before.",
+    "start": 155370,
+    "end": 158890,
+    "speaker": "A",
+    "confidence": 0.9692383
+  },
+  {
+    "sid": "s000030",
+    "text": "That usually works really well.",
+    "start": 159050,
+    "end": 160510,
+    "speaker": "A",
+    "confidence": 0.9926758
+  },
+  {
+    "sid": "s000031",
+    "text": "Okay, so ie start now please.",
+    "start": 161700,
+    "end": 164100,
+    "speaker": "A",
+    "confidence": 0.9091797
+  },
+  {
+    "sid": "s000032",
+    "text": "If you haven't already done another thing that I've said.",
+    "start": 164900,
+    "end": 170340,
+    "speaker": "A",
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000033",
+    "text": "It's okay to kind of brainstorm with your friends about any problem about homework, kind of really high level.",
+    "start": 170340,
+    "end": 178020,
+    "speaker": "A",
+    "confidence": 0.9921875
+  },
+  {
+    "sid": "s000034",
+    "text": "But at the end you gotta do your own work.",
+    "start": 178340,
+    "end": 180740,
+    "speaker": "A",
+    "confidence": 0.9970703
+  },
+  {
+    "sid": "s000035",
+    "text": "That's the only way to learn.",
+    "start": 180900,
+    "end": 182420,
+    "speaker": "A",
+    "confidence": 0.9983724
+  },
+  {
+    "sid": "s000036",
+    "text": "For example, when I lecture you look at it and you say yeah, yeah, I get that, that's.",
+    "start": 183140,
+    "end": 187810,
+    "speaker": "A",
+    "confidence": 0.9975586
+  },
+  {
+    "sid": "s000037",
+    "text": "But when you try to do it yourself to recreate things yourself.",
+    "start": 188920,
+    "end": 193560,
+    "speaker": "A",
+    "confidence": 0.9848633
+  },
+  {
+    "sid": "s000038",
+    "text": "Then you can do self diagnosis of what things didn't make sense to you.",
+    "start": 193960,
+    "end": 199240,
+    "speaker": "A",
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000039",
+    "text": "And first time it's going to be hard to recreate that.",
+    "start": 199720,
+    "end": 203080,
+    "speaker": "A",
+    "confidence": 0.93847656
+  },
+  {
+    "sid": "s000040",
+    "text": "More and more problems you do, the easier it's going to be.",
+    "start": 204040,
+    "end": 207000,
+    "speaker": "A",
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000041",
+    "text": "So again, that's why I'm talking about it now, not two weeks from now, because now is the time to start preparing for the midterm.",
+    "start": 207480,
+    "end": 215910,
+    "speaker": "A",
+    "confidence": 0.97021484
+  },
+  {
+    "sid": "s000042",
+    "text": "And there are lots of resources available to you.",
+    "start": 216870,
+    "end": 219310,
+    "speaker": "A",
+    "confidence": 0.76464844
+  },
+  {
+    "sid": "s000043",
+    "text": "Of course I'm available ta discussion On Fridays they are there to help you.",
+    "start": 219310,
+    "end": 225790,
+    "speaker": "A",
+    "confidence": 0.98583984
+  },
+  {
+    "sid": "s000044",
+    "text": "Any question you want to take to them, they'll be more than happy to answer.",
+    "start": 225790,
+    "end": 230070,
+    "speaker": "A",
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000045",
+    "text": "Sometimes they don't know the answer to an arbitrary algorithm that you pick up from the web, but they'll go and find the answer and bring it back.",
+    "start": 230630,
+    "end": 239140,
+    "speaker": "A",
+    "confidence": 0.99934894
+  },
+  {
+    "sid": "s000046",
+    "text": "Also their office hours, they have a lot of office hours, Mondays, Tuesdays and Wednesdays.",
+    "start": 240410,
+    "end": 246330,
+    "speaker": "A",
+    "confidence": 0.99316406
+  },
+  {
+    "sid": "s000047",
+    "text": "So please, if you need to, start using those resources.",
+    "start": 246330,
+    "end": 250410,
+    "speaker": "A",
+    "confidence": 0.7739258
+  },
+  {
+    "sid": "s000048",
+    "text": "So far in the past two weeks we have covered this paradigm of the greedy paradigm.",
+    "start": 252970,
+    "end": 259930,
+    "speaker": "A",
+    "confidence": 0.8930664
+  },
+  {
+    "sid": "s000049",
+    "text": "The idea is to make some quick decision in terms of what's going to be the solution.",
+    "start": 260170,
+    "end": 265540,
+    "speaker": "A",
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000050",
+    "text": "Never change your mind on that, never go back and redo it.",
+    "start": 266180,
+    "end": 272260,
+    "speaker": "A",
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000051",
+    "text": "So those algorithms are usually very fast, very efficient, because we don't do any global analysis, as opposed to the other extreme exhaustive search where we look at the entire search space.",
+    "start": 273060,
+    "end": 287620,
+    "speaker": "A",
+    "confidence": 0.9838867
+  },
+  {
+    "sid": "s000052",
+    "text": "That's going to be very slow with greedy because we make quick local decisions, sometimes the proof of correctness is going to be harder than average.",
+    "start": 288020,
+    "end": 298430,
+    "speaker": "A",
+    "confidence": 0.99576825
+  },
+  {
+    "sid": "s000053",
+    "text": "The other extreme exhaustive search, you are looking at every possibility.",
+    "start": 299470,
+    "end": 303230,
+    "speaker": "A",
+    "confidence": 0.98339844
+  },
+  {
+    "sid": "s000054",
+    "text": "So one of them has to be optimal.",
+    "start": 303950,
+    "end": 306190,
+    "speaker": "A",
+    "confidence": 0.99365234
+  },
+  {
+    "sid": "s000055",
+    "text": "So the proof is almost trivial.",
+    "start": 306350,
+    "end": 308430,
+    "speaker": "A",
+    "confidence": 0.9921875
+  },
+  {
+    "sid": "s000056",
+    "text": "But the algorithms are very slow to the extent that they are not practical.",
+    "start": 308910,
+    "end": 313550,
+    "speaker": "A",
+    "confidence": 0.9819336
+  },
+  {
+    "sid": "s000057",
+    "text": "Usually they are exponential time, n, factorial 2 to the n, etc.",
+    "start": 313870,
+    "end": 319080,
+    "speaker": "A",
+    "confidence": 0.9926758
+  },
+  {
+    "sid": "s000058",
+    "text": "So in some sense, 3D might be the other extreme of exhaustive search.",
+    "start": 319560,
+    "end": 324680,
+    "speaker": "A",
+    "confidence": 0.95703125
+  },
+  {
+    "sid": "s000059",
+    "text": "But once we prove its correctness and its time efficiency, like interval scheduling, we can always have this algorithm and be confident that it's going to work every single time.",
+    "start": 325640,
+    "end": 339160,
+    "speaker": "A",
+    "confidence": 0.8544922
+  },
+  {
+    "sid": "s000060",
+    "text": "Today I'm going to talk about a new paradigm.",
+    "start": 342210,
+    "end": 345810,
+    "speaker": "A",
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000061",
+    "text": "As I said, by the end of this course, given a problem that you never seen before, you can think about it and solve it.",
+    "start": 346050,
+    "end": 354370,
+    "speaker": "A",
+    "confidence": 0.9975586
+  },
+  {
+    "sid": "s000062",
+    "text": "But another approach is to consider all the paradigms that we have covered.",
+    "start": 354370,
+    "end": 359810,
+    "speaker": "A",
+    "confidence": 0.98535156
+  },
+  {
+    "sid": "s000063",
+    "text": "So we're going to cover about five paradigms in this course.",
+    "start": 359970,
+    "end": 363250,
+    "speaker": "A",
+    "confidence": 0.9501953
+  },
+  {
+    "sid": "s000064",
+    "text": "Next one is called divide and conquer.",
+    "start": 363810,
+    "end": 366450,
+    "speaker": "A",
+    "confidence": 0.99560547
+  },
+  {
+    "sid": "s000065",
+    "text": "So we will do a few problems and we're going to study divide and conquer, including the sorting problem.",
+    "start": 366930,
+    "end": 373260,
+    "speaker": "A",
+    "confidence": 0.79296875
+  },
+  {
+    "sid": "s000066",
+    "text": "Up to now, I've told you, take it for granted, sorting can be done in n log n time Today we're going to prove it's actually possible.",
+    "start": 373980,
+    "end": 382060,
+    "speaker": "A",
+    "confidence": 0.98876953
+  },
+  {
+    "sid": "s000067",
+    "text": "At least we're going to cover one of the methods for sorting today.",
+    "start": 382460,
+    "end": 387500,
+    "speaker": "A",
+    "confidence": 0.9921875
+  },
+  {
+    "sid": "s000068",
+    "text": "We'll do one more later in this course.",
+    "start": 388300,
+    "end": 390620,
+    "speaker": "A",
+    "confidence": 0.9347331
+  },
+  {
+    "sid": "s000069",
+    "text": "So divide and conquer.",
+    "start": 390940,
+    "end": 392860,
+    "speaker": "A",
+    "confidence": 0.98583984
+  },
+  {
+    "sid": "s000070",
+    "text": "The idea if you have a problem that's very large, usually in terms of size, e.g.",
+    "start": 392860,
+    "end": 400360,
+    "speaker": "A",
+    "confidence": 0.9946289
+  },
+  {
+    "sid": "s000071",
+    "text": "n, if that's the parameter to produce N is a huge value, the problem itself may not be difficult.",
+    "start": 400440,
+    "end": 407320,
+    "speaker": "A",
+    "confidence": 0.9838867
+  },
+  {
+    "sid": "s000072",
+    "text": "What makes it difficult is large value of N. For example, if I give you two numbers and I say sort them almost any way you do it, it's going to be perfect.",
+    "start": 407800,
+    "end": 419880,
+    "speaker": "A",
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000073",
+    "text": "And basically the way you want to do it is you want to compare the two numbers.",
+    "start": 420770,
+    "end": 424210,
+    "speaker": "A",
+    "confidence": 0.8666992
+  },
+  {
+    "sid": "s000074",
+    "text": "Put the smaller one on the left, put the larger one on the right.",
+    "start": 424530,
+    "end": 428850,
+    "speaker": "A",
+    "confidence": 0.7426758
+  },
+  {
+    "sid": "s000075",
+    "text": "That's your algorithm.",
+    "start": 429570,
+    "end": 431010,
+    "speaker": "A",
+    "confidence": 0.9951172
+  },
+  {
+    "sid": "s000076",
+    "text": "Okay, so what makes it hard is if you have a billion numbers or a trillion numbers to sort.",
+    "start": 431650,
+    "end": 438370,
+    "speaker": "A",
+    "confidence": 0.80338544
+  },
+  {
+    "sid": "s000077",
+    "text": "Most of transformers I've taken probably not, but you have to take them AI machine learning.",
+    "start": 440290,
+    "end": 448220,
+    "speaker": "A",
+    "confidence": 0.9848633
+  },
+  {
+    "sid": "s000078",
+    "text": "Typical matrix multiplication is 20 billion by 20 billion.",
+    "start": 449740,
+    "end": 454060,
+    "speaker": "A",
+    "confidence": 0.9934082
+  },
+  {
+    "sid": "s000079",
+    "text": "That's why they need a lot of GPUs and videos to solve them.",
+    "start": 454540,
+    "end": 458460,
+    "speaker": "A",
+    "confidence": 0.98811847
+  },
+  {
+    "sid": "s000080",
+    "text": "So that problem is trivial.",
+    "start": 458860,
+    "end": 461180,
+    "speaker": "A",
+    "confidence": 0.9819336
+  },
+  {
+    "sid": "s000081",
+    "text": "Doing large language models and all that.",
+    "start": 462060,
+    "end": 464580,
+    "speaker": "A",
+    "confidence": 0.7036133
+  },
+  {
+    "sid": "s000082",
+    "text": "If you don't have the word large in there, if you just want to multiply a two by two matrix, that's trivial.",
+    "start": 464580,
+    "end": 472060,
+    "speaker": "A",
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000083",
+    "text": "We have done it many years back in high school, probably.",
+    "start": 472290,
+    "end": 475730,
+    "speaker": "A",
+    "confidence": 0.9482422
+  },
+  {
+    "sid": "s000084",
+    "text": "What makes it hard is 20 billion, 10 billion.",
+    "start": 476210,
+    "end": 480130,
+    "speaker": "A",
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000085",
+    "text": "And every day it's getting bigger and bigger.",
+    "start": 480610,
+    "end": 483250,
+    "speaker": "A",
+    "confidence": 0.98291016
+  },
+  {
+    "sid": "s000086",
+    "text": "That's why efficient algorithm is absolutely necessary.",
+    "start": 483490,
+    "end": 487570,
+    "speaker": "A",
+    "confidence": 0.99658203
+  },
+  {
+    "sid": "s000087",
+    "text": "That's why AI, as people call it, is taken off.",
+    "start": 488129,
+    "end": 492290,
+    "speaker": "A",
+    "confidence": 0.9983724
+  },
+  {
+    "sid": "s000088",
+    "text": "The algorithms have always been there, but not because of powerful hardware and powerful algorithm.",
+    "start": 492690,
+    "end": 500390,
+    "speaker": "A",
+    "confidence": 0.99658203
+  },
+  {
+    "sid": "s000089",
+    "text": "They are enabled to make decisions very quickly.",
+    "start": 501750,
+    "end": 505590,
+    "speaker": "A",
+    "confidence": 0.6845703
+  },
+  {
+    "sid": "s000090",
+    "text": "So when you ask something from ChatGPT, it gives you an answer in three seconds, not two days.",
+    "start": 505910,
+    "end": 512150,
+    "speaker": "A",
+    "confidence": 0.97021484
+  },
+  {
+    "sid": "s000091",
+    "text": "Could have done it in two days many years ago, but today it's real time.",
+    "start": 512950,
+    "end": 518150,
+    "speaker": "A",
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000092",
+    "text": "And it's getting faster and faster again for two reasons.",
+    "start": 518230,
+    "end": 522950,
+    "speaker": "A",
+    "confidence": 0.9658203
+  },
+  {
+    "sid": "s000093",
+    "text": "Better, harder, better algorithms.",
+    "start": 523030,
+    "end": 526210,
+    "speaker": "A",
+    "confidence": 0.94628906
+  },
+  {
+    "sid": "s000094",
+    "text": "And you are at least learning one aspect of it in this course.",
+    "start": 526770,
+    "end": 530770,
+    "speaker": "A",
+    "confidence": 0.89208984
+  },
+  {
+    "sid": "s000095",
+    "text": "Better algorithms.",
+    "start": 530770,
+    "end": 531890,
+    "speaker": "A",
+    "confidence": 0.94970703
+  },
+  {
+    "sid": "s000096",
+    "text": "Okay, so divide and conquer.",
+    "start": 533570,
+    "end": 535890,
+    "speaker": "A",
+    "confidence": 0.8588867
+  },
+  {
+    "sid": "s000097",
+    "text": "You have a large problem.",
+    "start": 535890,
+    "end": 537250,
+    "speaker": "A",
+    "confidence": 0.9873047
+  },
+  {
+    "sid": "s000098",
+    "text": "We just talked about that.",
+    "start": 537730,
+    "end": 539330,
+    "speaker": "A",
+    "confidence": 0.95703125
+  },
+  {
+    "sid": "s000099",
+    "text": "The smaller problems are easy.",
+    "start": 539330,
+    "end": 541410,
+    "speaker": "A",
+    "confidence": 0.9267578
+  },
+  {
+    "sid": "s000100",
+    "text": "So maybe our approach is to take this large problem and divide it into two smaller problems.",
+    "start": 541730,
+    "end": 547970,
+    "speaker": "A",
+    "confidence": 0.9926758
+  },
+  {
+    "sid": "s000101",
+    "text": "And usually a balance a smaller problems.",
+    "start": 548130,
+    "end": 551740,
+    "speaker": "A",
+    "confidence": 0.96435547
+  },
+  {
+    "sid": "s000102",
+    "text": "If you have a million of numbers doing one number on one side and 1 million minus one on the other side, that's not going to simplify anything.",
+    "start": 553420,
+    "end": 566140,
+    "speaker": "A",
+    "confidence": 0.9970703
+  },
+  {
+    "sid": "s000103",
+    "text": "But if you do both of them at 500k, maybe that's better, kind of more balanced.",
+    "start": 566459,
+    "end": 573100,
+    "speaker": "A",
+    "confidence": 0.97021484
+  },
+  {
+    "sid": "s000104",
+    "text": "Now maybe 500k numbers is already difficult.",
+    "start": 573500,
+    "end": 577530,
+    "speaker": "A",
+    "confidence": 0.81884766
+  },
+  {
+    "sid": "s000105",
+    "text": "You divide it into each of them into two sub problems of 250k, so on and so forth, till the problem gets small enough that we know how to solve the trivia.",
+    "start": 577530,
+    "end": 590090,
+    "speaker": "A",
+    "confidence": 0.9536133
+  },
+  {
+    "sid": "s000106",
+    "text": "So this idea is called divide and conquer.",
+    "start": 593770,
+    "end": 596730,
+    "speaker": "A",
+    "confidence": 0.9663086
+  },
+  {
+    "sid": "s000107",
+    "text": "A couple of things.",
+    "start": 596730,
+    "end": 597850,
+    "speaker": "A",
+    "confidence": 0.99316406
+  },
+  {
+    "sid": "s000108",
+    "text": "One, if we divide and conquer, we got it.",
+    "start": 598490,
+    "end": 602330,
+    "speaker": "A",
+    "confidence": 0.99121094
+  },
+  {
+    "sid": "s000109",
+    "text": "Be able to divide the problem roughly equally, exact equal doesn't matter.",
+    "start": 602610,
+    "end": 609410,
+    "speaker": "A",
+    "confidence": 0.9589844
+  },
+  {
+    "sid": "s000110",
+    "text": "And we'll see that when I do time complexity analysis.",
+    "start": 609730,
+    "end": 613090,
+    "speaker": "A",
+    "confidence": 0.9746094
+  },
+  {
+    "sid": "s000111",
+    "text": "If it's 400K and 600K, that's good enough.",
+    "start": 613410,
+    "end": 617250,
+    "speaker": "A",
+    "confidence": 0.80615234
+  },
+  {
+    "sid": "s000112",
+    "text": "We don't need to stress over exactly 500k, as you shall see.",
+    "start": 617570,
+    "end": 622850,
+    "speaker": "A",
+    "confidence": 0.96972656
+  },
+  {
+    "sid": "s000113",
+    "text": "Why when you do the numbers B, I gotta be able to recursively divide into half, half.",
+    "start": 622850,
+    "end": 631080,
+    "speaker": "A",
+    "confidence": 0.92285156
+  },
+  {
+    "sid": "s000114",
+    "text": "Half and half is just an example.",
+    "start": 631080,
+    "end": 633560,
+    "speaker": "A",
+    "confidence": 1.0
+  },
+  {
+    "sid": "s000115",
+    "text": "It could be divided by three, it could be divided by eight.",
+    "start": 633640,
+    "end": 636920,
+    "speaker": "A",
+    "confidence": 0.9868164
+  },
+  {
+    "sid": "s000116",
+    "text": "Typically half is the easiest most problem that you're going to look at is going to be dividing a problem in half recursively.",
+    "start": 637960,
+    "end": 646440,
+    "speaker": "A",
+    "confidence": 0.99438477
+  },
+  {
+    "sid": "s000117",
+    "text": "Because one half is not going to do me any good.",
+    "start": 647000,
+    "end": 650120,
+    "speaker": "A",
+    "confidence": 0.8955078
+  },
+  {
+    "sid": "s000118",
+    "text": "If a billion is difficult, 500 means.",
+    "start": 650360,
+    "end": 653980,
+    "speaker": "A",
+    "confidence": 0.9589844
+  },
+  {
+    "sid": "s000119",
+    "text": "But if I can keep doing it till the problem size gets to a thousand or a hundred or ten, then maybe I have an approach.",
+    "start": 655890,
+    "end": 664210,
+    "speaker": "A",
+    "confidence": 0.8540039
+  },
+  {
+    "sid": "s000120",
+    "text": "So be able to divide it quickly.",
+    "start": 665250,
+    "end": 667730,
+    "speaker": "A",
+    "confidence": 0.9838867
+  },
+  {
+    "sid": "s000121",
+    "text": "If I have to spend n cube time or two to the n time or something like that to divide the problem, that defeats the purpose.",
+    "start": 668130,
+    "end": 676610,
+    "speaker": "A",
+    "confidence": 0.99609375
+  },
+  {
+    "sid": "s000122",
+    "text": "So number one yellow to divide it, be able to divide it recursively, meaning multiple times and be able to divide it fast, efficiently.",
+    "start": 677010,
+    "end": 687230,
+    "speaker": "A",
+    "confidence": 0.9873047
+  },
+  {
+    "sid": "s000123",
+    "text": "Those are all requirements of divide and conquer.",
+    "start": 687710,
+    "end": 690750,
+    "speaker": "A",
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000124",
+    "text": "And finally, when I put the sub problems back together, that's going to be also done efficiently.",
+    "start": 691150,
+    "end": 697630,
+    "speaker": "A",
+    "confidence": 0.98583984
+  },
+  {
+    "sid": "s000125",
+    "text": "Again, you know, I have to spend n cubed time to put two solved problems back together to solve the larger problem.",
+    "start": 699150,
+    "end": 706790,
+    "speaker": "A",
+    "confidence": 0.97558594
+  },
+  {
+    "sid": "s000126",
+    "text": "That defeats the purpose of divide and convert.",
+    "start": 706790,
+    "end": 710630,
+    "speaker": "A",
+    "confidence": 0.9946289
+  },
+  {
+    "sid": "s000127",
+    "text": "So divide efficiently, putting it back together efficiently and be able to do it recursively.",
+    "start": 711190,
+    "end": 718470,
+    "speaker": "A",
+    "confidence": 0.9760742
+  },
+  {
+    "sid": "s000128",
+    "text": "These are the three requirements of divide and conquer.",
+    "start": 718470,
+    "end": 721430,
+    "speaker": "A",
+    "confidence": 0.99609375
+  },
+  {
+    "sid": "s000129",
+    "text": "So the first problem I'm going to discuss is sorting.",
+    "start": 722310,
+    "end": 726150,
+    "speaker": "A",
+    "confidence": 0.92626953
+  },
+  {
+    "sid": "s000130",
+    "text": "And the algorithm is called D divide and conquer sorting methodology.",
+    "start": 729510,
+    "end": 733730,
+    "speaker": "A",
+    "confidence": 0.9951172
+  },
+  {
+    "sid": "s000131",
+    "text": "Some people also call it merge sorting or simply merge sort.",
+    "start": 735010,
+    "end": 741250,
+    "speaker": "A",
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000132",
+    "text": "You might have seen it in your programming process.",
+    "start": 741650,
+    "end": 744130,
+    "speaker": "A",
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000133",
+    "text": "But here as usual, we're going to treat it very rigorously.",
+    "start": 744450,
+    "end": 748290,
+    "speaker": "A",
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000134",
+    "text": "We're going to prove its correctness.",
+    "start": 748370,
+    "end": 750450,
+    "speaker": "A",
+    "confidence": 0.8284505
+  },
+  {
+    "sid": "s000135",
+    "text": "We are actually going to show its optimal time.",
+    "start": 750610,
+    "end": 753130,
+    "speaker": "A",
+    "confidence": 0.5786133
+  },
+  {
+    "sid": "s000136",
+    "text": "Optimal.",
+    "start": 753130,
+    "end": 753890,
+    "speaker": "A",
+    "confidence": 0.9506836
+  },
+  {
+    "sid": "s000137",
+    "text": "Okay, so with that, if I have numbers like 7, 4, 2, 6, this is my 1 billion or 1 trillion set of numbers.",
+    "start": 757500,
+    "end": 774220,
+    "speaker": "A",
+    "confidence": 0.8929036
+  },
+  {
+    "sid": "s000138",
+    "text": "By way of example, that N is 4 here.",
+    "start": 775420,
+    "end": 779260,
+    "speaker": "A",
+    "confidence": 0.8886719
+  },
+  {
+    "sid": "s000139",
+    "text": "So the first thing I want to do is I want to divide the problem roughly in the middle.",
+    "start": 780300,
+    "end": 785750,
+    "speaker": "A",
+    "confidence": 0.9941406
+  },
+  {
+    "sid": "s000140",
+    "text": "As long as if I have n numbers, as long as I can partition it into each side being some constant times N this has to be a constant 1/2, 1/3, et cetera.",
+    "start": 786870,
+    "end": 801910,
+    "speaker": "A",
+    "confidence": 0.9790039
+  },
+  {
+    "sid": "s000141",
+    "text": "That's good enough in terms of asymptotic analysis.",
+    "start": 802150,
+    "end": 805910,
+    "speaker": "A",
+    "confidence": 0.9983724
+  },
+  {
+    "sid": "s000142",
+    "text": "So of course here it's fairly easy to do exactly half.",
+    "start": 807190,
+    "end": 811090,
+    "speaker": "A",
+    "confidence": 0.97314453
+  },
+  {
+    "sid": "s000143",
+    "text": "But in general, if we can do it half, that's okay.",
+    "start": 811410,
+    "end": 815170,
+    "speaker": "A",
+    "confidence": 0.99365234
+  },
+  {
+    "sid": "s000144",
+    "text": "Okay, so I do that and I say, now each sub problem has two numbers.",
+    "start": 817810,
+    "end": 823170,
+    "speaker": "A",
+    "confidence": 0.9454753
+  },
+  {
+    "sid": "s000145",
+    "text": "Do I know how to sort two numbers?",
+    "start": 824129,
+    "end": 826610,
+    "speaker": "A",
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000146",
+    "text": "The answer is yes or no.",
+    "start": 826930,
+    "end": 828850,
+    "speaker": "A",
+    "confidence": 0.9941406
+  },
+  {
+    "sid": "s000147",
+    "text": "If not, let's say no, I don't know how to sort two numbers.",
+    "start": 829410,
+    "end": 832850,
+    "speaker": "A",
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000148",
+    "text": "That's as difficult as sorting the general problem.",
+    "start": 832850,
+    "end": 836370,
+    "speaker": "A",
+    "confidence": 0.9866536
+  },
+  {
+    "sid": "s000149",
+    "text": "I take each of them and again divide it into half groups.",
+    "start": 836770,
+    "end": 842130,
+    "speaker": "A",
+    "confidence": 0.9975586
+  },
+  {
+    "sid": "s000150",
+    "text": "So here I'm getting this half group, I'm getting this half group.",
+    "start": 842450,
+    "end": 847250,
+    "speaker": "A",
+    "confidence": 0.9169922
+  },
+  {
+    "sid": "s000151",
+    "text": "Here I'm getting this half group and this other half group.",
+    "start": 849010,
+    "end": 853810,
+    "speaker": "A",
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000152",
+    "text": "So in two levels, first I went from four to two sets of two.",
+    "start": 854690,
+    "end": 860780,
+    "speaker": "A",
+    "confidence": 0.9946289
+  },
+  {
+    "sid": "s000153",
+    "text": "Then each of those sets of two, I go to two sets of one.",
+    "start": 861260,
+    "end": 865420,
+    "speaker": "A",
+    "confidence": 0.98583984
+  },
+  {
+    "sid": "s000154",
+    "text": "So from one problem of size four, now I have four problems of size one.",
+    "start": 865820,
+    "end": 871820,
+    "speaker": "A",
+    "confidence": 0.98876953
+  },
+  {
+    "sid": "s000155",
+    "text": "That's the whole notion of recursion.",
+    "start": 872940,
+    "end": 875420,
+    "speaker": "A",
+    "confidence": 0.98095703
+  },
+  {
+    "sid": "s000156",
+    "text": "Be able to keep dividing till the problem becomes easy enough.",
+    "start": 875660,
+    "end": 881100,
+    "speaker": "A",
+    "confidence": 0.7373047
+  },
+  {
+    "sid": "s000157",
+    "text": "That's the first direction of divide and conquer.",
+    "start": 884380,
+    "end": 889840,
+    "speaker": "A",
+    "confidence": 0.82145184
+  },
+  {
+    "sid": "s000158",
+    "text": "So now I get to these and I say, do I know how to sort a list of one number?",
+    "start": 890400,
+    "end": 895760,
+    "speaker": "A",
+    "confidence": 0.97753906
+  },
+  {
+    "sid": "s000159",
+    "text": "And the answer is yes, it's already sorted.",
+    "start": 896240,
+    "end": 898640,
+    "speaker": "A",
+    "confidence": 0.99609375
+  },
+  {
+    "sid": "s000160",
+    "text": "So each of these is going to be sorted already.",
+    "start": 899280,
+    "end": 903040,
+    "speaker": "A",
+    "confidence": 0.82470703
+  },
+  {
+    "sid": "s000161",
+    "text": "So yeah, I know how to sort one number or two numbers or 18 numbers, whatever that is.",
+    "start": 903600,
+    "end": 910320,
+    "speaker": "A",
+    "confidence": 0.9819336
+  },
+  {
+    "sid": "s000162",
+    "text": "You stop at that level that you feel it's very comfortable and easy and it's okay to go all the way to the base case.",
+    "start": 910400,
+    "end": 919050,
+    "speaker": "A",
+    "confidence": 0.83251953
+  },
+  {
+    "sid": "s000163",
+    "text": "Okay, so that this is sorted, this is sorted, this is sorted, and this is sorted.",
+    "start": 920330,
+    "end": 931610,
+    "speaker": "A",
+    "confidence": 0.90527344
+  },
+  {
+    "sid": "s000164",
+    "text": "Now I start merging them.",
+    "start": 932090,
+    "end": 935370,
+    "speaker": "A",
+    "confidence": 0.9970703
+  },
+  {
+    "sid": "s000165",
+    "text": "That's why this is called in some literature merge sort.",
+    "start": 935370,
+    "end": 940190,
+    "speaker": "A",
+    "confidence": 0.9978841
+  },
+  {
+    "sid": "s000166",
+    "text": "So I take this list of one number and this list of one number, two different lists, and I merge them into one sorted list.",
+    "start": 942110,
+    "end": 952990,
+    "speaker": "A",
+    "confidence": 0.9819336
+  },
+  {
+    "sid": "s000167",
+    "text": "So the idea is if I have list one and list two and each of them are sorted internally, how do I go to a big list that is also sorted?",
+    "start": 953870,
+    "end": 979080,
+    "speaker": "A",
+    "confidence": 0.9926758
+  },
+  {
+    "sid": "s000168",
+    "text": "The output, the final list, that's the problem to be solved.",
+    "start": 979320,
+    "end": 983880,
+    "speaker": "A",
+    "confidence": 0.8725586
+  },
+  {
+    "sid": "s000169",
+    "text": "And in a sec I'm just going to focus on this.",
+    "start": 984040,
+    "end": 987320,
+    "speaker": "A",
+    "confidence": 0.92333984
+  },
+  {
+    "sid": "s000170",
+    "text": "So the meat of merge sort and divide and contra methodology is the merge step.",
+    "start": 988670,
+    "end": 994990,
+    "speaker": "A",
+    "confidence": 0.9868164
+  },
+  {
+    "sid": "s000171",
+    "text": "The rest of it is just dividing the number by two.",
+    "start": 995310,
+    "end": 998430,
+    "speaker": "A",
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000172",
+    "text": "Managing and organizing is not much of an algorithmic approach.",
+    "start": 998750,
+    "end": 1003789,
+    "speaker": "A",
+    "confidence": 0.99780273
+  },
+  {
+    "sid": "s000173",
+    "text": "The merge part is, and that's why this is called merge sort of.",
+    "start": 1004190,
+    "end": 1012930,
+    "speaker": "A",
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000174",
+    "text": "Okay, so I merge these two into one sorted list.",
+    "start": 1014440,
+    "end": 1018440,
+    "speaker": "A",
+    "confidence": 0.9593099
+  },
+  {
+    "sid": "s000175",
+    "text": "That's four, seven.",
+    "start": 1018840,
+    "end": 1020440,
+    "speaker": "A",
+    "confidence": 0.9770508
+  },
+  {
+    "sid": "s000176",
+    "text": "How do I do the merge algorithm?",
+    "start": 1020920,
+    "end": 1023880,
+    "speaker": "A",
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000177",
+    "text": "We're going to talk about that.",
+    "start": 1023880,
+    "end": 1025480,
+    "speaker": "A",
+    "confidence": 0.92317706
+  },
+  {
+    "sid": "s000178",
+    "text": "For now, trust me, we know how to do this.",
+    "start": 1025800,
+    "end": 1029640,
+    "speaker": "A",
+    "confidence": 0.98583984
+  },
+  {
+    "sid": "s000179",
+    "text": "If you give me two sorted lists, I can merge them into one sorted list.",
+    "start": 1029960,
+    "end": 1036680,
+    "speaker": "A",
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000180",
+    "text": "So we still need to do that.",
+    "start": 1037320,
+    "end": 1038890,
+    "speaker": "A",
+    "confidence": 0.9902344
+  },
+  {
+    "sid": "s000181",
+    "text": "But for now let's again top down approach.",
+    "start": 1038890,
+    "end": 1041730,
+    "speaker": "A",
+    "confidence": 0.9707031
+  },
+  {
+    "sid": "s000182",
+    "text": "We kind of put some subproblems on the side, we focus on the general structure, but we need to go back and solve these side problems as we've been doing throughout the course.",
+    "start": 1042210,
+    "end": 1054370,
+    "speaker": "A",
+    "confidence": 0.88623047
+  },
+  {
+    "sid": "s000183",
+    "text": "I take these two and I sort them into one is two, six.",
+    "start": 1054850,
+    "end": 1060050,
+    "speaker": "A",
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000184",
+    "text": "And then finally I take these two and I sort them, merge them, not sort them into one sorted list, 2, 4, 6, 7.",
+    "start": 1061970,
+    "end": 1072350,
+    "speaker": "A",
+    "confidence": 0.99121094
+  },
+  {
+    "sid": "s000185",
+    "text": "So when I end up with one list at the end of the day, I'm done.",
+    "start": 1073550,
+    "end": 1077630,
+    "speaker": "A",
+    "confidence": 0.99560547
+  },
+  {
+    "sid": "s000186",
+    "text": "If I can do the merging properly at each stage, then I'm in good shape.",
+    "start": 1078750,
+    "end": 1084830,
+    "speaker": "A",
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000187",
+    "text": "Okay, so next thing I need to show you this.",
+    "start": 1085390,
+    "end": 1087950,
+    "speaker": "A",
+    "confidence": 0.94417316
+  },
+  {
+    "sid": "s000188",
+    "text": "Say here I have S numbers and I have T numbers here.",
+    "start": 1091080,
+    "end": 1096280,
+    "speaker": "A",
+    "confidence": 0.8305664
+  },
+  {
+    "sid": "s000189",
+    "text": "In many cases S and T are the same number here, roughly N over 2, N over 4, et cetera.",
+    "start": 1098360,
+    "end": 1105560,
+    "speaker": "A",
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000190",
+    "text": "But I said let's not stress about doing exactly half.",
+    "start": 1105640,
+    "end": 1109480,
+    "speaker": "A",
+    "confidence": 0.85253906
+  },
+  {
+    "sid": "s000191",
+    "text": "Therefore I'm not going to make any assumption about the exact number I'm going to get here.",
+    "start": 1109720,
+    "end": 1114760,
+    "speaker": "A",
+    "confidence": 0.99975586
+  },
+  {
+    "sid": "s000192",
+    "text": "For example, if the input size N is not a power of two, obviously some lists are going to be smaller than others.",
+    "start": 1118530,
+    "end": 1128850,
+    "speaker": "A",
+    "confidence": 0.98876953
+  },
+  {
+    "sid": "s000193",
+    "text": "Only when it's power of two, I can always get same size.",
+    "start": 1130130,
+    "end": 1134690,
+    "speaker": "A",
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000194",
+    "text": "But I don't need to put such a constraint on my problem that your input for sorting has to be a power of 2.",
+    "start": 1134930,
+    "end": 1143020,
+    "speaker": "A",
+    "confidence": 0.6459961
+  },
+  {
+    "sid": "s000195",
+    "text": "Okay, so this.",
+    "start": 1143500,
+    "end": 1144940,
+    "speaker": "A",
+    "confidence": 0.7163086
+  },
+  {
+    "sid": "s000196",
+    "text": "So the way I'm going to solve this problem is ask myself what is the value of f sub 1?",
+    "start": 1146140,
+    "end": 1157980,
+    "speaker": "A",
+    "confidence": 0.9868164
+  },
+  {
+    "sid": "s000197",
+    "text": "F sub 1.",
+    "start": 1159580,
+    "end": 1160700,
+    "speaker": "A",
+    "confidence": 0.9897461
+  },
+  {
+    "sid": "s000198",
+    "text": "Knowing that my target is for F to be sorted, F sub of one going to be the smallest value in this list.",
+    "start": 1162460,
+    "end": 1171190,
+    "speaker": "A",
+    "confidence": 0.9941406
+  },
+  {
+    "sid": "s000199",
+    "text": "By definition of sorting, where do I get the smallest value F sub 1?",
+    "start": 1172390,
+    "end": 1180310,
+    "speaker": "A",
+    "confidence": 0.99609375
+  },
+  {
+    "sid": "s000200",
+    "text": "It's going to be either L sub 1 or R sub 1.",
+    "start": 1180470,
+    "end": 1185190,
+    "speaker": "A",
+    "confidence": 0.8959961
+  },
+  {
+    "sid": "s000201",
+    "text": "Which one I don't know.",
+    "start": 1186470,
+    "end": 1188790,
+    "speaker": "A",
+    "confidence": 0.9975586
+  },
+  {
+    "sid": "s000202",
+    "text": "It's one of them.",
+    "start": 1189590,
+    "end": 1190710,
+    "speaker": "A",
+    "confidence": 0.9972331
+  },
+  {
+    "sid": "s000203",
+    "text": "Because L sub 1 is the same smaller than every other element in L, R sub 1 is smaller than every other element in R. Therefore the minimum of those two has to be F sub 1.",
+    "start": 1191350,
+    "end": 1205210,
+    "speaker": "A",
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000204",
+    "text": "So that suggests I have a pointer of a left pointer and a right pointer.",
+    "start": 1205850,
+    "end": 1212970,
+    "speaker": "A",
+    "confidence": 0.9926758
+  },
+  {
+    "sid": "s000205",
+    "text": "I compare them, I put a smaller value of the value they are pointing, pointing to and put it in F sub 1.",
+    "start": 1213930,
+    "end": 1221920,
+    "speaker": "A",
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000206",
+    "text": "And wherever it comes from, from L or R, I will advance that pointer.",
+    "start": 1222960,
+    "end": 1229520,
+    "speaker": "A",
+    "confidence": 0.9951172
+  },
+  {
+    "sid": "s000207",
+    "text": "Let's say F of 1 is R of 1.",
+    "start": 1230080,
+    "end": 1233360,
+    "speaker": "A",
+    "confidence": 0.9900716
+  },
+  {
+    "sid": "s000208",
+    "text": "Next step, I need to advance this pointer to here because R of 1 has already been considered and has already been rumored.",
+    "start": 1233760,
+    "end": 1244860,
+    "speaker": "A",
+    "confidence": 0.9970703
+  },
+  {
+    "sid": "s000209",
+    "text": "No need to output R sub 1 multiple times.",
+    "start": 1245090,
+    "end": 1248370,
+    "speaker": "A",
+    "confidence": 0.88427734
+  },
+  {
+    "sid": "s000210",
+    "text": "So I advance that.",
+    "start": 1249090,
+    "end": 1250370,
+    "speaker": "A",
+    "confidence": 0.9848633
+  },
+  {
+    "sid": "s000211",
+    "text": "Then the same algorithm compares the values of L and R. Take the minimum one, it could be L, it could be R, I just don't know.",
+    "start": 1250370,
+    "end": 1261170,
+    "speaker": "A",
+    "confidence": 0.7631836
+  },
+  {
+    "sid": "s000212",
+    "text": "Whatever it is, I'm going to put it in F sub, right?",
+    "start": 1261810,
+    "end": 1267090,
+    "speaker": "A",
+    "confidence": 0.9963379
+  },
+  {
+    "sid": "s000213",
+    "text": "So I keep doing that until the two lists are exhausted, meaning until I get to the very last one, which is F of S cos E. Then when I do that, I'm going to get into a sorted list.",
+    "start": 1268450,
+    "end": 1291560,
+    "speaker": "A",
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000214",
+    "text": "So from two sorted lists, I do the merge operation to get them into one sorted list.",
+    "start": 1292200,
+    "end": 1299090,
+    "speaker": "A",
+    "confidence": 0.99365234
+  },
+  {
+    "sid": "s000215",
+    "text": "So this algorithm that I just described is called the merge algorithm.",
+    "start": 1299570,
+    "end": 1305250,
+    "speaker": "A",
+    "confidence": 0.9741211
+  },
+  {
+    "sid": "s000216",
+    "text": "And obviously merge by itself is interesting.",
+    "start": 1308930,
+    "end": 1312610,
+    "speaker": "A",
+    "confidence": 0.98535156
+  },
+  {
+    "sid": "s000217",
+    "text": "It can help us solve many other problems.",
+    "start": 1312930,
+    "end": 1316130,
+    "speaker": "A",
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000218",
+    "text": "But if I keep repeatedly doing the merge, that's going to help me sort a list that has no order whatsoever.",
+    "start": 1316370,
+    "end": 1334620,
+    "speaker": "A",
+    "confidence": 0.97314453
+  },
+  {
+    "sid": "s000219",
+    "text": "Okay, so what is the runtime of this algorithm?",
+    "start": 1337260,
+    "end": 1343740,
+    "speaker": "A",
+    "confidence": 0.78271484
+  },
+  {
+    "sid": "s000220",
+    "text": "Let's look at one of these values.",
+    "start": 1344620,
+    "end": 1349920,
+    "speaker": "A",
+    "confidence": 0.9082031
+  },
+  {
+    "sid": "s000221",
+    "text": "Let me call it R sub I.",
+    "start": 1349920,
+    "end": 1352040,
+    "speaker": "A",
+    "confidence": 0.96484375
+  },
+  {
+    "sid": "s000222",
+    "text": "How many times, worst case, would I look at R sub I?",
+    "start": 1355080,
+    "end": 1361640,
+    "speaker": "A",
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000223",
+    "text": "By look at, I mean compare.",
+    "start": 1361800,
+    "end": 1363720,
+    "speaker": "A",
+    "confidence": 0.9589844
+  },
+  {
+    "sid": "s000224",
+    "text": "So first comparison is L1 R1.",
+    "start": 1364279,
+    "end": 1367440,
+    "speaker": "A",
+    "confidence": 0.9863281
+  },
+  {
+    "sid": "s000225",
+    "text": "So I've looked at R1 once.",
+    "start": 1367440,
+    "end": 1369400,
+    "speaker": "A",
+    "confidence": 0.98291016
+  },
+  {
+    "sid": "s000226",
+    "text": "If I advance this, then I will never look at R sub 1 ever again.",
+    "start": 1371240,
+    "end": 1376280,
+    "speaker": "A",
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000227",
+    "text": "Which means in the entirety of the algorithm, I have looked at R1 only once.",
+    "start": 1378340,
+    "end": 1384020,
+    "speaker": "A",
+    "confidence": 0.9736328
+  },
+  {
+    "sid": "s000228",
+    "text": "But if I advance L1 and advance L2 and advance L3, each step I'm looking at R1.",
+    "start": 1385380,
+    "end": 1393180,
+    "speaker": "A",
+    "confidence": 0.94677734
+  },
+  {
+    "sid": "s000229",
+    "text": "That is, I'm doing a comparison with R sub 1.",
+    "start": 1393180,
+    "end": 1395780,
+    "speaker": "A",
+    "confidence": 0.72216797
+  },
+  {
+    "sid": "s000230",
+    "text": "So in fact, if all these numbers are less than all these numbers, I compare all of them to R1.",
+    "start": 1396260,
+    "end": 1404130,
+    "speaker": "A",
+    "confidence": 0.9794922
+  },
+  {
+    "sid": "s000231",
+    "text": "So I look at R1s times size of n. So sometimes I look at R1 once, that's the minimum.",
+    "start": 1405890,
+    "end": 1417170,
+    "speaker": "A",
+    "confidence": 0.9785156
+  },
+  {
+    "sid": "s000232",
+    "text": "I have to look at every number once or I may look at it.",
+    "start": 1417170,
+    "end": 1422210,
+    "speaker": "A",
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000233",
+    "text": "By look at, I mean compare many, many times, order of S or T. Okay, so worst case RI will be looked at S times S is the size of L. That's for a generic R sub height.",
+    "start": 1422290,
+    "end": 1444700,
+    "speaker": "A",
+    "confidence": 0.9765625
+  },
+  {
+    "sid": "s000234",
+    "text": "And this is the worst case.",
+    "start": 1446140,
+    "end": 1447700,
+    "speaker": "A",
+    "confidence": 0.99658203
+  },
+  {
+    "sid": "s000235",
+    "text": "I may look at it only once, maybe five times.",
+    "start": 1447700,
+    "end": 1451340,
+    "speaker": "A",
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000236",
+    "text": "But maybe, as we saw the example, S times.",
+    "start": 1451820,
+    "end": 1455830,
+    "speaker": "A",
+    "confidence": 0.9873047
+  },
+  {
+    "sid": "s000237",
+    "text": "So I look at a generic RI and arbitrary RI S times how many values are there?",
+    "start": 1457270,
+    "end": 1465110,
+    "speaker": "A",
+    "confidence": 0.9838867
+  },
+  {
+    "sid": "s000238",
+    "text": "T values.",
+    "start": 1465270,
+    "end": 1466390,
+    "speaker": "A",
+    "confidence": 0.9897461
+  },
+  {
+    "sid": "s000239",
+    "text": "Therefore, the runtime of this algorithm is Order of S times T. Okay?",
+    "start": 1466870,
+    "end": 1475590,
+    "speaker": "A",
+    "confidence": 0.79345703
+  },
+  {
+    "sid": "s000240",
+    "text": "Yes.",
+    "start": 1483680,
+    "end": 1484000,
+    "speaker": "A",
+    "confidence": 0.982666
+  },
+  {
+    "sid": "s000241",
+    "text": "If you compare it, aren't you already putting it in the list so you're not going to compare it again later?",
+    "start": 1484320,
+    "end": 1488440,
+    "speaker": "A",
+    "confidence": 0.52783203
+  },
+  {
+    "sid": "s000242",
+    "text": "So like I.",
+    "start": 1488440,
+    "end": 1489520,
+    "speaker": "A",
+    "confidence": 0.7294922
+  },
+  {
+    "sid": "s000243",
+    "text": "So, so that's if I look at R sub I and compare it to that, and this is less than R sub I, I put this in the list.",
+    "start": 1489840,
+    "end": 1498160,
+    "speaker": "A",
+    "confidence": 0.6948242
+  },
+  {
+    "sid": "s000244",
+    "text": "So the next number has to be converted with RI again and the next number has to be compared with ri.",
+    "start": 1498560,
+    "end": 1504880,
+    "speaker": "A",
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000245",
+    "text": "So I may have to, in the worst case for R sub I, do",
+    "start": 1505480,
+    "end": 1510160,
+    "speaker": "A",
+    "confidence": 0.86279297
+  },
+  {
+    "sid": "s000246",
+    "text": "S comparisons.",
+    "start": 1510160,
+    "end": 1511720,
+    "speaker": "A",
+    "confidence": 0.96875
+  },
+  {
+    "sid": "s000247",
+    "text": "That's a possibility.",
+    "start": 1513080,
+    "end": 1514120,
+    "speaker": "A",
+    "confidence": 0.99934894
+  },
+  {
+    "sid": "s000248",
+    "text": "Actually.",
+    "start": 1514440,
+    "end": 1514840,
+    "speaker": "A",
+    "confidence": 0.98535156
+  },
+  {
+    "sid": "s000249",
+    "text": "A number in the R list has to be looked at, IE has to be compared S I case.",
+    "start": 1516280,
+    "end": 1523080,
+    "speaker": "A",
+    "confidence": 0.9560547
+  },
+  {
+    "sid": "s000250",
+    "text": "But S times T implies that you're doing that like T times.",
+    "start": 1523160,
+    "end": 1526360,
+    "speaker": "A",
+    "confidence": 0.78515625
+  },
+  {
+    "sid": "s000251",
+    "text": "But if you're comparing S like with just R line, like you're gonna be done with the S list and then you can just put the rest of the T list.",
+    "start": 1526440,
+    "end": 1534980,
+    "speaker": "A",
+    "confidence": 0.9970703
+  },
+  {
+    "sid": "s000252",
+    "text": "So then shouldn't it be S plus T?",
+    "start": 1534980,
+    "end": 1536740,
+    "speaker": "A",
+    "confidence": 0.9379883
+  },
+  {
+    "sid": "s000253",
+    "text": "Oh, I don't know.",
+    "start": 1537700,
+    "end": 1539700,
+    "speaker": "A",
+    "confidence": 0.7885742
+  },
+  {
+    "sid": "s000254",
+    "text": "I. I don't.",
+    "start": 1540180,
+    "end": 1541140,
+    "speaker": "A",
+    "confidence": 0.8666992
+  },
+  {
+    "sid": "s000255",
+    "text": "I can't.",
+    "start": 1541540,
+    "end": 1542220,
+    "speaker": "A",
+    "confidence": 0.95166016
+  },
+  {
+    "sid": "s000256",
+    "text": "I guess what you are saying is this is too pessimistic.",
+    "start": 1542220,
+    "end": 1545380,
+    "speaker": "A",
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000257",
+    "text": "This is correct.",
+    "start": 1545780,
+    "end": 1546820,
+    "speaker": "A",
+    "confidence": 0.9970703
+  },
+  {
+    "sid": "s000258",
+    "text": "No question about that.",
+    "start": 1546980,
+    "end": 1548420,
+    "speaker": "A",
+    "confidence": 0.99658203
+  },
+  {
+    "sid": "s000259",
+    "text": "I just proved it too.",
+    "start": 1548500,
+    "end": 1549940,
+    "speaker": "A",
+    "confidence": 0.9892578
+  },
+  {
+    "sid": "s000260",
+    "text": "Each of these can be compared S times.",
+    "start": 1550180,
+    "end": 1553940,
+    "speaker": "A",
+    "confidence": 1.0
+  },
+  {
+    "sid": "s000261",
+    "text": "So it's S times T or there.",
+    "start": 1554100,
+    "end": 1556420,
+    "speaker": "A",
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000262",
+    "text": "Because I'm saying worst case is done.",
+    "start": 1557350,
+    "end": 1559270,
+    "speaker": "A",
+    "confidence": 0.9970703
+  },
+  {
+    "sid": "s000263",
+    "text": "Abs.",
+    "start": 1559270,
+    "end": 1559830,
+    "speaker": "A",
+    "confidence": 0.6837158
+  },
+  {
+    "sid": "s000264",
+    "text": "But some of you are uncomfortable with my argument and I think the reason you are uncomfortable is you are saying this is really, this is really worst case.",
+    "start": 1560230,
+    "end": 1572310,
+    "speaker": "A",
+    "confidence": 0.9868164
+  },
+  {
+    "sid": "s000265",
+    "text": "In reality, maybe things are not going to be bad because, yeah, If I compare R.I. s times, then the next one is not going to be S times, it's going to be one time.",
+    "start": 1573030,
+    "end": 1585010,
+    "speaker": "A",
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000266",
+    "text": "That's maybe what you're thinking.",
+    "start": 1585170,
+    "end": 1586930,
+    "speaker": "A",
+    "confidence": 0.9863281
+  },
+  {
+    "sid": "s000267",
+    "text": "So if that's the case, and I saw some of you shaking your head with my analysis, if that's the case, we need to formulate that.",
+    "start": 1587250,
+    "end": 1595490,
+    "speaker": "A",
+    "confidence": 0.9873047
+  },
+  {
+    "sid": "s000268",
+    "text": "We can't just say, oh, you are just doing too much.",
+    "start": 1595650,
+    "end": 1599890,
+    "speaker": "A",
+    "confidence": 0.95947266
+  },
+  {
+    "sid": "s000269",
+    "text": "If you want to do less than that, we need to say why?",
+    "start": 1600850,
+    "end": 1603730,
+    "speaker": "A",
+    "confidence": 0.9941406
+  },
+  {
+    "sid": "s000270",
+    "text": "Yes, every comparison we remove one from O and one from R. So in total we'll only need S plus 10.",
+    "start": 1605090,
+    "end": 1615740,
+    "speaker": "A",
+    "confidence": 0.98168945
+  },
+  {
+    "sid": "s000271",
+    "text": "Right.",
+    "start": 1616460,
+    "end": 1616860,
+    "speaker": "A",
+    "confidence": 0.98583984
+  },
+  {
+    "sid": "s000272",
+    "text": "So again, nothing wrong with this analysis.",
+    "start": 1617340,
+    "end": 1621020,
+    "speaker": "A",
+    "confidence": 0.8930664
+  },
+  {
+    "sid": "s000273",
+    "text": "It's correct.",
+    "start": 1621020,
+    "end": 1621900,
+    "speaker": "A",
+    "confidence": 0.99625653
+  },
+  {
+    "sid": "s000274",
+    "text": "If you give me that answer in the midterm, I'm going to say correct minus 10 points.",
+    "start": 1622780,
+    "end": 1629500,
+    "speaker": "A",
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000275",
+    "text": "Correct because it's correct minus 10 because it's not very efficient.",
+    "start": 1630460,
+    "end": 1634480,
+    "speaker": "A",
+    "confidence": 0.9998372
+  },
+  {
+    "sid": "s000276",
+    "text": "So both can be true at the same time.",
+    "start": 1635360,
+    "end": 1637840,
+    "speaker": "A",
+    "confidence": 0.9692383
+  },
+  {
+    "sid": "s000277",
+    "text": "I'm not going to say incorrect because this is absolutely correct, but it's not very efficient.",
+    "start": 1638320,
+    "end": 1643520,
+    "speaker": "A",
+    "confidence": 0.99658203
+  },
+  {
+    "sid": "s000278",
+    "text": "That's going to be true of any algorithm we design in the midterm, in the final, et cetera.",
+    "start": 1643600,
+    "end": 1649280,
+    "speaker": "A",
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000279",
+    "text": "You could always do an exponential time algorithm and it's going to be always correct, but it's not very efficient.",
+    "start": 1650640,
+    "end": 1657040,
+    "speaker": "A",
+    "confidence": 0.9921875
+  },
+  {
+    "sid": "s000280",
+    "text": "That's not what we are doing in this case.",
+    "start": 1657040,
+    "end": 1658880,
+    "speaker": "A",
+    "confidence": 0.9967448
+  },
+  {
+    "sid": "s000281",
+    "text": "So we need to formulate that as you said.",
+    "start": 1659480,
+    "end": 1662200,
+    "speaker": "A",
+    "confidence": 0.9868164
+  },
+  {
+    "sid": "s000282",
+    "text": "So instead of focus.",
+    "start": 1662600,
+    "end": 1664120,
+    "speaker": "A",
+    "confidence": 0.9614258
+  },
+  {
+    "sid": "s000283",
+    "text": "I'm not going to change my algorithm.",
+    "start": 1664440,
+    "end": 1666520,
+    "speaker": "A",
+    "confidence": 0.9923503
+  },
+  {
+    "sid": "s000284",
+    "text": "What was my algorithm?",
+    "start": 1666680,
+    "end": 1668360,
+    "speaker": "A",
+    "confidence": 0.9970703
+  },
+  {
+    "sid": "s000285",
+    "text": "Compare the two pointer, output the minimum one and advance that pointer where the minimum comes from.",
+    "start": 1668680,
+    "end": 1676520,
+    "speaker": "A",
+    "confidence": 0.97875977
+  },
+  {
+    "sid": "s000286",
+    "text": "That's My algorithm, I'm not going to change that.",
+    "start": 1677000,
+    "end": 1680360,
+    "speaker": "A",
+    "confidence": 0.9863281
+  },
+  {
+    "sid": "s000287",
+    "text": "I'm going to change my accounting methods.",
+    "start": 1680520,
+    "end": 1683560,
+    "speaker": "A",
+    "confidence": 0.99658203
+  },
+  {
+    "sid": "s000288",
+    "text": "And we have the done this multiple times in this course.",
+    "start": 1683640,
+    "end": 1687240,
+    "speaker": "A",
+    "confidence": 0.99609375
+  },
+  {
+    "sid": "s000289",
+    "text": "At times I never change the algorithm, I just change the way I'm going to count the numbers to contribute to this.",
+    "start": 1688680,
+    "end": 1698120,
+    "speaker": "A",
+    "confidence": 0.9873047
+  },
+  {
+    "sid": "s000290",
+    "text": "So one other way, which is what you were suggesting back there is let's look at F sub J.",
+    "start": 1700040,
+    "end": 1707320,
+    "speaker": "A",
+    "confidence": 0.9736328
+  },
+  {
+    "sid": "s000291",
+    "text": "Instead of focusing on R sub I and knowing that R sub I may get compared S times, let's look at F sub j and ask a different question.",
+    "start": 1708040,
+    "end": 1720380,
+    "speaker": "A",
+    "confidence": 0.81103516
+  },
+  {
+    "sid": "s000292",
+    "text": "First question was how many times do I compare this?",
+    "start": 1721260,
+    "end": 1724300,
+    "speaker": "A",
+    "confidence": 0.99560547
+  },
+  {
+    "sid": "s000293",
+    "text": "Another question is in the entirety of the algorithm, how much time did I spend to come up with X sub j?",
+    "start": 1725340,
+    "end": 1733500,
+    "speaker": "A",
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000294",
+    "text": "The answer is one time.",
+    "start": 1734220,
+    "end": 1735980,
+    "speaker": "A",
+    "confidence": 0.9472656
+  },
+  {
+    "sid": "s000295",
+    "text": "I do one comparison, I output one of them for S subject.",
+    "start": 1736550,
+    "end": 1740630,
+    "speaker": "A",
+    "confidence": 0.9501953
+  },
+  {
+    "sid": "s000296",
+    "text": "I don't care if you spend S time on this or S time on that.",
+    "start": 1741270,
+    "end": 1746390,
+    "speaker": "A",
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000297",
+    "text": "You may actually.",
+    "start": 1747350,
+    "end": 1748390,
+    "speaker": "A",
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000298",
+    "text": "But instead, because I feel you all kind of felt that this is an overkill.",
+    "start": 1749510,
+    "end": 1755430,
+    "speaker": "A",
+    "confidence": 0.9892578
+  },
+  {
+    "sid": "s000299",
+    "text": "So I would say this is going to be order one time.",
+    "start": 1755910,
+    "end": 1759350,
+    "speaker": "A",
+    "confidence": 0.9941406
+  },
+  {
+    "sid": "s000300",
+    "text": "This is going to be order than one time for every output.",
+    "start": 1761270,
+    "end": 1764630,
+    "speaker": "A",
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000301",
+    "text": "That's a fact.",
+    "start": 1764710,
+    "end": 1765590,
+    "speaker": "A",
+    "confidence": 0.9973958
+  },
+  {
+    "sid": "s000302",
+    "text": "I spend one unit of time, one comparison and one output.",
+    "start": 1766150,
+    "end": 1770470,
+    "speaker": "A",
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000303",
+    "text": "So two units of time, which is order one.",
+    "start": 1770550,
+    "end": 1773510,
+    "speaker": "A",
+    "confidence": 0.9711914
+  },
+  {
+    "sid": "s000304",
+    "text": "To get the F sub I, how many F sub I do we have S plus T. Therefore the runtime is order of S plus t. So this is solution one, this is solution two.",
+    "start": 1773670,
+    "end": 1796800,
+    "speaker": "A",
+    "confidence": 0.99658203
+  },
+  {
+    "sid": "s000305",
+    "text": "Which solution is correct?",
+    "start": 1799280,
+    "end": 1801120,
+    "speaker": "A",
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000306",
+    "text": "Both.",
+    "start": 1805840,
+    "end": 1806240,
+    "speaker": "A",
+    "confidence": 0.921875
+  },
+  {
+    "sid": "s000307",
+    "text": "They are both absolutely mathematically correct.",
+    "start": 1806960,
+    "end": 1810240,
+    "speaker": "A",
+    "confidence": 0.4387207
+  },
+  {
+    "sid": "s000308",
+    "text": "Which one is more efficient?",
+    "start": 1811120,
+    "end": 1812880,
+    "speaker": "A",
+    "confidence": 0.99658203
+  },
+  {
+    "sid": "s000309",
+    "text": "This one.",
+    "start": 1813690,
+    "end": 1814250,
+    "speaker": "A",
+    "confidence": 0.7416992
+  },
+  {
+    "sid": "s000310",
+    "text": "For example, if the list is partitions roughly equal N goes to n over 2 and n over 2, this is roughly N to the N squared.",
+    "start": 1814890,
+    "end": 1826410,
+    "speaker": "A",
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000311",
+    "text": "And this is going to be roughly N, so linear to quadratic, big difference: thousand versus thousand times thousand, which is a million.",
+    "start": 1826970,
+    "end": 1837130,
+    "speaker": "A",
+    "confidence": 0.5620117
+  },
+  {
+    "sid": "s000312",
+    "text": "And then you do it with billion and trillion.",
+    "start": 1841220,
+    "end": 1843380,
+    "speaker": "A",
+    "confidence": 0.9428711
+  },
+  {
+    "sid": "s000313",
+    "text": "It's got to be, which are the kind of numbers we deal with today.",
+    "start": 1843380,
+    "end": 1847180,
+    "speaker": "A",
+    "confidence": 0.87972003
+  },
+  {
+    "sid": "s000314",
+    "text": "In practice, then the two the same algorithm.",
+    "start": 1847180,
+    "end": 1851860,
+    "speaker": "A",
+    "confidence": 0.97558594
+  },
+  {
+    "sid": "s000315",
+    "text": "If you run these algorithms that I mentioned, when you run your algorithm, you actually don't do the analysis.",
+    "start": 1852420,
+    "end": 1860180,
+    "speaker": "A",
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000316",
+    "text": "The code is running.",
+    "start": 1860180,
+    "end": 1861460,
+    "speaker": "A",
+    "confidence": 0.9863281
+  },
+  {
+    "sid": "s000317",
+    "text": "So whether you do this or that, it's the same code, it's identical code.",
+    "start": 1862020,
+    "end": 1867630,
+    "speaker": "A",
+    "confidence": 0.99365234
+  },
+  {
+    "sid": "s000318",
+    "text": "So you did your analysis and you got that.",
+    "start": 1868270,
+    "end": 1871070,
+    "speaker": "A",
+    "confidence": 0.9794922
+  },
+  {
+    "sid": "s000319",
+    "text": "But you realize in practice it really runs in linear time.",
+    "start": 1871150,
+    "end": 1874910,
+    "speaker": "A",
+    "confidence": 0.68896484
+  },
+  {
+    "sid": "s000320",
+    "text": "But we need to know that ahead of time.",
+    "start": 1878430,
+    "end": 1881070,
+    "speaker": "A",
+    "confidence": 0.7114258
+  },
+  {
+    "sid": "s000321",
+    "text": "Because if our analysis shows this and this is the best possible, we need to come up with a brand new algorithm because this is not, not acceptable question for the second solution.",
+    "start": 1881310,
+    "end": 1896720,
+    "speaker": "A",
+    "confidence": 0.9970703
+  },
+  {
+    "sid": "s000322",
+    "text": "First solution, first solution.",
+    "start": 1897520,
+    "end": 1899600,
+    "speaker": "A",
+    "confidence": 0.9604492
+  },
+  {
+    "sid": "s000323",
+    "text": "I'm saying each ri, an arbitrary RI may be looked at compared with S times.",
+    "start": 1899600,
+    "end": 1908240,
+    "speaker": "A",
+    "confidence": 0.92594403
+  },
+  {
+    "sid": "s000324",
+    "text": "Because maybe I compare this with that.",
+    "start": 1909040,
+    "end": 1911440,
+    "speaker": "A",
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000325",
+    "text": "I advance this to L2.",
+    "start": 1912720,
+    "end": 1914748,
+    "speaker": "A",
+    "confidence": 0.9926758
+  },
+  {
+    "sid": "s000326",
+    "text": "L2 gets compared with that.",
+    "start": 1914852,
+    "end": 1916640,
+    "speaker": "A",
+    "confidence": 0.99646
+  },
+  {
+    "sid": "s000327",
+    "text": "I advance this to L sub 3.",
+    "start": 1916720,
+    "end": 1918470,
+    "speaker": "A",
+    "confidence": 0.8041992
+  },
+  {
+    "sid": "s000328",
+    "text": "That gets compared.",
+    "start": 1918470,
+    "end": 1919710,
+    "speaker": "A",
+    "confidence": 0.99316406
+  },
+  {
+    "sid": "s000329",
+    "text": "So a generic RI will be compared with its other elements in the worst case.",
+    "start": 1920030,
+    "end": 1926910,
+    "speaker": "A",
+    "confidence": 0.98828125
+  },
+  {
+    "sid": "s000330",
+    "text": "So that was my first proof.",
+    "start": 1928110,
+    "end": 1929870,
+    "speaker": "A",
+    "confidence": 0.8388672
+  },
+  {
+    "sid": "s000331",
+    "text": "But many of you felt that.",
+    "start": 1930190,
+    "end": 1931990,
+    "speaker": "A",
+    "confidence": 0.97216797
+  },
+  {
+    "sid": "s000332",
+    "text": "Yeah, that's absolutely true.",
+    "start": 1931990,
+    "end": 1933710,
+    "speaker": "A",
+    "confidence": 0.9117839
+  },
+  {
+    "sid": "s000333",
+    "text": "But if this gets compared S times, then probably RI plus one doesn't get compared S times.",
+    "start": 1934190,
+    "end": 1942990,
+    "speaker": "A",
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000334",
+    "text": "So based on that, we came up with this idea of let's not focus on input, let's focus on output.",
+    "start": 1943480,
+    "end": 1950920,
+    "speaker": "A",
+    "confidence": 0.9140625
+  },
+  {
+    "sid": "s000335",
+    "text": "So such a simple transformation from an input centric approach to an output centric approach is going to make all the difference in our analysis.",
+    "start": 1951080,
+    "end": 1962680,
+    "speaker": "A",
+    "confidence": 0.9091797
+  },
+  {
+    "sid": "s000336",
+    "text": "And yeah, I've done this before in many cases.",
+    "start": 1967240,
+    "end": 1969570,
+    "speaker": "A",
+    "confidence": 0.79541016
+  },
+  {
+    "sid": "s000337",
+    "text": "We went from a vertex centric north centric to an 8th century and that made all the difference in the algorithm.",
+    "start": 1969730,
+    "end": 1979490,
+    "speaker": "A",
+    "confidence": 0.9824219
+  },
+  {
+    "sid": "s000338",
+    "text": "So it's not our first time.",
+    "start": 1979650,
+    "end": 1981490,
+    "speaker": "A",
+    "confidence": 0.9038086
+  },
+  {
+    "sid": "s000339",
+    "text": "Yes, one of them best case, one of the worst cases, One of the average cases.",
+    "start": 1981490,
+    "end": 1986850,
+    "speaker": "A",
+    "confidence": 0.9848633
+  },
+  {
+    "sid": "s000340",
+    "text": "No, they are both worst case.",
+    "start": 1987490,
+    "end": 1989570,
+    "speaker": "A",
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000341",
+    "text": "One is a bad worst case.",
+    "start": 1989970,
+    "end": 1991890,
+    "speaker": "A",
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000342",
+    "text": "I was too Peter pessimistic.",
+    "start": 1993330,
+    "end": 1995050,
+    "speaker": "A",
+    "confidence": 0.9970703
+  },
+  {
+    "sid": "s000343",
+    "text": "But it's the worst case.",
+    "start": 1995050,
+    "end": 1996250,
+    "speaker": "A",
+    "confidence": 0.87158203
+  },
+  {
+    "sid": "s000344",
+    "text": "That's why I put order.",
+    "start": 1996730,
+    "end": 1998010,
+    "speaker": "A",
+    "confidence": 0.97802734
+  },
+  {
+    "sid": "s000345",
+    "text": "This algorithm could never run slower than that.",
+    "start": 1998810,
+    "end": 2002570,
+    "speaker": "A",
+    "confidence": 0.9868164
+  },
+  {
+    "sid": "s000346",
+    "text": "Sorry.",
+    "start": 2003210,
+    "end": 2003610,
+    "speaker": "A",
+    "confidence": 0.91552734
+  },
+  {
+    "sid": "s000347",
+    "text": "Not faster than that, not slower than that.",
+    "start": 2003610,
+    "end": 2009370,
+    "speaker": "A",
+    "confidence": 0.87841797
+  },
+  {
+    "sid": "s000348",
+    "text": "It's not going to be larger than this.",
+    "start": 2009850,
+    "end": 2011770,
+    "speaker": "A",
+    "confidence": 0.99121094
+  },
+  {
+    "sid": "s000349",
+    "text": "And same thing this analysis says nothing could be slower than this.",
+    "start": 2012010,
+    "end": 2016610,
+    "speaker": "A",
+    "confidence": 0.9692383
+  },
+  {
+    "sid": "s000350",
+    "text": "That's why it could be order.",
+    "start": 2016610,
+    "end": 2017850,
+    "speaker": "A",
+    "confidence": 0.93147784
+  },
+  {
+    "sid": "s000351",
+    "text": "But one is a better analysis.",
+    "start": 2018250,
+    "end": 2020180,
+    "speaker": "A",
+    "confidence": 0.875
+  },
+  {
+    "sid": "s000352",
+    "text": "That's it.",
+    "start": 2020570,
+    "end": 2021050,
+    "speaker": "A",
+    "confidence": 0.9638672
+  },
+  {
+    "sid": "s000353",
+    "text": "It's like the example that I gave.",
+    "start": 2021210,
+    "end": 2023130,
+    "speaker": "A",
+    "confidence": 0.97786456
+  },
+  {
+    "sid": "s000354",
+    "text": "If you spend hundred bucks Saturday night, you multiply that by 7, your budget for the week is 700 or less.",
+    "start": 2023130,
+    "end": 2032330,
+    "speaker": "A",
+    "confidence": 0.96875
+  },
+  {
+    "sid": "s000355",
+    "text": "Assuming every night you spend a hundred, but you probably don't; probably other nights you spend $10.",
+    "start": 2033290,
+    "end": 2039370,
+    "speaker": "A",
+    "confidence": 0.8330078
+  },
+  {
+    "sid": "s000356",
+    "text": "So 100 times 7, that's this analysis.",
+    "start": 2039770,
+    "end": 2043290,
+    "speaker": "A",
+    "confidence": 0.95751953
+  },
+  {
+    "sid": "s000357",
+    "text": "Hundred plus 10 plus 10, this analysis is the same amount of money that you're spending.",
+    "start": 2043770,
+    "end": 2050610,
+    "speaker": "A",
+    "confidence": 0.87109375
+  },
+  {
+    "sid": "s000358",
+    "text": "You did your budget poorly here and you did a tighter budget here.",
+    "start": 2053330,
+    "end": 2059570,
+    "speaker": "A",
+    "confidence": 0.99316406
+  },
+  {
+    "sid": "s000359",
+    "text": "Spending hasn't changed.",
+    "start": 2060370,
+    "end": 2061970,
+    "speaker": "A",
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000360",
+    "text": "Please.",
+    "start": 2062850,
+    "end": 2063250,
+    "speaker": "A",
+    "confidence": 0.90771484
+  },
+  {
+    "sid": "s000361",
+    "text": "Isn't it like logically shape correct for solution one?",
+    "start": 2064290,
+    "end": 2068050,
+    "speaker": "A",
+    "confidence": 0.9934082
+  },
+  {
+    "sid": "s000362",
+    "text": "Because you can only compare one R1, you can't compare all other ones.",
+    "start": 2068050,
+    "end": 2074380,
+    "speaker": "A",
+    "confidence": 0.97802734
+  },
+  {
+    "sid": "s000363",
+    "text": "Yeah, because if you're ordered then you compare 1s times, then automatically.",
+    "start": 2074540,
+    "end": 2079420,
+    "speaker": "A",
+    "confidence": 0.9503581
+  },
+  {
+    "sid": "s000364",
+    "text": "That's what gave rise to this.",
+    "start": 2079900,
+    "end": 2081820,
+    "speaker": "A",
+    "confidence": 0.9983724
+  },
+  {
+    "sid": "s000365",
+    "text": "This is not incorrect because I'm saying this point.",
+    "start": 2082220,
+    "end": 2087899,
+    "speaker": "A",
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000366",
+    "text": "RI can be compared S times.",
+    "start": 2088220,
+    "end": 2091820,
+    "speaker": "A",
+    "confidence": 0.9157715
+  },
+  {
+    "sid": "s000367",
+    "text": "That's correct or not?",
+    "start": 2091900,
+    "end": 2093660,
+    "speaker": "A",
+    "confidence": 0.99820966
+  },
+  {
+    "sid": "s000368",
+    "text": "Yeah.",
+    "start": 2093820,
+    "end": 2094300,
+    "speaker": "A",
+    "confidence": 0.95979816
+  },
+  {
+    "sid": "s000369",
+    "text": "Okay, so I'm going to take this correct fact for an arbitrary ri.",
+    "start": 2094300,
+    "end": 2099220,
+    "speaker": "A",
+    "confidence": 0.99576825
+  },
+  {
+    "sid": "s000370",
+    "text": "How many RI are there T of them?",
+    "start": 2099620,
+    "end": 2102420,
+    "speaker": "A",
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000371",
+    "text": "Each of them gets converted S times.",
+    "start": 2103220,
+    "end": 2105540,
+    "speaker": "A",
+    "confidence": 1.0
+  },
+  {
+    "sid": "s000372",
+    "text": "So it's S times T. You are thinking the next level.",
+    "start": 2105780,
+    "end": 2110900,
+    "speaker": "A",
+    "confidence": 0.96533203
+  },
+  {
+    "sid": "s000373",
+    "text": "You are saying true, but it can't be.",
+    "start": 2111140,
+    "end": 2114180,
+    "speaker": "A",
+    "confidence": 0.97558594
+  },
+  {
+    "sid": "s000374",
+    "text": "I just don't buy it that every RI is gonna get compared S. Fine.",
+    "start": 2114180,
+    "end": 2119140,
+    "speaker": "A",
+    "confidence": 0.9975586
+  },
+  {
+    "sid": "s000375",
+    "text": "So what you are thinking doesn't mean this is M incorrect.",
+    "start": 2119540,
+    "end": 2123310,
+    "speaker": "A",
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000376",
+    "text": "It means there is a better way of doing it, which we did.",
+    "start": 2123630,
+    "end": 2126750,
+    "speaker": "A",
+    "confidence": 0.9926758
+  },
+  {
+    "sid": "s000377",
+    "text": "So make sure you are comfortable that big distinction with what is correct and what is the most efficient way of doing things.",
+    "start": 2129550,
+    "end": 2137950,
+    "speaker": "A",
+    "confidence": 0.9736328
+  },
+  {
+    "sid": "s000378",
+    "text": "Again, if I show you this and in the midterm or something similar to that, and I say, is this analysis correct or not?",
+    "start": 2138910,
+    "end": 2147230,
+    "speaker": "A",
+    "confidence": 0.99560547
+  },
+  {
+    "sid": "s000379",
+    "text": "Your answer is, should be absolutely correct.",
+    "start": 2147390,
+    "end": 2150120,
+    "speaker": "A",
+    "confidence": 0.98095703
+  },
+  {
+    "sid": "s000380",
+    "text": "This is correct.",
+    "start": 2150760,
+    "end": 2152040,
+    "speaker": "A",
+    "confidence": 0.99658203
+  },
+  {
+    "sid": "s000381",
+    "text": "If I ask you, is this the most efficient analysis?",
+    "start": 2152760,
+    "end": 2156520,
+    "speaker": "A",
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000382",
+    "text": "The answer is no.",
+    "start": 2156600,
+    "end": 2157800,
+    "speaker": "A",
+    "confidence": 0.98535156
+  },
+  {
+    "sid": "s000383",
+    "text": "I can give you a better one.",
+    "start": 2157800,
+    "end": 2159480,
+    "speaker": "A",
+    "confidence": 0.99560547
+  },
+  {
+    "sid": "s000384",
+    "text": "There is a big distinction.",
+    "start": 2159800,
+    "end": 2161560,
+    "speaker": "A",
+    "confidence": 0.9975586
+  },
+  {
+    "sid": "s000385",
+    "text": "Correctness versus efficiency.",
+    "start": 2161800,
+    "end": 2164280,
+    "speaker": "A",
+    "confidence": 0.9938965
+  },
+  {
+    "sid": "s000386",
+    "text": "Make sure you are comfortable with that.",
+    "start": 2165240,
+    "end": 2167080,
+    "speaker": "A",
+    "confidence": 0.99658203
+  },
+  {
+    "sid": "s000387",
+    "text": "And we have already done it maybe four times or so in this class.",
+    "start": 2167080,
+    "end": 2171080,
+    "speaker": "A",
+    "confidence": 0.97558594
+  },
+  {
+    "sid": "s000388",
+    "text": "Okay, so given two arbitrary lists, requirement, each of them gotta be sorted.",
+    "start": 2175010,
+    "end": 2186930,
+    "speaker": "A",
+    "confidence": 0.98079425
+  },
+  {
+    "sid": "s000389",
+    "text": "Requirement, S and T don't need to have any relationship.",
+    "start": 2187650,
+    "end": 2191330,
+    "speaker": "A",
+    "confidence": 0.92529297
+  },
+  {
+    "sid": "s000390",
+    "text": "They can be the same number or totally different.",
+    "start": 2191730,
+    "end": 2194450,
+    "speaker": "A",
+    "confidence": 0.9921875
+  },
+  {
+    "sid": "s000391",
+    "text": "This could be 5.",
+    "start": 2194770,
+    "end": 2195970,
+    "speaker": "A",
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000392",
+    "text": "This could be 5 billion.",
+    "start": 2196050,
+    "end": 2197490,
+    "speaker": "A",
+    "confidence": 0.9941406
+  },
+  {
+    "sid": "s000393",
+    "text": "This algorithm doesn't care.",
+    "start": 2197890,
+    "end": 2199650,
+    "speaker": "A",
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000394",
+    "text": "Equality of S and T is irrelevant in our algorithm.",
+    "start": 2202700,
+    "end": 2206460,
+    "speaker": "A",
+    "confidence": 0.98046875
+  },
+  {
+    "sid": "s000395",
+    "text": "We never cared about size of S and T in our algorithm.",
+    "start": 2206460,
+    "end": 2210780,
+    "speaker": "A",
+    "confidence": 0.99609375
+  },
+  {
+    "sid": "s000396",
+    "text": "So merging two lists that are already sorted, that's a requirement.",
+    "start": 2213260,
+    "end": 2220140,
+    "speaker": "A",
+    "confidence": 0.97314453
+  },
+  {
+    "sid": "s000397",
+    "text": "If this is not sorted or this is not sorted, going linearly in the list doesn't work anymore because the smallest number might be down here.",
+    "start": 2220300,
+    "end": 2229620,
+    "speaker": "A",
+    "confidence": 0.99560547
+  },
+  {
+    "sid": "s000398",
+    "text": "So requirement: they should both be sorted.",
+    "start": 2230340,
+    "end": 2233380,
+    "speaker": "A",
+    "confidence": 0.79248047
+  },
+  {
+    "sid": "s000399",
+    "text": "Given two sorted lists, we can come up with a merged version of them.",
+    "start": 2234980,
+    "end": 2239460,
+    "speaker": "A",
+    "confidence": 0.98046875
+  },
+  {
+    "sid": "s000400",
+    "text": "One sorted disk using this algorithm.",
+    "start": 2239620,
+    "end": 2242380,
+    "speaker": "A",
+    "confidence": 0.9536133
+  },
+  {
+    "sid": "s000401",
+    "text": "Yes, please.",
+    "start": 2242380,
+    "end": 2242980,
+    "speaker": "A",
+    "confidence": 0.9897461
+  },
+  {
+    "sid": "s000402",
+    "text": "Sorry.",
+    "start": 2243220,
+    "end": 2243620,
+    "speaker": "A",
+    "confidence": 0.9746094
+  },
+  {
+    "sid": "s000403",
+    "text": "So is that the algorithm or is that the time complexity for only sorting two sorted disks?",
+    "start": 2243620,
+    "end": 2248380,
+    "speaker": "A",
+    "confidence": 0.9423828
+  },
+  {
+    "sid": "s000404",
+    "text": "That's not for the entire sorting. Merging is not called sorting; it is for merging two sorted lists.",
+    "start": 2248380,
+    "end": 2254520,
+    "speaker": "A",
+    "confidence": 0.8273112
+  },
+  {
+    "sid": "s000405",
+    "text": "Yeah, I haven't even talked about that.",
+    "start": 2254600,
+    "end": 2257080,
+    "speaker": "A",
+    "confidence": 0.96875
+  },
+  {
+    "sid": "s000406",
+    "text": "So hopefully what I did do was saying if we had a magic way of merging, we could use it here.",
+    "start": 2257960,
+    "end": 2266760,
+    "speaker": "A",
+    "confidence": 0.9902344
+  },
+  {
+    "sid": "s000407",
+    "text": "So that's why I had to go and discuss merging and then go back to the original problem.",
+    "start": 2267560,
+    "end": 2273240,
+    "speaker": "A",
+    "confidence": 0.99072266
+  },
+  {
+    "sid": "s000408",
+    "text": "This was a central problem that if I don't know how to merge, then I cannot use it here.",
+    "start": 2274520,
+    "end": 2281190,
+    "speaker": "A",
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000409",
+    "text": "If merging takes N square time and I have to do a bunch of N squared, that defeats the purpose, by the way.",
+    "start": 2281830,
+    "end": 2289830,
+    "speaker": "A",
+    "confidence": 0.99121094
+  },
+  {
+    "sid": "s000410",
+    "text": "Side note, a very easy algorithm for sorting is bubble sort.",
+    "start": 2289830,
+    "end": 2294390,
+    "speaker": "A",
+    "confidence": 0.96972656
+  },
+  {
+    "sid": "s000411",
+    "text": "Compare the first number with all of them, put the max number at the end.",
+    "start": 2294710,
+    "end": 2299190,
+    "speaker": "A",
+    "confidence": 0.9970703
+  },
+  {
+    "sid": "s000412",
+    "text": "Keep doing that.",
+    "start": 2299350,
+    "end": 2300310,
+    "speaker": "A",
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000413",
+    "text": "That gives you an N square algorithm.",
+    "start": 2300550,
+    "end": 2303030,
+    "speaker": "A",
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000414",
+    "text": "So N squared sorting is trigger, but too slow.",
+    "start": 2303110,
+    "end": 2306880,
+    "speaker": "A",
+    "confidence": 0.9296875
+  },
+  {
+    "sid": "s000415",
+    "text": "That's why we are doing this alternative sorting methodologies.",
+    "start": 2307360,
+    "end": 2310960,
+    "speaker": "A",
+    "confidence": 0.99934894
+  },
+  {
+    "sid": "s000416",
+    "text": "Okay, so now we know how to sort two lists of size S&T in linear order S +T time.",
+    "start": 2314240,
+    "end": 2326480,
+    "speaker": "A",
+    "confidence": 0.9711914
+  },
+  {
+    "sid": "s000417",
+    "text": "Okay, what about this?",
+    "start": 2343130,
+    "end": 2344650,
+    "speaker": "A",
+    "confidence": 0.8069661
+  },
+  {
+    "sid": "s000418",
+    "text": "To sort a list of size N. So time to sort n Numbers C of N I will write.",
+    "start": 2346650,
+    "end": 2363180,
+    "speaker": "A",
+    "confidence": 0.9892578
+  },
+  {
+    "sid": "s000419",
+    "text": "If I'm writing the proof, I will say T of N is the time to sort N number using this technique that you call it divide and conquer or merge or whatever else you're going to call.",
+    "start": 2363180,
+    "end": 2375060,
+    "speaker": "A",
+    "confidence": 0.9921875
+  },
+  {
+    "sid": "s000420",
+    "text": "That's equal to sorting that first half somehow and then sorting the right half somehow.",
+    "start": 2376340,
+    "end": 2389670,
+    "speaker": "A",
+    "confidence": 0.99332684
+  },
+  {
+    "sid": "s000421",
+    "text": "Once this is sorted and once this is sorted, I don't have a sorted disk yet.",
+    "start": 2391430,
+    "end": 2397750,
+    "speaker": "A",
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000422",
+    "text": "I need to merge the left part with the right part in order to get the solution to the big problem.",
+    "start": 2398470,
+    "end": 2405750,
+    "speaker": "A",
+    "confidence": 0.9975586
+  },
+  {
+    "sid": "s000423",
+    "text": "Okay, so this is going to be plus merge, a list of size n over two and a list of size n over two.",
+    "start": 2408240,
+    "end": 2419440,
+    "speaker": "A",
+    "confidence": 0.9593099
+  },
+  {
+    "sid": "s000424",
+    "text": "Okay.",
+    "start": 2422480,
+    "end": 2423040,
+    "speaker": "A",
+    "confidence": 0.9291992
+  },
+  {
+    "sid": "s000425",
+    "text": "So because I'm doing merge sort recursively, I can write the time complexity of merge sort of as merging two smaller problem, each of size half and then combining it to the original problem.",
+    "start": 2424080,
+    "end": 2440680,
+    "speaker": "A",
+    "confidence": 0.98583984
+  },
+  {
+    "sid": "s000426",
+    "text": "This general structure can be applied to many other almost all divide and conquer techniques.",
+    "start": 2441080,
+    "end": 2448760,
+    "speaker": "A",
+    "confidence": 0.9975586
+  },
+  {
+    "sid": "s000427",
+    "text": "The time complexity of the big problem, whatever that problem is, sorting or closest pair or whatever that we're going to study, is the time complexity of the left side, right side, and then how to combine the two together.",
+    "start": 2450520,
+    "end": 2465810,
+    "speaker": "A",
+    "confidence": 0.9946289
+  },
+  {
+    "sid": "s000428",
+    "text": "And if I would have taken time to divide the problem into these two, I would need to do that, but dividing just this order one time.",
+    "start": 2467090,
+    "end": 2478370,
+    "speaker": "A",
+    "confidence": 0.9892578
+  },
+  {
+    "sid": "s000429",
+    "text": "How do I divide?",
+    "start": 2478930,
+    "end": 2480170,
+    "speaker": "A",
+    "confidence": 0.9970703
+  },
+  {
+    "sid": "s000430",
+    "text": "I take n divided by two.",
+    "start": 2480170,
+    "end": 2482450,
+    "speaker": "A",
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000431",
+    "text": "So that's the easy part.",
+    "start": 2482450,
+    "end": 2484050,
+    "speaker": "A",
+    "confidence": 0.9951172
+  },
+  {
+    "sid": "s000432",
+    "text": "The merging is what takes time.",
+    "start": 2485500,
+    "end": 2487420,
+    "speaker": "A",
+    "confidence": 0.9555664
+  },
+  {
+    "sid": "s000433",
+    "text": "Are we comfortable with this equation?",
+    "start": 2488940,
+    "end": 2491260,
+    "speaker": "A",
+    "confidence": 0.99316406
+  },
+  {
+    "sid": "s000434",
+    "text": "This equation directly comes from the methodology I'm using to do marriage.",
+    "start": 2493100,
+    "end": 2499140,
+    "speaker": "A",
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000435",
+    "text": "So half a problem, half a problem and then combine it.",
+    "start": 2499140,
+    "end": 2503580,
+    "speaker": "A",
+    "confidence": 0.8408203
+  },
+  {
+    "sid": "s000436",
+    "text": "Yeah.",
+    "start": 2504060,
+    "end": 2504540,
+    "speaker": "A",
+    "confidence": 0.8499349
+  },
+  {
+    "sid": "s000437",
+    "text": "What's that next to the merge?",
+    "start": 2504540,
+    "end": 2506380,
+    "speaker": "A",
+    "confidence": 0.9983724
+  },
+  {
+    "sid": "s000438",
+    "text": "N over two, n over two.",
+    "start": 2506380,
+    "end": 2507980,
+    "speaker": "A",
+    "confidence": 0.94677734
+  },
+  {
+    "sid": "s000439",
+    "text": "It's Order of one.",
+    "start": 2507980,
+    "end": 2509660,
+    "speaker": "A",
+    "confidence": 0.88964844
+  },
+  {
+    "sid": "s000440",
+    "text": "That's for dividing n by two.",
+    "start": 2510310,
+    "end": 2512550,
+    "speaker": "A",
+    "confidence": 0.9695638
+  },
+  {
+    "sid": "s000441",
+    "text": "Okay, so let me simplify this equation.",
+    "start": 2514950,
+    "end": 2518550,
+    "speaker": "A",
+    "confidence": 0.8958333
+  },
+  {
+    "sid": "s000442",
+    "text": "So this is 2 of t of n over 2.",
+    "start": 2518550,
+    "end": 2522070,
+    "speaker": "A",
+    "confidence": 0.9902344
+  },
+  {
+    "sid": "s000443",
+    "text": "I'm just writing the two numbers as one, merging n over 2 and on n over 2.",
+    "start": 2523190,
+    "end": 2530990,
+    "speaker": "A",
+    "confidence": 0.9715169
+  },
+  {
+    "sid": "s000444",
+    "text": "What's the runtime of that?",
+    "start": 2530990,
+    "end": 2532630,
+    "speaker": "A",
+    "confidence": 0.99869794
+  },
+  {
+    "sid": "s000445",
+    "text": "And we just did that, right?",
+    "start": 2534070,
+    "end": 2535670,
+    "speaker": "A",
+    "confidence": 0.75927734
+  },
+  {
+    "sid": "s000446",
+    "text": "We.",
+    "start": 2535670,
+    "end": 2535880,
+    "speaker": "A",
+    "confidence": 0.4099121
+  },
+  {
+    "sid": "s000447",
+    "text": "This whole board was about S and T. And the runtime is Order of S plus T. Now if I write Order here and Order one is going to go in here.",
+    "start": 2535950,
+    "end": 2553390,
+    "speaker": "A",
+    "confidence": 0.65478516
+  },
+  {
+    "sid": "s000448",
+    "text": "So I don't need to write another Order of 1.",
+    "start": 2554430,
+    "end": 2556870,
+    "speaker": "A",
+    "confidence": 0.6538086
+  },
+  {
+    "sid": "s000449",
+    "text": "Order N + Order 1 is going to be order n. Okay, Now I want to solve this equation.",
+    "start": 2556870,
+    "end": 2565320,
+    "speaker": "A",
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000450",
+    "text": "Now, to do algebra with order notation is possible, but it's really messy.",
+    "start": 2568040,
+    "end": 2573640,
+    "speaker": "A",
+    "confidence": 0.9160156
+  },
+  {
+    "sid": "s000451",
+    "text": "So instead what we're going to do is we're going to write 2T of N over 2 plus some constant times N. That constant C constant is 2 or 3 or 18.",
+    "start": 2574760,
+    "end": 2590070,
+    "speaker": "A",
+    "confidence": 0.9941406
+  },
+  {
+    "sid": "s000452",
+    "text": "Doesn't matter.",
+    "start": 2590390,
+    "end": 2591110,
+    "speaker": "A",
+    "confidence": 0.99934894
+  },
+  {
+    "sid": "s000453",
+    "text": "Yes.",
+    "start": 2591190,
+    "end": 2591670,
+    "speaker": "A",
+    "confidence": 0.97558594
+  },
+  {
+    "sid": "s000454",
+    "text": "Same number.",
+    "start": 2600390,
+    "end": 2601110,
+    "speaker": "A",
+    "confidence": 0.9970703
+  },
+  {
+    "sid": "s000455",
+    "text": "Is that what you're saying, the two halves do not need to be the same size?",
+    "start": 2602070,
+    "end": 2613910,
+    "speaker": "A",
+    "confidence": 0.7348633
+  },
+  {
+    "sid": "s000456",
+    "text": "Right?",
+    "start": 2616090,
+    "end": 2616330,
+    "speaker": "A",
+    "confidence": 0.91845703
+  },
+  {
+    "sid": "s000457",
+    "text": "So they're not the same size.",
+    "start": 2616570,
+    "end": 2619050,
+    "speaker": "A",
+    "confidence": 0.70214844
+  },
+  {
+    "sid": "s000458",
+    "text": "They're not the same size and that's okay.",
+    "start": 2619210,
+    "end": 2621530,
+    "speaker": "A",
+    "confidence": 0.8440755
+  },
+  {
+    "sid": "s000459",
+    "text": "When I showed you the merging, it's S and T. There is no relation between S and T. So here I'm saying if every time I can divide exactly by half, this is what I get.",
+    "start": 2621530,
+    "end": 2632970,
+    "speaker": "A",
+    "confidence": 0.9736328
+  },
+  {
+    "sid": "s000460",
+    "text": "But after this you will see they don't need to be n over 2 as long as they are balanced N over some constant.",
+    "start": 2633370,
+    "end": 2641780,
+    "speaker": "A",
+    "confidence": 0.9941406
+  },
+  {
+    "sid": "s000461",
+    "text": "But merging on purpose.",
+    "start": 2644020,
+    "end": 2646380,
+    "speaker": "A",
+    "confidence": 0.9379883
+  },
+  {
+    "sid": "s000462",
+    "text": "I use S and T to demonstrate that I don't care what S and T are, they do not need to be the same.",
+    "start": 2646380,
+    "end": 2654580,
+    "speaker": "A",
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000463",
+    "text": "Yeah.",
+    "start": 2657540,
+    "end": 2658100,
+    "speaker": "A",
+    "confidence": 0.88378906
+  },
+  {
+    "sid": "s000464",
+    "text": "T is a function which is time complexity of this algorithm.",
+    "start": 2662180,
+    "end": 2666560,
+    "speaker": "A",
+    "confidence": 0.97021484
+  },
+  {
+    "sid": "s000465",
+    "text": "So I defined T of N is the time it takes to sort n numbers using this method.",
+    "start": 2668070,
+    "end": 2674310,
+    "speaker": "A",
+    "confidence": 0.921875
+  },
+  {
+    "sid": "s000466",
+    "text": "That's a function which somehow at the end of the day it's got to be expressed as O of something.",
+    "start": 2674470,
+    "end": 2680710,
+    "speaker": "A",
+    "confidence": 0.97802734
+  },
+  {
+    "sid": "s000467",
+    "text": "So what is that O of something?",
+    "start": 2682469,
+    "end": 2684390,
+    "speaker": "A",
+    "confidence": 0.97021484
+  },
+  {
+    "sid": "s000468",
+    "text": "Okay, so let me do this.",
+    "start": 2685830,
+    "end": 2689110,
+    "speaker": "A",
+    "confidence": 0.92008466
+  },
+  {
+    "sid": "s000469",
+    "text": "T of N is true for every n. If n is 64 or 128 or whatever, that's T of N. When I describe that, I never said N gotta be certain value.",
+    "start": 2692880,
+    "end": 2706400,
+    "speaker": "A",
+    "confidence": 0.9741211
+  },
+  {
+    "sid": "s000470",
+    "text": "I never said N gotta be less than 100 for this algorithm to work before for N. Okay, so N works for any value of n?",
+    "start": 2707280,
+    "end": 2718430,
+    "speaker": "A",
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000471",
+    "text": "Yes, please.",
+    "start": 2719940,
+    "end": 2720580,
+    "speaker": "A",
+    "confidence": 0.8901367
+  },
+  {
+    "sid": "s000472",
+    "text": "That's the time it takes to merge.",
+    "start": 2724260,
+    "end": 2726420,
+    "speaker": "A",
+    "confidence": 0.99934894
+  },
+  {
+    "sid": "s000473",
+    "text": "That's order of S plus T in the previous board.",
+    "start": 2726580,
+    "end": 2730500,
+    "speaker": "A",
+    "confidence": 0.9938151
+  },
+  {
+    "sid": "s000474",
+    "text": "Because size of the problem is not N over 2 and N over 2.",
+    "start": 2734339,
+    "end": 2738100,
+    "speaker": "A",
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000475",
+    "text": "S and T are generic number which happen to be N over 2 and N over 2.",
+    "start": 2738740,
+    "end": 2745620,
+    "speaker": "A",
+    "confidence": 0.9848633
+  },
+  {
+    "sid": "s000476",
+    "text": "So this is your S in the previous writing.",
+    "start": 2746340,
+    "end": 2750820,
+    "speaker": "A",
+    "confidence": 0.99121094
+  },
+  {
+    "sid": "s000477",
+    "text": "And this is Z in the previous one which happened to be n over two in this case.",
+    "start": 2750820,
+    "end": 2755620,
+    "speaker": "A",
+    "confidence": 0.9873047
+  },
+  {
+    "sid": "s000478",
+    "text": "So two things so far: merging.",
+    "start": 2757940,
+    "end": 2761940,
+    "speaker": "A",
+    "confidence": 0.8510742
+  },
+  {
+    "sid": "s000479",
+    "text": "Side note, right.",
+    "start": 2762180,
+    "end": 2763620,
+    "speaker": "A",
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000480",
+    "text": "Number one, the structure of this problem, we need to be comfortable hot divide and conclude.",
+    "start": 2764820,
+    "end": 2769910,
+    "speaker": "A",
+    "confidence": 0.96435547
+  },
+  {
+    "sid": "s000481",
+    "text": "Because once you understand that, you can use today's technique and apply it to a large number of divide and conquer algorithm.",
+    "start": 2771020,
+    "end": 2778860,
+    "speaker": "A",
+    "confidence": 0.9663086
+  },
+  {
+    "sid": "s000482",
+    "text": "I'll do a few of it in the class today on Thursday, but you should be able to do it yourself.",
+    "start": 2778860,
+    "end": 2785020,
+    "speaker": "A",
+    "confidence": 0.9659831
+  },
+  {
+    "sid": "s000483",
+    "text": "Divide and conquer in general is fairly straightforward.",
+    "start": 2785260,
+    "end": 2788780,
+    "speaker": "A",
+    "confidence": 0.99560547
+  },
+  {
+    "sid": "s000484",
+    "text": "What makes it difficult is the merging step.",
+    "start": 2790220,
+    "end": 2793180,
+    "speaker": "A",
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000485",
+    "text": "Merging by itself was easily.",
+    "start": 2793980,
+    "end": 2795500,
+    "speaker": "A",
+    "confidence": 0.9959717
+  },
+  {
+    "sid": "s000486",
+    "text": "But there are other merging steps in other problems that are not as straightforward.",
+    "start": 2795890,
+    "end": 2801890,
+    "speaker": "A",
+    "confidence": 0.96240234
+  },
+  {
+    "sid": "s000487",
+    "text": "But the structure of divide and conquer is generally like this.",
+    "start": 2801890,
+    "end": 2806130,
+    "speaker": "A",
+    "confidence": 0.9946289
+  },
+  {
+    "sid": "s000488",
+    "text": "That's why I emphasize you gotta be comfortable with this structure, understand it and how.",
+    "start": 2807250,
+    "end": 2813410,
+    "speaker": "A",
+    "confidence": 0.9973958
+  },
+  {
+    "sid": "s000489",
+    "text": "I translated this to this equation.",
+    "start": 2813410,
+    "end": 2815730,
+    "speaker": "A",
+    "confidence": 0.9394531
+  },
+  {
+    "sid": "s000490",
+    "text": "Next I'll show you how to solve this equation.",
+    "start": 2817970,
+    "end": 2820690,
+    "speaker": "A",
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000491",
+    "text": "Now you can use Z transform any kind of algebra you have taken before.",
+    "start": 2821500,
+    "end": 2826940,
+    "speaker": "A",
+    "confidence": 0.97753906
+  },
+  {
+    "sid": "s000492",
+    "text": "I don't want to do that because those are overkill for this class.",
+    "start": 2827420,
+    "end": 2831180,
+    "speaker": "A",
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000493",
+    "text": "We will be doing basically simple recursion of this part in this class.",
+    "start": 2831500,
+    "end": 2836060,
+    "speaker": "A",
+    "confidence": 0.953125
+  },
+  {
+    "sid": "s000494",
+    "text": "I just want you to be comfortable with these equations.",
+    "start": 2836540,
+    "end": 2839020,
+    "speaker": "A",
+    "confidence": 0.671875
+  },
+  {
+    "sid": "s000495",
+    "text": "If it is n squared plus t o to the cube of n over 2, we can solve them.",
+    "start": 2839820,
+    "end": 2849040,
+    "speaker": "A",
+    "confidence": 0.51708984
+  },
+  {
+    "sid": "s000496",
+    "text": "You probably have solved them in your previous math courses, but you don't need it here, so I'm not going to teach you.",
+    "start": 2849040,
+    "end": 2855680,
+    "speaker": "A",
+    "confidence": 0.96484375
+  },
+  {
+    "sid": "s000497",
+    "text": "We don't need it for algorithm design.",
+    "start": 2856000,
+    "end": 2858240,
+    "speaker": "A",
+    "confidence": 0.99121094
+  },
+  {
+    "sid": "s000498",
+    "text": "What I'm going to show here, if you can do it, what I'm going to do in the next five minutes, that's the kind of math we need to do this time.",
+    "start": 2860160,
+    "end": 2869760,
+    "speaker": "A",
+    "confidence": 0.9941406
+  },
+  {
+    "sid": "s000499",
+    "text": "Complexity analysis for this course, for pretty much any algorithm design problem.",
+    "start": 2869760,
+    "end": 2874830,
+    "speaker": "A",
+    "confidence": 0.8685303
+  },
+  {
+    "sid": "s000500",
+    "text": "Okay, so I said this thing is true for any N. I did not make any restriction on N that it should be less than 1,000 or more than 1,000 or anything like that.",
+    "start": 2875790,
+    "end": 2887790,
+    "speaker": "A",
+    "confidence": 0.8108724
+  },
+  {
+    "sid": "s000501",
+    "text": "Since this is true for any N, it gotta be true for when n is n over 2 because n over 2 is any n. Kind of weird to say that, but that's exactly what this is.",
+    "start": 2888269,
+    "end": 2903490,
+    "speaker": "A",
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000502",
+    "text": "So T of N over 2, I'm gonna endogenic I E. When this n is n over 2, this gotta be true.",
+    "start": 2904530,
+    "end": 2913090,
+    "speaker": "A",
+    "confidence": 0.9970703
+  },
+  {
+    "sid": "s000503",
+    "text": "So I'm gonna say 2 of this is gonna be that 2t of n over 2 squared plus c of n over 2 plus cx.",
+    "start": 2913410,
+    "end": 2932860,
+    "speaker": "A",
+    "confidence": 0.9946289
+  },
+  {
+    "sid": "s000504",
+    "text": "So this thing here in the bracket is this.",
+    "start": 2933500,
+    "end": 2937900,
+    "speaker": "A",
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000505",
+    "text": "And I didn't use any algebra.",
+    "start": 2941900,
+    "end": 2944700,
+    "speaker": "A",
+    "confidence": 0.96484375
+  },
+  {
+    "sid": "s000506",
+    "text": "All I did was I plugged in n over 2, 4 n in this equation.",
+    "start": 2944700,
+    "end": 2950550,
+    "speaker": "A",
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000507",
+    "text": "In this equation, I plug in n over 2 for n and I get what is in here?",
+    "start": 2958390,
+    "end": 2965590,
+    "speaker": "A",
+    "confidence": 0.9941406
+  },
+  {
+    "sid": "s000508",
+    "text": "That's it.",
+    "start": 2966710,
+    "end": 2967310,
+    "speaker": "A",
+    "confidence": 0.9967448
+  },
+  {
+    "sid": "s000509",
+    "text": "I just took n over 2.",
+    "start": 2967310,
+    "end": 2970150,
+    "speaker": "A",
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000510",
+    "text": "Plug it for each N that I see here.",
+    "start": 2970310,
+    "end": 2973190,
+    "speaker": "A",
+    "confidence": 0.82299805
+  },
+  {
+    "sid": "s000511",
+    "text": "So I get that's a six simple substitution.",
+    "start": 2973590,
+    "end": 2976080,
+    "speaker": "A",
+    "confidence": 0.9926758
+  },
+  {
+    "sid": "s000512",
+    "text": "If I say substitute m for X, I take every m out, I put x in it.",
+    "start": 2978960,
+    "end": 2985240,
+    "speaker": "A",
+    "confidence": 0.98876953
+  },
+  {
+    "sid": "s000513",
+    "text": "Simple substitution, no fancy math.",
+    "start": 2985240,
+    "end": 2988240,
+    "speaker": "A",
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000514",
+    "text": "Okay, so let me rewrite this.",
+    "start": 2991280,
+    "end": 2994080,
+    "speaker": "A",
+    "confidence": 0.9296875
+  },
+  {
+    "sid": "s000515",
+    "text": "This is going to be 2 squared t of n over 20 squared 2 times c of n over 2, that's c of n. And I have another c of n. So I get 2c of n simple multiplication.",
+    "start": 2995280,
+    "end": 3013850,
+    "speaker": "A",
+    "confidence": 0.96875
+  },
+  {
+    "sid": "s000516",
+    "text": "So I'm going to write the rest of it up there.",
+    "start": 3014490,
+    "end": 3016810,
+    "speaker": "A",
+    "confidence": 0.9838867
+  },
+  {
+    "sid": "s000517",
+    "text": "In fact, let me write the last equation up here so you can all see.",
+    "start": 3018010,
+    "end": 3022090,
+    "speaker": "A",
+    "confidence": 0.99072266
+  },
+  {
+    "sid": "s000518",
+    "text": "So 2 squared t of n over 2 squared plus 2 c of n. Substitution and simple math.",
+    "start": 3022650,
+    "end": 3034820,
+    "speaker": "A",
+    "confidence": 0.9916992
+  },
+  {
+    "sid": "s000519",
+    "text": "By simple math, I mean n over 2 times 2 is going to be N. That kind of math.",
+    "start": 3035060,
+    "end": 3041300,
+    "speaker": "A",
+    "confidence": 0.9916992
+  },
+  {
+    "sid": "s000520",
+    "text": "Yeah.",
+    "start": 3041380,
+    "end": 3041860,
+    "speaker": "A",
+    "confidence": 0.9503581
+  },
+  {
+    "sid": "s000521",
+    "text": "So instead of saying order n, that's the time it takes to merge.",
+    "start": 3044740,
+    "end": 3049140,
+    "speaker": "A",
+    "confidence": 0.9941406
+  },
+  {
+    "sid": "s000522",
+    "text": "Doing algebra on order notation is kind of tricky.",
+    "start": 3049540,
+    "end": 3053510,
+    "speaker": "A",
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000523",
+    "text": "So instead of saying order of n, I'm just going to say some constant C times n. So C of N is order N. Same thing.",
+    "start": 3053670,
+    "end": 3062710,
+    "speaker": "A",
+    "confidence": 0.9868164
+  },
+  {
+    "sid": "s000524",
+    "text": "I know how to do algebra on CN.",
+    "start": 3063030,
+    "end": 3065910,
+    "speaker": "A",
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000525",
+    "text": "I know how to multiply this by 2 divided by 2, etc.",
+    "start": 3065910,
+    "end": 3070950,
+    "speaker": "A",
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000526",
+    "text": "If it was order N, it could get tricky.",
+    "start": 3071270,
+    "end": 3074470,
+    "speaker": "A",
+    "confidence": 0.99316406
+  },
+  {
+    "sid": "s000527",
+    "text": "Not impossible, just tricky.",
+    "start": 3074630,
+    "end": 3076470,
+    "speaker": "A",
+    "confidence": 0.99658203
+  },
+  {
+    "sid": "s000528",
+    "text": "At least for me.",
+    "start": 3076470,
+    "end": 3077350,
+    "speaker": "A",
+    "confidence": 0.9477539
+  },
+  {
+    "sid": "s000529",
+    "text": "I want to be comfortable.",
+    "start": 3078240,
+    "end": 3079440,
+    "speaker": "A",
+    "confidence": 0.8173828
+  },
+  {
+    "sid": "s000530",
+    "text": "I've done constant times n all my life and multiply and divide.",
+    "start": 3079440,
+    "end": 3084480,
+    "speaker": "A",
+    "confidence": 0.93098956
+  },
+  {
+    "sid": "s000531",
+    "text": "So I know how to do that.",
+    "start": 3084480,
+    "end": 3085680,
+    "speaker": "A",
+    "confidence": 0.9921875
+  },
+  {
+    "sid": "s000532",
+    "text": "Okay, so great.",
+    "start": 3089680,
+    "end": 3092080,
+    "speaker": "A",
+    "confidence": 0.81624347
+  },
+  {
+    "sid": "s000533",
+    "text": "I translated T of N. Originally, I wrote that as n over 2 as a function of n over 2.",
+    "start": 3092080,
+    "end": 3102400,
+    "speaker": "A",
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000534",
+    "text": "Then to subtract problems, now I'm writing them as a function of N over 4.",
+    "start": 3102560,
+    "end": 3107640,
+    "speaker": "A",
+    "confidence": 0.95947266
+  },
+  {
+    "sid": "s000535",
+    "text": "Now, to start with, I don't know what T of N is.",
+    "start": 3108440,
+    "end": 3111480,
+    "speaker": "A",
+    "confidence": 0.97998047
+  },
+  {
+    "sid": "s000536",
+    "text": "What's the runtime of this algorithm?",
+    "start": 3111480,
+    "end": 3113400,
+    "speaker": "A",
+    "confidence": 0.8904622
+  },
+  {
+    "sid": "s000537",
+    "text": "I don't know.",
+    "start": 3113400,
+    "end": 3114120,
+    "speaker": "A",
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000538",
+    "text": "That's the whole point of writing this.",
+    "start": 3114200,
+    "end": 3116280,
+    "speaker": "A",
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000539",
+    "text": "If I don't know what T of n is, then I obviously or probably don't know what T of N over 4 is.",
+    "start": 3116920,
+    "end": 3124120,
+    "speaker": "A",
+    "confidence": 0.99658203
+  },
+  {
+    "sid": "s000540",
+    "text": "I haven't really made the problem any easier.",
+    "start": 3124600,
+    "end": 3126920,
+    "speaker": "A",
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000541",
+    "text": "Okay, so let's do it one more step.",
+    "start": 3129970,
+    "end": 3131810,
+    "speaker": "A",
+    "confidence": 0.9684245
+  },
+  {
+    "sid": "s000542",
+    "text": "So this is true for.",
+    "start": 3133250,
+    "end": 3135010,
+    "speaker": "A",
+    "confidence": 0.9794922
+  },
+  {
+    "sid": "s000543",
+    "text": "This is true for any n, including when N is n over 4.",
+    "start": 3135570,
+    "end": 3141010,
+    "speaker": "A",
+    "confidence": 0.9794922
+  },
+  {
+    "sid": "s000544",
+    "text": "So if I write that you get 2 to the 3t of n over 2 3, 2 to the power 3 plus 3 cm.",
+    "start": 3141410,
+    "end": 3151250,
+    "speaker": "A",
+    "confidence": 0.9897461
+  },
+  {
+    "sid": "s000545",
+    "text": "And all I did was in this equation, I plot for n and over 4.",
+    "start": 3151890,
+    "end": 3158940,
+    "speaker": "A",
+    "confidence": 0.9916992
+  },
+  {
+    "sid": "s000546",
+    "text": "The same method that I did here, the same simple algebra.",
+    "start": 3159420,
+    "end": 3163380,
+    "speaker": "A",
+    "confidence": 0.9506836
+  },
+  {
+    "sid": "s000547",
+    "text": "I did it one more time.",
+    "start": 3163380,
+    "end": 3164780,
+    "speaker": "A",
+    "confidence": 0.9970703
+  },
+  {
+    "sid": "s000548",
+    "text": "Okay, and you can do one more step.",
+    "start": 3167420,
+    "end": 3171860,
+    "speaker": "A",
+    "confidence": 0.90283203
+  },
+  {
+    "sid": "s000549",
+    "text": "And one more step.",
+    "start": 3171860,
+    "end": 3172940,
+    "speaker": "A",
+    "confidence": 0.94970703
+  },
+  {
+    "sid": "s000550",
+    "text": "Okay, I just did a couple of them to be comfortable with the general form of this equation.",
+    "start": 3173020,
+    "end": 3179740,
+    "speaker": "A",
+    "confidence": 0.820638
+  },
+  {
+    "sid": "s000551",
+    "text": "So you can guess by doing a couple more steps, or at this time, guess, or you can actually formally prove, if you need to, you don't really need it here, that after I substitution, I get 2 to the power I t of n over 2 to the I plus icn God dot naught.",
+    "start": 3180930,
+    "end": 3206210,
+    "speaker": "A",
+    "confidence": 0.99658203
+  },
+  {
+    "sid": "s000552",
+    "text": "Okay, next one is going to be 2 to the 4, 2 to the 5, and finally 2 to the I.",
+    "start": 3207340,
+    "end": 3214780,
+    "speaker": "A",
+    "confidence": 0.95914716
+  },
+  {
+    "sid": "s000553",
+    "text": "So now I express T of N, the runtime of this algorithm as a function of t of n over something.",
+    "start": 3215820,
+    "end": 3224300,
+    "speaker": "A",
+    "confidence": 0.9946289
+  },
+  {
+    "sid": "s000554",
+    "text": "A function of I.",
+    "start": 3224460,
+    "end": 3225660,
+    "speaker": "A",
+    "confidence": 0.9633789
+  },
+  {
+    "sid": "s000555",
+    "text": "Again, it seems it's not.",
+    "start": 3226380,
+    "end": 3228060,
+    "speaker": "A",
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000556",
+    "text": "I didn't know what this is.",
+    "start": 3229020,
+    "end": 3230620,
+    "speaker": "A",
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000557",
+    "text": "The wrong time is.",
+    "start": 3231340,
+    "end": 3232460,
+    "speaker": "A",
+    "confidence": 0.9975586
+  },
+  {
+    "sid": "s000558",
+    "text": "I obviously don't know what this is.",
+    "start": 3232960,
+    "end": 3235280,
+    "speaker": "A",
+    "confidence": 0.9448242
+  },
+  {
+    "sid": "s000559",
+    "text": "This looks actually even more complicated than that.",
+    "start": 3235520,
+    "end": 3238480,
+    "speaker": "A",
+    "confidence": 0.9946289
+  },
+  {
+    "sid": "s000560",
+    "text": "So what have I done?",
+    "start": 3238800,
+    "end": 3239920,
+    "speaker": "A",
+    "confidence": 0.96191406
+  },
+  {
+    "sid": "s000561",
+    "text": "So I'm going to ask myself.",
+    "start": 3240240,
+    "end": 3241920,
+    "speaker": "A",
+    "confidence": 0.8847656
+  },
+  {
+    "sid": "s000562",
+    "text": "I know when N is a trillion.",
+    "start": 3241920,
+    "end": 3244320,
+    "speaker": "A",
+    "confidence": 0.9951172
+  },
+  {
+    "sid": "s000563",
+    "text": "I don't know the runtime of this algorithm.",
+    "start": 3244480,
+    "end": 3246880,
+    "speaker": "A",
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000564",
+    "text": "When n is a billion, I don't know runtime of this algorithm.",
+    "start": 3247040,
+    "end": 3250720,
+    "speaker": "A",
+    "confidence": 0.99316406
+  },
+  {
+    "sid": "s000565",
+    "text": "Do I know anything about for any size, the runtime of this algorithm, the answer is yes.",
+    "start": 3250880,
+    "end": 3257520,
+    "speaker": "A",
+    "confidence": 0.9741211
+  },
+  {
+    "sid": "s000566",
+    "text": "When the problem size is very small, like one.",
+    "start": 3258250,
+    "end": 3261090,
+    "speaker": "A",
+    "confidence": 0.9765625
+  },
+  {
+    "sid": "s000567",
+    "text": "I know the runtime of this.",
+    "start": 3261090,
+    "end": 3262570,
+    "speaker": "A",
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000568",
+    "text": "If I have to sort one number, how long does it take using this technique?",
+    "start": 3263610,
+    "end": 3267690,
+    "speaker": "A",
+    "confidence": 0.9902344
+  },
+  {
+    "sid": "s000569",
+    "text": "One unit of time, it's already sorted.",
+    "start": 3268970,
+    "end": 3271530,
+    "speaker": "A",
+    "confidence": 0.99658203
+  },
+  {
+    "sid": "s000570",
+    "text": "Zero units of time, three units of time, it's going to be a constant.",
+    "start": 3271530,
+    "end": 3275690,
+    "speaker": "A",
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000571",
+    "text": "So when this value is equal to 1, then I know that t of something, right?",
+    "start": 3278170,
+    "end": 3286490,
+    "speaker": "A",
+    "confidence": 0.9951172
+  },
+  {
+    "sid": "s000572",
+    "text": "That's my logic.",
+    "start": 3287210,
+    "end": 3288570,
+    "speaker": "A",
+    "confidence": 0.95719403
+  },
+  {
+    "sid": "s000573",
+    "text": "So question when is this value equal to 1?",
+    "start": 3288970,
+    "end": 3292570,
+    "speaker": "A",
+    "confidence": 0.99316406
+  },
+  {
+    "sid": "s000574",
+    "text": "I know how to do the math.",
+    "start": 3292730,
+    "end": 3294170,
+    "speaker": "A",
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000575",
+    "text": "I say when is it that N over 2 to the power of I is one for what value of I?",
+    "start": 3294570,
+    "end": 3301850,
+    "speaker": "A",
+    "confidence": 0.8461914
+  },
+  {
+    "sid": "s000576",
+    "text": "Okay, another put so simple math.",
+    "start": 3302810,
+    "end": 3306090,
+    "speaker": "A",
+    "confidence": 0.9664714
+  },
+  {
+    "sid": "s000577",
+    "text": "Two to the I is equal to n. When is it that these two are equal?",
+    "start": 3306490,
+    "end": 3311710,
+    "speaker": "A",
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000578",
+    "text": "And the answer is take log base two of both sides.",
+    "start": 3313630,
+    "end": 3317710,
+    "speaker": "A",
+    "confidence": 0.99316406
+  },
+  {
+    "sid": "s000579",
+    "text": "So that's true when I is equal to log of n. And here in computer science, in general, when I say log n, we mean log N. Base 2 this time simple as.",
+    "start": 3318030,
+    "end": 3331390,
+    "speaker": "A",
+    "confidence": 0.9975586
+  },
+  {
+    "sid": "s000580",
+    "text": "So when I is equal to that value log n, T of this weird number is going to be t of 1.",
+    "start": 3333630,
+    "end": 3341250,
+    "speaker": "A",
+    "confidence": 0.9814453
+  },
+  {
+    "sid": "s000581",
+    "text": "What is t of 1?",
+    "start": 3341810,
+    "end": 3343090,
+    "speaker": "A",
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000582",
+    "text": "The runtime of this algorithm, when there is only one input, and I know that if I have one input, use this methodology in constant time, I have a sorted list.",
+    "start": 3343170,
+    "end": 3356770,
+    "speaker": "A",
+    "confidence": 0.9926758
+  },
+  {
+    "sid": "s000583",
+    "text": "If I can sort number seven, what's the answer?",
+    "start": 3357730,
+    "end": 3361010,
+    "speaker": "A",
+    "confidence": 0.97558594
+  },
+  {
+    "sid": "s000584",
+    "text": "The answer is seven.",
+    "start": 3361090,
+    "end": 3362290,
+    "speaker": "A",
+    "confidence": 0.9633789
+  },
+  {
+    "sid": "s000585",
+    "text": "It's sorted out.",
+    "start": 3362370,
+    "end": 3363250,
+    "speaker": "A",
+    "confidence": 0.9041341
+  },
+  {
+    "sid": "s000586",
+    "text": "So call it zero.",
+    "start": 3364200,
+    "end": 3365200,
+    "speaker": "A",
+    "confidence": 0.9169922
+  },
+  {
+    "sid": "s000587",
+    "text": "Call it one. What's the number?",
+    "start": 3365200,
+    "end": 3366680,
+    "speaker": "A",
+    "confidence": 0.6381836
+  },
+  {
+    "sid": "s000588",
+    "text": "Okay, so now I'm going to go back to this general equation with I and I plug in I equal to log N. Because I do know something about this value when I is log N. So in this case, T of N when I equal to log N, T of N is going to be two to the log N. I'm just going to substitute in this equation for I this log N. So 2 to the log N T of N over 2 to the log N plus Icn log N times C times N. Simple substitution for the value I, nothing else.",
+    "start": 3368920,
+    "end": 3426100,
+    "speaker": "A",
+    "confidence": 0.78727216
+  },
+  {
+    "sid": "s000589",
+    "text": "If I say ab and I say a equal to 7, so what is this function?",
+    "start": 3428580,
+    "end": 3436100,
+    "speaker": "A",
+    "confidence": 0.9975586
+  },
+  {
+    "sid": "s000590",
+    "text": "It's going to be 7b simple substitution.",
+    "start": 3436100,
+    "end": 3439140,
+    "speaker": "A",
+    "confidence": 0.9638672
+  },
+  {
+    "sid": "s000591",
+    "text": "That's exactly what I did there.",
+    "start": 3443870,
+    "end": 3445550,
+    "speaker": "A",
+    "confidence": 0.84847003
+  },
+  {
+    "sid": "s000592",
+    "text": "Nothing more, nothing less.",
+    "start": 3446430,
+    "end": 3447870,
+    "speaker": "A",
+    "confidence": 0.9953613
+  },
+  {
+    "sid": "s000593",
+    "text": "Okay, so let's solve this equation here.",
+    "start": 3449070,
+    "end": 3451870,
+    "speaker": "A",
+    "confidence": 0.84488934
+  },
+  {
+    "sid": "s000594",
+    "text": "Two to the power log n, what is that value?",
+    "start": 3452430,
+    "end": 3454990,
+    "speaker": "A",
+    "confidence": 0.98779297
+  },
+  {
+    "sid": "s000595",
+    "text": "And in computer science, N. Because this is base two.",
+    "start": 3457870,
+    "end": 3461710,
+    "speaker": "A",
+    "confidence": 0.5332031
+  },
+  {
+    "sid": "s000596",
+    "text": "What's N divided by 2 to the log N?",
+    "start": 3462910,
+    "end": 3467760,
+    "speaker": "A",
+    "confidence": 0.85498047
+  },
+  {
+    "sid": "s000597",
+    "text": "One.",
+    "start": 3468960,
+    "end": 3469360,
+    "speaker": "A",
+    "confidence": 0.9848633
+  },
+  {
+    "sid": "s000598",
+    "text": "Not surprising, I actually designed this to be one.",
+    "start": 3470000,
+    "end": 3474320,
+    "speaker": "A",
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000599",
+    "text": "So if this would not have been one, I would have been.",
+    "start": 3474480,
+    "end": 3477760,
+    "speaker": "A",
+    "confidence": 0.9921875
+  },
+  {
+    "sid": "s000600",
+    "text": "I made a mistake somewhere.",
+    "start": 3478000,
+    "end": 3479680,
+    "speaker": "A",
+    "confidence": 0.98339844
+  },
+  {
+    "sid": "s000601",
+    "text": "So this has to be 1.",
+    "start": 3480240,
+    "end": 3481920,
+    "speaker": "A",
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000602",
+    "text": "That's the whole point.",
+    "start": 3482000,
+    "end": 3483199,
+    "speaker": "A",
+    "confidence": 0.9920247
+  },
+  {
+    "sid": "s000603",
+    "text": "So t of 1 plus cn log n. I just wrote the order different just because I said like it, because multiplication is commutative in algebra.",
+    "start": 3483680,
+    "end": 3500260,
+    "speaker": "A",
+    "confidence": 0.9433594
+  },
+  {
+    "sid": "s000604",
+    "text": "So anyway, from here to here, I haven't done much.",
+    "start": 3500980,
+    "end": 3506180,
+    "speaker": "A",
+    "confidence": 0.95996094
+  },
+  {
+    "sid": "s000605",
+    "text": "What's T of one?",
+    "start": 3506260,
+    "end": 3507620,
+    "speaker": "A",
+    "confidence": 0.9788411
+  },
+  {
+    "sid": "s000606",
+    "text": "One Another way, how long does it take to sort one number one or two constant, if you want to call it.",
+    "start": 3510980,
+    "end": 3520270,
+    "speaker": "A",
+    "confidence": 0.96240234
+  },
+  {
+    "sid": "s000607",
+    "text": "One. Another way, how long does it take to sort one number? One or two. Constant, if you want to call it.",
+    "start": 3520750,
+    "end": 3537230,
+    "speaker": "A",
+    "confidence": 0.7993164
+  },
+  {
+    "sid": "s000608",
+    "text": "And the C is a constant.",
+    "start": 3537390,
+    "end": 3539070,
+    "speaker": "A",
+    "confidence": 0.9482422
+  },
+  {
+    "sid": "s000609",
+    "text": "So this is order of n.n.t of n is order of n log n. So runtime for merge sort is order of n log n, which is.",
+    "start": 3539070,
+    "end": 3562760,
+    "speaker": "A",
+    "confidence": 0.98876953
+  },
+  {
+    "sid": "s000610",
+    "text": "I told you a few weeks ago, I said trust me, that's your case.",
+    "start": 3562760,
+    "end": 3566600,
+    "speaker": "A",
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000611",
+    "text": "Just have to wait for it to.",
+    "start": 3567640,
+    "end": 3569160,
+    "speaker": "A",
+    "confidence": 0.99609375
+  },
+  {
+    "sid": "s000612",
+    "text": "So from now on, when you write your proof for or when you use sorting in part of your algorithm, you don't need to say trust me, you just gotta say based on the analysis of merge sort, the runtime of sorting is n log n. No matter what that is.",
+    "start": 3570370,
+    "end": 3588850,
+    "speaker": "A",
+    "confidence": 0.9794922
+  },
+  {
+    "sid": "s000613",
+    "text": "Oh, T of 1 is Order of 1.",
+    "start": 3600140,
+    "end": 3602220,
+    "speaker": "A",
+    "confidence": 0.83032227
+  },
+  {
+    "sid": "s000614",
+    "text": "What is T of I is sorting I numbers.",
+    "start": 3602300,
+    "end": 3605500,
+    "speaker": "A",
+    "confidence": 0.9946289
+  },
+  {
+    "sid": "s000615",
+    "text": "So T of 1 is sorting one number.",
+    "start": 3605740,
+    "end": 3608060,
+    "speaker": "A",
+    "confidence": 0.98876953
+  },
+  {
+    "sid": "s000616",
+    "text": "How long does it take to sort one number constant?",
+    "start": 3608460,
+    "end": 3612460,
+    "speaker": "A",
+    "confidence": 1.0
+  },
+  {
+    "sid": "s000617",
+    "text": "I'm going to call it C sub 2 or K or whatever you like, some kind of constant K. Yes, absolutely.",
+    "start": 3612460,
+    "end": 3631750,
+    "speaker": "A",
+    "confidence": 0.9905599
+  },
+  {
+    "sid": "s000618",
+    "text": "So I took this equation, I took this.",
+    "start": 3632230,
+    "end": 3636870,
+    "speaker": "A",
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000619",
+    "text": "Let me maybe start from that.",
+    "start": 3637190,
+    "end": 3638870,
+    "speaker": "A",
+    "confidence": 0.9946289
+  },
+  {
+    "sid": "s000620",
+    "text": "So this is n over 2.",
+    "start": 3638870,
+    "end": 3640390,
+    "speaker": "A",
+    "confidence": 0.9951172
+  },
+  {
+    "sid": "s000621",
+    "text": "So this t of N blah blah is true for.",
+    "start": 3641190,
+    "end": 3645430,
+    "speaker": "A",
+    "confidence": 0.9902344
+  },
+  {
+    "sid": "s000622",
+    "text": "True for every value of N. Okay, every value of N. So it better be true for when N is equal to N over 2, because we just said so.",
+    "start": 3645590,
+    "end": 3661120,
+    "speaker": "A",
+    "confidence": 0.8041992
+  },
+  {
+    "sid": "s000623",
+    "text": "So all I do is I take n over 2, I substitute n for n over 2.",
+    "start": 3661360,
+    "end": 3667120,
+    "speaker": "A",
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000624",
+    "text": "So I get 2 of C of for N. I'm going to substitute n over 2, that's n over 2 divided by 2, that's n over 4 for cn for n, I'm going to substitute n over 2.",
+    "start": 3668080,
+    "end": 3683860,
+    "speaker": "A",
+    "confidence": 0.9951172
+  },
+  {
+    "sid": "s000625",
+    "text": "So I get c n over 2 and then I have C N from.",
+    "start": 3684260,
+    "end": 3689700,
+    "speaker": "A",
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000626",
+    "text": "So simple substitution, nothing fancy, nothing more than substitution.",
+    "start": 3690020,
+    "end": 3695460,
+    "speaker": "A",
+    "confidence": 0.87597656
+  },
+  {
+    "sid": "s000627",
+    "text": "So loom start, kind of messy, but it's just simple substitution.",
+    "start": 3696420,
+    "end": 3700990,
+    "speaker": "A",
+    "confidence": 0.98291016
+  },
+  {
+    "sid": "s000628",
+    "text": "And once you do it on your own on a piece of paper, it will be very straightforward.",
+    "start": 3701310,
+    "end": 3706390,
+    "speaker": "A",
+    "confidence": 0.9663086
+  },
+  {
+    "sid": "s000629",
+    "text": "So definitely do it on your own once.",
+    "start": 3706390,
+    "end": 3708990,
+    "speaker": "A",
+    "confidence": 0.9638672
+  },
+  {
+    "sid": "s000630",
+    "text": "But all the other equations I'm going to do or you will do in the exam are going to be a simple variation of what I did here.",
+    "start": 3709550,
+    "end": 3716990,
+    "speaker": "A",
+    "confidence": 0.28051758
+  },
+  {
+    "sid": "s000631",
+    "text": "We will not be doing very fancy recursion equations because we don't need them.",
+    "start": 3718190,
+    "end": 3723370,
+    "speaker": "A",
+    "confidence": 0.6855469
+  },
+  {
+    "sid": "s000632",
+    "text": "Or in general we don't need them in algorithm design.",
+    "start": 3724960,
+    "end": 3727680,
+    "speaker": "A",
+    "confidence": 0.86328125
+  },
+  {
+    "sid": "s000633",
+    "text": "Usually these recursions are because of divide and conquer.",
+    "start": 3728800,
+    "end": 3732560,
+    "speaker": "A",
+    "confidence": 0.99975586
+  },
+  {
+    "sid": "s000634",
+    "text": "And they are usually of this nature.",
+    "start": 3732560,
+    "end": 3735360,
+    "speaker": "A",
+    "confidence": 0.9326172
+  },
+  {
+    "sid": "s000635",
+    "text": "So I'm going to use this equation in this course three, four times and then I use it.",
+    "start": 3739279,
+    "end": 3746000,
+    "speaker": "A",
+    "confidence": 0.9868164
+  },
+  {
+    "sid": "s000636",
+    "text": "I'm going to say, you know this statement steps, the result is end up.",
+    "start": 3746240,
+    "end": 3751050,
+    "speaker": "A",
+    "confidence": 0.9243164
+  },
+  {
+    "sid": "s000637",
+    "text": "Or you have to tell yourself, okay, I designed this algorithm using divide and conquer.",
+    "start": 3752090,
+    "end": 3757530,
+    "speaker": "A",
+    "confidence": 0.72802734
+  },
+  {
+    "sid": "s000638",
+    "text": "I divide the problem, whatever the problem is, geometry points in 3D space.",
+    "start": 3757690,
+    "end": 3763130,
+    "speaker": "A",
+    "confidence": 0.9951172
+  },
+  {
+    "sid": "s000639",
+    "text": "I'm going to divide it into two parts and then I merge them.",
+    "start": 3763610,
+    "end": 3768170,
+    "speaker": "A",
+    "confidence": 0.84814453
+  },
+  {
+    "sid": "s000640",
+    "text": "It takes linear time.",
+    "start": 3768170,
+    "end": 3769690,
+    "speaker": "A",
+    "confidence": 0.98583984
+  },
+  {
+    "sid": "s000641",
+    "text": "Once you can think of that, you already know your algorithm instead going to be an n log n time alpha.",
+    "start": 3770090,
+    "end": 3776820,
+    "speaker": "A",
+    "confidence": 0.99365234
+  },
+  {
+    "sid": "s000642",
+    "text": "So that's kind of the mechanics of divide and conquer.",
+    "start": 3779060,
+    "end": 3782620,
+    "speaker": "A",
+    "confidence": 0.9667969
+  },
+  {
+    "sid": "s000643",
+    "text": "It makes it very easy to design algorithms.",
+    "start": 3782620,
+    "end": 3785860,
+    "speaker": "A",
+    "confidence": 0.79003906
+  },
+  {
+    "sid": "s000644",
+    "text": "That's why divide and conquer, just like 3D is another general methodology that you can use to solve many, many problems.",
+    "start": 3785940,
+    "end": 3794740,
+    "speaker": "A",
+    "confidence": 0.9947917
+  },
+  {
+    "sid": "s000645",
+    "text": "Yeah, I'm still a little confused on why we said divided by two I.",
+    "start": 3797540,
+    "end": 3802590,
+    "speaker": "A",
+    "confidence": 0.9576823
+  },
+  {
+    "sid": "s000646",
+    "text": "Right.",
+    "start": 3803550,
+    "end": 3803950,
+    "speaker": "A",
+    "confidence": 0.97753906
+  },
+  {
+    "sid": "s000647",
+    "text": "So I was asking myself, I went From N over 2 to this generic N over 2 to the I.",
+    "start": 3804110,
+    "end": 3812750,
+    "speaker": "A",
+    "confidence": 0.9921875
+  },
+  {
+    "sid": "s000648",
+    "text": "Right?",
+    "start": 3813070,
+    "end": 3813470,
+    "speaker": "A",
+    "confidence": 0.9814453
+  },
+  {
+    "sid": "s000649",
+    "text": "I don't know what T of n is.",
+    "start": 3814270,
+    "end": 3816269,
+    "speaker": "A",
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000650",
+    "text": "That's my whole purpose since I don't know what T of n is.",
+    "start": 3816269,
+    "end": 3820590,
+    "speaker": "A",
+    "confidence": 0.9947917
+  },
+  {
+    "sid": "s000651",
+    "text": "Is it N log n?",
+    "start": 3820590,
+    "end": 3821630,
+    "speaker": "A",
+    "confidence": 0.99658203
+  },
+  {
+    "sid": "s000652",
+    "text": "Is it N squared?",
+    "start": 3821630,
+    "end": 3822710,
+    "speaker": "A",
+    "confidence": 0.9863281
+  },
+  {
+    "sid": "s000653",
+    "text": "I don't know.",
+    "start": 3822710,
+    "end": 3823350,
+    "speaker": "A",
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000654",
+    "text": "I have to do the math.",
+    "start": 3823350,
+    "end": 3824590,
+    "speaker": "A",
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000655",
+    "text": "Since I don't know T of N, I probably don't know what T of N over 2 is.",
+    "start": 3824750,
+    "end": 3828870,
+    "speaker": "A",
+    "confidence": 0.9897461
+  },
+  {
+    "sid": "s000656",
+    "text": "Maybe a little easier, but not, not that I'm going to guess this.",
+    "start": 3829190,
+    "end": 3833510,
+    "speaker": "A",
+    "confidence": 0.99316406
+  },
+  {
+    "sid": "s000657",
+    "text": "So I keep going to come to this.",
+    "start": 3833990,
+    "end": 3836790,
+    "speaker": "A",
+    "confidence": 0.9379883
+  },
+  {
+    "sid": "s000658",
+    "text": "So I ask myself, is there any value of this that I know the answer?",
+    "start": 3836790,
+    "end": 3842230,
+    "speaker": "A",
+    "confidence": 0.9638672
+  },
+  {
+    "sid": "s000659",
+    "text": "And the answer to that question is yes, if this is one, I know what that is.",
+    "start": 3842630,
+    "end": 3848630,
+    "speaker": "A",
+    "confidence": 0.8774414
+  },
+  {
+    "sid": "s000660",
+    "text": "I know what T of n is.",
+    "start": 3848630,
+    "end": 3850150,
+    "speaker": "A",
+    "confidence": 0.99609375
+  },
+  {
+    "sid": "s000661",
+    "text": "It takes.",
+    "start": 3850230,
+    "end": 3850950,
+    "speaker": "A",
+    "confidence": 0.9448242
+  },
+  {
+    "sid": "s000662",
+    "text": "It's very easy to sort one number.",
+    "start": 3851200,
+    "end": 3854320,
+    "speaker": "A",
+    "confidence": 0.8334961
+  },
+  {
+    "sid": "s000663",
+    "text": "So I say set this parameter to one.",
+    "start": 3854720,
+    "end": 3857440,
+    "speaker": "A",
+    "confidence": 0.9902344
+  },
+  {
+    "sid": "s000664",
+    "text": "So whenever this is one, I know t of one is going to be one.",
+    "start": 3858320,
+    "end": 3862560,
+    "speaker": "A",
+    "confidence": 0.9921875
+  },
+  {
+    "sid": "s000665",
+    "text": "So I say for what value of I, that is how many steps this is going to be one.",
+    "start": 3862880,
+    "end": 3868440,
+    "speaker": "A",
+    "confidence": 0.9902344
+  },
+  {
+    "sid": "s000666",
+    "text": "The rest of it makes sense.",
+    "start": 3868440,
+    "end": 3872400,
+    "speaker": "A",
+    "confidence": 0.9926758
+  },
+  {
+    "sid": "s000667",
+    "text": "Yes.",
+    "start": 3872400,
+    "end": 3872800,
+    "speaker": "A",
+    "confidence": 0.84399414
+  },
+  {
+    "sid": "s000668",
+    "text": "Okay, now, so please do this 100% on your own. Number one,",
+    "start": 3877850,
+    "end": 3890690,
+    "speaker": "A",
+    "confidence": 0.84749347
+  },
+  {
+    "sid": "s000669",
+    "text": "You will understand this whole marriage sort when you do all of these on your own.",
+    "start": 3890690,
+    "end": 3894970,
+    "speaker": "A",
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000670",
+    "text": "And if I give you another problem, then you are super comfortable with it.",
+    "start": 3895530,
+    "end": 3899690,
+    "speaker": "A",
+    "confidence": 0.9814453
+  },
+  {
+    "sid": "s000671",
+    "text": "This looks messy.",
+    "start": 3899690,
+    "end": 3901010,
+    "speaker": "A",
+    "confidence": 0.99609375
+  },
+  {
+    "sid": "s000672",
+    "text": "It's actually very cool once you do it on your own.",
+    "start": 3901010,
+    "end": 3905440,
+    "speaker": "A",
+    "confidence": 0.8413086
+  },
+  {
+    "sid": "s000673",
+    "text": "Okay, now what if this was T of N over 3 plus T of 2N over 3 plus all these guys, i.e., what if I didn't divide the list into half and half, N over 2 and N over 2.",
+    "start": 3906000,
+    "end": 3931560,
+    "speaker": "A",
+    "confidence": 0.88102216
+  },
+  {
+    "sid": "s000674",
+    "text": "What if I did n over 3 and 2 n over 3, then what?",
+    "start": 3931960,
+    "end": 3937000,
+    "speaker": "A",
+    "confidence": 0.99365234
+  },
+  {
+    "sid": "s000675",
+    "text": "@ the beginning I said don't stress over making the two sides exactly equal.",
+    "start": 3938200,
+    "end": 3943480,
+    "speaker": "A",
+    "confidence": 0.99756
+  },
+  {
+    "sid": "s000676",
+    "text": "If you do that, this is going to be less than or equal to 2t of 2n over 3 because this number is bigger than that.",
+    "start": 3944200,
+    "end": 3955060,
+    "speaker": "A",
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000677",
+    "text": "So this is less than or equal to if I substitute that for that.",
+    "start": 3956650,
+    "end": 3960890,
+    "speaker": "A",
+    "confidence": 0.9868164
+  },
+  {
+    "sid": "s000678",
+    "text": "So 2T of N over 3 plus all these stuff.",
+    "start": 3961290,
+    "end": 3965370,
+    "speaker": "A",
+    "confidence": 0.97509766
+  },
+  {
+    "sid": "s000679",
+    "text": "So now I have the same equation as before, except instead of N over 2 I have 2 N over 3.",
+    "start": 3967370,
+    "end": 3974570,
+    "speaker": "A",
+    "confidence": 0.9951172
+  },
+  {
+    "sid": "s000680",
+    "text": "I let you do the math, but basically what it turns out to be is instead of log n base 2, you're going to get log n base 3 half, which is order of log n. So if you solve this equation using what I did here, you're going to end up with order N. Log n. What if it was really unbiased?",
+    "start": 3976890,
+    "end": 4002610,
+    "speaker": "A",
+    "confidence": 0.99609375
+  },
+  {
+    "sid": "s000681",
+    "text": "What if this was N over 10 and 9N over 10, then what?",
+    "start": 4002610,
+    "end": 4011300,
+    "speaker": "A",
+    "confidence": 0.9873047
+  },
+  {
+    "sid": "s000682",
+    "text": "And this will be less than or equal to 9N over 10.",
+    "start": 4012340,
+    "end": 4017060,
+    "speaker": "A",
+    "confidence": 0.4885254
+  },
+  {
+    "sid": "s000683",
+    "text": "You do the math exactly as I did.",
+    "start": 4017380,
+    "end": 4019780,
+    "speaker": "A",
+    "confidence": 0.96240234
+  },
+  {
+    "sid": "s000684",
+    "text": "Again, you're going to get order and log n, except that log n base 2 is going to be log n base 10 divided by 9, which is the order of log n base 2.",
+    "start": 4019860,
+    "end": 4033080,
+    "speaker": "A",
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000685",
+    "text": "So it doesn't matter how balanced or unbalanced the list is, as long as each of this is a constant times n. If it's not constant times n, if this is one, for example, and this is n minus one, so we put one on one side, everybody else on the other, then it won't be end logging anymore.",
+    "start": 4034680,
+    "end": 4061490,
+    "speaker": "A",
+    "confidence": 0.97265625
+  },
+  {
+    "sid": "s000686",
+    "text": "So to make sure, in your general not this problem, any divide and conquer, to make sure you get to enlargement algorithm, the two sides got to be roughly balanced.",
+    "start": 4062290,
+    "end": 4073410,
+    "speaker": "A",
+    "confidence": 0.98339844
+  },
+  {
+    "sid": "s000687",
+    "text": "Roughly balanced means some constant content.",
+    "start": 4073569,
+    "end": 4076290,
+    "speaker": "A",
+    "confidence": 0.91467285
+  },
+  {
+    "sid": "s000688",
+    "text": "So in the midterm, if I tell you this is my merge sort algorithm, I take the list, I put 10% of it on the left, 90% of it on the right.",
+    "start": 4078450,
+    "end": 4092300,
+    "speaker": "A",
+    "confidence": 0.7421875
+  },
+  {
+    "sid": "s000689",
+    "text": "Recursively, what is the runtime of the algorithm?",
+    "start": 4092700,
+    "end": 4096700,
+    "speaker": "A",
+    "confidence": 0.94889325
+  },
+  {
+    "sid": "s000690",
+    "text": "You would go through the same analysis I did, except you would have 9n over 10.",
+    "start": 4097020,
+    "end": 4102300,
+    "speaker": "A",
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000691",
+    "text": "You continue with that, you should get order and log analog.",
+    "start": 4102460,
+    "end": 4106460,
+    "speaker": "A",
+    "confidence": 0.91308594
+  },
+  {
+    "sid": "s000692",
+    "text": "So do one of these examples on your own.",
+    "start": 4107260,
+    "end": 4109750,
+    "speaker": "A",
+    "confidence": 0.98339844
+  },
+  {
+    "sid": "s000693",
+    "text": "Instead of N over 2, pick any other number, N over 100.",
+    "start": 4110230,
+    "end": 4114710,
+    "speaker": "A",
+    "confidence": 0.79907227
+  },
+  {
+    "sid": "s000694",
+    "text": "Still the same thing, as long as it's a constant times n on both sides.",
+    "start": 4115270,
+    "end": 4122230,
+    "speaker": "A",
+    "confidence": 0.99121094
+  },
+  {
+    "sid": "s000695",
+    "text": "Any guesses what the answer to this is?",
+    "start": 4125110,
+    "end": 4127750,
+    "speaker": "A",
+    "confidence": 0.92041016
+  },
+  {
+    "sid": "s000696",
+    "text": "To this recursion, I have one on one side, n minus one on side the other, other side plus linear time energy.",
+    "start": 4130550,
+    "end": 4140199,
+    "speaker": "A",
+    "confidence": 0.9628906
+  },
+  {
+    "sid": "s000697",
+    "text": "So you have n minus one plus N min.",
+    "start": 4143559,
+    "end": 4146399,
+    "speaker": "A",
+    "confidence": 0.9926758
+  },
+  {
+    "sid": "s000698",
+    "text": "Yeah.",
+    "start": 4146399,
+    "end": 4146759,
+    "speaker": "A",
+    "confidence": 0.97753906
+  },
+  {
+    "sid": "s000699",
+    "text": "Is it N squared?",
+    "start": 4146759,
+    "end": 4147719,
+    "speaker": "A",
+    "confidence": 0.7944336
+  },
+  {
+    "sid": "s000700",
+    "text": "Yeah, it's n minus one plus N minus two plus N minus three.",
+    "start": 4147719,
+    "end": 4151799,
+    "speaker": "A",
+    "confidence": 0.99039716
+  },
+  {
+    "sid": "s000701",
+    "text": "Sum of the first N integers is N squared.",
+    "start": 4152039,
+    "end": 4155079,
+    "speaker": "A",
+    "confidence": 0.9929199
+  },
+  {
+    "sid": "s000702",
+    "text": "So if your MIRP stored algorithm, instead of dividing roughly by half, do a little bit and a big chunk, you get to an N squared algorithm.",
+    "start": 4155879,
+    "end": 4166560,
+    "speaker": "A",
+    "confidence": 0.99560547
+  },
+  {
+    "sid": "s000703",
+    "text": "Which bubble sort would have done that for us?",
+    "start": 4166880,
+    "end": 4170360,
+    "speaker": "A",
+    "confidence": 0.5205078
+  },
+  {
+    "sid": "s000704",
+    "text": "So this is not saving us anything.",
+    "start": 4170360,
+    "end": 4172960,
+    "speaker": "A",
+    "confidence": 0.9926758
+  },
+  {
+    "sid": "s000705",
+    "text": "The G in saving in the runtime comes from balancing and therefore that.",
+    "start": 4173120,
+    "end": 4179560,
+    "speaker": "A",
+    "confidence": 0.98876953
+  },
+  {
+    "sid": "s000706",
+    "text": "When I started talking about divide and conquer, the first thing I said is balance.",
+    "start": 4179560,
+    "end": 4184040,
+    "speaker": "A",
+    "confidence": 0.9868164
+  },
+  {
+    "sid": "s000707",
+    "text": "Balance.",
+    "start": 4184040,
+    "end": 4184640,
+    "speaker": "A",
+    "confidence": 0.90494794
+  },
+  {
+    "sid": "s000708",
+    "text": "Yeah.",
+    "start": 4186480,
+    "end": 4186960,
+    "speaker": "A",
+    "confidence": 0.79296875
+  },
+  {
+    "sid": "s000709",
+    "text": "It might not be relevant for this course, but you know, n over 2.",
+    "start": 4188010,
+    "end": 4192970,
+    "speaker": "A",
+    "confidence": 0.9916992
+  },
+  {
+    "sid": "s000710",
+    "text": "Like if a processor has instead of dual threading, it has triple threading.",
+    "start": 4193290,
+    "end": 4198410,
+    "speaker": "A",
+    "confidence": 0.59228516
+  },
+  {
+    "sid": "s000711",
+    "text": "N3 will be like a little bit more efficient than N2.",
+    "start": 4198730,
+    "end": 4203450,
+    "speaker": "A",
+    "confidence": 0.99438
+  },
+  {
+    "sid": "s000712",
+    "text": "Absolutely, yes.",
+    "start": 4203530,
+    "end": 4204730,
+    "speaker": "A",
+    "confidence": 0.9826172
+  },
+  {
+    "sid": "s000713",
+    "text": "But if it's just triple threading three processors, you still get N log n. But the constant in front is going to be better on this.",
+    "start": 4205370,
+    "end": 4215260,
+    "speaker": "A",
+    "confidence": 0.99560547
+  },
+  {
+    "sid": "s000714",
+    "text": "If it does a function of n threading, or if you have a parallel processor where the number of processor is a fraction of N, like n over 10, n over 100, then you start getting speed up.",
+    "start": 4215340,
+    "end": 4228620,
+    "speaker": "A",
+    "confidence": 0.9794922
+  },
+  {
+    "sid": "s000715",
+    "text": "And that's the whole thing with Nvidia.",
+    "start": 4229099,
+    "end": 4231340,
+    "speaker": "A",
+    "confidence": 0.99121094
+  },
+  {
+    "sid": "s000716",
+    "text": "Right?",
+    "start": 4232220,
+    "end": 4232620,
+    "speaker": "A",
+    "confidence": 0.890625
+  },
+  {
+    "sid": "s000717",
+    "text": "The whole thing is there is.",
+    "start": 4232780,
+    "end": 4234380,
+    "speaker": "A",
+    "confidence": 0.97802734
+  },
+  {
+    "sid": "s000718",
+    "text": "There are tons of these processors.",
+    "start": 4234380,
+    "end": 4236140,
+    "speaker": "A",
+    "confidence": 0.84375
+  },
+  {
+    "sid": "s000719",
+    "text": "They are all working in parallel.",
+    "start": 4236220,
+    "end": 4238300,
+    "speaker": "A",
+    "confidence": 0.9135742
+  },
+  {
+    "sid": "s000720",
+    "text": "So instead of doing two and two, they're gonna do a million pieces, each of them N over a million.",
+    "start": 4238870,
+    "end": 4246310,
+    "speaker": "A",
+    "confidence": 0.98291016
+  },
+  {
+    "sid": "s000721",
+    "text": "That's the main, that's the key idea in Nvidia GPUs.",
+    "start": 4247110,
+    "end": 4250950,
+    "speaker": "A",
+    "confidence": 0.9370117
+  },
+  {
+    "sid": "s000722",
+    "text": "And that's very important because instead of N log N they may end up with log N runtime.",
+    "start": 4252310,
+    "end": 4258390,
+    "speaker": "A",
+    "confidence": 0.98876953
+  },
+  {
+    "sid": "s000723",
+    "text": "And that's why they can do LLMs and you know, matrix multiplication.",
+    "start": 4258790,
+    "end": 4262950,
+    "speaker": "A",
+    "confidence": 0.98876953
+  },
+  {
+    "sid": "s000724",
+    "text": "Very efficient.",
+    "start": 4262950,
+    "end": 4263830,
+    "speaker": "A",
+    "confidence": 0.98828125
+  },
+  {
+    "sid": "s000725",
+    "text": "Without parallel processors such as NVIDIA doing any serious LLM, machine learning is impossible.",
+    "start": 4264640,
+    "end": 4272000,
+    "speaker": "A",
+    "confidence": 0.8535156
+  },
+  {
+    "sid": "s000726",
+    "text": "That's why there is a big race for faster, better GPUs.",
+    "start": 4276000,
+    "end": 4281920,
+    "speaker": "A",
+    "confidence": 0.9941406
+  },
+  {
+    "sid": "s000727",
+    "text": "It's because of this.",
+    "start": 4282080,
+    "end": 4283440,
+    "speaker": "A",
+    "confidence": 0.84781903
+  },
+  {
+    "sid": "s000728",
+    "text": "So you should now have a deep understanding.",
+    "start": 4284400,
+    "end": 4286880,
+    "speaker": "A",
+    "confidence": 0.97021484
+  },
+  {
+    "sid": "s000729",
+    "text": "What are they fighting over?",
+    "start": 4287040,
+    "end": 4288560,
+    "speaker": "A",
+    "confidence": 0.9213867
+  },
+  {
+    "sid": "s000730",
+    "text": "More GPUs, bigger GPUs.",
+    "start": 4288560,
+    "end": 4291050,
+    "speaker": "A",
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000731",
+    "text": "This is the reason exactly as you should.",
+    "start": 4291050,
+    "end": 4293290,
+    "speaker": "A",
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000732",
+    "text": "Not because it's fun to have a bunch of processors or bigger chips.",
+    "start": 4294250,
+    "end": 4298810,
+    "speaker": "A",
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000733",
+    "text": "That's not the reason.",
+    "start": 4298810,
+    "end": 4299690,
+    "speaker": "A",
+    "confidence": 0.99625653
+  },
+  {
+    "sid": "s000734",
+    "text": "If I give you a chip with billions of processors, but the problem you're looking at is serial.",
+    "start": 4302890,
+    "end": 4310570,
+    "speaker": "A",
+    "confidence": 0.98339844
+  },
+  {
+    "sid": "s000735",
+    "text": "You cannot divide and conquer.",
+    "start": 4310730,
+    "end": 4313610,
+    "speaker": "A",
+    "confidence": 0.9428711
+  },
+  {
+    "sid": "s000736",
+    "text": "That chip is going to be used.",
+    "start": 4313690,
+    "end": 4315130,
+    "speaker": "A",
+    "confidence": 0.99609375
+  },
+  {
+    "sid": "s000737",
+    "text": "So Nvidia, in fact, when they do these large models or when people do large models on GPUs, some of it is serial in nature.",
+    "start": 4316900,
+    "end": 4327780,
+    "speaker": "A",
+    "confidence": 0.9736328
+  },
+  {
+    "sid": "s000738",
+    "text": "You have to say A times B, take that result multiplied by C serially so that's not where you are saving, but there are operations such as matrix multiplication, a key operation in LLM that they can do all in parallel using this technique divide.",
+    "start": 4327860,
+    "end": 4346980,
+    "speaker": "A",
+    "confidence": 0.9970703
+  },
+  {
+    "sid": "s000739",
+    "text": "And so I told you from day one in this course that we will not do any parallel processing.",
+    "start": 4346980,
+    "end": 4357500,
+    "speaker": "A",
+    "confidence": 0.33984375
+  },
+  {
+    "sid": "s000740",
+    "text": "You are using uniprocessor, von Neumann or serial model of computation.",
+    "start": 4358060,
+    "end": 4362780,
+    "speaker": "A",
+    "confidence": 0.6972656
+  },
+  {
+    "sid": "s000741",
+    "text": "But I also tell you what you are learning in this class with some modifications can immediately be used in parallel processing such as GPU.",
+    "start": 4363020,
+    "end": 4372410,
+    "speaker": "A",
+    "confidence": 0.5644531
+  },
+  {
+    "sid": "s000742",
+    "text": "So now maybe you have a sense of that.",
+    "start": 4372410,
+    "end": 4374530,
+    "speaker": "A",
+    "confidence": 0.9663086
+  },
+  {
+    "sid": "s000743",
+    "text": "So you are ready if you go and work for Nvidia and they give you a problem and they say, or if you work for Grok or OpenAI or whatever and they give you a problem.",
+    "start": 4375570,
+    "end": 4386050,
+    "speaker": "A",
+    "confidence": 0.97021484
+  },
+  {
+    "sid": "s000744",
+    "text": "Now you have the tools to make your algorithm parallel using divide and conquer methodology.",
+    "start": 4386610,
+    "end": 4393490,
+    "speaker": "A",
+    "confidence": 0.99658203
+  },
+  {
+    "sid": "s000745",
+    "text": "So put that in your resume.",
+    "start": 4396300,
+    "end": 4397980,
+    "speaker": "A",
+    "confidence": 0.9086914
+  },
+  {
+    "sid": "s000746",
+    "text": "I know everything about Nvidia.",
+    "start": 4398460,
+    "end": 4400700,
+    "speaker": "A",
+    "confidence": 0.9970703
+  },
+  {
+    "sid": "s000747",
+    "text": "Okay, say you have a sorted list already, either sorted through this or the input is a sorted list.",
+    "start": 4404460,
+    "end": 4429030,
+    "speaker": "A",
+    "confidence": 0.8173828
+  },
+  {
+    "sid": "s000748",
+    "text": "So 2, 6, 9, 10, 12, 16, etc.",
+    "start": 4430550,
+    "end": 4438630,
+    "speaker": "A",
+    "confidence": 0.94970703
+  },
+  {
+    "sid": "s000749",
+    "text": "It is already sorted either through a process that you performed or the implementation is given to us.",
+    "start": 4440070,
+    "end": 4446060,
+    "speaker": "A",
+    "confidence": 0.9970703
+  },
+  {
+    "sid": "s000750",
+    "text": "So searching is the problem of finding an element.",
+    "start": 4446060,
+    "end": 4450940,
+    "speaker": "A",
+    "confidence": 0.4453125
+  },
+  {
+    "sid": "s000751",
+    "text": "Again, a central problem in computer science, we do that all the time in many systems, is to look for a number K in the list and the answer is yes, K is in there or K is not there.",
+    "start": 4451340,
+    "end": 4467780,
+    "speaker": "A",
+    "confidence": 0.98046875
+  },
+  {
+    "sid": "s000752",
+    "text": "The simplest version of problem is a decision problem.",
+    "start": 4467780,
+    "end": 4471070,
+    "speaker": "A",
+    "confidence": 0.99316406
+  },
+  {
+    "sid": "s000753",
+    "text": "Yes, no, you don't even need to find the index of that number if it exists, anything like that.",
+    "start": 4471070,
+    "end": 4476790,
+    "speaker": "A",
+    "confidence": 0.99438477
+  },
+  {
+    "sid": "s000754",
+    "text": "The simplest version is yes, no, that's called the decision problem version of searching.",
+    "start": 4476790,
+    "end": 4484790,
+    "speaker": "A",
+    "confidence": 0.9794922
+  },
+  {
+    "sid": "s000755",
+    "text": "So one method is of course compare K with this.",
+    "start": 4486630,
+    "end": 4490550,
+    "speaker": "A",
+    "confidence": 0.9819336
+  },
+  {
+    "sid": "s000756",
+    "text": "If it's less than that, then the answer is not if it's more than that goes to the that's the linear time algorithm.",
+    "start": 4491590,
+    "end": 4500380,
+    "speaker": "A",
+    "confidence": 0.8857422
+  },
+  {
+    "sid": "s000757",
+    "text": "Order N to find the case in the list.",
+    "start": 4500380,
+    "end": 4503300,
+    "speaker": "A",
+    "confidence": 0.9423828
+  },
+  {
+    "sid": "s000758",
+    "text": "But you're all familiar, probably from your previous courses, with binary search.",
+    "start": 4503780,
+    "end": 4507300,
+    "speaker": "A",
+    "confidence": 0.8881836
+  },
+  {
+    "sid": "s000759",
+    "text": "The best thing is to compare it with the middle element somewhere.",
+    "start": 4507540,
+    "end": 4512900,
+    "speaker": "A",
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000760",
+    "text": "Doesn't have to be exactly middle for the same reason that divide and conquer doesn't have to be.",
+    "start": 4513220,
+    "end": 4519300,
+    "speaker": "A",
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000761",
+    "text": "So say you compare it with this.",
+    "start": 4520740,
+    "end": 4523850,
+    "speaker": "A",
+    "confidence": 0.9511719
+  },
+  {
+    "sid": "s000762",
+    "text": "If your value is larger than nine, you ignore the left side of the list.",
+    "start": 4526490,
+    "end": 4532010,
+    "speaker": "A",
+    "confidence": 0.99316406
+  },
+  {
+    "sid": "s000763",
+    "text": "You focus next on the right side of the list.",
+    "start": 4532970,
+    "end": 4535850,
+    "speaker": "A",
+    "confidence": 0.8847656
+  },
+  {
+    "sid": "s000764",
+    "text": "If your value is less than nine, you focus on the left side of the list.",
+    "start": 4536730,
+    "end": 4541370,
+    "speaker": "A",
+    "confidence": 0.9814453
+  },
+  {
+    "sid": "s000765",
+    "text": "If Your value is 9, you output yes, you stop.",
+    "start": 4541610,
+    "end": 4544730,
+    "speaker": "A",
+    "confidence": 0.99609375
+  },
+  {
+    "sid": "s000766",
+    "text": "So this is called binary set that you probably have seen.",
+    "start": 4546490,
+    "end": 4550340,
+    "speaker": "A",
+    "confidence": 0.9301758
+  },
+  {
+    "sid": "s000767",
+    "text": "But now we're going to look at it in a different light.",
+    "start": 4550820,
+    "end": 4554020,
+    "speaker": "A",
+    "confidence": 0.99560547
+  },
+  {
+    "sid": "s000768",
+    "text": "This light divide and contour.",
+    "start": 4554980,
+    "end": 4556980,
+    "speaker": "A",
+    "confidence": 0.99072266
+  },
+  {
+    "sid": "s000769",
+    "text": "So the runtime to do N is going to be the run time to look at only half the list.",
+    "start": 4557300,
+    "end": 4566420,
+    "speaker": "A",
+    "confidence": 0.97265625
+  },
+  {
+    "sid": "s000770",
+    "text": "Remember Depending on the result, I only look at half, left half or right task here, depending on the result, you can the left half and the right half.",
+    "start": 4566740,
+    "end": 4579240,
+    "speaker": "A",
+    "confidence": 0.9992676
+  },
+  {
+    "sid": "s000771",
+    "text": "And here it's or left or right.",
+    "start": 4579480,
+    "end": 4583320,
+    "speaker": "A",
+    "confidence": 0.98046875
+  },
+  {
+    "sid": "s000772",
+    "text": "So it's going to be t of n over 2 plus when you compare this with that, that's order one, some constant, right?",
+    "start": 4583720,
+    "end": 4595880,
+    "speaker": "A",
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000773",
+    "text": "So, homework for you.",
+    "start": 4597880,
+    "end": 4599400,
+    "speaker": "A",
+    "confidence": 0.88964844
+  },
+  {
+    "sid": "s000774",
+    "text": "You probably know the answer already, but in the same manner that I did, this was one of the midterm questions in the past.",
+    "start": 4601400,
+    "end": 4610380,
+    "speaker": "A",
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000775",
+    "text": "What is t of n?",
+    "start": 4610540,
+    "end": 4611900,
+    "speaker": "A",
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000776",
+    "text": "And if you follow these steps that I get any guesses what the answer is going to be log n, right?",
+    "start": 4612460,
+    "end": 4622700,
+    "speaker": "A",
+    "confidence": 0.98535156
+  },
+  {
+    "sid": "s000777",
+    "text": "So in logarithmic time, log N I will find a number if it exists or I get to list of size 1 and I output no.",
+    "start": 4623020,
+    "end": 4632170,
+    "speaker": "A",
+    "confidence": 0.99560547
+  },
+  {
+    "sid": "s000778",
+    "text": "So the answer to this is order log n. Huh?",
+    "start": 4632730,
+    "end": 4637610,
+    "speaker": "A",
+    "confidence": 0.98779297
+  },
+  {
+    "sid": "s000779",
+    "text": "Exact same technique that I did parallel to that.",
+    "start": 4638090,
+    "end": 4641530,
+    "speaker": "A",
+    "confidence": 0.9975586
+  },
+  {
+    "sid": "s000780",
+    "text": "Except when you do the I except you kind of get rid of these somethings and so it will save you time.",
+    "start": 4641930,
+    "end": 4651690,
+    "speaker": "A",
+    "confidence": 0.90185547
+  },
+  {
+    "sid": "s000781",
+    "text": "So binary search, that maybe you are used to from your previous courses, is an application of divide and conquer.",
+    "start": 4652250,
+    "end": 4665060,
+    "speaker": "A",
+    "confidence": 0.7792969
+  },
+  {
+    "sid": "s000782",
+    "text": "So now that you understand divide and conquer, this should be a no brainer.",
+    "start": 4665780,
+    "end": 4671060,
+    "speaker": "A",
+    "confidence": 0.9868164
+  },
+  {
+    "sid": "s000783",
+    "text": "You just mechanically divide the problem into two problems.",
+    "start": 4671620,
+    "end": 4676100,
+    "speaker": "A",
+    "confidence": 0.8203125
+  },
+  {
+    "sid": "s000784",
+    "text": "Here it happens that I can get rid of one of the problems, counter completely one of the sub problems.",
+    "start": 4676500,
+    "end": 4683310,
+    "speaker": "A",
+    "confidence": 0.99609375
+  },
+  {
+    "sid": "s000785",
+    "text": "Here we couldn't.",
+    "start": 4683310,
+    "end": 4684270,
+    "speaker": "A",
+    "confidence": 0.99609375
+  },
+  {
+    "sid": "s000786",
+    "text": "Therefore, instead of having a two here, I just have one here, one sub problem.",
+    "start": 4684670,
+    "end": 4690110,
+    "speaker": "A",
+    "confidence": 0.94628906
+  },
+  {
+    "sid": "s000787",
+    "text": "So if I set up any divide and conquer phrase, if I do eight sub problems, you should be able to first write the equation for it.",
+    "start": 4693070,
+    "end": 4702110,
+    "speaker": "A",
+    "confidence": 0.98779297
+  },
+  {
+    "sid": "s000788",
+    "text": "It's going to be eight times that, plus whatever time you get takes to merge them.",
+    "start": 4702270,
+    "end": 4707720,
+    "speaker": "A",
+    "confidence": 0.9851888
+  },
+  {
+    "sid": "s000789",
+    "text": "And how do you solve that recursion equation?",
+    "start": 4709160,
+    "end": 4711960,
+    "speaker": "A",
+    "confidence": 0.97802734
+  },
+  {
+    "sid": "s000790",
+    "text": "Exactly the way I did it here you don't need any fancier math.",
+    "start": 4712120,
+    "end": 4716760,
+    "speaker": "A",
+    "confidence": 0.99934894
+  },
+  {
+    "sid": "s000791",
+    "text": "Just do this substitution for multiple step.",
+    "start": 4717400,
+    "end": 4720440,
+    "speaker": "A",
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000792",
+    "text": "Guess what this is at the I step and set this value typically to the base value, which normally is one.",
+    "start": 4720760,
+    "end": 4728640,
+    "speaker": "A",
+    "confidence": 0.98876953
+  },
+  {
+    "sid": "s000793",
+    "text": "It doesn't have to be.",
+    "start": 4728640,
+    "end": 4729880,
+    "speaker": "A",
+    "confidence": 0.62109375
+  },
+  {
+    "sid": "s000794",
+    "text": "I can add.",
+    "start": 4730680,
+    "end": 4731440,
+    "speaker": "A",
+    "confidence": 0.9316406
+  },
+  {
+    "sid": "s000795",
+    "text": "I can tell you that, that I only know T of 8 in the question.",
+    "start": 4731440,
+    "end": 4736690,
+    "speaker": "A",
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000796",
+    "text": "So you bring this when this is equal to eight that you know.",
+    "start": 4737490,
+    "end": 4741570,
+    "speaker": "A",
+    "confidence": 0.99316406
+  },
+  {
+    "sid": "s000797",
+    "text": "Okay, so what we learned here today is sorting mainly, but no, not really.",
+    "start": 4744450,
+    "end": 4758850,
+    "speaker": "A",
+    "confidence": 0.9217122
+  },
+  {
+    "sid": "s000798",
+    "text": "Who cares about sorting?",
+    "start": 4759010,
+    "end": 4760370,
+    "speaker": "A",
+    "confidence": 0.9897461
+  },
+  {
+    "sid": "s000799",
+    "text": "People know about merge sorting.",
+    "start": 4762050,
+    "end": 4764250,
+    "speaker": "A",
+    "confidence": 0.99658203
+  },
+  {
+    "sid": "s000800",
+    "text": "They can just get the code and the algorithm from anywhere.",
+    "start": 4764250,
+    "end": 4768130,
+    "speaker": "A",
+    "confidence": 0.9897461
+  },
+  {
+    "sid": "s000801",
+    "text": "So they will not hire you.",
+    "start": 4768130,
+    "end": 4769650,
+    "speaker": "A",
+    "confidence": 0.9790039
+  },
+  {
+    "sid": "s000802",
+    "text": "They don't need us to solve the sorting problem.",
+    "start": 4769650,
+    "end": 4773170,
+    "speaker": "A",
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000803",
+    "text": "What we learned today is the divide and conquer paradigm, because divide and conquer can be applied to hundreds of problems.",
+    "start": 4774050,
+    "end": 4782050,
+    "speaker": "A",
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000804",
+    "text": "That's what's valuable.",
+    "start": 4783010,
+    "end": 4784290,
+    "speaker": "A",
+    "confidence": 0.99316406
+  },
+  {
+    "sid": "s000805",
+    "text": "Not that we have a sorting output who cares?",
+    "start": 4785100,
+    "end": 4788300,
+    "speaker": "A",
+    "confidence": 0.9667969
+  },
+  {
+    "sid": "s000806",
+    "text": "Now the merging today we did in order s +t times.",
+    "start": 4792540,
+    "end": 4797580,
+    "speaker": "A",
+    "confidence": 0.9941406
+  },
+  {
+    "sid": "s000807",
+    "text": "It seems s +t is a lower bound to doing merging because all I'm doing here looking at every number once.",
+    "start": 4800940,
+    "end": 4812610,
+    "speaker": "A",
+    "confidence": 0.99609375
+  },
+  {
+    "sid": "s000808",
+    "text": "So if you have an algorithm that in general doesn't look at some number, you probably can merge them.",
+    "start": 4813250,
+    "end": 4819650,
+    "speaker": "A",
+    "confidence": 0.9770508
+  },
+  {
+    "sid": "s000809",
+    "text": "So that's why we don't have a mathematical proof.",
+    "start": 4820450,
+    "end": 4823370,
+    "speaker": "A",
+    "confidence": 0.9736328
+  },
+  {
+    "sid": "s000810",
+    "text": "But it seems this is the best we can do for sorting.",
+    "start": 4823370,
+    "end": 4826530,
+    "speaker": "A",
+    "confidence": 0.9736328
+  },
+  {
+    "sid": "s000811",
+    "text": "Sorry.",
+    "start": 4827730,
+    "end": 4828090,
+    "speaker": "A",
+    "confidence": 0.7360026
+  },
+  {
+    "sid": "s000812",
+    "text": "With merging, asking questions of this nature really helps.",
+    "start": 4828090,
+    "end": 4833570,
+    "speaker": "A",
+    "confidence": 0.7626953
+  },
+  {
+    "sid": "s000813",
+    "text": "As you are designing algorithm we because it means don't work any harder on merge.",
+    "start": 4833570,
+    "end": 4838780,
+    "speaker": "A",
+    "confidence": 0.98779297
+  },
+  {
+    "sid": "s000814",
+    "text": "You already have an algorithm with highlighted good, it's optimal.",
+    "start": 4839420,
+    "end": 4843900,
+    "speaker": "A",
+    "confidence": 0.9970703
+  },
+  {
+    "sid": "s000815",
+    "text": "So if I ask you come up with a better algorithm for merging, your answer is well, I need to look at every number once.",
+    "start": 4844780,
+    "end": 4851500,
+    "speaker": "A",
+    "confidence": 0.9189453
+  },
+  {
+    "sid": "s000816",
+    "text": "How can I merge without looking at some numbers in general?",
+    "start": 4851659,
+    "end": 4857100,
+    "speaker": "A",
+    "confidence": 0.9868164
+  },
+  {
+    "sid": "s000817",
+    "text": "Therefore I already have an algebraic that would be a reason reasonable expansion.",
+    "start": 4857580,
+    "end": 4862870,
+    "speaker": "A",
+    "confidence": 0.9992676
+  },
+  {
+    "sid": "s000818",
+    "text": "So you don't need to spend and this is true of your jobs in the future, once you do analysis of this nature, you don't need to spend three months improving your algorithm because sometimes that's impossible.",
+    "start": 4864550,
+    "end": 4877030,
+    "speaker": "A",
+    "confidence": 0.9711914
+  },
+  {
+    "sid": "s000819",
+    "text": "In fact, the last week of this class is dedicated to problems for which you don't even know any polynomial time algorithm.",
+    "start": 4877509,
+    "end": 4885030,
+    "speaker": "A",
+    "confidence": 0.99560547
+  },
+  {
+    "sid": "s000820",
+    "text": "And if you know that ahead of time, I'm not going to spend a year looking for a better algorithm.",
+    "start": 4885670,
+    "end": 4892210,
+    "speaker": "A",
+    "confidence": 0.94433594
+  },
+  {
+    "sid": "s000821",
+    "text": "Ok, now sorting, what you did today was N log N.",
+    "start": 4894690,
+    "end": 4901330,
+    "speaker": "A",
+    "confidence": 0.76293945
+  },
+  {
+    "sid": "s000822",
+    "text": "Unfortunately I need to tell you this again.",
+    "start": 4902290,
+    "end": 4904530,
+    "speaker": "A",
+    "confidence": 0.9249023
+  },
+  {
+    "sid": "s000823",
+    "text": "Trust me, this is the best we can do with sorting.",
+    "start": 4904610,
+    "end": 4907410,
+    "speaker": "A",
+    "confidence": 0.91308594
+  },
+  {
+    "sid": "s000824",
+    "text": "So we don't have the tool yet.",
+    "start": 4908770,
+    "end": 4910530,
+    "speaker": "A",
+    "confidence": 0.9897461
+  },
+  {
+    "sid": "s000825",
+    "text": "In two weeks we will of how to prove this is the best sorting algorithm.",
+    "start": 4910530,
+    "end": 4915880,
+    "speaker": "A",
+    "confidence": 0.97558594
+  },
+  {
+    "sid": "s000826",
+    "text": "You cannot do better than N log n. If I asked you in the final come up, we know how to do sorting in N log n time.",
+    "start": 4915880,
+    "end": 4927640,
+    "speaker": "A",
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000827",
+    "text": "Merge sort, come up with a linear time algorithm, your answer will be no.",
+    "start": 4927640,
+    "end": 4932080,
+    "speaker": "A",
+    "confidence": 0.90755206
+  },
+  {
+    "sid": "s000828",
+    "text": "Okay, so again this is lower bound analysis. We'll get to that.",
+    "start": 4934880,
+    "end": 4940400,
+    "speaker": "A",
+    "confidence": 0.87434894
+  },
+  {
+    "sid": "s000829",
+    "text": "But for now don't try looking for a better answer because it doesn't exist.",
+    "start": 4940400,
+    "end": 4946600,
+    "speaker": "A",
+    "confidence": 0.9892578
+  },
+  {
+    "sid": "s000830",
+    "text": "If I have a bunch of zeros and ones.",
+    "start": 4953640,
+    "end": 4956840,
+    "speaker": "A",
+    "confidence": 0.99560547
+  },
+  {
+    "sid": "s000831",
+    "text": "So binary one bit numbers, how do I store them?",
+    "start": 4962200,
+    "end": 4965830,
+    "speaker": "A",
+    "confidence": 0.94970703
+  },
+  {
+    "sid": "s000832",
+    "text": "Answer number one, use merge sort.",
+    "start": 4966790,
+    "end": 4969590,
+    "speaker": "A",
+    "confidence": 0.9503581
+  },
+  {
+    "sid": "s000833",
+    "text": "This works for any number.",
+    "start": 4969990,
+    "end": 4971430,
+    "speaker": "A",
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000834",
+    "text": "So obviously for these.",
+    "start": 4971510,
+    "end": 4972870,
+    "speaker": "A",
+    "confidence": 0.9785156
+  },
+  {
+    "sid": "s000835",
+    "text": "Can you think of any other way of sorting these numbers?",
+    "start": 4973510,
+    "end": 4977750,
+    "speaker": "A",
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000836",
+    "text": "Anybody?",
+    "start": 4979910,
+    "end": 4980630,
+    "speaker": "A",
+    "confidence": 0.9239502
+  },
+  {
+    "sid": "s000837",
+    "text": "Yeah.",
+    "start": 4985510,
+    "end": 4985990,
+    "speaker": "A",
+    "confidence": 0.84505206
+  },
+  {
+    "sid": "s000838",
+    "text": "So I have 18 zeros.",
+    "start": 4990070,
+    "end": 4991910,
+    "speaker": "A",
+    "confidence": 0.9873047
+  },
+  {
+    "sid": "s000839",
+    "text": "How long does it take to count four linear time.",
+    "start": 4992180,
+    "end": 4996340,
+    "speaker": "A",
+    "confidence": 0.99609375
+  },
+  {
+    "sid": "s000840",
+    "text": "Count the number of zeros Again, count the number of ones.",
+    "start": 4996340,
+    "end": 4999300,
+    "speaker": "A",
+    "confidence": 0.99316406
+  },
+  {
+    "sid": "s000841",
+    "text": "Do that many zeros.",
+    "start": 4999460,
+    "end": 5000700,
+    "speaker": "A",
+    "confidence": 0.9970703
+  },
+  {
+    "sid": "s000842",
+    "text": "That many ones.",
+    "start": 5000700,
+    "end": 5001500,
+    "speaker": "A",
+    "confidence": 0.9892578
+  },
+  {
+    "sid": "s000843",
+    "text": "So now what is the runtime of your algorithm?",
+    "start": 5001500,
+    "end": 5004500,
+    "speaker": "A",
+    "confidence": 0.9848633
+  },
+  {
+    "sid": "s000844",
+    "text": "So he was able to sort these in order and time.",
+    "start": 5006420,
+    "end": 5011140,
+    "speaker": "A",
+    "confidence": 0.9707031
+  },
+  {
+    "sid": "s000845",
+    "text": "So we have an issue now.",
+    "start": 5013300,
+    "end": 5014980,
+    "speaker": "A",
+    "confidence": 0.98339844
+  },
+  {
+    "sid": "s000846",
+    "text": "I just told you, trust me, we can't sort faster than end Login but he was able to do it.",
+    "start": 5015620,
+    "end": 5023440,
+    "speaker": "A",
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000847",
+    "text": "So one of us is lying here, him or me.",
+    "start": 5023520,
+    "end": 5026880,
+    "speaker": "A",
+    "confidence": 0.9790039
+  },
+  {
+    "sid": "s000848",
+    "text": "The answer is none of us.",
+    "start": 5031280,
+    "end": 5032640,
+    "speaker": "A",
+    "confidence": 0.98876953
+  },
+  {
+    "sid": "s000849",
+    "text": "They are both correct.",
+    "start": 5033040,
+    "end": 5034160,
+    "speaker": "A",
+    "confidence": 0.38598633
+  },
+  {
+    "sid": "s000850",
+    "text": "This is a sub problem of sorting.",
+    "start": 5035120,
+    "end": 5038080,
+    "speaker": "A",
+    "confidence": 0.99902344
+  },
+  {
+    "sid": "s000851",
+    "text": "When I said sorting requires n dog n time, I meant the general sorting problem.",
+    "start": 5038640,
+    "end": 5044470,
+    "speaker": "A",
+    "confidence": 0.92822266
+  },
+  {
+    "sid": "s000852",
+    "text": "Special sorting like zeros and ones or 0, 1, and 2 or A's, B's, and C's like letter grades in this class.",
+    "start": 5045590,
+    "end": 5053750,
+    "speaker": "A",
+    "confidence": 0.89404297
+  },
+  {
+    "sid": "s000853",
+    "text": "Those are a special class of sorting.",
+    "start": 5053990,
+    "end": 5056310,
+    "speaker": "A",
+    "confidence": 0.9970703
+  },
+  {
+    "sid": "s000854",
+    "text": "Whenever we talk about a lower bound, it's for the general problem.",
+    "start": 5056870,
+    "end": 5060550,
+    "speaker": "A",
+    "confidence": 0.9951172
+  },
+  {
+    "sid": "s000855",
+    "text": "Special cases can be done faster.",
+    "start": 5061670,
+    "end": 5063830,
+    "speaker": "A",
+    "confidence": 0.99072266
+  },
+  {
+    "sid": "s000856",
+    "text": "So I can give you some sorting problem in the exams like this.",
+    "start": 5064630,
+    "end": 5069560,
+    "speaker": "A",
+    "confidence": 0.99072266
+  },
+  {
+    "sid": "s000857",
+    "text": "Instead of 0 and 1, I have seven values, 0 through 6, and I say sort them.",
+    "start": 5069630,
+    "end": 5075230,
+    "speaker": "A",
+    "confidence": 0.75878906
+  },
+  {
+    "sid": "s000858",
+    "text": "Same method would work, right?",
+    "start": 5075310,
+    "end": 5076910,
+    "speaker": "A",
+    "confidence": 0.9980469
+  },
+  {
+    "sid": "s000859",
+    "text": "Linear time times six, which is linear time.",
+    "start": 5077470,
+    "end": 5080270,
+    "speaker": "A",
+    "confidence": 0.99560547
+  },
+  {
+    "sid": "s000860",
+    "text": "So whenever you hear sorting, whenever you feel general instance, you kind of have this target.",
+    "start": 5081550,
+    "end": 5089470,
+    "speaker": "A",
+    "confidence": 0.9794922
+  },
+  {
+    "sid": "s000861",
+    "text": "Whenever you feel it's a special class of sorting, then it's can potentially be much faster.",
+    "start": 5090910,
+    "end": 5097890,
+    "speaker": "A",
+    "confidence": 0.9550781
+  },
+  {
+    "sid": "s000862",
+    "text": "Yes, good question.",
+    "start": 5098130,
+    "end": 5113090,
+    "speaker": "A",
+    "confidence": 0.9499512
+  },
+  {
+    "sid": "s000863",
+    "text": "So definitely it's a constant number of possibilities.",
+    "start": 5113170,
+    "end": 5117010,
+    "speaker": "A",
+    "confidence": 0.95166016
+  },
+  {
+    "sid": "s000864",
+    "text": "It's going to be linear time.",
+    "start": 5117330,
+    "end": 5118850,
+    "speaker": "A",
+    "confidence": 0.99886066
+  },
+  {
+    "sid": "s000865",
+    "text": "Even if it's 300.",
+    "start": 5121020,
+    "end": 5121980,
+    "speaker": "A",
+    "confidence": 0.73535156
+  },
+  {
+    "sid": "s000866",
+    "text": "If we know 300 is a constant number, then it's linear time.",
+    "start": 5122060,
+    "end": 5124540,
+    "speaker": "A",
+    "confidence": 0.7792969
+  },
+  {
+    "sid": "s000867",
+    "text": "And I know in algorithm analysis that's always tricky: when is it constant?",
+    "start": 5124700,
+    "end": 5128940,
+    "speaker": "A",
+    "confidence": 0.5620117
+  },
+  {
+    "sid": "s000868",
+    "text": "So that's.",
+    "start": 5129260,
+    "end": 5130060,
+    "speaker": "A",
+    "confidence": 0.96191406
+  },
+  {
+    "sid": "s000869",
+    "text": "There are tests for that.",
+    "start": 5130140,
+    "end": 5131660,
+    "speaker": "A",
+    "confidence": 0.9975586
+  },
+  {
+    "sid": "s000870",
+    "text": "What if we feel it's not a function of N? N grows.",
+    "start": 5131820,
+    "end": 5135500,
+    "speaker": "A",
+    "confidence": 0.50146484
+  },
+  {
+    "sid": "s000871",
+    "text": "If I'm sorting 100 numbers versus 100 billion, N is growing.",
+    "start": 5135980,
+    "end": 5140540,
+    "speaker": "A",
+    "confidence": 0.5307617
+  },
+  {
+    "sid": "s000872",
+    "text": "If that 300 doesn't grow, then I say that's a constant number.",
+    "start": 5140780,
+    "end": 5145020,
+    "speaker": "A",
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000873",
+    "text": "So as long as it's a constant, his algorithm will work.",
+    "start": 5145260,
+    "end": 5148720,
+    "speaker": "A",
+    "confidence": 0.9692383
+  },
+  {
+    "sid": "s000874",
+    "text": "It's going to be always linear time.",
+    "start": 5148720,
+    "end": 5150640,
+    "speaker": "A",
+    "confidence": 0.99153644
+  },
+  {
+    "sid": "s000875",
+    "text": "So pay attention to that, to sorting.",
+    "start": 5150800,
+    "end": 5154000,
+    "speaker": "A",
+    "confidence": 0.99853516
+  },
+  {
+    "sid": "s000876",
+    "text": "But in general, whenever.",
+    "start": 5154000,
+    "end": 5156160,
+    "speaker": "A",
+    "confidence": 0.94677734
+  },
+  {
+    "sid": "s000877",
+    "text": "Minimum spanning tree.",
+    "start": 5157840,
+    "end": 5159520,
+    "speaker": "A",
+    "confidence": 0.99593097
+  },
+  {
+    "sid": "s000878",
+    "text": "I gave you E and N square algorithm and E dot E and all that stuff.",
+    "start": 5159520,
+    "end": 5164880,
+    "speaker": "A",
+    "confidence": 0.99609375
+  },
+  {
+    "sid": "s000879",
+    "text": "That's for the general graph.",
+    "start": 5165040,
+    "end": 5166960,
+    "speaker": "A",
+    "confidence": 0.99316406
+  },
+  {
+    "sid": "s000880",
+    "text": "If I give you a special graph, a three graph, the algorithm starts to be usually much simpler.",
+    "start": 5167680,
+    "end": 5175220,
+    "speaker": "A",
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000881",
+    "text": "So please pay attention to the general problem versus a special class.",
+    "start": 5175780,
+    "end": 5180340,
+    "speaker": "A",
+    "confidence": 0.59033203
+  },
+  {
+    "sid": "s000882",
+    "text": "See you guys on Thursday.",
+    "start": 5182900,
+    "end": 5184100,
+    "speaker": "A",
+    "confidence": 0.9995117
+  },
+  {
+    "sid": "s000883",
+    "text": "Please review divide and conquer and continue with that.",
+    "start": 5184340,
+    "end": 5187940,
+    "speaker": "A",
+    "confidence": 0.9980469
+  }
+]

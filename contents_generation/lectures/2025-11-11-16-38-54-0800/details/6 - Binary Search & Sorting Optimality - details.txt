@@ -1,0 +1,36 @@
+# 6. Binary Search & Sorting Optimality
+
+This lecture explores binary search as an application of the divide and conquer paradigm, demonstrating its logarithmic time complexity for searching in sorted lists. It also delves into the optimality of sorting algorithms, establishing a general lower bound of N log N while highlighting that special cases can be sorted in linear time.
+
+## 📚 Understanding Binary Search
+Binary search is a fundamental computer science problem focused on finding an element, K, within an already *sorted* list. ⟦s000747, s000750, s000751⟧ The simplest version of this problem is a decision problem, where the answer is simply "yes, K is in there" or "no, K is not there," without needing to find its exact index. ⟦s000752, s000753, s000754⟧
+
+## ⚙️ How Binary Search Works
+Instead of a linear scan (which takes order N time), binary search efficiently finds an element by comparing it with a middle element of the list. ⟦s000756, s000757, s000759⟧
+The process involves these steps:
+*   Compare the target value K with the middle element. ⟦s000759, s000761⟧
+*   If K is *larger* than the middle element, the algorithm ignores the left side of the list and focuses only on the right side. ⟦s000762, s000763⟧
+*   If K is *less* than the middle element, it focuses on the left side of the list. ⟦s000764⟧
+*   If K *equals* the middle element, the search stops, and the answer is "yes." ⟦s000765⟧
+
+## 🌳 Binary Search as Divide and Conquer
+Binary search is a direct application of the *divide and conquer* methodology. ⟦s000768, s000781⟧ In this approach, the problem is mechanically divided into sub-problems. ⟦s000783⟧ For binary search, after comparing with the middle element, one of the two sub-problems (either the left or right half of the list) can be completely discarded. ⟦s000770, s000784⟧ This means that instead of solving two sub-problems, only one needs to be addressed in the next step. ⟦s000786⟧
+
+## ⏱️ Runtime Analysis of Binary Search
+The runtime of binary search, denoted as T(N) for a list of size N, can be expressed by the recurrence relation: T(N) = T(N/2) + O(1). ⟦s000769, s000772, s000786⟧ This is because each step involves looking at only half the list (T(N/2)) and performing a constant amount of work (O(1)) for the comparison. ⟦s000769, s000772⟧ Solving this recurrence equation reveals that the runtime for binary search is *order log N* (O(log N)). ⟦s000776, s000778⟧ This logarithmic time means that binary search can find a number, or determine its absence, very efficiently. ⟦s000777⟧
+
+## 🎯 Sorting Optimality and Lower Bounds
+The lecture emphasizes that while merge sort achieves an N log N runtime for sorting, this is generally the *best* we can do for the *general sorting problem*. ⟦s000821, s000823, s000826⟧ It is impossible to sort faster than N log N in the general case, meaning a linear time algorithm for general sorting does not exist. ⟦s000825, s000827, s000829⟧ This concept is known as a *lower bound* analysis. ⟦s000828⟧
+
+## 💡 Special Cases in Sorting
+While general sorting has an N log N lower bound, special cases of sorting can be performed much faster. ⟦s000855, s000861⟧
+For example, consider sorting a list containing only zeros and ones. ⟦s000830, s000831⟧
+*   One approach is to use merge sort, which works for any numbers. ⟦s000832, s000833⟧
+*   However, a more efficient method for this special case is to count the number of zeros and ones in the list. ⟦s000839, s000840⟧
+*   Then, the sorted list can be reconstructed by placing all the counted zeros first, followed by all the counted ones. ⟦s000841, s000842⟧
+*   This counting method takes *linear time* (order N). ⟦s000839, s000844⟧
+
+This linear time solution for sorting zeros and ones does not contradict the N log N lower bound for general sorting. ⟦s000849, s000850, s000851⟧ The N log N lower bound applies to the *general sorting problem*, whereas sorting zeros and ones is a *special class* of sorting. ⟦s000851, s000853, s000854⟧ This principle extends to other special cases, such as sorting numbers from 0 to 6, or any fixed, constant number of distinct values; these can also be sorted in linear time. ⟦s000857, s000859, s000863, s000864, s000866, s000872, s000873, s000874⟧
+
+## 🔑 Key Takeaway: General vs. Special Problems
+It is crucial to distinguish between a *general problem* and a *special class* of that problem. ⟦s000881⟧ When discussing lower bounds, they refer to the general problem. ⟦s000854, s000860⟧ Special cases, where certain properties or constraints are known (like a constant number of possible values), can often lead to much simpler and faster algorithms. ⟦s000861, s000880⟧ Understanding these lower bounds is important because it prevents spending time trying to find an algorithm that is mathematically impossible to achieve. ⟦s000818, s000820, s000829⟧ This applies to other problems like merging, where an O(S+T) time complexity is considered optimal because every number must be looked at once. ⟦s000807, s000814, s000815, s000816⟧

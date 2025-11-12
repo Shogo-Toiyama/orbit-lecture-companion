@@ -1,0 +1,457 @@
+{
+  "results": [
+    {
+      "sid": "s000007",
+      "modified": "Unless otherwise, it's 1, 2, 3, 4, 5.",
+      "reasons": [
+        "asr_mishear",
+        "punctuation"
+      ]
+    },
+    {
+      "sid": "s000032",
+      "modified": "Okay, and sometimes in this spanning tree we will have edges that are of high weight just to ensure connectivity.",
+      "reasons": [
+        "asr_mishear",
+        "terminology"
+      ]
+    },
+    {
+      "sid": "s000038",
+      "modified": "Okay, so the problem that we want to study is the so-called MST or Minimum Spanning Tree problem.",
+      "reasons": [
+        "terminology",
+        "capitalization"
+      ]
+    },
+    {
+      "sid": "s000050",
+      "modified": "You talk to your marketing manager or technical manager or whoever, try to make sure we understand the problem. It's trivial, but very important and sometimes missed even in this class.",
+      "reasons": [
+        "asr_mishear",
+        "grammar"
+      ]
+    },
+    {
+      "sid": "s000053",
+      "modified": "Okay, so now we wanted to come up with algorithms that gives us an MST.",
+      "reasons": [
+        "terminology",
+        "capitalization"
+      ]
+    },
+    {
+      "sid": "s000054",
+      "modified": "And also for most of discussion related to MST, I'll assume that the weights are unique.",
+      "reasons": [
+        "terminology",
+        "capitalization"
+      ]
+    },
+    {
+      "sid": "s000083",
+      "modified": "Okay, so if I take a structure like this, a tree structure given to me, and add one edge to it, the graph is not going to be a tree anymore.",
+      "reasons": [
+        "asr_mishear",
+        "terminology"
+      ]
+    },
+    {
+      "sid": "s000093",
+      "modified": "Okay, so if I take this cycle and I remove any edge from this cycle, for example, this edge. First of all, the edge that I added, E. Let's say I remove E prime.",
+      "reasons": [
+        "punctuation",
+        "grammar"
+      ]
+    },
+    {
+      "sid": "s000098",
+      "modified": "Okay, what I just said, all of this has nothing to do directly with MST, but we're going to use it and apply it to MST.",
+      "reasons": [
+        "asr_mishear",
+        "terminology"
+      ]
+    },
+    {
+      "sid": "s000119",
+      "modified": "They are all called bipartition, being balanced, each of them having N over 2, is not what we are after here.",
+      "reasons": [
+        "asr_mishear",
+        "terminology"
+      ]
+    },
+    {
+      "sid": "s000150",
+      "modified": "Okay, I claim that every edge in an MST must be in every MST in the original graph.",
+      "reasons": [
+        "asr_mishear",
+        "terminology"
+      ]
+    },
+    {
+      "sid": "s000170",
+      "modified": "Just try to come up with MST.",
+      "reasons": [
+        "terminology",
+        "capitalization"
+      ]
+    },
+    {
+      "sid": "s000194",
+      "modified": "And MST theorem says for every partition, not just one, not that there exists a partition.",
+      "reasons": [
+        "asr_mishear",
+        "terminology"
+      ]
+    },
+    {
+      "sid": "s000220",
+      "modified": "Okay, so there is an MST that this is not in it.",
+      "reasons": [
+        "terminology",
+        "capitalization"
+      ]
+    },
+    {
+      "sid": "s000236",
+      "modified": "N edges, N minus one edges or just one edge?",
+      "reasons": [
+        "asr_mishear",
+        "capitalization"
+      ]
+    },
+    {
+      "sid": "s000254",
+      "modified": "Again, specific edge E min that I insisted must be in an MST.",
+      "reasons": [
+        "asr_mishear",
+        "terminology"
+      ]
+    },
+    {
+      "sid": "s000314",
+      "modified": "Produce a ton of partitions and for each partition I find an E min, I output that out and I say that's part of MST.",
+      "reasons": [
+        "asr_mishear",
+        "terminology"
+      ]
+    },
+    {
+      "sid": "s000321",
+      "modified": "Any spanning tree will have exactly N minus one edges. Okay, so depending on how I do these partitions, what kind of methodology I use to produce these green boundaries, and there are many ways to produce these boundaries that give rise to different algorithms.",
+      "reasons": [
+        "asr_mishear",
+        "terminology"
+      ]
+    },
+    {
+      "sid": "s000329",
+      "modified": "Okay, so, so, Prim.",
+      "reasons": [
+        "asr_mishear",
+        "terminology"
+      ]
+    },
+    {
+      "sid": "s000341",
+      "modified": "You have a list data structure.",
+      "reasons": [
+        "asr_mishear"
+      ]
+    },
+    {
+      "sid": "s000360",
+      "modified": "Prim's algorithm 6.",
+      "reasons": [
+        "asr_mishear",
+        "terminology"
+      ]
+    },
+    {
+      "sid": "s000475",
+      "modified": "The variable at the end, it's N minus one.",
+      "reasons": [
+        "asr_mishear",
+        "capitalization"
+      ]
+    },
+    {
+      "sid": "s000581",
+      "modified": "If I have all these values in an array, I scan the array, find the minimum in O(N) time.",
+      "reasons": [
+        "asr_mishear",
+        "terminology"
+      ]
+    },
+    {
+      "sid": "s000599",
+      "modified": "To the right, I need to update it to keep it to meet the current minimum because there might be an edge that was hidden.",
+      "reasons": [
+        "grammar",
+        "redundancy"
+      ]
+    },
+    {
+      "sid": "s000652",
+      "modified": "I.e., E sub one time as we called it last time.",
+      "reasons": [
+        "asr_mishear",
+        "punctuation"
+      ]
+    },
+    {
+      "sid": "s000663",
+      "modified": "Prim's algorithm.",
+      "reasons": [
+        "asr_mishear",
+        "terminology"
+      ]
+    },
+    {
+      "sid": "s000721",
+      "modified": "And you also do that for the nodes and then that way you just get a whole N log N.",
+      "reasons": [
+        "asr_mishear",
+        "terminology"
+      ]
+    },
+    {
+      "sid": "s000722",
+      "modified": "Because for every node in the set, for every edge, to just find C and update, but every edge will change the value of the node.",
+      "reasons": [
+        "asr_mishear",
+        "grammar"
+      ]
+    },
+    {
+      "sid": "s000726",
+      "modified": "Well, if you keep track of the min of that node, let's say the min of that node is going to come from the edges.",
+      "reasons": [
+        "asr_mishear",
+        "terminology"
+      ]
+    },
+    {
+      "sid": "s000738",
+      "modified": "Okay, so Prim's examples.",
+      "reasons": [
+        "asr_mishear",
+        "terminology"
+      ]
+    },
+    {
+      "sid": "s000739",
+      "modified": "Prim is a vertex-centric algorithm.",
+      "reasons": [
+        "asr_mishear",
+        "terminology"
+      ]
+    },
+    {
+      "sid": "s000749",
+      "modified": "Kruskal recognizes that and says, okay, let's sort the edges.",
+      "reasons": [
+        "asr_mishear",
+        "terminology"
+      ]
+    },
+    {
+      "sid": "s000750",
+      "modified": "Let me use N edges: e1, e2, ..., e_m, where m is the total number of edges.",
+      "reasons": [
+        "asr_mishear",
+        "terminology"
+      ]
+    },
+    {
+      "sid": "s000759",
+      "modified": "So first is to look at E1 because it's an edge-centric approach.",
+      "reasons": [
+        "asr_mishear",
+        "terminology"
+      ]
+    },
+    {
+      "sid": "s000766",
+      "modified": "They are distinct.",
+      "reasons": [
+        "asr_mishear"
+      ]
+    },
+    {
+      "sid": "s000778",
+      "modified": "And no matter what, E1 is always going to be the smallest edge between the two groups because it is the smallest edge.",
+      "reasons": [
+        "asr_mishear",
+        "terminology"
+      ]
+    },
+    {
+      "sid": "s000790",
+      "modified": "He's saying I cannot use MST theorem.",
+      "reasons": [
+        "asr_mishear",
+        "terminology"
+      ]
+    },
+    {
+      "sid": "s000803",
+      "modified": "Now, since Kruskal spent the time to sort this, it now makes sense.",
+      "reasons": [
+        "asr_mishear",
+        "terminology"
+      ]
+    },
+    {
+      "sid": "s000827",
+      "modified": "E2 was not even connected to any vertex of E1.",
+      "reasons": [
+        "asr_mishear",
+        "terminology"
+      ]
+    },
+    {
+      "sid": "s000832",
+      "modified": "E2 is the minimum edge between that one unit partition and everybody else.",
+      "reasons": [
+        "asr_mishear",
+        "terminology"
+      ]
+    },
+    {
+      "sid": "s000839",
+      "modified": "Two for two, 100% result.",
+      "reasons": [
+        "asr_mishear"
+      ]
+    },
+    {
+      "sid": "s000842",
+      "modified": "E3.",
+      "reasons": [
+        "asr_mishear",
+        "terminology"
+      ]
+    },
+    {
+      "sid": "s000844",
+      "modified": "E3 will be E_min for that partition.",
+      "reasons": [
+        "asr_mishear",
+        "terminology"
+      ]
+    },
+    {
+      "sid": "s000846",
+      "modified": "And E3 is not connected to anybody.",
+      "reasons": [
+        "asr_mishear",
+        "terminology"
+      ]
+    },
+    {
+      "sid": "s000860",
+      "modified": "So he is saying in this case there is no way to do a partition where E3 is the minimum.",
+      "reasons": [
+        "asr_mishear",
+        "terminology"
+      ]
+    },
+    {
+      "sid": "s000868",
+      "modified": "The E3 is not even across the cut.",
+      "reasons": [
+        "asr_mishear",
+        "terminology"
+      ]
+    },
+    {
+      "sid": "s000875",
+      "modified": "Kruskal says if you ever get to a situation where E sub I, the next E in the list creates a cycle with existing things that you output.",
+      "reasons": [
+        "asr_mishear",
+        "terminology"
+      ]
+    },
+    {
+      "sid": "s000882",
+      "modified": "You can if I tell you to come up with your own brand new algorithm for MST, that's not true.",
+      "reasons": [
+        "terminology",
+        "punctuation"
+      ]
+    },
+    {
+      "sid": "s000894",
+      "modified": "E7. Can I do that for the same reason?",
+      "reasons": [
+        "asr_mishear",
+        "terminology"
+      ]
+    },
+    {
+      "sid": "s000921",
+      "modified": "If I took E+V for depth-first search, this gives me an E-squared algorithm.",
+      "reasons": [
+        "terminology",
+        "capitalization"
+      ]
+    },
+    {
+      "sid": "s000942",
+      "modified": "We have a bunch of sets.",
+      "reasons": [
+        "asr_mishear",
+        "terminology"
+      ]
+    },
+    {
+      "sid": "s000957",
+      "modified": "Okay, then I can do another find.",
+      "reasons": [
+        "asr_mishear",
+        "terminology"
+      ]
+    },
+    {
+      "sid": "s000974",
+      "modified": "Then union-find.",
+      "reasons": [
+        "asr_mishear",
+        "terminology"
+      ]
+    },
+    {
+      "sid": "s001066",
+      "modified": "Okay, what does it have to do with MST?",
+      "reasons": [
+        "terminology",
+        "capitalization"
+      ]
+    },
+    {
+      "sid": "s001079",
+      "modified": "Therefore this Kruskal algorithm becomes an E log E.",
+      "reasons": [
+        "asr_mishear",
+        "terminology"
+      ]
+    },
+    {
+      "sid": "s001080",
+      "modified": "So Kruskal itself is very easy.",
+      "reasons": [
+        "asr_mishear",
+        "terminology"
+      ]
+    },
+    {
+      "sid": "s001116",
+      "modified": "We need to use them a lot in the exam in the future.",
+      "reasons": [
+        "asr_mishear",
+        "grammar"
+      ]
+    }
+  ]
+}

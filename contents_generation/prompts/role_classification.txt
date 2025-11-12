@@ -13,9 +13,9 @@ For each main_text sentence, assign exactly ONE role from:
 INPUT
 You will receive an array of sentence objects in chronological order:
 {
-  "context_before_main_text": [ { "sid": string, "text": string, "start": number(ms), "end": number(ms), "speaker": string|null }, ... ],
-  "main_text":                [ { "sid": string, "text": string, "start": number(ms), "end": number(ms), "speaker": string|null }, ... ],
-  "context_after_main_text":  [ { "sid": string, "text": string, "start": number(ms), "end": number(ms), "speaker": string|null }, ... ]
+  "context_before_main_text": [ { "sid": string, "text": string }, ... ],
+  "main_text":                [ { "sid": string, "text": string }, ... ],
+  "context_after_main_text":  [ { "sid": string, "text": string }, ... ]
 }
 - main_text is the only portion to label.
 - context_before_main_text / context_after_main_text are optional and read-only context.
@@ -80,7 +80,7 @@ CONSTRAINTS
 - `role_reason` must be ≤ 12 words, giving the shortest rationale (e.g., "deadline mentioned", "question + teacher answer", "definition and example").
 - Do NOT echo any other input fields. 
 - Do NOT include any text outside the JSON.
-- Do not create/delete/reorder sentences; do not change timestamps or speakers.
+- Do not create/delete/reorder sentences; do not change timestamps.
 - Use only the provided transcript context (no external knowledge).
 - Keep labeling stable across neighboring sentences unless a clear content shift occurs.
 
